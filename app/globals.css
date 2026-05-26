@@ -3,25 +3,97 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg: #f5f1ea;
+  --color-text: #0a0a0a;
+  --color-text-muted: #5c5650;
+  --color-primary: #0a0a0a;
+  --color-accent: #b8321a;
+  --color-gold: #8a6a2a;
+  --color-border: #ddd6cc;
+  --color-success: #2d6a4f;
+  --color-card: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-fraunces), Georgia, serif;
+    line-height: 1.2;
+    color: var(--color-text);
+  }
+
+  @media (min-width: 768px) {
+    body {
+      font-size: 17px;
+    }
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Mobile CTA bar offset — prevents fixed bar from covering page content */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom));
+  }
+}
+
+/* ── Core Web Vitals — layout & paint optimisations ────────────────────── */
+
+/*
+  content-visibility: auto — skips rendering of off-screen sections entirely
+  until they scroll near the viewport. The intrinsic-size estimate prevents CLS.
+  Applied only to sections below the fold (not the hero).
+*/
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 600px; /* conservative height estimate */
+}
+
+/*
+  Promote hover-lifted cards to their own compositor layer.
+  This prevents the browser from repainting surrounding content on hover.
+*/
+.hover-lift {
+  will-change: transform;
+}
+
+/*
+  Aspect-ratio placeholder for photo slots.
+  Once real <Image> tags are added, this prevents the container
+  from collapsing to 0 height before the image loads.
+*/
+.photo-placeholder {
+  aspect-ratio: 4 / 5;
+  contain: layout;
+}
+
+.photo-placeholder-circle {
+  aspect-ratio: 1 / 1;
+  contain: layout;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .font-serif {
+    font-family: var(--font-fraunces), Georgia, serif;
+  }
+
+  .font-mono-brand {
+    font-family: var(--font-mono), monospace;
   }
 }
