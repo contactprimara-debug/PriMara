@@ -7,77 +7,61 @@ import Link from "next/link";
 // □ Update /about page H1 to match the "Meet the Founders" heading
 // ──────────────────────────────────────────────────────────────────────────
 
-// Credential badges — update with real credentials before launch
+// Positioning badges
 const badges = [
-  "PLACEHOLDER — Add degree or cert",
-  "PLACEHOLDER — Add certification",
-  "West Palm Beach, FL",
+  "Independent Practices Only",
+  "Direct Founder Access",
+  "Florida",
 ] as const;
 
-function PhotoPlaceholder({
+function FounderPhoto({
   name,
-  description,
+  slug,
 }: {
   name: string;
-  description: string;
+  slug: "liam" | "gio";
 }) {
   return (
-    <div
+    <figure
       className="flex flex-col items-center gap-3"
-      aria-label={`Photo placeholder for ${name}`}
+      style={{ margin: 0 }}
     >
       <div
-        className="relative w-40 h-40 rounded-full overflow-hidden flex items-center justify-center"
+        className="relative w-40 h-40 overflow-hidden"
         style={{
-          backgroundColor: "#e8e2d8",
-          border: "3px solid var(--color-border)",
+          border: "1px solid var(--wire)",
+          borderRadius: "4px",
+          background: "var(--surface-2)",
         }}
       >
-        <svg
-          width="48"
-          height="48"
-          viewBox="0 0 48 48"
-          fill="none"
-          aria-hidden="true"
-        >
-          <circle
-            cx="24"
-            cy="18"
-            r="8"
-            stroke="var(--color-text-muted)"
-            strokeWidth="1.75"
-          />
-          <path
-            d="M8 44c0-8.837 7.163-16 16-16s16 7.163 16 16"
-            stroke="var(--color-text-muted)"
-            strokeWidth="1.75"
-            strokeLinecap="round"
-          />
-        </svg>
-        {/* Replace with:
-          <Image
-            src="/photos/[name-slug].webp"
-            alt="[Full name], Co-Founder — Digital Marketing for Medical Practices in West Palm Beach, FL"
-            fill
-            className="object-cover"
-          />
-        */}
+        <img
+          src={`/founders/${slug}-480.jpg`}
+          srcSet={`/founders/${slug}-480.jpg 480w, /founders/${slug}-800.jpg 800w`}
+          sizes="160px"
+          alt={`${name} — Co-Founder, Primara`}
+          loading="lazy"
+          decoding="async"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            display: "block",
+          }}
+        />
       </div>
-      <p
-        className="text-xs text-center max-w-[160px]"
+      <figcaption
+        className="text-center"
         style={{
-          color: "var(--color-text-muted)",
-          fontFamily: "var(--font-mono)",
-          fontSize: "0.65rem",
+          fontFamily: "system-ui, sans-serif",
+          fontSize: "10px",
+          letterSpacing: "0.18em",
           textTransform: "uppercase",
-          letterSpacing: "0.06em",
+          color: "var(--smoke)",
         }}
       >
-        PHOTO: {name}
-        <br />
-        {description}
-      </p>
-    </div>
+        {name}
+      </figcaption>
+    </figure>
   );
 }
 
@@ -107,14 +91,8 @@ export default function MeetFounders() {
             className="flex justify-center gap-8 sm:gap-12"
             aria-label="Founders of Primara"
           >
-            <PhotoPlaceholder
-              name="Liam Costello"
-              description="Warm, professional, West Palm Beach office"
-            />
-            <PhotoPlaceholder
-              name="Gio LaRoche"
-              description="Warm, professional, West Palm Beach office"
-            />
+            <FounderPhoto name="Liam Costello" slug="liam" />
+            <FounderPhoto name="Gio LaRoche" slug="gio" />
           </div>
 
           {/* ── RIGHT: bio ── */}
@@ -145,7 +123,7 @@ export default function MeetFounders() {
                 letterSpacing: "0.05em",
               }}
             >
-              Digital Marketing for Independent Medical Practices · West Palm Beach, FL
+              Digital Marketing for Independent Medical Practices · Florida
             </p>
 
             {/* Credential badges */}
@@ -178,16 +156,13 @@ export default function MeetFounders() {
               className="leading-relaxed"
               style={{ fontSize: "1rem", color: "var(--color-text-muted)" }}
             >
-              Liam Costello and Gio LaRoche founded Primara in West Palm Beach, FL
-              after watching independent primary care physicians lose patients to larger
-              health systems — not because of the quality of care they provided, but
-              because of digital visibility. Primara exists to level that playing field
-              for physician-owned clinics who deserve to compete on merit.{" "}
-              {/* Replace the sentence below with Liam & Gio's real philosophy before launch */}
-              <span style={{ color: "var(--color-border)" }}>
-                [ADD: 1–2 sentences about your personal philosophy and approach — ask
-                Liam and Gio directly.]
-              </span>
+              Liam Costello and Gio LaRoche founded Primara in Florida after watching
+              independent primary care physicians lose patients to larger health systems
+              — not because of the quality of care they provided, but because of digital
+              visibility. Primara exists to level that playing field for physician-owned
+              clinics who deserve to compete on merit. Every engagement runs through a
+              co-founder from kickoff to monthly reporting — no junior accounts team, no
+              jargon, no handoffs.
             </p>
 
             {/* Link to /about */}

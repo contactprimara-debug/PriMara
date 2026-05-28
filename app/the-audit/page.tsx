@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Free Practice Marketing Audit in West Palm Beach | Primara",
+  title: "Free Google Business Profile Audit for Doctors | Primara",
   description:
-    "Request a free digital marketing audit for your medical practice in West Palm Beach, FL. Primara reviews your Google presence, website, and SEO. Call (561) 291-2681.",
+    "Request a free practice audit from Primara in West Palm Beach, FL. We review your GBP, Maps position, website, and reviews — built for your specific practice, not a template. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/the-audit" },
   openGraph: {
-    title: "Free Practice Marketing Audit in West Palm Beach | Primara",
+    title: "Free Google Business Profile Audit for Doctors | Primara",
     description:
-      "Request a free digital marketing audit for your medical practice in West Palm Beach, FL. Call (561) 291-2681.",
+      "Free audit for independent medical practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/the-audit",
   },
@@ -40,25 +40,25 @@ export default function TheAuditPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Free Practice Marketing Audit in West Palm Beach — Primara
+          Free Practice Marketing Audit in Florida — Primara
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Liam Costello and Gio LaRoche at Primara review your practice's entire digital presence — Google Business Profile, website, local SEO, and reviews — and show you exactly what's holding you back. No pricing pressure, no fluff.
+          Liam Costello and Gio LaRoche at Primara research your practice and build a custom audit using your real numbers and your named local competitor — not a generic template. We deliver it in person or by email and walk through it with you. No obligation. If it doesn&rsquo;t make sense for your practice, we&rsquo;ll say so.
         </p>
 
         {/* What's in the audit */}
         <div className="mt-16">
           <h2 className="font-serif font-bold mb-6" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.75rem" }}>
-            What's Included in Your Audit
+            What the Audit Shows You
           </h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              "Google Business Profile review — completeness, category, photos, Q&A",
-              "Local search ranking report — where you appear for key patient searches",
-              "Website speed and mobile usability check",
-              "Review profile analysis — volume, recency, response rate",
-              "Competitor gap analysis — what nearby practices are doing differently",
-              "Actionable priority list — what to fix first, second, and third",
+              "Your Google review count vs. your top local competitor — the gap in plain numbers",
+              "Your current Maps position for your primary keyword + city",
+              "Website diagnostic — mobile speed score, NAP accuracy, schema markup, and service page structure",
+              "GBP completeness score — categories filled, services listed, posts active, and photos",
+              "Competitor gap analysis — what the top-ranking practice in your area is doing that you aren't",
+              "Your biggest digital weakness and the fastest available win",
             ].map((item) => (
               <li key={item} className="flex items-start gap-3 rounded-xl p-5" style={{ backgroundColor: "var(--color-card)", boxShadow: "0 2px 12px rgba(0,0,0,0.07)" }}>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" style={{ flexShrink: 0, marginTop: "2px" }}>

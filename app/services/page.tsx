@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services for Medical Practices | Primara",
+  title: "Digital Marketing Services for Doctors in Florida | Primara",
   description:
-    "Primara offers digital marketing services for independent medical practices in West Palm Beach, FL. Google Business Profile, SEO, website design & more. Call (561) 291-2681.",
+    "Primara offers digital marketing services for independent medical practices in Florida. Google Business Profile, SEO, website design & more. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/services" },
   openGraph: {
-    title: "Digital Marketing Services for Medical Practices | Primara",
+    title: "Digital Marketing Services for Doctors in Florida | Primara",
     description:
-      "Primara offers digital marketing services for independent medical practices in West Palm Beach, FL. Call (561) 291-2681.",
+      "Primara offers digital marketing services for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/services",
   },
@@ -21,7 +21,7 @@ const services = [
     slug: "google-business-profile",
     title: "Google Business Profile Management",
     description:
-      "We claim, verify, and actively manage your practice's Google Business Profile — the single highest-leverage tool for local patient discovery in West Palm Beach.",
+      "We claim, verify, and actively manage your practice's Google Business Profile — the single highest-leverage tool for local patient discovery in Florida.",
   },
   {
     id: "medical-practice-website-design",
@@ -35,7 +35,7 @@ const services = [
     slug: "local-seo-for-medical-practices",
     title: "Local SEO for Medical Practices",
     description:
-      "We optimize your website and online presence to rank above competing practices for the searches your future patients are typing in Palm Beach County.",
+      "We optimize your website and online presence to rank above competing practices for the searches your future patients are typing in Florida.",
   },
   {
     id: "online-reputation-management",
@@ -72,10 +72,10 @@ export default function ServicesPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Digital Marketing Services for Medical Practices in West Palm Beach
+          Digital Marketing Services for Medical Practices in Florida
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Primara offers comprehensive digital marketing for independent, physician-owned primary care clinics in West Palm Beach, FL — built by Liam Costello and Gio LaRoche with HIPAA awareness built in.
+          Primara offers comprehensive digital marketing for independent, physician-owned primary care clinics in Florida — built by Liam Costello and Gio LaRoche with HIPAA awareness built in.
         </p>
         <div className="mt-8 flex gap-4 flex-wrap">
           <a

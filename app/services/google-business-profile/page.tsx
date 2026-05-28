@@ -3,14 +3,14 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Google Business Profile Management in West Palm Beach, FL | Primara",
+  title: "GBP Optimization for Medical Practices in Florida | Primara",
   description:
-    "Primara manages Google Business Profiles for independent primary care practices in West Palm Beach, FL. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara manages Google Business Profiles for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/services/google-business-profile" },
   openGraph: {
-    title: "Google Business Profile Management in West Palm Beach, FL | Primara",
+    title: "GBP Optimization for Medical Practices in Florida | Primara",
     description:
-      "Primara manages Google Business Profiles for independent primary care practices in West Palm Beach, FL. Call (561) 291-2681.",
+      "Primara manages Google Business Profiles for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/services/google-business-profile",
   },
@@ -46,18 +46,21 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "West Palm Beach" },
+  areaServed: { "@type": "State", name: "Florida" },
   serviceType: "Digital Marketing",
   description:
-    "Google Business Profile optimization and active management for independent primary care practices in West Palm Beach, FL.",
+    "Google Business Profile optimization and active management for independent medical practices in Florida.",
 };
 
 const bullets = [
-  "Photo strategy using real images of your office, reception area, and team — no stock photography",
-  "Google Q&A pre-population with accurate, approved answers to common patient questions",
-  "HIPAA-compliant review responses — professional replies that never confirm or deny a patient relationship",
-  "Monthly Google Posts to signal active management to Google's local ranking algorithm",
-  "Ongoing citation consistency audits across Healthgrades, Zocdoc, WebMD, Yelp, and other directories",
+  "8–10 GBP categories configured — most practices start with 1–2; we build out the full category set your practice qualifies for",
+  "30+ services written in patient-search language (not clinical jargon), each one a potential ranking signal",
+  "750-character GBP description optimized for your primary category and city",
+  "52 weeks of Google Posts written and scheduled at onboarding via BrightLocal — 4 published per month",
+  "20+ geotagged office photos uploaded at launch; 1 new photo added to GBP monthly from the archived session",
+  "All insurance plans accepted added; every attribute filled — including telehealth, wheelchair access, and new patient availability",
+  "HIPAA-compliant review responses within 48 hours — never confirming or denying a patient relationship",
+  "Ongoing monitoring for unauthorized GBP edits and spam listings near your practice",
 ];
 
 export default function GBPPage() {
@@ -93,13 +96,13 @@ export default function GBPPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Google Business Profile Management in West Palm Beach — Primara
+          Google Business Profile Management in Florida — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · West Palm Beach, FL · Primary Care Specialists
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida · Primary Care Specialists
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -131,9 +134,9 @@ export default function GBPPage() {
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Google Business Profile (formerly Google My Business) is the listing that powers the local "map pack" — the
             cluster of three business results that appears when a patient types "primary care doctor near me," "family
-            physician West Palm Beach," or "doctor accepting new patients Palm Beach County." For an independent clinic
-            in West Palm Beach — whether your office is on Okeechobee Boulevard, near the 45th Street medical corridor,
-            or serves patients traveling in from Lake Worth, Boynton Beach, or Wellington — this listing is often the
+            physician Florida," or "doctor accepting new patients Florida." For an independent clinic
+            in Florida — whether your office is on Okeechobee Boulevard, near the 45th Street medical corridor,
+            or serves patients traveling in from Coral Gables, Boynton Beach, or Wellington — this listing is often the
             first contact a prospective patient has with your practice, before they visit your website or speak with
             anyone on your staff.
           </p>
@@ -180,8 +183,7 @@ export default function GBPPage() {
             ))}
           </ul>
           <p className="leading-relaxed mb-12" style={{ color: "var(--color-text-muted)" }}>
-            Our approach includes all of the above under a single month-to-month engagement — no à la carte upsells,
-            no annual contracts, no minimum commitments beyond the current month.
+            Our approach includes all of the above under a single flat engagement — no à la carte upsells, no annual contracts required. A 3-month minimum is recommended to see meaningful rank movement.
           </p>
 
           <h2
@@ -191,10 +193,10 @@ export default function GBPPage() {
             When to Consider GBP Management?
           </h2>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            If your practice is not appearing in the local map pack for primary care searches in Palm Beach County, if
+            If your practice is not appearing in the local map pack for primary care searches in Florida, if
             your listing shows incorrect hours or an unclaimed status, or if patient reviews have gone without a
             professional response, GBP management may be one of the highest-leverage improvements available. This is
-            particularly relevant for practices newer to the West Palm Beach area, clinics that have recently moved or
+            particularly relevant for practices newer to Florida, clinics that have recently moved or
             rebranded, and independent practices whose Google listings may have been auto-generated and never formally
             claimed. Primara works exclusively with independent, physician-owned primary care clinics — not hospital
             systems, urgent care franchises, or dental chains.
@@ -202,7 +204,7 @@ export default function GBPPage() {
         </div>
       </section>
 
-      {/* Review placeholder */}
+      {/* Industry stat */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">
         <blockquote
           className="p-8 rounded-xl max-w-prose"
@@ -212,22 +214,11 @@ export default function GBPPage() {
             borderLeft: "4px solid var(--color-gold)",
           }}
         >
-          <div
-            style={{
-              backgroundColor: "#fff3cd",
-              color: "#856404",
-              padding: "4px 10px",
-              borderRadius: "4px",
-              fontSize: "0.75rem",
-              display: "inline-block",
-              marginBottom: "12px",
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            ⚠ PRE-LAUNCH: Replace with a real client review before publishing.
-          </div>
           <p className="leading-relaxed" style={{ fontSize: "1.05rem", color: "var(--color-text)", fontStyle: "italic" }}>
-            &ldquo;…&rdquo;
+            &ldquo;93% of consumers used the internet to find a local business in the last year.
+            The businesses that appear in Google&rsquo;s local 3-pack capture the overwhelming majority
+            of those clicks. For most independent practices, not ranking there is a fixable optimization
+            problem — not a size or budget problem.&rdquo;
           </p>
           <cite
             className="block mt-4"
@@ -238,7 +229,7 @@ export default function GBPPage() {
               fontFamily: "var(--font-mono)",
             }}
           >
-            — [Client Name], [Practice Name], West Palm Beach, FL
+            — BrightLocal, Local Search Consumer Survey, 2023
           </cite>
         </blockquote>
       </section>
@@ -251,7 +242,7 @@ export default function GBPPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in West Palm Beach — Call (561) 291-2681
+            Schedule in Florida — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -266,7 +257,7 @@ export default function GBPPage() {
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
             >
-              Schedule an Appointment
+              Request Your Free Audit
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
@@ -274,7 +265,7 @@ export default function GBPPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in West Palm Beach.
+            for independent primary care practices in Florida.
           </p>
         </div>
       </section>

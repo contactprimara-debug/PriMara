@@ -3,14 +3,14 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Local SEO for Medical Practices in West Palm Beach, FL | Primara",
+  title: "Local SEO for Medical Practices in Florida | Primara",
   description:
-    "Primara provides local SEO for independent primary care practices in West Palm Beach, FL. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara provides local SEO for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/services/local-seo-for-medical-practices" },
   openGraph: {
-    title: "Local SEO for Medical Practices in West Palm Beach, FL | Primara",
+    title: "Local SEO for Medical Practices in Florida | Primara",
     description:
-      "Primara provides local SEO for independent primary care practices in West Palm Beach, FL. Call (561) 291-2681.",
+      "Primara provides local SEO for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/services/local-seo-for-medical-practices",
   },
@@ -46,10 +46,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "West Palm Beach" },
+  areaServed: { "@type": "State", name: "Florida" },
   serviceType: "Digital Marketing",
   description:
-    "Local SEO for independent primary care practices in West Palm Beach, FL — on-page optimization, citation audits, schema markup, and monthly rank tracking.",
+    "Local SEO for independent medical practices in Florida — on-page optimization, citation audits, schema markup, and monthly rank tracking.",
 };
 
 const bullets = [
@@ -57,7 +57,7 @@ const bullets = [
   "NAP consistency audit across Healthgrades, Zocdoc, WebMD, Yelp, and local directories",
   "Schema markup for LocalBusiness, Physician, and MedicalClinic",
   "Technical SEO audit: page speed, mobile usability, Core Web Vitals, and crawlability",
-  "Monthly Local Falcon grid reports to track ranking movement across Palm Beach County ZIP codes",
+  "Monthly Local Falcon grid reports to track ranking movement across Florida ZIP codes",
   "Neighborhood and service-area content strategy (built only where search volume justifies it)",
 ];
 
@@ -94,13 +94,13 @@ export default function LocalSEOPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Local SEO for Medical Practices in West Palm Beach — Primara
+          Local SEO for Medical Practices in Florida — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · West Palm Beach, FL · Primary Care Specialists
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida · Primary Care Specialists
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -131,12 +131,12 @@ export default function LocalSEOPage() {
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Local SEO (Search Engine Optimization) is the process of improving a medical practice&rsquo;s visibility in
-            geographically relevant search results. When a patient in West Palm Beach types "primary care doctor near
-            me," "internist Palm Beach County," or "physician accepting new patients Lake Worth," Google returns a
+            geographically relevant search results. When a patient in Florida types "primary care doctor near
+            me," "internist Florida," or "physician accepting new patients Coral Gables," Google returns a
             combination of map pack results and organic website listings — and local SEO directly influences both.
           </p>
           <p className="leading-relaxed mb-12" style={{ color: "var(--color-text-muted)" }}>
-            For an independent primary care clinic in West Palm Beach — whether your practice is in the Northwood
+            For an independent primary care clinic in Florida — whether your practice is in the Northwood
             neighborhood, near Belvedere Road, along Congress Avenue, or in a medical office building closer to
             Wellington — local SEO determines whether a prospective patient finds your name above or below practices
             operated by larger health systems and urgent care chains that typically invest heavily in digital marketing.
@@ -151,9 +151,9 @@ export default function LocalSEOPage() {
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Our approach includes on-page optimization — ensuring each page of your website has a clear title tag, meta
             description, properly structured headings, and body copy that accurately reflects the services you provide
-            and the West Palm Beach neighborhoods you serve. We work with clients to identify the search terms most
+            and the Florida neighborhoods you serve. We work with clients to identify the search terms most
             likely to bring qualified new patients to their specific practice — not generic national healthcare keywords,
-            but the phrases patients in Palm Beach County are actually using when they need a primary care physician.
+            but the phrases patients in Florida are actually using when they need a primary care physician.
           </p>
           <ul className="mb-6 space-y-3" style={{ color: "var(--color-text-muted)" }}>
             {bullets.map((item) => (
@@ -195,13 +195,13 @@ export default function LocalSEOPage() {
             rather than yours, local SEO may help address that visibility gap. This is especially relevant for
             independent physician-owned clinics competing against larger health system brands that carry significant
             domain authority from corporate parent websites. Primara works exclusively with independent, physician-owned
-            primary care clinics — not hospital systems, urgent care franchises, or dental chains — on a month-to-month
-            basis with no long-term contract required.
+            primary care clinics — not hospital systems, urgent care franchises, or dental chains. No long-term
+            contract required.
           </p>
         </div>
       </section>
 
-      {/* Review placeholder */}
+      {/* Industry stat */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">
         <blockquote
           className="p-8 rounded-xl max-w-prose"
@@ -211,22 +211,10 @@ export default function LocalSEOPage() {
             borderLeft: "4px solid var(--color-gold)",
           }}
         >
-          <div
-            style={{
-              backgroundColor: "#fff3cd",
-              color: "#856404",
-              padding: "4px 10px",
-              borderRadius: "4px",
-              fontSize: "0.75rem",
-              display: "inline-block",
-              marginBottom: "12px",
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            ⚠ PRE-LAUNCH: Replace with a real client review before publishing.
-          </div>
           <p className="leading-relaxed" style={{ fontSize: "1.05rem", color: "var(--color-text)", fontStyle: "italic" }}>
-            &ldquo;…&rdquo;
+            &ldquo;Most agencies are building for last year&rsquo;s Google. We&rsquo;re building for 18
+            months from now — including Google&rsquo;s April 2026 AskMaps update, which surfaces
+            practices based on semantic signals your current website may not yet carry.&rdquo;
           </p>
           <cite
             className="block mt-4"
@@ -237,7 +225,7 @@ export default function LocalSEOPage() {
               fontFamily: "var(--font-mono)",
             }}
           >
-            — [Client Name], [Practice Name], West Palm Beach, FL
+            — Primara, on the April 2026 AskMaps update
           </cite>
         </blockquote>
       </section>
@@ -250,7 +238,7 @@ export default function LocalSEOPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in West Palm Beach — Call (561) 291-2681
+            Schedule in Florida — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -265,7 +253,7 @@ export default function LocalSEOPage() {
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
             >
-              Schedule an Appointment
+              Request Your Free Audit
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
@@ -273,7 +261,7 @@ export default function LocalSEOPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in West Palm Beach.
+            for independent primary care practices in Florida.
           </p>
         </div>
       </section>

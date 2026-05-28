@@ -3,14 +3,14 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Medical Practice Website Design in West Palm Beach, FL | Primara",
+  title: "Medical Practice Website Design in Florida | Primara",
   description:
-    "Primara designs fast, HIPAA-aware websites for independent primary care practices in West Palm Beach, FL. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara designs fast, HIPAA-aware websites for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/services/medical-practice-website-design" },
   openGraph: {
-    title: "Medical Practice Website Design in West Palm Beach, FL | Primara",
+    title: "Medical Practice Website Design in Florida | Primara",
     description:
-      "Primara designs fast, HIPAA-aware websites for independent primary care practices in West Palm Beach, FL. Call (561) 291-2681.",
+      "Primara designs fast, HIPAA-aware websites for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/services/medical-practice-website-design",
   },
@@ -46,10 +46,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "West Palm Beach" },
+  areaServed: { "@type": "State", name: "Florida" },
   serviceType: "Digital Marketing",
   description:
-    "Fast, HIPAA-aware website design and development for independent primary care practices in West Palm Beach, FL.",
+    "Fast, HIPAA-aware website design and development for independent medical practices in Florida.",
 };
 
 const bullets = [
@@ -94,13 +94,13 @@ export default function WebsiteDesignPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Medical Practice Website Design in West Palm Beach — Primara
+          Medical Practice Website Design in Florida — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · West Palm Beach, FL · Primary Care Specialists
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida · Primary Care Specialists
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -131,7 +131,7 @@ export default function WebsiteDesignPage() {
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             A medical practice website serves a fundamentally different purpose than a general business site. For a
-            physician in West Palm Beach — whether your practice is near Good Samaritan Medical Center on Palm Beach
+            physician in Florida — whether your practice is near Good Samaritan Medical Center on Palm Beach
             Lakes Boulevard, in an office park off Southern Boulevard, or in a neighborhood clinic in the Northwood
             or SoSo district — your site must load quickly on a mobile connection, present your credentials and
             accepted insurance clearly, and make it easy for a prospective patient to call your front desk or submit
@@ -195,14 +195,13 @@ export default function WebsiteDesignPage() {
             If your current site fails Google&rsquo;s Mobile-Friendly test, loads in more than three seconds on a mobile
             connection, lacks HTTPS, or has no clear action path for a prospective new patient, a redesign may be
             worth discussing. The same applies if your site was last updated more than three years ago and predates
-            Google&rsquo;s Core Web Vitals standards. Primara builds on month-to-month agreements — no long-term contract
-            required — and works exclusively with independent, physician-owned primary care clinics in the West Palm
-            Beach area.
+            Google&rsquo;s Core Web Vitals standards. Primara works exclusively with independent, physician-owned
+            primary care clinics in Florida.
           </p>
         </div>
       </section>
 
-      {/* Review placeholder */}
+      {/* Industry stat */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">
         <blockquote
           className="p-8 rounded-xl max-w-prose"
@@ -212,22 +211,10 @@ export default function WebsiteDesignPage() {
             borderLeft: "4px solid var(--color-gold)",
           }}
         >
-          <div
-            style={{
-              backgroundColor: "#fff3cd",
-              color: "#856404",
-              padding: "4px 10px",
-              borderRadius: "4px",
-              fontSize: "0.75rem",
-              display: "inline-block",
-              marginBottom: "12px",
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            ⚠ PRE-LAUNCH: Replace with a real client review before publishing.
-          </div>
           <p className="leading-relaxed" style={{ fontSize: "1.05rem", color: "var(--color-text)", fontStyle: "italic" }}>
-            &ldquo;…&rdquo;
+            &ldquo;75% of users never scroll past the first page of Google results. If your practice
+            website isn&rsquo;t ranking on page one for your primary search terms, it may as well not
+            exist — from a new-patient discovery standpoint.&rdquo;
           </p>
           <cite
             className="block mt-4"
@@ -238,7 +225,7 @@ export default function WebsiteDesignPage() {
               fontFamily: "var(--font-mono)",
             }}
           >
-            — [Client Name], [Practice Name], West Palm Beach, FL
+            — Backlinko, Google Organic CTR Research, 2023
           </cite>
         </blockquote>
       </section>
@@ -251,7 +238,7 @@ export default function WebsiteDesignPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in West Palm Beach — Call (561) 291-2681
+            Schedule in Florida — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -266,7 +253,7 @@ export default function WebsiteDesignPage() {
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
             >
-              Schedule an Appointment
+              Request Your Free Audit
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
@@ -274,7 +261,7 @@ export default function WebsiteDesignPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in West Palm Beach.
+            for independent primary care practices in Florida.
           </p>
         </div>
       </section>

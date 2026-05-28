@@ -1,33 +1,56 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
+import { Instrument_Serif, Syne } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
-import MobileCTABar from "@/components/MobileCTABar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MobileCTABar from "@/components/MobileCTABar";
+import AnimationProvider from "@/components/AnimationProvider";
+import InteractionEffects from "@/components/InteractionEffects";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
 
-const fraunces = Fraunces({
+const instrumentSerif = Instrument_Serif({
+  weight: ["400"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
-  variable: "--font-fraunces",
-  display: "swap",
-  axes: ["SOFT", "WONK"],
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-display",
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const syne = Syne({
+  weight: ["400", "500", "700", "800"],
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-ui",
   display: "swap",
-  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://primara.com"),
+  title: {
+    default: "Digital Marketing for Doctors in Florida | Primara",
+    template: "%s",
+  },
+  description:
+    "Primara helps independent medical practices in Florida dominate local search, fill their schedule, and grow. Call +1 (561) 291-2681.",
+  openGraph: {
+    siteName: "Primara",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@primara",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -38,28 +61,98 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Primary LocalBusiness schema — present on every page */}
+        {/* LocalBusiness schema — present on every page */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: toJsonLd(localBusinessSchema as Record<string, unknown>) }}
         />
 
-        {/*
-          Preconnect to Google Maps origins used by the Location section iframe.
-          Establishes the TCP/TLS handshake early so the map loads faster.
-          next/font already handles preconnect for fonts.googleapis.com & fonts.gstatic.com.
-        */}
-        <link rel="preconnect" href="https://maps.googleapis.com" />
-        <link rel="preconnect" href="https://maps.gstatic.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="https://maps.googleapis.com" />
       </head>
-      <body
-        className={`${fraunces.variable} ${inter.variable} ${jetbrainsMono.variable} antialiased`}
-      >
+
+      <body className={`${instrumentSerif.variable} ${syne.variable}`}>
+
+        {/* ── Grain overlay ───────────────────────────────────────────── */}
+        <svg
+          id="grain-overlay"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <filter id="grain-filter">
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.85"
+              numOctaves="4"
+              stitchTiles="stitch"
+            />
+          </filter>
+          <rect width="100%" height="100%" filter="url(#grain-filter)" />
+        </svg>
+
+        {/* ── Preloader — letters fall in one by one, then slides up ─────
+            Each letter is its own span with a staggered CSS animation-delay.
+            Bulletproof: inline script removes the preloader after 2.6s no
+            matter what (in case CSS animation is paused by hydration etc.). */}
+        <div id="preloader" aria-hidden="true">
+          <div id="preloader-text">
+            {"Primara".split("").map((char, i) => (
+              <span
+                key={i}
+                className="preloader-letter"
+                style={{ animationDelay: `${0.08 * i}s` }}
+              >
+                {char}
+              </span>
+            ))}
+          </div>
+          <div id="preloader-bar">
+            <div id="preloader-fill" />
+          </div>
+        </div>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){setTimeout(function(){var p=document.getElementById('preloader');if(p&&p.parentNode)p.parentNode.removeChild(p);},2600);})();`,
+          }}
+        />
+
+        {/* ── Custom cursor ────────────────────────────────────────────── */}
+        <div id="cursor-dot" aria-hidden="true" />
+        <div id="cursor-ring" aria-hidden="true" />
+
+        {/* ── Page content ─────────────────────────────────────────────── */}
         <Header />
         {children}
         <Footer />
         <MobileCTABar />
+
+        {/* ── Page transition overlay ───────────────────────────────────── */}
+        {/* Starts at scaleY:0 (invisible). On internal link click, GSAP in  */}
+        {/* InteractionEffects scales it to 1, navigates, then scales it to  */}
+        {/* 0 on the next page load. z-index sits below preloader (10000).   */}
+        <div id="page-transition" aria-hidden="true" />
+
+        {/* ── Animation infrastructure ──────────────────────────────────── */}
+        <AnimationProvider />
+        <InteractionEffects />
+
+        {/* ── GSAP CDN (ordered: core → ScrollTrigger → SplitText) ─────── */}
+        <Script
+          src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/SplitText.min.js"
+          strategy="afterInteractive"
+        />
+
+        {/* ── Lenis smooth scroll CDN ───────────────────────────────────── */}
+        <Script
+          src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

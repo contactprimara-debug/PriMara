@@ -1,19 +1,28 @@
 import Link from "next/link";
-import { siteConfig } from "@/lib/siteConfig";
 
-const quickLinks = [
+/* ── Footer ────────────────────────────────────────────────────────────────
+   Site-wide footer rendered in layout.tsx.
+
+   NAP block (col 1) must match GBP character-for-character.
+   Update street address and ZIP before launch.
+
+   Three columns: Brand + NAP | Navigation | Services
+   Bottom bar: copyright + legal links
+*/
+
+const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "The Audit", href: "/the-audit" },
+  { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
-const serviceLinks = [
-  { label: "Google Business Profile Management", href: "/services#google-business-profile" },
-  { label: "Medical Practice Website Design", href: "/services#medical-practice-website-design" },
-  { label: "Local SEO for Medical Practices", href: "/services#local-seo-for-medical-practices" },
-  { label: "Online Reputation Management", href: "/services#online-reputation-management" },
-  { label: "Patient Acquisition Ads", href: "/services#patient-acquisition-ads" },
+const SERVICE_LINKS = [
+  { label: "GBP Optimization", href: "/services/google-business-profile" },
+  { label: "Website Rebuild", href: "/services/medical-practice-website-design" },
+  { label: "Review Generation", href: "/services/online-reputation-management" },
+  { label: "Local SEO Content", href: "/services/local-seo-for-medical-practices" },
 ];
 
 export default function Footer() {
@@ -22,77 +31,141 @@ export default function Footer() {
   return (
     <footer
       role="contentinfo"
-      style={{ backgroundColor: "var(--color-primary)", color: "white" }}
+      style={{
+        background: "var(--surface)",
+        borderTop: "1px solid var(--wire)",
+        padding: "clamp(32px, 5vw, 48px) 0 clamp(16px, 3vw, 24px)",
+      }}
     >
-      {/* ── Main footer grid ── */}
-      <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      <div style={{ padding: "0 clamp(24px, 8vw, 120px)" }}>
 
-          {/* Column 1: NAP block — must match GBP character-for-character */}
-          <div className="flex flex-col gap-4">
-            <span
-              className="font-serif font-bold"
+        {/* ── Three-column grid ─────────────────────────────────────────────── */}
+        <div className="footer-grid" style={{ marginBottom: "clamp(32px, 5vw, 48px)" }}>
+
+          {/* Col 1: Brand + description + NAP ──────────────────────────────── */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+
+            {/* Wordmark */}
+            <Link
+              href="/"
               style={{
-                fontFamily: "var(--font-fraunces)",
-                fontSize: "1.35rem",
+                fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
+                fontStyle: "italic",
+                fontSize: "20px",
+                color: "var(--chalk)",
+                textDecoration: "none",
                 letterSpacing: "-0.01em",
+                display: "inline-block",
+                width: "fit-content",
               }}
             >
-              PRIMARA
-            </span>
-            <p style={{ fontSize: "0.875rem", color: "rgba(255,255,255,0.65)", lineHeight: "1.7" }}>
-              Digital marketing for independent primary care practices in West Palm Beach, FL.
+              Primara
+            </Link>
+
+            {/* Description */}
+            <p
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                color: "var(--smoke)",
+                lineHeight: 1.75,
+                maxWidth: "260px",
+              }}
+            >
+              Primara is an independent digital marketing agency in Florida,
+              exclusively serving independent medical practices.
             </p>
 
-            {/* NAP — character-for-character GBP match */}
+            {/* NAP block — character-for-character GBP match */}
             <address
-              className="not-italic flex flex-col gap-1"
-              style={{ fontSize: "0.875rem", color: "rgba(255,255,255,0.75)" }}
+              style={{
+                fontStyle: "normal",
+                display: "flex",
+                flexDirection: "column",
+                gap: "4px",
+              }}
             >
-              {/* ⚠ Update street + ZIP to match GBP exactly before launch */}
-              <span>Primara</span>
-              <span>PLACEHOLDER — Add street address</span>
-              <span>West Palm Beach, FL XXXXX</span>
-              <a
-                href={`tel:${siteConfig.phone}`}
-                className="transition-opacity hover:opacity-80"
-                style={{ color: "rgba(255,255,255,0.75)" }}
+              <span
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "12px",
+                  color: "var(--ash)",
+                  letterSpacing: "0.04em",
+                }}
               >
-                {siteConfig.phoneDisplay}
+                Primara
+              </span>
+              <span
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "12px",
+                  color: "var(--ash)",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                West Palm Beach, FL 33401
+              </span>
+              <a
+                href="tel:+15612912681"
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "12px",
+                  color: "var(--gold)",
+                  textDecoration: "none",
+                  letterSpacing: "0.04em",
+                  marginTop: "4px",
+                  transition: "opacity 0.2s",
+                  display: "inline-block",
+                  width: "fit-content",
+                }}
+              >
+                +1 (561) 291-2681
               </a>
               <a
-                href={`mailto:${siteConfig.email}`}
-                className="transition-opacity hover:opacity-80"
-                style={{ color: "rgba(255,255,255,0.75)" }}
+                href="mailto:contactprimara@gmail.com"
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "12px",
+                  color: "var(--gold)",
+                  textDecoration: "none",
+                  letterSpacing: "0.04em",
+                  transition: "opacity 0.2s",
+                  display: "inline-block",
+                  width: "fit-content",
+                }}
               >
-                {siteConfig.email}
-              </a>
-              <a
-                href={siteConfig.url}
-                className="transition-opacity hover:opacity-80"
-                style={{ color: "rgba(255,255,255,0.75)" }}
-              >
-                {siteConfig.url}
+                contactprimara@gmail.com
               </a>
             </address>
           </div>
 
-          {/* Column 2: Quick links */}
+          {/* Col 2: Navigation ──────────────────────────────────────────────── */}
           <nav aria-label="Footer navigation">
             <p
-              className="mb-4 text-xs uppercase tracking-widest font-medium"
-              style={{ color: "rgba(255,255,255,0.45)", fontFamily: "var(--font-mono)" }}
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "9px",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "var(--smoke)",
+                marginBottom: "20px",
+              }}
             >
-              Quick Links
+              Navigation
             </p>
-            <ul className="flex flex-col gap-2">
-              {quickLinks.map((link) => (
+            <ul
+              style={{
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+              }}
+            >
+              {NAV_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm transition-opacity hover:opacity-70"
-                    style={{ color: "rgba(255,255,255,0.75)" }}
-                  >
+                  <Link href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -100,46 +173,110 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Column 3: Services */}
+          {/* Col 3: Services ────────────────────────────────────────────────── */}
           <nav aria-label="Services navigation">
             <p
-              className="mb-4 text-xs uppercase tracking-widest font-medium"
-              style={{ color: "rgba(255,255,255,0.45)", fontFamily: "var(--font-mono)" }}
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "9px",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "var(--smoke)",
+                marginBottom: "20px",
+              }}
             >
               Services
             </p>
-            <ul className="flex flex-col gap-2">
-              {serviceLinks.map((link) => (
+            <ul
+              style={{
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+              }}
+            >
+              {SERVICE_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm transition-opacity hover:opacity-70"
-                    style={{ color: "rgba(255,255,255,0.75)" }}
-                  >
+                  <Link href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
           </nav>
-        </div>
-      </div>
 
-      {/* ── Bottom bar ── */}
-      <div style={{ borderTop: "1px solid rgba(255,255,255,0.1)" }}>
-        <div
-          className="mx-auto max-w-content px-6 lg:px-8 py-5 flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-between sm:text-left"
-          style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.4)", fontFamily: "var(--font-mono)" }}
-        >
-          <span>© {year} Primara. All rights reserved.</span>
-          <span>
-            Founded by{" "}
-            <span style={{ color: "rgba(255,255,255,0.6)" }}>
-              Liam Costello &amp; Gio LaRoche
-            </span>{" "}
-            · West Palm Beach, FL
-          </span>
         </div>
+        {/* end footer-grid */}
+
+        {/* ── Bottom bar ─────────────────────────────────────────────────────── */}
+        <div
+          style={{
+            borderTop: "1px solid var(--wire)",
+            paddingTop: "clamp(14px, 2vw, 20px)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            gap: "12px",
+          }}
+        >
+          {/* Copyright */}
+          <span
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              color: "var(--smoke)",
+              letterSpacing: "0.06em",
+            }}
+          >
+            © {year} Primara. All rights reserved.
+          </span>
+
+          {/* Legal links */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "20px",
+            }}
+          >
+            <Link
+              href="/privacy"
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "10px",
+                color: "var(--smoke)",
+                textDecoration: "none",
+                letterSpacing: "0.06em",
+                transition: "color 0.2s",
+              }}
+            >
+              Privacy Policy
+            </Link>
+            <span
+              aria-hidden="true"
+              style={{ color: "var(--wire)", fontSize: "10px" }}
+            >
+              ·
+            </span>
+            <Link
+              href="/hipaa"
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "10px",
+                color: "var(--smoke)",
+                textDecoration: "none",
+                letterSpacing: "0.06em",
+                transition: "color 0.2s",
+              }}
+            >
+              HIPAA Notice
+            </Link>
+          </div>
+        </div>
+
       </div>
     </footer>
   );

@@ -105,7 +105,7 @@ export default function Reviews() {
             className="mt-3 text-base"
             style={{ color: "var(--color-text-muted)" }}
           >
-            Real reviews from real medical practices in West Palm Beach.
+            Real reviews from real medical practices in Florida.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ export default function Reviews() {
           {reviews.map((review) => (
             <article
               key={review.name}
-              className="flex flex-col gap-4 rounded-xl p-8 transition-all duration-200 hover:-translate-y-0.5 hover-lift"
+              className="review-card flex flex-col gap-4 rounded-xl p-8 transition-all duration-200 hover:-translate-y-0.5 hover-lift"
               style={{
                 backgroundColor: "var(--color-card)",
                 boxShadow: "0 2px 12px rgba(0,0,0,0.07)",

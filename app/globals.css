@@ -2,98 +2,460 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Design tokens ───────────────────────────────────────────────────────── */
 :root {
-  --color-bg: #f5f1ea;
-  --color-text: #0a0a0a;
-  --color-text-muted: #5c5650;
-  --color-primary: #0a0a0a;
-  --color-accent: #b8321a;
-  --color-gold: #8a6a2a;
-  --color-border: #ddd6cc;
-  --color-success: #2d6a4f;
-  --color-card: #ffffff;
+  /* Colors */
+  --void:       #050505;
+  --surface:    #0D0D0D;
+  --surface-2:  #141414;
+  --wire:       #2A2A2A;
+  --smoke:      #7A7A7A;
+  --ash:        #AEAEAE;
+  --chalk:      #E8E4DC;
+  --gold:       #C9A84C;
+  --gold-glow:  rgba(201, 168, 76, 0.12);
+  --teal:       #1B6E6E;
+  --teal-light: rgba(27, 110, 110, 0.15);
+  --ember:      #E8611A;
+
+  /* Typography — resolved fallbacks for inline-style var() references.
+     --font-display and --font-ui are injected by next/font at runtime;
+     --font-mono and --font-fraunces are defined here so var() never
+     resolves to nothing (which causes FOUT / layout-shift "lag"). */
+  --font-mono:      'Courier New', Courier, monospace;
+  --font-fraunces:  var(--font-display, Georgia, serif);
 }
 
+/* ── Base ────────────────────────────────────────────────────────────────── */
 @layer base {
   html {
     font-size: 16px;
-    scroll-behavior: smooth;
   }
 
   body {
-    background-color: var(--color-bg);
-    color: var(--color-text);
-    font-family: var(--font-inter), system-ui, sans-serif;
-    line-height: 1.65;
+    background-color: var(--void);
+    color: var(--ash);
+    font-family: var(--font-ui), system-ui, sans-serif;
+    line-height: 1.75;
+    cursor: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-fraunces), Georgia, serif;
+    font-family: var(--font-display), Georgia, serif;
+    color: var(--chalk);
     line-height: 1.2;
-    color: var(--color-text);
-  }
-
-  @media (min-width: 768px) {
-    body {
-      font-size: 17px;
-    }
   }
 }
 
-/* Mobile CTA bar offset — prevents fixed bar from covering page content */
-@media (max-width: 767px) {
-  body {
-    padding-bottom: calc(60px + env(safe-area-inset-bottom));
-  }
-}
-
-/* ── Core Web Vitals — layout & paint optimisations ────────────────────── */
-
-/*
-  content-visibility: auto — skips rendering of off-screen sections entirely
-  until they scroll near the viewport. The intrinsic-size estimate prevents CLS.
-  Applied only to sections below the fold (not the hero).
-*/
-.cv-auto {
-  content-visibility: auto;
-  contain-intrinsic-size: 0 600px; /* conservative height estimate */
-}
-
-/*
-  Promote hover-lifted cards to their own compositor layer.
-  This prevents the browser from repainting surrounding content on hover.
-*/
-.hover-lift {
+/* ── Custom cursor ───────────────────────────────────────────────────────── */
+#cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--chalk);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9998;
   will-change: transform;
 }
 
-/*
-  Aspect-ratio placeholder for photo slots.
-  Once real <Image> tags are added, this prevents the container
-  from collapsing to 0 height before the image loads.
-*/
-.photo-placeholder {
-  aspect-ratio: 4 / 5;
-  contain: layout;
+#cursor-ring {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9997;
+  will-change: transform;
 }
 
-.photo-placeholder-circle {
-  aspect-ratio: 1 / 1;
-  contain: layout;
+/* Restore cursor on touch devices */
+@media (hover: none) {
+  body { cursor: auto; }
+  #cursor-dot,
+  #cursor-ring { display: none; }
 }
 
+/* ── Grain overlay ───────────────────────────────────────────────────────── */
+#grain-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+}
+
+/* ── Preloader (pure-CSS, no JS required) ────────────────────────────────
+   Timing:  letters fall in 0–0.8s (7 letters × 0.08s stagger + 0.5s anim)
+            fill bar  0.6–1.7s
+            exit      1.8s–2.5s (slide up)
+   JS safety net in layout.tsx removes the preloader at 2.6s no matter what. */
+#preloader {
+  position: fixed;
+  inset: 0;
+  background: var(--void);
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  animation: preloader-exit 0.7s cubic-bezier(0.65, 0, 0.35, 1) 1.8s forwards;
+}
+@keyframes preloader-exit {
+  to {
+    transform: translateY(-100%);
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+#preloader-text {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: clamp(32px, 5vw, 56px);
+  color: var(--chalk);
+  letter-spacing: -1px;
+  display: flex;
+  gap: 0;
+}
+/* Each letter falls in from above. Stagger comes from inline animation-delay. */
+.preloader-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: preloader-letter-fall 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@keyframes preloader-letter-fall {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#preloader-bar {
+  width: 200px;
+  height: 1px;
+  background: var(--wire);
+  overflow: hidden;
+}
+#preloader-fill {
+  height: 100%;
+  width: 0;
+  background: var(--gold);
+  animation: preloader-fill 1.1s cubic-bezier(0.4, 0, 0.2, 1) 0.6s forwards;
+}
+@keyframes preloader-fill {
+  to { width: 100%; }
+}
+/* Respect reduced motion — collapse to instant */
+@media (prefers-reduced-motion: reduce) {
+  #preloader, .preloader-letter, #preloader-fill {
+    animation-duration: 0.01s;
+    animation-delay: 0s;
+  }
+}
+
+/* ── Hero — naturally visible, no entrance animation ──────────────────────
+   The preloader covers the page until ~2.5s, so users see the hero already
+   composed when the preloader slides away. No JS-driven entrance, no stuck-
+   at-opacity-0 risk. */
+
+/* ── Scroll reveal utilities ─────────────────────────────────────────────── */
+.reveal {
+  will-change: transform, opacity;
+}
+
+.reveal-stagger > * {
+  will-change: transform, opacity;
+}
+
+/* ── Performance utilities ───────────────────────────────────────────────── */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 600px;
+}
+
+/* ── Page transition overlay ─────────────────────────────────────────────── */
+#page-transition {
+  position: fixed;
+  inset: 0;
+  background: var(--void);
+  z-index: 9500;
+  transform: scaleY(0);
+  transform-origin: top;
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* ── Service card hover ──────────────────────────────────────────────────── */
+/* Note: transform (y-lift) is handled by GSAP in InteractionEffects to avoid
+   conflict with ScrollTrigger's xPercent scrub on the same element. */
+.svc-card {
+  transition: border-color 0.3s ease;
+}
+.svc-card:hover {
+  border-color: rgba(201, 168, 76, 0.4) !important;
+}
+.svc-card:hover .card-num {
+  opacity: 0.12 !important;
+}
+
+/* ── Reviews section: 3-col → 1-col on mobile ───────────────────────────── */
+@media (max-width: 768px) {
+  #reviews .reveal-stagger {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ── Services section: 4-col list → stacked on mobile ───────────────────── */
+.services-list-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* each .service-row takes full width */
+}
+.service-row {
+  display: grid;
+  grid-template-columns: 56px 1fr 1.5fr 180px;
+  gap: 0 clamp(24px, 4vw, 56px);
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .service-row {
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 16px;
+  }
+  /* description spans both columns below the name */
+  .service-row > p {
+    grid-column: 1 / -1;
+  }
+  /* link spans both columns */
+  .service-row > div:last-child {
+    grid-column: 1 / -1;
+    text-align: left !important;
+  }
+}
+
+/* ── About section: 2-col asymmetric → stacked on mobile ─────────────────── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 11fr 9fr;
+  gap: clamp(48px, 6vw, 80px);
+  align-items: start;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 3vw, 36px);
+}
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-photo {
+    aspect-ratio: 4 / 3 !important; /* landscape on mobile to save vertical space */
+  }
+}
+
+/* ── Review card hover ───────────────────────────────────────────────────── */
+.review-card {
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.review-card:hover {
+  background: var(--surface-2) !important;
+  transform: scale(1.01);
+}
+.review-card:hover .review-quote-mark {
+  opacity: 0.4;
+}
+
+/* ── Navigation link animated underline ──────────────────────────────────── */
+/* Replaces the static border-bottom on nav links with an animated ::after
+   line that draws in from left on hover, and stays fully visible on active. */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+/* Active page — underline always fully drawn */
+.nav-link[aria-current='page']::after {
+  width: 100%;
+}
+
+/* ── About CTA button hover (server component — no JS events allowed) ────── */
+.about-cta {
+  border: 1px solid var(--wire);
+  color: var(--chalk);
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+.about-cta:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ── Reviews "read all" link hover ───────────────────────────────────────── */
+.reviews-link {
+  color: var(--gold);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.reviews-link:hover {
+  border-bottom-color: var(--gold);
+}
+
+/* ── Contact section: form (45%) / info (55%) → stacked on mobile ─────────── */
+.contact-two-col {
+  display: grid;
+  grid-template-columns: 9fr 11fr;
+  gap: clamp(48px, 7vw, 100px);
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .contact-two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Contact form field styles ───────────────────────────────────────────── */
+.contact-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact-field-label {
+  font-family: system-ui, sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--smoke);
+}
+/* Base: transparent bg, border-bottom ONLY — no border-box */
+.contact-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--wire);
+  border-radius: 0;
+  color: var(--chalk);
+  font-family: var(--font-display), Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  padding: 12px 0;
+  width: 100%;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.contact-input:focus {
+  border-bottom-color: var(--gold);
+}
+.contact-input::placeholder {
+  color: var(--smoke);
+  font-family: var(--font-display), Georgia, 'Times New Roman', serif;
+}
+/* Select: custom chevron arrow, no native chrome */
+.contact-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6' fill='none' stroke='%237A7A7A' stroke-width='1.2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 2px center;
+  padding-right: 24px;
+  cursor: pointer;
+}
+.contact-select option {
+  background: var(--void);
+  color: var(--chalk);
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+}
+/* Submit button */
+.contact-submit {
+  transition: opacity 0.2s ease;
+}
+.contact-submit:hover {
+  opacity: 0.88;
+}
+
+/* ── Footer grid: 3-col → 1-col on mobile ───────────────────────────────── */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: clamp(32px, 5vw, 60px);
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ── Breadcrumb link hover (server component — no JS events) ────────────── */
+.breadcrumb-link {
+  color: var(--smoke);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.breadcrumb-link:hover {
+  color: var(--ash);
+}
+
+/* Footer link hover */
+.footer-link {
+  color: var(--smoke);
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  transition: color 0.2s ease;
+  display: block;
+}
+.footer-link:hover {
+  color: var(--chalk);
+}
+
+/* ── Stats counter grid: 4-col → 2-col on mobile ────────────────────────── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(32px, 4vw, 60px);
+}
+@media (max-width: 640px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 20px;
+  }
+}
+
+/* ── Tailwind utilities ──────────────────────────────────────────────────── */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 
-  .font-serif {
-    font-family: var(--font-fraunces), Georgia, serif;
+  .font-display {
+    font-family: var(--font-display), Georgia, serif;
+  }
+
+  .font-ui {
+    font-family: var(--font-ui), system-ui, sans-serif;
   }
 
   .font-mono-brand {
-    font-family: var(--font-mono), monospace;
+    font-family: 'Courier New', Courier, monospace;
   }
 }

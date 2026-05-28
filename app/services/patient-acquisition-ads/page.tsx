@@ -3,14 +3,14 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Patient Acquisition Ads for Medical Practices in West Palm Beach, FL | Primara",
+  title: "Patient Acquisition Ads for Doctors in Florida | Primara",
   description:
-    "Primara runs targeted patient acquisition ad campaigns for independent primary care practices in West Palm Beach, FL. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara runs targeted patient acquisition ad campaigns for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/services/patient-acquisition-ads" },
   openGraph: {
-    title: "Patient Acquisition Ads for Medical Practices in West Palm Beach, FL | Primara",
+    title: "Patient Acquisition Ads for Doctors in Florida | Primara",
     description:
-      "Primara runs targeted patient acquisition ad campaigns for independent primary care practices in West Palm Beach, FL. Call (561) 291-2681.",
+      "Primara runs targeted patient acquisition ad campaigns for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/services/patient-acquisition-ads",
   },
@@ -46,15 +46,15 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "West Palm Beach" },
+  areaServed: { "@type": "State", name: "Florida" },
   serviceType: "Digital Marketing",
   description:
-    "Targeted Google search and Local Service Ad campaigns for independent primary care practices in West Palm Beach, FL.",
+    "Targeted Google search and Local Service Ad campaigns for independent medical practices in Florida.",
 };
 
 const bullets = [
   "Google Local Service Ads (LSA) setup and verification for the healthcare vertical",
-  "Google Search campaign structure built around new-patient intent keywords in Palm Beach County",
+  "Google Search campaign structure built around new-patient intent keywords in Florida",
   "Geographic bid adjustments targeting specific ZIP codes and neighborhoods where your patients live",
   "Privacy-compliant call tracking and form-fill attribution to measure new patient inquiry volume",
   "Ad copy reviewed for compliance — no outcome promises, no superlatives that cannot be substantiated",
@@ -94,13 +94,13 @@ export default function PatientAdsPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Patient Acquisition Ads for Medical Practices in West Palm Beach — Primara
+          Patient Acquisition Ads for Medical Practices in Florida — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · West Palm Beach, FL · Primary Care Specialists
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida · Primary Care Specialists
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -132,7 +132,7 @@ export default function PatientAdsPage() {
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Paid search advertising allows a primary care practice to appear at the top of Google&rsquo;s results for
             high-intent searches — immediately, rather than waiting for organic SEO rankings to develop over months.
-            For independent practices in West Palm Beach competing against larger health systems with significant
+            For independent practices in Florida competing against larger health systems with significant
             brand recognition and marketing budgets, targeted paid placement may provide a meaningful new-patient
             inquiry volume while longer-term SEO and Google Business Profile strategies mature.
           </p>
@@ -180,7 +180,7 @@ export default function PatientAdsPage() {
           </ul>
           <p className="leading-relaxed mb-12" style={{ color: "var(--color-text-muted)" }}>
             Our approach includes geographic bid adjustments targeting the ZIP codes and neighborhoods in Palm Beach
-            County where your prospective patients are located — whether that&rsquo;s Wellington, Lake Worth, Boynton
+            County where your prospective patients are located — whether that&rsquo;s Wellington, Coral Gables, Boynton
             Beach, Palm Beach Gardens, or the neighborhoods immediately surrounding your practice on Okeechobee
             Boulevard or Congress Avenue.
           </p>
@@ -194,15 +194,14 @@ export default function PatientAdsPage() {
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
             If your practice has open appointment capacity but organic search, referrals, and walk-in volume are not
             filling it, paid search may help bridge the gap. This is particularly relevant for practices that have
-            recently opened, expanded to a new location in Palm Beach County, or added a provider and need to build
+            recently opened, expanded to a new location in Florida, or added a provider and need to build
             patient volume more quickly than organic strategies typically allow. Primara works exclusively with
-            independent physician-owned primary care clinics and manages all campaigns under a month-to-month
-            agreement — no long-term contract required.
+            independent physician-owned primary care clinics.
           </p>
         </div>
       </section>
 
-      {/* Review placeholder */}
+      {/* Industry stat */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">
         <blockquote
           className="p-8 rounded-xl max-w-prose"
@@ -212,22 +211,11 @@ export default function PatientAdsPage() {
             borderLeft: "4px solid var(--color-gold)",
           }}
         >
-          <div
-            style={{
-              backgroundColor: "#fff3cd",
-              color: "#856404",
-              padding: "4px 10px",
-              borderRadius: "4px",
-              fontSize: "0.75rem",
-              display: "inline-block",
-              marginBottom: "12px",
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            ⚠ PRE-LAUNCH: Replace with a real client review before publishing.
-          </div>
           <p className="leading-relaxed" style={{ fontSize: "1.05rem", color: "var(--color-text)", fontStyle: "italic" }}>
-            &ldquo;…&rdquo;
+            &ldquo;Acquiring a new patient through Google Ads costs between $300–$700 in most Florida
+            primary care markets. Fewer than three new patients per month breaks even at a typical
+            primary care billing rate — which is why we only introduce ads after your GBP and website
+            foundation are already working.&rdquo;
           </p>
           <cite
             className="block mt-4"
@@ -238,7 +226,7 @@ export default function PatientAdsPage() {
               fontFamily: "var(--font-mono)",
             }}
           >
-            — [Client Name], [Practice Name], West Palm Beach, FL
+            — Primara, on Google Ads timing for primary care practices
           </cite>
         </blockquote>
       </section>
@@ -251,7 +239,7 @@ export default function PatientAdsPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in West Palm Beach — Call (561) 291-2681
+            Schedule in Florida — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -266,7 +254,7 @@ export default function PatientAdsPage() {
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
             >
-              Schedule an Appointment
+              Request Your Free Audit
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
@@ -274,7 +262,7 @@ export default function PatientAdsPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in West Palm Beach.
+            for independent primary care practices in Florida.
           </p>
         </div>
       </section>

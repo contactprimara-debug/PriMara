@@ -17,14 +17,12 @@ const stats = [
   {
     icon: (
       <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
-        <rect x="3" y="5" width="16" height="14" rx="2" stroke="white" strokeWidth="1.5" />
-        <path d="M3 9h16" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-        <path d="M7 3v4M15 3v4" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-        <path d="M7 13h2M13 13h2M7 16h2M13 16h2" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+        <circle cx="11" cy="7" r="3.5" stroke="white" strokeWidth="1.5" />
+        <path d="M4 19c0-3.5 3.13-6.5 7-6.5s7 3 7 6.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-    value: "Month-to-Month",
-    label: "No Long-Term Contracts",
+    value: "Founder-Led",
+    label: "Direct Access, No Coordinators",
   },
   {
     icon: (
@@ -33,7 +31,7 @@ const stats = [
         <path d="M7 11l3 3 5-5" stroke="white" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    value: "West Palm Beach",
+    value: "Florida",
     label: "FL-Based Team",
   },
   {

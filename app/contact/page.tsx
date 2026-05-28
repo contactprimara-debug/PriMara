@@ -3,14 +3,14 @@ import Link from "next/link";
 import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Contact Primara — Medical Marketing West Palm Beach | Primara",
+  title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
   description:
-    "Contact Primara in West Palm Beach, FL. Request a free practice audit or call (561) 291-2681. We respond within one business day.",
+    "Contact Primara in West Palm Beach, FL. Request a free practice audit for your independent primary care practice. Call (561) 291-2681. We respond within 24 hours.",
   alternates: { canonical: "https://primara.com/contact" },
   openGraph: {
-    title: "Contact Primara — Medical Marketing West Palm Beach | Primara",
+    title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
     description:
-      "Contact Primara in West Palm Beach, FL. Request a free practice audit or call (561) 291-2681.",
+      "Request a free practice audit from Primara in West Palm Beach, FL. Independent primary care only. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/contact",
   },
@@ -34,7 +34,7 @@ export default function ContactPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 4vw, 3rem)", color: "var(--color-text)" }}
         >
-          Contact Primara in West Palm Beach
+          Contact Primara in Florida
         </h1>
         <p className="mt-3 text-lg" style={{ color: "var(--color-text-muted)" }}>
           Liam Costello and Gio LaRoche respond within one business day.{" "}

@@ -6,7 +6,7 @@ export const siteConfig = {
   email: "contactprimara@gmail.com",
   calendly: "https://calendly.com/contactprimara/30min",
   url: "https://primara.com",
-  city: "West Palm Beach",
+  city: "Florida",
   state: "FL",
   founders: ["Liam Costello", "Gio LaRoche"],
 } as const;

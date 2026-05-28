@@ -9,7 +9,7 @@ const NAP = {
   // Full street address
   street: "PLACEHOLDER — Add street address",
   // City, State ZIP — match GBP exactly
-  cityStateZip: "West Palm Beach, FL XXXXX",
+  cityStateZip: "Florida 33101",
   phone: siteConfig.phoneDisplay,   // (561) 291-2681 — already matches GBP
   phoneTel: siteConfig.phone,       // +15612912681
   website: siteConfig.url,          // https://primara.com
@@ -62,7 +62,7 @@ export default function Location() {
               fontFamily: "var(--font-fraunces)",
             }}
           >
-            Find Primara in West Palm Beach
+            Find Primara in Florida
           </h2>
         </div>
 
@@ -173,7 +173,7 @@ export default function Location() {
                 style={{ color: "var(--color-text-muted)" }}
               >
                 {/* Replace with real directions before launch */}
-                Primara is located in West Palm Beach, FL.{" "}
+                Primara is located in Florida.{" "}
                 <span style={{ color: "var(--color-border)" }}>
                   [ADD: nearby landmark / cross street and brief directions from main road.]
                 </span>
@@ -209,7 +209,7 @@ export default function Location() {
               height="480"
               style={{ border: 0, display: "block" }}
               loading="lazy"
-              title="Primara location in West Palm Beach, FL"
+              title="Primara location in Florida"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
             />

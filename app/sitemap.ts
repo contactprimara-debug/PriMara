@@ -74,6 +74,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${SITE_URL}/services/digital-marketing-for-independent-medical-practices`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+
+    // ── Priority 0.8 — Package detail pages (high-intent conversion) ─────
+    {
+      url: `${SITE_URL}/packages/foundation`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/packages/visibility`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
 
     // ── Priority 0.6 — Geographic / neighborhood pages (add as built) ────
     // { url: `${SITE_URL}/medical-marketing-lake-worth`, ... },

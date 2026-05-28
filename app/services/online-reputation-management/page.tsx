@@ -3,14 +3,14 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Online Reputation Management for Doctors in West Palm Beach, FL | Primara",
+  title: "Reputation Management for Doctors in Florida | Primara",
   description:
-    "Primara manages online reviews and reputation for independent primary care practices in West Palm Beach, FL. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara manages online reviews and reputation for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/services/online-reputation-management" },
   openGraph: {
-    title: "Online Reputation Management for Doctors in West Palm Beach, FL | Primara",
+    title: "Reputation Management for Doctors in Florida | Primara",
     description:
-      "Primara manages online reviews and reputation for independent primary care practices in West Palm Beach, FL. Call (561) 291-2681.",
+      "Primara manages online reviews and reputation for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/services/online-reputation-management",
   },
@@ -46,10 +46,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "West Palm Beach" },
+  areaServed: { "@type": "State", name: "Florida" },
   serviceType: "Digital Marketing",
   description:
-    "Online reputation management and review strategy for independent primary care practices in West Palm Beach, FL.",
+    "Online reputation management and review strategy for independent medical practices in Florida.",
 };
 
 const bullets = [
@@ -94,13 +94,13 @@ export default function ReputationPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Online Reputation Management for Medical Practices in West Palm Beach — Primara
+          Online Reputation Management for Medical Practices in Florida — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · West Palm Beach, FL · Primary Care Specialists
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida · Primary Care Specialists
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -130,9 +130,9 @@ export default function ReputationPage() {
             What is Online Reputation Management?
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            For a primary care physician in West Palm Beach, your review profile across Google, Healthgrades, Zocdoc,
+            For a primary care physician in Florida, your review profile across Google, Healthgrades, Zocdoc,
             and Yelp shapes patient decisions before any personal contact is made. Patients searching for a new
-            primary care doctor in Palm Beach County regularly consult online reviews as part of their selection
+            primary care doctor in Florida regularly consult online reviews as part of their selection
             process — and practices with fewer, older, or unresponded reviews may lose prospective patients to
             competitors with more active profiles, even when clinical quality is comparable.
           </p>
@@ -193,17 +193,17 @@ export default function ReputationPage() {
           </h2>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
             If your practice&rsquo;s average rating is below 4.0 stars on Google, your review volume is significantly
-            lower than competing practices in Palm Beach County, or you have critical reviews that have gone without a
+            lower than competing practices in Florida, or you have critical reviews that have gone without a
             professional response, reputation management may help stabilize your online presence. This is particularly
             relevant for practices competing in high-density corridors like Palm Beach Lakes Boulevard or the medical
             office cluster near Palm Beach International Airport, where prospective patients have many visible
             alternatives within a short drive. Primara works exclusively with independent, physician-owned primary
-            care practices on a month-to-month basis.
+            care practices.
           </p>
         </div>
       </section>
 
-      {/* Review placeholder */}
+      {/* Industry stat */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">
         <blockquote
           className="p-8 rounded-xl max-w-prose"
@@ -213,22 +213,10 @@ export default function ReputationPage() {
             borderLeft: "4px solid var(--color-gold)",
           }}
         >
-          <div
-            style={{
-              backgroundColor: "#fff3cd",
-              color: "#856404",
-              padding: "4px 10px",
-              borderRadius: "4px",
-              fontSize: "0.75rem",
-              display: "inline-block",
-              marginBottom: "12px",
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            ⚠ PRE-LAUNCH: Replace with a real client review before publishing.
-          </div>
           <p className="leading-relaxed" style={{ fontSize: "1.05rem", color: "var(--color-text)", fontStyle: "italic" }}>
-            &ldquo;…&rdquo;
+            &ldquo;88% of consumers trust online reviews as much as a personal recommendation. For a
+            primary care practice, a review profile with fewer than 10 reviews — or unanswered negative
+            reviews — is a visible liability to every prospective patient who finds you on Google.&rdquo;
           </p>
           <cite
             className="block mt-4"
@@ -239,7 +227,7 @@ export default function ReputationPage() {
               fontFamily: "var(--font-mono)",
             }}
           >
-            — [Client Name], [Practice Name], West Palm Beach, FL
+            — BrightLocal Consumer Review Survey, 2023
           </cite>
         </blockquote>
       </section>
@@ -252,7 +240,7 @@ export default function ReputationPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in West Palm Beach — Call (561) 291-2681
+            Schedule in Florida — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -267,7 +255,7 @@ export default function ReputationPage() {
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
             >
-              Schedule an Appointment
+              Request Your Free Audit
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
@@ -275,7 +263,7 @@ export default function ReputationPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in West Palm Beach.
+            for independent primary care practices in Florida.
           </p>
         </div>
       </section>

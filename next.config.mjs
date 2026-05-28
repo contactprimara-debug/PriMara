@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // ── React StrictMode ────────────────────────────────────────────────────
+  // Disabled in dev because StrictMode double-mounts useEffect, which
+  // double-initialises GSAP/Lenis/ScrollTrigger and leaves the preloader
+  // stuck + entrance animations locked at opacity:0. StrictMode is dev-only
+  // anyway — production behaviour is unaffected by this flag.
+  reactStrictMode: false,
+
   // ── Compression ─────────────────────────────────────────────────────────
   compress: true,
 

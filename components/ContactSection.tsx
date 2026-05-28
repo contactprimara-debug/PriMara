@@ -297,7 +297,7 @@ export default function ContactSection() {
                 <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                   <path d="M2 7l3 3 7-7" stroke="var(--color-success)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                No Long-Term Contracts
+                Founder-Led
               </span>
               <span aria-hidden="true" style={{ color: "var(--color-border)" }}>|</span>
               <span>Primary Care Specialists</span>

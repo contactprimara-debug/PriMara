@@ -9,7 +9,7 @@ const services = [
     slug: "google-business-profile",
     title: "Google Business Profile Management",
     description:
-      "We claim, verify, and actively manage your practice's Google Business Profile — the single highest-leverage tool for local patient discovery. Accurate hours, photo updates, Q&A responses, and weekly posts keep your listing competitive in West Palm Beach search results.",
+      "We configure 8–10 GBP categories, write 30+ services in patient-search language, schedule 52 posts per year, and upload geotagged office photos. GBP is the single most important local ranking factor — we treat it that way.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <circle cx="18" cy="16" r="7" stroke="var(--color-primary)" strokeWidth="1.75" />
@@ -23,7 +23,7 @@ const services = [
     slug: "medical-practice-website-design",
     title: "Medical Practice Website Design",
     description:
-      "A fast, HIPAA-aware website built specifically for independent primary care clinics — not recycled from a generic healthcare template. Every page is designed to convert visitors into new-patient inquiries and load under two seconds on mobile.",
+      "A 30-page Core SEO website built around your GBP categories and deployed on Vercel. Every page targets a specific local search term. All 7 GBP consistency signals verified at launch. Google Search Console submitted day one.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <rect x="4" y="6" width="28" height="20" rx="3" stroke="var(--color-primary)" strokeWidth="1.75" />
@@ -37,7 +37,7 @@ const services = [
     slug: "local-seo-for-medical-practices",
     title: "Local SEO for Medical Practices",
     description:
-      "We optimize your website and online presence to rank above competing practices for the searches your future patients are actually typing in Palm Beach County. Work includes technical SEO, local citations, and content built around your target keywords.",
+      "Two new SEO pages per month, driven by your Local Falcon rank map. Topical pages build relevance; geographic pages extend your radius. NAP consistency monitored across 50+ directories. Technical SEO checked in Google Search Console monthly.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <circle cx="16" cy="16" r="10" stroke="var(--color-primary)" strokeWidth="1.75" />
@@ -50,7 +50,7 @@ const services = [
     slug: "online-reputation-management",
     title: "Online Reputation Management",
     description:
-      "We monitor, respond to, and grow your practice's Google reviews — the biggest factor in whether a prospective patient calls you or the clinic down the street. Includes review generation strategy and professional response drafting.",
+      "NFC tap cards and QR signs installed at checkout, waiting room, and exam rooms to collect authentic patient reviews. Platforms rotated monthly across Google, Yelp, and Healthgrades. Every response HIPAA-compliant and within 48 hours.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <path d="M18 4l3.5 7.5 8 1.2-5.8 5.6 1.4 8L18 22.5 10.9 26.3l1.4-8L6.5 12.7l8-1.2L18 4z" stroke="var(--color-primary)" strokeWidth="1.75" strokeLinejoin="round" />
@@ -61,7 +61,7 @@ const services = [
     slug: "patient-acquisition-ads",
     title: "Patient Acquisition Ads",
     description:
-      "Targeted Google and Meta ad campaigns designed to fill open appointment slots with the types of patients your practice wants to see. We handle creative, targeting, and monthly reporting — no jargon, just results you can read in plain English.",
+      "Google Search and Local Service Ad campaigns for independent primary care practices. We write the ads, manage the bids, and report on cost per new-patient inquiry. You pay Google directly — we never touch your ad spend. Offered in Month 3+ only.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <path d="M6 28l6-8 6 4 6-10 6 6" stroke="var(--color-primary)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -98,7 +98,7 @@ export default function Services() {
               fontFamily: "var(--font-fraunces)",
             }}
           >
-            Digital Marketing Services for Medical Practices in West Palm Beach
+            Digital Marketing Services for Medical Practices in Florida
           </h2>
           <p
             className="mt-3 text-base max-w-2xl mx-auto"
@@ -176,7 +176,7 @@ export default function Services() {
             }}
           >
             Now accepting new clients in {siteConfig.city} —
-            most new engagements start within one week.
+            GBP optimized and review system live within Week 1.
           </p>
           <a
             href={`tel:${siteConfig.phone}`}

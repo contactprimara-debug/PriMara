@@ -1,0 +1,31 @@
+/* ── Marquee outer track ─────────────────────────────────────────────────── */
+.outer {
+  height: 52px;
+  overflow: hidden;
+  white-space: nowrap;
+  background: var(--surface);
+  border-top: 1px solid var(--wire);
+  border-bottom: 1px solid var(--wire);
+  display: flex;
+  align-items: center;
+}
+
+/* ── Scrolling inner belt ────────────────────────────────────────────────── */
+.inner {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  /* 12 repetitions in JSX (2 identical halves of 6),
+     -50% brings us to the start of the second half = seamless loop */
+  animation: marquee 36s linear infinite;
+}
+
+/* Pause on hover — toggled via JS on the element's style property */
+.inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

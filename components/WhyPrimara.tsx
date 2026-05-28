@@ -11,8 +11,8 @@ const cards = [
         <path d="M5 24c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" />
       </svg>
     ),
-    title: "Built for Primary Care. Only.",
-    body: "Primara works exclusively with independent, physician-owned primary care clinics in West Palm Beach and South Florida — not dental chains, urgent care franchises, or hospital systems. Founders Liam Costello and Gio LaRoche built Primara specifically because independent practices deserve an agency that understands their world.",
+    title: "Independent Primary Care Only.",
+    body: "Primara works exclusively with MD/DO-owned family medicine and internal medicine practices in Florida — insurance-based, 1–5 physicians, not hospital-affiliated. No dental chains, urgent care franchises, DPC models, or corporate networks. We know one model deeply instead of serving all of them poorly.",
   },
   {
     icon: (
@@ -23,8 +23,8 @@ const cards = [
         <path d="M9 17h4M15 17h4" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" />
       </svg>
     ),
-    title: "Month-to-Month. No Lock-In.",
-    body: "Every engagement is month-to-month. If we're not delivering results you can see and measure, you walk away without penalties, exit fees, or fine print. We earn your business every single month — that's the only contract we believe in.",
+    title: "Founder-Led, Every Engagement.",
+    body: "Liam and Gio personally run every account — strategy, execution, reporting. No junior account coordinators, no offshore production teams, no handoffs after the sales call. The people you meet are the people doing the work.",
   },
   {
     icon: (
@@ -34,7 +34,7 @@ const cards = [
       </svg>
     ),
     title: "HIPAA-Aware from Day One",
-    body: "Generic agencies don't understand healthcare compliance. Every Primara strategy — from review management to ad copy to patient acquisition funnels — is built with HIPAA considerations in mind. You grow your practice without putting your license at risk.",
+    body: "Generic agencies don't understand healthcare compliance. Every Primara strategy — review responses that never confirm a patient relationship, ad copy without outcome promises, contact forms configured to avoid capturing PHI — is built with compliance in mind from the start.",
   },
   {
     icon: (
@@ -43,18 +43,17 @@ const cards = [
         <path d="M9 14l3.5 3.5L20 10" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    title: "A Local Team, Not a Distant Agency",
-    body: "Primara is based in West Palm Beach, FL. We know Palm Beach County's patient demographics, local referral networks, and the competitive landscape across South Florida. Your marketing is built for this market — not copy-pasted from a national playbook designed for someone else.",
+    title: "Based in West Palm Beach",
+    body: "Primara is based in West Palm Beach, FL. We know the local referral networks, the patient demographics across Palm Beach County, and the competitive landscape in the corridors where your prospective patients search. Your content is written for this market — not swapped in from a national playbook.",
   },
 ] as const;
 
-// Update these badges with real certifications before launch
 const badges = [
   "Liam Costello, Co-Founder",
   "Gio LaRoche, Co-Founder",
   "West Palm Beach, FL",
-  "Primary Care Specialists",
-  "Healthcare Marketing", // Replace with real cert e.g. "Google Partner Certified"
+  "Primary Care Only",
+  "Insurance-Based Practices",
 ] as const;
 
 export default function WhyPrimara() {
@@ -83,7 +82,7 @@ export default function WhyPrimara() {
               fontFamily: "var(--font-fraunces)",
             }}
           >
-            Why West Palm Beach Chooses Primara
+            Why Florida Chooses Primara
           </h2>
         </div>
 

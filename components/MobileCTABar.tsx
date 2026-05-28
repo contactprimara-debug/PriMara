@@ -8,8 +8,8 @@ export default function MobileCTABar() {
 
   useEffect(() => {
     // Hide the bar when the contact form section is in the viewport.
-    // Gracefully no-ops on pages that don't have #contact-form.
-    const form = document.getElementById("contact-form");
+    // Gracefully no-ops on pages that don't have #contact.
+    const form = document.getElementById("contact");
     if (!form) return;
 
     const observer = new IntersectionObserver(
@@ -31,39 +31,47 @@ export default function MobileCTABar() {
         bottom: 0,
         height: "calc(60px + env(safe-area-inset-bottom))",
         paddingBottom: "env(safe-area-inset-bottom)",
-        backgroundColor: "var(--color-primary)",
-        borderTop: "1px solid rgba(255,255,255,0.15)",
-        // Slide off-screen when contact form is visible
+        backgroundColor: "var(--surface)",
+        borderTop: "1px solid var(--wire)",
         transform: visible ? "translateY(0)" : "translateY(100%)",
       }}
     >
       {/* LEFT 60% — tap-to-call */}
       <a
         href={`tel:${siteConfig.phone}`}
-        className="flex items-center justify-center gap-2 font-bold text-white"
+        className="flex items-center justify-center gap-2 font-bold"
         style={{
           width: "60%",
-          backgroundColor: "var(--color-accent)",
-          fontSize: "15px",
+          backgroundColor: "var(--ember)",
+          color: "#ffffff",
+          fontFamily: "system-ui, sans-serif",
+          fontSize: "14px",
+          fontWeight: 700,
+          letterSpacing: "0.06em",
           minHeight: "60px",
+          textDecoration: "none",
         }}
         aria-label={`Call Primara at ${siteConfig.phoneDisplay}`}
       >
-        📞 Call {siteConfig.phoneDisplay}
+        Call {siteConfig.phoneDisplay}
       </a>
 
       {/* RIGHT 40% — get a quote */}
       <a
         href="/contact"
-        className="flex items-center justify-center text-white"
+        className="flex items-center justify-center"
         style={{
           width: "40%",
-          fontSize: "13px",
-          opacity: 0.8,
+          color: "var(--smoke)",
+          fontFamily: "system-ui, sans-serif",
+          fontSize: "12px",
+          letterSpacing: "0.08em",
+          textTransform: "uppercase",
           minHeight: "60px",
+          textDecoration: "none",
         }}
       >
-        Get a Quote →
+        Get a Quote
       </a>
     </div>
   );

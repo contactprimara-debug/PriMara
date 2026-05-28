@@ -1,38 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { toJsonLd } from "@/lib/schema";
+import { toJsonLd, liamSchema, gioSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "About Primara — Medical Marketing West Palm Beach | Primara",
+  title: "Medical Marketing Agency Florida | About Primara",
   description:
-    "Meet Liam Costello and Gio LaRoche, co-founders of Primara — a digital marketing agency for independent medical practices in West Palm Beach, FL. Call (561) 291-2681.",
+    "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent medical practices in Florida. Call (561) 291-2681.",
   alternates: { canonical: "https://primara.com/about" },
   openGraph: {
-    title: "About Primara — Medical Marketing West Palm Beach | Primara",
+    title: "Medical Marketing Agency Florida | About Primara",
     description:
-      "Meet the founders of Primara — digital marketing for independent medical practices in West Palm Beach, FL.",
+      "Meet the founders of Primara — digital marketing for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara.com/about",
   },
-};
-
-// Person schema for founders — E-E-A-T signal on About page
-const liamSchema = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Liam Costello",
-  jobTitle: "Co-Founder",
-  worksFor: { "@type": "LocalBusiness", name: "Primara" },
-  address: { "@type": "PostalAddress", addressLocality: "West Palm Beach", addressRegion: "FL" },
-};
-
-const gioSchema = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Gio LaRoche",
-  jobTitle: "Co-Founder",
-  worksFor: { "@type": "LocalBusiness", name: "Primara" },
-  address: { "@type": "PostalAddress", addressLocality: "West Palm Beach", addressRegion: "FL" },
 };
 
 export default function AboutPage() {
@@ -60,7 +41,7 @@ export default function AboutPage() {
           Meet Liam Costello &amp; Gio LaRoche — Primara
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Digital marketing for independent primary care practices in West Palm Beach, FL.
+          Digital marketing for independent primary care practices in Florida.
         </p>
 
         <div className="mt-12 max-w-2xl">
@@ -68,19 +49,26 @@ export default function AboutPage() {
             Why We Started Primara
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Liam Costello and Gio LaRoche founded Primara in West Palm Beach, FL after watching
+            Liam Costello and Gio LaRoche founded Primara in Florida after watching
             independent primary care physicians lose patients to larger health systems — not because
             of the quality of care they provided, but because of digital visibility.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            {/* ⚠ Replace the paragraph below with Liam & Gio's real philosophy before launch */}
-            <span style={{ backgroundColor: "#fff3cd", color: "#856404", padding: "2px 6px", borderRadius: "4px", fontSize: "0.8rem" }}>
-              PRE-LAUNCH: Add 2–3 sentences from Liam and Gio about their approach and philosophy here.
-            </span>
+            Primara's approach is built around one premise: independent primary care physicians deserve the
+            same digital infrastructure that hospital systems fund with dedicated marketing departments.
+            That means a fully optimized Google Business Profile, a website engineered around local search,
+            a consistent review system, and a strategy that accounts for how Google's local ranking signals
+            actually work — not how they worked two years ago.
+          </p>
+          <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
+            Both founders run every client account directly. There are no account coordinators, no offshore
+            production teams, and no handoffs after the sales call. If you have a question about your
+            ranking, your report, or your next content page, you speak with Liam or Gio — because they are
+            the ones who built it.
           </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
             Primara works exclusively with independent, physician-owned primary care clinics — not dental chains,
-            urgent care franchises, or hospital systems. Every engagement is month-to-month, no lock-in.
+            urgent care franchises, or hospital systems.
           </p>
         </div>
 
