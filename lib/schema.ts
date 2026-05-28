@@ -10,7 +10,7 @@
 // openingHours: activated — Mo–Th 08:00–17:00, Fr 08:00–13:00.
 // ──────────────────────────────────────────────────────────────────────────
 
-export const SITE_URL = "https://primara.com";
+export const SITE_URL = "https://primara365.com";
 
 // ── 1. Primary business schema — injected on every page ───────────────────
 export const localBusinessSchema = {

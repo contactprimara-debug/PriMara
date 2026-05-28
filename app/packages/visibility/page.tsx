@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   title: "Visibility Package — Foundation + Google Ads | Primara",
   description:
     "$1,800/mo Visibility Package: everything in the Foundation Package plus Google Ads management for independent medical practices in Florida. You pay Google directly. Call (561) 291-2681.",
-  alternates: { canonical: "https://primara.com/packages/visibility" },
+  alternates: { canonical: "https://primara365.com/packages/visibility" },
   openGraph: {
     title: "Visibility Package — Foundation + Google Ads | Primara",
     description:
       "$1,800/mo: Foundation Package + Google Ads management for independent primary care practices in Florida. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/packages/visibility",
+    url: "https://primara365.com/packages/visibility",
   },
 };
 
@@ -21,9 +21,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara.com" },
-    { "@type": "ListItem", position: 2, name: "Packages", item: "https://primara.com/packages/visibility" },
-    { "@type": "ListItem", position: 3, name: "Visibility", item: "https://primara.com/packages/visibility" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
+    { "@type": "ListItem", position: 2, name: "Packages", item: "https://primara365.com/packages/visibility" },
+    { "@type": "ListItem", position: 3, name: "Visibility", item: "https://primara365.com/packages/visibility" },
   ],
 };
 

@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Digital Marketing Services for Doctors in Florida | Primara",
   description:
     "Primara offers digital marketing services for independent medical practices in Florida. Google Business Profile, SEO, website design & more. Call (561) 291-2681.",
-  alternates: { canonical: "https://primara.com/services" },
+  alternates: { canonical: "https://primara365.com/services" },
   openGraph: {
     title: "Digital Marketing Services for Doctors in Florida | Primara",
     description:
       "Primara offers digital marketing services for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/services",
+    url: "https://primara365.com/services",
   },
 };
 

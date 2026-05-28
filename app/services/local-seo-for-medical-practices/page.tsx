@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   title: "Local SEO for Medical Practices in Florida | Primara",
   description:
     "Primara provides local SEO for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
-  alternates: { canonical: "https://primara.com/services/local-seo-for-medical-practices" },
+  alternates: { canonical: "https://primara365.com/services/local-seo-for-medical-practices" },
   openGraph: {
     title: "Local SEO for Medical Practices in Florida | Primara",
     description:
       "Primara provides local SEO for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/services/local-seo-for-medical-practices",
+    url: "https://primara365.com/services/local-seo-for-medical-practices",
   },
 };
 
@@ -20,13 +20,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara.com" },
-    { "@type": "ListItem", position: 2, name: "Services", item: "https://primara.com/services" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://primara365.com/services" },
     {
       "@type": "ListItem",
       position: 3,
       name: "Local SEO for Medical Practices",
-      item: "https://primara.com/services/local-seo-for-medical-practices",
+      item: "https://primara365.com/services/local-seo-for-medical-practices",
     },
   ],
 };

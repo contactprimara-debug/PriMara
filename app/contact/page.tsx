@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
   description:
     "Contact Primara in West Palm Beach, FL. Request a free practice audit for your independent primary care practice. Call (561) 291-2681. We respond within 24 hours.",
-  alternates: { canonical: "https://primara.com/contact" },
+  alternates: { canonical: "https://primara365.com/contact" },
   openGraph: {
     title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
     description:
       "Request a free practice audit from Primara in West Palm Beach, FL. Independent primary care only. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/contact",
+    url: "https://primara365.com/contact",
   },
 };
 

@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Free Google Business Profile Audit for Doctors | Primara",
   description:
     "Request a free practice audit from Primara in West Palm Beach, FL. We review your GBP, Maps position, website, and reviews — built for your specific practice, not a template. Call (561) 291-2681.",
-  alternates: { canonical: "https://primara.com/the-audit" },
+  alternates: { canonical: "https://primara365.com/the-audit" },
   openGraph: {
     title: "Free Google Business Profile Audit for Doctors | Primara",
     description:
       "Free audit for independent medical practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/the-audit",
+    url: "https://primara365.com/the-audit",
   },
 };
 

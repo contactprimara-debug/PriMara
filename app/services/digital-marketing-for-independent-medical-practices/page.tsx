@@ -10,14 +10,14 @@ export const metadata: Metadata = {
     "Primara helps independent medical practices in Florida compete online — local SEO, GBP, reputation, and patient acquisition ads. Call (561) 291-2681.",
   alternates: {
     canonical:
-      "https://primara.com/services/digital-marketing-for-independent-medical-practices",
+      "https://primara365.com/services/digital-marketing-for-independent-medical-practices",
   },
   openGraph: {
     title: "Digital Marketing for Independent Doctors Florida | Primara",
     description:
       "Primara helps independent medical practices in Florida compete online. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/services/digital-marketing-for-independent-medical-practices",
+    url: "https://primara365.com/services/digital-marketing-for-independent-medical-practices",
   },
 };
 
@@ -25,12 +25,12 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara.com" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
     {
       "@type": "ListItem",
       position: 2,
       name: "Digital Marketing for Independent Medical Practices",
-      item: "https://primara.com/services/digital-marketing-for-independent-medical-practices",
+      item: "https://primara365.com/services/digital-marketing-for-independent-medical-practices",
     },
   ],
 };

@@ -12,7 +12,7 @@ const NAP = {
   cityStateZip: "Florida 33101",
   phone: siteConfig.phoneDisplay,   // (561) 291-2681 — already matches GBP
   phoneTel: siteConfig.phone,       // +15612912681
-  website: siteConfig.url,          // https://primara.com
+  website: siteConfig.url,          // https://primara365.com
 };
 
 // Google Maps embed URL — replace [ENCODED_ADDRESS] with the real address

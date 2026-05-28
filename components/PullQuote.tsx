@@ -25,18 +25,21 @@ export default function PullQuote({ text, cite }: PullQuoteProps) {
         overflow: 'hidden',
       }}
     >
-      {/* Decorative opening mark */}
+      {/* Decorative opening mark — absolutely positioned top-left of the section */}
       <span
         className="pq-mark"
         aria-hidden="true"
         style={{
+          position: 'absolute',
+          top: 'clamp(12px, 3vw, 28px)',
+          left: '10vw',
           fontFamily: "Georgia, 'Times New Roman', serif",
-          fontSize: '120px',
+          fontSize: 'clamp(72px, 10vw, 140px)',
           color: 'var(--gold)',
-          lineHeight: 0,
-          display: 'block',
-          marginBottom: '-20px',
-          opacity: 0.4,
+          lineHeight: 1,
+          opacity: 0.3,
+          userSelect: 'none',
+          pointerEvents: 'none',
         }}
       >
         &#8220;
@@ -56,6 +59,26 @@ export default function PullQuote({ text, cite }: PullQuoteProps) {
       >
         {text}
       </p>
+
+      {/* Closing mark */}
+      <span
+        aria-hidden="true"
+        style={{
+          display: 'block',
+          fontFamily: "Georgia, 'Times New Roman', serif",
+          fontSize: 'clamp(72px, 10vw, 140px)',
+          color: 'var(--gold)',
+          lineHeight: 0.6,
+          opacity: 0.3,
+          userSelect: 'none',
+          pointerEvents: 'none',
+          textAlign: 'right',
+          maxWidth: '900px',
+          margin: '0 auto',
+        }}
+      >
+        &#8221;
+      </span>
 
       {/* Attribution */}
       {cite && (

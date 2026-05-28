@@ -22,7 +22,6 @@ import AboutSection from "@/components/AboutSection";
 
 // ── Legacy sections (to be rebuilt) ──────────────────────────────────────
 import TrustBar from "@/components/TrustBar";
-import Services from "@/components/Services";
 import MeetFounders from "@/components/MeetFounders";
 import WhyPrimara from "@/components/WhyPrimara";
 import ContactFinal from "@/components/ContactFinal";
@@ -36,14 +35,14 @@ export const metadata: Metadata = {
   description:
     "Primara manages GBP optimization, local SEO, website design, and review generation for independent primary care practices in Florida. Liam Costello & Gio LaRoche. Call +1 (561) 291-2681.",
   alternates: {
-    canonical: "https://primara.com",
+    canonical: "https://primara365.com",
   },
   openGraph: {
     title: "Digital Marketing for Independent Medical Practices in Florida | Primara",
     description:
       "GBP optimization, local SEO, and website design for independent primary care practices in Florida. Call +1 (561) 291-2681.",
     type: "website",
-    url: "https://primara.com",
+    url: "https://primara365.com",
   },
 };
 
@@ -81,7 +80,6 @@ export default function HomePage() {
 
       {/* ── Legacy sections (pending redesign) ──────────────────────────── */}
       <TrustBar />
-      <Services />
       <MeetFounders />
       <WhyPrimara />
       <ContactFinal />

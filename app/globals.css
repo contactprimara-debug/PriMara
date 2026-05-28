@@ -441,6 +441,66 @@
   }
 }
 
+/* ── Service rows: 4-col → stack on mobile ───────────────────────────────── */
+@media (max-width: 768px) {
+  .service-row {
+    grid-template-columns: 36px 1fr !important;
+    grid-template-rows: auto auto;
+  }
+  /* Description spans both columns on its own row */
+  .service-row > p {
+    grid-column: 1 / -1;
+    padding-top: 0 !important;
+  }
+  /* Explore link sits under the description */
+  .service-row > div:last-child {
+    grid-column: 1 / -1;
+    text-align: left !important;
+    padding-top: 4px !important;
+  }
+}
+
+/* ── Hero scroll indicator: hide on short / narrow viewports ─────────────── */
+@media (max-width: 640px), (max-height: 700px) {
+  .scroll-indicator {
+    display: none !important;
+  }
+}
+
+/* ── HorizontalScroll: native snap on mobile ─────────────────────────────── */
+@media (max-width: 767px) {
+  .h-scroll-wrap {
+    height: auto !important;
+    overflow: visible !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 40px 0 40px !important;
+    display: block !important;
+  }
+  .h-scroll-wrap::-webkit-scrollbar { display: none; }
+  .h-scroll-track {
+    display: flex !important;
+    transform: none !important;   /* reset any GSAP x-translate */
+    width: max-content !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    align-items: stretch;
+  }
+  .h-scroll-item {
+    scroll-snap-align: start;
+    width: 82vw !important;
+    height: auto !important;
+    min-height: 380px;
+    flex-shrink: 0;
+  }
+  /* Hide the rotated "Packages & Results" vertical label on mobile */
+  .h-scroll-wrap > [aria-hidden="true"] {
+    display: none;
+  }
+}
+
 /* ── Tailwind utilities ──────────────────────────────────────────────────── */
 @layer utilities {
   .text-balance {

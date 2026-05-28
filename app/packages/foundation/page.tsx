@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   title: "Foundation Package — Medical Marketing in Florida | Primara",
   description:
     "$750/mo Foundation Package for independent medical practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
-  alternates: { canonical: "https://primara.com/packages/foundation" },
+  alternates: { canonical: "https://primara365.com/packages/foundation" },
   openGraph: {
     title: "Foundation Package — Medical Marketing in Florida | Primara",
     description:
       "$750/mo: GBP optimization, Local SEO, and monthly reporting for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara.com/packages/foundation",
+    url: "https://primara365.com/packages/foundation",
   },
 };
 
@@ -21,9 +21,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara.com" },
-    { "@type": "ListItem", position: 2, name: "Packages", item: "https://primara.com/packages/foundation" },
-    { "@type": "ListItem", position: 3, name: "Foundation", item: "https://primara.com/packages/foundation" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
+    { "@type": "ListItem", position: 2, name: "Packages", item: "https://primara365.com/packages/foundation" },
+    { "@type": "ListItem", position: 3, name: "Foundation", item: "https://primara365.com/packages/foundation" },
   ],
 };
 

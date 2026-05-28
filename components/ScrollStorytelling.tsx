@@ -69,9 +69,11 @@ export default function ScrollStorytelling() {
         // this dev environment), cards stayed permanently invisible.
         // Cards now render statically at full opacity — robust and obvious.
 
-        // ── 2. Horizontal scroll ───────────────────────────────────────────
+        // ── 2. Horizontal scroll — desktop only (≥768px) ──────────────────
+        // On mobile, .h-scroll-wrap becomes a native horizontal snap container
+        // via CSS, so we skip the GSAP pin entirely to avoid jank on iOS.
         const track = document.querySelector('.h-scroll-track') as HTMLElement | null;
-        if (track) {
+        if (track && window.innerWidth >= 768) {
           ST.refresh();
           const totalWidth = track.scrollWidth - window.innerWidth;
 
@@ -81,13 +83,8 @@ export default function ScrollStorytelling() {
             scrollTrigger: {
               trigger: '.h-scroll-wrap',
               start: 'top top',
-              // Shorter pin distance — 1.5× totalWidth was making 5 cards take
-              // 4000+px of vertical scroll. Cap at totalWidth so scroll → card
-              // movement feels 1:1.
               end: '+=' + totalWidth,
               pin: true,
-              // scrub:0.3 is snappy enough to feel responsive but smooth.
-              // scrub:1 was stacking 1s lag on top of Lenis's smoothing.
               scrub: 0.3,
               anticipatePin: 1,
             },

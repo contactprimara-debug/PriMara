@@ -5,7 +5,7 @@ export const siteConfig = {
   phoneDisplay: "(561) 291-2681",
   email: "contactprimara@gmail.com",
   calendly: "https://calendly.com/contactprimara/30min",
-  url: "https://primara.com",
+  url: "https://primara365.com",
   city: "Florida",
   state: "FL",
   founders: ["Liam Costello", "Gio LaRoche"],

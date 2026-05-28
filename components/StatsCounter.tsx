@@ -10,7 +10,8 @@
 interface Stat {
   target: string; // string so decimals like "4.7" work
   suffix: string;
-  label: string;
+  label: string;   // the stat description
+  source: string;  // citation — rendered dimmer + smaller below the label
   initial: string; // what renders server-side / before animation
 }
 
@@ -18,25 +19,29 @@ const stats: Stat[] = [
   {
     target: "77",
     suffix: "%",
-    label: "Of patients search online before choosing a doctor — PatientPop, Patient Perspectives Survey, 2022",
+    label: "Of patients search online before choosing a doctor",
+    source: "PatientPop, Patient Perspectives Survey, 2022",
     initial: "0%",
   },
   {
     target: "88",
     suffix: "%",
-    label: "Trust online reviews as much as a personal recommendation — BrightLocal, Local Consumer Review Survey, 2023",
+    label: "Trust online reviews as much as a personal recommendation",
+    source: "BrightLocal, Local Consumer Review Survey, 2023",
     initial: "0%",
   },
   {
     target: "75",
     suffix: "%",
-    label: "Never scroll past Google's first page of results — Backlinko, Google CTR Research, 2023",
+    label: "Never scroll past Google's first page of results",
+    source: "Backlinko, Google CTR Research, 2023",
     initial: "0%",
   },
   {
     target: "50",
     suffix: "+",
-    label: "Directories submitted and monitored per practice at onboarding — Primara onboarding protocol",
+    label: "Directories submitted and monitored per practice at onboarding",
+    source: "Primara onboarding protocol",
     initial: "0+",
   },
 ];
@@ -146,11 +151,26 @@ export default function StatsCounter() {
                 fontSize: "11px",
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "var(--smoke)",
+                color: "var(--ash)",
                 lineHeight: 1.5,
               }}
             >
               {stat.label}
+            </div>
+
+            {/* Source citation — visually distinct: smaller, dimmer */}
+            <div
+              style={{
+                fontFamily: "var(--font-mono), 'Courier New', monospace",
+                fontSize: "9px",
+                letterSpacing: "0.06em",
+                color: "var(--smoke)",
+                lineHeight: 1.4,
+                borderLeft: "1px solid var(--wire)",
+                paddingLeft: "8px",
+              }}
+            >
+              {stat.source}
             </div>
           </div>
         ))}

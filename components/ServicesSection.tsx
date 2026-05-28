@@ -191,17 +191,18 @@ export default function ServicesSection() {
                 {svc.index}
               </span>
 
-              {/* Col 2: name + tag */}
-              <div>
+              {/* Col 2: name + tag inline */}
+              <div style={{ display: "flex", alignItems: "center", gap: "12px", flexWrap: "wrap" }}>
                 <h3
                   style={{
                     fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
                     fontSize: "clamp(20px, 2.2vw, 28px)",
                     color: "var(--chalk)",
                     fontWeight: 400,
-                    margin: "0 0 10px",
+                    margin: 0,
                     lineHeight: 1.15,
                     letterSpacing: "-0.01em",
+                    flexShrink: 0,
                   }}
                 >
                   {svc.name}
@@ -217,6 +218,7 @@ export default function ServicesSection() {
                     border: "1px solid var(--wire)",
                     padding: "3px 8px",
                     borderRadius: "2px",
+                    whiteSpace: "nowrap",
                   }}
                 >
                   {svc.tag}

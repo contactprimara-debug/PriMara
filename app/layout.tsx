@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import MobileCTABar from "@/components/MobileCTABar";
 import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
+import Preloader from "@/components/Preloader";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
 
 const instrumentSerif = Instrument_Serif({
@@ -25,7 +26,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://primara.com"),
+  metadataBase: new URL("https://primara365.com"),
   title: {
     default: "Digital Marketing for Doctors in Florida | Primara",
     template: "%s",
@@ -88,31 +89,8 @@ export default function RootLayout({
           <rect width="100%" height="100%" filter="url(#grain-filter)" />
         </svg>
 
-        {/* ── Preloader — letters fall in one by one, then slides up ─────
-            Each letter is its own span with a staggered CSS animation-delay.
-            Bulletproof: inline script removes the preloader after 2.6s no
-            matter what (in case CSS animation is paused by hydration etc.). */}
-        <div id="preloader" aria-hidden="true">
-          <div id="preloader-text">
-            {"Primara".split("").map((char, i) => (
-              <span
-                key={i}
-                className="preloader-letter"
-                style={{ animationDelay: `${0.08 * i}s` }}
-              >
-                {char}
-              </span>
-            ))}
-          </div>
-          <div id="preloader-bar">
-            <div id="preloader-fill" />
-          </div>
-        </div>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){setTimeout(function(){var p=document.getElementById('preloader');if(p&&p.parentNode)p.parentNode.removeChild(p);},2600);})();`,
-          }}
-        />
+        {/* ── Preloader — homepage only (Preloader.tsx checks pathname) ─── */}
+        <Preloader />
 
         {/* ── Custom cursor ────────────────────────────────────────────── */}
         <div id="cursor-dot" aria-hidden="true" />
