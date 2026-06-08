@@ -301,7 +301,6 @@ export default function ReviewsSection() {
 
               {/* Quote */}
               <blockquote
-                cite="https://maps.google.com"
                 style={{
                   margin: 0,
                   fontFamily: "var(--font-display), Georgia, serif",
@@ -362,7 +361,7 @@ export default function ReviewsSection() {
               paddingBottom: "2px",
             }}
           >
-            Read about our service packages
+            Show Me the Packages
             <svg
               width="10"
               height="10"

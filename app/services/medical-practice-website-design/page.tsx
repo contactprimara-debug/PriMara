@@ -113,7 +113,7 @@ export default function WebsiteDesignPage() {
           <Link
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "48px", fontSize: "1rem" }}
+            style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
           >
             Request a Free Audit
           </Link>
@@ -231,7 +231,7 @@ export default function WebsiteDesignPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: "var(--color-primary)" }} aria-labelledby="web-cta">
+      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="web-cta">
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2
             id="web-cta"

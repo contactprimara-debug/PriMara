@@ -278,7 +278,7 @@ export default function AboutSection() {
                   borderRadius: "3px",
                 }}
               >
-                Work With Us
+                Start My Free Audit
                 <svg
                   width="14"
                   height="10"

@@ -1,6 +1,8 @@
 "use client";
 
 import { useFormState } from "react-dom";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { submitContact, type ContactState } from "@/app/actions/contact";
 import SubmitButton from "@/components/SubmitButton";
 import { siteConfig } from "@/lib/siteConfig";
@@ -23,7 +25,7 @@ function FieldLabel({
     <label
       htmlFor={htmlFor}
       className="text-sm font-medium"
-      style={{ color: "var(--color-text)" }}
+      style={{ color: "#333333" }}
     >
       {children}
     </label>
@@ -34,11 +36,11 @@ const inputStyle: React.CSSProperties = {
   width: "100%",
   height: "48px",
   padding: "0 14px",
-  border: "1.5px solid var(--color-border)",
+  border: "1.5px solid var(--wire)",
   borderRadius: "8px",
   fontSize: "1rem",
-  color: "var(--color-text)",
-  backgroundColor: "white",
+  color: "#111111",           // dark text — inputs have white bg
+  backgroundColor: "#ffffff",
   outline: "none",
 };
 
@@ -62,14 +64,22 @@ function StarIcon() {
 }
 
 export default function ContactSection() {
+  const router = useRouter();
   const [state, formAction] = useFormState(submitContact, initialState);
+
+  useEffect(() => {
+    if (state.status === "success") router.push("/thank-you");
+  }, [state.status, router]);
 
   return (
     <>
       {/* ── SECTION 1: Final CTA Banner ── */}
       <section
         aria-labelledby="cta-heading"
-        style={{ backgroundColor: "var(--color-primary)" }}
+        style={{
+          backgroundColor: "var(--color-primary)",
+          borderTop: "3px solid var(--ember)",
+        }}
       >
         <div className="mx-auto max-w-content px-6 lg:px-8 py-20 text-center">
           <h2
@@ -96,7 +106,7 @@ export default function ContactSection() {
               href={`tel:${siteConfig.phone}`}
               className="inline-flex items-center gap-2 rounded-lg px-8 font-bold text-white transition-opacity hover:opacity-90"
               style={{
-                backgroundColor: "var(--color-accent)",
+                backgroundColor: "var(--ember)",
                 minHeight: "52px",
                 fontSize: "1rem",
               }}
@@ -147,21 +157,8 @@ export default function ContactSection() {
               </p>
             </div>
 
-            {/* Success state */}
-            {state.status === "success" ? (
-              <div
-                className="rounded-xl p-6 text-center"
-                style={{ backgroundColor: "var(--color-success)" }}
-                role="alert"
-                aria-live="polite"
-              >
-                <p className="font-semibold text-white text-lg">
-                  ✓ Primara will contact you within 24 hours. Thank you
-                  {state.firstName ? `, ${state.firstName}` : ""}.
-                </p>
-              </div>
-            ) : (
-              <form action={formAction} noValidate>
+            {/* Form — redirects to /thank-you on success */}
+            <form action={formAction} noValidate>
                 {/* Required fields note */}
                 <p
                   className="mb-6 text-xs"
@@ -264,7 +261,7 @@ export default function ContactSection() {
                       fontFamily: "var(--font-mono)",
                     }}
                   >
-                    No spam, ever. We respond within one business day. For urgent
+                    No spam, ever. HIPAA-aware agency. We respond within one business day. For urgent
                     inquiries, call{" "}
                     <a
                       href={`tel:${siteConfig.phone}`}
@@ -276,7 +273,6 @@ export default function ContactSection() {
                   </p>
                 </div>
               </form>
-            )}
 
             {/* Trust strip */}
             <div

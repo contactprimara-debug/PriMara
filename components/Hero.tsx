@@ -57,7 +57,7 @@ export default function Hero() {
               marginBottom: "clamp(28px, 4vw, 48px)",
             }}
           >
-            West Palm Beach, FL — Est. 2026
+            West Palm Beach, FL · HIPAA-Aware · Founder-Led · Florida Only
           </div>
 
           {/* H1 — three-line display, SplitText target */}
@@ -74,7 +74,7 @@ export default function Hero() {
               maxWidth: "14ch",
             }}
           >
-            Independent
+            More
             <br />
             <em
               style={{
@@ -82,10 +82,10 @@ export default function Hero() {
                 color: "var(--gold)",
               }}
             >
-              Medicine
+              Patients
             </em>
             <br />
-            in Florida.
+            Find Your Practice. Not the One Down the Street.
           </h1>
 
           {/* Subheadline */}
@@ -101,10 +101,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            Google Business Profile, local SEO, and website design for independent primary care practices in Florida.{" "}
-            <span style={{ color: "var(--teal)" }}>
-              Currently accepting new clients.
-            </span>
+            GBP optimization, local SEO, and website design for independent primary care practices in Florida. Founder-led. HIPAA-aware. Currently accepting new clients.
           </p>
 
           {/* CTA pair */}
@@ -137,7 +134,7 @@ export default function Hero() {
                 textDecoration: "none",
               }}
             >
-              Request Your Free Audit →
+              Get My Free Practice Audit →
             </Link>
 
             <Link
@@ -160,7 +157,7 @@ export default function Hero() {
                 textDecoration: "none",
               }}
             >
-              View Our Services ↓
+              See How It Works ↓
             </Link>
           </div>
         </div>

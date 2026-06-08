@@ -1,6 +1,8 @@
 "use client";
 
 import { useFormState, useFormStatus } from "react-dom";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import {
   submitPackageInquiry,
   type PackageInquiryState,
@@ -45,7 +47,12 @@ export default function PackageInquiryForm({
 }: {
   packageName: string;
 }) {
+  const router = useRouter();
   const [state, formAction] = useFormState(submitPackageInquiry, initialState);
+
+  useEffect(() => {
+    if (state.status === "success") router.push("/thank-you");
+  }, [state.status, router]);
 
   if (state.status === "success") {
     return (

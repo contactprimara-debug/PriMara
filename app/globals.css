@@ -18,6 +18,18 @@
   --teal-light: rgba(27, 110, 110, 0.15);
   --ember:      #E8611A;
 
+  /* Service-page aliases — these map the "color-*" token set used in all
+     service/package pages to the dark-theme tokens above. Without these,
+     every var(--color-*) in those pages resolves to nothing (invisible). */
+  --color-bg:        var(--void);
+  --color-text:      var(--chalk);
+  --color-text-muted: var(--ash);
+  --color-primary:   var(--surface);  /* dark — CTA section backgrounds (buttons use --ember directly) */
+  --color-accent:    var(--ember);    /* orange — buttons only, not full-section backgrounds */
+  --color-card:      var(--surface-2);
+  --color-gold:      var(--gold);
+  --color-success:   #3DAA6E;
+
   /* Typography — resolved fallbacks for inline-style var() references.
      --font-display and --font-ui are injected by next/font at runtime;
      --font-mono and --font-fraunces are defined here so var() never
@@ -83,15 +95,46 @@
   #cursor-ring { display: none; }
 }
 
-/* ── Grain overlay ───────────────────────────────────────────────────────── */
-#grain-overlay {
+/* ── Hide nav + footer on standalone funnel pages ───────────────────────── */
+/* Assessment quiz and thank-you are distraction-free — no Header or Footer. */
+/* :has() is supported in all modern browsers; older browsers just show them. */
+body:has(main[data-page="assessment"]) #main-nav,
+body:has(main[data-page="assessment"]) footer,
+body:has(main[data-page="thank-you"]) #main-nav,
+body:has(main[data-page="thank-you"]) footer {
+  display: none !important;
+}
+
+/* ── iOS safe-area cover ─────────────────────────────────────────────────── */
+/* Paints a permanent black strip over the iPhone notch / Dynamic Island area */
+/* so page content never bleeds into the status bar, even while the header     */
+/* is still fading in via GSAP. z-index sits above the header (1000).         */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-top, 0px);
+  background: var(--void);
+  z-index: 1001;
+  pointer-events: none;
+}
+
+/* ── Grain overlay — static CSS texture, rendered once and tiled ─────────── */
+/* The previous SVG feTurbulence in the DOM caused full-viewport repaint on   */
+/* every frame. CSS background-image renders the same filter once into a      */
+/* bitmap, caches it, then tiles it — zero per-frame GPU cost.                */
+body::after {
+  content: '';
   position: fixed;
   inset: 0;
-  width: 100%;
-  height: 100%;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.035;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 300px 300px;
 }
 
 /* ── Preloader (pure-CSS, no JS required) ────────────────────────────────
@@ -193,6 +236,33 @@
   transform-origin: top;
   pointer-events: none;
   will-change: transform;
+}
+
+/* ── Service / about page prose typography ───────────────────────────────── */
+/* Targets the max-w-prose content wrapper used in every service page.        */
+/* Adds visual section dividers, tighter h2 accents, and prose breathing room */
+/* without editing each page file individually.                                */
+
+/* Gold left-rule on every h2 in prose sections */
+section .max-w-prose h2 {
+  padding-left: 16px;
+  border-left: 3px solid var(--gold);
+}
+
+/* Thin divider + breathing room before non-first h2 blocks */
+section .max-w-prose h2:not(:first-of-type) {
+  margin-top: 3.5rem;
+}
+
+/* Slightly looser prose line-height for readability */
+section .max-w-prose > p {
+  line-height: 1.9;
+}
+
+/* Blockquote card — subtle surface lift */
+section .max-w-prose ~ section blockquote,
+section + section blockquote {
+  border-radius: 6px;
 }
 
 /* ── Service card hover ──────────────────────────────────────────────────── */
@@ -370,6 +440,15 @@
   color: var(--smoke);
   font-family: var(--font-display), Georgia, 'Times New Roman', serif;
 }
+/* Prevent browser autofill from overriding text/bg colors */
+.contact-input:-webkit-autofill,
+.contact-input:-webkit-autofill:hover,
+.contact-input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--chalk);
+  -webkit-box-shadow: 0 0 0px 1000px var(--void) inset;
+  box-shadow: 0 0 0px 1000px var(--void) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
 /* Select: custom chevron arrow, no native chrome */
 .contact-select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6' fill='none' stroke='%237A7A7A' stroke-width='1.2'/%3E%3C/svg%3E");
@@ -392,14 +471,19 @@
   opacity: 0.88;
 }
 
-/* ── Footer grid: 3-col → 1-col on mobile ───────────────────────────────── */
+/* ── Footer grid: 4-col → 2-col tablet → 1-col mobile ───────────────────── */
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
-  gap: clamp(32px, 5vw, 60px);
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: clamp(24px, 4vw, 48px);
   align-items: start;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
   .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -467,37 +551,51 @@
   }
 }
 
-/* ── HorizontalScroll: native snap on mobile ─────────────────────────────── */
+/* ── HorizontalScroll: base (all viewports) — native swipe always works ──── */
+/* GSAP ScrollTrigger enhances this on desktop by pinning and translating     */
+/* the track. If GSAP never loads, users can still swipe through the cards.   */
+.h-scroll-wrap {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding: clamp(40px, 6vw, 80px) 0;
+  position: relative;
+}
+.h-scroll-wrap::-webkit-scrollbar { display: none; }
+
+/* Desktop: full-viewport height for GSAP pin — removed from inline JSX     */
+@media (min-width: 768px) {
+  .h-scroll-wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+/* Mobile: auto-height, visible scroll */
 @media (max-width: 767px) {
   .h-scroll-wrap {
-    height: auto !important;
-    overflow: visible !important;
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    padding: 40px 0 40px !important;
-    display: block !important;
+    height: auto;
+    display: block;
+    padding: 40px 0;
   }
-  .h-scroll-wrap::-webkit-scrollbar { display: none; }
+  /* Hide the rotated "Packages & Results" vertical label on mobile */
+  .h-scroll-wrap > [aria-hidden="true"] {
+    display: none;
+  }
   .h-scroll-track {
-    display: flex !important;
     transform: none !important;   /* reset any GSAP x-translate */
-    width: max-content !important;
     padding-left: 24px !important;
     padding-right: 24px !important;
-    align-items: stretch;
   }
   .h-scroll-item {
     scroll-snap-align: start;
     width: 82vw !important;
     height: auto !important;
     min-height: 380px;
-    flex-shrink: 0;
-  }
-  /* Hide the rotated "Packages & Results" vertical label on mobile */
-  .h-scroll-wrap > [aria-hidden="true"] {
-    display: none;
   }
 }
 

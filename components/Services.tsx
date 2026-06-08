@@ -164,7 +164,7 @@ export default function Services() {
       {/* ── CTA strip ── */}
       <div
         className="mt-16"
-        style={{ backgroundColor: "var(--color-primary)" }}
+        style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}
       >
         <div className="mx-auto max-w-content px-6 lg:px-8 py-10 flex flex-col items-center gap-5 text-center sm:flex-row sm:justify-between sm:text-left">
           <p

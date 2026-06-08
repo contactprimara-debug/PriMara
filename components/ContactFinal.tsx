@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { submitContact } from '@/app/actions/contact';
 
 /* ── ContactFinal ──────────────────────────────────────────────────────────
@@ -20,6 +21,7 @@ import { submitContact } from '@/app/actions/contact';
 */
 
 export default function ContactFinal() {
+  const router = useRouter();
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [reason, setReason] = useState('New Practice Inquiry');
@@ -53,29 +55,8 @@ export default function ContactFinal() {
       return;
     }
 
-    // Success: GSAP transition to confirmation card
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const g = (window as any).gsap;
-    const form = formWrapRef.current;
-    const confirm = confirmRef.current;
-
-    if (g && form && confirm) {
-      g.to(form, {
-        opacity: 0,
-        y: -20,
-        duration: 0.4,
-        ease: 'power2.in',
-        onComplete() {
-          form.style.display = 'none';
-          confirm.style.display = 'block';
-          g.from(confirm, { opacity: 0, y: 20, duration: 0.5, ease: 'power2.out' });
-        },
-      });
-    } else {
-      // Graceful fallback when GSAP hasn't loaded
-      if (form) form.style.display = 'none';
-      if (confirm) confirm.style.display = 'block';
-    }
+    // Success: redirect to thank-you page
+    router.push('/thank-you');
   }
 
   return (
@@ -259,7 +240,7 @@ export default function ContactFinal() {
                       className="contact-input contact-select"
                     >
                       <option value="New Practice Inquiry">New Practice Inquiry</option>
-                      <option value="Existing Client">Existing Client</option>
+                      <option value="Learn About Our Services">Learn About Our Services</option>
                       <option value="General Question">General Question</option>
                       <option value="Other">Other</option>
                     </select>
@@ -336,7 +317,7 @@ export default function ContactFinal() {
                   letterSpacing: '0.04em',
                 }}
               >
-                No spam. We respond within 24 hours. For emergencies, call{' '}
+                No spam. HIPAA-aware practice. We respond within 24 hours. For emergencies, call{' '}
                 <a
                   href="tel:+15612912681"
                   style={{

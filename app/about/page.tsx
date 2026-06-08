@@ -49,26 +49,29 @@ export default function AboutPage() {
             Why We Started Primara
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Liam Costello and Gio LaRoche founded Primara in Florida after watching
-            independent primary care physicians lose patients to larger health systems — not because
-            of the quality of care they provided, but because of digital visibility.
+            Liam Costello and Gio LaRoche founded Primara after watching independent primary care physicians
+            across Florida lose patients to larger health systems — not because of the care they provided,
+            but because of a Google listing that hadn&rsquo;t been touched in three years.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Primara's approach is built around one premise: independent primary care physicians deserve the
-            same digital infrastructure that hospital systems fund with dedicated marketing departments.
-            That means a fully optimized Google Business Profile, a website engineered around local search,
-            a consistent review system, and a strategy that accounts for how Google's local ranking signals
-            actually work — not how they worked two years ago.
+            The problem isn&rsquo;t the quality of independent medicine in Florida. It&rsquo;s visibility.
+            A hospital system has a full marketing department managing its digital presence. An independent
+            physician running a 3-doctor practice has none of that — and no time to build it between patients.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Both founders run every client account directly. There are no account coordinators, no offshore
-            production teams, and no handoffs after the sales call. If you have a question about your
-            ranking, your report, or your next content page, you speak with Liam or Gio — because they are
-            the ones who built it.
+            Primara exists to close that gap. We build and manage the digital infrastructure — Google Business
+            Profile, local SEO, website, review system — that independent practices need to compete on their
+            local search results page. We do it with the same attention to HIPAA compliance, patient privacy,
+            and ethical marketing that your practice operates under every day.
+          </p>
+          <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
+            Every engagement is managed directly by Liam and Gio. No account coordinators. No offshore writing
+            teams. No handoffs. When you have a question about your ranking or your report, you speak with the
+            person who built the strategy and wrote the content — because that&rsquo;s us.
           </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            Primara works exclusively with independent, physician-owned primary care clinics — not dental chains,
-            urgent care franchises, or hospital systems.
+            We work exclusively with independent, physician-owned primary care practices in Florida. Not dental
+            chains. Not urgent care franchises. Not hospital systems. One model, done well.
           </p>
         </div>
 
@@ -85,7 +88,7 @@ export default function AboutPage() {
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "48px", fontSize: "1rem" }}
           >
-            Request a Free Audit
+            Get My Free Audit
           </Link>
         </div>
       </section>

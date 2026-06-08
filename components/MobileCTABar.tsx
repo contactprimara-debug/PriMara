@@ -62,13 +62,15 @@ export default function MobileCTABar() {
         className="flex items-center justify-center"
         style={{
           width: "40%",
-          color: "var(--smoke)",
+          color: "var(--chalk)",
           fontFamily: "system-ui, sans-serif",
-          fontSize: "12px",
-          letterSpacing: "0.08em",
+          fontWeight: 700,
+          fontSize: "11px",
+          letterSpacing: "0.1em",
           textTransform: "uppercase",
           minHeight: "60px",
           textDecoration: "none",
+          borderLeft: "1px solid var(--wire)",
         }}
       >
         Get a Quote

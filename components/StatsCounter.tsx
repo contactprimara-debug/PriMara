@@ -1,18 +1,18 @@
-/* ── StatsCounter ──────────────────────────────────────────────────────────
-   Full-width section with animated counters. Numbers count up on scroll entry.
-   Counter animation wired globally in ScrollStorytelling.tsx via
-   .stat-num[data-target][data-suffix].
+'use client';
 
-   data-target: the number to count to (supports decimals for ratings)
-   data-suffix: character appended after the number ("+", "★", etc.)
+import { useEffect, useRef } from 'react';
+
+/* ── StatsCounter ──────────────────────────────────────────────────────────
+   Counts up when the section scrolls into view.
+   Uses IntersectionObserver + requestAnimationFrame — no GSAP / CDN dependency.
+   Respects prefers-reduced-motion: shows final numbers instantly if set.
 */
 
 interface Stat {
-  target: string; // string so decimals like "4.7" work
+  target: string;
   suffix: string;
-  label: string;   // the stat description
-  source: string;  // citation — rendered dimmer + smaller below the label
-  initial: string; // what renders server-side / before animation
+  label: string;
+  source: string;
 }
 
 const stats: Stat[] = [
@@ -20,35 +20,84 @@ const stats: Stat[] = [
     target: "77",
     suffix: "%",
     label: "Of patients search online before choosing a doctor",
-    source: "PatientPop, Patient Perspectives Survey, 2022",
-    initial: "0%",
+    source: "PatientPop, Patient Perspectives Survey",
   },
   {
     target: "88",
     suffix: "%",
     label: "Trust online reviews as much as a personal recommendation",
-    source: "BrightLocal, Local Consumer Review Survey, 2023",
-    initial: "0%",
+    source: "BrightLocal, Local Consumer Review Survey",
   },
   {
     target: "75",
     suffix: "%",
     label: "Never scroll past Google's first page of results",
-    source: "Backlinko, Google CTR Research, 2023",
-    initial: "0%",
+    source: "Backlinko, Google CTR Study",
   },
   {
     target: "50",
     suffix: "+",
     label: "Directories submitted and monitored per practice at onboarding",
     source: "Primara onboarding protocol",
-    initial: "0+",
   },
 ];
 
 export default function StatsCounter() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function animateStat(el: HTMLElement) {
+      const rawTarget = el.dataset.target ?? '0';
+      const target = parseFloat(rawTarget);
+      const suffix = el.dataset.suffix ?? '';
+      const isDecimal = rawTarget.includes('.');
+
+      if (prefersReduced) {
+        el.textContent = isDecimal
+          ? target.toFixed(1) + suffix
+          : Math.round(target) + suffix;
+        return;
+      }
+
+      const duration = 2000;
+      const startTime = performance.now();
+
+      function step(now: number) {
+        const progress = Math.min((now - startTime) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+        const current = eased * target;
+        el.textContent = isDecimal
+          ? current.toFixed(1) + suffix
+          : Math.round(current) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      }
+
+      requestAnimationFrame(step);
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          section.querySelectorAll<HTMLElement>('.stat-num').forEach(animateStat);
+          observer.disconnect();
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    observer.observe(section);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section
+      ref={sectionRef}
       style={{
         padding: "clamp(80px, 10vw, 140px) clamp(24px, 8vw, 120px)",
         borderTop: "1px solid var(--wire)",
@@ -66,8 +115,7 @@ export default function StatsCounter() {
           top: "50%",
           left: "50%",
           transform: "translate(-50%, -50%)",
-          fontFamily:
-            "var(--font-display), Georgia, 'Times New Roman', serif",
+          fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
           fontStyle: "italic",
           fontSize: "clamp(200px, 30vw, 400px)",
           color: "rgba(201,168,76,0.025)",
@@ -106,25 +154,17 @@ export default function StatsCounter() {
         By the Numbers
       </div>
 
-      {/* Stats grid — .stats-grid handles responsive 4→2 col in globals.css */}
+      {/* Stats grid */}
       <div className="stats-grid">
         {stats.map((stat, i) => (
-          <div
-            key={i}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "12px",
-            }}
-          >
-            {/* Animated number — GSAP targets this element */}
+          <div key={i} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+            {/* Number — starts at final value; JS counts up from 0 on scroll */}
             <div
               className="stat-num"
               data-target={stat.target}
               data-suffix={stat.suffix}
               style={{
-                fontFamily:
-                  "var(--font-display), Georgia, 'Times New Roman', serif",
+                fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
                 fontStyle: "italic",
                 fontSize: "clamp(64px, 8vw, 120px)",
                 color: "var(--chalk)",
@@ -132,17 +172,11 @@ export default function StatsCounter() {
                 letterSpacing: "-0.03em",
               }}
             >
-              {stat.initial}
+              {stat.target}{stat.suffix}
             </div>
 
             {/* Divider */}
-            <div
-              style={{
-                width: "24px",
-                height: "1px",
-                background: "var(--gold)",
-              }}
-            />
+            <div style={{ width: "24px", height: "1px", background: "var(--gold)" }} />
 
             {/* Label */}
             <div
@@ -158,7 +192,7 @@ export default function StatsCounter() {
               {stat.label}
             </div>
 
-            {/* Source citation — visually distinct: smaller, dimmer */}
+            {/* Source citation */}
             <div
               style={{
                 fontFamily: "var(--font-mono), 'Courier New', monospace",

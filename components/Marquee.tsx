@@ -9,11 +9,13 @@ import styles from './Marquee.module.css';
    first, creating a seamless infinite loop at any viewport width.
 */
 const ITEMS = [
-  'Primara',
-  'Local SEO · GBP Optimization · Website Builds · Review Management',
-  'Florida',
-  '2023',
+  'HIPAA-Aware Strategy',
+  'Founder-Led — No Account Managers',
+  'West Palm Beach, FL',
   'Independent Practices Only',
+  'Free Audit — No Obligation',
+  'GBP · SEO · Website · Reviews',
+  'Response Within 1 Business Day',
 ];
 
 const textStyle: React.CSSProperties = {

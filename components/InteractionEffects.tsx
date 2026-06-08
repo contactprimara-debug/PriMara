@@ -5,14 +5,10 @@ import { useEffect } from 'react';
 /* ── InteractionEffects ────────────────────────────────────────────────────
    Global GSAP interaction layer — runs on every page via layout.tsx.
 
-   1. Page transition overlay (#page-transition)
-      - On mount: if navigating from a previous page, animate the overlay out
-      - On internal link click: animate overlay in, then navigate via window.location.href
-
-   2. Magnetic pull (.magnetic)
+   1. Magnetic pull (.magnetic)
       - CTA buttons, nav wordmark — pull toward cursor, spring back on leave
 
-   3. Service card interactions (.svc-card)
+   2. Service card interactions (.svc-card)
       - mouseenter/leave: GSAP y-lift (avoids conflict with ScrollTrigger's
         xPercent tween which writes to the same CSS transform matrix)
       - .card-arrow child slides 6px right on enter, resets on leave
@@ -30,53 +26,7 @@ export default function InteractionEffects() {
         return;
       }
 
-      // ── 1. Page transition ───────────────────────────────────────────────
-      const ptDiv = document.getElementById('page-transition');
-      if (ptDiv) {
-        // If we just navigated here from an internal link, slide the overlay out
-        if (sessionStorage.getItem('pt') === '1') {
-          sessionStorage.removeItem('pt');
-          g.set(ptDiv, { scaleY: 1, transformOrigin: 'bottom', pointerEvents: 'none' });
-          g.to(ptDiv, {
-            scaleY: 0,
-            duration: 0.5,
-            ease: 'power3.out',
-            delay: 0.1,
-          });
-        }
-
-        // Intercept all internal anchor clicks
-        document.addEventListener('click', (e: MouseEvent) => {
-          const anchor = (e.target as Element).closest('a');
-          if (!anchor) return;
-
-          const href = anchor.getAttribute('href');
-          // Skip: external, mailto/tel, hash-only, or new-tab links
-          if (
-            !href ||
-            href.startsWith('http') ||
-            href.startsWith('//') ||
-            href.startsWith('mailto') ||
-            href.startsWith('tel') ||
-            href.startsWith('#') ||
-            anchor.target === '_blank'
-          ) return;
-
-          e.preventDefault();
-          sessionStorage.setItem('pt', '1');
-          g.set(ptDiv, { scaleY: 0, transformOrigin: 'top', pointerEvents: 'all' });
-          g.to(ptDiv, {
-            scaleY: 1,
-            duration: 0.4,
-            ease: 'power3.in',
-            onComplete() {
-              window.location.href = href;
-            },
-          });
-        });
-      }
-
-      // ── 2. Magnetic pull ─────────────────────────────────────────────────
+      // ── 1. Magnetic pull ─────────────────────────────────────────────────
       document.querySelectorAll('.magnetic').forEach((el) => {
         el.addEventListener('mousemove', (e: Event) => {
           const me = e as MouseEvent;

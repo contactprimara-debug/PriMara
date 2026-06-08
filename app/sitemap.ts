@@ -95,6 +95,60 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
+    // ── Priority 0.9 — Assessment landing (lead gen) ─────────────────────
+    {
+      url: `${SITE_URL}/assessment`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+
+    // ── Priority 0.75 — Specialty hub ────────────────────────────────────
+    {
+      url: `${SITE_URL}/specialties`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.75,
+    },
+
+    // ── Priority 0.7 — Specialty landing pages ────────────────────────────
+    {
+      url: `${SITE_URL}/specialties/family-medicine`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/internal-medicine`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/pediatrics`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/geriatrics`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/concierge-medicine`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/direct-primary-care`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+
     // ── Priority 0.6 — Geographic / neighborhood pages (add as built) ────
     // { url: `${SITE_URL}/medical-marketing-lake-worth`, ... },
   ];

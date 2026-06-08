@@ -39,22 +39,31 @@ export default function AnimationProvider() {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (window as any).lenis = lenis;
 
-      // ── Custom cursor — always init position tracking (functional) ──────
+      // ── Custom cursor — quickTo/quickSetter for zero-allocation tracking ──
       const dot = document.getElementById('cursor-dot');
       const ring = document.getElementById('cursor-ring');
 
       if (dot && ring) {
+        // quickSetter writes directly to the transform — no tween object created
+        const setDotX = g.quickSetter(dot, 'x', 'px');
+        const setDotY = g.quickSetter(dot, 'y', 'px');
+        // quickTo returns a function that reuses a single tween per axis
+        const ringX = g.quickTo(ring, 'x', { duration: 0.15, ease: 'power2.out' });
+        const ringY = g.quickTo(ring, 'y', { duration: 0.15, ease: 'power2.out' });
+
         document.addEventListener('mousemove', (e) => {
-          g.set(dot, { x: e.clientX - 4, y: e.clientY - 4 });
-          g.to(ring, { duration: 0.15, x: e.clientX - 20, y: e.clientY - 20 });
-        });
+          setDotX(e.clientX - 4);
+          setDotY(e.clientY - 4);
+          ringX(e.clientX - 20);
+          ringY(e.clientY - 20);
+        }, { passive: true });
       }
 
       // ── All decorative animations — respects prefers-reduced-motion ──────
       const mm = g.matchMedia();
       mm.add('(prefers-reduced-motion: no-preference)', () => {
 
-        // Cursor hover effects (decorative scale/color changes)
+        // Cursor hover effects on links/buttons only — no per-p handlers
         if (dot && ring) {
           document.querySelectorAll('a, button, [data-cursor="link"]').forEach(el => {
             el.addEventListener('mouseenter', () => {
@@ -64,15 +73,6 @@ export default function AnimationProvider() {
             el.addEventListener('mouseleave', () => {
               g.to(ring, { scale: 1, borderColor: 'var(--gold)', duration: 0.3 });
               g.to(dot, { scale: 1, duration: 0.2 });
-            });
-          });
-
-          document.querySelectorAll('p, [data-cursor="text"]').forEach(el => {
-            el.addEventListener('mouseenter', () => {
-              g.to(ring, { width: 3, height: 80, borderRadius: 2, duration: 0.3 });
-            });
-            el.addEventListener('mouseleave', () => {
-              g.to(ring, { width: 40, height: 40, borderRadius: '50%', duration: 0.3 });
             });
           });
         }

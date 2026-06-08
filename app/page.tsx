@@ -22,7 +22,6 @@ import AboutSection from "@/components/AboutSection";
 
 // ── Legacy sections (to be rebuilt) ──────────────────────────────────────
 import TrustBar from "@/components/TrustBar";
-import MeetFounders from "@/components/MeetFounders";
 import WhyPrimara from "@/components/WhyPrimara";
 import ContactFinal from "@/components/ContactFinal";
 
@@ -80,7 +79,6 @@ export default function HomePage() {
 
       {/* ── Legacy sections (pending redesign) ──────────────────────────── */}
       <TrustBar />
-      <MeetFounders />
       <WhyPrimara />
       <ContactFinal />
 

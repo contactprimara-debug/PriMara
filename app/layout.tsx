@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Syne } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MobileCTABar from "@/components/MobileCTABar";
 import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
 import Preloader from "@/components/Preloader";
@@ -25,6 +24,12 @@ const syne = Syne({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",   // Required for env(safe-area-inset-top) on iOS notch/Dynamic Island
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://primara365.com"),
   title: {
@@ -33,6 +38,16 @@ export const metadata: Metadata = {
   },
   description:
     "Primara helps independent medical practices in Florida dominate local search, fill their schedule, and grow. Call +1 (561) 291-2681.",
+  // Explicit icon declaration — helps Google's crawler find and index the favicon faster
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "64x64" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/icon.png",
+  },
   openGraph: {
     siteName: "Primara",
     type: "website",
@@ -41,6 +56,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@primara",
+  },
+  verification: {
+    google: "BxKli2T2XNID_mJZ99EraYxGqdkHAXMyeqz_1DWRwfw",
   },
   robots: {
     index: true,
@@ -68,26 +86,38 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: toJsonLd(localBusinessSchema as Record<string, unknown>) }}
         />
 
+        {/* ── Google Tag Manager ────────────────────────────────────────── */}
+        <Script id="gtm-head" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');`}
+        </Script>
+
+        {/* ── gtag config scaffold ──────────────────────────────────────── */}
+        <Script id="gtag-config" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-CONVERSION_ID');
+  `}
+        </Script>
+
       </head>
 
       <body className={`${instrumentSerif.variable} ${syne.variable}`}>
 
-        {/* ── Grain overlay ───────────────────────────────────────────── */}
-        <svg
-          id="grain-overlay"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <filter id="grain-filter">
-            <feTurbulence
-              type="fractalNoise"
-              baseFrequency="0.85"
-              numOctaves="4"
-              stitchTiles="stitch"
-            />
-          </filter>
-          <rect width="100%" height="100%" filter="url(#grain-filter)" />
-        </svg>
+        {/* ── GTM noscript fallback ─────────────────────────────────────── */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
 
         {/* ── Preloader — homepage only (Preloader.tsx checks pathname) ─── */}
         <Preloader />
@@ -100,13 +130,6 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <MobileCTABar />
-
-        {/* ── Page transition overlay ───────────────────────────────────── */}
-        {/* Starts at scaleY:0 (invisible). On internal link click, GSAP in  */}
-        {/* InteractionEffects scales it to 1, navigates, then scales it to  */}
-        {/* 0 on the next page load. z-index sits below preloader (10000).   */}
-        <div id="page-transition" aria-hidden="true" />
 
         {/* ── Animation infrastructure ──────────────────────────────────── */}
         <AnimationProvider />
@@ -130,6 +153,24 @@ export default function RootLayout({
         <Script
           src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"
           strategy="afterInteractive"
+        />
+
+        {/* ── Google Ads (gtag.js) ──────────────────────────────────────── */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18204165915"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18204165915');
+            `,
+          }}
         />
       </body>
     </html>

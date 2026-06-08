@@ -16,7 +16,6 @@ interface Item {
   headline: string;
   subline: string;
   detail?: string;
-  accent?: string; // optional large bg character
   href?: string;
 }
 
@@ -27,7 +26,6 @@ const items: Item[] = [
     subline: "per month",
     detail:
       "$1,500 one-time setup · GBP Optimization · Local SEO · Monthly Reporting",
-    accent: "01",
     href: "/packages/foundation",
   },
   {
@@ -36,7 +34,6 @@ const items: Item[] = [
     subline: "per month",
     detail:
       "$1,500 one-time setup · GBP + Website + Reviews + SEO Content · Full Coverage",
-    accent: "02",
     href: "/packages/visibility",
   },
   {
@@ -45,7 +42,6 @@ const items: Item[] = [
     subline: "categories configured",
     detail:
       "Most practices start with 1–2 GBP categories. We build to 8–10, add 30+ services in patient-search language, and schedule 52 posts at onboarding.",
-    accent: "↑",
   },
   {
     eyebrow: "Website Rebuild",
@@ -53,7 +49,6 @@ const items: Item[] = [
     subline: "pages at launch",
     detail:
       "Core 30 SEO architecture — every page targets a specific local search term. All 7 GBP consistency signals verified. Google Search Console submitted day one.",
-    accent: "✦",
   },
   {
     eyebrow: "Local SEO",
@@ -61,33 +56,12 @@ const items: Item[] = [
     subline: "new pages per month",
     detail:
       "Each month we publish two pages driven by your Local Falcon rank map: topical pages build relevance, geographic pages extend your radius. Two compounds faster.",
-    accent: "03",
   },
 ];
 
 function CardBody({ item }: { item: Item }) {
   return (
     <>
-      {/* Ghost accent character */}
-      <span
-        aria-hidden="true"
-        style={{
-          position: "absolute",
-          bottom: "-20px",
-          right: "24px",
-          fontFamily:
-            "var(--font-display), Georgia, 'Times New Roman', serif",
-          fontStyle: "italic",
-          fontSize: "clamp(120px, 16vw, 200px)",
-          color: "rgba(201,168,76,0.04)",
-          lineHeight: 1,
-          pointerEvents: "none",
-          userSelect: "none",
-        }}
-      >
-        {item.accent}
-      </span>
-
       {/* Top: eyebrow + (link cue if clickable) */}
       <div
         style={{
@@ -178,13 +152,6 @@ export default function HorizontalScroll() {
     <section
       className="h-scroll-wrap"
       aria-label="Packages and results"
-      style={{
-        height: "100vh",
-        overflow: "hidden",
-        display: "flex",
-        alignItems: "center",
-        position: "relative",
-      }}
     >
       {/* Section label — fixed left, out of flow visually */}
       <div

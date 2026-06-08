@@ -18,6 +18,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
 
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -46,18 +47,21 @@ export default function Header() {
           top: 0,
           left: 0,
           right: 0,
-          height: "60px",
+          height: "calc(60px + env(safe-area-inset-top))",
+          paddingTop: "env(safe-area-inset-top)",
+          paddingBottom: 0,
+          paddingLeft: "clamp(24px, 5vw, 64px)",
+          paddingRight: "clamp(24px, 5vw, 64px)",
           zIndex: 1000,
           display: "grid",
           gridTemplateColumns: "1fr auto 1fr",
           alignItems: "center",
-          padding: "0 clamp(24px, 5vw, 64px)",
-          background: scrolled ? "rgba(5,5,5,0.9)" : "transparent",
-          backdropFilter: scrolled ? "blur(20px)" : "none",
-          WebkitBackdropFilter: scrolled ? "blur(20px)" : "none",
+          background: scrolled ? "rgba(5,5,5,0.9)" : "rgba(5,5,5,0.85)",
+          backdropFilter: "blur(20px)",
+          WebkitBackdropFilter: "blur(20px)",
           borderBottom: scrolled ? "1px solid var(--wire)" : "1px solid transparent",
           transition:
-            "background 0.4s ease, backdrop-filter 0.4s ease, border-color 0.4s ease",
+            "background 0.4s ease, border-color 0.4s ease",
         }}
       >
         {/* Left — wordmark (magnetic pull wired by InteractionEffects) */}
@@ -79,10 +83,10 @@ export default function Header() {
         </Link>
 
         {/* Center — desktop nav links */}
+        {/* NOTE: no display in style prop — display is controlled by hidden/md:flex classes only */}
         <nav
           aria-label="Primary navigation"
           style={{
-            display: "flex",
             alignItems: "center",
             gap: "36px",
           }}
@@ -155,7 +159,7 @@ export default function Header() {
               whiteSpace: "nowrap",
             }}
           >
-            Get a Quote
+            Get My Free Audit
           </Link>
         </div>
 
@@ -295,7 +299,7 @@ export default function Header() {
               marginTop: "8px",
             }}
           >
-            Get a Quote
+            Get My Free Audit
           </Link>
 
           {/* Bottom contact line */}

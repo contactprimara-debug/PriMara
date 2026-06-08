@@ -25,6 +25,15 @@ const SERVICE_LINKS = [
   { label: "Local SEO Content", href: "/services/local-seo-for-medical-practices" },
 ];
 
+const SPECIALTY_LINKS = [
+  { label: "Family Medicine", href: "/specialties/family-medicine" },
+  { label: "Internal Medicine", href: "/specialties/internal-medicine" },
+  { label: "Pediatrics", href: "/specialties/pediatrics" },
+  { label: "Geriatrics", href: "/specialties/geriatrics" },
+  { label: "Concierge Medicine", href: "/specialties/concierge-medicine" },
+  { label: "Direct Primary Care", href: "/specialties/direct-primary-care" },
+];
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -39,7 +48,7 @@ export default function Footer() {
     >
       <div style={{ padding: "0 clamp(24px, 8vw, 120px)" }}>
 
-        {/* ── Three-column grid ─────────────────────────────────────────────── */}
+        {/* ── Four-column grid ──────────────────────────────────────────────── */}
         <div className="footer-grid" style={{ marginBottom: "clamp(32px, 5vw, 48px)" }}>
 
           {/* Col 1: Brand + description + NAP ──────────────────────────────── */}
@@ -207,6 +216,40 @@ export default function Footer() {
             </ul>
           </nav>
 
+          {/* Col 4: Specialties ─────────────────────────────────────────────── */}
+          <nav aria-label="Specialties navigation">
+            <p
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "9px",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "var(--smoke)",
+                marginBottom: "20px",
+              }}
+            >
+              Specialties
+            </p>
+            <ul
+              style={{
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+              }}
+            >
+              {SPECIALTY_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="footer-link">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
         </div>
         {/* end footer-grid */}
 
@@ -274,6 +317,22 @@ export default function Footer() {
             >
               HIPAA Notice
             </Link>
+            <span
+              aria-hidden="true"
+              style={{ color: "var(--wire)", fontSize: "10px" }}
+            >
+              ·
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "10px",
+                color: "var(--smoke)",
+                letterSpacing: "0.06em",
+              }}
+            >
+              HIPAA-Aware Agency
+            </span>
           </div>
         </div>
 

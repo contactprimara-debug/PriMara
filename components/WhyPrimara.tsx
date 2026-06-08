@@ -7,8 +7,8 @@ const cards = [
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <circle cx="14" cy="10" r="5" stroke="var(--color-accent)" strokeWidth="1.75" />
-        <path d="M5 24c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" />
+        <circle cx="14" cy="10" r="5" stroke="var(--ember)" strokeWidth="1.75" />
+        <path d="M5 24c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" />
       </svg>
     ),
     title: "Independent Primary Care Only.",
@@ -17,10 +17,10 @@ const cards = [
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <rect x="4" y="6" width="20" height="18" rx="2.5" stroke="var(--color-accent)" strokeWidth="1.75" />
-        <path d="M4 12h20" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" />
-        <path d="M9 4v4M19 4v4" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" />
-        <path d="M9 17h4M15 17h4" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" />
+        <rect x="4" y="6" width="20" height="18" rx="2.5" stroke="var(--ember)" strokeWidth="1.75" />
+        <path d="M4 12h20" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" />
+        <path d="M9 4v4M19 4v4" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" />
+        <path d="M9 17h4M15 17h4" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" />
       </svg>
     ),
     title: "Founder-Led, Every Engagement.",
@@ -29,8 +29,8 @@ const cards = [
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <path d="M14 3L4 7.5v7c0 6.5 4.5 12.5 10 14 5.5-1.5 10-7.5 10-14v-7L14 3z" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinejoin="round" />
-        <path d="M9.5 14l3 3 6-6" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M14 3L4 7.5v7c0 6.5 4.5 12.5 10 14 5.5-1.5 10-7.5 10-14v-7L14 3z" stroke="var(--ember)" strokeWidth="1.75" strokeLinejoin="round" />
+        <path d="M9.5 14l3 3 6-6" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
     title: "HIPAA-Aware from Day One",
@@ -39,8 +39,8 @@ const cards = [
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <circle cx="14" cy="14" r="10" stroke="var(--color-accent)" strokeWidth="1.75" />
-        <path d="M9 14l3.5 3.5L20 10" stroke="var(--color-accent)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="14" cy="14" r="10" stroke="var(--ember)" strokeWidth="1.75" />
+        <path d="M9 14l3.5 3.5L20 10" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
     title: "Based in West Palm Beach",
@@ -69,7 +69,7 @@ export default function WhyPrimara() {
         <div className="mb-12 text-center">
           <p
             className="mb-3 text-xs uppercase tracking-widest font-medium"
-            style={{ color: "var(--color-accent)", fontFamily: "var(--font-mono)" }}
+            style={{ color: "var(--ember)", fontFamily: "var(--font-mono)" }}
           >
             Why Practices Choose Us
           </p>
@@ -102,7 +102,7 @@ export default function WhyPrimara() {
               {/* Icon */}
               <div
                 className="flex h-12 w-12 items-center justify-center rounded-lg flex-shrink-0"
-                style={{ backgroundColor: "rgba(184,50,26,0.08)" }}
+                style={{ backgroundColor: "rgba(232,97,26,0.1)" }}
                 aria-hidden="true"
               >
                 {card.icon}
