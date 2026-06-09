@@ -35,7 +35,7 @@ export async function submitContact(
       const resend = new Resend(process.env.RESEND_API_KEY);
       await resend.emails.send({
         from: process.env.RESEND_FROM_EMAIL,
-        to: "contactprimara@gmail.com",
+        to: "liam.costello@primara365.com",
         replyTo: process.env.RESEND_REPLY_TO || undefined,
         subject: `New inquiry from ${name} — ${reason}`,
         text: [

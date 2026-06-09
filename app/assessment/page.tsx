@@ -262,8 +262,8 @@ export default function AssessmentLandingPage() {
                   +1 (561) 291-2681
                 </a>
                 <span style={{ color: "var(--wire)" }}>·</span>
-                <a href="mailto:contactprimara@gmail.com" style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--gold)", textDecoration: "none", letterSpacing: "0.04em" }}>
-                  contactprimara@gmail.com
+                <a href="mailto:liam.costello@primara365.com" style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--gold)", textDecoration: "none", letterSpacing: "0.04em" }}>
+                  liam.costello@primara365.com
                 </a>
               </div>
             </div>

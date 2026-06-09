@@ -23,7 +23,7 @@ export async function submitAssessment(payload: AssessmentPayload) {
 
       await resend.emails.send({
         from: process.env.RESEND_FROM_EMAIL,
-        to: "contactprimara@gmail.com",
+        to: "liam.costello@primara365.com",
         replyTo: payload.email,
         subject: `Practice Score Assessment — ${payload.name} scored ${payload.score}% (${payload.tier})`,
         text: [

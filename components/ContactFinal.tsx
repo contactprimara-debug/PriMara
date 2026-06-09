@@ -16,7 +16,7 @@ import { submitContact } from '@/app/actions/contact';
    GSAP on submit: form fades out, confirmation fades in
    H2 "split-reveal" → TypeAnimations (global, char-by-char entrance)
 
-   Form submits via submitContact server action → Resend → contactprimara@gmail.com
+   Form submits via submitContact server action → Resend → liam.costello@primara365.com
    GSAP transition runs on successful submission.
 */
 
@@ -453,7 +453,7 @@ export default function ContactFinal() {
                 Email
               </p>
               <a
-                href="mailto:contactprimara@gmail.com"
+                href="mailto:liam.costello@primara365.com"
                 style={{
                   fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
                   fontSize: 'clamp(14px, 1.5vw, 18px)',
@@ -464,7 +464,7 @@ export default function ContactFinal() {
                   transition: 'color 0.2s',
                 }}
               >
-                contactprimara@gmail.com
+                liam.costello@primara365.com
               </a>
             </div>
 

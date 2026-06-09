@@ -363,7 +363,7 @@ export default function ResultsPage() {
       <div style={{ borderTop: "1px solid var(--wire)", padding: "clamp(24px, 4vw, 40px) clamp(24px, 8vw, 80px)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "16px" }}>
         <span style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "16px", color: "var(--chalk)" }}>Primara</span>
         <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
-          <a href="mailto:contactprimara@gmail.com" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>contactprimara@gmail.com</a>
+          <a href="mailto:liam.costello@primara365.com" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>liam.costello@primara365.com</a>
           <a href="tel:+15612912681" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>+1 (561) 291-2681</a>
           <Link href="/" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>primara365.com</Link>
         </div>

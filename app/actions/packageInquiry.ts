@@ -33,7 +33,7 @@ export async function submitPackageInquiry(
       const resend = new Resend(process.env.RESEND_API_KEY);
       await resend.emails.send({
         from: process.env.RESEND_FROM_EMAIL,
-        to: "contactprimara@gmail.com",
+        to: "liam.costello@primara365.com",
         replyTo: email,
         subject: `Package inquiry — ${pkg} — ${name} (${practice})`,
         text: [
@@ -63,7 +63,7 @@ export async function submitPackageInquiry(
     console.error("[packageInquiry] Resend send failed:", err);
     return {
       status: "error",
-      error: "Could not send your inquiry. Please email contactprimara@gmail.com or call (561) 291-2681.",
+      error: "Could not send your inquiry. Please email liam.costello@primara365.com or call (561) 291-2681.",
     };
   }
 

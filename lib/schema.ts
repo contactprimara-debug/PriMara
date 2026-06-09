@@ -19,7 +19,7 @@ export const localBusinessSchema = {
   name: "Primara",
   url: SITE_URL,
   telephone: "+15612912681",
-  email: "contactprimara@gmail.com",
+  email: "liam.costello@primara365.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "West Palm Beach, FL",
@@ -127,7 +127,7 @@ export const primaryCareSchema = {
   name: "Primara — Primary Care Digital Marketing",
   url: `${SITE_URL}/primary-care`,
   telephone: "+15612912681",
-  email: "contactprimara@gmail.com",
+  email: "liam.costello@primara365.com",
   medicalSpecialty: "PrimaryCare",
   areaServed: { "@type": "State", name: "Florida" },
   description:
@@ -146,7 +146,7 @@ export const mentalHealthSchema = {
   name: "Primara — Mental Health Practice Digital Marketing",
   url: `${SITE_URL}/mental-health`,
   telephone: "+15612912681",
-  email: "contactprimara@gmail.com",
+  email: "liam.costello@primara365.com",
   medicalSpecialty: "Psychiatric",
   areaServed: { "@type": "State", name: "Florida" },
   description:

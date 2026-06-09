@@ -8,7 +8,7 @@ This is what prospects find when they Google "Primara" after a drop-in.
 - Framework: Next.js 14 (App Router)
 - Styling: Tailwind CSS
 - Components: shadcn/ui (forms)
-- Email: Resend → contactprimara@gmail.com
+- Email: Resend → liam.costello@primara365.com
 - Analytics: Plausible (privacy-respecting, no cookie banner needed)
 - Hosting: Vercel
 - Language: TypeScript
@@ -35,7 +35,7 @@ NEXT_PUBLIC_SITE_URL=https://primara.com
 ## Brand
 - Agency: PRIMARA
 - Founders: Liam Costello & Gio LaRoche
-- Email: contactprimara@gmail.com
+- Email: liam.costello@primara365.com
 - Phone: +1 (561) 291-2681
 - Calendly: calendly.com/contactprimara/30min
 - Tagline: Digital Marketing for Independent Medical Practices
@@ -50,7 +50,7 @@ NEXT_PUBLIC_SITE_URL=https://primara.com
 - Organization, Service, Article, ContactPage
 
 ## Rules
-- Audit request form on /the-audit and /contact → Resend → contactprimara@gmail.com
+- Audit request form on /the-audit and /contact → Resend → liam.costello@primara365.com
 - Calendly embedded on /contact
 - No pricing shown on /the-audit page — pricing comes from the salesperson
 - Domain: primara.com (confirm availability before build)

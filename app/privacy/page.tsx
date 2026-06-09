@@ -201,8 +201,8 @@ export default function PrivacyPage() {
           </ul>
           <p style={{ ...bodyStyle, marginTop: "0.75rem" }}>
             To exercise any of these rights, email us at{" "}
-            <a href="mailto:contactprimara@gmail.com" style={{ color: "var(--gold)" }}>
-              contactprimara@gmail.com
+            <a href="mailto:liam.costello@primara365.com" style={{ color: "var(--gold)" }}>
+              liam.costello@primara365.com
             </a>
             . We will respond within 30 days.
           </p>
@@ -246,8 +246,8 @@ export default function PrivacyPage() {
           >
             Primara<br />
             West Palm Beach, FL 33401<br />
-            <a href="mailto:contactprimara@gmail.com" style={{ color: "var(--gold)" }}>
-              contactprimara@gmail.com
+            <a href="mailto:liam.costello@primara365.com" style={{ color: "var(--gold)" }}>
+              liam.costello@primara365.com
             </a>
             <br />
             <a href="tel:+15612912681" style={{ color: "var(--gold)" }}>

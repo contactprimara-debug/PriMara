@@ -127,7 +127,7 @@ export default function Footer() {
                 +1 (561) 291-2681
               </a>
               <a
-                href="mailto:contactprimara@gmail.com"
+                href="mailto:liam.costello@primara365.com"
                 style={{
                   fontFamily: "system-ui, sans-serif",
                   fontSize: "12px",
@@ -139,7 +139,7 @@ export default function Footer() {
                   width: "fit-content",
                 }}
               >
-                contactprimara@gmail.com
+                liam.costello@primara365.com
               </a>
             </address>
           </div>
