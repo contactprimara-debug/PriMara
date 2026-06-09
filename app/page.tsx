@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { aggregateRatingSchema, toJsonLd } from "@/lib/schema";
 
 // ── Core layout ───────────────────────────────────────────────────────────
@@ -30,16 +31,16 @@ import TypeAnimations from "@/components/TypeAnimations";
 import ScrollStorytelling from "@/components/ScrollStorytelling";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Independent Medical Practices in Florida | Primara",
+  title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
   description:
-    "Primara manages GBP optimization, local SEO, website design, and review generation for independent primary care practices in Florida. Liam Costello & Gio LaRoche. Call +1 (561) 291-2681.",
+    "Primara is a Florida-based digital marketing agency for independent healthcare practices — primary care physicians and mental health providers. GBP, local SEO, website, reviews. Call (561) 291-2681.",
   alternates: {
     canonical: "https://primara365.com",
   },
   openGraph: {
-    title: "Digital Marketing for Independent Medical Practices in Florida | Primara",
+    title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
     description:
-      "GBP optimization, local SEO, and website design for independent primary care practices in Florida. Call +1 (561) 291-2681.",
+      "Primara is a Florida-based digital marketing agency for independent healthcare practices — primary care physicians and mental health providers. GBP, local SEO, website, reviews. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com",
   },
@@ -56,6 +57,135 @@ export default function HomePage() {
       {/* ── Above fold ─────────────────────────────────────────────────── */}
       <Hero />
       <Marquee />
+
+      {/* ── Vertical selector cards ───────────────────────────────────────── */}
+      <section
+        aria-label="Who we serve"
+        style={{
+          padding: "clamp(48px, 6vw, 80px) clamp(24px, 8vw, 120px)",
+          borderTop: "1px solid var(--wire)",
+          backgroundColor: "var(--surface)",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "system-ui, sans-serif",
+            fontSize: "10px",
+            letterSpacing: "0.2em",
+            textTransform: "uppercase",
+            color: "var(--smoke)",
+            marginBottom: "clamp(20px, 3vw, 32px)",
+          }}
+        >
+          Who We Serve
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: "20px",
+          }}
+        >
+          <Link
+            href="/primary-care"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px",
+              padding: "clamp(28px, 4vw, 40px)",
+              border: "1px solid var(--wire)",
+              borderRadius: "4px",
+              backgroundColor: "var(--void)",
+              textDecoration: "none",
+              transition: "border-color 0.2s",
+            }}
+            className="vertical-card"
+          >
+            <span
+              style={{
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontSize: "clamp(24px, 3vw, 32px)",
+                color: "var(--chalk)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+              }}
+            >
+              Primary Care
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                color: "var(--ash)",
+                lineHeight: 1.6,
+              }}
+            >
+              Family medicine, internal medicine, pediatrics, geriatrics, concierge
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "12px",
+                letterSpacing: "0.08em",
+                color: "var(--gold)",
+                marginTop: "4px",
+              }}
+            >
+              See How We Help →
+            </span>
+          </Link>
+          <Link
+            href="/mental-health"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px",
+              padding: "clamp(28px, 4vw, 40px)",
+              border: "1px solid var(--wire)",
+              borderRadius: "4px",
+              backgroundColor: "var(--void)",
+              textDecoration: "none",
+              transition: "border-color 0.2s",
+            }}
+            className="vertical-card"
+          >
+            <span
+              style={{
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontSize: "clamp(24px, 3vw, 32px)",
+                color: "var(--chalk)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+              }}
+            >
+              Mental Health
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                color: "var(--ash)",
+                lineHeight: 1.6,
+              }}
+            >
+              Solo therapists, psychologists, licensed counselors, group practices
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "12px",
+                letterSpacing: "0.08em",
+                color: "var(--gold)",
+                marginTop: "4px",
+              }}
+            >
+              See How We Help →
+            </span>
+          </Link>
+        </div>
+      </section>
 
       {/* ── Reviews section ──────────────────────────────────────────────── */}
       <ReviewsSection />

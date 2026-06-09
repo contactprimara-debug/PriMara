@@ -25,13 +25,9 @@ const SERVICE_LINKS = [
   { label: "Local SEO Content", href: "/services/local-seo-for-medical-practices" },
 ];
 
-const SPECIALTY_LINKS = [
-  { label: "Family Medicine", href: "/specialties/family-medicine" },
-  { label: "Internal Medicine", href: "/specialties/internal-medicine" },
-  { label: "Pediatrics", href: "/specialties/pediatrics" },
-  { label: "Geriatrics", href: "/specialties/geriatrics" },
-  { label: "Concierge Medicine", href: "/specialties/concierge-medicine" },
-  { label: "Direct Primary Care", href: "/specialties/direct-primary-care" },
+const WHO_WE_SERVE_LINKS = [
+  { label: "Primary Care", href: "/primary-care" },
+  { label: "Mental Health", href: "/mental-health" },
 ];
 
 export default function Footer() {
@@ -216,8 +212,8 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Col 4: Specialties ─────────────────────────────────────────────── */}
-          <nav aria-label="Specialties navigation">
+          {/* Col 4: Who We Serve ─────────────────────────────────────────────── */}
+          <nav aria-label="Who we serve navigation">
             <p
               style={{
                 fontFamily: "system-ui, sans-serif",
@@ -228,7 +224,7 @@ export default function Footer() {
                 marginBottom: "20px",
               }}
             >
-              Specialties
+              Who We Serve
             </p>
             <ul
               style={{
@@ -240,7 +236,7 @@ export default function Footer() {
                 gap: "12px",
               }}
             >
-              {SPECIALTY_LINKS.map((link) => (
+              {WHO_WE_SERVE_LINKS.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="footer-link">
                     {link.label}

@@ -241,12 +241,12 @@ export default function PackageInquiryForm({
             textAlign: "center",
           }}
         >
-          Prefer email? Reach us at{" "}
+          Prefer to call? Reach us at{" "}
           <a
-            href="mailto:contactprimara@gmail.com"
+            href="tel:+15612912681"
             style={{ color: "var(--gold)", textDecoration: "none" }}
           >
-            contactprimara@gmail.com
+            (561) 291-2681
           </a>
         </p>
       </div>

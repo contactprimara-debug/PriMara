@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@/lib/siteConfig";
@@ -13,10 +13,28 @@ const navLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+const WHO_WE_SERVE = [
+  { label: "Primary Care", href: "/primary-care" },
+  { label: "Mental Health", href: "/mental-health" },
+];
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [whoWeServeOpen, setWhoWeServeOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setWhoWeServeOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
 
   useEffect(() => {
@@ -92,7 +110,115 @@ export default function Header() {
           }}
           className="hidden md:flex"
         >
-          {navLinks.map((link) => {
+          {/* Home */}
+          <Link
+            href="/"
+            aria-current={pathname === "/" ? "page" : undefined}
+            className="nav-link"
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "11px",
+              textTransform: "uppercase" as const,
+              letterSpacing: "0.1em",
+              color: pathname === "/" ? "var(--chalk)" : "var(--smoke)",
+              textDecoration: "none",
+              transition: "color 0.2s",
+            }}
+          >
+            Home
+          </Link>
+
+          {/* Who We Serve dropdown */}
+          <div ref={dropdownRef} style={{ position: "relative" }}>
+            <button
+              onClick={() => setWhoWeServeOpen((o) => !o)}
+              aria-expanded={whoWeServeOpen}
+              aria-haspopup="true"
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "11px",
+                textTransform: "uppercase",
+                letterSpacing: "0.1em",
+                color: (pathname === "/primary-care" || pathname === "/mental-health")
+                  ? "var(--chalk)"
+                  : whoWeServeOpen
+                  ? "var(--chalk)"
+                  : "var(--smoke)",
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                display: "flex",
+                alignItems: "center",
+                gap: "5px",
+                transition: "color 0.2s",
+              }}
+            >
+              Who We Serve
+              <svg
+                width="8"
+                height="5"
+                viewBox="0 0 8 5"
+                fill="none"
+                aria-hidden="true"
+                style={{
+                  transition: "transform 0.2s",
+                  transform: whoWeServeOpen ? "rotate(180deg)" : "none",
+                }}
+              >
+                <path d="M1 1l3 3 3-3" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+
+            {whoWeServeOpen && (
+              <div
+                style={{
+                  position: "absolute",
+                  top: "calc(100% + 12px)",
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                  backgroundColor: "rgba(13,13,13,0.98)",
+                  backdropFilter: "blur(20px)",
+                  WebkitBackdropFilter: "blur(20px)",
+                  border: "1px solid var(--wire)",
+                  borderRadius: "4px",
+                  padding: "8px",
+                  minWidth: "160px",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "2px",
+                  zIndex: 1100,
+                }}
+              >
+                {WHO_WE_SERVE.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setWhoWeServeOpen(false)}
+                    style={{
+                      fontFamily: "system-ui, sans-serif",
+                      fontSize: "11px",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.1em",
+                      color: pathname === item.href ? "var(--gold)" : "var(--ash)",
+                      textDecoration: "none",
+                      padding: "10px 14px",
+                      borderRadius: "2px",
+                      transition: "color 0.15s, background 0.15s",
+                      display: "block",
+                      whiteSpace: "nowrap",
+                    }}
+                    className="dropdown-item"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Remaining nav links */}
+          {navLinks.filter((l) => l.href !== "/").map((link) => {
             const active = pathname === link.href;
             return (
               <Link
@@ -275,6 +401,26 @@ export default function Header() {
                     }}
                   >
                     {link.label}
+                  </Link>
+                </li>
+              ))}
+              {/* Who We Serve sub-items */}
+              {WHO_WE_SERVE.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    onClick={() => setMenuOpen(false)}
+                    style={{
+                      fontFamily: "system-ui, sans-serif",
+                      fontSize: "clamp(13px, 2vw, 15px)",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.14em",
+                      color: pathname === item.href ? "var(--gold)" : "var(--smoke)",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                  >
+                    {item.label}
                   </Link>
                 </li>
               ))}

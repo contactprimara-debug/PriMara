@@ -95,6 +95,33 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Mid-page CTA — "Not sure where to start?" */}
+      <section className="mx-auto max-w-content px-6 lg:px-8 pb-10">
+        <div
+          className="rounded-xl p-8 flex flex-col sm:flex-row sm:items-center gap-6"
+          style={{ backgroundColor: "var(--surface)", border: "1px solid var(--wire)" }}
+        >
+          <div className="flex-1">
+            <p
+              className="font-serif font-bold mb-2"
+              style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.25rem", color: "var(--color-text)" }}
+            >
+              Not sure where to start?
+            </p>
+            <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--color-text-muted)", lineHeight: 1.65 }}>
+              We audit your practice for free — GBP, Maps ranking, website, and reviews. No templates. Delivered in 3&ndash;5 days.
+            </p>
+          </div>
+          <Link
+            href="/the-audit"
+            className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
+            style={{ backgroundColor: "var(--ember)", height: "48px", fontSize: "0.9375rem", textDecoration: "none", whiteSpace: "nowrap" }}
+          >
+            Get My Free Practice Audit →
+          </Link>
+        </div>
+      </section>
+
       {/* Services list */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-24">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -121,6 +148,62 @@ export default function ServicesPage() {
               </Link>
             </article>
           ))}
+        </div>
+      </section>
+      {/* Bottom CTA */}
+      <section
+        aria-labelledby="services-bottom-cta"
+        style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}
+      >
+        <div className="mx-auto max-w-content px-6 lg:px-8 py-20">
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+              marginBottom: "12px",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase" as const,
+              color: "var(--smoke)",
+            }}
+          >
+            <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+            Get Started
+          </div>
+
+          <h2
+            id="services-bottom-cta"
+            className="font-serif font-bold"
+            style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)", color: "var(--color-text)", marginBottom: "24px" }}
+          >
+            Every service starts with a free audit.
+          </h2>
+
+          <p
+            className="max-w-2xl"
+            style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--color-text-muted)", lineHeight: 1.85 }}
+          >
+            Liam or Gio will research your practice and walk you through the findings personally. No obligation.
+          </p>
+
+          <div className="mt-10 flex gap-4 flex-wrap">
+            <Link
+              href="/the-audit"
+              className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
+              style={{ backgroundColor: "var(--color-accent)", height: "52px", fontSize: "1rem", textDecoration: "none" }}
+            >
+              Start My Free Audit →
+            </Link>
+            <a
+              href="tel:+15612912681"
+              className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
+              style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "52px", fontSize: "1rem" }}
+            >
+              (561) 291-2681
+            </a>
+          </div>
         </div>
       </section>
     </main>

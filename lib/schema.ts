@@ -120,6 +120,44 @@ export const gioSchema = {
   ],
 };
 
+// ── 4. Primary Care vertical schema ─────────────────────────────────────
+export const primaryCareSchema = {
+  "@context": "https://schema.org",
+  "@type": ["MedicalOrganization", "ProfessionalService"],
+  name: "Primara — Primary Care Digital Marketing",
+  url: `${SITE_URL}/primary-care`,
+  telephone: "+15612912681",
+  email: "contactprimara@gmail.com",
+  medicalSpecialty: "PrimaryCare",
+  areaServed: { "@type": "State", name: "Florida" },
+  description:
+    "Primara helps independent primary care physicians in Florida rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: "Primara",
+    url: SITE_URL,
+  },
+};
+
+// ── 5. Mental Health vertical schema ─────────────────────────────────────
+export const mentalHealthSchema = {
+  "@context": "https://schema.org",
+  "@type": ["MedicalClinic", "ProfessionalService"],
+  name: "Primara — Mental Health Practice Digital Marketing",
+  url: `${SITE_URL}/mental-health`,
+  telephone: "+15612912681",
+  email: "contactprimara@gmail.com",
+  medicalSpecialty: "Psychiatric",
+  areaServed: { "@type": "State", name: "Florida" },
+  description:
+    "Primara helps independent therapists, psychologists, and group mental health practices in Florida rank higher on Google and grow without relying on Psychology Today or insurance directories.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: "Primara",
+    url: SITE_URL,
+  },
+};
+
 // ── Helper: wrap any schema object as a JSON-LD string ───────────────────
 export function toJsonLd(schema: Record<string, unknown>): string {
   return JSON.stringify(schema);

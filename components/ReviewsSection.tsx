@@ -192,7 +192,7 @@ export default function ReviewsSection() {
                 letterSpacing: "0.04em",
               }}
             >
-              West Palm Beach, FL · Est. 2026 · Primary Care Only
+              West Palm Beach, FL · Primary Care Only · Florida
             </span>
           </div>
         </header>

@@ -71,21 +71,18 @@ export default function Hero() {
               color: "var(--chalk)",
               fontWeight: 400,
               marginBottom: "clamp(24px, 3vw, 44px)",
-              maxWidth: "14ch",
+              maxWidth: "16ch",
             }}
           >
-            More
-            <br />
+            Independent practices in Florida deserve to be{" "}
             <em
               style={{
                 fontStyle: "italic",
                 color: "var(--gold)",
               }}
             >
-              Patients
+              found.
             </em>
-            <br />
-            Find Your Practice. Not the One Down the Street.
           </h1>
 
           {/* Subheadline */}
@@ -101,7 +98,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            GBP optimization, local SEO, and website design for independent primary care practices in Florida. Founder-led. HIPAA-aware. Currently accepting new clients.
+            Primara builds the digital presence independent primary care physicians and mental health practices in Florida should have had from day one &mdash; Google Business Profile, local SEO, website, and review systems that fill schedules without depending on directories, referrals, or word of mouth.
           </p>
 
           {/* CTA pair */}

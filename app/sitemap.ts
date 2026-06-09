@@ -15,6 +15,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
 
+    // ── Priority 0.9 — Vertical landing pages ───────────────────────────
+    {
+      url: `${SITE_URL}/primary-care`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/mental-health`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+
     // ── Priority 0.9 — Core action pages ────────────────────────────────
     {
       url: `${SITE_URL}/contact`,

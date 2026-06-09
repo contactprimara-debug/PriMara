@@ -285,7 +285,7 @@ export default function ContactFinal() {
                       opacity: submitting ? 0.7 : 1,
                     }}
                   >
-                    {submitting ? 'Sending…' : 'Request Your Free Audit →'}
+                    {submitting ? 'Sending…' : 'Send My Audit Request →'}
                   </button>
 
                   {/* Inline error message */}

@@ -263,7 +263,7 @@ export default function FoundationPackagePage() {
                 textDecoration: "none",
               }}
             >
-              Request Package Details
+              Send My Package Inquiry →
             </a>
             <a
               href="tel:+15612912681"
