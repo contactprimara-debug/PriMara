@@ -13,11 +13,11 @@ export async function submitContact(
   formData: FormData
 ): Promise<ContactState> {
   const name = (formData.get("name") as string)?.trim();
+  const practiceName = (formData.get("practiceName") as string)?.trim();
   const phone = (formData.get("phone") as string)?.trim();
-  const reason = (formData.get("reason") as string)?.trim();
   const callTime = (formData.get("callTime") as string)?.trim();
 
-  if (!name || !phone || !reason || !callTime) {
+  if (!name || !practiceName || !phone || !callTime) {
     return { status: "error", error: "All fields are required." };
   }
 
@@ -37,16 +37,16 @@ export async function submitContact(
         from: process.env.RESEND_FROM_EMAIL,
         to: "liam.costello@primara365.com",
         replyTo: process.env.RESEND_REPLY_TO || undefined,
-        subject: `New inquiry from ${name} — ${reason}`,
+        subject: `New inquiry from ${name} — ${practiceName}`,
         text: [
           `Name: ${name}`,
+          `Practice: ${practiceName}`,
           `Phone: ${phone}`,
-          `Reason: ${reason}`,
           `Best time to call: ${callTime}`,
         ].join("\n"),
       });
     } else {
-      console.log("[contact] RESEND_API_KEY not set — submission:", { name, phone, reason, callTime });
+      console.log("[contact] RESEND_API_KEY not set — submission:", { name, practiceName, phone, callTime });
     }
   } catch (err) {
     console.error("[contact] Resend send failed:", err);

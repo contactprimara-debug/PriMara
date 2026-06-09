@@ -23,8 +23,8 @@ import { submitContact } from '@/app/actions/contact';
 export default function ContactFinal() {
   const router = useRouter();
   const [name, setName] = useState('');
+  const [practiceName, setPracticeName] = useState('');
   const [phone, setPhone] = useState('');
-  const [reason, setReason] = useState('New Practice Inquiry');
   const [callbackTime, setCallbackTime] = useState('Anytime');
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState('');
@@ -43,8 +43,8 @@ export default function ContactFinal() {
     // Build FormData matching server action field names
     const fd = new FormData();
     fd.set('name', name);
+    fd.set('practiceName', practiceName);
     fd.set('phone', phone);
-    fd.set('reason', reason);
     fd.set('callTime', callbackTime);
 
     const result = await submitContact({ status: 'idle' }, fd);
@@ -208,10 +208,28 @@ export default function ContactFinal() {
                     />
                   </div>
 
-                  {/* Field 2: Phone — type="tel" triggers numeric keyboard on mobile */}
+                  {/* Field 2: Practice Name */}
+                  <div className="contact-field-group">
+                    <label htmlFor="cf-practice" className="contact-field-label">
+                      Practice Name
+                    </label>
+                    <input
+                      id="cf-practice"
+                      type="text"
+                      name="practiceName"
+                      required
+                      autoComplete="organization"
+                      placeholder="Smith Family Medicine"
+                      value={practiceName}
+                      onChange={(e) => setPracticeName(e.target.value)}
+                      className="contact-input"
+                    />
+                  </div>
+
+                  {/* Field 3: Phone — type="tel" triggers numeric keyboard on mobile */}
                   <div className="contact-field-group">
                     <label htmlFor="cf-phone" className="contact-field-label">
-                      Phone
+                      Phone Number
                     </label>
                     <input
                       id="cf-phone"
@@ -225,25 +243,6 @@ export default function ContactFinal() {
                       onChange={(e) => setPhone(e.target.value)}
                       className="contact-input"
                     />
-                  </div>
-
-                  {/* Field 3: Reason — styled select, no native chrome */}
-                  <div className="contact-field-group">
-                    <label htmlFor="cf-reason" className="contact-field-label">
-                      Reason
-                    </label>
-                    <select
-                      id="cf-reason"
-                      name="reason"
-                      value={reason}
-                      onChange={(e) => setReason(e.target.value)}
-                      className="contact-input contact-select"
-                    >
-                      <option value="New Practice Inquiry">New Practice Inquiry</option>
-                      <option value="Learn About Our Services">Learn About Our Services</option>
-                      <option value="General Question">General Question</option>
-                      <option value="Other">Other</option>
-                    </select>
                   </div>
 
                   {/* Field 4: Best Callback Time */}

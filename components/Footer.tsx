@@ -78,7 +78,7 @@ export default function Footer() {
               }}
             >
               Primara is an independent digital marketing agency in Florida,
-              exclusively serving independent medical practices.
+              exclusively serving independent healthcare practices.
             </p>
 
             {/* NAP block — character-for-character GBP match */}

@@ -125,7 +125,7 @@ export default function PrimaryCarePage() {
           }}
         >
           <li><Link href="/" className="breadcrumb-link">Home</Link></li>
-          <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
+          <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>›</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Primary Care</li>
         </ol>
       </nav>

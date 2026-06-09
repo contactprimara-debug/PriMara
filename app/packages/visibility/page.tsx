@@ -6,12 +6,12 @@ import PackageInquiryForm from "@/components/PackageInquiryForm";
 export const metadata: Metadata = {
   title: "Visibility Package — Foundation + Google Ads | Primara",
   description:
-    "$1,800/mo Visibility Package: everything in the Foundation Package plus Google Ads management for independent medical practices in Florida. You pay Google directly. Call (561) 291-2681.",
+    "$1,800/mo Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices in Florida. You pay Google directly. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/visibility" },
   openGraph: {
     title: "Visibility Package — Foundation + Google Ads | Primara",
     description:
-      "$1,800/mo: Foundation Package + Google Ads management for independent primary care practices in Florida. Call (561) 291-2681.",
+      "$1,800/mo: Foundation Package + Google Ads management for independent healthcare practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/packages/visibility",
   },
@@ -44,7 +44,7 @@ const offerSchema = {
   },
   areaServed: { "@type": "State", name: "Florida" },
   description:
-    "Visibility Package for independent medical practices in Florida: full Google Business Profile management, website rebuild, review generation system, monthly SEO content, and comprehensive reporting.",
+    "Visibility Package for independent healthcare practices in Florida: full Google Business Profile management, website rebuild, review generation system, monthly SEO content, and comprehensive reporting.",
   offers: {
     "@type": "Offer",
     price: "1800",
@@ -417,7 +417,7 @@ export default function VisibilityPackagePage() {
               marginBottom: "20px",
             }}
           >
-            Primary care practices in Florida with open appointment capacity
+            Primary care and mental health practices in Florida with open appointment capacity
             who want to run paid search alongside organic SEO — and want a
             single team managing both rather than splitting accountability
             across vendors.

@@ -28,7 +28,7 @@ const problemBlocks = [
   },
   {
     heading: "Mental health GBP optimization is almost never done correctly",
-    body: "Most therapy practices have a GBP with one category (\"Psychologist\" or \"Mental health service\"), no service list, and photos of a waiting room. A fully optimized mental health GBP carries 6–8 categories — \"Psychologist,\" \"Mental health clinic,\" \"Counselor,\" \"Child psychologist,\" \"Marriage or relationship counselor,\" \"Addiction treatment center\" where applicable — and 30+ services written in exact client-search language: \"anxiety therapy near me,\" \"couples counseling [city],\" \"EMDR therapist Florida.\"",
+    body: "Most therapy practices have a GBP with one category (\"Psychologist\" or \"Mental health service\"), no service list, and photos of a waiting room. A fully optimized mental health GBP carries 6–8 categories — \"Psychologist,\" \"Mental health clinic,\" \"Counselor,\" \"Child psychologist,\" \"Marriage or relationship counselor,\" \"Addiction treatment center\" where applicable — and 30+ services written in exact client-search language: \"anxiety therapy near me,\" \"couples counseling Miami,\" \"EMDR therapist Florida.\"",
   },
   {
     heading: "Stigma is declining. Search intent is rising. Your window is now.",
@@ -49,7 +49,7 @@ const services = [
   {
     num: "02",
     title: "Mental Health Practice Website Rebuild",
-    body: "30 pages at launch. Every page targets a specific search a prospective client might type. Modality pages — \"CBT therapist [city],\" \"EMDR therapy [city],\" \"DBT therapist [city].\" Population pages — \"teen therapist [city],\" \"couples therapy [city],\" \"men's therapist [city].\" Condition pages — \"anxiety treatment [city],\" \"depression therapy [city],\" \"trauma counseling [city].\" Built in Next.js, deployed on Vercel, with MentalHealthClinic JSON-LD schema and all 7 GBP consistency signals verified. Designed to feel warm and trusted — because the website is the first impression a vulnerable person has of your practice.",
+    body: "30 pages at launch. Every page targets a specific search a prospective client might type. Modality pages — \"CBT therapist Miami,\" \"EMDR therapy Miami,\" \"DBT therapist Miami.\" Population pages — \"teen therapist Miami,\" \"couples therapy Miami,\" \"men's therapist Miami.\" Condition pages — \"anxiety treatment Miami,\" \"depression therapy Miami,\" \"trauma counseling Miami.\" Built in Next.js, deployed on Vercel, with MentalHealthClinic JSON-LD schema and all 7 GBP consistency signals verified. Designed to feel warm and trusted — because the website is the first impression a vulnerable person has of your practice.",
   },
   {
     num: "03",
@@ -93,7 +93,7 @@ const sensitivityPrinciples = [
   },
   {
     title: "Population-specific pages that feel seen, not clinical",
-    body: "A page titled \"Therapy for Men in [City]\" is not a medical document — it's a landing page written for a man who has never gone to therapy and is quietly searching at midnight. The tone, the framing, and the language are calibrated for that moment. Every population page we write is built around the search intent and emotional state of the person typing that query.",
+    body: "A page titled \"Therapy for Men in Miami\" is not a medical document — it's a landing page written for a man who has never gone to therapy and is quietly searching at midnight. The tone, the framing, and the language are calibrated for that moment. Every population page we write is built around the search intent and emotional state of the person typing that query.",
   },
 ];
 
@@ -148,7 +148,7 @@ export default function MentalHealthPage() {
           }}
         >
           <li><Link href="/" className="breadcrumb-link">Home</Link></li>
-          <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
+          <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>›</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Mental Health</li>
         </ol>
       </nav>
@@ -398,7 +398,7 @@ export default function MentalHealthPage() {
               margin: "0 0 clamp(48px, 6vw, 64px)",
             }}
           >
-            Mental health search intent is different. People search by symptom (&ldquo;anxiety therapist near me&rdquo;), modality (&ldquo;EMDR therapist Florida&rdquo;), population (&ldquo;teen therapist [city]&rdquo;), and insurance (&ldquo;therapist accepting Aetna [city]&rdquo;). We build your local presence around all of it.
+            Mental health search intent is different. People search by symptom (&ldquo;anxiety therapist near me&rdquo;), modality (&ldquo;EMDR therapist Florida&rdquo;), population (&ldquo;teen therapist Miami&rdquo;), and insurance (&ldquo;therapist accepting Aetna Miami&rdquo;). We build your local presence around all of it.
           </p>
           <ol
             style={{

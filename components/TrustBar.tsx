@@ -46,8 +46,8 @@ const stats = [
         <path d="M8 11l2.5 2.5 4-4" stroke="white" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    value: "✓ Available",
-    label: "Now Accepting New Clients",
+    value: "Month-to-Month",
+    label: "No Long-Term Contracts",
   },
 ];
 

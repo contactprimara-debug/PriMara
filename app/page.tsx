@@ -198,7 +198,6 @@ export default function HomePage() {
       {/* ── Social proof + editorial moment ─────────────────────────────── */}
       <PullQuote
         text="Most agencies are building for last year's Google. We're building for 18 months from now."
-        cite="— Primara, on Google's April 2026 AskMaps update"
       />
 
       {/* ── Services detail (section 02) ─────────────────────────────────── */}

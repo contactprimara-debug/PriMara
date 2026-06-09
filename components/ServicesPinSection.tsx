@@ -12,7 +12,7 @@ const services = [
     index: "02",
     name: "Website Rebuild",
     description:
-      "Core 30 SEO architecture, built in Lovable, deployed on Vercel. Mobile-first, fast, and designed to rank.",
+      "Core 30 SEO architecture, built in Next.js, deployed on Vercel. Mobile-first, fast, and designed to rank.",
     href: "/services/medical-practice-website-design",
   },
   {

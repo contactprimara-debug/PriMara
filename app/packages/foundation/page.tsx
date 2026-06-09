@@ -4,14 +4,14 @@ import { toJsonLd } from "@/lib/schema";
 import PackageInquiryForm from "@/components/PackageInquiryForm";
 
 export const metadata: Metadata = {
-  title: "Foundation Package — Medical Marketing in Florida | Primara",
+  title: "Foundation Package — Healthcare Marketing in Florida | Primara",
   description:
-    "$750/mo Foundation Package for independent medical practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
+    "$750/mo Foundation Package for independent primary care and mental health practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/foundation" },
   openGraph: {
-    title: "Foundation Package — Medical Marketing in Florida | Primara",
+    title: "Foundation Package — Healthcare Marketing in Florida | Primara",
     description:
-      "$750/mo: GBP optimization, Local SEO, and monthly reporting for independent medical practices in Florida. Call (561) 291-2681.",
+      "$750/mo: GBP optimization, Local SEO, and monthly reporting for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/packages/foundation",
   },
@@ -191,7 +191,7 @@ export default function FoundationPackagePage() {
               margin: "0 0 clamp(32px, 4vw, 48px)",
             }}
           >
-            For independent primary care practices in Florida that need the full digital foundation built and managed: a complete Google Business Profile, a new 30-page website, review generation, and monthly SEO content — all running within 30 days.
+            For independent primary care and mental health practices in Florida that need the full digital foundation built and managed: a complete Google Business Profile, a new 30-page website, review generation, and monthly SEO content — all running within 30 days.
           </p>
 
           {/* Price block */}
@@ -414,7 +414,7 @@ export default function FoundationPackagePage() {
               marginBottom: "20px",
             }}
           >
-            Solo practitioners and single-location primary care practices in
+            Solo practitioners and single-location primary care or mental health practices in
             Florida that are early in their digital marketing journey.
             Practices that have either never claimed their Google Business
             Profile, or have a partial profile with no active management.
@@ -429,7 +429,7 @@ export default function FoundationPackagePage() {
             }}
           >
             If your practice has open appointment capacity and you suspect
-            prospective patients are choosing competitors simply because they
+            prospective patients or clients are choosing competitors simply because they
             can&rsquo;t find or evaluate you online, this is where to start.
           </p>
 
