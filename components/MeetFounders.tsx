@@ -157,12 +157,12 @@ export default function MeetFounders() {
               style={{ fontSize: "1rem", color: "var(--color-text-muted)" }}
             >
               Liam Costello and Gio LaRoche founded Primara in Florida after watching
-              independent primary care physicians lose patients to larger health systems
-              — not because of the quality of care they provided, but because of digital
-              visibility. Primara exists to level that playing field for physician-owned
-              clinics who deserve to compete on merit. Every engagement runs through a
-              co-founder from kickoff to monthly reporting — no junior accounts team, no
-              jargon, no handoffs.
+              independent practices lose patients and clients to larger systems and
+              platforms — not because of the quality of care they provided, but because
+              of digital visibility. We work exclusively with independent primary care
+              practices and mental health practices in Florida. Every engagement runs
+              through a co-founder from kickoff to monthly reporting — no junior accounts
+              team, no jargon, no handoffs.
             </p>
 
             {/* Link to /about */}
