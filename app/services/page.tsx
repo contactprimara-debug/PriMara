@@ -28,7 +28,7 @@ const services = [
     slug: "medical-practice-website-design",
     title: "Medical Practice Website Design",
     description:
-      "A fast, HIPAA-aware website built specifically for independent primary care clinics. Every page is designed to convert visitors into new-patient inquiries.",
+      "A fast, HIPAA-aware website built specifically for independent primary care and mental health practices. Every page is designed to convert visitors into new-patient inquiries.",
   },
   {
     id: "local-seo-for-medical-practices",
@@ -75,7 +75,7 @@ export default function ServicesPage() {
           Digital Marketing Services for Medical Practices in Florida
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Primara offers comprehensive digital marketing for independent, physician-owned primary care clinics in Florida — built by Liam Costello and Gio LaRoche with HIPAA awareness built in.
+          Primara offers comprehensive digital marketing for independent primary care practices and mental health practices in Florida — built by Liam Costello and Gio LaRoche with HIPAA awareness built in.
         </p>
         <div className="mt-8 flex gap-4 flex-wrap">
           <a

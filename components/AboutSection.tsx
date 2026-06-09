@@ -253,10 +253,10 @@ export default function AboutSection() {
                   margin: 0,
                 }}
               >
-                We work exclusively with independent, physician-owned primary care
-                practices. No hospital systems, no urgent care chains, no dental groups.
-                If you&rsquo;re running your own practice and your schedule isn&rsquo;t
-                full, we should talk.
+                We work exclusively with independent primary care practices and mental
+                health practices in Florida. No hospital systems, no urgent care chains,
+                no corporate groups. If you&rsquo;re running your own practice and your
+                schedule isn&rsquo;t full, we should talk.
               </p>
             </div>
 

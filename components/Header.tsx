@@ -128,8 +128,13 @@ export default function Header() {
             Home
           </Link>
 
-          {/* Who We Serve dropdown */}
-          <div ref={dropdownRef} style={{ position: "relative" }}>
+          {/* Who We Serve dropdown — opens on hover */}
+          <div
+            ref={dropdownRef}
+            style={{ position: "relative" }}
+            onMouseEnter={() => setWhoWeServeOpen(true)}
+            onMouseLeave={() => setWhoWeServeOpen(false)}
+          >
             <button
               onClick={() => setWhoWeServeOpen((o) => !o)}
               aria-expanded={whoWeServeOpen}
@@ -174,7 +179,7 @@ export default function Header() {
               <div
                 style={{
                   position: "absolute",
-                  top: "calc(100% + 12px)",
+                  top: "calc(100% + 8px)",
                   left: "50%",
                   transform: "translateX(-50%)",
                   backgroundColor: "rgba(13,13,13,0.98)",
@@ -379,10 +384,57 @@ export default function Header() {
             </svg>
           </button>
 
-          {/* Nav items — large Instrument Serif */}
-          <nav aria-label="Mobile navigation">
-            <ul style={{ listStyle: "none", padding: 0, margin: 0, textAlign: "center", display: "flex", flexDirection: "column", gap: "clamp(16px, 3vh, 28px)" }}>
-              {navLinks.map((link) => (
+          {/* Nav items */}
+          <nav aria-label="Mobile navigation" style={{ width: "100%", maxWidth: "320px", padding: "0 24px" }}>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, textAlign: "center", display: "flex", flexDirection: "column", gap: "clamp(14px, 2.5vh, 24px)" }}>
+              {/* Home */}
+              <li>
+                <Link
+                  href="/"
+                  onClick={() => setMenuOpen(false)}
+                  style={{
+                    fontFamily: "var(--font-display), Georgia, serif",
+                    fontSize: "clamp(32px, 7vw, 56px)",
+                    color: pathname === "/" ? "var(--gold)" : "var(--chalk)",
+                    textDecoration: "none",
+                    letterSpacing: "-0.02em",
+                    lineHeight: 1.1,
+                    display: "block",
+                  }}
+                >
+                  Home
+                </Link>
+              </li>
+
+              {/* Who We Serve — labeled group with full-size links */}
+              <li>
+                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "10px" }}>
+                  Who We Serve
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                  {WHO_WE_SERVE.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setMenuOpen(false)}
+                      style={{
+                        fontFamily: "var(--font-display), Georgia, serif",
+                        fontSize: "clamp(24px, 5vw, 40px)",
+                        color: pathname === item.href ? "var(--gold)" : "var(--chalk)",
+                        textDecoration: "none",
+                        letterSpacing: "-0.02em",
+                        lineHeight: 1.1,
+                        display: "block",
+                      }}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </li>
+
+              {/* Remaining nav links */}
+              {navLinks.filter((l) => l.href !== "/").map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -390,10 +442,7 @@ export default function Header() {
                     style={{
                       fontFamily: "var(--font-display), Georgia, serif",
                       fontSize: "clamp(32px, 7vw, 56px)",
-                      color:
-                        pathname === link.href
-                          ? "var(--gold)"
-                          : "var(--chalk)",
+                      color: pathname === link.href ? "var(--gold)" : "var(--chalk)",
                       textDecoration: "none",
                       letterSpacing: "-0.02em",
                       lineHeight: 1.1,
@@ -401,26 +450,6 @@ export default function Header() {
                     }}
                   >
                     {link.label}
-                  </Link>
-                </li>
-              ))}
-              {/* Who We Serve sub-items */}
-              {WHO_WE_SERVE.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    onClick={() => setMenuOpen(false)}
-                    style={{
-                      fontFamily: "system-ui, sans-serif",
-                      fontSize: "clamp(13px, 2vw, 15px)",
-                      textTransform: "uppercase",
-                      letterSpacing: "0.14em",
-                      color: pathname === item.href ? "var(--gold)" : "var(--smoke)",
-                      textDecoration: "none",
-                      display: "block",
-                    }}
-                  >
-                    {item.label}
                   </Link>
                 </li>
               ))}

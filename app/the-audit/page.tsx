@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Free Google Business Profile Audit for Doctors | Primara",
+  title: "Free Practice Audit for Independent Healthcare Practices | Primara",
   description:
-    "Request a free practice audit from Primara. We research your GBP, Maps ranking, website speed, and reviews — built with your real numbers and your named local competitor. Delivered in 3–5 days. No obligation. Call (561) 291-2681.",
+    "Free audit for independent primary care and mental health practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/the-audit" },
   openGraph: {
-    title: "Free Google Business Profile Audit for Doctors | Primara",
+    title: "Free Practice Audit for Independent Healthcare Practices | Primara",
     description:
-      "Free audit for independent medical practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
+      "Free audit for independent primary care and mental health practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/the-audit",
   },
@@ -254,7 +254,7 @@ export default function TheAuditPage() {
               },
               {
                 q: "Do you work with all medical specialties?",
-                a: "We focus on independent primary care practices in Florida, though we occasionally work with other specialties.",
+                a: "We work with independent primary care practices and mental health practices in Florida — family medicine, internal medicine, pediatrics, geriatrics, concierge medicine, direct primary care, solo therapists, psychologists, licensed counselors, and group practices.",
               },
               {
                 q: "What happens after the audit?",

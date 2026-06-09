@@ -7,7 +7,7 @@ import ReviewsAnimation from "./ReviewsAnimation";
 
 // ── Content ────────────────────────────────────────────────────────────────
 const FEATURED = {
-  text: "Independent practices in Florida lose patients every day — not because of the quality of care they provide, but because another practice's Google listing is more complete, more active, and more visible. That's the problem Primara was built to solve.",
+  text: "Independent practices in Florida lose patients and clients every day — not because of the quality of care they provide, but because another practice's Google listing is more complete, more active, and more visible. That's the problem Primara was built to solve.",
   author: "Liam Costello & Gio LaRoche · Co-Founders, Primara",
 };
 
@@ -192,7 +192,7 @@ export default function ReviewsSection() {
                 letterSpacing: "0.04em",
               }}
             >
-              West Palm Beach, FL · Primary Care Only · Florida
+              West Palm Beach, FL · Est. 2026 · Independent Practices Only
             </span>
           </div>
         </header>

@@ -296,7 +296,7 @@ export default function ContactSection() {
                 Founder-Led
               </span>
               <span aria-hidden="true" style={{ color: "var(--color-border)" }}>|</span>
-              <span>Primary Care Specialists</span>
+              <span>Primary Care &amp; Mental Health</span>
             </div>
 
           </div>

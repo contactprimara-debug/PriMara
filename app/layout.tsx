@@ -86,38 +86,19 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: toJsonLd(localBusinessSchema as Record<string, unknown>) }}
         />
 
-        {/* ── Google Tag Manager ────────────────────────────────────────── */}
-        <Script id="gtm-head" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-XXXXXXX');`}
-        </Script>
-
-        {/* ── gtag config scaffold ──────────────────────────────────────── */}
-        <Script id="gtag-config" strategy="afterInteractive">
-          {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-CONVERSION_ID');
-  `}
-        </Script>
+        {/* ── Google tag (gtag.js) ─────────────────────────────────────── */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
+        <Script id="google-tag" strategy="afterInteractive">{`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GT-PB6FNVRG');
+  gtag('config', 'AW-18204165915');
+`}</Script>
 
       </head>
 
       <body className={`${instrumentSerif.variable} ${syne.variable}`}>
-
-        {/* ── GTM noscript fallback ─────────────────────────────────────── */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
 
         {/* ── Preloader — homepage only (Preloader.tsx checks pathname) ─── */}
         <Preloader />
@@ -155,23 +136,6 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
-        {/* ── Google Ads (gtag.js) ──────────────────────────────────────── */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18204165915"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="gtag-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-18204165915');
-            `,
-          }}
-        />
       </body>
     </html>
   );

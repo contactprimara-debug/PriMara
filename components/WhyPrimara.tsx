@@ -11,8 +11,8 @@ const cards = [
         <path d="M5 24c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="var(--ember)" strokeWidth="1.75" strokeLinecap="round" />
       </svg>
     ),
-    title: "Why Primara Exists.",
-    body: "Independent practices in Florida lose patients and clients every day — not because of the quality of care they provide, but because another practice's Google listing is more complete, more visible, and more active. That's the problem Primara was built to solve.",
+    title: "Independent Healthcare Practices Only.",
+    body: "Primara works exclusively with independently owned primary care practices and mental health practices in Florida. No hospital systems, no corporate chains, no PE-backed groups. We serve two niches and know both deeply — because serving everyone poorly is not a business model.",
   },
   {
     icon: (
@@ -52,8 +52,8 @@ const badges = [
   "Liam Costello, Co-Founder",
   "Gio LaRoche, Co-Founder",
   "West Palm Beach, FL",
-  "Primary Care",
-  "Mental Health",
+  "Primary Care & Mental Health",
+  "Florida Independent Practices",
 ] as const;
 
 export default function WhyPrimara() {
