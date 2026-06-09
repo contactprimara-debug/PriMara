@@ -41,7 +41,7 @@ export default function AboutPage() {
           Meet Liam Costello &amp; Gio LaRoche — Primara
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Digital marketing for independent healthcare practices in Florida.
+          Digital marketing for independent primary care and mental health practices in Florida.
         </p>
         <p className="mt-2 text-base max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
           Primary care physicians and mental health practices &mdash; founder-led, Florida-based.
