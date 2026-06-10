@@ -52,31 +52,38 @@ export default function AboutPage() {
             Why We Started Primara
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Liam Costello and Gio LaRoche founded Primara in Florida after watching independent practices lose
-            patients and clients to larger systems and platforms &mdash; not because of the quality of care they
-            provided, but because of digital visibility.
+            Liam Costello and Gio LaRoche founded Primara after watching independent primary care physicians
+            across Florida lose patients to larger health systems &mdash; not because of the care they provided,
+            but because of a Google listing that hadn&rsquo;t been touched in three years.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            A primary care physician competing against hospital networks with dedicated SEO teams. A solo
-            therapist invisible on Google while Psychology Today intercepts every client search. The problem is
-            the same: independently owned practices doing excellent work that nobody can find.
+            The problem isn&rsquo;t the quality of independent medicine in Florida. It&rsquo;s visibility. A
+            hospital system has a full marketing department managing its digital presence. An independent
+            physician running a 3-doctor practice has none of that &mdash; and no time to build it between
+            patients.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Primara&rsquo;s approach is built around one premise: independent practices deserve the same digital
-            infrastructure that hospital systems and platforms fund with marketing departments. That means a
-            fully optimized Google Business Profile, a website engineered around local search, a consistent
-            review system, and a strategy built around how Google&rsquo;s local ranking signals actually work
-            &mdash; not how they worked two years ago.
+            Primara exists to close that gap. We build and manage the digital infrastructure &mdash; Google
+            Business Profile, local SEO, website, review system &mdash; that independent practices need to
+            compete on their local search results page. We do it with the same attention to HIPAA compliance,
+            patient privacy, and ethical marketing that your practice operates under every day.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Every engagement runs through both founders directly. There are no account coordinators, no offshore
-            production teams, and no handoffs after the first call. If you have a question about your ranking,
-            your report, or your next content page, you speak with Liam or Gio &mdash; because they are the
-            ones doing the work.
+            We expanded in 2026 to serve independent mental health practices in Florida for the same reason:
+            demand for therapy is rising faster than independent therapists can acquire clients through
+            directories alone. Psychology Today and BetterHelp intercept searches that should be reaching
+            independent practitioners directly. We build the local presence that makes those directories
+            optional.
+          </p>
+          <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
+            Every engagement is managed directly by Liam and Gio. No account coordinators. No offshore writing
+            teams. No handoffs. When you have a question about your ranking or your report, you speak with the
+            person who built the strategy and wrote the content &mdash; because that&rsquo;s us.
           </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            Primara works with independent primary care practices and mental health practices in Florida. Not
-            hospital systems, not platforms, not corporate chains.
+            We work exclusively with independent, physician-owned primary care practices and privately owned
+            mental health practices in Florida. Not dental chains. Not urgent care franchises. Not hospital
+            systems. Two models, done well.
           </p>
         </div>
 
