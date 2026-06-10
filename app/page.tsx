@@ -33,16 +33,20 @@ import ScrollStorytelling from "@/components/ScrollStorytelling";
 export const metadata: Metadata = {
   title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
   description:
-    "Primara is a Florida-based digital marketing agency for independent healthcare practices — primary care physicians and mental health providers. GBP, local SEO, website, reviews. Call (561) 291-2681.",
+    "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
   alternates: {
     canonical: "https://primara365.com",
   },
   openGraph: {
     title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
     description:
-      "Primara is a Florida-based digital marketing agency for independent healthcare practices — primary care physicians and mental health providers. GBP, local SEO, website, reviews. Call (561) 291-2681.",
+      "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
     type: "website",
     url: "https://primara365.com",
+  },
+  twitter: {
+    description:
+      "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
   },
 };
 
