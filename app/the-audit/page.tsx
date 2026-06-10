@@ -254,7 +254,7 @@ export default function TheAuditPage() {
               },
               {
                 q: "Do you work with all medical specialties?",
-                a: "We work with independent primary care practices and mental health practices in Florida — family medicine, internal medicine, pediatrics, geriatrics, concierge medicine, direct primary care, solo therapists, psychologists, licensed counselors, and group practices.",
+                a: "We work with independent primary care practices and mental health practices in Florida — family medicine, internal medicine, and related primary care specialties, as well as solo therapists, psychologists, licensed counselors, and small group mental health practices.",
               },
               {
                 q: "What happens after the audit?",
