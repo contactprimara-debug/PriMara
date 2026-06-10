@@ -251,7 +251,7 @@ export default function MentalHealthPage() {
                 whiteSpace: "nowrap",
               }}
             >
-              Request Your Free Practice Audit →
+              Get My Free Practice Audit →
             </Link>
             <a
               href="tel:+15612912681"
@@ -891,7 +891,7 @@ export default function MentalHealthPage() {
                 whiteSpace: "nowrap",
               }}
             >
-              Request Your Free Practice Audit →
+              Get My Free Practice Audit →
             </Link>
             <a
               href="tel:+15612912681"
