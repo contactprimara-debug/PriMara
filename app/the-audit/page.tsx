@@ -15,9 +15,60 @@ export const metadata: Metadata = {
   },
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the audit really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. No credit card, no commitment. We do the research and deliver it at no cost.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We typically deliver within 3–5 business days of your request.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with all medical specialties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We work with independent primary care practices and mental health practices in Florida — family medicine, internal medicine, and related primary care specialties, as well as solo therapists, psychologists, licensed counselors, and small group mental health practices.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after the audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We walk you through the findings. If there’s a fit, we’ll explain what working with us looks like. If not, we’ll tell you that too.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Will you try to sell me something?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We’ll show you options if they make sense. We don’t do hard sells — if there’s a fit, we’ll explain what working together looks like. If there isn’t, we’ll tell you that too.",
+      },
+    },
+  ],
+};
+
 export default function TheAuditPage() {
   return (
     <main className="pt-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
