@@ -284,19 +284,11 @@ export default function ContactSection() {
                 fontFamily: "var(--font-mono)",
               }}
             >
-              <span className="flex items-center gap-1.5">
-                {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
-                Google-Verified Agency
-              </span>
-              <span aria-hidden="true" style={{ color: "var(--color-border)" }}>|</span>
-              <span className="flex items-center gap-1.5">
-                <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-                  <path d="M2 7l3 3 7-7" stroke="var(--color-success)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                Founder-Led
-              </span>
-              <span aria-hidden="true" style={{ color: "var(--color-border)" }}>|</span>
-              <span>Primary Care &amp; Mental Health</span>
+              <span>Founder-Led</span>
+              <span aria-hidden="true" style={{ color: "var(--color-border)" }}>·</span>
+              <span>HIPAA-Aware</span>
+              <span aria-hidden="true" style={{ color: "var(--color-border)" }}>·</span>
+              <span>West Palm Beach, FL</span>
             </div>
 
           </div>
