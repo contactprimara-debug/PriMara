@@ -118,6 +118,11 @@ const stats = [
     label: "Pages at launch. Modality pages, population pages, condition pages, city pages — the architecture independent practices almost never build.",
     source: null,
   },
+  {
+    value: "$7,800",
+    label: "Annual revenue from a single retained private-pay client at $150/session, weekly",
+    source: "Based on standard private-pay therapy session rates, 2024",
+  },
 ];
 
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
