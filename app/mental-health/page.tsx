@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { toJsonLd, mentalHealthSchema } from "@/lib/schema";
+import { toJsonLd, mentalHealthSchema } from "@/lib/schema"; // v2
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Mental Health Practices in Florida | Primara",

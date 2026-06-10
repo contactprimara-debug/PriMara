@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { toJsonLd } from "@/lib/schema";
+import { toJsonLd } from "@/lib/schema"; // v2
 import PackageInquiryForm from "@/components/PackageInquiryForm";
 
 export const metadata: Metadata = {

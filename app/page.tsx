@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { aggregateRatingSchema, toJsonLd } from "@/lib/schema";
 
-// ── Core layout ───────────────────────────────────────────────────────────
+// ── Core layout ─────────────────────────────────────────────────────────── v2
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 
