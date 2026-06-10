@@ -7,7 +7,16 @@ export const metadata: Metadata = {
   description:
     "Primara helps independent therapists, psychologists, and group mental health practices in Florida rank higher on Google, get found by the right clients, and grow without relying on Psychology Today or insurance directories. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/mental-health" },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: "Digital Marketing for Mental Health Practices in Florida | Primara",
     description:

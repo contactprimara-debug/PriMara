@@ -7,7 +7,16 @@ export const metadata: Metadata = {
   description:
     "Primara helps independent primary care physicians in Florida rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department. GBP, local SEO, website. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/primary-care" },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: "Digital Marketing for Primary Care Practices in Florida | Primara",
     description:
