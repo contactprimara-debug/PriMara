@@ -75,14 +75,14 @@ export default function Hero() {
               maxWidth: "16ch",
             }}
           >
-            Independent practices in Florida deserve to be{" "}
+            We Put Independent Florida Practices on the{" "}
             <em
               style={{
                 fontStyle: "italic",
                 color: "var(--gold)",
               }}
             >
-              found.
+              Map.
             </em>
           </h1>
 
