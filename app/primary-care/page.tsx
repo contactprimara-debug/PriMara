@@ -78,7 +78,7 @@ const stats = [
   {
     value: "77%",
     label: "Of patients search online before choosing a primary care physician",
-    source: "PatientPop, 2022",
+    source: "PatientPop, Patient Perspectives Survey",
   },
   {
     value: "$300–$700",
