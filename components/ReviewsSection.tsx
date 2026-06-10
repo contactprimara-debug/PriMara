@@ -192,7 +192,7 @@ export default function ReviewsSection() {
                 letterSpacing: "0.04em",
               }}
             >
-              West Palm Beach, FL · Est. 2026 · Independent Practices Only
+              West Palm Beach, FL · Primary Care &amp; Mental Health · Florida Only
             </span>
           </div>
         </header>
