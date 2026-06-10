@@ -58,7 +58,7 @@ export default function Hero() {
               marginBottom: "clamp(28px, 4vw, 48px)",
             }}
           >
-            West Palm Beach, FL · HIPAA-Aware · Founder-Led · Florida Only
+            Healthcare Practices Only · HIPAA-Aware · No Account Managers · Florida
           </div>
 
           {/* H1 — three-line display, SplitText target */}
