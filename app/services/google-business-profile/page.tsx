@@ -102,7 +102,7 @@ export default function GBPPage() {
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida · Primary Care Specialists
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a

@@ -30,6 +30,9 @@ export default function Hero() {
           overflow: "hidden",
           display: "flex",
           alignItems: "center",
+          /* push the flex-center baseline below the fixed header on all screen sizes;
+             safe-area-inset-top covers notched iPhones; 60px is the nav bar height */
+          paddingTop: "calc(60px + env(safe-area-inset-top))",
         }}
       >
         {/* Content stack */}
