@@ -83,7 +83,7 @@ export default function TheAuditPage() {
             Call (561) 291-2681
           </a>
           <Link
-            href="/contact"
+            href="/contact#contact-form"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "52px", fontSize: "1rem" }}
           >
@@ -355,7 +355,7 @@ export default function TheAuditPage() {
               Call (561) 291-2681
             </a>
             <Link
-              href="/contact"
+              href="/contact#contact-form"
               className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
               style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "52px", fontSize: "1rem" }}
             >
