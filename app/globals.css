@@ -544,19 +544,19 @@ section + section blockquote {
   }
 }
 
-/* ── Hero: mobile — hide the subheadline paragraph so the remaining content  */
-/* (~440px) centres cleanly in 100svh with comfortable space above the header */
-/* and below the CTAs. The H1 alone is the hook on mobile.                   */
+/* ── Hero: mobile — scale down text so all content fits in 100svh            */
 @media (max-width: 480px) {
   .hero-sub {
-    display: none !important;
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 20px !important;
   }
   .hero-h1 {
     font-size: clamp(44px, 13vw, 72px) !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 16px !important;
   }
   .hero-eyebrow {
-    margin-bottom: 20px !important;
+    margin-bottom: 16px !important;
   }
 }
 

@@ -23,6 +23,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [whoWeServeOpen, setWhoWeServeOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout>>();
   const pathname = usePathname();
 
   // Close dropdown when clicking outside
@@ -132,8 +133,8 @@ export default function Header() {
           <div
             ref={dropdownRef}
             style={{ position: "relative" }}
-            onMouseEnter={() => setWhoWeServeOpen(true)}
-            onMouseLeave={() => setWhoWeServeOpen(false)}
+            onMouseEnter={() => { clearTimeout(closeTimer.current); setWhoWeServeOpen(true); }}
+            onMouseLeave={() => { closeTimer.current = setTimeout(() => setWhoWeServeOpen(false), 120); }}
           >
             <button
               onClick={() => setWhoWeServeOpen((o) => !o)}
