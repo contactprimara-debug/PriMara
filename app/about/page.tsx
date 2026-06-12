@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/about" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "About Primara — Healthcare Marketing Agency Florida | Primara",
     description:

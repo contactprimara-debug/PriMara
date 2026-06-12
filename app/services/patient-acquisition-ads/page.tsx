@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Primara runs targeted patient acquisition ad campaigns for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/patient-acquisition-ads" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Patient Acquisition Ads for Doctors in Florida | Primara",
     description:

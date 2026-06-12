@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Primara helps independent internists in Florida rank higher for adult primary care searches, build patient reviews, and compete with hospital-affiliated practices. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/internal-medicine" },
+  robots: { index: true, follow: true },
 };
 
 const challenges = [

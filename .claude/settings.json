@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/giolaroche/primara-web && { git status --porcelain | grep -q . && git add -A && git commit -m \"Auto-deploy: changes on $(date '+%Y-%m-%d %H:%M')\" && git push origin main && npx vercel deploy --prod --yes --force; } || true",
+            "timeout": 300,
+            "statusMessage": "Deploying changes to production..."
+          }
+        ]
+      }
+    ]
+  }
+}

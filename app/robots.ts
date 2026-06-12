@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
       // Disallow internal Next.js paths and draft/preview routes if added later
-      disallow: ["/api/", "/_next/"],
+      disallow: ["/api/", "/_next/", "/assessment/quiz", "/assessment/results", "/thank-you"],
     },
     sitemap: `${SITE_URL}/sitemap.xml`,
   };

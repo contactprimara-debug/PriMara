@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Primara provides digital marketing for independent primary care practices in Florida — family medicine, internal medicine, pediatrics, geriatrics, concierge, and direct primary care. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties" },
+  robots: { index: true, follow: true },
 };
 
 const specialties = [

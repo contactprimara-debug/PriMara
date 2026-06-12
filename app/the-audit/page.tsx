@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Free audit for independent primary care and mental health practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/the-audit" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Free Practice Audit for Independent Healthcare Practices | Primara",
     description:

@@ -37,6 +37,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://primara365.com",
   },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
     description:

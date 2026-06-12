@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Primara helps independent family medicine practices in Florida rank higher on Google Maps, build reviews, and fill their schedule. GBP optimization, local SEO, and website design for family physicians. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/family-medicine" },
+  robots: { index: true, follow: true },
 };
 
 const challenges = [

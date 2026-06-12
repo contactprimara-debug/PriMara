@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Primara provides local SEO for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/local-seo-for-medical-practices" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Local SEO for Medical Practices in Florida | Primara",
     description:

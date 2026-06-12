@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Primara manages online reviews and reputation for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/online-reputation-management" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Reputation Management for Doctors in Florida | Primara",
     description:

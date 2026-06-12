@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Primara designs fast, HIPAA-aware websites for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/medical-practice-website-design" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Medical Practice Website Design in Florida | Primara",
     description:

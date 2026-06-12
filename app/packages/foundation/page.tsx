@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     "$750/mo Foundation Package for independent primary care and mental health practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/foundation" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Foundation Package — Healthcare Marketing in Florida | Primara",
     description:

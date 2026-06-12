@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Primara helps independent pediatricians in Florida rank higher on Google Maps, earn parent trust through reviews, and stay visible to relocating families. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/pediatrics" },
+  robots: { index: true, follow: true },
 };
 
 const challenges = [

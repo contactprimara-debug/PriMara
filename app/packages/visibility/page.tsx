@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     "$1,800/mo Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices in Florida. You pay Google directly. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/visibility" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Visibility Package — Foundation + Google Ads | Primara",
     description:

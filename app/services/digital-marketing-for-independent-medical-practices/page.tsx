@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     canonical:
       "https://primara365.com/services/digital-marketing-for-independent-medical-practices",
   },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Digital Marketing for Independent Doctors Florida | Primara",
     description:
