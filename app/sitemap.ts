@@ -163,6 +163,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
 
+    // ── Priority 0.4 — Legal / compliance pages ──────────────────────────
+    {
+      url: `${SITE_URL}/privacy`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.4,
+    },
+    {
+      url: `${SITE_URL}/hipaa`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.4,
+    },
+
     // ── Priority 0.6 — Geographic / neighborhood pages (add as built) ────
     // { url: `${SITE_URL}/medical-marketing-lake-worth`, ... },
   ];
