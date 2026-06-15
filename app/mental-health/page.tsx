@@ -127,11 +127,6 @@ const stats = [
     label: "Pages at launch. Modality pages, population pages, condition pages, city pages — the architecture independent practices almost never build.",
     source: null,
   },
-  {
-    value: "$7,800",
-    label: "Annual revenue from a single retained private-pay client at $150/session, weekly",
-    source: "Based on standard private-pay therapy session rates, 2024",
-  },
 ];
 
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
@@ -761,7 +756,7 @@ export default function MentalHealthPage() {
                 margin: 0,
               }}
             >
-              &ldquo;A private-pay therapy practice with a $150/session fee that adds 4 new ongoing clients per month — against a $150 client acquisition cost — recovers marketing spend in the first session. Every subsequent session is pure margin.&rdquo;
+              &ldquo;The economics of private-pay therapy are more favorable than most practitioners realize. When a new client commits to weekly sessions, marketing spend typically recovers in the first month of treatment. Every subsequent session is pure margin.&rdquo;
             </p>
           </blockquote>
         </div>

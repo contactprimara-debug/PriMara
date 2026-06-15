@@ -66,7 +66,7 @@ const included = [
   {
     title: "Ads Transparency — You Own the Account",
     detail:
-      "You pay Google ad spend directly to Google. Primara never touches your ad budget and never marks it up. You own the Google Ads account; we manage it as an authorized user. Typical client ad spend: $300–$600/month directly to Google.",
+      "You pay Google ad spend directly to Google. Primara never touches your ad budget and never marks it up. You own the Google Ads account; we manage it as an authorized user. We recommend a starting budget on the onboarding call based on your market and goals.",
   },
   {
     title: "Ads Performance Reporting",

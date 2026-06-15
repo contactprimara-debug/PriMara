@@ -22,18 +22,18 @@ interface Item {
 const items: Item[] = [
   {
     eyebrow: "Foundation Package",
-    headline: "$750",
-    subline: "per month",
+    headline: "01",
+    subline: "Foundation",
     detail:
-      "$1,500 one-time setup · GBP Optimization · Local SEO · Monthly Reporting",
+      "GBP Optimization · Local SEO · Review Management · Monthly Reporting",
     href: "/packages/foundation",
   },
   {
     eyebrow: "Visibility Package",
-    headline: "$1,800",
-    subline: "per month",
+    headline: "02",
+    subline: "Visibility",
     detail:
-      "$1,500 one-time setup · GBP + Website + Reviews + SEO Content · Full Coverage",
+      "GBP + Website + Reviews + SEO Content + Google Ads · Full Coverage",
     href: "/packages/visibility",
   },
   {

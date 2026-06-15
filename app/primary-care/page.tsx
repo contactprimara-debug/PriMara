@@ -90,11 +90,6 @@ const stats = [
     source: "PatientPop, Patient Perspectives Survey",
   },
   {
-    value: "$300–$700",
-    label: "First-year value of a new primary care patient",
-    source: "Zocdoc, 351 medical groups, 2024",
-  },
-  {
     value: "8–10",
     label: "GBP categories a fully optimized primary care profile carries. Most practices have 1–2.",
     source: null,
@@ -719,7 +714,7 @@ export default function PrimaryCarePage() {
                 margin: 0,
               }}
             >
-              &ldquo;A primary care practice spending $1,500/month on marketing that acquires 10 new patients per month has a $150 patient acquisition cost. At $300&ndash;$700 first-year value, that&rsquo;s a 2&ndash;4.6x return before the patient ever comes back for a follow-up.&rdquo;
+              &ldquo;The math in primary care works differently than most industries. A new patient isn&rsquo;t a one-time transaction &mdash; it&rsquo;s annual physicals, chronic condition management, specialist referrals, and years of recurring visits. That changes how practices should think about marketing investment.&rdquo;
             </p>
           </blockquote>
         </div>
