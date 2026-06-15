@@ -11,16 +11,9 @@ const nextConfig = {
   // Evaluated in array order (trailing-slash variant first) so that
   // www.primara365.com/path/ resolves in ONE hop to primara365.com/path
   // rather than two (www→non-www then trailing-slash strip).
+  // ── www → non-www canonical redirect ────────────────────────────────────
   async redirects() {
     return [
-      // www + trailing slash → canonical in one hop (evaluated first)
-      {
-        source: "/:path+/",
-        has: [{ type: "host", value: "www.primara365.com" }],
-        destination: "https://primara365.com/:path",
-        permanent: true,
-      },
-      // www + no trailing slash → canonical
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.primara365.com" }],
