@@ -6,13 +6,13 @@ import PackageInquiryForm from "@/components/PackageInquiryForm";
 export const metadata: Metadata = {
   title: "Visibility Package — Foundation + Google Ads | Primara",
   description:
-    "$1,800/mo Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices in Florida. You pay Google directly. Call (561) 291-2681.",
+    "Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices in Florida. You pay Google directly. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/visibility" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Visibility Package — Foundation + Google Ads | Primara",
     description:
-      "$1,800/mo: Foundation Package + Google Ads management for independent healthcare practices in Florida. Call (561) 291-2681.",
+      "Foundation Package + Google Ads management for independent healthcare practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/packages/visibility",
   },
@@ -48,14 +48,7 @@ const offerSchema = {
     "Visibility Package for independent healthcare practices in Florida: full Google Business Profile management, website rebuild, review generation system, monthly SEO content, and comprehensive reporting.",
   offers: {
     "@type": "Offer",
-    price: "1800",
     priceCurrency: "USD",
-    priceSpecification: {
-      "@type": "UnitPriceSpecification",
-      price: "1800",
-      priceCurrency: "USD",
-      unitText: "MONTH",
-    },
   },
 };
 
@@ -215,39 +208,14 @@ export default function VisibilityPackagePage() {
           >
             <div
               style={{
-                fontFamily: "var(--font-display), Georgia, serif",
-                fontStyle: "italic",
-                fontSize: "clamp(48px, 6vw, 72px)",
-                color: "var(--chalk)",
-                lineHeight: 1,
-                letterSpacing: "-0.02em",
-              }}
-            >
-              $1,800
-              <span
-                style={{
-                  fontFamily: "system-ui, sans-serif",
-                  fontStyle: "normal",
-                  fontSize: "13px",
-                  color: "var(--smoke)",
-                  letterSpacing: "0.08em",
-                  textTransform: "uppercase",
-                  marginLeft: "12px",
-                }}
-              >
-                / month
-              </span>
-            </div>
-            <div
-              style={{
                 fontFamily: "system-ui, sans-serif",
-                fontSize: "12px",
-                color: "var(--gold)",
+                fontSize: "13px",
+                color: "var(--smoke)",
                 letterSpacing: "0.08em",
                 textTransform: "uppercase",
               }}
             >
-              + $1,500 one-time setup · website rebuild included
+              Pricing available on request
             </div>
           </div>
 

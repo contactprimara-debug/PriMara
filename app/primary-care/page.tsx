@@ -803,9 +803,6 @@ export default function PrimaryCarePage() {
                 >
                   Foundation
                 </h3>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--smoke)", margin: 0 }}>
-                  $750/mo + $1,500 setup
-                </p>
               </div>
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>
                 GBP Optimization · Local SEO · Monthly Reporting
@@ -880,9 +877,6 @@ export default function PrimaryCarePage() {
                 >
                   Visibility
                 </h3>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--smoke)", margin: 0 }}>
-                  $1,800/mo + $1,500 setup
-                </p>
               </div>
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>
                 GBP + Website + Reviews + SEO Content · Full Coverage

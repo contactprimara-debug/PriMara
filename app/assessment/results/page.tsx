@@ -76,8 +76,6 @@ const tierConfig = {
 const packageConfig = {
   Foundation: {
     name: "Foundation Package",
-    price: "$750/mo",
-    setup: "$1,500 one-time setup",
     tagline: "The fastest way to make your practice visible to patients searching locally.",
     includes: [
       "Full Google Business Profile buildout and optimization",
@@ -89,8 +87,6 @@ const packageConfig = {
   },
   Visibility: {
     name: "Visibility Package",
-    price: "$1,800/mo",
-    setup: "$1,500 one-time setup",
     tagline: "Full-coverage digital presence — from Maps to your website to paid patient acquisition.",
     includes: [
       "Everything in Foundation",
@@ -279,11 +275,6 @@ export default function ResultsPage() {
                     <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.6 }}>{item}</span>
                   </div>
                 ))}
-              </div>
-
-              <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px" }}>
-                <span style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "40px", color: "var(--chalk)" }}>{pkg.price}</span>
-                <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--smoke)" }}>{pkg.setup}</span>
               </div>
 
               <Link

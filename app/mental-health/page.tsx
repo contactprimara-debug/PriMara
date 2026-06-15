@@ -815,7 +815,6 @@ export default function MentalHealthPage() {
               <div>
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "8px" }}>Package 01</p>
                 <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(28px, 4vw, 40px)", color: "var(--chalk)", fontWeight: 400, margin: "0 0 4px", lineHeight: 1.1 }}>Foundation</h3>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--smoke)", margin: 0 }}>$750/mo + $1,500 setup</p>
               </div>
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>GBP Optimization · Local SEO · Monthly Reporting</p>
               <Link href="/packages/foundation" style={{ display: "inline-flex", alignItems: "center", fontFamily: "system-ui, sans-serif", fontSize: "12px", letterSpacing: "0.08em", fontWeight: 600, color: "var(--chalk)", border: "1px solid var(--wire)", padding: "0 20px", height: "40px", borderRadius: "2px", textDecoration: "none", width: "fit-content", marginTop: "auto" }}>
@@ -829,7 +828,6 @@ export default function MentalHealthPage() {
               <div>
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "8px" }}>Package 02</p>
                 <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(28px, 4vw, 40px)", color: "var(--chalk)", fontWeight: 400, margin: "0 0 4px", lineHeight: 1.1 }}>Visibility</h3>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--smoke)", margin: 0 }}>$1,800/mo + $1,500 setup</p>
               </div>
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>GBP + Website + Reviews + SEO Content · Full Coverage</p>
               <Link href="/packages/visibility" style={{ display: "inline-flex", alignItems: "center", fontFamily: "system-ui, sans-serif", fontSize: "12px", letterSpacing: "0.08em", fontWeight: 600, color: "var(--gold)", border: "1px solid var(--gold)", padding: "0 20px", height: "40px", borderRadius: "2px", textDecoration: "none", width: "fit-content", marginTop: "auto" }}>

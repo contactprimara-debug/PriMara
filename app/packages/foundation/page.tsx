@@ -6,13 +6,13 @@ import PackageInquiryForm from "@/components/PackageInquiryForm";
 export const metadata: Metadata = {
   title: "Foundation Package — Healthcare Marketing in Florida | Primara",
   description:
-    "$750/mo Foundation Package for independent primary care and mental health practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
+    "Foundation Package for independent primary care and mental health practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/foundation" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Foundation Package — Healthcare Marketing in Florida | Primara",
     description:
-      "$750/mo: GBP optimization, Local SEO, and monthly reporting for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
+      "GBP optimization, Local SEO, and monthly reporting for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/packages/foundation",
   },
@@ -48,14 +48,7 @@ const offerSchema = {
     "Foundation Package for independent medical practices in Florida: Google Business Profile optimization, Local SEO, reputation monitoring, and monthly reporting.",
   offers: {
     "@type": "Offer",
-    price: "750",
     priceCurrency: "USD",
-    priceSpecification: {
-      "@type": "UnitPriceSpecification",
-      price: "750",
-      priceCurrency: "USD",
-      unitText: "MONTH",
-    },
   },
 };
 
@@ -210,39 +203,14 @@ export default function FoundationPackagePage() {
           >
             <div
               style={{
-                fontFamily: "var(--font-display), Georgia, serif",
-                fontStyle: "italic",
-                fontSize: "clamp(48px, 6vw, 72px)",
-                color: "var(--chalk)",
-                lineHeight: 1,
-                letterSpacing: "-0.02em",
-              }}
-            >
-              $750
-              <span
-                style={{
-                  fontFamily: "system-ui, sans-serif",
-                  fontStyle: "normal",
-                  fontSize: "13px",
-                  color: "var(--smoke)",
-                  letterSpacing: "0.08em",
-                  textTransform: "uppercase",
-                  marginLeft: "12px",
-                }}
-              >
-                / month
-              </span>
-            </div>
-            <div
-              style={{
                 fontFamily: "system-ui, sans-serif",
-                fontSize: "12px",
-                color: "var(--gold)",
+                fontSize: "13px",
+                color: "var(--smoke)",
                 letterSpacing: "0.08em",
                 textTransform: "uppercase",
               }}
             >
-              + $1,500 one-time setup
+              Pricing available on request
             </div>
           </div>
 
