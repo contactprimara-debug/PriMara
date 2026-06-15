@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Primara",
   description: "How Primara collects, uses, and protects the information you share with us.",
   alternates: { canonical: "https://primara365.com/privacy" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 const EFFECTIVE_DATE = "May 29, 2026";

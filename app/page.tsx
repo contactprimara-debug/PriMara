@@ -1,6 +1,25 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { aggregateRatingSchema, toJsonLd } from "@/lib/schema";
+import { aggregateRatingSchema, toJsonLd, SITE_URL } from "@/lib/schema";
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Primara",
+  url: SITE_URL,
+  telephone: "+15612912681",
+  email: "liam.costello@primara365.com",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "West Palm Beach",
+    addressRegion: "FL",
+    postalCode: "33401",
+    addressCountry: "US",
+  },
+  sameAs: [
+    "https://www.linkedin.com/company/primara",
+  ],
+};
 
 // ── Core layout ─────────────────────────────────────────────────────────── v2
 import Hero from "@/components/Hero";
@@ -54,6 +73,11 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main>
+      {/* Organization schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: toJsonLd(organizationSchema as Record<string, unknown>) }}
+      />
       {/* AggregateRating schema — homepage only */}
       <script
         type="application/ld+json"

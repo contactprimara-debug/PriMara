@@ -1,6 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ContactSection from "@/components/ContactSection";
+import { toJsonLd, SITE_URL } from "@/lib/schema";
+
+const contactLocalBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "ProfessionalService"],
+  name: "Primara",
+  url: SITE_URL,
+  telephone: "+15612912681",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "West Palm Beach",
+    addressRegion: "FL",
+    postalCode: "33401",
+    addressCountry: "US",
+  },
+};
 
 export const metadata: Metadata = {
   title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
@@ -20,6 +36,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="pt-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(contactLocalBusinessSchema as Record<string, unknown>) }} />
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>

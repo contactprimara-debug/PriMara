@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { label: "Services", href: "/services" },
   { label: "The Audit", href: "/the-audit" },
   { label: "About", href: "/about" },
+  { label: "Results", href: "/results" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -23,11 +24,27 @@ const SERVICE_LINKS = [
   { label: "Website Rebuild", href: "/services/medical-practice-website-design" },
   { label: "Review Generation", href: "/services/online-reputation-management" },
   { label: "Local SEO Content", href: "/services/local-seo-for-medical-practices" },
+  { label: "Patient Acquisition Ads", href: "/services/patient-acquisition-ads" },
 ];
 
 const WHO_WE_SERVE_LINKS = [
   { label: "Primary Care", href: "/primary-care" },
   { label: "Mental Health", href: "/mental-health" },
+];
+
+const LOCATIONS_LINKS = [
+  { label: "All Locations", href: "/locations" },
+  { label: "Miami", href: "/locations/miami-fl" },
+  { label: "Fort Lauderdale", href: "/locations/fort-lauderdale-fl" },
+  { label: "Boca Raton", href: "/locations/boca-raton-fl" },
+  { label: "West Palm Beach", href: "/locations/west-palm-beach-fl" },
+  { label: "Palm Beach Gardens", href: "/locations/palm-beach-gardens-fl" },
+  { label: "Delray Beach", href: "/locations/delray-beach-fl" },
+];
+
+const RESOURCES_LINKS = [
+  { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export default function Footer() {
@@ -237,6 +254,74 @@ export default function Footer() {
               }}
             >
               {WHO_WE_SERVE_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="footer-link">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          {/* Col 5: Locations ────────────────────────────────────────────────── */}
+          <nav aria-label="Locations navigation">
+            <p
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "9px",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "var(--smoke)",
+                marginBottom: "20px",
+              }}
+            >
+              Locations
+            </p>
+            <ul
+              style={{
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+              }}
+            >
+              {LOCATIONS_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="footer-link">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          {/* Col 6: Resources ────────────────────────────────────────────────── */}
+          <nav aria-label="Resources navigation">
+            <p
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "9px",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "var(--smoke)",
+                marginBottom: "20px",
+              }}
+            >
+              Resources
+            </p>
+            <ul
+              style={{
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+              }}
+            >
+              {RESOURCES_LINKS.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="footer-link">
                     {link.label}
