@@ -13,12 +13,14 @@ const nextConfig = {
   // rather than two (www→non-www then trailing-slash strip).
   async redirects() {
     return [
+      // www + trailing slash → canonical in one hop (evaluated first)
       {
-        source: "/:path*/",
+        source: "/:path+/",
         has: [{ type: "host", value: "www.primara365.com" }],
-        destination: "https://primara365.com/:path*",
+        destination: "https://primara365.com/:path",
         permanent: true,
       },
+      // www + no trailing slash → canonical
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.primara365.com" }],
