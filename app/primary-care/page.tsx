@@ -23,7 +23,9 @@ export const metadata: Metadata = {
       "Primara helps independent primary care physicians in Florida rank higher on Google Maps, fill their schedule, and outrank hospital systems. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/primary-care",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const problemBlocks = [

@@ -13,7 +13,9 @@ export const metadata: Metadata = {
       "Get answers about Primara's healthcare marketing services, timelines, HIPAA compliance, and results for independent practices in Florida.",
     type: "website",
     url: "https://primara365.com/faq",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 interface FAQ {

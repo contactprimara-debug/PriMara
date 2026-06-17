@@ -13,7 +13,9 @@ export const metadata: Metadata = {
       "Free audit for independent primary care and mental health practices in Florida. Real numbers, your named competitor, no obligation.",
     type: "website",
     url: "https://primara365.com/the-audit",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const faqSchema = {

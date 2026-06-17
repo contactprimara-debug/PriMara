@@ -7,6 +7,10 @@ export const metadata: Metadata = {
     "Answer 10 questions to find out why local patients can't find your practice online — and which fix will fill the most appointments fastest. Free, instant results. Created by Primara.",
   alternates: { canonical: "https://primara365.com/assessment" },
   robots: { index: true, follow: true },
+  openGraph: {
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const valueAreas = [

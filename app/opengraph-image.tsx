@@ -50,7 +50,7 @@ export default function OgImage() {
             bottom: "48px",
             fontFamily: "system-ui, sans-serif",
             fontSize: "18px",
-            color: "rgba(255,255,255,0.4)",
+            color: "#C5A040",
             letterSpacing: "2px",
           }}
         >

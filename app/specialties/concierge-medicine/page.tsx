@@ -7,6 +7,10 @@ export const metadata: Metadata = {
     "Primara helps independent concierge medicine practices in Florida attract the right membership patients, stand out from MDVIP and One Medical, and build a premium digital presence. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/concierge-medicine" },
   robots: { index: true, follow: true },
+  openGraph: {
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const challenges = [

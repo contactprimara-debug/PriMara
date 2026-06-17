@@ -14,7 +14,9 @@ export const metadata: Metadata = {
       "Practical healthcare marketing advice for independent primary care and mental health practices in Florida. GBP, local SEO, reviews, and more.",
     type: "website",
     url: "https://primara365.com/blog",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const blogSchema = {

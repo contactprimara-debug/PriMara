@@ -30,7 +30,9 @@ export const metadata: Metadata = {
       "Request a free practice audit from Primara in West Palm Beach, FL. Primary care and mental health practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/contact",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 export default function ContactPage() {

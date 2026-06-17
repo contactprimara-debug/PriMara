@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: "Thank You | Primara",
   description: "We received your message and will be in touch within 24 hours.",
   robots: { index: false, follow: false },
+  openGraph: {
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const steps = [

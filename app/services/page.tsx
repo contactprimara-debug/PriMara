@@ -13,7 +13,9 @@ export const metadata: Metadata = {
       "Primara offers digital marketing services for independent medical practices in Florida. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const services = [

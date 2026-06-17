@@ -63,11 +63,9 @@ export const metadata: Metadata = {
       "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
     type: "website",
     url: "https://primara365.com",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
-  twitter: {
-    description:
-      "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
-  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts." },
 };
 
 export default function HomePage() {

@@ -15,7 +15,9 @@ export const metadata: Metadata = {
       "Primara serves independent primary care and mental health practices across South Florida — Miami, Fort Lauderdale, Boca Raton, West Palm Beach, and more.",
     type: "website",
     url: "https://primara365.com/locations",
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const localBusinessSchema = {

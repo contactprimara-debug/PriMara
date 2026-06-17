@@ -7,6 +7,10 @@ export const metadata: Metadata = {
     "Primara helps independent Direct Primary Care practices in Florida rank online, explain the DPC model to new patients, and attract the self-employed and uninsured who are actively searching. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/direct-primary-care" },
   robots: { index: true, follow: true },
+  openGraph: {
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const challenges = [

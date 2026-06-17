@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: "Primara's HIPAA Notice of Privacy Practices and Business Associate information for medical practice clients.",
   alternates: { canonical: "https://primara365.com/hipaa" },
   robots: { index: false, follow: true },
+  openGraph: {
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const EFFECTIVE_DATE = "May 29, 2026";

@@ -7,6 +7,10 @@ export const metadata: Metadata = {
     "Primara helps independent geriatric medicine practices in Florida reach senior patients and their families online. Florida's 65+ population is the largest in the nation — and the competition online is minimal. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/geriatrics" },
   robots: { index: true, follow: true },
+  openGraph: {
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
 const challenges = [
