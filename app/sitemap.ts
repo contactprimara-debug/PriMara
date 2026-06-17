@@ -163,20 +163,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
 
-    // ── Priority 0.4 — Legal / compliance pages ──────────────────────────
-    {
-      url: `${SITE_URL}/privacy`,
-      lastModified,
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-    {
-      url: `${SITE_URL}/hipaa`,
-      lastModified,
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-
     // ── Priority 0.9 — Hub pages (blog, locations, faq, results) ────────
     { url: `${SITE_URL}/blog`, lastModified, changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
