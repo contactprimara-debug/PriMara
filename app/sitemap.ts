@@ -190,6 +190,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/pompano-beach-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/coral-springs-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/jupiter-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/hialeah-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/doral-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/kendall-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/aventura-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/pembroke-pines-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/hollywood-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/port-st-lucie-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/stuart-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
     // ── Priority 0.9 — Mental health city pages ──────────────────────────
     { url: `${SITE_URL}/locations/miami-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
@@ -198,5 +206,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/west-palm-beach-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/palm-beach-gardens-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/delray-beach-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/miami-beach-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/coral-gables-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/aventura-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/pembroke-pines-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/hollywood-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/port-st-lucie-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 }
