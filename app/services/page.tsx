@@ -118,7 +118,7 @@ export default function ServicesPage() {
           <Link
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-            style={{ backgroundColor: "var(--ember)", height: "48px", fontSize: "0.9375rem", textDecoration: "none", whiteSpace: "nowrap" }}
+            style={{ backgroundColor: "var(--gold)", height: "48px", fontSize: "0.9375rem", textDecoration: "none", whiteSpace: "nowrap" }}
           >
             Get My Free Practice Audit →
           </Link>
@@ -202,7 +202,7 @@ export default function ServicesPage() {
             <a
               href="tel:+15612912681"
               className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-              style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "52px", fontSize: "1rem" }}
+              style={{ borderColor: "var(--gold)", color: "var(--gold)", height: "52px", fontSize: "1rem" }}
             >
               (561) 291-2681
             </a>

@@ -224,7 +224,7 @@ export default function HowItWorksPage() {
                 href="/the-audit"
                 style={{
                   display: "inline-block",
-                  backgroundColor: "var(--ember)",
+                  backgroundColor: "var(--gold)",
                   color: "#fff",
                   padding: "14px 28px",
                   fontSize: "15px",
@@ -401,7 +401,7 @@ export default function HowItWorksPage() {
                       fontFamily: "var(--font-mono)",
                       fontSize: "13px",
                       color: "var(--smoke)",
-                      borderLeft: "2px solid var(--ember)",
+                      borderLeft: "2px solid var(--gold)",
                       paddingLeft: "16px",
                       lineHeight: 1.6,
                     }}
@@ -474,7 +474,7 @@ export default function HowItWorksPage() {
                   >
                     <span
                       style={{
-                        color: "var(--ember)",
+                        color: "var(--gold)",
                         fontWeight: 700,
                         flexShrink: 0,
                         fontSize: "18px",
@@ -648,7 +648,7 @@ export default function HowItWorksPage() {
       <section
         style={{
           backgroundColor: "var(--void)",
-          borderTop: "3px solid var(--ember)",
+          borderTop: "3px solid var(--gold)",
           padding: "80px 0",
         }}
       >
@@ -700,7 +700,7 @@ export default function HowItWorksPage() {
               href="/the-audit"
               style={{
                 display: "inline-block",
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--gold)",
                 color: "#fff",
                 padding: "16px 36px",
                 fontSize: "16px",

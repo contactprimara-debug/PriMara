@@ -69,7 +69,7 @@ export default function PediatricsPage() {
           with urgent need for a new pediatrician. Primara makes sure your practice is what they find.
         </p>
         <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", background: "var(--gold)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
             Call (561) 291-2681
           </a>
           <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
@@ -88,7 +88,7 @@ export default function PediatricsPage() {
               const source = (rest as { source?: string }).source;
               return (
                 <div key={title} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                  <div style={{ width: "24px", height: "2px", background: "var(--ember)" }} />
+                  <div style={{ width: "24px", height: "2px", background: "var(--gold)" }} />
                   <h3 style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "0.9375rem", color: "var(--chalk)", margin: 0 }}>{title}</h3>
                   <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>{body}</p>
                   {source && (
@@ -135,7 +135,7 @@ export default function PediatricsPage() {
             Free, custom, delivered in 3–5 business days.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", background: "var(--gold)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Request Free Audit
             </Link>
             <Link href="/specialties" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>

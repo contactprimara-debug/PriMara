@@ -411,7 +411,7 @@ export default function TheAuditPage() {
             <Link
               href="/contact#contact-form"
               className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-              style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "52px", fontSize: "1rem" }}
+              style={{ borderColor: "var(--gold)", color: "var(--gold)", height: "52px", fontSize: "1rem" }}
             >
               Get My Free Audit Now
             </Link>

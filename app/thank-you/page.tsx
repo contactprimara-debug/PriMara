@@ -33,8 +33,8 @@ const steps = [
   {
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-        <rect x="2" y="5" width="16" height="11" rx="2" stroke="var(--ember)" strokeWidth="1.5" />
-        <path d="M6 9h8M6 12h5" stroke="var(--ember)" strokeWidth="1.5" strokeLinecap="round" />
+        <rect x="2" y="5" width="16" height="11" rx="2" stroke="var(--gold)" strokeWidth="1.5" />
+        <path d="M6 9h8M6 12h5" stroke="var(--gold)" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
     label: "We get to work",

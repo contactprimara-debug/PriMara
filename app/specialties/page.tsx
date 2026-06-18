@@ -140,7 +140,7 @@ export default function SpecialtiesPage() {
               display: "inline-flex",
               alignItems: "center",
               gap: "8px",
-              background: "var(--ember)",
+              background: "var(--gold)",
               color: "#fff",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
@@ -213,7 +213,7 @@ export default function SpecialtiesPage() {
                     fontSize: "9px",
                     letterSpacing: "0.2em",
                     textTransform: "uppercase",
-                    color: "var(--ember)",
+                    color: "var(--gold)",
                   }}
                 >
                   {s.eyebrow}
@@ -331,7 +331,7 @@ export default function SpecialtiesPage() {
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
-                  background: "var(--ember)",
+                  background: "var(--gold)",
                   color: "#fff",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,

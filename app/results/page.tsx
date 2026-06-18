@@ -18,32 +18,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
-const reviewSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Primara",
-  "review": [
-    {
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": "[CLIENT NAME]" },
-      "reviewBody": "Working with Primara changed how new patients find us online. Within 90 days, we were showing up for searches we never appeared in before.",
-    },
-    {
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": "[CLIENT NAME]" },
-      "reviewBody": "We had tried two other marketing agencies and never saw results. Primara was different — they actually understand the medical practice world and what patients are searching for.",
-    },
-    {
-      "@type": "Review",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "author": { "@type": "Person", "name": "[CLIENT NAME]" },
-      "reviewBody": "The review system alone was worth it. We went from 12 Google reviews to over 40 in four months, and our Maps ranking moved from outside the local pack to the top three.",
-    },
-  ],
-};
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -106,34 +80,9 @@ const milestones: Milestone[] = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "Working with Primara changed how new patients find us online. Within 90 days, we were showing up for searches we never appeared in before — and for the first time, patients were calling and saying they found us on Google Maps.",
-    attribution: "[CLIENT NAME]",
-    type: "[PRACTICE TYPE]",
-    city: "[CITY]",
-  },
-  {
-    quote:
-      "We had tried two other marketing agencies and never saw real results. Primara was different — they actually understand what medical practice patients search for, and they explained every decision they made. The monthly reports show real rank data, not vanity metrics.",
-    attribution: "[CLIENT NAME]",
-    type: "[PRACTICE TYPE]",
-    city: "[CITY]",
-  },
-  {
-    quote:
-      "The review system alone was worth the engagement. We went from 12 Google reviews to over 40 in four months, and our Maps ranking moved from outside the local pack to the top three. New patients mention finding us on Google every week now.",
-    attribution: "[CLIENT NAME]",
-    type: "[PRACTICE TYPE]",
-    city: "[CITY]",
-  },
-];
-
 export default function ResultsPage() {
   return (
     <main className="pt-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Breadcrumb */}
@@ -179,7 +128,7 @@ export default function ResultsPage() {
         >
           <div className="mx-auto max-w-content px-6 lg:px-8">
             <div style={{ display: "flex", alignItems: "baseline", gap: "16px", marginBottom: "24px", flexWrap: "wrap" }}>
-              <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontWeight: 700 }}>
+              <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontWeight: 700 }}>
                 {milestone.period}
               </span>
               <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.2, margin: 0 }}>
@@ -197,44 +146,6 @@ export default function ResultsPage() {
           </div>
         </section>
       ))}
-
-      {/* Testimonials */}
-      <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
-            Client Sentiment
-          </p>
-          <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
-            What Our Clients Say
-          </h2>
-          <p style={{ fontSize: "0.875rem", color: "var(--smoke)", fontFamily: "system-ui, sans-serif", marginBottom: "40px", fontStyle: "italic" }}>
-            These represent real client sentiment. Names, practice types, and cities are placeholders pending client permission to publish.
-          </p>
-
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "24px" }}>
-            {testimonials.map(({ quote, attribution, type, city }) => (
-              <blockquote
-                key={attribution + type}
-                style={{
-                  backgroundColor: "var(--surface-2)",
-                  border: "1px solid var(--wire)",
-                  borderRadius: "6px",
-                  padding: "32px",
-                  borderLeft: "4px solid var(--gold)",
-                  margin: 0,
-                }}
-              >
-                <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.15rem", color: "var(--chalk)", fontStyle: "italic", lineHeight: 1.7, marginBottom: "16px" }}>
-                  &ldquo;{quote}&rdquo;
-                </p>
-                <cite style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.85rem", color: "var(--smoke)", fontStyle: "normal" }}>
-                  — {attribution}, {type}, {city}, FL
-                </cite>
-              </blockquote>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Internal links */}
       <section style={{ backgroundColor: "var(--void)", borderTop: "1px solid var(--wire)", padding: "clamp(32px, 4vw, 56px) 0" }}>
@@ -259,7 +170,7 @@ export default function ResultsPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
+      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--gold)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "1.5rem" }}>
             Ready to Grow Your Practice?
@@ -268,7 +179,7 @@ export default function ResultsPage() {
             Get a free audit of your online presence — delivered in 3–5 business days.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--gold)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
             <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>

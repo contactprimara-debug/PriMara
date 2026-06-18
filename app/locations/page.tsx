@@ -71,7 +71,7 @@ export default function LocationsPage() {
       {/* Hero */}
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontFamily: "system-ui, sans-serif", marginBottom: "16px" }}>
+          <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "16px" }}>
             South Florida — Miami-Dade · Broward · Palm Beach
           </p>
           <h1 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.15, marginBottom: "1.5rem", maxWidth: "820px" }}>
@@ -99,7 +99,7 @@ export default function LocationsPage() {
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <div style={{ marginBottom: "40px" }}>
-            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
+            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
               Primary Care
             </p>
             <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
@@ -180,7 +180,7 @@ export default function LocationsPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
+      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--gold)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "1.5rem" }}>
             Ready to Grow Your Practice?
@@ -189,7 +189,7 @@ export default function LocationsPage() {
             Get a free audit of your online presence — delivered in 3–5 business days.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--gold)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
             <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>

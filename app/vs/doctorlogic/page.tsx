@@ -580,7 +580,7 @@ export default function VsDoctorLogicPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
+      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--gold)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2
             style={{
@@ -602,7 +602,7 @@ export default function VsDoctorLogicPage() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--gold)",
                 color: "#fff",
                 fontWeight: 700,
                 padding: "0 1.5rem",
