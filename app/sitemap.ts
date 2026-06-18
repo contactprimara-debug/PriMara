@@ -212,5 +212,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/pembroke-pines-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/hollywood-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/port-st-lucie-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+
+    // ── Priority 0.8 — High-intent keyword pages ─────────────────────────
+    { url: `${SITE_URL}/pricing`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/therapist-seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+
+    // ── Priority 0.7 — Process + comparison pages ────────────────────────
+    { url: `${SITE_URL}/how-it-works`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/vs`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/vs/patientpop`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/vs/webpt`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/vs/doctorlogic`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
   ];
 }
