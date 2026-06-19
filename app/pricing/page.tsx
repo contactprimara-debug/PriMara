@@ -173,7 +173,7 @@ export default function PricingPage() {
                 letterSpacing: "0.08em",
                 fontWeight: 700,
                 color: "#ffffff",
-                backgroundColor: "var(--gold)",
+                backgroundColor: "var(--ember)",
                 padding: "0 32px",
                 height: "52px",
                 borderRadius: "3px",
@@ -892,7 +892,7 @@ export default function PricingPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--gold)" }}>
+      <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2
             style={{
@@ -914,7 +914,7 @@ export default function PricingPage() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                backgroundColor: "var(--gold)",
+                backgroundColor: "var(--ember)",
                 color: "#fff",
                 fontWeight: 700,
                 padding: "0 1.5rem",

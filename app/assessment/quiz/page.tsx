@@ -181,7 +181,7 @@ export default function QuizPage() {
         <div
           style={{
             height: "100%",
-            background: "var(--gold)",
+            background: "var(--ember)",
             width: `${progress}%`,
             transition: "width 0.4s ease",
           }}
@@ -215,7 +215,7 @@ export default function QuizPage() {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "40px" }}>
                 {Array.from({ length: 10 }).map((_, i) => (
-                  <div key={i} style={{ flex: 1, height: "3px", background: i <= bpIndex ? "var(--gold)" : "var(--wire)", borderRadius: "2px", transition: "background 0.3s" }} />
+                  <div key={i} style={{ flex: 1, height: "3px", background: i <= bpIndex ? "var(--ember)" : "var(--wire)", borderRadius: "2px", transition: "background 0.3s" }} />
                 ))}
               </div>
 
@@ -244,7 +244,7 @@ export default function QuizPage() {
                     }}
                     style={{
                       background: bpAnswers[bpIndex] === value ? (value ? "rgba(61,170,110,0.15)" : "rgba(232,97,26,0.12)") : "var(--surface)",
-                      border: `1px solid ${bpAnswers[bpIndex] === value ? (value ? "var(--color-success)" : "var(--gold)") : "var(--wire)"}`,
+                      border: `1px solid ${bpAnswers[bpIndex] === value ? (value ? "var(--color-success)" : "var(--ember)") : "var(--wire)"}`,
                       borderRadius: "4px",
                       padding: "20px 24px",
                       textAlign: "left",
@@ -259,7 +259,7 @@ export default function QuizPage() {
                       transition: "all 0.2s",
                     }}
                   >
-                    <span style={{ display: "block", width: "18px", height: "18px", border: `1.5px solid ${bpAnswers[bpIndex] === value ? "var(--color-success)" : "var(--wire)"}`, borderRadius: "50%", flexShrink: 0, background: bpAnswers[bpIndex] === value ? (value ? "var(--color-success)" : "var(--gold)") : "transparent" }} />
+                    <span style={{ display: "block", width: "18px", height: "18px", border: `1.5px solid ${bpAnswers[bpIndex] === value ? "var(--color-success)" : "var(--wire)"}`, borderRadius: "50%", flexShrink: 0, background: bpAnswers[bpIndex] === value ? (value ? "var(--color-success)" : "var(--ember)") : "transparent" }} />
                     {label}
                   </button>
                 ))}
@@ -358,7 +358,7 @@ export default function QuizPage() {
                 style={{
                   marginTop: "20px",
                   width: "100%",
-                  background: "var(--gold)",
+                  background: "var(--ember)",
                   color: "#fff",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,
@@ -429,7 +429,7 @@ export default function QuizPage() {
               </div>
 
               {error && (
-                <p style={{ color: "var(--gold)", fontFamily: "system-ui, sans-serif", fontSize: "13px", marginBottom: "12px" }}>{error}</p>
+                <p style={{ color: "var(--ember)", fontFamily: "system-ui, sans-serif", fontSize: "13px", marginBottom: "12px" }}>{error}</p>
               )}
 
               <button
@@ -438,7 +438,7 @@ export default function QuizPage() {
                 style={{
                   marginTop: "8px",
                   width: "100%",
-                  background: submitting ? "var(--wire)" : "var(--gold)",
+                  background: submitting ? "var(--wire)" : "var(--ember)",
                   color: "#fff",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,

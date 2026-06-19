@@ -232,7 +232,7 @@ export default function VisibilityPackagePage() {
                 letterSpacing: "0.06em",
                 fontWeight: 600,
                 color: "#ffffff",
-                backgroundColor: "var(--gold)",
+                backgroundColor: "var(--ember)",
                 padding: "0 28px",
                 height: "48px",
                 borderRadius: "2px",
