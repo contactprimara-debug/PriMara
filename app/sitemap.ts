@@ -57,6 +57,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
+    // ── Priority 0.9 — Main service pages (SEO + Ads) ───────────────────
+    { url: `${SITE_URL}/services/seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/services/google-ads`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+
     // ── Priority 0.7 — Service cluster pages ────────────────────────────
     {
       url: `${SITE_URL}/services/google-business-profile`,
