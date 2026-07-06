@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Primara — Digital Marketing for Independent Medical Practices in Florida";
+export const alt = "Primara — Digital Marketing for Independent Medical Practices";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -79,7 +79,7 @@ export default async function OgImage() {
             letterSpacing: "1.5px",
           }}
         >
-          primara365.com · West Palm Beach, FL · (561) 291-2681
+          primara365.com · (561) 291-2681
         </div>
       </div>
     ),

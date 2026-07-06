@@ -11,7 +11,6 @@ import styles from './Marquee.module.css';
 const ITEMS = [
   'HIPAA-Aware Strategy',
   'Founder-Led — No Account Managers',
-  'West Palm Beach, FL',
   'Independent Practices Only',
   'Free Audit — No Obligation',
   'GBP · SEO · Website · Reviews',
@@ -63,7 +62,7 @@ export default function Marquee() {
     <div
       className={styles.outer}
       role="marquee"
-      aria-label="Primara — local SEO, GBP optimization, website builds, and review management for independent medical practices in Florida"
+      aria-label="Primara — local SEO, GBP optimization, website builds, and review management for independent medical practices"
     >
       <div
         ref={innerRef}

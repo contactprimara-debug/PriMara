@@ -16,8 +16,8 @@ const stats = [
         <path d="M7 11l3 3 5-5" stroke="white" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    value: "Florida",
-    label: "FL-Based Team",
+    value: "Nationwide",
+    label: "Independent Practices",
   },
 ];
 

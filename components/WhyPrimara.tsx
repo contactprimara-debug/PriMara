@@ -12,7 +12,7 @@ const cards = [
       </svg>
     ),
     title: "Independent Healthcare Practices Only.",
-    body: "Primara works exclusively with independently owned primary care practices and mental health practices in Florida. No hospital systems, no corporate chains, no PE-backed groups. We serve two niches and know both deeply — because serving everyone poorly is not a business model.",
+    body: "Primara works exclusively with independently owned primary care practices and mental health practices. No hospital systems, no corporate chains, no PE-backed groups. We serve two niches and know both deeply — because serving everyone poorly is not a business model.",
   },
   {
     icon: (
@@ -53,7 +53,6 @@ const badges = [
   "Gio LaRoche, Co-Founder",
   "West Palm Beach, FL",
   "Primary Care & Mental Health",
-  "Florida Independent Practices",
 ] as const;
 
 export default function WhyPrimara() {
@@ -82,7 +81,7 @@ export default function WhyPrimara() {
               fontFamily: "var(--font-fraunces)",
             }}
           >
-            Why Florida Chooses Primara
+            Why Independent Practices Choose Primara
           </h2>
         </div>
 

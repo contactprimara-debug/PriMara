@@ -50,22 +50,22 @@ import TypeAnimations from "@/components/TypeAnimations";
 import ScrollStorytelling from "@/components/ScrollStorytelling";
 
 export const metadata: Metadata = {
-  title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
+  title: "Healthcare Marketing Agency for Independent Medical Practices | Primara",
   description:
-    "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
+    "Independent primary care and mental health practices get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
   alternates: {
     canonical: "https://primara365.com",
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Healthcare Marketing Agency Florida — Primary Care & Mental Health | Primara",
+    title: "Healthcare Marketing Agency for Independent Medical Practices | Primara",
     description:
-      "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
+      "Independent primary care and mental health practices get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts.",
     type: "website",
     url: "https://primara365.com",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
-  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "Independent primary care and mental health practices in Florida get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts." },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "Independent primary care and mental health practices get found faster, rank higher on Google Maps, and fill their schedule with Primara — founder-led, HIPAA-aware, no long-term contracts." },
 };
 
 export default function HomePage() {

@@ -223,8 +223,8 @@ export default function AboutSection() {
                   margin: 0,
                 }}
               >
-                Liam and Gio started Primara to give independent medical practices in
-                Florida the same digital reach that hospital systems take for granted —
+                Liam and Gio started Primara to give independent medical practices the
+                same digital reach that hospital systems take for granted —
                 without the agency machine, the long contracts, or the layers of account
                 management between you and the people doing the work.
               </p>
@@ -254,7 +254,7 @@ export default function AboutSection() {
                 }}
               >
                 We work exclusively with independent primary care practices and mental
-                health practices in Florida. No hospital systems, no urgent care chains,
+                health practices. No hospital systems, no urgent care chains,
                 no corporate groups. If you&rsquo;re running your own practice and your
                 schedule isn&rsquo;t full, we should talk.
               </p>

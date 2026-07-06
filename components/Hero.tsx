@@ -22,7 +22,7 @@ export default function Hero() {
       {/* ── Hero section ─────────────────────────────────────────────────── */}
       <section
         className="hero"
-        aria-label="Primara — Digital Marketing for Independent Medical Practices in Florida"
+        aria-label="Primara — Digital Marketing for Independent Medical Practices"
         style={{
           height: "100svh",
           minHeight: "600px",
@@ -58,7 +58,7 @@ export default function Hero() {
               marginBottom: "clamp(28px, 4vw, 48px)",
             }}
           >
-            Healthcare Practices Only · HIPAA-Aware · No Account Managers · Florida
+            Healthcare Practices Only · HIPAA-Aware · No Account Managers · Nationwide
           </div>
 
           {/* H1 — three-line display, SplitText target */}
@@ -75,7 +75,7 @@ export default function Hero() {
               maxWidth: "16ch",
             }}
           >
-            We Put Independent Florida Practices on the{" "}
+            We Put Independent Medical Practices on the{" "}
             <em
               style={{
                 fontStyle: "italic",
@@ -99,7 +99,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            Primara builds the digital presence independent primary care physicians and mental health practices in Florida should have had from day one &mdash; Google Business Profile, local SEO, website, and review systems that fill schedules without depending on directories, referrals, or word of mouth.
+            Primara builds the digital presence independent primary care physicians and mental health practices should have had from day one &mdash; Google Business Profile, local SEO, website, and review systems that fill schedules without depending on directories, referrals, or word of mouth.
           </p>
 
           {/* CTA pair */}
