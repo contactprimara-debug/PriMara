@@ -99,7 +99,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            Primara builds the digital presence independent primary care physicians and mental health practices should have had from day one &mdash; Google Business Profile, local SEO, website, and review systems that fill schedules without depending on directories, referrals, or word of mouth.
+            SEO, Google Ads, Google Business Profile, and review systems — built exclusively for independent primary care and mental health practices. Founder-led, no account managers, month-to-month.
           </p>
 
           {/* CTA pair */}
@@ -132,7 +132,7 @@ export default function Hero() {
                 textDecoration: "none",
               }}
             >
-              Get My Free Practice Audit →
+              Get My Free GBP Audit →
             </Link>
 
             <Link
@@ -158,6 +158,19 @@ export default function Hero() {
               See How It Works ↓
             </Link>
           </div>
+
+          {/* Offer micro-copy */}
+          <p
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "11px",
+              letterSpacing: "0.08em",
+              color: "var(--smoke)",
+              marginTop: "20px",
+            }}
+          >
+            Free GBP audit delivered in 48 hours — completeness score, rank gap vs. top 3 competitors, 5-point action plan. No sales call required.
+          </p>
         </div>
 
         {/* Scroll indicator — pinned to bottom center */}

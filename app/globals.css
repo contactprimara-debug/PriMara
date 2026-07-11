@@ -620,6 +620,19 @@ section + section blockquote {
   }
 }
 
+/* ── Responsive grids for new sections ──────────────────────────────────── */
+@media (max-width: 768px) {
+  .offer-strip-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .work-detail-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .seo-pillar-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* ── Tailwind utilities ──────────────────────────────────────────────────── */
 @layer utilities {
   .text-balance {

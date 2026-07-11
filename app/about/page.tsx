@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd, liamSchema, gioSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "About Primara — Healthcare Marketing Agency Florida | Primara",
+  title: "About Primara — Healthcare Marketing Agency for Independent Practices | Primara",
   description:
-    "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
+    "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/about" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "About Primara — Healthcare Marketing Agency Florida | Primara",
+    title: "About Primara — Healthcare Marketing Agency for Independent Practices | Primara",
     description:
-      "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
+      "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/about",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],

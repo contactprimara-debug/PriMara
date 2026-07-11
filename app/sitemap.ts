@@ -45,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Priority 0.8 — Pillar / category pages ───────────────────────────
     {
+      url: `${SITE_URL}/work`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${SITE_URL}/services`,
       lastModified,
       changeFrequency: "monthly",

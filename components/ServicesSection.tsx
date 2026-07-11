@@ -25,35 +25,43 @@ interface Service {
 const services: Service[] = [
   {
     index: "01",
-    name: "GBP Optimization",
-    href: "/services/google-business-profile",
-    tag: "Local Search",
+    name: "SEO",
+    href: "/services/seo",
+    tag: "Organic Search",
     description:
-      "We configure 8–10 GBP categories (most practices have 1–2), write 30+ services in patient-search language, fill every attribute, and schedule 52 posts per year via BrightLocal. GBP is the single most important ranking factor for local search — we treat it that way.",
+      "Full-stack SEO: Google Business Profile optimization, on-page rewrites, technical audit, schema markup, and a content calendar targeting the searches your prospective patients actually run. Tracked monthly via Local Falcon grids and Google Search Console.",
   },
   {
     index: "02",
+    name: "Google Ads",
+    href: "/services/google-ads",
+    tag: "Paid Search",
+    description:
+      "Local Service Ads and search campaigns built around new-patient intent. HIPAA-aware conversion tracking from day one — no form content captured, no PHI in your ad account. Campaigns go live in 7–10 days.",
+  },
+  {
+    index: "03",
     name: "Website Rebuild",
     href: "/services/medical-practice-website-design",
     tag: "Digital Presence",
     description:
-      "We build a 30-page Core SEO structure mirroring your GBP categories, deployed on Vercel with all 7 GBP consistency signals verified at launch. Each page targets a specific local search term with MedicalOrganization schema markup from day one.",
+      "30-page Core SEO architecture deployed on Vercel. Every page targets a specific local search term with MedicalOrganization schema markup and all 7 GBP consistency signals verified at launch.",
   },
   {
-    index: "03",
+    index: "04",
     name: "Review Generation",
     href: "/services/online-reputation-management",
     tag: "Reputation",
     description:
-      "We program 10 NFC tap cards and install QR signs at checkout, waiting room, and exam rooms. Reviews rotate across Google, Yelp, and Healthgrades monthly. Every response is HIPAA-compliant and published within 48 hours.",
+      "10 NFC tap cards programmed and installed at checkout, waiting rooms, and exam rooms. Reviews rotate across Google, Yelp, and Healthgrades. Every response HIPAA-compliant and published within 48 hours.",
   },
   {
-    index: "04",
-    name: "Local SEO Content",
-    href: "/services/local-seo-for-medical-practices",
-    tag: "Content & Authority",
+    index: "05",
+    name: "GBP Optimization",
+    href: "/services/google-business-profile",
+    tag: "Local Search",
     description:
-      "Each month we publish two pages driven by your Local Falcon rank map: a topical page when your Top 3% score lags your top competitor, a geographic page once it doesn't. Two pages per month compounds into measurable map pack movement.",
+      "8–10 GBP categories (most practices start with 1–2), 30+ services in patient-search language, every attribute filled, and 52 posts scheduled at onboarding. The single highest-leverage change most practices can make.",
   },
 ];
 

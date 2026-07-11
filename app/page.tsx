@@ -45,6 +45,10 @@ import TrustBar from "@/components/TrustBar";
 import WhyPrimara from "@/components/WhyPrimara";
 import ContactFinal from "@/components/ContactFinal";
 
+// ── New sections ──────────────────────────────────────────────────────────
+import AuditOfferStrip from "@/components/AuditOfferStrip";
+import WorkTeaser from "@/components/WorkTeaser";
+
 // ── Animation controllers ─────────────────────────────────────────────────
 import TypeAnimations from "@/components/TypeAnimations";
 import ScrollStorytelling from "@/components/ScrollStorytelling";
@@ -83,6 +87,7 @@ export default function HomePage() {
       />
       {/* ── Above fold ─────────────────────────────────────────────────── */}
       <Hero />
+      <AuditOfferStrip />
       <Marquee />
 
       {/* ── Vertical selector cards ───────────────────────────────────────── */}
@@ -229,6 +234,9 @@ export default function HomePage() {
 
       {/* ── Services detail (section 02) ─────────────────────────────────── */}
       <ServicesSection />
+
+      {/* ── Work / case studies ──────────────────────────────────────────── */}
+      <WorkTeaser />
 
       {/* ── About / founders (section 03) ────────────────────────────────── */}
       <AboutSection />
