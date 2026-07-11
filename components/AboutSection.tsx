@@ -107,20 +107,28 @@ export default function AboutSection() {
                   aspectRatio: "4 / 5",
                 }}
               >
-                <img
-                  src={`/founders/${f.slug}-800.jpg`}
-                  srcSet={`/founders/${f.slug}-480.jpg 480w, /founders/${f.slug}-800.jpg 800w, /founders/${f.slug}-1200.jpg 1200w`}
-                  sizes="(max-width: 768px) 45vw, 25vw"
-                  alt={`${f.name} — Co-Founder, Primara`}
-                  loading="lazy"
-                  decoding="async"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    display: "block",
-                  }}
-                />
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcSet={`/founders/${f.slug}-480.webp 480w, /founders/${f.slug}-800.webp 800w, /founders/${f.slug}-1200.webp 1200w`}
+                    sizes="(max-width: 768px) 45vw, 25vw"
+                  />
+                  {/* eslint-disable-next-line @next/next/no-img-element -- static export-friendly; responsive srcSet + lazy loading handled manually */}
+                  <img
+                    src={`/founders/${f.slug}-800.jpg`}
+                    srcSet={`/founders/${f.slug}-480.jpg 480w, /founders/${f.slug}-800.jpg 800w, /founders/${f.slug}-1200.jpg 1200w`}
+                    sizes="(max-width: 768px) 45vw, 25vw"
+                    alt={`${f.name} — Co-Founder, Primara`}
+                    loading="lazy"
+                    decoding="async"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      display: "block",
+                    }}
+                  />
+                </picture>
                 <figcaption
                   style={{
                     position: "absolute",
