@@ -257,7 +257,7 @@ export default function AssessmentLandingPage() {
                 practices a clear, honest picture of where they stand online in under 3 minutes.
               </p>
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--chalk)", lineHeight: 1.85, margin: 0, opacity: 0.78 }}>
-                Primara works exclusively with independent primary care practices in Florida.
+                Primara works exclusively with independent primary care practices.
                 Every engagement is run by a co-founder from kickoff to monthly reporting —
                 no account coordinators, no handoffs.
               </p>

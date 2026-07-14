@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "SEO for Therapists in Florida — What Actually Works | Primara",
+  title: "SEO for Therapists — What Actually Works | Primara",
   description:
-    "Therapist SEO for private practice in Florida: why Psychology Today underperforms, what search terms to target, how Google Maps beats directories for private-pay client acquisition.",
+    "Therapist SEO for private practice: why Psychology Today underperforms, what search terms to target, how Google Maps beats directories for private-pay client acquisition.",
   alternates: { canonical: "https://primara365.com/therapist-seo" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "SEO for Therapists in Florida — What Actually Works | Primara",
+    title: "SEO for Therapists — What Actually Works | Primara",
     description:
       "How Florida therapists in private practice can rank on Google, outperform Psychology Today listings, and attract private-pay clients through local SEO.",
     type: "website",
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "SEO for Therapists in Florida — What Actually Works",
+  name: "SEO for Therapists — What Actually Works",
   url: "https://primara365.com/therapist-seo",
   description:
-    "Comprehensive guide to therapist SEO in Florida: why Psychology Today underperforms, what search terms drive private-pay clients, and how Google Business Profile beats directories.",
+    "Comprehensive guide to therapist SEO: why Psychology Today underperforms, what search terms drive private-pay clients, and how Google Business Profile beats directories.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -49,9 +49,9 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   description:
-    "Local SEO and Google Business Profile optimization for therapists, psychologists, and licensed counselors in Florida private practice.",
+    "Local SEO and Google Business Profile optimization for therapists, psychologists, and licensed counselors private practice.",
   offers: {
     "@type": "Offer",
     priceCurrency: "USD",
@@ -224,7 +224,7 @@ export default function TherapistSEOPage() {
               maxWidth: "20ch",
             }}
           >
-            SEO for Therapists in Florida —{" "}
+            SEO for Therapists —{" "}
             <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
               What Actually Works
             </em>
@@ -239,7 +239,7 @@ export default function TherapistSEOPage() {
               margin: "0 0 clamp(36px, 5vw, 52px)",
             }}
           >
-            Most therapist marketing advice treats therapy like any other service business. It isn&rsquo;t. Here&rsquo;s what actually drives private-pay client acquisition for independent therapists in Florida — and why the directory approach is costing you clients you don&rsquo;t know about.
+            Most therapist marketing advice treats therapy like any other service business. It isn&rsquo;t. Here&rsquo;s what actually drives private-pay client acquisition for independent therapists — and why the directory approach is costing you clients you don&rsquo;t know about.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <Link

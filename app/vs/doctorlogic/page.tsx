@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Primara vs. DoctorLogic — An Honest Comparison | Primara",
     description:
-      "DoctorLogic uses AI-powered content and templated websites. Primara builds market-specific strategy. An honest comparison for independent practices in South Florida.",
+      "DoctorLogic uses AI-powered content and templated websites. Primara builds market-specific strategy. An honest comparison for independent practices.",
     type: "website",
     url: "https://primara365.com/vs/doctorlogic",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -511,7 +511,7 @@ export default function VsDoctorLogicPage() {
                 }}
               >
                 {[
-                  "You are a primary care or mental health practice in South Florida",
+                  "You are a primary care or mental health practice",
                   "Your market has meaningful competition — Miami, Fort Lauderdale, Boca Raton, WPB",
                   "You want content written by people who know your market's competitive landscape",
                   "You want to rank above hospital-affiliated practices, not just appear in search",

@@ -16,6 +16,7 @@ export async function submitContact(
   const practiceName = (formData.get("practiceName") as string)?.trim();
   const phone = (formData.get("phone") as string)?.trim();
   const callTime = (formData.get("callTime") as string)?.trim();
+  const reason = (formData.get("reason") as string)?.trim();
 
   if (!name || !practiceName || !phone || !callTime) {
     return { status: "error", error: "All fields are required." };
@@ -43,6 +44,7 @@ export async function submitContact(
           `Practice: ${practiceName}`,
           `Phone: ${phone}`,
           `Best time to call: ${callTime}`,
+          ...(reason ? [`Reason: ${reason}`] : []),
         ].join("\n"),
       });
     } else {

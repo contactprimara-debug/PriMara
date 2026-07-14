@@ -6,13 +6,13 @@ import PackageInquiryForm from "@/components/PackageInquiryForm";
 export const metadata: Metadata = {
   title: "Visibility Package — Foundation + Google Ads | Primara",
   description:
-    "Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices in Florida. You pay Google directly. Call (561) 291-2681.",
+    "Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices. You pay Google directly. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/visibility" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Visibility Package — Foundation + Google Ads | Primara",
     description:
-      "Foundation Package + Google Ads management for independent healthcare practices in Florida. Call (561) 291-2681.",
+      "Foundation Package + Google Ads management for independent healthcare practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/packages/visibility",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -45,9 +45,9 @@ const offerSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   description:
-    "Visibility Package for independent healthcare practices in Florida: full Google Business Profile management, website rebuild, review generation system, monthly SEO content, and comprehensive reporting.",
+    "Visibility Package for independent healthcare practices: full Google Business Profile management, website rebuild, review generation system, monthly SEO content, and comprehensive reporting.",
   offers: {
     "@type": "Offer",
     priceCurrency: "USD",
@@ -388,7 +388,7 @@ export default function VisibilityPackagePage() {
               marginBottom: "20px",
             }}
           >
-            Primary care and mental health practices in Florida with open appointment capacity
+            Primary care and mental health practices with open appointment capacity
             who want to run paid search alongside organic SEO — and want a
             single team managing both rather than splitting accountability
             across vendors.

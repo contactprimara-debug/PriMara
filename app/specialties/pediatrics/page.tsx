@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Pediatric Practices in Florida | Primara",
+  title: "Digital Marketing for Pediatric Practices | Primara",
   description:
-    "Primara helps independent pediatricians in Florida rank higher on Google Maps, earn parent trust through reviews, and stay visible to relocating families. Free audit. Call (561) 291-2681.",
+    "Primara helps independent pediatricians rank higher on Google Maps, earn parent trust through reviews, and stay visible to relocating families. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/pediatrics" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -20,7 +20,7 @@ const challenges = [
   },
   {
     title: "Florida's in-migration creates constant demand",
-    body: "Families relocating from the Northeast and Midwest arrive in Florida needing a pediatrician immediately. These new-mover families are actively searching — and if your practice doesn't rank, a competitor captures them on day one.",
+    body: "Families relocating from the Northeast and Midwest arrive needing a pediatrician immediately. These new-mover families are actively searching — and if your practice doesn't rank, a competitor captures them on day one.",
   },
   {
     title: "Seasonal search spikes require a ready presence",
@@ -61,7 +61,7 @@ export default function PediatricsPage() {
           Pediatrics · Florida
         </div>
         <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
-          Digital Marketing for Pediatric Practices in Florida
+          Digital Marketing for Pediatric Practices
         </h1>
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
           Parents choose a pediatrician the way they choose a school — carefully, based on reputation, reviews,

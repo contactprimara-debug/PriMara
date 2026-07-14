@@ -4,13 +4,13 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Free Practice Audit for Independent Healthcare Practices | Primara",
   description:
-    "Free audit for independent primary care and mental health practices in Florida. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
+    "Free audit for independent primary care and mental health practices. Real numbers, your named competitor, no obligation. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/the-audit" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Free Practice Audit for Independent Healthcare Practices | Primara",
     description:
-      "Free audit for independent primary care and mental health practices in Florida. Real numbers, your named competitor, no obligation.",
+      "Free audit for independent primary care and mental health practices. Real numbers, your named competitor, no obligation.",
     type: "website",
     url: "https://primara365.com/the-audit",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -43,7 +43,7 @@ const faqSchema = {
       "name": "Do you work with all medical specialties?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We work with independent primary care practices and mental health practices in Florida — family medicine, internal medicine, and related primary care specialties, as well as solo therapists, psychologists, licensed counselors, and small group mental health practices.",
+        "text": "We work with independent primary care practices and mental health practices — family medicine, internal medicine, and related primary care specialties, as well as solo therapists, psychologists, licensed counselors, and small group mental health practices.",
       },
     },
     {
@@ -308,7 +308,7 @@ export default function TheAuditPage() {
               },
               {
                 q: "Do you work with all medical specialties?",
-                a: "We work with independent primary care practices and mental health practices in Florida — family medicine, internal medicine, and related primary care specialties, as well as solo therapists, psychologists, licensed counselors, and small group mental health practices.",
+                a: "We work with independent primary care practices and mental health practices — family medicine, internal medicine, and related primary care specialties, as well as solo therapists, psychologists, licensed counselors, and small group mental health practices.",
               },
               {
                 q: "What happens after the audit?",

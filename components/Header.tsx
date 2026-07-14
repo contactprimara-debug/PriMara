@@ -119,7 +119,7 @@ export default function Header() {
           aria-label="Primary navigation"
           style={{
             alignItems: "center",
-            gap: "36px",
+            gap: "clamp(16px, 2.2vw, 36px)",
           }}
           className="hidden md:flex"
         >
@@ -369,6 +369,7 @@ export default function Header() {
           <a
             href={`tel:${siteConfig.phone}`}
             aria-label={`Call Primara at ${siteConfig.phoneDisplay}`}
+            className="nav-phone"
             style={{
               fontFamily: "system-ui, sans-serif",
               fontSize: "11px",
@@ -376,6 +377,7 @@ export default function Header() {
               color: "var(--smoke)",
               textDecoration: "none",
               transition: "color 0.2s",
+              whiteSpace: "nowrap",
             }}
           >
             {siteConfig.phoneDisplay}

@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Patient Acquisition Ads for Doctors in Florida | Primara",
+  title: "Patient Acquisition Ads for Doctors | Primara",
   description:
-    "Primara runs targeted patient acquisition ad campaigns for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara runs targeted patient acquisition ad campaigns for independent medical practices. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/patient-acquisition-ads" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Patient Acquisition Ads for Doctors in Florida | Primara",
+    title: "Patient Acquisition Ads for Doctors | Primara",
     description:
-      "Primara runs targeted patient acquisition ad campaigns for independent medical practices in Florida. Call (561) 291-2681.",
+      "Primara runs targeted patient acquisition ad campaigns for independent medical practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services/patient-acquisition-ads",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -49,15 +49,15 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Targeted Google search and Local Service Ad campaigns for independent medical practices in Florida.",
+    "Targeted Google search and Local Service Ad campaigns for independent medical practices.",
 };
 
 const bullets = [
   "Google Local Service Ads (LSA) setup and verification for the healthcare vertical",
-  "Google Search campaign structure built around new-patient intent keywords in Florida",
+  "Google Search campaign structure built around new-patient intent keywords",
   "Geographic bid adjustments targeting specific ZIP codes and neighborhoods where your patients live",
   "Privacy-compliant call tracking and form-fill attribution to measure new patient inquiry volume",
   "Ad copy reviewed for compliance — no outcome promises, no superlatives that cannot be substantiated",
@@ -97,13 +97,13 @@ export default function PatientAdsPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Patient Acquisition Ads for Medical Practices in Florida — Primara
+          Patient Acquisition Ads for Medical Practices — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Primara
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -135,7 +135,7 @@ export default function PatientAdsPage() {
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Paid search advertising allows a primary care practice to appear at the top of Google&rsquo;s results for
             high-intent searches — immediately, rather than waiting for organic SEO rankings to develop over months.
-            For independent practices in Florida competing against larger health systems with significant
+            For independent practices competing against larger health systems with significant
             brand recognition and marketing budgets, targeted paid placement may provide a meaningful new-patient
             inquiry volume while longer-term SEO and Google Business Profile strategies mature.
           </p>
@@ -197,7 +197,7 @@ export default function PatientAdsPage() {
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
             If your practice has open appointment capacity but organic search, referrals, and walk-in volume are not
             filling it, paid search may help bridge the gap. This is particularly relevant for practices that have
-            recently opened, expanded to a new location in Florida, or added a provider and need to build
+            recently opened, expanded to a new location, or added a provider and need to build
             patient volume more quickly than organic strategies typically allow. Primara works exclusively with
             independent physician-owned primary care clinics.
           </p>
@@ -242,7 +242,7 @@ export default function PatientAdsPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in Florida — Call (561) 291-2681
+            Schedule — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -265,7 +265,7 @@ export default function PatientAdsPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in Florida.
+            for independent primary care practices.
           </p>
         </div>
       </section>

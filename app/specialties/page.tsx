@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Primary Care Marketing by Specialty | Primara Florida",
   description:
-    "Primara provides digital marketing for independent primary care practices in Florida — family medicine, internal medicine, pediatrics, geriatrics, concierge, and direct primary care. Call (561) 291-2681.",
+    "Primara provides digital marketing for independent primary care practices — family medicine, internal medicine, pediatrics, geriatrics, concierge, and direct primary care. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -115,7 +115,7 @@ export default function SpecialtiesPage() {
             maxWidth: "800px",
           }}
         >
-          Digital Marketing for Independent Primary Care Practices in Florida
+          Digital Marketing for Independent Primary Care Practices
         </h1>
 
         <p

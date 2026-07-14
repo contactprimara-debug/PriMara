@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Medical Practice Website Design in Florida | Primara",
+  title: "Medical Practice Website Design | Primara",
   description:
-    "Primara designs fast, HIPAA-aware websites for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara designs fast, HIPAA-aware websites for independent medical practices. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/medical-practice-website-design" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Medical Practice Website Design in Florida | Primara",
+    title: "Medical Practice Website Design | Primara",
     description:
-      "Primara designs fast, HIPAA-aware websites for independent medical practices in Florida. Call (561) 291-2681.",
+      "Primara designs fast, HIPAA-aware websites for independent medical practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services/medical-practice-website-design",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -49,10 +49,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Fast, HIPAA-aware website design and development for independent medical practices in Florida.",
+    "Fast, HIPAA-aware website design and development for independent medical practices.",
 };
 
 const bullets = [
@@ -97,13 +97,13 @@ export default function WebsiteDesignPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Medical Practice Website Design in Florida — Primara
+          Medical Practice Website Design — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Primara
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -134,7 +134,7 @@ export default function WebsiteDesignPage() {
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             A medical practice website serves a fundamentally different purpose than a general business site. For a
-            physician in Florida — whether your practice is near Good Samaritan Medical Center on Palm Beach
+            physician — whether your practice is near Good Samaritan Medical Center on Palm Beach
             Lakes Boulevard, in an office park off Southern Boulevard, or in a neighborhood clinic in the Northwood
             or SoSo district — your site must load quickly on a mobile connection, present your credentials and
             accepted insurance clearly, and make it easy for a prospective patient to call your front desk or submit
@@ -199,7 +199,7 @@ export default function WebsiteDesignPage() {
             connection, lacks HTTPS, or has no clear action path for a prospective new patient, a redesign may be
             worth discussing. The same applies if your site was last updated more than three years ago and predates
             Google&rsquo;s Core Web Vitals standards. Primara works exclusively with independent, physician-owned
-            primary care clinics in Florida.
+            primary care clinics.
           </p>
         </div>
       </section>
@@ -241,7 +241,7 @@ export default function WebsiteDesignPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in Florida — Call (561) 291-2681
+            Schedule — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -264,7 +264,7 @@ export default function WebsiteDesignPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in Florida.
+            for independent primary care practices.
           </p>
         </div>
       </section>

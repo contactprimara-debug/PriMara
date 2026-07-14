@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Family Medicine Practices in Florida | Primara",
+  title: "Digital Marketing for Family Medicine Practices | Primara",
   description:
-    "Primara helps independent family medicine practices in Florida rank higher on Google Maps, build reviews, and fill their schedule. GBP optimization, local SEO, and website design for family physicians. Call (561) 291-2681.",
+    "Primara helps independent family medicine practices rank higher on Google Maps, build reviews, and fill their schedule. GBP optimization, local SEO, and website design for family physicians. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/family-medicine" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -63,12 +63,12 @@ export default function FamilyMedicinePage() {
           Family Medicine · Florida
         </div>
         <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
-          Digital Marketing for Family Medicine Practices in Florida
+          Digital Marketing for Family Medicine Practices
         </h1>
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
           Family physicians deliver the broadest, most continuous care in medicine — and they compete online
           against urgent care chains, hospital networks, and insurance directories with unlimited marketing budgets.
-          Primara helps independent family medicine practices in Florida build the local digital presence that fills
+          Primara helps independent family medicine practices build the local digital presence that fills
           schedules without paid advertising.
         </p>
         <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
@@ -123,7 +123,7 @@ export default function FamilyMedicinePage() {
             <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>
               <strong style={{ color: "var(--chalk)" }}>Primara works exclusively with independent primary care practices.</strong>{" "}
               No hospital systems. No urgent care chains. If you&rsquo;re a physician-owned family medicine
-              practice in Florida, we should talk.
+              practice, we should talk.
             </p>
           </div>
         </div>

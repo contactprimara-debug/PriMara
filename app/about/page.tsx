@@ -44,7 +44,7 @@ export default function AboutPage() {
           Meet Liam Costello &amp; Gio LaRoche — Primara
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Digital marketing for independent primary care and mental health practices in Florida.
+          Digital marketing for independent primary care and mental health practices.
         </p>
         <p className="mt-2 text-base max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
           Primary care physicians and mental health practices &mdash; founder-led, Florida-based.
@@ -60,7 +60,7 @@ export default function AboutPage() {
             but because of a Google listing that hadn&rsquo;t been touched in three years.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            The problem isn&rsquo;t the quality of independent medicine in Florida. It&rsquo;s visibility. A
+            The problem isn&rsquo;t the quality of independent medicine. It&rsquo;s visibility. A
             hospital system has a full marketing department managing its digital presence. An independent
             physician running a 3-doctor practice has none of that &mdash; and no time to build it between
             patients.
@@ -72,7 +72,7 @@ export default function AboutPage() {
             patient privacy, and ethical marketing that your practice operates under every day.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            We expanded in 2026 to serve independent mental health practices in Florida for the same reason:
+            We expanded in 2026 to serve independent mental health practices for the same reason:
             demand for therapy is rising faster than independent therapists can acquire clients through
             directories alone. Psychology Today and BetterHelp intercept searches that should be reaching
             independent practitioners directly. We build the local presence that makes those directories
@@ -85,7 +85,7 @@ export default function AboutPage() {
           </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
             We work exclusively with independent, physician-owned primary care practices and privately owned
-            mental health practices in Florida. Not dental chains. Not urgent care franchises. Not hospital
+            mental health practices. Not dental chains. Not urgent care franchises. Not hospital
             systems. Two models, done well.
           </p>
         </div>

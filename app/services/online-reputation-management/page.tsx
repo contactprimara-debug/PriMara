@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Reputation Management for Doctors in Florida | Primara",
+  title: "Reputation Management for Doctors | Primara",
   description:
-    "Primara manages online reviews and reputation for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara manages online reviews and reputation for independent medical practices. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/online-reputation-management" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Reputation Management for Doctors in Florida | Primara",
+    title: "Reputation Management for Doctors | Primara",
     description:
-      "Primara manages online reviews and reputation for independent medical practices in Florida. Call (561) 291-2681.",
+      "Primara manages online reviews and reputation for independent medical practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services/online-reputation-management",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -49,10 +49,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Online reputation management and review strategy for independent medical practices in Florida.",
+    "Online reputation management and review strategy for independent medical practices.",
 };
 
 const bullets = [
@@ -97,13 +97,13 @@ export default function ReputationPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Online Reputation Management for Medical Practices in Florida — Primara
+          Online Reputation Management for Medical Practices — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Primara
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -133,9 +133,9 @@ export default function ReputationPage() {
             What is Online Reputation Management?
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            For a primary care physician in Florida, your review profile across Google, Healthgrades, Zocdoc,
+            For a primary care physician, your review profile across Google, Healthgrades, Zocdoc,
             and Yelp shapes patient decisions before any personal contact is made. Patients searching for a new
-            primary care doctor in Florida regularly consult online reviews as part of their selection
+            primary care doctor regularly consult online reviews as part of their selection
             process — and practices with fewer, older, or unresponded reviews may lose prospective patients to
             competitors with more active profiles, even when clinical quality is comparable.
           </p>
@@ -196,7 +196,7 @@ export default function ReputationPage() {
           </h2>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
             If your practice&rsquo;s average rating is below 4.0 stars on Google, your review volume is significantly
-            lower than competing practices in Florida, or you have critical reviews that have gone without a
+            lower than competing practices, or you have critical reviews that have gone without a
             professional response, reputation management may help stabilize your online presence. This is particularly
             relevant for practices competing in high-density corridors like Palm Beach Lakes Boulevard or the medical
             office cluster near Palm Beach International Airport, where prospective patients have many visible
@@ -243,7 +243,7 @@ export default function ReputationPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in Florida — Call (561) 291-2681
+            Schedule — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -266,7 +266,7 @@ export default function ReputationPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in Florida.
+            for independent primary care practices.
           </p>
         </div>
       </section>

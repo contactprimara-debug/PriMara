@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Primara vs. PatientPop — An Honest Comparison | Primara",
     description:
-      "Side-by-side comparison of Primara and PatientPop for independent medical practices in Florida. Pricing, website quality, local SEO, and contract terms.",
+      "Side-by-side comparison of Primara and PatientPop for independent medical practices. Pricing, website quality, local SEO, and contract terms.",
     type: "website",
     url: "https://primara365.com/vs/patientpop",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -39,7 +39,7 @@ const webPageSchema = {
   name: "Primara vs. PatientPop — An Honest Comparison",
   url: "https://primara365.com/vs/patientpop",
   description:
-    "Side-by-side comparison of Primara and PatientPop for independent medical practices in Florida.",
+    "Side-by-side comparison of Primara and PatientPop for independent medical practices.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -538,7 +538,7 @@ export default function VsPatientPopPage() {
                 }}
               >
                 {[
-                  "You're a primary care or mental health practice in South Florida",
+                  "You're a primary care or mental health practice",
                   "Your market has meaningful local search competition (Miami, Fort Lauderdale, Boca Raton, WPB)",
                   "You want to rank above hospital-affiliated competitors in Google Maps",
                   "You want a website you own and take with you if you ever leave",

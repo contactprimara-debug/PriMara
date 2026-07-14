@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Marketing for Direct Primary Care (DPC) Practices in Florida | Primara",
+  title: "Marketing for Direct Primary Care (DPC) Practices | Primara",
   description:
-    "Primara helps independent Direct Primary Care practices in Florida rank online, explain the DPC model to new patients, and attract the self-employed and uninsured who are actively searching. Free audit. Call (561) 291-2681.",
+    "Primara helps independent Direct Primary Care practices rank online, explain the DPC model to new patients, and attract the self-employed and uninsured who are actively searching. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/direct-primary-care" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -60,12 +60,12 @@ export default function DirectPrimaryCarePage() {
           Direct Primary Care · Florida
         </div>
         <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
-          Marketing for Direct Primary Care Practices in Florida
+          Marketing for Direct Primary Care Practices
         </h1>
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
           Over 2,700 DPC practices exist nationwide — and Florida ranks in the top 4 states by practice count.
           The model is growing fast, but most patients still don&rsquo;t know it exists. Primara helps DPC
-          practices in Florida rank for both education-driven searches and traditional care searches,
+          practices rank for both education-driven searches and traditional care searches,
           so the right patients find you before they default to an insurance-based practice.
         </p>
         <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
@@ -119,7 +119,7 @@ export default function DirectPrimaryCarePage() {
             <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--ash)", lineHeight: 1.75, margin: "0 0 12px" }}>
               <strong style={{ color: "var(--chalk)" }}>The DPC market is projected to reach $90.6 billion by 2029.</strong>{" "}
               The practices that own local search now will own the market as awareness of the model grows.
-              Primara builds that foundation for independent DPC practices in Florida.
+              Primara builds that foundation for independent DPC practices.
             </p>
             <cite style={{ fontFamily: "var(--font-mono, 'Courier New', monospace)", fontSize: "9px", letterSpacing: "0.06em", color: "var(--smoke)", lineHeight: 1.4, fontStyle: "normal", display: "block" }}>
               — Allied Market Research, Direct Primary Care Market Report, 2022

@@ -5,18 +5,18 @@ import ServicePageAnimation from "@/components/ServicePageAnimation";
 import PullQuote from "@/components/PullQuote";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Independent Doctors Florida | Primara",
+  title: "Digital Marketing for Independent Doctors | Primara",
   description:
-    "Primara helps independent medical practices in Florida compete online — local SEO, GBP, reputation, and patient acquisition ads. Call (561) 291-2681.",
+    "Primara helps independent medical practices compete online — local SEO, GBP, reputation, and patient acquisition ads. Call (561) 291-2681.",
   alternates: {
     canonical:
       "https://primara365.com/services/digital-marketing-for-independent-medical-practices",
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Digital Marketing for Independent Doctors Florida | Primara",
+    title: "Digital Marketing for Independent Doctors | Primara",
     description:
-      "Primara helps independent medical practices in Florida compete online. Call (561) 291-2681.",
+      "Primara helps independent medical practices compete online. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services/digital-marketing-for-independent-medical-practices",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -53,10 +53,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Comprehensive digital marketing for independent physician-owned medical practices in Florida — local SEO, Google Business Profile management, reputation strategy, and patient acquisition advertising.",
+    "Comprehensive digital marketing for independent physician-owned medical practices — local SEO, Google Business Profile management, reputation strategy, and patient acquisition advertising.",
 };
 
 export default function DigitalMarketingPage() {
@@ -191,7 +191,7 @@ export default function DigitalMarketingPage() {
               margin: "0 0 clamp(32px, 4vw, 48px)",
             }}
           >
-            Primara helps physician-owned practices in Florida compete with health
+            Primara helps physician-owned practices compete with health
             systems and urgent care chains for the patients already searching for
             you — through local search, Google Business Profile, reputation
             management, and targeted patient acquisition.
@@ -292,7 +292,7 @@ export default function DigitalMarketingPage() {
               }}
             >
               Digital marketing for a medical practice is the set of strategies
-              that determines whether a patient in Florida finds your practice — or a
+              that determines whether a patient finds your practice — or a
               competitor — when they open Google and search for "primary care
               doctor near me," "internist Florida," or "family physician
               accepting new patients Coral Gables."
@@ -306,7 +306,7 @@ export default function DigitalMarketingPage() {
                 marginBottom: "20px",
               }}
             >
-              Independent physician-owned practices in Florida face a structural
+              Independent physician-owned practices face a structural
               disadvantage in this competition. Health systems and urgent care
               chains invest substantial budgets in search optimization, paid
               placement, and brand awareness that individual clinics rarely have
@@ -371,7 +371,7 @@ export default function DigitalMarketingPage() {
               }}
             >
               Liam Costello and Gio LaRoche founded Primara to serve one market:
-              independent primary care physicians in Florida who want to grow patient
+              independent primary care physicians who want to grow patient
               volume without surrendering the autonomy that makes independent
               practice worth preserving. Every engagement is managed directly by a
               co-founder — not assigned to junior coordinators after the initial
@@ -459,7 +459,7 @@ export default function DigitalMarketingPage() {
               }}
             >
               {[
-                "Your practice is not appearing in Google’s local map pack for primary care searches in Florida, despite serving patients in that area.",
+                "Your practice is not appearing in Google’s local map pack for primary care searches, despite serving patients in that area.",
                 "You have open appointment capacity but referral volume, walk-ins, and organic search are not filling the schedule.",
                 "Your Google Business Profile shows incorrect hours, unclaimed status, or unresponded patient reviews.",
                 "Your practice recently opened, relocated to Florida, expanded to a new location, or added a provider and needs to build patient volume quickly.",
@@ -553,7 +553,7 @@ export default function DigitalMarketingPage() {
           >
             Schedule Digital Marketing
             <br />
-            in Florida.
+           .
           </h2>
 
           <p
@@ -567,7 +567,7 @@ export default function DigitalMarketingPage() {
             }}
           >
             Primara works exclusively with independent, physician-owned primary
-            care practices in Florida.
+            care practices.
           </p>
 
           <div

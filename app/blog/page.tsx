@@ -3,15 +3,15 @@ import Link from "next/link";
 import { blogPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Healthcare Marketing Blog — Tips for Independent Practices in Florida | Primara",
+  title: "Healthcare Marketing Blog — Tips for Independent Practices | Primara",
   description:
-    "Practical healthcare marketing advice for independent primary care and mental health practices in Florida. GBP, local SEO, reviews, and more.",
+    "Practical healthcare marketing advice for independent primary care and mental health practices. GBP, local SEO, reviews, and more.",
   alternates: { canonical: "https://primara365.com/blog" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Healthcare Marketing Blog — Tips for Independent Practices in Florida | Primara",
+    title: "Healthcare Marketing Blog — Tips for Independent Practices | Primara",
     description:
-      "Practical healthcare marketing advice for independent primary care and mental health practices in Florida. GBP, local SEO, reviews, and more.",
+      "Practical healthcare marketing advice for independent primary care and mental health practices. GBP, local SEO, reviews, and more.",
     type: "website",
     url: "https://primara365.com/blog",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -116,7 +116,7 @@ export default function BlogPage() {
               maxWidth: "800px",
             }}
           >
-            Healthcare Marketing Insights for Independent Practices in Florida
+            Healthcare Marketing Insights for Independent Practices
           </h1>
 
           <p
@@ -128,7 +128,7 @@ export default function BlogPage() {
               maxWidth: "680px",
             }}
           >
-            Independent primary care physicians and private practice therapists in Florida face a
+            Independent primary care physicians and private practice therapists face a
             specific set of marketing challenges — hospital system competition, Google Maps ranking
             complexity, HIPAA constraints on review generation, and the slow compounding timeline of
             local SEO. Every post on this blog is written to address those challenges directly, with

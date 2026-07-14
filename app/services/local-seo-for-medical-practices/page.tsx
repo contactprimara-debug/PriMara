@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Local SEO for Medical Practices in Florida | Primara",
+  title: "Local SEO for Medical Practices | Primara",
   description:
-    "Primara provides local SEO for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara provides local SEO for independent medical practices. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/local-seo-for-medical-practices" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Local SEO for Medical Practices in Florida | Primara",
+    title: "Local SEO for Medical Practices | Primara",
     description:
-      "Primara provides local SEO for independent medical practices in Florida. Call (561) 291-2681.",
+      "Primara provides local SEO for independent medical practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services/local-seo-for-medical-practices",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -49,10 +49,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Local SEO for independent medical practices in Florida — on-page optimization, citation audits, schema markup, and monthly rank tracking.",
+    "Local SEO for independent medical practices — on-page optimization, citation audits, schema markup, and monthly rank tracking.",
 };
 
 const bullets = [
@@ -97,13 +97,13 @@ export default function LocalSEOPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Local SEO for Medical Practices in Florida — Primara
+          Local SEO for Medical Practices — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Primara
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -134,12 +134,12 @@ export default function LocalSEOPage() {
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Local SEO (Search Engine Optimization) is the process of improving a medical practice&rsquo;s visibility in
-            geographically relevant search results. When a patient in Florida types "primary care doctor near
+            geographically relevant search results. When a patient types "primary care doctor near
             me," "internist Florida," or "physician accepting new patients Coral Gables," Google returns a
             combination of map pack results and organic website listings — and local SEO directly influences both.
           </p>
           <p className="leading-relaxed mb-12" style={{ color: "var(--color-text-muted)" }}>
-            For an independent primary care clinic in Florida — whether your practice is in the Northwood
+            For an independent primary care clinic — whether your practice is in the Northwood
             neighborhood, near Belvedere Road, along Congress Avenue, or in a medical office building closer to
             Wellington — local SEO determines whether a prospective patient finds your name above or below practices
             operated by larger health systems and urgent care chains that typically invest heavily in digital marketing.
@@ -156,7 +156,7 @@ export default function LocalSEOPage() {
             description, properly structured headings, and body copy that accurately reflects the services you provide
             and the Florida neighborhoods you serve. We work with clients to identify the search terms most
             likely to bring qualified new patients to their specific practice — not generic national healthcare keywords,
-            but the phrases patients in Florida are actually using when they need a primary care physician.
+            but the phrases patients are actually using when they need a primary care physician.
           </p>
           <ul className="mb-6 space-y-3" style={{ color: "var(--color-text-muted)" }}>
             {bullets.map((item) => (
@@ -241,7 +241,7 @@ export default function LocalSEOPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in Florida — Call (561) 291-2681
+            Schedule — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -264,7 +264,7 @@ export default function LocalSEOPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in Florida.
+            for independent primary care practices.
           </p>
         </div>
       </section>

@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Results for Independent Medical Practices in Florida | Primara",
+  title: "Results for Independent Medical Practices | Primara",
   description:
     "See what independent primary care and mental health practices achieve with Primara — GBP rankings, review velocity, new patient growth in 90-180 days.",
   alternates: { canonical: "https://primara365.com/results" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Results for Independent Medical Practices in Florida | Primara",
+    title: "Results for Independent Medical Practices | Primara",
     description:
       "See what independent primary care and mental health practices achieve with Primara — GBP rankings, review velocity, new patient growth in 90-180 days.",
     type: "website",

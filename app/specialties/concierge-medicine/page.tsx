@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Marketing for Concierge Medicine Practices in Florida | Primara",
+  title: "Marketing for Concierge Medicine Practices | Primara",
   description:
-    "Primara helps independent concierge medicine practices in Florida attract the right membership patients, stand out from MDVIP and One Medical, and build a premium digital presence. Free audit. Call (561) 291-2681.",
+    "Primara helps independent concierge medicine practices attract the right membership patients, stand out from MDVIP and One Medical, and build a premium digital presence. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/concierge-medicine" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -60,7 +60,7 @@ export default function ConciergeMedicinePage() {
           Concierge Medicine · Florida
         </div>
         <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
-          Marketing for Concierge Medicine Practices in Florida
+          Marketing for Concierge Medicine Practices
         </h1>
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "8px" }}>
           Concierge medicine grew approximately 80% nationally from 2018 to 2023 — and Florida is a top-3 state

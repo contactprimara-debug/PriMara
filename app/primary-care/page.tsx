@@ -3,9 +3,9 @@ import Link from "next/link";
 import { toJsonLd, primaryCareSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Primary Care Practices in Florida | Primara",
+  title: "Digital Marketing for Primary Care Practices | Primara",
   description:
-    "Primara helps independent primary care physicians in Florida rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department. GBP, local SEO, website. Call (561) 291-2681.",
+    "Primara helps independent primary care physicians rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department. GBP, local SEO, website. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/primary-care" },
   robots: {
     index: true,
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Digital Marketing for Primary Care Practices in Florida | Primara",
+    title: "Digital Marketing for Primary Care Practices | Primara",
     description:
-      "Primara helps independent primary care physicians in Florida rank higher on Google Maps, fill their schedule, and outrank hospital systems. Call (561) 291-2681.",
+      "Primara helps independent primary care physicians rank higher on Google Maps, fill their schedule, and outrank hospital systems. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/primary-care",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -35,7 +35,7 @@ const problemBlocks = [
   },
   {
     heading: "Your GBP is probably configured wrong",
-    body: "The average independent primary care practice in Florida has 1–2 GBP categories selected and fewer than 15 services listed. A fully optimized profile has 8–10 categories and 30+ services written in exact patient-search language — \"accepting new patients,\" \"same-day sick visits,\" \"Medicare primary care\" — the phrases people type at 9pm when they're deciding who to call in the morning.",
+    body: "The average independent primary care practice has 1–2 GBP categories selected and fewer than 15 services listed. A fully optimized profile has 8–10 categories and 30+ services written in exact patient-search language — \"accepting new patients,\" \"same-day sick visits,\" \"Medicare primary care\" — the phrases people type at 9pm when they're deciding who to call in the morning.",
   },
   {
     heading: "Your website is not built for local search",
@@ -210,7 +210,7 @@ export default function PrimaryCarePage() {
               margin: "0 0 clamp(36px, 5vw, 52px)",
             }}
           >
-            Primara builds the digital presence independent primary care physicians in Florida
+            Primara builds the digital presence independent primary care physicians
             should have had from day one — Google Business Profile, local SEO, website, and
             review systems built around how patients actually search for a doctor.
           </p>
@@ -501,7 +501,7 @@ export default function PrimaryCarePage() {
               marginBottom: "20px",
             }}
           >
-            Primara works exclusively with independent, physician-owned primary care practices in Florida — family medicine, internal medicine, geriatrics, pediatrics, concierge medicine, and direct primary care. Insurance-based, 1–5 physicians, not hospital-affiliated.
+            Primara works exclusively with independent, physician-owned primary care practices — family medicine, internal medicine, geriatrics, pediatrics, concierge medicine, and direct primary care. Insurance-based, 1–5 physicians, not hospital-affiliated.
           </p>
           <p
             style={{

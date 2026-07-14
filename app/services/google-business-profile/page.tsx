@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "GBP Optimization for Medical Practices in Florida | Primara",
+  title: "GBP Optimization for Medical Practices | Primara",
   description:
-    "Primara manages Google Business Profiles for independent medical practices in Florida. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
+    "Primara manages Google Business Profiles for independent medical practices. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/google-business-profile" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "GBP Optimization for Medical Practices in Florida | Primara",
+    title: "GBP Optimization for Medical Practices | Primara",
     description:
-      "Primara manages Google Business Profiles for independent medical practices in Florida. Call (561) 291-2681.",
+      "Primara manages Google Business Profiles for independent medical practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/services/google-business-profile",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -49,10 +49,10 @@ const serviceSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Google Business Profile optimization and active management for independent medical practices in Florida.",
+    "Google Business Profile optimization and active management for independent medical practices.",
 };
 
 const bullets = [
@@ -99,13 +99,13 @@ export default function GBPPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
         >
-          Google Business Profile Management in Florida — Primara
+          Google Business Profile Management — Primara
         </h1>
         <p
           className="mt-4"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
         >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Florida
+          Liam Costello &amp; Gio LaRoche, Co-Founders · Primara
         </p>
         <div className="mt-6 flex gap-4 flex-wrap">
           <a
@@ -138,7 +138,7 @@ export default function GBPPage() {
             Google Business Profile (formerly Google My Business) is the listing that powers the local "map pack" — the
             cluster of three business results that appears when a patient types "primary care doctor near me," "family
             physician Florida," or "doctor accepting new patients Florida." For an independent clinic
-            in Florida — whether your office is on Okeechobee Boulevard, near the 45th Street medical corridor,
+            — whether your office is on Okeechobee Boulevard, near the 45th Street medical corridor,
             or serves patients traveling in from Coral Gables, Boynton Beach, or Wellington — this listing is often the
             first contact a prospective patient has with your practice, before they visit your website or speak with
             anyone on your staff.
@@ -196,7 +196,7 @@ export default function GBPPage() {
             When to Consider GBP Management?
           </h2>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            If your practice is not appearing in the local map pack for primary care searches in Florida, if
+            If your practice is not appearing in the local map pack for primary care searches, if
             your listing shows incorrect hours or an unclaimed status, or if patient reviews have gone without a
             professional response, GBP management may be one of the highest-leverage improvements available. This is
             particularly relevant for practices newer to Florida, clinics that have recently moved or
@@ -245,7 +245,7 @@ export default function GBPPage() {
             className="font-serif font-bold text-white mb-6"
             style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.5rem, 3vw, 2.25rem)" }}
           >
-            Schedule in Florida — Call (561) 291-2681
+            Schedule — Call (561) 291-2681
           </h2>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
@@ -268,7 +268,7 @@ export default function GBPPage() {
             <Link href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
-            for independent primary care practices in Florida.
+            for independent primary care practices.
           </p>
         </div>
       </section>

@@ -620,6 +620,13 @@ section + section blockquote {
   }
 }
 
+/* ── Header phone — hide at widths where it collides with the nav ───────── */
+@media (max-width: 1199px) {
+  .nav-phone {
+    display: none !important;
+  }
+}
+
 /* ── Responsive grids for new sections ──────────────────────────────────── */
 @media (max-width: 768px) {
   .offer-strip-grid {

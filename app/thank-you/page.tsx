@@ -60,7 +60,7 @@ const facts = [
       </svg>
     ),
     headline: "Independent Primary Care Only",
-    body: "We don't work with hospital systems, urgent care chains, or dental groups. Our entire focus is independent primary care in Florida — family medicine, internal medicine, pediatrics, and more. Specialization is the advantage.",
+    body: "We don't work with hospital systems, urgent care chains, or dental groups. Our entire focus is independent primary care — family medicine, internal medicine, pediatrics, and more. Specialization is the advantage.",
   },
 ];
 

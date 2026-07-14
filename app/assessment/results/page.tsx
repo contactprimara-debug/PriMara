@@ -48,7 +48,7 @@ const tierConfig = {
   Growing: {
     color: "#7AB8A0",
     label: "Strong Foundations",
-    intro: "Your practice has stronger digital foundations than most independent practices in Florida. You've done the right things. The opportunity now is closing the gap between 'present' and 'dominant' in your local market.",
+    intro: "Your practice has stronger digital foundations than most independent practices. You've done the right things. The opportunity now is closing the gap between 'present' and 'dominant' in your local market.",
     insights: [
       "The practices ranking above you in Google Maps likely have more review volume, more consistent posting frequency, or more granular service listings — all fixable with a structured strategy.",
       "Your website may have good basics but could be missing the local SEO content architecture (dedicated service + location pages) that drives sustained organic traffic.",
@@ -61,7 +61,7 @@ const tierConfig = {
   Optimized: {
     color: "#3DAA6E",
     label: "Well Optimized",
-    intro: "Your practice has a strong digital presence. You're doing things that most independent primary care practices in Florida never do. The focus now is on maintaining your lead and expanding into new search opportunities before competitors catch up.",
+    intro: "Your practice has a strong digital presence. You're doing things that most independent primary care practices never do. The focus now is on maintaining your lead and expanding into new search opportunities before competitors catch up.",
     insights: [
       "At this level, the highest-value opportunity is typically geographic expansion — targeting surrounding zip codes and city terms your practice could rank for with a structured content strategy.",
       "Your review operation is likely running, but a formalized system ensures consistency and compounds your rating advantage over time — especially when competitors start investing.",

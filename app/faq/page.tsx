@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions — Healthcare Marketing in Florida | Primara",
+  title: "Frequently Asked Questions — Healthcare Marketing | Primara",
   description:
-    "Get answers about Primara's healthcare marketing services, timelines, HIPAA compliance, and results for independent practices in Florida.",
+    "Get answers about Primara's healthcare marketing services, timelines, HIPAA compliance, and results for independent practices.",
   alternates: { canonical: "https://primara365.com/faq" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Frequently Asked Questions — Healthcare Marketing in Florida | Primara",
+    title: "Frequently Asked Questions — Healthcare Marketing | Primara",
     description:
-      "Get answers about Primara's healthcare marketing services, timelines, HIPAA compliance, and results for independent practices in Florida.",
+      "Get answers about Primara's healthcare marketing services, timelines, HIPAA compliance, and results for independent practices.",
     type: "website",
     url: "https://primara365.com/faq",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -70,7 +70,7 @@ const faqs: FAQ[] = [
   },
   {
     q: "Can you manage my Google Ads if I'm already running campaigns?",
-    a: "Yes. Google Ads management — both Local Service Ads and traditional search campaigns — is included in Primara's Visibility Package. If you are currently running campaigns independently or through another agency, we audit your current spend and conversion rate as part of our free audit. The most common problem we find is not insufficient budget — it is configuration errors that result in the budget being spent on the wrong searches, wrong geographic area, or wrong match types. We have audited practices spending $1,200 per month on Google Ads and generating two to three patient inquiries per month from that spend. That is not a budget problem; it is a configuration problem. A properly structured Local Service Ads campaign for a primary care practice or therapy practice in South Florida, managed to the correct bid strategy and geographic targeting, typically produces a cost per lead of $35 to $90 — significantly lower than what poorly configured traditional search campaigns achieve at similar spend levels.",
+    a: "Yes. Google Ads management — both Local Service Ads and traditional search campaigns — is included in Primara's Visibility Package. If you are currently running campaigns independently or through another agency, we audit your current spend and conversion rate as part of our free audit. The most common problem we find is not insufficient budget — it is configuration errors that result in the budget being spent on the wrong searches, wrong geographic area, or wrong match types. We have audited practices spending $1,200 per month on Google Ads and generating two to three patient inquiries per month from that spend. That is not a budget problem; it is a configuration problem. A properly structured Local Service Ads campaign for a primary care practice or therapy practice, managed to the correct bid strategy and geographic targeting, typically produces a cost per lead of $35 to $90 — significantly lower than what poorly configured traditional search campaigns achieve at similar spend levels.",
   },
 ];
 
@@ -122,7 +122,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p style={{ fontSize: "1.0625rem", color: "var(--ash)", maxWidth: "600px", lineHeight: 1.75 }}>
-            Answers about Primara's healthcare marketing services, timelines, HIPAA practices, and what results look like for independent practices in Florida. If you have a question that isn't here, <Link href="/contact" style={{ color: "var(--chalk)", textDecoration: "underline" }}>contact us directly</Link>.
+            Answers about Primara's healthcare marketing services, timelines, HIPAA practices, and what results look like for independent practices. If you have a question that isn't here, <Link href="/contact" style={{ color: "var(--chalk)", textDecoration: "underline" }}>contact us directly</Link>.
           </p>
         </div>
       </section>

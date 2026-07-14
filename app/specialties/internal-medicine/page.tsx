@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Internal Medicine Practices in Florida | Primara",
+  title: "Digital Marketing for Internal Medicine Practices | Primara",
   description:
-    "Primara helps independent internists in Florida rank higher for adult primary care searches, build patient reviews, and compete with hospital-affiliated practices. Free audit. Call (561) 291-2681.",
+    "Primara helps independent internists rank higher for adult primary care searches, build patient reviews, and compete with hospital-affiliated practices. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/internal-medicine" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -60,7 +60,7 @@ export default function InternalMedicinePage() {
           Internal Medicine · Florida
         </div>
         <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
-          Digital Marketing for Internal Medicine Practices in Florida
+          Digital Marketing for Internal Medicine Practices
         </h1>
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
           Internists are the backbone of adult primary care — managing complex chronic conditions with a depth

@@ -33,7 +33,7 @@ const pricingFaqs = [
   },
   {
     q: "How does Primara compare on cost to hiring in-house?",
-    a: "A full-time marketing coordinator in South Florida costs $48,000–$65,000 annually in salary, plus benefits, tools, and training — and delivers generalist work, not healthcare SEO expertise. Primara's engagement fee is a fraction of that, with no hiring overhead, no tool costs, and founders who have worked healthcare local search exclusively. The comparison isn't close on output per dollar.",
+    a: "A full-time marketing coordinator costs $48,000–$65,000 annually in salary, plus benefits, tools, and training — and delivers generalist work, not healthcare SEO expertise. Primara's engagement fee is a fraction of that, with no hiring overhead, no tool costs, and founders who have worked healthcare local search exclusively. The comparison isn't close on output per dollar.",
   },
 ];
 

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { toJsonLd, mentalHealthSchema } from "@/lib/schema"; // v2
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Mental Health Practices in Florida | Primara",
+  title: "Digital Marketing for Mental Health Practices | Primara",
   description:
-    "Primara helps independent therapists, psychologists, and group mental health practices in Florida rank higher on Google, get found by the right clients, and grow without relying on Psychology Today or insurance directories. Call (561) 291-2681.",
+    "Primara helps independent therapists, psychologists, and group mental health practices rank higher on Google, get found by the right clients, and grow without relying on Psychology Today or insurance directories. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/mental-health" },
   robots: {
     index: true,
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Digital Marketing for Mental Health Practices in Florida | Primara",
+    title: "Digital Marketing for Mental Health Practices | Primara",
     description:
-      "Primara helps independent therapists, psychologists, and group mental health practices in Florida rank higher on Google and grow without relying on Psychology Today. Call (561) 291-2681.",
+      "Primara helps independent therapists, psychologists, and group mental health practices rank higher on Google and grow without relying on Psychology Today. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/mental-health",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -75,7 +75,7 @@ const services = [
 ];
 
 const fits = [
-  "Solo therapist, psychologist, or licensed counselor in Florida",
+  "Solo therapist, psychologist, or licensed counselor",
   "Small group practice (2–8 clinicians)",
   "Private pay, insurance-based, or hybrid",
   "Independently owned, not a franchise or platform",
@@ -238,7 +238,7 @@ export default function MentalHealthPage() {
               margin: "0 0 clamp(36px, 5vw, 52px)",
             }}
           >
-            Primara builds the digital presence independent mental health practices in Florida deserve — Google Business Profile, local SEO, website, and review systems built around how people search for therapy, counseling, and psychiatric care.
+            Primara builds the digital presence independent mental health practices deserve — Google Business Profile, local SEO, website, and review systems built around how people search for therapy, counseling, and psychiatric care.
           </p>
 
           {/* CTAs */}
@@ -526,7 +526,7 @@ export default function MentalHealthPage() {
               marginBottom: "20px",
             }}
           >
-            Primara works with solo therapists, psychologists, psychiatrists, licensed counselors, and small group mental health practices in Florida. Private pay, insurance-based, and hybrid models. We do not work with BetterHelp, Talkspace, or any platform-based or corporate-owned practice.
+            Primara works with solo therapists, psychologists, psychiatrists, licensed counselors, and small group mental health practices. Private pay, insurance-based, and hybrid models. We do not work with BetterHelp, Talkspace, or any platform-based or corporate-owned practice.
           </p>
           <p
             style={{

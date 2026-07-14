@@ -4,13 +4,13 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "How Primara Works — From First Call Through Month 6 | Primara",
   description:
-    "See exactly what happens when you hire Primara: Week 1 audit delivery, GBP rebuild, NFC review cards, Local Falcon grids, and compounding organic growth for Florida medical practices.",
+    "See exactly what happens when you hire Primara: Week 1 audit delivery, GBP rebuild, NFC review cards, Local Falcon grids, and compounding organic growth for medical practices.",
   alternates: { canonical: "https://primara365.com/how-it-works" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "How Primara Works — From First Call Through Month 6 | Primara",
     description:
-      "See exactly what happens when you hire Primara: Week 1 audit delivery, GBP rebuild, NFC review cards, Local Falcon grids, and compounding organic growth for Florida medical practices.",
+      "See exactly what happens when you hire Primara: Week 1 audit delivery, GBP rebuild, NFC review cards, Local Falcon grids, and compounding organic growth for medical practices.",
     type: "website",
     url: "https://primara365.com/how-it-works",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -23,7 +23,7 @@ const webPageSchema = {
   "@type": "WebPage",
   name: "How Primara Works",
   description:
-    "Step-by-step walkthrough of the Primara engagement: audit, GBP rebuild, review system, Local Falcon tracking, and compounding local SEO growth for independent medical practices in Florida.",
+    "Step-by-step walkthrough of the Primara engagement: audit, GBP rebuild, review system, Local Falcon tracking, and compounding local SEO growth for independent medical practices.",
   url: "https://primara365.com/how-it-works",
   inLanguage: "en-US",
   publisher: {
@@ -601,7 +601,7 @@ export default function HowItWorksPage() {
               {
                 href: "/results",
                 label: "Client results",
-                desc: "Real outcomes from Florida medical practices at 90 and 180 days",
+                desc: "Real outcomes from medical practices at 90 and 180 days",
               },
               {
                 href: "/pricing",

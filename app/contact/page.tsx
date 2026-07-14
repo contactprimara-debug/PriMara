@@ -19,15 +19,15 @@ const contactLocalBusinessSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
+  title: "Contact Primara — Healthcare Marketing for Independent Practices | Primara",
   description:
-    "Contact Primara in West Palm Beach, FL. Request a free practice audit for your independent primary care or mental health practice. Call (561) 291-2681. We respond within 24 hours.",
+    "Contact Primara. Request a free practice audit for your independent primary care or mental health practice — anywhere in the US. Call (561) 291-2681. We respond within 24 hours.",
   alternates: { canonical: "https://primara365.com/contact" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Contact Primara — Medical Marketing Agency West Palm Beach | Primara",
+    title: "Contact Primara — Healthcare Marketing for Independent Practices | Primara",
     description:
-      "Request a free practice audit from Primara in West Palm Beach, FL. Primary care and mental health practices. Call (561) 291-2681.",
+      "Request a free practice audit from Primara. Primary care and mental health practices nationwide. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/contact",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -54,7 +54,7 @@ export default function ContactPage() {
           className="font-serif font-bold text-balance"
           style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 4vw, 3rem)", color: "var(--color-text)" }}
         >
-          Contact Primara in Florida
+          Contact Primara
         </h1>
         <p className="mt-3 text-lg" style={{ color: "var(--color-text-muted)" }}>
           Liam Costello and Gio LaRoche respond within one business day.{" "}

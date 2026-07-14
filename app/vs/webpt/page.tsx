@@ -586,7 +586,7 @@ export default function VsWebPTPage() {
                 }}
               >
                 {[
-                  "You are a primary care or mental health practice (not PT) in South Florida",
+                  "You are a primary care or mental health practice (not PT)",
                   "You want to rank above hospital-affiliated competitors in Google Maps",
                   "You need your marketing handled by people who work healthcare local SEO exclusively",
                   "You want monthly reports with Local Falcon grid comparisons — not platform dashboards",

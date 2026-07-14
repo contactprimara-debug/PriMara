@@ -33,11 +33,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://primara365.com"),
   title: {
-    default: "Digital Marketing for Doctors in Florida | Primara",
+    default: "Digital Marketing for Doctors | Primara",
     template: "%s",
   },
   description:
-    "Primara helps independent medical practices in Florida dominate local search, fill their schedule, and grow. Call +1 (561) 291-2681.",
+    "Primara helps independent medical practices dominate local search, fill their schedule, and grow. Call +1 (561) 291-2681.",
   // Explicit icon declaration — helps Google's crawler find and index the favicon faster
   icons: {
     icon: [

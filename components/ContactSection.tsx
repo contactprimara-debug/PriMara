@@ -96,8 +96,8 @@ export default function ContactSection() {
             className="mt-4 text-base max-w-xl mx-auto"
             style={{ color: "rgba(255,255,255,0.75)" }}
           >
-            Primara is now accepting new clients in {siteConfig.city}. Most new
-            engagements begin within one week.
+            Primara is now accepting new independent practices nationwide. Most
+            new engagements begin within one week.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -183,7 +183,21 @@ export default function ContactSection() {
                     />
                   </Field>
 
-                  {/* Field 2: Phone */}
+                  {/* Field 2: Practice Name — required by submitContact */}
+                  <Field>
+                    <FieldLabel htmlFor="practiceName">Practice Name *</FieldLabel>
+                    <input
+                      id="practiceName"
+                      name="practiceName"
+                      type="text"
+                      required
+                      autoComplete="organization"
+                      placeholder="Your practice name"
+                      style={inputStyle}
+                    />
+                  </Field>
+
+                  {/* Field 3: Phone */}
                   <Field>
                     <FieldLabel htmlFor="phone">Phone Number *</FieldLabel>
                     <input
@@ -203,7 +217,7 @@ export default function ContactSection() {
                     </p>
                   </Field>
 
-                  {/* Field 3: Reason for Contact */}
+                  {/* Field 4: Reason for Contact */}
                   <Field>
                     <FieldLabel htmlFor="reason">Reason for Contact *</FieldLabel>
                     <select
@@ -221,7 +235,7 @@ export default function ContactSection() {
                     </select>
                   </Field>
 
-                  {/* Field 4: Best Time to Call */}
+                  {/* Field 5: Best Time to Call */}
                   <Field>
                     <FieldLabel htmlFor="callTime">Best Time to Call *</FieldLabel>
                     <select
@@ -288,7 +302,7 @@ export default function ContactSection() {
               <span aria-hidden="true" style={{ color: "var(--color-border)" }}>·</span>
               <span>HIPAA-Aware</span>
               <span aria-hidden="true" style={{ color: "var(--color-border)" }}>·</span>
-              <span>West Palm Beach, FL</span>
+              <span>Serving Practices Nationwide</span>
             </div>
 
           </div>

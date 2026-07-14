@@ -4,15 +4,15 @@ import { toJsonLd } from "@/lib/schema"; // v2
 import PackageInquiryForm from "@/components/PackageInquiryForm";
 
 export const metadata: Metadata = {
-  title: "Foundation Package — Healthcare Marketing in Florida | Primara",
+  title: "Foundation Package — Healthcare Marketing | Primara",
   description:
-    "Foundation Package for independent primary care and mental health practices in Florida: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
+    "Foundation Package for independent primary care and mental health practices: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/foundation" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Foundation Package — Healthcare Marketing in Florida | Primara",
+    title: "Foundation Package — Healthcare Marketing | Primara",
     description:
-      "GBP optimization, Local SEO, and monthly reporting for independent primary care and mental health practices in Florida. Call (561) 291-2681.",
+      "GBP optimization, Local SEO, and monthly reporting for independent primary care and mental health practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/packages/foundation",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -45,9 +45,9 @@ const offerSchema = {
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   description:
-    "Foundation Package for independent medical practices in Florida: Google Business Profile optimization, Local SEO, reputation monitoring, and monthly reporting.",
+    "Foundation Package for independent medical practices: Google Business Profile optimization, Local SEO, reputation monitoring, and monthly reporting.",
   offers: {
     "@type": "Offer",
     priceCurrency: "USD",
@@ -187,7 +187,7 @@ export default function FoundationPackagePage() {
               margin: "0 0 clamp(32px, 4vw, 48px)",
             }}
           >
-            For independent primary care and mental health practices in Florida that need the full digital foundation built and managed: a complete Google Business Profile, a new 30-page website, review generation, and monthly SEO content — all running within 30 days.
+            For independent primary care and mental health practices that need the full digital foundation built and managed: a complete Google Business Profile, a new 30-page website, review generation, and monthly SEO content — all running within 30 days.
           </p>
 
           {/* Price block */}

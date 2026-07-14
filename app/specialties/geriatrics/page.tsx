@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Geriatric Medicine Practices in Florida | Primara",
+  title: "Digital Marketing for Geriatric Medicine Practices | Primara",
   description:
-    "Primara helps independent geriatric medicine practices in Florida reach senior patients and their families online. Florida's 65+ population is the largest in the nation — and the competition online is minimal. Free audit. Call (561) 291-2681.",
+    "Primara helps independent geriatric medicine practices reach senior patients and their families online. Florida's 65+ population is the largest in the nation — and the competition online is minimal. Free audit. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/geriatrics" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -60,7 +60,7 @@ export default function GeriatricsPage() {
           Geriatric Medicine · Florida
         </div>
         <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
-          Digital Marketing for Geriatric Medicine Practices in Florida
+          Digital Marketing for Geriatric Medicine Practices
         </h1>
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
           Florida has the highest percentage of residents over 65 of any large state, a severe geriatrician
@@ -81,7 +81,7 @@ export default function GeriatricsPage() {
       <section aria-labelledby="challenges-heading" style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
           <h2 id="challenges-heading" style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", color: "var(--chalk)", fontWeight: 400, marginBottom: "48px" }}>
-            The geriatric medicine marketing landscape in Florida
+            The geriatric medicine marketing landscape
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "clamp(24px, 3vw, 40px)" }}>
             {challenges.map(({ title, body }) => (
@@ -117,7 +117,7 @@ export default function GeriatricsPage() {
           <div style={{ marginTop: "40px", padding: "24px 28px", background: "var(--surface-2)", borderLeft: "3px solid var(--gold)" }}>
             <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9rem", color: "var(--ash)", lineHeight: 1.75, margin: "0 0 12px" }}>
               <strong style={{ color: "var(--chalk)" }}>Over 20% of Florida residents are 65+</strong> — the highest share of any large state.
-              The geriatrician shortage is severe. A well-optimized independent geriatric practice in Florida
+              The geriatrician shortage is severe. A well-optimized independent geriatric practice
               faces minimal online competition and enormous demand.
             </p>
             <cite style={{ fontFamily: "var(--font-mono, 'Courier New', monospace)", fontSize: "9px", letterSpacing: "0.06em", color: "var(--smoke)", lineHeight: 1.4, fontStyle: "normal", display: "block" }}>
