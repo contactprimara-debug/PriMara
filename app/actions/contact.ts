@@ -13,13 +13,15 @@ export async function submitContact(
   formData: FormData
 ): Promise<ContactState> {
   const name = (formData.get("name") as string)?.trim();
-  const practiceName = (formData.get("practiceName") as string)?.trim();
   const phone = (formData.get("phone") as string)?.trim();
-  const callTime = (formData.get("callTime") as string)?.trim();
   const reason = (formData.get("reason") as string)?.trim();
+  // Optional — some form variants (and cached pages) don't send these.
+  // Never reject a lead over a missing secondary field.
+  const practiceName = (formData.get("practiceName") as string)?.trim() || "(not provided)";
+  const callTime = (formData.get("callTime") as string)?.trim() || "Anytime";
 
-  if (!name || !practiceName || !phone || !callTime) {
-    return { status: "error", error: "All fields are required." };
+  if (!name || !phone) {
+    return { status: "error", error: "Please enter your name and phone number so we can reach you." };
   }
 
   // Extract first name, skipping common titles ("Dr.", "Mr.", etc.)
