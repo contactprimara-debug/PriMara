@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Syne } from "next/font/google";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -136,6 +137,13 @@ export default function RootLayout({
           src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"
           strategy="afterInteractive"
         />
+
+        {/* ── Google Analytics 4 — set NEXT_PUBLIC_GA_ID (G-XXXXXXX) in env.
+              Renders nothing when unset. Loads after hydration, tracks SPA
+              route changes automatically. ─────────────────────────────────── */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
 
       </body>
     </html>
