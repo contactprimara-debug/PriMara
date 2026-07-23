@@ -113,7 +113,7 @@ export default function Hero() {
             }}
           >
             <Link
-              href="/the-audit"
+              href="/contact#contact-form"
               className="magnetic"
               style={{
                 display: "inline-flex",
