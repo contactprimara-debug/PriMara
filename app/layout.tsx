@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
+import HashScroll from "@/components/HashScroll";
 import Preloader from "@/components/Preloader";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
 
@@ -117,6 +118,7 @@ export default function RootLayout({
         {/* ── Animation infrastructure ──────────────────────────────────── */}
         <AnimationProvider />
         <InteractionEffects />
+        <HashScroll />
 
         {/* ── GSAP CDN (ordered: core → ScrollTrigger → SplitText) ─────── */}
         <Script
