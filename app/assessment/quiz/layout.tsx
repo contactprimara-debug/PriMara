@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   openGraph: {
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
