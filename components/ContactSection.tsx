@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { submitContact, type ContactState } from "@/app/actions/contact";
 import SubmitButton from "@/components/SubmitButton";
+import HoneypotField from "@/components/HoneypotField";
 import { siteConfig } from "@/lib/siteConfig";
 
 const initialState: ContactState = { status: "idle" };
@@ -159,6 +160,7 @@ export default function ContactSection() {
 
             {/* Form — redirects to /thank-you on success */}
             <form action={formAction} noValidate>
+                <HoneypotField />
                 {/* Required fields note */}
                 <p
                   className="mb-6 text-xs"

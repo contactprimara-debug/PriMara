@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { aggregateRatingSchema, toJsonLd, SITE_URL } from "@/lib/schema";
+import { toJsonLd, SITE_URL } from "@/lib/schema";
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -79,11 +79,6 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: toJsonLd(organizationSchema as Record<string, unknown>) }}
-      />
-      {/* AggregateRating schema — homepage only */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: toJsonLd(aggregateRatingSchema as Record<string, unknown>) }}
       />
       {/* ── Above fold ─────────────────────────────────────────────────── */}
       <Hero />

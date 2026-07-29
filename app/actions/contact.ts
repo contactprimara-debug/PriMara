@@ -1,6 +1,6 @@
 "use server";
 
-import { Resend } from "resend";
+import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 
 export type ContactState = {
   status: "idle" | "success" | "error";
@@ -24,34 +24,25 @@ export async function submitContact(
     return { status: "error", error: "Please enter your name and phone number so we can reach you." };
   }
 
-  // Extract first name, skipping common titles ("Dr.", "Mr.", etc.)
-  const titleRegex = /^(dr|mr|mrs|ms|prof|rev|sir|dame)\.?\s+/i;
-  const firstName =
-    name.trim().replace(titleRegex, "").split(/\s+/)[0] || name.trim();
+  const firstName = firstNameFrom(name);
 
-  // ── Send via Resend ─────────────────────────────────────────────────────
-  // Requires RESEND_API_KEY and RESEND_FROM_EMAIL in .env.local
-  // Falls back to console log when keys are not configured so the form still
-  // returns success in dev (the user sees the thank-you screen).
+  // Honeypot hit → pretend success, send nothing.
+  if (isBotSubmission(formData)) {
+    return { status: "success", firstName };
+  }
+
   try {
-    if (process.env.RESEND_API_KEY && process.env.RESEND_FROM_EMAIL) {
-      const resend = new Resend(process.env.RESEND_API_KEY);
-      await resend.emails.send({
-        from: process.env.RESEND_FROM_EMAIL,
-        to: "liam.costello@primara365.com",
-        replyTo: process.env.RESEND_REPLY_TO || undefined,
-        subject: `New inquiry from ${name} — ${practiceName}`,
-        text: [
-          `Name: ${name}`,
-          `Practice: ${practiceName}`,
-          `Phone: ${phone}`,
-          `Best time to call: ${callTime}`,
-          ...(reason ? [`Reason: ${reason}`] : []),
-        ].join("\n"),
-      });
-    } else {
-      console.log("[contact] RESEND_API_KEY not set — submission:", { name, practiceName, phone, callTime });
-    }
+    await sendLeadEmail({
+      tag: "contact",
+      subject: `New inquiry from ${name} — ${practiceName}`,
+      text: [
+        `Name: ${name}`,
+        `Practice: ${practiceName}`,
+        `Phone: ${phone}`,
+        `Best time to call: ${callTime}`,
+        ...(reason ? [`Reason: ${reason}`] : []),
+      ].join("\n"),
+    });
   } catch (err) {
     console.error("[contact] Resend send failed:", err);
     return { status: "error", error: "Could not send your message. Please call us directly at (561) 291-2681." };

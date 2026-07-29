@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { submitContact } from '@/app/actions/contact';
+import HoneypotField from '@/components/HoneypotField';
 
 /* ── ContactFinal ──────────────────────────────────────────────────────────
    Section 04 — end of the page journey.
@@ -46,6 +47,10 @@ export default function ContactFinal() {
     fd.set('practiceName', practiceName);
     fd.set('phone', phone);
     fd.set('callTime', callbackTime);
+    // Forward the honeypot value — the form is controlled, so the hidden
+    // field isn't in component state; read it straight off the DOM form.
+    const hp = (e.currentTarget.elements.namedItem('company') as HTMLInputElement | null)?.value ?? '';
+    fd.set('company', hp);
 
     const result = await submitContact({ status: 'idle' }, fd);
     setSubmitting(false);
@@ -182,6 +187,7 @@ export default function ContactFinal() {
             {/* Form wrapper — GSAP animates this out on submit */}
             <div ref={formWrapRef} className="contact-form">
               <form onSubmit={handleSubmit} noValidate>
+                <HoneypotField />
                 <div
                   style={{
                     display: 'flex',

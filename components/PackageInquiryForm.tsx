@@ -3,6 +3,7 @@
 import { useFormState, useFormStatus } from "react-dom";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import HoneypotField from "@/components/HoneypotField";
 import {
   submitPackageInquiry,
   type PackageInquiryState,
@@ -126,6 +127,7 @@ export default function PackageInquiryForm({
 
   return (
     <form action={formAction}>
+      <HoneypotField />
       <input type="hidden" name="package" value={packageName} />
 
       <div style={{ display: "grid", gap: "24px" }}>

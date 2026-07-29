@@ -1,64 +1,76 @@
 # Primara Website — Claude Code Context
 
 ## What This Is
-The Primara agency's own marketing website. Not yet built.
-This is what prospects find when they Google "Primara" after a drop-in.
+Primara's own marketing site — **live in production at https://primara365.com**.
+~60 pages, actively generating leads. Repo: github.com/contactprimara-debug/PriMara (branch `main`).
+
+**Positioning is NATIONWIDE.** Florida/city copy is allowed ONLY on `/locations/*`
+SEO pages. Never reintroduce "Florida-only" language on core pages.
+
+## Deploy Rule (standing)
+Every change ships: `git push origin main` + `npx vercel deploy --prod --yes --force`.
+A Stop hook in `.claude/settings.json` auto-commits/pushes/deploys anything left
+in the tree when a session ends — **never leave the tree broken at end of turn.**
 
 ## Stack
-- Framework: Next.js 14 (App Router)
-- Styling: Tailwind CSS
-- Components: shadcn/ui (forms)
-- Email: Resend → liam.costello@primara365.com
-- Analytics: Plausible (privacy-respecting, no cookie banner needed)
-- Hosting: Vercel
-- Language: TypeScript
+- Next.js 14.2.35 App Router, TypeScript strict, React 18 (**`useFormState` from
+  `react-dom`, NOT React-19 `useActionState`** — this has bitten before)
+- Styling: inline styles + CSS vars in `app/globals.css`; Tailwind available for utilities
+- Fonts: Instrument Serif (display, `--font-display`) + Syne (UI, `--font-ui`) via next/font
+- Animation: GSAP + ScrollTrigger + SplitText + Lenis, loaded from CDN in `app/layout.tsx`.
+  Controllers: `AnimationProvider` (Lenis + cursor + reveals), `ScrollStorytelling`
+  (pins/h-scroll/counters), `HashScroll` (smooth `#anchor` scrolling), per-section `*Animation.tsx`
+- `reactStrictMode: false` on purpose — double-mount breaks GSAP/Lenis init
+- Email: Resend. Analytics: GA4 (`@next/third-parties`) + Google tag GT-PB6FNVRG + Ads AW-18204165915
+- Hosting: Vercel (project `primara-web`)
 
-## Pages (4 total)
-- / Home
-- /services
-- /the-audit
-- /contact
+## Design System (dark cinematic — full spec in auto-memory `project_primara.md`)
+Colors: `--void #050505` bg · `--chalk #E8E4DC` headings · `--ash` body · `--smoke` labels ·
+`--gold #C9A84C` accent · `--ember #E8611A` CTAs only · `--wire` borders.
+Never white backgrounds, never Inter/Roboto, buttons squared (radius 2–4px).
 
-## Environment Variables
-RESEND_API_KEY=
-RESEND_FROM_EMAIL=
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=primara.com
-NEXT_PUBLIC_SITE_URL=https://primara.com
+## Lead Forms (the business-critical path)
+Five surfaces, all end in Resend → `liam.costello@primara365.com` (from `Primara
+<notifications@primara365.com>`, domain DKIM-verified):
 
-## Target SEO Keywords
-- medical marketing West Palm Beach
-- digital marketing for doctors Florida
-- Google Business Profile for medical practice
-- primary care website design
-- medical practice SEO Florida
+| Surface | Component | Action |
+|---|---|---|
+| Homepage above-fold strip | `AuditOfferStrip` | `submitContact` |
+| Homepage bottom form | `ContactFinal` | `submitContact` |
+| `/contact#contact-form` (primary CTA target) | `ContactSection` | `submitContact` |
+| `/packages/*` inquiry | `PackageInquiryForm` | `submitPackageInquiry` |
+| `/assessment/quiz` | quiz page | `submitAssessment` |
 
-## Brand
-- Agency: PRIMARA
-- Founders: Liam Costello & Gio LaRoche
-- Email: liam.costello@primara365.com
-- Phone: +1 (561) 291-2681
-- Calendly: calendly.com/contactprimara/30min
-- Tagline: Digital Marketing for Independent Medical Practices
+Shared plumbing in `lib/leads.ts` (send, first-name extraction, honeypot check).
+Rules:
+- `submitContact` requires ONLY name+phone; other fields default. Never tighten —
+  stale cached pages must not lose leads.
+- Every form renders `<HoneypotField />` (hidden `company` input); a filled value
+  → silent fake success, no email.
+- If RESEND env is missing the lead is console-logged, visitor still sees success.
 
-## Design Language
-- Typography: Fraunces (serif headings) + Inter (body) + JetBrains Mono (code/data)
-- Colors: Cream #f5f1ea · Ink #0a0a0a · Accent red #b8321a · Gold #8a6a2a
-- Aesthetic: editorial, refined, credibility-first — not SaaS gradients
-- No stock medical imagery, no AI-generated photos, no emoji design elements
+## Env Vars (in `.env.local` AND Vercel Production)
+- `RESEND_API_KEY` — secret, never log/commit
+- `RESEND_FROM_EMAIL` = `Primara <notifications@primara365.com>`
+- `NEXT_PUBLIC_GA_ID` = GA4 measurement ID (G-…); GA renders only when set
+- `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` = primara365.com
 
-## Schema
-- Organization, Service, Article, ContactPage
+## Page Map (top level)
+Core: `/` `/services` `/the-audit` (explainer, links to contact form) `/contact`
+`/about` `/work` `/pricing` `/how-it-works` `/faq` `/results` `/thank-you` (noindex)
+Verticals: `/primary-care` `/mental-health` · Flagship services: `/services/seo`
+`/services/google-ads` + 6 long-tail service pages · `/specialties/*` (6) ·
+`/locations/*` (30 FL city pages — geo copy allowed here) · `/blog/*` (8 posts in
+`lib/blog.ts`) · `/vs/*` (3 comparisons) · `/packages/foundation|visibility` ·
+`/assessment` → `/assessment/quiz` → `/assessment/results` (noindex)
 
-## Rules
-- Audit request form on /the-audit and /contact → Resend → liam.costello@primara365.com
-- Calendly embedded on /contact
-- No pricing shown on /the-audit page — pricing comes from the salesperson
-- Domain: primara.com (confirm availability before build)
+## Commands
+- Dev: preview_start "Primara Web — Next.js" (port 3000) — never raw `npm run dev` in Bash
+- `npm run check` = typecheck + lint (run before every commit)
+- `npm run build` = full production build
 
-## Build Order (6 prompts — paste sequentially)
-Prompt 1: Foundation & Brand Setup (Next.js init, design tokens, Header, Footer, siteConfig.ts)
-Prompt 2: Home Page (hero, problem stats, services overview, audit teaser, pricing tease, CTA)
-Prompt 3: Services Page (all 5 services, 2 packages, contract note, CTA)
-Prompt 4: The Audit Page (what's in it, sample preview, how it works, CTA)
-Prompt 5: Contact Page (audit request form, Calendly embed, server action → Resend)
-Prompt 6: Polish, SEO, Deploy Prep (sitemap, OG images, structured data, accessibility, README)
+## Business Rules
+- No pricing on `/the-audit` — pricing comes from the sales conversation
+- Contact: liam.costello@primara365.com · +1 (561) 291-2681 · calendly.com/contactprimara/30min
+- Founders: Liam Costello & Gio LaRoche · Tagline: Digital Marketing for Independent Medical Practices
+- Canonical contact constants live in `lib/siteConfig.ts` — import, don't hardcode

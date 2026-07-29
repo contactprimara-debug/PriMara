@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { useFormState, useFormStatus } from "react-dom";
 import { submitContact, type ContactState } from "@/app/actions/contact";
+import HoneypotField from "@/components/HoneypotField";
 
 const initialState: ContactState = { status: "idle" };
 
@@ -259,6 +260,7 @@ export default function AuditOfferStrip() {
                 </div>
 
                 <input type="hidden" name="callTime" value="Audit request via homepage" />
+                <HoneypotField />
 
                 {state.status === "error" && (
                   <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.8125rem", color: "var(--ember)" }}>

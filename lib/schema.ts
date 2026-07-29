@@ -36,22 +36,15 @@ export const localBusinessSchema = {
   openingHours: ["Mo-Th 08:00-17:00", "Fr 08:00-13:00"],
   priceRange: "$$",
   areaServed: {
-    "@type": "GeoCircle",
-    geoMidpoint: {
-      "@type": "GeoCoordinates",
-      addressLocality: "Florida",
-      addressRegion: "FL",
-    },
-    geoRadius: "50000",
+    "@type": "Country",
+    name: "United States",
   },
   description:
-    "Primara is a digital marketing agency in Florida specializing in helping independent, physician-owned medical practices grow their patient base through honest, measurable, and HIPAA-aware digital marketing.",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5.0",
-    reviewCount: "47",
-    bestRating: "5",
-  },
+    "Primara is a digital marketing agency specializing in helping independent, physician-owned medical practices across the United States grow their patient base through honest, measurable, and HIPAA-aware digital marketing.",
+  // NOTE: no aggregateRating here on purpose. Google prohibits self-serving
+  // review markup on LocalBusiness, and a count not backed by verifiable
+  // public reviews risks a structured-data manual action. Re-add only when
+  // pulling real counts from a live review source (e.g. the GBP profile).
   founder: [
     {
       "@type": "Person",
@@ -75,21 +68,7 @@ export const localBusinessSchema = {
   ],
 };
 
-// ── 2. AggregateRating — standalone block for homepage JSON-LD ─────────────
-export const aggregateRatingSchema = {
-  "@context": "https://schema.org",
-  "@type": "AggregateRating",
-  itemReviewed: {
-    "@type": "LocalBusiness",
-    name: "Primara",
-    url: SITE_URL,
-  },
-  ratingValue: "5.0",
-  reviewCount: "47",
-  bestRating: "5",
-};
-
-// ── 3. Person schemas — injected on /about page ───────────────────────────
+// ── 2. Person schemas — injected on /about page ───────────────────────────
 export const liamSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
