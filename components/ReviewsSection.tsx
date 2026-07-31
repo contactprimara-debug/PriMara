@@ -26,49 +26,8 @@ const REVIEWS = [
   },
 ];
 
-// ── Sub-components ─────────────────────────────────────────────────────────
-function StarIcon() {
-  return (
-    <svg
-      width="15"
-      height="14"
-      viewBox="0 0 20 19"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <path
-        d="M10 0.5L12.39 6.26L18.72 6.92L14.1 11.09L15.45 17.32L10 14.15L4.55 17.32L5.9 11.09L1.28 6.92L7.61 6.26L10 0.5Z"
-        fill="var(--gold)"
-      />
-    </svg>
-  );
-}
-
-function FiveStars({ size = 15 }: { size?: number }) {
-  return (
-    <span
-      style={{ display: "flex", gap: "3px", alignItems: "center" }}
-      aria-label="5 out of 5 stars"
-    >
-      {[0, 1, 2, 3, 4].map((i) => (
-        <svg
-          key={i}
-          width={size}
-          height={size}
-          viewBox="0 0 20 19"
-          fill="none"
-          aria-hidden="true"
-        >
-          <path
-            d="M10 0.5L12.39 6.26L18.72 6.92L14.1 11.09L15.45 17.32L10 14.15L4.55 17.32L5.9 11.09L1.28 6.92L7.61 6.26L10 0.5Z"
-            fill="var(--gold)"
-          />
-        </svg>
-      ))}
-    </span>
-  );
-}
+// NOTE: star-rating icons deliberately removed. Primara displays no ratings
+// or testimonials for itself — see lib/schema.ts.
 
 // ── Component ──────────────────────────────────────────────────────────────
 export default function ReviewsSection() {
@@ -339,11 +298,8 @@ export default function ReviewsSection() {
           ))}
         </div>
 
-        {/* ── Google live reviews placeholder + link ────────────────────────── */}
+        {/* ── Section CTA ───────────────────────────────────────────────────── */}
         <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-          {/* Live Google Reviews widget — connect after launch */}
-          <div id="google-reviews" aria-hidden="true" style={{ minHeight: "1px" }} />
-
           {/* hover handled by .reviews-link CSS — server component, no JS events */}
           <a
             href="/services"

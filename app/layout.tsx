@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
 import HashScroll from "@/components/HashScroll";
+import MobileCTABar from "@/components/MobileCTABar";
 import Preloader from "@/components/Preloader";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
 
@@ -114,6 +115,9 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+
+        {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
+        <MobileCTABar />
 
         {/* ── Animation infrastructure ──────────────────────────────────── */}
         <AnimationProvider />

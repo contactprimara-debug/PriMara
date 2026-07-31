@@ -4,7 +4,9 @@
 //   Primara is a marketing agency — not a MedicalOrganization.
 //   ProfessionalService is the most specific applicable schema.org type.
 //
-// AggregateRating: activated — 47 reviews / 5.0 stars (Google, verified).
+// AggregateRating: intentionally ABSENT. Primara publishes no testimonials
+//   or review counts for itself. Do not add rating markup until there are
+//   real, publicly verifiable reviews to point at.
 // Person schema: activated — exported for /about page.
 // geo: activated — West Palm Beach office coordinates.
 // openingHours: activated — Mo–Th 08:00–17:00, Fr 08:00–13:00.

@@ -620,6 +620,15 @@ section + section blockquote {
   }
 }
 
+/* ── Mobile CTA bar — keep the footer clear of the fixed bar ────────────── */
+/* Class is added to <body> by MobileCTABar; bar is md:hidden so the padding
+   only applies below Tailwind's md breakpoint. */
+@media (max-width: 767px) {
+  body.has-mobile-cta {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom));
+  }
+}
+
 /* ── Header phone — hide at widths where it collides with the nav ───────── */
 @media (max-width: 1199px) {
   .nav-phone {

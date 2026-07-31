@@ -9,8 +9,18 @@ SEO pages. Never reintroduce "Florida-only" language on core pages.
 
 ## Deploy Rule (standing)
 Every change ships: `git push origin main` + `npx vercel deploy --prod --yes --force`.
-A Stop hook in `.claude/settings.json` auto-commits/pushes/deploys anything left
-in the tree when a session ends — **never leave the tree broken at end of turn.**
+A Stop hook (`.claude/deploy-on-stop.sh`) auto-commits/pushes/deploys whatever is
+left in the tree at session end — but it runs `npm run check` first and **holds
+back the deploy if typecheck or lint fails** (nothing is committed; live site
+untouched; log at `/tmp/primara-deploy.log`). Still: don't rely on it as a safety
+net for unfinished *content*, which no typecheck can catch.
+
+## No self-promotional review content
+The site shows **no testimonials, star ratings, or review counts for Primara** —
+there are no real client reviews yet. Fabricated `aggregateRating` was removed
+(Google penalizes self-serving review markup). The homepage "What We Guarantee"
+section is commitments, attributed to the founders — keep it that way. Review
+*generation* is a service Primara sells; copy about clients' reviews is fine.
 
 ## Stack
 - Next.js 14.2.35 App Router, TypeScript strict, React 18 (**`useFormState` from

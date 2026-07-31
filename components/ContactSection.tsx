@@ -56,14 +56,6 @@ const selectStyle: React.CSSProperties = {
   paddingRight: "40px",
 };
 
-function StarIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 20 20" fill="#F4B942" aria-hidden="true">
-      <path d="M10 1l2.39 4.84 5.35.78-3.87 3.77.91 5.32L10 13.27l-4.78 2.51.91-5.32L2.26 6.62l5.35-.78L10 1z" />
-    </svg>
-  );
-}
-
 export default function ContactSection() {
   const router = useRouter();
   const [state, formAction] = useFormState(submitContact, initialState);
