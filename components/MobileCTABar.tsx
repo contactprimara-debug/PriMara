@@ -24,45 +24,37 @@ const FORM_IDS = ["contact", "contact-form", "inquire"];
 const SHOW_AFTER_PX = 500;
 
 export default function MobileCTABar() {
-  const [scrolledPastHero, setScrolledPastHero] = useState(false);
-  const [formOnScreen, setFormOnScreen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolledPastHero(window.scrollY > SHOW_AFTER_PX);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  useEffect(() => {
-    const targets = FORM_IDS
-      .map((id) => document.getElementById(id))
-      .filter((el): el is HTMLElement => el !== null);
-    if (targets.length === 0) return;
-
-    // Track each element's own state so two observed forms can't fight over
-    // one boolean (the second callback would otherwise clobber the first).
-    const intersecting = new Set<Element>();
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) intersecting.add(entry.target);
-          else intersecting.delete(entry.target);
-        }
-        setFormOnScreen(intersecting.size > 0);
-      },
-      { threshold: 0.1 }
-    );
-
-    targets.forEach((t) => observer.observe(t));
-    return () => observer.disconnect();
-  }, []);
-
-  const visible = scrolledPastHero && !formOnScreen;
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     document.body.classList.add("has-mobile-cta");
     return () => document.body.classList.remove("has-mobile-cta");
+  }, []);
+
+  useEffect(() => {
+    // One scroll handler decides everything: past the hero, and not sitting
+    // on top of a form. Deliberately not an IntersectionObserver — a single
+    // code path is easier to reason about, and rect reads on ≤3 elements
+    // after a scroll are cheap (layout is already clean at that point).
+    const update = () => {
+      const pastHero = window.scrollY > SHOW_AFTER_PX;
+      const viewportH = window.innerHeight;
+      const formOnScreen = FORM_IDS.some((id) => {
+        const el = document.getElementById(id);
+        if (!el) return false;
+        const r = el.getBoundingClientRect();
+        return r.top < viewportH && r.bottom > 0;
+      });
+      setVisible(pastHero && !formOnScreen);
+    };
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
   }, []);
 
   return (
