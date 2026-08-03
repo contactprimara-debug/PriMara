@@ -110,9 +110,9 @@ export const primaryCareSchema = {
   telephone: "+15612912681",
   email: "liam.costello@primara365.com",
   medicalSpecialty: "PrimaryCare",
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   description:
-    "Primara helps independent primary care physicians in Florida rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department.",
+    "Primara helps independent primary care physicians rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department.",
   provider: {
     "@type": "ProfessionalService",
     name: "Primara",
@@ -129,9 +129,9 @@ export const mentalHealthSchema = {
   telephone: "+15612912681",
   email: "liam.costello@primara365.com",
   medicalSpecialty: "Psychiatric",
-  areaServed: { "@type": "State", name: "Florida" },
+  areaServed: { "@type": "Country", name: "United States" },
   description:
-    "Primara helps independent therapists, psychologists, and group mental health practices in Florida rank higher on Google and grow without relying on Psychology Today or insurance directories.",
+    "Primara helps independent therapists, psychologists, and group mental health practices rank higher on Google and grow without relying on Psychology Today or insurance directories.",
   provider: {
     "@type": "ProfessionalService",
     name: "Primara",

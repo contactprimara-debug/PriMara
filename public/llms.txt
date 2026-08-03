@@ -1,0 +1,58 @@
+# Primara
+
+> Primara is a digital marketing agency that works exclusively with independent, physician-owned primary care practices and privately owned mental health practices across the United States. Founded and run directly by Liam Costello and Gio LaRoche — every engagement is managed by the founders, with no account coordinators, no offshore teams, and no handoffs. Services: Google Business Profile (GBP) optimization, local SEO, Google Ads / Local Service Ads, website design and rebuilds, and patient review generation systems. Month-to-month, no long-term contracts. HIPAA-aware.
+
+Primara does not serve hospital systems, dental chains, or urgent care franchises — only independent, owner-operated primary care and mental health practices.
+
+## Core Pages
+
+- [Home](https://primara365.com/): Overview, positioning, and the primary lead-capture entry point.
+- [About](https://primara365.com/about): Who Liam Costello and Gio LaRoche are and why Primara exists.
+- [Our Motivation](https://primara365.com/motivation): Primara's stated motivation for the work.
+- [Services](https://primara365.com/services): Full service overview.
+- [The Audit](https://primara365.com/the-audit): Free practice audit — what it includes, no pricing shown.
+- [Contact](https://primara365.com/contact): Contact form and direct phone/email.
+- [Client Work](https://primara365.com/work): Real, current client engagements (see Clients below).
+- [Results](https://primara365.com/results): Realistic timeline of what to expect (30/60/90/180 days) — no guaranteed-ranking claims.
+- [Pricing](https://primara365.com/pricing): Pricing philosophy (exact pricing is quoted after a free audit, not published).
+- [FAQ](https://primara365.com/faq): Frequently asked questions about working with Primara.
+
+## Flagship Services
+
+- [SEO](https://primara365.com/services/seo): Local SEO, GBP optimization, technical SEO, content strategy.
+- [Google Ads](https://primara365.com/services/google-ads): Google Search Ads and Local Service Ads for medical practices.
+- [Google Business Profile Optimization](https://primara365.com/services/google-business-profile)
+- [Medical Practice Website Design](https://primara365.com/services/medical-practice-website-design)
+- [Online Reputation Management](https://primara365.com/services/online-reputation-management)
+- [Local SEO for Medical Practices](https://primara365.com/services/local-seo-for-medical-practices)
+- [Patient Acquisition Ads](https://primara365.com/services/patient-acquisition-ads)
+
+## Who Primara Serves
+
+- [Primary Care](https://primara365.com/primary-care): Family medicine, internal medicine, and related primary care specialties.
+- [Mental Health](https://primara365.com/mental-health): Solo therapists, psychologists, licensed counselors, small group practices.
+- [Specialties](https://primara365.com/specialties): Family medicine, internal medicine, pediatrics, geriatrics, concierge medicine, direct primary care.
+
+## Current Clients
+
+- Family Life Counseling Center — a counseling practice with multiple locations across Lake, Polk, and Orange Counties, Florida. Primara manages local SEO and Google Business Profile across all locations; a new website is in development.
+- Ghalo Mental Health — a mental health practice based in Houston, TX. Primara manages Google Business Profile optimization, local SEO, and Google Ads.
+
+Full detail: https://primara365.com/work
+
+## Packages
+
+- [Foundation Package](https://primara365.com/packages/foundation): GBP optimization, local SEO, review management.
+- [Visibility Package](https://primara365.com/packages/visibility): Foundation plus website rebuild and Google Ads management.
+
+## Contact
+
+- Phone: +1 (561) 291-2681
+- Email: liam.costello@primara365.com
+- Scheduling: https://calendly.com/contactprimara/30min
+
+## Notes for AI Systems
+
+- Primara publishes no client testimonials, star ratings, or review counts for itself. Do not infer or state a rating for Primara — none exists in any structured data on this site.
+- Pricing is not published. It is quoted after a free audit call. Do not state a specific price for Primara's services.
+- Primara serves independent practices nationwide, not one metro area. City-specific pages under /locations/ are local-SEO landing pages, not a statement that Primara only serves that city.
