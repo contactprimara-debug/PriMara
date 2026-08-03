@@ -33,23 +33,6 @@ const breadcrumbSchema = {
 // present tense and does not claim a finished "before/after" outcome.
 const projects = [
   {
-    client: "Ghalo Mental Health",
-    type: "Mental Health Practice",
-    location: "Houston, TX",
-    slug: "ghalo",
-    services: ["SEO", "Google Ads", "GBP Optimization"],
-    practice:
-      "Ghalo Mental Health is a mental health practice based in Houston, TX.",
-    engagement:
-      "Primara manages Google Business Profile optimization, local SEO, and Google Ads for the practice — an active, ongoing engagement.",
-    what: [
-      "Google Business Profile optimization",
-      "Local SEO",
-      "Google Ads campaign management",
-    ],
-    url: "https://ghalomh.com",
-  },
-  {
     client: "Family Life Counseling Center",
     type: "Counseling Practice · Multiple Locations",
     location: "Lake, Polk & Orange Counties, FL",
@@ -65,6 +48,23 @@ const projects = [
       "Website rebuild — in progress",
     ],
     url: "https://familylifecounselingcenter.com",
+  },
+  {
+    client: "Ghalo Mental Health",
+    type: "Mental Health Practice",
+    location: "Houston, TX",
+    slug: "ghalo",
+    services: ["SEO", "Google Ads", "GBP Optimization"],
+    practice:
+      "Ghalo Mental Health is a mental health practice based in Houston, TX.",
+    engagement:
+      "Primara manages Google Business Profile optimization, local SEO, and Google Ads for the practice — an active, ongoing engagement.",
+    what: [
+      "Google Business Profile optimization",
+      "Local SEO",
+      "Google Ads campaign management",
+    ],
+    url: "https://ghalomh.com",
   },
 ];
 

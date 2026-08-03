@@ -4,15 +4,6 @@ import Link from "next/link";
 // app/work/page.tsx for the full case-study copy these summarize.
 const projects = [
   {
-    client: "Ghalo Mental Health",
-    type: "Mental Health · Houston, TX",
-    services: ["SEO", "GBP", "Google Ads"],
-    blurb:
-      "An active engagement — Primara manages Google Business Profile, local SEO, and Google Ads for this Houston mental health practice.",
-    href: "/work#ghalo",
-    url: "https://ghalomh.com",
-  },
-  {
     client: "Family Life Counseling Center",
     type: "Counseling · Central Florida",
     services: ["SEO", "GBP", "Website Rebuild"],
@@ -20,6 +11,15 @@ const projects = [
       "A multi-location counseling practice across Lake, Polk, and Orange Counties — Primara manages local SEO and GBP across every location, with a new website in development.",
     href: "/work#family-life",
     url: "https://familylifecounselingcenter.com",
+  },
+  {
+    client: "Ghalo Mental Health",
+    type: "Mental Health · Houston, TX",
+    services: ["SEO", "GBP", "Google Ads"],
+    blurb:
+      "An active engagement — Primara manages Google Business Profile, local SEO, and Google Ads for this Houston mental health practice.",
+    href: "/work#ghalo",
+    url: "https://ghalomh.com",
   },
 ];
 
