@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 
 /* ── HashScroll ────────────────────────────────────────────────────────────
    Every #anchor CTA on the site (hero → /contact#contact-form, work teaser →
-   /work#palmview, package pages → #inquire, contact page's own "Send a
+   /work#ghalo, package pages → #inquire, contact page's own "Send a
    Message" button → #contact-form) previously landed with an instant browser
    jump — jarring next to Lenis's eased scroll everywhere else on the site.
 

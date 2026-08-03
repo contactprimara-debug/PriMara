@@ -3,15 +3,15 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Client Work — Healthcare Marketing Portfolio | Primara",
+  title: "Client Work — Real Practices We Work With | Primara",
   description:
-    "Examples of Primara's digital marketing work for independent medical practices — website builds, GBP optimization, and SEO for primary care and healthcare staffing clients.",
+    "Real independent practices Primara works with — SEO, Google Business Profile management, Google Ads, and website work for primary care and mental health clients.",
   alternates: { canonical: "https://primara365.com/work" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Client Work — Healthcare Marketing Portfolio | Primara",
+    title: "Client Work — Real Practices We Work With | Primara",
     description:
-      "Examples of Primara's digital marketing work for independent medical practices.",
+      "Real independent practices Primara works with — SEO, GBP, Google Ads, and website work.",
     type: "website",
     url: "https://primara365.com/work",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -28,46 +28,43 @@ const breadcrumbSchema = {
   ],
 };
 
+// NOTE: only verified facts appear here — no invented deliverable counts,
+// no fabricated results. Both engagements are ongoing; copy is written in
+// present tense and does not claim a finished "before/after" outcome.
 const projects = [
   {
-    client: "Palmview Family Medicine",
-    type: "Primary Care Practice",
-    location: "West Palm Beach, FL",
-    slug: "palmview",
-    services: ["Website Rebuild", "GBP Optimization", "Local SEO", "Review System"],
-    summary:
-      "Palmview Family Medicine needed a complete digital presence from the ground up — a practice founded on direct doctor access, unhurried appointments, and genuine continuity of care, but invisible on Google.",
+    client: "Ghalo Mental Health",
+    type: "Mental Health Practice",
+    location: "Houston, TX",
+    slug: "ghalo",
+    services: ["SEO", "Google Ads", "GBP Optimization"],
+    practice:
+      "Ghalo Mental Health is a mental health practice based in Houston, TX.",
+    engagement:
+      "Primara manages Google Business Profile optimization, local SEO, and Google Ads for the practice — an active, ongoing engagement.",
     what: [
-      "30-page Next.js website with LocalBusiness + Physician schema on every page",
-      "GBP built to 8 categories, 30+ services, all attributes set, 52-post annual calendar loaded",
-      "NFC tap card review system installed at checkout and exam rooms",
-      "Google Search Console verified and submitted at launch; Core Web Vitals green across all pages",
-      "NAP audit across Healthgrades, Zocdoc, WebMD, Yelp — all corrected at launch",
+      "Google Business Profile optimization",
+      "Local SEO",
+      "Google Ads campaign management",
     ],
-    result:
-      "A complete, production-ready digital presence where none existed. Every page targets a specific local search term. GBP fully configured from day one with weekly posts pre-scheduled.",
-    url: "https://www.palmviewfamilymedicine.com",
-    vertical: "primary-care",
+    url: "https://ghalomh.com",
   },
   {
-    client: "Innovent Global",
-    type: "Healthcare Staffing",
-    location: "Nationwide",
-    slug: "innovent",
-    services: ["Website Build", "SEO Architecture", "Job Board", "Schema Markup"],
-    summary:
-      "Innovent Global needed a high-velocity SEO job board to attract travel nurses searching for assignments — 200+ positions across specialties and states, each page needing to rank for specific location + role queries.",
+    client: "Family Life Counseling Center",
+    type: "Counseling Practice · Multiple Locations",
+    location: "Lake, Polk & Orange Counties, FL",
+    slug: "family-life",
+    services: ["SEO", "GBP Optimization", "Website Rebuild"],
+    practice:
+      "Family Life Counseling Center is a counseling practice with multiple locations across Lake, Polk, and Orange Counties, Florida.",
+    engagement:
+      "Primara manages local SEO and Google Business Profile across the practice's locations, with a new website currently in development.",
     what: [
-      "Next.js job board with dynamic routing for every specialty × location combination",
-      "JobPosting schema markup on every listing — eligible for Google's Jobs rich results",
-      "Structured data pipeline: job titles, locations, salary ranges, and application links indexed from day one",
-      "Semantic URL structure: /jobs/[specialty]/[state]/[city] for maximum indexable surface area",
-      "Sitemap auto-generated from job data; Search Console submitted at launch",
+      "Local SEO",
+      "Google Business Profile management across multiple locations",
+      "Website rebuild — in progress",
     ],
-    result:
-      "A fully indexed, schema-marked job board where every listing is eligible for Google Jobs placement. Structured to compound rankings as new positions are added.",
-    url: "https://jobs.innoventglobal.com",
-    vertical: "healthcare-staffing",
+    url: "https://familylifecounselingcenter.com",
   },
 ];
 
@@ -120,7 +117,7 @@ export default function WorkPage() {
               marginBottom: "20px",
             }}
           >
-            What We&rsquo;ve Built.
+            Real Practices We Work With.
           </h1>
           <p
             style={{
@@ -130,7 +127,7 @@ export default function WorkPage() {
               maxWidth: "600px",
             }}
           >
-            Two examples of Primara&rsquo;s work — a primary care practice website built from zero and a healthcare staffing job board built for search volume. Both are in production.
+            Two independent practices Primara actively manages — SEO, Google Business Profile, Google Ads, and website work. Both engagements are ongoing.
           </p>
         </div>
       </section>
@@ -240,7 +237,7 @@ export default function WorkPage() {
                   flexShrink: 0,
                 }}
               >
-                View Live Site
+                Visit Website
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
                   <path d="M1.5 8.5L8.5 1.5M8.5 1.5H3M8.5 1.5V7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
@@ -269,10 +266,10 @@ export default function WorkPage() {
                       marginBottom: "10px",
                     }}
                   >
-                    The Problem
+                    The Practice
                   </p>
                   <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75 }}>
-                    {project.summary}
+                    {project.practice}
                   </p>
                 </div>
                 <div>
@@ -286,15 +283,15 @@ export default function WorkPage() {
                       marginBottom: "10px",
                     }}
                   >
-                    The Outcome
+                    The Engagement
                   </p>
                   <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75 }}>
-                    {project.result}
+                    {project.engagement}
                   </p>
                 </div>
               </div>
 
-              {/* Right: deliverables */}
+              {/* Right: services */}
               <div>
                 <p
                   style={{
@@ -306,7 +303,7 @@ export default function WorkPage() {
                     marginBottom: "16px",
                   }}
                 >
-                  What Was Built
+                  What We&rsquo;re Doing
                 </p>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
                   {project.what.map((item) => (

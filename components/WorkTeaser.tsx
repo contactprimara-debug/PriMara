@@ -1,23 +1,25 @@
 import Link from "next/link";
 
+// NOTE: only verified facts — no invented deliverables or results. See
+// app/work/page.tsx for the full case-study copy these summarize.
 const projects = [
   {
-    client: "Palmview Family Medicine",
-    type: "Primary Care · West Palm Beach, FL",
-    services: ["Website", "GBP", "Local SEO", "Reviews"],
+    client: "Ghalo Mental Health",
+    type: "Mental Health · Houston, TX",
+    services: ["SEO", "GBP", "Google Ads"],
     blurb:
-      "Complete digital presence built from zero — 30-page website, GBP configured to 8 categories, review system installed, all citations corrected at launch.",
-    href: "/work#palmview",
-    url: "https://www.palmviewfamilymedicine.com",
+      "An active engagement — Primara manages Google Business Profile, local SEO, and Google Ads for this Houston mental health practice.",
+    href: "/work#ghalo",
+    url: "https://ghalomh.com",
   },
   {
-    client: "Innovent Global",
-    type: "Healthcare Staffing · Nationwide",
-    services: ["Job Board", "SEO Architecture", "Schema Markup"],
+    client: "Family Life Counseling Center",
+    type: "Counseling · Central Florida",
+    services: ["SEO", "GBP", "Website Rebuild"],
     blurb:
-      "SEO-optimized travel nursing job board with JobPosting schema on every listing — built to rank for specialty × location queries and eligible for Google Jobs placements.",
-    href: "/work#innovent",
-    url: "https://jobs.innoventglobal.com",
+      "A multi-location counseling practice across Lake, Polk, and Orange Counties — Primara manages local SEO and GBP across every location, with a new website in development.",
+    href: "/work#family-life",
+    url: "https://familylifecounselingcenter.com",
   },
 ];
 
@@ -69,7 +71,7 @@ export default function WorkTeaser() {
               margin: 0,
             }}
           >
-            Built. Live. Working.
+            Real Practices We Work With.
           </h2>
         </div>
         <Link
