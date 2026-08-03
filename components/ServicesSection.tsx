@@ -63,6 +63,14 @@ const services: Service[] = [
     description:
       "8–10 GBP categories (most practices start with 1–2), 30+ services in patient-search language, every attribute filled, and 52 posts scheduled at onboarding. The single highest-leverage change most practices can make.",
   },
+  {
+    index: "06",
+    name: "AI SEO",
+    href: "/services/ai-seo",
+    tag: "Generative Search",
+    description:
+      "Structured data, explicit AI crawler access, and an llms.txt file so ChatGPT, Perplexity, and Google AI Overviews can find and accurately describe your practice. The same technical foundation as traditional SEO, extended for AI search.",
+  },
 ];
 
 export default function ServicesSection() {

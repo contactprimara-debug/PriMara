@@ -54,6 +54,13 @@ const services = [
     description:
       "Targeted Google Search and Local Service Ad campaigns designed to fill open appointment slots with the types of patients your practice wants to see.",
   },
+  {
+    id: "ai-seo",
+    slug: "ai-seo",
+    title: "AI SEO",
+    description:
+      "Structured data, AI crawler access, and answer-ready content so ChatGPT, Perplexity, and Google AI Overviews can find and accurately describe your practice.",
+  },
 ];
 
 export default function ServicesPage() {

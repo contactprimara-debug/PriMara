@@ -3,17 +3,17 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Google Ads for Medical Practices — New Patients Fast | Primara",
+  title: "AI SEO (GEO) for Medical Practices | Primara",
   description:
-    "Primara manages Google Ads for independent primary care and mental health practices. HIPAA-aware setup, LSA verification, and search campaigns built around new-patient intent. No long-term contracts.",
-  alternates: { canonical: "https://primara365.com/services/google-ads" },
+    "Primara builds AI SEO / Generative Engine Optimization (GEO) for independent primary care and mental health practices — structured data, AI crawler access, and content built to be cited by ChatGPT, Perplexity, and Google AI Overviews.",
+  alternates: { canonical: "https://primara365.com/services/ai-seo" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Google Ads for Medical Practices — New Patients Fast | Primara",
+    title: "AI SEO (GEO) for Medical Practices | Primara",
     description:
-      "HIPAA-aware Google Ads for independent primary care and mental health practices. LSA setup, search campaigns, and privacy-compliant call tracking.",
+      "AI SEO / GEO for independent primary care and mental health practices — structured data, AI crawler access, and answer-ready content.",
     type: "website",
-    url: "https://primara365.com/services/google-ads",
+    url: "https://primara365.com/services/ai-seo",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image", images: ["/opengraph-image"] },
@@ -25,14 +25,14 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
     { "@type": "ListItem", position: 2, name: "Services", item: "https://primara365.com/services" },
-    { "@type": "ListItem", position: 3, name: "Google Ads for Medical Practices", item: "https://primara365.com/services/google-ads" },
+    { "@type": "ListItem", position: 3, name: "AI SEO", item: "https://primara365.com/services/ai-seo" },
   ],
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Google Ads for Medical Practices",
+  name: "AI SEO for Medical Practices",
   provider: {
     "@type": "LocalBusiness",
     name: "Primara",
@@ -45,75 +45,67 @@ const serviceSchema = {
     },
   },
   areaServed: { "@type": "Country", name: "United States" },
-  serviceType: "Pay-Per-Click Advertising",
+  serviceType: "Generative Engine Optimization",
   description:
-    "HIPAA-aware Google Ads management for independent primary care and mental health practices — Local Service Ads, search campaigns, and privacy-compliant conversion tracking.",
+    "Structured data, AI crawler access, and answer-ready content that helps AI systems like ChatGPT, Perplexity, and Google AI Overviews accurately find and cite independent medical practices.",
 };
 
-const adTypes = [
+const pillars = [
   {
-    label: "Google Local Service Ads",
-    tag: "Highest Intent",
-    body: "LSAs appear above all other Google results — even organic search — with a \"Google Screened\" badge that signals verified credentials to prospective patients. For practices in primary care and mental health, this placement is the closest thing to a qualified referral at scale.",
+    label: "Structured Data & Schema Markup",
+    tag: "Machine-Readable",
+    body: "AI systems don't read a page the way a person does — they rely heavily on structured data to extract accurate facts instead of guessing from paragraphs of marketing copy. Missing or incomplete schema markup means an AI system either gets it wrong or skips your practice for one it can parse with confidence.",
     items: [
-      "Healthcare vertical verification: license, malpractice insurance, and background check",
-      "Profile setup: services, hours, service area, and photo upload",
-      "Budget and bid management: pay per verified lead, not per click",
-      "Dispute resolution workflow for leads that don't meet qualification criteria",
-      "Review strategy to build the LSA profile rating patients see before clicking",
+      "LocalBusiness, Service, and FAQPage schema markup on core pages",
+      "Accurate name, address, phone, hours, and service area in structured format",
+      "FAQ content marked up so AI engines can quote it directly, word for word",
+      "Structured data reflects only what's real and verifiable — no fabricated ratings or review counts, which AI systems are increasingly trained to flag as untrustworthy",
     ],
   },
   {
-    label: "Google Search Campaigns",
-    tag: "Immediate Visibility",
-    body: "Search ads target patients at the exact moment they're searching for a provider. A correctly structured campaign appears when someone types \"primary care doctor accepting new patients\" or \"therapist near me\" — and stops spending when they search for something unrelated.",
+    label: "AI Crawler Access",
+    tag: "Foundational",
+    body: "A site can be technically excellent and still be invisible to AI systems if their crawlers are accidentally blocked — a common problem with robots.txt files that were never updated for this new generation of bots, or with sites that render key content in a way older and newer crawlers alike can't read.",
     items: [
-      "Keyword research built around new-patient intent — not brand terms you already own",
-      "Negative keyword lists to exclude irrelevant searches and prevent wasted spend",
-      "Ad copy reviewed for Google healthcare policy compliance: no outcome guarantees, no superlatives",
-      "Geographic targeting by ZIP code, radius, and neighborhood — not broad metro areas",
-      "Ad extension setup: call extensions, location, sitelinks, and structured snippets",
-      "A/B testing on headline and description variants with statistical rigor",
+      "robots.txt explicitly allows GPTBot, ClaudeBot, PerplexityBot, Google-Extended, and Bingbot",
+      "An llms.txt file — a plain-language summary of the practice written specifically for AI models to read",
+      "Verification that no crawl-blocking rule is silently hiding key pages",
+      "Server-rendered pages, so content is present in the initial HTML — not something a crawler has to execute JavaScript to see",
     ],
   },
   {
-    label: "Conversion Tracking",
-    tag: "Privacy-Compliant",
-    body: "Healthcare practices can't use standard Google Tag Manager configurations that capture URLs, form field content, or session data that might constitute protected health information. We build privacy-compliant conversion tracking from the start.",
+    label: "Answer-Ready Content",
+    tag: "What Gets Cited",
+    body: "AI systems tend to quote the sentence that most directly answers a question — not the sentence buried in the middle of a marketing paragraph. Content structured around real questions, with the answer stated plainly and early, is simply easier to cite correctly.",
     items: [
-      "Call tracking: count inbound calls generated by ads without recording PHI",
-      "Form-fill attribution: count new inquiry submissions without logging health-related content",
-      "Google Ads + Search Console integration for full-funnel visibility",
-      "Monthly performance report: cost per lead, lead volume, impression share, and quality score",
-      "Budget pacing alerts to prevent unexpected overspend",
+      "Direct-answer copy: the question gets answered in the first sentence, not the fifth",
+      "FAQ sections built from real questions patients and practices actually ask",
+      "Clear, specific service descriptions instead of vague positioning language",
+      "Content kept current as services change, so AI systems aren't citing something outdated",
     ],
   },
 ];
 
 const faqs = [
   {
-    q: "How much does Google Ads cost for a medical practice?",
-    a: "Ad spend varies by market, specialty, and competition. In most primary care markets, expect a minimum effective budget of $800–$1,500/month in ad spend plus Primara's management fee. Mental health markets are often less competitive. We provide a market analysis before recommending a budget.",
+    q: "What is AI SEO / GEO?",
+    a: "AI SEO — also called Generative Engine Optimization (GEO) or Answer Engine Optimization (AEO) — is the practice of structuring a website so AI systems like ChatGPT, Perplexity, and Google AI Overviews can accurately find, understand, and cite it. It sits alongside traditional SEO rather than replacing it: the same technical foundation — fast pages, real content, structured data — helps with both.",
   },
   {
-    q: "What's the difference between Google Ads and Local Service Ads?",
-    a: "Standard Google Search Ads are text ads that appear when someone searches for keywords you bid on — you pay per click. Local Service Ads appear above Search Ads, show a Google Screened badge, and charge per verified lead (a phone call or message from a prospective patient). LSAs require credential verification but typically deliver higher-quality inquiries.",
+    q: "Can you guarantee my practice will show up in ChatGPT?",
+    a: "No — and you should be skeptical of anyone who does. No one controls what an AI model decides to cite; these systems pull from many sources and their behavior changes as they're updated. What we can do is make sure your practice is technically ready to be found and accurately represented when it is — correct structured data, no accidental crawler blocks, and content written the way these systems actually quote it.",
   },
   {
-    q: "Do Google Ads work for mental health practices?",
-    a: "Yes — mental health is one of the highest-converting categories in healthcare search advertising because intent is clear: someone searching \"therapist near me accepting new patients\" is ready to book. Google has additional policy requirements for mental health advertising that we build around from the start.",
+    q: "Is this different from regular SEO?",
+    a: "It builds on the same foundation rather than replacing it. Traditional SEO gets you found on Google's results page. AI SEO makes sure that same technical groundwork — structured data, crawlable content, direct answers — is also readable by the AI systems increasingly used to ask the same questions.",
   },
   {
-    q: "Should I run ads before my SEO is established?",
-    a: "It depends on your timeline. Ads provide immediate placement while SEO matures over months. If you have a new practice or added a provider and need to fill your schedule quickly, running both simultaneously is the most effective path. If your organic and GBP presence is already strong, ads may be less urgent.",
+    q: "Do you do this for your own website?",
+    a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service.",
   },
   {
-    q: "Is HIPAA compliance an issue with Google Ads?",
-    a: "It can be. Standard conversion tracking implementations can inadvertently capture search queries or URL parameters that contain health-related information, which may constitute PHI under HIPAA. Primara configures all tracking to count conversion events without capturing the content of those events.",
-  },
-  {
-    q: "Is there a long-term contract?",
-    a: "No long-term contracts. Month-to-month after initial campaign setup. Setup typically takes 7–10 days from signed agreement to first live ad.",
+    q: "Is there a separate cost for AI SEO?",
+    a: "For most clients it's built into the SEO or Foundation/Visibility package rather than sold separately — the technical work overlaps heavily with what we already do for traditional SEO. We'll tell you plainly if your situation calls for additional scope.",
   },
 ];
 
@@ -129,7 +121,7 @@ const faqSchema = {
   })),
 };
 
-export default function GoogleAdsPage() {
+export default function AiSeoPage() {
   return (
     <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
@@ -144,7 +136,7 @@ export default function GoogleAdsPage() {
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li><Link href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li style={{ color: "var(--chalk)" }}>Google Ads</li>
+            <li style={{ color: "var(--chalk)" }}>AI SEO</li>
           </ol>
         </div>
       </nav>
@@ -190,7 +182,7 @@ export default function GoogleAdsPage() {
               marginBottom: "24px",
             }}
           >
-            Google Ads for Independent Medical Practices
+            AI SEO for Independent Medical Practices
           </h1>
 
           <p
@@ -202,10 +194,10 @@ export default function GoogleAdsPage() {
               marginBottom: "40px",
             }}
           >
-            Organic SEO takes months. Google Ads puts your practice at the top of search results
-            immediately — while your long-term visibility is being built. Primara manages the
-            full paid search stack: Local Service Ads, search campaigns, and HIPAA-aware
-            conversion tracking.
+            Patients are starting more of their searches inside ChatGPT, Perplexity, and Google&rsquo;s
+            AI Overviews — not just a traditional search results page. Primara builds the technical
+            foundation — structured data, AI crawler access, and answer-ready content — that determines
+            whether these systems can find your practice and describe it accurately.
           </p>
 
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
@@ -257,7 +249,7 @@ export default function GoogleAdsPage() {
         </div>
       </section>
 
-      {/* Why ads for a medical practice */}
+      {/* Why it matters */}
       <section style={{ backgroundColor: "var(--surface)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <div style={{ maxWidth: "760px" }}>
@@ -271,7 +263,7 @@ export default function GoogleAdsPage() {
                 marginBottom: "24px",
               }}
             >
-              Why It Works
+              Why It Matters
             </p>
             <h2
               style={{
@@ -283,83 +275,27 @@ export default function GoogleAdsPage() {
                 marginBottom: "24px",
               }}
             >
-              The patient searching &ldquo;primary care doctor accepting new patients&rdquo; is ready to call. Google Ads puts your number in front of them first.
+              The same technical work that gets you found on Google now determines whether AI systems can find you too.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              Healthcare advertising is categorically different from retail or service business ads. The compliance
-              requirements are stricter, the keyword intent patterns are more specific, and the cost-per-lead math
-              works differently when a new patient has a lifetime value of $3,000–$15,000 to your practice. Most general
-              ad agencies have never navigated Google&rsquo;s healthcare and medicines policy, the LSA verification
-              process for the healthcare vertical, or HIPAA-aware conversion tracking requirements.
+              Search behavior is shifting. A growing share of health-related questions now start inside
+              an AI assistant instead of a traditional search bar — someone asks ChatGPT to recommend a
+              therapist, or asks Perplexity what a mental health practice near them treats. These systems
+              answer using whatever they can read and trust: structured data, clearly written content,
+              and pages that aren&rsquo;t accidentally blocked from their crawlers.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              Primara runs campaigns exclusively for independent primary care and mental health practices. We know
-              which campaign structures work in this vertical, which ad copy formulations pass Google&rsquo;s healthcare
-              review without being watered down to uselessness, and how to attribute new patients to the right channels
-              without creating compliance exposure.
+              Most medical practice websites were never built with this in mind. Missing schema markup
+              means an AI system has to guess at basic facts. A robots.txt file copied from a template
+              years ago might be silently blocking the exact crawlers these systems use today. Primara
+              treats AI readiness as part of the same technical foundation as traditional SEO — not a
+              separate, speculative add-on.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ROI framing */}
-      <section style={{ backgroundColor: "var(--void)", padding: "clamp(40px, 6vw, 64px) 0", borderBottom: "1px solid var(--wire)" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-              gap: "1px",
-              backgroundColor: "var(--wire)",
-              border: "1px solid var(--wire)",
-              borderRadius: "4px",
-              overflow: "hidden",
-            }}
-          >
-            {[
-              { stat: "~$400–$700", label: "Typical cost per new patient\nacquired via paid search" },
-              { stat: "$3,000–$15,000", label: "Average lifetime value of a\nnew primary care patient" },
-              { stat: "3–5 new patients", label: "Required to break even on a\n$1,500/month ad spend" },
-              { stat: "7–10 days", label: "From signed agreement to\nfirst live ad" },
-            ].map(({ stat, label }) => (
-              <div
-                key={stat}
-                style={{
-                  backgroundColor: "var(--surface)",
-                  padding: "clamp(24px, 3.5vw, 40px)",
-                }}
-              >
-                <div
-                  style={{
-                    fontFamily: "var(--font-display), Georgia, serif",
-                    fontStyle: "italic",
-                    fontSize: "clamp(1.5rem, 3vw, 2.25rem)",
-                    color: "var(--gold)",
-                    lineHeight: 1.1,
-                    marginBottom: "10px",
-                  }}
-                >
-                  {stat}
-                </div>
-                <p
-                  style={{
-                    fontFamily: "system-ui, sans-serif",
-                    fontSize: "0.8125rem",
-                    color: "var(--ash)",
-                    lineHeight: 1.6,
-                    margin: 0,
-                    whiteSpace: "pre-line",
-                  }}
-                >
-                  {label}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Three ad types */}
+      {/* Three pillars */}
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 7vw, 80px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p
@@ -376,9 +312,9 @@ export default function GoogleAdsPage() {
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
-            {adTypes.map((type, idx) => (
+            {pillars.map((pillar, idx) => (
               <div
-                key={type.label}
+                key={pillar.label}
                 style={{
                   borderTop: "1px solid var(--wire)",
                   padding: "clamp(32px, 5vw, 56px) 0",
@@ -414,7 +350,7 @@ export default function GoogleAdsPage() {
                         padding: "3px 8px",
                       }}
                     >
-                      {type.tag}
+                      {pillar.tag}
                     </span>
                   </div>
                   <h2
@@ -427,18 +363,18 @@ export default function GoogleAdsPage() {
                       marginBottom: "16px",
                     }}
                   >
-                    {type.label}
+                    {pillar.label}
                   </h2>
                   <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75 }}>
-                    {type.body}
+                    {pillar.body}
                   </p>
                 </div>
 
                 {/* Right */}
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
-                  {type.items.map((item) => (
+                  {pillar.items.map((item) => (
                     <li key={item} style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
-                      <span aria-hidden="true" style={{ color: "var(--gold)", flexShrink: 0, marginTop: "3px", fontSize: "0.875rem" }}>▸</span>
+                      <span aria-hidden="true" style={{ color: "var(--gold)", flexShrink: 0, marginTop: "3px", fontSize: "0.8rem" }}>▸</span>
                       <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.65 }}>{item}</span>
                     </li>
                   ))}
@@ -449,41 +385,8 @@ export default function GoogleAdsPage() {
         </div>
       </section>
 
-      {/* Pull quote */}
-      <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", borderBottom: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 64px) 0" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <blockquote style={{ maxWidth: "720px" }}>
-            <p
-              style={{
-                fontFamily: "var(--font-display), Georgia, serif",
-                fontStyle: "italic",
-                fontSize: "clamp(1.1rem, 2.5vw, 1.5rem)",
-                color: "var(--chalk)",
-                lineHeight: 1.5,
-                marginBottom: "16px",
-              }}
-            >
-              &ldquo;We only recommend starting Google Ads after the GBP and website foundation are in place. An
-              ad that clicks through to a slow, low-trust website is wasted spend. The order matters.&rdquo;
-            </p>
-            <cite
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "0.8125rem",
-                letterSpacing: "0.1em",
-                textTransform: "uppercase" as const,
-                color: "var(--smoke)",
-                fontStyle: "normal",
-              }}
-            >
-              — Liam Costello &amp; Gio LaRoche, Co-Founders, Primara
-            </cite>
-          </blockquote>
-        </div>
-      </section>
-
       {/* FAQ */}
-      <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
+      <section style={{ backgroundColor: "var(--surface)", padding: "clamp(48px, 7vw, 80px) 0", borderTop: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p
             style={{
@@ -529,7 +432,7 @@ export default function GoogleAdsPage() {
       </section>
 
       {/* Internal links */}
-      <section style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)", padding: "clamp(32px, 4vw, 48px) 0" }}>
+      <section style={{ backgroundColor: "var(--void)", borderBottom: "1px solid var(--wire)", padding: "clamp(32px, 4vw, 48px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={{ fontSize: "0.875rem", color: "var(--smoke)", marginBottom: "16px" }}>
             Related services
@@ -537,10 +440,9 @@ export default function GoogleAdsPage() {
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
             {[
               { href: "/services/seo", label: "SEO for Medical Practices" },
-              { href: "/services/ai-seo", label: "AI SEO" },
+              { href: "/services/google-ads", label: "Google Ads for Medical Practices" },
               { href: "/services/google-business-profile", label: "Google Business Profile" },
-              { href: "/services/medical-practice-website-design", label: "Website Design" },
-              { href: "/services/online-reputation-management", label: "Reputation Management" },
+              { href: "/services/local-seo-for-medical-practices", label: "Local SEO" },
               { href: "/results", label: "See the Results" },
             ].map(({ href, label }) => (
               <Link
@@ -574,10 +476,10 @@ export default function GoogleAdsPage() {
               marginBottom: "1rem",
             }}
           >
-            Ready to Start Filling Your Schedule?
+            Ready to Be Found by AI Search?
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "2rem", fontSize: "1rem" }}>
-            We start with a free audit of your Google presence before recommending any ad spend.
+            We start with a free audit of your Google presence — AI readiness included.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
             <a
@@ -615,12 +517,6 @@ export default function GoogleAdsPage() {
               Get My Free Audit
             </Link>
           </div>
-          <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Independent primary care &amp; mental health practices only · No long-term contracts ·{" "}
-            <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
-              All Services
-            </Link>
-          </p>
         </div>
       </section>
     </main>

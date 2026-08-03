@@ -522,6 +522,7 @@ export default function SEOServicePage() {
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
             {[
               { href: "/services/google-ads", label: "Google Ads for Medical Practices" },
+              { href: "/services/ai-seo", label: "AI SEO" },
               { href: "/services/google-business-profile", label: "Google Business Profile" },
               { href: "/services/medical-practice-website-design", label: "Website Design" },
               { href: "/services/online-reputation-management", label: "Reputation Management" },

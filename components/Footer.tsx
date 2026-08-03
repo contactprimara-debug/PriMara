@@ -27,6 +27,7 @@ const SERVICE_LINKS = [
   { label: "Review Generation", href: "/services/online-reputation-management" },
   { label: "Local SEO Content", href: "/services/local-seo-for-medical-practices" },
   { label: "Patient Acquisition Ads", href: "/services/patient-acquisition-ads" },
+  { label: "AI SEO", href: "/services/ai-seo" },
 ];
 
 const WHO_WE_SERVE_LINKS = [
