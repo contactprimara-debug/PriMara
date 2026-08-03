@@ -3,6 +3,7 @@
 export const siteConfig = {
   name: "Primara",
   tagline: "Digital Marketing for Independent Medical Practices",
+  motto: "Praise God",
   phone: "+15612912681",
   phoneDisplay: "(561) 291-2681",
   email: "liam.costello@primara365.com",

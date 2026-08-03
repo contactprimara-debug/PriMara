@@ -88,6 +88,11 @@ export default function AboutPage() {
             mental health practices. Not dental chains. Not urgent care franchises. Not hospital
             systems. Two models, done well.
           </p>
+          <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
+            <Link href="/motivation" style={{ color: "var(--gold)", textDecoration: "underline" }}>
+              Read what motivates the work.
+            </Link>
+          </p>
         </div>
 
         <div className="mt-10 flex gap-4 flex-wrap">

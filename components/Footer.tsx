@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteConfig } from "@/lib/siteConfig";
 
 /* ── Footer ────────────────────────────────────────────────────────────────
    Site-wide footer rendered in layout.tsx.
@@ -15,6 +16,7 @@ const NAV_LINKS = [
   { label: "Services", href: "/services" },
   { label: "The Audit", href: "/the-audit" },
   { label: "About", href: "/about" },
+  { label: "Our Motivation", href: "/motivation" },
   { label: "Results", href: "/results" },
   { label: "Contact", href: "/contact" },
 ];
@@ -83,6 +85,19 @@ export default function Footer() {
             >
               Primara
             </Link>
+
+            {/* Motto */}
+            <span
+              style={{
+                fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
+                fontStyle: "italic",
+                fontSize: "13px",
+                color: "var(--gold)",
+                letterSpacing: "0.01em",
+              }}
+            >
+              {siteConfig.motto}
+            </span>
 
             {/* Description */}
             <p

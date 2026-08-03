@@ -62,6 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${SITE_URL}/motivation`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
 
     // ── Priority 0.9 — Main service pages (SEO + Ads) ───────────────────
     { url: `${SITE_URL}/services/seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
