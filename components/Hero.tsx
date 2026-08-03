@@ -65,7 +65,7 @@ export default function Hero() {
               margin: "0 0 clamp(16px, 2vw, 20px)",
             }}
           >
-            Praise God.
+            Matthew 6:33
           </p>
 
           {/* Eyebrow label */}
