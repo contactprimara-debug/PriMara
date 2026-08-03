@@ -29,34 +29,20 @@ export default function Hero() {
           position: "relative",
           overflow: "hidden",
           display: "flex",
-          alignItems: "center",
-          // Reserves room for the motto pinned above (see below) — the
-          // centered content stack already ran close to viewport height,
-          // so without this the motto would sit right on top of the H1.
-          paddingTop: "clamp(40px, 5vw, 64px)",
+          // Top-anchored, not centered: the content stack was already
+          // running close to (or past) full viewport height on common
+          // screens, so centering it silently clipped the TOP under the
+          // fixed header — that's what was hiding the eyebrow badge before,
+          // and what made the motto (added below it) float disconnected
+          // from the rest of the stack instead of reading as part of it.
+          // Anchoring to a fixed top offset means motto → eyebrow → H1 always
+          // sit at the same, predictable distance from each other and from
+          // the header, on every screen. Only downside: on unusually short
+          // viewports the bottom (scroll indicator) can get clipped instead
+          // of the top — an acceptable trade, since the top is what matters.
+          alignItems: "flex-start",
         }}
       >
-        {/* Motto — pinned just below the fixed header, outside the vertically-
-            centered content stack so it can never push that stack (which is
-            already close to viewport height on common screens) off-screen. */}
-        <p
-          aria-hidden="false"
-          style={{
-            position: "absolute",
-            top: "calc(60px + env(safe-area-inset-top) + 24px)",
-            left: "clamp(24px, 8vw, 120px)",
-            zIndex: 1,
-            fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
-            fontStyle: "italic",
-            fontSize: "clamp(14px, 1.4vw, 16px)",
-            color: "var(--gold)",
-            letterSpacing: "0.01em",
-            margin: 0,
-          }}
-        >
-          Praise God.
-        </p>
-
         {/* Content stack */}
         <div
           className="hero-content"
@@ -65,8 +51,23 @@ export default function Hero() {
             zIndex: 1,
             width: "100%",
             padding: "0 clamp(24px, 8vw, 120px)",
+            paddingTop: "calc(60px + env(safe-area-inset-top) + 28px)",
           }}
         >
+          {/* Motto */}
+          <p
+            style={{
+              fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
+              fontStyle: "italic",
+              fontSize: "clamp(14px, 1.4vw, 16px)",
+              color: "var(--gold)",
+              letterSpacing: "0.01em",
+              margin: "0 0 clamp(16px, 2vw, 20px)",
+            }}
+          >
+            Praise God.
+          </p>
+
           {/* Eyebrow label */}
           <div
             className="hero-eyebrow"
