@@ -913,4 +913,217 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+
+  {
+    slug: "trt-clinics-vs-national-telehealth-brands-local-seo",
+    title: "Why TRT Clinics Can't Beat National Telehealth Brands on Paid Search (And What Wins Instead)",
+    metaTitle: "TRT Clinic Marketing: Local SEO vs. National Telehealth Ads | Primara",
+    metaDescription:
+      "National TRT telehealth brands will always outspend an independent clinic on paid ads. Here's the channel where an independent clinic wins instead — and how to build it.",
+    excerpt:
+      "Venture-funded TRT telehealth brands spend more on Google Ads in a week than most independent clinics spend on marketing in a year. Trying to outbid them is a losing strategy. Local Google Maps visibility is a different game entirely — one where a real clinic with a real address has a structural advantage no telehealth-only brand can replicate. Here's why, and how to build it.",
+    author: "Gio LaRoche",
+    publishDate: "2026-08-04T09:00:00Z",
+    keyword: "TRT clinic marketing local SEO",
+    sections: [
+      {
+        type: "p",
+        text: "Open Google and search \"testosterone therapy near me\" from almost any city in the country, and the paid results at the top will be dominated by two or three national telehealth brands. They have raised tens of millions of dollars, and a meaningful share of that money goes directly into Google and Meta ad auctions for exactly the keywords an independent TRT clinic would want. Trying to outbid them on cost-per-click is not a fight most independent clinics can win, or should try to win.",
+      },
+      {
+        type: "h2",
+        text: "The Channel National Brands Structurally Can't Compete In",
+      },
+      {
+        type: "p",
+        text: "Paid search is not the only place patients look. Scroll past the ads on that same search, and the next thing most patients see is the local map pack — three business listings tied to real, physical addresses, with star ratings, hours, and a \"directions\" button. A telehealth-only brand has no clinic to put on that map. It cannot appear there no matter how much it spends on advertising. That's the opening an independent clinic has, and most independent clinics never build a Google Business Profile complete enough to take advantage of it.",
+      },
+      {
+        type: "p",
+        text: "This matters because the map pack captures a specific, valuable type of patient: the one who has already decided they want an in-person relationship with a real physician, not a subscription app and a mailed prescription. That patient is actively searching with local intent — \"TRT clinic near me,\" \"testosterone doctor [city]\" — and a clinic with a complete, well-reviewed profile is what they find.",
+      },
+      {
+        type: "h2",
+        text: "What a Fully Optimized TRT Clinic Profile Actually Looks Like",
+      },
+      {
+        type: "p",
+        text: "Most independent TRT clinics claim a single generic category — \"Medical Clinic\" — and stop there. A properly configured profile uses every relevant category available: Men's Health Physician, Urologist where applicable, Weight Loss Service if that's part of your offering. Each additional accurate category is an additional ranking signal and an additional way for Google to match your profile to a relevant search.",
+      },
+      {
+        type: "p",
+        text: "The service list matters just as much. Twenty or more entries written in the exact language patients search — \"testosterone replacement therapy,\" \"low T treatment,\" \"men's hormone optimization\" — do more for ranking than a paragraph of marketing copy in the business description. Photos should be professional and clinical, not stock imagery. Attributes like \"appointment required\" and \"private consultation\" signal the discretion patients in this category specifically look for before they'll trust a provider enough to call.",
+      },
+      {
+        type: "h2",
+        text: "Reviews Are the Trust Signal Replacing Word-of-Mouth",
+      },
+      {
+        type: "p",
+        text: "Most medical specialties grow partly through word-of-mouth. TRT largely doesn't — men are simply less likely to bring up their testosterone clinic in casual conversation, even with close friends. That makes online reviews the primary substitute for the referral conversation that would normally happen with a family doctor or a dentist.",
+      },
+      {
+        type: "p",
+        text: "The obstacle is that patients in this category are often reluctant to leave a public review that specifies what they were treated for. A review request system has to account for that directly — asking for feedback without requiring the patient to name their treatment. NFC tap cards and QR codes placed discreetly at checkout, paired with a request that simply says \"how was your visit,\" remove the single biggest reason a satisfied TRT patient never becomes a public reviewer.",
+      },
+      {
+        type: "blockquote",
+        text: "A national telehealth brand can outspend any independent clinic on ads. It cannot out-rank a well-built local Google Business Profile in the map pack, because it has no address to put on the map. That's not a small advantage — it's the whole game for local search.",
+        cite: "Gio LaRoche, Primara",
+      },
+      {
+        type: "h2",
+        text: "How Primara Builds This for TRT Clinics",
+      },
+      {
+        type: "ul",
+        items: [
+          "Full GBP category configuration — Men's Health Physician and every other relevant category, not just one generic listing",
+          "20+ services written in exact patient-search language, not clinical jargon",
+          "Discreet NFC tap card and QR-based review system that never requires naming a specific treatment",
+          "A dedicated TRT service page on your website, built to rank for the specific searches patients run",
+          "Ongoing local SEO content — new city and service pages added on a regular schedule",
+          "Monthly reporting with Maps rank tracking on your primary keyword and city",
+        ],
+      },
+      {
+        type: "p",
+        text: "If your clinic is losing patients to a subscription telehealth app despite offering real, in-person, physician-led care, the fix usually isn't a bigger ad budget — it's a properly built local presence. Start with a free audit and we'll show you exactly where the gaps are.",
+      },
+    ],
+  },
+
+  {
+    slug: "gbp-categories-for-mens-health-clinics",
+    title: "The Google Business Profile Categories Independent Men's Health Clinics Are Missing",
+    metaTitle: "GBP Categories for Men's Health & TRT Clinics | Primara",
+    metaDescription:
+      "Most men's health clinics use only one GBP category. Here's the full list of categories that expand your map pack ranking surface area — and how to configure them correctly.",
+    excerpt:
+      "Google Business Profile categories are the single highest-leverage local ranking factor available to a men's health clinic, and most independent practices leave eight or nine category slots empty. Here's the complete list of categories relevant to TRT, men's wellness, and urology practices, and how to configure a profile that actually captures the full range of how patients search.",
+    author: "Liam Costello",
+    publishDate: "2026-08-06T09:00:00Z",
+    keyword: "GBP categories men's health clinic",
+    sections: [
+      {
+        type: "p",
+        text: "Google Business Profile categories drive more local ranking impact than reviews, more than your website, more than almost anything else on your profile. Most independent men's health clinics select one category — usually \"Medical Clinic\" or \"Urologist\" — and never touch the setting again. That leaves real ranking opportunity on the table, because Google allows up to ten categories per profile, and each one is a separate signal matching your practice to a separate set of searches.",
+      },
+      {
+        type: "h2",
+        text: "The Full Category List for Men's Health Practices",
+      },
+      {
+        type: "p",
+        text: "Depending on your exact service mix, a fully configured men's health profile should draw from: Men's Health Physician, Urologist, Weight Loss Service, Medical Clinic, Wellness Center, Hormone Therapy Clinic where the category exists in your region, and Doctor as a general catch-all. Not every clinic qualifies for every category — a profile should only claim categories that accurately describe services actually offered, since inaccurate categories can trigger a Google review and suspension. But most clinics that check will find they qualify for three to five categories beyond the single one currently selected.",
+      },
+      {
+        type: "h2",
+        text: "Why the Service List Matters as Much as the Category",
+      },
+      {
+        type: "p",
+        text: "Categories tell Google what type of business you are. The service list tells Google — and patients — exactly what you do, in the language they actually search. A men's health clinic's service list should include specific, patient-search-language entries: \"testosterone replacement therapy,\" \"low T treatment,\" \"ED treatment,\" \"men's hormone optimization,\" \"male fertility evaluation\" where relevant, and any other service actually offered. Twenty or more entries is typical for a fully built-out profile. Most clinics we audit have fewer than five.",
+      },
+      {
+        type: "h2",
+        text: "Attributes That Signal Discretion",
+      },
+      {
+        type: "p",
+        text: "Men's health is one of the more privacy-sensitive medical categories, and the profile should reflect that directly. Attributes like \"appointment required\" and \"private consultation available\" — where supported — communicate to a hesitant, comparison-shopping patient that your practice understands the nature of what they're researching. This is a small detail that measurably affects whether a patient clicks through to call.",
+      },
+      {
+        type: "blockquote",
+        text: "We routinely see men's health clinics with a single GBP category and a five-item service list, sitting three or four positions below a competitor with a fully built-out profile — despite having equal or better reviews. Categories and services are the fastest fix available, and most clinics have never touched them.",
+        cite: "Liam Costello, Primara",
+      },
+      {
+        type: "h2",
+        text: "How Primara Configures This for New Clients",
+      },
+      {
+        type: "ul",
+        items: [
+          "Full audit of every category your practice legitimately qualifies for, cross-checked against your actual services",
+          "20+ service entries written in patient-search language, not clinical terminology",
+          "Attribute configuration for discretion and appointment-based scheduling",
+          "A full year of GBP posts scheduled at onboarding",
+          "Photo strategy built around clinical credibility, not stock imagery",
+          "Monthly Local Falcon rank tracking so you can see the category change move your position",
+        ],
+      },
+      {
+        type: "p",
+        text: "If your men's health clinic's Google Business Profile has one category and a handful of generic services, that's very likely the single fastest fix available to you. Our free audit will show you exactly which categories you qualify for and haven't claimed.",
+      },
+    ],
+  },
+
+  {
+    slug: "how-men-search-for-trt-and-ed-treatment",
+    title: "How Men Actually Search for TRT and ED Treatment (And Why Most Clinic Websites Don't Match It)",
+    metaTitle: "How Men Search for TRT & ED Treatment Online | Primara",
+    metaDescription:
+      "Men researching TRT and ED treatment search differently than most medical patients — privately, carefully, and often at odd hours. Here's what that means for your clinic's website.",
+    excerpt:
+      "Men's health search behavior doesn't look like search behavior for most other medical specialties. Research happens privately, often late at night, and almost never gets discussed with friends before a decision is made. Most clinic websites are built as if none of that were true. Here's what the actual search pattern looks like, and how to build a site that matches it.",
+    author: "Gio LaRoche",
+    publishDate: "2026-08-08T09:00:00Z",
+    keyword: "men's health website search intent",
+    sections: [
+      {
+        type: "p",
+        text: "A man researching testosterone therapy or ED treatment is not shopping the way a patient shops for a family doctor. There's no recommendation from a coworker, no post in a neighborhood Facebook group, no casual mention at a dinner party. The entire research process — from first symptom search to booking a consultation — often happens alone, on a phone, without another person ever being part of the decision. That changes what a clinic's website needs to do.",
+      },
+      {
+        type: "h2",
+        text: "The Search Pattern Is Private and Symptom-First",
+      },
+      {
+        type: "p",
+        text: "Most men don't start by searching for a clinic name or even a treatment name. They start with a symptom — low energy, low libido, difficulty maintaining an erection — often phrased in plain, non-clinical language. Only after some research do the searches shift toward treatment and provider terms: \"low testosterone symptoms,\" then later \"TRT clinic near me\" or \"ED treatment near me.\" A website that only targets the second stage of that search journey misses the patient during the research phase, when a competitor with better content earns the trust instead.",
+      },
+      {
+        type: "h2",
+        text: "Why Generic Clinic Websites Lose This Patient",
+      },
+      {
+        type: "p",
+        text: "A lot of men's health marketing — particularly from national telehealth brands — reads like a subscription supplement funnel: bold claims, urgency language, a slick multi-step signup flow. That style works for some audiences, but it actively erodes trust with a skeptical, research-oriented patient comparing his options. The clinic that reads as clinical, physician-led, and evidence-based — clear information, real credentials, no exaggerated promises — is the one a careful researcher chooses to call.",
+      },
+      {
+        type: "h2",
+        text: "What a Website Built for This Search Pattern Includes",
+      },
+      {
+        type: "p",
+        text: "Dedicated pages for each condition and treatment — not one page trying to cover testosterone, ED, and general wellness at once. Content that answers the symptom-stage questions a man is actually asking before he's ready to search for a provider: what low testosterone actually feels like, what a first visit involves, what cash-pay pricing typically looks like. And clear, prominent physician credentials, because credibility is the single biggest objection a website has to overcome in this category.",
+      },
+      {
+        type: "blockquote",
+        text: "The clinics that win in this category aren't the ones with the loudest marketing. They're the ones whose website makes a skeptical, private researcher feel like he found a real doctor instead of a sales funnel.",
+        cite: "Gio LaRoche, Primara",
+      },
+      {
+        type: "h2",
+        text: "How Primara Builds Men's Health Websites Around This",
+      },
+      {
+        type: "ul",
+        items: [
+          "Dedicated service pages for each treatment — TRT, ED treatment, men's wellness — instead of one generic services page",
+          "Symptom- and condition-first content that captures patients earlier in their research",
+          "Physician credentials and clinical framing built into every page, not buried on an about page",
+          "MedicalClinic schema markup so Google and AI search systems can accurately represent your practice",
+          "Fast, mobile-first performance — most of this research happens on a phone, often late at night",
+          "No outcome guarantees or exaggerated claims — credibility is the product",
+        ],
+      },
+      {
+        type: "p",
+        text: "If your clinic's website reads like a generic services page instead of speaking directly to how men actually research this care, that gap is costing you patients before they ever pick up the phone. Start with a free audit and we'll show you exactly where.",
+      },
+    ],
+  },
 ];

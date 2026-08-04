@@ -15,7 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
 
-    // ── Priority 0.9 — Vertical landing pages ───────────────────────────
+    // ── Priority 0.9 — Vertical landing pages (Men's Health first) ───────
+    {
+      url: `${SITE_URL}/mens-health`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
     {
       url: `${SITE_URL}/primary-care`,
       lastModified,
@@ -142,6 +148,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
 
+    // ── Priority 0.7 — Men's health specialty pages ───────────────────────
+    {
+      url: `${SITE_URL}/specialties/trt-clinics`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/mens-wellness-clinics`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/urology-practices`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/specialties/ed-treatment-clinics`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+
     // ── Priority 0.7 — Specialty landing pages ────────────────────────────
     {
       url: `${SITE_URL}/specialties/family-medicine`,
@@ -187,6 +219,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/results`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
 
     // ── Priority 0.8 — Blog posts ────────────────────────────────────────
+    { url: `${SITE_URL}/blog/trt-clinics-vs-national-telehealth-brands-local-seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/blog/gbp-categories-for-mens-health-clinics`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/blog/how-men-search-for-trt-and-ed-treatment`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/blog/why-your-medical-practice-isnt-showing-up-on-google-maps`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/blog/gbp-categories-for-primary-care-doctors`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/blog/how-many-google-reviews-does-a-medical-practice-need`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
@@ -195,6 +230,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/blog/hipaa-compliant-google-review-responses`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/blog/how-long-does-local-seo-take-for-medical-practices`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/blog/google-business-profile-for-mental-health-therapists`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+
+    // ── Priority 0.9 — Men's health city pages ────────────────────────────
+    { url: `${SITE_URL}/locations/miami-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/fort-lauderdale-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/boca-raton-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/west-palm-beach-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/palm-beach-gardens-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/delray-beach-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/coral-gables-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/aventura-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
     // ── Priority 0.9 — Primary care city pages ───────────────────────────
     { url: `${SITE_URL}/locations/miami-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },

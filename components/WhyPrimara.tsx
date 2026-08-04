@@ -52,7 +52,7 @@ const badges = [
   "Liam Costello, Co-Founder",
   "Gio LaRoche, Co-Founder",
   "West Palm Beach, FL",
-  "Primary Care & Mental Health",
+  "Men's Health, Primary Care & Mental Health",
 ] as const;
 
 export default function WhyPrimara() {

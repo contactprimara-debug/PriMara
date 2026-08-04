@@ -114,6 +114,55 @@ export default function HomePage() {
           }}
         >
           <Link
+            href="/mens-health"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px",
+              padding: "clamp(28px, 4vw, 40px)",
+              border: "1px solid var(--wire)",
+              borderRadius: "4px",
+              backgroundColor: "var(--void)",
+              textDecoration: "none",
+              transition: "border-color 0.2s",
+            }}
+            className="vertical-card"
+          >
+            <span
+              style={{
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontSize: "clamp(24px, 3vw, 32px)",
+                color: "var(--chalk)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+              }}
+            >
+              Men&rsquo;s Health
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                color: "var(--ash)",
+                lineHeight: 1.6,
+              }}
+            >
+              TRT clinics, men&rsquo;s wellness centers, urology practices
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "12px",
+                letterSpacing: "0.08em",
+                color: "var(--gold)",
+                marginTop: "4px",
+              }}
+            >
+              See How We Help →
+            </span>
+          </Link>
+          <Link
             href="/primary-care"
             style={{
               display: "flex",

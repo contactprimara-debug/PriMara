@@ -3,18 +3,25 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { primaryCareLocations, type PrimaryCareLocation } from "@/lib/locations-primary";
 import { mentalHealthLocations, type MentalHealthLocation } from "@/lib/locations-mental";
+import { mensHealthLocations, type MensHealthLocation } from "@/lib/locations-mens-health";
 
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
 type MentalLoc = MentalHealthLocation & { type: "mental-health" };
-type AnyLoc = PrimaryLoc | MentalLoc;
+type MensLoc = MensHealthLocation & { type: "mens-health" };
+type AnyLoc = PrimaryLoc | MentalLoc | MensLoc;
 
 const allLocations: AnyLoc[] = [
   ...primaryCareLocations.map((loc) => ({ ...loc, type: "primary-care" as const })),
   ...mentalHealthLocations.map((loc) => ({ ...loc, type: "mental-health" as const })),
+  ...mensHealthLocations.map((loc) => ({ ...loc, type: "mens-health" as const })),
 ];
 
 function isPrimary(loc: AnyLoc): loc is PrimaryLoc {
   return loc.type === "primary-care";
+}
+
+function isMensHealth(loc: AnyLoc): loc is MensLoc {
+  return loc.type === "mens-health";
 }
 
 export function generateStaticParams() {
@@ -52,12 +59,18 @@ export default function LocationPage({
   const loc = allLocations.find((l) => l.slug === params.slug);
   if (!loc) notFound();
 
-  const verticalLabel = isPrimary(loc) ? "Primary Care Marketing" : "Mental Health Marketing";
-  const mainVerticalHref = isPrimary(loc) ? "/primary-care" : "/mental-health";
-  const mainVerticalLabel = isPrimary(loc) ? "Primary Care Marketing" : "Mental Health Marketing";
+  const verticalLabel = isPrimary(loc)
+    ? "Primary Care Marketing"
+    : isMensHealth(loc)
+    ? "Men's Health Marketing"
+    : "Mental Health Marketing";
+  const mainVerticalHref = isPrimary(loc) ? "/primary-care" : isMensHealth(loc) ? "/mens-health" : "/mental-health";
+  const mainVerticalLabel = verticalLabel;
   const mainVerticalDesc = isPrimary(loc)
-    ? "How Primara works with independent primary care physicians across Florida."
-    : "How Primara helps independent therapists and mental health practices across Florida.";
+    ? "How Primara works with independent primary care physicians nationwide."
+    : isMensHealth(loc)
+    ? "How Primara works with independent men's health practices nationwide."
+    : "How Primara helps independent therapists and mental health practices nationwide.";
 
   const contextParagraphs = isPrimary(loc)
     ? loc.localContext.split("\n\n").filter(Boolean)
@@ -94,7 +107,9 @@ export default function LocationPage({
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `Digital Marketing for ${isPrimary(loc) ? "Primary Care Practices" : "Mental Health Practices"} in ${loc.city}`,
+    name: `Digital Marketing for ${
+      isPrimary(loc) ? "Primary Care Practices" : isMensHealth(loc) ? "Men's Health Practices" : "Mental Health Practices"
+    } in ${loc.city}`,
     provider: { "@type": "LocalBusiness", name: "Primara" },
     areaServed: { "@type": "City", name: loc.city },
     serviceType: "Healthcare Digital Marketing",
@@ -415,7 +430,7 @@ export default function LocationPage({
                 maxWidth: "700px",
               }}
             >
-              GBP Optimization for {loc.city} Therapists
+              GBP Optimization for {loc.city} {isMensHealth(loc) ? "Men's Health Practices" : "Therapists"}
             </h2>
             <div
               style={{
@@ -576,6 +591,8 @@ export default function LocationPage({
               >
                 {isPrimary(loc)
                   ? `Why Independent Practices in ${loc.city} Are Moving Now`
+                  : isMensHealth(loc)
+                  ? `How ${loc.city} Patients Search for Men's Health Care`
                   : `How ${loc.city} Patients Search for Therapy`}
               </h2>
             </div>

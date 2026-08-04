@@ -31,6 +31,7 @@ const SERVICE_LINKS = [
 ];
 
 const WHO_WE_SERVE_LINKS = [
+  { label: "Men's Health", href: "/mens-health" },
   { label: "Primary Care", href: "/primary-care" },
   { label: "Mental Health", href: "/mental-health" },
 ];

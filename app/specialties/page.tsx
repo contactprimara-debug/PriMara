@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Primary Care Marketing by Specialty | Primara Florida",
+  title: "Marketing by Specialty — Men's Health & Primary Care | Primara",
   description:
-    "Primara provides digital marketing for independent primary care practices — family medicine, internal medicine, pediatrics, geriatrics, concierge, and direct primary care. Call (561) 291-2681.",
+    "Primara provides digital marketing for independent men's health, primary care, and mental health practices — TRT clinics, urology, family medicine, geriatrics, and more. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -13,7 +13,46 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
-const specialties = [
+const mensHealthSpecialties = [
+  {
+    href: "/specialties/trt-clinics",
+    eyebrow: "Hormone Optimization",
+    title: "TRT Clinics",
+    description:
+      "Testosterone replacement therapy clinics compete against venture-funded national telehealth brands on paid search — and win on local Google Maps visibility, a channel those brands structurally can't access.",
+    stat: "Direct-pay, recurring treatment plans make TRT one of the clearest lifetime-value calculations in independent medicine.",
+    source: null,
+  },
+  {
+    href: "/specialties/mens-wellness-clinics",
+    eyebrow: "Longevity & Vitality",
+    title: "Men's Wellness Clinics",
+    description:
+      "A broad category — hormone health, weight management, vitality care — that most clinics market with one generic page instead of the dedicated service pages Google needs to rank each offering.",
+    stat: "Recurring membership and treatment-plan models reward the clinics that invest in dedicated, service-specific local SEO.",
+    source: null,
+  },
+  {
+    href: "/specialties/urology-practices",
+    eyebrow: "Men's Health Service Lines",
+    title: "Urology Practices",
+    description:
+      "Independent urology practices often bury their highest-intent men's health services — TRT, ED treatment, vasectomy — on generic pages that don't rank for the specific searches driving new patients.",
+    stat: "Patients increasingly search directly for symptom-specific care before ever asking a primary care physician for a referral.",
+    source: null,
+  },
+  {
+    href: "/specialties/ed-treatment-clinics",
+    eyebrow: "Most Privacy-Sensitive Category",
+    title: "ED Treatment Clinics",
+    description:
+      "The category where national telehealth apps have made the deepest inroads. An independent clinic wins by being the discreet, clinically credible local alternative — not an afterthought on a general services page.",
+    stat: "Trust has to be established before the first click — a website that reads like a telehealth funnel loses to the real telehealth apps.",
+    source: null,
+  },
+];
+
+const primaryCareSpecialties = [
   {
     href: "/specialties/family-medicine",
     eyebrow: "Most Common Specialty",
@@ -37,7 +76,7 @@ const specialties = [
     eyebrow: "Children & Adolescents",
     title: "Pediatrics",
     description:
-      "Parents — not patients — do the searching. Reviews from other parents drive decisions. Florida’s high in-migration rate creates a constant stream of families urgently seeking a new pediatrician.",
+      "Parents — not patients — do the searching. Reviews from other parents drive decisions. High rates of relocation nationwide create a constant stream of families urgently seeking a new pediatrician.",
     stat: "63% of health-related searches are made on smartphones — local Maps presence is critical.",
     source: "Think with Google, Health Micro-Moments Study, 2022",
   },
@@ -46,17 +85,17 @@ const specialties = [
     eyebrow: "Senior Care",
     title: "Geriatric Medicine",
     description:
-      "Adult children search on behalf of their parents. Florida has the highest percentage of residents over 65 of any large state — and a severe geriatrician shortage that means minimal online competition.",
-    stat: "Over 20% of Florida’s population is 65+. The geriatrician-to-patient ratio is among the worst in the US.",
-    source: "U.S. Census Bureau, 2022 American Community Survey",
+      "Adult children search on behalf of their parents. Many regions face a severe geriatrician shortage relative to their senior population — meaning minimal online competition for practices that show up.",
+    stat: "The geriatrician-to-patient ratio is among the worst of any medical specialty in the US.",
+    source: null,
   },
   {
     href: "/specialties/concierge-medicine",
     eyebrow: "Membership-Based Care",
     title: "Concierge Medicine",
     description:
-      "Premium positioning, smaller patient panels, and affluent audiences in high-income Florida markets. The marketing challenge is standing out from national concierge chains like MDVIP and One Medical.",
-    stat: "Concierge medicine grew ~80% nationally from 2018–2023. Florida is a top-3 state by practice count.",
+      "Premium positioning, smaller patient panels, and affluent audiences in high-income markets nationwide. The marketing challenge is standing out from national concierge chains like MDVIP and One Medical.",
+    stat: "Concierge medicine grew approximately 80% nationally from 2018–2023.",
     source: "American Academy of Private Physicians (AAPP), Annual Membership Survey, 2023",
   },
   {
@@ -64,11 +103,130 @@ const specialties = [
     eyebrow: "Subscription Model",
     title: "Direct Primary Care",
     description:
-      "DPC practices must rank for both model-education searches and traditional care searches. Florida’s large self-employed and uninsured population is a natural audience for the flat-fee model.",
-    stat: "Over 2,700 DPC practices nationwide. Florida ranks top 4 by DPC practice count.",
+      "DPC practices must rank for both model-education searches and traditional care searches. A large, growing self-employed and uninsured population nationwide is a natural audience for the flat-fee model.",
+    stat: "Over 2,700 DPC practices operate nationwide, and the model continues to grow.",
     source: "DPC Frontier, National DPC Practice Directory, 2024",
   },
 ];
+
+interface SpecialtyCard {
+  href: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  stat: string;
+  source: string | null;
+}
+
+function SpecialtyGrid({ items }: { items: SpecialtyCard[] }) {
+  return (
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+        gap: "1px",
+        background: "var(--wire)",
+        border: "1px solid var(--wire)",
+      }}
+    >
+      {items.map((s) => (
+        <Link
+          key={s.href}
+          href={s.href}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "16px",
+            padding: "clamp(28px, 4vw, 40px)",
+            background: "var(--surface)",
+            textDecoration: "none",
+            transition: "background 0.2s ease",
+          }}
+          className="specialty-card"
+        >
+          <span
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "9px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--ember)",
+            }}
+          >
+            {s.eyebrow}
+          </span>
+          <h2
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontStyle: "italic",
+              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: 0,
+              lineHeight: 1.1,
+            }}
+          >
+            {s.title}
+          </h2>
+          <p
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "0.9rem",
+              color: "var(--ash)",
+              lineHeight: 1.7,
+              margin: 0,
+              flexGrow: 1,
+            }}
+          >
+            {s.description}
+          </p>
+          <div>
+            <p
+              style={{
+                fontFamily: "var(--font-mono), monospace",
+                fontSize: "0.78rem",
+                color: "var(--smoke)",
+                lineHeight: 1.5,
+                margin: "0 0 6px",
+                borderLeft: "2px solid var(--gold)",
+                paddingLeft: "10px",
+              }}
+            >
+              {s.stat}
+            </p>
+            {s.source && (
+              <p
+                style={{
+                  fontFamily: "var(--font-mono), monospace",
+                  fontSize: "0.68rem",
+                  color: "var(--smoke)",
+                  opacity: 0.6,
+                  lineHeight: 1.4,
+                  margin: 0,
+                  paddingLeft: "12px",
+                  letterSpacing: "0.03em",
+                }}
+              >
+                — {s.source}
+              </p>
+            )}
+          </div>
+          <span
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "11px",
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+              color: "var(--gold)",
+            }}
+          >
+            See how we help →
+          </span>
+        </Link>
+      ))}
+    </div>
+  );
+}
 
 export default function SpecialtiesPage() {
   return (
@@ -99,7 +257,7 @@ export default function SpecialtiesPage() {
           }}
         >
           <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
-          Primary Care Marketing · Florida
+          Marketing by Specialty · Nationwide
         </div>
 
         <h1
@@ -115,7 +273,7 @@ export default function SpecialtiesPage() {
             maxWidth: "800px",
           }}
         >
-          Digital Marketing for Independent Primary Care Practices
+          Digital Marketing for Independent Men&rsquo;s Health &amp; Primary Care Practices
         </h1>
 
         <p
@@ -128,9 +286,10 @@ export default function SpecialtiesPage() {
             marginBottom: "32px",
           }}
         >
-          Primara works exclusively with independent primary care practices — not hospital systems,
-          not urgent care chains. Every service we offer is built around the specific digital
-          challenges your specialty faces. Choose your practice type below to see what that looks like.
+          Primara works exclusively with independent practices — not hospital systems, not national
+          telehealth franchises, not urgent care chains. Every service we offer is built around the
+          specific digital challenges your specialty faces. Choose your practice type below to see
+          what that looks like.
         </p>
 
         <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
@@ -177,120 +336,50 @@ export default function SpecialtiesPage() {
         </div>
       </section>
 
-      {/* Specialty cards */}
+      {/* Men's Health specialty cards */}
       <section
-        aria-label="Primary care specialties"
+        aria-labelledby="mens-health-specialties-heading"
         style={{ borderTop: "1px solid var(--wire)" }}
       >
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-              gap: "1px",
-              background: "var(--wire)",
-              border: "1px solid var(--wire)",
-            }}
-          >
-            {specialties.map((s) => (
-              <Link
-                key={s.href}
-                href={s.href}
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "16px",
-                  padding: "clamp(28px, 4vw, 40px)",
-                  background: "var(--surface)",
-                  textDecoration: "none",
-                  transition: "background 0.2s ease",
-                }}
-                className="specialty-card"
-              >
-                <span
-                  style={{
-                    fontFamily: "system-ui, sans-serif",
-                    fontSize: "9px",
-                    letterSpacing: "0.2em",
-                    textTransform: "uppercase",
-                    color: "var(--ember)",
-                  }}
-                >
-                  {s.eyebrow}
-                </span>
-                <h2
-                  style={{
-                    fontFamily: "var(--font-display), Georgia, serif",
-                    fontStyle: "italic",
-                    fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-                    color: "var(--chalk)",
-                    fontWeight: 400,
-                    margin: 0,
-                    lineHeight: 1.1,
-                  }}
-                >
-                  {s.title}
-                </h2>
-                <p
-                  style={{
-                    fontFamily: "system-ui, sans-serif",
-                    fontSize: "0.9rem",
-                    color: "var(--ash)",
-                    lineHeight: 1.7,
-                    margin: 0,
-                    flexGrow: 1,
-                  }}
-                >
-                  {s.description}
-                </p>
-                <div>
-                  <p
-                    style={{
-                      fontFamily: "var(--font-mono), monospace",
-                      fontSize: "0.78rem",
-                      color: "var(--smoke)",
-                      lineHeight: 1.5,
-                      margin: "0 0 6px",
-                      borderLeft: "2px solid var(--gold)",
-                      paddingLeft: "10px",
-                    }}
-                  >
-                    {s.stat}
-                  </p>
-                  <p
-                    style={{
-                      fontFamily: "var(--font-mono), monospace",
-                      fontSize: "0.68rem",
-                      color: "var(--smoke)",
-                      opacity: 0.6,
-                      lineHeight: 1.4,
-                      margin: 0,
-                      paddingLeft: "12px",
-                      letterSpacing: "0.03em",
-                    }}
-                  >
-                    — {s.source}
-                  </p>
-                </div>
-                <span
-                  style={{
-                    fontFamily: "system-ui, sans-serif",
-                    fontSize: "11px",
-                    letterSpacing: "0.1em",
-                    textTransform: "uppercase",
-                    color: "var(--gold)",
-                  }}
-                >
-                  See how we help →
-                </span>
-              </Link>
-            ))}
+          <div style={{ marginBottom: "32px" }}>
+            <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--gold)", marginBottom: "12px" }}>
+              Men&rsquo;s Health
+            </p>
+            <h2
+              id="mens-health-specialties-heading"
+              style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 400 }}
+            >
+              Men&rsquo;s Health Specialties
+            </h2>
           </div>
+          <SpecialtyGrid items={mensHealthSpecialties} />
+        </div>
+      </section>
+
+      {/* Primary Care specialty cards */}
+      <section
+        aria-labelledby="primary-care-specialties-heading"
+        style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}
+      >
+        <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
+          <div style={{ marginBottom: "32px" }}>
+            <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--ember)", marginBottom: "12px" }}>
+              Primary Care
+            </p>
+            <h2
+              id="primary-care-specialties-heading"
+              style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 400 }}
+            >
+              Primary Care Specialties
+            </h2>
+          </div>
+          <SpecialtyGrid items={primaryCareSpecialties} />
         </div>
       </section>
 
       {/* Why specialization matters */}
-      <section style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
+      <section style={{ borderTop: "1px solid var(--wire)", background: "var(--void)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
           <div style={{ maxWidth: "680px" }}>
             <h2
@@ -309,7 +398,7 @@ export default function SpecialtiesPage() {
               {[
                 "A family medicine practice and a geriatric practice have different patients, different search terms, and different trust signals. Generic medical marketing treats them the same — and gets generic results.",
                 "Primara builds every strategy around your specific specialty. The keywords we target, the way we position your GBP, the review strategy we implement — all of it is tuned to how your patients actually search for care.",
-                "We work exclusively with independent primary care. That means we understand the difference between how a DPC patient searches versus how a Medicare patient finds a geriatrician. That specificity is the advantage.",
+                "We work exclusively with independent practices. That means we understand the difference between how a DPC patient searches, how a Medicare patient finds a geriatrician, and how a man researches TRT privately at midnight. That specificity is the advantage.",
               ].map((text, i) => (
                 <p
                   key={i}

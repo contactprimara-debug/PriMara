@@ -5,13 +5,13 @@ import { toJsonLd, liamSchema, gioSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "About Primara — Healthcare Marketing Agency for Independent Practices | Primara",
   description:
-    "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices. Call (561) 291-2681.",
+    "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent men's health, primary care, and mental health practices. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/about" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "About Primara — Healthcare Marketing Agency for Independent Practices | Primara",
     description:
-      "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices. Call (561) 291-2681.",
+      "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent men's health, primary care, and mental health practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/about",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -44,10 +44,10 @@ export default function AboutPage() {
           Meet Liam Costello &amp; Gio LaRoche — Primara
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Digital marketing for independent primary care and mental health practices.
+          Digital marketing for independent men’s health, primary care, and mental health practices.
         </p>
         <p className="mt-2 text-base max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Primary care physicians and mental health practices &mdash; founder-led, Florida-based.
+          Men’s health, primary care, and mental health practices &mdash; founder-led, nationwide.
         </p>
 
         <div className="mt-12 max-w-2xl">

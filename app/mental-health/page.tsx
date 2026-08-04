@@ -85,7 +85,6 @@ const fits = [
 const doesNotFit = [
   "Platform-employed therapists (BetterHelp, Talkspace, etc.)",
   "Hospital or health system behavioral health departments",
-  "Practices outside Florida",
   "Purely telehealth with no physical location",
 ];
 
@@ -116,7 +115,7 @@ const stats = [
   },
   {
     value: "1 in 5",
-    label: "Florida adults experiencing a mental health condition annually — the majority who seek care start their search online",
+    label: "US adults experiencing a mental health condition annually — the majority who seek care start their search online",
     source: "SAMHSA, 2023",
   },
   {
@@ -201,7 +200,7 @@ export default function MentalHealthPage() {
               marginBottom: "clamp(28px, 4vw, 48px)",
             }}
           >
-            Mental Health Practices · Florida · Independent Practices Only
+            Mental Health Practices · Nationwide · Independent Practices Only
           </div>
 
           {/* H1 */}

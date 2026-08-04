@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { toJsonLd, primaryCareSchema } from "@/lib/schema";
+import { toJsonLd, mensHealthSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing for Primary Care Practices | Primara",
+  title: "Digital Marketing for Men's Health Practices | Primara",
   description:
-    "Primara helps independent primary care physicians rank higher on Google Maps, fill their schedule, and outrank hospital systems — without a marketing department. GBP, local SEO, website. Call (561) 291-2681.",
-  alternates: { canonical: "https://primara365.com/primary-care" },
+    "Primara helps independent men's health practices — TRT clinics, men's wellness centers, and urology practices — rank higher on Google, build patient trust, and grow without relying on national telehealth franchises. Call (561) 291-2681.",
+  alternates: { canonical: "https://primara365.com/mens-health" },
   robots: {
     index: true,
     follow: true,
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Digital Marketing for Primary Care Practices | Primara",
+    title: "Digital Marketing for Men's Health Practices | Primara",
     description:
-      "Primara helps independent primary care physicians rank higher on Google Maps, fill their schedule, and outrank hospital systems. Call (561) 291-2681.",
+      "Primara helps independent men's health practices rank higher on Google and grow without relying on national telehealth franchises. Call (561) 291-2681.",
     type: "website",
-    url: "https://primara365.com/primary-care",
+    url: "https://primara365.com/mens-health",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
@@ -30,86 +30,111 @@ export const metadata: Metadata = {
 
 const problemBlocks = [
   {
-    heading: "Hospital SEO budgets are not a fair fight",
-    body: "AdventHealth, Baptist Health, and HCA have dedicated digital marketing teams optimizing their Google Business Profiles every week. They're adding photos, posting updates, collecting hundreds of reviews, and running Local Service Ads. Your GBP hasn't been touched since the day it was claimed. That gap is why patients drive past your practice to see a hospital-employed physician they've never met.",
+    heading: "National TRT telehealth franchises own the paid ads and the directories",
+    body: "Search \"testosterone therapy near me\" in most cities and the first page is dominated by national telehealth brands with venture funding behind their ad spend. That doesn't mean the local clinic loses — it means the local clinic has to win a different way: organic Google Maps visibility, where a national telehealth-only brand often can't compete because it has no physical address to rank.",
   },
   {
-    heading: "Your GBP is probably configured wrong",
-    body: "The average independent primary care practice has 1–2 GBP categories selected and fewer than 15 services listed. A fully optimized profile has 8–10 categories and 30+ services written in exact patient-search language — \"accepting new patients,\" \"same-day sick visits,\" \"Medicare primary care\" — the phrases people type at 9pm when they're deciding who to call in the morning.",
+    heading: "Stigma is declining. Search behavior is changing.",
+    body: "Men researching testosterone therapy, ED treatment, or general men's wellness increasingly start that research privately, on Google, before ever calling a clinic. A practice that isn't visible at that research stage — GBP incomplete, no service-specific website pages, no reviews — simply isn't part of the decision by the time a man is ready to book.",
   },
   {
-    heading: "Your website is not built for local search",
-    body: "Most practice websites are built for branding, not ranking. They have a homepage, an about page, and a contact form. Google's local algorithm rewards depth — specific pages for specific searches. \"Family doctor Boca Raton.\" \"Internal medicine Palm Beach Gardens accepting new patients.\" \"Geriatric care specialist Lake Worth.\" One generic page can't rank for all of them.",
+    heading: "Men's health GBP optimization is almost never done correctly",
+    body: "Most independent men's health clinics have a GBP with one category — \"Medical Clinic\" or \"Urologist\" — and a handful of generic photos. A fully optimized profile carries multiple relevant categories (\"Men's Health Physician,\" \"Weight Loss Service,\" \"Urologist,\" \"Medical Clinic\" where applicable) and a service list written in the exact language patients search: \"TRT clinic near me,\" \"low testosterone doctor,\" \"ED treatment near me.\"",
   },
   {
-    heading: "Reviews are a ranking signal, not just social proof",
-    body: "Google's local algorithm weights review velocity — how consistently new reviews arrive — not just the total count. A practice that gets 3 reviews per month indefinitely outranks a practice that got 80 reviews two years ago and stopped. Most primary care physicians have no active system for generating reviews. Their competitors do.",
+    heading: "Referral-based growth doesn't scale in this category",
+    body: "Word-of-mouth drives new patients in most medical specialties. It's a weaker channel here — men are simply less likely to bring up a TRT or ED clinic in casual conversation, even with friends. That makes a strong digital presence disproportionately important: for a lot of men, Google is the only place this research happens at all.",
+  },
+  {
+    heading: "Direct-pay makes the marketing math favorable",
+    body: "TRT, hormone optimization, and many men's wellness services are frequently cash-pay or self-pay, without the reimbursement lag of insurance billing. That changes the economics of patient acquisition: a single new patient on an ongoing treatment plan can be worth pursuing aggressively, because the lifetime value is clear and collected directly.",
   },
 ];
 
 const services = [
   {
     num: "01",
-    title: "GBP Optimization",
-    body: "We claim or recover your profile, configure 8–10 categories, write 30+ services in exact patient-search language, fill every attribute Google surfaces, load a year of posts at onboarding via BrightLocal, and install a review generation system using NFC tap cards and QR codes at checkout, waiting room, and exam rooms. Week one deliverable.",
+    title: "GBP Optimization for Men's Health Practices",
+    body: "We configure every relevant category for your practice model — Men's Health Physician, Urologist, Weight Loss Service, Medical Clinic — write a full service list in patient-search language (\"testosterone replacement therapy,\" \"low T treatment,\" \"ED treatment near me,\" \"men's hormone clinic\"), fill every attribute, load a full year of posts at onboarding, and install a review generation system. Review responses are professional and discreet by default — never confirming or referencing the nature of any patient's visit.",
   },
   {
     num: "02",
-    title: "Website Rebuild",
-    body: "30 pages at launch. Every page targets a specific local search term — condition, service line, or city. Built in Next.js, deployed on Vercel, with MedicalOrganization JSON-LD schema and all 7 GBP consistency signals verified before go-live. Mobile-first. Core Web Vitals green. Not a template — a local search instrument.",
+    title: "Men's Health Practice Website Rebuild",
+    body: "A site built around the specific searches your prospective patients actually run. Service pages — \"testosterone replacement therapy [city],\" \"ED treatment [city],\" \"men's wellness clinic [city].\" Condition pages addressing the questions men research before calling: what low testosterone looks like, what a first visit involves, what's covered by cash-pay pricing. Built in Next.js, deployed on Vercel, with MedicalClinic JSON-LD schema and all core GBP consistency signals verified — designed to read as clinical and credible, not like a supplement ad.",
   },
   {
     num: "03",
     title: "Review Generation",
-    body: "10 NFC tap cards programmed and shipped. QR review signs installed. Google, Healthgrades, and Zocdoc rotation managed monthly. Every review response published within 48 hours — HIPAA-compliant, never confirming a patient relationship, always inviting offline resolution.",
+    body: "Men's health reviews carry the same privacy sensitivity as mental health reviews — a satisfied patient is often reluctant to leave a public review naming the service they received. Our NFC tap card and QR system prompts reviews at the right moment with language that doesn't require a patient to specify why they visited. Every response we write is professional and discreet, protecting patient privacy by default.",
   },
   {
     num: "04",
     title: "Local SEO Content",
-    body: "Two new pages per month, every month, driven by your Local Falcon rank map. When your Top 3% score lags a competitor, we publish a topical page. When it doesn't, we go geographic — extending your footprint into the next ZIP code. Two pages per month compounds. By month 12, you have a 54-page website that ranks for searches your competitors can't touch.",
+    body: "New pages added on an ongoing schedule: one service page for every treatment you offer, one geographic page for every city or neighborhood in your service area. Men's health SEO content compounds quickly in most markets because independent competitors rarely go past a homepage and a contact form — while national telehealth brands have no local page to compete with at all.",
   },
 ];
 
 const fits = [
-  "Independent family medicine or internal medicine practice",
-  "1–5 physicians",
-  "Insurance-based or hybrid (not DPC-only)",
-  "Physician-owned, not hospital-employed",
-  "Schedule not full — or growing to a second location",
+  "Independent TRT, hormone optimization, or men's wellness clinic",
+  "Urology practice with a men's health or low-T service line",
+  "ED treatment or men's sexual health clinic",
+  "Physician-owned, not a national telehealth franchise",
+  "Cash-pay, insurance-based, or hybrid model",
 ];
 
 const doesNotFit = [
-  "Hospital-affiliated or employed physicians",
-  "Urgent care chains or franchise models",
-  "Dental, dermatology, or other specialty groups",
+  "National telehealth-only brands with no physical location",
+  "Hospital-employed or health-system-owned practices",
+  "Practices outside the United States",
+  "Supplement or wellness retailers without a licensed clinical practice",
 ];
 
-const stats = [
+const sensitivityPrinciples = [
   {
-    value: "77%",
-    label: "Of patients search online before choosing a primary care physician",
-    source: "PatientPop, Patient Perspectives Survey",
+    title: "No outcome language. No exaggerated claims.",
+    body: "We never write copy that promises specific results — testosterone levels, physical changes, or performance outcomes. Men's health marketing is an area regulators and platforms scrutinize closely, and for good reason: overpromising results erodes exactly the trust a new patient needs to feel before booking. Every page we build is honest about what treatment offers — a clinical evaluation and an evidence-based plan, not a guaranteed transformation.",
   },
   {
-    value: "8–10",
-    label: "GBP categories a fully optimized primary care profile carries. Most practices have 1–2.",
-    source: null,
+    title: "Review responses that protect patient privacy by default",
+    body: "Every review response we write assumes the reviewer may not want their specific treatment named publicly. We keep responses warm and professional without confirming, denying, or describing any clinical relationship — the same discretion we'd apply to any sensitive specialty.",
   },
   {
-    value: "30",
-    label: "Pages at launch. Every one targets a specific search term your competitors aren't ranking for.",
-    source: null,
+    title: "Website copy that's clinical, not like a supplement ad",
+    body: "Men's health marketing has a stigma problem: a lot of it looks and reads like a subscription supplement funnel. We write the opposite — direct, credible, physician-led language that a skeptical, research-oriented patient trusts on sight. The goal is a website that could sit next to a cardiology practice's site without looking out of place.",
+  },
+  {
+    title: "Ad and platform compliance handled correctly the first time",
+    body: "Google and Meta apply specific, strict policies to men's health, hormone therapy, and sexual health advertising. We build campaigns and page content that comply from the start — avoiding the disapprovals and account flags that come from treating this like a normal healthcare vertical.",
+  },
+];
+
+const positioning = [
+  {
+    value: "Direct-Pay",
+    label: "The dominant payment model for TRT and men's wellness — clear, collectible lifetime value per patient.",
+  },
+  {
+    value: "Local vs. National",
+    label: "Independent clinics compete against telehealth-only brands with no physical GBP listing to rank against you.",
+  },
+  {
+    value: "Low Competition",
+    label: "Most local competitors stop at a homepage and a contact form — service and city pages compound fast here.",
+  },
+  {
+    value: "High Intent",
+    label: "A man searching \"TRT clinic near me\" or \"ED treatment near me\" has already decided to seek treatment — he's choosing a provider, not shopping for whether to start.",
   },
 ];
 
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
 
-export default function PrimaryCarePage() {
+export default function MensHealthPage() {
   return (
     <main style={{ backgroundColor: "var(--void)" }}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: toJsonLd(primaryCareSchema as Record<string, unknown>) }}
+        dangerouslySetInnerHTML={{ __html: toJsonLd(mensHealthSchema as Record<string, unknown>) }}
       />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
@@ -131,13 +156,13 @@ export default function PrimaryCarePage() {
         >
           <li><Link href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>›</li>
-          <li aria-current="page" style={{ color: "var(--ash)" }}>Primary Care</li>
+          <li aria-current="page" style={{ color: "var(--ash)" }}>Men&rsquo;s Health</li>
         </ol>
       </nav>
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section
-        aria-labelledby="pc-h1"
+        aria-labelledby="mh2-h1"
         style={{
           position: "relative",
           overflow: "hidden",
@@ -151,8 +176,8 @@ export default function PrimaryCarePage() {
             inset: 0,
             pointerEvents: "none",
             background: [
-              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(27,110,110,0.14) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50vw 40vh at 85% 75%, rgba(201,168,76,0.07) 0%, transparent 60%)",
+              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(201,168,76,0.14) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50vw 40vh at 85% 75%, rgba(27,110,110,0.07) 0%, transparent 60%)",
             ].join(", "),
           }}
         />
@@ -172,12 +197,12 @@ export default function PrimaryCarePage() {
               marginBottom: "clamp(28px, 4vw, 48px)",
             }}
           >
-            Primary Care · Nationwide · Independent Practices Only
+            Men&rsquo;s Health Practices · Independent Practices Only · Nationwide
           </div>
 
           {/* H1 */}
           <h1
-            id="pc-h1"
+            id="mh2-h1"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(52px, 8vw, 104px)",
@@ -189,12 +214,12 @@ export default function PrimaryCarePage() {
               maxWidth: "18ch",
             }}
           >
-            Your patients are searching.
+            Men are searching for testosterone therapy right now.
             <br />
-            The hospital system down the street is showing up.
+            A telehealth franchise is showing up.
             <br />
             <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
-              You&rsquo;re not.
+              Your clinic isn&rsquo;t.
             </em>
           </h1>
 
@@ -209,9 +234,7 @@ export default function PrimaryCarePage() {
               margin: "0 0 clamp(36px, 5vw, 52px)",
             }}
           >
-            Primara builds the digital presence independent primary care physicians
-            should have had from day one — Google Business Profile, local SEO, website, and
-            review systems built around how patients actually search for a doctor.
+            Primara builds the digital presence independent men&rsquo;s health practices need — Google Business Profile, local SEO, website, and review systems built around how men actually search for TRT, hormone therapy, and men&rsquo;s wellness care.
           </p>
 
           {/* CTAs */}
@@ -264,7 +287,7 @@ export default function PrimaryCarePage() {
 
       {/* ── Section 01 — The Problem ─────────────────────────────────────── */}
       <section
-        aria-labelledby="pc-problem"
+        aria-labelledby="mh2-problem"
         style={{ padding: sectionPad, borderTop: "1px solid var(--wire)", backgroundColor: "var(--surface)" }}
       >
         <div style={{ maxWidth: "880px" }}>
@@ -285,7 +308,7 @@ export default function PrimaryCarePage() {
             The Problem
           </div>
           <h2
-            id="pc-problem"
+            id="mh2-problem"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(28px, 4vw, 48px)",
@@ -296,7 +319,7 @@ export default function PrimaryCarePage() {
               margin: "0 0 clamp(48px, 6vw, 72px)",
             }}
           >
-            Independent primary care is losing the local search war. Here&rsquo;s why.
+            Independent men&rsquo;s health practices compete against national telehealth ad budgets — and win on local trust.
           </h2>
           <div
             style={{
@@ -338,7 +361,7 @@ export default function PrimaryCarePage() {
 
       {/* ── Section 02 — Services ────────────────────────────────────────── */}
       <section
-        aria-labelledby="pc-services"
+        aria-labelledby="mh2-services"
         style={{ padding: sectionPad, borderTop: "1px solid var(--wire)" }}
       >
         <div style={{ maxWidth: "880px" }}>
@@ -359,7 +382,7 @@ export default function PrimaryCarePage() {
             What We Build
           </div>
           <h2
-            id="pc-services"
+            id="mh2-services"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(28px, 4vw, 48px)",
@@ -370,7 +393,7 @@ export default function PrimaryCarePage() {
               margin: "0 0 12px",
             }}
           >
-            Four systems. One integrated strategy.
+            Built around how men actually search for this care — clinical, direct, and credible.
           </h2>
           <p
             style={{
@@ -382,12 +405,11 @@ export default function PrimaryCarePage() {
               margin: "0 0 clamp(48px, 6vw, 64px)",
             }}
           >
-            Every Primara engagement includes all four. They work together — GBP feeds the website, reviews feed the GBP, content feeds both. Buying one without the others is like running one cylinder.
+            Men&rsquo;s health search intent is specific and high-commitment. People search by treatment (&ldquo;TRT clinic near me&rdquo;), condition (&ldquo;low testosterone doctor&rdquo;), and urgency (&ldquo;same week appointment men&rsquo;s health&rdquo;). We build your local presence around all of it.
           </p>
           <ol
             style={{
               listStyle: "none",
-              counterReset: "svc-counter",
               margin: 0,
               padding: 0,
               display: "flex",
@@ -453,7 +475,7 @@ export default function PrimaryCarePage() {
 
       {/* ── Section 03 — Who This Is For ─────────────────────────────────── */}
       <section
-        aria-labelledby="pc-who"
+        aria-labelledby="mh2-who"
         style={{
           padding: sectionPad,
           borderTop: "1px solid var(--wire)",
@@ -478,7 +500,7 @@ export default function PrimaryCarePage() {
             Who We Work With
           </div>
           <h2
-            id="pc-who"
+            id="mh2-who"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(28px, 4vw, 48px)",
@@ -489,7 +511,7 @@ export default function PrimaryCarePage() {
               margin: "0 0 clamp(28px, 4vw, 40px)",
             }}
           >
-            We work with one type of practice. We know it deeply.
+            Independent men&rsquo;s health practices. Not the franchises competing with you.
           </h2>
           <p
             style={{
@@ -500,7 +522,7 @@ export default function PrimaryCarePage() {
               marginBottom: "20px",
             }}
           >
-            Primara works exclusively with independent, physician-owned primary care practices — family medicine, internal medicine, geriatrics, pediatrics, concierge medicine, and direct primary care. Insurance-based, 1–5 physicians, not hospital-affiliated.
+            Primara works with independent TRT clinics, men&rsquo;s wellness centers, and urology practices with a men&rsquo;s health service line. Cash-pay, insurance-based, and hybrid models. We do not work with national telehealth-only franchises or hospital-employed practices.
           </p>
           <p
             style={{
@@ -511,7 +533,7 @@ export default function PrimaryCarePage() {
               marginBottom: "clamp(36px, 5vw, 52px)",
             }}
           >
-            We do not work with dental chains, urgent care franchises, hospital systems, or multi-specialty groups. That specificity is the product. We know the exact GBP categories that move primary care rankings. We know the review response rules that protect you from HIPAA exposure. We know which local keywords drive new patient calls versus tire-kickers. A generalist agency doesn&rsquo;t — and you pay for that gap every month.
+            The men&rsquo;s health practices we work with have one thing in common: a physician who wants to build a real, local, physician-led practice — not compete purely on national ad spend against a subscription telehealth brand. That&rsquo;s what strong local SEO makes possible.
           </p>
 
           <div
@@ -521,7 +543,6 @@ export default function PrimaryCarePage() {
               gap: "clamp(24px, 4vw, 40px)",
             }}
           >
-            {/* Fits */}
             <div
               style={{
                 padding: "28px 32px",
@@ -530,32 +551,12 @@ export default function PrimaryCarePage() {
                 backgroundColor: "var(--surface-2)",
               }}
             >
-              <p
-                style={{
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "10px",
-                  letterSpacing: "0.16em",
-                  textTransform: "uppercase",
-                  color: "var(--gold)",
-                  marginBottom: "20px",
-                }}
-              >
+              <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--gold)", marginBottom: "20px" }}>
                 Fits
               </p>
               <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
                 {fits.map((item) => (
-                  <li
-                    key={item}
-                    style={{
-                      display: "flex",
-                      alignItems: "flex-start",
-                      gap: "10px",
-                      fontFamily: "system-ui, sans-serif",
-                      fontSize: "14px",
-                      lineHeight: 1.55,
-                      color: "var(--ash)",
-                    }}
-                  >
+                  <li key={item} style={{ display: "flex", alignItems: "flex-start", gap: "10px", fontFamily: "system-ui, sans-serif", fontSize: "14px", lineHeight: 1.55, color: "var(--ash)" }}>
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true" style={{ flexShrink: 0, marginTop: "2px" }}>
                       <path d="M2.5 7l3 3 6-6" stroke="var(--gold)" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
@@ -564,8 +565,6 @@ export default function PrimaryCarePage() {
                 ))}
               </ul>
             </div>
-
-            {/* Does Not Fit */}
             <div
               style={{
                 padding: "28px 32px",
@@ -574,32 +573,12 @@ export default function PrimaryCarePage() {
                 backgroundColor: "var(--surface-2)",
               }}
             >
-              <p
-                style={{
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "10px",
-                  letterSpacing: "0.16em",
-                  textTransform: "uppercase",
-                  color: "var(--smoke)",
-                  marginBottom: "20px",
-                }}
-              >
+              <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "20px" }}>
                 Does Not Fit
               </p>
               <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
                 {doesNotFit.map((item) => (
-                  <li
-                    key={item}
-                    style={{
-                      display: "flex",
-                      alignItems: "flex-start",
-                      gap: "10px",
-                      fontFamily: "system-ui, sans-serif",
-                      fontSize: "14px",
-                      lineHeight: 1.55,
-                      color: "var(--smoke)",
-                    }}
-                  >
+                  <li key={item} style={{ display: "flex", alignItems: "flex-start", gap: "10px", fontFamily: "system-ui, sans-serif", fontSize: "14px", lineHeight: 1.55, color: "var(--smoke)" }}>
                     <span style={{ flexShrink: 0, marginTop: "1px", color: "var(--wire)" }}>—</span>
                     {item}
                   </li>
@@ -610,10 +589,94 @@ export default function PrimaryCarePage() {
         </div>
       </section>
 
-      {/* ── Section 04 — By the Numbers ──────────────────────────────────── */}
+      {/* ── Section 04 — Discretion-First Approach ──────────────────────── */}
       <section
-        aria-labelledby="pc-numbers"
+        aria-labelledby="mh2-sensitivity"
         style={{ padding: sectionPad, borderTop: "1px solid var(--wire)" }}
+      >
+        <div style={{ maxWidth: "880px" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+              marginBottom: "16px",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+            }}
+          >
+            <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+            Our Approach
+          </div>
+          <h2
+            id="mh2-sensitivity"
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(28px, 4vw, 48px)",
+              lineHeight: 1.05,
+              letterSpacing: "-0.02em",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: "0 0 clamp(48px, 6vw, 64px)",
+            }}
+          >
+            This category has a credibility problem. Everything we build fixes that, not adds to it.
+          </h2>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "0",
+            }}
+          >
+            {sensitivityPrinciples.map((principle, i, arr) => (
+              <div
+                key={principle.title}
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "1fr 1.4fr",
+                  gap: "clamp(24px, 4vw, 48px)",
+                  padding: "clamp(28px, 4vw, 40px) 0",
+                  borderBottom: i < arr.length - 1 ? "1px solid var(--wire)" : "none",
+                  alignItems: "start",
+                }}
+              >
+                <h3
+                  style={{
+                    fontFamily: "var(--font-display), Georgia, serif",
+                    fontSize: "clamp(17px, 1.8vw, 20px)",
+                    color: "var(--chalk)",
+                    fontWeight: 400,
+                    margin: 0,
+                    lineHeight: 1.3,
+                  }}
+                >
+                  {principle.title}
+                </h3>
+                <p
+                  style={{
+                    fontFamily: "system-ui, sans-serif",
+                    fontSize: "15px",
+                    lineHeight: 1.8,
+                    color: "var(--ash)",
+                    margin: 0,
+                  }}
+                >
+                  {principle.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Section 05 — The Case ────────────────────────────────────────── */}
+      <section
+        aria-labelledby="mh2-numbers"
+        style={{ padding: sectionPad, borderTop: "1px solid var(--wire)", backgroundColor: "var(--surface)" }}
       >
         <div style={{ maxWidth: "880px" }}>
           <div
@@ -633,7 +696,7 @@ export default function PrimaryCarePage() {
             The Case
           </div>
           <h2
-            id="pc-numbers"
+            id="mh2-numbers"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(28px, 4vw, 48px)",
@@ -644,9 +707,8 @@ export default function PrimaryCarePage() {
               margin: "0 0 clamp(40px, 5vw, 60px)",
             }}
           >
-            Why this matters financially.
+            The demand is direct-pay and high-intent. The local visibility is wide open.
           </h2>
-
           <div
             style={{
               display: "grid",
@@ -655,56 +717,28 @@ export default function PrimaryCarePage() {
               marginBottom: "clamp(48px, 6vw, 72px)",
             }}
           >
-            {stats.map((stat) => (
-              <div key={stat.value} style={{ borderTop: "1px solid var(--wire)", paddingTop: "24px" }}>
+            {positioning.map((item) => (
+              <div key={item.value} style={{ borderTop: "1px solid var(--wire)", paddingTop: "24px" }}>
                 <div
                   style={{
                     fontFamily: "var(--font-display), Georgia, serif",
                     fontStyle: "italic",
-                    fontSize: "clamp(36px, 5vw, 56px)",
+                    fontSize: "clamp(24px, 3vw, 32px)",
                     color: "var(--gold)",
-                    lineHeight: 1,
-                    letterSpacing: "-0.02em",
+                    lineHeight: 1.1,
+                    letterSpacing: "-0.01em",
                     marginBottom: "12px",
                   }}
                 >
-                  {stat.value}
+                  {item.value}
                 </div>
-                <p
-                  style={{
-                    fontFamily: "system-ui, sans-serif",
-                    fontSize: "13px",
-                    lineHeight: 1.65,
-                    color: "var(--ash)",
-                    margin: 0,
-                  }}
-                >
-                  {stat.label}
+                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", lineHeight: 1.65, color: "var(--ash)", margin: 0 }}>
+                  {item.label}
                 </p>
-                {stat.source && (
-                  <p
-                    style={{
-                      fontFamily: "system-ui, sans-serif",
-                      fontSize: "11px",
-                      color: "var(--smoke)",
-                      margin: "6px 0 0",
-                      fontStyle: "italic",
-                    }}
-                  >
-                    — {stat.source}
-                  </p>
-                )}
               </div>
             ))}
           </div>
-
-          <blockquote
-            style={{
-              borderLeft: "3px solid var(--gold)",
-              paddingLeft: "24px",
-              margin: 0,
-            }}
-          >
+          <blockquote style={{ borderLeft: "3px solid var(--gold)", paddingLeft: "24px", margin: 0 }}>
             <p
               style={{
                 fontFamily: "var(--font-display), Georgia, serif",
@@ -715,20 +749,16 @@ export default function PrimaryCarePage() {
                 margin: 0,
               }}
             >
-              &ldquo;The math in primary care works differently than most industries. A new patient isn&rsquo;t a one-time transaction &mdash; it&rsquo;s annual physicals, chronic condition management, specialist referrals, and years of recurring visits. That changes how practices should think about marketing investment.&rdquo;
+              &ldquo;A cash-pay men&rsquo;s health patient on an ongoing treatment plan is one of the clearest lifetime-value calculations in independent medicine. Marketing spend recovers fast when the patient stays for months, not one visit — and most independent clinics in this category are barely visible to the men already searching for exactly what they offer.&rdquo;
             </p>
           </blockquote>
         </div>
       </section>
 
-      {/* ── Section 05 — Packages ────────────────────────────────────────── */}
+      {/* ── Section 06 — Packages ────────────────────────────────────────── */}
       <section
-        aria-labelledby="pc-packages"
-        style={{
-          padding: sectionPad,
-          borderTop: "1px solid var(--wire)",
-          backgroundColor: "var(--surface)",
-        }}
+        aria-labelledby="mh2-packages"
+        style={{ padding: sectionPad, borderTop: "1px solid var(--wire)" }}
       >
         <div style={{ maxWidth: "880px" }}>
           <div
@@ -748,7 +778,7 @@ export default function PrimaryCarePage() {
             Pricing
           </div>
           <h2
-            id="pc-packages"
+            id="mh2-packages"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(28px, 4vw, 48px)",
@@ -761,7 +791,6 @@ export default function PrimaryCarePage() {
           >
             Two packages. No surprises.
           </h2>
-
           <div
             style={{
               display: "grid",
@@ -770,158 +799,45 @@ export default function PrimaryCarePage() {
               marginBottom: "24px",
             }}
           >
-            {/* Foundation */}
-            <div
-              style={{
-                padding: "36px",
-                border: "1px solid var(--wire)",
-                borderRadius: "4px",
-                backgroundColor: "var(--surface-2)",
-                display: "flex",
-                flexDirection: "column",
-                gap: "16px",
-              }}
-            >
+            <div style={{ padding: "36px", border: "1px solid var(--wire)", borderRadius: "4px", backgroundColor: "var(--surface)", display: "flex", flexDirection: "column", gap: "16px" }}>
               <div>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "8px" }}>
-                  Package 01
-                </p>
-                <h3
-                  style={{
-                    fontFamily: "var(--font-display), Georgia, serif",
-                    fontStyle: "italic",
-                    fontSize: "clamp(28px, 4vw, 40px)",
-                    color: "var(--chalk)",
-                    fontWeight: 400,
-                    margin: "0 0 4px",
-                    lineHeight: 1.1,
-                  }}
-                >
-                  Foundation
-                </h3>
+                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "8px" }}>Package 01</p>
+                <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(28px, 4vw, 40px)", color: "var(--chalk)", fontWeight: 400, margin: "0 0 4px", lineHeight: 1.1 }}>Foundation</h3>
               </div>
-              <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>
-                GBP Optimization · Local SEO · Monthly Reporting
-              </p>
-              <Link
-                href="/packages/foundation"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "12px",
-                  letterSpacing: "0.08em",
-                  fontWeight: 600,
-                  color: "var(--chalk)",
-                  border: "1px solid var(--wire)",
-                  padding: "0 20px",
-                  height: "40px",
-                  borderRadius: "2px",
-                  textDecoration: "none",
-                  width: "fit-content",
-                  marginTop: "auto",
-                }}
-              >
+              <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>GBP Optimization · Local SEO · Monthly Reporting</p>
+              <Link href="/packages/foundation" style={{ display: "inline-flex", alignItems: "center", fontFamily: "system-ui, sans-serif", fontSize: "12px", letterSpacing: "0.08em", fontWeight: 600, color: "var(--chalk)", border: "1px solid var(--wire)", padding: "0 20px", height: "40px", borderRadius: "2px", textDecoration: "none", width: "fit-content", marginTop: "auto" }}>
                 View Package Details →
               </Link>
             </div>
-
-            {/* Visibility */}
-            <div
-              style={{
-                padding: "36px",
-                border: "1px solid var(--gold)",
-                borderRadius: "4px",
-                backgroundColor: "var(--surface-2)",
-                display: "flex",
-                flexDirection: "column",
-                gap: "16px",
-                position: "relative",
-              }}
-            >
-              <div
-                style={{
-                  position: "absolute",
-                  top: "16px",
-                  right: "16px",
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "9px",
-                  letterSpacing: "0.16em",
-                  textTransform: "uppercase",
-                  color: "var(--gold)",
-                  border: "1px solid var(--gold)",
-                  padding: "3px 8px",
-                  borderRadius: "2px",
-                }}
-              >
+            <div style={{ padding: "36px", border: "1px solid var(--gold)", borderRadius: "4px", backgroundColor: "var(--surface)", display: "flex", flexDirection: "column", gap: "16px", position: "relative" }}>
+              <div style={{ position: "absolute", top: "16px", right: "16px", fontFamily: "system-ui, sans-serif", fontSize: "9px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--gold)", border: "1px solid var(--gold)", padding: "3px 8px", borderRadius: "2px" }}>
                 Full Coverage
               </div>
               <div>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "8px" }}>
-                  Package 02
-                </p>
-                <h3
-                  style={{
-                    fontFamily: "var(--font-display), Georgia, serif",
-                    fontStyle: "italic",
-                    fontSize: "clamp(28px, 4vw, 40px)",
-                    color: "var(--chalk)",
-                    fontWeight: 400,
-                    margin: "0 0 4px",
-                    lineHeight: 1.1,
-                  }}
-                >
-                  Visibility
-                </h3>
+                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "8px" }}>Package 02</p>
+                <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(28px, 4vw, 40px)", color: "var(--chalk)", fontWeight: 400, margin: "0 0 4px", lineHeight: 1.1 }}>Visibility</h3>
               </div>
-              <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>
-                GBP + Website + Reviews + SEO Content · Full Coverage
-              </p>
-              <Link
-                href="/packages/visibility"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  fontFamily: "system-ui, sans-serif",
-                  fontSize: "12px",
-                  letterSpacing: "0.08em",
-                  fontWeight: 600,
-                  color: "var(--gold)",
-                  border: "1px solid var(--gold)",
-                  padding: "0 20px",
-                  height: "40px",
-                  borderRadius: "2px",
-                  textDecoration: "none",
-                  width: "fit-content",
-                  marginTop: "auto",
-                }}
-              >
+              <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>GBP + Website + Reviews + SEO Content · Full Coverage</p>
+              <Link href="/packages/visibility" style={{ display: "inline-flex", alignItems: "center", fontFamily: "system-ui, sans-serif", fontSize: "12px", letterSpacing: "0.08em", fontWeight: 600, color: "var(--gold)", border: "1px solid var(--gold)", padding: "0 20px", height: "40px", borderRadius: "2px", textDecoration: "none", width: "fit-content", marginTop: "auto" }}>
                 View Package Details →
               </Link>
             </div>
           </div>
-
-          <p
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "12px",
-              color: "var(--smoke)",
-              fontStyle: "italic",
-            }}
-          >
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", fontStyle: "italic" }}>
             Month-to-month. 3-month minimum recommended. Setup fee is the only negotiable line.
           </p>
         </div>
       </section>
 
-      {/* ── Section 06 — CTA ─────────────────────────────────────────────── */}
+      {/* ── Section 07 — CTA ─────────────────────────────────────────────── */}
       <section
-        aria-labelledby="pc-cta"
+        aria-labelledby="mh2-cta"
         style={{
           position: "relative",
           overflow: "hidden",
           padding: sectionPad,
           borderTop: "1px solid var(--wire)",
+          backgroundColor: "var(--surface)",
         }}
       >
         <div
@@ -930,28 +846,16 @@ export default function PrimaryCarePage() {
             position: "absolute",
             inset: 0,
             pointerEvents: "none",
-            background: "radial-gradient(ellipse 80vw 60vh at 50% 50%, rgba(27,110,110,0.14) 0%, transparent 65%)",
+            background: "radial-gradient(ellipse 80vw 60vh at 50% 50%, rgba(201,168,76,0.14) 0%, transparent 65%)",
           }}
         />
         <div style={{ position: "relative", zIndex: 1, maxWidth: "640px" }}>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "16px",
-              marginBottom: "16px",
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-            }}
-          >
+          <div style={{ display: "flex", alignItems: "center", gap: "16px", marginBottom: "16px", fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)" }}>
             <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
             Get Started
           </div>
           <h2
-            id="pc-cta"
+            id="mh2-cta"
             style={{
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(28px, 4vw, 48px)",
@@ -962,18 +866,10 @@ export default function PrimaryCarePage() {
               margin: "0 0 20px",
             }}
           >
-            Let&rsquo;s see where your practice stands.
+            See exactly where your practice stands — for free.
           </h2>
-          <p
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "16px",
-              lineHeight: 1.8,
-              color: "var(--ash)",
-              marginBottom: "clamp(32px, 4vw, 44px)",
-            }}
-          >
-            We&rsquo;ll research your GBP, your website, your reviews, and your top local competitor. We&rsquo;ll deliver a free custom audit within 3&ndash;5 business days — showing you exactly what&rsquo;s holding your ranking back and what fixing it would cost. No obligation. Liam or Gio will walk you through it directly, not a salesperson.
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "16px", lineHeight: 1.8, color: "var(--ash)", marginBottom: "clamp(32px, 4vw, 44px)" }}>
+            We&rsquo;ll audit your GBP, your website, your reviews, and your top local competitor. We&rsquo;ll show you what the top-ranked men&rsquo;s health practice in your area is doing that you&rsquo;re not — and what it would cost to close that gap. Free. No obligation. Liam or Gio will walk you through it directly.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <Link

@@ -15,6 +15,7 @@ const navLinks = [
 ];
 
 const WHO_WE_SERVE = [
+  { label: "Men's Health", href: "/mens-health" },
   { label: "Primary Care", href: "/primary-care" },
   { label: "Mental Health", href: "/mental-health" },
 ];

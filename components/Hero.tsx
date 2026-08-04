@@ -125,7 +125,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            SEO, Google Ads, Google Business Profile, and review systems — built exclusively for independent primary care and mental health practices. Founder-led, no account managers, month-to-month.
+            SEO, Google Ads, Google Business Profile, and review systems — built exclusively for independent men&rsquo;s health, primary care, and mental health practices. Founder-led, no account managers, month-to-month.
           </p>
 
           {/* CTA pair */}

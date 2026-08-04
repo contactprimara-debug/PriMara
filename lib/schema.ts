@@ -139,6 +139,25 @@ export const mentalHealthSchema = {
   },
 };
 
+// ── 6. Men's Health vertical schema ───────────────────────────────────────
+export const mensHealthSchema = {
+  "@context": "https://schema.org",
+  "@type": ["MedicalClinic", "ProfessionalService"],
+  name: "Primara — Men's Health Practice Digital Marketing",
+  url: `${SITE_URL}/mens-health`,
+  telephone: "+15612912681",
+  email: "liam.costello@primara365.com",
+  medicalSpecialty: "Urology",
+  areaServed: { "@type": "Country", name: "United States" },
+  description:
+    "Primara helps independent men's health practices — TRT clinics, men's wellness centers, and urology practices — rank higher on Google, build patient trust, and grow without relying on national franchise directories.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: "Primara",
+    url: SITE_URL,
+  },
+};
+
 // ── Helper: wrap any schema object as a JSON-LD string ───────────────────
 export function toJsonLd(schema: Record<string, unknown>): string {
   return JSON.stringify(schema);
