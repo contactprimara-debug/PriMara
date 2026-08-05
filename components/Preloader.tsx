@@ -5,17 +5,22 @@ import { usePathname } from 'next/navigation';
 
 /* ── Preloader ──────────────────────────────────────────────────────────────
    Letters-fall animation shown only on the homepage.
-   Uses React state (not a raw DOM script) to unmount cleanly at 2.6s,
-   after the CSS preloader-exit animation completes at ~2.5s.
+   Uses React state (not a raw DOM script) to unmount cleanly at 1.35s,
+   after the CSS preloader-exit animation completes at ~1.25s.
    On all other pages the component renders nothing immediately.
+
+   Kept intentionally short — see the timing comment in globals.css. This
+   opaque overlay directly delays Largest Contentful Paint for as long as
+   it covers the hero; don't lengthen it without re-measuring on PageSpeed
+   Insights (mobile).
 */
 export default function Preloader() {
   const pathname = usePathname();
   const [active, setActive] = useState(true);
 
   useEffect(() => {
-    // Unmount after CSS exit animation completes (1.8s start + 0.7s duration + buffer)
-    const timer = setTimeout(() => setActive(false), 2600);
+    // Unmount after CSS exit animation completes (0.85s start + 0.4s duration + buffer)
+    const timer = setTimeout(() => setActive(false), 1350);
     return () => clearTimeout(timer);
   }, []);
 
@@ -28,7 +33,7 @@ export default function Preloader() {
           <span
             key={i}
             className="preloader-letter"
-            style={{ animationDelay: `${0.08 * i}s` }}
+            style={{ animationDelay: `${0.04 * i}s` }}
           >
             {char}
           </span>
