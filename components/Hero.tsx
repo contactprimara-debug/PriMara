@@ -22,7 +22,7 @@ export default function Hero() {
       {/* ── Hero section ─────────────────────────────────────────────────── */}
       <section
         className="hero"
-        aria-label="Primara — Digital Marketing for Independent Medical Practices"
+        aria-label="Primara365 — Digital Marketing for Independent Medical Practices"
         style={{
           height: "100svh",
           minHeight: "600px",
@@ -125,7 +125,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            SEO, Google Ads, Google Business Profile, and review systems — built exclusively for independent men&rsquo;s health, primary care, and mental health practices. Founder-led, no account managers, month-to-month.
+            Primara365 is a digital marketing agency that manages SEO and Google Ads — plus Google Business Profile and review systems — for independent men&rsquo;s health, primary care, and mental health practices. Founder-led, no account managers, month-to-month.
           </p>
 
           {/* CTA pair */}

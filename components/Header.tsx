@@ -100,7 +100,7 @@ export default function Header() {
         {/* Left — wordmark (magnetic pull wired by InteractionEffects) */}
         <Link
           href="/"
-          aria-label="Primara — home"
+          aria-label="Primara365 — home"
           className="magnetic"
           style={{
             fontFamily: "Georgia, 'Times New Roman', serif",
@@ -110,9 +110,10 @@ export default function Header() {
             textDecoration: "none",
             letterSpacing: "-0.01em",
             display: "inline-block",
+            marginRight: "clamp(16px, 2.2vw, 36px)",
           }}
         >
-          Primara
+          Primara365
         </Link>
 
         {/* Center — desktop nav links */}
@@ -370,7 +371,7 @@ export default function Header() {
         >
           <a
             href={`tel:${siteConfig.phone}`}
-            aria-label={`Call Primara at ${siteConfig.phoneDisplay}`}
+            aria-label={`Call Primara365 at ${siteConfig.phoneDisplay}`}
             className="nav-phone"
             style={{
               fontFamily: "system-ui, sans-serif",

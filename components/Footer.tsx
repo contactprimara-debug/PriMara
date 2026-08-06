@@ -85,7 +85,7 @@ export default function Footer() {
                 width: "fit-content",
               }}
             >
-              Primara
+              Primara365
             </Link>
 
             {/* Motto */}
@@ -111,7 +111,7 @@ export default function Footer() {
                 maxWidth: "260px",
               }}
             >
-              Primara is an independent digital marketing agency in Florida,
+              Primara365 is an independent digital marketing agency in Florida,
               exclusively serving independent healthcare practices.
             </p>
 
@@ -372,7 +372,7 @@ export default function Footer() {
               letterSpacing: "0.06em",
             }}
           >
-            © {year} Primara. All rights reserved.
+            © {year} Primara365. All rights reserved.
           </span>
 
           {/* Legal links */}
