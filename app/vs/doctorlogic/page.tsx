@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Primara vs. DoctorLogic — An Honest Comparison | Primara",
@@ -580,6 +581,16 @@ export default function VsDoctorLogicPage() {
       </section>
 
       {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services"
+        items={[
+          { href: "/services/medical-practice-website-design", label: "Website Design", description: "Websites built around the local search terms that drive new patient bookings." },
+          { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content." },
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "The highest-leverage lever for local visibility, done right." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

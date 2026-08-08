@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Marketing for Concierge Medicine Practices | Primara",
@@ -121,6 +122,16 @@ export default function ConciergeMedicinePage() {
         </div>
       </section>
 
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Specialties & Resources"
+        items={[
+          { href: "/specialties/direct-primary-care", label: "Direct Primary Care", description: "The membership-model playbook — different economics, different marketing." },
+          { href: "/specialties/internal-medicine", label: "Internal Medicine", description: "Marketing built around adult chronic-disease management and long-term patient relationships." },
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
+        ]}
+      />
       <section style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", color: "var(--chalk)", fontWeight: 400, marginBottom: "16px" }}>

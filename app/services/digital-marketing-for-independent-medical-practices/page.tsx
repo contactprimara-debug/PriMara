@@ -3,6 +3,7 @@ import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 import ServicePageAnimation from "@/components/ServicePageAnimation";
 import PullQuote from "@/components/PullQuote";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Independent Doctors | Primara",
@@ -512,6 +513,16 @@ export default function DigitalMarketingPage() {
       />
 
       {/* ── Section 6: CTA — teal glow atmosphere ────────────────────────── */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
+          { href: "/services/google-ads", label: "Google Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
+        ]}
+      />
       <section
         aria-labelledby="dm-cta"
         style={{

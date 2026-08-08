@@ -5,6 +5,16 @@ import { primaryCareLocations, type PrimaryCareLocation } from "@/lib/locations-
 import { mentalHealthLocations, type MentalHealthLocation } from "@/lib/locations-mental";
 import { mensHealthLocations, type MensHealthLocation } from "@/lib/locations-mens-health";
 
+// South-to-north geographic order along the I-95/Turnpike corridor — used to
+// find real "nearby" cities within the same vertical rather than an arbitrary
+// data-entry order.
+const GEO_ORDER = [
+  "Miami", "Miami Beach", "Coral Gables", "Doral", "Hialeah", "Kendall", "Aventura",
+  "Hollywood", "Pembroke Pines", "Fort Lauderdale", "Coral Springs", "Pompano Beach",
+  "Boca Raton", "Delray Beach", "Boynton Beach", "West Palm Beach", "Palm Beach Gardens",
+  "Jupiter", "Stuart", "Port St. Lucie",
+];
+
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
 type MentalLoc = MentalHealthLocation & { type: "mental-health" };
 type MensLoc = MensHealthLocation & { type: "mens-health" };
@@ -58,6 +68,15 @@ export default function LocationPage({
 }) {
   const loc = allLocations.find((l) => l.slug === params.slug);
   if (!loc) notFound();
+
+  // Nearby locations — same vertical, sorted by real geographic proximity
+  const currentGeoIndex = GEO_ORDER.indexOf(loc.city);
+  const nearbyLocations = allLocations
+    .filter((l) => l.type === loc.type && l.slug !== loc.slug)
+    .map((l) => ({ loc: l, distance: Math.abs(GEO_ORDER.indexOf(l.city) - currentGeoIndex) }))
+    .sort((a, b) => a.distance - b.distance)
+    .slice(0, 3)
+    .map((x) => x.loc);
 
   const verticalLabel = isPrimary(loc)
     ? "Primary Care Marketing"
@@ -778,6 +797,76 @@ export default function LocationPage({
           </div>
         </div>
       </section>
+
+      {/* ── Nearby Locations ──────────────────────────────────────────── */}
+      {nearbyLocations.length > 0 && (
+        <section
+          style={{
+            padding: "clamp(40px, 6vw, 72px) 0",
+            borderBottom: "1px solid var(--wire)",
+            backgroundColor: "var(--surface)",
+          }}
+        >
+          <div className="mx-auto max-w-content px-6 lg:px-8">
+            <p
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: "0.75rem",
+                letterSpacing: "0.14em",
+                textTransform: "uppercase",
+                color: "var(--smoke)",
+                marginBottom: "1.5rem",
+              }}
+            >
+              Nearby Locations — {verticalLabel}
+            </p>
+            <div
+              style={{
+                display: "grid",
+                gap: "1rem",
+              }}
+              className="sm:grid-cols-3"
+            >
+              {nearbyLocations.map((nearby) => (
+                <Link
+                  key={nearby.slug}
+                  href={`/locations/${nearby.slug}`}
+                  style={{
+                    display: "block",
+                    backgroundColor: "var(--void)",
+                    border: "1px solid var(--wire)",
+                    borderRadius: "8px",
+                    padding: "1.25rem 1.5rem",
+                    textDecoration: "none",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontSize: "1.0625rem",
+                      fontWeight: 600,
+                      color: "var(--chalk)",
+                      lineHeight: 1.3,
+                    }}
+                  >
+                    {nearby.city}, {nearby.state} →
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "0.875rem",
+                      color: "var(--ash)",
+                      marginTop: "0.5rem",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {verticalLabel} for independent practices in {nearby.city}.
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section

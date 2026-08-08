@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 import PackageInquiryForm from "@/components/PackageInquiryForm";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Visibility Package — Foundation + Google Ads | Primara",
@@ -431,6 +432,16 @@ export default function VisibilityPackagePage() {
       </section>
 
       {/* ── Inquiry form ─────────────────────────────────────────────────── */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Pages"
+        items={[
+          { href: "/pricing", label: "Pricing", description: "See how Visibility compares to Foundation and what's included in each." },
+          { href: "/services/google-ads", label: "Google Ads", description: "The paid search layer included in the Visibility package." },
+          { href: "/packages/foundation", label: "Foundation Package", description: "The entry-tier package this one builds on." },
+        ]}
+      />
       <section
         id="inquire"
         aria-labelledby="pkg-inquire"

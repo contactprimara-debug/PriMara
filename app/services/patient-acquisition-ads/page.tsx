@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Patient Acquisition Ads for Doctors | Primara",
@@ -234,7 +235,16 @@ export default function PatientAdsPage() {
         </blockquote>
       </section>
 
-      {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/google-ads", label: "Google Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
+          { href: "/services/medical-practice-website-design", label: "Website Design", description: "Websites built around the specific local search terms that drive new patient bookings." },
+          { href: "/specialties/ed-treatment-clinics", label: "ED Treatment Clinics", description: "How independent ED treatment clinics compete with Hims/Roman on local search." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="ads-cta">
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

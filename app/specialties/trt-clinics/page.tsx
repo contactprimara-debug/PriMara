@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for TRT Clinics | Primara",
@@ -152,7 +153,16 @@ export default function TrtClinicsPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Specialties & Resources"
+        items={[
+          { href: "/specialties/mens-wellness-clinics", label: "Men's Wellness Clinics", description: "Positioning strategy for men's wellness and vitality centers." },
+          { href: "/specialties/ed-treatment-clinics", label: "ED Treatment Clinics", description: "How independent ED treatment clinics compete with Hims/Roman on local search." },
+          { href: "/blog/trt-clinics-vs-national-telehealth-brands-local-seo", label: "TRT Clinics vs. National Telehealth Brands", description: "Why local SEO — not paid search — is how independent TRT clinics beat national telehealth brands." },
+        ]}
+      />
       <section style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", color: "var(--chalk)", fontWeight: 400, marginBottom: "16px" }}>

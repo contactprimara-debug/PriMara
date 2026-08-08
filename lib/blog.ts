@@ -5,6 +5,12 @@ export interface BlogSection {
   cite?: string;
 }
 
+export interface RelatedLink {
+  href: string;
+  label: string;
+  description: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -15,11 +21,17 @@ export interface BlogPost {
   publishDate: string;
   keyword: string;
   sections: BlogSection[];
+  related?: RelatedLink[];
 }
 
 export const blogPosts: BlogPost[] = [
   {
     slug: "why-your-medical-practice-isnt-showing-up-on-google-maps",
+    related: [
+      { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
+      { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service behind ranking in the map pack for '[specialty] [city]' searches." },
+      { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and response systems that outpace corporate competitors." },
+    ],
     title: "Why Your Medical Practice Isn't Showing Up on Google Maps (And How to Fix It)",
     metaTitle: "Why Your Medical Practice Isn't Showing Up on Google Maps | Primara",
     metaDescription:
@@ -123,6 +135,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "gbp-categories-for-primary-care-doctors",
+    related: [
+      { href: "/specialties/family-medicine", label: "Family Medicine", description: "Broad-scope primary care marketing for family physicians." },
+      { href: "/services/google-business-profile", label: "Google Business Profile", description: "The full service behind everything in this post." },
+      { href: "/primary-care", label: "Primary Care Marketing", description: "How Primara works with independent primary care physicians nationwide." },
+    ],
     title: "The Right Google Business Profile Categories for Primary Care Doctors in Florida",
     metaTitle: "GBP Categories for Primary Care Doctors in Florida | Primara",
     metaDescription:
@@ -237,6 +254,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "how-many-google-reviews-does-a-medical-practice-need",
+    related: [
+      { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and response systems built for medical practices." },
+      { href: "/blog/hipaa-compliant-google-review-responses", label: "HIPAA-Compliant Review Responses", description: "How to respond to reviews — including negative ones — without violating HIPAA." },
+      { href: "/services/google-business-profile", label: "Google Business Profile", description: "Where your review count and rating actually show up to patients." },
+    ],
     title: "How Many Google Reviews Does a Medical Practice Need to Rank in Florida?",
     metaTitle: "How Many Google Reviews Does a Medical Practice Need to Rank? | Primara",
     metaDescription:
@@ -344,6 +366,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "psychology-today-vs-google-seo-for-therapists",
+    related: [
+      { href: "/mental-health", label: "Mental Health Marketing", description: "How Primara helps independent therapists and mental health practices nationwide." },
+      { href: "/services/seo", label: "SEO", description: "The full SEO service behind owned, compounding Google visibility." },
+      { href: "/services/local-seo-for-medical-practices", label: "Local SEO", description: "Ranking for '[specialty] therapist [city]' searches on Google." },
+    ],
     title: "Psychology Today vs. Google SEO: Which Actually Grows a Private Practice in Florida?",
     metaTitle: "Psychology Today vs. Google SEO for Therapists in Florida | Primara",
     metaDescription:
@@ -443,6 +470,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "what-is-local-seo-for-doctors",
+    related: [
+      { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service explained in this post." },
+      { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content." },
+      { href: "/primary-care", label: "Primary Care Marketing", description: "How Primara works with independent primary care physicians nationwide." },
+    ],
     title: "What Is Local SEO for Doctors? A Plain-English Guide for Florida Physicians",
     metaTitle: "What Is Local SEO for Doctors? A Guide for Florida Physicians | Primara",
     metaDescription:
@@ -553,6 +585,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "hipaa-compliant-google-review-responses",
+    related: [
+      { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and response systems built for medical practices." },
+      { href: "/blog/how-many-google-reviews-does-a-medical-practice-need", label: "How Many Google Reviews Do You Need?", description: "How many reviews it actually takes to rank in a competitive Florida market." },
+      { href: "/mental-health", label: "Mental Health Marketing", description: "How Primara helps independent therapists and mental health practices nationwide." },
+    ],
     title: "How to Respond to Google Reviews Without Violating HIPAA",
     metaTitle: "HIPAA-Compliant Google Review Responses for Medical Practices | Primara",
     metaDescription:
@@ -694,6 +731,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "how-long-does-local-seo-take-for-medical-practices",
+    related: [
+      { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service and realistic timeline explained in this post." },
+      { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content." },
+      { href: "/primary-care", label: "Primary Care Marketing", description: "How Primara works with independent primary care physicians nationwide." },
+    ],
     title: "How Long Does Local SEO Take for a Medical Practice in Florida?",
     metaTitle: "How Long Does Local SEO Take for a Medical Practice? | Primara",
     metaDescription:
@@ -797,6 +839,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "google-business-profile-for-mental-health-therapists",
+    related: [
+      { href: "/services/google-business-profile", label: "Google Business Profile", description: "The full GBP service behind the setup guide in this post." },
+      { href: "/mental-health", label: "Mental Health Marketing", description: "How Primara helps independent therapists and mental health practices nationwide." },
+      { href: "/blog/psychology-today-vs-google-seo-for-therapists", label: "Psychology Today vs. Google SEO", description: "Which actually grows a private practice: a directory listing or owned Google visibility." },
+    ],
     title: "Google Business Profile for Therapists: The Complete Setup Guide",
     metaTitle: "Google Business Profile for Therapists: Complete Setup Guide | Primara",
     metaDescription:
@@ -916,6 +963,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "trt-clinics-vs-national-telehealth-brands-local-seo",
+    related: [
+      { href: "/specialties/trt-clinics", label: "TRT Clinics", description: "Marketing built specifically for independent TRT clinics." },
+      { href: "/mens-health", label: "Men's Health Marketing", description: "How Primara works with independent men's health practices nationwide." },
+      { href: "/services/local-seo-for-medical-practices", label: "Local SEO", description: "The strategy that beats national telehealth brands on local search." },
+    ],
     title: "Why TRT Clinics Can't Beat National Telehealth Brands on Paid Search (And What Wins Instead)",
     metaTitle: "TRT Clinic Marketing: Local SEO vs. National Telehealth Ads | Primara",
     metaDescription:
@@ -995,6 +1047,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "gbp-categories-for-mens-health-clinics",
+    related: [
+      { href: "/specialties/mens-wellness-clinics", label: "Men's Wellness Clinics", description: "Positioning strategy for men's wellness and vitality centers." },
+      { href: "/services/google-business-profile", label: "Google Business Profile", description: "The full GBP service behind the categories in this post." },
+      { href: "/mens-health", label: "Men's Health Marketing", description: "How Primara works with independent men's health practices nationwide." },
+    ],
     title: "The Google Business Profile Categories Independent Men's Health Clinics Are Missing",
     metaTitle: "GBP Categories for Men's Health & TRT Clinics | Primara",
     metaDescription:
@@ -1062,6 +1119,11 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "how-men-search-for-trt-and-ed-treatment",
+    related: [
+      { href: "/specialties/ed-treatment-clinics", label: "ED Treatment Clinics", description: "How independent ED treatment clinics compete with Hims/Roman on local search." },
+      { href: "/specialties/trt-clinics", label: "TRT Clinics", description: "Marketing built specifically for independent TRT clinics." },
+      { href: "/mens-health", label: "Men's Health Marketing", description: "How Primara works with independent men's health practices nationwide." },
+    ],
     title: "How Men Actually Search for TRT and ED Treatment (And Why Most Clinic Websites Don't Match It)",
     metaTitle: "How Men Search for TRT & ED Treatment Online | Primara",
     metaDescription:

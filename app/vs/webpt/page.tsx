@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Primara vs. WebPT Marketing — An Honest Comparison | Primara",
@@ -655,6 +656,16 @@ export default function VsWebPTPage() {
       </section>
 
       {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services"
+        items={[
+          { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content." },
+          { href: "/services/medical-practice-website-design", label: "Website Design", description: "Websites built around the local search terms that drive new patient bookings." },
+          { href: "/services/google-ads", label: "Google Ads", description: "Paid search and Maps ads for practices that want patients faster than organic alone." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

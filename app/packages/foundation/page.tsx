@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema"; // v2
 import PackageInquiryForm from "@/components/PackageInquiryForm";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Foundation Package — Healthcare Marketing | Primara",
@@ -429,6 +430,16 @@ export default function FoundationPackagePage() {
       </section>
 
       {/* ── Inquiry form ─────────────────────────────────────────────────── */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Pages"
+        items={[
+          { href: "/pricing", label: "Pricing", description: "See how Foundation compares to Visibility and what's included in each." },
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "The core service included in every Foundation engagement." },
+          { href: "/packages/visibility", label: "Visibility Package", description: "The next tier up — adds paid ads and deeper content strategy." },
+        ]}
+      />
       <section
         id="inquire"
         aria-labelledby="pkg-inquire"

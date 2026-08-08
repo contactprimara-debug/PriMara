@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, primaryCareSchema } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Primary Care Practices | Primara",
@@ -915,6 +916,21 @@ export default function PrimaryCarePage() {
       </section>
 
       {/* ── Section 06 — CTA ─────────────────────────────────────────────── */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Explore by Specialty"
+        items={[
+          { href: "/specialties/family-medicine", label: "Family Medicine", description: "Broad-scope primary care marketing for family physicians." },
+          { href: "/specialties/internal-medicine", label: "Internal Medicine", description: "Marketing for adult chronic-disease management and long-term patient relationships." },
+          { href: "/specialties/geriatrics", label: "Geriatrics", description: "Reaching adult children making care decisions for aging parents." },
+          { href: "/specialties/pediatrics", label: "Pediatrics", description: "A different search pattern than adult primary care — built for that." },
+          { href: "/specialties/direct-primary-care", label: "Direct Primary Care", description: "The membership-model playbook — different economics, different marketing." },
+          { href: "/specialties/concierge-medicine", label: "Concierge Medicine", description: "Marketing for boutique practices targeting a smaller, higher-value patient base." },
+          { href: "/blog/gbp-categories-for-primary-care-doctors", label: "GBP Categories for Primary Care Doctors", description: "The exact Google Business Profile categories that get primary care practices found." },
+          { href: "/blog/what-is-local-seo-for-doctors", label: "What Is Local SEO for Doctors?", description: "A plain-English guide to what local SEO actually means for a medical practice." },
+        ]}
+      />
       <section
         aria-labelledby="pc-cta"
         style={{

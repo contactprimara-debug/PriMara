@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "GBP Optimization for Medical Practices | Primara",
@@ -237,7 +238,16 @@ export default function GBPPage() {
         </blockquote>
       </section>
 
-      {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service behind ranking for '[specialty] [city]' searches on Google." },
+          { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and response systems that outpace corporate competitors." },
+          { href: "/blog/why-your-medical-practice-isnt-showing-up-on-google-maps", label: "Why You're Not Showing Up on Google Maps", description: "The most common reasons independent practices are invisible on Google Maps." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="gbp-cta">
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

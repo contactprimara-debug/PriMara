@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Reputation Management for Doctors | Primara",
@@ -235,7 +236,16 @@ export default function ReputationPage() {
         </blockquote>
       </section>
 
-      {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
+          { href: "/blog/hipaa-compliant-google-review-responses", label: "HIPAA-Compliant Review Responses", description: "How to respond to Google reviews — including negative ones — without violating HIPAA." },
+          { href: "/blog/how-many-google-reviews-does-a-medical-practice-need", label: "How Many Google Reviews Do You Need?", description: "How many reviews it actually takes to rank in a competitive Florida market." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="rep-cta">
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

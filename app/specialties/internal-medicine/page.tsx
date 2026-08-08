@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Internal Medicine Practices | Primara",
@@ -127,6 +128,16 @@ export default function InternalMedicinePage() {
         </div>
       </section>
 
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Specialties & Resources"
+        items={[
+          { href: "/specialties/family-medicine", label: "Family Medicine", description: "Broad-scope primary care marketing — the strategy for family physicians." },
+          { href: "/specialties/geriatrics", label: "Geriatrics", description: "How Primara helps geriatric practices reach adult children making care decisions for aging parents." },
+          { href: "/services/patient-acquisition-ads", label: "Patient Acquisition Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
+        ]}
+      />
       <section style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", color: "var(--chalk)", fontWeight: 400, marginBottom: "16px" }}>

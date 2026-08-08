@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, mensHealthSchema } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Men's Health Practices | Primara",
@@ -830,6 +831,20 @@ export default function MensHealthPage() {
       </section>
 
       {/* ── Section 07 — CTA ─────────────────────────────────────────────── */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Explore by Specialty"
+        items={[
+          { href: "/specialties/trt-clinics", label: "TRT Clinics", description: "Marketing built specifically for independent TRT clinics competing with national telehealth brands." },
+          { href: "/specialties/mens-wellness-clinics", label: "Men's Wellness Clinics", description: "Positioning strategy for men's wellness and vitality centers." },
+          { href: "/specialties/ed-treatment-clinics", label: "ED Treatment Clinics", description: "How independent ED treatment clinics compete with Hims/Roman on local search." },
+          { href: "/specialties/urology-practices", label: "Urology Practices", description: "A mix of TRT/ED search intent and traditional referral-driven demand." },
+          { href: "/blog/how-men-search-for-trt-and-ed-treatment", label: "How Men Search for TRT and ED Treatment", description: "Why most clinic websites don't match how men actually search." },
+          { href: "/blog/trt-clinics-vs-national-telehealth-brands-local-seo", label: "TRT Clinics vs. National Telehealth Brands", description: "Why local SEO — not paid search — is how independent clinics win." },
+          { href: "/blog/gbp-categories-for-mens-health-clinics", label: "GBP Categories for Men's Health Clinics", description: "The Google Business Profile categories most independent clinics are missing." },
+        ]}
+      />
       <section
         aria-labelledby="mh2-cta"
         style={{

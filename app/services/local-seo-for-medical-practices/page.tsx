@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Local SEO for Medical Practices | Primara",
@@ -233,7 +234,16 @@ export default function LocalSEOPage() {
         </blockquote>
       </section>
 
-      {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
+          { href: "/blog/how-long-does-local-seo-take-for-medical-practices", label: "How Long Does Local SEO Take?", description: "A realistic timeline for local SEO results — no inflated promises." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="seo-cta">
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

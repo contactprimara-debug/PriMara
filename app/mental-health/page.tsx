@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, mentalHealthSchema } from "@/lib/schema"; // v2
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Mental Health Practices | Primara",
@@ -838,6 +839,19 @@ export default function MentalHealthPage() {
       </section>
 
       {/* ── Section 07 — CTA ─────────────────────────────────────────────── */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence for therapy practices." },
+          { href: "/services/local-seo-for-medical-practices", label: "Local SEO", description: "Ranking for '[specialty] therapist [city]' searches on Google." },
+          { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and HIPAA-compliant response systems." },
+          { href: "/blog/google-business-profile-for-mental-health-therapists", label: "GBP for Mental Health Therapists", description: "The complete Google Business Profile setup guide for therapists." },
+          { href: "/blog/psychology-today-vs-google-seo-for-therapists", label: "Psychology Today vs. Google SEO", description: "Which actually grows a private practice: a directory listing or owned Google visibility." },
+          { href: "/blog/hipaa-compliant-google-review-responses", label: "HIPAA-Compliant Review Responses", description: "How to respond to Google reviews — including negative ones — without violating HIPAA." },
+        ]}
+      />
       <section
         aria-labelledby="mh-cta"
         style={{

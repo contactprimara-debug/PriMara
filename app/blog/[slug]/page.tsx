@@ -3,6 +3,7 @@ import { blogPosts } from "@/lib/blog";
 import type { BlogSection } from "@/lib/blog";
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -411,6 +412,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </article>
+
+      {/* Related links (contextual internal linking) */}
+      {post.related && post.related.length > 0 && (
+        <RelatedLinks eyebrow="Related" heading="Related Services & Pages" items={post.related} />
+      )}
 
       {/* CTA */}
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

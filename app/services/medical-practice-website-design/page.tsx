@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
   title: "Medical Practice Website Design | Primara",
@@ -233,7 +234,16 @@ export default function WebsiteDesignPage() {
         </blockquote>
       </section>
 
-      {/* CTA */}
+      {/* Related links (contextual internal linking) */}
+      <RelatedLinks
+        eyebrow="Related"
+        heading="Related Services & Resources"
+        items={[
+          { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
+          { href: "/services/patient-acquisition-ads", label: "Patient Acquisition Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
+          { href: "/specialties/pediatrics", label: "Pediatrics", description: "Marketing for pediatric practices — a different search pattern than adult primary care." },
+        ]}
+      />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="web-cta">
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2

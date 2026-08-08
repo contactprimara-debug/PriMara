@@ -287,6 +287,11 @@ section + section blockquote {
   opacity: 0.12 !important;
 }
 
+/* ── Related-links card grid (specialties/services/blog/locations) ──────── */
+.related-link-card:hover {
+  border-color: rgba(201, 168, 76, 0.4) !important;
+}
+
 /* ── Reviews section: 3-col → 1-col on mobile ───────────────────────────── */
 @media (max-width: 768px) {
   #reviews .reveal-stagger {
