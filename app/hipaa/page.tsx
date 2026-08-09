@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "HIPAA Notice | Primara",
   description: "Primara's HIPAA Notice of Privacy Practices and Business Associate information for medical practice clients.",
   alternates: { canonical: "https://primara365.com/hipaa" },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
   openGraph: {
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
