@@ -36,12 +36,19 @@ export async function sendLeadEmail(opts: {
     return { sent: false };
   }
   const resend = new Resend(process.env.RESEND_API_KEY);
-  await resend.emails.send({
+  const { error } = await resend.emails.send({
     from: process.env.RESEND_FROM_EMAIL,
     to: LEADS_INBOX,
     replyTo: opts.replyTo || process.env.RESEND_REPLY_TO || undefined,
     subject: opts.subject,
     text: opts.text,
   });
+  // The Resend SDK resolves with { data, error } instead of throwing on
+  // API-level failures (bad key, unverified domain, rate limit, etc.) — an
+  // unchecked error here was silently reporting every one of those as a
+  // successful send to the caller, and the visitor as a successful lead.
+  if (error) {
+    throw new Error(`Resend API error: ${error.name} — ${error.message}`);
+  }
   return { sent: true };
 }
