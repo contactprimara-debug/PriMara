@@ -205,7 +205,8 @@ export default function QuizPage() {
           {/* Step indicator */}
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "11px", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--ash)", marginBottom: "32px" }}>
             {typeof step === "number" ? `Question ${bpIndex + 1} of 10` :
-             step === "qualifier" ? `Question ${11 + qualStep} of 14` :
+             step === "qualifier" && qualStep < 4 ? `Question ${11 + qualStep} of 14` :
+             step === "qualifier" ? "One more thing" :
              step === "contact" ? "Final step" :
              "Final question"}
           </p>
