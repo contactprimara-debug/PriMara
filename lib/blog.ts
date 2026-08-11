@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Fixing NAP inconsistency means auditing every directory where your practice appears and standardizing the exact name, address format, and phone number. This is tedious work but it has measurable impact on map pack position. Primara runs a full citation audit at onboarding for every new client.",
+        text: "Fixing NAP inconsistency means auditing every directory where your practice appears and standardizing the exact name, address format, and phone number. This is tedious work but it has measurable impact on map pack position.",
       },
       {
         type: "h2",
@@ -121,7 +121,6 @@ export const blogPosts: BlogPost[] = [
           "GBP claim and verification in week one — we handle the process end to end",
           "Full category optimization: 8–10 categories configured based on your specialty mix",
           "Review generation system installed: NFC cards, QR codes, and a HIPAA-compliant email sequence",
-          "NAP citation audit across 40+ directories with corrections submitted",
           "Local service pages built into your website targeting city and condition combinations",
           "Monthly Local Falcon rank tracking with before/after screenshots",
         ],

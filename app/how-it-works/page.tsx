@@ -61,7 +61,6 @@ const phases: Phase[] = [
     heading: "You see exactly where you stand",
     items: [
       "Full Google Business Profile audit — categories, services, photos, Q&A, posts, and competitor gap analysis",
-      "Citation health report — every directory listing that's wrong, duplicate, or missing",
       "Review velocity benchmarking against your 3 closest local competitors",
       "Website technical audit — Core Web Vitals, mobile usability, schema markup, canonical issues",
       "60-minute walkthrough call with Liam or Gio — no slides, just your data",
@@ -90,7 +89,6 @@ const phases: Phase[] = [
       "Review cards installed at checkout, exam rooms, and waiting area — placement strategy included",
       "First reviews arrive within 10–14 days of card deployment in most practices",
       "HIPAA-compliant response templates written and deployed for every star rating",
-      "Citation corrections pushed across 60+ directories — NAP consistency locked",
       "First Local Falcon grid scan establishes your baseline map pack ranking by keyword",
     ],
   },
@@ -102,7 +100,6 @@ const phases: Phase[] = [
       "Local Falcon before/after grid comparison — your rank at 45+ points around your practice",
       "Review velocity chart — new reviews per week vs. competitor pace",
       "GBP Insights report — searches, profile views, direction requests, call clicks",
-      "Citation audit completion — percentage of directories corrected and live",
       "Recommendations for Month 3 based on what's moving fastest",
     ],
   },
@@ -123,7 +120,7 @@ const phases: Phase[] = [
     label: "Compounding Phase",
     heading: "The gap between you and competitors widens",
     items: [
-      "Secondary keywords begin ranking as domain authority builds from citation consistency",
+      "Secondary keywords begin ranking as domain authority builds from consistent content and review velocity",
       "Review volume accelerates — each new review lifts map pack signal cumulatively",
       "GBP engagement (calls, direction requests) typically 40–80% above baseline by Month 6",
       "Content strategy activates if applicable — blog posts targeting high-intent search terms your competitors miss",
@@ -596,7 +593,7 @@ export default function HowItWorksPage() {
               {
                 href: "/services",
                 label: "What&apos;s included",
-                desc: "Full service breakdown — GBP, citations, reviews, local SEO",
+                desc: "Full service breakdown — GBP, reviews, local SEO",
               },
               {
                 href: "/results",
@@ -686,7 +683,7 @@ export default function HowItWorksPage() {
               lineHeight: 1.7,
             }}
           >
-            Request the audit and you&apos;ll have your full Google Business Profile, citation, and competitive analysis within 5 business days — no commitment required.
+            Request the audit and you&apos;ll have your full Google Business Profile and competitive analysis within 5 business days — no commitment required.
           </p>
           <div
             style={{

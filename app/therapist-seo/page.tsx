@@ -118,7 +118,6 @@ const milestones = [
       "12-month posting calendar loaded: weekly GBP posts publishing automatically from day one, covering modalities, populations, and local search queries.",
       "NFC tap cards placed in your office and QR codes on session end documentation for review generation.",
       "Local Falcon grid baseline run: your current rank position documented across a 7x7 grid for your primary keyword.",
-      "NAP consistency verified across Psychology Today, Google, Healthgrades, Zocdoc, and the other directories that create conflicting signals.",
     ],
   },
   {

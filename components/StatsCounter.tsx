@@ -34,12 +34,6 @@ const stats: Stat[] = [
     label: "Never scroll past Google's first page of results",
     source: "Backlinko, Google CTR Study",
   },
-  {
-    target: "50",
-    suffix: "+",
-    label: "Directories submitted and monitored per practice at onboarding",
-    source: "Primara onboarding protocol",
-  },
 ];
 
 export default function StatsCounter() {

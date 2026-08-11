@@ -53,7 +53,6 @@ const milestones: Milestone[] = [
       "Review velocity is established: most practices see 3–8 new Google reviews in the first 60 days as the tap card and QR system activates patient behavior.",
       "First rank movement typically visible on secondary keywords (condition-specific or neighborhood-specific searches) where competition is lower.",
       "Local Falcon comparison: 60-day grid overlaid on baseline — green cells show rank improvement, red cells show where work remains.",
-      "NAP consistency confirmed across Google, Healthgrades, Zocdoc, and WebMD — conflicting signals corrected where found.",
     ],
   },
   {

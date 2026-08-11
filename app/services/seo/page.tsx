@@ -54,10 +54,9 @@ const serviceSchema = {
 const pillars = [
   {
     title: "Local SEO & Google Maps",
-    body: "Your Google Business Profile is the single highest-leverage asset in your digital presence. We fully configure it — categories, services, attributes, Q&A, and weekly posts — then build the citation footprint that signals geographic relevance to Google's local ranking algorithm.",
+    body: "Your Google Business Profile is the single highest-leverage asset in your digital presence. We fully configure it — categories, services, attributes, Q&A, and weekly posts.",
     items: [
       "Google Business Profile optimization: 8–10 categories, 30+ services, attributes, photo upload",
-      "NAP consistency audit across Healthgrades, Zocdoc, WebMD, Yelp, and 40+ directories",
       "Local Falcon grid baseline and monthly rank tracking across your service area",
       "Review generation system: NFC tap cards, QR codes, and follow-up workflow",
       "Google Posts calendar: weekly posts scheduled 12 months in advance",
@@ -106,7 +105,7 @@ const faqs = [
   },
   {
     q: "Do you guarantee first-page rankings?",
-    a: "No — and you should be skeptical of anyone who does. What we guarantee is full execution of a documented process: complete GBP configuration, clean citation footprint, technical SEO audit, and on-page optimization. We show you ranking movement via Local Falcon grids and Google Search Console every month, so progress is always visible.",
+    a: "No — and you should be skeptical of anyone who does. What we guarantee is full execution of a documented process: complete GBP configuration, technical SEO audit, and on-page optimization. We show you ranking movement via Local Falcon grids and Google Search Console every month, so progress is always visible.",
   },
   {
     q: "Do I need a new website to start SEO?",
@@ -421,7 +420,7 @@ export default function SEOServicePage() {
             }}
           >
             {[
-              { period: "Week 1", heading: "Foundation", body: "GBP fully configured. Citation audit complete. Technical SEO issues identified and prioritized." },
+              { period: "Week 1", heading: "Foundation", body: "GBP fully configured. Technical SEO issues identified and prioritized." },
               { period: "30 Days", heading: "On-Page Live", body: "All title tags, meta descriptions, H1s, and schema markup updated. Content calendar loaded." },
               { period: "60 Days", heading: "First Data", body: "GBP impressions trending up. Local Falcon grid shows first rank movement on secondary keywords." },
               { period: "90 Days", heading: "Momentum", body: "Primary keyword movement visible. Review velocity established. Monthly reporting routine in place." },

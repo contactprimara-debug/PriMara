@@ -379,7 +379,6 @@ export default function PricingPage() {
                   "2 SEO content pages published per month",
                   "Review management across Google, Healthgrades, Zocdoc, WebMD, Yelp",
                   "NFC tap cards + QR codes for review generation",
-                  "NAP consistency monitoring across 50+ directories",
                   "Local Falcon rank grid baseline + monthly comparison",
                   "Monthly report by Liam or Gio directly — no account managers",
                 ].map((item) => (

@@ -79,7 +79,7 @@ const packageConfig = {
     tagline: "The fastest way to make your practice visible to patients searching locally.",
     includes: [
       "Full Google Business Profile buildout and optimization",
-      "Local SEO — 50+ directory submissions and NAP consistency",
+      "2 new SEO content pages published monthly",
       "Review generation system — NFC cards and QR signs",
       "Monthly rank tracking and plain-English reporting",
     ],

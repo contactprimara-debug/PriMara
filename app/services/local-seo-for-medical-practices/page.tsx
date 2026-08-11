@@ -53,12 +53,11 @@ const serviceSchema = {
   areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Digital Marketing",
   description:
-    "Local SEO for independent medical practices — on-page optimization, citation audits, schema markup, and monthly rank tracking.",
+    "Local SEO for independent medical practices — on-page optimization, schema markup, and monthly rank tracking.",
 };
 
 const bullets = [
   "On-page optimization: title tags, meta descriptions, H1/H2 structure, and internal linking",
-  "NAP consistency audit across Healthgrades, Zocdoc, WebMD, Yelp, and local directories",
   "Schema markup for LocalBusiness, Physician, and MedicalClinic",
   "Technical SEO audit: page speed, mobile usability, Core Web Vitals, and crawlability",
   "Monthly Local Falcon grid reports to track ranking movement across Florida ZIP codes",

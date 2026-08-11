@@ -72,9 +72,9 @@ const included = [
       "HIPAA-compliant responses to every new review within 48 hours, across Google, Healthgrades, Zocdoc, WebMD, and Yelp. NFC tap cards and QR signs installed at onboarding to build review velocity ethically — no incentivized or purchased reviews, ever.",
   },
   {
-    title: "NAP Consistency & Technical SEO",
+    title: "Technical SEO Monitoring",
     detail:
-      "Monthly BrightLocal consistency check across 50+ directories — any drift fixed immediately. Google Search Console monitored for crawl errors and indexing issues each month.",
+      "Google Search Console monitored for crawl errors and indexing issues each month.",
   },
   {
     title: "Monthly Report + Founder Access",

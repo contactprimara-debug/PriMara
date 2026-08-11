@@ -59,7 +59,7 @@ const included = [
   {
     title: "Everything in the Foundation Package",
     detail:
-      "GBP optimization (8–10 categories, 30+ services, 4 posts/month, 1 photo/month), 2 monthly SEO content pages, review management across all platforms, NAP consistency monitoring, technical SEO, and monthly performance reports. Founder access throughout.",
+      "GBP optimization (8–10 categories, 30+ services, 4 posts/month, 1 photo/month), 2 monthly SEO content pages, review management across all platforms, technical SEO, and monthly performance reports. Founder access throughout.",
   },
   {
     title: "Google Ads Management",
