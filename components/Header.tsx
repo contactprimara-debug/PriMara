@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { siteConfig } from "@/lib/siteConfig";
+import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -63,6 +63,9 @@ export default function Header() {
     document.body.style.overflow = menuOpen ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
   }, [menuOpen]);
+
+  // Standalone landing pages ship their own minimal header — no sitewide nav.
+  if (STANDALONE_ROUTES.includes(pathname)) return null;
 
   return (
     <>

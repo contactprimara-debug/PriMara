@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { siteConfig } from "@/lib/siteConfig";
+import { usePathname } from "next/navigation";
+import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
 
 /* ── MobileCTABar ──────────────────────────────────────────────────────────
    Sticky tap-to-call bar, mobile only (md:hidden — desktop never renders it).
@@ -25,6 +26,7 @@ const SHOW_AFTER_PX = 500;
 
 export default function MobileCTABar() {
   const [visible, setVisible] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     document.body.classList.add("has-mobile-cta");
@@ -56,6 +58,9 @@ export default function MobileCTABar() {
       window.removeEventListener("resize", update);
     };
   }, []);
+
+  // Standalone landing pages ship their own CTAs — this bar would be redundant.
+  if (STANDALONE_ROUTES.includes(pathname)) return null;
 
   return (
     <div

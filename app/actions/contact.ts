@@ -15,6 +15,7 @@ export async function submitContact(
   const name = (formData.get("name") as string)?.trim();
   const phone = (formData.get("phone") as string)?.trim();
   const reason = (formData.get("reason") as string)?.trim();
+  const email = (formData.get("email") as string)?.trim();
   // Optional — some form variants (and cached pages) don't send these.
   // Never reject a lead over a missing secondary field.
   const practiceName = (formData.get("practiceName") as string)?.trim() || "(not provided)";
@@ -35,11 +36,13 @@ export async function submitContact(
     await sendLeadEmail({
       tag: "contact",
       subject: `New inquiry from ${name} — ${practiceName}`,
+      replyTo: email || undefined,
       text: [
         `Name: ${name}`,
         `Practice: ${practiceName}`,
         `Phone: ${phone}`,
         `Best time to call: ${callTime}`,
+        ...(email ? [`Email: ${email}`] : []),
         ...(reason ? [`Reason: ${reason}`] : []),
       ].join("\n"),
     });

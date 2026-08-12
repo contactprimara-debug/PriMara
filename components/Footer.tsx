@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
-import { siteConfig } from "@/lib/siteConfig";
+import { usePathname } from "next/navigation";
+import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
 
 /* ── Footer ────────────────────────────────────────────────────────────────
    Site-wide footer rendered in layout.tsx.
@@ -53,6 +56,10 @@ const RESOURCES_LINKS = [
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const pathname = usePathname();
+
+  // Standalone landing pages ship their own minimal footer — no sitewide nav.
+  if (STANDALONE_ROUTES.includes(pathname)) return null;
 
   return (
     <footer

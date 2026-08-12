@@ -11,3 +11,8 @@ export const siteConfig = {
   url: "https://primara365.com",
   founders: ["Liam Costello", "Gio LaRoche"],
 } as const;
+
+// Routes that ship their own self-contained header/footer/CTA bar (ad
+// landing pages) — Header, Footer, and MobileCTABar all hide themselves
+// here so sitewide chrome doesn't stack on top of a page's own.
+export const STANDALONE_ROUTES: string[] = ["/mental-health-audit"];

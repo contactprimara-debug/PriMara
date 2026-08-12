@@ -48,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    {
+      url: `${SITE_URL}/mental-health-audit`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
 
     // ── Priority 0.8 — Pillar / category pages ───────────────────────────
     {
