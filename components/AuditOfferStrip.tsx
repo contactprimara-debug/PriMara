@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import { useFormState, useFormStatus } from "react-dom";
 import { submitContact, type ContactState } from "@/app/actions/contact";
 import HoneypotField from "@/components/HoneypotField";
@@ -39,12 +40,16 @@ function SubmitBtn() {
 }
 
 export default function AuditOfferStrip() {
+  const router = useRouter();
   const [state, formAction] = useFormState(submitContact, initialState);
   const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
-    if (state.status === "success") formRef.current?.reset();
-  }, [state.status]);
+    if (state.status === "success") {
+      formRef.current?.reset();
+      router.push("/thank-you");
+    }
+  }, [state.status, router]);
 
   return (
     <section
