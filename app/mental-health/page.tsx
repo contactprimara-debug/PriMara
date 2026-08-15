@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const problemBlocks = [
   {
     heading: "Demand for therapy is at an all-time high. Supply of visible independent providers is not.",
-    body: "Google searches for therapists, counselors, and psychologists have increased over 300% since 2020 (Google Health Trends, 2024). That demand is real — and most of it is going to Psychology Today, BetterHelp, and Zocdoc because they've built the SEO infrastructure independent practices haven't. A solo therapist or small group practice with a well-optimized local presence can capture clients that $100M platforms are currently intercepting.",
+    body: "Google searches for therapists, counselors, and psychologists have increased over 300% since 2020 (Google Health Trends, 2024). That demand is real — and most of it is going to Psychology Today, BetterHelp, and Zocdoc because they've built the SEO infrastructure independent practices haven't. An independent therapist or group practice with a well-optimized local presence can capture clients that $100M platforms are currently intercepting.",
   },
   {
     heading: "Psychology Today is renting you your own audience",
@@ -76,7 +76,7 @@ const services = [
 ];
 
 const fits = [
-  "Solo therapist, psychologist, or licensed counselor",
+  "Independent therapist, psychologist, or licensed counselor",
   "Small group practice (2–8 clinicians)",
   "Private pay, insurance-based, or hybrid",
   "Independently owned, not a franchise or platform",
@@ -526,7 +526,7 @@ export default function MentalHealthPage() {
               marginBottom: "20px",
             }}
           >
-            Primara works with solo therapists, psychologists, psychiatrists, licensed counselors, and small group mental health practices. Private pay, insurance-based, and hybrid models. We do not work with BetterHelp, Talkspace, or any platform-based or corporate-owned practice.
+            Primara works with independent therapists, psychologists, psychiatrists, licensed counselors, and group mental health practices. Private pay, insurance-based, and hybrid models. We do not work with BetterHelp, Talkspace, or any platform-based or corporate-owned practice.
           </p>
           <p
             style={{

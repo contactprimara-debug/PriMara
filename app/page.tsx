@@ -246,7 +246,7 @@ export default function HomePage() {
                 lineHeight: 1.6,
               }}
             >
-              Solo therapists, psychologists, licensed counselors, group practices
+              Independent therapists, psychologists, licensed counselors, group practices
             </span>
             <span
               style={{

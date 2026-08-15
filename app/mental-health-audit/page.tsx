@@ -105,7 +105,7 @@ export default function MentalHealthAuditPage() {
             <div className={`${styles.fitCard} ${styles.fitCardYes}`}>
               <h3>Fits</h3>
               <ul>
-                <li>Solo therapist, psychologist, or licensed counselor</li>
+                <li>Independent therapist, psychologist, or licensed counselor</li>
                 <li>Small group practice (2&ndash;8 clinicians)</li>
                 <li>Private pay, insurance-based, or hybrid</li>
                 <li>Independently owned, not a franchise or platform</li>

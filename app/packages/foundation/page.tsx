@@ -386,7 +386,7 @@ export default function FoundationPackagePage() {
               marginBottom: "20px",
             }}
           >
-            Solo practitioners and single-location primary care or mental health practices in
+            Independent, single-location primary care or mental health practices in
             Florida that are early in their digital marketing journey.
             Practices that have either never claimed their Google Business
             Profile, or have a partial profile with no active management.
