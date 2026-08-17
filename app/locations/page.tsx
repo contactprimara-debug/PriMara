@@ -56,6 +56,69 @@ const breadcrumbSchema = {
   ],
 };
 
+// Renders a location grid grouped by region (South Florida, Tampa Bay, ...)
+// with a subheader per region — falls back to one ungrouped grid if every
+// location happens to be in a single region.
+function LocationCardGrid({ locations }: { locations: { slug: string; city: string; intro: string }[] }) {
+  const groups = REGIONS
+    .map((region) => ({ region, cities: locations.filter((loc) => region.cities.includes(loc.city)) }))
+    .filter((g) => g.cities.length > 0);
+  const showRegionLabels = groups.length > 1;
+
+  const grid = (cities: { slug: string; city: string; intro: string }[]) => (
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
+      {cities.map((loc) => (
+        <Link
+          key={loc.slug}
+          href={`/locations/${loc.slug}`}
+          style={{
+            display: "block",
+            backgroundColor: "var(--surface-2)",
+            border: "1px solid var(--wire)",
+            borderRadius: "6px",
+            padding: "24px",
+            textDecoration: "none",
+            transition: "border-color 0.2s",
+          }}
+        >
+          <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
+            {loc.city}, FL
+          </p>
+          <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
+            {loc.intro.slice(0, 120)}...
+          </p>
+        </Link>
+      ))}
+    </div>
+  );
+
+  if (!showRegionLabels) return grid(locations);
+
+  return (
+    <>
+      {groups.map(({ region, cities }) => (
+        <div key={region.name} style={{ marginBottom: "36px" }}>
+          <p
+            style={{
+              fontSize: "0.7rem",
+              letterSpacing: "0.12em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+              fontFamily: "system-ui, sans-serif",
+              marginBottom: "16px",
+              borderBottom: "1px solid var(--wire)",
+              paddingBottom: "10px",
+            }}
+          >
+            {region.name}
+          </p>
+          {grid(cities)}
+        </div>
+      ))}
+    </>
+  );
+}
+
 export default function LocationsPage() {
   return (
     <main className="pt-16">
@@ -117,30 +180,7 @@ export default function LocationsPage() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
-            {mensHealthLocations.map((loc) => (
-              <Link
-                key={loc.slug}
-                href={`/locations/${loc.slug}`}
-                style={{
-                  display: "block",
-                  backgroundColor: "var(--surface-2)",
-                  border: "1px solid var(--wire)",
-                  borderRadius: "6px",
-                  padding: "24px",
-                  textDecoration: "none",
-                  transition: "border-color 0.2s",
-                }}
-              >
-                <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
-                  {loc.city}, FL
-                </p>
-                <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
-                  {loc.intro.slice(0, 120)}...
-                </p>
-              </Link>
-            ))}
-          </div>
+          <LocationCardGrid locations={mensHealthLocations} />
         </div>
       </section>
 
@@ -159,52 +199,7 @@ export default function LocationsPage() {
             </p>
           </div>
 
-          {REGIONS.map((region) => {
-            const citiesInRegion = primaryCareLocations.filter((loc) => region.cities.includes(loc.city));
-            if (citiesInRegion.length === 0) return null;
-            return (
-              <div key={region.name} style={{ marginBottom: "36px" }}>
-                <p
-                  style={{
-                    fontSize: "0.7rem",
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                    color: "var(--smoke)",
-                    fontFamily: "system-ui, sans-serif",
-                    marginBottom: "16px",
-                    borderBottom: "1px solid var(--wire)",
-                    paddingBottom: "10px",
-                  }}
-                >
-                  {region.name}
-                </p>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
-                  {citiesInRegion.map((loc) => (
-                    <Link
-                      key={loc.slug}
-                      href={`/locations/${loc.slug}`}
-                      style={{
-                        display: "block",
-                        backgroundColor: "var(--surface-2)",
-                        border: "1px solid var(--wire)",
-                        borderRadius: "6px",
-                        padding: "24px",
-                        textDecoration: "none",
-                        transition: "border-color 0.2s",
-                      }}
-                    >
-                      <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
-                        {loc.city}, FL
-                      </p>
-                      <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
-                        {loc.intro.slice(0, 120)}...
-                      </p>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
+          <LocationCardGrid locations={primaryCareLocations} />
         </div>
       </section>
 
@@ -223,30 +218,7 @@ export default function LocationsPage() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
-            {mentalHealthLocations.map((loc) => (
-              <Link
-                key={loc.slug}
-                href={`/locations/${loc.slug}`}
-                style={{
-                  display: "block",
-                  backgroundColor: "var(--surface-2)",
-                  border: "1px solid var(--wire)",
-                  borderRadius: "6px",
-                  padding: "24px",
-                  textDecoration: "none",
-                  transition: "border-color 0.2s",
-                }}
-              >
-                <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
-                  {loc.city}, FL
-                </p>
-                <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
-                  {loc.intro.slice(0, 120)}...
-                </p>
-              </Link>
-            ))}
-          </div>
+          <LocationCardGrid locations={mentalHealthLocations} />
         </div>
       </section>
 

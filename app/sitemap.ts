@@ -246,6 +246,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/delray-beach-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/coral-gables-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/aventura-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/tampa-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/st-petersburg-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/clearwater-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/brandon-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/lakeland-mens-health-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
     // ── Priority 0.9 — Primary care city pages ───────────────────────────
     { url: `${SITE_URL}/locations/miami-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
@@ -285,6 +290,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/pembroke-pines-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/hollywood-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/port-st-lucie-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/tampa-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/st-petersburg-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/clearwater-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/brandon-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/lakeland-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
     // ── Priority 0.8 — High-intent keyword pages ─────────────────────────
     { url: `${SITE_URL}/pricing`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
