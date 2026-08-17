@@ -18,6 +18,14 @@ export const REGIONS: { name: string; cities: string[] }[] = [
     name: "Tampa Bay",
     cities: ["Clearwater", "St. Petersburg", "Tampa", "Brandon", "Lakeland"],
   },
+  {
+    name: "Orlando Metro",
+    cities: ["Sanford", "Altamonte Springs", "Winter Park", "Orlando", "Kissimmee"],
+  },
+  {
+    name: "Jacksonville",
+    cities: ["Fernandina Beach", "Jacksonville", "Jacksonville Beach", "Orange Park", "St. Augustine"],
+  },
 ];
 
 export function regionFor(city: string) {

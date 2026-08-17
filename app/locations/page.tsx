@@ -6,15 +6,15 @@ import { mensHealthLocations } from "@/lib/locations-mens-health";
 import { REGIONS } from "@/lib/locations-regions";
 
 export const metadata: Metadata = {
-  title: "Healthcare Marketing Agency Serving South Florida & Tampa Bay | Primara",
+  title: "Healthcare Marketing Agency Serving Florida | Primara",
   description:
-    "Primara serves independent men's health, primary care, and mental health practices across South Florida and Tampa Bay — Miami, Fort Lauderdale, Tampa, St. Petersburg, and more.",
+    "Primara serves independent men's health, primary care, and mental health practices across South Florida, Tampa Bay, Orlando Metro, and Jacksonville — Miami, Tampa, Orlando, Jacksonville, and more.",
   alternates: { canonical: "https://primara365.com/locations" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Healthcare Marketing Agency Serving South Florida & Tampa Bay | Primara",
+    title: "Healthcare Marketing Agency Serving Florida | Primara",
     description:
-      "Primara serves independent men's health, primary care, and mental health practices across South Florida and Tampa Bay — Miami, Fort Lauderdale, Tampa, St. Petersburg, and more.",
+      "Primara serves independent men's health, primary care, and mental health practices across South Florida, Tampa Bay, Orlando Metro, and Jacksonville — Miami, Tampa, Orlando, Jacksonville, and more.",
     type: "website",
     url: "https://primara365.com/locations",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -44,6 +44,16 @@ const localBusinessSchema = {
     { "@type": "City", "name": "Clearwater", "containedInPlace": { "@type": "State", "name": "Florida" } },
     { "@type": "City", "name": "Brandon", "containedInPlace": { "@type": "State", "name": "Florida" } },
     { "@type": "City", "name": "Lakeland", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Orlando", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Kissimmee", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Winter Park", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Altamonte Springs", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Sanford", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Jacksonville", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Jacksonville Beach", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "St. Augustine", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Orange Park", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Fernandina Beach", "containedInPlace": { "@type": "State", "name": "Florida" } },
   ],
 };
 
@@ -142,7 +152,7 @@ export default function LocationsPage() {
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontFamily: "system-ui, sans-serif", marginBottom: "16px" }}>
-            South Florida · Tampa Bay — Miami-Dade · Broward · Palm Beach · Hillsborough · Pinellas · Polk
+            South Florida · Tampa Bay · Orlando Metro · Jacksonville
           </p>
           <h1 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.15, marginBottom: "1.5rem", maxWidth: "820px" }}>
             Serving Independent Practices Across Florida
@@ -150,10 +160,10 @@ export default function LocationsPage() {
 
           <div style={{ maxWidth: "760px" }}>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              South Florida and Tampa Bay are among the most competitive healthcare markets in the United States. From Miami-Dade to Hillsborough County, independent physicians and mental health practitioners compete daily against hospital systems with nine-figure marketing budgets, urgent care chains opening on every corridor, and aggregator platforms that have turned patient acquisition into a pay-to-play environment. Local search visibility — specifically, what appears when a patient searches "primary care doctor near me" or "therapist West Palm Beach" — is no longer a nice-to-have for an independent practice. It is the primary driver of new patient volume.
+              South Florida, Tampa Bay, Orlando Metro, and Jacksonville are among the most competitive healthcare markets in the United States. From Miami-Dade to Duval County, independent physicians and mental health practitioners compete daily against hospital systems with nine-figure marketing budgets, urgent care chains opening on every corridor, and aggregator platforms that have turned patient acquisition into a pay-to-play environment. Local search visibility — specifically, what appears when a patient searches "primary care doctor near me" or "therapist West Palm Beach" — is no longer a nice-to-have for an independent practice. It is the primary driver of new patient volume.
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              Primara only takes on markets where we can bring genuine, granular market knowledge — not a templated playbook stretched across the whole state at once. The search landscape in Boca Raton is different from Fort Lauderdale's Flagler Village. The hospital systems competing against an independent physician in Tampa are different from the ones twenty minutes away in Clearwater. We build that market-by-market fluency deliberately, which is why our coverage today is South Florida and Tampa Bay, with more Florida markets added only once we've done the same depth of homework there.
+              Primara only takes on markets where we can bring genuine, granular market knowledge — not a templated playbook stretched across the whole state at once. The search landscape in Boca Raton is different from Fort Lauderdale's Flagler Village. The hospital systems competing against an independent physician in Tampa are different from the ones twenty minutes away in Clearwater. We build that market-by-market fluency deliberately, which is why our coverage today is South Florida, Tampa Bay, Orlando Metro, and Jacksonville, with more Florida markets added only once we've done the same depth of homework there.
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               We serve three verticals across every market we operate in: independent men’s health practices — TRT clinics, men’s wellness centers, and urology practices competing against national telehealth franchises; independent primary care practices — family medicine, internal medicine, geriatrics, and related primary care specialties; and independent mental health practices, from individual therapists and LMHCs to psychologists and group practices. All three face the same fundamental challenge: their best potential patients are searching Google right now, and those patients are finding a hospital-employed provider, a national franchise, or a chain-owned clinic before they ever see the independent practitioner who could serve them better.
