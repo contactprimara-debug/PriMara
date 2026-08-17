@@ -7,9 +7,12 @@ import { useEffect, useRef } from 'react';
    StatsCounter.tsx (third-party industry research, each stat individually
    cited). These are self-reported, so instead of a per-stat citation they
    carry one shared "as of" freshness date instead — update MONTH_YEAR and
-   the three stats below whenever the real numbers change. Never round up
+   the stats below whenever the real numbers change. Never round up
    past what's actually true; these need to be defensible if a prospect
    or competitor ever asks.
+
+   Locations = sum of patient locations across the current client roster
+   (14 + 4 + 1 + 1 + 1 = 21 as of Aug 2026) — rounded DOWN to 20+, never up.
 
    Deliberately no client names — see reference_primara_files memory,
    "anonymized/aggregate only" per Gio's 2026-08-17 decision. Do not turn
@@ -26,19 +29,14 @@ interface Stat {
 
 const stats: Stat[] = [
   {
-    target: "6",
-    suffix: "",
-    label: "Independent Practices We Serve",
-  },
-  {
     target: "100",
     suffix: "+",
     label: "Physicians & Clinicians Across Our Clients",
   },
   {
-    target: "14",
-    suffix: "",
-    label: "Locations At Our Largest Client Alone",
+    target: "20",
+    suffix: "+",
+    label: "Patient Locations Across Our Client Roster",
   },
 ];
 
