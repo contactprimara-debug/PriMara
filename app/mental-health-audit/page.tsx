@@ -65,10 +65,6 @@ export default function MentalHealthAuditPage() {
               Free. No obligation. Liam or Gio will walk you through it directly &mdash; not a template, not an
               intern.
             </p>
-            <p className={styles.scaleTrust}>
-              Trusted by <strong>100+</strong> physicians &amp; clinicians across <strong>20+</strong> patient
-              locations.
-            </p>
 
             <div className={styles.proofRow}>
               <div className={styles.proofStat}>
@@ -76,12 +72,12 @@ export default function MentalHealthAuditPage() {
                 <div className={styles.label}>increase in Google searches for therapists since 2020</div>
               </div>
               <div className={styles.proofStat}>
-                <div className={styles.num}>1 in 5</div>
-                <div className={styles.label}>US adults experience a mental health condition annually</div>
+                <div className={styles.num}>100+</div>
+                <div className={styles.label}>physicians &amp; clinicians across our clients</div>
               </div>
               <div className={styles.proofStat}>
-                <div className={styles.num}>6&ndash;8</div>
-                <div className={styles.label}>GBP categories a fully optimized practice carries &mdash; most have 1</div>
+                <div className={styles.num}>20+</div>
+                <div className={styles.label}>patient locations across our client roster</div>
               </div>
             </div>
           </div>

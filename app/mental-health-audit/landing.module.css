@@ -143,18 +143,6 @@
   max-width: 460px;
 }
 
-.scaleTrust {
-  font-size: 13px;
-  color: var(--ash);
-  margin-top: 14px;
-}
-.scaleTrust strong {
-  font-family: var(--font-display), Georgia, serif;
-  font-style: italic;
-  color: var(--gold);
-  font-weight: 400;
-}
-
 .proofRow {
   display: flex;
   gap: 36px;
@@ -200,25 +188,25 @@
 .founderTrust {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
+  gap: 14px;
+  padding: 14px;
   background: rgba(0, 0, 0, 0.25);
   border: 1px solid var(--wire);
   border-radius: 3px;
   margin-bottom: 22px;
 }
 .founderTrust img {
-  width: 36px;
-  height: 36px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 1px solid var(--gold);
+  border: 2px solid var(--gold);
 }
 .founderTrust span {
-  font-size: 12.5px;
+  font-size: 13px;
   color: var(--ash);
-  line-height: 1.4;
+  line-height: 1.45;
 }
 .founderTrust strong {
   color: var(--chalk);
