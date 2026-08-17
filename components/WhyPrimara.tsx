@@ -12,7 +12,7 @@ const cards = [
       </svg>
     ),
     title: "Independent Healthcare Practices Only.",
-    body: "Primara works exclusively with independently owned primary care practices and mental health practices. No hospital systems, no corporate chains, no PE-backed groups. We serve two niches and know both deeply — because serving everyone poorly is not a business model.",
+    body: "Primara works exclusively with independently owned primary care, mental health, and men's health practices. No hospital systems, no corporate chains, no PE-backed groups. We serve three niches and know all of them deeply — because serving everyone poorly is not a business model.",
   },
   {
     icon: (

@@ -24,6 +24,7 @@ const organizationSchema = {
 // ── Core layout ─────────────────────────────────────────────────────────── v2
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
+import TrackRecordStats from "@/components/TrackRecordStats";
 
 // ── Reviews section (rebuilt) ─────────────────────────────────────────────
 import ReviewsSection from "@/components/ReviewsSection";
@@ -262,6 +263,9 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* ── Track record — real client-roster numbers ───────────────────────── */}
+      <TrackRecordStats />
 
       {/* ── Reviews section ──────────────────────────────────────────────── */}
       <ReviewsSection />

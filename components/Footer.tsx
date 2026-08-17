@@ -118,8 +118,8 @@ export default function Footer() {
                 maxWidth: "260px",
               }}
             >
-              Primara365 is an independent digital marketing agency in Florida,
-              exclusively serving independent healthcare practices.
+              Primara365 is an independent digital marketing agency
+              exclusively serving independent healthcare practices, nationwide.
             </p>
 
             {/* NAP block — character-for-character GBP match */}

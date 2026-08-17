@@ -83,10 +83,15 @@ export default function AboutPage() {
             teams. No handoffs. When you have a question about your ranking or your report, you speak with the
             person who built the strategy and wrote the content &mdash; because that&rsquo;s us.
           </p>
+          <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
+            Today, that means managing digital marketing for 6 independent practices across primary care,
+            mental health, and men&rsquo;s health &mdash; representing more than 100 physicians and clinicians,
+            including one client with 14 locations alone.
+          </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            We work exclusively with independent, physician-owned primary care practices and privately owned
-            mental health practices. Not dental chains. Not urgent care franchises. Not hospital
-            systems. Two models, done well.
+            We work exclusively with independent, physician-owned practices &mdash; primary care, mental health,
+            and men&rsquo;s health. Not dental chains. Not urgent care franchises. Not hospital systems.
+            Independent medicine, done well.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
             <Link href="/motivation" style={{ color: "var(--gold)", textDecoration: "underline" }}>
