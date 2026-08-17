@@ -26,9 +26,8 @@ export default function MentalHealthAuditPage() {
     <div className={styles.page}>
       <header className={styles.header}>
         <div className={`${styles.wrap} ${styles.headerInner}`}>
-          <Link href="/" className={styles.logoGroup} aria-label="Primara365 — home">
-            <span className={styles.logoMark}>P</span>
-            <span className={styles.logoText}>Primara365</span>
+          <Link href="/" className={styles.logoText} aria-label="Primara365 — home">
+            Primara365
           </Link>
           <div className={styles.headerRight}>
             <a href={`tel:${siteConfig.phone}`} className={styles.phoneLink}>

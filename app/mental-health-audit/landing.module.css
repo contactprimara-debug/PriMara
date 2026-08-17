@@ -47,27 +47,13 @@
   align-items: center;
   justify-content: space-between;
 }
-.logoGroup {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.logoMark {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 1px solid var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gold);
-  font-size: 11px;
-}
 .logoText {
-  font-weight: 700;
-  font-size: 17px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 18px;
   color: var(--chalk);
-  letter-spacing: 0.2px;
+  text-decoration: none;
+  letter-spacing: -0.01em;
 }
 .headerRight {
   display: flex;
