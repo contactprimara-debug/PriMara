@@ -3,17 +3,18 @@ import Link from "next/link";
 import { primaryCareLocations } from "@/lib/locations-primary";
 import { mentalHealthLocations } from "@/lib/locations-mental";
 import { mensHealthLocations } from "@/lib/locations-mens-health";
+import { REGIONS } from "@/lib/locations-regions";
 
 export const metadata: Metadata = {
-  title: "Healthcare Marketing Agency Serving South Florida | Primara",
+  title: "Healthcare Marketing Agency Serving South Florida & Tampa Bay | Primara",
   description:
-    "Primara serves independent men's health, primary care, and mental health practices across South Florida — Miami, Fort Lauderdale, Boca Raton, West Palm Beach, and more.",
+    "Primara serves independent men's health, primary care, and mental health practices across South Florida and Tampa Bay — Miami, Fort Lauderdale, Tampa, St. Petersburg, and more.",
   alternates: { canonical: "https://primara365.com/locations" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Healthcare Marketing Agency Serving South Florida | Primara",
+    title: "Healthcare Marketing Agency Serving South Florida & Tampa Bay | Primara",
     description:
-      "Primara serves independent men's health, primary care, and mental health practices across South Florida — Miami, Fort Lauderdale, Boca Raton, West Palm Beach, and more.",
+      "Primara serves independent men's health, primary care, and mental health practices across South Florida and Tampa Bay — Miami, Fort Lauderdale, Tampa, St. Petersburg, and more.",
     type: "website",
     url: "https://primara365.com/locations",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -38,6 +39,11 @@ const localBusinessSchema = {
     { "@type": "City", "name": "Pompano Beach", "containedInPlace": { "@type": "State", "name": "Florida" } },
     { "@type": "City", "name": "Coral Springs", "containedInPlace": { "@type": "State", "name": "Florida" } },
     { "@type": "City", "name": "Jupiter", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Tampa", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "St. Petersburg", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Clearwater", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Brandon", "containedInPlace": { "@type": "State", "name": "Florida" } },
+    { "@type": "City", "name": "Lakeland", "containedInPlace": { "@type": "State", "name": "Florida" } },
   ],
 };
 
@@ -73,21 +79,21 @@ export default function LocationsPage() {
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontFamily: "system-ui, sans-serif", marginBottom: "16px" }}>
-            South Florida — Miami-Dade · Broward · Palm Beach
+            South Florida · Tampa Bay — Miami-Dade · Broward · Palm Beach · Hillsborough · Pinellas · Polk
           </p>
           <h1 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.15, marginBottom: "1.5rem", maxWidth: "820px" }}>
-            Serving Independent Practices Across South Florida
+            Serving Independent Practices Across Florida
           </h1>
 
           <div style={{ maxWidth: "760px" }}>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              South Florida is one of the most competitive healthcare markets in the United States. From Miami-Dade to Palm Beach County, independent physicians and mental health practitioners compete daily against hospital systems with nine-figure marketing budgets, urgent care chains opening on every corridor, and aggregator platforms that have turned patient acquisition into a pay-to-play environment. Local search visibility — specifically, what appears when a patient searches "primary care doctor near me" or "therapist West Palm Beach" — is no longer a nice-to-have for an independent practice. It is the primary driver of new patient volume.
+              South Florida and Tampa Bay are among the most competitive healthcare markets in the United States. From Miami-Dade to Hillsborough County, independent physicians and mental health practitioners compete daily against hospital systems with nine-figure marketing budgets, urgent care chains opening on every corridor, and aggregator platforms that have turned patient acquisition into a pay-to-play environment. Local search visibility — specifically, what appears when a patient searches "primary care doctor near me" or "therapist West Palm Beach" — is no longer a nice-to-have for an independent practice. It is the primary driver of new patient volume.
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              Primara operates exclusively in South Florida because local search dominance requires deep market knowledge, not a templated playbook. The search landscape in Boca Raton is different from the one in Fort Lauderdale's Flagler Village. The review velocity benchmarks for the Miami local pack are different from those in Palm Beach Gardens. The hospital systems competing against an independent internist in Pompano Beach are different from the ones in Coral Springs, four miles away. We know these markets the way a practice owner knows their patient population — with the granular, neighborhood-level fluency that produces rankings instead of reports.
+              Primara only takes on markets where we can bring genuine, granular market knowledge — not a templated playbook stretched across the whole state at once. The search landscape in Boca Raton is different from Fort Lauderdale's Flagler Village. The hospital systems competing against an independent physician in Tampa are different from the ones twenty minutes away in Clearwater. We build that market-by-market fluency deliberately, which is why our coverage today is South Florida and Tampa Bay, with more Florida markets added only once we've done the same depth of homework there.
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              We serve three verticals across every South Florida market: independent men’s health practices — TRT clinics, men’s wellness centers, and urology practices competing against national telehealth franchises; independent primary care practices — family medicine, internal medicine, geriatrics, and related primary care specialties; and independent mental health practices, from individual therapists and LMHCs to psychologists and group practices. All three face the same fundamental challenge: their best potential patients are searching Google right now, and those patients are finding a hospital-employed provider, a national franchise, or a chain-owned clinic before they ever see the independent practitioner who could serve them better.
+              We serve three verticals across every market we operate in: independent men’s health practices — TRT clinics, men’s wellness centers, and urology practices competing against national telehealth franchises; independent primary care practices — family medicine, internal medicine, geriatrics, and related primary care specialties; and independent mental health practices, from individual therapists and LMHCs to psychologists and group practices. All three face the same fundamental challenge: their best potential patients are searching Google right now, and those patients are finding a hospital-employed provider, a national franchise, or a chain-owned clinic before they ever see the independent practitioner who could serve them better.
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8 }}>
               The pages below are organized by market. Each city page contains specific intelligence about the competitive landscape in that area — which hospital systems are competing against independent physicians, what the Psychology Today saturation looks like for therapists, what patients in that city actually search for, and what review count and velocity benchmarks define the local search leaderboard. Select your city to see how Primara approaches your specific market.
@@ -153,30 +159,52 @@ export default function LocationsPage() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
-            {primaryCareLocations.map((loc) => (
-              <Link
-                key={loc.slug}
-                href={`/locations/${loc.slug}`}
-                style={{
-                  display: "block",
-                  backgroundColor: "var(--surface-2)",
-                  border: "1px solid var(--wire)",
-                  borderRadius: "6px",
-                  padding: "24px",
-                  textDecoration: "none",
-                  transition: "border-color 0.2s",
-                }}
-              >
-                <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
-                  {loc.city}, FL
+          {REGIONS.map((region) => {
+            const citiesInRegion = primaryCareLocations.filter((loc) => region.cities.includes(loc.city));
+            if (citiesInRegion.length === 0) return null;
+            return (
+              <div key={region.name} style={{ marginBottom: "36px" }}>
+                <p
+                  style={{
+                    fontSize: "0.7rem",
+                    letterSpacing: "0.12em",
+                    textTransform: "uppercase",
+                    color: "var(--smoke)",
+                    fontFamily: "system-ui, sans-serif",
+                    marginBottom: "16px",
+                    borderBottom: "1px solid var(--wire)",
+                    paddingBottom: "10px",
+                  }}
+                >
+                  {region.name}
                 </p>
-                <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
-                  {loc.intro.slice(0, 120)}...
-                </p>
-              </Link>
-            ))}
-          </div>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
+                  {citiesInRegion.map((loc) => (
+                    <Link
+                      key={loc.slug}
+                      href={`/locations/${loc.slug}`}
+                      style={{
+                        display: "block",
+                        backgroundColor: "var(--surface-2)",
+                        border: "1px solid var(--wire)",
+                        borderRadius: "6px",
+                        padding: "24px",
+                        textDecoration: "none",
+                        transition: "border-color 0.2s",
+                      }}
+                    >
+                      <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
+                        {loc.city}, FL
+                      </p>
+                      <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
+                        {loc.intro.slice(0, 120)}...
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

@@ -4,16 +4,7 @@ import type { Metadata } from "next";
 import { primaryCareLocations, type PrimaryCareLocation } from "@/lib/locations-primary";
 import { mentalHealthLocations, type MentalHealthLocation } from "@/lib/locations-mental";
 import { mensHealthLocations, type MensHealthLocation } from "@/lib/locations-mens-health";
-
-// South-to-north geographic order along the I-95/Turnpike corridor — used to
-// find real "nearby" cities within the same vertical rather than an arbitrary
-// data-entry order.
-const GEO_ORDER = [
-  "Miami", "Miami Beach", "Coral Gables", "Doral", "Hialeah", "Kendall", "Aventura",
-  "Hollywood", "Pembroke Pines", "Fort Lauderdale", "Coral Springs", "Pompano Beach",
-  "Boca Raton", "Delray Beach", "Boynton Beach", "West Palm Beach", "Palm Beach Gardens",
-  "Jupiter", "Stuart", "Port St. Lucie",
-];
+import { regionFor } from "@/lib/locations-regions";
 
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
 type MentalLoc = MentalHealthLocation & { type: "mental-health" };
@@ -69,12 +60,19 @@ export default function LocationPage({
   const loc = allLocations.find((l) => l.slug === params.slug);
   if (!loc) notFound();
 
-  // Nearby locations — same vertical, sorted by real geographic proximity
-  const currentGeoIndex = GEO_ORDER.indexOf(loc.city);
+  // Nearby locations — same vertical, same region first (sorted by real
+  // geographic proximity within that region), other regions only as a
+  // fallback if a region doesn't have enough same-vertical cities yet.
+  const currentRegion = regionFor(loc.city);
+  const currentRegionIndex = currentRegion ? currentRegion.cities.indexOf(loc.city) : -1;
   const nearbyLocations = allLocations
     .filter((l) => l.type === loc.type && l.slug !== loc.slug)
-    .map((l) => ({ loc: l, distance: Math.abs(GEO_ORDER.indexOf(l.city) - currentGeoIndex) }))
-    .sort((a, b) => a.distance - b.distance)
+    .map((l) => {
+      const sameRegion = !!currentRegion && currentRegion.cities.includes(l.city);
+      const distance = sameRegion ? Math.abs(currentRegion!.cities.indexOf(l.city) - currentRegionIndex) : Infinity;
+      return { loc: l, sameRegion, distance };
+    })
+    .sort((a, b) => (a.sameRegion === b.sameRegion ? a.distance - b.distance : a.sameRegion ? -1 : 1))
     .slice(0, 3)
     .map((x) => x.loc);
 

@@ -266,6 +266,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/hollywood-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/port-st-lucie-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/stuart-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/tampa-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/st-petersburg-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/clearwater-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/brandon-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/locations/lakeland-fl`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
     // ── Priority 0.9 — Mental health city pages ──────────────────────────
     { url: `${SITE_URL}/locations/miami-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
