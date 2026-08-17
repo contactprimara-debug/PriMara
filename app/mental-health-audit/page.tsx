@@ -65,6 +65,10 @@ export default function MentalHealthAuditPage() {
               Free. No obligation. Liam or Gio will walk you through it directly &mdash; not a template, not an
               intern.
             </p>
+            <p className={styles.scaleTrust}>
+              Trusted by <strong>100+</strong> physicians &amp; clinicians across <strong>20+</strong> patient
+              locations.
+            </p>
 
             <div className={styles.proofRow}>
               <div className={styles.proofStat}>
@@ -88,6 +92,16 @@ export default function MentalHealthAuditPage() {
             <p className={styles.formSub}>
               GBP score, competitor gap, and a 5-point plan &mdash; delivered by Liam or Gio directly.
             </p>
+            <div className={styles.founderTrust}>
+              <picture>
+                <source type="image/webp" srcSet="/founders/liam-480.webp" />
+                {/* eslint-disable-next-line @next/next/no-img-element -- static export-friendly, matches AboutSection.tsx pattern */}
+                <img src="/founders/liam-480.jpg" alt="Liam Costello, Co-Founder of Primara" loading="lazy" decoding="async" />
+              </picture>
+              <span>
+                Reviewed personally by <strong>Liam Costello</strong>, Co-Founder &mdash; every request, every time.
+              </span>
+            </div>
             <AuditLandingForm />
           </div>
         </div>
