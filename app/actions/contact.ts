@@ -1,6 +1,7 @@
 "use server";
 
 import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
+import { pushLeadToCrm } from "@/lib/crm";
 
 export type ContactState = {
   status: "idle" | "success" | "error";
@@ -32,8 +33,22 @@ export async function submitContact(
     return { status: "success", firstName };
   }
 
-  try {
-    await sendLeadEmail({
+  // The CRM push is the durable record — it doesn't depend on email
+  // delivery or downstream forwarding, either of which can fail silently
+  // after Resend reports success. Run both, and only tell the visitor we
+  // lost their message if the CRM save ALSO failed; email alone failing
+  // still means the lead is safely captured.
+  const [crmResult, emailResult] = await Promise.allSettled([
+    pushLeadToCrm({
+      contactName: name,
+      practiceName,
+      phone,
+      email,
+      notes: [callTime ? `Best time to call: ${callTime}` : null, reason ? `Reason: ${reason}` : null]
+        .filter(Boolean)
+        .join("\n"),
+    }),
+    sendLeadEmail({
       tag: "contact",
       subject: `New inquiry from ${name} — ${practiceName}`,
       replyTo: email || undefined,
@@ -45,9 +60,21 @@ export async function submitContact(
         ...(email ? [`Email: ${email}`] : []),
         ...(reason ? [`Reason: ${reason}`] : []),
       ].join("\n"),
-    });
-  } catch (err) {
-    console.error("[contact] Resend send failed:", err);
+    }),
+  ]);
+
+  const savedToCrm = crmResult.status === "fulfilled" && crmResult.value.ok;
+  if (!savedToCrm) {
+    console.error(
+      "[contact] CRM save failed:",
+      crmResult.status === "rejected" ? crmResult.reason : crmResult.value.reason
+    );
+  }
+  if (emailResult.status === "rejected") {
+    console.error("[contact] Resend send failed:", emailResult.reason);
+  }
+
+  if (!savedToCrm && emailResult.status === "rejected") {
     return { status: "error", error: "Could not send your message. Please call us directly at (561) 291-2681." };
   }
 

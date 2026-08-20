@@ -1,6 +1,7 @@
 "use server";
 
 import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
+import { pushLeadToCrm } from "@/lib/crm";
 
 export type PackageInquiryState = {
   status: "idle" | "success" | "error";
@@ -30,8 +31,17 @@ export async function submitPackageInquiry(
     return { status: "success", firstName };
   }
 
-  try {
-    await sendLeadEmail({
+  // See app/actions/contact.ts for why this runs both in parallel and only
+  // reports an error to the visitor if the CRM save also failed.
+  const [crmResult, emailResult] = await Promise.allSettled([
+    pushLeadToCrm({
+      contactName: name,
+      practiceName: practice,
+      phone,
+      email,
+      notes: `Package inquiry: ${pkg}\n\nNotes:\n${notes}`,
+    }),
+    sendLeadEmail({
       tag: "packageInquiry",
       subject: `Package inquiry — ${pkg} — ${name} (${practice})`,
       replyTo: email,
@@ -47,9 +57,21 @@ export async function submitPackageInquiry(
         `Notes:`,
         notes,
       ].join("\n"),
-    });
-  } catch (err) {
-    console.error("[packageInquiry] Resend send failed:", err);
+    }),
+  ]);
+
+  const savedToCrm = crmResult.status === "fulfilled" && crmResult.value.ok;
+  if (!savedToCrm) {
+    console.error(
+      "[packageInquiry] CRM save failed:",
+      crmResult.status === "rejected" ? crmResult.reason : crmResult.value.reason
+    );
+  }
+  if (emailResult.status === "rejected") {
+    console.error("[packageInquiry] Resend send failed:", emailResult.reason);
+  }
+
+  if (!savedToCrm && emailResult.status === "rejected") {
     return {
       status: "error",
       error: "Could not send your inquiry. Please email liam.costello@primara365.com or call (561) 291-2681.",
