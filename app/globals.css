@@ -36,6 +36,9 @@
      resolves to nothing (which causes FOUT / layout-shift "lag"). */
   --font-mono:      'Courier New', Courier, monospace;
   --font-fraunces:  var(--font-display, Georgia, serif);
+
+  /* Easing for the cross-page fade transition (RouteFade.tsx) */
+  --ease-soft: cubic-bezier(.33, 1, .68, 1);
 }
 
 /* ── Base ────────────────────────────────────────────────────────────────── */
@@ -212,6 +215,24 @@ body::after {
   #preloader, .preloader-letter, #preloader-fill {
     animation-duration: 0.01s;
     animation-delay: 0s;
+  }
+  html.js .page-fade {
+    animation: none;
+  }
+}
+
+/* ── Page-to-page transition (RouteFade.tsx) ──────────────────────────────
+   Re-keyed on every route change so client-side navigation fades the new
+   page in instead of hard-cutting — same soft entrance the preloader gives
+   the homepage, but for every page after it. Gated on html.js so a page
+   never gets stuck invisible if the script fails to run. */
+@media (prefers-reduced-motion: no-preference) {
+  html.js .page-fade {
+    animation: page-fade-in .75s var(--ease-soft) both;
+  }
+  @keyframes page-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 }
 

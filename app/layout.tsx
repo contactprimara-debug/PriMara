@@ -10,6 +10,7 @@ import InteractionEffects from "@/components/InteractionEffects";
 import HashScroll from "@/components/HashScroll";
 import MobileCTABar from "@/components/MobileCTABar";
 import Preloader from "@/components/Preloader";
+import RouteFade from "@/components/RouteFade";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
 
 const instrumentSerif = Instrument_Serif({
@@ -113,7 +114,7 @@ export default function RootLayout({
 
         {/* ── Page content ─────────────────────────────────────────────── */}
         <Header />
-        {children}
+        <RouteFade>{children}</RouteFade>
         <Footer />
 
         {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
