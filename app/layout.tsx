@@ -85,6 +85,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* ── Early connections to the third-party origins every page load
+              depends on (GTM, GA4, Google Ads remarketing, GSAP/Lenis CDN,
+              Cloudflare). TBT is low here — the real cost is 5+ separate
+              DNS+TLS handshakes stacking up before first paint. This starts
+              those handshakes immediately instead of waiting for each
+              script tag to be discovered in turn. Doesn't change what
+              loads or when it fires, only how early the connection opens. */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://www.googleadservices.com" />
+        <link rel="preconnect" href="https://googleads.g.doubleclick.net" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.googleadservices.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
         {/* LocalBusiness schema — present on every page */}
         <script
           type="application/ld+json"
