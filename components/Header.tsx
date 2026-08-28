@@ -106,17 +106,15 @@ export default function Header() {
           aria-label="Primara365 — home"
           className="magnetic"
           style={{
-            fontFamily: "Georgia, 'Times New Roman', serif",
-            fontStyle: "italic",
-            fontSize: "18px",
-            color: "var(--chalk)",
-            textDecoration: "none",
-            letterSpacing: "-0.01em",
             display: "inline-block",
             marginRight: "clamp(16px, 2.2vw, 36px)",
           }}
         >
-          Primara365
+          <img
+            src="/primara-logo.png"
+            alt="Primara365"
+            style={{ height: "28px", width: "auto", display: "block" }}
+          />
         </Link>
 
         {/* Center — desktop nav links */}

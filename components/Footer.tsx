@@ -82,17 +82,15 @@ export default function Footer() {
             <Link
               href="/"
               style={{
-                fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
-                fontStyle: "italic",
-                fontSize: "20px",
-                color: "var(--chalk)",
-                textDecoration: "none",
-                letterSpacing: "-0.01em",
                 display: "inline-block",
                 width: "fit-content",
               }}
             >
-              Primara365
+              <img
+                src="/primara-logo.png"
+                alt="Primara365"
+                style={{ height: "32px", width: "auto", display: "block" }}
+              />
             </Link>
 
             {/* Motto */}
