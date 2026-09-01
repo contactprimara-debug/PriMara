@@ -20,6 +20,8 @@ export const localBusinessSchema = {
   "@type": ["LocalBusiness", "ProfessionalService"],
   name: "Primara",
   url: SITE_URL,
+  logo: `${SITE_URL}/primara-logo-square.png`,
+  image: [`${SITE_URL}/primara-logo.png`, `${SITE_URL}/primara-logo-square.png`],
   telephone: "+15612912681",
   email: "liam.costello@primara365.com",
   address: {

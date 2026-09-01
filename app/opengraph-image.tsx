@@ -5,16 +5,15 @@ export const alt = "Primara — Digital Marketing for Independent Medical Practi
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-// Edge ImageResponse has no system fonts (Georgia etc. silently fall back to a
-// generic sans-serif), so the italic serif wordmark must be embedded directly —
-// this is the same Instrument Serif Italic used for the nav wordmark/headings.
-// @vercel/og only supports ttf/otf/woff (not woff2), so both are bundled locally.
-const serifFontUrl = new URL("./instrument-serif-italic.ttf", import.meta.url);
+// The shared-link card uses the official framed Didot logo (public/primara-logo.png)
+// embedded directly as an ArrayBuffer — @vercel/og accepts that as an img src.
+// Edge ImageResponse has no system fonts, so the supporting type is embedded too.
+const logoUrl = new URL("../public/primara-logo.png", import.meta.url);
 const sansFontUrl = new URL("./inter-semibold.woff", import.meta.url);
 
 export default async function OgImage() {
-  const [serifFontData, sansFontData] = await Promise.all([
-    fetch(serifFontUrl).then((res) => res.arrayBuffer()),
+  const [logoData, sansFontData] = await Promise.all([
+    fetch(logoUrl).then((res) => res.arrayBuffer()),
     fetch(sansFontUrl).then((res) => res.arrayBuffer()),
   ]);
 
@@ -28,39 +27,23 @@ export default async function OgImage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: "#050505",
+          backgroundColor: "#0D0D0D",
           position: "relative",
         }}
       >
-        {/* Top accent line — matches the gold-rule treatment used on CTA sections sitewide */}
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "4px",
-            backgroundColor: "#C9A84C",
-          }}
+        {/* Official framed logo — its own black field blends into the card */}
+        {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+        <img
+          // @ts-expect-error — @vercel/og accepts ArrayBuffer as src
+          src={logoData}
+          width={980}
+          height={305}
+          style={{ marginBottom: "44px" }}
         />
-
-        <div
-          style={{
-            fontFamily: "Instrument Serif",
-            fontStyle: "italic",
-            fontSize: "128px",
-            color: "#C9A84C",
-            letterSpacing: "-2px",
-            lineHeight: 1,
-            marginBottom: "28px",
-          }}
-        >
-          Primara
-        </div>
         <div
           style={{
             fontFamily: "Inter",
-            fontSize: "24px",
+            fontSize: "23px",
             fontWeight: 600,
             color: "#AEAEAE",
             letterSpacing: "5px",
@@ -72,7 +55,7 @@ export default async function OgImage() {
         <div
           style={{
             position: "absolute",
-            bottom: "56px",
+            bottom: "44px",
             fontFamily: "Inter",
             fontSize: "17px",
             color: "#7A7A7A",
@@ -86,12 +69,6 @@ export default async function OgImage() {
     {
       ...size,
       fonts: [
-        {
-          name: "Instrument Serif",
-          data: serifFontData,
-          style: "italic",
-          weight: 400,
-        },
         {
           name: "Inter",
           data: sansFontData,

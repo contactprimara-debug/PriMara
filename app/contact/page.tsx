@@ -8,6 +8,8 @@ const contactLocalBusinessSchema = {
   "@type": ["LocalBusiness", "ProfessionalService"],
   name: "Primara",
   url: SITE_URL,
+  logo: `${SITE_URL}/primara-logo-square.png`,
+  image: `${SITE_URL}/primara-logo.png`,
   telephone: "+15612912681",
   address: {
     "@type": "PostalAddress",
