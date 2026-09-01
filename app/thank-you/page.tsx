@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import LeadConversionPing from "@/components/LeadConversionPing";
 
 export const metadata: Metadata = {
   title: "Thank You | Primara",
@@ -67,6 +68,7 @@ const facts = [
 export default function ThankYouPage() {
   return (
     <main data-page="thank-you" style={{ background: "var(--void)", minHeight: "100vh" }}>
+      <LeadConversionPing />
 
       {/* Logo bar only — no nav */}
       <div style={{ padding: "20px clamp(24px, 6vw, 80px)", borderBottom: "1px solid var(--wire)" }}>

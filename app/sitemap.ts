@@ -326,6 +326,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/orange-park-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/locations/fernandina-beach-therapist-marketing`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
+    // ── Priority 0.8 — Service × location pages (content matrix) ─────────
+    { url: `${SITE_URL}/locations/medical-seo-west-palm-beach`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/locations/medical-seo-florida`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/locations/gbp-optimization-florida`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+
     // ── Priority 0.8 — High-intent keyword pages ─────────────────────────
     { url: `${SITE_URL}/pricing`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/therapist-seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },

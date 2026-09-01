@@ -246,6 +246,8 @@ export default function GBPPage() {
           { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service behind ranking for '[specialty] [city]' searches on Google." },
           { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and response systems that outpace corporate competitors." },
           { href: "/blog/why-your-medical-practice-isnt-showing-up-on-google-maps", label: "Why You're Not Showing Up on Google Maps", description: "The most common reasons independent practices are invisible on Google Maps." },
+          { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "How we build and manage Business Profiles for Florida practices statewide." },
+          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The full SEO stack for practices in our home market." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="gbp-cta">

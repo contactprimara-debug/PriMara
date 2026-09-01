@@ -555,6 +555,8 @@ export default function SEOServicePage() {
           { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service behind ranking for '[specialty] [city]' searches on Google." },
           { href: "/services/ai-seo", label: "AI SEO / GEO", description: "Making sure ChatGPT, Gemini, and AI Overviews recommend your practice, not just Google's blue links." },
           { href: "/blog/what-is-local-seo-for-doctors", label: "What Is Local SEO for Doctors?", description: "A plain-English guide to what local SEO actually means for a medical practice." },
+          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "Our home market — the full SEO stack for West Palm Beach practices." },
+          { href: "/locations/medical-seo-florida", label: "Medical SEO for Florida Practices", description: "Statewide medical SEO from Miami to Jacksonville." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
