@@ -3,18 +3,18 @@ import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
-const PAGE_URL = `${SITE_URL}/locations/medical-seo-florida`;
+const PAGE_URL = `${SITE_URL}/locations/ai-seo-west-palm-beach`;
 
 export const metadata: Metadata = {
-  title: "Medical SEO for Florida Practices | Primara",
+  title: "AI SEO in West Palm Beach, FL | Primara",
   description:
-    "Florida medical SEO from a Florida-based agency. Local SEO, Google Business Profile, and content strategy for independent practices from Miami to Jacksonville. Call (561) 291-2681.",
+    "AI SEO (GEO) for independent medical practices in West Palm Beach — structured data, AI crawler access, and content built to be cited by ChatGPT and AI Overviews. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Medical SEO for Florida Practices | Primara",
+    title: "AI SEO in West Palm Beach, FL | Primara",
     description:
-      "Florida medical SEO from a Florida-based agency — local SEO, GBP, and content strategy for independent practices statewide.",
+      "AI SEO (GEO) for independent medical practices in West Palm Beach — structured data, AI crawler access, and content built to be cited by AI search.",
     type: "website",
     url: PAGE_URL,
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -28,14 +28,14 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
     { "@type": "ListItem", position: 2, name: "Locations", item: `${SITE_URL}/locations` },
-    { "@type": "ListItem", position: 3, name: "Medical SEO Florida", item: PAGE_URL },
+    { "@type": "ListItem", position: 3, name: "AI SEO West Palm Beach", item: PAGE_URL },
   ],
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Medical SEO for Florida Practices",
+  name: "AI SEO in West Palm Beach",
   url: PAGE_URL,
   provider: {
     "@type": "LocalBusiness",
@@ -45,31 +45,40 @@ const serviceSchema = {
       "@type": "PostalAddress",
       addressLocality: "West Palm Beach",
       addressRegion: "FL",
+      postalCode: "33401",
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "State", name: "Florida" },
-  serviceType: "Search Engine Optimization for Medical Practices",
+  areaServed: {
+    "@type": "City",
+    name: "West Palm Beach",
+    containedInPlace: { "@type": "State", name: "Florida" },
+  },
+  serviceType: "Generative Engine Optimization for Medical Practices",
   description:
-    "Local and organic SEO for independent medical practices across Florida — Google Business Profile optimization, on-page optimization, technical SEO, and content strategy for practices from South Florida to Jacksonville.",
+    "AI SEO (Generative Engine Optimization) for independent medical practices in West Palm Beach, Florida — structured data, AI crawler access, and content structured so AI systems like ChatGPT and Google AI Overviews can accurately find and cite the practice.",
 };
 
 const faqs = [
   {
-    q: "Which Florida markets do you cover?",
-    a: "All of them. We're based in West Palm Beach and publish dedicated marketing pages for markets across South Florida, Tampa Bay, Orlando, and Northeast Florida — from Miami and Fort Lauderdale up to Jacksonville and St. Augustine. The process is the same statewide; the competitive landscape is what changes city to city.",
+    q: "What is AI SEO / GEO?",
+    a: "AI SEO — also called Generative Engine Optimization (GEO) or Answer Engine Optimization (AEO) — is the practice of structuring a website so AI systems like ChatGPT, Perplexity, and Google AI Overviews can accurately find, understand, and cite it. It sits alongside traditional SEO rather than replacing it: the same technical foundation — fast pages, real content, structured data — helps with both.",
   },
   {
-    q: "Does SEO work differently in Florida than elsewhere?",
-    a: "The mechanics are identical, but Florida is one of the most competitive healthcare markets in the country — large hospital systems, heavy urgent-care density, and seasonal population swings that shift search volume. That makes disciplined local SEO more valuable here, not less: the practices that do the work stand out faster against competitors who rely on brand recognition alone.",
+    q: "Why does this matter for a West Palm Beach practice?",
+    a: "Patients increasingly ask AI assistants the same questions they used to type into Google — \"who's a good primary care doctor in West Palm Beach?\" If your practice's site isn't technically readable to those systems, you're simply not in the answer. The work makes sure you're findable and accurately represented when patients ask.",
   },
   {
-    q: "What kinds of practices do you work with?",
-    a: "Independent practices only — primary care (family medicine, internal medicine, pediatrics, concierge and direct primary care), mental health therapists and group practices, and men's health clinics. We don't take hospital systems, urgent care chains, or dental groups.",
+    q: "Can you guarantee my practice will show up in ChatGPT?",
+    a: "No — and you should be skeptical of anyone who does. No one controls what an AI model decides to cite; these systems pull from many sources and their behavior changes as they're updated. What we can do is make sure your practice is technically ready to be found and accurately represented when it is — correct structured data, no accidental crawler blocks, and content written the way these systems actually quote it.",
   },
   {
-    q: "What does Florida medical SEO cost?",
-    a: "It depends on scope — market competitiveness, number of locations, and the state of your current website. Every engagement starts with a free audit of your existing Google presence, and everything is month-to-month after the initial setup period. No long-term contracts.",
+    q: "Do you do this for your own website?",
+    a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service.",
+  },
+  {
+    q: "Is there a separate cost for AI SEO?",
+    a: "For most clients it's built into the SEO or Foundation/Visibility package rather than sold separately — the technical work overlaps heavily with what we already do for traditional SEO. We'll tell you plainly if your situation calls for additional scope.",
   },
 ];
 
@@ -83,30 +92,26 @@ const faqSchema = {
   })),
 };
 
-const regions = [
+const deliverables = [
   {
-    name: "South Florida",
-    body: "Miami, Fort Lauderdale, Boca Raton, West Palm Beach and the surrounding Palm Beach, Broward, and Miami-Dade markets — the densest, most competitive healthcare region in the state.",
-    example: { href: "/locations/miami-fl", label: "Miami primary care marketing" },
+    title: "Structured Data That AI Systems Can Read",
+    body: "Schema markup — LocalBusiness, Service, and FAQ — on every page that matters, so AI systems and search engines alike can identify who you are, what you treat, and where you practice in West Palm Beach.",
   },
   {
-    name: "Tampa Bay",
-    body: "Tampa, St. Petersburg, Clearwater, Brandon, and Lakeland — fast-growing suburbs where independent practices can still claim local search territory before the systems lock it up.",
-    example: { href: "/locations/tampa-fl", label: "Tampa primary care marketing" },
+    title: "AI Crawler Access, Deliberately Configured",
+    body: "Many sites block AI crawlers by accident through old robots.txt rules or firewall settings. We audit and configure crawler access — including an llms.txt file — so the systems patients actually ask can read your site.",
   },
   {
-    name: "Orlando & Central Florida",
-    body: "Orlando, Kissimmee, Winter Park, Altamonte Springs, and Sanford — high population growth means a constant stream of new patients searching for a doctor for the first time.",
-    example: { href: "/locations/orlando-fl", label: "Orlando primary care marketing" },
+    title: "Content Written the Way AI Quotes It",
+    body: "Direct answers to real patient questions, structured as questions and answers — the format AI systems lift citations from. Grounded in what your practice actually offers, never invented claims.",
   },
   {
-    name: "Northeast Florida",
-    body: "Jacksonville, Jacksonville Beach, St. Augustine, and Orange Park — a large metro with comparatively less local-SEO sophistication, which is exactly the opening an independent practice needs.",
-    example: { href: "/locations/jacksonville-fl", label: "Jacksonville primary care marketing" },
+    title: "Built on the Traditional SEO Foundation",
+    body: "AI SEO isn't a separate universe — fast pages, clean structure, and real content help both. We run it alongside the same local SEO and GBP work that gets you found on Google today.",
   },
 ];
 
-export default function MedicalSeoFloridaPage() {
+export default function AiSeoWestPalmBeachPage() {
   return (
     <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
@@ -121,7 +126,7 @@ export default function MedicalSeoFloridaPage() {
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li style={{ color: "var(--chalk)" }}>Medical SEO Florida</li>
+            <li style={{ color: "var(--chalk)" }}>AI SEO West Palm Beach</li>
           </ol>
         </div>
       </nav>
@@ -138,7 +143,7 @@ export default function MedicalSeoFloridaPage() {
               textTransform: "uppercase" as const, color: "var(--gold)",
             }}
           >
-            Statewide · Florida
+            West Palm Beach, Florida
           </div>
           <h1
             style={{
@@ -148,13 +153,13 @@ export default function MedicalSeoFloridaPage() {
               maxWidth: "800px", marginBottom: "24px",
             }}
           >
-            Medical SEO for Florida Practices
+            AI SEO in West Palm Beach
           </h1>
           <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "640px", marginBottom: "40px" }}>
-            Primara is a Florida-based medical marketing agency serving independent practices
-            across the state — from Miami to Jacksonville. We run the full SEO stack: Google
-            Business Profile, local rankings, on-page optimization, technical health, and
-            content strategy, market by market.
+            Primara is a West Palm Beach medical marketing agency built for independent
+            practices. We structure your site so AI systems — ChatGPT, Perplexity,
+            Google AI Overviews — can accurately find, understand, and cite your
+            practice when local patients ask them for a recommendation.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
@@ -170,53 +175,52 @@ export default function MedicalSeoFloridaPage() {
         </div>
       </section>
 
-      {/* Florida context */}
+      {/* Local context */}
       <section style={{ backgroundColor: "var(--surface)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <div style={{ maxWidth: "760px" }}>
             <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "24px" }}>
-              The Florida Reality
+              Why It Matters Here
             </p>
             <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "24px" }}>
-              Florida is where independent practices face the heaviest competition — and the biggest local-search opening.
+              Patients are starting to ask AI instead of Google.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              Between the hospital systems, the urgent-care chains, and the constant influx of
-              new residents searching for a doctor for the first time, Florida healthcare search
-              is crowded. But most of that competition runs on brand recognition, not on
-              disciplined local SEO — profiles sit half-configured, service pages don&rsquo;t
-              exist, and reviews go unanswered.
+              The question &ldquo;who&rsquo;s a good primary care doctor in West Palm
+              Beach?&rdquo; is now asked to ChatGPT and answered by Google&rsquo;s AI
+              Overviews before a patient ever sees a traditional results page. Those
+              systems can only recommend practices they can read: sites with clean
+              structured data, open crawler access, and content that answers questions
+              directly. Most practice websites have none of the three.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              That is the opening. An independent practice that does the fundamentals properly —
-              a complete Google Business Profile, pages that match real patient searches, and a
-              technically healthy website — can outrank much larger organizations in its own
-              neighborhood. That is the entire premise of our work.
+              We do this work from West Palm Beach, for independent primary care, mental
+              health, and men&rsquo;s health practices — and we run the same setup on
+              our own site, so it&rsquo;s a practiced service, not a theoretical one.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Regions */}
+      {/* Deliverables */}
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 7vw, 80px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "48px" }}>
-            Markets We Cover
+            What We Do
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1px", backgroundColor: "var(--wire)", border: "1px solid var(--wire)", borderRadius: "4px", overflow: "hidden" }}>
-            {regions.map((r) => (
-              <div key={r.name} style={{ backgroundColor: "var(--void)", padding: "clamp(24px, 3vw, 36px)", display: "flex", flexDirection: "column", gap: "12px" }}>
-                <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: 0 }}>{r.name}</h2>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.7, margin: 0 }}>{r.body}</p>
-                <Link href={r.example.href} style={{ fontSize: "0.8125rem", color: "var(--gold)", textDecoration: "none" }}>
-                  {r.example.label} →
-                </Link>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            {deliverables.map((d, idx) => (
+              <div key={d.title} style={{ borderTop: "1px solid var(--wire)", padding: "clamp(28px, 4vw, 44px) 0", display: "grid", gridTemplateColumns: "auto 1fr", gap: "clamp(20px, 4vw, 56px)" }}>
+                <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "11px", letterSpacing: "0.14em", color: "var(--smoke)" }}>0{idx + 1}</div>
+                <div>
+                  <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.25rem, 2.5vw, 1.75rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "12px" }}>
+                    {d.title}
+                  </h2>
+                  <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", margin: 0 }}>{d.body}</p>
+                </div>
               </div>
             ))}
           </div>
-          <p style={{ marginTop: "24px", fontSize: "0.875rem", color: "var(--smoke)" }}>
-            Browse all city pages on the <Link href="/locations" style={{ color: "var(--ash)" }}>locations hub</Link>.
-          </p>
         </div>
       </section>
 
@@ -242,10 +246,9 @@ export default function MedicalSeoFloridaPage() {
         eyebrow="Related"
         heading="Related Services & Locations"
         items={[
-          { href: "/services/seo", label: "SEO for Medical Practices", description: "The full SEO service — what's included, timelines, and how we report progress." },
-          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "Our home market — medical SEO for West Palm Beach practices." },
-          { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "How we build and manage Google Business Profiles for Florida practices." },
-          { href: "/locations/google-ads-management-florida", label: "Google Ads Management in Florida", description: "The paid side — statewide Google Ads management for Florida practices." },
+          { href: "/services/ai-seo", label: "AI SEO (GEO) Service", description: "The full AI SEO service — what it is, what it includes, and what we won't promise." },
+          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The traditional SEO foundation AI SEO builds on, for practices in our home market." },
+          { href: "/locations/gbp-optimization-west-palm-beach", label: "GBP Optimization in West Palm Beach", description: "The Maps-pack side of local visibility for West Palm Beach practices." },
         ]}
       />
 
@@ -253,7 +256,7 @@ export default function MedicalSeoFloridaPage() {
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", marginBottom: "1rem" }}>
-            Ready to Get Found Across Florida?
+            Ready to Be the Answer in West Palm Beach?
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "2rem", fontSize: "1rem" }}>
             We start with a free audit of your current Google presence — delivered in 3–5 business days.

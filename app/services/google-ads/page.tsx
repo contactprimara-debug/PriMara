@@ -571,6 +571,8 @@ export default function GoogleAdsPage() {
           { href: "/services/patient-acquisition-ads", label: "Patient Acquisition Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
           { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
           { href: "/specialties/trt-clinics", label: "TRT Clinics", description: "Marketing built specifically for independent TRT clinics competing with national telehealth brands." },
+          { href: "/locations/google-ads-management-west-palm-beach", label: "Google Ads Management in West Palm Beach", description: "Google Ads management for practices in our home market." },
+          { href: "/locations/google-ads-management-florida", label: "Google Ads Management in Florida", description: "Statewide Google Ads management for Florida practices, Miami to Jacksonville." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

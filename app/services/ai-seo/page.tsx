@@ -473,6 +473,7 @@ export default function AiSeoPage() {
           { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
           { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The core service behind ranking for '[specialty] [city]' searches on Google." },
           { href: "/blog/what-is-local-seo-for-doctors", label: "What Is Local SEO for Doctors?", description: "A plain-English guide to what local SEO actually means for a medical practice." },
+          { href: "/locations/ai-seo-west-palm-beach", label: "AI SEO in West Palm Beach", description: "The same AI SEO work, for practices in our home market." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

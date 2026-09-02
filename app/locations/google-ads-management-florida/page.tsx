@@ -3,18 +3,18 @@ import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
-const PAGE_URL = `${SITE_URL}/locations/medical-seo-florida`;
+const PAGE_URL = `${SITE_URL}/locations/google-ads-management-florida`;
 
 export const metadata: Metadata = {
-  title: "Medical SEO for Florida Practices | Primara",
+  title: "Google Ads Management for Florida Practices | Primara",
   description:
-    "Florida medical SEO from a Florida-based agency. Local SEO, Google Business Profile, and content strategy for independent practices from Miami to Jacksonville. Call (561) 291-2681.",
+    "Google Ads management for independent medical practices across Florida — search campaigns, Local Service Ads, and HIPAA-conscious tracking from a Florida-based agency. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Medical SEO for Florida Practices | Primara",
+    title: "Google Ads Management for Florida Practices | Primara",
     description:
-      "Florida medical SEO from a Florida-based agency — local SEO, GBP, and content strategy for independent practices statewide.",
+      "Google Ads management for independent medical practices across Florida — search campaigns, Local Service Ads, and HIPAA-conscious tracking from a Florida-based agency.",
     type: "website",
     url: PAGE_URL,
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -28,14 +28,14 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
     { "@type": "ListItem", position: 2, name: "Locations", item: `${SITE_URL}/locations` },
-    { "@type": "ListItem", position: 3, name: "Medical SEO Florida", item: PAGE_URL },
+    { "@type": "ListItem", position: 3, name: "Google Ads Management Florida", item: PAGE_URL },
   ],
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Medical SEO for Florida Practices",
+  name: "Google Ads Management for Florida Practices",
   url: PAGE_URL,
   provider: {
     "@type": "LocalBusiness",
@@ -45,31 +45,36 @@ const serviceSchema = {
       "@type": "PostalAddress",
       addressLocality: "West Palm Beach",
       addressRegion: "FL",
+      postalCode: "33401",
       addressCountry: "US",
     },
   },
   areaServed: { "@type": "State", name: "Florida" },
-  serviceType: "Search Engine Optimization for Medical Practices",
+  serviceType: "Google Ads Management for Medical Practices",
   description:
-    "Local and organic SEO for independent medical practices across Florida — Google Business Profile optimization, on-page optimization, technical SEO, and content strategy for practices from South Florida to Jacksonville.",
+    "Google Ads campaign management for independent medical practices across Florida — search campaigns, Local Service Ads, keyword and landing-page strategy, and HIPAA-conscious conversion tracking.",
 };
 
 const faqs = [
   {
-    q: "Which Florida markets do you cover?",
-    a: "All of them. We're based in West Palm Beach and publish dedicated marketing pages for markets across South Florida, Tampa Bay, Orlando, and Northeast Florida — from Miami and Fort Lauderdale up to Jacksonville and St. Augustine. The process is the same statewide; the competitive landscape is what changes city to city.",
+    q: "Which Florida markets do you manage ads in?",
+    a: "All of them. We're based in West Palm Beach and manage campaigns for independent practices statewide — the campaign structure is the same everywhere, but keyword costs and competition vary a lot between markets like Miami, Tampa, Orlando, and Jacksonville, so budgets get set per market, not from a template.",
   },
   {
-    q: "Does SEO work differently in Florida than elsewhere?",
-    a: "The mechanics are identical, but Florida is one of the most competitive healthcare markets in the country — large hospital systems, heavy urgent-care density, and seasonal population swings that shift search volume. That makes disciplined local SEO more valuable here, not less: the practices that do the work stand out faster against competitors who rely on brand recognition alone.",
+    q: "How much does Google Ads cost for a Florida practice?",
+    a: "Ad spend varies by market, specialty, and competition. In most primary care markets, expect a minimum effective budget of $800–$1,500/month in ad spend plus Primara's management fee. Mental health markets are often less competitive. We provide a market analysis before recommending a budget.",
   },
   {
-    q: "What kinds of practices do you work with?",
-    a: "Independent practices only — primary care (family medicine, internal medicine, pediatrics, concierge and direct primary care), mental health therapists and group practices, and men's health clinics. We don't take hospital systems, urgent care chains, or dental groups.",
+    q: "What's the difference between Google Ads and Local Service Ads?",
+    a: "Standard Google Search Ads are text ads that appear when someone searches for keywords you bid on — you pay per click. Local Service Ads appear above Search Ads, show a Google Screened badge, and charge per verified lead (a phone call or message from a prospective patient). LSAs require credential verification but typically deliver higher-quality inquiries.",
   },
   {
-    q: "What does Florida medical SEO cost?",
-    a: "It depends on scope — market competitiveness, number of locations, and the state of your current website. Every engagement starts with a free audit of your existing Google presence, and everything is month-to-month after the initial setup period. No long-term contracts.",
+    q: "Is HIPAA compliance an issue with Google Ads?",
+    a: "It can be. Standard conversion tracking implementations can inadvertently capture search queries or URL parameters that contain health-related information, which may constitute PHI under HIPAA. Primara configures all tracking to count conversion events without capturing the content of those events.",
+  },
+  {
+    q: "Should I run ads before my SEO is established?",
+    a: "It depends on your timeline. Ads provide immediate placement while SEO matures over months. If you have a new practice or added a provider and need to fill your schedule quickly, running both simultaneously is the most effective path. If your organic and GBP presence is already strong, ads may be less urgent.",
   },
 ];
 
@@ -83,30 +88,26 @@ const faqSchema = {
   })),
 };
 
-const regions = [
+const deliverables = [
   {
-    name: "South Florida",
-    body: "Miami, Fort Lauderdale, Boca Raton, West Palm Beach and the surrounding Palm Beach, Broward, and Miami-Dade markets — the densest, most competitive healthcare region in the state.",
-    example: { href: "/locations/miami-fl", label: "Miami primary care marketing" },
+    title: "Market-Specific Campaign Builds",
+    body: "Cost-per-click and competition differ sharply between Florida markets. We build each campaign around your actual service area and the searches patients make there — by condition, service, and city — with negative keywords to protect the budget.",
   },
   {
-    name: "Tampa Bay",
-    body: "Tampa, St. Petersburg, Clearwater, Brandon, and Lakeland — fast-growing suburbs where independent practices can still claim local search territory before the systems lock it up.",
-    example: { href: "/locations/tampa-fl", label: "Tampa primary care marketing" },
+    title: "Local Service Ads Setup & Management",
+    body: "Local Service Ads sit above standard search ads with a Google Screened badge and charge per verified lead instead of per click. We handle the credential verification, setup, and ongoing management.",
   },
   {
-    name: "Orlando & Central Florida",
-    body: "Orlando, Kissimmee, Winter Park, Altamonte Springs, and Sanford — high population growth means a constant stream of new patients searching for a doctor for the first time.",
-    example: { href: "/locations/orlando-fl", label: "Orlando primary care marketing" },
+    title: "HIPAA-Conscious Conversion Tracking",
+    body: "Tracking configured to count calls and form submissions without capturing search queries or URL parameters that could contain health-related information — so you see what's working without compliance risk.",
   },
   {
-    name: "Northeast Florida",
-    body: "Jacksonville, Jacksonville Beach, St. Augustine, and Orange Park — a large metro with comparatively less local-SEO sophistication, which is exactly the opening an independent practice needs.",
-    example: { href: "/locations/jacksonville-fl", label: "Jacksonville primary care marketing" },
+    title: "Ongoing Optimization & Plain-English Reporting",
+    body: "A/B testing on headlines and descriptions, bid and budget management, and a monthly report that shows spend, leads, and cost per lead — no vanity metrics.",
   },
 ];
 
-export default function MedicalSeoFloridaPage() {
+export default function GoogleAdsManagementFloridaPage() {
   return (
     <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
@@ -121,7 +122,7 @@ export default function MedicalSeoFloridaPage() {
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li style={{ color: "var(--chalk)" }}>Medical SEO Florida</li>
+            <li style={{ color: "var(--chalk)" }}>Google Ads Management Florida</li>
           </ol>
         </div>
       </nav>
@@ -138,7 +139,7 @@ export default function MedicalSeoFloridaPage() {
               textTransform: "uppercase" as const, color: "var(--gold)",
             }}
           >
-            Statewide · Florida
+            Serving All of Florida
           </div>
           <h1
             style={{
@@ -148,13 +149,13 @@ export default function MedicalSeoFloridaPage() {
               maxWidth: "800px", marginBottom: "24px",
             }}
           >
-            Medical SEO for Florida Practices
+            Google Ads Management for Florida Practices
           </h1>
           <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "640px", marginBottom: "40px" }}>
-            Primara is a Florida-based medical marketing agency serving independent practices
-            across the state — from Miami to Jacksonville. We run the full SEO stack: Google
-            Business Profile, local rankings, on-page optimization, technical health, and
-            content strategy, market by market.
+            Primara is a Florida-based medical marketing agency built for independent
+            practices. We plan, build, and manage Google Ads campaigns — search ads,
+            Local Service Ads, and HIPAA-conscious conversion tracking — for practices
+            from Miami to Jacksonville.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
@@ -170,53 +171,53 @@ export default function MedicalSeoFloridaPage() {
         </div>
       </section>
 
-      {/* Florida context */}
+      {/* Local context */}
       <section style={{ backgroundColor: "var(--surface)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <div style={{ maxWidth: "760px" }}>
             <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "24px" }}>
-              The Florida Reality
+              Why It Matters Here
             </p>
             <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "24px" }}>
-              Florida is where independent practices face the heaviest competition — and the biggest local-search opening.
+              Florida&rsquo;s ad markets don&rsquo;t behave like one market.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              Between the hospital systems, the urgent-care chains, and the constant influx of
-              new residents searching for a doctor for the first time, Florida healthcare search
-              is crowded. But most of that competition runs on brand recognition, not on
-              disciplined local SEO — profiles sit half-configured, service pages don&rsquo;t
-              exist, and reviews go unanswered.
+              A click that costs a few dollars in a smaller Florida market can cost
+              multiples of that in Miami or Tampa, and the searches patients make differ
+              city to city. Campaigns copied from a national template burn budget on
+              both ends — bidding too broadly in expensive markets and missing the
+              specific searches that convert in yours. Healthcare adds a second trap:
+              careless conversion tracking can capture health-related information and
+              create HIPAA exposure.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              That is the opening. An independent practice that does the fundamentals properly —
-              a complete Google Business Profile, pages that match real patient searches, and a
-              technically healthy website — can outrank much larger organizations in its own
-              neighborhood. That is the entire premise of our work.
+              We run this from West Palm Beach, for independent primary care, mental
+              health, and men&rsquo;s health practices across the state — market
+              analysis first, then a campaign built for your city and your specialty.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Regions */}
+      {/* Deliverables */}
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 7vw, 80px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "48px" }}>
-            Markets We Cover
+            What We Do
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1px", backgroundColor: "var(--wire)", border: "1px solid var(--wire)", borderRadius: "4px", overflow: "hidden" }}>
-            {regions.map((r) => (
-              <div key={r.name} style={{ backgroundColor: "var(--void)", padding: "clamp(24px, 3vw, 36px)", display: "flex", flexDirection: "column", gap: "12px" }}>
-                <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: 0 }}>{r.name}</h2>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.7, margin: 0 }}>{r.body}</p>
-                <Link href={r.example.href} style={{ fontSize: "0.8125rem", color: "var(--gold)", textDecoration: "none" }}>
-                  {r.example.label} →
-                </Link>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            {deliverables.map((d, idx) => (
+              <div key={d.title} style={{ borderTop: "1px solid var(--wire)", padding: "clamp(28px, 4vw, 44px) 0", display: "grid", gridTemplateColumns: "auto 1fr", gap: "clamp(20px, 4vw, 56px)" }}>
+                <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "11px", letterSpacing: "0.14em", color: "var(--smoke)" }}>0{idx + 1}</div>
+                <div>
+                  <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.25rem, 2.5vw, 1.75rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "12px" }}>
+                    {d.title}
+                  </h2>
+                  <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", margin: 0 }}>{d.body}</p>
+                </div>
               </div>
             ))}
           </div>
-          <p style={{ marginTop: "24px", fontSize: "0.875rem", color: "var(--smoke)" }}>
-            Browse all city pages on the <Link href="/locations" style={{ color: "var(--ash)" }}>locations hub</Link>.
-          </p>
         </div>
       </section>
 
@@ -242,10 +243,9 @@ export default function MedicalSeoFloridaPage() {
         eyebrow="Related"
         heading="Related Services & Locations"
         items={[
-          { href: "/services/seo", label: "SEO for Medical Practices", description: "The full SEO service — what's included, timelines, and how we report progress." },
-          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "Our home market — medical SEO for West Palm Beach practices." },
-          { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "How we build and manage Google Business Profiles for Florida practices." },
-          { href: "/locations/google-ads-management-florida", label: "Google Ads Management in Florida", description: "The paid side — statewide Google Ads management for Florida practices." },
+          { href: "/services/google-ads", label: "Google Ads for Medical Practices", description: "The full Google Ads service — campaign types, budgets, and how we report results." },
+          { href: "/locations/google-ads-management-west-palm-beach", label: "Google Ads Management in West Palm Beach", description: "Our home market — Google Ads management for West Palm Beach practices." },
+          { href: "/locations/medical-seo-florida", label: "Medical SEO for Florida Practices", description: "The organic side — statewide medical SEO from Miami to Jacksonville." },
         ]}
       />
 
@@ -253,7 +253,7 @@ export default function MedicalSeoFloridaPage() {
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", marginBottom: "1rem" }}>
-            Ready to Get Found Across Florida?
+            Ready to Turn Ad Spend Into Patients?
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "2rem", fontSize: "1rem" }}>
             We start with a free audit of your current Google presence — delivered in 3–5 business days.

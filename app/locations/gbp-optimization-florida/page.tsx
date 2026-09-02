@@ -238,6 +238,7 @@ export default function GbpOptimizationFloridaPage() {
         items={[
           { href: "/services/google-business-profile", label: "Google Business Profile Service", description: "The full GBP service — what's included and how we manage it month to month." },
           { href: "/locations/medical-seo-florida", label: "Medical SEO for Florida Practices", description: "The statewide SEO picture GBP work fits into." },
+          { href: "/locations/gbp-optimization-west-palm-beach", label: "GBP Optimization in West Palm Beach", description: "The same GBP work, focused on our home market." },
           { href: "/blog/why-your-medical-practice-isnt-showing-up-on-google-maps", label: "Why Your Practice Isn't Showing Up on Google Maps", description: "The most common Maps-pack problems and how to diagnose them." },
         ]}
       />

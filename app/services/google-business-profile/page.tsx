@@ -247,6 +247,7 @@ export default function GBPPage() {
           { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and response systems that outpace corporate competitors." },
           { href: "/blog/why-your-medical-practice-isnt-showing-up-on-google-maps", label: "Why You're Not Showing Up on Google Maps", description: "The most common reasons independent practices are invisible on Google Maps." },
           { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "How we build and manage Business Profiles for Florida practices statewide." },
+          { href: "/locations/gbp-optimization-west-palm-beach", label: "GBP Optimization in West Palm Beach", description: "Business Profile optimization for practices in our home market." },
           { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The full SEO stack for practices in our home market." },
         ]}
       />

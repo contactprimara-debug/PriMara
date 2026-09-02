@@ -245,6 +245,8 @@ export default function MedicalSeoWestPalmBeachPage() {
           { href: "/services/seo", label: "SEO for Medical Practices", description: "The full SEO service — what's included, timelines, and how we report progress." },
           { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "How we build and manage Google Business Profiles for Florida practices." },
           { href: "/locations/west-palm-beach-fl", label: "Primary Care Marketing — West Palm Beach", description: "Our full marketing service for West Palm Beach primary care practices." },
+          { href: "/locations/google-ads-management-west-palm-beach", label: "Google Ads Management in West Palm Beach", description: "The paid side — search campaigns and Local Service Ads for our home market." },
+          { href: "/locations/ai-seo-west-palm-beach", label: "AI SEO in West Palm Beach", description: "Getting cited by ChatGPT and AI Overviews — the next layer on the SEO foundation." },
         ]}
       />
 
