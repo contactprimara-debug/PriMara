@@ -242,6 +242,8 @@ export default function WebsiteDesignPage() {
           { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
           { href: "/services/patient-acquisition-ads", label: "Patient Acquisition Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
           { href: "/specialties/pediatrics", label: "Pediatrics", description: "Marketing for pediatric practices — a different search pattern than adult primary care." },
+          { href: "/locations/medical-website-design-west-palm-beach", label: "Medical Website Design in West Palm Beach", description: "The same website design work, for practices in our home market." },
+          { href: "/locations/medical-website-design-florida", label: "Medical Website Design in Florida", description: "Practice website design for independent practices across the state." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="web-cta">

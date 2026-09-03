@@ -244,6 +244,8 @@ export default function ReputationPage() {
           { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
           { href: "/blog/hipaa-compliant-google-review-responses", label: "HIPAA-Compliant Review Responses", description: "How to respond to Google reviews — including negative ones — without violating HIPAA." },
           { href: "/blog/how-many-google-reviews-does-a-medical-practice-need", label: "How Many Google Reviews Do You Need?", description: "How many reviews it actually takes to rank in a competitive Florida market." },
+          { href: "/locations/review-generation-west-palm-beach", label: "Review Generation in West Palm Beach", description: "Ethical review generation for practices in our home market." },
+          { href: "/locations/review-generation-florida", label: "Review Generation in Florida", description: "The same review generation system, for practices statewide." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="rep-cta">

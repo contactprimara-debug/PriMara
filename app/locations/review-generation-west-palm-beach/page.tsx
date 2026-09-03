@@ -3,18 +3,18 @@ import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
-const PAGE_URL = `${SITE_URL}/locations/ai-seo-west-palm-beach`;
+const PAGE_URL = `${SITE_URL}/locations/review-generation-west-palm-beach`;
 
 export const metadata: Metadata = {
-  title: "AI SEO in West Palm Beach, FL | Primara",
+  title: "Review Generation in West Palm Beach, FL | Primara",
   description:
-    "AI SEO (GEO) for independent medical practices in West Palm Beach — structured data, AI crawler access, and content built to be cited by ChatGPT and AI Overviews. Call (561) 291-2681.",
+    "Ethical review generation for West Palm Beach medical practices — Google-guideline-compliant outreach, HIPAA-compliant responses, and review monitoring. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "AI SEO in West Palm Beach, FL | Primara",
+    title: "Review Generation in West Palm Beach, FL | Primara",
     description:
-      "AI SEO (GEO) for independent medical practices in West Palm Beach — structured data, AI crawler access, and content built to be cited by AI search.",
+      "Ethical review generation for West Palm Beach medical practices — compliant outreach, HIPAA-safe responses, and monitoring.",
     type: "website",
     url: PAGE_URL,
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -28,14 +28,14 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
     { "@type": "ListItem", position: 2, name: "Locations", item: `${SITE_URL}/locations` },
-    { "@type": "ListItem", position: 3, name: "AI SEO West Palm Beach", item: PAGE_URL },
+    { "@type": "ListItem", position: 3, name: "Review Generation West Palm Beach", item: PAGE_URL },
   ],
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "AI SEO in West Palm Beach",
+  name: "Review Generation in West Palm Beach",
   url: PAGE_URL,
   provider: {
     "@type": "LocalBusiness",
@@ -54,32 +54,32 @@ const serviceSchema = {
     name: "West Palm Beach",
     containedInPlace: { "@type": "State", name: "Florida" },
   },
-  serviceType: "Generative Engine Optimization for Medical Practices",
+  serviceType: "Review Generation and Reputation Management for Medical Practices",
   description:
-    "AI SEO (Generative Engine Optimization) for independent medical practices in West Palm Beach, Florida — structured data, AI crawler access, and content structured so AI systems like ChatGPT and Google AI Overviews can accurately find and cite the practice.",
+    "Ethical review generation and reputation management for independent medical practices in West Palm Beach, Florida — review audits, Google-guideline-compliant outreach, HIPAA-compliant response frameworks, and monthly monitoring.",
 };
 
 const faqs = [
   {
-    q: "What is AI SEO / GEO?",
-    a: "AI SEO — also called Generative Engine Optimization (GEO) or Answer Engine Optimization (AEO) — is the practice of structuring a website so AI systems like ChatGPT, Perplexity, and Google AI Overviews can accurately find, understand, and cite it. It sits alongside traditional SEO rather than replacing it: the same technical foundation — fast pages, real content, structured data — helps with both.",
+    "q": "Do you buy or incentivize reviews?",
+    "a": "No. Our review generation process is aligned with Google's guidelines — no purchased or incentivized reviews. We build velocity through ethical outreach to real patients, so the profile that results accurately reflects the care your practice provides."
   },
   {
-    q: "Why does this matter for a West Palm Beach practice?",
-    a: "Patients increasingly ask AI assistants the same questions they used to type into Google — \"who's a good primary care doctor in West Palm Beach?\" If your practice's site isn't technically readable to those systems, you're simply not in the answer. The work makes sure you're findable and accurately represented when patients ask.",
+    "q": "Why do reviews matter so much in West Palm Beach specifically?",
+    "a": "Density. In corridors like Palm Beach Lakes Boulevard or the medical cluster near the airport, a prospective patient has many visible alternatives within a short drive. When everything else looks similar, the practice with a stronger, more active review profile gets the call."
   },
   {
-    q: "Can you guarantee my practice will show up in ChatGPT?",
-    a: "No — and you should be skeptical of anyone who does. No one controls what an AI model decides to cite; these systems pull from many sources and their behavior changes as they're updated. What we can do is make sure your practice is technically ready to be found and accurately represented when it is — correct structured data, no accidental crawler blocks, and content written the way these systems actually quote it.",
+    "q": "How do you respond to negative reviews without violating HIPAA?",
+    "a": "With a response framework that never confirms or denies a patient relationship. Replies stay professional and general, address the concern without discussing any care, and invite the conversation offline. Done right, a well-handled negative review reassures the prospective patients reading it."
   },
   {
-    q: "Do you do this for your own website?",
-    a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service.",
+    "q": "Which platforms do you cover?",
+    "a": "Google first — it drives the most patient decisions — plus Healthgrades, Zocdoc, WebMD, and Yelp. The audit also catches duplicate and unverified listings on those platforms that may be splitting your reviews or showing incorrect information."
   },
   {
-    q: "Is there a separate cost for AI SEO?",
-    a: "For most clients it's built into the SEO or Foundation/Visibility package rather than sold separately — the technical work overlaps heavily with what we already do for traditional SEO. We'll tell you plainly if your situation calls for additional scope.",
-  },
+    "q": "When does a practice actually need this?",
+    "a": "If your average Google rating is below 4.0, your review volume is significantly lower than competing practices nearby, or critical reviews are sitting without a professional response. Any one of those is a visible liability to every prospective patient who finds you."
+  }
 ];
 
 const faqSchema = {
@@ -94,24 +94,24 @@ const faqSchema = {
 
 const deliverables = [
   {
-    title: "Structured Data That AI Systems Can Read",
-    body: "Schema markup — LocalBusiness, Service, and FAQ — on every page that matters, so AI systems and search engines alike can identify who you are, what you treat, and where you practice in West Palm Beach.",
+    "title": "Full Review Audit",
+    "body": "We inventory your current rating and review volume across Google, Healthgrades, Zocdoc, WebMD, and Yelp, and identify duplicate or unverified listings diluting your profile or displaying wrong information."
   },
   {
-    title: "AI Crawler Access, Deliberately Configured",
-    body: "Many sites block AI crawlers by accident through old robots.txt rules or firewall settings. We audit and configure crawler access — including an llms.txt file — so the systems patients actually ask can read your site.",
+    "title": "Ethical Review Generation",
+    "body": "A systematic process for collecting authentic, unsolicited patient feedback, aligned with Google's guidelines — no incentivized or purchased reviews, ever. The goal is review velocity that accurately reflects your care."
   },
   {
-    title: "Content Written the Way AI Quotes It",
-    body: "Direct answers to real patient questions, structured as questions and answers — the format AI systems lift citations from. Grounded in what your practice actually offers, never invented claims.",
+    "title": "HIPAA-Compliant Response Strategy",
+    "body": "Professional response templates for positive reviews and a compliant framework for critical ones — replies that never confirm or deny a patient relationship, and that show prospective patients reading the exchange how your practice handles feedback."
   },
   {
-    title: "Built on the Traditional SEO Foundation",
-    body: "AI SEO isn't a separate universe — fast pages, clean structure, and real content help both. We run it alongside the same local SEO and GBP work that gets you found on Google today.",
-  },
+    "title": "Monitoring and Escalation",
+    "body": "Monthly review volume and sentiment tracking across all active platforms, plus an escalation protocol for reviews that may point to genuine operational concerns worth fixing inside the practice."
+  }
 ];
 
-export default function AiSeoWestPalmBeachPage() {
+export default function ReviewGenerationWestPalmBeachPage() {
   return (
     <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
@@ -126,7 +126,7 @@ export default function AiSeoWestPalmBeachPage() {
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li style={{ color: "var(--chalk)" }}>AI SEO West Palm Beach</li>
+            <li style={{ color: "var(--chalk)" }}>Review Generation West Palm Beach</li>
           </ol>
         </div>
       </nav>
@@ -153,13 +153,10 @@ export default function AiSeoWestPalmBeachPage() {
               maxWidth: "800px", marginBottom: "24px",
             }}
           >
-            AI SEO in West Palm Beach
+            Review Generation in West Palm Beach
           </h1>
           <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "640px", marginBottom: "40px" }}>
-            Primara is a West Palm Beach medical marketing agency built for independent
-            practices. We structure your site so AI systems — ChatGPT, Perplexity,
-            Google AI Overviews — can accurately find, understand, and cite your
-            practice when local patients ask them for a recommendation.
+            Primara is a West Palm Beach medical marketing agency built for independent practices. We build steady, ethical review velocity — outreach aligned with Google&rsquo;s guidelines, HIPAA-compliant responses, and monitoring across the platforms patients actually check.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
@@ -183,20 +180,13 @@ export default function AiSeoWestPalmBeachPage() {
               Why It Matters Here
             </p>
             <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "24px" }}>
-              Patients are starting to ask AI instead of Google.
+              Patients read your reviews before they ever call.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              The question &ldquo;who&rsquo;s a good primary care doctor in West Palm
-              Beach?&rdquo; is now asked to ChatGPT and answered by Google&rsquo;s AI
-              Overviews before a patient ever sees a traditional results page. Those
-              systems can only recommend practices they can read: sites with clean
-              structured data, open crawler access, and content that answers questions
-              directly. Most practice websites have none of the three.
+              A prospective patient comparing practices along Palm Beach Lakes Boulevard or the medical cluster near Palm Beach International Airport sees your Google rating before your website, your credentials, or your front desk. Practices with fewer, older, or unresponded reviews lose those patients to competitors with more active profiles — even when the clinical quality is comparable.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              We do this work from West Palm Beach, for independent primary care, mental
-              health, and men&rsquo;s health practices — and we run the same setup on
-              our own site, so it&rsquo;s a practiced service, not a theoretical one.
+              The fix isn&rsquo;t buying reviews — Google penalizes that, and it&rsquo;s the fastest way to torch trust. It&rsquo;s a systematic, ethical process for collecting authentic patient feedback and responding to every review in a professional, HIPAA-compliant way. That&rsquo;s the work we do, from right here in West Palm Beach.
             </p>
           </div>
         </div>
@@ -246,18 +236,29 @@ export default function AiSeoWestPalmBeachPage() {
         eyebrow="Related"
         heading="Related Services & Locations"
         items={[
-          { href: "/services/ai-seo", label: "AI SEO (GEO) Service", description: "The full AI SEO service — what it is, what it includes, and what we won't promise." },
-          { href: "/locations/ai-seo-florida", label: "AI SEO for Florida Practices", description: "The same AI SEO service for practices across the state." },
-          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The traditional SEO foundation AI SEO builds on, for practices in our home market." },
-          { href: "/locations/gbp-optimization-west-palm-beach", label: "GBP Optimization in West Palm Beach", description: "The Maps-pack side of local visibility for West Palm Beach practices." },
-        ]}
+          {
+                    "href": "/services/online-reputation-management",
+                    "label": "Reputation Management Service",
+                    "description": "The full review and reputation service — audits, response strategy, and ethical review generation."
+          },
+          {
+                    "href": "/locations/review-generation-florida",
+                    "label": "Review Generation in Florida",
+                    "description": "The same review generation service for practices across the state."
+          },
+          {
+                    "href": "/locations/gbp-optimization-west-palm-beach",
+                    "label": "GBP Optimization in West Palm Beach",
+                    "description": "The Business Profile your reviews live on — optimized for the local Maps pack."
+          }
+]}
       />
 
       {/* CTA */}
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", marginBottom: "1rem" }}>
-            Ready to Be the Answer in West Palm Beach?
+            Ready for a Review Profile That Wins the Comparison?
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "2rem", fontSize: "1rem" }}>
             We start with a free audit of your current Google presence — delivered in 3–5 business days.
