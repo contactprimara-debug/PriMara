@@ -557,6 +557,7 @@ export default function SEOServicePage() {
           { href: "/blog/what-is-local-seo-for-doctors", label: "What Is Local SEO for Doctors?", description: "A plain-English guide to what local SEO actually means for a medical practice." },
           { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "Our home market — the full SEO stack for West Palm Beach practices." },
           { href: "/locations/medical-seo-florida", label: "Medical SEO for Florida Practices", description: "Statewide medical SEO from Miami to Jacksonville." },
+          { href: "/locations/medical-seo-lakeland", label: "Medical SEO in Lakeland", description: "The full SEO stack for practices in Lakeland and Polk County, on the I-4 corridor." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

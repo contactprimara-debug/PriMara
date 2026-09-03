@@ -573,6 +573,7 @@ export default function GoogleAdsPage() {
           { href: "/specialties/trt-clinics", label: "TRT Clinics", description: "Marketing built specifically for independent TRT clinics competing with national telehealth brands." },
           { href: "/locations/google-ads-management-west-palm-beach", label: "Google Ads Management in West Palm Beach", description: "Google Ads management for practices in our home market." },
           { href: "/locations/google-ads-management-florida", label: "Google Ads Management in Florida", description: "Statewide Google Ads management for Florida practices, Miami to Jacksonville." },
+          { href: "/locations/google-ads-management-lakeland", label: "Google Ads Management in Lakeland", description: "Search campaigns and Local Service Ads for practices in Lakeland and Polk County." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

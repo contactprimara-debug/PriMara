@@ -339,6 +339,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/locations/medical-website-design-florida`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/locations/review-generation-west-palm-beach`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/locations/review-generation-florida`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/locations/medical-seo-lakeland`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/locations/google-ads-management-lakeland`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/locations/gbp-optimization-lakeland`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
 
     // ── Priority 0.8 — High-intent keyword pages ─────────────────────────
     { url: `${SITE_URL}/pricing`, lastModified, changeFrequency: "monthly" as const, priority: 0.8 },
