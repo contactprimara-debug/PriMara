@@ -23,7 +23,28 @@ function scrollToHash(id: string) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const lenis = (window as any).lenis;
   if (lenis) {
-    lenis.scrollTo(target, { offset: -80, duration: 1.2 });
+    // lenis.scrollTo(element) resolves the element's offset through Lenis's
+    // own cached `dimensions.height`, which goes stale at 0 after RouteFade
+    // remounts the page subtree (confirmed live: dimensions.height reads 0
+    // right after a client-side nav even though the document's real
+    // scrollHeight is correct) — every hash CTA landed on scrollY 0 as a
+    // result, on every navigation this component exists to handle. Passing
+    // a plain pixel number instead sidesteps that broken path entirely;
+    // getBoundingClientRect() is always accurate regardless of Lenis's
+    // internal cache.
+    const y = Math.max(0, target.getBoundingClientRect().top + lenis.scroll - 80);
+    lenis.scrollTo(y, { duration: 1.2, immediate: false });
+    // Belt-and-suspenders: this is a lead-conversion path, not just polish —
+    // if Lenis's eased animation doesn't advance for any reason (its RAF
+    // loop stalling, a CDN script race, anything), force the jump immediately
+    // rather than strand the visitor at the top of the page with no visible
+    // sign that anything happened.
+    const startScroll = lenis.scroll;
+    setTimeout(() => {
+      if (Math.abs(lenis.scroll - startScroll) < 1 && Math.abs(lenis.scroll - y) > 1) {
+        lenis.scrollTo(y, { immediate: true });
+      }
+    }, 400);
   } else {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -50,7 +71,17 @@ export default function HashScroll() {
       }
       // Neutralize whatever instant jump the browser/router already did so
       // every hash landing plays as one deliberate glide, not a snap-then-ease.
-      window.scrollTo(0, 0);
+      // Goes through Lenis (when present) instead of the raw scrollTo API —
+      // jumping the native scroll position behind Lenis's back leaves its
+      // internal position tracking stale, which fed straight into the same
+      // broken offset lookup scrollToHash() below now avoids.
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const lenis = (window as any).lenis;
+      if (lenis) {
+        lenis.scrollTo(0, { immediate: true });
+      } else {
+        window.scrollTo(0, 0);
+      }
       requestAnimationFrame(() => scrollToHash(id));
     }
 
