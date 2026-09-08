@@ -118,6 +118,11 @@ export default function RootLayout({
   gtag('js', new Date());
   gtag('config', 'GT-PB6FNVRG');
   gtag('config', 'AW-18204165915');
+  // GA4 property on the Primara Google account (552664101) — the one the
+  // Command Center reads. The GT- container above routes to G-XLC2HTP5SF,
+  // which lives on a different account, so the Command Center saw zero
+  // sessions for our own site. Sending to both keeps that history intact.
+  gtag('config', 'G-DYRL31NGRH');
 `}</Script>
 
       </head>
