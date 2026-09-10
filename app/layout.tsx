@@ -149,24 +149,43 @@ export default function RootLayout({
         <InteractionEffects />
         <HashScroll />
 
-        {/* ── GSAP CDN (ordered: core → ScrollTrigger → SplitText) ─────── */}
+        {/* ── GSAP + Lenis CDN ──────────────────────────────────────────
+              strategy="lazyOnload" (not afterInteractive) on purpose.
+
+              PSI mobile was bimodal: FCP landed on either ~1.82s or ~3.91s
+              with nothing in between, and LCP tracked it (2.2s vs 7.2s —
+              the 7.1s that opened this ticket). Server response was 5-6ms
+              and network RTT ~0 in BOTH branches, so it was never the
+              network. The difference was main-thread work: 1.2s in fast
+              runs vs 1.7s in slow ones, which Lighthouse's 4x CPU throttle
+              multiplies into the ~2.1s FCP jump. These four CDN scripts
+              plus the Google tags are that work.
+
+              Nothing here is needed before paint: the hero entrance is pure
+              CSS, and both AnimationProvider and HeroAnimation already poll
+              for window.gsap/window.Lenis for up to 6s before giving up, so
+              arriving after load costs nothing functionally. Moving them off
+              afterInteractive takes their parse+exec out of the pre-paint
+              window entirely.
+
+              (ordered: core → ScrollTrigger → SplitText) */}
         <Script
           src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <Script
           src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <Script
           src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/SplitText.min.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
 
         {/* ── Lenis smooth scroll CDN ───────────────────────────────────── */}
         <Script
           src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
 
         {/* ── Google Analytics 4 — set NEXT_PUBLIC_GA_ID (G-XXXXXXX) in env.

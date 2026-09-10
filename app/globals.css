@@ -210,6 +210,27 @@ body::after {
 @keyframes preloader-fill {
   to { width: 100%; }
 }
+/* ── Mobile: no preloader at all ──────────────────────────────────────────
+   Chrome refuses to count the hero h1 as "painted" for LCP while an opaque
+   element covers it. Measured on PageSpeed Insights (mobile), the preloader
+   was the entire LCP problem: the lcp-breakdown showed TTFB ~5ms and an
+   elementRenderDelay of 1155-2555ms — i.e. essentially all of LCP was the
+   time the hero spent hidden behind this overlay. Score swung 94 <-> 58
+   run to run purely on how long that occlusion lasted.
+
+   `display:none` (not opacity/visibility) is what matters here: the element
+   must not paint at all, or it still occludes. This is pure CSS in the
+   server-rendered stylesheet, so there is no hydration flash and no JS on
+   the critical path. Desktop keeps the brand intro untouched — desktop is
+   not the failing surface and has far more render headroom.
+
+   Do not "restore" this on mobile without re-measuring LCP on PSI. */
+@media (max-width: 767px) {
+  #preloader {
+    display: none;
+  }
+}
+
 /* Respect reduced motion — collapse to instant */
 @media (prefers-reduced-motion: reduce) {
   #preloader, .preloader-letter, #preloader-fill {
