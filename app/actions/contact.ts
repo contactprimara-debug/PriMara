@@ -2,6 +2,7 @@
 
 import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
+import { mirrorLeadToIntake } from "@/lib/intake";
 
 export type ContactState = {
   status: "idle" | "success" | "error";
@@ -38,7 +39,19 @@ export async function submitContact(
   // after Resend reports success. Run both, and only tell the visitor we
   // lost their message if the CRM save ALSO failed; email alone failing
   // still means the lead is safely captured.
-  const [crmResult, emailResult] = await Promise.allSettled([
+  // mirrorLeadToIntake never rejects and its result is never inspected —
+  // the Command Center copy is additive and can never affect this outcome.
+  const [, crmResult, emailResult] = await Promise.allSettled([
+    mirrorLeadToIntake({
+      form: "contact",
+      page: "site contact form",
+      name,
+      practice: practiceName,
+      phone,
+      email: email || undefined,
+      best_time_to_call: callTime,
+      message: reason || undefined,
+    }).then(() => undefined),
     pushLeadToCrm({
       contactName: name,
       practiceName,

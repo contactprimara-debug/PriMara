@@ -2,6 +2,7 @@
 
 import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
+import { mirrorLeadToIntake } from "@/lib/intake";
 
 export type PackageInquiryState = {
   status: "idle" | "success" | "error";
@@ -33,7 +34,18 @@ export async function submitPackageInquiry(
 
   // See app/actions/contact.ts for why this runs both in parallel and only
   // reports an error to the visitor if the CRM save also failed.
-  const [crmResult, emailResult] = await Promise.allSettled([
+  // See lib/intake.ts — additive, fully swallowed, never affects the visitor.
+  const [, crmResult, emailResult] = await Promise.allSettled([
+    mirrorLeadToIntake({
+      form: "package-inquiry",
+      page: "/packages",
+      package: pkg,
+      name,
+      practice,
+      phone,
+      email,
+      message: notes,
+    }).then(() => undefined),
     pushLeadToCrm({
       contactName: name,
       practiceName: practice,

@@ -2,6 +2,7 @@
 
 import { sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
+import { mirrorLeadToIntake } from "@/lib/intake";
 
 export type AssessmentPayload = {
   name: string;
@@ -22,7 +23,20 @@ export async function submitAssessment(payload: AssessmentPayload) {
   // parallel, both best-effort. Phone is optional on this form — when it's
   // missing, pushLeadToCrm reports "no phone number" and the email stays
   // the only record (the CRM's Lead.phone column is required).
-  const [crmResult, emailResult] = await Promise.allSettled([
+  // See lib/intake.ts — additive, fully swallowed. This one matters most:
+  // the CRM push refuses any lead with no phone, and phone is optional here.
+  const [, crmResult, emailResult] = await Promise.allSettled([
+    mirrorLeadToIntake({
+      form: "assessment",
+      page: "/assessment/quiz",
+      name: payload.name,
+      email: payload.email,
+      phone: payload.phone || undefined,
+      practice: payload.practice || undefined,
+      score: payload.score,
+      tier: payload.tier,
+      message: `Practice Score Assessment: ${payload.score}% (${payload.tier})\n\nAnswers:\n${answerLines}`,
+    }).then(() => undefined),
     pushLeadToCrm({
       contactName: payload.name,
       practiceName: payload.practice || payload.name,
