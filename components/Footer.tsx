@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
 
@@ -86,9 +87,14 @@ export default function Footer() {
                 width: "fit-content",
               }}
             >
-              <img
+              {/* PERF: see Header.tsx — same unsized full-size PNG. Footer is
+                  always below the fold, so no priority; next/image lazy-loads
+                  it by default. 103x32 is the exact rendered size. */}
+              <Image
                 src="/primara-logo.png"
                 alt="Primara365"
+                width={103}
+                height={32}
                 style={{ height: "32px", width: "auto", display: "block" }}
               />
             </Link>

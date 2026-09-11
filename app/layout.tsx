@@ -110,8 +110,25 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: toJsonLd(localBusinessSchema as Record<string, unknown>) }}
         />
 
-        {/* ── Google tag (gtag.js) ─────────────────────────────────────── */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
+        {/* ── Google tag (gtag.js) ─────────────────────────────────────────
+              PERF (2026-09-11): the site was downloading TWO full gtag.js
+              libraries on every page — one here for GT-PB6FNVRG (161 KB) and
+              a second one for NEXT_PUBLIC_GA_ID via <GoogleAnalytics/> at the
+              bottom of <body> (172 KB). PSI mobile attributed 403 ms of
+              main-thread bootup to the first and 139 ms to the second in the
+              same run; 204 KiB of the combined payload was unused.
+
+              gtag.js is ONE library with many destinations, so a single copy
+              serves every ID. <GoogleAnalytics/> is kept (it also wires SPA
+              route-change page_views, which a bare gtag config does not), and
+              this tag now only loads its own copy when NEXT_PUBLIC_GA_ID is
+              unset — so Ads conversion tracking can never silently die if the
+              env var goes missing. The inline snippet below is unchanged and
+              still queues every config onto dataLayer before either library
+              arrives, which is exactly how gtag is designed to work.        */}
+        {!process.env.NEXT_PUBLIC_GA_ID && (
+          <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
+        )}
         <Script id="google-tag" strategy="afterInteractive">{`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

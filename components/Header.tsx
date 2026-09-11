@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
 
@@ -110,9 +111,18 @@ export default function Header() {
             marginRight: "clamp(16px, 2.2vw, 36px)",
           }}
         >
-          <img
+          {/* PERF: was a raw <img> pointing at the full 1800x560 / 29 KB PNG
+              with no width/height — PSI flagged it under "unsized-images" on
+              every page. next/image serves AVIF at the real display size and
+              reserves the box, so nothing can shift. priority because the
+              header is in the initial viewport on every route. Source is
+              1800x560 (3.214:1); 90x28 is the exact rendered size. */}
+          <Image
             src="/primara-logo.png"
             alt="Primara365"
+            width={90}
+            height={28}
+            priority
             style={{ height: "28px", width: "auto", display: "block" }}
           />
         </Link>
