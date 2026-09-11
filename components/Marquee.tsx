@@ -1,7 +1,6 @@
 'use client';
 
 import { useRef } from 'react';
-import styles from './Marquee.module.css';
 
 /* ── Content items ─────────────────────────────────────────────────────────
    The inner belt renders 12 repetitions (2 halves of 6).
@@ -60,13 +59,13 @@ export default function Marquee() {
 
   return (
     <div
-      className={styles.outer}
+      className="marquee-outer"
       role="marquee"
       aria-label="Primara — local SEO, GBP optimization, website builds, and review management for independent medical practices"
     >
       <div
         ref={innerRef}
-        className={styles.inner}
+        className="marquee-inner"
         onMouseEnter={pause}
         onMouseLeave={play}
       >

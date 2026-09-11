@@ -192,7 +192,7 @@ export default function RootLayout({
               afterInteractive takes their parse+exec out of the pre-paint
               window entirely.
 
-              (ordered: core → ScrollTrigger → SplitText) */}
+              (ordered: core → ScrollTrigger) */}
         <Script
           src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
           strategy="lazyOnload"
@@ -201,10 +201,18 @@ export default function RootLayout({
           src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
           strategy="lazyOnload"
         />
-        <Script
-          src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/SplitText.min.js"
-          strategy="lazyOnload"
-        />
+        {/* SplitText was requested here and REMOVED 2026-09-11: the URL has
+            always returned HTTP 404 ("Couldn't find the requested file
+            /dist/SplitText.min.js in gsap") — SplitText is a paid GSAP Club
+            plugin and is not in the public npm package. window.SplitText has
+            therefore never been defined on this site, so every consumer
+            already runs its no-SplitText path (AnimationProvider registers it
+            conditionally, ServicePageAnimation and HeroAnimation guard on it,
+            and TypeAnimations' effects have simply never fired). Deleting the
+            tag removes a guaranteed-failing request and changes nothing that
+            was ever working. If the split-type animations are wanted for
+            real, the Club build has to be self-hosted — that is a separate
+            decision, not a perf fix. */}
 
         {/* ── Lenis smooth scroll CDN ───────────────────────────────────── */}
         <Script

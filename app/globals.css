@@ -723,3 +723,41 @@ section + section blockquote {
     font-family: 'Courier New', Courier, monospace;
   }
 }
+
+/* ── Marquee ────────────────────────────────────────────────────────────────
+   PERF (2026-09-11): these rules lived in components/Marquee.module.css.
+   A CSS Module emits its own <link rel=stylesheet>, so the homepage shipped a
+   SECOND render-blocking stylesheet of 472 bytes. PSI mobile's
+   render-blocking audit charged that 472-byte file 472 ms — an entire extra
+   simulated RTT for half a kilobyte, more than the 8 KB main stylesheet's
+   158 ms. Folding it into globals.css removes that request outright.
+   Class names are namespaced (marquee-*) since they are global now. */
+.marquee-outer {
+  height: 52px;
+  overflow: hidden;
+  white-space: nowrap;
+  background: var(--surface);
+  border-top: 1px solid var(--wire);
+  border-bottom: 1px solid var(--wire);
+  display: flex;
+  align-items: center;
+}
+
+.marquee-inner {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  /* 12 repetitions in JSX (2 identical halves of 6),
+     -50% brings us to the start of the second half = seamless loop */
+  animation: marquee 36s linear infinite;
+}
+
+/* Pause on hover — also toggled via JS on the element's style property */
+.marquee-inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
