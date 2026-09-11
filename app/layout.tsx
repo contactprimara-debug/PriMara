@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Syne } from "next/font/google";
 import Script from "next/script";
+import AfterHydration from "@/components/AfterHydration";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -135,6 +136,12 @@ export default function RootLayout({
               code change: three GA4 properties (G-XLC2HTP5SF, G-DYRL31NGRH,
               GT-PB6FNVRG) plus AW-18204165915 is ~492 KB of Google tag JS on
               every page load, and it is the single largest thing on the site. */}
+        {/* PERF (task #179): wrapped in <AfterHydration> ONLY to stop next/script
+              from emitting <link rel="preload" as="script"> for the gtag
+              libraries into the initial HTML — see components/AfterHydration.tsx.
+              The tags below are otherwise untouched: same strategy, same ids,
+              same order. */}
+        <AfterHydration>
         <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
         <Script id="google-tag" strategy="afterInteractive">{`
   window.dataLayer = window.dataLayer || [];
@@ -148,6 +155,7 @@ export default function RootLayout({
   // sessions for our own site. Sending to both keeps that history intact.
   gtag('config', 'G-DYRL31NGRH');
 `}</Script>
+        </AfterHydration>
 
       </head>
 
@@ -224,7 +232,9 @@ export default function RootLayout({
               Renders nothing when unset. Loads after hydration, tracks SPA
               route changes automatically. ─────────────────────────────────── */}
         {process.env.NEXT_PUBLIC_GA_ID && (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+          <AfterHydration>
+            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+          </AfterHydration>
         )}
 
       </body>
