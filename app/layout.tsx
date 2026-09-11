@@ -118,17 +118,24 @@ export default function RootLayout({
               main-thread bootup to the first and 139 ms to the second in the
               same run; 204 KiB of the combined payload was unused.
 
-              gtag.js is ONE library with many destinations, so a single copy
-              serves every ID. <GoogleAnalytics/> is kept (it also wires SPA
-              route-change page_views, which a bare gtag config does not), and
-              this tag now only loads its own copy when NEXT_PUBLIC_GA_ID is
-              unset — so Ads conversion tracking can never silently die if the
-              env var goes missing. The inline snippet below is unchanged and
-              still queues every config onto dataLayer before either library
-              arrives, which is exactly how gtag is designed to work.        */}
-        {!process.env.NEXT_PUBLIC_GA_ID && (
-          <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
-        )}
+              MEASURED AND REVERTED — do not retry this without re-measuring.
+              Dropping this tag and letting <GoogleAnalytics/>'s library serve
+              every ID looked like a free 161 KB. It is not: as a *primary*
+              container this tag carries GT-PB6FNVRG and AW-18204165915 inside
+              itself, and once it is gone gtag fetches a separate ~161 KB
+              destination script for each of them. PSI mobile, same three URLs,
+              before vs after: gtag payload 492 KB -> 649 KB, total page weight
+              838 KB -> 970 KB, unused JS 204 KiB -> 316 KiB. Strictly worse.
+
+              The other direction (keep this tag, drop <GoogleAnalytics/>) does
+              save ~159 KB, but <GoogleAnalytics/> is what sends SPA
+              route-change page_views for G-XLC2HTP5SF — the property the
+              Command Center reads — so that trade costs real reporting data.
+              The actual fix is fewer destinations, which is Gio's call, not a
+              code change: three GA4 properties (G-XLC2HTP5SF, G-DYRL31NGRH,
+              GT-PB6FNVRG) plus AW-18204165915 is ~492 KB of Google tag JS on
+              every page load, and it is the single largest thing on the site. */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
         <Script id="google-tag" strategy="afterInteractive">{`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
