@@ -33,6 +33,14 @@ const services: Service[] = [
   },
   {
     index: "02",
+    name: "Meta Ads",
+    href: "/services/meta-ads",
+    tag: "Paid Social",
+    description:
+      "Facebook and Instagram campaigns for practices, medspas, and dental clinics. Policy-safe creative built without before-and-after imagery, audience strategy that works after Meta removed health targeting, and tracking configured so no patient data reaches a platform that will not sign a BAA.",
+  },
+  {
+    index: "03",
     name: "Google Ads",
     href: "/services/google-ads",
     tag: "Paid Search",
@@ -40,7 +48,7 @@ const services: Service[] = [
       "Local Service Ads and search campaigns built around new-patient intent. HIPAA-aware conversion tracking from day one — no form content captured, no PHI in your ad account. Campaigns go live in 7–10 days.",
   },
   {
-    index: "03",
+    index: "04",
     name: "Website Rebuild",
     href: "/services/medical-practice-website-design",
     tag: "Digital Presence",
@@ -48,7 +56,7 @@ const services: Service[] = [
       "30-page Core SEO architecture deployed on Vercel. Every page targets a specific local search term with MedicalOrganization schema markup and all 7 GBP consistency signals verified at launch.",
   },
   {
-    index: "04",
+    index: "05",
     name: "Review Generation",
     href: "/services/online-reputation-management",
     tag: "Reputation",
@@ -56,7 +64,7 @@ const services: Service[] = [
       "10 NFC tap cards programmed and installed at checkout, waiting rooms, and exam rooms. Reviews rotate across Google, Yelp, and Healthgrades. Every response HIPAA-compliant and published within 48 hours.",
   },
   {
-    index: "05",
+    index: "06",
     name: "GBP Optimization",
     href: "/services/google-business-profile",
     tag: "Local Search",
@@ -64,7 +72,7 @@ const services: Service[] = [
       "8–10 GBP categories (most practices start with 1–2), 30+ services in patient-search language, every attribute filled, and 52 posts scheduled at onboarding. The single highest-leverage change most practices can make.",
   },
   {
-    index: "06",
+    index: "07",
     name: "AI SEO",
     href: "/services/ai-seo",
     tag: "Generative Search",

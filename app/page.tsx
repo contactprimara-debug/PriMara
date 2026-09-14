@@ -57,7 +57,7 @@ import ScrollStorytelling from "@/components/ScrollStorytelling";
 export const metadata: Metadata = {
   title: "Healthcare Marketing Agency for Independent Medical Practices | Primara365",
   description:
-    "Primara365 is a digital marketing agency managing SEO and Google Ads for independent primary care and mental health practices — founder-led, HIPAA-aware, no long-term contracts.",
+    "Primara365 is a digital marketing agency managing SEO, Meta Ads, and Google Ads for independent medical practices, medspas, and dental clinics — founder-led, HIPAA-aware, no long-term contracts.",
   alternates: {
     canonical: "https://primara365.com",
   },
@@ -65,12 +65,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Healthcare Marketing Agency for Independent Medical Practices | Primara365",
     description:
-      "Primara365 is a digital marketing agency managing SEO and Google Ads for independent primary care and mental health practices — founder-led, HIPAA-aware, no long-term contracts.",
+      "Primara365 is a digital marketing agency managing SEO, Meta Ads, and Google Ads for independent medical practices, medspas, and dental clinics — founder-led, HIPAA-aware, no long-term contracts.",
     type: "website",
     url: "https://primara365.com",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
-  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "Primara365 is a digital marketing agency managing SEO and Google Ads for independent primary care and mental health practices — founder-led, HIPAA-aware, no long-term contracts." },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "Primara365 is a digital marketing agency managing SEO, Meta Ads, and Google Ads for independent medical practices, medspas, and dental clinics — founder-led, HIPAA-aware, no long-term contracts." },
 };
 
 export default function HomePage() {
@@ -261,6 +261,219 @@ export default function HomePage() {
               See How We Help →
             </span>
           </Link>
+          <Link
+            href="/medspas"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px",
+              padding: "clamp(28px, 4vw, 40px)",
+              border: "1px solid var(--wire)",
+              borderRadius: "4px",
+              backgroundColor: "var(--void)",
+              textDecoration: "none",
+              transition: "border-color 0.2s",
+            }}
+            className="vertical-card"
+          >
+            <span
+              style={{
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontSize: "clamp(24px, 3vw, 32px)",
+                color: "var(--chalk)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+              }}
+            >
+              Medspas
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                color: "var(--ash)",
+                lineHeight: 1.6,
+              }}
+            >
+              Injectables, laser, body contouring — physician- and nurse-led aesthetic practices
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "12px",
+                letterSpacing: "0.08em",
+                color: "var(--gold)",
+                marginTop: "4px",
+              }}
+            >
+              See How We Help →
+            </span>
+          </Link>
+          <Link
+            href="/dental-practices"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px",
+              padding: "clamp(28px, 4vw, 40px)",
+              border: "1px solid var(--wire)",
+              borderRadius: "4px",
+              backgroundColor: "var(--void)",
+              textDecoration: "none",
+              transition: "border-color 0.2s",
+            }}
+            className="vertical-card"
+          >
+            <span
+              style={{
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontSize: "clamp(24px, 3vw, 32px)",
+                color: "var(--chalk)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                lineHeight: 1.1,
+              }}
+            >
+              Dental Practices
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                color: "var(--ash)",
+                lineHeight: 1.6,
+              }}
+            >
+              Dentist-owned general, cosmetic, implant and aligner-focused practices
+            </span>
+            <span
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "12px",
+                letterSpacing: "0.08em",
+                color: "var(--gold)",
+                marginTop: "4px",
+              }}
+            >
+              See How We Help →
+            </span>
+          </Link>
+        </div>
+      </section>
+
+      {/* ── Co-flagship channels — SEO + Meta Ads ─────────────────────────── */}
+      <section
+        aria-label="Flagship channels"
+        style={{
+          padding: "clamp(48px, 6vw, 80px) clamp(24px, 8vw, 120px)",
+          borderTop: "1px solid var(--wire)",
+          backgroundColor: "var(--void)",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "system-ui, sans-serif",
+            fontSize: "10px",
+            letterSpacing: "0.2em",
+            textTransform: "uppercase",
+            color: "var(--smoke)",
+            marginBottom: "clamp(20px, 3vw, 32px)",
+          }}
+        >
+          Two Flagship Channels
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: "20px",
+          }}
+        >
+          {[
+            {
+              href: "/services/seo",
+              tag: "Demand Capture",
+              name: "SEO & Local Search",
+              body:
+                "Google Business Profile, map-pack position, technical SEO, and a content engine that keeps working after the ad budget stops. This is the compounding asset — slower to start, hardest for a competitor to take back.",
+              cta: "Explore SEO",
+            },
+            {
+              href: "/services/meta-ads",
+              tag: "Demand Creation",
+              name: "Meta Ads",
+              body:
+                "Facebook and Instagram for practices, medspas, and dental clinics. Policy-safe creative, HIPAA-aware tracking, dedicated landing pages, and call attribution. Search has a ceiling — this is how you go past it.",
+              cta: "Explore Meta Ads",
+            },
+          ].map((channel) => (
+            <Link
+              key={channel.href}
+              href={channel.href}
+              className="vertical-card"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "14px",
+                padding: "clamp(28px, 4vw, 44px)",
+                border: "1px solid var(--wire)",
+                borderRadius: "4px",
+                backgroundColor: "var(--surface)",
+                textDecoration: "none",
+                transition: "border-color 0.2s",
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "10px",
+                  letterSpacing: "0.16em",
+                  textTransform: "uppercase",
+                  color: "var(--gold)",
+                  border: "1px solid rgba(201,168,76,0.3)",
+                  borderRadius: "2px",
+                  padding: "4px 10px",
+                  width: "fit-content",
+                }}
+              >
+                {channel.tag}
+              </span>
+              <span
+                style={{
+                  fontFamily: "var(--font-display), Georgia, serif",
+                  fontSize: "clamp(28px, 3.5vw, 40px)",
+                  color: "var(--chalk)",
+                  fontWeight: 400,
+                  letterSpacing: "-0.02em",
+                  lineHeight: 1.1,
+                }}
+              >
+                {channel.name}
+              </span>
+              <span
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "14px",
+                  color: "var(--ash)",
+                  lineHeight: 1.75,
+                }}
+              >
+                {channel.body}
+              </span>
+              <span
+                style={{
+                  fontFamily: "system-ui, sans-serif",
+                  fontSize: "12px",
+                  letterSpacing: "0.08em",
+                  color: "var(--gold)",
+                  marginTop: "4px",
+                }}
+              >
+                {channel.cta} →
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
 

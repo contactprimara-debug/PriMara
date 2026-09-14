@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Digital Marketing Services for Doctors | Primara",
   description:
-    "Primara offers digital marketing services for independent medical practices. Google Business Profile, SEO, website design & more. Call (561) 291-2681.",
+    "Primara offers digital marketing services for independent medical practices, medspas, and dental clinics. Meta Ads, Google Business Profile, SEO, website design & more. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -19,6 +19,13 @@ export const metadata: Metadata = {
 };
 
 const services = [
+  {
+    id: "meta-ads",
+    slug: "meta-ads",
+    title: "Meta Ads",
+    description:
+      "Facebook and Instagram advertising for medical practices, medspas, and dental clinics — policy-safe creative, HIPAA-aware conversion tracking, dedicated landing pages, and call attribution.",
+  },
   {
     id: "google-business-profile",
     slug: "google-business-profile",

@@ -26,6 +26,9 @@ const NAV_LINKS = [
 ];
 
 const SERVICE_LINKS = [
+  // Meta Ads and SEO are the two co-flagship services — they lead this list.
+  { label: "Meta Ads", href: "/services/meta-ads" },
+  { label: "SEO", href: "/services/seo" },
   { label: "GBP Optimization", href: "/services/google-business-profile" },
   { label: "Website Rebuild", href: "/services/medical-practice-website-design" },
   { label: "Review Generation", href: "/services/online-reputation-management" },
@@ -38,6 +41,8 @@ const WHO_WE_SERVE_LINKS = [
   { label: "Men's Health", href: "/mens-health" },
   { label: "Primary Care", href: "/primary-care" },
   { label: "Mental Health", href: "/mental-health" },
+  { label: "Medspas", href: "/medspas" },
+  { label: "Dental Practices", href: "/dental-practices" },
 ];
 
 const LOCATIONS_LINKS = [

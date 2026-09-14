@@ -69,6 +69,9 @@ export const localBusinessSchema = {
     "Local SEO for Medical Practices",
     "Healthcare Digital Marketing",
     "Patient Acquisition",
+    "Meta Ads for Healthcare",
+    "Medspa Marketing",
+    "Dental Practice Marketing",
   ],
 };
 
@@ -153,6 +156,43 @@ export const mensHealthSchema = {
   areaServed: { "@type": "Country", name: "United States" },
   description:
     "Primara helps independent men's health practices — TRT clinics, men's wellness centers, and urology practices — rank higher on Google, build patient trust, and grow without relying on national franchise directories.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: "Primara",
+    url: SITE_URL,
+  },
+};
+
+// ── 7. Medspa vertical schema ─────────────────────────────────────────────
+export const medspaSchema = {
+  "@context": "https://schema.org",
+  "@type": ["MedicalClinic", "ProfessionalService"],
+  name: "Primara — Medspa Digital Marketing",
+  url: `${SITE_URL}/medspas`,
+  telephone: "+15612912681",
+  email: "liam.costello@primara365.com",
+  medicalSpecialty: "PlasticSurgery",
+  areaServed: { "@type": "Country", name: "United States" },
+  description:
+    "Primara helps independent, physician- and nurse-led medspas win the local map pack, run policy-compliant Meta Ads, and build a review engine — without competing on discount-site pricing.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: "Primara",
+    url: SITE_URL,
+  },
+};
+
+// ── 8. Dental vertical schema ─────────────────────────────────────────────
+export const dentalSchema = {
+  "@context": "https://schema.org",
+  "@type": ["Dentist", "ProfessionalService"],
+  name: "Primara — Dental Practice Digital Marketing",
+  url: `${SITE_URL}/dental-practices`,
+  telephone: "+15612912681",
+  email: "liam.costello@primara365.com",
+  areaServed: { "@type": "Country", name: "United States" },
+  description:
+    "Primara helps independent, dentist-owned practices compete with DSO-backed groups on local search, and reach implant, aligner, and cosmetic cases through Meta Ads.",
   provider: {
     "@type": "ProfessionalService",
     name: "Primara",

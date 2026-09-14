@@ -68,8 +68,10 @@ Rules:
 ## Page Map (top level)
 Core: `/` `/services` `/the-audit` (explainer, links to contact form) `/contact`
 `/about` `/work` `/pricing` `/how-it-works` `/faq` `/results` `/thank-you` (noindex)
-Verticals: `/primary-care` `/mental-health` · Flagship services: `/services/seo`
-`/services/google-ads` + 6 long-tail service pages · `/specialties/*` (6) ·
+Verticals: `/mens-health` `/primary-care` `/mental-health` `/medspas`
+`/dental-practices` · Flagship services: `/services/seo` + `/services/meta-ads`
+(co-flagship), then `/services/google-ads` + 7 long-tail service pages ·
+`/specialties/*` (6) ·
 `/locations/*` (30 FL city pages — geo copy allowed here) · `/blog/*` (8 posts in
 `lib/blog.ts`) · `/vs/*` (3 comparisons) · `/packages/foundation|visibility` ·
 `/assessment` → `/assessment/quiz` → `/assessment/results` (noindex)
@@ -84,3 +86,22 @@ Verticals: `/primary-care` `/mental-health` · Flagship services: `/services/seo
 - Contact: liam.costello@primara365.com · +1 (561) 291-2681 · calendly.com/contactprimara/30min
 - Founders: Liam Costello & Gio LaRoche · Tagline: Digital Marketing for Independent Medical Practices
 - Canonical contact constants live in `lib/siteConfig.ts` — import, don't hardcode
+
+## Positioning (updated 2026-09-14)
+**Meta Ads is a flagship service, co-equal with SEO** — not a line item under ads.
+Facebook/Instagram for practices, medspas, and dental clinics. Its real differentiator
+is healthcare ad policy: Meta signs no BAA, health targeting was removed in 2022,
+before-and-after imagery and personal-attribute copy are prohibited. Never write ad
+copy or page copy that contradicts those facts.
+
+**Verticals are five, not three.** Existing: men's health, primary care, mental health
+(independent MEDICAL practices — keep that framing intact). Added: **medspas**
+(`/medspas`) and **dental practices** (`/dental-practices`). This was additive —
+do not narrow existing "independent medical practices" copy to accommodate it,
+broaden around it.
+
+Nav lives in three places and must stay in sync: `components/Header.tsx`
+(`WHO_WE_SERVE`, `SERVICES` — the Services dropdown replaced the flat /services link),
+`components/Footer.tsx` (`SERVICE_LINKS`, `WHO_WE_SERVE_LINKS`), and the homepage
+vertical cards + "Two Flagship Channels" band in `app/page.tsx`. New pages also need
+`app/sitemap.ts` and a vertical schema in `lib/schema.ts`.

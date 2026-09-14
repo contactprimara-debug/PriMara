@@ -19,6 +19,20 @@ const WHO_WE_SERVE = [
   { label: "Men's Health", href: "/mens-health" },
   { label: "Primary Care", href: "/primary-care" },
   { label: "Mental Health", href: "/mental-health" },
+  { label: "Medspas", href: "/medspas" },
+  { label: "Dental Practices", href: "/dental-practices" },
+];
+
+// Flagship services first — Meta Ads and SEO are the two co-flagship
+// offers, so they lead the dropdown rather than sitting in list order.
+const SERVICES = [
+  { label: "Meta Ads", href: "/services/meta-ads" },
+  { label: "SEO", href: "/services/seo" },
+  { label: "Google Ads", href: "/services/google-ads" },
+  { label: "GBP Optimization", href: "/services/google-business-profile" },
+  { label: "Website Rebuild", href: "/services/medical-practice-website-design" },
+  { label: "Review Generation", href: "/services/online-reputation-management" },
+  { label: "All Services", href: "/services" },
 ];
 
 const RESOURCES = [
@@ -32,10 +46,13 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [whoWeServeOpen, setWhoWeServeOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const resourcesRef = useRef<HTMLDivElement>(null);
+  const servicesRef = useRef<HTMLDivElement>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout>>();
   const resourcesCloseTimer = useRef<ReturnType<typeof setTimeout>>();
+  const servicesCloseTimer = useRef<ReturnType<typeof setTimeout>>();
   const pathname = usePathname();
 
   // Close dropdowns when clicking outside
@@ -46,6 +63,9 @@ export default function Header() {
       }
       if (resourcesRef.current && !resourcesRef.current.contains(e.target as Node)) {
         setResourcesOpen(false);
+      }
+      if (servicesRef.current && !servicesRef.current.contains(e.target as Node)) {
+        setServicesOpen(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -171,9 +191,7 @@ export default function Header() {
                 fontSize: "11px",
                 textTransform: "uppercase",
                 letterSpacing: "0.1em",
-                color: (pathname === "/primary-care" || pathname === "/mental-health")
-                  ? "var(--chalk)"
-                  : whoWeServeOpen
+                color: (WHO_WE_SERVE.some((w) => pathname === w.href) || whoWeServeOpen)
                   ? "var(--chalk)"
                   : "var(--smoke)",
                 background: "none",
@@ -346,8 +364,88 @@ export default function Header() {
             )}
           </div>
 
+          {/* Services dropdown — replaces the flat /services link so the
+              flagship service pages (Meta Ads, SEO) are reachable in one hop. */}
+          <div
+            ref={servicesRef}
+            style={{ position: "relative" }}
+            onMouseEnter={() => { clearTimeout(servicesCloseTimer.current); setServicesOpen(true); }}
+            onMouseLeave={() => { servicesCloseTimer.current = setTimeout(() => setServicesOpen(false), 120); }}
+          >
+            <button
+              onClick={() => setServicesOpen((o) => !o)}
+              aria-expanded={servicesOpen}
+              aria-haspopup="true"
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "11px",
+                textTransform: "uppercase",
+                letterSpacing: "0.1em",
+                color: (pathname.startsWith("/services") || servicesOpen) ? "var(--chalk)" : "var(--smoke)",
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                display: "flex",
+                alignItems: "center",
+                gap: "5px",
+                transition: "color 0.2s",
+              }}
+            >
+              Services
+              <svg width="8" height="5" viewBox="0 0 8 5" fill="none" aria-hidden="true" style={{ transition: "transform 0.2s", transform: servicesOpen ? "rotate(180deg)" : "none" }}>
+                <path d="M1 1l3 3 3-3" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+            {servicesOpen && (
+              <div
+                style={{
+                  position: "absolute",
+                  top: "calc(100% + 8px)",
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                  backgroundColor: "rgba(13,13,13,0.98)",
+                  backdropFilter: "blur(20px)",
+                  WebkitBackdropFilter: "blur(20px)",
+                  border: "1px solid var(--wire)",
+                  borderRadius: "4px",
+                  padding: "8px",
+                  minWidth: "190px",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "2px",
+                  zIndex: 1100,
+                }}
+              >
+                {SERVICES.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setServicesOpen(false)}
+                    style={{
+                      fontFamily: "system-ui, sans-serif",
+                      fontSize: "11px",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.1em",
+                      color: pathname === item.href ? "var(--gold)" : "var(--ash)",
+                      textDecoration: "none",
+                      padding: "10px 14px",
+                      borderRadius: "2px",
+                      transition: "color 0.15s, background 0.15s",
+                      display: "block",
+                      whiteSpace: "nowrap",
+                    }}
+                    className="dropdown-item"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           {/* Remaining nav links */}
-          {navLinks.filter((l) => l.href !== "/").map((link) => {
+          {navLinks.filter((l) => l.href !== "/" && l.href !== "/services").map((link) => {
             const active = pathname === link.href;
             return (
               <Link
@@ -605,8 +703,35 @@ export default function Header() {
                 </div>
               </li>
 
+              {/* Services — labeled group */}
+              <li>
+                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "10px" }}>
+                  Services
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                  {SERVICES.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setMenuOpen(false)}
+                      style={{
+                        fontFamily: "var(--font-display), Georgia, serif",
+                        fontSize: "clamp(22px, 4.5vw, 34px)",
+                        color: pathname === item.href ? "var(--gold)" : "var(--chalk)",
+                        textDecoration: "none",
+                        letterSpacing: "-0.02em",
+                        lineHeight: 1.1,
+                        display: "block",
+                      }}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </li>
+
               {/* Remaining nav links */}
-              {navLinks.filter((l) => l.href !== "/").map((link) => (
+              {navLinks.filter((l) => l.href !== "/" && l.href !== "/services").map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
