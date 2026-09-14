@@ -91,8 +91,12 @@ Verticals: `/mens-health` `/primary-care` `/mental-health` `/medspas`
 **Meta Ads is a flagship service, co-equal with SEO** — not a line item under ads.
 Facebook/Instagram for practices, medspas, and dental clinics. Its real differentiator
 is healthcare ad policy: Meta signs no BAA, health targeting was removed in 2022,
-before-and-after imagery and personal-attribute copy are prohibited. Never write ad
-copy or page copy that contradicts those facts.
+and personal-attribute copy (implying knowledge of a viewer's health/appearance) is
+prohibited. Before-and-after imagery moved to **claims-based enforcement in July 2026**
+— no longer an automatic rejection, but still a violation when paired with a prohibited
+claim (guaranteed/inferiority results); some formats (pinched-fat shots, sensationalized
+framing) stay banned outright. Never state the old blanket before-and-after ban as fact —
+that's exactly the stale claim a 2026-09-14 verifier caught and corrected sitewide.
 
 **Verticals are five, not three.** Existing: men's health, primary care, mental health
 (independent MEDICAL practices — keep that framing intact). Added: **medspas**
