@@ -26,15 +26,18 @@ import { useEffect } from "react";
  * synchronous script, so the moment window.gtag is a function the destinations
  * are already queued ahead of us.
  *
- * NOTE: no Google Ads conversion label has ever existed in this repo (checked
- * the working tree and full git history for "AW-18204165915/" and "send_to").
- * AW-18204165915 is configured as a destination on the primary GT-PB6FNVRG
- * tag, but an Ads conversion needs AW-18204165915/<label> from the Google Ads
- * account. Not inventing one — a wrong label reports to nothing. Add it here
- * as a second gtag("event","conversion",{send_to}) call once someone pulls the
- * real label out of Google Ads.
+ GOOGLE ADS (added 2026-09-14, task #201): the account's pre-existing
+ * SUBMIT_LEAD_FORM actions were all WEBPAGE_CODELESS, which carry no tag
+ * snippet and therefore no label to fire deliberately. A snippet-based WEBPAGE
+ * action was created on customer 7881408911 — "Website lead — primara365.com",
+ * id 7767761259, category SUBMIT_LEAD_FORM, primary, ONE_PER_CLICK — and its
+ * event snippet gives the send_to below. It rides the SAME wait-for-gtag path
+ * as generate_lead, for the same ordering reason: AW-18204165915 is a
+ * destination on the primary GT-PB6FNVRG tag, so the config() for it is only
+ * queued once window.gtag exists.
  */
 const GA_ID = "G-DYRL31NGRH";
+const ADS_CONVERSION_SEND_TO = "AW-18204165915/YK5gCOvC-vccEJuOtuhD";
 const RETRY_MS = 150;
 const MAX_WAIT_MS = 15000;
 
@@ -63,6 +66,10 @@ export default function LeadConversionPing() {
       window.gtag("event", "generate_lead", {
         send_to: GA_ID,
         form_destination: "thank-you",
+      });
+
+      window.gtag("event", "conversion", {
+        send_to: ADS_CONVERSION_SEND_TO,
       });
 
       // Only latch the guard once the event has actually been handed to gtag.
