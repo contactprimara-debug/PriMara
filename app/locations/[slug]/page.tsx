@@ -4,17 +4,24 @@ import type { Metadata } from "next";
 import { primaryCareLocations, type PrimaryCareLocation } from "@/lib/locations-primary";
 import { mentalHealthLocations, type MentalHealthLocation } from "@/lib/locations-mental";
 import { mensHealthLocations, type MensHealthLocation } from "@/lib/locations-mens-health";
+import { medspaLocations, type MedspaLocation } from "@/lib/locations-medspas";
+import { dentalLocations, type DentalLocation } from "@/lib/locations-dental";
 import { regionFor } from "@/lib/locations-regions";
 
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
 type MentalLoc = MentalHealthLocation & { type: "mental-health" };
 type MensLoc = MensHealthLocation & { type: "mens-health" };
-type AnyLoc = PrimaryLoc | MentalLoc | MensLoc;
+type MedspaLoc = MedspaLocation & { type: "medspas" };
+type DentalLoc = DentalLocation & { type: "dental" };
+type AnyLoc = PrimaryLoc | MentalLoc | MensLoc | MedspaLoc | DentalLoc;
+type LocType = AnyLoc["type"];
 
 const allLocations: AnyLoc[] = [
   ...primaryCareLocations.map((loc) => ({ ...loc, type: "primary-care" as const })),
   ...mentalHealthLocations.map((loc) => ({ ...loc, type: "mental-health" as const })),
   ...mensHealthLocations.map((loc) => ({ ...loc, type: "mens-health" as const })),
+  ...medspaLocations.map((loc) => ({ ...loc, type: "medspas" as const })),
+  ...dentalLocations.map((loc) => ({ ...loc, type: "dental" as const })),
 ];
 
 function isPrimary(loc: AnyLoc): loc is PrimaryLoc {
@@ -24,6 +31,78 @@ function isPrimary(loc: AnyLoc): loc is PrimaryLoc {
 function isMensHealth(loc: AnyLoc): loc is MensLoc {
   return loc.type === "mens-health";
 }
+
+// Two distinct data shapes live behind AnyLoc, and every field access below
+// has to branch on the shape, not on the vertical:
+//   • "directory-style" (mental health, men's health) — directoryContext,
+//     gbpSection, searchIntent, neighborhoods.
+//   • "market-style" (primary care, medspas, dental) — localContext, whyNow,
+//     landmarks, plus hospitals (primary care) or competitors (medspas/dental).
+function isDirectoryStyle(loc: AnyLoc): loc is MentalLoc | MensLoc {
+  return loc.type === "mental-health" || loc.type === "mens-health";
+}
+
+// Per-vertical copy. Typed as a Record over every member of the union so that
+// adding a sixth vertical without filling this in is a compile error rather
+// than wrong copy silently shipping to live city pages.
+const VERTICAL_COPY: Record<
+  LocType,
+  {
+    label: string;
+    href: string;
+    desc: string;
+    schemaAudience: string;
+    sidebarLabel: string;
+    whyNowEyebrow: string;
+    whyNowHeading: (city: string) => string;
+  }
+> = {
+  "primary-care": {
+    label: "Primary Care Marketing",
+    href: "/primary-care",
+    desc: "How Primara works with independent primary care physicians nationwide.",
+    schemaAudience: "Primary Care Practices",
+    sidebarLabel: "Hospital Systems in This Market",
+    whyNowEyebrow: "Timing",
+    whyNowHeading: (city) => `Why Independent Practices in ${city} Are Moving Now`,
+  },
+  "mental-health": {
+    label: "Mental Health Marketing",
+    href: "/mental-health",
+    desc: "How Primara helps independent therapists and mental health practices nationwide.",
+    schemaAudience: "Mental Health Practices",
+    sidebarLabel: "Key Neighborhoods We Serve",
+    whyNowEyebrow: "Search Landscape",
+    whyNowHeading: (city) => `How ${city} Patients Search for Therapy`,
+  },
+  "mens-health": {
+    label: "Men's Health Marketing",
+    href: "/mens-health",
+    desc: "How Primara works with independent men's health practices nationwide.",
+    schemaAudience: "Men's Health Practices",
+    sidebarLabel: "Key Neighborhoods We Serve",
+    whyNowEyebrow: "Search Landscape",
+    whyNowHeading: (city) => `How ${city} Patients Search for Men's Health Care`,
+  },
+  medspas: {
+    label: "Medspa Marketing",
+    href: "/medspas",
+    desc: "How Primara works with independent, physician- and nurse-led medspas nationwide.",
+    schemaAudience: "Medical Spas",
+    sidebarLabel: "Who You Are Competing With",
+    whyNowEyebrow: "Timing",
+    whyNowHeading: (city) => `Why Independent Medspas in ${city} Are Moving Now`,
+  },
+  dental: {
+    label: "Dental Marketing",
+    href: "/dental-practices",
+    desc: "How Primara works with independent dental practices nationwide.",
+    schemaAudience: "Dental Practices",
+    sidebarLabel: "Who You Are Competing With",
+    whyNowEyebrow: "Timing",
+    whyNowHeading: (city) => `Why Independent Dental Practices in ${city} Are Moving Now`,
+  },
+};
 
 export function generateStaticParams() {
   return allLocations.map((loc) => ({ slug: loc.slug }));
@@ -76,37 +155,38 @@ export default function LocationPage({
     .slice(0, 3)
     .map((x) => x.loc);
 
-  const verticalLabel = isPrimary(loc)
-    ? "Primary Care Marketing"
-    : isMensHealth(loc)
-    ? "Men's Health Marketing"
-    : "Mental Health Marketing";
-  const mainVerticalHref = isPrimary(loc) ? "/primary-care" : isMensHealth(loc) ? "/mens-health" : "/mental-health";
-  const mainVerticalLabel = verticalLabel;
-  const mainVerticalDesc = isPrimary(loc)
-    ? "How Primara works with independent primary care physicians nationwide."
-    : isMensHealth(loc)
-    ? "How Primara works with independent men's health practices nationwide."
-    : "How Primara helps independent therapists and mental health practices nationwide.";
+  const copy = VERTICAL_COPY[loc.type];
+  const verticalLabel = copy.label;
+  const mainVerticalHref = copy.href;
+  const mainVerticalLabel = copy.label;
+  const mainVerticalDesc = copy.desc;
 
-  const contextParagraphs = isPrimary(loc)
-    ? loc.localContext.split("\n\n").filter(Boolean)
-    : loc.directoryContext.split("\n\n").filter(Boolean);
+  const contextParagraphs = isDirectoryStyle(loc)
+    ? loc.directoryContext.split("\n\n").filter(Boolean)
+    : loc.localContext.split("\n\n").filter(Boolean);
 
   const servicesParagraphs = loc.services.split("\n\n").filter(Boolean);
 
-  const gbpParagraphs =
-    !isPrimary(loc) ? loc.gbpSection.split("\n\n").filter(Boolean) : [];
+  // Only the directory-style verticals ship a dedicated GBP section; the
+  // market-style ones fold GBP into `services`, so this stays empty for them
+  // and the section below does not render.
+  const gbpParagraphs = isDirectoryStyle(loc)
+    ? loc.gbpSection.split("\n\n").filter(Boolean)
+    : [];
 
-  const whyNowText = isPrimary(loc) ? loc.whyNow : loc.searchIntent;
+  const whyNowText = isDirectoryStyle(loc) ? loc.searchIntent : loc.whyNow;
 
-  const sidebarLabel = isPrimary(loc)
-    ? "Hospital Systems in This Market"
-    : "Key Neighborhoods We Serve";
+  const sidebarLabel = copy.sidebarLabel;
 
-  const sidebarItems = isPrimary(loc) ? loc.hospitals : loc.neighborhoods;
+  const sidebarItems = isDirectoryStyle(loc)
+    ? loc.neighborhoods
+    : isPrimary(loc)
+    ? loc.hospitals
+    : loc.competitors;
 
-  const landmarkItems = isPrimary(loc) ? loc.landmarks : loc.neighborhoods;
+  // Market-style verticals carry a separate landmark list; directory-style
+  // ones reuse neighborhoods (and suppress the duplicate block below).
+  const landmarkItems = isDirectoryStyle(loc) ? loc.neighborhoods : loc.landmarks;
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -124,9 +204,7 @@ export default function LocationPage({
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `Digital Marketing for ${
-      isPrimary(loc) ? "Primary Care Practices" : isMensHealth(loc) ? "Men's Health Practices" : "Mental Health Practices"
-    } in ${loc.city}`,
+    name: `Digital Marketing for ${copy.schemaAudience} in ${loc.city}`,
     provider: { "@type": "LocalBusiness", name: "Primara" },
     areaServed: { "@type": "City", name: loc.city },
     serviceType: "Healthcare Digital Marketing",
@@ -362,7 +440,7 @@ export default function LocationPage({
                   ))}
                 </ul>
 
-                {isPrimary(loc) && (
+                {!isDirectoryStyle(loc) && (
                   <div
                     style={{
                       marginTop: "1.5rem",
@@ -414,8 +492,8 @@ export default function LocationPage({
         </div>
       </section>
 
-      {/* ── GBP Section (mental health only) ──────────────────────────── */}
-      {!isPrimary(loc) && gbpParagraphs.length > 0 && (
+      {/* ── GBP Section (directory-style verticals only) ──────────────── */}
+      {isDirectoryStyle(loc) && gbpParagraphs.length > 0 && (
         <section
           style={{
             padding: "clamp(48px, 8vw, 96px) 0",
@@ -595,7 +673,7 @@ export default function LocationPage({
                   marginBottom: "0.75rem",
                 }}
               >
-                {isPrimary(loc) ? "Timing" : "Search Landscape"}
+                {copy.whyNowEyebrow}
               </p>
               <h2
                 style={{
@@ -606,11 +684,7 @@ export default function LocationPage({
                   lineHeight: 1.2,
                 }}
               >
-                {isPrimary(loc)
-                  ? `Why Independent Practices in ${loc.city} Are Moving Now`
-                  : isMensHealth(loc)
-                  ? `How ${loc.city} Patients Search for Men's Health Care`
-                  : `How ${loc.city} Patients Search for Therapy`}
+                {copy.whyNowHeading(loc.city)}
               </h2>
             </div>
             <div>

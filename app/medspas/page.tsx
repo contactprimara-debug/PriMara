@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, medspaSchema } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import { medspaLocations } from "@/lib/locations-medspas";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Medspas | Primara",
@@ -958,6 +959,76 @@ export default function MedspasPage() {
             ))}
             <div style={{ borderTop: "1px solid var(--wire)" }} />
           </div>
+        </div>
+      </section>
+
+      {/* ── Locations we serve ───────────────────────────────────────────── */}
+      <section
+        aria-labelledby="ms-locations"
+        id="locations"
+        style={{ padding: sectionPad, borderTop: "1px solid var(--wire)" }}
+      >
+        <div style={{ maxWidth: "980px" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+              marginBottom: "16px",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+            }}
+          >
+            <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+            Locations We Serve
+          </div>
+          <h2
+            id="ms-locations"
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(28px, 4vw, 48px)",
+              lineHeight: 1.05,
+              letterSpacing: "-0.02em",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: "0 0 20px",
+            }}
+          >
+            Medspa Markets We Serve
+          </h2>
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "16px", lineHeight: 1.8, color: "var(--ash)", margin: "0 0 clamp(28px, 4vw, 40px)", maxWidth: "720px" }}>
+            Every market below has its own page with the competitive picture for that city — which national chains and dermatology-group cosmetic arms hold the map pack, what the local review benchmark looks like, and how patients there actually search.
+          </p>
+          <ul
+            style={{
+              listStyle: "none",
+              margin: 0,
+              padding: 0,
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+              gap: "10px 24px",
+            }}
+          >
+            {medspaLocations.map((loc) => (
+              <li key={loc.slug} style={{ borderTop: "1px solid var(--wire)", paddingTop: "10px" }}>
+                <Link
+                  href={`/locations/${loc.slug}`}
+                  style={{
+                    fontFamily: "system-ui, sans-serif",
+                    fontSize: "0.9375rem",
+                    color: "var(--ash)",
+                    textDecoration: "none",
+                    display: "block",
+                  }}
+                >
+                  {loc.city}, {loc.state} →
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
