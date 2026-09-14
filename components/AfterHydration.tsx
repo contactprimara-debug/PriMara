@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
  * calls ReactDOM.preload(src, { as: "script" }) — see
  * node_modules/next/dist/client/script.js, the `if (appDir)` block. There is no
  * prop to opt out. That put two `<link rel="preload" as="script">` hints for the
- * gtag libraries (GT-PB6FNVRG and G-XLC2HTP5SF, ~490 KB of third-party JS) into
+ * gtag library (GT-PB6FNVRG, which carries AW-18204165915 and G-DYRL31NGRH) into
  * the <head> of every page, at High priority, competing with the stylesheet and
  * the font files for first paint. That contention is the bimodal FCP stall:
  * PSI mobile lands on either ~0.9-1.7s or ~3.3-3.8s with nothing in between.
