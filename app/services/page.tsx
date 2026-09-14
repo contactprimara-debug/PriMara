@@ -61,6 +61,13 @@ const services = [
     description:
       "Structured data, AI crawler access, and answer-ready content so ChatGPT, Perplexity, and Google AI Overviews can find and accurately describe your practice.",
   },
+  {
+    id: "digital-marketing-for-independent-medical-practices",
+    slug: "digital-marketing-for-independent-medical-practices",
+    title: "Digital Marketing for Independent Practices",
+    description:
+      "The full picture for a practice that is not part of a hospital group — how the website, Google Business Profile, SEO, ads, and reviews work together instead of as separate line items.",
+  },
 ];
 
 export default function ServicesPage() {

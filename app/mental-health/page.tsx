@@ -844,6 +844,7 @@ export default function MentalHealthPage() {
         eyebrow="Related"
         heading="Related Services & Resources"
         items={[
+          { href: "/therapist-seo", label: "SEO for Therapists", description: "The search terms private-practice therapists actually get found on, and what moves them." },
           { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence for therapy practices." },
           { href: "/services/local-seo-for-medical-practices", label: "Local SEO", description: "Ranking for '[specialty] therapist [city]' searches on Google." },
           { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "Review generation and HIPAA-compliant response systems." },

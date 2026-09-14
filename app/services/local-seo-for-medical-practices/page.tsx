@@ -240,6 +240,8 @@ export default function LocalSEOPage() {
         items={[
           { href: "/services/seo", label: "SEO", description: "The full SEO service — technical, on-page, and content — behind every specialty page like this one." },
           { href: "/services/google-business-profile", label: "Google Business Profile", description: "Category selection, service menus, and posting cadence — the highest-leverage lever for local visibility." },
+          { href: "/services/digital-marketing-for-independent-medical-practices", label: "Digital Marketing for Independent Practices", description: "How local SEO fits with the website, ads, and reviews work an independent practice needs." },
+          { href: "/therapist-seo", label: "SEO for Therapists", description: "How local SEO applies to a private therapy practice, where the search terms differ from medical." },
           { href: "/blog/how-long-does-local-seo-take-for-medical-practices", label: "How Long Does Local SEO Take?", description: "A realistic timeline for local SEO results — no inflated promises." },
         ]}
       />
