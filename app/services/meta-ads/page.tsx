@@ -136,6 +136,22 @@ const faqs = [
     q: "How fast do campaigns go live, and is there a long-term contract?",
     a: "No long-term contracts — month-to-month after setup. Setup runs about 10–14 days from signed agreement: account and Business Manager access, tracking build and verification, landing page, first creative batch, and policy review before anything is submitted. It is slower than our Google Ads launch on purpose, because the tracking and creative approval work is the part that cannot be retrofitted safely.",
   },
+  {
+    q: "What happens if Meta rejects an ad or restricts the account?",
+    a: "Rejections are routine and we plan for them; restrictions are the thing worth preventing. Every concept goes through policy review before submission, and we keep several approved concepts live at once so a single disapproval never takes the account dark. If a restriction does land we work the appeal, but the honest position is that appeals are slow and unpredictable — which is exactly why we do not run creative that tests the boundary to see what passes. In a competitive market an account restriction costs far more than any one ad could have earned.",
+  },
+  {
+    q: "How do you measure results when Meta's own numbers are unreliable?",
+    a: "By treating them as an estimate and reconciling. Platform attribution after the iOS privacy changes is modeled, not counted, and it will over- or under-report depending on the account. Each month we compare what the platform claims against what your schedule or practice management system actually shows, and the reconciled figure is the one in your report. Where the two disagree materially we explain why rather than quietly reporting whichever number looks better.",
+  },
+  {
+    q: "How often does creative need to be replaced?",
+    a: "More often than most practices expect, and faster in dense markets. A concept's performance decays as frequency rises within a fixed local audience — in a small market that might take months, in somewhere like the Palm Beach corridor it can happen in six to eight weeks. We plan a refresh cadence into the engagement rather than waiting for results to slip, which is why we push so hard for a filming session that banks several months of raw material at once.",
+  },
+  {
+    q: "Can we run Meta Ads for a practice with several locations?",
+    a: "Yes, and geography is one of the few targeting levers healthcare advertisers still have after the 2022 removal of health-related detailed targeting. Multi-location practices generally do best with one campaign per catchment and location-specific creative, because audiences in different areas respond to different framing and a single wide radius spends the budget wherever impressions are cheapest rather than wherever your chairs are.",
+  },
 ];
 
 // Derived from `faqs` above — single source of truth, so the schema can
@@ -743,6 +759,8 @@ export default function MetaAdsPage() {
               { href: "/services/patient-acquisition-ads", label: "Patient Acquisition Ads" },
               { href: "/services/medical-practice-website-design", label: "Website Design" },
               { href: "/services/online-reputation-management", label: "Reputation Management" },
+              { href: "/locations/meta-ads-florida", label: "Meta Ads in Florida" },
+              { href: "/locations/meta-ads-west-palm-beach", label: "Meta Ads in West Palm Beach" },
               { href: "/services", label: "All Services" },
             ].map(({ href, label }) => (
               <Link
@@ -769,6 +787,8 @@ export default function MetaAdsPage() {
         eyebrow="Related"
         heading="Where Meta Ads Fit"
         items={[
+          { href: "/locations/meta-ads-for-medspas", label: "Meta Ads for Medspas", description: "This service applied to the highest-fit vertical — creative, offers, and where the policy line sits." },
+          { href: "/locations/meta-ads-for-dental-practices", label: "Meta Ads for Dental Practices", description: "Implant, aligner, and cosmetic case acquisition, campaign by campaign." },
           { href: "/medspas", label: "Medspa Marketing", description: "The vertical where paid social is the primary acquisition channel — and the most heavily policed." },
           { href: "/dental-practices", label: "Dental Practice Marketing", description: "Implants, aligners, and cosmetic cases have a months-long consideration window Meta is built for." },
           { href: "/services/google-ads", label: "Google Ads", description: "Demand capture: the patients already searching for a provider today." },

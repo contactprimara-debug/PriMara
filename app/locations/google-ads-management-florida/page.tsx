@@ -246,6 +246,7 @@ export default function GoogleAdsManagementFloridaPage() {
           { href: "/services/google-ads", label: "Google Ads for Medical Practices", description: "The full Google Ads service — campaign types, budgets, and how we report results." },
           { href: "/locations/google-ads-management-west-palm-beach", label: "Google Ads Management in West Palm Beach", description: "Our home market — Google Ads management for West Palm Beach practices." },
           { href: "/locations/medical-seo-florida", label: "Medical SEO for Florida Practices", description: "The organic side — statewide medical SEO from Miami to Jacksonville." },
+          { href: "/locations/meta-ads-florida", label: "Meta Ads Management in Florida", description: "The other half of paid — demand creation on Facebook and Instagram, statewide." },
         ]}
       />
 

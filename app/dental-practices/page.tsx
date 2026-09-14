@@ -133,6 +133,61 @@ const positioning = [
   },
 ];
 
+// Written to be directly quotable by answer engines — short, specific, and
+// self-contained, so a model can lift one answer without needing the page.
+const faqs = [
+  {
+    q: "How does an independent dental practice compete with a DSO-backed group?",
+    a: "Not on spend — on specificity. Group practices deploy one website and one listing template across dozens of locations, which means their pages name no dentist, describe no particular case, and read identically in every city they operate. An independent can publish a real page per procedure with the treating dentist on it, and accumulate reviews naming an actual person. Google rewards that difference, and so does a patient deciding whether to trust someone with a five-figure case. The advantage is narrow and only works if it is worked consistently.",
+  },
+  {
+    q: "Which dental marketing channel produces new patients fastest?",
+    a: "Google Business Profile, by a wide margin, because emergency and 'dentist near me' searches are decided in the map pack within minutes of the search. Paid search is next and can produce calls the day it launches. Meta Ads take longer to stabilize but reach implant and aligner patients months before they would ever search. Organic rankings on competitive procedure terms are the slowest and the most durable. Most practices need the fast channels first and the durable ones running underneath.",
+  },
+  {
+    q: "Why is our dental practice not in the Google map pack?",
+    a: "Usually one of four causes. The primary category is wrong or too generic — dental categories are unusually granular and often set to 'Dentist' when a more specific one fits. The website has no genuine page for procedures the listing advertises, which Google reads as a mismatch. Review count and recency lag whoever currently holds the position. Or the searcher is simply far enough away that proximity outweighs everything else, which is why position should be measured on a grid across the catchment rather than from the office itself.",
+  },
+  {
+    q: "Are dental implant leads from Facebook worth anything?",
+    a: "They are worth what the campaign structure makes them worth. Ads built around a dollar figure attract people comparing dollar figures, many of whom are not clinical candidates. Ads built around the consultation — what the appointment assesses, what treatment paths exist, what happens next — produce fewer raw inquiries and a much higher share who attend and are treatable. The metric that matters is consults attended, not form fills, and any agency reporting only the latter is measuring the easy number.",
+  },
+  {
+    q: "How much should a dental practice spend on ads each month?",
+    a: "For a single high-value service line on Meta, most markets need roughly $1,500 to $2,500 per month in ad spend before the account has enough conversion signal to optimize, plus management and creative. Full-arch implant campaigns generally sit at the top of that range or above because the audience is narrow. Google Ads budgets vary far more, since cost per click on emergency and implant terms is market-specific — the audit gives you real local numbers rather than a national average.",
+  },
+  {
+    q: "How fast does a practice need to respond to an online inquiry?",
+    a: "Within minutes during business hours. A paid-social inquiry comes from someone who was scrolling a moment earlier and has committed to nothing; by the following morning they have usually moved on or booked with whoever answered first. Before launching we agree the follow-up path — immediate text, a call attempt inside the hour, a defined number of attempts, a named owner — and if the practice cannot staff that, the honest answer is to fix it before spending.",
+  },
+  {
+    q: "Is it safe to run a Meta Pixel or Google tracking on a dental website?",
+    a: "Only when configured deliberately. Meta signs no Business Associate Agreement, so nothing identifying a patient alongside treatment information may reach it. The common failures are mundane: tracking left running on a portal page, or on an appointment confirmation URL that names the procedure. Events should count that a conversion happened without describing it, stay off intake and portal pages, and be documented so counsel can review. That is our practice, not legal advice for your situation.",
+  },
+  {
+    q: "Can you use patient photos or stories in dental advertising?",
+    a: "Only with written authorization, and only where the claim around them is defensible. We do not present an individual result as typical, we do not imply guaranteed outcomes, and we do not invent or inflate credentials. In practice the strongest dental creative is usually the treating dentist explaining how they plan a case — it carries the trust signal a prospective implant patient is looking for without any of the exposure that patient imagery creates.",
+  },
+  {
+    q: "How long does dental SEO take to work?",
+    a: "Local map-pack movement from listing and category work often appears within four to eight weeks. Organic rankings for competitive procedure terms — dental implants, clear aligners, veneers in a given city — typically take four to six months of consistent content and technical work, longer in dense metros. We report grid positions and Search Console data monthly so progress is visible well before rankings arrive, and so is the absence of it.",
+  },
+  {
+    q: "What kind of dental practice does Primara work with?",
+    a: "Independent practices — single location or a small group, owner-operated, with a named dentist willing to appear in the marketing. We do not work with DSO-owned or franchise brands, and we take only one practice per catchment, because two practices competing for the same map grid cannot both be represented honestly.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
 
 export default function DentalPracticesPage() {
@@ -141,6 +196,10 @@ export default function DentalPracticesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: toJsonLd(dentalSchema as Record<string, unknown>) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: toJsonLd(faqSchema) }}
       />
 
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
@@ -840,11 +899,76 @@ export default function DentalPracticesPage() {
         </div>
       </section>
 
+      {/* ── Section 07 — FAQ (answer-engine oriented) ────────────────────── */}
+      <section
+        aria-labelledby="dp-faq"
+        id="faq"
+        style={{ padding: sectionPad, borderTop: "1px solid var(--wire)", backgroundColor: "var(--surface)" }}
+      >
+        <div style={{ maxWidth: "820px" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+              marginBottom: "16px",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+            }}
+          >
+            <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+            Dental Marketing FAQ
+          </div>
+          <h2
+            id="dp-faq"
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(28px, 4vw, 48px)",
+              lineHeight: 1.05,
+              letterSpacing: "-0.02em",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: "0 0 clamp(32px, 4vw, 48px)",
+            }}
+          >
+            Straight answers about marketing a dental practice.
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            {faqs.map((faq, idx) => (
+              <div key={idx} style={{ borderTop: "1px solid var(--wire)", padding: "24px 0" }}>
+                <h3
+                  style={{
+                    fontFamily: "var(--font-display), Georgia, serif",
+                    fontSize: "1.0625rem",
+                    fontWeight: 400,
+                    color: "var(--chalk)",
+                    margin: "0 0 12px",
+                    lineHeight: 1.3,
+                  }}
+                >
+                  {faq.q}
+                </h3>
+                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>
+                  {faq.a}
+                </p>
+              </div>
+            ))}
+            <div style={{ borderTop: "1px solid var(--wire)" }} />
+          </div>
+        </div>
+      </section>
+
       {/* Related links (contextual internal linking) */}
       <RelatedLinks
         eyebrow="Related"
         heading="Where to Go Next"
         items={[
+          { href: "/locations/meta-ads-for-dental-practices", label: "Meta Ads for Dental Practices", description: "Implant, aligner, and cosmetic case acquisition, campaign by campaign." },
+          { href: "/locations/dental-practices-florida", label: "Dental Marketing in Florida", description: "Statewide picture — Southeast Florida, Tampa Bay, Orlando, and Jacksonville." },
+          { href: "/locations/dental-practices-west-palm-beach", label: "Dental Marketing in West Palm Beach", description: "Our home market, and the heaviest DSO presence in the state." },
           { href: "/services/meta-ads", label: "Meta Ads", description: "How we open the consideration window on implant, aligner, and cosmetic cases." },
           { href: "/services/google-business-profile", label: "Google Business Profile", description: "Dental categories are unusually granular — and unusually often wrong." },
           { href: "/services/local-seo-for-medical-practices", label: "Local SEO Content", description: "Procedure and location pages that outrank templated DSO group sites." },

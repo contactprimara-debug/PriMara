@@ -3,18 +3,18 @@ import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
-const PAGE_URL = `${SITE_URL}/locations/gbp-optimization-west-palm-beach`;
+const PAGE_URL = `${SITE_URL}/locations/meta-ads-west-palm-beach`;
 
 export const metadata: Metadata = {
-  title: "GBP Optimization in West Palm Beach, FL | Primara",
+  title: "Meta Ads Management in West Palm Beach, FL | Primara",
   description:
-    "Google Business Profile optimization for independent medical practices in West Palm Beach — categories, services, posts, and Maps-pack visibility from an agency based right here. Call (561) 291-2681.",
+    "Facebook and Instagram ad management for West Palm Beach practices, medspas and dental clinics — from an agency based in West Palm Beach. Creative shoots in person, policy-aware copy, HIPAA-conscious tracking. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "GBP Optimization in West Palm Beach, FL | Primara",
+    title: "Meta Ads Management in West Palm Beach, FL | Primara",
     description:
-      "Google Business Profile optimization for independent medical practices in West Palm Beach — categories, services, posts, and Maps-pack visibility from a West Palm Beach agency.",
+      "Meta Ads for West Palm Beach practices, medspas and dental clinics — run by a local agency that can film with you in person.",
     type: "website",
     url: PAGE_URL,
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
@@ -28,14 +28,14 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
     { "@type": "ListItem", position: 2, name: "Locations", item: `${SITE_URL}/locations` },
-    { "@type": "ListItem", position: 3, name: "GBP Optimization West Palm Beach", item: PAGE_URL },
+    { "@type": "ListItem", position: 3, name: "Meta Ads West Palm Beach", item: PAGE_URL },
   ],
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Google Business Profile Optimization in West Palm Beach",
+  name: "Meta Ads Management in West Palm Beach",
   url: PAGE_URL,
   provider: {
     "@type": "LocalBusiness",
@@ -54,27 +54,35 @@ const serviceSchema = {
     name: "West Palm Beach",
     containedInPlace: { "@type": "State", name: "Florida" },
   },
-  serviceType: "Google Business Profile Optimization for Medical Practices",
+  serviceType: "Facebook and Instagram Advertising Management",
   description:
-    "Google Business Profile optimization and management for independent medical practices in West Palm Beach, Florida — categories, services, attributes, posting cadence, photo strategy, and Maps-pack visibility.",
+    "Meta (Facebook and Instagram) advertising management for practices, medspas, and dental clinics in West Palm Beach and Palm Beach County — in-person creative production, policy-compliant copy, consult landing pages, and tracking built without protected health information.",
 };
 
 const faqs = [
   {
-    q: "Do you optimize Business Profiles for West Palm Beach practices?",
-    a: "Yes — Primara is based in West Palm Beach. We manage Google Business Profiles for independent practices nationwide, but this is our home market: we know the local hospital-system listings your profile competes against and the neighborhoods patients search from.",
+    q: "What does being local actually change about running our ads?",
+    a: "One thing, and it is the thing that matters most in paid social: creative. We can be at your office in Palm Beach County to film a provider properly — good light, a scripted set of angles, several months of raw material captured in a single morning — instead of coaching you through it over a video call. Creative volume is the single biggest lever on Meta performance, and being twenty minutes away is how accounts here stay stocked with it.",
   },
   {
-    q: "What does GBP optimization include?",
-    a: "Complete profile configuration: primary and secondary categories, the full services list, attributes, business description, hours (including holiday hours), a consistent posting cadence, and photo strategy. Then ongoing management — profiles that go quiet lose ground in the Maps pack.",
+    q: "Is Palm Beach County a competitive market for medspa and aesthetic ads?",
+    a: "Among the most competitive in the country per capita. The corridor from Jupiter through West Palm Beach and Boca Raton is dense with aesthetic clinics, hormone practices, and cosmetic dental groups, most of them running paid social. Practically that means two things: impression costs are high, and creative burns out faster here than the platform benchmarks suggest. Accounts in this market need new concepts in rotation on a schedule, not only when results slip.",
   },
   {
-    q: "Why does the Maps pack matter so much for a West Palm Beach practice?",
-    a: "For local searches like \"primary care doctor near me,\" the map results appear above the traditional organic listings. Patients call directly from those listings without ever visiting a website. If your profile isn't configured to compete there, the visibility goes to the hospital-system clinics by default.",
+    q: "How does the season affect a West Palm Beach ad budget?",
+    a: "Considerably. The county's population swells from roughly November through April, and for elective and cash-pay services that is when the audience is physically here and able to book. We generally weight spend toward that window and pull back through late summer, using the practice's own booking history rather than a generic seasonal curve. Practices serving year-round residents — primary care, general dentistry — see far less of this swing and we budget them flat.",
   },
   {
-    q: "How long until GBP work shows results?",
-    a: "Local visibility usually moves faster than organic SEO — typically within 60–90 days. We track it with rank grids across your real service area, so you can see exactly where your profile shows up across West Palm Beach, not just from one spot.",
+    q: "Do you only work with West Palm Beach practices?",
+    a: "No. We are based here and this is the market we know best, but Meta Ads management does not depend on proximity the way local SEO does — we run accounts for independent practices around the country. The West Palm Beach advantage is logistical: in-person shoots, occasional face-to-face strategy sessions, and genuine familiarity with who else is bidding in this corridor.",
+  },
+  {
+    q: "Should a West Palm Beach practice run Meta or Google first?",
+    a: "It depends entirely on whether your service is something people already search for. General dentistry, primary care, and urgent care have existing demand and belong on Google first. Aesthetics, implants, clear aligners, hormone optimization, and concierge memberships have to be created, and Meta does that far more efficiently. Most established practices here eventually run both — we just do not recommend starting both in the same month, because you learn nothing about either.",
+  },
+  {
+    q: "What does the tracking setup look like for a local practice?",
+    a: "The same as anywhere, because the risk is the same. Meta will not sign a Business Associate Agreement, so we configure conversion events to record that a booking happened without transmitting what it was for, keep tracking off portal and intake pages entirely, and write down what is collected so your privacy officer or attorney can review it. We then reconcile Meta's modeled numbers against your actual schedule each month rather than reporting the platform's figure as fact.",
   },
 ];
 
@@ -90,24 +98,28 @@ const faqSchema = {
 
 const deliverables = [
   {
-    title: "Complete Profile Configuration",
-    body: "Primary and secondary categories chosen deliberately, the full services list built out, attributes set, hours accurate (including holidays), and a business description written for what West Palm Beach patients actually search.",
+    title: "In-Person Creative Days",
+    body: "We come to your office in Palm Beach County, script the session in advance, and film enough raw material in a morning to feed the account for months. For medspas and cosmetic dental clinics this is usually the difference between an account that plateaus and one that keeps compounding, because Meta rewards fresh creative more reliably than it rewards clever bidding.",
   },
   {
-    title: "Posting Cadence & Photo Strategy",
-    body: "A consistent schedule of posts and fresh photos — signals Google reads as an active, trustworthy business. Profiles that go quiet lose ground to the listings that don't.",
+    title: "Policy Review Before Submission",
+    body: "Every concept goes through healthcare policy review before it is uploaded — Personal Attributes language, claim framing, and the claims-based standard Meta moved to for before-and-after imagery in July 2026. The goal is never to test the boundary. An account restriction in a market this competitive costs more than any single ad could earn.",
   },
   {
-    title: "Rank-Grid Tracking Across Your Service Area",
-    body: "We track your Maps visibility on a geographic grid across your real service area — not a single ranking number from one location — so you see exactly which neighborhoods you're winning and where the gaps are.",
+    title: "Offers Built for This Market",
+    body: "Palm Beach County audiences are not short of options and are rarely moved by a discount. Campaigns here work better built on a consultation, a membership, or a defined treatment plan — something that qualifies the respondent rather than simply lowering the price of entry for anyone shopping around.",
   },
   {
-    title: "Suspension-Risk Hygiene",
-    body: "Duplicate-listing checks, category-creep trimming, and hours consistency between your profile and your website — the quiet maintenance that keeps a medical profile from getting flagged or suspended.",
+    title: "Landing Pages and Follow-Up",
+    body: "A dedicated page per offer on the same Next.js stack we use for website builds, mobile-first, one decision per page — plus the follow-up cadence behind it. Speed to first contact decides more of your conversion rate than the ad creative does, and we set that expectation with your front desk before launch.",
+  },
+  {
+    title: "Monthly Reconciliation, Not Platform Screenshots",
+    body: "Meta's attribution is modeled and privacy-constrained. Each month we compare what the account reports against what your schedule actually shows, and the reconciled number is the one in your report. Where those two figures disagree, we explain why.",
   },
 ];
 
-export default function GbpOptimizationWestPalmBeachPage() {
+export default function MetaAdsWestPalmBeachPage() {
   return (
     <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
@@ -122,7 +134,7 @@ export default function GbpOptimizationWestPalmBeachPage() {
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li style={{ color: "var(--chalk)" }}>GBP Optimization West Palm Beach</li>
+            <li style={{ color: "var(--chalk)" }}>Meta Ads West Palm Beach</li>
           </ol>
         </div>
       </nav>
@@ -146,16 +158,16 @@ export default function GbpOptimizationWestPalmBeachPage() {
               fontFamily: "var(--font-display), Georgia, serif",
               fontSize: "clamp(2.25rem, 5vw, 3.75rem)", fontWeight: 400,
               color: "var(--chalk)", lineHeight: 1.1, letterSpacing: "-0.02em",
-              maxWidth: "800px", marginBottom: "24px",
+              maxWidth: "840px", marginBottom: "24px",
             }}
           >
-            GBP Optimization in West Palm Beach
+            Meta Ads Management in West Palm Beach
           </h1>
-          <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "640px", marginBottom: "40px" }}>
-            Primara is a West Palm Beach medical marketing agency built for independent
-            practices. We build and manage Google Business Profiles — categories,
-            services, posting cadence, photos, and rank-grid tracking — so your
-            practice competes in the Maps pack where local patients actually choose.
+          <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "660px", marginBottom: "40px" }}>
+            Primara is based here, which changes one thing that matters more than any other
+            on Facebook and Instagram: we can come film with you. Scripted creative days at
+            your office, policy review before anything is submitted, and tracking that never
+            carries a patient&rsquo;s health information.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
@@ -166,7 +178,7 @@ export default function GbpOptimizationWestPalmBeachPage() {
             </Link>
           </div>
           <p style={{ marginTop: "20px", fontSize: "0.8125rem", color: "var(--smoke)" }}>
-            Liam Costello &amp; Gio LaRoche, Co-Founders · Based in West Palm Beach · No long-term contracts
+            Liam Costello &amp; Gio LaRoche, Co-Founders · Based in West Palm Beach · Month-to-month after setup
           </p>
         </div>
       </section>
@@ -179,21 +191,23 @@ export default function GbpOptimizationWestPalmBeachPage() {
               Why It Matters Here
             </p>
             <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "24px" }}>
-              In West Palm Beach, the Maps pack is the front door.
+              In this corridor, creative burns out before the budget does.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              When someone here searches &ldquo;primary care doctor near me&rdquo; or
-              &ldquo;therapist accepting new patients,&rdquo; the map listings appear
-              before the regular results — and patients call straight from them. Which
-              three profiles show up is decided by configuration, activity, and
-              consistency. The hospital-system clinics in this market have teams on
-              that; most independent profiles are half-filled-out and quiet.
+              Jupiter down through West Palm Beach and into Boca Raton is one of the densest
+              aesthetic and cash-pay healthcare corridors in the United States. A resident
+              here sees ads from a lot of clinics, which drives impression costs up and, more
+              importantly, shortens the useful life of any single video. Accounts that ran one
+              good concept for a year somewhere else will find it stops working in a couple of
+              months here.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              That gap is fixable. We do this work from West Palm Beach, for independent
-              primary care, mental health, and men&rsquo;s health practices — the same
-              GBP process we run for practices nationwide, applied to the market we
-              know best.
+              That is a production problem before it is a media problem, and it is the reason
+              being local is worth something. Filming a provider properly takes a morning when
+              the agency can drive over; it takes weeks of back-and-forth when it cannot. We
+              run this market from inside it, for independent practices, medspas, and dental
+              clinics — not for the hospital systems or the franchise groups on the other side
+              of the auction.
             </p>
           </div>
         </div>
@@ -227,7 +241,7 @@ export default function GbpOptimizationWestPalmBeachPage() {
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "40px" }}>
             Common Questions
           </p>
-          <div style={{ maxWidth: "720px", display: "flex", flexDirection: "column" }}>
+          <div style={{ maxWidth: "740px", display: "flex", flexDirection: "column" }}>
             {faqs.map((faq, idx) => (
               <div key={idx} style={{ borderTop: "1px solid var(--wire)", padding: "24px 0" }}>
                 <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.0625rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "12px", lineHeight: 1.3 }}>{faq.q}</h3>
@@ -243,11 +257,12 @@ export default function GbpOptimizationWestPalmBeachPage() {
         eyebrow="Related"
         heading="Related Services & Locations"
         items={[
-          { href: "/services/google-business-profile", label: "Google Business Profile Service", description: "The full GBP service — what's included and how we manage it month to month." },
-          { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "The statewide picture — Business Profile management for Florida practices." },
-          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The full SEO stack GBP work fits into, for practices in our home market." },
-          { href: "/locations/medspas-west-palm-beach", label: "Medspa Marketing in West Palm Beach", description: "Grid-measured map position for aesthetic clinics across Palm Beach County." },
-          { href: "/locations/dental-practices-west-palm-beach", label: "Dental Marketing in West Palm Beach", description: "Map-pack visibility for independent practices against DSO-backed groups." },
+          { href: "/services/meta-ads", label: "Meta Ads", description: "The full service — pillars, planning benchmarks, and how tracking gets built." },
+          { href: "/locations/meta-ads-florida", label: "Meta Ads Management in Florida", description: "The statewide picture, market by market." },
+          { href: "/locations/google-ads-management-west-palm-beach", label: "Google Ads in West Palm Beach", description: "The capture side — search campaigns for our home market." },
+          { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The organic foundation underneath both ad channels." },
+          { href: "/locations/medspas-west-palm-beach", label: "Medspa Marketing in West Palm Beach", description: "The full picture for aesthetic clinics in Palm Beach County." },
+          { href: "/locations/dental-practices-west-palm-beach", label: "Dental Marketing in West Palm Beach", description: "The full picture for local dental practices." },
         ]}
       />
 
@@ -255,10 +270,11 @@ export default function GbpOptimizationWestPalmBeachPage() {
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16 text-center">
           <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", marginBottom: "1rem" }}>
-            Ready to Show Up on the Map in West Palm Beach?
+            Let&rsquo;s Book a Creative Day
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "2rem", fontSize: "1rem" }}>
-            We start with a free audit of your current Google presence — delivered in 3–5 business days.
+            Start with the free audit — your current account, creative, and tracking, reviewed
+            in 3&ndash;5 business days.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
