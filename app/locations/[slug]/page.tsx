@@ -6,6 +6,7 @@ import { mentalHealthLocations, type MentalHealthLocation } from "@/lib/location
 import { mensHealthLocations, type MensHealthLocation } from "@/lib/locations-mens-health";
 import { medspaLocations, type MedspaLocation } from "@/lib/locations-medspas";
 import { dentalLocations, type DentalLocation } from "@/lib/locations-dental";
+import { metaAdsLocations, type MetaAdsLocation } from "@/lib/locations-meta-ads";
 import { regionFor } from "@/lib/locations-regions";
 
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
@@ -13,7 +14,8 @@ type MentalLoc = MentalHealthLocation & { type: "mental-health" };
 type MensLoc = MensHealthLocation & { type: "mens-health" };
 type MedspaLoc = MedspaLocation & { type: "medspas" };
 type DentalLoc = DentalLocation & { type: "dental" };
-type AnyLoc = PrimaryLoc | MentalLoc | MensLoc | MedspaLoc | DentalLoc;
+type MetaAdsLoc = MetaAdsLocation & { type: "meta-ads" };
+type AnyLoc = PrimaryLoc | MentalLoc | MensLoc | MedspaLoc | DentalLoc | MetaAdsLoc;
 type LocType = AnyLoc["type"];
 
 const allLocations: AnyLoc[] = [
@@ -22,6 +24,7 @@ const allLocations: AnyLoc[] = [
   ...mensHealthLocations.map((loc) => ({ ...loc, type: "mens-health" as const })),
   ...medspaLocations.map((loc) => ({ ...loc, type: "medspas" as const })),
   ...dentalLocations.map((loc) => ({ ...loc, type: "dental" as const })),
+  ...metaAdsLocations.map((loc) => ({ ...loc, type: "meta-ads" as const })),
 ];
 
 function isPrimary(loc: AnyLoc): loc is PrimaryLoc {
@@ -32,12 +35,19 @@ function isMensHealth(loc: AnyLoc): loc is MensLoc {
   return loc.type === "mens-health";
 }
 
+function isMetaAds(loc: AnyLoc): loc is MetaAdsLoc {
+  return loc.type === "meta-ads";
+}
+
 // Two distinct data shapes live behind AnyLoc, and every field access below
 // has to branch on the shape, not on the vertical:
 //   • "directory-style" (mental health, men's health) — directoryContext,
 //     gbpSection, searchIntent, neighborhoods.
-//   • "market-style" (primary care, medspas, dental) — localContext, whyNow,
-//     landmarks, plus hospitals (primary care) or competitors (medspas/dental).
+//   • "market-style" (primary care, medspas, dental, meta-ads) — localContext,
+//     whyNow, landmarks, plus one market list that is named differently per
+//     source file: hospitals (primary care), competitors (medspas/dental),
+//     adLandscape (meta-ads — a service file, so the list is who is already
+//     bidding in that city's feeds, not one competitor class).
 function isDirectoryStyle(loc: AnyLoc): loc is MentalLoc | MensLoc {
   return loc.type === "mental-health" || loc.type === "mens-health";
 }
@@ -51,6 +61,10 @@ const VERTICAL_COPY: Record<
     label: string;
     href: string;
     desc: string;
+    // Eyebrow on the first "Learn More" card. Five of the six types point at a
+    // vertical page ("Who We Serve"); meta-ads points at a service page, so it
+    // gets its own label rather than mislabelling a service as an audience.
+    linkCardEyebrow: string;
     schemaAudience: string;
     sidebarLabel: string;
     whyNowEyebrow: string;
@@ -61,6 +75,7 @@ const VERTICAL_COPY: Record<
     label: "Primary Care Marketing",
     href: "/primary-care",
     desc: "How Primara works with independent primary care physicians nationwide.",
+    linkCardEyebrow: "Who We Serve",
     schemaAudience: "Primary Care Practices",
     sidebarLabel: "Hospital Systems in This Market",
     whyNowEyebrow: "Timing",
@@ -70,6 +85,7 @@ const VERTICAL_COPY: Record<
     label: "Mental Health Marketing",
     href: "/mental-health",
     desc: "How Primara helps independent therapists and mental health practices nationwide.",
+    linkCardEyebrow: "Who We Serve",
     schemaAudience: "Mental Health Practices",
     sidebarLabel: "Key Neighborhoods We Serve",
     whyNowEyebrow: "Search Landscape",
@@ -79,6 +95,7 @@ const VERTICAL_COPY: Record<
     label: "Men's Health Marketing",
     href: "/mens-health",
     desc: "How Primara works with independent men's health practices nationwide.",
+    linkCardEyebrow: "Who We Serve",
     schemaAudience: "Men's Health Practices",
     sidebarLabel: "Key Neighborhoods We Serve",
     whyNowEyebrow: "Search Landscape",
@@ -88,6 +105,7 @@ const VERTICAL_COPY: Record<
     label: "Medspa Marketing",
     href: "/medspas",
     desc: "How Primara works with independent, physician- and nurse-led medspas nationwide.",
+    linkCardEyebrow: "Who We Serve",
     schemaAudience: "Medical Spas",
     sidebarLabel: "Who You Are Competing With",
     whyNowEyebrow: "Timing",
@@ -97,10 +115,21 @@ const VERTICAL_COPY: Record<
     label: "Dental Marketing",
     href: "/dental-practices",
     desc: "How Primara works with independent dental practices nationwide.",
+    linkCardEyebrow: "Who We Serve",
     schemaAudience: "Dental Practices",
     sidebarLabel: "Who You Are Competing With",
     whyNowEyebrow: "Timing",
     whyNowHeading: (city) => `Why Independent Dental Practices in ${city} Are Moving Now`,
+  },
+  "meta-ads": {
+    label: "Meta Ads Management",
+    href: "/services/meta-ads",
+    desc: "How Primara runs Facebook and Instagram ads for independent practices, medspas, and dental clinics — creative, targeting, and HIPAA-conscious tracking.",
+    linkCardEyebrow: "The Service",
+    schemaAudience: "Practices, Medspas and Dental Clinics",
+    sidebarLabel: "Who Is Already Bidding in This Market",
+    whyNowEyebrow: "Timing",
+    whyNowHeading: (city) => `Why ${city} Practices Are Moving Budget Into Meta Now`,
   },
 };
 
@@ -182,6 +211,8 @@ export default function LocationPage({
     ? loc.neighborhoods
     : isPrimary(loc)
     ? loc.hospitals
+    : isMetaAds(loc)
+    ? loc.adLandscape
     : loc.competitors;
 
   // Market-style verticals carry a separate landmark list; directory-style
@@ -750,7 +781,7 @@ export default function LocationPage({
                   marginBottom: "0.5rem",
                 }}
               >
-                Who We Serve
+                {copy.linkCardEyebrow}
               </p>
               <p
                 style={{

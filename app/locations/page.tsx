@@ -5,6 +5,7 @@ import { mentalHealthLocations } from "@/lib/locations-mental";
 import { mensHealthLocations } from "@/lib/locations-mens-health";
 import { medspaLocations } from "@/lib/locations-medspas";
 import { dentalLocations } from "@/lib/locations-dental";
+import { metaAdsLocations } from "@/lib/locations-meta-ads";
 import { REGIONS } from "@/lib/locations-regions";
 
 export const metadata: Metadata = {
@@ -269,6 +270,26 @@ export default function LocationsPage() {
           </div>
 
           <LocationCardGrid locations={dentalLocations} />
+        </div>
+      </section>
+
+      {/* Meta Ads Markets — a service, not a sixth vertical: these pages cover the
+          paid-social ad market in each city across all of the verticals above. */}
+      <section style={{ backgroundColor: "var(--void)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <div style={{ marginBottom: "40px" }}>
+            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
+              Meta Ads
+            </p>
+            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
+              Meta Ads Markets
+            </h2>
+            <p style={{ color: "var(--ash)", fontSize: "1rem", maxWidth: "600px", lineHeight: 1.7 }}>
+              Facebook and Instagram advertising, market by market. These pages cover the paid-social ad landscape in each city — auction pressure, audience composition, and who is already buying the impressions — across practices, medspas, and dental clinics alike.
+            </p>
+          </div>
+
+          <LocationCardGrid locations={metaAdsLocations} />
         </div>
       </section>
 
