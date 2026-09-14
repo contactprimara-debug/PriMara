@@ -88,7 +88,7 @@ const pillars = [
       "Tracking deliberately excluded from patient portals, intake flows, and post-booking confirmation pages",
       "Lead form questions written to capture contact intent, never clinical detail or condition disclosure",
       "Ad copy reviewed against Meta's Personal Attributes policy — no ad may imply it knows a viewer's condition",
-      "Before-and-after imagery, negative self-perception hooks, and unrealistic-result claims rejected at the script stage, not after a rejection",
+      "Before-and-after imagery judged against Meta's 2026 claims-based standard — and negative self-perception hooks and unrealistic-result claims killed at the script stage, not after a rejection",
       "A written record of what is and is not tracked, so your privacy policy and your ad account actually agree",
     ],
   },
@@ -155,7 +155,7 @@ const verticalAngles = [
     name: "Medspas",
     href: "/medspas",
     body:
-      "The most visual category in healthcare and the one Meta polices hardest. Before-and-after imagery and \"hate your wrinkles?\" hooks are policy violations, not edgy creative — so the work is building desire without either. Membership and package offers carry the economics.",
+      "The most visual category in healthcare and the one Meta polices hardest. Since July 2026 the rule is claims-based: a before-and-after is no longer an automatic rejection, but attach a \"hate your wrinkles?\" hook or a guaranteed result and the ad — sometimes the account — comes down. Knowing exactly where that line sits is the work. Membership and package offers carry the economics.",
   },
   {
     name: "Dental Clinics",
@@ -351,10 +351,12 @@ export default function MetaAdsPage() {
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
               The catch is that healthcare is the hardest category to run on this platform. Health
               targeting was removed. Ads may not imply they know anything about a viewer&rsquo;s
-              condition or appearance. Before-and-after images are prohibited outright. And the
-              tracking most agencies install by reflex can push protected health information to a
-              company that will not sign a Business Associate Agreement. Most agencies learn these
-              rules by getting an account restricted. We build around them from day one.
+              condition or appearance. Before-and-after imagery moved to claims-based review in
+              July 2026 — no longer an automatic rejection, but still the fastest way to lose an
+              account when it is paired with the wrong claim. And the tracking most agencies
+              install by reflex can push protected health information to a company that will not
+              sign a Business Associate Agreement. Most agencies learn these rules by getting an
+              account restricted. We build around them from day one.
             </p>
           </div>
         </div>

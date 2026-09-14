@@ -36,7 +36,7 @@ const problemBlocks = [
   },
   {
     heading: "Meta is your biggest channel and the one most likely to get your account restricted",
-    body: "Aesthetics is an inherently visual, social-first category, so Facebook and Instagram drive a disproportionate share of new clients. It is also the category Meta polices hardest. Before-and-after images are prohibited in ads. So is copy that implies something about a viewer's appearance — the \"hate your wrinkles?\" formula that half this industry still runs. Most medspas discover these rules through a rejection, an account restriction, or an ad account they can no longer use.",
+    body: "Aesthetics is an inherently visual, social-first category, so Facebook and Instagram drive a disproportionate share of new clients. It is also the category Meta polices hardest. In July 2026 Meta replaced its flat ban on before-and-after imagery with claims-based review: the image by itself is no longer an automatic rejection, but attach a guaranteed result — or copy that implies something about a viewer's appearance, the \"hate your wrinkles?\" formula half this industry still runs — and it is still a violation. Most medspas find out where that line sits through a rejection, an account restriction, or an ad account they can no longer use.",
   },
   {
     heading: "The GBP primary category is wrong at a startling number of medspas",
@@ -56,7 +56,7 @@ const services = [
   {
     num: "01",
     title: "Meta Ads Built for an Aesthetics Account That Survives Review",
-    body: "This is the flagship for this vertical. We write and shoot creative that generates desire without a single before-and-after frame and without implying anything about the viewer's appearance — provider-led video, treatment-day walkthroughs, consultation explainers, and offer-led statics. Audience strategy leans on geography, your own client list, and lookalikes, because Meta removed health-related interest targeting years ago. Tracking is configured so no client information flows to a platform that will not sign a BAA. Every asset is checked against policy before submission, not after a rejection.",
+    body: "This is the flagship for this vertical. We write and shoot creative that generates desire without implying anything about the viewer's appearance and without the result claims that turn a before-and-after into a violation under Meta's 2026 claims-based standard — provider-led video, treatment-day walkthroughs, consultation explainers, and offer-led statics. Audience strategy leans on geography, your own client list, and lookalikes, because Meta removed health-related interest targeting years ago. Tracking is configured so no client information flows to a platform that will not sign a BAA. Every asset is checked against policy before submission, not after a rejection.",
   },
   {
     num: "02",
@@ -92,13 +92,13 @@ const doesNotFit = [
   "Non-medical beauty salons with no clinical oversight",
   "Practices whose growth plan is undercutting local pricing",
   "Supplement, device, or MLM sellers without a licensed clinical practice",
-  "Businesses wanting before-and-after ad creative that violates platform policy",
+  "Businesses wanting guaranteed-result or appearance-shaming ad creative that violates platform policy",
 ];
 
 const principles = [
   {
-    title: "No before-and-after creative. No appearance-shaming hooks.",
-    body: "Meta prohibits before-and-after imagery in ads and prohibits copy that implies knowledge of a viewer's personal attributes — including their appearance. We do not write \"tired of looking tired\" hooks, and we do not submit split-screen result shots. Practices that push past these rules get ad accounts restricted, and an ad account restriction in this category can take a quarter to unwind. Building desire inside the rules is a creative constraint, and constraints are where the interesting work is.",
+    title: "Before-and-after is a judgment call now. Appearance-shaming never is.",
+    body: "Meta rewrote its health-and-wellness standards in July 2026: before-and-after imagery is now judged by the claims it carries rather than banned on sight, while specific formats — pinched-fat shots, sensationalized framing — stay off the table entirely. What has not changed is copy that implies knowledge of a viewer's personal attributes, including their appearance, so we still do not write \"tired of looking tired\" hooks, and no result image of ours runs with a guaranteed outcome attached to it. Practices that guess at where that line falls get ad accounts restricted, and a restriction in this category can take a quarter to unwind. Working precisely inside a rule most of your competitors have not read yet is the advantage.",
   },
   {
     title: "No outcome claims, no invented credentials, no clinical promises",
@@ -236,9 +236,10 @@ export default function MedspasPage() {
             }}
           >
             Primara runs Meta Ads, local search, and review systems for independent medspas —
-            built around the rules this category actually lives under. No before-and-after
-            creative, no appearance-shaming hooks, no discount race. Just a practice people
-            recognize before they start comparing prices.
+            built around the rules this category actually lives under — including Meta&rsquo;s
+            2026 claims-based standard, where a before-and-after only becomes a violation once
+            the wrong claim is attached to it. No appearance-shaming hooks, no discount race.
+            Just a practice people recognize before they start comparing prices.
           </p>
 
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
