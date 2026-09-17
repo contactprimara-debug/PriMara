@@ -181,7 +181,11 @@ export default function LocationPage({
       return { loc: l, sameRegion, distance };
     })
     .sort((a, b) => (a.sameRegion === b.sameRegion ? a.distance - b.distance : a.sameRegion ? -1 : 1))
-    .slice(0, 3)
+    // 5, raised from 3 on 2026-09-17 (site-health #186). Each city page now
+    // passes link equity to five same-vertical neighbours instead of three,
+    // which is what turns a 205-page set into a connected mesh rather than a
+    // shallow hub-and-spoke. The grid below is sm:grid-cols-3 and wraps.
+    .slice(0, 5)
     .map((x) => x.loc);
 
   const copy = VERTICAL_COPY[loc.type];

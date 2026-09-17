@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { footerCities } from "@/lib/location-links";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
@@ -366,6 +367,69 @@ export default function Footer() {
 
         </div>
         {/* end footer-grid */}
+
+        {/* ── Cities we serve ────────────────────────────────────────────────
+              SEO (2026-09-17, site-health #186): before this, the ONLY location
+              pages linked site-wide were the six in LOCATIONS_LINKS above, so
+              all 205 city pages funnelled through the single /locations hub.
+              This row puts one link per real city on every page of the site.
+
+              One page per city, not one per vertical — a 6x33 grid here would
+              be link spam. The list is derived in lib/location-links.ts from
+              the same data the pages are built from, so it cannot point at a
+              slug that does not exist.
+
+              prefetch={false} IS LOAD-BEARING, do not remove it: Next.js
+              Link prefetches the RSC payload of every in-viewport link. PSI
+              network traces on / already showed route chunks and `?_rsc=`
+              fetches for /services and /contact landing inside the LCP
+              window; letting ~35 more city links prefetch by default would
+              turn this SEO fix into an LCP regression. These are footer
+              links — nobody needs them pre-warmed. */}
+        <nav
+          aria-label="Cities we serve"
+          style={{
+            borderTop: "1px solid var(--wire)",
+            paddingTop: "clamp(14px, 2vw, 20px)",
+            marginBottom: "clamp(14px, 2vw, 20px)",
+          }}
+        >
+          <p
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "9px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+              marginBottom: "14px",
+            }}
+          >
+            Cities We Serve
+          </p>
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: 0,
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "8px 18px",
+            }}
+          >
+            {footerCities.map((c) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/locations/${c.slug}`}
+                  prefetch={false}
+                  className="footer-link"
+                  style={{ fontSize: "11px" }}
+                >
+                  {c.city}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* ── Bottom bar ─────────────────────────────────────────────────────── */}
         <div

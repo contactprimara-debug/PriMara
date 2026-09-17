@@ -7,6 +7,7 @@ import { medspaLocations } from "@/lib/locations-medspas";
 import { dentalLocations } from "@/lib/locations-dental";
 import { metaAdsLocations } from "@/lib/locations-meta-ads";
 import { REGIONS } from "@/lib/locations-regions";
+import { SERVICE_CITY_PAGES } from "@/lib/location-links";
 
 export const metadata: Metadata = {
   title: "Healthcare Marketing Agency Serving Florida | Primara",
@@ -290,6 +291,75 @@ export default function LocationsPage() {
           </div>
 
           <LocationCardGrid locations={metaAdsLocations} />
+        </div>
+      </section>
+
+      {/* ── Services by City ────────────────────────────────────────────────
+            SEO (2026-09-17, site-health #186): these 23 service+city pages were
+            TRUE ORPHANS — in sitemap.xml, linked from nowhere on the site.
+            Verified by diffing sitemap.xml (205 location URLs) against every
+            href on the live hub (182), leaving exactly these 23.
+
+            They are hand-built page directories under app/locations/* with no
+            data file behind them, which is why the six data-driven
+            LocationCardGrid sections above could never reach them. This section
+            is their only inbound link, so do not remove it without giving them
+            links somewhere else first.
+
+            prefetch={false}: same reason as the footer city cluster — these are
+            deep directory links, not a path users are about to take, and
+            prefetching 23 RSC payloads on hub load would cost more than it
+            saves. See components/Footer.tsx. */}
+      <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <div style={{ marginBottom: "40px" }}>
+            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
+              By Service
+            </p>
+            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
+              Services by Market
+            </h2>
+            <p style={{ color: "var(--ash)", fontSize: "1rem", maxWidth: "600px", lineHeight: 1.7 }}>
+              Looking for one specific service in one specific market? These pages go service by service — what the search landscape looks like, and what we actually do about it.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gap: "28px" }} className="sm:grid-cols-2 lg:grid-cols-4">
+            {SERVICE_CITY_PAGES.map((group) => (
+              <div key={group.service}>
+                <p
+                  style={{
+                    fontFamily: "system-ui, sans-serif",
+                    fontSize: "0.6875rem",
+                    letterSpacing: "0.16em",
+                    textTransform: "uppercase",
+                    color: "var(--smoke)",
+                    marginBottom: "14px",
+                  }}
+                >
+                  {group.service}
+                </p>
+                <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "10px" }}>
+                  {group.pages.map((page) => (
+                    <li key={page.slug}>
+                      <Link
+                        href={`/locations/${page.slug}`}
+                        prefetch={false}
+                        style={{
+                          color: "var(--ash)",
+                          fontSize: "0.875rem",
+                          textDecoration: "none",
+                          lineHeight: 1.5,
+                        }}
+                      >
+                        {page.label} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
