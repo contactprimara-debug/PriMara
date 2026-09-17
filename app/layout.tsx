@@ -6,6 +6,7 @@ import GAPageViews from "@/components/GAPageViews";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { footerCities } from "@/lib/location-links";
 import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
 import HashScroll from "@/components/HashScroll";
@@ -172,7 +173,7 @@ export default function RootLayout({
         {/* ── Page content ─────────────────────────────────────────────── */}
         <Header />
         <RouteFade>{children}</RouteFade>
-        <Footer />
+        <Footer cities={footerCities} />
 
         {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
         <MobileCTABar />

@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { footerCities } from "@/lib/location-links";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
@@ -61,7 +60,17 @@ const RESOURCES_LINKS = [
   { label: "FAQ", href: "/faq" },
 ];
 
-export default function Footer() {
+/* PERF (site-health #190, 2026-09-17): `cities` arrives as a PROP from the
+   server layout instead of `import { footerCities } from "@/lib/location-links"`.
+   Footer is a client component ("use client" for usePathname), so that import
+   pulled all six lib/locations-*.ts data files (~1 MB of source) into the
+   client bundle — app/layout chunk was 244 KiB. The city cluster itself is
+   unchanged; only where the list is computed moved. Do NOT re-add the import. */
+export default function Footer({
+  cities = [],
+}: {
+  cities?: { city: string; slug: string; region: string }[];
+}) {
   const year = new Date().getFullYear();
   const pathname = usePathname();
 
@@ -416,7 +425,7 @@ export default function Footer() {
               gap: "8px 18px",
             }}
           >
-            {footerCities.map((c) => (
+            {cities.map((c) => (
               <li key={c.slug}>
                 <Link
                   href={`/locations/${c.slug}`}
