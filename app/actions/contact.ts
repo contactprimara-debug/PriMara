@@ -3,6 +3,7 @@
 import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
+import { markLeadRecorded } from "@/lib/leadPing";
 
 export type ContactState = {
   status: "idle" | "success" | "error";
@@ -29,7 +30,10 @@ export async function submitContact(
 
   const firstName = firstNameFrom(name);
 
-  // Honeypot hit → pretend success, send nothing.
+  // Honeypot hit → pretend success, send nothing. Note what is NOT called
+  // here: markLeadRecorded(). The bot gets the same success state and the
+  // same /thank-you redirect, but no conversion flag, so /thank-you renders
+  // without the tag and GA4/Ads never see it. See lib/leadPing.ts.
   if (isBotSubmission(formData)) {
     return { status: "success", firstName };
   }
@@ -90,6 +94,10 @@ export async function submitContact(
   if (!savedToCrm && emailResult.status === "rejected") {
     return { status: "error", error: "Could not send your message. Please call us directly at (561) 291-2681." };
   }
+
+  // A real lead reached at least one durable destination — authorize the
+  // single conversion ping that /thank-you is about to be asked to render.
+  markLeadRecorded();
 
   return { status: "success", firstName };
 }

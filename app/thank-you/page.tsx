@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LeadConversionPing from "@/components/LeadConversionPing";
+import { hasLeadPingFlag } from "@/lib/leadPing";
+
+/* Reading the conversion flag is a cookie read, so this page must render per
+   request — a cached /thank-you would hand the same verdict to everyone. */
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Thank You | Primara",
@@ -66,9 +71,14 @@ const facts = [
 ];
 
 export default function ThankYouPage() {
+  // Only a submission that actually recorded a lead gets the conversion tag.
+  // Honeypot-caught bots reach this page too (same fake success, same
+  // redirect) but carry no pl_ok cookie, so the ping is never mounted.
+  const pingAuthorized = hasLeadPingFlag();
+
   return (
     <main data-page="thank-you" style={{ background: "var(--void)", minHeight: "100vh" }}>
-      <LeadConversionPing />
+      {pingAuthorized && <LeadConversionPing />}
 
       {/* Logo bar only — no nav */}
       <div style={{ padding: "20px clamp(24px, 6vw, 80px)", borderBottom: "1px solid var(--wire)" }}>

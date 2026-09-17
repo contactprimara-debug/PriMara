@@ -1,12 +1,20 @@
 "use client";
 
 import { useEffect } from "react";
+import { clearLeadPingFlag } from "@/app/actions/leadPing";
 
 /**
  * Fires the GA4 lead conversion event once when the /thank-you page mounts.
  * Every lead form redirects here on success (router.push("/thank-you")), so
  * this is the single point of conversion measurement. Marked as a key event
  * ("generate_lead") in GA4. Guarded against double-firing via sessionStorage.
+ *
+ * MOUNTING IS NOT UNCONDITIONAL (fixed 2026-09-17). /thank-you only renders
+ * this component when the request carries the httpOnly pl_ok cookie, which
+ * the server action sets only for a lead it actually recorded. Honeypot-caught
+ * bots get the same fake success and the same redirect, so they used to land
+ * here and fire a conversion — 7 GA4 conversions against 3 real leads in 28
+ * days. See lib/leadPing.ts. Nothing about the firing logic below changed.
  *
  * BUG FIXED 2026-09-14 (task #201) — why this is not a bare `if (window.gtag)`:
  * the gtag snippet in app/layout.tsx is wrapped in <AfterHydration>, which
@@ -78,6 +86,10 @@ export default function LeadConversionPing() {
       } catch {
         // ignore
       }
+
+      // Spend the one-shot server flag so a later /thank-you visit in a
+      // fresh tab can't reuse it. The cookie's 60s maxAge is the backstop.
+      void clearLeadPingFlag().catch(() => {});
     };
 
     fire();

@@ -3,6 +3,7 @@
 import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
+import { markLeadRecorded } from "@/lib/leadPing";
 
 export type PackageInquiryState = {
   status: "idle" | "success" | "error";
@@ -27,7 +28,8 @@ export async function submitPackageInquiry(
 
   const firstName = firstNameFrom(name);
 
-  // Honeypot hit → pretend success, send nothing.
+  // Honeypot hit → pretend success, send nothing, and deliberately do NOT
+  // call markLeadRecorded() — see lib/leadPing.ts and app/actions/contact.ts.
   if (isBotSubmission(formData)) {
     return { status: "success", firstName };
   }
@@ -89,6 +91,10 @@ export async function submitPackageInquiry(
       error: "Could not send your inquiry. Please email liam.costello@primara365.com or call (561) 291-2681.",
     };
   }
+
+  // A real lead reached at least one durable destination — authorize the
+  // single conversion ping that /thank-you is about to be asked to render.
+  markLeadRecorded();
 
   return { status: "success", firstName };
 }
