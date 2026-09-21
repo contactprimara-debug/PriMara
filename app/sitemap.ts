@@ -1,12 +1,18 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/schema";
+import { lastmodForUrl } from "@/lib/lastmod";
 
 // Add new pages here as they are built.
 // Geographic and service sub-pages go at the bottom with lower priority.
 export default function sitemap(): MetadataRoute.Sitemap {
+  // Placeholder only — every entry's date is replaced below with the real
+  // commit date of the file that backs it (lib/lastmod.ts). Do NOT go back to
+  // stamping `new Date()`: a sitemap where all 266 URLs change on every build
+  // carries no signal, which is how 41 URLs ended up "Discovered – not indexed"
+  // (2026-09-21 indexing audit).
   const lastModified = new Date();
 
-  return [
+  const entries: MetadataRoute.Sitemap = [
     // ── Priority 1.0 — Homepage ──────────────────────────────────────────
     {
       url: SITE_URL,
@@ -485,4 +491,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/vs/webpt`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${SITE_URL}/vs/doctorlogic`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
   ];
+
+  return entries.map((entry) => ({
+    ...entry,
+    lastModified: lastmodForUrl(entry.url),
+  }));
 }

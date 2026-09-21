@@ -29,38 +29,75 @@ import { dentalLocations } from "@/lib/locations-dental";
 import { metaAdsLocations } from "@/lib/locations-meta-ads";
 
 /**
- * One location page per real city, in region order.
+ * One location page per real city, in region order — but rotated across the
+ * six verticals so no single vertical owns the sitewide footer.
  *
- * Derived, not hardcoded: for each city in REGIONS we take the first vertical
- * that actually has a page for it, in descending search-value order (primary
- * care and mental health are the highest-volume verticals we publish). So this
- * list can never point at a slug that no longer exists, and a city added to a
- * lib file shows up in the footer on the next build with no edit here.
+ * WHY ROTATION (2026-09-21, indexing audit): the previous rule took the first
+ * vertical that had the city, in a fixed "search value" order, so primary care
+ * won 33 of 35 footer slots and medspa / dental / meta-ads got ZERO sitewide
+ * links. Those three verticals are the ones sitting at 7/33, 2/33 and 1/4
+ * indexed. The city-per-slot budget is unchanged (still one link per city —
+ * six verticals x 33 cities in a footer would be link spam); only WHICH
+ * vertical fills each slot changed, so the same link equity is now spread
+ * evenly instead of concentrated.
  *
- * Deliberately ONE page per city: the point is crawl reach across cities, not
- * volume of links. Six verticals x 33 cities in a footer would be link spam.
+ * Still derived, never hardcoded: a slug here always comes from a lib file, so
+ * it cannot point at a page that does not exist, and a city added to any lib
+ * file appears on the next build with no edit here.
  */
-const VERTICALS_BY_SEARCH_VALUE: { slug: string; city: string }[][] = [
-  primaryCareLocations,
-  mentalHealthLocations,
-  mensHealthLocations,
-  medspaLocations,
-  dentalLocations,
-  metaAdsLocations,
+const VERTICALS: { name: string; locations: { slug: string; city: string }[] }[] = [
+  { name: "Primary care", locations: primaryCareLocations },
+  { name: "Mental health", locations: mentalHealthLocations },
+  { name: "Men's health", locations: mensHealthLocations },
+  { name: "Medspa", locations: medspaLocations },
+  { name: "Dental", locations: dentalLocations },
+  { name: "Meta Ads", locations: metaAdsLocations },
 ];
 
-export const footerCities: { city: string; slug: string; region: string }[] =
-  REGIONS.flatMap((region) =>
-    region.cities.flatMap((city) => {
-      for (const vertical of VERTICALS_BY_SEARCH_VALUE) {
-        const match = vertical.find((loc) => loc.city === city);
-        if (match) return [{ city, slug: match.slug, region: region.name }];
-      }
-      // A city in REGIONS with no page in any vertical yet — emit nothing
-      // rather than a dead link.
-      return [];
-    })
+export const footerCities: {
+  city: string;
+  slug: string;
+  region: string;
+  vertical: string;
+}[] = (() => {
+  const ordered = REGIONS.flatMap((region) =>
+    region.cities.map((city) => ({ city, region: region.name }))
   );
+  // Per-vertical running count, so rotation self-corrects when a vertical has
+  // no page for a city: we always pick the eligible vertical that currently
+  // holds the FEWEST footer slots, tie-broken by the rotation offset. That
+  // keeps the distribution flat even though coverage differs (33/27/23/33/33/33).
+  const used = new Map<string, number>(VERTICALS.map((v) => [v.name, 0]));
+
+  return ordered.flatMap(({ city, region }, i) => {
+    const eligible = VERTICALS.map((v, vi) => ({
+      v,
+      vi,
+      match: v.locations.find((loc) => loc.city === city),
+    })).filter((e) => e.match);
+
+    // A city in REGIONS with no page in any vertical yet — emit nothing rather
+    // than a dead link.
+    if (eligible.length === 0) return [];
+
+    eligible.sort((a, b) => {
+      const ua = used.get(a.v.name) ?? 0;
+      const ub = used.get(b.v.name) ?? 0;
+      if (ua !== ub) return ua - ub;
+      // Rotation offset: shifts the starting vertical city by city so the
+      // tie-break does not always fall to the same list.
+      const ra = (a.vi - i + VERTICALS.length * 8) % VERTICALS.length;
+      const rb = (b.vi - i + VERTICALS.length * 8) % VERTICALS.length;
+      return ra - rb;
+    });
+
+    const pick = eligible[0];
+    used.set(pick.v.name, (used.get(pick.v.name) ?? 0) + 1);
+    return [
+      { city, slug: pick.match!.slug, region, vertical: pick.v.name },
+    ];
+  });
+})();
 
 /**
  * The 23 service+city pages under app/locations/*, grouped by service.

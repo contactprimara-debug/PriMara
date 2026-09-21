@@ -69,7 +69,7 @@ const RESOURCES_LINKS = [
 export default function Footer({
   cities = [],
 }: {
-  cities?: { city: string; slug: string; region: string }[];
+  cities?: { city: string; slug: string; region: string; vertical?: string }[];
 }) {
   const year = new Date().getFullYear();
   const pathname = usePathname();
@@ -432,6 +432,7 @@ export default function Footer({
                   prefetch={false}
                   className="footer-link"
                   style={{ fontSize: "11px" }}
+                  aria-label={c.vertical ? `${c.vertical} marketing in ${c.city}` : c.city}
                 >
                   {c.city}
                 </Link>
