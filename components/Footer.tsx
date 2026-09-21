@@ -56,6 +56,7 @@ const LOCATIONS_LINKS = [
 ];
 
 const RESOURCES_LINKS = [
+  { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
 ];

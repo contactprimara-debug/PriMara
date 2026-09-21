@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/schema";
 import { lastmodForUrl } from "@/lib/lastmod";
+import { guides } from "@/lib/guides";
 
 // Add new pages here as they are built.
 // Geographic and service sub-pages go at the bottom with lower priority.
@@ -491,6 +492,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/vs/webpt`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${SITE_URL}/vs/doctorlogic`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
   ];
+
+  // ── Priority 0.8 — Guides (answer-first intent pages, lib/guides.ts) ───
+  for (const guide of guides) {
+    entries.push({
+      url: `${SITE_URL}/guides/${guide.slug}`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    });
+  }
+  entries.push({
+    url: `${SITE_URL}/guides`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  });
 
   return entries.map((entry) => ({
     ...entry,

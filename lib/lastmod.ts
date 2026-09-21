@@ -43,6 +43,8 @@ function sourceFor(path: string): string | null {
   }
   // Blog posts are data in lib/blog.ts, not one file per route.
   if (clean.startsWith("blog/")) return "lib/blog.ts";
+  // Same for guides — the copy lives in lib/guides-*.ts, not in the route file.
+  if (clean.startsWith("guides/")) return "lib/guides.ts";
   return `app/${clean}/page.tsx`;
 }
 

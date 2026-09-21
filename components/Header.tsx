@@ -36,6 +36,7 @@ const SERVICES = [
 ];
 
 const RESOURCES = [
+  { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
   { label: "Results", href: "/results" },
