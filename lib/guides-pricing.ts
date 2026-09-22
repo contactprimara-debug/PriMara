@@ -194,6 +194,12 @@ export const guidesPartOne: Guide[] = [
         label: "What a Medical Practice Website Costs",
         description: "One-time build pricing and what actually drives it.",
       },
+          {
+        href: "/guides/get-a-medical-practice-into-ai-search-answers",
+        label: "How to get a medical practice into AI search answers",
+        description:
+          "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
+      },
     ],
   },
 
@@ -365,6 +371,12 @@ export const guidesPartOne: Guide[] = [
         label: "How Much Does Medical SEO Cost",
         description: "The same pricing question across all medical verticals.",
       },
+          {
+        href: "/guides/how-to-respond-to-a-negative-patient-review",
+        label: "How to respond to a negative patient review",
+        description:
+          "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
+      },
     ],
   },
 
@@ -526,6 +538,18 @@ export const guidesPartOne: Guide[] = [
         href: "/guides/therapist-marketing-pricing",
         label: "Therapist Marketing Pricing",
         description: "What each channel actually costs a Florida practice.",
+      },
+          {
+        href: "/guides/get-a-medical-practice-into-ai-search-answers",
+        label: "How to get a medical practice into AI search answers",
+        description:
+          "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
+      },
+      {
+        href: "/guides/how-to-respond-to-a-negative-patient-review",
+        label: "How to respond to a negative patient review",
+        description:
+          "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
       },
     ],
   },
@@ -692,6 +716,12 @@ export const guidesPartOne: Guide[] = [
         href: "/guides/how-much-does-medical-seo-cost",
         label: "How Much Does Medical SEO Cost",
         description: "What the ongoing work costs after the site ships.",
+      },
+          {
+        href: "/guides/fix-a-suspended-google-business-profile",
+        label: "How to fix a suspended Google Business Profile",
+        description:
+          "If the listing is gone from Maps, this is the reinstatement process step by step.",
       },
     ],
   },

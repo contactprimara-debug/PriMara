@@ -19,6 +19,7 @@
 
 import { guidesPartOne } from "@/lib/guides-pricing";
 import { guidesPartTwo } from "@/lib/guides-playbooks";
+import { guidesPartThree } from "@/lib/guides-answers";
 
 export type GuideSectionType = "h2" | "h3" | "p" | "ul" | "ol" | "table" | "callout";
 
@@ -75,7 +76,7 @@ export interface Guide {
   howTo?: GuideHowTo;
 }
 
-export const guides: Guide[] = [...guidesPartOne, ...guidesPartTwo];
+export const guides: Guide[] = [...guidesPartOne, ...guidesPartTwo, ...guidesPartThree];
 
 export function getGuide(slug: string): Guide | undefined {
   return guides.find((g) => g.slug === slug);

@@ -98,7 +98,7 @@ function buildSchema(guide: Guide) {
     // Organization entity — same business facts as the sitewide LocalBusiness,
     // repeated here so the page's graph stands alone for answer engines.
     {
-      "@type": "Organization",
+      "@type": ["Organization", "LocalBusiness"],
       "@id": `${SITE_URL}#organization`,
       name: "Primara",
       url: SITE_URL,
@@ -107,6 +107,54 @@ function buildSchema(guide: Guide) {
       email: localBusinessSchema.email,
       address: localBusinessSchema.address,
       knowsAbout: localBusinessSchema.knowsAbout,
+      sameAs: ORGANIZATION_SAME_AS,
+    },
+    // Service the guide is about — lets an answer engine connect the topic to
+    // something we actually sell, rather than inferring it from prose.
+    {
+      "@type": "Service",
+      "@id": `${url}#service`,
+      name: guide.keyword,
+      serviceType: guide.keyword,
+      category: guide.category,
+      description: guide.answer,
+      provider: { "@id": `${SITE_URL}#organization` },
+      areaServed: [
+        { "@type": "State", name: "Florida" },
+        { "@type": "Country", name: "United States" },
+      ],
+    },
+    // WebPage node — declares what this URL is about and what it mentions, so
+    // the page's entities are stated rather than guessed at.
+    {
+      "@type": "WebPage",
+      "@id": url,
+      url,
+      name: guide.metaTitle,
+      description: guide.metaDescription,
+      inLanguage: "en-US",
+      datePublished: guide.publishDate,
+      dateModified: `${guide.dateModified}T00:00:00Z`,
+      isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}#website`, url: SITE_URL, name: "Primara" },
+      about: {
+        "@type": "Thing",
+        name: guide.keyword,
+        description: guide.answer,
+      },
+      mentions: [
+        { "@id": `${SITE_URL}#organization` },
+        { "@id": `${url}#service` },
+        ...guide.sections
+          .filter((s) => s.type === "h2" && s.text)
+          .map((s) => ({ "@type": "Thing", name: s.text as string })),
+      ],
+      primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/opengraph-image` },
+      breadcrumb: { "@id": `${url}#breadcrumbs` },
+      mainEntity: { "@id": `${url}#faq` },
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "[data-answer-box]"],
+      },
     },
   ];
 
@@ -128,6 +176,12 @@ function buildSchema(guide: Guide) {
 
   return { "@context": "https://schema.org", "@graph": graph };
 }
+
+// Public profiles for the Primara entity. Keep in sync with app/page.tsx.
+// Only URLs we have actually verified go here — no guessed Maps/CID links.
+const ORGANIZATION_SAME_AS = [
+  "https://www.linkedin.com/company/primara",
+];
 
 const serif = "var(--font-fraunces), Georgia, serif";
 
@@ -364,6 +418,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
               padding: "1.25rem 1.5rem",
               marginBottom: "1.5rem",
             }}
+            data-answer-box=""
           >
             <p
               style={{

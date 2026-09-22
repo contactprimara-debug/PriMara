@@ -194,6 +194,18 @@ export const guidesPartTwo: Guide[] = [
         label: "How to Rank a Med Spa in Miami",
         description: "The same playbook in the hardest local market in Florida.",
       },
+          {
+        href: "/guides/fix-a-suspended-google-business-profile",
+        label: "How to fix a suspended Google Business Profile",
+        description:
+          "If the listing is gone from Maps, this is the reinstatement process step by step.",
+      },
+      {
+        href: "/guides/how-to-respond-to-a-negative-patient-review",
+        label: "How to respond to a negative patient review",
+        description:
+          "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
+      },
     ],
   },
 
@@ -379,6 +391,12 @@ export const guidesPartTwo: Guide[] = [
         href: "/guides/seo-vs-google-ads-for-a-therapy-practice",
         label: "SEO vs Google Ads for a Therapy Practice",
         description: "Choosing a channel when health targeting is restricted.",
+      },
+          {
+        href: "/guides/get-a-medical-practice-into-ai-search-answers",
+        label: "How to get a medical practice into AI search answers",
+        description:
+          "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
       },
     ],
   },
@@ -569,6 +587,18 @@ export const guidesPartTwo: Guide[] = [
         label: "Men's Health Clinic Marketing Playbook",
         description: "The same structure for a cash-pay men's clinic.",
       },
+          {
+        href: "/guides/fix-a-suspended-google-business-profile",
+        label: "How to fix a suspended Google Business Profile",
+        description:
+          "If the listing is gone from Maps, this is the reinstatement process step by step.",
+      },
+      {
+        href: "/guides/get-a-medical-practice-into-ai-search-answers",
+        label: "How to get a medical practice into AI search answers",
+        description:
+          "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
+      },
     ],
   },
 
@@ -748,6 +778,12 @@ export const guidesPartTwo: Guide[] = [
         label: "What a Medical Practice Website Costs",
         description: "Budgeting the build in days fifteen to thirty.",
       },
+          {
+        href: "/guides/fix-a-suspended-google-business-profile",
+        label: "How to fix a suspended Google Business Profile",
+        description:
+          "If the listing is gone from Maps, this is the reinstatement process step by step.",
+      },
     ],
   },
 
@@ -905,6 +941,12 @@ export const guidesPartTwo: Guide[] = [
         href: "/guides/how-to-rank-a-med-spa-in-miami",
         label: "How to Rank a Med Spa in Miami",
         description: "The neighborhood-level ranking method, in detail.",
+      },
+          {
+        href: "/guides/how-to-respond-to-a-negative-patient-review",
+        label: "How to respond to a negative patient review",
+        description:
+          "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
       },
     ],
   },

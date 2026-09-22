@@ -3,6 +3,7 @@ import { Instrument_Serif, Syne } from "next/font/google";
 import Script from "next/script";
 import AfterHydration from "@/components/AfterHydration";
 import GAPageViews from "@/components/GAPageViews";
+import PhoneCallTracking from "@/components/PhoneCallTracking";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -238,6 +239,13 @@ export default function RootLayout({
               the primary GT-PB6FNVRG tag above, so only the route-change
               page_views needed replacing. See components/GAPageViews.tsx. */}
         <GAPageViews />
+
+        {/* ── phone_call events for every tel: link (2026-09-22) ─────────
+              PAGE-STANDARD requires a phone_call handler on every page; the
+              site had none, so calls placed from any page were invisible in
+              GA4. One delegated listener, no extra tag or library. See
+              components/PhoneCallTracking.tsx. */}
+        <PhoneCallTracking />
 
       </body>
     </html>
