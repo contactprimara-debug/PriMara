@@ -143,7 +143,7 @@ export default function PackageInquiryForm({
   };
 
   return (
-    <form onSubmit={handleSubmit} action="/api/package-inquiry" method="POST">
+    <form onSubmit={handleSubmit} action="/api/contact" method="POST">
       <HoneypotField />
       <input type="hidden" name="package" value={packageName} />
 

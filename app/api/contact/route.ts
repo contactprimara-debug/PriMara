@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { submitContact } from "@/app/actions/contact";
+import { submitPackageInquiry } from "@/app/actions/packageInquiry";
 
 /* ── Real HTTP endpoint for the contact/audit lead forms ────────────────────
    WHY (2026-09-23, site-health finding 218): the forms previously rendered
@@ -25,7 +26,13 @@ export async function POST(req: NextRequest) {
       if (value !== undefined && value !== null) formData.set(key, String(value));
     }
 
-    const result = await submitContact({ status: "idle" }, formData);
+    // No-JS fallback for the packages forms: their raw SSR <form> also
+    // points action="/api/contact" (this endpoint) alongside a
+    // JS-enhanced fetch to /api/package-inquiry, so a visitor submitting
+    // with JS disabled still reaches the right handler instead of 404ing.
+    const result = formData.get("package")
+      ? await submitPackageInquiry({ status: "idle" }, formData)
+      : await submitContact({ status: "idle" }, formData);
 
     if (result.status === "error") {
       return NextResponse.json({ error: result.error }, { status: 400 });
