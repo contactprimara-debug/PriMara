@@ -1,10 +1,6 @@
 "use client";
 
-import { useFormStatus } from "react-dom";
-
-export default function SubmitButton() {
-  const { pending } = useFormStatus();
-
+export default function SubmitButton({ pending = false }: { pending?: boolean }) {
   return (
     <button
       type="submit"

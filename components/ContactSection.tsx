@@ -1,9 +1,8 @@
 "use client";
 
-import { useFormState } from "react-dom";
-import { useEffect } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { submitContact, type ContactState } from "@/app/actions/contact";
+import type { ContactState } from "@/app/actions/contact";
 import SubmitButton from "@/components/SubmitButton";
 import HoneypotField from "@/components/HoneypotField";
 import { siteConfig } from "@/lib/siteConfig";
@@ -58,11 +57,35 @@ const selectStyle: React.CSSProperties = {
 
 export default function ContactSection() {
   const router = useRouter();
-  const [state, formAction] = useFormState(submitContact, initialState);
+  const [state, setState] = useState<ContactState>(initialState);
+  const [pending, setPending] = useState(false);
+  const sending = useRef(false);
 
-  useEffect(() => {
-    if (state.status === "success") router.push("/thank-you");
-  }, [state.status, router]);
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (sending.current) return;
+    sending.current = true;
+    setPending(true);
+    setState(initialState);
+
+    const formData = new FormData(e.currentTarget);
+    const payload = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
+      router.push("/thank-you");
+    } catch (err) {
+      setState({ status: "error", error: err instanceof Error ? err.message : "Something went wrong." });
+      setPending(false);
+      sending.current = false;
+    }
+  }
 
   return (
     <>
@@ -151,7 +174,7 @@ export default function ContactSection() {
             </div>
 
             {/* Form — redirects to /thank-you on success */}
-            <form action={formAction} noValidate>
+            <form onSubmit={handleSubmit} action="/api/contact" method="POST" noValidate>
                 <HoneypotField />
                 {/* Required fields note */}
                 <p
@@ -258,7 +281,7 @@ export default function ContactSection() {
                   )}
 
                   {/* Submit */}
-                  <SubmitButton />
+                  <SubmitButton pending={pending} />
 
                   {/* Microtext */}
                   <p

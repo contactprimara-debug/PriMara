@@ -1,18 +1,12 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRef, useState } from "react";
 import HoneypotField from "@/components/HoneypotField";
-import {
-  submitPackageInquiry,
-  type PackageInquiryState,
-} from "@/app/actions/packageInquiry";
+import type { PackageInquiryState } from "@/app/actions/packageInquiry";
 
 const initialState: PackageInquiryState = { status: "idle" };
 
-function SubmitButton() {
-  const { pending } = useFormStatus();
+function SubmitButton({ pending }: { pending: boolean }) {
   return (
     <button
       type="submit"
@@ -48,12 +42,35 @@ export default function PackageInquiryForm({
 }: {
   packageName: string;
 }) {
-  const router = useRouter();
-  const [state, formAction] = useFormState(submitPackageInquiry, initialState);
+  const [state, setState] = useState<PackageInquiryState>(initialState);
+  const [pending, setPending] = useState(false);
+  const sending = useRef(false);
 
-  useEffect(() => {
-    if (state.status === "success") router.push("/thank-you");
-  }, [state.status, router]);
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (sending.current) return;
+    sending.current = true;
+    setPending(true);
+    setState(initialState);
+
+    const formData = new FormData(e.currentTarget);
+    const payload = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch("/api/package-inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
+      setState({ status: "success", firstName: data.firstName });
+    } catch (err) {
+      setState({ status: "error", error: err instanceof Error ? err.message : "Something went wrong." });
+      setPending(false);
+      sending.current = false;
+    }
+  }
 
   if (state.status === "success") {
     return (
@@ -126,7 +143,7 @@ export default function PackageInquiryForm({
   };
 
   return (
-    <form action={formAction}>
+    <form onSubmit={handleSubmit} action="/api/package-inquiry" method="POST">
       <HoneypotField />
       <input type="hidden" name="package" value={packageName} />
 
@@ -231,7 +248,7 @@ export default function PackageInquiryForm({
           </p>
         )}
 
-        <SubmitButton />
+        <SubmitButton pending={pending} />
 
         <p
           style={{

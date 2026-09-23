@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import { submitContact } from '@/app/actions/contact';
 import HoneypotField from '@/components/HoneypotField';
 
 /* ── ContactFinal ──────────────────────────────────────────────────────────
@@ -41,22 +40,32 @@ export default function ContactFinal() {
     setSubmitError('');
     setSubmitting(true);
 
-    // Build FormData matching server action field names
-    const fd = new FormData();
-    fd.set('name', name);
-    fd.set('practiceName', practiceName);
-    fd.set('phone', phone);
-    fd.set('callTime', callbackTime);
     // Forward the honeypot value — the form is controlled, so the hidden
     // field isn't in component state; read it straight off the DOM form.
     const hp = (e.currentTarget.elements.namedItem('company') as HTMLInputElement | null)?.value ?? '';
-    fd.set('company', hp);
+    const payload = {
+      name,
+      practiceName,
+      phone,
+      callTime: callbackTime,
+      company: hp,
+    };
 
-    const result = await submitContact({ status: 'idle' }, fd);
-    setSubmitting(false);
-
-    if (result.status === 'error') {
-      setSubmitError(result.error ?? 'Something went wrong. Please call us at (561) 291-2681.');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const result = await res.json();
+      setSubmitting(false);
+      if (!res.ok) {
+        setSubmitError(result.error ?? 'Something went wrong. Please call us at (561) 291-2681.');
+        return;
+      }
+    } catch {
+      setSubmitting(false);
+      setSubmitError('Something went wrong. Please call us at (561) 291-2681.');
       return;
     }
 
@@ -186,7 +195,7 @@ export default function ContactFinal() {
 
             {/* Form wrapper — GSAP animates this out on submit */}
             <div ref={formWrapRef} className="contact-form">
-              <form onSubmit={handleSubmit} noValidate>
+              <form onSubmit={handleSubmit} action="/api/contact" method="POST" noValidate>
                 <HoneypotField />
                 <div
                   style={{

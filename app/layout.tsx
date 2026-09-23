@@ -3,7 +3,6 @@ import { Instrument_Serif, Syne } from "next/font/google";
 import Script from "next/script";
 import AfterHydration from "@/components/AfterHydration";
 import GAPageViews from "@/components/GAPageViews";
-import PhoneCallTracking from "@/components/PhoneCallTracking";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -240,12 +239,26 @@ export default function RootLayout({
               page_views needed replacing. See components/GAPageViews.tsx. */}
         <GAPageViews />
 
-        {/* ── phone_call events for every tel: link (2026-09-22) ─────────
-              PAGE-STANDARD requires a phone_call handler on every page; the
-              site had none, so calls placed from any page were invisible in
-              GA4. One delegated listener, no extra tag or library. See
-              components/PhoneCallTracking.tsx. */}
-        <PhoneCallTracking />
+        {/* ── phone_call events for every tel: link (2026-09-22, rewritten
+              2026-09-23 for finding 218) ────────────────────────────────
+              PAGE-STANDARD requires a phone_call handler on every page.
+              This used to be components/PhoneCallTracking.tsx, a "use
+              client" component whose listener only existed in the hydrated
+              JS bundle — invisible to the site-health tracking-coverage
+              crawler, which reads raw SSR HTML only (same class of bug
+              fixed on ~/making-heaven-crowded in commit 1756dc9). This
+              literal inline <script> renders straight into server HTML on
+              every page, so the crawler (and any client with JS disabled
+              before this fires) sees it directly. Same delegated
+              document-level tel: listener, same destinations (GT-PB6FNVRG
+              carries G-DYRL31NGRH + AW-18204165915 per the gtag config
+              above), fails silently if gtag isn't loaded yet. */}
+        <script
+          id="phone-call-tracking"
+          dangerouslySetInnerHTML={{
+            __html: `document.addEventListener('click',function(e){var t=e.target;if(!t||typeof t.closest!=='function')return;var l=t.closest('a[href^="tel:"]');if(!l)return;var n=(l.getAttribute('href')||'').replace(/^tel:/i,'').trim();try{window.gtag&&window.gtag('event','phone_call',{phone_number:n,page_path:window.location.pathname,link_url:l.getAttribute('href')||''});}catch(err){}},true);`,
+          }}
+        />
 
       </body>
     </html>
