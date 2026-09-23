@@ -1,15 +1,13 @@
 'use client';
 
-import { useEffect, useRef } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useFormState, useFormStatus } from "react-dom";
-import { submitContact, type ContactState } from "@/app/actions/contact";
+import type { ContactState } from "@/app/actions/contact";
 import HoneypotField from "@/components/HoneypotField";
 
 const initialState: ContactState = { status: "idle" };
 
-function SubmitBtn() {
-  const { pending } = useFormStatus();
+function SubmitBtn({ pending }: { pending: boolean }) {
   return (
     <button
       type="submit"
@@ -41,15 +39,37 @@ function SubmitBtn() {
 
 export default function AuditOfferStrip() {
   const router = useRouter();
-  const [state, formAction] = useFormState(submitContact, initialState);
+  const [state, setState] = useState<ContactState>(initialState);
+  const [pending, setPending] = useState(false);
+  const sending = useRef(false);
   const formRef = useRef<HTMLFormElement>(null);
 
-  useEffect(() => {
-    if (state.status === "success") {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (sending.current) return;
+    sending.current = true;
+    setPending(true);
+
+    const formData = new FormData(e.currentTarget);
+    const payload = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Something went wrong.");
       formRef.current?.reset();
+      setState({ status: "success", firstName: data.firstName });
       router.push("/thank-you");
+    } catch (err) {
+      setState({ status: "error", error: err instanceof Error ? err.message : "Something went wrong." });
+      setPending(false);
+      sending.current = false;
     }
-  }, [state.status, router]);
+  }
 
   return (
     <section
@@ -156,7 +176,7 @@ export default function AuditOfferStrip() {
               </p>
             </div>
           ) : (
-            <form ref={formRef} action={formAction} noValidate>
+            <form ref={formRef} onSubmit={handleSubmit} action="/api/contact" method="POST" noValidate>
               <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px" }}>
                   <div>
@@ -273,7 +293,7 @@ export default function AuditOfferStrip() {
                   </p>
                 )}
 
-                <SubmitBtn />
+                <SubmitBtn pending={pending} />
 
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", color: "var(--smoke)", letterSpacing: "0.06em" }}>
                   No spam. No sales pitch. Just the audit, delivered in 48 hours.
