@@ -200,6 +200,11 @@ export const guidesPartOne: Guide[] = [
         description:
           "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
       },
+      {
+        href: "/guides/google-ads-cost-for-a-medical-practice",
+        label: "Google Ads Cost for a Medical Practice",
+        description: "The paid-media side of this same budgeting question.",
+      },
     ],
   },
 
@@ -550,6 +555,11 @@ export const guidesPartOne: Guide[] = [
         label: "How to respond to a negative patient review",
         description:
           "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
+      },
+      {
+        href: "/guides/google-ads-cost-for-a-medical-practice",
+        label: "Google Ads Cost for a Medical Practice",
+        description: "A closer look at the paid-media cost side of this same decision.",
       },
     ],
   },

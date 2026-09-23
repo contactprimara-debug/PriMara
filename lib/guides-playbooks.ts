@@ -206,6 +206,11 @@ export const guidesPartTwo: Guide[] = [
         description:
           "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
       },
+      {
+        href: "/guides/med-spa-marketing-cost",
+        label: "Med Spa Marketing Cost in Florida",
+        description: "The budgeting question that comes right after the profile is optimized.",
+      },
     ],
   },
 
@@ -598,6 +603,11 @@ export const guidesPartTwo: Guide[] = [
         label: "How to get a medical practice into AI search answers",
         description:
           "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
+      },
+      {
+        href: "/guides/med-spa-marketing-cost",
+        label: "Med Spa Marketing Cost in Florida",
+        description: "What this playbook costs to actually run, by budget tier.",
       },
     ],
   },
