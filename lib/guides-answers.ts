@@ -154,6 +154,7 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/choosing-google-business-profile-categories-for-a-medical-practice", label: "Choosing GBP Categories", description: "A common cause of the kind of suspension this guide covers." },
       {
         href: "/services/google-business-profile",
         label: "Google Business Profile management",
@@ -316,6 +317,7 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Get More Patient Reviews Without Review Gating", description: "The compliant review-generation approach this response strategy pairs with." },
       {
         href: "/services/online-reputation-management",
         label: "Online reputation management for practices",
@@ -478,6 +480,7 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "Write a Medical Service Page That Ranks", description: "The page structure this AI-search guide builds on." },
       {
         href: "/services/ai-seo",
         label: "AI SEO for medical practices",

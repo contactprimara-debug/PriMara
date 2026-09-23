@@ -169,6 +169,7 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "The same cost question for dental practices specifically." },
       {
         href: "/services/local-seo-for-medical-practices",
         label: "Local SEO for Medical Practices",
@@ -351,6 +352,7 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "Whether that budget is better spent on a hire or an agency." },
       {
         href: "/mental-health",
         label: "Mental Health Practice Marketing",
@@ -519,6 +521,7 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/seo-vs-meta-ads-for-a-med-spa", label: "SEO vs Meta Ads for a Med Spa", description: "The same channel-choice question, framed for aesthetics practices." },
       {
         href: "/services/google-ads",
         label: "Google Ads for Medical Practices",
@@ -702,6 +705,8 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "Related budgeting guide for a dental practice's full marketing spend." },
+      { href: "/guides/google-business-profile-vs-website-for-patient-acquisition", label: "GBP vs Website for Patient Acquisition", description: "How this website spend compares to Google Business Profile investment." },
       {
         href: "/services/medical-practice-website-design",
         label: "Medical Practice Website Design",

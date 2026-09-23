@@ -169,6 +169,9 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/google-business-profile-vs-website-for-patient-acquisition", label: "GBP vs Website for Patient Acquisition", description: "How this GBP work compares to website investment for new patients." },
+      { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Get More Patient Reviews Without Review Gating", description: "The compliant way to grow the review volume this playbook needs." },
+      { href: "/guides/choosing-google-business-profile-categories-for-a-medical-practice", label: "Choosing GBP Categories", description: "The category setup this optimization playbook builds on." },
       {
         href: "/services/google-business-profile",
         label: "Google Business Profile Management",
@@ -372,6 +375,7 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Track Phone Calls from a Medical Website", description: "The call-tracking specifics for the compliance rules on this page." },
       {
         href: "/hipaa",
         label: "HIPAA-Aware Marketing",
@@ -567,6 +571,7 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/seo-vs-meta-ads-for-a-med-spa", label: "SEO vs Meta Ads for a Med Spa", description: "How this SEO playbook compares against a Meta ads approach." },
       {
         href: "/medspas",
         label: "Medspa Marketing",
@@ -763,6 +768,8 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "Deciding who executes this checklist — a hire or an agency." },
+      { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Track Phone Calls from a Medical Website", description: "The call-tracking setup this checklist assumes is in place." },
       {
         href: "/services/digital-marketing-for-independent-medical-practices",
         label: "Digital Marketing for Independent Practices",
@@ -927,6 +934,7 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "Write a Medical Service Page That Ranks", description: "The page-writing standard behind every service page this playbook references." },
       {
         href: "/mens-health",
         label: "Men's Health Practice Marketing",
