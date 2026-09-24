@@ -481,6 +481,7 @@ export const guidesPartThree: Guide[] = [
     ],
     links: [
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "Write a Medical Service Page That Ranks", description: "The page structure this AI-search guide builds on." },
+      { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "Why exact, verifiable credentials matter even more once AI answer engines are reading the page." },
       {
         href: "/services/ai-seo",
         label: "AI SEO for medical practices",

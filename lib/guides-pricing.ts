@@ -170,6 +170,7 @@ export const guidesPartOne: Guide[] = [
     ],
     links: [
       { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "The same cost question for dental practices specifically." },
+      { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "Once cost is on the table, the questions that separate a good agency from a bad one." },
       {
         href: "/services/local-seo-for-medical-practices",
         label: "Local SEO for Medical Practices",
@@ -707,6 +708,7 @@ export const guidesPartOne: Guide[] = [
     links: [
       { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "Related budgeting guide for a dental practice's full marketing spend." },
       { href: "/guides/google-business-profile-vs-website-for-patient-acquisition", label: "GBP vs Website for Patient Acquisition", description: "How this website spend compares to Google Business Profile investment." },
+      { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "The provider-page structure a new site build should follow." },
       {
         href: "/services/medical-practice-website-design",
         label: "Medical Practice Website Design",

@@ -770,6 +770,7 @@ export const guidesPartTwo: Guide[] = [
     links: [
       { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "Deciding who executes this checklist — a hire or an agency." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Track Phone Calls from a Medical Website", description: "The call-tracking setup this checklist assumes is in place." },
+      { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "If this checklist points toward hiring an agency, the questions to vet one with." },
       {
         href: "/services/digital-marketing-for-independent-medical-practices",
         label: "Digital Marketing for Independent Practices",

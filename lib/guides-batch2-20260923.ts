@@ -264,6 +264,7 @@ export const guidesPartFive: Guide[] = [
     links: [
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The kind of scope an agency engagement typically covers." },
       { href: "/guides/how-much-does-medical-seo-cost", label: "How Much Does Medical SEO Cost", description: "The budget side of the build-vs-buy decision." },
+      { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "Once you decide agency over in-house, the questions that separate a good one from a bad one." },
       { href: "/pricing", label: "Primara Pricing", description: "What an agency engagement actually costs, scoped." },
       { href: "/about", label: "About Primara", description: "Who does the work when you hire an agency team." },
     ],
