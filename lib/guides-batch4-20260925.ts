@@ -76,9 +76,9 @@ export const guidesPartSeven: Guide[] = [
     ],
     faqs: [
       { q: "Will a new website launch hurt my Google rankings?", a: "It can, but only if the checklist above is skipped. The most common cause of a ranking drop after a relaunch is a missing or incorrect 301 redirect map — pages that used to rank simply stop existing from Google's point of view, and the new URL has to earn that ranking from zero." },
-      { q: "How long does it take to recover rankings after a website relaunch?", a: "With a clean redirect map and matching content, most practices see rankings stabilize within 2–6 weeks as Google re-crawls and re-indexes the new URLs. Without redirects, recovery can take months, or some pages may never fully recover their prior position." },
-      { q: "Do I need to keep the old domain if I'm moving to a new one?", a: "Yes — keep the old domain registered and pointed at the new site via 301 redirects indefinitely. Letting an old domain expire after a migration breaks every redirect it was carrying and can also let someone else register it." },
-      { q: "What's the single biggest launch mistake you see?", a: "A staging-site robots.txt file (blocking all crawlers) that never gets removed when the site goes live. The site looks fine to a human visitor but is invisible to Google — and it can sit that way for weeks before anyone notices traffic never came back." },
+      { q: "How long does it take to recover rankings after a website relaunch?", a: "With a clean redirect map, most practices see rankings stabilize within 2–6 weeks as Google re-crawls the new URLs. Without redirects, recovery can take months, or some pages may never fully recover." },
+      { q: "Do I need to keep the old domain if I'm moving to a new one?", a: "Yes — keep it registered and pointed at the new site via 301 redirects indefinitely. Letting an old domain expire breaks every redirect it was carrying and can let someone else register it." },
+      { q: "What's the single biggest launch mistake you see?", a: "A staging-site robots.txt file blocking all crawlers that never gets removed at launch. The site looks fine to a visitor but is invisible to Google, and can sit that way for weeks unnoticed." },
       { q: "Should I update Google Business Profile before or after the site goes live?", a: "After — update the GBP website URL only once the new site is confirmed live and redirects are verified, so patients clicking from the listing never land on a broken or placeholder page." },
     ],
     citations: [
