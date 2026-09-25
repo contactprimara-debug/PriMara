@@ -706,6 +706,9 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "The pre-launch checklist to run once this build is ready to go live." },
+      { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "The contact-page details this website cost should already include." },
+      { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "What changes if this build is part of a rename rather than a fresh site." },
       { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "Related budgeting guide for a dental practice's full marketing spend." },
       { href: "/guides/google-business-profile-vs-website-for-patient-acquisition", label: "GBP vs Website for Patient Acquisition", description: "How this website spend compares to Google Business Profile investment." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "The provider-page structure a new site build should follow." },

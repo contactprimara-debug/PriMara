@@ -169,6 +169,8 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Google Business Profile Maintenance Checklist", description: "The recurring routine that keeps this strategy working month to month." },
+      { href: "/guides/google-business-profile-qa-management-for-a-medical-practice", label: "Google Business Profile Q&A Management", description: "A specific listing task this strategy depends on getting right." },
       { href: "/guides/google-business-profile-vs-website-for-patient-acquisition", label: "GBP vs Website for Patient Acquisition", description: "How this GBP work compares to website investment for new patients." },
       { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Get More Patient Reviews Without Review Gating", description: "The compliant way to grow the review volume this playbook needs." },
       { href: "/guides/choosing-google-business-profile-categories-for-a-medical-practice", label: "Choosing GBP Categories", description: "The category setup this optimization playbook builds on." },
@@ -375,6 +377,8 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/healthcare-ad-compliance-checklist", label: "Healthcare Ad Compliance Checklist", description: "The full compliance picture this tracking guidance is one part of." },
+      { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "How to Measure ROI on Medical Practice Marketing", description: "How this HIPAA-safe tracking setup feeds an actual ROI calculation." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Track Phone Calls from a Medical Website", description: "The call-tracking specifics for the compliance rules on this page." },
       {
         href: "/hipaa",
@@ -768,6 +772,8 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "The SEO-specific checklist for the new site this 90-day plan depends on." },
+      { href: "/guides/primary-care-patient-acquisition-playbook", label: "Primary Care Patient Acquisition Playbook", description: "The channel order to follow once the first-90-days setup is done." },
       { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "Deciding who executes this checklist — a hire or an agency." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Track Phone Calls from a Medical Website", description: "The call-tracking setup this checklist assumes is in place." },
       { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "If this checklist points toward hiring an agency, the questions to vet one with." },

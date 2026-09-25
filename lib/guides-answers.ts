@@ -154,6 +154,9 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Google Business Profile Maintenance Checklist", description: "The routine maintenance that helps avoid a suspension in the first place." },
+      { href: "/guides/google-business-profile-qa-management-for-a-medical-practice", label: "Google Business Profile Q&A Management", description: "A listing area that can also trigger scrutiny if it's used to manipulate the profile." },
+      { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "How to Handle a Fake Google Review", description: "A related listing-integrity problem with its own separate resolution path." },
       { href: "/guides/choosing-google-business-profile-categories-for-a-medical-practice", label: "Choosing GBP Categories", description: "A common cause of the kind of suspension this guide covers." },
       {
         href: "/services/google-business-profile",
@@ -317,6 +320,7 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "How to Handle a Fake Google Review", description: "What changes in the response process when a review isn't genuine." },
       { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Get More Patient Reviews Without Review Gating", description: "The compliant review-generation approach this response strategy pairs with." },
       {
         href: "/services/online-reputation-management",
@@ -480,6 +484,7 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "The FAQ-level tactic that supports this broader AEO strategy." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "Write a Medical Service Page That Ranks", description: "The page structure this AI-search guide builds on." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "Why exact, verifiable credentials matter even more once AI answer engines are reading the page." },
       {

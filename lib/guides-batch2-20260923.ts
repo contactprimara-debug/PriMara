@@ -262,6 +262,7 @@ export const guidesPartFive: Guide[] = [
       { publisher: "FTC Consumer Advice", label: "Advertising and marketing basics", href: "https://www.ftc.gov/business-guidance/advertising-marketing" },
     ],
     links: [
+      { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "How to Measure ROI on Medical Practice Marketing", description: "The ROI math that should inform this build-or-hire decision." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The kind of scope an agency engagement typically covers." },
       { href: "/guides/how-much-does-medical-seo-cost", label: "How Much Does Medical SEO Cost", description: "The budget side of the build-vs-buy decision." },
       { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "Once you decide agency over in-house, the questions that separate a good one from a bad one." },
@@ -346,6 +347,7 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Search Central", label: "SEO Starter Guide", href: "https://developers.google.com/search/docs/fundamentals/seo-starter-guide" },
     ],
     links: [
+      { href: "/guides/primary-care-patient-acquisition-playbook", label: "Primary Care Patient Acquisition Playbook", description: "How this channel comparison plays out specifically for primary care." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "The service half of this comparison." },
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "The website half of this comparison." },
       { href: "/guides/how-to-get-more-patients-from-google-business-profile", label: "How to Get More Patients from GBP", description: "The GBP-specific playbook this page points to." },
@@ -422,6 +424,7 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Business Profile Help", label: "Read and reply to reviews", href: "https://support.google.com/business/answer/3474122" },
     ],
     links: [
+      { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "How to Handle a Fake Google Review", description: "The reactive counterpart to this proactive review-generation guide." },
       { href: "/services/reputation-management", label: "Reputation Management", description: "The compliant review-generation service this page describes." },
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "How to Respond to a Negative Patient Review", description: "The follow-on guide for handling what shows up once you stop gating." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "Where reviews live and how they affect ranking." },
@@ -498,6 +501,8 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Business Profile Help", label: "Improve your local ranking on Google", href: "https://support.google.com/business/answer/7091?hl=en" },
     ],
     links: [
+      { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Google Business Profile Maintenance Checklist", description: "The ongoing routine this one-time category setup feeds into." },
+      { href: "/guides/google-business-profile-qa-management-for-a-medical-practice", label: "Google Business Profile Q&A Management", description: "Another listing detail that needs regular attention after setup." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "The service that includes category audits like this one." },
       { href: "/guides/how-to-get-more-patients-from-google-business-profile", label: "How to Get More Patients from GBP", description: "The broader GBP optimization playbook this fits into." },
       { href: "/guides/fix-a-suspended-google-business-profile", label: "Fix a Suspended Google Business Profile", description: "What to do if a category change (or anything else) triggers a suspension." },
@@ -580,6 +585,9 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Analytics Help", label: "GA4 event tracking", href: "https://support.google.com/analytics/answer/9322688" },
     ],
     links: [
+      { href: "/guides/healthcare-ad-compliance-checklist", label: "Healthcare Ad Compliance Checklist", description: "How to track a call as a conversion without passing PHI to an ad platform." },
+      { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "Making sure the contact page's own tel: link is actually tracked." },
+      { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "How to Measure ROI on Medical Practice Marketing", description: "The call-tracking setup this ROI formula depends on." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "HIPAA-Safe Tracking for a Medical Website", description: "The broader tracking-compliance guide this page's HIPAA section fits under." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The service this tracking setup measures the results of." },
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where call tracking is wired in on every build." },
@@ -664,6 +672,10 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Search Central", label: "E-E-A-T and quality rater guidelines overview", href: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content" },
     ],
     links: [
+      { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "Where this page-level structure fits inside a full site launch." },
+      { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "The FAQ block every service page like this one should carry." },
+      { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "Keeping this page structure consistent across a name change." },
+      { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "The contact-page counterpart to this service-page structure." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The service that includes building pages to this standard." },
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where service pages like this get built and hosted." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "The AEO extension of the same page-structure discipline." },

@@ -140,6 +140,7 @@ export const guidesPartFour: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/healthcare-ad-compliance-checklist", label: "Healthcare Ad Compliance Checklist", description: "The compliance requirements that apply before this ad spend goes live." },
       {
         href: "/services/local-seo-for-medical-practices",
         label: "Local SEO for Medical Practices",

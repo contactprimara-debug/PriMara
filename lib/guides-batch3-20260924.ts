@@ -85,6 +85,8 @@ export const guidesPartSix: Guide[] = [
       { publisher: "Google Search Central", label: "SEO Starter Guide", href: "https://developers.google.com/search/docs/fundamentals/seo-starter-guide" },
     ],
     links: [
+      { href: "/guides/primary-care-patient-acquisition-playbook", label: "Primary Care Patient Acquisition Playbook", description: "What a hired agency should actually be running for a primary care practice." },
+      { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "A specific, high-risk project worth vetting an agency's experience against." },
       { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs. Agency for a Medical Practice", description: "The staffing-vs-outsourcing question this guide's questions apply to directly." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "What a healthcare-specific agency should actually be able to show you results on." },
       { href: "/pricing", label: "Primara Pricing", description: "How we scope and price engagements — no locked-in annual contracts." },
@@ -172,6 +174,7 @@ export const guidesPartSix: Guide[] = [
       { publisher: "Google Search Central", label: "Physician structured data", href: "https://developers.google.com/search/docs/appearance/structured-data/search-gallery" },
     ],
     links: [
+      { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "Another page-level AEO tactic that pairs with a strong bio page." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "How to Write a Medical Service Page That Ranks", description: "The sibling structure guide for the service pages a bio page should link to and from." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "Why exact, verifiable credentials matter even more for AI-generated answers." },
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where provider bio pages get structured and built to this standard." },
