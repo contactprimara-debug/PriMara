@@ -28,7 +28,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Launch day is where most practices lose rankings, not gain them" },
       {
         type: "p",
-        text: "A new website almost never launches into a vacuum — there's usually an old site with URLs Google has already indexed, a Google Business Profile pointing at the old domain's contact details, and existing backlinks aimed at pages that are about to disappear. The SEO work that matters most happens before the new site goes live, not after. A practice that redesigns its site and loses 30% of its organic traffic for two months afterward almost always skipped one of the items below — it is not bad luck, it is a missed step.",
+        text: "A new website rarely launches into a vacuum — there's usually an old site with URLs Google has already indexed and existing backlinks aimed at pages about to disappear. The SEO work that matters most happens before the new site goes live, not after. A practice that redesigns its site and loses organic traffic for two months afterward almost always skipped one of the items below — it is a missed step, not bad luck.",
       },
       { type: "h2", text: "Pre-launch: the non-negotiables" },
       {
@@ -45,7 +45,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "NAP consistency is where launches quietly break" },
       {
         type: "p",
-        text: "Name, address, and phone number need to match, character for character, across the new site's footer, contact page, schema markup, and the Google Business Profile listing. \"Suite 200\" versus \"Ste 200\" or a phone number with a new tracking number that doesn't match the listed one both create the kind of inconsistency that slows local ranking recovery for weeks. If the practice is switching to a call-tracking number, the GBP primary phone number should stay the same as what's printed on the site, with the tracking number used only inside a secondary or GA4-forwarded line — never swap the number Google has verified.",
+        text: "Name, address, and phone number need to match, character for character, across the new site's footer, contact page, schema markup, and the Google Business Profile listing. \"Suite 200\" versus \"Ste 200,\" or a mismatched phone number, both slow local ranking recovery for weeks. If switching to a call-tracking number, keep the GBP primary number matching what's printed on the site — never swap the number Google has verified.",
       },
       { type: "h2", text: "Tracking has to work before launch, not after" },
       {
@@ -580,7 +580,12 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "What not to do in Q&A" },
       {
         type: "p",
-        text: "Don't use the Q&A section for promotional copy disguised as a question, and don't post a fake question from a personal account just to answer it from the business account — both are the kind of manipulation Google's guidelines explicitly prohibit and can put the whole listing at risk if reported. Keep every answer factual, current, and written the way an actual staff member would answer the phone.",
+        text: "Don't use the Q&A section for promotional copy disguised as a question, and don't post a fake question from a personal account just to answer it from the business account — both are the kind of manipulation Google's guidelines explicitly prohibit and can put the whole listing at risk if reported. Keep every answer factual, current, and written the way an actual staff member would answer the phone — not marketing copy dressed up as a reply.",
+      },
+      { type: "h2", text: "Who should own this task" },
+      {
+        type: "p",
+        text: "Q&A management works best when it's assigned to one person — usually whoever already owns reviews and posts — rather than left to \"whoever notices.\" A single owner checking the same day each week catches a wrong answer within days instead of months, and keeps the seeded questions current as insurance panels, hours, or services actually change. Folding Q&A into the same weekly routine as review replies and post scheduling, rather than treating it as a separate task, is what actually keeps it maintained long-term instead of forgotten after the first setup pass.",
       },
     ],
     faqs: [
