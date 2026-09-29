@@ -183,6 +183,21 @@ export const guidesPartThree: Guide[] = [
         label: "Google Business Profile optimization in West Palm Beach",
         description: "Our home market, and the listings we work on most.",
       },
+      {
+        href: "/guides/google-business-profile-services-list-optimization",
+        label: "Google Business Profile Services List Optimization",
+        description: "A listing task worth checking right after a suspension is resolved.",
+      },
+      {
+        href: "/guides/how-to-handle-google-business-profile-suggested-edits",
+        label: "How to Handle Google Business Profile Suggested Edits",
+        description: "A related, more common problem that can escalate into what this guide covers.",
+      },
+      {
+        href: "/guides/local-citation-building-checklist-for-a-medical-practice",
+        label: "Local Citation Building Checklist for a Medical Practice",
+        description: "Inconsistent NAP data is one of the things worth auditing after a reinstatement.",
+      },
     ],
   },
 
@@ -346,6 +361,11 @@ export const guidesPartThree: Guide[] = [
         href: "/locations/review-generation-west-palm-beach",
         label: "Review generation in West Palm Beach",
         description: "Our local market, and what review counts look like there.",
+      },
+      {
+        href: "/guides/patient-testimonial-compliance-checklist",
+        label: "Patient Testimonial Compliance Checklist",
+        description: "The related question of what a practice can publish about a patient on its own site.",
       },
     ],
   },
@@ -511,6 +531,16 @@ export const guidesPartThree: Guide[] = [
         href: "/locations/ai-seo-west-palm-beach",
         label: "AI SEO in West Palm Beach",
         description: "Our home market, and what the local search landscape looks like there.",
+      },
+      {
+        href: "/guides/medical-practice-content-calendar-checklist",
+        label: "Medical Practice Content Calendar Checklist",
+        description: "The recurring cadence that keeps feeding AI assistants fresh, citable content.",
+      },
+      {
+        href: "/guides/optimizing-a-medical-practice-website-for-voice-search",
+        label: "Optimizing a Medical Practice Website for Voice Search",
+        description: "The related but distinct project of answering spoken queries, not typed ones.",
       },
     ],
   },

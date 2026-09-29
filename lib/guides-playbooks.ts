@@ -216,6 +216,26 @@ export const guidesPartTwo: Guide[] = [
         label: "Med Spa Marketing Cost in Florida",
         description: "The budgeting question that comes right after the profile is optimized.",
       },
+      {
+        href: "/guides/direct-primary-care-marketing-playbook",
+        label: "Direct Primary Care & Concierge Medicine Marketing Playbook",
+        description: "How this profile work changes for a membership-model practice.",
+      },
+      {
+        href: "/guides/telehealth-marketing-playbook",
+        label: "Telehealth Marketing Playbook",
+        description: "What happens to this playbook when there's no walk-in address to optimize around.",
+      },
+      {
+        href: "/guides/google-business-profile-services-list-optimization",
+        label: "Google Business Profile Services List Optimization",
+        description: "A specific listing task this acquisition playbook depends on getting right.",
+      },
+      {
+        href: "/guides/how-to-handle-google-business-profile-suggested-edits",
+        label: "How to Handle Google Business Profile Suggested Edits",
+        description: "How to keep the profile this playbook relies on from being changed by someone else.",
+      },
     ],
   },
 
@@ -410,6 +430,16 @@ export const guidesPartTwo: Guide[] = [
         label: "How to get a medical practice into AI search answers",
         description:
           "What makes ChatGPT, Perplexity and AI Overviews name a practice — entities, schema and citations.",
+      },
+      {
+        href: "/guides/telehealth-marketing-playbook",
+        label: "Telehealth Marketing Playbook",
+        description: "Where this exact tracking setup matters most, since it's often the entire funnel.",
+      },
+      {
+        href: "/guides/optimizing-a-medical-practice-website-for-voice-search",
+        label: "Optimizing a Medical Practice Website for Voice Search",
+        description: "How to track the traffic voice and AI assistants send without leaking anything.",
       },
     ],
   },
@@ -612,6 +642,16 @@ export const guidesPartTwo: Guide[] = [
         label: "Med Spa Marketing Cost in Florida",
         description: "What this playbook costs to actually run, by budget tier.",
       },
+      {
+        href: "/guides/med-spa-marketing-playbook",
+        label: "Med Spa Marketing Playbook",
+        description: "The channel-order version of this same market's strategy.",
+      },
+      {
+        href: "/guides/google-business-profile-photos-checklist",
+        label: "Google Business Profile Photos Checklist",
+        description: "The photo standard a visual category like aesthetics can't skip.",
+      },
     ],
   },
 
@@ -799,6 +839,26 @@ export const guidesPartTwo: Guide[] = [
         description:
           "If the listing is gone from Maps, this is the reinstatement process step by step.",
       },
+      {
+        href: "/guides/dental-implant-marketing-playbook",
+        label: "Dental Implant Marketing Playbook",
+        description: "The same 90-day structure applied to a practice's highest-value procedure.",
+      },
+      {
+        href: "/guides/direct-primary-care-marketing-playbook",
+        label: "Direct Primary Care & Concierge Medicine Marketing Playbook",
+        description: "What changes in this checklist for a membership-model practice.",
+      },
+      {
+        href: "/guides/np-pa-bio-page-that-ranks",
+        label: "How to Write a Nurse Practitioner or PA Bio Page That Ranks",
+        description: "The provider bio work that belongs inside this checklist's first 90 days.",
+      },
+      {
+        href: "/guides/medical-practice-content-calendar-checklist",
+        label: "Medical Practice Content Calendar Checklist",
+        description: "The recurring routine to run once this one-time setup is done.",
+      },
     ],
   },
 
@@ -963,6 +1023,11 @@ export const guidesPartTwo: Guide[] = [
         label: "How to respond to a negative patient review",
         description:
           "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
+      },
+      {
+        href: "/guides/google-business-profile-photos-checklist",
+        label: "Google Business Profile Photos Checklist",
+        description: "The photo standard this visual, results-driven category needs on its listing.",
       },
     ],
   },

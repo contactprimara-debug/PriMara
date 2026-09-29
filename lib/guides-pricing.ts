@@ -207,6 +207,26 @@ export const guidesPartOne: Guide[] = [
         label: "Google Ads Cost for a Medical Practice",
         description: "The paid-media side of this same budgeting question.",
       },
+      {
+        href: "/guides/med-spa-marketing-playbook",
+        label: "Med Spa Marketing Playbook",
+        description: "How the same cost question plays out for an aesthetics practice specifically.",
+      },
+      {
+        href: "/guides/multi-location-medical-practice-seo-playbook",
+        label: "Multi-Location Medical Practice SEO Playbook",
+        description: "How this cost and effort scales once a practice has more than one office.",
+      },
+      {
+        href: "/guides/local-citation-building-checklist-for-a-medical-practice",
+        label: "Local Citation Building Checklist",
+        description: "One of the specific line items this budget usually covers.",
+      },
+      {
+        href: "/guides/how-to-run-a-local-seo-audit-for-a-medical-practice",
+        label: "How to Run a Local SEO Audit for a Medical Practice",
+        description: "What should be checked before any of this budget gets spent.",
+      },
     ],
   },
 
@@ -385,6 +405,16 @@ export const guidesPartOne: Guide[] = [
         description:
           "A reply template that never confirms anyone was a patient, plus when a review can be removed.",
       },
+      {
+        href: "/guides/therapy-group-practice-marketing-playbook",
+        label: "Therapy Group Practice Marketing Playbook",
+        description: "How this pricing question changes once a practice has more than one clinician.",
+      },
+      {
+        href: "/guides/patient-testimonial-compliance-checklist",
+        label: "Patient Testimonial Compliance Checklist",
+        description: "What's required before featuring a client's story on the website.",
+      },
     ],
   },
 
@@ -558,6 +588,16 @@ export const guidesPartOne: Guide[] = [
         href: "/guides/google-ads-cost-for-a-medical-practice",
         label: "Google Ads Cost for a Medical Practice",
         description: "A closer look at the paid-media cost side of this same decision.",
+      },
+      {
+        href: "/guides/therapy-group-practice-marketing-playbook",
+        label: "Therapy Group Practice Marketing Playbook",
+        description: "How this same channel decision applies once a practice has more than one therapist.",
+      },
+      {
+        href: "/guides/how-to-run-a-local-seo-audit-for-a-medical-practice",
+        label: "How to Run a Local SEO Audit for a Medical Practice",
+        description: "What to check before deciding which channel actually needs the budget.",
       },
     ],
   },
@@ -733,6 +773,21 @@ export const guidesPartOne: Guide[] = [
         label: "How to fix a suspended Google Business Profile",
         description:
           "If the listing is gone from Maps, this is the reinstatement process step by step.",
+      },
+      {
+        href: "/guides/multi-location-medical-practice-seo-playbook",
+        label: "Multi-Location Medical Practice SEO Playbook",
+        description: "How a website build like this needs to change across more than one office.",
+      },
+      {
+        href: "/guides/np-pa-bio-page-that-ranks",
+        label: "How to Write a Nurse Practitioner or PA Bio Page That Ranks",
+        description: "The provider-page structure for NP and PA staff specifically.",
+      },
+      {
+        href: "/guides/dental-implant-marketing-playbook",
+        label: "Dental Implant Marketing Playbook",
+        description: "What this website build needs to include for a practice's highest-value procedure.",
       },
     ],
   },
