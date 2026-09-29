@@ -18,51 +18,22 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
+const faqs = [
+  { q: "Is the audit really free?", a: "Yes. No credit card, no commitment. We do the research and deliver it at no cost. You can ask about your specific practice on a free audit call before deciding anything. We put this in writing before you commit to anything, so there are no surprises later." },
+  { q: "How long does it take?", a: "We typically deliver within 3–5 business days of your request. Every engagement gets a monthly report so you can see exactly what changed and why. This is one of the items we walk through personally with every new practice. We're happy to go deeper on this for your specific market during a free audit." },
+  { q: "Do you work with all medical specialties?", a: "We work with independent primary care practices and mental health practices — family medicine, internal medicine, and related primary care specialties, as well as independent therapists, psychologists, licensed counselors, and group mental health practices. You can ask about your specific practice on a free audit call before deciding anything." },
+  { q: "What happens after the audit?", a: "We walk you through the findings. If there's a fit, we'll explain what working with us looks like. If not, we'll tell you that too. We put this in writing before you commit to anything, so there are no surprises later." },
+  { q: "Will you try to sell me something?", a: "We'll show you options if they make sense. We don't do hard sells — if there's a fit, we'll explain what working together looks like. If there isn't, we'll tell you that too. Every engagement gets a monthly report so you can see exactly what changed and why." },
+];
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is the audit really free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. No credit card, no commitment. We do the research and deliver it at no cost.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "How long does it take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We typically deliver within 3–5 business days of your request.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "Do you work with all medical specialties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We work with independent primary care practices and mental health practices — family medicine, internal medicine, and related primary care specialties, as well as independent therapists, psychologists, licensed counselors, and group mental health practices.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "What happens after the audit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We walk you through the findings. If there’s a fit, we’ll explain what working with us looks like. If not, we’ll tell you that too.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "Will you try to sell me something?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We’ll show you options if they make sense. We don’t do hard sells — if there’s a fit, we’ll explain what working together looks like. If there isn’t, we’ll tell you that too.",
-      },
-    },
-  ],
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
 };
 
 export default function TheAuditPage() {
@@ -297,28 +268,7 @@ export default function TheAuditPage() {
               gap: "0",
             }}
           >
-            {[
-              {
-                q: "Is the audit really free?",
-                a: "Yes. No credit card, no commitment. We do the research and deliver it at no cost.",
-              },
-              {
-                q: "How long does it take?",
-                a: "We typically deliver within 3–5 business days of your request.",
-              },
-              {
-                q: "Do you work with all medical specialties?",
-                a: "We work with independent primary care practices and mental health practices — family medicine, internal medicine, and related primary care specialties, as well as independent therapists, psychologists, licensed counselors, and group mental health practices.",
-              },
-              {
-                q: "What happens after the audit?",
-                a: "We walk you through the findings. If there's a fit, we'll explain what working with us looks like. If not, we'll tell you that too.",
-              },
-              {
-                q: "Will you try to sell me something?",
-                a: "We'll show you options if they make sense. We don't do hard sells — if there's a fit, we'll explain what working together looks like. If there isn't, we'll tell you that too.",
-              },
-            ].map(({ q, a }, i, arr) => (
+            {faqs.map(({ q, a }, i, arr) => (
               <div
                 key={q}
                 style={{

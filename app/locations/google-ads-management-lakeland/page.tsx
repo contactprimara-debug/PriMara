@@ -76,10 +76,7 @@ const faqs = [
     q: "Is HIPAA compliance an issue with Google Ads?",
     a: "It can be. Standard conversion tracking implementations can inadvertently capture search queries or URL parameters that contain health-related information, which may constitute PHI under HIPAA. Primara configures all tracking to count conversion events without capturing the content of those events.",
   },
-  {
-    q: "Is there a long-term contract?",
-    a: "No long-term contracts. Month-to-month after initial campaign setup. Setup typically takes 7–10 days from signed agreement to first live ad.",
-  },
+  { q: "Is there a long-term contract?", a: "No long-term contracts. Month-to-month after initial campaign setup. Setup typically takes 7–10 days from signed agreement to first live ad. You can ask about your specific practice on a free audit call before deciding anything. We put this in writing before you commit to anything, so there are no surprises later." },
 ];
 
 const faqSchema = {

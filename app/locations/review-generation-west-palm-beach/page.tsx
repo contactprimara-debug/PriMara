@@ -60,10 +60,7 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    "q": "Do you buy or incentivize reviews?",
-    "a": "No. Our review generation process is aligned with Google's guidelines — no purchased or incentivized reviews. We build velocity through ethical outreach to real patients, so the profile that results accurately reflects the care your practice provides."
-  },
+  { q: "Do you buy or incentivize reviews?", a: "No. Our review generation process is aligned with Google's guidelines — no purchased or incentivized reviews. We build velocity through ethical outreach to real patients, so the profile that results accurately reflects the care your practice provides. Every engagement gets a monthly report so you can see exactly what changed and why." },
   {
     "q": "Why do reviews matter so much in West Palm Beach specifically?",
     "a": "Density. In corridors like Palm Beach Lakes Boulevard or the medical cluster near the airport, a prospective patient has many visible alternatives within a short drive. When everything else looks similar, the practice with a stronger, more active review profile gets the call."
@@ -72,10 +69,7 @@ const faqs = [
     "q": "How do you respond to negative reviews without violating HIPAA?",
     "a": "With a response framework that never confirms or denies a patient relationship. Replies stay professional and general, address the concern without discussing any care, and invite the conversation offline. Done right, a well-handled negative review reassures the prospective patients reading it."
   },
-  {
-    "q": "Which platforms do you cover?",
-    "a": "Google first — it drives the most patient decisions — plus Healthgrades, Zocdoc, WebMD, and Yelp. The audit also catches duplicate and unverified listings on those platforms that may be splitting your reviews or showing incorrect information."
-  },
+  { q: "Which platforms do you cover?", a: "Google first — it drives the most patient decisions — plus Healthgrades, Zocdoc, WebMD, and Yelp. The audit also catches duplicate and unverified listings on those platforms that may be splitting your reviews or showing incorrect information. This is one of the items we walk through personally with every new practice." },
   {
     "q": "When does a practice actually need this?",
     "a": "If your average Google rating is below 4.0, your review volume is significantly lower than competing practices nearby, or critical reviews are sitting without a professional response. Any one of those is a visible liability to every prospective patient who finds you."

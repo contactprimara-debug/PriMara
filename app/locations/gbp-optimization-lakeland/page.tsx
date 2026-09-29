@@ -64,10 +64,7 @@ const faqs = [
     q: "Do you optimize Business Profiles for Lakeland practices?",
     a: "Yes. Primara is a Florida-based agency — headquartered in West Palm Beach — and we manage Google Business Profiles for independent practices nationwide, including Lakeland. GBP work is fully remote by nature: the profile, the posts, the photos, and the rank tracking all happen in Google's tools, wherever your practice is.",
   },
-  {
-    q: "What does GBP optimization include?",
-    a: "Complete profile configuration: primary and secondary categories, the full services list, attributes, business description, hours (including holiday hours), a consistent posting cadence, and photo strategy. Then ongoing management — profiles that go quiet lose ground in the Maps pack.",
-  },
+  { q: "What does GBP optimization include?", a: "Complete profile configuration: primary and secondary categories, the full services list, attributes, business description, hours (including holiday hours), a consistent posting cadence, and photo strategy. Then ongoing management — profiles that go quiet lose ground in the Maps pack. We're happy to go deeper on this for your specific market during a free audit." },
   {
     q: "Why does the Maps pack matter so much for a Lakeland practice?",
     a: "For local searches like \"primary care doctor near me,\" the map results appear above the traditional organic listings. Patients call directly from those listings without ever visiting a website. Lakeland's population is growing fast along the I-4 corridor, and the new arrivals searching for a doctor see the large health-system clinics first — unless your profile is configured to compete there.",

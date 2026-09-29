@@ -141,14 +141,8 @@ const faqs = [
     q: "What is a medspa marketing agency actually responsible for?",
     a: "Four things, in this order of impact for most clinics: making the Google Business Profile rank for the treatments you perform, running paid social that survives Meta's healthcare policy review, building a website that justifies your price instead of advertising it, and generating reviews without breaking FTC or platform rules. Anything else — brand refreshes, vanity social posting, follower counts — is optional, and we will say so rather than bill for it.",
   },
-  {
-    q: "Why is our medspa not showing in the Google map pack?",
-    a: "The most common cause we find is the primary category. A large share of medspa listings are set to 'Spa', 'Beauty Salon', or 'Skin Care Clinic' when 'Medical Spa' is the accurate and far stronger choice — and primary category is the single biggest relevance signal in local ranking. The next causes, in order, are a website with no real page for the treatments the listing claims, too few reviews relative to whoever currently ranks, and the searcher simply being too far away, since Google weights physical proximity heavily.",
-  },
-  {
-    q: "Can medspas run before-and-after photos on Facebook and Instagram?",
-    a: "Sometimes, and the rule changed in July 2026. Meta moved from an effective format ban to claims-based enforcement: a before-and-after image is no longer rejected automatically, but it becomes a violation when paired with a prohibited claim — a guaranteed result, an implied ideal body, or copy suggesting something is wrong with the viewer. Some formats remain banned regardless of wording, including pinched-fat and skin-grab shots and sensationalized framing. Any agency still telling you before-and-afters are categorically banned is working from stale information.",
-  },
+  { q: "Why is our medspa not showing in the Google map pack?", a: "The most common cause we find is the primary category. A large share of medspa listings are set to 'Spa', 'Beauty Salon', or 'Skin Care Clinic' when 'Medical Spa' is the accurate and far stronger choice — and primary category is the single biggest relevance signal in local ranking." },
+  { q: "Can medspas run before-and-after photos on Facebook and Instagram?", a: "Sometimes, and the rule changed in July 2026. Meta moved from an effective format ban to claims-based enforcement: a before-and-after image is no longer rejected automatically, but it becomes a violation when paired with a prohibited claim — a guaranteed result, an implied ideal body, or copy suggesting something is wrong with the viewer. Some formats remain banned regardless of wording, including pinched-fat and skin-grab shots and sensationalized framing." },
   {
     q: "Can we target people interested in Botox or fillers on Meta?",
     a: "No. Meta removed detailed targeting tied to health and other sensitive categories in 2022, and no compliant workaround exists. What is left is geography, first-party customer lists, lookalike audiences, and creative that self-selects the right respondent. For clinics that invest in creative this is an advantage, because it moves the edge from audience selection — which anyone can buy — to the offer and the ad itself, which most competitors neglect.",
@@ -157,26 +151,7 @@ const faqs = [
     q: "How much should a medspa budget for Meta Ads?",
     a: "Meta optimizes on conversion volume, so under-funded accounts never exit the learning phase. In most markets the minimum effective ad spend is roughly $1,000 to $2,500 per month, plus management and any creative production. High-ticket categories such as body contouring or surgical aesthetics usually need the upper half of that range or more. Primara quotes management after the audit, once we have seen your market, your offers, and your current tracking.",
   },
-  {
-    q: "Is the Meta Pixel a HIPAA risk for a medspa?",
-    a: "A default installation can be. Meta signs no Business Associate Agreement, so nothing identifying a client alongside treatment information may reach it. The dangerous configurations are ordinary ones — a pixel firing on an intake form, a confirmation URL naming the procedure, or a portal page inside the tracked domain. Events should be configured to record that a booking occurred without describing it, kept off intake and portal pages entirely, and documented so your attorney can review. This is a marketing agency's description of practice, not legal advice.",
-  },
-  {
-    q: "How do we compete with clinics advertising $8 per unit?",
-    a: "By not competing there. Discount advertising attracts clients who will leave for the next promotion, which is why so many busy medspas are unprofitable. The alternative is to advertise the consultation, the membership, or the treatment plan — a higher cost per lead in exchange for clients whose two-year value is several times larger. This trade only works if the clinic is prepared to hold its pricing, so it is a business decision before it is a marketing one.",
-  },
-  {
-    q: "How long does medspa marketing take to produce results?",
-    a: "Different channels move on different clocks. Google Business Profile changes such as a corrected primary category can shift map position within a few weeks. Meta Ads produce leads within days of launch but need about three to four weeks of learning before numbers stabilize, and a first honest read at roughly 60 days. Organic search on competitive treatment terms is a four-to-six month project. Anyone promising ranked-and-booked in 30 days is describing paid traffic or nothing.",
-  },
-  {
-    q: "How do you get medspa clients to leave reviews when the treatment is private?",
-    a: "By asking everyone, briefly, over text, with no clinical detail in the message and no sentiment screening beforehand. Filtering for likely-happy clients before asking is against both FTC guidance and Google's policies, and it is the shortcut that gets review sets removed. Replies follow the same discipline — we never confirm, imply, or deny that a specific person was a client, and no public reply describes treatment.",
-  },
-  {
-    q: "What kind of medspa is a good fit for Primara?",
-    a: "Independent clinics, typically one to three locations, with a licensed medical director and services they can actually staff. We do not work with franchise groups or national chains, and we are a poor fit for a clinic whose strategy is to be the cheapest in its market — our approach deliberately raises cost per lead in exchange for better clients, which is the opposite of what a discount model needs.",
-  },
+  { q: "Is the Meta Pixel a HIPAA risk for a medspa?", a: "A default installation can be. Meta signs no Business Associate Agreement, so nothing identifying a client alongside treatment information may reach it. The dangerous configurations are ordinary ones — a pixel firing on an intake form, a confirmation URL naming the procedure, or a portal page inside the tracked domain. Events should be configured to record that a booking occurred without describing it, kept off intake and portal pages entirely, and documented so your attorney can review." },
 ];
 
 const faqSchema = {

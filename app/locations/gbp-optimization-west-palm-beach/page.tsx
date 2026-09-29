@@ -64,10 +64,7 @@ const faqs = [
     q: "Do you optimize Business Profiles for West Palm Beach practices?",
     a: "Yes — Primara is based in West Palm Beach. We manage Google Business Profiles for independent practices nationwide, but this is our home market: we know the local hospital-system listings your profile competes against and the neighborhoods patients search from.",
   },
-  {
-    q: "What does GBP optimization include?",
-    a: "Complete profile configuration: primary and secondary categories, the full services list, attributes, business description, hours (including holiday hours), a consistent posting cadence, and photo strategy. Then ongoing management — profiles that go quiet lose ground in the Maps pack.",
-  },
+  { q: "What does GBP optimization include?", a: "Complete profile configuration: primary and secondary categories, the full services list, attributes, business description, hours (including holiday hours), a consistent posting cadence, and photo strategy. Then ongoing management — profiles that go quiet lose ground in the Maps pack. We put this in writing before you commit to anything, so there are no surprises later." },
   {
     q: "Why does the Maps pack matter so much for a West Palm Beach practice?",
     a: "For local searches like \"primary care doctor near me,\" the map results appear above the traditional organic listings. Patients call directly from those listings without ever visiting a website. If your profile isn't configured to compete there, the visibility goes to the hospital-system clinics by default.",

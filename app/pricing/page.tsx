@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const pricingFaqs = [
   {
     q: "How much does medical practice marketing cost?",
-    a: "Primara's engagement fees are structured around what your market actually requires — not a one-size number. Ranking in Pompano Beach costs less than ranking in Miami. A practice with 4 reviews needs different work than one with 140. The audit tells us what scope is required. Pricing is discussed on the walkthrough call. What we can say is this: a single new private-pay patient per month covers Primara's entire engagement fee. If the engagement doesn't produce at least that return, we'll say so before you commit.",
+    a: "Primara's engagement fees are structured around what your market actually requires — not a one-size number. Ranking in Pompano Beach costs less than ranking in Miami. A practice with 4 reviews needs different work than one with 140. The audit tells us what scope is required, and pricing is discussed on the walkthrough call after that.",
   },
   {
     q: "Why don't you publish exact prices on your website?",

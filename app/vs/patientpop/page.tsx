@@ -20,10 +20,7 @@ export const metadata: Metadata = {
 };
 
 const faqItems = [
-  {
-    q: "Is PatientPop good for local SEO?",
-    a: "PatientPop websites are built on a shared template infrastructure deployed across thousands of practices. Google's local search algorithm rewards geographic specificity — city- and neighborhood-specific content, domain authority built through local links, and GBP signals reinforced by a practice-specific website. A template shared across thousands of practices produces none of those signals. For basic web presence, PatientPop is functional. For competitive local SEO in a market like Miami, Fort Lauderdale, or Boca Raton, templated platforms consistently underperform custom, locally targeted builds.",
-  },
+  { q: "Is PatientPop good for local SEO?", a: "PatientPop websites are built on a shared template infrastructure deployed across thousands of practices. Google's local search algorithm rewards geographic specificity — city- and neighborhood-specific content, domain authority built through local links, and GBP signals reinforced by a practice-specific website. A template shared across thousands of practices produces none of those signals. For basic web presence, PatientPop is functional." },
   {
     q: "What does PatientPop cost?",
     a: "PatientPop pricing is not published publicly and varies by practice size and add-ons. Independent reviews and practice management forums cite monthly fees ranging from $299 to over $1,000 per month, plus additional fees for marketing add-ons. The platform fee structure combines software (website hosting, appointment booking, patient communication) with marketing features — making it difficult to isolate what you're paying for marketing versus software.",
@@ -31,6 +28,10 @@ const faqItems = [
   {
     q: "Can I keep my website if I leave PatientPop?",
     a: "PatientPop websites are hosted on PatientPop's infrastructure and built on their proprietary platform. If you end your subscription, you lose access to the website. The domain may transfer, but the website itself — the content, the design, the structure — does not come with you. Primara builds websites on Next.js, deployed on Vercel, with client-owned GitHub repositories. You own the code, the content, and the hosting relationship. Leaving Primara means you keep everything.",
+  },
+  {
+    q: "Does Primara offer the same all-in-one bundle as PatientPop?",
+    a: "Primara covers the same ground — website, Google Business Profile, SEO, and review generation — but as work done by Liam and Gio directly rather than software features on a shared platform. Every engagement gets a monthly report showing what changed and why, and there is no long-term contract locking you into the bundle once you've started.",
   },
 ];
 

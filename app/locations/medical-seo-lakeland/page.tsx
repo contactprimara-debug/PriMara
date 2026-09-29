@@ -72,10 +72,7 @@ const faqs = [
     q: "What makes Lakeland different from other Florida markets?",
     a: "Lakeland sits on the I-4 corridor between Tampa and Orlando, and it's one of the fastest-growing metro areas in Florida. New residents arrive without an established doctor and start with a Google search. Large regional health systems dominate those results by default — but that also means an independent practice with a properly optimized presence can stand out quickly.",
   },
-  {
-    q: "How long until a Lakeland practice sees SEO results?",
-    a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible.",
-  },
+  { q: "How long until a Lakeland practice sees SEO results?", a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible. Every engagement gets a monthly report so you can see exactly what changed and why." },
 ];
 
 const faqSchema = {

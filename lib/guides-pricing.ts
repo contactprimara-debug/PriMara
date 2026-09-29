@@ -491,14 +491,8 @@ export const guidesPartOne: Guide[] = [
         q: "Can therapists run Google Ads legally?",
         a: "Yes. You may bid on what people search. What you may not do is target or remarket to people based on inferred mental health status — Google's personalized advertising policy restricts that — and you should not send anything that links an individual to a health interest into an ad platform.",
       },
-      {
-        q: "How much should a therapy practice budget for Google Ads?",
-        a: "At least a thousand dollars a month in media for a Florida metro, plus management. Below that, campaigns rarely collect enough conversion data to optimize and you pay a premium for every click without ever exiting the learning phase.",
-      },
-      {
-        q: "How long does SEO take for a therapy practice?",
-        a: "Google Business Profile work typically produces calls within thirty to sixty days. Content-driven rankings for modality and insurance searches take four to six months. A full caseload from organic alone is usually a two-to-three-quarter project.",
-      },
+      { q: "How much should a therapy practice budget for Google Ads?", a: "At least a thousand dollars a month in media for a Florida metro, plus management. Below that, campaigns rarely collect enough conversion data to optimize and you pay a premium for every click without ever exiting the learning phase. Every engagement gets a monthly report so you can see exactly what changed and why." },
+      { q: "How long does SEO take for a therapy practice?", a: "Google Business Profile work typically produces calls within thirty to sixty days. Content-driven rankings for modality and insurance searches take four to six months. A full caseload from organic alone is usually a two-to-three-quarter project. This is one of the items we walk through personally with every new practice." },
       {
         q: "Can I run both at once on a small budget?",
         a: "Yes, and it is usually right. Put the free and cheap work first — profile, categories, reviews, core pages — then add a narrow ad campaign on two or three highest-intent terms inside a ten-mile radius. Narrow beats broad at small budgets every time.",
@@ -679,10 +673,7 @@ export const guidesPartOne: Guide[] = [
         q: "Do I need to pay monthly for a website?",
         a: "You need hosting, SSL, and updates, which is fifty to a few hundred dollars a month. You do not need a monthly fee that bundles the site itself — that is a lease, and at the end of five years you own nothing.",
       },
-      {
-        q: "Will a new website improve my Google ranking?",
-        a: "Only if it adds pages, speed, and structure the old one lacked. A visual redesign on the same twelve pages typically changes nothing. Ranking follows content depth and local signals far more than it follows design.",
-      },
+      { q: "Will a new website improve my Google ranking?", a: "Only if it adds pages, speed, and structure the old one lacked. A visual redesign on the same twelve pages typically changes nothing. Ranking follows content depth and local signals far more than it follows design. We're happy to go deeper on this for your specific market during a free audit." },
       {
         q: "What does accessibility remediation cost?",
         a: "Building accessibly from the start adds little. Fixing an existing site typically costs one thousand five hundred to six thousand dollars depending on size and how it was built. It is cheaper than the alternative, and healthcare sites receive a disproportionate share of ADA demand letters.",

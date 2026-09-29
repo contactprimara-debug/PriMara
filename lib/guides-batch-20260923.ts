@@ -113,10 +113,7 @@ export const guidesPartFour: Guide[] = [
         q: "Does a higher bid guarantee a better ad position?",
         a: "No. Google's ad rank combines your bid with Quality Score — expected click-through rate, ad relevance, and landing page experience. A well-built, fast, relevant landing page can outrank a higher bidder with a weak page, and pay less per click doing it.",
       },
-      {
-        q: "Can I run Google Ads for mental health or telehealth services?",
-        a: "Yes, but both categories carry extra restrictions and in some cases certification requirements under Google's healthcare and medicines policy. Campaigns built without accounting for this are the most common cause of a healthcare account getting disapproved shortly after launch.",
-      },
+      { q: "Can I run Google Ads for mental health or telehealth services?", a: "Yes, but both categories carry extra restrictions and in some cases certification requirements under Google's healthcare and medicines policy. Campaigns built without accounting for this are the most common cause of a healthcare account getting disapproved shortly after launch. We put this in writing before you commit to anything, so there are no surprises later." },
       {
         q: "How do I know if my Google Ads spend is actually working?",
         a: "Track cost per booked appointment, not cost per click. That requires connecting ad clicks to phone calls (via a tracked number) and form submissions (via a conversion action), then following those through to an actual booked visit — not just watching the ads dashboard in isolation.",
@@ -251,10 +248,7 @@ export const guidesPartFour: Guide[] = [
       },
     ],
     faqs: [
-      {
-        q: "How much does med spa SEO cost per month in Florida?",
-        a: "Most single-location med spas in Florida spend $1,800–$3,500 a month on managed SEO and Google Business Profile work. Spas competing in Miami, Fort Lauderdale, or Tampa, or running paid ads alongside SEO, typically sit closer to $3,500–$6,000.",
-      },
+      { q: "How much does med spa SEO cost per month in Florida?", a: "Most single-location med spas in Florida spend $1,800–$3,500 a month on managed SEO and Google Business Profile work. Spas competing in Miami, Fort Lauderdale, or Tampa, or running paid ads alongside SEO, typically sit closer to $3,500–$6,000. Every engagement gets a monthly report so you can see exactly what changed and why." },
       {
         q: "Is paid advertising or SEO better for a med spa?",
         a: "Paid ads work faster for a new location with no review history yet; SEO and Google Business Profile visibility compound over time and keep working after you stop paying for clicks. Most established spas in competitive Florida metros run both, with ads narrowed to specific procedures or promotions.",

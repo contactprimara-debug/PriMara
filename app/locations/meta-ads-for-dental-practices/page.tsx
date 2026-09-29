@@ -60,30 +60,11 @@ const faqs = [
     q: "Which dental services are actually worth advertising on Meta?",
     a: "The ones people think about for months before they call. Full-arch and single-tooth implants, clear aligners, veneers and smile makeovers, and sedation dentistry for anxious patients all have a long consideration window, and Meta is where that window opens. What does not belong here is routine hygiene and emergency work — a broken tooth at 9pm is a Google search, and we will tell you to put that budget on search instead of pretending paid social can serve it.",
   },
-  {
-    q: "Why do implant leads from Facebook feel unqualified?",
-    a: "Usually because the ad sold a price instead of a decision. A campaign built on a dollar figure attracts people comparing dollar figures, many of whom are not clinically candidates and will never be. We build around the consult: what the appointment involves, what gets assessed, what the range of treatment paths looks like. That produces fewer raw leads and a much higher share who show up and are treatable — and when we report, the number we report is consults attended, not form fills.",
-  },
-  {
-    q: "How much does a dental practice need to spend for this to work?",
-    a: "Meta optimizes on conversion volume, so a starved account never gets out of the learning phase. For most markets the floor is roughly $1,500 to $2,500 a month in ad spend for a single high-value service line, plus management and any creative production. Full-arch implant campaigns generally need the top of that range or above, because the audience is narrow and each conversion signal is expensive to buy. We quote management after seeing your market and current setup rather than off a rate card.",
-  },
-  {
-    q: "Should the dentist appear in the ads?",
-    a: "It helps more than almost anything else you could film. Someone weighing a five-figure implant case is really deciding whether to trust a stranger with their mouth, and thirty seconds of the treating dentist explaining how they plan a case does that work better than any stock footage or graphic. Patient stories can be powerful too, but they require written authorization and careful handling — we will not use a patient's image or story on a claim you cannot support, and we never imply an outcome is typical when it is not.",
-  },
-  {
-    q: "How fast does our front desk have to respond to these leads?",
-    a: "Fast enough that it is worth solving before you spend a dollar. A Meta lead was scrolling a minute ago and has not committed to anything; a callback the next morning reaches someone who has already moved on. We build the follow-up sequence with you — immediate text, a call attempt within minutes during business hours, a defined number of tries — and if the practice cannot staff that, we say so before launch rather than after the first disappointing month.",
-  },
-  {
-    q: "Is it safe to run a Meta Pixel on a dental website?",
-    a: "Only if it is configured deliberately. Meta signs no Business Associate Agreement, so nothing that identifies a patient alongside treatment information can reach it. The common failures are mundane — a pixel left running on an appointment confirmation URL that names the procedure, or on a patient portal sitting under the same domain. We keep tracking off intake and portal pages, configure events to record that a conversion occurred without describing it, and document the setup so your attorney or privacy officer can review it. We are not providing you legal advice.",
-  },
-  {
-    q: "Can financing be part of the offer?",
-    a: "Yes, and for implant and full-arch campaigns it usually should be, because affordability is the real objection behind most abandoned inquiries. What matters is how it is worded: we present financing as available and explained at the consult rather than advertising specific approval odds, monthly figures, or terms we cannot guarantee for a given applicant. Overpromising here creates both a compliance problem and a room full of disappointed consults.",
-  },
+  { q: "Why do implant leads from Facebook feel unqualified?", a: "Usually because the ad sold a price instead of a decision. A campaign built on a dollar figure attracts people comparing dollar figures, many of whom are not clinically candidates and will never be. We build around the consult: what the appointment involves, what gets assessed, what the range of treatment paths looks like." },
+  { q: "How much does a dental practice need to spend for this to work?", a: "Meta optimizes on conversion volume, so a starved account never gets out of the learning phase. For most markets the floor is roughly $1,500 to $2,500 a month in ad spend for a single high-value service line, plus management and any creative production. Full-arch implant campaigns generally need the top of that range or above, because the audience is narrow and each conversion signal is expensive to buy." },
+  { q: "Should the dentist appear in the ads?", a: "It helps more than almost anything else you could film. Someone weighing a five-figure implant case is really deciding whether to trust a stranger with their mouth, and thirty seconds of the treating dentist explaining how they plan a case does that work better than any stock footage or graphic." },
+  { q: "How fast does our front desk have to respond to these leads?", a: "Fast enough that it is worth solving before you spend a dollar. A Meta lead was scrolling a minute ago and has not committed to anything; a callback the next morning reaches someone who has already moved on. We're happy to go deeper on this for your specific market during a free audit." },
+  { q: "Is it safe to run a Meta Pixel on a dental website?", a: "Only if it is configured deliberately. Meta signs no Business Associate Agreement, so nothing that identifies a patient alongside treatment information can reach it. The common failures are mundane — a pixel left running on an appointment confirmation URL that names the procedure, or on a patient portal sitting under the same domain." },
 ];
 
 const faqSchema = {

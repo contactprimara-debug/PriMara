@@ -67,10 +67,7 @@ const faqs = [
     "q": "Can you guarantee my practice will show up in ChatGPT?",
     "a": "No — and you should be skeptical of anyone who does. No one controls what an AI model decides to cite; these systems pull from many sources and their behavior changes as they're updated. What we can do is make sure your practice is technically ready to be found and accurately represented when it is — correct structured data, no accidental crawler blocks, and content written the way these systems actually quote it."
   },
-  {
-    "q": "Do you do this for your own website?",
-    "a": "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service."
-  },
+  { q: "Do you do this for your own website?", a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service. You can ask about your specific practice on a free audit call before deciding anything." },
   {
     "q": "Is there a separate cost for AI SEO?",
     "a": "For most clients it's built into the SEO or Foundation/Visibility package rather than sold separately — the technical work overlaps heavily with what we already do for traditional SEO. We'll tell you plainly if your situation calls for additional scope."

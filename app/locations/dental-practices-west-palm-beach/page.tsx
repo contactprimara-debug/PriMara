@@ -61,14 +61,8 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "There is a group practice on every corner here. Where is the opening?",
-    a: "In the specifics they cannot publish. A group running thirty Florida locations writes one implant page and deploys it everywhere, which means it names no dentist, describes no local case, and reads the same from Jupiter to Miami. An independent West Palm Beach practice can put the treating dentist on the page, explain how this office plans a case, and collect reviews naming a real person. Google rewards that difference and so do patients weighing a five-figure decision — but only if the practice actually publishes it rather than copying the group's tone.",
-  },
-  {
-    q: "Why do we rank well at our address but not in Wellington or Jupiter?",
-    a: "Because local ranking is calculated relative to where the searcher is standing, so your position is a map rather than a number. Practices routinely check from the front desk, see themselves at the top, and cannot explain why patients from ten minutes away never appear. We scan a grid across the real catchment — Wellington, Royal Palm Beach, Lake Worth, Palm Beach Gardens, Jupiter — and the gaps that turn up usually point at a fixable cause: a thin service page, a wrong category, or simply far fewer reviews than whoever is winning that corner.",
-  },
+  { q: "There is a group practice on every corner here. Where is the opening?", a: "In the specifics they cannot publish. A group running thirty Florida locations writes one implant page and deploys it everywhere, which means it names no dentist, describes no local case, and reads the same from Jupiter to Miami. An independent West Palm Beach practice can put the treating dentist on the page, explain how this office plans a case, and collect reviews naming a real person." },
+  { q: "Why do we rank well at our address but not in Wellington or Jupiter?", a: "Because local ranking is calculated relative to where the searcher is standing, so your position is a map rather than a number. Practices routinely check from the front desk, see themselves at the top, and cannot explain why patients from ten minutes away never appear." },
   {
     q: "Which is worth more here, implants or aligners?",
     a: "In Palm Beach County, usually implants and full-arch work, because the local age profile skews toward restorative need — but that is a generalization and your own chart data beats it. The right answer comes from what your practice can staff and what your chairs can absorb. We would rather run one well-funded campaign for the case type you actually want more of than split a small budget across both and produce enough signal for neither.",

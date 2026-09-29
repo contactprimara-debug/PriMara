@@ -55,10 +55,7 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "Is Florida a harder market for Meta Ads than other states?",
-    a: "More expensive, not harder. Florida carries an unusual concentration of aesthetic clinics, cash-pay men's health practices, and implant-focused dental groups, and all of them are bidding for attention in the same feeds. That raises impression costs and shortens the life of any given creative — a concept that ran for six months in a smaller state may burn out here in six weeks. The practical consequence is that Florida accounts need a higher creative refresh rate than the national average, which is a production question more than a media-buying one.",
-  },
+  { q: "Is Florida a harder market for Meta Ads than other states?", a: "More expensive, not harder. Florida carries an unusual concentration of aesthetic clinics, cash-pay men's health practices, and implant-focused dental groups, and all of them are bidding for attention in the same feeds. That raises impression costs and shortens the life of any given creative — a concept that ran for six months in a smaller state may burn out here in six weeks." },
   {
     q: "How does seasonality change a Florida ad account?",
     a: "Substantially, and it varies by region. South Florida gains a large seasonal population between roughly November and April, which lifts both demand and auction pressure; Central Florida moves more with tourism and year-round growth; the Panhandle and Northeast Florida are steadier. We plan budget against a practice's own booking history rather than against a generic calendar, and for elective categories we usually recommend front-loading spend into the window when the audience is physically in the market.",

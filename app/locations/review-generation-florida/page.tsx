@@ -59,22 +59,13 @@ const faqs = [
     "q": "Does review generation work the same everywhere in Florida?",
     "a": "The process is identical statewide — audit, ethical outreach, compliant responses, monitoring. What changes is the competitive bar: the review volume it takes to stand out in Miami or Tampa is higher than in a smaller market, so the audit sets targets against your actual local competitors."
   },
-  {
-    "q": "Is asking patients for reviews even allowed?",
-    "a": "Yes — asking is fine. What violates Google's guidelines is paying for reviews, incentivizing them, or filtering who gets asked based on how happy they seem. Our process is ethical outreach to real patients, full stop."
-  },
+  { q: "Is asking patients for reviews even allowed?", a: "Yes — asking is fine. What violates Google's guidelines is paying for reviews, incentivizing them, or filtering who gets asked based on how happy they seem. Our process is ethical outreach to real patients, full stop. We're happy to go deeper on this for your specific market during a free audit." },
   {
     "q": "How do HIPAA rules affect review responses?",
     "a": "A practice can never confirm or deny that a reviewer is a patient, let alone discuss care. Our response frameworks keep every reply professional and general while still addressing the concern — which is exactly what prospective patients reading the exchange want to see."
   },
-  {
-    "q": "What platforms matter beyond Google?",
-    "a": "Google drives the most decisions, but Healthgrades, Zocdoc, WebMD, and Yelp all surface in patient research. We audit and monitor all of them, and clean up duplicate or unverified listings that dilute your profile."
-  },
-  {
-    "q": "How do I know if my practice needs this?",
-    "a": "Three signals: an average Google rating below 4.0, review volume significantly below competing practices in your market, or critical reviews sitting without a professional response. Any of them is costing you patients you never see."
-  }
+  { q: "What platforms matter beyond Google?", a: "Google drives the most decisions, but Healthgrades, Zocdoc, WebMD, and Yelp all surface in patient research. We audit and monitor all of them, and clean up duplicate or unverified listings that dilute your profile. You can ask about your specific practice on a free audit call before deciding anything." },
+  { q: "How do I know if my practice needs this?", a: "Three signals: an average Google rating below 4.0, review volume significantly below competing practices in your market, or critical reviews sitting without a professional response. Any of them is costing you patients you never see. We put this in writing before you commit to anything, so there are no surprises later." }
 ];
 
 const faqSchema = {

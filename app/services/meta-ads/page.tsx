@@ -109,50 +109,12 @@ const pillars = [
 ];
 
 const faqs = [
-  {
-    q: "Do Meta ads actually work for medical practices, or is this a Google-only game?",
-    a: "They work for different jobs. Google captures people already searching for a provider — that is demand capture, and it is finite. Meta creates demand: it puts a specific, well-framed offer in front of people who fit your patient profile but were not searching today. For high-consideration, elective, and aesthetic services — implants, clear aligners, injectables, hormone optimization, concierge memberships — Meta is frequently the larger of the two channels because the audience is far bigger than the number of people typing a query this month. For urgent care or emergency dentistry, Google is still the primary channel and we will say so.",
-  },
-  {
-    q: "Can you target people on Facebook by medical condition or treatment interest?",
-    a: "No, and any agency telling you otherwise is either out of date or making it up. Meta removed detailed targeting options tied to health, causes, and other sensitive categories in 2022. Modern healthcare campaigns are built on geography, first-party customer lists, lookalike audiences, and — most importantly — creative that self-selects the right respondent. In practice this constraint is an advantage for well-run accounts, because it moves the competitive edge from audience selection, which anyone can buy, to creative and offer, which most practices never invest in.",
-  },
-  {
-    q: "Is the Meta Pixel a HIPAA problem for my practice?",
-    a: "It can be a serious one. Meta does not sign Business Associate Agreements, so protected health information must never be transmitted to it. A default Pixel installation that fires on a patient portal, an appointment confirmation URL, or a page whose address names a condition can send identifying data alongside health context — the pattern behind a large volume of healthcare tracking litigation in recent years. We configure tracking to count events without capturing their content, keep it off portal and intake pages entirely, and document what is collected. We are a marketing agency, not your legal counsel, and we expect your privacy officer or attorney to review the configuration we hand over.",
-  },
-  {
-    q: "What is the difference between running Meta Ads and Google Ads?",
-    a: "Intent and time horizon. A Google searcher has already decided they need care and is choosing a provider, so the click is expensive and converts quickly. A Meta viewer is scrolling and has decided nothing, so the impression is cheap, the conversion window is longer, and the creative carries nearly all of the weight. The reporting also differs: Meta attribution is modeled and privacy-constrained, so we reconcile it against booked appointments rather than treating the platform's number as truth. Most of our clients eventually run both, with Google defending existing demand and Meta building new demand.",
-  },
-  {
-    q: "How much should a medspa or dental clinic budget for Meta Ads?",
-    a: "Meta rewards volume of data, so under-funded accounts learn too slowly to optimize. In most markets the minimum effective ad spend is $1,000–$2,500 per month, plus Primara's management fee, plus creative production if you want us handling the shoot. High-ticket categories — full-arch implants, body contouring, surgical aesthetics — usually need the upper half of that range or more to gather enough conversion signal. We quote the management fee after the audit, once we have seen your market, your current tracking, and your offer.",
-  },
-  {
-    q: "Do we need a videographer, or can you work with what we have?",
-    a: "You do not need a production crew. The highest-performing healthcare creative on Meta is usually a provider talking straight into a phone camera in good light — it reads as real, which is exactly the signal a skeptical viewer is looking for. We write the scripts, give you a shot list you can film in under an hour, and edit. If nobody at the practice wants to be on camera, we build static and carousel concepts instead; that route works, it simply tends to need more creative volume to reach the same result.",
-  },
-  {
-    q: "How fast do campaigns go live, and is there a long-term contract?",
-    a: "No long-term contracts — month-to-month after setup. Setup runs about 10–14 days from signed agreement: account and Business Manager access, tracking build and verification, landing page, first creative batch, and policy review before anything is submitted. It is slower than our Google Ads launch on purpose, because the tracking and creative approval work is the part that cannot be retrofitted safely.",
-  },
-  {
-    q: "What happens if Meta rejects an ad or restricts the account?",
-    a: "Rejections are routine and we plan for them; restrictions are the thing worth preventing. Every concept goes through policy review before submission, and we keep several approved concepts live at once so a single disapproval never takes the account dark. If a restriction does land we work the appeal, but the honest position is that appeals are slow and unpredictable — which is exactly why we do not run creative that tests the boundary to see what passes. In a competitive market an account restriction costs far more than any one ad could have earned.",
-  },
-  {
-    q: "How do you measure results when Meta's own numbers are unreliable?",
-    a: "By treating them as an estimate and reconciling. Platform attribution after the iOS privacy changes is modeled, not counted, and it will over- or under-report depending on the account. Each month we compare what the platform claims against what your schedule or practice management system actually shows, and the reconciled figure is the one in your report. Where the two disagree materially we explain why rather than quietly reporting whichever number looks better.",
-  },
-  {
-    q: "How often does creative need to be replaced?",
-    a: "More often than most practices expect, and faster in dense markets. A concept's performance decays as frequency rises within a fixed local audience — in a small market that might take months, in somewhere like the Palm Beach corridor it can happen in six to eight weeks. We plan a refresh cadence into the engagement rather than waiting for results to slip, which is why we push so hard for a filming session that banks several months of raw material at once.",
-  },
-  {
-    q: "Can we run Meta Ads for a practice with several locations?",
-    a: "Yes, and geography is one of the few targeting levers healthcare advertisers still have after the 2022 removal of health-related detailed targeting. Multi-location practices generally do best with one campaign per catchment and location-specific creative, because audiences in different areas respond to different framing and a single wide radius spends the budget wherever impressions are cheapest rather than wherever your chairs are.",
-  },
+  { q: "Do Meta ads actually work for medical practices, or is this a Google-only game?", a: "They work for different jobs. Google captures people already searching for a provider — that is demand capture, and it is finite. Meta creates demand: it puts a specific, well-framed offer in front of people who fit your patient profile but were not searching today." },
+  { q: "Can you target people on Facebook by medical condition or treatment interest?", a: "No, and any agency telling you otherwise is either out of date or making it up. Meta removed detailed targeting options tied to health, causes, and other sensitive categories in 2022. Modern healthcare campaigns are built on geography, first-party customer lists, lookalike audiences, and — most importantly — creative that self-selects the right respondent." },
+  { q: "Is the Meta Pixel a HIPAA problem for my practice?", a: "It can be a serious one. Meta does not sign Business Associate Agreements, so protected health information must never be transmitted to it. A default Pixel installation that fires on a patient portal, an appointment confirmation URL, or a page whose address names a condition can send identifying data alongside health context — the pattern behind a large volume of healthcare tracking litigation in recent years." },
+  { q: "What is the difference between running Meta Ads and Google Ads?", a: "Intent and time horizon. A Google searcher has already decided they need care and is choosing a provider, so the click is expensive and converts quickly. A Meta viewer is scrolling and has decided nothing, so the impression is cheap, the conversion window is longer, and the creative carries nearly all of the weight. The reporting also differs: Meta attribution is modeled and privacy-constrained, so we reconcile it against booked appointments rather than treating the platform's number as truth." },
+  { q: "How much should a medspa or dental clinic budget for Meta Ads?", a: "Meta rewards volume of data, so under-funded accounts learn too slowly to optimize. In most markets the minimum effective ad spend is $1,000–$2,500 per month, plus Primara's management fee, plus creative production if you want us handling the shoot. High-ticket categories — full-arch implants, body contouring, surgical aesthetics — usually need the upper half of that range or more to gather enough conversion signal." },
+  { q: "Do we need a videographer, or can you work with what we have?", a: "You do not need a production crew. The highest-performing healthcare creative on Meta is usually a provider talking straight into a phone camera in good light — it reads as real, which is exactly the signal a skeptical viewer is looking for. We write the scripts, give you a shot list you can film in under an hour, and edit." },
 ];
 
 // Derived from `faqs` above — single source of truth, so the schema can

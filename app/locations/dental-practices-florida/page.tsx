@@ -64,10 +64,7 @@ const faqs = [
     q: "Which dental searches matter most in a Florida market?",
     a: "Two very different sets. Emergency and routine terms — 'emergency dentist near me', 'dentist accepting new patients' — are high-intent, proximity-driven, and decided in the map pack within minutes. High-value terms like implants, full-arch, veneers, and clear aligners are researched over months and decided by trust signals: a real page explaining the procedure, a visible clinician, and credible reviews. Most Florida practices need both, and they need different tactics; treating them as one keyword list is the common mistake.",
   },
-  {
-    q: "Does Florida's retiree population change the strategy?",
-    a: "It shifts the mix. Florida skews older than the national average in many markets, which raises demand for implants, dentures, and full-arch restoration relative to a younger metro elsewhere. It also means a meaningful share of the audience is not on Instagram — Facebook reaches this group far better, and search and Google Business Profile carry more weight than they would for an aligner-focused practice. We plan the channel split around who actually lives in your catchment, not around what is fashionable.",
-  },
+  { q: "Does Florida's retiree population change the strategy?", a: "It shifts the mix. Florida skews older than the national average in many markets, which raises demand for implants, dentures, and full-arch restoration relative to a younger metro elsewhere. It also means a meaningful share of the audience is not on Instagram — Facebook reaches this group far better, and search and Google Business Profile carry more weight than they would for an aligner-focused practice." },
   {
     q: "What do you do about our Google Business Profile?",
     a: "Configure it properly and then keep it fed. That means the correct primary category, every service the practice actually performs listed as a service, attributes and hours right, photos current, and a posting cadence that does not stop after month two. For multi-dentist practices we also make sure the site has a genuine page per service the listing claims — a listing promising implants that points at a site with no implant page is a mismatch Google can see.",

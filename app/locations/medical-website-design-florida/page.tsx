@@ -55,18 +55,9 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    "q": "Do you build websites for practices outside West Palm Beach?",
-    "a": "Yes — we're based in West Palm Beach and build for independent practices across Florida. Website work doesn't require us to be down the street; the build, compliance review, and launch process is the same statewide."
-  },
-  {
-    "q": "What does a Primara practice website include?",
-    "a": "Mobile-first, performance-optimized development targeting Core Web Vitals; clear new-patient conversion paths (click-to-call, forms, optional Zocdoc); HIPAA-aware form configuration; Physician and MedicalClinic schema markup; WCAG 2.1 AA accessibility; and a real photography strategy instead of stock medical imagery."
-  },
-  {
-    "q": "Why does HIPAA matter for a marketing website?",
-    "a": "Because contact forms, intake tools, and even analytics pixels can capture protected health information if configured carelessly. A medical site must route those channels in a HIPAA-aware manner — something general business site builders rarely account for."
-  },
+  { q: "Do you build websites for practices outside West Palm Beach?", a: "Yes — we're based in West Palm Beach and build for independent practices across Florida. Website work doesn't require us to be down the street; the build, compliance review, and launch process is the same statewide. We put this in writing before you commit to anything, so there are no surprises later." },
+  { q: "What does a Primara practice website include?", a: "Mobile-first, performance-optimized development targeting Core Web Vitals; clear new-patient conversion paths (click-to-call, forms, optional Zocdoc); HIPAA-aware form configuration; Physician and MedicalClinic schema markup; WCAG 2.1 AA accessibility; and a real photography strategy instead of stock medical imagery. Every engagement gets a monthly report so you can see exactly what changed and why." },
+  { q: "Why does HIPAA matter for a marketing website?", a: "Because contact forms, intake tools, and even analytics pixels can capture protected health information if configured carelessly. A medical site must route those channels in a HIPAA-aware manner — something general business site builders rarely account for. This is one of the items we walk through personally with every new practice." },
   {
     "q": "When is a redesign actually worth it?",
     "a": "When your site fails Google's Mobile-Friendly test, loads in over three seconds on mobile, lacks HTTPS, has no clear new-patient action path, or was last updated more than three years ago — before Google's Core Web Vitals standards. If none of those apply, we'll tell you to keep what you have."

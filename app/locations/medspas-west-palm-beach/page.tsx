@@ -61,22 +61,10 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "How competitive is the West Palm Beach map pack for aesthetic searches?",
-    a: "Crowded, and it thins out fast the moment you move a few miles. A search for injectables from downtown West Palm Beach returns a different set of clinics than the same search from Wellington or Palm Beach Gardens, because Google weights the searcher's physical position heavily in local results. That is why we measure position on a grid across your real catchment rather than from a single point — a clinic can look strong at its own address and be invisible three zip codes away, which is where most of its patients live.",
-  },
-  {
-    q: "What does an agency down the road actually do that a remote one cannot?",
-    a: "Film with you. Creative volume is the main constraint on paid social performance, and the difference between an agency that can be at your clinic on a Tuesday morning and one that cannot is the difference between a stocked content library and three videos running all year. We script the session in advance and shoot enough material in a morning to feed the account for months. Everything else — strategy, reporting, the actual account work — happens remotely and would whether we were local or not.",
-  },
-  {
-    q: "Does the seasonal population really change how we should spend?",
-    a: "For elective aesthetic work in Palm Beach County, yes. A meaningful share of the audience for treatment series and memberships is here between roughly November and April, and spending evenly across the year puts budget into months when those clients are not in town. We shape the plan around the clinic's own booking history rather than a generic seasonal rule, and use the quieter stretch for the compounding work — site content, review volume, profile depth — instead of paid reach.",
-  },
-  {
-    q: "Our Google listing has photos and posts. Why are we still not in the top three?",
-    a: "Posts and photos are not primary ranking factors — they help conversion once someone sees the listing, not whether they see it. Local pack position is driven mostly by primary category, proximity to the searcher, the relevance of the connected website, and review signals. In our experience the first thing worth checking in this category is the primary category itself, which is set incorrectly on a surprising share of medspa listings, followed by whether the website has a real page for each service the listing claims.",
-  },
+  { q: "How competitive is the West Palm Beach map pack for aesthetic searches?", a: "Crowded, and it thins out fast the moment you move a few miles. A search for injectables from downtown West Palm Beach returns a different set of clinics than the same search from Wellington or Palm Beach Gardens, because Google weights the searcher's physical position heavily in local results." },
+  { q: "What does an agency down the road actually do that a remote one cannot?", a: "Film with you. Creative volume is the main constraint on paid social performance, and the difference between an agency that can be at your clinic on a Tuesday morning and one that cannot is the difference between a stocked content library and three videos running all year. We script the session in advance and shoot enough material in a morning to feed the account for months." },
+  { q: "Does the seasonal population really change how we should spend?", a: "For elective aesthetic work in Palm Beach County, yes. A meaningful share of the audience for treatment series and memberships is here between roughly November and April, and spending evenly across the year puts budget into months when those clients are not in town." },
+  { q: "Our Google listing has photos and posts. Why are we still not in the top three?", a: "Posts and photos are not primary ranking factors — they help conversion once someone sees the listing, not whether they see it. Local pack position is driven mostly by primary category, proximity to the searcher, the relevance of the connected website, and review signals." },
   {
     q: "How do you handle reviews for a category where clients want privacy?",
     a: "Carefully, and by request only. We send a short text asking for a review — name and phone, nothing clinical, no mention of what anyone had done — with no sentiment screening beforehand, because filtering for happy clients first breaks both FTC guidance and Google's rules. Review replies follow the same discipline: we never confirm, imply, or deny that a particular person was a client, and nothing in a reply describes treatment.",

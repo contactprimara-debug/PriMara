@@ -137,45 +137,14 @@ const positioning = [
 // Written to be directly quotable by answer engines — short, specific, and
 // self-contained, so a model can lift one answer without needing the page.
 const faqs = [
-  {
-    q: "How does an independent dental practice compete with a DSO-backed group?",
-    a: "Not on spend — on specificity. Group practices deploy one website and one listing template across dozens of locations, which means their pages name no dentist, describe no particular case, and read identically in every city they operate. An independent can publish a real page per procedure with the treating dentist on it, and accumulate reviews naming an actual person. Google rewards that difference, and so does a patient deciding whether to trust someone with a five-figure case. The advantage is narrow and only works if it is worked consistently.",
-  },
-  {
-    q: "Which dental marketing channel produces new patients fastest?",
-    a: "Google Business Profile, by a wide margin, because emergency and 'dentist near me' searches are decided in the map pack within minutes of the search. Paid search is next and can produce calls the day it launches. Meta Ads take longer to stabilize but reach implant and aligner patients months before they would ever search. Organic rankings on competitive procedure terms are the slowest and the most durable. Most practices need the fast channels first and the durable ones running underneath.",
-  },
-  {
-    q: "Why is our dental practice not in the Google map pack?",
-    a: "Usually one of four causes. The primary category is wrong or too generic — dental categories are unusually granular and often set to 'Dentist' when a more specific one fits. The website has no genuine page for procedures the listing advertises, which Google reads as a mismatch. Review count and recency lag whoever currently holds the position. Or the searcher is simply far enough away that proximity outweighs everything else, which is why position should be measured on a grid across the catchment rather than from the office itself.",
-  },
-  {
-    q: "Are dental implant leads from Facebook worth anything?",
-    a: "They are worth what the campaign structure makes them worth. Ads built around a dollar figure attract people comparing dollar figures, many of whom are not clinical candidates. Ads built around the consultation — what the appointment assesses, what treatment paths exist, what happens next — produce fewer raw inquiries and a much higher share who attend and are treatable. The metric that matters is consults attended, not form fills, and any agency reporting only the latter is measuring the easy number.",
-  },
-  {
-    q: "How much should a dental practice spend on ads each month?",
-    a: "For a single high-value service line on Meta, most markets need roughly $1,500 to $2,500 per month in ad spend before the account has enough conversion signal to optimize, plus management and creative. Full-arch implant campaigns generally sit at the top of that range or above because the audience is narrow. Google Ads budgets vary far more, since cost per click on emergency and implant terms is market-specific — the audit gives you real local numbers rather than a national average.",
-  },
+  { q: "How does an independent dental practice compete with a DSO-backed group?", a: "Not on spend — on specificity. Group practices deploy one website and one listing template across dozens of locations, which means their pages name no dentist, describe no particular case, and read identically in every city they operate. An independent can publish a real page per procedure with the treating dentist on it, and accumulate reviews naming an actual person. Google rewards that difference, and so does a patient deciding whether to trust someone with a five-figure case." },
+  { q: "Which dental marketing channel produces new patients fastest?", a: "Google Business Profile, by a wide margin, because emergency and 'dentist near me' searches are decided in the map pack within minutes of the search. Paid search is next and can produce calls the day it launches. Meta Ads take longer to stabilize but reach implant and aligner patients months before they would ever search. Organic rankings on competitive procedure terms are the slowest and the most durable." },
+  { q: "Why is our dental practice not in the Google map pack?", a: "Usually one of four causes. The primary category is wrong or too generic — dental categories are unusually granular and often set to 'Dentist' when a more specific one fits. The website has no genuine page for procedures the listing advertises, which Google reads as a mismatch. Review count and recency lag whoever currently holds the position." },
+  { q: "Are dental implant leads from Facebook worth anything?", a: "They are worth what the campaign structure makes them worth. Ads built around a dollar figure attract people comparing dollar figures, many of whom are not clinical candidates. Ads built around the consultation — what the appointment assesses, what treatment paths exist, what happens next — produce fewer raw inquiries and a much higher share who attend and are treatable." },
+  { q: "How much should a dental practice spend on ads each month?", a: "For a single high-value service line on Meta, most markets need roughly $1,500 to $2,500 per month in ad spend before the account has enough conversion signal to optimize, plus management and creative. Full-arch implant campaigns generally sit at the top of that range or above because the audience is narrow." },
   {
     q: "How fast does a practice need to respond to an online inquiry?",
     a: "Within minutes during business hours. A paid-social inquiry comes from someone who was scrolling a moment earlier and has committed to nothing; by the following morning they have usually moved on or booked with whoever answered first. Before launching we agree the follow-up path — immediate text, a call attempt inside the hour, a defined number of attempts, a named owner — and if the practice cannot staff that, the honest answer is to fix it before spending.",
-  },
-  {
-    q: "Is it safe to run a Meta Pixel or Google tracking on a dental website?",
-    a: "Only when configured deliberately. Meta signs no Business Associate Agreement, so nothing identifying a patient alongside treatment information may reach it. The common failures are mundane: tracking left running on a portal page, or on an appointment confirmation URL that names the procedure. Events should count that a conversion happened without describing it, stay off intake and portal pages, and be documented so counsel can review. That is our practice, not legal advice for your situation.",
-  },
-  {
-    q: "Can you use patient photos or stories in dental advertising?",
-    a: "Only with written authorization, and only where the claim around them is defensible. We do not present an individual result as typical, we do not imply guaranteed outcomes, and we do not invent or inflate credentials. In practice the strongest dental creative is usually the treating dentist explaining how they plan a case — it carries the trust signal a prospective implant patient is looking for without any of the exposure that patient imagery creates.",
-  },
-  {
-    q: "How long does dental SEO take to work?",
-    a: "Local map-pack movement from listing and category work often appears within four to eight weeks. Organic rankings for competitive procedure terms — dental implants, clear aligners, veneers in a given city — typically take four to six months of consistent content and technical work, longer in dense metros. We report grid positions and Search Console data monthly so progress is visible well before rankings arrive, and so is the absence of it.",
-  },
-  {
-    q: "What kind of dental practice does Primara work with?",
-    a: "Independent practices — single location or a small group, owner-operated, with a named dentist willing to appear in the marketing. We do not work with DSO-owned or franchise brands, and we take only one practice per catchment, because two practices competing for the same map grid cannot both be represented honestly.",
   },
 ];
 

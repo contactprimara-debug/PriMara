@@ -107,18 +107,9 @@ const faqs = [
     q: "Do you guarantee first-page rankings?",
     a: "No — and you should be skeptical of anyone who does. What we guarantee is full execution of a documented process: complete GBP configuration, technical SEO audit, and on-page optimization. We show you ranking movement via Local Falcon grids and Google Search Console every month, so progress is always visible.",
   },
-  {
-    q: "Do I need a new website to start SEO?",
-    a: "No. We can optimize your existing website. That said, if your current site has serious technical issues (slow load, not mobile-responsive, no HTTPS), we'll flag them and recommend a rebuild through our Website service.",
-  },
-  {
-    q: "Does SEO replace Google Ads?",
-    a: "They serve different timelines. SEO builds organic visibility over months; Google Ads delivers immediate placement while SEO matures. For new practices or those adding a provider, running both simultaneously is often the most efficient path to a full schedule.",
-  },
-  {
-    q: "Is there a long-term contract?",
-    a: "No long-term contracts. Month-to-month after the initial 30-day setup period. If the work isn't delivering, you should be free to leave.",
-  },
+  { q: "Do I need a new website to start SEO?", a: "No. We can optimize your existing website. That said, if your current site has serious technical issues (slow load, not mobile-responsive, no HTTPS), we'll flag them and recommend a rebuild through our Website service. Every engagement gets a monthly report so you can see exactly what changed and why." },
+  { q: "Does SEO replace Google Ads?", a: "They serve different timelines. SEO builds organic visibility over months; Google Ads delivers immediate placement while SEO matures. For new practices or those adding a provider, running both simultaneously is often the most efficient path to a full schedule. This is one of the items we walk through personally with every new practice." },
+  { q: "Is there a long-term contract?", a: "No long-term contracts. Month-to-month after the initial 30-day setup period. If the work isn't delivering, you should be free to leave. We're happy to go deeper on this for your specific market during a free audit. You can ask about your specific practice on a free audit call before deciding anything." },
 ];
 
 // Derived from `faqs` above — single source of truth, so the schema can

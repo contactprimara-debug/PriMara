@@ -56,33 +56,17 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "Can a medspa still run before-and-after photos on Meta?",
-    a: "Sometimes, and the rule changed recently enough that most advice online is wrong. Meta moved to claims-based enforcement in July 2026: a before-and-after is no longer an automatic rejection on its own. What gets an ad pulled is the claim wrapped around it — a guaranteed result, an implied ideal body, a hook that tells the viewer something is wrong with them. Certain formats stay banned outright regardless of copy, including pinched-fat and skin-grab shots and anything framed to shock. We build creative on the safe side of that line and keep a written record of what was approved, because the account is the asset you cannot rebuild.",
-  },
-  {
-    q: "Why does our cost per lead look fine but our revenue does not?",
-    a: "Almost always because the offer is doing the selling and the offer is priced to lose. A $99 Botox promotion will produce cheap leads all day and fill your schedule with people who will not return at your real price. We would rather spend more per lead and advertise the consultation — a membership, a package, a treatment plan — because the number that matters is what a client is worth over two years, not what the first click cost. If your current ads are already busy and unprofitable, that is a pricing and offer problem, and no amount of bid tuning fixes it.",
-  },
+  { q: "Can a medspa still run before-and-after photos on Meta?", a: "Sometimes, and the rule changed recently enough that most advice online is wrong. Meta moved to claims-based enforcement in July 2026: a before-and-after is no longer an automatic rejection on its own. What gets an ad pulled is the claim wrapped around it — a guaranteed result, an implied ideal body, a hook that tells the viewer something is wrong with them. Certain formats stay banned outright regardless of copy, including pinched-fat and skin-grab shots and anything framed to shock." },
+  { q: "Why does our cost per lead look fine but our revenue does not?", a: "Almost always because the offer is doing the selling and the offer is priced to lose. A $99 Botox promotion will produce cheap leads all day and fill your schedule with people who will not return at your real price. We would rather spend more per lead and advertise the consultation — a membership, a package, a treatment plan — because the number that matters is what a client is worth over two years, not what the first click cost." },
   {
     q: "Instagram or Facebook — where should a medspa actually spend?",
     a: "Both, in one campaign, and let delivery decide. Aesthetics is the one healthcare category where Instagram Reels and Stories genuinely carry their weight, and the same creative often performs differently across placements for reasons no one can predict in advance. Splitting budget by platform up front starves the learning phase. The more useful split is by offer and by audience stage, not by app icon.",
   },
-  {
-    q: "What creative do you need from our medspa to launch?",
-    a: "Less than most clinics expect. A phone shot in decent light of your injector explaining one treatment out-loud outperforms a polished brand film more often than not, because it reads as a real person in a real room. We write the scripts and hand you a shot list you can film in an afternoon between appointments. If nobody on staff wants to be on camera, we go with static and carousel concepts — that works, it just needs more creative volume to get to the same place.",
-  },
-  {
-    q: "Does the Meta Pixel put a medspa at risk?",
-    a: "A default install can. Meta will not sign a Business Associate Agreement, so nothing identifying a client alongside a treatment can be allowed to reach it. The dangerous patterns are ordinary ones — a pixel left firing on an intake form, a confirmation URL that names the procedure, a portal page inside the tracked domain. We configure events to count that something happened without carrying what it was, keep tracking off intake and portal pages entirely, and document the whole configuration so your attorney can review it. We are your marketing agency, not your counsel.",
-  },
+  { q: "What creative do you need from our medspa to launch?", a: "Less than most clinics expect. A phone shot in decent light of your injector explaining one treatment out-loud outperforms a polished brand film more often than not, because it reads as a real person in a real room. We write the scripts and hand you a shot list you can film in an afternoon between appointments." },
+  { q: "Does the Meta Pixel put a medspa at risk?", a: "A default install can. Meta will not sign a Business Associate Agreement, so nothing identifying a client alongside a treatment can be allowed to reach it. The dangerous patterns are ordinary ones — a pixel left firing on an intake form, a confirmation URL that names the procedure, a portal page inside the tracked domain." },
   {
     q: "How long before a medspa account is producing consistently?",
     a: "Setup is roughly 10 to 14 days — Business Manager access, tracking build and verification, landing page, first creative batch, policy review. From launch, expect three to four weeks of learning before the numbers stabilize, and a first honest read at about 60 days once there is enough conversion data to compare creative against creative. Everything is month-to-month after the setup period; we do not hold clients in contracts while an account underperforms.",
-  },
-  {
-    q: "Do you work with medspas outside Florida?",
-    a: "Yes. Primara is based in West Palm Beach and a good share of our client work is in Florida, but Meta Ads management is not geographically constrained the way local SEO is — we run accounts for independent medspas anywhere in the United States. What we do not take is chains, franchise groups, or practices that want us to advertise a service the clinic cannot actually staff.",
   },
 ];
 

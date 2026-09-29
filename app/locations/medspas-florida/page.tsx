@@ -56,22 +56,13 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "Why is Florida such a crowded market for medspas?",
-    a: "Because the demographics and the licensing environment both favor it. Florida combines a large population with disposable income, a year-round emphasis on appearance, and steady in-migration, which has drawn an unusual density of aesthetic clinics — heaviest along the southeast coast and around Tampa and Orlando. The practical effect is that visibility is contested at every level: the map pack has more competitors per search, and paid social impressions cost more. Neither is a reason to skip the market; both are reasons not to do this halfway.",
-  },
+  { q: "Why is Florida such a crowded market for medspas?", a: "Because the demographics and the licensing environment both favor it. Florida combines a large population with disposable income, a year-round emphasis on appearance, and steady in-migration, which has drawn an unusual density of aesthetic clinics — heaviest along the southeast coast and around Tampa and Orlando. The practical effect is that visibility is contested at every level: the map pack has more competitors per search, and paid social impressions cost more." },
   {
     q: "What is the single most common mistake we see on Florida medspa listings?",
     a: "The primary Google Business Profile category. A large share of clinics are set to something like 'Spa' or 'Beauty Salon' when they should be 'Medical Spa', or the reverse for a clinic whose licensed provider justifies a medical category. Primary category is the strongest single relevance signal in local ranking, and changing it can move a listing in weeks with no other work. It is the first thing we look at, and it is free to fix.",
   },
-  {
-    q: "How do seasonal residents change the marketing plan?",
-    a: "In South Florida, materially. The population rises from roughly November through April, and for elective aesthetic treatment that is when a large share of your addressable audience is actually in town and able to book a series. We weight paid budget toward that window and use the quieter months for the work that compounds — content, site structure, review volume — rather than spending into a thinner audience. Central and North Florida clinics see a much flatter curve and we plan them accordingly.",
-  },
-  {
-    q: "Can we advertise injectables and lasers in Florida on Meta?",
-    a: "Yes, within Meta's platform rules, which apply identically in every state. The constraints that bite are Personal Attributes — an ad may not imply it knows something about the viewer's appearance — and the claims-based standard Meta adopted in July 2026 for before-and-after imagery, where the surrounding claim rather than the photo itself determines whether an ad stands. Separately, Florida has its own rules for how licensed healthcare professionals may advertise; that is a question for your counsel and your board, and we write nothing that guarantees a clinical outcome or invents a credential.",
-  },
+  { q: "How do seasonal residents change the marketing plan?", a: "In South Florida, materially. The population rises from roughly November through April, and for elective aesthetic treatment that is when a large share of your addressable audience is actually in town and able to book a series. We weight paid budget toward that window and use the quieter months for the work that compounds — content, site structure, review volume — rather than spending into a thinner audience." },
+  { q: "Can we advertise injectables and lasers in Florida on Meta?", a: "Yes, within Meta's platform rules, which apply identically in every state. The constraints that bite are Personal Attributes — an ad may not imply it knows something about the viewer's appearance — and the claims-based standard Meta adopted in July 2026 for before-and-after imagery, where the surrounding claim rather than the photo itself determines whether an ad stands." },
   {
     q: "Do you help Florida medspas get more reviews?",
     a: "Yes, through a request-only system: name and phone, a text asking for a review, no sentiment pre-screening and nothing clinical in the message. That is a deliberate constraint — filtering for happy clients before asking violates both FTC guidance and Google's policies, and it is exactly the shortcut that gets a listing's reviews wiped. We also never write, buy, or incentivize a review, and we do not reply to reviews in a way that confirms someone was a client.",

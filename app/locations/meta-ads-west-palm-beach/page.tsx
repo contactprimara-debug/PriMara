@@ -60,10 +60,7 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "What does being local actually change about running our ads?",
-    a: "One thing, and it is the thing that matters most in paid social: creative. We can be at your office in Palm Beach County to film a provider properly — good light, a scripted set of angles, several months of raw material captured in a single morning — instead of coaching you through it over a video call. Creative volume is the single biggest lever on Meta performance, and being twenty minutes away is how accounts here stay stocked with it.",
-  },
+  { q: "What does being local actually change about running our ads?", a: "One thing, and it is the thing that matters most in paid social: creative. We can be at your office in Palm Beach County to film a provider properly — good light, a scripted set of angles, several months of raw material captured in a single morning — instead of coaching you through it over a video call." },
   {
     q: "Is Palm Beach County a competitive market for medspa and aesthetic ads?",
     a: "Among the most competitive in the country per capita. The corridor from Jupiter through West Palm Beach and Boca Raton is dense with aesthetic clinics, hormone practices, and cosmetic dental groups, most of them running paid social. Practically that means two things: impression costs are high, and creative burns out faster here than the platform benchmarks suggest. Accounts in this market need new concepts in rotation on a schedule, not only when results slip.",

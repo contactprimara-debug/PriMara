@@ -548,14 +548,8 @@ export const guidesPartTwo: Guide[] = [
         q: "Should a med spa run Meta ads or Google Ads first?",
         a: "Google for treatments people search by name — Botox, filler, laser hair removal — because that demand already exists. Meta for new service lines and for offers, where you are creating demand rather than capturing it. Most Miami med spas end up running both.",
       },
-      {
-        q: "Can a med spa post before-and-after photos?",
-        a: "On your own website, yes, with written consent and no retouching. On Meta, before-and-after imagery is restricted and frequently rejected, so build ad creative around the treatment and the offer instead, and keep the gallery on your site.",
-      },
-      {
-        q: "Do I need pages for every Miami neighborhood?",
-        a: "No, and cloning one page across twenty ZIP codes will hurt you. Build pages only for neighborhoods where you have genuine presence and real detail to write — parking, landmarks, travel time, clients you actually serve there.",
-      },
+      { q: "Can a med spa post before-and-after photos?", a: "On your own website, yes, with written consent and no retouching. On Meta, before-and-after imagery is restricted and frequently rejected, so build ad creative around the treatment and the offer instead, and keep the gallery on your site. This is one of the items we walk through personally with every new practice." },
+      { q: "Do I need pages for every Miami neighborhood?", a: "No, and cloning one page across twenty ZIP codes will hurt you. Build pages only for neighborhoods where you have genuine presence and real detail to write — parking, landmarks, travel time, clients you actually serve there. We're happy to go deeper on this for your specific market during a free audit." },
     ],
     citations: [
       {
@@ -745,10 +739,7 @@ export const guidesPartTwo: Guide[] = [
         q: "Can I create a Google Business Profile before the practice opens?",
         a: "You can create it, but do not publish an address you cannot staff during the hours you post. Google requires premises staffed during stated hours, and a profile verified at an empty office risks suspension. Add the opening date and publish when you can see patients.",
       },
-      {
-        q: "How many reviews does a new practice need to compete?",
-        a: "Twenty to forty in the first year puts most single-location Florida practices in a competitive position, provided they arrive steadily. Rate matters more than total — four a month for a year beats forty-eight collected in one push.",
-      },
+      { q: "How many reviews does a new practice need to compete?", a: "Twenty to forty in the first year puts most single-location Florida practices in a competitive position, provided they arrive steadily. Rate matters more than total — four a month for a year beats forty-eight collected in one push. You can ask about your specific practice on a free audit call before deciding anything." },
       {
         q: "Should a new practice run ads immediately?",
         a: "Usually not in the first thirty days, because there is nothing to send traffic to and no tracking to read. From about day sixty, a narrow campaign on two or three high-intent terms inside a tight radius is a reasonable way to fill early schedule gaps while the organic work matures.",

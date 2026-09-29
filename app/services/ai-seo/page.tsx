@@ -100,10 +100,7 @@ const faqs = [
     q: "Is this different from regular SEO?",
     a: "It builds on the same foundation rather than replacing it. Traditional SEO gets you found on Google's results page. AI SEO makes sure that same technical groundwork — structured data, crawlable content, direct answers — is also readable by the AI systems increasingly used to ask the same questions.",
   },
-  {
-    q: "Do you do this for your own website?",
-    a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service.",
-  },
+  { q: "Do you do this for your own website?", a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service. We're happy to go deeper on this for your specific market during a free audit." },
   {
     q: "Is there a separate cost for AI SEO?",
     a: "For most clients it's built into the SEO or Foundation/Visibility package rather than sold separately — the technical work overlaps heavily with what we already do for traditional SEO. We'll tell you plainly if your situation calls for additional scope.",

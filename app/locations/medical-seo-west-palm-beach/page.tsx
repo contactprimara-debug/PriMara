@@ -60,10 +60,7 @@ const serviceSchema = {
 };
 
 const faqs = [
-  {
-    q: "Do you actually work with practices in West Palm Beach?",
-    a: "Yes — Primara is based in West Palm Beach. We work with independent practices nationwide, but this is our home market: we know the local hospital-system competition, the neighborhoods patients search from, and what it takes to rank here.",
-  },
+  { q: "Do you actually work with practices in West Palm Beach?", a: "Yes — Primara is based in West Palm Beach. We work with independent practices nationwide, but this is our home market: we know the local hospital-system competition, the neighborhoods patients search from, and what it takes to rank here. This is one of the items we walk through personally with every new practice." },
   {
     q: "What does medical SEO include for a West Palm Beach practice?",
     a: "The same full stack we run everywhere: complete Google Business Profile configuration, local rank tracking across your real service area, on-page optimization (titles, headings, schema markup, internal linking), technical SEO fixes, and content built around the searches West Palm Beach patients actually make.",
@@ -72,10 +69,7 @@ const faqs = [
     q: "How is this different from hiring a national SEO agency?",
     a: "We only work with independent medical practices — primary care, mental health, and men's health — and we don't take hospital systems or chains. You work directly with the two founders, not an account manager, and there are no long-term contracts.",
   },
-  {
-    q: "How long until a West Palm Beach practice sees SEO results?",
-    a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible.",
-  },
+  { q: "How long until a West Palm Beach practice sees SEO results?", a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible. We're happy to go deeper on this for your specific market during a free audit." },
 ];
 
 const faqSchema = {
