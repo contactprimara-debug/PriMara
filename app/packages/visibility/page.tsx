@@ -90,7 +90,7 @@ const included = [
 ];
 
 const faqs = [
-  { q: "What does Visibility add on top of Foundation?", a: "Everything in Foundation — GBP management, monthly SEO content, review monitoring, technical SEO — plus full Google Ads campaign management: keyword research, ad copy, bid management, and monthly performance reporting tied to actual booked appointments, not just clicks." },
+  { q: "What does Visibility add on top of Foundation?", a: "Everything in Foundation — GBP management, monthly SEO content, review monitoring, technical SEO — plus full Google Ads campaign management: keyword research, ad copy, bid management, and monthly performance reporting tied to actual booked appointments, not just clicks, so you can see whether the spend is actually filling your schedule." },
   { q: "Why does Google Ads management start in month 3, not immediately?", a: "Because Google Ads performs better once your Google Business Profile and landing pages are already optimized — the Foundation work — so ad clicks land on a page that’s actually built to convert. Running ads before that foundation is in place wastes budget on an unfinished funnel." },
   { q: "Who owns the Google Ads account — you or us?", a: "You do. The account is created under your business’s own Google Ads login, and we manage it with granted access. If you ever leave Primara, the account, its history, and its data stay with your practice — nothing is held hostage." },
   { q: "Is ad spend included in the package price, or separate?", a: "Separate. The Visibility Package price covers our management — strategy, setup, ongoing optimization, reporting — and ad spend is paid directly to Google by your practice, so you can see exactly what’s going to management versus what’s going to media." },

@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Is this only for practices already working with an agency?",
-    a: "No — it's built for independent therapists, psychologists, and counselors at any stage, whether you've never touched your Google Business Profile or you're already doing some marketing and want a second opinion on what's missing.",
+    a: "No — it's built for independent therapists, psychologists, and counselors at any stage, whether you've never touched your Google Business Profile or you're already doing some marketing and want a second opinion on gaps that might be costing you visibility you haven't noticed yet.",
   },
   {
     q: "Will I get a sales pitch, or an actual audit?",
