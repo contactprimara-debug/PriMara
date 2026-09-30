@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -64,6 +65,15 @@ const bullets = [
   "Ad copy reviewed for compliance — no outcome promises, no superlatives that cannot be substantiated",
   "Monthly budget pacing and performance reporting with plain-English summaries",
 ];
+
+const faqs = [
+  { q: "How fast can patient acquisition ads start generating new patients?", a: "Paid campaigns can start delivering calls and form fills within days of launch, once the account is built and approved — much faster than organic SEO, which takes months. We typically see a practice’s first qualified leads within the first one to two weeks of a properly targeted campaign." },
+  { q: "Google Ads or Meta ads — which is better for a medical practice?", a: "It depends on the service. High-intent, ready-to-book searches (like ‘urgent care near me’) convert best on Google Ads, where the patient is already looking. Meta ads work better for awareness-stage services — cosmetic, wellness, elective — where you’re introducing the offer to someone who wasn’t actively searching yet." },
+  { q: "How do you keep ad spend from being wasted on unqualified clicks?", a: "Through negative keyword lists, geographic and demographic targeting matched to your actual service area, and landing pages built specifically for the ad — not your homepage. We review spend against booked appointments monthly, not just clicks, so wasted spend gets caught and corrected." },
+  { q: "Do you handle HIPAA compliance on ad tracking and landing pages?", a: "Yes. Conversion tracking is built to capture that a lead occurred without capturing protected health information in analytics or ad platforms, and landing pages avoid the clinical claims and outcome promises that create compliance risk for a healthcare advertiser." },
+  { q: "Is there a minimum ad budget to make this worthwhile?", a: "We typically recommend starting around $1,500–$2,500/month in ad spend so a campaign has enough volume to gather real conversion data within the first month. Below that, campaigns can run but take longer to optimize because there isn’t enough click volume to learn from." },
+];
+
 
 export default function PatientAdsPage() {
   return (
@@ -236,6 +246,8 @@ export default function PatientAdsPage() {
       </section>
 
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Services & Resources"

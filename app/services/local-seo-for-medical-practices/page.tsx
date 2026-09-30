@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -63,6 +64,15 @@ const bullets = [
   "Monthly Local Falcon grid reports to track ranking movement across Florida ZIP codes",
   "Neighborhood and service-area content strategy (built only where search volume justifies it)",
 ];
+
+const faqs = [
+  { q: "What’s the difference between local SEO and regular SEO?", a: "Local SEO is specifically about ranking in Google Maps and the local pack for searches with location intent — ‘doctor near me,’ ‘[specialty] [city]’ — and is driven primarily by your Google Business Profile, citations, and reviews. Regular organic SEO is about ranking your website itself, which matters too but moves on a longer timeline." },
+  { q: "How much does Google Business Profile completeness actually matter?", a: "It matters more than almost anything else in local SEO. Profiles with complete categories, a full service list, regular posts, and photos consistently outrank thinner, incomplete profiles even when the underlying practice is smaller — Google rewards activity and completeness directly in Maps ranking." },
+  { q: "Do citations (NAP consistency) still matter for local ranking?", a: "Yes. Inconsistent name, address, or phone number across directories like Healthgrades, Yelp, and insurance databases confuses Google’s confidence in your business data and can suppress ranking. We audit and correct citations as a standard part of local SEO setup." },
+  { q: "How many locations can you optimize local SEO for?", a: "As many as your practice has — each location gets its own Google Business Profile, its own local landing page, and its own review generation flow, since Google ranks each location independently based on its own proximity, completeness, and activity, not a shared brand-level score." },
+  { q: "Will local SEO work if we’re in a competitive market with big hospital systems?", a: "Yes, though it takes more consistent execution. Hospital systems often under-invest in Google Business Profile detail relative to their ad spend, which is exactly where an independent practice can out-rank a much bigger competitor with focused, ongoing local SEO work." },
+];
+
 
 export default function LocalSEOPage() {
   return (
@@ -234,6 +244,8 @@ export default function LocalSEOPage() {
       </section>
 
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Services & Resources"

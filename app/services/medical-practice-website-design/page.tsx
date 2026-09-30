@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -64,6 +65,15 @@ const bullets = [
   "Accessibility (WCAG 2.1 AA): adequate color contrast, keyboard navigation, and proper ARIA labels",
   "Real photography strategy — no stock medical imagery",
 ];
+
+const faqs = [
+  { q: "How long does a website build take?", a: "Most practice websites are built and launched within 4–6 weeks from kickoff, depending on how much of your own content (provider bios, photos, service descriptions) is ready to go at the start. Sites with more custom pages or a larger provider roster take longer." },
+  { q: "Will our new site be built with SEO in mind, or is that separate?", a: "SEO is built into the site from day one — proper heading structure, schema markup, page speed, and a URL structure designed around the service and location terms patients actually search — not bolted on after launch as a separate project." },
+  { q: "Do you build HIPAA-compliant contact and intake forms?", a: "Yes. Forms are built to avoid collecting or transmitting protected health information through non-compliant channels, and analytics/ad tracking is configured to record that a lead occurred without capturing clinical details in Google or Meta’s systems." },
+  { q: "Can we update the website ourselves after it launches?", a: "Yes — every site is built on a content management system your team can use directly for basic updates like hours, staff bios, or announcements, without needing to contact us for every small change. Larger structural changes or new pages remain part of ongoing service." },
+  { q: "What happens to our current domain and email during the switch?", a: "Nothing changes that you don’t approve first. We migrate the new site to your existing domain with a planned cutover to avoid downtime, and email — if hosted separately from the website — is untouched by the migration entirely." },
+];
+
 
 export default function WebsiteDesignPage() {
   return (
@@ -235,6 +245,8 @@ export default function WebsiteDesignPage() {
       </section>
 
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Services & Resources"

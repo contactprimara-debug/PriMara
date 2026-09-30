@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import ServicePageAnimation from "@/components/ServicePageAnimation";
 import PullQuote from "@/components/PullQuote";
@@ -59,6 +60,15 @@ const serviceSchema = {
   description:
     "Comprehensive digital marketing for independent physician-owned medical practices — local SEO, Google Business Profile management, reputation strategy, and patient acquisition advertising.",
 };
+
+const faqs = [
+  { q: "Where should an independent practice start if it’s doing no digital marketing at all?", a: "Google Business Profile, every time. It’s free, it’s the highest-leverage asset for local search, and a fully optimized profile alone often produces measurable calls and direction requests within the first two to three months — before a website rebuild or ad campaign is even necessary." },
+  { q: "Do we need a new website before starting SEO or ads?", a: "Not always. We can optimize an existing site and run ads to it while a rebuild is planned, if needed at all. We’ll tell you honestly whether your current site is holding you back or whether the budget is better spent on GBP and local SEO first." },
+  { q: "How do you decide the right mix of SEO, ads, and reputation work for our practice?", a: "It starts with a free audit of your current Google Business Profile, website, and review profile, benchmarked against your named local competitor. The gaps we find there — not a generic package — determine whether SEO, paid ads, or reputation work gets prioritized first." },
+  { q: "We’re a small practice with one provider — is full digital marketing overkill?", a: "No — a single-provider practice often benefits most, since even a small increase in new patient volume has an outsized effect on schedule and revenue relative to a large multi-provider group. We scale the engagement to your size and budget rather than applying one package to every practice." },
+  { q: "How is Primara different from a generic marketing agency?", a: "We work exclusively with independent primary care and mental health practices — no hospital systems, no unrelated industries. That focus means the strategy, keyword research, and compliance awareness (HIPAA-safe tracking, no outcome promises) are built specifically for how medical practices actually get found and chosen." },
+];
+
 
 export default function DigitalMarketingPage() {
   return (
@@ -514,6 +524,8 @@ export default function DigitalMarketingPage() {
 
       {/* ── Section 6: CTA — teal glow atmosphere ────────────────────────── */}
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Services & Resources"

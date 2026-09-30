@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema"; // v2
 import PackageInquiryForm from "@/components/PackageInquiryForm";
 import RelatedLinks from "@/components/RelatedLinks";
@@ -81,6 +82,14 @@ const included = [
     detail:
       "Plain-English monthly report covering GBP impressions, Local Falcon rank movement, review velocity, and a clear next-step recommendation. Every engagement runs through Liam Costello or Gio LaRoche directly — no account coordinators, no handoffs.",
   },
+];
+
+const faqs = [
+  { q: "What’s included in the Foundation Package month to month?", a: "Full Google Business Profile optimization and management, two new SEO content pages published monthly, review monitoring and response across platforms, ongoing technical SEO monitoring, and a monthly report with direct access to Liam and Gio — no account manager layer in between." },
+  { q: "Is Foundation enough on its own, or do we need Google Ads too?", a: "For many independent practices, yes — Foundation alone produces measurable GBP and organic ranking movement within 60–90 days. We recommend adding Google Ads (the Visibility Package) when a practice wants faster volume than organic alone can deliver, or has a service line with high competition." },
+  { q: "How is the monthly content decided?", a: "We build the two monthly pages from real keyword research — the specific service and location terms with search volume in your market — not a generic content calendar. You’ll see the topics before they’re published, and every page follows our own word-count and schema standard." },
+  { q: "Is there a setup fee or long-term contract?", a: "There’s an initial 30-day setup period to fully build out your Google Business Profile and technical foundation, then it’s month-to-month after that. No long-term contract — if the work isn’t producing results, you’re free to leave." },
+  { q: "Who actually does the work — is it outsourced?", a: "No. Liam Costello and Gio LaRoche, Primara’s two founders, do the work directly — no offshore team, no account manager reading you a report someone else wrote. You get direct access to the people actually managing your account." },
 ];
 
 export default function FoundationPackagePage() {
@@ -431,6 +440,8 @@ export default function FoundationPackagePage() {
 
       {/* ── Inquiry form ─────────────────────────────────────────────────── */}
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Pages"

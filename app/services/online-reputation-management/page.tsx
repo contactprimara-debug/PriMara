@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -64,6 +65,15 @@ const bullets = [
   "Duplicate and unverified listing identification and cleanup",
   "Escalation protocol for reviews that may involve genuine operational concerns",
 ];
+
+const faqs = [
+  { q: "How do you generate more reviews without violating Google’s policies?", a: "Through NFC tap cards and QR codes given to every patient at checkout, requesting a review with no incentive, no gating by star rating, and no selective filtering of who gets asked — all of which Google explicitly prohibits. Every patient gets the same request." },
+  { q: "Do you respond to reviews on our behalf?", a: "Yes, to every review — positive and negative — within a few business days, using a response voice that matches your practice. Negative reviews get a measured, professional response; we never argue with a patient publicly or disclose any protected health information in a reply." },
+  { q: "What do you do about a negative or unfair review?", a: "We respond professionally and, where the review violates Google’s policies (fake, posted by a non-patient, or contains someone else’s private information), we file a formal removal request. We never offer to pay for review removal or engage in a public dispute with the reviewer." },
+  { q: "How fast can we improve a low star rating?", a: "It depends on your current review volume and rating, but a consistent request system typically shifts the average within 60–90 days as new, mostly positive reviews dilute older negative ones. We track rating and volume monthly so the trend is visible, not just assumed." },
+  { q: "Does reputation management help with more than just Google?", a: "Primarily, yes, since Google reviews carry the most weight for local search ranking and patient trust. We can extend review requests to Healthgrades and other directories relevant to healthcare specifically, but Google remains the priority because it’s what most patients actually check first." },
+];
+
 
 export default function ReputationPage() {
   return (
@@ -237,6 +247,8 @@ export default function ReputationPage() {
       </section>
 
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Services & Resources"

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import { toJsonLd } from "@/lib/schema";
 import AuditLandingForm from "./AuditLandingForm";
+import FaqSection from "@/components/FaqSection";
 import styles from "./landing.module.css";
 
 export const metadata: Metadata = {
@@ -21,9 +23,59 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", images: ["/opengraph-image"] },
 };
 
+const faqs = [
+  {
+    q: "What exactly do I get in the free audit?",
+    a: "A full review of your Google Business Profile score, a comparison against your named local competitor, and a 5-point action plan you can use whether or not you ever work with Primara. It's delivered by Liam or Gio personally, not generated automatically.",
+  },
+  {
+    q: "How long does it take to receive my audit?",
+    a: "Most audits are delivered within 48 hours of your request. We research your practice, pull your actual Google Business Profile and website data, and identify your top local competitor before the call — nothing generic, no waiting weeks for a templated report.",
+  },
+  {
+    q: "Is this only for practices already working with an agency?",
+    a: "No — it's built for independent therapists, psychologists, and counselors at any stage, whether you've never touched your Google Business Profile or you're already doing some marketing and want a second opinion on what's missing.",
+  },
+  {
+    q: "Will I get a sales pitch, or an actual audit?",
+    a: "You'll get the audit regardless of whether you ever become a client. Liam or Gio walks you through the findings directly, and you leave with specific, usable recommendations — working with us afterward is entirely your call, with no pressure.",
+  },
+  {
+    q: "Do you work with telehealth-only practices, or only in-person ones?",
+    a: "Both. Purely telehealth mental health practices are one of our core client types — the audit and the underlying strategy (Google Business Profile, local SEO, review generation) is built for the states and cities you actually serve, even without a physical office.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
+    { "@type": "ListItem", position: 2, name: "Free Mental Health Practice Audit", item: "https://primara365.com/mental-health-audit" },
+  ],
+};
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Free Practice Audit for Mental Health Practices",
+  url: "https://primara365.com/mental-health-audit",
+  about: {
+    "@type": "Service",
+    name: "Free Practice Audit",
+    provider: { "@type": "LocalBusiness", name: "Primara", telephone: "+15612912681" },
+  },
+  mentions: [
+    { "@type": "Thing", name: "Google Business Profile" },
+    { "@type": "Thing", name: "Local SEO" },
+  ],
+};
+
 export default function MentalHealthAuditPage() {
   return (
     <div className={styles.page}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(webPageSchema) }} />
       <header className={styles.header}>
         <div className={`${styles.wrap} ${styles.headerInner}`}>
           <Link href="/" className={styles.logoText} aria-label="Primara365 — home">
@@ -157,6 +209,29 @@ export default function MentalHealthAuditPage() {
           <p className={styles.sources}>Sources: Google Health Trends, 2024 &middot; SAMHSA, 2023</p>
         </div>
       </section>
+
+      <section className={styles.section}>
+        <div className={styles.wrap}>
+          <div className={styles.eyebrowBlock}>Why Now</div>
+          <h2 className={`${styles.serif} ${styles.sectionTitle}`}>Why this matters right now for mental health practices</h2>
+          <p className={styles.sectionSub} style={{ marginBottom: "20px" }}>
+            Searches for therapists and mental health counselors on Google have grown more than 300% since 2020, and
+            that demand hasn&rsquo;t slowed &mdash; more people are actively looking for a provider on their phone,
+            right now, than at any point before. The practices capturing that demand aren&rsquo;t necessarily the
+            best clinicians in a given market; they&rsquo;re the ones whose Google Business Profile is complete,
+            whose reviews are current, and whose website actually answers what a prospective client is searching for.
+          </p>
+          <p className={styles.sectionSub}>
+            Most independent mental health practices lose that visibility by default &mdash; not because the care
+            they provide is worse, but because nobody on staff has the time to keep a Google Business Profile fully
+            built out, request reviews consistently, or track which local competitor is out-ranking them. That&rsquo;s
+            the gap the free audit is built to find: a clear, specific picture of where your practice stands today
+            and what&rsquo;s actually costing you visibility, before you spend a dollar on any marketing.
+          </p>
+        </div>
+      </section>
+
+      <FaqSection faqs={faqs} />
 
       <div className={styles.finalCta}>
         <div className={styles.wrap}>

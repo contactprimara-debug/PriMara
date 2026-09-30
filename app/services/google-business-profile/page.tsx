@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -66,6 +67,15 @@ const bullets = [
   "HIPAA-compliant review responses within 48 hours — never confirming or denying a patient relationship",
   "Ongoing monitoring for unauthorized GBP edits and spam listings near your practice",
 ];
+
+const faqs = [
+  { q: "How many categories and services should our Google Business Profile have?", a: "As many accurate ones as apply — most well-optimized medical practices carry 8–10 categories and 30 or more specific services listed in patient-search language, not just a generic specialty name. An incomplete category and service list is one of the most common reasons a practice under-ranks." },
+  { q: "How often do you post to our Google Business Profile?", a: "Twice weekly, on a schedule planned months in advance rather than reactively, since consistent posting is one of the activity signals Google’s local ranking algorithm weighs. Posts include real, non-generic content relevant to your practice — never stock filler." },
+  { q: "Can you manage our GBP if we already have some reviews and photos?", a: "Yes — we start with a full audit of what’s already live, correct anything inaccurate or incomplete (categories, hours, attributes), and build forward from there. We never delete existing content without your knowledge, and prior reviews and photos stay intact." },
+  { q: "What happens if Google suspends or flags our profile?", a: "We handle reinstatement directly — correcting whatever triggered the flag (usually inconsistent business information or a policy-violating photo or post) and resubmitting through Google’s verification process. This is one of the more time-consuming parts of GBP management, and it’s included, not billed separately." },
+  { q: "Do you set up GBP messaging and appointment links?", a: "Yes, where your practice management system supports it. Direct messaging and booking links reduce the friction between a patient finding your profile and actually contacting you, and we configure both as part of standard Google Business Profile setup." },
+];
+
 
 export default function GBPPage() {
   return (
@@ -239,6 +249,8 @@ export default function GBPPage() {
       </section>
 
       {/* Related links (contextual internal linking) */}
+      <FaqSection faqs={faqs} />
+
       <RelatedLinks
         eyebrow="Related"
         heading="Related Services & Resources"
