@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -63,6 +64,15 @@ const services = [
   "Competitor gap analysis against local clinics, med spas, and national wellness brands",
   "Monthly reporting with Maps rank tracking on your primary keyword and city",
 ];
+
+const faqs = [
+  { q: "What Google category should a men’s wellness clinic use?", a: "This varies by what you actually treat — some clinics fit ‘Men’s Health Physician,’ others need a wellness or medical spa category depending on services offered. Category confusion is one of the most common reasons men’s wellness clinics rank poorly, so we start by auditing what’s set and correcting it." },
+  { q: "How do we stand out from the crowded wellness marketing space?", a: "Most men’s wellness marketing is generic — stock photography, vague promises, no named provider. We build your presence around real credentials, a specific service list, and a Google Business Profile that reads as a licensed medical practice, not a supplement brand, which is what separates you from the noise." },
+  { q: "Do men researching wellness services actually read reviews first?", a: "Yes, more than most specialties. Men considering hormone, weight, or vitality services tend to research quietly and extensively before ever calling, comparing reviews and credentials across several clinics. A thin or outdated review profile is a direct reason a researched prospect chooses a competitor instead." },
+  { q: "We have a lot of repeat patients — does that change your approach?", a: "It does. Recurring visit patterns mean your patient-acquisition cost matters more than one-time bookings, so we weight investment toward channels — organic SEO and GBP — that keep producing new patients over time rather than paid ads you’d need to keep funding indefinitely to sustain volume." },
+  { q: "Can you help us compete with national telehealth wellness brands?", a: "We focus on the advantage those brands can’t replicate — being a real, local, licensed clinic a patient can walk into. Local SEO and Google Maps visibility are exactly where a national telehealth brand is weakest, and that’s where we concentrate your budget." },
+];
+
 
 export default function MensWellnessClinicsPage() {
   return (
@@ -152,6 +162,8 @@ export default function MensWellnessClinicsPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

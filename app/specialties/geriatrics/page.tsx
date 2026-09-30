@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -41,6 +42,15 @@ const services = [
   "Competitor analysis — what the top-ranked senior care practice in your area is doing online",
   "Content strategy for high-intent searches: Medicare annual wellness visits, memory care, polypharmacy management, and fall prevention",
 ];
+
+const faqs = [
+  { q: "If the patient is elderly, why optimize for their adult children?", a: "Because adult children are usually the ones searching, comparing options, and making the first call — even when the patient makes the final decision. We write page copy and review prompts with that dual audience in mind: reassuring for a patient, informative for a caregiver doing the research." },
+  { q: "Why doesn’t Google have a clean category for geriatrics?", a: "Google’s business categories weren’t built with geriatric medicine in mind, so we combine the closest available categories — Geriatrician, Internist, Family Practice Physician — with a fully built-out services list naming geriatric-specific care directly, since the category alone won’t carry the specificity a caregiver is searching for." },
+  { q: "Is there less competition for geriatric-specific searches?", a: "Often, yes. A documented shortage of geriatricians in many Florida markets means fewer practices are actively competing for terms like ‘geriatric doctor near me’ or ‘memory care physician [city],’ which makes it realistic to rank well without the ad spend a saturated specialty would require." },
+  { q: "What matters most to a caregiver choosing a geriatric practice?", a: "Trust signals outweigh volume. A caregiver researching care for a parent reads reviews closely, checks how long the practice has operated, and looks for language about coordination with specialists and families. We build that trust into your Google Business Profile and website copy directly, not just your review count." },
+  { q: "Do you help with review generation for elderly patients who may not use smartphones?", a: "Yes — our review request system supports both QR/NFC prompts and options that route through a caregiver or family member, since many geriatric patients don’t manage their own phone. The goal is a review request that reaches whoever is actually able to leave one." },
+];
+
 
 export default function GeriatricsPage() {
   return (
@@ -127,6 +137,8 @@ export default function GeriatricsPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

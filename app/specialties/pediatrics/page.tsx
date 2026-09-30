@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -42,6 +43,15 @@ const services = [
   "Competitor gap analysis — what the top-ranked pediatric practice in your area has that you don't",
   "Seasonal content strategy for school physicals, immunizations, and new patient onboarding spikes",
 ];
+
+const faqs = [
+  { q: "Our patients are children — who are we actually marketing to?", a: "Parents. Every keyword, page, and Google Business Profile category is built around how parents search — ‘pediatrician near me accepting new patients,’ ‘same-day sick visit for kids [city]’ — not clinical terminology. Photos, reviews, and copy are written to reassure a parent choosing care for their child." },
+  { q: "Does Florida’s population growth actually help pediatric practices?", a: "Yes — steady in-migration means a constant flow of new families needing a pediatrician, often searching within days of relocating. We target ‘pediatrician accepting new patients [city]’ and similar urgent-need phrasing so your practice surfaces for families who just arrived and haven’t picked a provider yet." },
+  { q: "Do you handle seasonal spikes like back-to-school physicals and flu shots?", a: "Yes. We build a Google Posts calendar timed to seasonal demand — school and sports physical reminders in July and August, flu shot availability in the fall — so your profile is actively promoting the service parents need at the moment they’re searching for it." },
+  { q: "Most parents search on their phone while managing a sick kid — does that matter?", a: "It matters a lot. We prioritize mobile page speed, one-tap calling, and a Google Business Profile with current hours and same-day availability clearly stated, since a parent dealing with a sick child rarely has patience for a slow site or an outdated phone number." },
+  { q: "Can you help us get more reviews from parents?", a: "Yes, through our NFC tap card and QR-code review system, timed to well-visit checkouts when a parent’s experience is freshest. Pediatric reviews carry real weight because parents research heavily before trusting a new provider with their child’s care." },
+];
+
 
 export default function PediatricsPage() {
   return (
@@ -125,6 +135,8 @@ export default function PediatricsPage() {
           </ul>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

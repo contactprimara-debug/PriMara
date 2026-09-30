@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -41,6 +42,15 @@ const services = [
   "Competitor analysis comparing your DPC practice to both traditional primary care and other DPC practices in your market",
   "Content strategy for high-intent searches: self-employed healthcare options, uninsured primary care, and healthcare cost comparisons",
 ];
+
+const faqs = [
+  { q: "Most people have never heard of DPC — how do you market something unfamiliar?", a: "With dedicated educational content that explains the model plainly — flat monthly fee, no insurance billing, direct physician access — before asking for the call. A prospective DPC patient almost always needs to understand what they’re buying before they’ll book, so we build that explanation into the page itself." },
+  { q: "How do you overcome the ‘this must not take insurance’ hesitation?", a: "By addressing it directly and early in the page copy, rather than avoiding it. DPC not billing insurance is a feature we explain clearly — many patients still keep a high-deductible plan for emergencies — because a prospect left to guess usually assumes the worst and leaves." },
+  { q: "Is Florida’s self-employed population actually a real market for DPC?", a: "Yes, and it’s underserved — a large population of self-employed and gig workers in Florida is actively looking for affordable, direct primary care alternatives to expensive individual insurance plans. We target that audience specifically with terms like ‘direct primary care for self-employed [city].’" },
+  { q: "How do we compete with traditional insurance-based practices online?", a: "By not competing on the same terms. Traditional practices rank for volume-based, insurance-focused searches; we instead target people already searching for membership medicine, flat-fee healthcare, or an alternative to insurance-based care — a smaller but far more qualified audience for a DPC practice." },
+  { q: "Do you help explain pricing on the website?", a: "Yes — and we recommend it. DPC prospects respond better to clear, upfront membership pricing than to a ‘contact us for pricing’ page, since ambiguity about cost is one of the biggest reasons an interested visitor never calls a direct primary care practice." },
+];
+
 
 export default function DirectPrimaryCarePage() {
   return (
@@ -128,6 +138,8 @@ export default function DirectPrimaryCarePage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

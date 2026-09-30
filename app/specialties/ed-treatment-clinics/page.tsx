@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -63,6 +64,15 @@ const services = [
   "Google and Meta ad compliance handled correctly from the start — this category faces strict platform policy scrutiny",
   "Monthly reporting with Maps rank tracking on your primary keyword and city",
 ];
+
+const faqs = [
+  { q: "How do we compete with national telehealth ED brands on Google?", a: "National brands like Hims and Roman dominate paid search because they spend at a scale independent clinics can’t match. We instead prioritize local SEO and Google Maps, where a real, licensed, in-person clinic has a genuine advantage a telehealth-only brand can’t offer." },
+  { q: "How do you handle privacy for such a sensitive specialty?", a: "Carefully. Our review generation system is built for privacy from the start — no public prompts that name the service, request timing that respects discretion, and Google Business Profile language that’s medically accurate without being explicit in a way that embarrasses a patient searching from a shared device." },
+  { q: "Should we build a separate page for ED treatment or fold it into general urology?", a: "A separate page, always. Patients searching ‘ED treatment [city]’ or ‘ED doctor near me’ are far along in their decision and want a page speaking directly to that need — a general urology page buried under other services rarely ranks for this term." },
+  { q: "How do you build trust before someone even calls?", a: "Through named, credentialed providers, a complete and accurate Google Business Profile, and reviews that read as genuine rather than generic. For a specialty this sensitive, a patient decides whether to trust your practice before they ever pick up the phone — the website and listing have to do that work first." },
+  { q: "Is there a faster path than waiting months for organic SEO?", a: "Yes — we typically pair Google Business Profile optimization, which can move faster than organic ranking, with a dedicated, properly targeted service page. Full organic ranking for competitive ED terms still takes months, but Maps visibility and a well-built page can start generating calls well before that." },
+];
+
 
 export default function EdTreatmentClinicsPage() {
   return (
@@ -152,6 +162,8 @@ export default function EdTreatmentClinicsPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -41,6 +42,15 @@ const services = [
   "Competitor gap analysis — we show you exactly what the top-ranked family practice in your area is doing",
   "Monthly reporting with Maps rank tracking on your primary keyword + city",
 ];
+
+const faqs = [
+  { q: "How long does it take to see results for a family medicine practice?", a: "Most family medicine practices see Google Business Profile improvements — more calls, more direction requests — within 60–90 days. Organic ranking for competitive terms like ‘family doctor [city]’ typically takes 4–6 months, faster in smaller Florida markets with less established competition from hospital systems." },
+  { q: "Do you write separate pages for pediatric well visits and chronic care?", a: "Yes. Family medicine covers the widest scope of any specialty we work with, and a single page trying to rank for everything usually ranks for nothing. We build dedicated pages for the specific services and age groups your practice actually sees, mapped to how patients search for each." },
+  { q: "How do you compete with urgent care chains on Google?", a: "Urgent care chains outspend independent practices on ads, but they can’t match a documented, continuous-care Google Business Profile with real patient reviews and a fully built-out service list. We close that gap by optimizing your GBP completely and building review volume that chains can’t easily replicate locally." },
+  { q: "My patients search their insurance portal first — does SEO still matter?", a: "Yes. Even patients who start in an insurance portal cross-check Google before booking, especially to see reviews and confirm the practice is active. An incomplete or outdated Google listing loses that patient at the exact moment they were ready to choose you." },
+  { q: "Do you work with practices in physician-shortage areas?", a: "Yes, and it’s often where the fastest results happen. Documented shortages in parts of Southwest Florida and the Space Coast mean patients have already been searching for months with few options. A practice that ranks locally in a shortage area captures demand that’s already there, not demand we have to create." },
+];
+
 
 export default function FamilyMedicinePage() {
   return (
@@ -129,6 +139,8 @@ export default function FamilyMedicinePage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

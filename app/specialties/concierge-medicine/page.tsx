@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -41,6 +42,15 @@ const services = [
   "Competitor analysis comparing your online presence to both national chains and local independent concierge practices",
   "Content strategy addressing high-intent searches: membership pricing comparisons, what's included, and why independent beats corporate",
 ];
+
+const faqs = [
+  { q: "How do we compete with national concierge medicine chains?", a: "National chains have brand recognition but often lack the personal, single-physician relationship that’s the actual selling point of concierge medicine. We build your marketing around that difference directly — named provider, direct-access messaging, and a smaller panel — rather than trying to out-advertise a chain on generic terms." },
+  { q: "With such a small patient panel, does every lead really matter that much?", a: "Yes — a concierge practice typically needs far fewer new patients per month than a volume-based practice, so a single missed or mishandled inquiry is a meaningfully larger cost. We build a lead-response process alongside the SEO work specifically because your close rate per lead matters more than lead volume." },
+  { q: "Most people don’t understand the concierge model — how do you address that?", a: "Through dedicated educational content explaining what concierge medicine actually includes — same-day access, longer visits, direct physician contact — and what it costs, since prospective patients who don’t understand the model rarely convert. Clear, upfront pricing on the page reduces wasted inquiries." },
+  { q: "Does it matter that we’re in a high-income Florida market?", a: "It does — concierge medicine’s target market is concentrated in specific high-income areas, so we target neighborhood- and city-level searches precisely rather than broad regional terms, which keeps your ad spend and content focused on the ZIP codes where prospective concierge patients actually live." },
+  { q: "How long before a concierge practice sees new patient inquiries?", a: "Google Business Profile improvements typically show within 60–90 days. Because concierge practices need a small number of high-quality patients rather than high volume, we also weight paid search more heavily than we would for a high-volume specialty, since a handful of well-targeted clicks can fill a concierge panel." },
+];
+
 
 export default function ConciergeMedicinePage() {
   return (
@@ -121,6 +131,8 @@ export default function ConciergeMedicinePage() {
           </ul>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

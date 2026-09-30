@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -41,6 +42,15 @@ const services = [
   "Competitor analysis against the top hospital-affiliated internist in your market",
   "Monthly rank tracking on your core adult primary care keywords in your city",
 ];
+
+const faqs = [
+  { q: "Should our website say ‘internist’ or ‘primary care doctor’?", a: "Almost nobody searches ‘internist’ — patients search ‘primary care doctor,’ ‘adult doctor near me,’ or by the condition they’re managing, like ‘diabetes doctor [city].’ We keep ‘internal medicine’ in your credentials and title tags for accuracy, but build page copy and headers around the terms patients actually type." },
+  { q: "How do we compete with hospital-affiliated internal medicine groups?", a: "Hospital systems win on ad spend, not on Google Business Profile completeness or review volume — both of which an independent practice can match or beat with focused work. We prioritize GBP optimization and review generation first because that’s where independent internists close the visibility gap fastest." },
+  { q: "Can you build pages for specific chronic conditions we manage?", a: "Yes. Patients managing diabetes, hypertension, or thyroid conditions frequently search by condition rather than specialty name. We build dedicated pages for the conditions your practice actively manages, which both rank better and set correct expectations before a patient calls." },
+  { q: "We see a lot of retirees relocating to Florida — does that change the strategy?", a: "It does. Florida’s steady retiree in-migration means a large share of your next patients are searching from outside the state before they move, often months ahead. We target ‘internal medicine doctor accepting new patients [city]’ and similar phrases that surface for people planning a move, not just current residents." },
+  { q: "How is this different from what you’d do for a family medicine practice?", a: "Internal medicine skews toward adult chronic-disease management and long-term relationships, so the keyword strategy leans on condition and age-specific terms rather than the broad household-care language a family practice needs. The GBP and review-generation mechanics are the same; the content targeting is built specifically around your adult patient base." },
+];
+
 
 export default function InternalMedicinePage() {
   return (
@@ -127,6 +137,8 @@ export default function InternalMedicinePage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

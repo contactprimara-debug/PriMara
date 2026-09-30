@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -63,6 +64,15 @@ const services = [
   "Competitor gap analysis against both local clinics and national telehealth brands' local landing pages",
   "Monthly reporting with Maps rank tracking on your primary keyword and city",
 ];
+
+const faqs = [
+  { q: "How do independent TRT clinics compete with national telehealth brands?", a: "National TRT brands own paid search through sheer ad spend, so we focus your budget where they’re weakest — local Google Maps visibility and a dedicated, properly optimized service page. A patient who wants in-person labs and a real clinic relationship is already looking for what you offer over a mail-order service." },
+  { q: "Our patients don’t refer each other openly — does that hurt visibility?", a: "It does limit word-of-mouth, which is exactly why Google Business Profile and review generation matter more here than in most specialties — they replace the referral pipeline that stigma keeps quiet. We build a review system designed for discretion so patients are comfortable leaving one." },
+  { q: "How do you build trust before the first call in a specialty like this?", a: "Through accurate, credentialed provider information, clear service descriptions of the actual protocol (labs, monitoring, follow-up), and a review profile that reads as real patients, not marketing copy. A patient researching TRT wants to know they’re calling a legitimate clinic before they ever pick up the phone." },
+  { q: "Since this is cash-pay, is local marketing worth the investment?", a: "Cash-pay economics are exactly why it pays off well — there’s no insurance reimbursement ceiling limiting what a new patient is worth to your clinic, which means aggressive local SEO and Google Ads investment typically has a shorter payback period here than in insurance-based specialties." },
+  { q: "Can you help us build a specific TRT-focused landing page?", a: "Yes, and we recommend it over folding TRT into a general urology or wellness page. A dedicated page targeting ‘TRT clinic [city]’ and related terms converts better because it speaks directly to what the patient searched, rather than making them dig through unrelated services to find what they came for." },
+];
+
 
 export default function TrtClinicsPage() {
   return (
@@ -152,6 +162,8 @@ export default function TrtClinicsPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks

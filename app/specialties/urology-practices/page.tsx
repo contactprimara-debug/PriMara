@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
@@ -63,6 +64,15 @@ const services = [
   "Competitor gap analysis against hospital-affiliated urology groups and local independent practices",
   "Monthly reporting with Maps rank tracking on your primary keyword and city",
 ];
+
+const faqs = [
+  { q: "How do independent urology practices compete with hospital-affiliated groups?", a: "Hospital-affiliated urology groups win on paid search spend, but they rarely outpace an independent practice on Google Business Profile completeness or review volume. We concentrate on GBP optimization and a dedicated men’s health service structure first, since that’s where independent urology practices close the gap fastest." },
+  { q: "Should TRT and ED treatment have their own pages, separate from general urology?", a: "Yes. Patients searching ‘TRT clinic [city]’ or ‘ED treatment [city]’ are far along in their decision and want a page that speaks directly to that need. Burying those service lines under a general urology page loses ranking and reads as an afterthought to the patient searching for it." },
+  { q: "Is referral-based growth still enough for a urology practice?", a: "It’s no longer sufficient on its own. Referrals are still valuable, but more patients now search directly — ‘urologist near me,’ ‘low testosterone doctor’ — before ever asking their primary care physician for a referral. We build the local SEO presence that captures that direct-search demand alongside your referral pipeline." },
+  { q: "How do you handle reviews for a sensitive specialty like urology?", a: "Carefully. Patients researching urological and men’s health care weigh reviews heavily as a trust signal before booking, more than in most specialties. Our review generation system is built with discretion in mind so patients are comfortable leaving one without feeling exposed." },
+  { q: "Can you help us build out a men’s health service line specifically?", a: "Yes — we give each men’s health service (TRT, ED treatment, vasectomy) its own page and Google Business Profile service entry, instead of folding them into general urology, since that structure is what actually ranks for the high-intent searches driving new patient volume in those service lines." },
+];
+
 
 export default function UrologyPracticesPage() {
   return (
@@ -152,6 +162,8 @@ export default function UrologyPracticesPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}
       <RelatedLinks
