@@ -88,6 +88,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* ── Google Tag Manager (GTM-TFSRXGS6) ───────────────────────────
+              Added 2026-09-30. Additive only — runs alongside the existing
+              gtag.js container below (GT-PB6FNVRG) and the Ads/GA4 config it
+              carries. Nothing below this block was touched. GTM is the
+              single future place to add/change tags instead of per-page
+              edits; it does not yet fire anything of its own (no tags
+              configured in the container beyond defaults). Standard Google
+              snippet pattern, via next/script afterInteractive to match how
+              every other third-party script on this page already loads. */}
+        <Script id="gtm-head" strategy="afterInteractive">{`
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TFSRXGS6');
+`}</Script>
+
         {/* ── Early connections to the third-party origins every page load
               depends on (GTM, GA4, Google Ads remarketing, GSAP/Lenis CDN,
               Cloudflare). TBT is low here — the real cost is 5+ separate
@@ -162,6 +179,17 @@ export default function RootLayout({
       </head>
 
       <body className={`${instrumentSerif.variable} ${syne.variable}`}>
+
+        {/* ── GTM noscript fallback — must be the first thing in <body> per
+              Google's standard snippet (2026-09-30, additive, see <head>) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TFSRXGS6"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
 
         {/* ── Preloader — homepage only (Preloader.tsx checks pathname) ─── */}
         <Preloader />
