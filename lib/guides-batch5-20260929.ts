@@ -728,6 +728,8 @@ export const guidesPartEight: Guide[] = [
       { publisher: "Google Search Central", label: "Creating helpful, reliable content", href: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content" },
     ],
     links: [
+      { href: "/guides/should-a-medical-practice-blog-and-how-often", label: "Should a Medical Practice Blog, and How Often?", description: "The decision question this calendar checklist assumes has already been answered." },
+      { href: "/guides/keyword-research-for-a-medical-practice-seo-campaign", label: "Keyword Research for a Medical Practice SEO Campaign", description: "Where the topics on this calendar should come from." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice Into AI Search Answers", description: "What kind of content to prioritize once the calendar is running." },
       { href: "/guides/new-practice-marketing-checklist", label: "New Practice Marketing Checklist", description: "The one-time setup this recurring calendar builds on top of." },
       { href: "/services/seo", label: "SEO Services", description: "How we run this cadence for practices that outsource it entirely." },
@@ -794,6 +796,7 @@ export const guidesPartEight: Guide[] = [
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
     ],
     links: [
+      { href: "/guides/core-web-vitals-checklist-for-a-medical-practice-website", label: "Core Web Vitals Checklist for a Medical Practice Website", description: "A technical-SEO checklist worth running alongside a voice-search pass." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice Into AI Search Answers", description: "The related but distinct project of writing for AI assistant answers." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "HIPAA-Safe Tracking for a Medical Website", description: "How to track the traffic voice and AI search actually sends." },
       { href: "/services/ai-seo", label: "AI SEO Services", description: "How we structure content and data for voice and AI assistants together." },
@@ -868,6 +871,7 @@ export const guidesPartEight: Guide[] = [
       { publisher: "FTC", label: "FTC's Endorsement Guides: What People Are Asking", href: "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking" },
     ],
     links: [
+      { href: "/guides/email-marketing-compliance-for-a-medical-practice", label: "Email Marketing Compliance for a Medical Practice", description: "The compliance rules for the channel testimonials often get shared through." },
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "How to Respond to a Negative Patient Review", description: "The related question of what a practice can and can't say publicly about a specific patient." },
       { href: "/guides/therapist-marketing-pricing", label: "Therapist Marketing Pricing", description: "Where testimonial and review compliance fits into an overall marketing budget." },
       { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "How we handle reviews and testimonials within compliance guardrails." },
@@ -1099,6 +1103,9 @@ export const guidesPartEight: Guide[] = [
       { publisher: "Google Search Central", label: "SEO Starter Guide", href: "https://developers.google.com/search/docs/fundamentals/seo-starter-guide" },
     ],
     links: [
+      { href: "/guides/fix-duplicate-google-business-profile-listings", label: "Fix Duplicate Google Business Profile Listings", description: "One of the first things a proper local SEO audit checks for." },
+      { href: "/guides/how-long-does-local-seo-take-for-a-medical-practice", label: "How Long Does Local SEO Take for a Medical Practice?", description: "What to expect timeline-wise once the audit's fixes are underway." },
+      { href: "/guides/keyword-research-for-a-medical-practice-seo-campaign", label: "Keyword Research for a Medical Practice SEO Campaign", description: "The research step that usually follows a completed audit." },
       { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "What to look for in whoever runs this audit for the practice." },
       { href: "/guides/how-much-does-medical-seo-cost", label: "How Much Does Medical SEO Cost?", description: "What typically follows an audit, and what it should cost." },
       { href: "/the-audit", label: "Get a Free Audit", description: "The free version of this exact four-part audit, run on a real practice's listing." },

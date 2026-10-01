@@ -87,6 +87,7 @@ export const guidesPartSeven: Guide[] = [
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
     ],
     links: [
+      { href: "/guides/core-web-vitals-checklist-for-a-medical-practice-website", label: "Core Web Vitals Checklist for a Medical Practice Website", description: "The performance section of this checklist, covered in full." },
       { href: "/guides/medical-practice-website-cost", label: "Medical Practice Website Cost", description: "What a compliant, trackable practice site should actually cost to build." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "How to Write a Medical Service Page That Ranks", description: "The page-level structure to build into the new site before it launches." },
       { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "The parallel checklist for a rebrand rather than a fresh launch." },
@@ -269,6 +270,8 @@ export const guidesPartSeven: Guide[] = [
       { publisher: "HHS Office for Civil Rights", label: "HIPAA and marketing", href: "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html" },
     ],
     links: [
+      { href: "/guides/email-marketing-compliance-for-a-medical-practice", label: "Email Marketing Compliance for a Medical Practice", description: "The email-specific compliance rules (CAN-SPAM) behind this checklist." },
+      { href: "/guides/text-message-marketing-compliance-for-a-medical-practice", label: "Text Message Marketing Compliance for a Medical Practice", description: "The texting-specific compliance rules (TCPA) behind this checklist." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "HIPAA-Safe Tracking for a Medical Website", description: "The tracking half of this checklist, covered in full detail." },
       { href: "/guides/google-ads-cost-for-a-medical-practice", label: "Google Ads Cost for a Medical Practice", description: "What compliant ad spend actually looks like once verification and structure are accounted for." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Tracking Phone Calls From a Medical Website", description: "How to track a call converted without recording what the call was about." },
@@ -434,6 +437,8 @@ export const guidesPartSeven: Guide[] = [
       { publisher: "Google Search Central", label: "SEO Starter Guide", href: "https://developers.google.com/search/docs/fundamentals/seo-starter-guide" },
     ],
     links: [
+      { href: "/guides/meta-descriptions-that-get-clicks-for-a-medical-practice", label: "Meta Descriptions That Get Clicks", description: "The companion AEO page for getting clicked in results, not just quoted." },
+      { href: "/guides/schema-markup-for-a-medical-practice-website-explained", label: "Schema Markup for a Medical Practice Website, Explained", description: "How FAQ content gets marked up so AI tools can lift it directly." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice Into AI Search Answers", description: "The broader AEO strategy this FAQ tactic supports." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "How to Write a Medical Service Page That Ranks", description: "Where a page-specific FAQ block should live inside the larger page structure." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "Another page type that benefits from a tightly scoped FAQ block." },
@@ -829,6 +834,8 @@ export const guidesPartSeven: Guide[] = [
       { publisher: "Google Business Profile Help", label: "Improve your local ranking on Google", href: "https://support.google.com/business/answer/7091?hl=en" },
     ],
     links: [
+      { href: "/guides/google-ads-negative-keywords-checklist-for-a-medical-practice", label: "Google Ads Negative Keywords Checklist", description: "One of the fastest ways to improve ROI on an existing ad budget." },
+      { href: "/guides/should-a-medical-practice-blog-and-how-often", label: "Should a Medical Practice Blog, and How Often?", description: "How to tell if blog investment is contributing to the numbers this guide tracks." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Tracking Phone Calls From a Medical Website", description: "The call-tracking setup this ROI formula depends on." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "HIPAA-Safe Tracking for a Medical Website", description: "How to track conversions without passing PHI into the same events." },
       { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "How this ROI math factors into the build-or-hire decision." },

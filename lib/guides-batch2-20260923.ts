@@ -501,6 +501,7 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Business Profile Help", label: "Improve your local ranking on Google", href: "https://support.google.com/business/answer/7091?hl=en" },
     ],
     links: [
+      { href: "/guides/fix-duplicate-google-business-profile-listings", label: "Fix Duplicate Google Business Profile Listings", description: "Another common GBP problem worth checking for while you're in the dashboard." },
       { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Google Business Profile Maintenance Checklist", description: "The ongoing routine this one-time category setup feeds into." },
       { href: "/guides/google-business-profile-qa-management-for-a-medical-practice", label: "Google Business Profile Q&A Management", description: "Another listing detail that needs regular attention after setup." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "The service that includes category audits like this one." },
@@ -585,6 +586,7 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Analytics Help", label: "GA4 event tracking", href: "https://support.google.com/analytics/answer/9322688" },
     ],
     links: [
+      { href: "/guides/text-message-marketing-compliance-for-a-medical-practice", label: "Text Message Marketing Compliance for a Medical Practice", description: "The TCPA consent rules for the texting channel, alongside call tracking." },
       { href: "/guides/healthcare-ad-compliance-checklist", label: "Healthcare Ad Compliance Checklist", description: "How to track a call as a conversion without passing PHI to an ad platform." },
       { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "Making sure the contact page's own tel: link is actually tracked." },
       { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "How to Measure ROI on Medical Practice Marketing", description: "The call-tracking setup this ROI formula depends on." },
@@ -672,6 +674,8 @@ export const guidesPartFive: Guide[] = [
       { publisher: "Google Search Central", label: "E-E-A-T and quality rater guidelines overview", href: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content" },
     ],
     links: [
+      { href: "/guides/meta-descriptions-that-get-clicks-for-a-medical-practice", label: "Meta Descriptions That Get Clicks", description: "The snippet that gets this page clicked once it ranks." },
+      { href: "/guides/should-a-medical-practice-blog-and-how-often", label: "Should a Medical Practice Blog, and How Often?", description: "Where blog content fits once the core service pages are solid." },
       { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "Where this page-level structure fits inside a full site launch." },
       { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "The FAQ block every service page like this one should carry." },
       { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "Keeping this page structure consistent across a name change." },

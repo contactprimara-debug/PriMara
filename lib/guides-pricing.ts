@@ -169,6 +169,8 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/how-long-does-local-seo-take-for-a-medical-practice", label: "How Long Does Local SEO Take for a Medical Practice?", description: "The timeline question that usually comes right after the cost question." },
+      { href: "/guides/keyword-research-for-a-medical-practice-seo-campaign", label: "Keyword Research for a Medical Practice SEO Campaign", description: "What a quoted SEO budget is actually spent building toward." },
       { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "The same cost question for dental practices specifically." },
       { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "Once cost is on the table, the questions that separate a good agency from a bad one." },
       {
@@ -546,6 +548,7 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/google-ads-negative-keywords-checklist-for-a-medical-practice", label: "Google Ads Negative Keywords Checklist", description: "If paid search is the answer, this is the first setup step to not skip." },
       { href: "/guides/seo-vs-meta-ads-for-a-med-spa", label: "SEO vs Meta Ads for a Med Spa", description: "The same channel-choice question, framed for aesthetics practices." },
       {
         href: "/services/google-ads",
@@ -737,6 +740,7 @@ export const guidesPartOne: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/core-web-vitals-checklist-for-a-medical-practice-website", label: "Core Web Vitals Checklist for a Medical Practice Website", description: "What a well-built site needs to pass, beyond just existing." },
       { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "The pre-launch checklist to run once this build is ready to go live." },
       { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "The contact-page details this website cost should already include." },
       { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "What changes if this build is part of a rename rather than a fresh site." },

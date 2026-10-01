@@ -397,6 +397,8 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/email-marketing-compliance-for-a-medical-practice", label: "Email Marketing Compliance for a Medical Practice", description: "The same PHI question applied to email instead of website tracking." },
+      { href: "/guides/text-message-marketing-compliance-for-a-medical-practice", label: "Text Message Marketing Compliance for a Medical Practice", description: "The same PHI question applied to text messaging instead of website tracking." },
       { href: "/guides/healthcare-ad-compliance-checklist", label: "Healthcare Ad Compliance Checklist", description: "The full compliance picture this tracking guidance is one part of." },
       { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "How to Measure ROI on Medical Practice Marketing", description: "How this HIPAA-safe tracking setup feeds an actual ROI calculation." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Track Phone Calls from a Medical Website", description: "The call-tracking specifics for the compliance rules on this page." },
@@ -803,6 +805,7 @@ export const guidesPartTwo: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/how-long-does-local-seo-take-for-a-medical-practice", label: "How Long Does Local SEO Take for a Medical Practice?", description: "A realistic timeline for a new practice starting from zero." },
       { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "The SEO-specific checklist for the new site this 90-day plan depends on." },
       { href: "/guides/primary-care-patient-acquisition-playbook", label: "Primary Care Patient Acquisition Playbook", description: "The channel order to follow once the first-90-days setup is done." },
       { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "Deciding who executes this checklist — a hire or an agency." },

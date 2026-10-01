@@ -137,6 +137,7 @@ export const guidesPartFour: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/google-ads-negative-keywords-checklist-for-a-medical-practice", label: "Google Ads Negative Keywords Checklist", description: "The cheapest lever to improve what this budget actually buys." },
       { href: "/guides/healthcare-ad-compliance-checklist", label: "Healthcare Ad Compliance Checklist", description: "The compliance requirements that apply before this ad spend goes live." },
       {
         href: "/services/local-seo-for-medical-practices",

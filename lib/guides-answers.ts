@@ -154,6 +154,7 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/fix-duplicate-google-business-profile-listings", label: "Fix Duplicate Google Business Profile Listings", description: "A duplicate listing is one of the more common triggers for the suspension this guide covers." },
       { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Google Business Profile Maintenance Checklist", description: "The routine maintenance that helps avoid a suspension in the first place." },
       { href: "/guides/google-business-profile-qa-management-for-a-medical-practice", label: "Google Business Profile Q&A Management", description: "A listing area that can also trigger scrutiny if it's used to manipulate the profile." },
       { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "How to Handle a Fake Google Review", description: "A related listing-integrity problem with its own separate resolution path." },
@@ -504,6 +505,8 @@ export const guidesPartThree: Guide[] = [
       },
     ],
     links: [
+      { href: "/guides/meta-descriptions-that-get-clicks-for-a-medical-practice", label: "Meta Descriptions That Get Clicks", description: "Getting clicked in traditional results, the other half of visibility." },
+      { href: "/guides/schema-markup-for-a-medical-practice-website-explained", label: "Schema Markup for a Medical Practice Website, Explained", description: "The structured-data layer AI search tools lean on most heavily." },
       { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "The FAQ-level tactic that supports this broader AEO strategy." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "Write a Medical Service Page That Ranks", description: "The page structure this AI-search guide builds on." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "Why exact, verifiable credentials matter even more once AI answer engines are reading the page." },

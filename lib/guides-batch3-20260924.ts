@@ -174,6 +174,7 @@ export const guidesPartSix: Guide[] = [
       { publisher: "Google Search Central", label: "Physician structured data", href: "https://developers.google.com/search/docs/appearance/structured-data/search-gallery" },
     ],
     links: [
+      { href: "/guides/schema-markup-for-a-medical-practice-website-explained", label: "Schema Markup for a Medical Practice Website, Explained", description: "Where Physician/Person schema gets applied — directly on the page this guide describes." },
       { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "Another page-level AEO tactic that pairs with a strong bio page." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "How to Write a Medical Service Page That Ranks", description: "The sibling structure guide for the service pages a bio page should link to and from." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "Why exact, verifiable credentials matter even more for AI-generated answers." },
