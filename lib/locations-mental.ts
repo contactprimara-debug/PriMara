@@ -36,6 +36,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Miami mental health practices build the local search infrastructure that Psychology Today listings cannot provide. Our Foundation Package begins with a full GBP audit and rebuild: category optimization, bilingual service entries, photo strategy, and a 12-month posting calendar loaded at onboarding via BrightLocal. We establish a compliant review generation system using NFC tap cards and QR codes placed at your office — no incentivization, no policy violations, just a reliable monthly stream of five-star reviews from satisfied patients.\n\nFor Miami therapists who need a website rebuilt for local search, our Visibility Package delivers a 15–20 page site with neighborhood-specific landing pages — one for Brickell, one for Coral Gables, one for Coconut Grove — each targeting the specific search phrases patients in those areas type. Spanish-language meta content, Schema.org markup for therapy services, and Core Web Vitals optimization ensure that Google indexes and ranks your practice pages alongside your GBP listing. The combined effect — a high-authority GBP and a locally optimized website — produces the one-two punch that pushes private-pay Miami therapists to the top of local search results.",
     neighborhoods: ["Brickell", "Coral Gables", "Coconut Grove", "Wynwood", "South Beach"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Miami?",
+        a: "Yes \u2014 Miami is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Miami's own patient search patterns, including how patients in Brickell and Coral Gables actually search for a therapist.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Miami?",
+        a: "Patients browsing that directory are looking at endless lists of therapists sorted by filter \u2014 insurance panel, specialty, modality \u2014 and the average listing gets a fraction of the engagement it did five years ago. Private-pay therapists are especially disadvantaged in directory environments because the default filter for most searchers is insurance acceptance. A private-pay therapist buried on page four of a Psychology Today search is invisible to the patients who can most afford them.",
+      },
+      {
+        q: "What makes Miami's therapy market different from other Florida cities?",
+        a: "The highest-volume local searches include phrases like \"therapist in Miami accepting new patients,\" \"anxiety therapist Coral Gables,\" \"bilingual therapist Miami,\" \"therapy in Spanish near me,\" \"couples therapist Brickell,\" and \"trauma therapist Miami FL.\" Patients in Wynwood and South Beach trend younger and search for therapists specializing in relationship issues, identity, and performance anxiety. Patients in Coral Gables and Coconut Grove search for longer-term relational and psychodynamic work.",
+      },
+      {
+        q: "What should a Miami therapist's Google Business Profile include?",
+        a: "Most therapy practices claim the generic \"Mental Health Service\" category and stop there \u2014 leaving behind subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" \"Child Psychologist,\" and \"Addiction Treatment Center\" that each carry their own local search ranking signal.",
+      },
+      {
+        q: "What areas within Miami does this cover?",
+        a: "Service area within Miami includes Brickell, Coral Gables and Coconut Grove. Because patient search intent shifts from one part of Miami to another, a Miami therapist's profile needs neighborhood-level content, not one generic city-wide listing. That neighborhood-by-neighborhood approach is what separates a Miami therapist who ranks from one who built a single generic city-wide listing and stopped.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-therapist-marketing",
@@ -56,6 +78,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Fort Lauderdale mental health practices build the local search presence that converts private-pay patient searches into scheduled appointments. Our Foundation Package begins with a complete GBP rebuild — neighborhood-level service entries targeting Wilton Manors, Flagler Village, Victoria Park, and Las Olas search patterns — plus LGBTQ+-affirming attribute configuration, a 12-month posting calendar, and a compliant review system using NFC tap cards and QR codes placed in your office.\n\nFor Fort Lauderdale therapists looking to escape insurance fee schedule pressure, our Visibility Package adds a locally optimized website with dedicated neighborhood pages, telehealth landing pages, and specialty-specific content targeting the search phrases Broward County therapy patients actually type. Google Ads management for Local Service Ads — which show above all organic results for therapy searches — can accelerate private-pay patient acquisition while the longer-term SEO and GBP work compounds. Private-pay therapy rates in Fort Lauderdale's Victoria Park and Las Olas markets are strong enough that a single new private-pay patient per month covers Primara's entire engagement fee.",
     neighborhoods: ["Wilton Manors", "Victoria Park", "Flagler Village", "Las Olas", "Oakland Park"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Fort Lauderdale?",
+        a: "Independent Fort Lauderdale therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Fort Lauderdale is the patient search behavior in Wilton Manors and Victoria Park. That local focus is what separates a GBP that ranks in Fort Lauderdale from one that was never built for it in the first place.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Fort Lauderdale?",
+        a: "Broward County carries one of the highest rates of Medicaid and managed care insurance penetration in South Florida. Therapists who accept insurance in Fort Lauderdale often find their schedules filled with low-reimbursement managed care patients while private-pay slots go unfilled \u2014 not because private-pay patients don't exist, but because those patients find therapists through Google, not through insurance directories. The Psychology Today directory in Fort Lauderdale and surrounding Broward communities lists 400+ therapists, with the majority filtering to insurance-panel providers.",
+      },
+      {
+        q: "What makes Fort Lauderdale's therapy market different from other Florida cities?",
+        a: "Fort Lauderdale therapy patients search with a mix of specialty-driven and affinity-driven intent. High-volume local searches include \"therapist Fort Lauderdale,\" \"LGBTQ therapist Wilton Manors,\" \"anxiety counseling Broward County,\" \"couples therapist Las Olas,\" \"trauma therapist Fort Lauderdale,\" and \"private-pay therapist Broward.\" Flagler Village's younger creative professional population generates searches for therapists specializing in identity, relationship, and career-related anxiety. Victoria Park patients trend toward longer-term psychodynamic work.",
+      },
+      {
+        q: "What should a Fort Lauderdale therapist's Google Business Profile include?",
+        a: "Fort Lauderdale therapist GBP optimization must account for Broward County's geographic spread. Patients searching for therapy in Wilton Manors, Victoria Park, Flagler Village, and Oakland Park are each entering slightly different search phrases \u2014 \"therapist Wilton Manors,\" \"counseling Flagler Village,\" \"therapist near Las Olas\" \u2014 and a single GBP listing optimized generically for \"Fort Lauderdale\" misses all of them.",
+      },
+      {
+        q: "What areas within Fort Lauderdale does this cover?",
+        a: "This covers all of Fort Lauderdale, with particular focus on Wilton Manors, Victoria Park and Flagler Village, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Fort Lauderdale therapist moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "boca-raton-therapist-marketing",
@@ -76,6 +120,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Boca Raton mental health practices build the Google presence that attracts private-pay patients in one of Palm Beach County's strongest therapy markets. Our Foundation Package delivers a complete GBP rebuild with category optimization, Boca-specific service entries (including neighborhood-level targeting for Mizner Park, Town Center, East Boca, and West Boca), attribute configuration, and a compliant review system that builds toward the 20–40 review threshold that defines the Boca local pack.\n\nFor Boca Raton therapists who want to maximize private-pay patient acquisition, our Visibility Package adds a locally optimized website with dedicated pages for anxiety therapy, couples counseling, performance coaching, and other high-demand Boca specialties. Google Local Service Ads management ensures that your practice appears above all organic results for high-intent Boca searches — the fastest path to new private-pay patients while longer-term SEO compounds. Boca's private-pay rates are strong enough that a single new patient per month from improved Google visibility produces a positive return on the entire Primara engagement.",
     neighborhoods: ["Mizner Park", "Town Center area", "East Boca", "West Boca Raton", "Arvida"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Boca Raton?",
+        a: "Yes \u2014 Boca Raton is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Boca Raton's own patient search patterns, including how patients in Mizner Park and Town Center area actually search for a therapist.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Boca Raton?",
+        a: "Psychology Today's Boca Raton and surrounding Palm Beach County listings include a disproportionate number of insurance-panel therapists, reflecting the managed care landscape that dominates much of Florida's mental health reimbursement environment. When Boca patients open Psychology Today and filter for \"out-of-network\" or \"self-pay,\" the pool shrinks dramatically \u2014 but those patients don't always know to use that filter.",
+      },
+      {
+        q: "What makes Boca Raton's therapy market different from other Florida cities?",
+        a: "High-volume searches include \"therapist Boca Raton,\" \"private pay therapist Boca,\" \"anxiety therapist Mizner Park,\" \"couples counseling Boca Raton,\" \"therapist near FAU Boca,\" and \"executive therapist Boca Raton.\" Town Center area patients tend to search for therapists who specialize in relationship and family work. East Boca patients \u2014 a younger, professional demographic \u2014 search for anxiety, performance, and identity-related therapy. West Boca patients skew toward family systems and parenting-related therapy.",
+      },
+      {
+        q: "What should a Boca Raton therapist's Google Business Profile include?",
+        a: "Boca Raton therapist GBP optimization benefits from the relative youth of the market compared to Miami. The top-ranked therapists in Boca's local pack currently hold 20\u201340 Google reviews \u2014 a much lower threshold than Miami or Fort Lauderdale \u2014 meaning that a therapist entering the Boca market with a systematic review acquisition strategy can reach competitive parity within 60\u201390 days.",
+      },
+      {
+        q: "What areas within Boca Raton does this cover?",
+        a: "Service area within Boca Raton includes Mizner Park, Town Center area and East Boca. Because patient search intent shifts from one part of Boca Raton to another, a Boca Raton therapist's profile needs neighborhood-level content, not one generic city-wide listing.",
+      },
+    ],
   },
   {
     slug: "west-palm-beach-therapist-marketing",
@@ -96,6 +162,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps West Palm Beach mental health practices build local search infrastructure that serves both ends of the county's economic spectrum. Our Foundation Package delivers a complete GBP rebuild with neighborhood-level service entries, trauma and addiction specialty attributes, VA-adjacent content targeting, and a compliant review system using NFC tap cards and QR codes placed in your practice.\n\nFor West Palm Beach therapists serving specialized populations — trauma, addiction, veteran mental health — our Visibility Package adds a website with dedicated specialty pages that rank independently for the high-intent searches those populations generate. A trauma therapist near the VA Medical Center, for example, benefits from a standalone page targeting \"PTSD therapy West Palm Beach\" with Schema.org mental health service markup, which creates a Google search footprint separate from the GBP listing. The combination of a fully optimized GBP and specialty-specific website pages produces the dual visibility that moves West Palm Beach therapists to the top of local pack results across multiple search categories.",
     neighborhoods: ["Northwood", "Flamingo Park", "SoSo", "Palm Beach Lakes", "Lake Worth Beach"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in West Palm Beach?",
+        a: "We do. West Palm Beach therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to West Palm Beach is the search behavior in areas like Northwood and Flamingo Park, which is what the strategy is built around.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in West Palm Beach?",
+        a: "Psychology Today listings in West Palm Beach span the full spectrum from Medicaid-accepting community therapists to premium private-pay specialists, creating a cluttered environment for patients trying to identify the right fit. The high-net-worth patient population near Palm Beach Island and in neighborhoods like Flamingo Park and SoSo (South of Southern) tends to search Google directly rather than using directories \u2014 they're looking for a specific therapist, not a filtered list.",
+      },
+      {
+        q: "What makes West Palm Beach's therapy market different from other Florida cities?",
+        a: "High-volume searches include \"therapist West Palm Beach,\" \"trauma therapist WPB,\" \"addiction counselor Palm Beach County,\" \"veteran mental health West Palm Beach,\" \"PTSD therapist near VA,\" \"couples therapist Flamingo Park,\" and \"anxiety therapy Lake Worth Beach.\" Northwood and Flamingo Park patients trend toward relationship, identity, and anxiety-focused therapy. Palm Beach Lakes searches skew toward professional stress and family systems. Lake Worth Beach patients search for therapists accepting sliding scale fees as well as private-pay specialists.",
+      },
+      {
+        q: "What should a West Palm Beach therapist's Google Business Profile include?",
+        a: "A therapist in Northwood serves a different patient population than one in Palm Beach Lakes, and GBP service entries should reflect those neighborhood-level distinctions. Trauma therapists near the VA Medical Center should configure GBP attributes and services that explicitly call out veteran mental health care, PTSD treatment, and trauma-focused approaches \u2014 these are discrete search categories in the West Palm Beach market.",
+      },
+      {
+        q: "What areas within West Palm Beach does this cover?",
+        a: "We work across West Palm Beach, including Northwood, Flamingo Park and SoSo \u2014 not just a single office location. Search intent varies by neighborhood in West Palm Beach, so a West Palm Beach therapist's content has to be built at that same geographic level to show up where patients search.",
+      },
+    ],
   },
   {
     slug: "palm-beach-gardens-therapist-marketing",
@@ -116,6 +204,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Palm Beach Gardens mental health practices build the Google visibility that attracts PGA Corridor professionals and affluent northern Palm Beach County patients. Our Foundation Package delivers a complete GBP rebuild with professional-demographic service entries, neighborhood-level targeting for Mirasol, Frenchman's Creek, Abacoa, and the PGA Boulevard corridor, and a compliant review system that builds toward the 15–35 review threshold that defines PBG's local pack.\n\nFor Palm Beach Gardens therapists who want to compete directly with behavioral health chains on search visibility, our Visibility Package adds a locally optimized website with dedicated pages for executive counseling, couples therapy, and the specific specialties most searched by PBG's affluent patient population. Google Local Service Ads management puts your practice above BrightSpring and Centerstone in paid search results immediately, while the longer-term GBP and SEO work builds a sustainable organic presence that no chain can outspend.",
     neighborhoods: ["PGA Boulevard", "Abacoa (Jupiter)", "Mirasol", "Frenchman's Creek", "Palm Beach Country Estates"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Palm Beach Gardens?",
+        a: "Yes \u2014 Palm Beach Gardens is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Palm Beach Gardens's own patient search patterns, including how patients in PGA Boulevard and Abacoa (Jupiter) actually search for a therapist.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Palm Beach Gardens?",
+        a: "Palm Beach Gardens and the Jupiter corridor are seeing increasing penetration from behavioral health chains like BrightSpring and Centerstone, which bring name recognition and insurance panel breadth but struggle to deliver the personalized, relationship-based therapy experience that independent therapists offer. Patients who work along the PGA Corridor \u2014 in finance, real estate development, law, and corporate management \u2014 are sophisticated healthcare consumers who research their therapist before making contact.",
+      },
+      {
+        q: "What makes Palm Beach Gardens's therapy market different from other Florida cities?",
+        a: "Palm Beach Gardens therapy patients search with affluence and discretion as underlying motivations. High-volume searches include \"therapist Palm Beach Gardens,\" \"therapist near PGA Boulevard,\" \"executive coaching Palm Beach Gardens,\" \"couples therapist PBG,\" \"anxiety therapist Palm Beach Gardens FL,\" and \"confidential therapy Jupiter.\" The Mirasol and Frenchman's Creek demographic generates searches for therapists specializing in life transitions, grief, and relationship work. Abacoa patients skew younger and search for therapists who work with career stress, parenting, and relationship issues.",
+      },
+      {
+        q: "What should a Palm Beach Gardens therapist's Google Business Profile include?",
+        a: "Palm Beach Gardens therapist GBP optimization benefits from the market's relative underdevelopment compared to Miami, Fort Lauderdale, and Boca Raton. The top-ranked therapists in PBG's local pack hold 15\u201335 Google reviews, and the competition for GBP visibility is lower than in the more saturated southern Palm Beach County markets. A therapist entering Palm Beach Gardens with a structured review acquisition system and a fully optimized GBP can reach local pack prominence faster here than in any other South Florida market.",
+      },
+      {
+        q: "What areas within Palm Beach Gardens does this cover?",
+        a: "Service area within Palm Beach Gardens includes PGA Boulevard, Abacoa (Jupiter) and Mirasol. Because patient search intent shifts from one part of Palm Beach Gardens to another, a Palm Beach Gardens therapist's profile needs neighborhood-level content, not one generic city-wide listing.",
+      },
+    ],
   },
   {
     slug: "delray-beach-therapist-marketing",
@@ -136,6 +246,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Delray Beach mental health practices build the multi-audience Google presence that Florida's recovery capital demands. Our Foundation Package delivers a complete GBP rebuild with addiction, trauma, and general therapy service entries configured for Delray's distinct search landscape, neighborhood-level targeting for Atlantic Avenue, Pineapple Grove, Lake Ida, and the broader Delray Beach service area, and a HIPAA-aware review system using NFC tap cards that respect patient privacy in a sensitive recovery context.\n\nFor Delray Beach therapists serving the addiction and trauma specialties, our Visibility Package adds a locally optimized website with separate pages for each specialty — addiction counseling, trauma therapy, dual-diagnosis treatment, relationship therapy, anxiety therapy — each targeting the specific search phrases that bring Delray patients to therapy. The recovery community in Delray generates consistent, high-intent search traffic that a well-optimized therapy website can capture year-round. Combined with a top-ranked GBP listing, Delray Beach therapists who invest in local search infrastructure consistently outperform both larger chains and better-funded practices that rely on directory listings and word of mouth alone.",
     neighborhoods: ["Atlantic Avenue corridor", "Pineapple Grove", "Lake Ida", "Tropic Isle", "Delray Medical area"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Delray Beach?",
+        a: "We do. Delray Beach therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Delray Beach is the search behavior in areas like Atlantic Avenue corridor and Pineapple Grove, which is what the strategy is built around.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Delray Beach?",
+        a: "Psychology Today listings in the area skew heavily toward addiction and trauma specialists, sober living referral networks, and dual-diagnosis treatment providers \u2014 reflecting the city's identity as a recovery hub. The competition among these providers for directory placement is intense, but the more critical battleground is Google Maps. Patients in early recovery, family members seeking therapists for loved ones, and young professionals on Atlantic Avenue are all conducting Google searches before they ever open a directory.",
+      },
+      {
+        q: "What makes Delray Beach's therapy market different from other Florida cities?",
+        a: "Delray Beach therapy patients search with high specificity across several distinct intent categories. Recovery-adjacent searches include \"addiction therapist Delray Beach,\" \"dual diagnosis counseling Delray,\" \"trauma and addiction therapy Palm Beach County,\" and \"sober support therapist Delray.\" Broader therapy searches include \"therapist near Atlantic Avenue,\" \"anxiety therapist Delray Beach,\" \"relationship therapist Pineapple Grove,\" and \"EMDR therapist Delray.\" Young professional searches from the Atlantic Avenue and Pineapple Grove demographic include \"therapist for young adults Delray,\" \"therapy near me Delray Beach FL,\" and.",
+      },
+      {
+        q: "What should a Delray Beach therapist's Google Business Profile include?",
+        a: "Delray Beach therapist GBP optimization must address multiple distinct search audiences simultaneously. An addiction counselor in Delray needs GBP service entries targeting \"addiction therapy Delray Beach,\" \"substance abuse counseling Palm Beach County,\" \"dual diagnosis therapist Delray,\" and \"sober living support therapy\" \u2014 but also needs to appear for trauma searches, since trauma-informed care is a core competency expected of Delray addiction specialists.",
+      },
+      {
+        q: "What areas within Delray Beach does this cover?",
+        a: "We work across Delray Beach, including Atlantic Avenue corridor, Pineapple Grove and Lake Ida \u2014 not just a single office location. Search intent varies by neighborhood in Delray Beach, so a Delray Beach therapist's content has to be built at that same geographic level to show up where patients search.",
+      },
+    ],
   },
   {
     slug: "miami-beach-therapist-marketing",
@@ -156,6 +288,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Miami Beach mental health practices build the local search infrastructure that serves the city's uniquely diverse patient population. Our Foundation Package delivers a complete GBP rebuild with LGBTQ+-affirming attribute configuration, bilingual service entries in English and Spanish, a 12-month posting calendar that addresses the city's seasonal population dynamics (peak search volume from permanent residents November–April, tourism-worker demand peaks in summer), and a compliant review system using NFC tap cards and QR codes that generate consistent monthly review velocity from satisfied patients.\n\nFor Miami Beach therapists who want to maximize private-pay patient acquisition, our Visibility Package adds a locally optimized website with dedicated pages for South Beach, Flamingo Park, Mid-Beach, North Beach, and Surfside — each written for the specific patient demographic that neighborhood generates. LGBTQ+-specific landing pages with explicit affirming language, Spanish-language therapy pages targeting the city's bilingual patient base, and specialty-specific pages for anxiety, trauma, and relationship therapy build a search footprint that no Psychology Today listing can replicate. Combined with a top-ranked GBP, Miami Beach therapists who invest in Primara's full local search infrastructure consistently appear above directory listings for the searches that convert into private-pay appointments.",
     neighborhoods: ["South Beach", "Flamingo Park", "Mid-Beach / Nautilus", "North Beach", "Surfside border area"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Miami Beach?",
+        a: "Primara actively works with independent therapists in Miami Beach. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Miami Beach patients search, particularly around South Beach and Flamingo Park.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Miami Beach?",
+        a: "The directory reflects the city's high therapist density \u2014 a product of Miami Beach's affluent residential base, its active mental health culture, and the concentration of clinical practices near the Mount Sinai Medical Center and the Biscayne Bay corridor. Patients browsing Psychology Today in Miami Beach encounter hundreds of listings, and the default sort makes private-pay therapists nearly invisible to patients who don't actively filter by fee structure.",
+      },
+      {
+        q: "What makes Miami Beach's therapy market different from other Florida cities?",
+        a: "High-volume local searches include 'therapist Miami Beach,' 'LGBTQ therapist South Beach,' 'gender-affirming therapy Miami Beach,' 'anxiety therapist Miami Beach FL,' 'terapeuta en Miami Beach,' 'terapia en espa\u00f1ol South Beach,' 'couples therapist Miami Beach,' 'trauma therapist near Mount Sinai,' and 'therapist for burnout Miami Beach.' South Beach and Flamingo Park patients search with LGBTQ+-specific terms at higher rates than any other Miami Beach neighborhood. Mid-Beach and North Beach patients search for anxiety, relationship, and bilingual therapy.",
+      },
+      {
+        q: "What should a Miami Beach therapist's Google Business Profile include?",
+        a: "The LGBTQ+-specific therapy market demands explicit GBP attributes \u2014 'LGBTQ-friendly,' 'Transgender-affirmative care' \u2014 and service entries that name the therapy modalities LGBTQ+ patients search for: 'gender-affirming therapy Miami Beach,' 'queer-affirming counseling South Beach,' 'LGBTQ couples therapy Miami Beach.' These are discrete search categories that carry their own local ranking signals, and a therapist whose GBP explicitly addresses them ranks above competitors whose profiles use only generic mental health language.",
+      },
+      {
+        q: "What areas within Miami Beach does this cover?",
+        a: "This covers all of Miami Beach, with particular focus on South Beach, Flamingo Park and Mid-Beach / Nautilus, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Miami Beach therapist moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "coral-gables-therapist-marketing",
@@ -176,6 +330,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Coral Gables mental health practices build the bilingual local search presence that converts private-pay Latin professional searches into scheduled appointments. Our Foundation Package delivers a complete GBP rebuild with bilingual service entries targeting Coral Gables' Spanish-language therapy market, UM-adjacent patient population content, a 12-month posting calendar in both English and Spanish, and a compliant review system using NFC tap cards and QR codes that build toward the 15–30 review threshold that defines Coral Gables' accessible local pack.\n\nFor Coral Gables therapists who want to build a sustainable private-pay practice without dependence on insurance panels or Psychology Today, our Visibility Package adds a locally optimized website with dedicated neighborhood pages — Miracle Mile, Giralda Avenue, University of Miami area, South Gables — and bilingual content targeting the full range of Spanish-language search terms this market generates. Schema.org mental health service markup, Core Web Vitals optimization, and internal linking that distributes authority across specialty and neighborhood pages create a search footprint that compounds over time. Coral Gables' low GBP competition means that a practice investing in Primara's full local search infrastructure today will hold Local Pack positions for years against significantly more competitive circumstances.",
     neighborhoods: ["Miracle Mile", "Giralda Avenue", "South Gables", "University of Miami area", "Coconut Grove border"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Coral Gables?",
+        a: "Independent Coral Gables therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Coral Gables is the patient search behavior in Miracle Mile and Giralda Avenue. That local focus is what separates a GBP that ranks in Coral Gables from one that was never built for it in the first place.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Coral Gables?",
+        a: "What the directory does show for Coral Gables is a high proportion of Spanish-language and bilingual therapist profiles, reflecting the city's demographic reality: Coral Gables has one of the highest concentrations of Latin professionals in South Florida, with a particularly strong Cuban-American, Colombian, and Venezuelan professional base that searches for therapy in Spanish as naturally as in English.",
+      },
+      {
+        q: "What makes Coral Gables's therapy market different from other Florida cities?",
+        a: "High-volume local searches include 'therapist Coral Gables,' 'psic\u00f3logo en Coral Gables,' 'terapia en espa\u00f1ol Coral Gables,' 'anxiety therapist Coral Gables FL,' 'couples therapist near University of Miami,' 'therapist near UM Coral Gables,' 'terapia de pareja Coral Gables,' 'executive therapy Coral Gables,' and 'private pay therapist Coral Gables.' The Miracle Mile and Giralda Avenue commercial corridor generates searches from professionals and business owners. The UM-adjacent neighborhoods generate searches from graduate students and academic professionals.",
+      },
+      {
+        q: "What should a Coral Gables therapist's Google Business Profile include?",
+        a: "The top-ranked therapists in Coral Gables' therapy local pack hold 15\u201330 Google reviews \u2014 a threshold that a therapist entering the market with a structured review acquisition system can reach within 60\u201390 days. This means that a new or existing Coral Gables practice investing in GBP optimization now can reach local pack prominence faster than in any other established South Florida therapy market.",
+      },
+      {
+        q: "What areas within Coral Gables does this cover?",
+        a: "Service area within Coral Gables includes Miracle Mile, Giralda Avenue and South Gables. Because patient search intent shifts from one part of Coral Gables to another, a Coral Gables therapist's profile needs neighborhood-level content, not one generic city-wide listing. That neighborhood-by-neighborhood approach is what separates a Coral Gables therapist who ranks from one who built a single generic city-wide listing and stopped.",
+      },
+    ],
   },
   {
     slug: "aventura-therapist-marketing",
@@ -196,6 +372,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Aventura mental health practices build the bilingual, seasonally-aware local search infrastructure that converts year-round and snowbird patient searches into scheduled appointments. Our Foundation Package delivers a complete GBP rebuild with bilingual service entries targeting Aventura's Spanish-speaking patient base, snowbird-season availability content loaded into the 12-month posting calendar, culturally-specific attributes and service descriptions for both the Jewish retiree and Latin American patient segments, and a compliant review system using NFC tap cards and QR codes that generates consistent monthly review velocity.\n\nFor Aventura therapists who want to maximize both year-round and seasonal patient acquisition, our Visibility Package adds a locally optimized website with dedicated neighborhood pages for Williams Island, Turnberry Isle, Sunny Isles Beach, and the Fashion Square corridor, bilingual content in English and Spanish, snowbird patient intake pages, and specialty-specific content for grief, life transitions, anxiety, and couples therapy — the four highest-demand categories in this market. Telehealth-specific landing pages that address the snowbird lifecycle — establishing care in November, maintaining sessions through winter, transitioning to telehealth when patients return north in April — capture the full value of Aventura's seasonal demand rather than just the November spike.",
     neighborhoods: ["Williams Island", "Turnberry Isle", "Mystic Pointe", "Fashion Square area", "Sunny Isles Beach border"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Aventura?",
+        a: "Independent Aventura therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Aventura is the patient search behavior in Williams Island and Turnberry Isle. That local focus is what separates a GBP that ranks in Aventura from one that was never built for it in the first place.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Aventura?",
+        a: "The Aventura patient demographic skews affluent and is highly self-directed in healthcare research: Jewish retirees from Mystic Pointe and Porto Vita, Colombian and Venezuelan professionals from Williams Island and Turnberry Isle, and New York-area snowbirds all conduct independent Google searches before consulting any directory. This population is not waiting for an insurance panel referral to find a therapist \u2014 they are searching Google with high specificity and making decisions based on what they find in the local pack.",
+      },
+      {
+        q: "What makes Aventura's therapy market different from other Florida cities?",
+        a: "High-volume local searches include 'therapist Aventura FL,' 'terapeuta en Aventura,' 'psic\u00f3logo biling\u00fce Aventura,' 'anxiety therapist Aventura,' 'terapia en espa\u00f1ol Aventura,' 'couples therapist Aventura FL,' 'grief therapist near Aventura,' 'therapist for snowbirds Aventura,' and 'private pay therapist Aventura.' The Fashion Square and Biscayne Boulevard corridor generates searches from professionals and retail workers. Williams Island and Turnberry Isle searches reflect the affluent bilingual demographic seeking premium private-pay therapy.",
+      },
+      {
+        q: "What should a Aventura therapist's Google Business Profile include?",
+        a: "Aventura therapist GBP optimization must account for the city's seasonal demand dynamics. November through April, search volume for therapy in Aventura rises substantially as snowbirds arrive and establish temporary local provider relationships. GBP posts that explicitly address snowbird patient needs \u2014 'accepting new patients for winter season,' 'telehealth available for patients returning north in spring,' 'same-week appointments available' \u2014 published in October and November capture this high-intent seasonal traffic at the moment it peaks.",
+      },
+      {
+        q: "What areas within Aventura does this cover?",
+        a: "Coverage spans Aventura, including Williams Island, Turnberry Isle and Mystic Pointe. Patient search behavior differs by neighborhood, which is why a Aventura therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
   {
     slug: "pembroke-pines-therapist-marketing",
@@ -216,6 +414,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Pembroke Pines mental health practices build the local search presence that serves a genuinely diverse suburban patient community. Our Foundation Package delivers a complete GBP rebuild with service entries targeting Century Village retirees, young families in Chapel Trail and Silver Lakes, and the broader Pembroke Pines residential population — a 12-month posting calendar that rotates between senior mental health content, family therapy content, and anxiety and couples counseling content so that every patient demographic sees relevant GBP posts from the same practice. NFC tap cards and QR systems deployed in your office generate consistent monthly review flow from all patient segments.\n\nFor Pembroke Pines therapists who want to build a sustainable private-pay practice in a market that skews toward insurance acceptance, our Visibility Package adds a locally optimized website with dedicated pages for Century Village, Chapel Trail, Silver Lakes, and Pines City Center — each written to speak directly to the patient demographic that neighborhood generates. Private-pay therapy positioning content, sliding scale transparency pages, and specialty landing pages for grief, family systems, anxiety, and couples therapy build the full topical authority that Google uses to rank your website alongside your GBP listing in local pack results. The combined effect is a Pembroke Pines therapy practice visible across multiple patient demographics and multiple search intent categories.",
     neighborhoods: ["Century Village community", "Chapel Trail", "Silver Lakes", "Pines City Center", "Walnut Creek"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Pembroke Pines?",
+        a: "We do. Pembroke Pines therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Pembroke Pines is the search behavior in areas like Century Village community and Chapel Trail, which is what the strategy is built around.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Pembroke Pines?",
+        a: "The directory's saturation in the Broward County South corridor is moderate, lower than Fort Lauderdale proper but high enough that private-pay therapists without strong Google Map presence are being displaced by both directory listings and by larger group practices with broad geographic coverage. The Century Village patient demographic is particularly unlikely to navigate complex directory filtering \u2014 this population uses Google Maps first, reads reviews, and calls whoever appears at the top of the local pack.",
+      },
+      {
+        q: "What makes Pembroke Pines's therapy market different from other Florida cities?",
+        a: "Pembroke Pines therapy patients search with demographic-specific intent. High-volume local searches include 'therapist Pembroke Pines,' 'grief therapist Pembroke Pines FL,' 'family therapist South Broward,' 'anxiety therapist near Chapel Trail,' 'couples counseling Pembroke Pines,' 'therapist near Century Village,' 'senior mental health Pembroke Pines,' 'therapist accepting insurance Pembroke Pines,' and 'teen therapist Broward County.' Century Village residents search most frequently for grief counseling, anxiety management, and therapists experienced with aging-related transitions.",
+      },
+      {
+        q: "What should a Pembroke Pines therapist's Google Business Profile include?",
+        a: "Pembroke Pines therapist GBP optimization benefits from the market's moderate competitive baseline. The top-ranked therapists in Pembroke Pines' local pack hold 20\u201340 Google reviews \u2014 a threshold that is achievable within 90\u2013120 days for a practice with a structured review acquisition system.",
+      },
+      {
+        q: "What areas within Pembroke Pines does this cover?",
+        a: "We work across Pembroke Pines, including Century Village community, Chapel Trail and Silver Lakes \u2014 not just a single office location. Search intent varies by neighborhood in Pembroke Pines, so a Pembroke Pines therapist's content has to be built at that same geographic level to show up where patients search.",
+      },
+    ],
   },
   {
     slug: "hollywood-therapist-marketing",
@@ -236,6 +456,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Hollywood mental health practices build the culturally-diverse local search presence that this market demands. Our Foundation Package delivers a complete GBP rebuild with culturally-specific service entries addressing Hollywood's Haitian and Caribbean patient community, wellness-therapy service entries for the beachfront demographic, standard anxiety, couples, and family therapy entries for the broader South Broward patient base, and a 12-month posting calendar that rotates through content relevant to each patient community. NFC tap cards and QR systems generate consistent monthly review velocity from all patient segments.\n\nFor Hollywood therapists serving specialized cultural communities or wellness-adjacent therapy niches, our Visibility Package adds a locally optimized website with dedicated community pages — Young Circle arts district, Hollywood Beach, the northwest Hollywood corridor — and specialty pages for Haitian and Caribbean culturally-competent therapy, trauma therapy, somatic approaches, and anxiety and couples counseling. A therapist serving Hollywood's Haitian-American community, for example, benefits from a dedicated page in English targeting 'Haitian therapist Hollywood FL' with culturally-specific content and Schema.org mental health service markup — a Google search footprint that generates referrals from community members searching in English for a therapist who understands their cultural context. The combination of a culturally-aware GBP and a locally optimized website makes a Hollywood therapist visible across a wider range of patient communities than any directory listing can reach.",
     neighborhoods: ["Young Circle Arts District", "Hollywood Beach boardwalk", "Emerald Hills", "Northwest Hollywood", "Dania Beach border"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Hollywood?",
+        a: "Primara actively works with independent therapists in Hollywood. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Hollywood patients search, particularly around Young Circle Arts District and Hollywood Beach boardwalk.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Hollywood?",
+        a: "The directory's saturation in this corridor is moderate, but the more significant issue for Hollywood therapists is the directory's structural invisibility to the city's Haitian and Caribbean patient community. This population searches for mental health care in English, French, and Haitian Creole, and Psychology Today's search infrastructure does not effectively surface therapists with Haitian Creole competency or Caribbean cultural experience to patients who need them.",
+      },
+      {
+        q: "What makes Hollywood's therapy market different from other Florida cities?",
+        a: "Hollywood therapy patients search with culturally-specific and neighborhood-specific intent. High-volume local searches include 'therapist Hollywood FL,' 'Haitian therapist Hollywood Florida,' 'therapist near Young Circle,' 'anxiety therapist Hollywood Beach,' 'Caribbean therapist South Broward,' 'couples counseling Hollywood FL,' 'trauma therapist Hollywood FL,' 'wellness therapist Hollywood Beach,' and 'bilingual therapist Hollywood Florida.' The northwest Hollywood quadrant \u2014 where the city's Haitian-American community is concentrated near Pembroke Road \u2014 generates Haitian Creole and French-language therapy searches that almost no current Hollywood therapist profile is.",
+      },
+      {
+        q: "What should a Hollywood therapist's Google Business Profile include?",
+        a: "Hollywood therapist GBP optimization must address the city's demographic diversity at the service-entry level. Generic mental health service entries \u2014 'anxiety therapy,' 'couples counseling,' 'trauma therapy' \u2014 are necessary but not sufficient for a Hollywood practice serving multiple cultural communities. Culturally-specific service entries \u2014 'Haitian Creole-speaking therapist Hollywood,' 'Caribbean cultural competency counseling,' 'bilingual therapist South Broward,' 'wellness-focused trauma therapy Hollywood Beach' \u2014 create discrete ranking signals for the specific searches that each patient community in Hollywood runs.",
+      },
+      {
+        q: "What areas within Hollywood does this cover?",
+        a: "This covers all of Hollywood, with particular focus on Young Circle Arts District, Hollywood Beach boardwalk and Emerald Hills, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Hollywood therapist moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "port-st-lucie-therapist-marketing",
@@ -256,6 +498,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Port St. Lucie mental health practices build the local search infrastructure to capture the Treasure Coast's most underserved therapy market. Our Foundation Package delivers a complete GBP rebuild with community-specific service entries targeting Tradition, PGA Village, Sawgrass Lakes, and the Legacy corridor, new-patient availability messaging optimized for Port St. Lucie's new-resident patient demographic, telehealth service entries that capture patients from the broader Treasure Coast region, and a compliant review system using NFC tap cards and QR codes that builds toward Local Pack prominence within 60–90 days.\n\nFor Port St. Lucie therapists who want to establish a sustainable private-pay practice in a market with high unmet demand and low local competition, our Visibility Package adds a locally optimized website with dedicated community pages for Tradition, PGA Village, and Sawgrass Lakes, new-resident mental health content addressing the specific stressors of relocation and community establishment, specialty pages for anxiety, couples, family, and trauma therapy, and telehealth landing pages targeting the broader Treasure Coast geographic area from Martin County to Indian River County. The Port St. Lucie therapy market's low competitive baseline means that a practice investing in Primara's full local search infrastructure today can achieve and hold Local Pack dominance in this market for years before competitive pressure from growing therapist supply catches up.",
     neighborhoods: ["Tradition Town Square", "PGA Village communities", "Sawgrass Lakes", "Legacy Park", "Port St. Lucie Boulevard corridor"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Port St. Lucie?",
+        a: "Independent Port St. Lucie therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Port St. Lucie is the patient search behavior in Tradition Town Square and PGA Village communities.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Port St. Lucie?",
+        a: "Lucie, Stuart, Fort Pierce, and Vero Beach under a single regional umbrella \u2014 which means patients searching specifically for Port St. Lucie therapists encounter listings from across a 50-mile geographic range. The directory's geographic blurring reduces its utility for PSL-specific patient searches and sends patients who want a genuinely local therapist back to Google Maps, where they search 'therapist Port St.",
+      },
+      {
+        q: "What makes Port St. Lucie's therapy market different from other Florida cities?",
+        a: "Lucie therapy patients search with community-specific and access-driven intent. High-volume local searches include 'therapist Port St. Lucie,' 'therapist near Tradition FL,' 'anxiety therapist PSL,' 'couples counselor Port St. Lucie,' 'family therapist Treasure Coast,' 'telehealth therapist Port St. Lucie,' 'therapist near PGA Village,' 'counseling near Cleveland Clinic Tradition,' and 'therapist for depression Port St. Lucie FL.' New-resident searches \u2014 'therapist accepting new patients Port St. Lucie,' 'therapist same week Port St.",
+      },
+      {
+        q: "What should a Port St. Lucie therapist's Google Business Profile include?",
+        a: "Lucie therapist GBP optimization offers one of the clearest return-on-investment profiles of any mental health market in South Florida. The review benchmark for PSL's therapy local pack is remarkably low \u2014 the top-ranked therapists in Port St. Lucie hold 15\u201335 Google reviews \u2014 meaning that a therapist entering the market with a structured review acquisition system reaches local pack prominence in 60\u201390 days.",
+      },
+      {
+        q: "What areas within Port St. Lucie does this cover?",
+        a: "Coverage spans Port St. Lucie, including Tradition Town Square, PGA Village communities and Sawgrass Lakes. Patient search behavior differs by neighborhood, which is why a Port St. Lucie therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
 
   // ── Tampa Bay / Central Florida ────────────────────────────────────────
@@ -278,6 +542,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Tampa mental health practices build the local search infrastructure that a Psychology Today listing can't provide. Our Foundation Package starts with a full GBP audit and rebuild: category optimization, service entries written in real patient search language, photo strategy, and a 12-month posting calendar loaded at onboarding. We set up a compliant review generation system using NFC tap cards and QR codes placed at your office, so satisfied patients have an easy, policy-compliant way to leave a review every week.\n\nFor Tampa therapists who need a website rebuilt for local search, our Visibility Package delivers a 15–20 page site with neighborhood-specific landing pages — one for South Tampa, one for Hyde Park, one for Westchase, one for Carrollwood, one for New Tampa — each built around the exact phrases patients in that area are typing into Google. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your site pages alongside your GBP listing. Independent Tampa therapists who pair a fully optimized GBP with a locally built website are the ones who show up ahead of both Psychology Today and the national platforms in local search.",
     neighborhoods: ["Hyde Park", "South Tampa", "Westchase", "Carrollwood", "New Tampa"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Tampa?",
+        a: "We do. Tampa therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Tampa is the search behavior in areas like Hyde Park and South Tampa, which is what the strategy is built around.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Tampa?",
+        a: "Psychology Today's Tampa listings now number in the 500+ range, putting Tampa among the more saturated therapy directories in Florida. Patients scrolling that list are filtering by insurance panel first, specialty second \u2014 and a private-pay therapist without a standout profile photo, a tight specialty description, and dozens of listings ahead of them gets scrolled past.",
+      },
+      {
+        q: "What makes Tampa's therapy market different from other Florida cities?",
+        a: "Tampa therapy patients search with real specificity. High-intent local searches include phrases like \"therapist in Tampa accepting new patients,\" \"anxiety therapist South Tampa,\" \"couples therapist Hyde Park,\" \"therapist near MacDill AFB,\" \"military spouse counseling Tampa,\" and \"bilingual therapist Tampa FL.\" Patients in South Tampa and Hyde Park tend to search for established, in-person practices, while patients in Westchase, Carrollwood, and New Tampa \u2014 Tampa's fast-growing suburban corridors \u2014 search more often for family and child-focused counseling close to home.",
+      },
+      {
+        q: "What should a Tampa therapist's Google Business Profile include?",
+        a: "Most practices claim the generic \"Mental Health Service\" category and leave it there, missing subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" and \"Child Psychologist\" that each carry their own local ranking signal. A fully built-out Tampa therapist GBP carries multiple relevant categories, a full slate of services written in patient search language \u2014 \"anxiety therapy Tampa,\" \"couples counseling South Tampa,\" \"therapist near MacDill AFB\" \u2014 and attributes like \"telehealth available\" that patients actively filter by.",
+      },
+      {
+        q: "What areas within Tampa does this cover?",
+        a: "Service area within Tampa includes Hyde Park, South Tampa and Westchase. Because patient search intent shifts from one part of Tampa to another, a Tampa therapist's profile needs neighborhood-level content, not one generic city-wide listing. That neighborhood-by-neighborhood approach is what separates a Tampa therapist who ranks from one who built a single generic city-wide listing and stopped.",
+      },
+    ],
   },
   {
     slug: "st-petersburg-therapist-marketing",
@@ -298,6 +584,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps St. Petersburg mental health practices build the local search infrastructure that a Psychology Today profile cannot provide. Our Foundation Package begins with a full GBP audit and rebuild: category optimization, service entries written in patient search language, photo strategy, and a 12-month posting calendar loaded at onboarding. We establish a compliant review generation system using NFC tap cards and QR codes placed at your office — no incentivization, no policy violations, just a reliable monthly stream of five-star reviews from satisfied patients.\n\nFor St. Petersburg therapists who need a website rebuilt for local search, our Visibility Package delivers a locally optimized site with neighborhood-specific landing pages — Downtown St. Pete, Old Northeast, Snell Isle, Kenwood, and Grand Central — each targeting the search phrases patients in those areas actually type. Schema.org markup for therapy services and Core Web Vitals optimization ensure Google indexes and ranks your practice pages alongside your GBP listing. Whether you're an independent therapist building a private-pay practice or a small group building a referral base, the combined effect — a high-authority GBP and a locally optimized website — is what pushes St. Petersburg therapists to the top of local search results.",
     neighborhoods: ["Downtown St. Pete", "Old Northeast", "Snell Isle", "Kenwood", "Grand Central District", "Gulfport"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in St. Petersburg?",
+        a: "We do. St. Petersburg therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to St. Petersburg is the search behavior in areas like Downtown St. Pete and Old Northeast, which is what the strategy is built around.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in St. Petersburg?",
+        a: "Psychology Today's Saint Petersburg directory spans multiple pages of listings, filterable by specialty, insurance, and availability \u2014 which means every profile is competing against dozens of others sorted by whatever filter a patient happens to click first. Because the default filter most searchers apply is insurance acceptance, private-pay therapists are structurally disadvantaged inside the directory itself, no matter how strong their credentials are.",
+      },
+      {
+        q: "What makes St. Petersburg's therapy market different from other Florida cities?",
+        a: "Petersburg therapy patients search with real geographic and demographic specificity. High-intent local searches include phrases like \"therapist in St. Petersburg accepting new patients,\" \"anxiety therapist Old Northeast,\" \"LGBTQ-affirming therapist Grand Central District,\" \"grief counselor St. Pete,\" and \"couples therapist Snell Isle.\" Patients near the Grand Central District and Downtown trend younger and search for identity-affirming and relationship-focused therapy. Patients in Old Northeast, Snell Isle, and Kenwood \u2014 along with St.",
+      },
+      {
+        q: "What should a St. Petersburg therapist's Google Business Profile include?",
+        a: "Google Business Profile optimization for St. Petersburg therapists starts with category selection. Most practices claim only the generic \"Mental Health Service\" category and stop there, leaving behind subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" and \"Grief Counselor\" that each carry their own local search ranking signal. A fully optimized St. Petersburg therapist GBP carries multiple relevant categories, services written in the language patients actually search \u2014 \"anxiety therapy St.",
+      },
+      {
+        q: "What areas within St. Petersburg does this cover?",
+        a: "We work across St. Petersburg, including Downtown St. Pete, Old Northeast and Snell Isle \u2014 not just a single office location. Search intent varies by neighborhood in St. Petersburg, so a St. Petersburg therapist's content has to be built at that same geographic level to show up where patients search.",
+      },
+    ],
   },
   {
     slug: "clearwater-therapist-marketing",
@@ -318,6 +626,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Clearwater mental health practices build the local search infrastructure that a Psychology Today profile can't provide on its own. Our Foundation Package starts with a full GBP audit and rebuild: category optimization, service entries written in real patient search language, photo strategy, and a 12-month posting calendar loaded in at onboarding. We set up a compliant review generation system using NFC tap cards and QR codes placed in your office, giving satisfied patients an easy path to leaving a review without any incentive-based tactics that risk a policy violation.\n\nFor Clearwater therapists who need a website built for local search rather than just an online brochure, our Visibility Package delivers a locally optimized site with neighborhood-specific landing pages — one for Countryside, one for Island Estates, one for Belleair — each built around the way patients in that area actually search. Schema.org markup for therapy services, fast Core Web Vitals performance, and a GBP profile that reinforces the same local signals combine to give independent Clearwater therapists the kind of local search presence that Psychology Today, BetterHelp, and Zocdoc listings were never designed to provide.",
     neighborhoods: ["Clearwater Beach", "Island Estates", "Countryside", "Belleair", "Downtown Clearwater"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Clearwater?",
+        a: "We do. Clearwater therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Clearwater is the search behavior in areas like Clearwater Beach and Island Estates, which is what the strategy is built around.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Clearwater?",
+        a: "That density means most independent therapists are competing for attention on a page where patients filter by insurance panel first and specialty second \u2014 a structure that quietly disadvantages private-pay practices. National platforms compound the problem: BetterHelp and Zocdoc both maintain an active presence in the Clearwater market, giving patients low-friction alternatives before they ever reach an individual therapist's own website. A therapist who only exists inside these directories is renting attention rather than owning it.",
+      },
+      {
+        q: "What makes Clearwater's therapy market different from other Florida cities?",
+        a: "Clearwater therapy searches skew toward life-stage and life-transition language given the city's older median age: \"grief counselor Clearwater,\" \"therapist for anxiety near me,\" \"counseling for retirees Clearwater FL,\" and \"therapist accepting new patients Clearwater\" all show consistent local search activity. Patients near Clearwater Beach and Island Estates often search while comparing telehealth against in-person options, reflecting seasonal and part-time residents who split the year between Florida and elsewhere.",
+      },
+      {
+        q: "What should a Clearwater therapist's Google Business Profile include?",
+        a: "Many practices claim only the generic \"Mental Health Service\" category, leaving unclaimed the subordinate categories \u2014 \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" \"Family Counselor,\" \"Psychotherapist\" \u2014 that each carry their own local ranking signal. A fully optimized Clearwater therapist GBP profile carries multiple relevant categories, services written in the language patients actually search (\"anxiety therapy Clearwater,\" \"grief counseling Countryside,\" \"therapist Island Estates\"), and attributes like \"telehealth available\" that matter to a retiree population balancing mobility and convenience.",
+      },
+      {
+        q: "What areas within Clearwater does this cover?",
+        a: "This covers all of Clearwater, with particular focus on Clearwater Beach, Island Estates and Countryside, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Clearwater therapist moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "brandon-therapist-marketing",
@@ -338,6 +668,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Brandon-area mental health practices build the local search infrastructure that a Psychology Today profile alone can't deliver. Our Foundation Package starts with a full GBP audit and rebuild — category optimization, a complete services list in patient search language, photo strategy, and a 12-month posting calendar loaded at onboarding. We pair that with a compliant review generation system using NFC tap cards and QR codes placed in-office, building a steady stream of five-star reviews without incentivization or policy risk.\n\nFor Brandon therapists who need a website that actually supports local search, our Visibility Package delivers a multi-page site with neighborhood-specific landing pages — Valrico, Riverview, Bloomingdale, FishHawk — each built around the way patients in that specific area search. Schema.org markup for therapy services, Core Web Vitals optimization, and a GBP that reinforces the same local signals give an independent Brandon practice the owned search presence that directory listings and telehealth platforms can't touch.",
     neighborhoods: ["Valrico", "Riverview", "Bloomingdale", "FishHawk", "Lithia"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Brandon?",
+        a: "Primara actively works with independent therapists in Brandon. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Brandon patients search, particularly around Valrico and Riverview.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Brandon?",
+        a: "Psychology Today's directory search for Brandon, FL surfaces more than 300 provider profiles, but that number reflects Psychology Today's metro-radius search behavior \u2014 it pulls in therapists based across Tampa, Riverview, and Valrico alongside anyone physically located in Brandon proper. For a patient scrolling that list, there's no way to tell at a glance which providers are actually a short drive away versus a 30-minute commute across the county.",
+      },
+      {
+        q: "What makes Brandon's therapy market different from other Florida cities?",
+        a: "Brandon patients search with real specificity, and the family-driven demographic shapes what shows up. Common local searches include \"therapist in Brandon FL accepting new patients,\" \"child therapist Valrico,\" \"family counseling Riverview,\" \"marriage counselor Bloomingdale,\" and \"anxiety therapist near FishHawk.\" Parents in FishHawk and Lithia \u2014 both anchored by some of the county's highest-rated schools \u2014 tend to search for adolescent and behavioral specialists, while patients closer to Brandon's town center and along the Bloomingdale corridor search a broader mix of.",
+      },
+      {
+        q: "What should a Brandon therapist's Google Business Profile include?",
+        a: "Google Business Profile optimization for a Brandon therapist starts with getting past the default \"Mental Health Service\" category. Subordinate categories \u2014 \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Child Psychologist,\" \"Family Counselor\" \u2014 each carry independent local ranking weight, and most practices in this market claim only one or two of them.",
+      },
+      {
+        q: "What areas within Brandon does this cover?",
+        a: "This covers all of Brandon, with particular focus on Valrico, Riverview and Bloomingdale, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Brandon therapist moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "lakeland-therapist-marketing",
@@ -358,6 +710,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     services:
       "Primara helps Lakeland mental health practices build the local search infrastructure that a Psychology Today listing can't provide. Our Foundation Package starts with a full Google Business Profile audit and rebuild — category optimization, service entries written in real patient search language, photo strategy, and a 12-month posting calendar loaded at onboarding. We set up a compliant review generation system using NFC tap cards and QR codes placed at your office, giving independent therapists a steady, policy-safe stream of five-star reviews without incentivization.\n\nFor Lakeland therapists who need a website built for local search, our Visibility Package delivers a fully structured site with neighborhood-specific landing pages — one for South Lakeland, one for Dixieland, one for the Lake Hollingsworth area — each targeting the exact phrases patients in that part of Polk County are typing into Google. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your site pages alongside your GBP listing. In a market where Polk County's population is growing faster than almost anywhere else in Florida, getting that combined GBP-and-website infrastructure in place early is what determines which Lakeland therapists are visible to the next decade of new residents — and which stay buried behind directory listings.",
     neighborhoods: ["Dixieland", "South Lakeland", "Downtown Lakeland", "Grasslands", "Lake Hollingsworth"],
+    faqs: [
+      {
+        q: "Does Primara work with therapists in Lakeland?",
+        a: "Independent Lakeland therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Lakeland is the patient search behavior in Dixieland and South Lakeland. That local focus is what separates a GBP that ranks in Lakeland from one that was never built for it in the first place.",
+      },
+      {
+        q: "What's the biggest challenge for a private-pay therapist in Lakeland?",
+        a: "That gap is the opportunity: a therapist who ranks well in Google's local map pack right now can lock in visibility before Polk County's rapid population growth pulls more providers into the market. Directory listings are also filtered by insurance acceptance by default, which pushes private-pay therapists toward the bottom of search results regardless of how qualified they are \u2014 a structural disadvantage that a well-optimized Google Business Profile and website sidestep entirely. Polk County's growth is not evenly distributed.",
+      },
+      {
+        q: "What makes Lakeland's therapy market different from other Florida cities?",
+        a: "Patients in Grasslands and along Lake Hollingsworth trend toward established professionals and families searching for longer-term care and are more likely to pay out of pocket. Patients in South Lakeland are often newer arrivals to the county, searching broadly for \"therapist near me\" with less brand familiarity with any single practice.",
+      },
+      {
+        q: "What should a Lakeland therapist's Google Business Profile include?",
+        a: "Most practices claim only the generic \"Mental Health Service\" category, leaving subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" and \"Child Psychologist\" unclaimed \u2014 each one a separate local-search ranking signal Google uses to match patient queries. A fully built-out Lakeland therapist profile carries multiple relevant categories, 20+ services written in patient search language (\"anxiety therapy Lakeland,\" \"couples counseling South Lakeland,\" \"telehealth therapist Polk County\"), and attributes like \"telehealth available\" that widen the queries a profile can surface for.",
+      },
+      {
+        q: "What areas within Lakeland does this cover?",
+        a: "Service area within Lakeland includes Dixieland, South Lakeland and Downtown Lakeland. Because patient search intent shifts from one part of Lakeland to another, a Lakeland therapist's profile needs neighborhood-level content, not one generic city-wide listing. That neighborhood-by-neighborhood approach is what separates a Lakeland therapist who ranks from one who built a single generic city-wide listing and stopped.",
+      },
+    ],
   },
 {
   slug: "orlando-therapist-marketing",
@@ -378,6 +752,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Orlando mental health practices build the local search infrastructure that a Psychology Today listing can't provide. Our Foundation Package starts with a full GBP audit and rebuild: category optimization beyond generic 'Mental Health Service,' service entries written in real patient search language, photo strategy, and a 12-month posting calendar loaded at onboarding. We set up a compliant review generation system using NFC tap cards and QR codes placed at your office, so satisfied patients have an easy, policy-compliant way to leave a review every week — critical in a market where institutional competitors like Aspire Health Partners and Orlando Health's new Apopka facility already have professional marketing behind them.\n\nFor Orlando therapists who need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — one for Winter Park, one for Lake Nona, one for College Park, one for Thornton Park, one for Baldwin Park — each built around the exact phrases patients in that area are typing into Google, including bilingual pages targeting Orlando's large Spanish-speaking population. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your practice pages alongside your GBP listing. Independent Orlando therapists who pair a fully optimized GBP with a locally built, bilingual-ready website are the ones who show up ahead of both Psychology Today and institutional competitors in local search.",
   neighborhoods: ["Winter Park", "Lake Nona", "College Park", "Thornton Park", "Baldwin Park"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Orlando?",
+      a: "Independent Orlando therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Orlando is the patient search behavior in Winter Park and Lake Nona. That local focus is what separates a GBP that ranks in Orlando from one that was never built for it in the first place.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Orlando?",
+      a: "Orlando Health's new Apopka behavioral health hospital adds another well-funded, professionally marketed competitor into the local search landscape, further raising the bar for what a fully optimized behavioral health Google presence looks like in this market. The Psychology Today directory for Orlando is crowded with therapists sorted primarily by insurance panel, which structurally disadvantages private-pay practices \u2014 patients filtering by insurance never see them.",
+    },
+    {
+      q: "What makes Orlando's therapy market different from other Florida cities?",
+      a: "Orlando therapy patients search with real specificity. High-intent local searches include phrases like 'therapist near me Orlando accepting new patients,' 'anxiety therapist Winter Park,' 'psychiatrist Orlando FL telehealth,' 'couples counseling Lake Nona,' and 'child therapist College Park.' Orlando's large Puerto Rican and Hispanic community also searches directly in Spanish, with 'terapeuta en espa\u00f1ol Orlando' capturing real, underserved demand that most local competitors' GBP and website content never accounts for.",
+    },
+    {
+      q: "What should a Orlando therapist's Google Business Profile include?",
+      a: "Given how much of the market is behind institutional providers like Aspire and Orlando Health, a fully built profile with 25+ services in patient-search language ('anxiety therapy Winter Park,' 'telehealth therapy Orlando,' 'terapia en espa\u00f1ol') is the clearest way an independent therapist differentiates from both directory listings and hospital-system competitors.",
+    },
+    {
+      q: "What areas within Orlando does this cover?",
+      a: "Coverage spans Orlando, including Winter Park, Lake Nona and College Park. Patient search behavior differs by neighborhood, which is why a Orlando therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+    },
+  ],
 },
 {
   slug: "kissimmee-therapist-marketing",
@@ -398,6 +794,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Kissimmee mental health practices build the local search infrastructure that a Psychology Today listing can't provide, especially in a county where the therapist-to-resident ratio already trails the state average. Our Foundation Package starts with a full GBP audit and rebuild: category optimization across specialties like child and adolescent therapy, trauma-focused therapy/EMDR, and psychiatric medication management, service entries written in real patient search language, photo strategy, and a 12-month posting calendar loaded at onboarding. We set up a compliant review generation system using NFC tap cards and QR codes placed at your office — in English and Spanish where the practice offers bilingual care — so satisfied patients have an easy, policy-compliant way to leave a review every week.\n\nFor Kissimmee therapists who need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Celebration, Poinciana, Buenaventura Lakes, and Downtown Kissimmee — each built around the exact phrases patients in that area are typing into Google, plus a dedicated \"terapia en español\" page for the nearly 69% of Kissimmee residents who identify as Hispanic or Latino. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your practice pages alongside your GBP listing. Independent Kissimmee therapists who pair a fully optimized bilingual GBP with a locally built website are stepping into real, underserved demand instead of fighting for a sliver of a saturated market.",
   neighborhoods: ["Celebration", "Poinciana", "Buenaventura Lakes", "Downtown Kissimmee"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Kissimmee?",
+      a: "Primara actively works with independent therapists in Kissimmee. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Kissimmee patients search, particularly around Celebration and Poinciana.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Kissimmee?",
+      a: "Kissimmee's mental health landscape includes several multi-location groups \u2014 LifeStance Health on West Oak Street, Mindpath Health, and Harmony United Psychiatric Care \u2014 that run well-resourced Google Business Profiles and psychiatry-focused SEO. Smaller independent practices like Mindful Behavioral Healthcare (TMS therapy) and Inspire Counseling & Support Center (EMDR) compete on specialty and personal reputation rather than ad spend.",
+    },
+    {
+      q: "What makes Kissimmee's therapy market different from other Florida cities?",
+      a: "High-intent local searches include phrases like \"therapist Kissimmee accepting new patients,\" \"bilingual therapist Kissimmee,\" \"terapeuta en Kissimmee,\" \"anxiety therapist near Poinciana FL,\" \"child therapist Kissimmee,\" and \"EMDR trauma therapist Kissimmee.\" Patients searching in Spanish or explicitly for a bilingual provider are underserved by the larger group practices' English-only profiles, while families in Poinciana and Buenaventura Lakes search more often for child and adolescent counseling close to home.",
+    },
+    {
+      q: "What should a Kissimmee therapist's Google Business Profile include?",
+      a: "Given the county's shortage of behavioral health providers, service entries built around high-demand specialties (child and adolescent therapy, trauma/EMDR, psychiatric medication management) capture searches from patients already turned away or waitlisted elsewhere. Because Kissimmee's local pack is less saturated than nearby Orlando, the review count needed to rank competitively is lower \u2014 a therapist can often reach a top-three local pack position with 15-25 reviews rather than the 40-80 needed in larger metros.",
+    },
+    {
+      q: "What areas within Kissimmee does this cover?",
+      a: "We work across Kissimmee, including Celebration, Poinciana and Buenaventura Lakes \u2014 not just a single office location. Search intent varies by neighborhood in Kissimmee, so a Kissimmee therapist's content has to be built at that same geographic level to show up where patients search.",
+    },
+  ],
 },
 {
   slug: "winter-park-therapist-marketing",
@@ -418,6 +836,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara's Foundation Package rebuilds your Google Business Profile from the ground up: category optimization across the specialties patients search by, service entries written in real patient language, session-type attributes, and a compliant review-generation system using NFC tap cards and QR codes that keeps new reviews coming in steadily rather than in one initial burst. In a market as dense as Winter Park's 32789 zip code, that steady review velocity is what keeps a practice visible against dozens of established competitors.\n\nFor practices that need a website built for local search, our Visibility Package adds neighborhood-specific landing pages for Hannibal Square, the Park Avenue District, and Baldwin Park, each targeting the exact search phrases Winter Park patients use — from general 'therapist near me' searches to specific queries like 'trauma therapist emdr' or 'teen counseling.' Paired with a fully optimized GBP, that combination keeps a Winter Park practice's in-person, local presence ahead of both established local competitors and the out-of-state telehealth providers the Counseling Compact now allows into the market.",
   neighborhoods: ["Hannibal Square", "Park Avenue District", "Baldwin Park"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Winter Park?",
+      a: "Independent Winter Park therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Winter Park is the patient search behavior in Hannibal Square and Park Avenue District.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Winter Park?",
+      a: "Winter Park's private-pay therapy market is already dense: dozens of licensed counselors, psychologists, and psychiatric providers advertise directly in the 32789 zip code, competing for the same searches a single practice needs to rank for. That kind of local saturation means a bare-bones or unclaimed Google Business Profile gets lost fast, buried under competitors who've already invested in their listings. The bigger shift is regulatory.",
+    },
+    {
+      q: "What makes Winter Park's therapy market different from other Florida cities?",
+      a: "Winter Park therapy patients search with real specificity. Common local searches include phrases like 'therapist near me winter park fl,' 'anxiety counseling winter park,' and 'couples therapist winter park fl,' alongside more urgent, credential-specific queries such as 'therapist accepting new clients winter park,' 'trauma therapist emdr winter park fl,' and 'psychiatrist medication management winter park.' Parents search 'teen counseling winter park fl' directly, while a growing number of patients are typing some version of 'in person therapist vs online therapy.",
+    },
+    {
+      q: "What should a Winter Park therapist's Google Business Profile include?",
+      a: "We build out your Google Business Profile with the specialty categories patients and Google actually use to sort local therapists \u2014 Licensed Mental Health Counselor, Marriage and Family Therapist, Clinical Social Worker, Psychiatric Nurse Practitioner \u2014 rather than leaving the profile parked under a single generic category. Each carries its own local ranking signal, and claiming the right combination is what separates a fully built-out profile from the dozens of competitors in 32789 who stop at the default listing.",
+    },
+    {
+      q: "What areas within Winter Park does this cover?",
+      a: "This covers all of Winter Park, with particular focus on Hannibal Square, Park Avenue District and Baldwin Park, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Winter Park therapist moves from invisible to dominant in local search.",
+    },
+  ],
 },
 {
   slug: "altamonte-springs-therapist-marketing",
@@ -437,6 +877,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara's Foundation Package for Altamonte Springs mental health practices starts with a full GBP audit and rebuild: category optimization beyond the default 'Mental Health Service' listing, service entries written in real patient search language, a photo strategy, and a 12-month posting calendar loaded at onboarding. We install a compliant review generation system using NFC tap cards and QR codes at the office, so satisfied patients have a frictionless, policy-compliant way to leave a review — no incentivization required.\n\nFor practices that need a website rebuilt for local search, our Visibility Package delivers neighborhood-specific landing pages — one for Uptown Altamonte, one for Cranes Roost, one for Spring Oaks — each built around the exact phrases patients in that area are typing into Google. Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks those pages alongside the GBP listing, so an independent Altamonte Springs therapist shows up ahead of both the Psychology Today directory and the area's established practices in local search.",
   neighborhoods: ["Uptown Altamonte", "Cranes Roost", "Spring Oaks"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Altamonte Springs?",
+      a: "Yes \u2014 Altamonte Springs is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Altamonte Springs's own patient search patterns, including how patients in Uptown Altamonte and Cranes Roost actually search for a therapist.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Altamonte Springs?",
+      a: "Psychology Today's directory for the Altamonte Springs and greater Seminole County area lists dozens of therapists, and patients filtering by 'accepting new clients' or 'self-pay' often skip past a listing that sits several pages deep in a generic, unranked directory feed.",
+    },
+    {
+      q: "What makes Altamonte Springs's therapy market different from other Florida cities?",
+      a: "Altamonte Springs therapy patients search with real specificity. High-intent local searches include phrases like \"therapist Altamonte Springs FL accepting new clients,\" \"psychiatrist near Uptown Altamonte,\" \"anxiety therapy Altamonte Springs FL,\" \"telehealth therapist Seminole County FL,\" \"couples counseling near Cranes Roost,\" and \"EMDR therapist Altamonte Springs.\" The young professional renters filling Uptown Altamonte's new apartment communities skew toward anxiety, life-transition, and relationship-focused searches, while patients in Cranes Roost and Spring Oaks search with the same intent but different neighborhood terms.",
+    },
+    {
+      q: "What should a Altamonte Springs therapist's Google Business Profile include?",
+      a: "Service entries should be written in the language patients actually search \u2014 'anxiety therapy Altamonte Springs,' 'couples counseling near Uptown Altamonte,' 'telehealth therapist Seminole County' \u2014 rather than clinical jargon that patients don't type into Google. Review velocity is what separates a practice competing effectively against established names like Healing Psychiatry of Florida and Telesto Health from one that's invisible next to them.",
+    },
+    {
+      q: "What areas within Altamonte Springs does this cover?",
+      a: "We work across Altamonte Springs, including Uptown Altamonte, Cranes Roost and Spring Oaks \u2014 not just a single office location. Search intent varies by neighborhood in Altamonte Springs, so an Altamonte Springs therapist's content has to be built at that same geographic level to show up where patients search.",
+    },
+  ],
 },
 {
   slug: "sanford-therapist-marketing",
@@ -457,6 +919,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Sanford mental health practices build the local search infrastructure that directory listings alone can't provide. Our Foundation Package starts with a full GBP audit and rebuild: category optimization across Psychologist, Counselor, and Marriage or Relationship Counselor, service entries covering individual therapy for anxiety and depression, couples and marriage counseling, trauma-focused therapy, psychiatric medication management, and substance use counseling — all written in the language Sanford patients actually search. We set up a compliant review generation system using NFC tap cards and QR codes placed at your office, so satisfied patients have an easy, policy-compliant way to leave a review every week, compounding faster than in a saturated metro market.\n\nFor Sanford therapists who need a website rebuilt for local search, our Visibility Package delivers a locally optimized site with neighborhood-specific landing pages for Historic Downtown Sanford, Midway, and Lake Forest, along with telehealth and in-person service pages that match how patients in Seminole County actually search. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your practice pages alongside your GBP listing. In a market where most 'Sanford' searches still default to an Orlando or Lake Mary practice, a fully optimized GBP paired with a locally built website is what keeps that traffic in Sanford instead of leaking to a bigger neighboring city.",
   neighborhoods: ["Historic Downtown Sanford", "Midway", "Lake Forest"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Sanford?",
+      a: "We do. Sanford therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Sanford is the search behavior in areas like Historic Downtown Sanford and Midway, which is what the strategy is built around.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Sanford?",
+      a: "Psychology Today, Zocdoc, and GoodTherapy all list therapists serving Sanford, but the pool is thin compared to Orlando proper \u2014 most individual practitioners found in a Sanford search are solo telehealth providers licensed across multiple states rather than local, in-person practices.",
+    },
+    {
+      q: "What makes Sanford's therapy market different from other Florida cities?",
+      a: "Sanford therapy patients search with real specificity, even in a smaller market. High-intent local searches include phrases like 'therapist near me Sanford FL,' 'counselor accepting new patients Sanford Florida,' 'anxiety therapist Sanford FL,' and 'marriage counseling Sanford Seminole County.' Patients looking for medication management search 'psychiatrist Sanford FL medication management,' while others explicitly search 'telehealth therapist Seminole County' for remote options.",
+    },
+    {
+      q: "What should a Sanford therapist's Google Business Profile include?",
+      a: "GBP optimization in Sanford starts from a real advantage: the review-count bar here is far lower than in Miami or Fort Lauderdale, where the top-ranked therapists carry 40 or more reviews. A Sanford therapist building a steady, ongoing review stream \u2014 even a modest one \u2014 can reach a competitive local pack position much faster than in a saturated metro market.",
+    },
+    {
+      q: "What areas within Sanford does this cover?",
+      a: "Coverage spans Sanford, including Historic Downtown Sanford, Midway and Lake Forest. Patient search behavior differs by neighborhood, which is why a Sanford therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+    },
+  ],
 },
 {
   slug: "jacksonville-therapist-marketing",
@@ -477,6 +961,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Jacksonville mental health practices build the local search infrastructure that a Psychology Today listing can't provide. Our Foundation Package starts with a full GBP audit and rebuild: category and service-area configuration, service entries covering individual therapy, couples and marriage counseling, child and adolescent therapy, psychiatric medication management, teletherapy, EMDR and trauma-focused therapy, and group sessions, all written in real patient search language. We set up a compliant, confidentiality-respecting review generation system so satisfied clients have an easy way to leave a review without compromising privacy.\n\nFor Jacksonville therapists who need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Riverside/Avondale, San Marco, and Jacksonville Beach — each built around the exact phrases patients in that area are typing into Google. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your site pages alongside your GBP listing. In a market meeting only a quarter of documented need, a fully optimized GBP paired with a locally built website is what lets a Jacksonville therapist fill a caseload instead of watching prospective clients wait 48 days for someone else.",
   neighborhoods: ["Riverside/Avondale", "San Marco", "Jacksonville Beach"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Jacksonville?",
+      a: "Primara actively works with independent therapists in Jacksonville. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Jacksonville patients search, particularly around Riverside/Avondale and San Marco.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Jacksonville?",
+      a: "We make sure your specialties, accepted insurance, telehealth availability, and bio are consistent and complete across every directory a prospective client checks, so you don't lose a referral to a mismatched fax number or an outdated 'not accepting clients' status.",
+    },
+    {
+      q: "What makes Jacksonville's therapy market different from other Florida cities?",
+      a: "Jacksonville therapy patients search with real specificity. High-intent local searches include phrases like \"therapist near me Jacksonville FL,\" \"anxiety counseling Riverside Jacksonville,\" \"child therapist San Marco Jacksonville,\" \"psychiatrist accepting new patients Jacksonville FL,\" \"teletherapy Jacksonville FL,\" \"marriage counseling Jacksonville Beach,\" \"EMDR therapist Jacksonville,\" and \"therapist that takes my insurance Jacksonville.\" Patients in Riverside/Avondale and San Marco tend to search for established, in-person practices close to the urban core, while patients near Jacksonville Beach search more often for couples and marriage.",
+    },
+    {
+      q: "What should a Jacksonville therapist's Google Business Profile include?",
+      a: "Many Jacksonville therapists run as service-area businesses rather than storefronts, which changes how Google Business Profile needs to be configured to avoid suspension while still ranking for neighborhood searches. We set up your profile correctly for that model and build out session types and specialties so you rank for the specific searches patients in Riverside, San Marco, and Jacksonville Beach are actually typing, not just a generic 'therapist' listing.",
+    },
+    {
+      q: "What areas within Jacksonville does this cover?",
+      a: "Coverage spans Jacksonville, including Riverside/Avondale, San Marco and Jacksonville Beach. Patient search behavior differs by neighborhood, which is why a Jacksonville therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+    },
+  ],
 },
 {
   slug: "jacksonville-beach-therapist-marketing",
@@ -497,6 +1003,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Jacksonville Beach mental health practices build the local search infrastructure that a directory listing alone can't provide. Our Foundation Package starts with a full GBP audit and rebuild — category optimization for individual therapy, couples counseling, trauma therapy, and telehealth, service entries written in real patient search language, and a review generation system that gives satisfied patients an easy, policy-compliant way to leave a review. We also build and correct your listings on the directories patients and primary care offices actually use — Psychology Today, TherapyDen, GoodTherapy, and insurance-network provider finders — with consistent specialties, accepted insurance, and telehealth availability, so you're not losing referrals to Elite DNA's dedicated marketing team or a national telehealth platform's ad budget.\n\nFor Jacksonville Beach therapists who need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Marsh Landing, Isle of Palms, and Seawalk/Downtown Jacksonville Beach — each built around the specialty and insurance-status searches patients in that area actually type, from \"anxiety therapist Jacksonville Beach\" to \"in-network therapist Jacksonville Beach.\" Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks your site pages alongside your GBP listing, so an independent Jacksonville Beach therapist can compete against Elite DNA's Marsh Landing clinic and national telehealth platforms in local search instead of ceding it to them.",
   neighborhoods: ["Marsh Landing", "Isle of Palms", "Seawalk / Downtown Jacksonville Beach"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Jacksonville Beach?",
+      a: "We do. Jacksonville Beach therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Jacksonville Beach is the search behavior in areas like Marsh Landing and Isle of Palms, which is what the strategy is built around.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Jacksonville Beach?",
+      a: "That gap should favor local practices, but in Jacksonville Beach it's being absorbed by better-marketed competitors instead: Psychology Today, TherapyDen, and GoodTherapy profiles are where most residents start their search, and an incomplete or outdated profile quietly costs a practice referrals every week.",
+    },
+    {
+      q: "What makes Jacksonville Beach's therapy market different from other Florida cities?",
+      a: "Jacksonville Beach therapy patients search with real specificity. High-intent local searches include phrases like \"therapist Jacksonville Beach FL,\" \"counselor near me 32250,\" \"anxiety therapist Jacksonville Beach,\" \"couples counseling Jacksonville Beach FL,\" \"trauma therapist Jacksonville Beach,\" and \"telehealth therapy Jacksonville FL.\" Patients also search \"psychiatrist Jacksonville Beach accepting new patients,\" \"therapist near Marsh Landing Jacksonville Beach,\" \"in-network therapist Jacksonville Beach,\" and \"teen counseling Jacksonville Beach FL\" \u2014 a mix of clinical specialty, insurance status, and neighborhood proximity that a generic directory.",
+    },
+    {
+      q: "What should a Jacksonville Beach therapist's Google Business Profile include?",
+      a: "A Google Business Profile matters even more for therapy practices, where patients are often searching privately from a phone and deciding based on the first few results. We set your profile's categories and services \u2014 individual therapy, couples counseling, trauma therapy, telehealth \u2014 to match how Jacksonville Beach residents actually search, and keep hours and insurance information current so a patient isn't met with outdated details at the moment they're ready to call.",
+    },
+    {
+      q: "What areas within Jacksonville Beach does this cover?",
+      a: "We work across Jacksonville Beach, including Marsh Landing, Isle of Palms and Seawalk / Downtown Jacksonville Beach \u2014 not just a single office location. Search intent varies by neighborhood in Jacksonville Beach, so a Jacksonville Beach therapist's content has to be built at that same geographic level to show up where patients search.",
+    },
+  ],
 },
 {
   slug: "st-augustine-therapist-marketing",
@@ -517,6 +1045,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Our Foundation Package starts with a full Google Business Profile audit and rebuild: the right categories beyond the generic 'Mental Health Service' listing, service entries written in the language patients actually search — insurance-specific phrases like 'BlueCross BlueShield therapist Saint Augustine,' specialty phrases like 'TMS therapy' and 'Spravato' — and a compliant review generation system using NFC tap cards and QR codes, so satisfied patients have a frictionless, policy-compliant way to leave a review.\n\nFor practices that need a website rebuilt for local search, our Visibility Package delivers neighborhood-specific landing pages — Vilano Beach, World Golf Village, St. Augustine Beach, Murabella, and Historic Downtown — each targeting the phrases patients in that area are actually typing into Google, from general searches like 'therapist St. Augustine FL accepting new patients' to specialty searches for TMS and Spravato. In a county adding residents faster than any other in Florida, a practice that pairs a fully optimized GBP with a locally built website is the one patients actually find — instead of scrolling past on Psychology Today.",
   neighborhoods: ["Vilano Beach", "World Golf Village", "St. Augustine Beach", "Murabella", "Historic Downtown"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in St. Augustine?",
+      a: "Primara actively works with independent therapists in St. Augustine. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how St. Augustine patients search, particularly around Vilano Beach and World Golf Village.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in St. Augustine?",
+      a: "Most people searching for a St. Augustine therapist land on Psychology Today, Headway, or Zocdoc before they ever find an individual practice's own website. Insurance is often the deciding filter at that stage \u2014 searches like 'BlueCross BlueShield therapist Saint Augustine' pull real volume \u2014 and a practice without a strong, insurance-specific presence on its own site is relying entirely on third-party directories to be found, which caps how much of that search demand it actually captures.",
+    },
+    {
+      q: "What makes St. Augustine's therapy market different from other Florida cities?",
+      a: "Augustine therapy patients search with real specificity. High-intent searches include phrases like 'therapist St. Augustine FL accepting new patients,' 'child therapist near Vilano Beach,' 'anxiety counseling St. Augustine Beach,' 'psychiatrist near World Golf Village,' 'marriage counselor St. Johns County,' and 'telehealth therapist St. Augustine FL' \u2014 alongside more specialized searches like 'TMS therapy St. Augustine FL' and 'Spravato provider near me St.",
+    },
+    {
+      q: "What should a St. Augustine therapist's Google Business Profile include?",
+      a: "Augustine. A compliant, well-maintained GBP \u2014 accurate specialties, accepted insurance, and genuine reviews \u2014 captures searches like 'therapist St. Augustine FL accepting new patients' and 'marriage counselor St. Johns County' in the local map pack, visibility that a Psychology Today listing alone can't surface. Category selection matters as much as the basics: claiming only the generic 'Mental Health Service' category misses subordinate categories that carry their own ranking signal for the specific searches St.",
+    },
+    {
+      q: "What areas within St. Augustine does this cover?",
+      a: "We work across St. Augustine, including Vilano Beach, World Golf Village and St. Augustine Beach \u2014 not just a single office location. Search intent varies by neighborhood in St. Augustine, so a St. Augustine therapist's content has to be built at that same geographic level to show up where patients search.",
+    },
+  ],
 },
 {
   slug: "orange-park-therapist-marketing",
@@ -537,6 +1087,28 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Orange Park mental health practices build the local search infrastructure that Psychology Today, GoodTherapy, and Zocdoc can't provide. Our Foundation Package starts with a full GBP audit and rebuild — claiming categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Family Counselor,\" and \"Child Psychologist\" in addition to the generic \"Mental Health Service\" category, writing service entries for individual therapy, couples and marriage counseling, child and adolescent therapy, anxiety and depression treatment, trauma-focused therapy/EMDR, and telehealth counseling in the language patients actually search, and loading a 12-month posting calendar at onboarding. We set up a compliant, no-incentive review generation system using NFC tap cards and QR codes placed at your office, so satisfied patients have an easy way to leave a review — a meaningful edge in a market where the local map pack often shows only three results.\n\nFor Orange Park therapists who need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — The Woodlands, Eagle Landing, Doctors Lake, and Wilford Preserve — each built around the exact phrases patients in those areas are typing into Google. Schema.org markup for therapy services and Core Web Vitals optimization make sure Google indexes and ranks your practice pages alongside your GBP listing, so an independent therapist can compete directly with Elite DNA Behavioral Health's two Kingsley Avenue clinics and HCA Florida Orange Park Hospital's in-house mental health program instead of only showing up as one more listing on a directory page.",
   neighborhoods: ["The Woodlands", "Eagle Landing", "Doctors Lake", "Wilford Preserve"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Orange Park?",
+      a: "Independent Orange Park therapists are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Orange Park is the patient search behavior in The Woodlands and Eagle Landing. That local focus is what separates a GBP that ranks in Orange Park from one that was never built for it in the first place.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Orange Park?",
+      a: "Orange Park therapists are currently listed across at least five major directories \u2014 Psychology Today, GoodTherapy, TherapyDen, Zocdoc, and Healthgrades \u2014 plus HCA Florida Orange Park Hospital's own mental health and wellness program page. Because Orange Park is a much smaller market than Jacksonville proper, the directory results for OP-specific searches are thinner, which means an individual therapist has a real shot at ranking above directory pages entirely.",
+    },
+    {
+      q: "What makes Orange Park's therapy market different from other Florida cities?",
+      a: "Orange Park therapy patients search with real specificity. High-intent local searches include phrases like \"therapist near me Orange Park FL,\" \"anxiety therapist Orange Park,\" \"child therapist Clay County FL,\" \"marriage counselor Orange Park FL,\" \"therapist accepting new clients Orange Park,\" \"teen counseling Orange Park FL,\" \"telehealth therapist Clay County,\" and \"EMDR therapist near Fleming Island.\" A market this size doesn't support the neighborhood-by-neighborhood segmentation of a larger metro, but it does reward a practice that builds GBP service entries and.",
+    },
+    {
+      q: "What should a Orange Park therapist's Google Business Profile include?",
+      a: "Review count and consistency matter more in a market Orange Park's size than in a saturated metro, because the local map pack often shows only three results. Primara sets up a compliant, no-incentive review system using NFC tap cards and QR codes.",
+    },
+    {
+      q: "What areas within Orange Park does this cover?",
+      a: "We work across Orange Park, including The Woodlands, Eagle Landing and Doctors Lake \u2014 not just a single office location. Search intent varies by neighborhood in Orange Park, so an Orange Park therapist's content has to be built at that same geographic level to show up where patients search.",
+    },
+  ],
 },
 {
   slug: "fernandina-beach-therapist-marketing",
@@ -557,5 +1129,27 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   services:
     "Primara helps Fernandina Beach mental health practices build the local search infrastructure that a Psychology Today listing can't provide. Our Foundation Package starts with a full GBP audit and rebuild: category optimization across 'Mental Health Service,' 'Counselor,' 'Psychologist,' and 'Marriage or Relationship Counselor,' service entries written in real patient search language, photo strategy, and a review generation system that gets a new practice past the 15-25 review threshold needed to credibly outrank competitors with no reviews at all.\n\nFor therapists who need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Downtown Fernandina Beach Historic District, Old Town Fernandina, Yulee, and Wildlight — each built around the exact phrases patients in that area are typing into Google as Nassau County's population grows. Pairing a fully optimized GBP with a locally built website is how an independent Fernandina Beach therapist becomes the first result new residents find, instead of one of a handful of static directory listings.",
   neighborhoods: ["Downtown Fernandina Beach Historic District", "Old Town Fernandina", "Yulee", "Wildlight"],
+  faqs: [
+    {
+      q: "Does Primara work with therapists in Fernandina Beach?",
+      a: "We do. Fernandina Beach therapists get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Fernandina Beach is the search behavior in areas like Downtown Fernandina Beach Historic District and Old Town Fernandina, which is what the strategy is built around.",
+    },
+    {
+      q: "What's the biggest challenge for a private-pay therapist in Fernandina Beach?",
+      a: "Fernandina Beach's Psychology Today and directory listings are sparse relative to the growth the area is seeing \u2014 a small number of independent practitioners, including long-tenured local counselors like Anne Cleary Counseling and Platinum Coast Counseling, show up alongside larger national directory aggregators and telehealth-only listings that have no real local presence.",
+    },
+    {
+      q: "What makes Fernandina Beach's therapy market different from other Florida cities?",
+      a: "Patients in this market search with real local specificity. High-intent phrases include \"therapist Fernandina Beach accepting new patients,\" \"counselor Amelia Island,\" \"anxiety therapist near Yulee FL,\" \"couples counseling Fernandina Beach,\" \"telehealth therapist Nassau County,\" and \"private pay therapist Amelia Island.\" With Wildlight and Yulee adding new households every month, a growing share of that search volume is coming from residents with no established local relationships yet \u2014 exactly the searches a thin, static directory listing is poorly positioned to capture.",
+    },
+    {
+      q: "What should a Fernandina Beach therapist's Google Business Profile include?",
+      a: "Because the local pack here has far fewer established competitors than a market like Jacksonville, review count thresholds are lower and more achievable \u2014 a therapist with 15-25 recent Google reviews can credibly rank above practices with no reviews at all.",
+    },
+    {
+      q: "What areas within Fernandina Beach does this cover?",
+      a: "This covers all of Fernandina Beach, with particular focus on Downtown Fernandina Beach Historic District, Old Town Fernandina and Yulee, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Fernandina Beach therapist moves from invisible to dominant in local search.",
+    },
+  ],
 },
 ];

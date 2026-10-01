@@ -36,6 +36,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara helps Miami men's health practices build the local search infrastructure that national telehealth ad spend cannot replicate. Our Foundation Package begins with a full GBP audit and rebuild: category optimization, bilingual service entries where relevant, photo strategy, and a full year of posts loaded at onboarding. We install a discreet, compliant review generation system using NFC tap cards and QR codes placed in your clinic — no incentivization, no policy violations, just a reliable stream of reviews from satisfied patients.\n\nFor Miami clinics that need a website rebuilt for local search, our Visibility Package delivers a service- and neighborhood-specific site — pages for TRT, for ED treatment, for men's wellness, each targeting the exact phrases patients type. Schema.org markup for medical clinic and Core Web Vitals optimization ensure Google indexes and ranks your pages alongside your GBP listing. The combined effect — a high-authority GBP and a locally optimized website — is what independent Miami clinics need to compete against national ad budgets on their own turf.",
     neighborhoods: ["Brickell", "Coral Gables", "Miami Beach", "Coconut Grove", "Downtown Miami"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Miami?",
+        a: "Miami is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in Miami means Brickell and Coral Gables.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Miami?",
+        a: "National TRT telehealth brands spend heavily on Google and Meta ads targeting Miami-Dade specifically \u2014 it's one of the largest media markets in Florida. That spend buys visibility for searches like \"testosterone therapy\" broadly, but it can't buy a Google Maps listing tied to a real Miami address, and it can't produce the local reviews that convince a skeptical patient a real doctor is behind the practice.",
+      },
+      {
+        q: "What makes Miami's men's health market different from other Florida cities?",
+        a: "Miami men's health patients search with clear commercial intent. The highest-value local searches include \"TRT clinic Miami,\" \"testosterone doctor near me,\" \"low T treatment Brickell,\" \"men's wellness clinic Coral Gables,\" and \"ED treatment Miami.\" Patients in Brickell and Coral Gables skew toward performance- and longevity-focused searches; patients researching in Spanish are often underserved entirely by existing local competitors.",
+      },
+      {
+        q: "What should a Miami men's health clinic's Google Business Profile include?",
+        a: "Most clinics claim only \"Medical Clinic\" or \"Urologist\" and stop there \u2014 leaving unclaimed categories like \"Men's Health Physician\" and \"Weight Loss Service\" that each carry independent local ranking signal. A fully optimized Miami men's health GBP carries multiple relevant categories, 20+ services written in patient-search language (\"TRT clinic Miami,\" \"low testosterone doctor Brickell,\" \"men's hormone clinic Coral Gables\"), and attributes like \"appointment required\" and \"private consultation\" that signal discretion to a patient researching a sensitive service.",
+      },
+      {
+        q: "What areas within Miami does this cover?",
+        a: "Our work in Miami extends across Brickell, Coral Gables and Miami Beach, not just one office address. Since search intent shifts between those neighborhoods, a Miami clinic's GBP and site content has to be built at that same granularity to be found.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-mens-health-marketing",
@@ -56,6 +78,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for Fort Lauderdale men's health clinics starts with a complete GBP rebuild: full category configuration, a service list written in patient-search language, a full year of posts loaded at onboarding, and a discreet review generation system installed in your office. Every review response we write protects patient privacy by default — never naming or implying the specific service a reviewer received.\n\nClinics ready for a full website rebuild move to our Visibility Package: a site with dedicated pages for each core service — TRT, ED treatment, men's wellness — built to rank for the specific searches Fort Lauderdale patients run, with medical clinic schema markup and fast, mobile-first performance. The result is a local digital presence that competes directly with national telehealth ad spend at the exact moment a Fort Lauderdale patient is choosing a provider.",
     neighborhoods: ["Las Olas", "Downtown Fort Lauderdale", "Victoria Park", "Coral Ridge", "Wilton Manors"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Fort Lauderdale?",
+        a: "Primara actively works with independent men's health clinics in Fort Lauderdale. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Fort Lauderdale patients search, particularly around Las Olas and Downtown Fort Lauderdale.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Fort Lauderdale?",
+        a: "Fort Lauderdale sits inside one of the most heavily targeted media markets for national TRT telehealth advertising in the state, alongside Miami. That advertising captures broad category searches but has no answer for a patient specifically typing \"TRT clinic near me\" with local intent \u2014 that search returns the Google Maps pack, where an independent Fort Lauderdale clinic with a complete, well-reviewed GBP can outrank a national brand's generic landing page every time.",
+      },
+      {
+        q: "What makes Fort Lauderdale's men's health market different from other Florida cities?",
+        a: "Fort Lauderdale men's health searches cluster around \"TRT clinic Fort Lauderdale,\" \"testosterone doctor Las Olas,\" \"men's wellness clinic near me,\" and \"low T treatment Fort Lauderdale.\" Patients researching from the downtown and Las Olas corridor tend to search with performance and longevity framing; patients further from the urban core search in more symptom-based, clinical terms.",
+      },
+      {
+        q: "What should a Fort Lauderdale men's health clinic's Google Business Profile include?",
+        a: "Photos matter more than most clinics realize: a clean, clinical-looking office photographed well signals credibility that generic stock imagery or an empty profile cannot. Review velocity is the clearest local ranking lever available to an independent Fort Lauderdale clinic. Competing against a national telehealth brand's marketing budget on paid ads is not a fight most independent practices should try to win \u2014 competing on GBP completeness and consistent review generation is.",
+      },
+      {
+        q: "What areas within Fort Lauderdale does this cover?",
+        a: "We work across Fort Lauderdale, including Las Olas, Downtown Fort Lauderdale and Victoria Park \u2014 not just a single office location. Search intent varies by neighborhood in Fort Lauderdale, so a Fort Lauderdale clinic's content has to be built at that same geographic level to show up where patients search.",
+      },
+    ],
   },
   {
     slug: "boca-raton-mens-health-marketing",
@@ -76,6 +120,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for Boca Raton men's health clinics delivers a complete GBP rebuild — full category configuration, a patient-search-language service list, a full year of scheduled posts, and a discreet review generation system installed at your clinic. Every element is built to compete directly against national telehealth ad spend at the local level, where an independent clinic has a structural advantage a subscription-only brand cannot replicate.\n\nFor clinics ready to rebuild their website, our Visibility Package delivers dedicated service pages — TRT, ED treatment, men's wellness — built around Boca Raton-specific search terms, with medical clinic schema markup and fast performance across devices. The combined GBP and website presence is what positions an independent Boca Raton clinic to capture the area's substantial cash-pay patient base.",
     neighborhoods: ["Downtown Boca Raton", "East Boca", "Mizner Park", "West Boca", "Boca Raton Innovation Campus"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Boca Raton?",
+        a: "We do. Boca Raton men's health clinics get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Boca Raton is the search behavior in areas like Downtown Boca Raton and East Boca.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Boca Raton?",
+        a: "A patient in Boca Raton searching \"TRT clinic near me\" sees the local map pack first, where an independent clinic with a complete, well-reviewed GBP profile competes directly against \u2014 and frequently outranks \u2014 national brand landing pages that have no physical presence to anchor a local listing. Boca Raton's concentration of professionals, executives, and a large 45+ demographic creates strong demand for both performance-focused TRT services and more clinically-framed low-testosterone and men's wellness care.",
+      },
+      {
+        q: "What makes Boca Raton's men's health market different from other Florida cities?",
+        a: "Boca Raton men's health searches include \"TRT clinic Boca Raton,\" \"testosterone doctor near me,\" \"men's wellness clinic Boca Raton,\" and \"low T treatment Palm Beach County.\" The market's high concentration of executives and professionals means a meaningful share of searches happen during business hours, from mobile devices, with clear intent to book quickly \u2014 a clinic slow to respond or thin on local content loses these patients to whichever competitor answers first.",
+      },
+      {
+        q: "What should a Boca Raton men's health clinic's Google Business Profile include?",
+        a: "In a market this affluent, profile presentation \u2014 photos, completeness, professionalism \u2014 carries outsized weight in a patient's decision to call. Review generation in Boca Raton benefits from the same discretion-first approach used across this category: NFC tap cards and QR-based requests that never require a patient to specify the service they received. A steady, ongoing review velocity is the clearest signal separating a top-ranked local clinic from one that's invisible to the exact patients actively searching in the area.",
+      },
+      {
+        q: "What areas within Boca Raton does this cover?",
+        a: "We work across Boca Raton, including Downtown Boca Raton, East Boca and Mizner Park \u2014 not just a single office location. Search intent varies by neighborhood in Boca Raton, so a Boca Raton clinic's content has to be built at that same geographic level to show up where patients search.",
+      },
+    ],
   },
   {
     slug: "west-palm-beach-mens-health-marketing",
@@ -96,6 +162,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for West Palm Beach men's health clinics delivers a complete GBP rebuild: category optimization, a full patient-search-language service list, a year of posts scheduled at onboarding, and a discreet review generation system installed at your clinic. Every response we write protects patient privacy — never confirming or describing a specific treatment relationship.\n\nFor a full website rebuild, our Visibility Package delivers dedicated pages for TRT, ED treatment, and men's wellness services, built around West Palm Beach-specific search terms with medical clinic schema markup and fast, mobile-first performance — the local digital presence needed to compete directly against national ad spend.",
     neighborhoods: ["Downtown West Palm Beach", "CityPlace / Rosemary Square", "El Cid", "Flamingo Park", "Northwood"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in West Palm Beach?",
+        a: "West Palm Beach is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in West Palm Beach means Downtown West Palm Beach and CityPlace / Rosemary Square.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in West Palm Beach?",
+        a: "A patient specifically searching \"TRT clinic near me\" or \"testosterone doctor West Palm Beach\" sees the local map pack first, and an independent clinic with a fully built-out GBP profile competes directly there, a channel no purely-telehealth brand can dominate at the local level. West Palm Beach's mix of working professionals downtown and a large retiree and near-retiree population along the coast means search intent varies significantly by neighborhood and age.",
+      },
+      {
+        q: "What makes West Palm Beach's men's health market different from other Florida cities?",
+        a: "West Palm Beach men's health searches include \"TRT clinic West Palm Beach,\" \"men's wellness clinic near me,\" \"low T doctor Palm Beach County,\" and \"ED treatment West Palm Beach.\" Patients downtown and near CityPlace tend to search with performance framing; patients further from the urban core, including the area's significant retiree population, search in more clinical, symptom-first language. A clinic addressing both captures meaningfully more of the local market.",
+      },
+      {
+        q: "What should a West Palm Beach men's health clinic's Google Business Profile include?",
+        a: "Consistent review velocity, produced through a discreet NFC tap card and QR-based system that never requires a patient to name their specific service, is the clearest way an independent West Palm Beach clinic separates itself from both local competitors and the review-free landing pages national telehealth brands rely on.",
+      },
+      {
+        q: "What areas within West Palm Beach does this cover?",
+        a: "This covers all of West Palm Beach, with particular focus on Downtown West Palm Beach, CityPlace / Rosemary Square and El Cid, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a West Palm Beach clinic moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "palm-beach-gardens-mens-health-marketing",
@@ -116,6 +204,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for Palm Beach Gardens clinics builds a GBP profile calibrated to the area's executive and golf-community patient base — precise category configuration, a discretion-forward service list, a full year of scheduled posts, and a private, compliant review generation system installed at your clinic.\n\nFor clinics ready for a full website rebuild, our Visibility Package delivers service pages written for this specific market — executive TRT programs, confidential men's wellness consultations — with medical clinic schema markup and the fast, professional presentation this patient base expects before ever picking up the phone.",
     neighborhoods: ["PGA National", "BallenIsles", "Frenchman's Reserve", "Mirasol", "Downtown at the Gardens"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Palm Beach Gardens?",
+        a: "Men's health clinics in Palm Beach Gardens are a market we work in today, same remotely-delivered engagement as everywhere \u2014 GBP management, local SEO, monthly reporting \u2014 with the Palm Beach Gardens-specific piece being how patients in PGA National and BallenIsles search for this kind of care.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Palm Beach Gardens?",
+        a: "National telehealth brands target this income profile with broad digital advertising, but they have no way to appear in the Google Maps pack when a resident searches \"TRT clinic near me\" from within one of these communities \u2014 that result surfaces local practices with a complete, well-reviewed GBP. Word-of-mouth referral velocity inside Palm Beach Gardens' tight-knit golf communities is real, but it's a slower channel for a category patients are less likely to discuss openly.",
+      },
+      {
+        q: "What makes Palm Beach Gardens's men's health market different from other Florida cities?",
+        a: "Palm Beach Gardens men's health searches include \"TRT clinic Palm Beach Gardens,\" \"executive men's health program,\" \"confidential hormone therapy near me,\" and \"low T treatment PGA Boulevard.\" The area's professional and golf-community population searches with clear intent for privacy and premium positioning \u2014 content and GBP service entries should reflect that directly rather than defaulting to generic medical clinic language.",
+      },
+      {
+        q: "What should a Palm Beach Gardens men's health clinic's Google Business Profile include?",
+        a: "GBP configuration for Palm Beach Gardens men's health clinics should reflect the market's executive and golf-community patient base directly \u2014 service entries like \"executive TRT program,\" \"men's performance medicine,\" and \"confidential hormone therapy\" alongside standard category configuration (\"Men's Health Physician,\" \"Urologist\"). Discretion should be an explicit part of the profile presentation, not an afterthought, since it's the primary selection criterion for this specific patient population.",
+      },
+      {
+        q: "What areas within Palm Beach Gardens does this cover?",
+        a: "Our work in Palm Beach Gardens extends across PGA National, BallenIsles and Frenchman's Reserve, not just one office address. Since search intent shifts between those neighborhoods, a Palm Beach Gardens clinic's GBP and site content has to be built at that same granularity to be found.",
+      },
+    ],
   },
   {
     slug: "delray-beach-mens-health-marketing",
@@ -136,6 +246,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for Delray Beach clinics delivers a complete GBP rebuild — category configuration, a full service list in patient-search language, a year of scheduled posts, and a discreet review generation system installed at your clinic.\n\nFor a full rebuild, our Visibility Package delivers dedicated service pages built around Delray Beach's specific search patterns — TRT, ED treatment, men's wellness — with medical clinic schema markup and fast, mobile-first performance designed to convert a wellness-conscious local audience.",
     neighborhoods: ["Atlantic Avenue", "Downtown Delray Beach", "Pineapple Grove", "Del-Ida Park", "Lake Ida"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Delray Beach?",
+        a: "We do. Delray Beach men's health clinics get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Delray Beach is the search behavior in areas like Atlantic Avenue and Downtown Delray Beach.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Delray Beach?",
+        a: "Delray Beach's downtown and Atlantic Avenue corridor draw a health- and fitness-conscious population that actively researches wellness and performance services online before committing to a provider. National TRT telehealth advertising reaches this audience with broad category messaging, but it has no answer for a patient specifically searching \"TRT clinic Delray Beach\" or \"men's wellness near me\" \u2014 that search surfaces the local Google Maps pack, where an independent clinic with a complete, well-reviewed profile competes directly and often wins.",
+      },
+      {
+        q: "What makes Delray Beach's men's health market different from other Florida cities?",
+        a: "Delray Beach men's health searches include \"TRT clinic Delray Beach,\" \"men's wellness clinic Atlantic Avenue,\" \"testosterone doctor near me,\" and \"low T treatment Delray Beach.\" The downtown and beach-adjacent population searches with performance and lifestyle framing; patients further west and in more residential areas search in more clinical terms. Building for both captures the full range of local intent.",
+      },
+      {
+        q: "What should a Delray Beach men's health clinic's Google Business Profile include?",
+        a: "GBP optimization for Delray Beach men's health clinics follows the standard category-depth approach \u2014 \"Men's Health Physician,\" \"Urologist,\" and related categories fully configured, with 20+ services written in patient-search language spanning both performance-focused and clinical framing. Photos of a clean, professional clinic space matter meaningfully in a market this wellness-conscious, where patients are comparing options carefully before committing.",
+      },
+      {
+        q: "What areas within Delray Beach does this cover?",
+        a: "Our work in Delray Beach extends across Atlantic Avenue, Downtown Delray Beach and Pineapple Grove, not just one office address. Since search intent shifts between those neighborhoods, a Delray Beach clinic's GBP and site content has to be built at that same granularity to be found.",
+      },
+    ],
   },
   {
     slug: "coral-gables-mens-health-marketing",
@@ -156,6 +288,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for Coral Gables clinics builds a GBP profile emphasizing clinical credibility — full category configuration, bilingual service entries where relevant, a year of scheduled posts, and a discreet, compliant review generation system installed at your clinic.\n\nFor a full website rebuild, our Visibility Package delivers service pages that lead with physician credentials and clinical framing — TRT, ED treatment, men's wellness — in both English and Spanish where appropriate, with medical clinic schema markup built for this market's research-driven patient base.",
     neighborhoods: ["Downtown Coral Gables", "Miracle Mile", "University of Miami area", "Ponce de Leon Corridor", "Old Cutler Road"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Coral Gables?",
+        a: "Yes \u2014 Coral Gables is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Coral Gables's own patient search patterns, including how patients in Downtown Coral Gables and Miracle Mile actually search for care.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Coral Gables?",
+        a: "Coral Gables' concentration of established professionals and the surrounding University of Miami medical ecosystem means patients researching men's health services here tend to research carefully and value clinical credibility highly. National telehealth TRT brands compete for broad search terms with paid advertising, but a patient specifically searching \"TRT clinic Coral Gables\" or \"men's health doctor near me\" sees the local Google Maps pack \u2014 a channel that rewards a complete, credible GBP profile over generic national ad spend.",
+      },
+      {
+        q: "What makes Coral Gables's men's health market different from other Florida cities?",
+        a: "Coral Gables men's health searches include \"TRT clinic Coral Gables,\" \"men's health doctor near me,\" \"low testosterone treatment Coral Gables,\" and Spanish-language equivalents like \"cl\u00ednica de testosterona Coral Gables.\" Patients here tend to search with credential- and credibility-focused modifiers \u2014 \"board certified,\" \"physician-led\" \u2014 reflecting the market's overall research-driven approach to choosing a provider.",
+      },
+      {
+        q: "What should a Coral Gables men's health clinic's Google Business Profile include?",
+        a: "In a market this credentials-conscious, physician bios, board certifications, and professional photography carry more weight in the profile than in most other South Florida markets. Review generation should follow the same discretion-first approach used across this category \u2014 NFC tap cards and QR requests that never require a patient to name their specific treatment \u2014 while emphasizing the clinical, physician-led nature of the practice in how reviews are solicited and responded to.",
+      },
+      {
+        q: "What areas within Coral Gables does this cover?",
+        a: "Targeting within Coral Gables covers Downtown Coral Gables, Miracle Mile and University of Miami area. Because patient intent is not uniform across Coral Gables, a Coral Gables clinic's content strategy has to treat each neighborhood as its own search market rather than one city-wide blanket page.",
+      },
+    ],
   },
   {
     slug: "aventura-mens-health-marketing",
@@ -176,6 +330,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara's Foundation Package for Aventura clinics accounts for the market's seasonal demand directly — GBP category configuration, bilingual service entries, a posting calendar timed to seasonal arrival patterns, and a discreet review generation system installed at your clinic.\n\nFor a full website rebuild, our Visibility Package delivers service pages addressing both the permanent local patient base and the seasonal population, with medical clinic schema markup and fast performance built to convert both audiences year-round.",
     neighborhoods: ["Aventura Mall area", "Williams Island", "Turnberry", "Hallandale Beach border", "Golden Isles"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Aventura?",
+        a: "Aventura is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in Aventura means Aventura Mall area and Williams Island.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Aventura?",
+        a: "Aventura's men's health market must account for its seasonal demand curve: search volume and available appointment demand rise substantially from November through April as part-time residents return, then shift back to a smaller, permanent local audience for the rest of the year. National telehealth brands run consistent advertising year-round without adjusting to this pattern \u2014 an independent Aventura clinic that times its GBP posts and content to seasonal arrival captures a disproportionate share of the winter surge.",
+      },
+      {
+        q: "What makes Aventura's men's health market different from other Florida cities?",
+        a: "Aventura men's health searches include \"TRT clinic Aventura,\" \"men's wellness clinic near me,\" \"testosterone doctor Aventura Mall area,\" and seasonal-intent phrases like \"accepting new patients men's health.\" November through April sees a measurable increase in search volume as seasonal residents establish local provider relationships \u2014 a clinic with fresh, seasonally-timed content captures this traffic more effectively than one with static, unchanged listings.",
+      },
+      {
+        q: "What should a Aventura men's health clinic's Google Business Profile include?",
+        a: "Category configuration should follow the standard depth (\"Men's Health Physician,\" \"Urologist,\" \"Weight Loss Service\"), with service entries covering both English and Spanish given Aventura's significant Latin American and Canadian seasonal population. Review generation benefits from the same discreet, privacy-first approach used across this category. Given Aventura's meaningful Spanish-speaking population, reviews collected in Spanish add a qualitative signal that resonates specifically with searchers from that demographic.",
+      },
+      {
+        q: "What areas within Aventura does this cover?",
+        a: "Coverage spans Aventura, including Aventura Mall area, Williams Island and Turnberry. Patient search behavior differs by neighborhood, which is why a Aventura clinic's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
 
   // ── Tampa Bay / Central Florida ────────────────────────────────────────
@@ -198,6 +374,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara helps Tampa men's health practices build the local search infrastructure that neither multi-location competitors nor national telehealth ad spend can easily replicate. Our Foundation Package starts with a full GBP audit and rebuild: category optimization, service entries written in patient-search language, photo strategy, and a full year of posts loaded at onboarding. We install a discreet, compliant review generation system using NFC tap cards and QR codes placed in your clinic — no incentivization, no policy violations, just a steady stream of reviews from real patients.\n\nFor Tampa clinics that need a website rebuilt for local search, our Visibility Package delivers a service- and neighborhood-specific site — dedicated pages for TRT, ED treatment, and men's wellness, each targeting the exact phrases patients in Hyde Park, Westchase, Carrollwood, and New Tampa type into Google. Schema.org markup for medical clinic and Core Web Vitals optimization ensure your pages index and rank alongside your GBP listing, so your clinic shows up everywhere a Tampa patient is looking — not just where you happen to already have a location.",
     neighborhoods: ["Hyde Park", "Davis Islands", "Westchase", "Carrollwood", "New Tampa"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Tampa?",
+        a: "Primara actively works with independent men's health clinics in Tampa. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Tampa patients search, particularly around Hyde Park and Davis Islands.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Tampa?",
+        a: "Tampa's men's health landscape has more direct local competition than most Florida metros \u2014 multiple Gameday Men's Health locations, independent operators like Prestige Men's Medical Center, Renew Vitality, TRT Tampa, and Vital Advanced Medical Center, plus urology groups like Florida Urology Partners all fighting for the same map pack.",
+      },
+      {
+        q: "What makes Tampa's men's health market different from other Florida cities?",
+        a: "High-value local searches include \"TRT clinic Tampa,\" \"testosterone doctor near me,\" \"low T treatment South Tampa,\" \"men's wellness clinic Carrollwood,\" and \"ED treatment New Tampa.\" Patients near MacDill Air Force Base and the Westshore business district skew toward performance- and energy-focused searches tied to active-duty and career demands, while patients in Hyde Park, Davis Islands, and Carrollwood tend to search with more general wellness and longevity intent.",
+      },
+      {
+        q: "What should a Tampa men's health clinic's Google Business Profile include?",
+        a: "A fully built GBP pairs those categories with 20+ services written in the language patients actually search \u2014 \"TRT clinic Tampa,\" \"low testosterone doctor Hyde Park,\" \"men's wellness clinic Westchase\" \u2014 and attributes like \"appointment required\" and \"private consultation\" that signal discretion on a topic most patients research quietly.",
+      },
+      {
+        q: "What areas within Tampa does this cover?",
+        a: "Targeting within Tampa covers Hyde Park, Davis Islands and Westchase. Because patient intent is not uniform across Tampa, a Tampa clinic's content strategy has to treat each neighborhood as its own search market rather than one city-wide blanket page. That neighborhood-by-neighborhood approach is what separates a Tampa clinic that ranks from one that built a single generic city-wide listing and stopped.",
+      },
+    ],
   },
   {
     slug: "st-petersburg-mens-health-marketing",
@@ -218,6 +416,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara helps St. Petersburg men's health practices build the local search infrastructure that national telehealth ad spend and franchise brand recognition can't replicate. Our Foundation Package begins with a full GBP audit and rebuild: category optimization, a full service list written in patient-search language, photo strategy, and a year of posts loaded at onboarding. We install a discreet, compliant review generation system using NFC tap cards and QR codes placed in your clinic — no incentivization, no policy violations, just a reliable stream of reviews from satisfied patients.\n\nFor St. Petersburg clinics that need a website rebuilt for local search, our Visibility Package delivers a service- and neighborhood-specific site — dedicated pages for TRT, for ED treatment, for men's wellness and urology care, each targeting the exact phrases patients type. Schema.org markup for medical clinic and Core Web Vitals optimization ensure Google indexes and ranks your pages alongside your GBP listing. The combined effect — a high-authority GBP and a locally optimized website — is what independent St. Petersburg clinics need to compete against national telehealth brands and expanding franchises on their own turf.",
     neighborhoods: ["Downtown St. Petersburg", "Old Northeast", "Snell Isle", "Kenwood", "Crescent Lake"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in St. Petersburg?",
+        a: "Independent St. Petersburg men's health clinics are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to St. Petersburg is patient search behavior in Downtown St. Petersburg and Old Northeast.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in St. Petersburg?",
+        a: "National telehealth brands spend heavily on Google and Meta advertising aimed at the Tampa Bay market broadly, and Low T Center \u2014 a nearly 50-location national TRT franchise \u2014 has built brand recognition around the exact search terms a St. Petersburg patient types. Gameday Men's Health, which crossed 100 franchise locations in 2024, has already opened in Largo and South Tampa, putting a well-funded franchise competitor inside the same metro area.",
+      },
+      {
+        q: "What makes St. Petersburg's men's health market different from other Florida cities?",
+        a: "Petersburg men's health patients search with clear, often urgent commercial intent. The highest-value local searches include \"TRT clinic St Petersburg,\" \"testosterone doctor near me,\" \"low T treatment St Pete,\" \"urologist downtown St Petersburg,\" and \"ED treatment St Petersburg.\" Patients in Old Northeast and Snell Isle skew toward established, insurance-aware searches from long-time residents; patients in Downtown St. Petersburg and Kenwood skew younger and more likely to search for direct-pay, telehealth-adjacent care.",
+      },
+      {
+        q: "What should a St. Petersburg men's health clinic's Google Business Profile include?",
+        a: "Petersburg men's health clinic starts with category selection. Most clinics claim only \"Urologist\" or \"Medical Clinic\" and leave categories like \"Men's Health Physician\" and \"Hormone Therapy\" unclaimed \u2014 each one carries its own independent local ranking signal. A fully built-out St.",
+      },
+      {
+        q: "What areas within St. Petersburg does this cover?",
+        a: "Our work in St. Petersburg extends across Downtown St. Petersburg, Old Northeast and Snell Isle, not just one office address. Since search intent shifts between those neighborhoods, a St. Petersburg clinic's GBP and site content has to be built at that same granularity to be found.",
+      },
+    ],
   },
   {
     slug: "clearwater-mens-health-marketing",
@@ -238,6 +458,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara helps Clearwater men's health practices build the local search infrastructure that neither the national telehealth brands nor the branded franchise competitors can copy. Our Foundation Package starts with a full GBP audit and rebuild — category optimization, a full service list written in patient-search language, photo strategy, and a year of posts loaded at onboarding. We install a discreet, compliant review generation system using NFC tap cards and QR codes placed in the clinic, with no incentivization and no policy violations, built to produce a steady stream of new reviews rather than a one-time push.\n\nFor Clearwater clinics that need their website rebuilt to actually rank, our Visibility Package delivers service- and neighborhood-specific pages — for TRT, for ED treatment, for men's wellness — each targeting the specific phrases patients in Countryside, Belleair, and Clearwater Beach are typing into Google. Schema.org markup for medical clinics and Core Web Vitals optimization make sure those pages and the GBP listing rank together. That combination is how an independent Clearwater clinic outranks both the national telehealth ad spend and the local franchise competition already in the market.",
     neighborhoods: ["Clearwater Beach", "Island Estates", "Countryside", "Belleair", "Downtown Clearwater"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Clearwater?",
+        a: "Primara actively works with independent men's health clinics in Clearwater. The engagement is standard across every market \u2014 GBP work, local SEO, monthly reports, delivered remotely \u2014 but the content strategy accounts for how Clearwater patients search, particularly around Clearwater Beach and Island Estates.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Clearwater?",
+        a: "Clearwater already has a real, searchable field of local competitors \u2014 Gameday Men's Health, Empower Men's Health Clinic, ProHealth Solutions, Advanced TRT Clinic, and urology groups like Advanced Urology Institute and Clearwater Sex Health all show up for testosterone and men's health searches in the city. That means a new or under-optimized clinic isn't just fighting national ad budgets, it's fighting other local practices that have already claimed and built out their Google Business Profiles.",
+      },
+      {
+        q: "What makes Clearwater's men's health market different from other Florida cities?",
+        a: "Clearwater men's health searches split cleanly along the city's geography and its demographics. Retirees and long-term residents in Countryside and Belleair search in more clinical terms \u2014 \"low testosterone doctor Clearwater,\" \"urologist near me,\" \"ED treatment Clearwater FL\" \u2014 while the more active, health-conscious population around Clearwater Beach and Island Estates searches with a performance and wellness framing \u2014 \"TRT clinic Clearwater,\" \"men's hormone optimization.\" A clinic that builds separate GBP service entries and website content for each of these.",
+      },
+      {
+        q: "What should a Clearwater men's health clinic's Google Business Profile include?",
+        a: "Most clinics claim only \"Medical Clinic\" and leave categories like \"Men's Health Physician,\" \"Urologist,\" and \"Weight Loss Service\" unclaimed \u2014 each one is an independent local ranking signal Google can match to a search. A fully optimized profile also lists 15-20+ services in the language patients actually type \u2014 \"TRT clinic Clearwater,\" \"low testosterone doctor near Countryside,\" \"men's hormone clinic Belleair\" \u2014 plus attributes like \"appointment required\" and \"private consultation\" that reassure a patient researching a sensitive condition.",
+      },
+      {
+        q: "What areas within Clearwater does this cover?",
+        a: "This covers all of Clearwater, with particular focus on Clearwater Beach, Island Estates and Countryside, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Clearwater clinic moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "brandon-mens-health-marketing",
@@ -258,6 +500,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara helps Brandon-area men's health practices build the local search presence that national telehealth ad spend and franchise chains can't replicate. Our Foundation Package starts with a full GBP audit and rebuild — category optimization, patient-language service entries, photo strategy, and a full year of posts loaded at onboarding. We install a discreet, compliant review generation system using NFC tap cards and QR codes placed in your clinic, with no incentivization and no policy violations, just a steady flow of reviews from real patients.\n\nFor clinics that need a website rebuilt to actually compete in local search, our Visibility Package delivers service- and neighborhood-specific pages — for TRT, for ED treatment, for men's wellness, each built around the exact phrases patients in Brandon, Valrico, and Riverview are typing into Google. Schema.org markup for medical clinics and Core Web Vitals optimization make sure those pages get indexed and rank alongside your GBP listing, so your clinic shows up everywhere a Brandon-area patient is looking.",
     neighborhoods: ["Valrico", "Riverview", "Bloomingdale", "FishHawk", "Seffner"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Brandon?",
+        a: "Yes \u2014 Brandon is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Brandon's own patient search patterns, including how patients in Valrico and Riverview actually search for care.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Brandon?",
+        a: "That spend wins clicks on generic terms like \"testosterone therapy,\" but it can't produce a Google Business Profile physically located in Brandon, and it can't produce the ongoing stream of local reviews that a patient comparing options actually reads before booking. An independent Brandon clinic with a fully built-out GBP shows up in the map pack next to these bigger-budget competitors' local landing pages \u2014 a listing they can't replicate no matter how much they spend on ads.",
+      },
+      {
+        q: "What makes Brandon's men's health market different from other Florida cities?",
+        a: "Brandon men's health patients search with clear buying intent: \"TRT clinic Brandon FL,\" \"testosterone doctor near me,\" \"low T treatment Valrico,\" \"men's wellness clinic Riverview,\" and \"ED treatment Brandon.\" Patients commuting from Bloomingdale and FishHawk toward Tampa for work often search for care near home rather than near the office, and neighborhood-specific queries like these are exactly what a generic, city-wide website misses.",
+      },
+      {
+        q: "What should a Brandon men's health clinic's Google Business Profile include?",
+        a: "Most practices claim only \"Urologist\" or \"Medical Clinic\" and leave categories like \"Men's Health Physician\" and \"Weight Loss Service\" unclaimed \u2014 each one carries its own independent local ranking weight. A fully optimized profile lists 20+ services written the way patients actually search \u2014 \"TRT clinic Brandon FL,\" \"low testosterone doctor Valrico,\" \"men's hormone clinic Riverview\" \u2014 plus attributes like \"appointment required\" and \"private consultation\" that signal discretion to a patient researching a sensitive condition for the first time.",
+      },
+      {
+        q: "What areas within Brandon does this cover?",
+        a: "This covers all of Brandon, with particular focus on Valrico, Riverview and Bloomingdale, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Brandon clinic moves from invisible to dominant in local search.",
+      },
+    ],
   },
   {
     slug: "lakeland-mens-health-marketing",
@@ -278,6 +542,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
     services:
       "Primara helps Lakeland men's health practices build the local search infrastructure that national telehealth ad spend cannot replicate. Our Foundation Package begins with a full GBP audit and rebuild: category optimization, service entries written in the plain, direct language Lakeland patients actually search, photo strategy, and a full year of posts loaded at onboarding. We install a discreet, compliant review generation system using NFC tap cards and QR codes placed in your clinic — no incentivization, no policy violations, just a reliable stream of reviews from satisfied patients.\n\nFor Lakeland clinics that need a website rebuilt for local search, our Visibility Package delivers a service- and neighborhood-specific site — pages for TRT, for ED treatment, for men's wellness, each targeting the exact phrases patients type. Schema.org markup for medical clinic and Core Web Vitals optimization ensure Google indexes and ranks your pages alongside your GBP listing. In a market Lakeland's size, that combined effect — a high-authority GBP and a locally optimized website — is often enough to put an independent clinic ahead of every other local competitor, not just compete with them.",
     neighborhoods: ["Dixieland", "South Lakeland", "Downtown Lakeland", "Grasslands", "Lake Hollingsworth"],
+    faqs: [
+      {
+        q: "Does Primara work with men's health clinics in Lakeland?",
+        a: "We do. Lakeland men's health clinics get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Lakeland is the search behavior in areas like Dixieland and South Lakeland.",
+      },
+      {
+        q: "What's the biggest challenge for an independent men's health clinic in Lakeland?",
+        a: "In a mid-size market like Lakeland, where the local competitive set is thinner than in Tampa or Orlando, an independent clinic with a fully built-out Google Business Profile has an easier path to dominating the map pack for 'TRT clinic' and 'testosterone doctor' searches than it would in a larger metro \u2014 the ceiling is lower, but so is the bar to reach the top.",
+      },
+      {
+        q: "What makes Lakeland's men's health market different from other Florida cities?",
+        a: "The highest-value local searches include \"TRT clinic Lakeland,\" \"testosterone doctor near me,\" \"low T treatment Lakeland FL,\" \"men's wellness clinic Lakeland,\" and \"ED treatment Polk County.\" Given Lakeland's working-age, physically demanding job base \u2014 warehouse, logistics, and manufacturing roles concentrated along the I-4 corridor \u2014 a meaningful share of search intent centers on energy, recovery, and fatigue rather than aesthetics, which should shape both GBP service descriptions and website page content.",
+      },
+      {
+        q: "What should a Lakeland men's health clinic's Google Business Profile include?",
+        a: "Google Business Profile optimization for Lakeland men's health clinics starts with category selection. Most clinics claim only \"Medical Clinic\" and stop there \u2014 leaving categories like \"Men's Health Physician\" and \"Weight Loss Service\" unclaimed, each of which carries independent local ranking signal.",
+      },
+      {
+        q: "What areas within Lakeland does this cover?",
+        a: "Our work in Lakeland extends across Dixieland, South Lakeland and Downtown Lakeland, not just one office address. Since search intent shifts between those neighborhoods, a Lakeland clinic's GBP and site content has to be built at that same granularity to be found.",
+      },
+    ],
   },
 {
   slug: "orlando-mens-health-marketing",
@@ -298,6 +584,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Orlando men's health clinics build the local search infrastructure to compete with both a national franchise and hospital-system content authority. Our Foundation Package starts with a full GBP audit and rebuild: category configuration across 'Men's Health Physician,' 'Urologist,' and 'Weight Loss Service,' 20+ services written in real patient search language, and a discreet, structured review generation system using NFC tap cards and QR codes that never requires a patient to name the specific service they received.\n\nFor Orlando clinics that need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — one for Downtown Orlando, one for Dr. Phillips, one for Winter Park, one for Lake Nona, one for MetroWest — each built around the exact phrases patients in that area are typing into Google. Schema.org markup for medical services and Core Web Vitals optimization make sure Google indexes and ranks your clinic's pages alongside your GBP listing. Independent Orlando clinics that pair a fully optimized GBP with a locally built website are positioned to outrank Gameday's Downtown storefront and Orlando Health's urology content alike.",
   neighborhoods: ["Downtown Orlando", "Dr. Phillips", "Winter Park", "Lake Nona", "MetroWest"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Orlando?",
+      a: "Yes \u2014 Orlando is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Orlando's own patient search patterns, including how patients in Downtown Orlando and Dr. Phillips actually search for care.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Orlando?",
+      a: "Gameday Men's Health's Downtown Orlando location (812 W Colonial Dr. ) changes the competitive math for local men's health search in a way pure telehealth brands never could \u2014 a franchise with an actual address earns a real Google Maps listing and can accumulate real local reviews, putting it in direct competition with independent clinics like Renew Vitality (Testosterone Clinic of Orlando), MENZ Clinic, and Advanced TRT Clinic for the same map-pack real estate.",
+    },
+    {
+      q: "What makes Orlando's men's health market different from other Florida cities?",
+      a: "Orlando men's health patients search with real specificity and real discretion. High-intent local searches include phrases like 'TRT clinic near me Orlando,' 'low testosterone treatment Orlando,' 'testosterone doctor Downtown Orlando,' 'ED treatment Orlando FL,' 'men's wellness clinic Dr. Phillips,' and 'testosterone pellet therapy Orlando.' Patients researching TRT and men's wellness read reviews closely before calling, and with Gameday Men's Health's Downtown Orlando storefront now competing for the same map-pack real estate as independent clinics like Renew Vitality, MENZ Clinic, and.",
+    },
+    {
+      q: "What should a Orlando men's health clinic's Google Business Profile include?",
+      a: "GBP optimization for Orlando men's health clinics has to account for a local franchise competitor, not just national telehealth ad spend \u2014 meaning full category configuration ('Men's Health Physician,' 'Urologist,' 'Weight Loss Service'), 20+ services in patient-search language ('TRT clinic Downtown Orlando,' 'low testosterone doctor Dr. Phillips,' 'testosterone pellet therapy Orlando'), and discretion-forward attributes like 'private consultation' and 'appointment required.' Because Gameday's Downtown Orlando profile is actively accumulating local reviews, an independent clinic needs a structured, ongoing review generation system.",
+    },
+    {
+      q: "What areas within Orlando does this cover?",
+      a: "This covers all of Orlando, with particular focus on Downtown Orlando, Dr. Phillips and Winter Park, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how an Orlando clinic moves from invisible to dominant in local search.",
+    },
+  ],
 },
 {
   slug: "kissimmee-mens-health-marketing",
@@ -318,6 +626,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Kissimmee men's health and TRT clinics build the local search infrastructure that a national telehealth brand's landing page can't replicate. Our Foundation Package starts with a full GBP audit and rebuild: claiming every relevant category — \"Men's Health Physician,\" \"Urologist,\" and \"Weight Loss Service\" where applicable — service entries covering TRT, low testosterone evaluation, ED treatment, hormone optimization, and vasectomy services written in real patient search language, and discretion-signaling attributes like \"private consultation.\" We install a discreet NFC tap card and QR-based review system that never requires a patient to name the specific service received, so satisfied TRT and men's health patients actually leave the review that telehealth brands can't get at all.\n\nFor Kissimmee clinics that need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Celebration, Poinciana, Buenaventura Lakes, and Downtown Kissimmee — each built around the exact phrases patients in that area are typing into Google, alongside dedicated service pages for TRT, ED treatment, and men's wellness and weight management. Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks your practice pages alongside your GBP listing. An independent Kissimmee clinic that pairs a fully built GBP with a locally built website has something no telehealth brand's templated page can match: a real local search presence tied to a real Kissimmee office.",
   neighborhoods: ["Celebration", "Poinciana", "Buenaventura Lakes", "Downtown Kissimmee"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Kissimmee?",
+      a: "Kissimmee is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in Kissimmee means Celebration and Poinciana.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Kissimmee?",
+      a: "Kissimmee's men's health and TRT market is a mix of independent clinics \u2014 Empower Men's Health Clinic, Premier Men's Medical Center, Integrated Health Alliance, and Orthobiologics Associates \u2014 and hospital-affiliated urology practices, including HCA Florida Osceola Urology on Oak Commons Boulevard and AdventHealth Kissimmee's urological care program, which offers robotic surgery for prostate and bladder conditions.",
+    },
+    {
+      q: "What makes Kissimmee's men's health market different from other Florida cities?",
+      a: "High-intent local searches include phrases like \"TRT clinic Kissimmee,\" \"testosterone doctor near me Kissimmee,\" \"low T treatment Kissimmee FL,\" \"men's health clinic Poinciana,\" \"ED treatment Kissimmee,\" and \"urologist Kissimmee accepting new patients.\" Patients running these searches are typically ready to book, not just researching \u2014 which is exactly the high-intent traffic a templated national telehealth landing page is competing for without a real local address or a single local review to back it up.",
+    },
+    {
+      q: "What should a Kissimmee men's health clinic's Google Business Profile include?",
+      a: "GBP optimization for a Kissimmee men's health clinic starts with claiming every relevant category \u2014 \"Men's Health Physician,\" \"Urologist,\" and \"Weight Loss Service\" where applicable \u2014 since hospital-affiliated urology practices in this market typically claim only \"Urologist\" and skip men's-health-specific categories entirely. A fully built profile should carry 15-20 services written in patient search language (\"TRT clinic Kissimmee,\" \"low testosterone doctor near me,\" \"ED treatment Poinciana\") plus attributes like \"private consultation\" and \"appointment required\" that signal discretion.",
+    },
+    {
+      q: "What areas within Kissimmee does this cover?",
+      a: "Service area within Kissimmee includes Celebration, Poinciana and Buenaventura Lakes. Because patient search intent shifts from one part of Kissimmee to another, a Kissimmee clinic's profile needs neighborhood-level content, not one generic city-wide listing. That neighborhood-by-neighborhood approach is what separates a Kissimmee clinic that ranks from one that built a single generic city-wide listing and stopped.",
+    },
+  ],
 },
 {
   slug: "winter-park-mens-health-marketing",
@@ -338,6 +668,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara's Foundation Package rebuilds your Google Business Profile around the services and symptoms Winter Park men are actually searching — low testosterone, ED treatment, medical weight loss, hormone optimization — with service entries written in real patient language and a compliant review-generation system using NFC tap cards and QR codes that keeps reviews coming in steadily. Against a franchise competitor like Gameday Men's Health, consistent review velocity and specific service language are what an independent, physician-led clinic can win on.\n\nFor clinics that need a website built for local search, our Visibility Package adds neighborhood-specific landing pages for Winter Park's core areas and the surrounding communities Gameday's 1850 Lee Rd location is targeting with paid ads — Maitland, Baldwin Park, and Union Park — each built around services like TRT, ED treatment, medical weight loss and GLP-1 programs, peptide therapy, low-T lab testing, hair loss treatment, and urology consultations. Paired with a fully optimized GBP, that combination lets an independent clinic compete for local search visibility against a nationally-funded franchise without matching its ad budget.",
   neighborhoods: ["Hannibal Square", "Park Avenue District", "Baldwin Park", "Maitland", "Union Park"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Winter Park?",
+      a: "We do. Winter Park men's health clinics get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Winter Park is the search behavior in areas like Hannibal Square and Park Avenue District.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Winter Park?",
+      a: "Gameday Men's Health opened a location at 1850 Lee Rd in 2024, marketing directly to Winter Park, Maitland, Baldwin Park, and Union Park with same-day labs and a heavy digital ad spend independent clinics can't match dollar-for-dollar. We list Winter Park men's health clinics under the specific specialties patients actually search \u2014 TRT clinic, urologist, men's wellness clinic, medical weight loss \u2014 rather than a generic 'medical clinic' category, positioning independent practices against both local competitors and Gameday's franchise footprint.",
+    },
+    {
+      q: "What makes Winter Park's men's health market different from other Florida cities?",
+      a: "Men in Winter Park search with real urgency and specificity. Common queries include 'trt clinic near me winter park fl,' 'low testosterone doctor winter park,' and 'erectile dysfunction treatment winter park fl,' alongside more research-driven searches like 'testosterone replacement therapy cost winter park' and 'men's health clinic winter park fl reviews.' Weight-loss-focused patients search 'medical weight loss for men winter park,' while others look specifically for 'urologist near me winter park fl' or 'hormone therapy clinic winter park.' Building GBP.",
+    },
+    {
+      q: "What should a Winter Park men's health clinic's Google Business Profile include?",
+      a: "From there, review generation and local content differentiate a physician-led, relationship-based clinic from a franchise location, closing the visibility gap against a nationally-funded competitor like Gameday Men's Health, whose 1850 Lee Rd location markets directly to Winter Park, Maitland, Baldwin Park, and Union Park with same-day labs and paid search dollars an independent clinic can't match on ad spend alone \u2014 but can outcompete on local search authority.",
+    },
+    {
+      q: "What areas within Winter Park does this cover?",
+      a: "We work across Winter Park, including Hannibal Square, Park Avenue District and Baldwin Park \u2014 not just a single office location. Search intent varies by neighborhood in Winter Park, so a Winter Park clinic's content has to be built at that same geographic level to show up where patients search.",
+    },
+  ],
 },
 {
   slug: "altamonte-springs-mens-health-marketing",
@@ -357,6 +709,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara's Foundation Package for an Altamonte Springs men's health clinic starts with a full GBP audit and rebuild: category selection beyond the generic 'Medical Clinic' listing, service entries written in real patient search language, a photo strategy, and a 12-month posting calendar loaded at onboarding. We install a compliant NFC tap-card and QR-code review generation system at the clinic, so real patients have a frictionless, discreet way to leave a review — building the review count and consistency an independent clinic needs to compete with a national franchise's corporate profile.\n\nFor clinics that need a website rebuilt for local search, our Visibility Package delivers neighborhood-specific landing pages — one for Uptown Altamonte, one for Cranes Roost, one for Spring Oaks — each targeting the exact TRT, ED, and men's wellness phrases patients in that area are typing into Google. Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks those pages alongside the GBP listing, so an independent clinic shows up ahead of Gameday Men's Health and the market's other independent competitors in local search.",
   neighborhoods: ["Uptown Altamonte", "Cranes Roost", "Spring Oaks"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Altamonte Springs?",
+      a: "We do. Altamonte Springs men's health clinics get the same core engagement as every other market \u2014 GBP optimization, local SEO, monthly reporting \u2014 run remotely from our West Palm Beach base. What's specific to Altamonte Springs is the search behavior in areas like Uptown Altamonte and Cranes Roost.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Altamonte Springs?",
+      a: "This isn't a market where a clinic can coast on being the only option. Gameday Men's Health's 2024 entry into the city signals that corporate operators see real demand here, and every independent clinic now has to out-optimize a competitor with national marketing resources behind it. That demand is only growing.",
+    },
+    {
+      q: "What makes Altamonte Springs's men's health market different from other Florida cities?",
+      a: "Altamonte Springs men's health patients search with real specificity. High-intent local searches include phrases like \"TRT clinic Altamonte Springs FL,\" \"testosterone doctor near me Altamonte Springs,\" \"low T treatment near Uptown Altamonte,\" \"ED clinic Altamonte Springs FL,\" \"men's wellness clinic Seminole County,\" and \"hormone therapy doctor near Cranes Roost.\" The working-age male renters moving into Uptown Altamonte's new apartment communities are a natural match for TRT and ED searches, while patients in Cranes Roost and Spring Oaks search with the.",
+    },
+    {
+      q: "What should a Altamonte Springs men's health clinic's Google Business Profile include?",
+      a: "Review count and consistency are the clearest way an independent clinic differentiates itself from a franchise location running on a templated corporate profile. Primara installs discreet NFC tap-card and QR-based review requests so a clinic competing against Gameday Men's Health's national brand recognition can still out-rank it locally on the strength of real, frequent, address-specific reviews.",
+    },
+    {
+      q: "What areas within Altamonte Springs does this cover?",
+      a: "Our work in Altamonte Springs extends across Uptown Altamonte, Cranes Roost and Spring Oaks, not just one office address. Since search intent shifts between those neighborhoods, an Altamonte Springs clinic's GBP and site content has to be built at that same granularity to be found.",
+    },
+  ],
 },
 {
   slug: "sanford-mens-health-marketing",
@@ -377,6 +751,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Sanford men's health and TRT clinics build the local search infrastructure to compete with national franchise brands already operating in the market. Our Foundation Package starts with a full GBP audit and rebuild: category optimization across Men's Health Physician, Urologist, and Weight Loss Service, service entries covering testosterone replacement therapy, low T diagnostic testing and labs, erectile dysfunction treatment, men's hormone optimization, urology consultations, peptide therapy, and medical weight loss for men, plus attributes like 'appointment required' and 'private consultation' that match how discreetly patients research TRT. We install NFC tap card and QR-based review requests that never require a patient to name the specific service they received, removing the biggest reason satisfied TRT patients skip leaving a review.\n\nFor Sanford clinics that need a website rebuilt for local search, our Visibility Package delivers a locally optimized site with neighborhood-specific landing pages for Historic Downtown Sanford, Midway, and Lake Forest, built around the exact language patients search — 'TRT clinic Sanford FL,' 'low testosterone doctor near Lake Mary,' 'men's hormone clinic Seminole County.' Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks your clinic pages alongside your GBP listing. With Gameday Men's Health, Advanced TRT Clinic, Premier Men's Medical Center, and Integrated Health Alliance already competing for the same searches, a fully built GBP paired with a locally built website is what lets an independently branded Sanford clinic outrank a franchise location before another one opens down the road.",
   neighborhoods: ["Historic Downtown Sanford", "Midway", "Lake Forest"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Sanford?",
+      a: "Sanford is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in Sanford means Historic Downtown Sanford and Midway.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Sanford?",
+      a: "The competition instead comes from national telehealth-adjacent brands that have opened physical Sanford-area locations specifically to capture local search intent, alongside a scattering of SEO-driven affiliate sites that rank for 'testosterone therapy Sanford' without a real local address behind them. That's a fight an independent clinic can win, because a franchise location still has to compete in the local map pack on the same terms as everyone else \u2014 categories, services, reviews, photos.",
+    },
+    {
+      q: "What makes Sanford's men's health market different from other Florida cities?",
+      a: "Sanford men's health patients search with clear, high-intent phrasing. Core searches include 'TRT clinic near me Sanford FL,' 'low testosterone doctor Sanford Florida,' and 'testosterone replacement therapy cost Sanford' \u2014 a phrase that signals a patient actively comparing pricing between an independent clinic and a national franchise.",
+    },
+    {
+      q: "What should a Sanford men's health clinic's Google Business Profile include?",
+      a: "Review generation has to respect that same discretion. Primara installs NFC tap card and QR-based review requests that never require a patient to name the specific service they received, removing the biggest reason satisfied TRT patients skip leaving a review. In a market where several franchise brands already have a head start, a steady, ongoing review velocity is what separates a Sanford clinic that ranks from one that gets buried under chain locations with more corporate marketing behind them.",
+    },
+    {
+      q: "What areas within Sanford does this cover?",
+      a: "Service area within Sanford includes Historic Downtown Sanford, Midway and Lake Forest. Because patient search intent shifts from one part of Sanford to another, a Sanford clinic's profile needs neighborhood-level content, not one generic city-wide listing. That neighborhood-by-neighborhood approach is what separates a Sanford clinic that ranks from one that built a single generic city-wide listing and stopped.",
+    },
+  ],
 },
 {
   slug: "jacksonville-mens-health-marketing",
@@ -397,6 +793,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Jacksonville men's health and urology practices build the local search infrastructure that lets them compete with national TRT franchises instead of getting outspent by them. Our Foundation Package starts with a full GBP audit and rebuild: category optimization, service entries for testosterone replacement therapy (TRT), erectile dysfunction treatment, medical weight loss and metabolic care, hormone optimization, peptide therapy, and men's wellness exams and lab panels, plus a discretion-respecting review generation system that builds credibility without compromising patient privacy.\n\nFor clinics that need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Southside/Baymeadows, Mandarin, and San Marco — each built around the exact phrases men in that area are searching, along with urology referral and specialist coordination content that a single generic franchise page can't match. Schema.org markup and Core Web Vitals optimization ensure Google indexes and ranks these pages alongside your GBP listing, so an independent Jacksonville clinic shows up ahead of Ageless Men's Health, Gameday Men's Health, and the wellness boutiques competing for the same patients.",
   neighborhoods: ["Southside/Baymeadows", "Mandarin", "San Marco"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Jacksonville?",
+      a: "Independent Jacksonville men's health clinics are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to Jacksonville is patient search behavior in Southside/Baymeadows and Mandarin. That local focus is what separates a GBP that ranks in Jacksonville from one that was never built for it in the first place.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Jacksonville?",
+      a: "We keep your listings accurate and your review profile strong across the directories that matter, so a prospective patient sees a trustworthy, established local option instead of defaulting to the national brand with the biggest ad budget. That discretion matters even more now that multiple national franchises \u2014 Ageless Men's Health and Gameday Men's Health among them \u2014 have opened several locations each across the Jacksonville metro, alongside a growing wave of independent low-T and wellness boutiques.",
+    },
+    {
+      q: "What makes Jacksonville's men's health market different from other Florida cities?",
+      a: "Men in Jacksonville search with real specificity. High-intent local searches include phrases like \"TRT clinic near me Jacksonville,\" \"low testosterone doctor Jacksonville FL,\" \"men's health clinic Baymeadows,\" \"testosterone replacement therapy Southside Jacksonville,\" \"ED treatment Jacksonville FL,\" \"urologist accepting new patients Jacksonville,\" \"hormone therapy for men Jacksonville,\" and \"medical weight loss for men Jacksonville FL.\" Patients in Southside/Baymeadows and Mandarin trend toward TRT and hormone-specific searches, while patients closer to San Marco search more broadly for men's wellness and weight loss.",
+    },
+    {
+      q: "What should a Jacksonville men's health clinic's Google Business Profile include?",
+      a: "We optimize your profile's categories and services so you show up for high-intent local searches like 'TRT clinic near me,' while managing reviews in a way that respects patient privacy and builds credibility against multi-location competitors. With national franchises now operating multiple locations across the metro, category and service-entry precision is what separates an independent clinic from getting buried under chain listings in the map pack.",
+    },
+    {
+      q: "What areas within Jacksonville does this cover?",
+      a: "Targeting within Jacksonville covers Southside/Baymeadows, Mandarin and San Marco. Because patient intent is not uniform across Jacksonville, a Jacksonville clinic's content strategy has to treat each neighborhood as its own search market rather than one city-wide blanket page. That neighborhood-by-neighborhood approach is what separates a Jacksonville clinic that ranks from one that built a single generic city-wide listing and stopped.",
+    },
+  ],
 },
 {
   slug: "jacksonville-beach-mens-health-marketing",
@@ -417,6 +835,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Jacksonville Beach men's health practices build the local search infrastructure that national TRT franchises can't easily replicate at the local level. Our Foundation Package starts with a full GBP audit and rebuild — category optimization for testosterone replacement therapy, urology, and men's wellness, service entries written in patient-search language, and a compliant review generation system that gives satisfied patients an easy way to leave a review. We also build out and correct your listings on the directories patients actually compare — Healthgrades, Vitals, RealSelf, and Florida Department of Health licensure lookups — so your clinic's credentials and services show up accurately next to GameDay, Ageless Men's Health, and the other franchise competitors.\n\nFor Jacksonville Beach clinics that need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Marsh Landing, Isle of Palms, and Seawalk/Downtown Jacksonville Beach — each targeting the exact phrases patients in that area type, from \"TRT clinic Jacksonville Beach FL\" to \"low T clinic Jacksonville Beach.\" Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks your pages alongside your GBP listing, so an independent clinic or urology practice can compete against national franchise ad budgets in local search instead of being buried by them.",
   neighborhoods: ["Marsh Landing", "Isle of Palms", "Seawalk / Downtown Jacksonville Beach"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Jacksonville Beach?",
+      a: "Jacksonville Beach is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in Jacksonville Beach means Marsh Landing and Isle of Palms.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Jacksonville Beach?",
+      a: "Jacksonville Beach's population skews older and affluent \u2014 median age 46.1, median household income near $120,700 \u2014 exactly the profile that drives demand for testosterone replacement therapy, ED treatment, and men's wellness care. That demand hasn't gone unnoticed: national TRT franchises including GameDay Men's Health, Ageless Men's Health, Renew Vitality, and Advanced TRT Clinic have all built out Jacksonville-area locations and are now bidding on the same \"low T clinic near me\" and \"TRT Jacksonville\" searches an independent clinic or.",
+    },
+    {
+      q: "What makes Jacksonville Beach's men's health market different from other Florida cities?",
+      a: "Jacksonville Beach men's health searches carry strong commercial intent. High-value local searches include \"TRT clinic Jacksonville Beach FL,\" \"low testosterone treatment near me,\" \"testosterone replacement therapy Jacksonville Beach,\" \"ED treatment Jacksonville Beach FL,\" and \"urologist Jacksonville Beach accepting new patients.\" Patients also search \"men's health clinic near me 32250,\" \"hormone therapy for men Jacksonville FL,\" \"low T clinic Jacksonville Beach,\" \"men's wellness clinic Jacksonville Beach,\" and \"peptide therapy Jacksonville Beach FL\" \u2014 searches specific enough that a fully built-out GBP.",
+    },
+    {
+      q: "What should a Jacksonville Beach men's health clinic's Google Business Profile include?",
+      a: "Google Business Profile visibility decides who gets the call for a men's health search, and the franchise TRT chains have been investing heavily in exactly that. We optimize your profile's categories \u2014 testosterone replacement therapy, urology, men's wellness \u2014 and keep service descriptions and consultation offers current, matching how Jacksonville Beach men actually search.",
+    },
+    {
+      q: "What areas within Jacksonville Beach does this cover?",
+      a: "This covers all of Jacksonville Beach, with particular focus on Marsh Landing, Isle of Palms and Seawalk / Downtown Jacksonville Beach, since search patterns differ meaningfully between them. Building separate GBP service entries and content for each is how a Jacksonville Beach clinic moves from invisible to dominant in local search.",
+    },
+  ],
 },
 {
   slug: "st-augustine-mens-health-marketing",
@@ -437,6 +877,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Our Foundation Package starts with a full Google Business Profile audit and rebuild: the right categories, service entries covering testosterone replacement therapy, low T diagnostic testing, erectile dysfunction treatment, hormone optimization, and peptide therapy written in real patient search language, and a compliant review generation system using NFC tap cards and QR codes — building the kind of verified, review-backed local presence that telehealth-only competitors with no physical address can't match.\n\nFor clinics that need a website built for local search, our Visibility Package delivers neighborhood-specific landing pages — World Golf Village, Vilano Beach, St. Augustine Beach, and Murabella — each built around real patient search phrases like 'TRT clinic St. Augustine FL' and 'low testosterone doctor near me St. Augustine.' With St. Johns County adding residents faster than any county in Florida, a men's health clinic that pairs a verified local GBP with a locally optimized website is positioned to outrank the templated, multi-city pages that national telehealth brands are running instead.",
   neighborhoods: ["World Golf Village", "Vilano Beach", "St. Augustine Beach", "Murabella"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in St. Augustine?",
+      a: "Independent St. Augustine men's health clinics are a market we serve today, with the same remotely-delivered engagement everywhere \u2014 GBP management, local SEO, monthly reporting. What's specific to St. Augustine is patient search behavior in World Golf Village and Vilano Beach.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in St. Augustine?",
+      a: "Augustine are dominated by national telehealth-style operators \u2014 Institute of Vitality, Advanced TRT Clinic, Medical HRT, Hormone Harmony Clinic, Vital Hormones Clinic \u2014 most running templated, multi-city landing pages rather than a real local presence. Those thin, franchise-style pages are built to rank in every city at once, not to serve St. Augustine patients specifically, which is exactly the kind of content Google increasingly discounts for having no real local footprint.",
+    },
+    {
+      q: "What makes St. Augustine's men's health market different from other Florida cities?",
+      a: "St. Augustine men's health patients search with real specificity. High-intent searches include phrases like 'TRT clinic St. Augustine FL,' 'low testosterone doctor near me St. Augustine,' 'men's health clinic World Golf Village,' 'urologist St. Augustine FL,' 'testosterone replacement therapy near Ponte Vedra,' 'erectile dysfunction treatment St. Augustine,' and 'hormone therapy clinic St.",
+    },
+    {
+      q: "What should a St. Augustine men's health clinic's Google Business Profile include?",
+      a: "A men's health clinic with a real St. Augustine address and a properly optimized Google Business Profile can win 'TRT clinic near me' and 'low T doctor St. Augustine' map-pack placements that telehealth-only competitors structurally can't compete for. That advantage compounds with the right service entries and review volume.",
+    },
+    {
+      q: "What areas within St. Augustine does this cover?",
+      a: "Targeting within St. Augustine covers World Golf Village, Vilano Beach and St. Augustine Beach. Because patient intent is not uniform across St. Augustine, a St. Augustine clinic's content strategy has to treat each neighborhood as its own search market rather than one city-wide blanket page.",
+    },
+  ],
 },
 {
   slug: "orange-park-mens-health-marketing",
@@ -457,6 +919,28 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Orange Park TRT, urology, and men's wellness clinics build the local search presence that mail-order telehealth brands can't replicate. Our Foundation Package starts with a full GBP audit and rebuild — claiming every relevant category, including \"Men's Health Physician,\" \"Urologist,\" \"Hormone Therapy,\" and \"Weight Loss Service\" where applicable, instead of the single generic \"Medical Clinic\" category most local providers default to. We write service entries for testosterone replacement therapy, erectile dysfunction treatment, urology consultations, men's hormone optimization, low T lab testing and diagnostics, and men's wellness exams in the language patients actually search, then install NFC tap cards and QR codes at the office so real, in-person patients can leave a Google review in under 30 seconds — reviews a national telehealth competitor with no Clay County address simply cannot generate.\n\nFor clinics that need a website rebuilt for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — The Woodlands, Eagle Landing, Doctors Lake, and Wilford Preserve — each targeting the exact TRT and men's wellness phrases patients in those areas are typing into Google. Schema.org markup and Core Web Vitals optimization make sure Google indexes and ranks your practice pages alongside your GBP listing, giving a local clinic the digital footprint to outrank Klinic, Institute of Vitality, Advanced TRT Clinic, and the rest of the out-of-state hormone-therapy networks currently squatting on Orange Park search results without a single physical location in the county.",
   neighborhoods: ["The Woodlands", "Eagle Landing", "Doctors Lake", "Wilford Preserve"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Orange Park?",
+      a: "Orange Park is one of the men's health markets Primara serves, with a standard engagement \u2014 GBP optimization, local SEO, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is how patients search, which in Orange Park means The Woodlands and Eagle Landing.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Orange Park?",
+      a: "A search for TRT and testosterone therapy in Orange Park surfaces a stack of national telehealth operators before it surfaces most local providers \u2014 these are mail-order and telehealth-only operations with no physical Clay County presence, but because they've invested in geo-targeted content, they routinely outrank local clinics for a patient's own city name.",
+    },
+    {
+      q: "What makes Orange Park's men's health market different from other Florida cities?",
+      a: "Orange Park men searching for hormone and wellness care use highly specific phrases: \"TRT clinic Orange Park FL,\" \"testosterone replacement therapy near me Orange Park,\" \"low T treatment Clay County,\" \"urologist Orange Park FL,\" \"men's wellness clinic near Fleming Island,\" \"hormone therapy for men Orange Park,\" \"best TRT doctor near me,\" and \"erectile dysfunction treatment Orange Park FL.\" Right now those searches are being won by national telehealth brands with no physical Clay County address \u2014 which means a local.",
+    },
+    {
+      q: "What should a Orange Park men's health clinic's Google Business Profile include?",
+      a: "Men's health and TRT clinics in Orange Park should claim every relevant Google Business Profile category available \u2014 \"Men's Health Physician,\" \"Urologist,\" \"Hormone Therapy,\" \"Weight Loss Service\" where applicable \u2014 rather than the single generic \"Medical Clinic\" category most local providers default to. Because national TRT telehealth brands can't collect local Google reviews tied to an Orange Park address, a steady stream of genuine reviews from real in-person patients is the fastest way for a local clinic to outrank them.",
+    },
+    {
+      q: "What areas within Orange Park does this cover?",
+      a: "Coverage spans Orange Park, including The Woodlands, Eagle Landing and Doctors Lake. Patient search behavior differs by neighborhood, which is why a Orange Park clinic's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+    },
+  ],
 },
 {
   slug: "fernandina-beach-mens-health-marketing",
@@ -477,5 +961,27 @@ export const mensHealthLocations: MensHealthLocation[] = [
   services:
     "Primara helps Fernandina Beach men's health practices build the local search infrastructure that national telehealth brands structurally cannot compete for. Our Foundation Package starts with a full GBP audit and rebuild: category optimization across 'Men's Health Physician,' 'Urologist,' and 'Weight Loss Service,' a full service list written in the language patients actually search, privacy and appointment-scheduling attributes, and a review generation system that builds credibility quickly in a category with almost no locally optimized competitors today.\n\nFor clinics that need a website built for local search, our Visibility Package delivers a site with neighborhood-specific landing pages — Downtown Fernandina Beach Historic District, Old Town Fernandina, Yulee, and Wildlight — targeting the working-age households driving Nassau County's growth. Pairing a fully optimized GBP with a locally built website is how an independent Fernandina Beach men's health clinic becomes the obvious, real, in-person alternative to a national telehealth brand with no local address.",
   neighborhoods: ["Downtown Fernandina Beach Historic District", "Old Town Fernandina", "Yulee", "Wildlight"],
+  faqs: [
+    {
+      q: "Does Primara work with men's health clinics in Fernandina Beach?",
+      a: "Yes \u2014 Fernandina Beach is a market we serve directly, the same engagement everywhere we operate: Google Business Profile management, local SEO, and monthly reporting, delivered remotely. The work is built around Fernandina Beach's own patient search patterns, including how patients in Downtown Fernandina Beach Historic District and Old Town Fernandina actually search for care.",
+    },
+    {
+      q: "What's the biggest challenge for an independent men's health clinic in Fernandina Beach?",
+      a: "Urology is concentrated almost entirely in one location: Baptist Health's urologists, along with an independent, long-tenured urologist, all practice out of the same medical office building on S 18th Street, leaving essentially no competing local presence for a new clinic to displace. That gap exists against a backdrop of rapid population growth \u2014 Nassau County grew nearly 15% between 2020 and 2024, with much of that growth concentrated in the working-age households moving into Yulee and Wildlight.",
+    },
+    {
+      q: "What makes Fernandina Beach's men's health market different from other Florida cities?",
+      a: "Patients searching for men's health care in this market use phrases like \"TRT clinic Fernandina Beach,\" \"testosterone doctor Amelia Island,\" \"low T treatment near Yulee FL,\" \"men's wellness clinic Nassau County,\" \"ED treatment Fernandina Beach,\" and \"urologist near Baptist Medical Center Nassau.\" Because national telehealth brands dominate the TRT-related results and urology is confined to one medical office building on S 18th Street, a clinic with a real, locally optimized Google Business Profile faces almost no established local competition capturing.",
+    },
+    {
+      q: "What should a Fernandina Beach men's health clinic's Google Business Profile include?",
+      a: "Attributes signaling privacy and appointment-based scheduling matter here just as much as in larger Florida markets. Because there is essentially no established local competitor with an optimized profile in this category on Amelia Island today, review count thresholds are low and achievable quickly.",
+    },
+    {
+      q: "What areas within Fernandina Beach does this cover?",
+      a: "Our work in Fernandina Beach extends across Downtown Fernandina Beach Historic District, Old Town Fernandina and Yulee, not just one office address. Since search intent shifts between those neighborhoods, a Fernandina Beach clinic's GBP and site content has to be built at that same granularity to be found.",
+    },
+  ],
 },
 ];

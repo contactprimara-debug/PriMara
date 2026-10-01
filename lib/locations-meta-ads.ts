@@ -72,6 +72,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cosmetic and implant dental groups",
       "Cash-pay hormone and weight-loss clinics",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Miami?",
+        a: "Yes \u2014 Miami is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Miami practice is bidding against National aesthetic chains with Miami-Dade footprints and Surgical-tourism and recovery-adjacent advertisers for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Miami's Meta Ads auction?",
+        a: "Every category Meta is good for \u2014 elective, cash-pay, demand-creation \u2014 is saturated with advertisers who have been running for years, have mature retargeting pools, and can absorb a high cost per result because their average case value is high. A practice entering that auction with a modest budget and generic creative buys a small number of expensive impressions from a fatigued audience.",
+      },
+      {
+        q: "What makes Miami's paid-social market different from other Florida cities?",
+        a: "Aesthetic clinics, cash-pay hormone practices, implant-focused dental groups and surgical-tourism operators are all buying the same Miami-Dade impressions, and the cost of reaching a Brickell or Coral Gables audience reflects it. The practices that make Meta work here are not the ones with the largest budgets \u2014 they are the ones buying inventory their competitors have priced themselves out of, and in Miami that inventory is overwhelmingly Spanish-language.",
+      },
+      {
+        q: "Why should a Miami practice move budget into Meta Ads now?",
+        a: "Miami's English auction is not going to get cheaper. More South Florida practices move budget into paid social every quarter, and each one raises the floor for everyone already there. The Spanish-language gap, by contrast, is a gap that closes the moment enough advertisers notice it \u2014 and agencies servicing this market are starting to notice. A practice that builds Spanish creative, a Spanish-speaking retargeting pool and a Spanish review base now is building an asset at today's prices.",
+      },
+      {
+        q: "What areas within Miami does this cover?",
+        a: "We run campaigns across Miami, including Brickell City Centre, Wynwood Arts District and Coral Gables / Miracle Mile \u2014 not just the city center. National aesthetic chains with Miami-Dade footprints and Surgical-tourism and recovery-adjacent advertisers already target those same neighborhoods, so a Miami practice's audience and creative need to compete at that same geographic level.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-meta-ads-marketing",
@@ -101,6 +123,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "National body contouring and laser operators",
       "Cosmetic and implant dental groups",
       "Wellness and hormone practices on Instagram",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Fort Lauderdale?",
+        a: "Fort Lauderdale is one of the Meta Ads markets Primara runs campaigns in, with a standard engagement \u2014 creative, targeting, monthly reports \u2014 delivered remotely. The local variable is the auction itself: in Fort Lauderdale, you're bidding against Broward aesthetic clinics already running paid social and National body contouring and laser operators.",
+      },
+      {
+        q: "Who is already bidding in Fort Lauderdale's Meta Ads auction?",
+        a: "The practical symptom of a mature ad market is fatigue speed. In a lightly contested market a single strong concept can run for six months before its cost per result drifts. In Broward County the same concept is often finished in six to eight weeks, because the audience is finite, the frequency accumulates fast, and every competing advertiser is adding to the total ad load that audience sees.",
+      },
+      {
+        q: "What makes Fort Lauderdale's paid-social market different from other Florida cities?",
+        a: "Broward County's aesthetic clinics, cosmetic dental groups and wellness practices have been running Facebook and Instagram ads for years; the people you want to reach have already seen a dozen ads for something like what you offer this month. Targeting is not what separates accounts here, because everyone is targeting the same people with the same tools. What separates them is how much new creative the account can put into rotation, and how quickly.",
+      },
+      {
+        q: "Why should a Fort Lauderdale practice move budget into Meta Ads now?",
+        a: "Every week an account runs the same three assets, frequency climbs against a finite audience, the cost per result rises, and the practice concludes the channel is getting worse \u2014 while a competitor two miles away publishing new provider video every fortnight is buying the same people for less. That gap does not close on its own; it widens, because Meta's delivery rewards the account that keeps giving it new material. Fixing a production problem takes one morning of filming.",
+      },
+      {
+        q: "What areas within Fort Lauderdale does this cover?",
+        a: "Targeting within Fort Lauderdale covers Las Olas Boulevard, Wilton Manors and Victoria Park. Broward aesthetic clinics already running paid social and National body contouring and laser operators are already buying impressions across those same neighborhoods, which means a Fort Lauderdale practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
     ],
   },
   {
@@ -132,6 +176,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Established cosmetic dental offices",
       "National chains buying the price shopper",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Boca Raton?",
+        a: "We do. Boca Raton practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Boca Raton that means Dermatology groups with cosmetic arms and Plastic surgery practices and in-office medspas are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Boca Raton's Meta Ads auction?",
+        a: "The first is how heavily advertised-to this audience already is. Household incomes along the Glades Road corridor and in East Boca attract advertisers from every category, so the average resident's feed carries a very high commercial load and her skepticism is calibrated accordingly. She scrolls past offers reflexively.",
+      },
+      {
+        q: "What makes Boca Raton's paid-social market different from other Florida cities?",
+        a: "This is a high-income, heavily marketed-to audience that interprets a discount on a medical or aesthetic service as information about the provider, not about the price. The Meta account that works here is built on a different unit entirely: the qualified consultation.",
+      },
+      {
+        q: "Why should a Boca Raton practice move budget into Meta Ads now?",
+        a: "Discount-led advertising in Boca does not just underperform \u2014 it leaves a residue. Once an audience has learned that a practice runs specials, waiting for the next one becomes rational behavior, and the practice spends the following years training its own market to devalue it. The competitors who never discount here are not being stubborn; they are protecting the only position in this ZIP code that has durable margin.",
+      },
+      {
+        q: "What areas within Boca Raton does this cover?",
+        a: "Our campaigns in Boca Raton extend to Mizner Park, Town Center at Boca Raton and Glades Road corridor, not only the core of the city. Dermatology groups with cosmetic arms and Plastic surgery practices and in-office medspas already target those neighborhoods, so a Boca Raton practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
+    ],
   },
   {
     slug: "west-palm-beach-meta-ads-marketing",
@@ -161,6 +227,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cosmetic dental groups on the island corridor",
       "National chains on the Okeechobee retail corridors",
       "Year-round primary care and general dentistry advertisers",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in West Palm Beach?",
+        a: "Independent West Palm Beach practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to West Palm Beach is who's already bought into that feed, namely Seasonal-facing aesthetic and concierge practices and Cosmetic dental groups on the island corridor.",
+      },
+      {
+        q: "Who is already bidding in West Palm Beach's Meta Ads auction?",
+        a: "Demand rises in the season, and so does auction pressure, because every other advertiser in the corridor from Jupiter through Boca is bidding harder at the same time. The naive response is to avoid the expensive months and buy the cheap ones \u2014 and it is wrong, because the summer impressions are cheap precisely for the reason that makes them worth less. Cost per impression is not the number that matters.",
+      },
+      {
+        q: "What makes West Palm Beach's paid-social market different from other Florida cities?",
+        a: "The county's population swells from roughly November through April, and for elective and cash-pay services that is the window in which the audience is physically here and able to book. An account spending one twelfth of its annual budget every month is overspending against an audience that has left and underspending against the one that decides the year.",
+      },
+      {
+        q: "Why should a West Palm Beach practice move budget into Meta Ads now?",
+        a: "The season is a deadline, not a trend. Everything that makes an ad account effective in November \u2014 a warm retargeting pool, tested creative, a landing page that converts, a front desk rehearsed on response time \u2014 takes six to eight weeks to build. Starting that work in November means spending the highest-value weeks of the year learning things the account should already have known.",
+      },
+      {
+        q: "What areas within West Palm Beach does this cover?",
+        a: "Coverage spans West Palm Beach, including Rosemary Square / CityPlace, Clematis Street and Northwood Village. Seasonal-facing aesthetic and concierge practices and Cosmetic dental groups on the island corridor are already bidding for impressions across those same neighborhoods, which is why a West Palm Beach practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
+      },
     ],
   },
   {
@@ -192,6 +280,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cosmetic dental offices on the PGA corridor",
       "County-wide advertisers spilling in from West Palm Beach",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Palm Beach Gardens?",
+        a: "Yes \u2014 Palm Beach Gardens is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Palm Beach Gardens practice is bidding against Dermatology and multi-specialty groups converting existing patients and Boutique physician-led aesthetic practices for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Palm Beach Gardens's Meta Ads auction?",
+        a: "When the audience is small, frequency is the variable that governs everything. Budget that would represent light pressure across Miami-Dade produces very high frequency here within weeks \u2014 the same people seeing the same ad repeatedly \u2014 and frequency is what drives creative fatigue, not time elapsed.",
+      },
+      {
+        q: "What makes Palm Beach Gardens's paid-social market different from other Florida cities?",
+        a: "PGA National, BallenIsles, Mirasol, Frenchman's Reserve and the corridors along PGA Boulevard and Donald Ross Road concentrate an enormous amount of discretionary spending into a handful of named communities \u2014 and the total number of people a practice here realistically wants to reach is a few tens of thousands, not a few hundred thousand. That changes the arithmetic of a Meta account more than most advertisers realize.",
+      },
+      {
+        q: "Why should a Palm Beach Gardens practice move budget into Meta Ads now?",
+        a: "The dermatology and multi-specialty groups in northern Palm Beach County convert their existing patients into elective clients continuously, at no acquisition cost, every quarter \u2014 and each of those conversions removes a household from an addressable audience that was already finite. A practice that builds recognition inside PGA National and BallenIsles now is competing for people who have not yet chosen.",
+      },
+      {
+        q: "What areas within Palm Beach Gardens does this cover?",
+        a: "Coverage spans Palm Beach Gardens, including PGA National, BallenIsles and Mirasol. Dermatology and multi-specialty groups converting existing patients and Boutique physician-led aesthetic practices are already bidding for impressions across those same neighborhoods, which is why a Palm Beach Gardens practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
   {
     slug: "delray-beach-meta-ads-marketing",
@@ -221,6 +331,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Salon- and fitness-embedded aesthetic services",
       "Cosmetic dental and clear-aligner advertisers",
       "Regional wellness and weight-loss clinics",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Delray Beach?",
+        a: "Yes \u2014 Delray Beach is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Delray Beach practice is bidding against Independent boutique practices on Atlantic Avenue and Salon- and fitness-embedded aesthetic services for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Delray Beach's Meta Ads auction?",
+        a: "A prospective patient sees an ad, taps the profile, and decides in about four seconds whether this is a real business run by real people. A practice with a sparse or abandoned Instagram loses that click regardless of how good the ad was, and every dollar spent driving traffic into a dead profile is a dollar spent advertising the wrong thing.",
+      },
+      {
+        q: "What makes Delray Beach's paid-social market different from other Florida cities?",
+        a: "Atlantic Avenue is a walking street, the local audience skews younger and more wellness-engaged than the rest of Palm Beach County, and the same people filling boutique fitness studios in the morning are the ones booking preventative aesthetics, cosmetic dentistry and elective care in the afternoon. In this market the organic feed and the ad account are not separate projects \u2014 the feed is what makes the ad believable.",
+      },
+      {
+        q: "Why should a Delray Beach practice move budget into Meta Ads now?",
+        a: "Fragmented markets consolidate. Delray's field is crowded but nobody owns it \u2014 no single practice currently holds strong review depth, a genuinely active feed and consistent paid presence at the same time, which is precisely the condition under which a well-executed twelve-month program produces outsized results. That condition is temporary.",
+      },
+      {
+        q: "What areas within Delray Beach does this cover?",
+        a: "Our campaigns in Delray Beach extend to Atlantic Avenue, Pineapple Grove and Delray Beach Market, not only the core of the city. Independent boutique practices on Atlantic Avenue and Salon- and fitness-embedded aesthetic services already target those neighborhoods, so a Delray Beach practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
     ],
   },
   {
@@ -252,6 +384,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Boca and West Palm advertisers extending their radius",
       "Value-positioned dental and vision chains",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Boynton Beach?",
+        a: "Independent Boynton Beach practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Boynton Beach is who's already bought into that feed, namely Small independents with little or no paid social presence and Weight-loss and wellness clinics.",
+      },
+      {
+        q: "Who is already bidding in Boynton Beach's Meta Ads auction?",
+        a: "This is a geographic arbitrage, and it works in both directions. A practice located in Boynton can acquire local patients cheaply because few competitors are seriously contesting these ZIP codes. A practice located in Boca or Delray can extend its radius into Boynton and buy incremental reach at well below what the next impression in its home market costs \u2014 which is often a better use of marginal budget than bidding harder against the advertisers it is already losing to.",
+      },
+      {
+        q: "What makes Boynton Beach's paid-social market different from other Florida cities?",
+        a: "Palm Beach County's heaviest advertisers concentrate their spend on Boca and West Palm, which leaves the Congress Avenue and Boynton Beach Boulevard corridors \u2014 a large, established, middle-income population with real elective demand \u2014 comparatively unbid. The cost to reach a Boynton household on Meta is a fraction of the cost to reach a household ten miles in either direction, and the driving distance between them is about fifteen minutes.",
+      },
+      {
+        q: "Why should a Boynton Beach practice move budget into Meta Ads now?",
+        a: "Underpricing is temporary by definition. As Boca and West Palm saturate, the advertisers there will extend their radii along exactly the corridor described above, and when they do the Boynton auction stops being cheap \u2014 not gradually, but within a couple of quarters, because it takes only a handful of well-funded entrants to reprice a thin market.",
+      },
+      {
+        q: "What areas within Boynton Beach does this cover?",
+        a: "We run campaigns across Boynton Beach, including Congress Avenue corridor, Boynton Beach Mall area and Ocean Avenue / downtown \u2014 not just the city center. Small independents with little or no paid social presence and Weight-loss and wellness clinics already target those same neighborhoods, so a Boynton Beach practice's audience and creative need to compete at that same geographic level.",
+      },
+    ],
   },
   {
     slug: "pompano-beach-meta-ads-marketing",
@@ -281,6 +435,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Fort Lauderdale advertisers spilling north",
       "Chain dental and urgent care running county-wide campaigns",
       "Newly opened practices chasing the redevelopment",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Pompano Beach?",
+        a: "Independent Pompano Beach practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Pompano Beach is who's already bought into that feed, namely Practices with no paid social presence at all and Fort Lauderdale advertisers spilling north.",
+      },
+      {
+        q: "Who is already bidding in Pompano Beach's Meta Ads auction?",
+        a: "The distinction that matters here is between demand capture and demand creation. Search advertising finds people who have already decided they need something and are looking for a provider. Paid social reaches people before that moment \u2014 which is usually a disadvantage, because most of the audience is not in market.",
+      },
+      {
+        q: "What makes Pompano Beach's paid-social market different from other Florida cities?",
+        a: "The Fishing Village district, the Atlantic Boulevard beachfront rebuild and a sustained wave of residential construction are bringing in residents at a pace the local healthcare market has not adjusted to \u2014 and a recent mover is the single most winnable audience in paid social, because she has no incumbent relationship to displace and is not yet running the searches that would put her in front of a Google ad.",
+      },
+      {
+        q: "Why should a Pompano Beach practice move budget into Meta Ads now?",
+        a: "A new resident chooses her providers once, usually within the first few months, and then stops looking. The redevelopment wave moving through Pompano Beach right now is producing that window at unusual volume, and it is a window that closes household by household \u2014 every month of delay is a specific set of families who have already picked someone else and will not reconsider for years.",
+      },
+      {
+        q: "What areas within Pompano Beach does this cover?",
+        a: "Our campaigns in Pompano Beach extend to Pompano Beach Fishing Village, Atlantic Boulevard beachfront and Pompano Citi Centre, not only the core of the city. Practices with no paid social presence at all and Fort Lauderdale advertisers spilling north already target those neighborhoods, so a Pompano Beach practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
     ],
   },
   {
@@ -312,6 +488,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Independent dental practices buying local Facebook reach",
       "Dermatology groups covering western Broward",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Coral Springs?",
+        a: "Independent Coral Springs practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Coral Springs is who's already bought into that feed, namely Broward pediatric and orthodontic chains and Family medicine and urgent care advertisers.",
+      },
+      {
+        q: "Who is already bidding in Coral Springs's Meta Ads auction?",
+        a: "The placement split is not a minor optimization in this market. Meta's automatic placements will chase the cheapest impressions, which skews delivery toward Instagram and Reels inventory regardless of where your buyer is, and in Coral Springs that quietly moves budget away from the 35-to-55 parent making the family's healthcare decisions and toward a younger audience that is not booking.",
+      },
+      {
+        q: "What makes Coral Springs's paid-social market different from other Florida cities?",
+        a: "This is a planned city of households \u2014 dual-income parents in their thirties and forties, children, and increasingly their own relocated parents \u2014 and the platform that population actually lives on is Facebook, inside neighborhood and HOA groups that function as the city's real recommendation engine. A practice running an Instagram-weighted account here is advertising on the wrong surface.",
+      },
+      {
+        q: "Why should a Coral Springs practice move budget into Meta Ads now?",
+        a: "Families here choose a pediatric dentist or a family physician and keep that relationship for a decade, and the recommendation threads that drive those choices keep surfacing the same handful of names \u2014 the ones people recognize. Every year a practice is absent from the feed is a year of those threads naming someone else, and a year of children aging into a provider relationship that will not come up for review again until they leave for college.",
+      },
+      {
+        q: "What areas within Coral Springs does this cover?",
+        a: "Targeting within Coral Springs covers Coral Square Mall, Sample Road corridor and University Drive corridor. Broward pediatric and orthodontic chains and Family medicine and urgent care advertisers are already buying impressions across those same neighborhoods, which means a Coral Springs practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "jupiter-meta-ads-marketing",
@@ -341,6 +539,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Boutique aesthetic and concierge providers on the Harbourside corridor",
       "Cosmetic dental offices along Indiantown Road",
       "Largely absent advertising across the Martin County line",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Jupiter?",
+        a: "Primara actively runs Meta Ads for practices in Jupiter. The engagement is standard across every market \u2014 campaign management, creative, monthly reports, delivered remotely \u2014 but the targeting strategy is built around who's already bidding in Jupiter, which here includes Palm Beach Gardens practices bidding south of Jupiter and Boutique aesthetic and concierge providers on the Harbourside corridor.",
+      },
+      {
+        q: "Who is already bidding in Jupiter's Meta Ads auction?",
+        a: "The northward spill is the whole opportunity, and it is underexploited because it is slightly inconvenient to set up. Advertisers default to city-name targeting or a radius centered on their own address, and both under-serve a catchment that is asymmetric \u2014 long to the north, short to the south where Palm Beach Gardens practices already compete hard for the same households.",
+      },
+      {
+        q: "What makes Jupiter's paid-social market different from other Florida cities?",
+        a: "The city is small, affluent and tightly bounded to the south by Palm Beach Gardens, but its real patient catchment runs north across the county line into Tequesta, Hobe Sound and southern Martin County, where provider options thin out and residents routinely drive south for care. A Meta account drawn to the municipal boundary is targeting a fraction of the people who would actually book, and paying a premium for the most contested part of it.",
+      },
+      {
+        q: "Why should a Jupiter practice move budget into Meta Ads now?",
+        a: "Palm Beach County advertisers stay inside Palm Beach County; Martin County practices are small and mostly not running paid social. It only takes one well-funded operator noticing the same imbalance to reprice it, and northern Palm Beach County has several capable of doing so. A practice that establishes recognition in Tequesta and Hobe Sound now inherits an audience at today's cost; one that waits inherits a contested auction and an audience that already has somewhere to go.",
+      },
+      {
+        q: "What areas within Jupiter does this cover?",
+        a: "This covers all of Jupiter, with particular focus on Jupiter Inlet Lighthouse, Abacoa / Roger Dean Stadium and Harbourside Place, since that's where feed impressions concentrate. Palm Beach Gardens practices bidding south of Jupiter and Boutique aesthetic and concierge providers on the Harbourside corridor operate across those same areas, so neighborhood-aware targeting is what lets a Jupiter practice compete for the same auction.",
+      },
     ],
   },
   {
@@ -372,6 +592,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Community clinics and Medicare-focused groups",
       "Miami advertisers running translated Spanish variants",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Hialeah?",
+        a: "We do. Hialeah practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Hialeah that means Local dental and vision practices on West 49th Street and English-only advertisers reaching a Spanish-dominant audience are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Hialeah's Meta Ads auction?",
+        a: "The failure mode here is specific and extremely common: an agency builds the English campaign, runs the copy through a translator, and deploys it as the Spanish variant. The grammar is usually fine. What is wrong is the register \u2014 machine and non-local translation produces a formal, neutral Spanish that nobody in Hialeah speaks, and an audience that switches languages fluidly notices immediately.",
+      },
+      {
+        q: "What makes Hialeah's paid-social market different from other Florida cities?",
+        a: "It is a Spanish-dominant one, and the distinction decides whether an account works. More than nine in ten residents are Hispanic, the majority of daily media consumption here happens in Spanish, and an English ad with a Spanish subtitle track is not a Spanish ad \u2014 it reads as an outsider's approximation and performs like one.",
+      },
+      {
+        q: "Why should a Hialeah practice move budget into Meta Ads now?",
+        a: "The agencies servicing Miami-Dade healthcare are already discovering that natively produced Spanish creative beats translated creative by a wide margin, and as that spreads, the cost advantage compresses. A practice that builds a Spanish-speaking retargeting pool, a Spanish landing page and a base of Spanish reviews now is locking in reach at a price that reflects everyone else's error. The window is defined by how long that error lasts.",
+      },
+      {
+        q: "What areas within Hialeah does this cover?",
+        a: "Coverage spans Hialeah, including Hialeah Park Racing & Casino, West 49th Street corridor and Palm Avenue. Local dental and vision practices on West 49th Street and English-only advertisers reaching a Spanish-dominant audience are already bidding for impressions across those same neighborhoods, which is why a Hialeah practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
   {
     slug: "doral-meta-ads-marketing",
@@ -401,6 +643,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cosmetic dental offices in Downtown Doral",
       "Coastal Miami advertisers largely ignoring western Miami-Dade",
       "Spanish-language local service advertisers running messaging campaigns",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Doral?",
+        a: "Yes \u2014 Doral is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Doral practice is bidding against Local aesthetic and wellness practices serving the professional corridor and Cosmetic dental offices in Downtown Doral for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Doral's Meta Ads auction?",
+        a: "A lead-form campaign asks a Doral prospect to do something she does not naturally do: type her details into a form and wait for a callback. A click-to-message campaign asks her to do exactly what she already does forty times a day.",
+      },
+      {
+        q: "What makes Doral's paid-social market different from other Florida cities?",
+        a: "The city's population is heavily Venezuelan and broadly Latin American, professional, high-income, and accustomed to conducting business \u2014 including healthcare enquiries \u2014 over WhatsApp and Messenger rather than through a web form or a phone call. That behavior changes which Meta campaign objective an account should be running, and it is the single most common thing an agency from outside South Florida gets wrong here.",
+      },
+      {
+        q: "Why should a Doral practice move budget into Meta Ads now?",
+        a: "Click-to-message is not a secret; it is one objective in a dropdown, and once two or three local practices demonstrate what it does in this market, the rest follow within a year. The durable part is not the objective \u2014 it is the operational habit of answering fast, in the right language, every time, which takes months to build and is what actually converts.",
+      },
+      {
+        q: "What areas within Doral does this cover?",
+        a: "We run campaigns across Doral, including Downtown Doral, CityPlace Doral and Trump National Doral \u2014 not just the city center. Local aesthetic and wellness practices serving the professional corridor and Cosmetic dental offices in Downtown Doral already target those same neighborhoods, so a Doral practice's audience and creative need to compete at that same geographic level.",
+      },
     ],
   },
   {
@@ -432,6 +696,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Independent practices using address-radius targeting",
       "Aesthetic and weight-loss clinics along Kendall Drive",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Kendall?",
+        a: "We do. Kendall practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Kendall that means Dental and orthodontic clusters around Dadeland and The Falls and Hospital-affiliated groups running county-wide campaigns are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Kendall's Meta Ads auction?",
+        a: "Kendall sprawls, traffic on Kendall Dr. ive and the Palmetto is genuinely bad, and a fifteen-minute drive on the map is often a forty-minute drive in practice \u2014 which means a radius centered on the practice address is nearly meaningless as a proxy for who will realistically book. Two households the same distance away in opposite directions can have completely different willingness to travel depending on which way the commute runs.",
+      },
+      {
+        q: "What makes Kendall's paid-social market different from other Florida cities?",
+        a: "It is a large unincorporated stretch of southwestern Miami-Dade \u2014 Dadeland, The Hammocks, Pinecrest's edges, the corridors running out toward The Falls \u2014 with no city limits for Meta to target against. Advertisers who type the place name into the location field get an approximation Meta invents, and the delivery that follows has very little to do with where the practice's patients actually live.",
+      },
+      {
+        q: "Why should a Kendall practice move budget into Meta Ads now?",
+        a: "Nothing about this fix requires more budget, which is precisely why it keeps not happening \u2014 there is no vendor whose interests are served by telling a practice to spend less on a wider audience. Meanwhile Meta's delivery system learns from whatever conversions it receives, so an account running mistargeted geography does not merely waste the current month's spend; it trains the algorithm on the wrong people and carries that distortion forward.",
+      },
+      {
+        q: "What areas within Kendall does this cover?",
+        a: "We run campaigns across Kendall, including Dadeland Mall, The Falls and Pinecrest Gardens \u2014 not just the city center. Dental and orthodontic clusters around Dadeland and The Falls and Hospital-affiliated groups running county-wide campaigns already target those same neighborhoods, so a Kendall practice's audience and creative need to compete at that same geographic level.",
+      },
+    ],
   },
   {
     slug: "aventura-meta-ads-marketing",
@@ -461,6 +747,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cosmetic dental offices serving the high-rise population",
       "Advertisers running default location settings against tourist traffic",
       "Multilingual local services competing for the same towers",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Aventura?",
+        a: "Independent Aventura practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Aventura is who's already bought into that feed, namely Aesthetic and concierge practices around the mall corridor and Cosmetic dental offices serving the high-rise population.",
+      },
+      {
+        q: "Who is already bidding in Aventura's Meta Ads auction?",
+        a: "Meta's location targeting defaults to people living in or recently in a place, and in most markets the difference is negligible. In Aventura it is the difference between an efficient account and a wasteful one. Hotel guests, mall traffic from across Miami-Dade and Broward, cruise-adjacent visitors and part-time owners who spend six weeks a year in the building all register as being in the area, all absorb impressions, and none of them are going to start a course of treatment.",
+      },
+      {
+        q: "What makes Aventura's paid-social market different from other Florida cities?",
+        a: "A dense corridor of high-rise towers, one of the busiest malls in the country, a large second-home population and a constant flow of international visitors mean that a standard location target in these ZIP codes delivers a substantial share of impressions to people who are in Aventura this week and gone next month. The account looks busy. The schedule does not fill.",
+      },
+      {
+        q: "Why should a Aventura practice move budget into Meta Ads now?",
+        a: "Every month an Aventura account runs on default location settings, a meaningful fraction of the budget is spent on people who will never book, and that fraction also teaches Meta's delivery system what a responsive user looks like \u2014 which means the mistargeting reinforces itself.",
+      },
+      {
+        q: "What areas within Aventura does this cover?",
+        a: "This covers all of Aventura, with particular focus on Aventura Mall, Williams Island and Turnberry Isle, since that's where feed impressions concentrate. Aesthetic and concierge practices around the mall corridor and Cosmetic dental offices serving the high-rise population operate across those same areas, so neighborhood-aware targeting is what lets an Aventura practice compete for the same auction.",
+      },
     ],
   },
   {
@@ -492,6 +800,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Weight-loss and wellness clinics with discount-led creative",
       "Miramar and Davie advertisers overlapping the catchment",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Pembroke Pines?",
+        a: "Yes \u2014 Pembroke Pines is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Pembroke Pines practice is bidding against Broward dental and orthodontic chains running volume offers and Independent family practices on the Pines Boulevard corridor for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Pembroke Pines's Meta Ads auction?",
+        a: "Meta's delivery system finds more of whoever responds to your chosen conversion event. Ask it for form fills in a price-aware market and it will find the people most inclined to fill in forms \u2014 which skews toward shoppers collecting quotes across several practices, not toward the patient ready to book. The cost per lead falls, the volume climbs, the show rate collapses, and the front desk burns hours on calls that were never going to convert.",
+      },
+      {
+        q: "What makes Pembroke Pines's paid-social market different from other Florida cities?",
+        a: "It is a large, family-heavy, value-conscious western Broward market where impression costs are moderate and response rates to an offer are high \u2014 which means a lead-form campaign here can generate volume that looks outstanding on a dashboard and converts into very little on the schedule. The account is not broken. It is optimized for the wrong event, and the platform is faithfully delivering exactly what was asked for.",
+      },
+      {
+        q: "Why should a Pembroke Pines practice move budget into Meta Ads now?",
+        a: "Every month it runs, Meta learns more precisely who responds to your ads without booking, and the audience it builds becomes progressively worse while the reported cost per lead gets progressively better. Practices often run that pattern for a year before concluding paid social does not work for them, and the retraining afterwards costs more than getting the event right at the start would have.",
+      },
+      {
+        q: "What areas within Pembroke Pines does this cover?",
+        a: "We run campaigns across Pembroke Pines, including Pembroke Lakes Mall, Pines Boulevard corridor and Shops at Pembroke Gardens \u2014 not just the city center. Broward dental and orthodontic chains running volume offers and Independent family practices on the Pines Boulevard corridor already target those same neighborhoods, so a Pembroke Pines practice's audience and creative need to compete at that same geographic level.",
+      },
+    ],
   },
   {
     slug: "hollywood-meta-ads-marketing",
@@ -521,6 +851,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Independent dental and aesthetic practices across downtown",
       "Primary care and urgent care on the Sheridan corridor",
       "Aventura and Fort Lauderdale advertisers overlapping the beach ZIPs",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Hollywood?",
+        a: "We do. Hollywood practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Hollywood that means Entertainment and hospitality advertisers driving auction spikes and Independent dental and aesthetic practices across downtown are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Hollywood's Meta Ads auction?",
+        a: "This is a genuine and frequently misdiagnosed problem. A practice's cost per result climbs forty percent in a given week, the account manager starts changing creative, adjusting audiences and second-guessing the offer, and the actual explanation is that a few thousand entertainment and hospitality advertisers temporarily outbid everyone in south Broward. Two weeks later it normalizes and the changes get credited with a recovery they had nothing to do with.",
+      },
+      {
+        q: "What makes Hollywood's paid-social market different from other Florida cities?",
+        a: "The Hard Rock complex, the Broadwalk, the beach season and a steady calendar of concerts, fights and conventions inject enormous, irregular advertising demand into the same ZIP codes a local practice is buying \u2014 and when that demand arrives, the price of every impression in the area rises regardless of who is bidding for what.",
+      },
+      {
+        q: "Why should a Hollywood practice move budget into Meta Ads now?",
+        a: "The churn is the real cost. A Hollywood account that responds to every auction spike with new audiences, new creative and reset budgets never accumulates the stable delivery history that makes Meta efficient \u2014 it spends its life in learning, paying a premium for the privilege. Meanwhile the entertainment calendar is not getting quieter; the Hard Rock complex and the beachfront keep expanding their event slate.",
+      },
+      {
+        q: "What areas within Hollywood does this cover?",
+        a: "Coverage spans Hollywood, including Hollywood Beach Broadwalk, Downtown Hollywood / Harrison Street and Sheridan Street corridor. Entertainment and hospitality advertisers driving auction spikes and Independent dental and aesthetic practices across downtown are already bidding for impressions across those same neighborhoods, which is why a Hollywood practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
+      },
     ],
   },
   {
@@ -552,6 +904,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Dental and vision chains following the rooftops",
       "Treasure Coast advertisers expanding south",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Port St. Lucie?",
+        a: "Port St. Lucie is one of the Meta Ads markets Primara runs campaigns in, with a standard engagement \u2014 creative, targeting, monthly reports \u2014 delivered remotely. The local variable is the auction itself: in Port St. Lucie, you're bidding against Regional health systems running brand campaigns and Practices with no paid social presence at all.",
+      },
+      {
+        q: "Who is already bidding in Port St. Lucie's Meta Ads auction?",
+        a: "Search advertising can only capture demand that already exists as a query. In a stable market that is most of the demand, which is why Google usually goes first. Port St. Lucie inverts the ratio: a large share of the addressable population needs to choose providers in the coming months but has not started, because unpacking, schools, work and a hundred other things come first.",
+      },
+      {
+        q: "What makes Port St. Lucie's paid-social market different from other Florida cities?",
+        a: "Lucie is one of the fastest-growing cities in the country, and that single fact makes it the strongest demand-creation market in Florida. Tradition, St. Lucie West and the corridors around them are absorbing new households continuously \u2014 families relocating from the Northeast, retirees moving up from South Florida, workers following the construction. Almost none of them have a dentist, a physician or an aesthetic provider here yet, and almost none of them are searching for one this week.",
+      },
+      {
+        q: "Why should a Port St. Lucie practice move budget into Meta Ads now?",
+        a: "Growth markets stop being cheap in a predictable sequence: the population arrives, the practices follow, the advertisers follow them, and the auction reprices. Port St. Lucie is currently between the first and second stages, which is the most favorable position an advertiser can occupy and the shortest-lived. There is also a per-household deadline underneath the market one \u2014 a family that moves here in March picks its providers by roughly June and does not revisit that decision for years.",
+      },
+      {
+        q: "What areas within Port St. Lucie does this cover?",
+        a: "Our campaigns in Port St. Lucie extend to Tradition Square, St. Lucie West and Clover Park, not only the core of the city. Regional health systems running brand campaigns and Practices with no paid social presence at all already target those neighborhoods, so a Port St. Lucie practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
+    ],
   },
   {
     slug: "stuart-meta-ads-marketing",
@@ -581,6 +955,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "A handful of independent dental and aesthetic offices",
       "Very little sophisticated local paid social",
       "Port St. Lucie advertisers reaching north into Martin County",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Stuart?",
+        a: "We do. Stuart practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Stuart that means Regional hospital-affiliated practices and A handful of independent dental and aesthetic offices are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Stuart's Meta Ads auction?",
+        a: "The pattern is consistent and misread almost every time. An account launches, performs well for three or four weeks, then costs begin drifting upward. The practice concludes the offer is wrong or the season has turned, changes the offer, gets a brief recovery from the novelty, and drifts again. What actually happened is that the audience saw the same asset eight times and stopped noticing it.",
+      },
+      {
+        q: "What makes Stuart's paid-social market different from other Florida cities?",
+        a: "The addressable audience across Stuart, Sewall's Point, Palm City and Jensen Beach is modest enough that a campaign at even a moderate budget will show the same creative to the same people repeatedly within weeks. Frequency, not elapsed time, is what wears an ad out \u2014 and in a market this size frequency accumulates several times faster than the platform benchmarks most advertisers use to plan their creative calendars.",
+      },
+      {
+        q: "Why should a Stuart practice move budget into Meta Ads now?",
+        a: "Most practices that have tried Meta in Stuart have concluded it does not work here, and they reached that conclusion for a reason that has nothing to do with the channel. That shared misdiagnosis is why the market is quiet and why impression costs stay low \u2014 which is an advantage available only to whoever understands the actual mechanism.",
+      },
+      {
+        q: "What areas within Stuart does this cover?",
+        a: "Our campaigns in Stuart extend to Historic Downtown Stuart, Sewall's Point and Palm City, not only the core of the city. Regional hospital-affiliated practices and A handful of independent dental and aesthetic offices already target those neighborhoods, so a Stuart practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
     ],
   },
   {
@@ -612,6 +1008,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cash-pay hormone and weight-loss advertisers",
       "Multi-location practices bidding across the whole metro",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Tampa?",
+        a: "We do. Tampa practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Tampa that means Established Hillsborough aesthetic clinics running mature accounts and Cosmetic and implant dental groups across South Tampa are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Tampa's Meta Ads auction?",
+        a: "Meta's machinery rewards consolidation. Fewer campaigns with larger budgets exit the learning phase faster, gather cleaner signal and generally deliver more efficiently than a fragmented account \u2014 which is why the platform's own guidance pushes advertisers toward broad targeting and automated campaign types. That guidance is correct in general and incomplete in a metro like Tampa, because consolidation also destroys visibility.",
+      },
+      {
+        q: "What makes Tampa's paid-social market different from other Florida cities?",
+        a: "Hyde Park, Westshore, South Tampa, Carrollwood, New Tampa and the Water Street core are not variations on one audience \u2014 they differ in income, age, density and what they will drive for \u2014 and a single campaign covering all of them produces a blended cost per result that describes none of them. The practical question in a Tampa account is where to consolidate for Meta's delivery system and where to split so you can actually see what is happening.",
+      },
+      {
+        q: "Why should a Tampa practice move budget into Meta Ads now?",
+        a: "Structural problems in a Tampa account are quiet and cumulative. A blended report that hides an unprofitable half of the metro does not announce itself; it just caps growth while every individual month looks acceptable. Meanwhile the metro's better-run accounts keep compounding \u2014 more conversion history, faster learning, warmer audiences \u2014 and the gap between a competently structured account and a merged one widens every quarter rather than staying constant.",
+      },
+      {
+        q: "What areas within Tampa does this cover?",
+        a: "Coverage spans Tampa, including Hyde Park Village, Westshore / International Plaza and Davis Islands. Established Hillsborough aesthetic clinics running mature accounts and Cosmetic and implant dental groups across South Tampa are already bidding for impressions across those same neighborhoods, which is why a Tampa practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
   {
     slug: "st-petersburg-meta-ads-marketing",
@@ -641,6 +1059,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Regional and PE-backed groups expanding across Pinellas",
       "Wellness and weight-loss advertisers downtown",
       "Tampa advertisers bidding across the bay",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in St. Petersburg?",
+        a: "Independent St. Petersburg practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to St. Petersburg is who's already bought into that feed, namely Independent dental and aesthetic practices on Central Avenue and Regional and PE-backed groups expanding across Pinellas.",
+      },
+      {
+        q: "Who is already bidding in St. Petersburg's Meta Ads auction?",
+        a: "The reason this matters more in St. Pete than in most markets is that the local independent identity is a live competitive dimension. Residents here actively prefer independent businesses and are unusually good at spotting the difference, which is a substantial advantage for exactly the kind of practice we work with \u2014 and an advantage that generic creative throws away.",
+      },
+      {
+        q: "What makes St. Petersburg's paid-social market different from other Florida cities?",
+        a: "The Central Avenue and EDGE District culture, the murals, the independent retail, the design-literate population that has moved into Old Northeast and Kenwood over the last decade \u2014 this is a city with a strong and specific aesthetic self-image, and a glossy stock-photo healthcare ad reads here as a chain, a corporate roll-up, or something from out of town. The targeting can be perfect and the ad will still be scrolled past.",
+      },
+      {
+        q: "Why should a St. Petersburg practice move budget into Meta Ads now?",
+        a: "Petersburg is real but it is not automatic \u2014 it only accrues to practices whose marketing actually communicates independence. Regional and private-equity-backed dental and aesthetic groups are expanding across Pinellas and they advertise professionally and continuously, and every month an independent practice runs creative indistinguishable from theirs is a month spent competing on budget instead of on the one dimension where it has a structural edge.",
+      },
+      {
+        q: "What areas within St. Petersburg does this cover?",
+        a: "Targeting within St. Petersburg covers Central Avenue / EDGE District, Old Northeast and Snell Isle. Independent dental and aesthetic practices on Central Avenue and Regional and PE-backed groups expanding across Pinellas are already buying impressions across those same neighborhoods, which means a St. Petersburg practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
     ],
   },
   {
@@ -672,6 +1112,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Tourism and hospitality advertisers raising summer auction costs",
       "Tampa and St. Petersburg advertisers reaching into Pinellas",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Clearwater?",
+        a: "Yes \u2014 Clearwater is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Clearwater practice is bidding against Beach-adjacent aesthetic and wellness operators and Independent practices across Countryside and Belleair for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Clearwater's Meta Ads auction?",
+        a: "Most Florida seasonality advice assumes one curve: spend into the season, pull back after. That framing is actively wrong in Clearwater, because the market's quiet months are not the same for every service line. A practice whose patients are seasonal residents \u2014 primary care, dermatology, established-care dentistry \u2014 peaks in winter. A practice serving visitors and the hospitality workforce that scales up to meet them sees the opposite.",
+      },
+      {
+        q: "What makes Clearwater's paid-social market different from other Florida cities?",
+        a: "The winter snowbird population arrives roughly November through April, the summer tourism season on Clearwater Beach runs the opposite half of the year, and the permanent Pinellas resident base sits underneath both. A practice here has three audiences on three different calendars, and a single flat budget serves whichever one happens to be present while quietly mispricing the other two.",
+      },
+      {
+        q: "Why should a Clearwater practice move budget into Meta Ads now?",
+        a: "Seasonal residents choose providers within weeks of arriving; visitor-facing demand has to be captured while the person is physically in town. An account that discovers in December that its creative and landing pages were not ready has not lost a month \u2014 it has lost the half of the year that curve represents, and the next equivalent window is six months out. Getting the structure right once pays every season afterwards.",
+      },
+      {
+        q: "What areas within Clearwater does this cover?",
+        a: "We run campaigns across Clearwater, including Clearwater Beach, Island Estates and Countryside \u2014 not just the city center. Beach-adjacent aesthetic and wellness operators and Independent practices across Countryside and Belleair already target those same neighborhoods, so a Clearwater practice's audience and creative need to compete at that same geographic level.",
+      },
+    ],
   },
   {
     slug: "brandon-meta-ads-marketing",
@@ -701,6 +1163,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Dental and orthodontic chains along the I-75 corridor",
       "A modest local independent field",
       "New practices opening with the Riverview and FishHawk growth",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Brandon?",
+        a: "We do. Brandon practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Brandon that means Tampa practices extending their radius east and Dental and orthodontic chains along the I-75 corridor are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Brandon's Meta Ads auction?",
+        a: "Its creative is produced for a Tampa audience and speaks in metro generalities. Its location is twenty-five minutes and a genuinely unpleasant commute away, which matters enormously for anything requiring repeat visits \u2014 orthodontics, physical therapy, ongoing dermatologic or aesthetic care, family dentistry. And it has no local proof: no reviews from people in Valrico, no recognition in the community, nothing that makes a FishHawk parent feel the practice is hers.",
+      },
+      {
+        q: "What makes Brandon's paid-social market different from other Florida cities?",
+        a: "Tampa's dental groups, aesthetic clinics and multi-location practices routinely extend their radius east along I-75 and the Selmon Expressway to pick up Brandon, Valrico, Riverview, Bloomingdale and FishHawk \u2014 buying these ZIP codes as cheap incremental reach on top of a much larger metro budget. The local practice is defending its home market against accounts that treat it as a rounding error.",
+      },
+      {
+        q: "Why should a Brandon practice move budget into Meta Ads now?",
+        a: "Tampa's advertisers are extending east because their home auction is getting more expensive, and that pressure is increasing rather than easing. Each additional metro practice that adds Brandon to its radius raises local impression costs without adding any local commitment, and the ZIP codes get more expensive to defend every year. A practice that establishes local recognition and a warm retargeting pool while the imported competition is still incidental is fighting on favorable terms.",
+      },
+      {
+        q: "What areas within Brandon does this cover?",
+        a: "We run campaigns across Brandon, including Westfield Brandon, Valrico and Riverview \u2014 not just the city center. Tampa practices extending their radius east and Dental and orthodontic chains along the I-75 corridor already target those same neighborhoods, so a Brandon practice's audience and creative need to compete at that same geographic level.",
+      },
     ],
   },
   {
@@ -732,6 +1216,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "A local independent field relying on word of mouth",
       "Tampa and Orlando advertisers not yet bidding into Polk County",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Lakeland?",
+        a: "Primara actively runs Meta Ads for practices in Lakeland. The engagement is standard across every market \u2014 campaign management, creative, monthly reports, delivered remotely \u2014 but the targeting strategy is built around who's already bidding in Lakeland, which here includes Regional hospital system brand campaigns and Chain dental and vision advertisers.",
+      },
+      {
+        q: "Who is already bidding in Lakeland's Meta Ads auction?",
+        a: "Markets get overlooked for reasons that stop being true, and Lakeland's are out of date. The population has grown substantially, the Lakeland Highlands and Grasslands areas carry real household income, downtown has been through a genuine revival around Lake Mirror, and the corridor between here and both metros keeps filling in.",
+      },
+      {
+        q: "What makes Lakeland's paid-social market different from other Florida cities?",
+        a: "Polk County sits between Tampa and Orlando, both of which absorb the region's marketing attention and budget, and the practices in Lakeland itself are overwhelmingly not running paid social at all. A well-produced campaign here is not competing for attention against other healthcare advertisers \u2014 it is competing against an empty feed.",
+      },
+      {
+        q: "Why should a Lakeland practice move budget into Meta Ads now?",
+        a: "Cheap inventory in a growing market is a temporary condition with a visible expiry. The I-4 corridor is filling in from both ends, Polk County's population keeps climbing, and the regional advertisers currently concentrated in Tampa and Orlando will extend here for the same reason Tampa's advertisers extended into Brandon \u2014 their home auctions are getting expensive. When that happens, local impression costs rise quickly, because a thin market reprices on very few entrants.",
+      },
+      {
+        q: "What areas within Lakeland does this cover?",
+        a: "Targeting within Lakeland covers Downtown Lakeland / Lake Mirror, Lakeside Village and Florida Southern College. Regional hospital system brand campaigns and Chain dental and vision advertisers are already buying impressions across those same neighborhoods, which means a Lakeland practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "orlando-meta-ads-marketing",
@@ -761,6 +1267,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Cosmetic and implant dental groups across the metro",
       "Large health systems running brand campaigns",
       "Thin competition across the eastern and southern growth corridors",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Orlando?",
+        a: "Primara actively runs Meta Ads for practices in Orlando. The engagement is standard across every market \u2014 campaign management, creative, monthly reports, delivered remotely \u2014 but the targeting strategy is built around who's already bidding in Orlando, which here includes Well-contested aesthetic field around Dr. Phillips and Winter Park and Cosmetic and implant dental groups across the metro.",
+      },
+      {
+        q: "Who is already bidding in Orlando's Meta Ads auction?",
+        a: "The failure is quiet because stale audiences do not error out \u2014 they just get gradually less responsive while the account manager looks elsewhere for the cause. A lookalike built from a two-year-old patient list models the practice's historical patients rather than the people arriving now, who differ in origin, age and income. A retargeting pool with a long window fills with people who visited the site, then left the state.",
+      },
+      {
+        q: "What makes Orlando's paid-social market different from other Florida cities?",
+        a: "Custom audiences, lookalike sources and retargeting pools all assume a reasonably stable population behind them. In a metro absorbing continuous in-migration and losing a steady stream of residents at the same time, a list built eighteen months ago is describing a city that has partly moved on.",
+      },
+      {
+        q: "Why should a Orlando practice move budget into Meta Ads now?",
+        a: "Every month an account runs on aging sources, its delivery is optimized a little more precisely toward people who are no longer the market, and the cost of correcting it grows because the conversion history the platform has learned from is itself skewed.",
+      },
+      {
+        q: "What areas within Orlando does this cover?",
+        a: "This covers all of Orlando, with particular focus on Lake Nona Medical City, Dr. Phillips / Restaurant Row and Mills 50 and downtown Orlando, since that's where feed impressions concentrate. Well-contested aesthetic field around Dr. Phillips and Winter Park and Cosmetic and implant dental groups across the metro operate across those same areas, so neighborhood-aware targeting is what lets an Orlando practice compete for the same auction.",
+      },
     ],
   },
   {
@@ -792,6 +1320,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Chain dental and urgent care on the US-192 corridor",
       "Orlando advertisers extending south into Osceola County",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Kissimmee?",
+        a: "Independent Kissimmee practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Kissimmee is who's already bought into that feed, namely Tourism and hospitality advertisers dominating corridor spend and English-only healthcare advertisers in a Spanish-dominant market.",
+      },
+      {
+        q: "Who is already bidding in Kissimmee's Meta Ads auction?",
+        a: "Default ad delivery follows general population patterns, which in most markets is a reasonable approximation and here is not. A shift worker finishing at midnight scrolls at midnight, books at midnight, and reaches a practice's website at an hour when no lead follow-up process is running.",
+      },
+      {
+        q: "What makes Kissimmee's paid-social market different from other Florida cities?",
+        a: "Layer on one of the largest Puerto Rican and broader Hispanic populations in Florida, and you have a market where both the language and the timing of a campaign have to be deliberate, and almost no local healthcare advertiser has adjusted either.",
+      },
+      {
+        q: "Why should a Kissimmee practice move budget into Meta Ads now?",
+        a: "The audience currently choosing providers in Kissimmee is doing so around a schedule that most local healthcare marketing ignores entirely \u2014 which means the practice that says it plainly, in Spanish, at eleven at night, is frequently the only one in the conversation. That is not a permanent condition; it is the state of a market nobody has bothered to segment yet.",
+      },
+      {
+        q: "What areas within Kissimmee does this cover?",
+        a: "Our campaigns in Kissimmee extend to Old Town Kissimmee, Lake Toho waterfront and The Loop, not only the core of the city. Tourism and hospitality advertisers dominating corridor spend and English-only healthcare advertisers in a Spanish-dominant market already target those neighborhoods, so a Kissimmee practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
+    ],
   },
   {
     slug: "winter-park-meta-ads-marketing",
@@ -821,6 +1371,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Established cosmetic dental offices",
       "Orlando advertisers buying into the Winter Park ZIPs",
       "High local standard set by non-healthcare retail advertising",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Winter Park?",
+        a: "We do. Winter Park practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in Winter Park that means Boutique aesthetic and concierge practices near Park Avenue and Established cosmetic dental offices are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in Winter Park's Meta Ads auction?",
+        a: "Some markets \u2014 St. Petersburg is the clearest example \u2014 punish polish and reward creative that looks handmade. Winter Park does the opposite: the audience expects visual competence and reads its absence as a signal about the business. Lighting, framing, typography, the quality of the space on camera, the restraint of the claims \u2014 all of it is evaluated, mostly unconsciously, in the second or two before the scroll continues.",
+      },
+      {
+        q: "What makes Winter Park's paid-social market different from other Florida cities?",
+        a: "Park Avenue sets a retail and hospitality standard this town's residents encounter every day, and they judge a practice's advertising against that standard rather than against other healthcare ads. A campaign that would perform respectably in most of Central Florida reads here as cheap \u2014 and cheap, in a small luxury micro-market, is a positioning statement the practice cannot afford to make.",
+      },
+      {
+        q: "Why should a Winter Park practice move budget into Meta Ads now?",
+        a: "Winter Park's audience is small enough that recognition, once established, is genuinely durable \u2014 and small enough that a practice presenting poorly is visibly presenting poorly to the whole town at once. Orlando's better-funded aesthetic and dental groups are steadily improving their creative and buying into this ZIP code; the practices that look like they belong on Park Avenue will keep winning here, and looking that way takes a production cycle, not a campaign launch.",
+      },
+      {
+        q: "What areas within Winter Park does this cover?",
+        a: "Targeting within Winter Park covers Park Avenue, Rollins College and Hannibal Square. Boutique aesthetic and concierge practices near Park Avenue and Established cosmetic dental offices are already buying impressions across those same neighborhoods, which means a Winter Park practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
     ],
   },
   {
@@ -852,6 +1424,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Orlando advertisers treating Seminole County as spillover",
       "Independent practices using default radius targeting",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Altamonte Springs?",
+        a: "Yes \u2014 Altamonte Springs is a market we run Meta Ads in directly, the same engagement everywhere we operate: Instagram and Facebook campaign management, HIPAA-conscious tracking, and monthly reporting, delivered remotely. The real difference city to city is the auction: a Altamonte Springs practice is bidding against Retail-adjacent dental and vision advertisers and Urgent care chains on the 436 corridor for the same feed impressions.",
+      },
+      {
+        q: "Who is already bidding in Altamonte Springs's Meta Ads auction?",
+        a: "A household in Lake Mary that passes the practice every evening is a far better prospect than one the same distance away in a direction nobody drives, because the objection being answered in this market is not price or quality \u2014 it is whether the appointment fits into a day that is already full. Practices that win here are the ones that are on the way, and the ones that say so.",
+      },
+      {
+        q: "What makes Altamonte Springs's paid-social market different from other Florida cities?",
+        a: "It sits at the I-4 and State Road 436 crossroads with SunRail access and a large surrounding Seminole County population that commutes into Orlando and back \u2014 which means the audience for a practice here is defined less by where people sleep than by the route they drive. Targeting a radius around the practice address describes the wrong population entirely.",
+      },
+      {
+        q: "Why should a Altamonte Springs practice move budget into Meta Ads now?",
+        a: "The practice that establishes itself as the obvious on-the-way option for a set of commuting households holds that position until something changes their route, which for most people is years. Seminole County keeps growing along exactly these corridors, and every quarter of new residents is a set of routines being formed for the first time.",
+      },
+      {
+        q: "What areas within Altamonte Springs does this cover?",
+        a: "Targeting within Altamonte Springs covers Altamonte Mall, Cranes Roost Park and State Road 436 corridor. Retail-adjacent dental and vision advertisers and Urgent care chains on the 436 corridor are already buying impressions across those same neighborhoods, which means an Altamonte Springs practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "sanford-meta-ads-marketing",
@@ -881,6 +1475,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "A handful of independent practices with no paid social",
       "Very little consistent local advertising of any kind",
       "Lake Mary and Altamonte advertisers reaching north",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Sanford?",
+        a: "Independent Sanford practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Sanford is who's already bought into that feed, namely Regional health system presence and A handful of independent practices with no paid social.",
+      },
+      {
+        q: "Who is already bidding in Sanford's Meta Ads auction?",
+        a: "Most paid-social strategy is about allocation, because in a normal market you cannot afford everyone and the skill lies in choosing. Sanford removes that constraint. With a modest population, low impression costs and almost no competing healthcare advertisers, the question stops being who to reach and becomes how often to reach them \u2014 which is a reach-and-frequency problem rather than a targeting one, and it is planned completely differently.",
+      },
+      {
+        q: "What makes Sanford's paid-social market different from other Florida cities?",
+        a: "Saturation strategies only work while the feed is quiet. The mechanism depends on a practice's ads being a meaningful share of what the local audience sees from healthcare advertisers \u2014 and that share collapses as soon as two or three competitors start spending, because total ad load rises and frequency gets expensive for everyone. Sanford's growth means those competitors are coming; the population and the downtown revival are visible to anyone looking.",
+      },
+      {
+        q: "Why should a Sanford practice move budget into Meta Ads now?",
+        a: "Saturation strategies only work while the feed is quiet. The mechanism depends on a practice's ads being a meaningful share of what the local audience sees from healthcare advertisers \u2014 and that share collapses as soon as two or three competitors start spending, because total ad load rises and frequency gets expensive for everyone. Sanford's growth means those competitors are coming; the population and the downtown revival are visible to anyone looking.",
+      },
+      {
+        q: "What areas within Sanford does this cover?",
+        a: "This covers all of Sanford, with particular focus on Historic Downtown Sanford, Sanford Riverwalk and Lake Monroe, since that's where feed impressions concentrate. Regional health system presence and A handful of independent practices with no paid social operate across those same areas, so neighborhood-aware targeting is what lets a Sanford practice compete for the same auction.",
+      },
     ],
   },
   {
@@ -912,6 +1528,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Independent practices running citywide targeting",
       "Fast-growing, lightly contested St. Johns County corridors",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Jacksonville?",
+        a: "Jacksonville is one of the Meta Ads markets Primara runs campaigns in, with a standard engagement \u2014 creative, targeting, monthly reports \u2014 delivered remotely. The local variable is the auction itself: in Jacksonville, you're bidding against Regional and PE-backed dental and aesthetic groups expanding into Duval and Large health systems running metro brand campaigns.",
+      },
+      {
+        q: "Who is already bidding in Jacksonville's Meta Ads auction?",
+        a: "A practice in Mandarin running a Jacksonville-wide campaign is paying to reach households in Nocatee and the Beaches who are forty-five minutes away in traffic and have perfectly good options nearby. In a compact city that inefficiency would be a rounding error; across Duval County it can be the majority of the budget.",
+      },
+      {
+        q: "What makes Jacksonville's paid-social market different from other Florida cities?",
+        a: "San Marco, Riverside, the Southside and Town Center corridor, Mandarin, the Beaches and Nocatee are not neighborhoods of one market \u2014 they are separate markets with separate populations, separated by drives nobody makes for a routine appointment. A campaign targeting the city reaches a population that will never visit the practice.",
+      },
+      {
+        q: "Why should a Jacksonville practice move budget into Meta Ads now?",
+        a: "Northeast Florida's paid-social field is less developed than South Florida's, which means the practices building competent, properly scoped accounts here are still early. That will not hold: the same regional and private-equity-backed dental and aesthetic groups that professionalized advertising further south are expanding into Duval and St. Johns counties, and they arrive with metro-scale budgets and correct targeting.",
+      },
+      {
+        q: "What areas within Jacksonville does this cover?",
+        a: "This covers all of Jacksonville, with particular focus on San Marco Square, Riverside / Five Points and St. Johns Town Center, since that's where feed impressions concentrate. Regional and PE-backed dental and aesthetic groups expanding into Duval and Large health systems running metro brand campaigns operate across those same areas, so neighborhood-aware targeting is what lets a Jacksonville practice compete for the same auction.",
+      },
+    ],
   },
   {
     slug: "jacksonville-beach-meta-ads-marketing",
@@ -941,6 +1579,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "A small, mostly independent local field",
       "Ponte Vedra and St. Johns advertisers overlapping the catchment",
       "Dermatology and aesthetic practices serving the active population",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Jacksonville Beach?",
+        a: "Independent Jacksonville Beach practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to Jacksonville Beach is who's already bought into that feed, namely Mainland Jacksonville advertisers reaching in without local specificity and A small, mostly independent local field.",
+      },
+      {
+        q: "Who is already bidding in Jacksonville Beach's Meta Ads auction?",
+        a: "This is a copy problem with a targeting consequence. The geography can be drawn perfectly around the Beaches ZIP codes and the campaign will still underperform if the language positions the practice as a Jacksonville business serving the beach as an afterthought.",
+      },
+      {
+        q: "What makes Jacksonville Beach's paid-social market different from other Florida cities?",
+        a: "Jacksonville Beach, Neptune Beach, Atlantic Beach and Ponte Vedra function as their own community with their own identity, and residents here genuinely do not think of themselves as shopping in Jacksonville. Copy that addresses them as Jacksonville residents signals an advertiser from somewhere else \u2014 which, in a market that prizes local belonging, is the most expensive thing an ad can signal.",
+      },
+      {
+        q: "Why should a Jacksonville Beach practice move budget into Meta Ads now?",
+        a: "That is a durable advantage for a practice actually rooted in the Beaches \u2014 but only while the position is open. These four communities are compact and well connected enough that recognition builds quickly and, once built, is very hard for an outside advertiser to displace; the practice that gets there first is effectively removing the position from the market.",
+      },
+      {
+        q: "What areas within Jacksonville Beach does this cover?",
+        a: "Our campaigns in Jacksonville Beach extend to Jacksonville Beach Pier, Neptune Beach / Beaches Town Center and Atlantic Beach, not only the core of the city. Mainland Jacksonville advertisers reaching in without local specificity and A small, mostly independent local field already target those neighborhoods, so a Jacksonville Beach practice's audience setup has to match that geographic footprint to win the same impressions.",
+      },
     ],
   },
   {
@@ -972,6 +1632,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Jacksonville advertisers reaching south into St. Johns County",
       "New practices following the World Golf Village growth",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in St. Augustine?",
+        a: "We do. St. Augustine practices get the same core Meta Ads engagement as every other market \u2014 creative, targeting, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is who's already in the auction: in St. Augustine that means Local practices marketing only to residents and Tourism and hospitality advertisers dominating visitor-facing spend are already buying the same impressions.",
+      },
+      {
+        q: "Who is already bidding in St. Augustine's Meta Ads auction?",
+        a: "Meta's location targeting distinguishes between people who live in an area and people recently in it, and in almost every campaign we run the setting is locked to residents. St. Augustine is the deliberate exception: a second campaign, explicitly targeting visitors, running alongside the resident one with completely different creative, offers and measurement.",
+      },
+      {
+        q: "What makes St. Augustine's paid-social market different from other Florida cities?",
+        a: "Everywhere else in Florida, tourist traffic inside a geographic target is waste to be excluded. Here, millions of people visit the historic district every year, many of them staying several days with unstructured time, and a meaningful number will book a facial, a peel, a whitening appointment or a wellness service while they are here \u2014 if an ad reaches them during the stay and the offer is designed for someone who is leaving on Sunday.",
+      },
+      {
+        q: "Why should a St. Augustine practice move budget into Meta Ads now?",
+        a: "Both halves have a clock on them. The resident base in St. Johns County is being claimed household by household as new construction fills, and the visitor opportunity persists only until enough local operators notice that a permanently renewing audience is a structurally different and cheaper thing to advertise to than a fixed one.",
+      },
+      {
+        q: "What areas within St. Augustine does this cover?",
+        a: "Targeting within St. Augustine covers St. George Street / historic district, Castillo de San Marcos and World Golf Village. Local practices marketing only to residents and Tourism and hospitality advertisers dominating visitor-facing spend are already buying impressions across those same neighborhoods, which means a St. Augustine practice's campaign needs to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "orange-park-meta-ads-marketing",
@@ -1002,6 +1684,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Jacksonville advertisers reaching into Clay County",
       "Thin local paid-social presence overall",
     ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Orange Park?",
+        a: "Primara actively runs Meta Ads for practices in Orange Park. The engagement is standard across every market \u2014 campaign management, creative, monthly reports, delivered remotely \u2014 but the targeting strategy is built around who's already bidding in Orange Park, which here includes Value-positioned dental and vision chains and Independent family practices across Fleming Island.",
+      },
+      {
+        q: "Who is already bidding in Orange Park's Meta Ads auction?",
+        a: "In a stable market, acquisition spend can be treated as an investment against many years of a relationship, and a practice can afford to slow down once the schedule is full. In a rotating market, a full schedule today is a partially empty one in eighteen months by default, and acquisition has to run continuously as a maintenance cost rather than a growth phase.",
+      },
+      {
+        q: "What makes Orange Park's paid-social market different from other Florida cities?",
+        a: "The NAS Jacksonville community and the surrounding Clay County households connected to it move on orders \u2014 typically every two to three years \u2014 which means a meaningful share of this market's patient base is replaced on a rolling basis whether or not anyone is happy with their provider. An acquisition strategy built on the usual assumption of long retention will quietly under-invest and then wonder why the panel is shrinking.",
+      },
+      {
+        q: "Why should a Orange Park practice move budget into Meta Ads now?",
+        a: "Every rotation cycle a practice spends invisible is a full cohort of arriving families who chose someone else and will be gone before there is a second chance to reach them. Clay County's non-military growth along the expressway corridor is adding to the same flow, and the local advertising field is thin enough that a consistent presence is still inexpensive to establish \u2014 which is a considerably better position than trying to build recognition from zero after two quiet years.",
+      },
+      {
+        q: "What areas within Orange Park does this cover?",
+        a: "Coverage spans Orange Park, including Orange Park Mall, Fleming Island and Eagle Landing. Value-positioned dental and vision chains and Independent family practices across Fleming Island are already bidding for impressions across those same neighborhoods, which is why a Orange Park practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
+      },
+    ],
   },
   {
     slug: "fernandina-beach-meta-ads-marketing",
@@ -1031,6 +1735,28 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       "Resort and hospitality advertisers on Amelia Island",
       "Jacksonville advertisers occasionally reaching north",
       "New practices following the Wildlight and Yulee construction",
+    ],
+    faqs: [
+      {
+        q: "Does Primara run Meta Ads for practices in Fernandina Beach?",
+        a: "Fernandina Beach is one of the Meta Ads markets Primara runs campaigns in, with a standard engagement \u2014 creative, targeting, monthly reports \u2014 delivered remotely. The local variable is the auction itself: in Fernandina Beach, you're bidding against A very thin local competitive field across Nassau County and Resort and hospitality advertisers on Amelia Island.",
+      },
+      {
+        q: "Who is already bidding in Fernandina Beach's Meta Ads auction?",
+        a: "The two audiences differ on every dimension that matters to a campaign. The island population is established, has existing provider relationships, responds to reputation and continuity, and is best reached through steady low-intensity presence \u2014 the value is in being the known option when something changes. The Yulee and Wildlight households are new, have no relationships at all, and are in exactly the high-intent window that makes demand-creation advertising efficient \u2014 the value there is immediate and time-limited per household.",
+      },
+      {
+        q: "What makes Fernandina Beach's paid-social market different from other Florida cities?",
+        a: "On the island there is an affluent, older, outdoors-oriented year-round community alongside a resort and second-home economy. Inland at Yulee and Wildlight there is one of the fastest new-construction booms in Northeast Florida, full of young families who moved in last year. One modest budget, two markets, and a split decision that most practices here make by accident.",
+      },
+      {
+        q: "Why should a Fernandina Beach practice move budget into Meta Ads now?",
+        a: "Every family that closes on a home this quarter picks a dentist and a physician within a few months and then stops looking \u2014 and in a county this thinly advertised, the practice that reaches them is frequently the only one that tried. That is an unusually cheap way to build a patient base, and it has an end date: the construction boom is finite, and the households it produces are claimed once.",
+      },
+      {
+        q: "What areas within Fernandina Beach does this cover?",
+        a: "This covers all of Fernandina Beach, with particular focus on Downtown Fernandina Beach Historic District, Amelia Island resorts and Main Beach, since that's where feed impressions concentrate. A very thin local competitive field across Nassau County and Resort and hospitality advertisers on Amelia Island operate across those same areas, so neighborhood-aware targeting is what lets a Fernandina Beach practice compete for the same auction.",
+      },
     ],
   },
 ];

@@ -46,6 +46,28 @@ export const dentalLocations: DentalLocation[] = [
       "Private-equity-backed full-arch implant centers",
       "Cosmetic dental tourism clinics in Latin America",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Miami?",
+        a: "We do. Miami dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Miami that means going up against Regional DSO-backed group practices across Miami-Dade and National retail dental chains on the Bird Road and Biscayne corridors for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Miami dental practice competing against?",
+        a: "The competitive threat to an independent Miami dentist is not a hospital system \u2014 it is consolidation. Dental service organizations have moved into Miami-Dade harder than almost any Florida market, because the county combines high population density, a cash-pay cosmetic culture, and retail real estate that supports strip-center offices every few miles.",
+      },
+      {
+        q: "What makes Miami's dental market different from other Florida cities?",
+        a: "Patients here do not wander in for a cleaning and hope a treatment plan emerges \u2014 they search specifically for veneers, for full-arch implants, for a smile makeover, and they search in Spanish as often as in English. That intent is worth thousands of dollars per case, which is exactly why corporate dental groups have concentrated so heavily in Miami-Dade.",
+      },
+      {
+        q: "Why should an independent Miami dental practice start now instead of waiting?",
+        a: "Each acquisition permanently raises the cost of visibility in that ZIP code. The independents holding their ground in Miami right now are the ones who built a review moat and a bilingual local-search footprint before the office down the street changed hands \u2014 because ranking positions and review counts are the two assets a new owner's ad budget cannot instantly buy.",
+      },
+      {
+        q: "What areas within Miami does this cover?",
+        a: "This covers all of Miami, with particular focus on Brickell, Coral Gables and Wynwood, since that's where patient search volume concentrates. Regional DSO-backed group practices across Miami-Dade and National retail dental chains on the Bird Road and Biscayne corridors operate across those same areas, so neighborhood-level content is what lets a Miami practice compete with them.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-dental-marketing",
@@ -74,6 +96,28 @@ export const dentalLocations: DentalLocation[] = [
       "Branded full-arch implant centers advertising across Broward",
       "Multi-location group practices on Federal Highway and Oakland Park Blvd",
       "National retail dental chains in Sunrise Blvd strip centers",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Fort Lauderdale?",
+        a: "We do. Fort Lauderdale dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Fort Lauderdale that means going up against Branded full-arch implant centers advertising across Broward and Multi-location group practices on Federal Highway and Oakland Park Blvd for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Fort Lauderdale dental practice competing against?",
+        a: "Branded full-arch implant centers built their entire business model on one high-ticket case type, one funnel, and a media budget aimed squarely at Broward's denture-wearing and failing-dentition population. They advertise on television, on streaming audio, and heavily on Facebook, and they book consults through call centers that never sleep.",
+      },
+      {
+        q: "What makes Fort Lauderdale's dental market different from other Florida cities?",
+        a: "Dr. ive Federal Highway, turn on the radio, or scroll Instagram in a Broward ZIP code and you will be sold a full-arch replacement within minutes \u2014 almost always by a corporate implant center or a multi-location group, almost never by the independent dentist who could do the same case better and closer to the patient's home. That imbalance is a marketing problem, not a clinical one, and it is fixable.",
+      },
+      {
+        q: "Why should an independent Fort Lauderdale dental practice start now instead of waiting?",
+        a: "Corporate implant marketing has trained Broward consumers to believe full-arch replacement is a branded product rather than a procedure their neighborhood dentist can provide. Every additional month of that advertising deepens the association, and it is expensive to unwind. The practices reversing it are doing so by owning the second-opinion search, publishing real case-planning content, and building enough review proof that a patient who saw a commercial still chooses the local office.",
+      },
+      {
+        q: "What areas within Fort Lauderdale does this cover?",
+        a: "This covers all of Fort Lauderdale, with particular focus on Las Olas Boulevard, Victoria Park and Coral Ridge, since that's where patient search volume concentrates. Branded full-arch implant centers advertising across Broward and Multi-location group practices on Federal Highway and Oakland Park Blvd operate across those same areas, so neighborhood-level content is what lets a Fort Lauderdale practice compete with them.",
+      },
     ],
   },
   {
@@ -104,6 +148,28 @@ export const dentalLocations: DentalLocation[] = [
       "National retail dental chains on the Glades Road corridor",
       "Boutique cosmetic and full-mouth reconstruction practices",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Boca Raton?",
+        a: "Independent Boca Raton dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Boca Raton is the competitive set a practice here has to out-market, namely Well-capitalized group practices with premium branding and National retail dental chains on the Glades Road corridor.",
+      },
+      {
+        q: "Who is an independent Boca Raton dental practice competing against?",
+        a: "Group practices here do not look corporate \u2014 they invest in real interiors, real photography, and polished branding, and they compete directly for the same aesthetic and implant cases independents want. National chains hold the more transactional end of the market along Glades Road and the Town Center corridor.",
+      },
+      {
+        q: "What makes Boca Raton's dental market different from other Florida cities?",
+        a: "They choose on evidence \u2014 reviews they read carefully, photography they judge, a website that either signals quality or quietly disqualifies you in eight seconds. That makes Boca one of the few dental markets where an independent practice can consistently out-position a corporate group, because the thing that wins here is credibility, and credibility is not something a centralized marketing department can manufacture.",
+      },
+      {
+        q: "Why should an independent Boca Raton dental practice start now instead of waiting?",
+        a: "Boca's competitive floor rises every time a well-capitalized group opens or acquires locally, because each one arrives with professional photography, a modern site, and a review-generation process running from day one. An independent practice whose digital presence was built five years ago is not standing still relative to that \u2014 it is falling behind while doing nothing wrong clinically.",
+      },
+      {
+        q: "What areas within Boca Raton does this cover?",
+        a: "We work across Boca Raton, including Mizner Park, Boca Town Center and Glades Road corridor \u2014 not just the city center. Well-capitalized group practices with premium branding and National retail dental chains on the Glades Road corridor already rank and advertise across those neighborhoods, so a Boca Raton practice has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "west-palm-beach-dental-marketing",
@@ -132,6 +198,28 @@ export const dentalLocations: DentalLocation[] = [
       "Corporate denture and implant brands across Palm Beach County",
       "Multi-location group practices on Military Trail",
       "Retail dental chains on Okeechobee and Palm Beach Lakes Blvd",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in West Palm Beach?",
+        a: "Primara actively works with independent dental practices in West Palm Beach. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a West Palm Beach practice actually competes against, which here means Corporate denture and implant brands across Palm Beach County and Multi-location group practices on Military Trail.",
+      },
+      {
+        q: "Who is an independent West Palm Beach dental practice competing against?",
+        a: "On one side sit the volume operators: retail chains and multi-location groups clustered along Okeechobee Boulevard, Military Trail, and Palm Beach Lakes Boulevard, competing on convenience, extended hours, and payment plans. On the other side sit practices serving the county's very large older population with restorative and prosthetic work \u2014 implant-supported dentures, full-mouth rehabilitation, and the staged treatment planning that an aging dentition requires.",
+      },
+      {
+        q: "What makes West Palm Beach's dental market different from other Florida cities?",
+        a: "Between November and April the city's part-time residents arrive, and a meaningful share of them need dental work they postponed up north \u2014 a crown that failed, a bridge that came loose, an implant consult they never scheduled. They have a finite window, they search hard, and they decide fast. A practice that is invisible in October has already lost the season.",
+      },
+      {
+        q: "Why should an independent West Palm Beach dental practice start now instead of waiting?",
+        a: "The seasonal window is the constraint that makes delay expensive here in a way it is not elsewhere. Local search authority takes roughly three to six months to build; review counts take longer. A practice that starts in September is not ready for the season that begins eight weeks later, and the next opportunity is a full year away.",
+      },
+      {
+        q: "What areas within West Palm Beach does this cover?",
+        a: "Coverage spans West Palm Beach, including Northwood Village, SoSo (South of Southern) and Flamingo Park. Corporate denture and implant brands across Palm Beach County and Multi-location group practices on Military Trail compete for the same searches across those same neighborhoods, which is why a West Palm Beach practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -162,6 +250,28 @@ export const dentalLocations: DentalLocation[] = [
       "Specialist-heavy implant and prosthodontic offices",
       "Regional group practices expanding into northern Palm Beach County",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Palm Beach Gardens?",
+        a: "Independent Palm Beach Gardens dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Palm Beach Gardens is the competitive set a practice here has to out-market, namely Established multi-doctor practices on the PGA Boulevard corridor and Specialist-heavy implant and prosthodontic offices.",
+      },
+      {
+        q: "Who is an independent Palm Beach Gardens dental practice competing against?",
+        a: "Group practices and specialist-heavy offices here compete for the same country-club households, with implant, cosmetic, and full-mouth reconstruction work making up a disproportionate share of production. National retail chains have less traction in this specific corridor than they do ten miles south, because the demographic does not shop for dentistry on price \u2014 which removes the usual corporate advantage and replaces it with a pure reputation contest. That reputation contest has a measurable structure.",
+      },
+      {
+        q: "What makes Palm Beach Gardens's dental market different from other Florida cities?",
+        a: "A recommendation still travels faster here than an ad \u2014 through PGA National, BallenIsles, Mirasol, and Frenchman's Reserve, where residents genuinely ask each other who their dentist is. But the recommendation no longer closes the case. The referred patient goes home, Googles the name, reads the reviews, looks at the website, and decides there. Practices lose referred patients at that step constantly and never find out.",
+      },
+      {
+        q: "Why should an independent Palm Beach Gardens dental practice start now instead of waiting?",
+        a: "Those patients choose once and stay for a decade or more, which means the practices visible during this build-out phase are locking in multi-year panels while practices that wait compete later for switchers, who are far harder to win. The population influx is the opportunity, and it is being absorbed right now.",
+      },
+      {
+        q: "What areas within Palm Beach Gardens does this cover?",
+        a: "Our work in Palm Beach Gardens extends to PGA Boulevard corridor, PGA National and BallenIsles, not only the core of the city. Established multi-doctor practices on the PGA Boulevard corridor and Specialist-heavy implant and prosthodontic offices are already positioned across those neighborhoods, so a Palm Beach Gardens practice's profile and content have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "delray-beach-dental-marketing",
@@ -190,6 +300,28 @@ export const dentalLocations: DentalLocation[] = [
       "Group practices on the Linton Boulevard and Military Trail corridors",
       "Retail dental chains serving west Delray communities",
       "Cosmetic-focused practices along the Atlantic Avenue core",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Delray Beach?",
+        a: "We do. Delray Beach dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Delray Beach that means going up against Group practices on the Linton Boulevard and Military Trail corridors and Retail dental chains serving west Delray communities for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Delray Beach dental practice competing against?",
+        a: "Corporate and group dentistry in Delray is concentrated where the retail is \u2014 the Linton Boulevard and Military Trail corridors, and the strip centers serving the large western communities. Those locations are optimized for convenience and insurance-plan volume, and they are genuinely good at capturing the routine hygiene patient.",
+      },
+      {
+        q: "What makes Delray Beach's dental market different from other Florida cities?",
+        a: "The other is a 72-year-old in a west Delray community facing a failing bridge and a decision about implants. They search differently, they respond to different advertising, and they are worth very different amounts. Most practices here market to neither of them specifically, and get mediocre results from both.",
+      },
+      {
+        q: "Why should an independent Delray Beach dental practice start now instead of waiting?",
+        a: "Simultaneously, the western communities are turning over as long-time residents age into higher restorative need. Both shifts create new-patient demand at the same time, and both are being captured by whoever is visible. The practices that set up separate messaging for the two audiences now will spend the next several years compounding; the ones running a single generic campaign will keep paying for clicks that convert at half the rate.",
+      },
+      {
+        q: "What areas within Delray Beach does this cover?",
+        a: "We work across Delray Beach, including Atlantic Avenue, Pineapple Grove Arts District and Lake Ida \u2014 not just the city center. Group practices on the Linton Boulevard and Military Trail corridors and Retail dental chains serving west Delray communities already rank and advertise across those neighborhoods, so a Delray Beach practice has to show up by neighborhood name to compete for the same local searches.",
+      },
     ],
   },
   {
@@ -220,6 +352,28 @@ export const dentalLocations: DentalLocation[] = [
       "Retail dental chains near Boynton Beach Boulevard",
       "Denture and implant specialty offices serving 55+ communities",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Boynton Beach?",
+        a: "We do. Boynton Beach dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Boynton Beach that means going up against Group practices on the Congress Avenue corridor and Retail dental chains near Boynton Beach Boulevard for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Boynton Beach dental practice competing against?",
+        a: "The single most under-discussed competitive force in this market is benefit-plan gatekeeping. A large share of Boynton Beach residents carry Medicare Advantage plans, and those plans increasingly bundle a dental allowance that steers members toward a list of participating offices. Corporate groups pursue those plan relationships deliberately, because network participation delivers patient flow without any marketing cost at all. That puts an independent practice in a specific bind: patients are being routed before they ever run a search.",
+      },
+      {
+        q: "What makes Boynton Beach's dental market different from other Florida cities?",
+        a: "Plan-driven routing gets stronger every enrollment cycle, and the offices building network relationships are also building their digital presence at the same time. An independent practice's counterweight is being the obvious, well-reviewed, clearly local choice when a resident decides to look past whatever list they were handed \u2014 and that only works if the profile and reviews are already in place when they look.",
+      },
+      {
+        q: "Why should an independent Boynton Beach dental practice start now instead of waiting?",
+        a: "Plan-driven routing gets stronger every enrollment cycle, and the offices building network relationships are also building their digital presence at the same time. An independent practice's counterweight is being the obvious, well-reviewed, clearly local choice when a resident decides to look past whatever list they were handed \u2014 and that only works if the profile and reviews are already in place when they look.",
+      },
+      {
+        q: "What areas within Boynton Beach does this cover?",
+        a: "This covers all of Boynton Beach, with particular focus on Town Square, Renaissance Commons and Woolbright Road corridor, since that's where patient search volume concentrates. Group practices on the Congress Avenue corridor and Retail dental chains near Boynton Beach Boulevard operate across those same areas, so neighborhood-level content is what lets a Boynton Beach practice compete with them.",
+      },
+    ],
   },
   {
     slug: "pompano-beach-dental-marketing",
@@ -248,6 +402,28 @@ export const dentalLocations: DentalLocation[] = [
       "Older retail chain locations on Atlantic Boulevard",
       "Long-established independents with minimal digital presence",
       "Fort Lauderdale group practices extending marketing reach north",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Pompano Beach?",
+        a: "Yes \u2014 Pompano Beach is a market we serve directly, the same engagement everywhere we operate: Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Pompano Beach dental practice is up against Older retail chain locations on Atlantic Boulevard and Long-established independents with minimal digital presence for the same implant, veneer, and Invisalign searches.",
+      },
+      {
+        q: "Who is an independent Pompano Beach dental practice competing against?",
+        a: "Corporate dentistry treats Pompano Beach as a secondary location rather than a primary one. Chains here tend to be older, smaller-format offices along Atlantic Boulevard and Federal Highway, operating without the marketing intensity the same brands apply in Fort Lauderdale or Boca.",
+      },
+      {
+        q: "What makes Pompano Beach's dental market different from other Florida cities?",
+        a: "Search for a dentist in most Pompano ZIP codes and the results are thin: profiles with a dozen reviews, no photos added in years, websites that were current in 2017. That is not a market to avoid. It is a market where a practice that does the basics well can occupy the Local Pack in a quarter rather than a year.",
+      },
+      {
+        q: "Why should an independent Pompano Beach dental practice start now instead of waiting?",
+        a: "That is a closing window in the most literal sense: as the area's demographics improve, the corporate groups that currently treat Pompano as secondary will start treating it as primary, and they arrive with marketing budgets and professional execution. A practice that establishes Local Pack authority before that shift holds positions that are genuinely difficult to dislodge. One that waits will be fighting the same battle Fort Lauderdale practices fight today.",
+      },
+      {
+        q: "What areas within Pompano Beach does this cover?",
+        a: "Coverage spans Pompano Beach, including Pompano Beach pier and waterfront, Crystal Lake and Collier Manor. Older retail chain locations on Atlantic Boulevard and Long-established independents with minimal digital presence compete for the same searches across those same neighborhoods, which is why a Pompano Beach practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -278,6 +454,28 @@ export const dentalLocations: DentalLocation[] = [
       "Chain orthodontic and clear aligner providers",
       "Multi-location family dental groups in western Broward",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Coral Springs?",
+        a: "Yes \u2014 Coral Springs is a market we serve directly, the same engagement everywhere we operate: Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Coral Springs dental practice is up against Corporate pediatric dental groups on University Drive and Chain orthodontic and clear aligner providers for the same implant, veneer, and Invisalign searches.",
+      },
+      {
+        q: "Who is an independent Coral Springs dental practice competing against?",
+        a: "Corporate pediatric dentistry and chain orthodontics are the specific competitive pressure in Coral Springs, and they are very good at what they do. The model is purpose-built for exactly this demographic: bright themed offices, extended and Saturday hours, in-house financing on braces and teen aligners, and marketing aimed squarely at mothers of school-age children.",
+      },
+      {
+        q: "What makes Coral Springs's dental market different from other Florida cities?",
+        a: "A family with three children books four to five hygiene visits a year, generates orthodontic evaluations as the kids hit eleven and twelve, and brings in grandparents who relocated to be nearby. Win one of those households and you have won a decade of production. Lose it to a corporate pediatric chain and you lose the orthodontic case, the parents, and the referrals to every family on their street.",
+      },
+      {
+        q: "Why should an independent Coral Springs dental practice start now instead of waiting?",
+        a: "The households themselves are also in motion \u2014 Coral Springs' original planned-community families are aging while new families move in to replace them, which means a steady stream of parents making a first dental choice for a child. Being the practice they find and the practice their neighbor names is a position that compounds for years, and it is claimed one household at a time starting now.",
+      },
+      {
+        q: "What areas within Coral Springs does this cover?",
+        a: "We work across Coral Springs, including Eagle Trace, Turtle Run and Heron Bay \u2014 not just the city center. Corporate pediatric dental groups on University Drive and Chain orthodontic and clear aligner providers already rank and advertise across those neighborhoods, so a Coral Springs practice has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "jupiter-dental-marketing",
@@ -306,6 +504,28 @@ export const dentalLocations: DentalLocation[] = [
       "Acquisition-minded dental groups expanding into northern Palm Beach County",
       "Established fee-for-service independents on Indiantown Road",
       "Palm Beach Gardens practices marketing north into Jupiter",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Jupiter?",
+        a: "Independent Jupiter dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Jupiter is the competitive set a practice here has to out-market, namely Acquisition-minded dental groups expanding into northern Palm Beach County and Established fee-for-service independents on Indiantown Road.",
+      },
+      {
+        q: "Who is an independent Jupiter dental practice competing against?",
+        a: "The pattern of dental consolidation is well documented: groups move outward from dense metro cores into affluent suburban and exurban markets where practices are profitable, owner-operators are approaching retirement, and competition is light. Jupiter fits that description precisely. The practices along Indiantown Road, Military Trail, and the Abacoa corridor that look like comfortable independents today are the acquisition pipeline of the next few years, and when one changes hands, the neighborhood's marketing baseline changes with it overnight.",
+      },
+      {
+        q: "What makes Jupiter's dental market different from other Florida cities?",
+        a: "Corporate consolidation has been slower to penetrate northern Palm Beach County than it has south of Blue Heron Boulevard, and a meaningful share of Jupiter practices remain single-owner, fee-for-service, and full of patients who have been coming for fifteen years. That is a genuinely good position \u2014 and it is exactly the kind of market acquisition-minded groups look for next.",
+      },
+      {
+        q: "Why should an independent Jupiter dental practice start now instead of waiting?",
+        a: "The advantage an independent has today \u2014 an uncrowded Local Pack, competitors with modest review counts, and search demand across the county line that nobody is bidding on \u2014 is a function of the corporate groups not having gotten here in force yet. Every one of those advantages evaporates within months of a well-funded group buying a practice nearby.",
+      },
+      {
+        q: "What areas within Jupiter does this cover?",
+        a: "This covers all of Jupiter, with particular focus on Abacoa, Jupiter Farms and Jonathan's Landing, since that's where patient search volume concentrates. Acquisition-minded dental groups expanding into northern Palm Beach County and Established fee-for-service independents on Indiantown Road operate across those same areas, so neighborhood-level content is what lets a Jupiter practice compete with them.",
+      },
     ],
   },
   {
@@ -336,6 +556,28 @@ export const dentalLocations: DentalLocation[] = [
       "Retail dental chains in the Westland Mall corridor",
       "Denture and extraction-focused clinics across western Miami-Dade",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Hialeah?",
+        a: "We do. Hialeah dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Hialeah that means going up against High-volume price-competitive offices on West 49th Street and Retail dental chains in the Westland Mall corridor for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Hialeah dental practice competing against?",
+        a: "High-throughput offices along West 49th Street, Palm Springs Mile, and the Westland Mall corridor compete openly on advertised pricing, payment plans, and same-day availability, and chain locations operate on the same terms. This is one of the few Florida markets where a patient will call four offices to compare a quoted price on an extraction or a denture before booking anything \u2014 which means a practice that is invisible in search never even gets into that comparison set.",
+      },
+      {
+        q: "What makes Hialeah's dental market different from other Florida cities?",
+        a: "Patients here search for \"dentista en Hialeah,\" \"precio de implantes dentales,\" and \"dentista que acepta plan de pago\" far more often than they search the English equivalents \u2014 and the overwhelming majority of dental marketing aimed at this city is English content with a translated button bolted on. That gap is the single largest competitive opening in Miami-Dade dentistry, and it is sitting there because most agencies cannot execute in Spanish properly.",
+      },
+      {
+        q: "Why should an independent Hialeah dental practice start now instead of waiting?",
+        a: "Right now a Spanish-language dental campaign in Hialeah competes against a thin field; in eighteen months it will compete against corporate media budgets. The practices that build a Spanish review base and Spanish content depth in the interim will keep an edge that ad spend alone cannot buy back, because reviews and indexed content both take time that money cannot compress.",
+      },
+      {
+        q: "What areas within Hialeah does this cover?",
+        a: "Our work in Hialeah extends to Palm Springs Mile, Westland Mall area and East Hialeah, not only the core of the city. High-volume price-competitive offices on West 49th Street and Retail dental chains in the Westland Mall corridor are already positioned across those neighborhoods, so a Hialeah practice's profile and content have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "doral-dental-marketing",
@@ -364,6 +606,28 @@ export const dentalLocations: DentalLocation[] = [
       "Modern group practices in the Downtown Doral development",
       "Multilingual cosmetic-focused offices near CityPlace Doral",
       "Chain formats targeting Doral's professional demographic",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Doral?",
+        a: "Independent Doral dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Doral is the competitive set a practice here has to out-market, namely Modern group practices in the Downtown Doral development and Multilingual cosmetic-focused offices near CityPlace Doral.",
+      },
+      {
+        q: "Who is an independent Doral dental practice competing against?",
+        a: "Doral's competitive field is unusually polished for Miami-Dade. Offices in the Downtown Doral development, along NW 87th Avenue, and near the Doral Legacy and CityPlace Doral areas are modern, well-photographed, and often multilingual by default \u2014 Spanish and Portuguese are both common here given the Venezuelan, Colombian, and Brazilian populations.",
+      },
+      {
+        q: "What makes Doral's dental market different from other Florida cities?",
+        a: "Dentistry here is not a routine maintenance purchase. It is an appearance purchase, made by professionals in their thirties and forties who expect the same standard of presentation from a dental office that they get from everything else in their lives.",
+      },
+      {
+        q: "Why should an independent Doral dental practice start now instead of waiting?",
+        a: "Doral's residential build-out keeps delivering new arrivals, many of them relocating internationally with no local dentist and no local recommendations. These patients make their first choice almost entirely from search and social, usually within their first few months, and then stay. There is no cheaper new patient than one who has not yet chosen anyone. The practices visible during this phase of the city's growth will hold those relationships for years while later entrants compete for switchers.",
+      },
+      {
+        q: "What areas within Doral does this cover?",
+        a: "This covers all of Doral, with particular focus on Downtown Doral, CityPlace Doral and Doral Isles, since that's where patient search volume concentrates. Modern group practices in the Downtown Doral development and Multilingual cosmetic-focused offices near CityPlace Doral operate across those same areas, so neighborhood-level content is what lets a Doral practice compete with them.",
+      },
     ],
   },
   {
@@ -394,6 +658,28 @@ export const dentalLocations: DentalLocation[] = [
       "Regional DSO-backed offices on SW 137th Avenue",
       "Chain orthodontic and aligner providers near Dadeland",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Kendall?",
+        a: "Primara actively works with independent dental practices in Kendall. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Kendall practice actually competes against, which here means National retail dental chains across Kendall Drive shopping centers and Regional DSO-backed offices on SW 137th Avenue.",
+      },
+      {
+        q: "Who is an independent Kendall dental practice competing against?",
+        a: "Retail saturation is the defining feature here. The Kendall Dr. ive, SW 137th Avenue, and Sunset Dr. ive corridors are lined with the shopping centers that corporate dental groups target by design, and the same national and regional brands appear repeatedly across the area.",
+      },
+      {
+        q: "What makes Kendall's dental market different from other Florida cities?",
+        a: "In Kendall, it means being visible across about two miles \u2014 because a patient with eleven offices within a ten-minute drive will never scroll past the three Google shows them first, and those three change depending on which strip mall the patient happens to be standing near.",
+      },
+      {
+        q: "Why should an independent Kendall dental practice start now instead of waiting?",
+        a: "Practices that respond by competing harder on new-patient discounts get squeezed on margin without gaining ground, because the chains can always go lower. The alternative \u2014 building review authority, extending ranking radius deliberately, and using paid social to sell high-value treatment beyond the immediate neighborhood \u2014 is a position that gets stronger as the market gets denser rather than weaker.",
+      },
+      {
+        q: "What areas within Kendall does this cover?",
+        a: "Our work in Kendall extends to Dadeland, West Kendall and The Hammocks, not only the core of the city. National retail dental chains across Kendall Drive shopping centers and Regional DSO-backed offices on SW 137th Avenue are already positioned across those neighborhoods, so a Kendall practice's profile and content have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "aventura-dental-marketing",
@@ -422,6 +708,28 @@ export const dentalLocations: DentalLocation[] = [
       "Premium group practices in the Aventura Mall corridor",
       "Cosmetic-focused offices in Biscayne Boulevard medical buildings",
       "Sunny Isles Beach and North Miami Beach practices drawing the same towers",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Aventura?",
+        a: "Independent Aventura dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Aventura is the competitive set a practice here has to out-market, namely Premium group practices in the Aventura Mall corridor and Cosmetic-focused offices in Biscayne Boulevard medical buildings.",
+      },
+      {
+        q: "Who is an independent Aventura dental practice competing against?",
+        a: "The competitive set in Aventura is concentrated around the Aventura Mall corridor, the Biscayne Boulevard medical and retail buildings, and the Williams Island and Turnberry areas, and it skews upmarket. Offices here invest in presentation because the clientele demands it, and cosmetic and implant work makes up a large share of production.",
+      },
+      {
+        q: "What makes Aventura's dental market different from other Florida cities?",
+        a: "Tens of thousands of residents live in a small cluster of high-rise towers along Biscayne Boulevard and Country Club Dr. ive, and the practical radius a dental practice competes in is measured in blocks rather than miles. That geography produces a market that is simultaneously tiny and extremely valuable \u2014 a handful of towers can contain more qualified cosmetic dentistry prospects than an entire suburban city.",
+      },
+      {
+        q: "Why should an independent Aventura dental practice start now instead of waiting?",
+        a: "Aventura's tower inventory keeps growing, and each new building delivers hundreds of residents at once \u2014 every one of them making a first local dental choice within months of moving in. That is the most concentrated new-patient opportunity available anywhere in Miami-Dade, and it is decided almost entirely by what shows up in a search from inside the building.",
+      },
+      {
+        q: "What areas within Aventura does this cover?",
+        a: "This covers all of Aventura, with particular focus on Aventura Mall, Williams Island and Turnberry, since that's where patient search volume concentrates. Premium group practices in the Aventura Mall corridor and Cosmetic-focused offices in Biscayne Boulevard medical buildings operate across those same areas, so neighborhood-level content is what lets an Aventura practice compete with them.",
+      },
     ],
   },
   {
@@ -452,6 +760,28 @@ export const dentalLocations: DentalLocation[] = [
       "Chain pediatric and orthodontic providers in western Broward",
       "Multi-location practices expanding from Miramar and Davie",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Pembroke Pines?",
+        a: "Primara actively works with independent dental practices in Pembroke Pines. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Pembroke Pines practice actually competes against, which here means Corporate family dental groups on Pines Boulevard and Chain pediatric and orthodontic providers in western Broward.",
+      },
+      {
+        q: "Who is an independent Pembroke Pines dental practice competing against?",
+        a: "They advertise continuously and they convert well on convenience. Chain competition extends west toward Miramar and north into Davie, so an independent practice here is rarely more than a mile or two from a well-funded competitor. The structural weakness in the corporate model is depth of relationship. Large group offices rotate associates, which means the family that came in for three years may see four different dentists, and the grandparent's complex restorative case gets referred out rather than planned in-house.",
+      },
+      {
+        q: "What makes Pembroke Pines's dental market different from other Florida cities?",
+        a: "Households here frequently contain school-age children, working parents, and a grandparent who moved down from the Northeast \u2014 three dental populations under one roof, with three completely different treatment needs and one shared decision-maker, usually the adult daughter or son who schedules for everyone.",
+      },
+      {
+        q: "Why should an independent Pembroke Pines dental practice start now instead of waiting?",
+        a: "Every new chain location in Pembroke Pines launches with a discount offer designed to pull families away from existing practices during a short window, and the families most vulnerable to it are the ones with no particular attachment beyond convenience. Building review depth and neighborhood-level search visibility before the next launch is what makes a practice resistant to that; doing it afterward means trying to win patients back, which costs several times more than keeping them.",
+      },
+      {
+        q: "What areas within Pembroke Pines does this cover?",
+        a: "Coverage spans Pembroke Pines, including Pines Boulevard corridor, Chapel Trail and Pembroke Falls. Corporate family dental groups on Pines Boulevard and Chain pediatric and orthodontic providers in western Broward compete for the same searches across those same neighborhoods, which is why a Pembroke Pines practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
+    ],
   },
   {
     slug: "hollywood-dental-marketing",
@@ -480,6 +810,28 @@ export const dentalLocations: DentalLocation[] = [
       "Group practices along Hollywood Boulevard",
       "Chain offices near the Hallandale Beach border",
       "Dania Beach and south Fort Lauderdale practices marketing into Hollywood",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Hollywood?",
+        a: "Yes \u2014 Hollywood is a market we serve directly, the same engagement everywhere we operate: Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Hollywood dental practice is up against Group practices along Hollywood Boulevard and Chain offices near the Hallandale Beach border for the same implant, veneer, and Invisalign searches.",
+      },
+      {
+        q: "Who is an independent Hollywood dental practice competing against?",
+        a: "Chain and group offices sit along Hollywood Boulevard, Sheridan Street, and the Hallandale Beach border, but no single corporate brand dominates the way one might in a purpose-built suburb \u2014 instead the pressure comes from all sides, including practices in Hallandale, Dania Beach, and southern Fort Lauderdale marketing into the same ZIP codes. Multilingual capability is a genuine competitive variable here given the city's Spanish-speaking and Haitian Creole-speaking populations, and it is inconsistently handled by centrally marketed chains.",
+      },
+      {
+        q: "What makes Hollywood's dental market different from other Florida cities?",
+        a: "The city spans beachfront tourism, a walkable downtown that has gentrified substantially, working-class neighborhoods west of I-95, and an aging population in the eastern condos \u2014 four distinct patient economies inside one municipal boundary, served by practices that mostly market to all of them identically.",
+      },
+      {
+        q: "Why should an independent Hollywood dental practice start now instead of waiting?",
+        a: "Downtown Hollywood's residential growth has changed the composition of the city's search demand, adding younger residents with elective interest to a market that was historically urgent-care-weighted. Practices still marketing as though the city is one undifferentiated audience are getting average results from both segments while a competitor who separates them takes the profitable half.",
+      },
+      {
+        q: "What areas within Hollywood does this cover?",
+        a: "This covers all of Hollywood, with particular focus on Downtown Hollywood, Hollywood Beach Broadwalk and Emerald Hills, since that's where patient search volume concentrates. Group practices along Hollywood Boulevard and Chain offices near the Hallandale Beach border operate across those same areas, so neighborhood-level content is what lets a Hollywood practice compete with them.",
+      },
     ],
   },
   {
@@ -510,6 +862,28 @@ export const dentalLocations: DentalLocation[] = [
       "Regional dental groups expanding north from Palm Beach County",
       "Established local practices with limited digital presence",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Port St. Lucie?",
+        a: "We do. Port St. Lucie dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Port St. Lucie that means going up against Newer offices opening in Tradition and St. Lucie West retail centers and Regional dental groups expanding north from Palm Beach County for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Port St. Lucie dental practice competing against?",
+        a: "The competitive landscape here is still forming, which is exactly what makes it urgent. Corporate groups follow population growth with a lag, and Port St. Lucie has crossed the threshold where that lag is ending \u2014 new retail development along Tradition Parkway, St. Lucie West Boulevard, and the US-1 corridor is precisely the real estate profile dental groups target when entering a market.",
+      },
+      {
+        q: "What makes Port St. Lucie's dental market different from other Florida cities?",
+        a: "Lucie has been among the fastest-growing cities in the United States for several years running, and for a dental practice that fact is worth more than any other local variable. A growing city does not just mean more patients \u2014 it means a continuous supply of people who do not have a dentist yet, have no local recommendation to rely on, and will choose entirely from what they find online. That is the cheapest and stickiest new patient in dentistry.",
+      },
+      {
+        q: "Why should an independent Port St. Lucie dental practice start now instead of waiting?",
+        a: "Lucie West is the leading indicator that they are coming. A practice that owns the Local Pack and has several hundred reviews when that happens is in a fundamentally different position than one starting to compete afterward \u2014 the newcomer has to buy attention while the incumbent already has it. Every month of growth absorbed by whoever is currently visible is a month of permanent advantage.",
+      },
+      {
+        q: "What areas within Port St. Lucie does this cover?",
+        a: "This covers all of Port St. Lucie, with particular focus on Tradition, St. Lucie West and Sandpiper Bay, since that's where patient search volume concentrates. Newer offices opening in Tradition and St. Lucie West retail centers and Regional dental groups expanding north from Palm Beach County operate across those same areas, so neighborhood-level content is what lets a Port St. Lucie practice compete with them.",
+      },
+    ],
   },
   {
     slug: "stuart-dental-marketing",
@@ -538,6 +912,28 @@ export const dentalLocations: DentalLocation[] = [
       "Established independent and small-group practices in Martin County",
       "Palm City and Jensen Beach offices serving the same regional radius",
       "Port St. Lucie practices marketing south into Martin County",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Stuart?",
+        a: "Independent Stuart dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Stuart is the competitive set a practice here has to out-market, namely Established independent and small-group practices in Martin County and Palm City and Jensen Beach offices serving the same regional radius.",
+      },
+      {
+        q: "Who is an independent Stuart dental practice competing against?",
+        a: "Corporate dental consolidation has largely passed Stuart by, for the same reason national retailers do too \u2014 the population base does not support the volume model that chain economics require. What exists instead is a field of established independent and small-group practices, many with long-standing patient bases, competing mostly through reputation and referral.",
+      },
+      {
+        q: "What makes Stuart's dental market different from other Florida cities?",
+        a: "Lucie's, but it is older, wealthier, and buys the kind of dentistry that changes a practice's year: full-mouth reconstruction, implant-supported prosthetics, extensive restorative planning. A practice here does not need a hundred new patients a month. It needs the right eight.",
+      },
+      {
+        q: "Why should an independent Stuart dental practice start now instead of waiting?",
+        a: "That combination is temporary. As nearby Port St. Lucie's growth pulls regional marketing investment north, and as practices here turn over to new owners who arrive with modern expectations, the current gap closes. Establishing the review base and content depth now costs a fraction of what matching a competitor's established position costs later.",
+      },
+      {
+        q: "What areas within Stuart does this cover?",
+        a: "Our work in Stuart extends to Historic Downtown Stuart, Sewall's Point and Palm City, not only the core of the city. Established independent and small-group practices in Martin County and Palm City and Jensen Beach offices serving the same regional radius are already positioned across those neighborhoods, so a Stuart practice's profile and content have to match that geographic footprint to compete for patients.",
+      },
     ],
   },
   {
@@ -568,6 +964,28 @@ export const dentalLocations: DentalLocation[] = [
       "National retail dental chains on the Dale Mabry corridor",
       "Chain orthodontic and clear aligner providers",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Tampa?",
+        a: "Primara actively works with independent dental practices in Tampa. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Tampa practice actually competes against, which here means Regional DSO-backed group practices across Tampa Bay and National retail dental chains on the Dale Mabry corridor.",
+      },
+      {
+        q: "Who is an independent Tampa dental practice competing against?",
+        a: "Consolidation in Tampa has produced a specific market structure. Group-affiliated offices occupy most of the prime retail positions along Dale Mabry Highway, the Westshore corridor, and the Brandon and Carrollwood approaches, running coordinated paid search and social campaigns across dozens of locations at once. That coordination gives them cost advantages an individual practice cannot match on the same terms \u2014 they amortize creative production, testing, and media management across a portfolio.",
+      },
+      {
+        q: "What makes Tampa's dental market different from other Florida cities?",
+        a: "The Tampa Bay region has been a hub for dental service organization growth for years \u2014 several regional groups were founded or headquartered in the area, and national brands have layered on top of them. For an independent dentist in South Tampa, Westshore, or Seminole Heights, the competitor two miles away is usually not another owner-dentist; it is an office with a centralized marketing department and a media budget set at the regional level.",
+      },
+      {
+        q: "Why should an independent Tampa dental practice start now instead of waiting?",
+        a: "The independents that remain genuinely competitive are the ones who built neighborhood-level search authority and a deep review base before the office down the road was absorbed. Those two assets are also the specific things a new corporate owner cannot import \u2014 they have to be earned locally over months, which is why starting before the next transaction matters more than reacting after it.",
+      },
+      {
+        q: "What areas within Tampa does this cover?",
+        a: "Coverage spans Tampa, including South Tampa / Hyde Park, Westshore and Seminole Heights. Regional DSO-backed group practices across Tampa Bay and National retail dental chains on the Dale Mabry corridor compete for the same searches across those same neighborhoods, which is why a Tampa practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
+    ],
   },
   {
     slug: "st-petersburg-dental-marketing",
@@ -596,6 +1014,28 @@ export const dentalLocations: DentalLocation[] = [
       "Chain dental offices on the Fourth Street and 66th Street corridors",
       "Group practices in the Tyrone and Gateway retail areas",
       "Cosmetic and aligner-focused practices in the downtown core",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in St. Petersburg?",
+        a: "We do. St. Petersburg dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in St. Petersburg that means going up against Chain dental offices on the Fourth Street and 66th Street corridors and Group practices in the Tyrone and Gateway retail areas for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent St. Petersburg dental practice competing against?",
+        a: "Chain and group dentistry in Pinellas County concentrates along the Fourth Street and 66th Street corridors and in the Tyrone and Gateway retail areas, serving the convenience-driven and volume ends of the market. What they have not captured is the urban core. Downtown St.",
+      },
+      {
+        q: "What makes St. Petersburg's dental market different from other Florida cities?",
+        a: "Petersburg is a city that actively prefers independent businesses, and dentistry is not an exception. The same instinct that fills the Grand Central District and the EDGE District with local restaurants and local shops extends to how residents choose healthcare \u2014 a practice that reads as genuinely local carries an advantage here that would be worth nothing in a suburb built around strip malls.",
+      },
+      {
+        q: "Why should an independent St. Petersburg dental practice start now instead of waiting?",
+        a: "Downtown and Grand Central residential growth continues to add exactly the demographic that buys elective dentistry, and most of those arrivals have not chosen a dentist. The practices that establish a recognizable local brand during this phase will be the default names in a city that talks about its local businesses constantly.",
+      },
+      {
+        q: "What areas within St. Petersburg does this cover?",
+        a: "We work across St. Petersburg, including Downtown St. Petersburg, Grand Central District and EDGE District \u2014 not just the city center. Chain dental offices on the Fourth Street and 66th Street corridors and Group practices in the Tyrone and Gateway retail areas already rank and advertise across those neighborhoods, so a St. Petersburg practice has to show up by neighborhood name to compete for the same local searches.",
+      },
     ],
   },
   {
@@ -626,6 +1066,28 @@ export const dentalLocations: DentalLocation[] = [
       "Group practices on the US-19 corridor",
       "Chain offices in the Countryside retail area",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Clearwater?",
+        a: "Primara actively works with independent dental practices in Clearwater. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Clearwater practice actually competes against, which here means National denture and implant brands across Pinellas County and Group practices on the US-19 corridor.",
+      },
+      {
+        q: "Who is an independent Clearwater dental practice competing against?",
+        a: "Corporate and group dentistry in Clearwater concentrates along US-19, Gulf-to-Bay Boulevard, and the Countryside retail area, competing largely on convenience and insurance-plan volume. Denture and implant-focused corporate brands have a meaningful presence across Pinellas County because the demographics support them \u2014 this is one of the strongest markets in the state for tooth replacement, and the national operators know it.",
+      },
+      {
+        q: "What makes Clearwater's dental market different from other Florida cities?",
+        a: "National denture and implant brands continue to expand their Pinellas advertising, and every wave of it reshapes what local patients believe tooth replacement costs and involves. Independents that wait to respond end up arguing against an established assumption rather than shaping one. The second-opinion and treatment-planning position is available to whoever claims it in local search first, and the beach corridor's visitor-driven emergency demand is essentially uncontested \u2014 both are cheaper to take now than to take back later.",
+      },
+      {
+        q: "Why should an independent Clearwater dental practice start now instead of waiting?",
+        a: "Independents that wait to respond end up arguing against an established assumption rather than shaping one. The second-opinion and treatment-planning position is available to whoever claims it in local search first, and the beach corridor's visitor-driven emergency demand is essentially uncontested \u2014 both are cheaper to take now than to take back later.",
+      },
+      {
+        q: "What areas within Clearwater does this cover?",
+        a: "Coverage spans Clearwater, including Clearwater Beach, Island Estates and Countryside. National denture and implant brands across Pinellas County and Group practices on the US-19 corridor compete for the same searches across those same neighborhoods, which is why a Clearwater practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
+    ],
   },
   {
     slug: "brandon-dental-marketing",
@@ -654,6 +1116,28 @@ export const dentalLocations: DentalLocation[] = [
       "National retail dental chains along the SR-60 corridor",
       "Regional group practices near Westfield Brandon",
       "Chain orthodontic providers serving southeastern Hillsborough",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Brandon?",
+        a: "Independent Brandon dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Brandon is the competitive set a practice here has to out-market, namely National retail dental chains along the SR-60 corridor and Regional group practices near Westfield Brandon.",
+      },
+      {
+        q: "Who is an independent Brandon dental practice competing against?",
+        a: "The chain density on the SR-60 corridor and around Westfield Brandon reflects a deliberate site-selection strategy: high traffic counts, family demographics, and a commuter population passing through twice a day. National and regional brands have taken the visible retail positions, and their marketing is built around volume \u2014 discounted exams, extended hours, and financing on the treatment that follows. It works, and an independent practice cannot outspend it on the same message.",
+      },
+      {
+        q: "What makes Brandon's dental market different from other Florida cities?",
+        a: "Most of its commercial life happens along a few miles of State Road 60 and Brandon Boulevard, and dental offices are stacked along that stretch in numbers that make routine hygiene almost worthless as a competitive position. There is always a chain nearby offering a cheaper new-patient exam, and there always will be. An independent practice that tries to win on that offer is competing in the one arena where it has no structural advantage.",
+      },
+      {
+        q: "Why should an independent Brandon dental practice start now instead of waiting?",
+        a: "Riverview and the southeastern Hillsborough growth corridor keep adding households, and chain operators are following that growth with new locations rather than slowing down. Each opening intensifies the discount competition on the corridor while leaving the surrounding communities relatively under-marketed. Practices that reposition now \u2014 away from the commodity fight and toward the high-value case in the neighborhoods around the corridor \u2014 build a book that is insulated from the next price-led launch.",
+      },
+      {
+        q: "What areas within Brandon does this cover?",
+        a: "Coverage spans Brandon, including Brandon Boulevard / SR-60 corridor, Westfield Brandon and FishHawk Ranch. National retail dental chains along the SR-60 corridor and Regional group practices near Westfield Brandon compete for the same searches across those same neighborhoods, which is why a Brandon practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -684,6 +1168,28 @@ export const dentalLocations: DentalLocation[] = [
       "Established local independents with minimal digital presence",
       "Chain offices on the South Florida Avenue retail corridor",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Lakeland?",
+        a: "Independent Lakeland dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Lakeland is the competitive set a practice here has to out-market, namely Dental groups expanding into Polk County from Tampa and Orlando and Established local independents with minimal digital presence.",
+      },
+      {
+        q: "Who is an independent Lakeland dental practice competing against?",
+        a: "Independent and small-group practices around South Florida Avenue, the Lakeland Highlands area, and near the medical district hold long-tenured patient bases built over decades, and community loyalty is genuinely strong \u2014 Lakeland residents refer within their churches, schools, and neighborhoods with a consistency that urban markets have lost. That loyalty is a real asset and also a real vulnerability, because it has allowed digital presence to stay optional across most of the market. Growth is what changes the equation.",
+      },
+      {
+        q: "What makes Lakeland's dental market different from other Florida cities?",
+        a: "The moment to build a defensive digital position is before a well-funded competitor opens, not after \u2014 because the first thing a new group location does is buy visibility in exactly the searches a practice should already own. Lakeland's advantage today is that those searches are cheap and largely uncontested, and that an established practice can convert decades of goodwill into review authority in a matter of months.",
+      },
+      {
+        q: "Why should an independent Lakeland dental practice start now instead of waiting?",
+        a: "Lakeland's advantage today is that those searches are cheap and largely uncontested, and that an established practice can convert decades of goodwill into review authority in a matter of months. Both of those conditions are functions of the market not being competitive yet, and the I-4 corridor's growth is steadily removing that.",
+      },
+      {
+        q: "What areas within Lakeland does this cover?",
+        a: "We work across Lakeland, including Downtown Lakeland / Lake Mirror, Lakeland Highlands and Grasslands \u2014 not just the city center. Dental groups expanding into Polk County from Tampa and Orlando and Established local independents with minimal digital presence already rank and advertise across those neighborhoods, so a Lakeland practice has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "orlando-dental-marketing",
@@ -712,6 +1218,28 @@ export const dentalLocations: DentalLocation[] = [
       "Large regional dental groups with multi-location Central Florida networks",
       "National retail dental chains on major Orlando retail corridors",
       "Chain orthodontic and pediatric providers across the metro",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Orlando?",
+        a: "Yes \u2014 Orlando is a market we serve directly, the same engagement everywhere we operate: Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Orlando dental practice is up against Large regional dental groups with multi-location Central Florida networks and National retail dental chains on major Orlando retail corridors for the same implant, veneer, and Invisalign searches.",
+      },
+      {
+        q: "Who is an independent Orlando dental practice competing against?",
+        a: "Central Florida's dental market is shaped by large regional group practices that have built dense multi-location networks across the metro, operating general dentistry, orthodontics, and pediatrics under unified branding. Their scale gives them two advantages that compound: they appear in local search across dozens of neighborhoods simultaneously, and a patient who moves within the metro stays inside their network by default.",
+      },
+      {
+        q: "What makes Orlando's dental market different from other Florida cities?",
+        a: "That should be the best possible environment for an independent practice. It usually is not, because Central Florida also hosts some of the largest regional dental groups in the state, and they are extremely good at being the first result a new resident sees.",
+      },
+      {
+        q: "Why should an independent Orlando dental practice start now instead of waiting?",
+        a: "Regional groups expand into new Orlando neighborhoods roughly as fast as those neighborhoods are built, and they open with search visibility already in place. The residents moving into Horizon West, Lake Nona, and the south Orange growth corridors are choosing a dentist right now, once, for years.",
+      },
+      {
+        q: "What areas within Orlando does this cover?",
+        a: "Coverage spans Orlando, including Lake Nona, Winter Park and Dr. Phillips. Large regional dental groups with multi-location Central Florida networks and National retail dental chains on major Orlando retail corridors compete for the same searches across those same neighborhoods, which is why a Orlando practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -742,6 +1270,28 @@ export const dentalLocations: DentalLocation[] = [
       "Chain dental locations in Osceola Parkway retail centers",
       "Orlando-based groups expanding south into Osceola County",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Kissimmee?",
+        a: "Primara actively works with independent dental practices in Kissimmee. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Kissimmee practice actually competes against, which here means Regional group offices on West Vine Street and John Young Parkway and Chain dental locations in Osceola Parkway retail centers.",
+      },
+      {
+        q: "Who is an independent Kissimmee dental practice competing against?",
+        a: "Osceola County's population has grown enormously over the past decade, driven substantially by Puerto Rican and broader Latino migration, and the dental market has not kept pace in either capacity or marketing sophistication. Competition clusters along West Vine Street, John Young Parkway, and the Osceola Parkway retail corridors, mixing regional group offices, chain locations, and independent practices serving specific community segments.",
+      },
+      {
+        q: "What makes Kissimmee's dental market different from other Florida cities?",
+        a: "Those three facts together describe the clearest arbitrage opportunity in Central Florida dentistry. A practice that markets properly in Spanish here is not competing harder than its rivals \u2014 it is competing in a different auction with far fewer bidders.",
+      },
+      {
+        q: "Why should an independent Kissimmee dental practice start now instead of waiting?",
+        a: "Large group practices are increasing their Spanish-language marketing across Central Florida, and when that reaches Osceola County at scale the current cost advantage disappears. Right now Spanish-language dental advertising here faces a thin field and a growing population that is choosing providers for the first time. The review base and indexed Spanish content built during this window remain an advantage afterward, because neither can be purchased quickly once competitors decide to compete.",
+      },
+      {
+        q: "What areas within Kissimmee does this cover?",
+        a: "Our work in Kissimmee extends to Celebration, Poinciana and Buenaventura Lakes, not only the core of the city. Regional group offices on West Vine Street and John Young Parkway and Chain dental locations in Osceola Parkway retail centers are already positioned across those neighborhoods, so a Kissimmee practice's profile and content have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "winter-park-dental-marketing",
@@ -770,6 +1320,28 @@ export const dentalLocations: DentalLocation[] = [
       "Established cosmetic and prosthodontic practices near Park Avenue",
       "Well-presented small-group practices in the Winter Park area",
       "Chain offices on the Semoran and Fairbanks corridors",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Winter Park?",
+        a: "Independent Winter Park dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Winter Park is the competitive set a practice here has to out-market, namely Established cosmetic and prosthodontic practices near Park Avenue and Well-presented small-group practices in the Winter Park area.",
+      },
+      {
+        q: "Who is an independent Winter Park dental practice competing against?",
+        a: "National retail brands have minimal traction inside the city itself because the demographic does not shop dentistry on discount, though chain offices along the Aloma Avenue, Semoran, and Fairbanks corridors capture some of the surrounding traffic. The result is a market where the competition is quality-matched and the differentiator is reputation and presentation rather than reach. Case composition here is weighted heavily toward elective and complex work.",
+      },
+      {
+        q: "What makes Winter Park's dental market different from other Florida cities?",
+        a: "A practice here does not win on convenience or on price \u2014 it wins by looking and feeling like it belongs in Winter Park, and by being the name people already associate with good dentistry before they ever need any.",
+      },
+      {
+        q: "Why should an independent Winter Park dental practice start now instead of waiting?",
+        a: "Winter Park's market is small enough that reputation positions, once held, are extremely durable \u2014 and correspondingly hard to take from a practice that already holds one. The practices that invest in presentation and review depth now become the default names, and defaults in a market this compact persist for years. Waiting means eventually competing against an established impression rather than helping form one.",
+      },
+      {
+        q: "What areas within Winter Park does this cover?",
+        a: "Coverage spans Winter Park, including Park Avenue, Winter Park Village and Rollins College area. Established cosmetic and prosthodontic practices near Park Avenue and Well-presented small-group practices in the Winter Park area compete for the same searches across those same neighborhoods, which is why a Winter Park practice's Google Business Profile and ad creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -800,6 +1372,28 @@ export const dentalLocations: DentalLocation[] = [
       "Convenience-positioned group practices on the SR-436 corridor",
       "Maitland and Longwood practices serving the same commuter population",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Altamonte Springs?",
+        a: "Independent Altamonte Springs dental practices are one of the markets Primara serves today, with the same remotely-delivered engagement we run everywhere: Meta Ads, GBP management, monthly reporting. What's specific to Altamonte Springs is the competitive set a practice here has to out-market, namely Chain dental offices around the Altamonte Mall and Convenience-positioned group practices on the SR-436 corridor.",
+      },
+      {
+        q: "Who is an independent Altamonte Springs dental practice competing against?",
+        a: "The competitive concentration sits around the Altamonte Mall, the SR-436 corridor, and the Uptown Altamonte development, where chain and group offices have taken the high-visibility retail positions. Their core advantage is exactly the one this market values: long hours, weekend availability, and multiple nearby locations, all marketed relentlessly on convenience. That message resonates in a city where a large share of residents commute into Orlando and value time above nearly everything else.",
+      },
+      {
+        q: "What makes Altamonte Springs's dental market different from other Florida cities?",
+        a: "The deciding question for a Seminole County professional who drives I-4 twice a day is not who is best \u2014 it is who can see them at 7:30am, or at 5:30pm, or on a Saturday, without costing them a vacation day. Practices that organize their marketing around that question win patients from practices that are clinically identical and simply harder to schedule with.",
+      },
+      {
+        q: "Why should an independent Altamonte Springs dental practice start now instead of waiting?",
+        a: "Chains are positioned for that decision by default. A practice that makes its availability genuinely visible in search \u2014 rather than merely claiming flexibility on a website \u2014 intercepts those patients at the moment of choice, and the ones it keeps convert into the aligner and restorative cases that actually fund the practice.",
+      },
+      {
+        q: "What areas within Altamonte Springs does this cover?",
+        a: "This covers all of Altamonte Springs, with particular focus on Uptown Altamonte, Altamonte Mall and SR-436 corridor, since that's where patient search volume concentrates. Chain dental offices around the Altamonte Mall and Convenience-positioned group practices on the SR-436 corridor operate across those same areas, so neighborhood-level content is what lets an Altamonte Springs practice compete with them.",
+      },
+    ],
   },
   {
     slug: "sanford-dental-marketing",
@@ -828,6 +1422,28 @@ export const dentalLocations: DentalLocation[] = [
       "Chain offices near Seminole Towne Center and Rinehart Road",
       "Long-established local practices with minimal digital presence",
       "Lake Mary and Heathrow group practices marketing north",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Sanford?",
+        a: "We do. Sanford dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Sanford that means going up against Chain offices near Seminole Towne Center and Rinehart Road and Long-established local practices with minimal digital presence for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Sanford dental practice competing against?",
+        a: "Corporate dental presence in Sanford is limited compared to Altamonte Springs or Lake Mary, concentrated mainly along the SR-46 and Rinehart Road retail corridors near the Seminole Towne Center area. Most of the city is served by established local practices, a number of which have been operating for decades with minimal digital investment. That leaves the Local Pack genuinely contestable, which is not true anywhere closer to Orlando. The market is also changing underneath that quiet surface.",
+      },
+      {
+        q: "What makes Sanford's dental market different from other Florida cities?",
+        a: "Thin profiles, few photos, review counts in the low dozens, websites that were never built for a phone. For a practice willing to do the work properly, that is not a warning sign \u2014 it is an unusually short path to owning the map.",
+      },
+      {
+        q: "Why should an independent Sanford dental practice start now instead of waiting?",
+        a: "When a group practice decides Sanford is worth a location, the local search landscape changes in a single quarter. Right now the cost of taking the top positions is a fraction of what defending them later will be, and the review counts built in the interim become the one thing a newcomer's budget cannot match on arrival.",
+      },
+      {
+        q: "What areas within Sanford does this cover?",
+        a: "Our work in Sanford extends to Historic Downtown Sanford, Seminole Towne Center and Rinehart Road corridor, not only the core of the city. Chain offices near Seminole Towne Center and Rinehart Road and Long-established local practices with minimal digital presence are already positioned across those neighborhoods, so a Sanford practice's profile and content have to match that geographic footprint to compete for patients.",
+      },
     ],
   },
   {
@@ -858,6 +1474,28 @@ export const dentalLocations: DentalLocation[] = [
       "Regional dental groups opening in southeast growth developments",
       "Chain orthodontic providers serving Mandarin and Julington Creek",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Jacksonville?",
+        a: "We do. Jacksonville dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Jacksonville that means going up against Chain and group practices concentrated on the Southside corridor and Regional dental groups opening in southeast growth developments for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Jacksonville dental practice competing against?",
+        a: "The competitive picture varies dramatically by quadrant, which is why generic advice fails here. The San Marco, Riverside, and Avondale corridors have dense, quality-competitive practices serving affluent urban households with strong cosmetic demand. The Southside and Baymeadows corridors carry the heaviest chain and group presence, positioned along the retail spine where the population density and traffic support volume models. Mandarin and the Julington Creek approach are family suburbs with orthodontic and pediatric competition.",
+      },
+      {
+        q: "What makes Jacksonville's dental market different from other Florida cities?",
+        a: "Ranking for \"dentist Jacksonville\" is close to meaningless \u2014 a patient in Mandarin will not drive to the Northside, and Google knows it. What matters is owning a specific piece of an enormous city completely, and most practices spend their marketing budget fighting for a citywide term that would not fill their schedule even if they won it.",
+      },
+      {
+        q: "Why should an independent Jacksonville dental practice start now instead of waiting?",
+        a: "The neighborhoods being built right now will have established dental relationships within a couple of years, and those relationships mostly go to whoever was visible when residents arrived. The cost of appearing in a brand-new neighborhood's searches today is a fraction of the cost of displacing an incumbent there in three years.",
+      },
+      {
+        q: "What areas within Jacksonville does this cover?",
+        a: "This covers all of Jacksonville, with particular focus on San Marco, Riverside / Avondale and Mandarin, since that's where patient search volume concentrates. Chain and group practices concentrated on the Southside corridor and Regional dental groups opening in southeast growth developments operate across those same areas, so neighborhood-level content is what lets a Jacksonville practice compete with them.",
+      },
+    ],
   },
   {
     slug: "jacksonville-beach-dental-marketing",
@@ -886,6 +1524,28 @@ export const dentalLocations: DentalLocation[] = [
       "Well-presented independent practices along Third Street",
       "Cosmetic and aligner-focused offices in Ponte Vedra Beach",
       "Southside corridor group practices capturing Beaches commuters",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Jacksonville Beach?",
+        a: "Primara actively works with independent dental practices in Jacksonville Beach. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Jacksonville Beach practice actually competes against, which here means Well-presented independent practices along Third Street and Cosmetic and aligner-focused offices in Ponte Vedra Beach.",
+      },
+      {
+        q: "Who is an independent Jacksonville Beach dental practice competing against?",
+        a: "Competition in the Beaches is concentrated rather than sprawling. Practices cluster along Third Street, Beach Boulevard, and the approaches to Neptune and Atlantic Beach, and the field is weighted toward well-presented independents and small groups rather than national chains, which have less traction in a market this compact and this locally oriented.",
+      },
+      {
+        q: "What makes Jacksonville Beach's dental market different from other Florida cities?",
+        a: "Ponte Vedra and the southern Beaches corridor continue to attract affluent new residents, and those households choose a dentist once and rarely reconsider. The compactness of the market means the practices that establish a strong cosmetic reputation and a deep review base become the small handful of names everyone recognizes \u2014 and in a community this small, that list is short and slow to change. Getting on it is far easier than displacing someone already on it.",
+      },
+      {
+        q: "Why should an independent Jacksonville Beach dental practice start now instead of waiting?",
+        a: "The compactness of the market means the practices that establish a strong cosmetic reputation and a deep review base become the small handful of names everyone recognizes \u2014 and in a community this small, that list is short and slow to change. Getting on it is far easier than displacing someone already on it.",
+      },
+      {
+        q: "What areas within Jacksonville Beach does this cover?",
+        a: "This covers all of Jacksonville Beach, with particular focus on Jacksonville Beach pier and Third Street, Neptune Beach and Atlantic Beach, since that's where patient search volume concentrates. Well-presented independent practices along Third Street and Cosmetic and aligner-focused offices in Ponte Vedra Beach operate across those same areas, so neighborhood-level content is what lets a Jacksonville Beach practice compete with them.",
+      },
     ],
   },
   {
@@ -916,6 +1576,28 @@ export const dentalLocations: DentalLocation[] = [
       "Practices opening in the World Golf Village growth corridor",
       "Ponte Vedra and northern St. Johns County offices marketing south",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in St. Augustine?",
+        a: "We do. St. Augustine dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in St. Augustine that means going up against Independent and small-group practices along US-1 and SR-312 and Practices opening in the World Golf Village growth corridor for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent St. Augustine dental practice competing against?",
+        a: "Practices concentrate around US-1, the SR-312 corridor, and the approaches to the historic district and Anastasia Island, with limited national chain presence and a field dominated by independents and small groups. Growth is the variable that is changing this: St. Johns County has been among the fastest-growing counties in Florida, and the World Golf Village, Nocatee-adjacent, and SR-16 development corridors are adding affluent households at a pace the local dental supply has not matched.",
+      },
+      {
+        q: "What makes St. Augustine's dental market different from other Florida cities?",
+        a: "Augustine receives millions of visitors a year and is simultaneously one of the fastest-growing retirement destinations on Florida's northeast coast. Those two populations generate completely different dental demand \u2014 one urgent and transactional, the other long-horizon and high-value \u2014 and almost every practice in the city markets to only one of them while leaving the other entirely uncontested.",
+      },
+      {
+        q: "Why should an independent St. Augustine dental practice start now instead of waiting?",
+        a: "Johns County's growth is delivering exactly the households that buy the highest-value dentistry, and they are choosing providers now, during their first year in the area. The visitor-emergency position is separately available because practices treat urgent visitors as interruptions rather than as a channel \u2014 which means it can be claimed cheaply and held indefinitely.",
+      },
+      {
+        q: "What areas within St. Augustine does this cover?",
+        a: "We work across St. Augustine, including Historic District / St. George Street, Anastasia Island and World Golf Village \u2014 not just the city center. Independent and small-group practices along US-1 and SR-312 and Practices opening in the World Golf Village growth corridor already rank and advertise across those neighborhoods, so a St. Augustine practice has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "orange-park-dental-marketing",
@@ -945,6 +1627,28 @@ export const dentalLocations: DentalLocation[] = [
       "Group practices near Orange Park Mall and Wells Road",
       "Jacksonville Southside groups marketing into Clay County",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Orange Park?",
+        a: "Yes \u2014 Orange Park is a market we serve directly, the same engagement everywhere we operate: Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Orange Park dental practice is up against National retail dental chains on the Blanding Boulevard corridor and Group practices near Orange Park Mall and Wells Road for the same implant, veneer, and Invisalign searches.",
+      },
+      {
+        q: "Who is an independent Orange Park dental practice competing against?",
+        a: "Chain and group presence along the Blanding corridor and around the Orange Park Mall area is heavy relative to the size of the market, reflecting a site-selection logic that prizes traffic counts and family density. Their advertising centers on discounted exams and financing, which works on the transient and price-sensitive end of the market. What that model does not serve well is the established Clay County household with a long-term relationship expectation and treatment needs that develop over a decade.",
+      },
+      {
+        q: "What makes Orange Park's dental market different from other Florida cities?",
+        a: "Blanding Boulevard and Wells Road carry the retail density that chain dentistry is built around, and the offices along them compete openly on price, hours, and new-patient promotions. For an independent practice in Clay County, the question is not how to win that fight \u2014 it is how to stop being in it.",
+      },
+      {
+        q: "Why should an independent Orange Park dental practice start now instead of waiting?",
+        a: "Competing on their terms means matching offers indefinitely against businesses with better cost structures. Building neighborhood-level search authority and a deep review base in the surrounding communities is the alternative, and it gets harder every quarter that a competitor gets there first \u2014 particularly in the newer developments where no practice has established itself yet.",
+      },
+      {
+        q: "What areas within Orange Park does this cover?",
+        a: "This covers all of Orange Park, with particular focus on Blanding Boulevard corridor, Orange Park Mall / Wells Road and Fleming Island, since that's where patient search volume concentrates. National retail dental chains on the Blanding Boulevard corridor and Group practices near Orange Park Mall and Wells Road operate across those same areas, so neighborhood-level content is what lets an Orange Park practice compete with them.",
+      },
+    ],
   },
   {
     slug: "fernandina-beach-dental-marketing",
@@ -973,6 +1677,28 @@ export const dentalLocations: DentalLocation[] = [
       "Established island practices in Fernandina Beach",
       "Mainland offices along the SR-200 growth corridor in Yulee",
       "Northern Jacksonville practices drawing Nassau County residents",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with dental practices in Fernandina Beach?",
+        a: "We do. Fernandina Beach dental practices get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Fernandina Beach that means going up against Established island practices in Fernandina Beach and Mainland offices along the SR-200 growth corridor in Yulee for the same case-acceptance-driving searches.",
+      },
+      {
+        q: "Who is an independent Fernandina Beach dental practice competing against?",
+        a: "National chain dentistry has essentially no presence on the island, because the population base cannot support a volume model. Competition comes from a small number of established local practices, plus offices on the mainland side in Yulee and the Nassau County growth corridor along SR-200 and A1A, which pull some residents inland. That structure makes reputation the entire competitive field \u2014 there is no way to out-distribute a competitor when everyone is within ten minutes of everyone else.",
+      },
+      {
+        q: "What makes Fernandina Beach's dental market different from other Florida cities?",
+        a: "The island holds a small, affluent, largely retired population plus a steady resort and tourism flow, and the practical competitive set for a dentist here is a handful of practices \u2014 not dozens. In a market that small, marketing is not about volume. It is about being one of the two or three names that every resident already knows and that every new arrival finds immediately.",
+      },
+      {
+        q: "Why should an independent Fernandina Beach dental practice start now instead of waiting?",
+        a: "The Yulee and SR-200 corridor on the mainland is where Nassau County's growth is happening, and it is close enough that an island practice can realistically serve it \u2014 but only if it appears in those searches, which today it almost certainly does not.",
+      },
+      {
+        q: "What areas within Fernandina Beach does this cover?",
+        a: "We work across Fernandina Beach, including Historic Downtown Fernandina / Centre Street, Amelia Island Plantation and Main Beach \u2014 not just the city center. Established island practices in Fernandina Beach and Mainland offices along the SR-200 growth corridor in Yulee already rank and advertise across those neighborhoods, so a Fernandina Beach practice has to show up by neighborhood name to compete for the same local searches.",
+      },
     ],
   },
 ];

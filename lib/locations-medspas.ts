@@ -54,6 +54,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Dermatology-group-owned cosmetic practices",
       "Plastic surgery in-office medspas",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Miami?",
+        a: "Yes \u2014 Miami is a market we serve directly, the same engagement everywhere we operate: Instagram-first Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Miami medspa is up against LaserAway and Ideal Image for the same searches and impressions.",
+      },
+      {
+        q: "Who is Miami independent medspa competing against?",
+        a: "Underneath that, Miami has something almost no other Florida market has: a dense layer of plastic-surgery-adjacent aesthetics, built around the surgical tourism economy that brings patients to Miami specifically for body work and keeps them here through recovery. That creates a steady, non-local stream of aesthetic demand that most independent medspas never think to market to. The gap is language.",
+      },
+      {
+        q: "What makes Miami's aesthetics market different from other Florida cities?",
+        a: "A single ZIP code in Brickell can hold a national laser chain, two dermatology-group-owned aesthetic suites, a plastic surgeon's in-office medspa, and a dozen independent injectors \u2014 all bidding on the same Instagram impressions and the same \"Botox near me\" searches. In a market this dense, visibility is not won by having the best pricing. It's won by being the practice a prospective patient has already seen three times on Instagram before they ever type your name into Google.",
+      },
+      {
+        q: "Why should an independent Miami medspa start now instead of waiting?",
+        a: "She finds you on Instagram, checks your Google reviews to confirm you're real, and books. If either half of that chain is broken \u2014 no visual presence, or a thin review profile \u2014 she goes to the chain location down the street that has both.",
+      },
+      {
+        q: "What areas within Miami does this cover?",
+        a: "This covers all of Miami, with particular focus on Brickell City Centre, Wynwood Arts District and Coral Gables / Miracle Mile, since that's where aesthetic search and ad impressions concentrate. LaserAway and Ideal Image operate across those same areas, so neighborhood-level content is what lets a Miami medspa compete.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-medspa-marketing",
@@ -84,6 +106,28 @@ export const medspaLocations: MedspaLocation[] = [
       "National laser hair removal chains",
       "Independent injector-led studios",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Fort Lauderdale?",
+        a: "We do. Fort Lauderdale medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Fort Lauderdale that means going up against Sono Bello and Ideal Image for the same patients.",
+      },
+      {
+        q: "Who is Fort Lauderdale independent medspa competing against?",
+        a: "The chain presence here is real and it is specifically strong in the two highest-volume categories. National body contouring and laser hair removal operators \u2014 Sono Bello, Ideal Image, and similar \u2014 market aggressively across Broward County, and they compete on exactly the thing an independent shouldn't: a heavily discounted, heavily financed introductory offer. They win the price shopper.",
+      },
+      {
+        q: "What makes Fort Lauderdale's aesthetics market different from other Florida cities?",
+        a: "Laser hair removal, body contouring, and maintenance injectables are treatments people buy on a schedule, not once, and Fort Lauderdale's mix of year-round professionals, a large and openly aesthetics-engaged LGBTQ+ community centered on Wilton Manors, and a marine-industry workforce with real disposable income produces exactly the kind of repeat demand that memberships are designed to capture.",
+      },
+      {
+        q: "Why should an independent Fort Lauderdale medspa start now instead of waiting?",
+        a: "The chains in Broward County compete on the introductory offer and then rely on financing to retain the client. That is a strategy an independent cannot out-discount and should not try to. The counter is recurring revenue: a membership base that makes next month's schedule predictable regardless of what a national operator is promoting this week.",
+      },
+      {
+        q: "What areas within Fort Lauderdale does this cover?",
+        a: "Coverage spans Fort Lauderdale, including Las Olas Boulevard, Wilton Manors and Victoria Park. Sono Bello and Ideal Image compete for the same searches and impressions across those same neighborhoods, which is why a Fort Lauderdale medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
+    ],
   },
   {
     slug: "boca-raton-medspa-marketing",
@@ -112,6 +156,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Dermatology-group cosmetic practices",
       "Plastic surgery in-office medspas",
       "National laser and body contouring chains",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Boca Raton?",
+        a: "Yes \u2014 Boca Raton is a market we serve directly, the same engagement everywhere we operate: Instagram-first Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Boca Raton medspa is up against Dermatology-group cosmetic practices and Plastic surgery in-office medspas for the same searches and impressions.",
+      },
+      {
+        q: "Who is Boca Raton independent medspa competing against?",
+        a: "Boca Raton's competitive field is unusually credential-heavy. Dermatology and plastic surgery groups operate cosmetic arms along the Glades Road and Federal Highway corridors that lead with physician names and board certifications, and they set the trust bar an independent medspa has to clear.",
+      },
+      {
+        q: "What makes Boca Raton's aesthetics market different from other Florida cities?",
+        a: "This is not a discount market. Discounting here actively damages positioning, because the Boca client interprets a coupon as a signal about the injector, not about the price. What she is actually shopping for is evidence: who is doing the work, what their credentials are, and what other people in her neighborhood have said about the result.",
+      },
+      {
+        q: "Why should an independent Boca Raton medspa start now instead of waiting?",
+        a: "It fills a calendar once and then trains the client to wait for the next offer. Meanwhile the dermatology and surgical groups in this market never discount, never have to, and keep accumulating the review depth and physician-name recognition that make them the default referral. An independent medspa in Boca Raton competing on price is competing in the one arena where its economics are worst and its brand damage is highest.",
+      },
+      {
+        q: "What areas within Boca Raton does this cover?",
+        a: "This covers all of Boca Raton, with particular focus on Mizner Park, Town Center at Boca Raton and Glades Road corridor, since that's where aesthetic search and ad impressions concentrate. Dermatology-group cosmetic practices and Plastic surgery in-office medspas operate across those same areas, so neighborhood-level content is what lets a Boca Raton medspa compete.",
+      },
     ],
   },
   {
@@ -142,6 +208,28 @@ export const medspaLocations: MedspaLocation[] = [
       "National laser hair removal chains",
       "Body contouring chains on the retail corridors",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in West Palm Beach?",
+        a: "We do. West Palm Beach medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in West Palm Beach that means going up against Physician-led cosmetic practices and National laser hair removal chains for the same patients.",
+      },
+      {
+        q: "Who is West Palm Beach independent medspa competing against?",
+        a: "The premium end of the market is served by physician-led cosmetic practices and boutique studios that market almost entirely through referral and reputation, while national laser and body contouring chains hold position along the Okeechobee Boulevard and Palm Beach Lakes retail corridors chasing the year-round volume buyer. An independent medspa sitting between those two poles frequently ends up invisible to both \u2014 too promotional for the seasonal client, not aggressive enough for the value shopper.",
+      },
+      {
+        q: "What makes West Palm Beach's aesthetics market different from other Florida cities?",
+        a: "On one side is an extremely high-end, heavily seasonal client who arrives in the fall and expects a concierge experience. On the other is a large, year-round population in downtown, Northwood, and the western suburbs with steady, price-aware demand for injectables, laser, and medical weight loss. Most medspas here build one marketing program and run it at one intensity all twelve months, which means they overspend in summer and underserve the season that actually pays for the year.",
+      },
+      {
+        q: "Why should an independent West Palm Beach medspa start now instead of waiting?",
+        a: "The season is a deadline, not a trend. Seasonal residents establish their provider relationships in the first few weeks after they arrive, and whoever is visible in October and November holds that client for the entire winter \u2014 and usually for the following winter too. A medspa that starts building its Google presence and its retargeting audiences in January has already missed the only window of the year where acquisition is cheap relative to lifetime value.",
+      },
+      {
+        q: "What areas within West Palm Beach does this cover?",
+        a: "We work across West Palm Beach, including Rosemary Square / CityPlace, Clematis Street and Northwood Village \u2014 not just the city center. Physician-led cosmetic practices and National laser hair removal chains already rank and advertise across those neighborhoods, so a West Palm Beach medspa has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "palm-beach-gardens-medspa-marketing",
@@ -170,6 +258,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Florida dermatology groups with cosmetic arms",
       "Boutique physician-led aesthetic practices",
       "Country-club-adjacent independent studios",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Palm Beach Gardens?",
+        a: "Yes \u2014 Palm Beach Gardens is a market we serve directly, the same engagement everywhere we operate: Instagram-first Meta Ads, Google Business Profile management, and monthly reporting, delivered remotely. The real difference city to city is competitive: an independent Palm Beach Gardens medspa is up against Florida dermatology groups with cosmetic arms and Boutique physician-led aesthetic practices for the same searches and impressions.",
+      },
+      {
+        q: "Who is Palm Beach Gardens independent medspa competing against?",
+        a: "The dominant competitive force here is not a national chain \u2014 it's the dermatology group. Large Florida dermatology organizations maintain a heavy presence across northern Palm Beach County and route cosmetic services through their existing medical patient base, which means they acquire aesthetic clients at effectively zero marketing cost from people who are already in the building for a skin check. That is a structural advantage an independent medspa cannot replicate by outspending it.",
+      },
+      {
+        q: "What makes Palm Beach Gardens's aesthetics market different from other Florida cities?",
+        a: "PGA National, BallenIsles, Mirasol, and Frenchman's Reserve concentrate an enormous amount of discretionary spending inside a handful of gated communities, and the clients inside them talk to each other constantly. That makes this one of the few markets in Florida where a medspa's growth curve is driven more by what happens inside a country club dining room than by what happens in an ad auction.",
+      },
+      {
+        q: "Why should an independent Palm Beach Gardens medspa start now instead of waiting?",
+        a: "The dermatology groups in northern Palm Beach County are converting their existing medical patients into cosmetic clients continuously and at no acquisition cost. Every quarter an independent medspa waits, more of the addressable population inside PGA National and BallenIsles has already picked a provider through that channel \u2014 and in a referral-driven market, a client who has already chosen is extremely expensive to move.",
+      },
+      {
+        q: "What areas within Palm Beach Gardens does this cover?",
+        a: "This covers all of Palm Beach Gardens, with particular focus on PGA National, BallenIsles and Mirasol, since that's where aesthetic search and ad impressions concentrate. Florida dermatology groups with cosmetic arms and Boutique physician-led aesthetic practices operate across those same areas, so neighborhood-level content is what lets a Palm Beach Gardens medspa compete.",
+      },
     ],
   },
   {
@@ -200,6 +310,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Salon- and fitness-embedded aesthetic services",
       "Regional injector-led studios",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Delray Beach?",
+        a: "We do. Delray Beach medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Delray Beach that means going up against Independent boutique medspas on Atlantic Avenue and Salon- and fitness-embedded aesthetic services for the same patients.",
+      },
+      {
+        q: "Who is Delray Beach independent medspa competing against?",
+        a: "That fragmentation means no competitor has established overwhelming search authority, and a medspa that does proper Google Business Profile work can take the map pack faster here than in Boca or Fort Lauderdale. It also means differentiation has to come from brand, because there are a dozen adjacent businesses offering something similar within a few blocks. The local demographic tilts younger than most of Palm Beach County, and it buys differently.",
+      },
+      {
+        q: "What makes Delray Beach's aesthetics market different from other Florida cities?",
+        a: "Atlantic Avenue is a walking street, the local audience skews young, fit, and wellness-obsessed, and the same crowd that fills the boutique fitness studios in the morning is the crowd buying preventative injectables, body contouring, and skin treatments in the afternoon. A medspa here that treats Instagram as a brochure rather than as the primary acquisition channel is fighting with one hand down.",
+      },
+      {
+        q: "Why should an independent Delray Beach medspa start now instead of waiting?",
+        a: "No single competitor has the review depth, the search authority, and the content presence at the same time \u2014 which is exactly the condition under which a well-executed twelve-month program can produce outsized results. That condition does not last. Markets like this consolidate around whichever two or three practices build the assets first, and once a Delray medspa holds both the map pack and the Instagram mindshare on Atlantic Avenue, displacing it becomes an expensive, multi-year project for everyone else.",
+      },
+      {
+        q: "What areas within Delray Beach does this cover?",
+        a: "Coverage spans Delray Beach, including Atlantic Avenue, Pineapple Grove and Delray Beach Market. Independent boutique medspas on Atlantic Avenue and Salon- and fitness-embedded aesthetic services compete for the same searches and impressions across those same neighborhoods, which is why a Delray Beach medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
+    ],
   },
   {
     slug: "boynton-beach-medspa-marketing",
@@ -228,6 +360,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Small independent medspas with unoptimized listings",
       "Weight-loss and wellness clinics",
       "Chain locations expanding from Boca and West Palm",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Boynton Beach?",
+        a: "Primara actively works with independent medspas in Boynton Beach. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Boynton Beach medspa is actually competing against, which here means Small independent medspas with unoptimized listings and Weight-loss and wellness clinics.",
+      },
+      {
+        q: "Who is Boynton Beach independent medspa competing against?",
+        a: "Boynton's competitive field is thin relative to its population. National chains concentrate their Palm Beach County footprint in Boca and West Palm, which leaves the Congress Avenue and Boynton Beach Boulevard corridors served mostly by small independents, many with incomplete Google Business Profiles and little to no paid social presence. In practical terms, a medspa that does the basic local search work properly here is competing against listings that have not been updated in years.",
+      },
+      {
+        q: "What makes Boynton Beach's aesthetics market different from other Florida cities?",
+        a: "Delray is to the south, West Palm Beach to the north, and a very large middle-income, middle-aged population lives in between with real aesthetic demand and comparatively few practices marketing to it seriously. That is an opportunity, not a consolation prize: acquisition costs here are a fraction of what they are ten miles in either direction, and the client who books is often driving past a competitor to do it.",
+      },
+      {
+        q: "Why should an independent Boynton Beach medspa start now instead of waiting?",
+        a: "Boynton Beach is underpriced right now, and underpricing is temporary. Palm Beach County's aesthetic operators are expanding outward from Boca and West Palm as those markets saturate, and the Congress Avenue corridor is the obvious next stop. A practice that establishes map pack position and a weight-loss-led membership base before that expansion arrives will be defending a position rather than trying to take one \u2014 and defending is enormously cheaper. The advantage in this market is entirely about sequence.",
+      },
+      {
+        q: "What areas within Boynton Beach does this cover?",
+        a: "Service area within Boynton Beach includes Congress Avenue corridor, Boynton Beach Mall area and Ocean Avenue / downtown. Small independent medspas with unoptimized listings and Weight-loss and wellness clinics already advertise and rank across those same neighborhoods, which means a Boynton Beach medspa's content strategy has to be built at the neighborhood level, not just the city level.",
+      },
     ],
   },
   {
@@ -258,6 +412,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Broward chain locations expanding north",
       "Salon- and wellness-embedded aesthetic services",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Pompano Beach?",
+        a: "Primara actively works with independent medspas in Pompano Beach. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Pompano Beach medspa is actually competing against, which here means Small independent medspas with dormant listings and Broward chain locations expanding north.",
+      },
+      {
+        q: "Who is Pompano Beach independent medspa competing against?",
+        a: "National chains have not prioritized it the way they've prioritized Broward's more established retail corridors, and much of the existing local competition consists of small operators whose Google Business Profiles carry a handful of old reviews, no service list worth speaking of, and no paid social presence at all. The searches are happening \u2014 \"botox Pompano Beach,\" \"laser hair removal near me,\" \"medical weight loss Pompano\" \u2014 and they are being answered poorly.",
+      },
+      {
+        q: "What makes Pompano Beach's aesthetics market different from other Florida cities?",
+        a: "The Fishing Village district, the Atlantic Boulevard beachfront rebuild, and a wave of new residential construction are changing who lives here and what they spend on \u2014 and the aesthetics market has not caught up yet. A medspa that establishes local search authority during a redevelopment cycle is claiming territory before the population that will pay for it has fully arrived.",
+      },
+      {
+        q: "Why should an independent Pompano Beach medspa start now instead of waiting?",
+        a: "Redevelopment attracts competition on a predictable lag. The residential inventory comes first, the population follows, and the national operators and better-funded independents arrive once the demographic data confirms what the construction already implied. Pompano Beach is currently between those two points.",
+      },
+      {
+        q: "What areas within Pompano Beach does this cover?",
+        a: "Service area within Pompano Beach includes Pompano Beach Fishing Village, Atlantic Boulevard beachfront and Pompano Citi Centre. Small independent medspas with dormant listings and Broward chain locations expanding north already advertise and rank across those same neighborhoods, which means a Pompano Beach medspa's content strategy has to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "coral-springs-medspa-marketing",
@@ -286,6 +462,28 @@ export const medspaLocations: MedspaLocation[] = [
       "National laser hair removal chains",
       "Facial and skincare franchises",
       "Body contouring chains on the retail corridors",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Coral Springs?",
+        a: "We do. Coral Springs medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Coral Springs that means going up against National laser hair removal chains and Facial and skincare franchises for the same patients.",
+      },
+      {
+        q: "Who is Coral Springs independent medspa competing against?",
+        a: "National laser hair removal and body contouring operators anchor the Sample Road and University Dr. ive corridors, along with the facial and skincare franchises that occupy the same shopping centers, and they compete for foot traffic and introductory-offer conversions. What they do not do well is serve a client who wants continuity \u2014 the same injector, who remembers what was done last time and what the plan is going into the summer.",
+      },
+      {
+        q: "What makes Coral Springs's aesthetics market different from other Florida cities?",
+        a: "The core client is a 35-to-50-year-old mother whose schedule is governed by the school calendar, whose discretionary spending decisions are made in the context of a household budget, and whose recommendations travel through a referral network \u2014 school, sports league, neighborhood group \u2014 that is tighter and faster than anything you'll find in a downtown market.",
+      },
+      {
+        q: "Why should an independent Coral Springs medspa start now instead of waiting?",
+        a: "In a tight referral community, market share compounds. One satisfied client in a Coral Springs neighborhood generates conversations that reach dozens of households, and the practice that is easy to find and obviously credible when those households go looking captures a disproportionate share of them.",
+      },
+      {
+        q: "What areas within Coral Springs does this cover?",
+        a: "This covers all of Coral Springs, with particular focus on Coral Square Mall, Sample Road corridor and University Drive corridor, since that's where aesthetic search and ad impressions concentrate. National laser hair removal chains and Facial and skincare franchises operate across those same areas, so neighborhood-level content is what lets a Coral Springs medspa compete.",
+      },
     ],
   },
   {
@@ -316,6 +514,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Independent boutique medspas",
       "Plastic surgery in-office aesthetic suites",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Jupiter?",
+        a: "Independent Jupiter medspas are a market we serve today, with the same remotely-run engagement everywhere \u2014 Meta Ads, GBP management, monthly reporting. What's specific to Jupiter is the aesthetic competitive set a practice here has to out-market, namely Northern Palm Beach County dermatology groups and Independent boutique medspas.",
+      },
+      {
+        q: "Who is Jupiter independent medspa competing against?",
+        a: "The competitive field here is small and credential-weighted. Northern Palm Beach County's dermatology groups have a meaningful presence, and because sun damage in this population frequently has a medical dimension as well as a cosmetic one, those practices capture aesthetic clients who came in for something else entirely.",
+      },
+      {
+        q: "What makes Jupiter's aesthetics market different from other Florida cities?",
+        a: "This is a boating, golfing, beach-running town with an affluent, outdoors-oriented population that accumulates real sun exposure \u2014 which makes skin health, resurfacing, IPL, and pigmentation correction a materially larger share of the local market than in an inland suburb of the same income. A medspa marketing generic injectables into Jupiter is marketing past the thing this town actually needs.",
+      },
+      {
+        q: "Why should an independent Jupiter medspa start now instead of waiting?",
+        a: "Jupiter is a market where being the best-reviewed option is achievable, and being the best-reviewed option is close to decisive. The comparison set on a Google Maps search here is short, the differences between listings are legible at a glance, and a client choosing who will run a laser over her face defaults hard to social proof. A practice that installs a review system today can plausibly be the top-reviewed medspa in Jupiter within twelve months.",
+      },
+      {
+        q: "What areas within Jupiter does this cover?",
+        a: "Service area within Jupiter includes Jupiter Inlet Lighthouse, Abacoa / Roger Dean Stadium and Harbourside Place. Northern Palm Beach County dermatology groups and Independent boutique medspas already advertise and rank across those same neighborhoods, which means a Jupiter medspa's content strategy has to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "hialeah-medspa-marketing",
@@ -344,6 +564,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Small independent studios marketing via WhatsApp and referral",
       "Salon-embedded aesthetic services",
       "Miami-Dade chain locations treating Hialeah as spillover",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Hialeah?",
+        a: "We do. Hialeah medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Hialeah that means going up against Small independent studios marketing via WhatsApp and referral and Salon-embedded aesthetic services for the same patients.",
+      },
+      {
+        q: "Who is Hialeah independent medspa competing against?",
+        a: "National chains treat Hialeah as spillover from the broader Miami-Dade market rather than as its own market, which shows up in how they market to it: translated ad copy rather than natively written Spanish creative, English-only service lists on Google Business Profiles, and no meaningful response to Spanish-language reviews.",
+      },
+      {
+        q: "What makes Hialeah's aesthetics market different from other Florida cities?",
+        a: "The searches here happen in Spanish, the Instagram content that converts is in Spanish, the reviews that persuade are in Spanish, and the overwhelming majority of aesthetic marketing dollars spent in Miami-Dade are spent on English-language assets. A practice that builds properly for this market is not competing harder than its competitors. It is competing somewhere they aren't.",
+      },
+      {
+        q: "Why should an independent Hialeah medspa start now instead of waiting?",
+        a: "Language advantage is the rarest kind of marketing advantage because it cannot be matched with money. A national chain can outspend a Hialeah independent by any multiple it likes and still lose the search, because its Google Business Profile does not contain the words people here type and its creative does not sound like anyone they know.",
+      },
+      {
+        q: "What areas within Hialeah does this cover?",
+        a: "Coverage spans Hialeah, including Hialeah Park Racing & Casino, West 49th Street corridor and Palm Avenue. Small independent studios marketing via WhatsApp and referral and Salon-embedded aesthetic services compete for the same searches and impressions across those same neighborhoods, which is why a Hialeah medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -374,6 +616,28 @@ export const medspaLocations: MedspaLocation[] = [
       "National chain locations on the Doral retail corridors",
       "Miami-Dade dermatology group cosmetic arms",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Doral?",
+        a: "Doral is one of the medspa markets Primara serves, with a standard engagement \u2014 Instagram-first Meta Ads, GBP optimization, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is who you're competing against: in Doral, that's Bilingual independent aesthetic studios and National chain locations on the Doral retail corridors.",
+      },
+      {
+        q: "Who is Doral independent medspa competing against?",
+        a: "What is notably underdeveloped is positioning: nearly everyone markets the same menu of services with the same visual language, and almost nobody markets the thing this specific market is actually constrained by, which is time. Lunch-hour tox, express facials, and treatments with no visible downtime before a Monday meeting are the offers that fit Doral's reality. The bilingual dimension here is different from Hialeah's.",
+      },
+      {
+        q: "What makes Doral's aesthetics market different from other Florida cities?",
+        a: "This is a city built around corporate offices, international business, and a large, affluent Venezuelan and broader Latin American professional community \u2014 a client base that wants quick, low-downtime treatments that fit into a workday, and that makes booking decisions on a phone between meetings. A medspa here that can credibly promise in-and-out in under an hour has a structural advantage over one that can't.",
+      },
+      {
+        q: "Why should an independent Doral medspa start now instead of waiting?",
+        a: "But captive is not the same as committed, and right now most of that demand is being split among competitors who are all making the same undifferentiated pitch. The first practice in Doral to own the convenience position \u2014 genuinely bookable, genuinely fast, genuinely bilingual \u2014 takes a disproportionate share of a well-defined, high-income, geographically concentrated market. That position is open today and it will not be for long.",
+      },
+      {
+        q: "What areas within Doral does this cover?",
+        a: "We work across Doral, including Downtown Doral, CityPlace Doral and Trump National Doral \u2014 not just the city center. Bilingual independent aesthetic studios and National chain locations on the Doral retail corridors already rank and advertise across those neighborhoods, so a Doral medspa has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "kendall-medspa-marketing",
@@ -402,6 +666,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Independent suburban medspas",
       "Dermatology and plastic surgery practices with secondary cosmetic services",
       "Coastal Miami-Dade operators expanding west",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Kendall?",
+        a: "We do. Kendall medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Kendall that means going up against Independent suburban medspas and Dermatology and plastic surgery practices with secondary cosmetic services for the same patients.",
+      },
+      {
+        q: "Who is Kendall independent medspa competing against?",
+        a: "Coastal Miami-Dade absorbs the attention and the marketing budgets. Brickell, Coral Gables, and Miami Beach are where the chains open, where the premium independents cluster, and where CPMs run highest. Kendall, by contrast, is served by a scattering of independent medspas and by dermatology and plastic surgery practices whose cosmetic services are secondary to their medical work \u2014 which means much of the aesthetic demand here is either being met casually or not being competed for at all.",
+      },
+      {
+        q: "What makes Kendall's aesthetics market different from other Florida cities?",
+        a: "The search volume for injectables, laser, and medical weight loss across Kendall, Pinecrest, and the western suburbs is substantial and largely local \u2014 people here do not drive to Brickell for a routine appointment \u2014 and the number of practices genuinely competing for it is far smaller than the population would predict.",
+      },
+      {
+        q: "Why should an independent Kendall medspa start now instead of waiting?",
+        a: "Practices in saturated coastal markets spend heavily to win a client who may not return; a Kendall practice can acquire the same client for substantially less and keep her for years. That gap will close as Miami-Dade's aesthetic operators run out of room on the coast and start looking west \u2014 they always do.",
+      },
+      {
+        q: "What areas within Kendall does this cover?",
+        a: "Our work in Kendall extends to Dadeland Mall, The Falls and Pinecrest Gardens, not only the core of the city. Independent suburban medspas and Dermatology and plastic surgery practices with secondary cosmetic services are already positioned across those neighborhoods, so a Kendall medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
     ],
   },
   {
@@ -432,6 +718,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Boutique condo-adjacent independent studios",
       "Miami-Dade dermatology group cosmetic arms",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Aventura?",
+        a: "Aventura is one of the medspa markets Primara serves, with a standard engagement \u2014 Instagram-first Meta Ads, GBP optimization, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is who you're competing against: in Aventura, that's National chain locations near Aventura Mall and Boutique condo-adjacent independent studios.",
+      },
+      {
+        q: "Who is Aventura independent medspa competing against?",
+        a: "Chains here have the advantage of foot traffic; independents have the advantage of proximity \u2014 a resident of Williams Island or Turnberry choosing between a studio inside her building's orbit and a chain across Biscayne Boulevard is making a convenience decision as much as a quality one. Two dynamics separate Aventura from the rest of Miami-Dade.",
+      },
+      {
+        q: "What makes Aventura's aesthetics market different from other Florida cities?",
+        a: "It is one of the easiest markets in Florida to reach efficiently and one of the easiest to market to badly, because a program built for a year-round, English-speaking, single-language audience will miss most of what is actually happening here.",
+      },
+      {
+        q: "Why should an independent Aventura medspa start now instead of waiting?",
+        a: "Aventura's seasonal clients make their provider decision in a narrow window after they arrive, and they tend to keep that provider for subsequent seasons. That makes October and November the highest-leverage marketing months of the entire year here \u2014 visibility purchased then compounds across multiple winters, and visibility purchased in February is bought at the same cost with a fraction of the return. Most local competitors run flat budgets and never notice the difference.",
+      },
+      {
+        q: "What areas within Aventura does this cover?",
+        a: "This covers all of Aventura, with particular focus on Aventura Mall, Williams Island and Turnberry Isle, since that's where aesthetic search and ad impressions concentrate. National chain locations near Aventura Mall and Boutique condo-adjacent independent studios operate across those same areas, so neighborhood-level content is what lets an Aventura medspa compete.",
+      },
+    ],
   },
   {
     slug: "pembroke-pines-medspa-marketing",
@@ -460,6 +768,28 @@ export const medspaLocations: MedspaLocation[] = [
       "National laser hair removal chains",
       "Facial and skincare franchises",
       "Body contouring chains on Pines Boulevard",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Pembroke Pines?",
+        a: "Pembroke Pines is one of the medspa markets Primara serves, with a standard engagement \u2014 Instagram-first Meta Ads, GBP optimization, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is who you're competing against: in Pembroke Pines, that's National laser hair removal chains and Facial and skincare franchises.",
+      },
+      {
+        q: "Who is Pembroke Pines independent medspa competing against?",
+        a: "Their staffing model rotates providers, their treatment plans are standardized, and their reviews are diluted across a national footprint that says nothing specific about the person who will actually be holding the syringe in Pembroke Pines. For a client buying neurotoxin or filler \u2014 a treatment where the result depends heavily on the individual injector's judgment and hand \u2014 that is a real and under-exploited weakness.",
+      },
+      {
+        q: "What makes Pembroke Pines's aesthetics market different from other Florida cities?",
+        a: "The retail corridors here are lined with national laser, facial, and body contouring brands whose entire acquisition model is the discounted introductory package. An independent medspa that tries to meet them on price loses twice \u2014 once on margin, and once on positioning, because matching a chain's offer tells the client you are the same kind of business.",
+      },
+      {
+        q: "Why should an independent Pembroke Pines medspa start now instead of waiting?",
+        a: "Chain saturation looks like a reason to avoid a market and is usually the opposite. Heavy chain presence means the category is validated, demand is proven, and the incumbents are all making the same pitch \u2014 which leaves the differentiated position completely open.",
+      },
+      {
+        q: "What areas within Pembroke Pines does this cover?",
+        a: "Our work in Pembroke Pines extends to Pembroke Lakes Mall, Pines Boulevard corridor and Shops at Pembroke Gardens, not only the core of the city. National laser hair removal chains and Facial and skincare franchises are already positioned across those neighborhoods, so a Pembroke Pines medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
     ],
   },
   {
@@ -490,6 +820,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Salon-embedded aesthetic services inland",
       "Broward chain locations expanding into Hollywood",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Hollywood?",
+        a: "Independent Hollywood medspas are a market we serve today, with the same remotely-run engagement everywhere \u2014 Meta Ads, GBP management, monthly reporting. What's specific to Hollywood is the aesthetic competitive set a practice here has to out-market, namely Beach-adjacent boutique studios and Salon-embedded aesthetic services inland.",
+      },
+      {
+        q: "Who is Hollywood independent medspa competing against?",
+        a: "Beach-adjacent studios market on lifestyle imagery and premium positioning; the inland corridors along Hollywood Boulevard and Sheridan Street are served largely by small independents and salon-embedded aesthetic services with minimal search presence. National chains are present in Broward but are concentrated in the bigger retail nodes in Pembroke Pines and Fort Lauderdale rather than in Hollywood proper, which leaves more of this market open than its population would suggest. Medical weight loss is the product that bridges both halves.",
+      },
+      {
+        q: "What makes Hollywood's aesthetics market different from other Florida cities?",
+        a: "The Broadwalk and beachfront draw visitors and a higher-spending coastal resident base; a few miles inland, Hollywood is a dense, working, year-round city with a large Hispanic and Caribbean population and steady demand for accessible aesthetic and weight-loss services. Most practices here pick one of those markets by accident and leave the other on the table.",
+      },
+      {
+        q: "Why should an independent Hollywood medspa start now instead of waiting?",
+        a: "That means both halves of this city are winnable by a practice willing to build proper local infrastructure rather than choosing a lane and hoping. The constraint is time, not difficulty: Broward's chains are expanding their footprint, and the retail nodes along Hollywood Boulevard are an obvious target. Establishing map pack position and a weight-loss-led membership base before that happens is straightforward now and considerably harder later.",
+      },
+      {
+        q: "What areas within Hollywood does this cover?",
+        a: "Our work in Hollywood extends to Hollywood Beach Broadwalk, Downtown Hollywood / Harrison Street and Sheridan Street corridor, not only the core of the city. Beach-adjacent boutique studios and Salon-embedded aesthetic services inland are already positioned across those neighborhoods, so a Hollywood medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "port-st-lucie-medspa-marketing",
@@ -519,6 +871,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Dermatology practices with secondary cosmetic services",
       "Treasure Coast regional aesthetic practices",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Port St. Lucie?",
+        a: "Port St. Lucie is one of the medspa markets Primara serves, with a standard engagement \u2014 Instagram-first Meta Ads, GBP optimization, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is who you're competing against: in Port St. Lucie, that's Small independent medspas and salon-based services and Dermatology practices with secondary cosmetic services.",
+      },
+      {
+        q: "Who is Port St. Lucie independent medspa competing against?",
+        a: "National chains have historically prioritized denser, more established markets, and much of what serves Port St. Lucie today consists of small independent studios, salon-based services, and dermatology practices whose cosmetic offerings are secondary. A Google Maps search for aesthetic services here returns a short list with modest review counts \u2014 a competitive picture that looks far more like a small town than like a city of this size. The growth itself changes how marketing works.",
+      },
+      {
+        q: "What makes Port St. Lucie's aesthetics market different from other Florida cities?",
+        a: "Lucie has been among the fastest-growing cities in the United States for several years running, and the aesthetic services market here has not remotely kept pace with the population. Tradition and St. Lucie West are absorbing tens of thousands of new residents \u2014 many relocating from the Northeast and from South Florida \u2014 and almost all of them arrive without a provider for anything, including aesthetics. There is no equivalent opportunity anywhere else on Florida's east coast right now.",
+      },
+      {
+        q: "Why should an independent Port St. Lucie medspa start now instead of waiting?",
+        a: "Lucie is past the point where that becomes inevitable. National operators follow population data, and this city's data has been unambiguous for several years. The practices that will dominate aesthetics here in five years are the ones building search authority and review depth today, against a thin field and cheap impressions. Everyone who starts after the chains arrive will be buying the same position at several times the price, from a worse starting point.",
+      },
+      {
+        q: "What areas within Port St. Lucie does this cover?",
+        a: "This covers all of Port St. Lucie, with particular focus on Tradition Square, St. Lucie West and Clover Park, since that's where aesthetic search and ad impressions concentrate. Small independent medspas and salon-based services and Dermatology practices with secondary cosmetic services operate across those same areas, so neighborhood-level content is what lets a Port St. Lucie medspa compete.",
+      },
+    ],
   },
   {
     slug: "stuart-medspa-marketing",
@@ -547,6 +921,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Treasure Coast dermatology practices",
       "Long-established independent aesthetic studios",
       "Plastic surgery in-office cosmetic services",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Stuart?",
+        a: "Primara actively works with independent medspas in Stuart. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Stuart medspa is actually competing against, which here means Treasure Coast dermatology practices and Long-established independent aesthetic studios.",
+      },
+      {
+        q: "Who is Stuart independent medspa competing against?",
+        a: "The competitive field on the Treasure Coast is small and dominated by dermatology practices and a handful of long-established independent studios. National chains have essentially skipped this market \u2014 the population density does not justify their retail model \u2014 which means an independent medspa in Stuart is not fighting a national ad budget. It is competing against practices that have been here for twenty years and whose client relationships are correspondingly durable. The demand profile follows the demographics.",
+      },
+      {
+        q: "What makes Stuart's aesthetics market different from other Florida cities?",
+        a: "People here have lived in the area for decades, know each other, and make provider decisions through conversation. The role of digital marketing in Stuart is not to interrupt strangers; it is to make sure that when a recommendation happens, the practice being recommended is instantly findable and obviously credible.",
+      },
+      {
+        q: "Why should an independent Stuart medspa start now instead of waiting?",
+        a: "That makes the top position genuinely attainable, and once held, very stable, because a small market does not generate enough new entrants to challenge it often. The practices that have been in Stuart for decades have the relationships; what most of them do not have is a current, complete, well-reviewed digital presence. That asymmetry is the opening, and it is not permanent.",
+      },
+      {
+        q: "What areas within Stuart does this cover?",
+        a: "Service area within Stuart includes Historic Downtown Stuart, Sewall's Point and Palm City. Treasure Coast dermatology practices and Long-established independent aesthetic studios already advertise and rank across those same neighborhoods, which means a Stuart medspa's content strategy has to be built at the neighborhood level, not just the city level.",
+      },
     ],
   },
 
@@ -580,6 +976,28 @@ export const medspaLocations: MedspaLocation[] = [
       "National body contouring and laser chains",
       "Dermatology and plastic surgery group cosmetic arms",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Tampa?",
+        a: "Primara actively works with independent medspas in Tampa. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Tampa medspa is actually competing against, which here means Ideal Image (Tampa-headquartered) and Medi-Weightloss (Tampa-headquartered).",
+      },
+      {
+        q: "Who is Tampa independent medspa competing against?",
+        a: "The chain density here is genuinely unusual for a metro this size. Beyond the Tampa-headquartered operators, national body contouring and laser brands hold positions across the Westshore, South Tampa, and New Tampa retail corridors, and large dermatology and plastic surgery groups run cosmetic arms that capture aesthetic clients from an existing medical patient base. An independent competing on the same menu with the same messaging is, functionally, a worse-funded version of a brand the local consumer already recognizes.",
+      },
+      {
+        q: "What makes Tampa's aesthetics market different from other Florida cities?",
+        a: "Medi-Weightloss, a national medical weight loss franchise, is headquartered here too. That is not trivia \u2014 it means Tampa's consumers have been marketed to by category-defining national brands for years, and an independent medspa in South Tampa or Westchase is entering a market where the buyer already has strong preconceptions about what a medspa is and what it should cost.",
+      },
+      {
+        q: "Why should an independent Tampa medspa start now instead of waiting?",
+        a: "What they are short of is a reason to choose a specific practice, which is exactly the gap a chain's standardized model cannot fill and an independent's can. The practices doing well here right now are the ones whose injector is a known quantity \u2014 findable, reviewed by name, visible on Instagram doing the actual work. Building that takes twelve to eighteen months of consistent output.",
+      },
+      {
+        q: "What areas within Tampa does this cover?",
+        a: "We work across Tampa, including Hyde Park Village, Westshore / International Plaza and Davis Islands \u2014 not just the city center. Ideal Image (Tampa-headquartered) and Medi-Weightloss (Tampa-headquartered) already rank and advertise across those neighborhoods, so a Tampa medspa has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "st-petersburg-medspa-marketing",
@@ -608,6 +1026,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Independent studios along Central Avenue",
       "Pinellas dermatology practices with cosmetic services",
       "Tampa Bay chain locations",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in St. Petersburg?",
+        a: "Independent St. Petersburg medspas are a market we serve today, with the same remotely-run engagement everywhere \u2014 Meta Ads, GBP management, monthly reporting. What's specific to St. Petersburg is the aesthetic competitive set a practice here has to out-market, namely Independent studios along Central Avenue and Pinellas dermatology practices with cosmetic services.",
+      },
+      {
+        q: "Who is St. Petersburg independent medspa competing against?",
+        a: "St. Petersburg's aesthetics market leans toward independent studios and dermatology practices, and the city's strong local-business culture is a real asset for an independent \u2014 this is a market where being locally owned is a selling point rather than a neutral fact, in a way that is genuinely not true in most of Florida. The demographic split defines the product mix.",
+      },
+      {
+        q: "What makes St. Petersburg's aesthetics market different from other Florida cities?",
+        a: "Those two groups buy almost entirely different aesthetic services, respond to different creative, and search using different words. A medspa here running one message at both of them is effectively running a campaign that is half wasted no matter which half it is written for.",
+      },
+      {
+        q: "Why should an independent St. Petersburg medspa start now instead of waiting?",
+        a: "Most St. Petersburg medspas pick a side by default \u2014 usually the younger one, because it is more fun to market to \u2014 and leave the larger, wealthier, more treatment-consistent older segment to dermatology practices that are not really competing for it either. That segment is the single biggest underserved block of aesthetic demand in Pinellas County.",
+      },
+      {
+        q: "What areas within St. Petersburg does this cover?",
+        a: "Coverage spans St. Petersburg, including Central Avenue / EDGE District, Old Northeast and Snell Isle. Independent studios along Central Avenue and Pinellas dermatology practices with cosmetic services compete for the same searches and impressions across those same neighborhoods, which is why a St. Petersburg medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -638,6 +1078,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Pinellas retail corridor chain locations",
       "Resort and hotel spa services",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Clearwater?",
+        a: "Primara actively works with independent medspas in Clearwater. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Clearwater medspa is actually competing against, which here means Independent studios and dermatology practices and Pinellas retail corridor chain locations.",
+      },
+      {
+        q: "Who is Clearwater independent medspa competing against?",
+        a: "That is the recurring revenue base in this city, and it is reachable year-round. The competitive field addressing it consists mostly of independent studios and dermatology practices, with national chains holding positions along the larger Pinellas retail corridors. The tourist and beach segment is real but should be treated as a secondary channel with a specific job: converting a one-time visitor into a review, and occasionally into a seasonal returning client.",
+      },
+      {
+        q: "What makes Clearwater's aesthetics market different from other Florida cities?",
+        a: "The beach brings a steady stream of visitors, and visitor traffic feels like demand \u2014 but a tourist buying a facial on vacation is worth one transaction, while a Countryside or Belleair resident on a quarterly neurotoxin schedule is worth thousands over a few years. Practices that build their marketing around the visible traffic rather than the valuable traffic end up with a busy summer and an empty September.",
+      },
+      {
+        q: "Why should an independent Clearwater medspa start now instead of waiting?",
+        a: "A Clearwater practice that starts converting residents into recurring programs now has a stable floor under its revenue by next summer regardless of how tourism performs; one that waits is still riding the same curve it is riding today, with the same September. The work does not get easier or cheaper with time \u2014 it just starts producing later.",
+      },
+      {
+        q: "What areas within Clearwater does this cover?",
+        a: "Service area within Clearwater includes Clearwater Beach, Island Estates and Countryside. Independent studios and dermatology practices and Pinellas retail corridor chain locations already advertise and rank across those same neighborhoods, which means a Clearwater medspa's content strategy has to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "brandon-medspa-marketing",
@@ -667,6 +1129,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Tampa chain locations drawing commuter traffic",
       "Dermatology practices with secondary cosmetic services",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Brandon?",
+        a: "Primara actively works with independent medspas in Brandon. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Brandon medspa is actually competing against, which here means Independent eastern-suburb studios and Tampa chain locations drawing commuter traffic.",
+      },
+      {
+        q: "Who is Brandon independent medspa competing against?",
+        a: "Most of the national chain footprint in Hillsborough County is concentrated west of the Selmon Expressway, which leaves the eastern suburbs served mainly by independent studios and by practices whose primary business is something else. That gives an eastern-suburb medspa two compounding advantages. Ad costs here are materially lower than in South Tampa or Westshore, because fewer advertisers are bidding for the same impressions.",
+      },
+      {
+        q: "What makes Brandon's aesthetics market different from other Florida cities?",
+        a: "A practice that closes at five is competing for the hours she spends in traffic. A practice open until eight on weeknights and open on Saturdays is competing for the hours she is actually free \u2014 and in a commuter market, that scheduling decision does more for conversion than any creative choice.",
+      },
+      {
+        q: "Why should an independent Brandon medspa start now instead of waiting?",
+        a: "Every Brandon-area resident currently driving into Tampa for injectables is a client whose acquisition cost is close to zero \u2014 she is already sold on the service, already spending the money, and only needs to learn that a credible local option exists. That is the cheapest new-client opportunity in Hillsborough County.",
+      },
+      {
+        q: "What areas within Brandon does this cover?",
+        a: "Our work in Brandon extends to Westfield Brandon, Valrico and Riverview, not only the core of the city. Independent eastern-suburb studios and Tampa chain locations drawing commuter traffic are already positioned across those neighborhoods, so a Brandon medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "lakeland-medspa-marketing",
@@ -695,6 +1179,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Independent studios with minimal search presence",
       "Salon-embedded aesthetic services",
       "Polk County dermatology practices",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Lakeland?",
+        a: "We do. Lakeland medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Lakeland that means going up against Independent studios with minimal search presence and Salon-embedded aesthetic services for the same patients.",
+      },
+      {
+        q: "Who is Lakeland independent medspa competing against?",
+        a: "National chains have largely bypassed Polk County in favor of the Tampa and Orlando metros on either side of it. What serves Lakeland today is mostly independent studios, salon-embedded aesthetic services, and dermatology practices offering cosmetic treatments alongside medical care.",
+      },
+      {
+        q: "What makes Lakeland's aesthetics market different from other Florida cities?",
+        a: "The competitive field here is thinner, the listings are less developed, and the advertising costs are lower than in any market on Florida's east or Gulf coasts of comparable population \u2014 which makes Lakeland one of the least expensive places in the state to build a dominant local position.",
+      },
+      {
+        q: "Why should an independent Lakeland medspa start now instead of waiting?",
+        a: "The I-4 corridor is where Central Florida's growth is going, and Polk County is directly in its path. Chains follow population density with a lag, and the lag is what an independent gets to use. Right now a Lakeland practice can build the most complete listing, the deepest review base, and the strongest local brand in the county for a fraction of what those assets cost in Tampa or Orlando.",
+      },
+      {
+        q: "What areas within Lakeland does this cover?",
+        a: "We work across Lakeland, including Downtown Lakeland / Lake Mirror, Lakeside Village and Florida Southern College \u2014 not just the city center. Independent studios with minimal search presence and Salon-embedded aesthetic services already rank and advertise across those neighborhoods, so a Lakeland medspa has to show up by neighborhood name to compete for the same local searches.",
+      },
     ],
   },
 
@@ -728,6 +1234,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Plastic surgery in-office medspas",
       "Resort and hotel spa services",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Orlando?",
+        a: "Primara actively works with independent medspas in Orlando. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Orlando medspa is actually competing against, which here means Advanced Dermatology and Cosmetic Surgery and National laser and body contouring chains.",
+      },
+      {
+        q: "Who is Orlando independent medspa competing against?",
+        a: "Advanced Dermatology and Cosmetic Surgery, a large Florida-based organization with an extensive Central Florida footprint, converts cosmetic clients directly out of an existing medical patient base at effectively no acquisition cost, and it is not alone in doing so. National laser and body contouring chains hold the major retail corridors. Between them, the institutional share of Orlando's aesthetic market is larger than an independent operator usually expects. The offsetting factor is churn.",
+      },
+      {
+        q: "What makes Orlando's aesthetics market different from other Florida cities?",
+        a: "Lake Nona's medical-city professionals, Winter Park's established wealth, the Dr. Phillips and tourist-corridor economy, and the downtown and Mills 50 creative population are four distinct buyers with four different price tolerances and four different discovery habits. A metro-wide campaign averages across all of them and reaches none of them well.",
+      },
+      {
+        q: "Why should an independent Orlando medspa start now instead of waiting?",
+        a: "In a market with this much population turnover, market share is not held \u2014 it is re-won every month. That cuts both ways. An incumbent's advantage decays faster in Orlando than almost anywhere, which means a well-executed independent can take position faster here than in a stable market, and it also means a practice coasting on an existing client base is quietly losing ground to arrivals who have never heard of it.",
+      },
+      {
+        q: "What areas within Orlando does this cover?",
+        a: "This covers all of Orlando, with particular focus on Lake Nona Medical City, Dr. Phillips / Restaurant Row and Mills 50 and downtown Orlando, since that's where aesthetic search and ad impressions concentrate. Advanced Dermatology and Cosmetic Surgery and National laser and body contouring chains operate across those same areas, so neighborhood-level content is what lets an Orlando medspa compete.",
+      },
+    ],
   },
   {
     slug: "kissimmee-medspa-marketing",
@@ -756,6 +1284,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Small independent studios with English-only listings",
       "Salon-embedded aesthetic services",
       "Orlando metro chain locations",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Kissimmee?",
+        a: "Kissimmee is one of the medspa markets Primara serves, with a standard engagement \u2014 Instagram-first Meta Ads, GBP optimization, monthly reports \u2014 delivered remotely from West Palm Beach. The local variable is who you're competing against: in Kissimmee, that's Small independent studios with English-only listings and Salon-embedded aesthetic services.",
+      },
+      {
+        q: "Who is Kissimmee independent medspa competing against?",
+        a: "The competitive field in Osceola County is thin compared with Orange County next door. National chains concentrate in the Orlando metro's more established retail nodes, and much of Kissimmee's aesthetic services market is served by small independents, salon-embedded providers, and practices whose Google Business Profiles are incomplete or English-only. Search volume for injectables, laser hair removal, and medical weight loss in this market is being answered poorly. The hospitality workforce is the demand driver most competitors overlook entirely.",
+      },
+      {
+        q: "What makes Kissimmee's aesthetics market different from other Florida cities?",
+        a: "Osceola County's population is growing fast and its aesthetic services supply is not keeping up \u2014 which is the same condition that made Kissimmee's neighboring markets expensive five years ago. The Spanish-language gap is the sharper opportunity, because it cannot be closed with money: a competitor can outspend a local practice by any multiple and still fail to appear for searches typed in a language its listing does not contain.",
+      },
+      {
+        q: "Why should an independent Kissimmee medspa start now instead of waiting?",
+        a: "Osceola County's population is growing fast and its aesthetic services supply is not keeping up \u2014 which is the same condition that made Kissimmee's neighboring markets expensive five years ago. The Spanish-language gap is the sharper opportunity, because it cannot be closed with money: a competitor can outspend a local practice by any multiple and still fail to appear for searches typed in a language its listing does not contain.",
+      },
+      {
+        q: "What areas within Kissimmee does this cover?",
+        a: "Coverage spans Kissimmee, including Old Town Kissimmee, Lake Toho waterfront and The Loop. Small independent studios with English-only listings and Salon-embedded aesthetic services compete for the same searches and impressions across those same neighborhoods, which is why a Kissimmee medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -786,6 +1336,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Central Florida dermatology groups",
       "Independent Park Avenue studios",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Winter Park?",
+        a: "Independent Winter Park medspas are a market we serve today, with the same remotely-run engagement everywhere \u2014 Meta Ads, GBP management, monthly reporting. What's specific to Winter Park is the aesthetic competitive set a practice here has to out-market, namely Physician-led boutique cosmetic practices and Central Florida dermatology groups.",
+      },
+      {
+        q: "Who is Winter Park independent medspa competing against?",
+        a: "Competition here is boutique rather than corporate. Winter Park and the surrounding Maitland and Baldwin Park area are served by physician-led cosmetic practices, dermatology groups with Central Florida footprints, and small independent studios, most of which market through reputation and presentation rather than through volume advertising. National chains have little natural fit with the Park Avenue retail environment and are concentrated instead in the broader Orlando metro's larger retail corridors. The decision process is almost entirely referral and inspection.",
+      },
+      {
+        q: "What makes Winter Park's aesthetics market different from other Florida cities?",
+        a: "This is a market where brand presentation \u2014 photography, interior, the visual quality of an Instagram feed \u2014 carries more weight than ad spend, because the buyer is comparing a medspa against the boutiques and restaurants she already patronizes, not against a chain location in a strip mall.",
+      },
+      {
+        q: "Why should an independent Winter Park medspa start now instead of waiting?",
+        a: "Winter Park is small enough that reputation consolidates around a handful of names and then stays there. The practices that hold those positions today built them through presentation and referral over years, and the ones that hold them a decade from now are being chosen by this market right now, largely on the basis of which feeds and which review profiles look most credible.",
+      },
+      {
+        q: "What areas within Winter Park does this cover?",
+        a: "We work across Winter Park, including Park Avenue, Rollins College and Hannibal Square \u2014 not just the city center. Physician-led boutique cosmetic practices and Central Florida dermatology groups already rank and advertise across those neighborhoods, so a Winter Park medspa has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "altamonte-springs-medspa-marketing",
@@ -815,6 +1387,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Seminole County independent studios",
       "Central Florida dermatology groups",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Altamonte Springs?",
+        a: "Primara actively works with independent medspas in Altamonte Springs. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Altamonte Springs medspa is actually competing against, which here means Retail-corridor facial and laser franchises and Seminole County independent studios.",
+      },
+      {
+        q: "Who is Altamonte Springs independent medspa competing against?",
+        a: "Chain facial, laser, and wellness concepts occupy the shopping centers around Altamonte Mall and along State Road 436, competing for the same convenience-motivated foot traffic. Independent studios and dermatology practices serve the surrounding Seminole County residential areas \u2014 Longwood, Casselberry, Lake Mary \u2014 with less visibility along the main corridor. Seminole County's residential base is stable, established, and middle-to-upper-middle income, which is a better profile for recurring revenue than a transient market.",
+      },
+      {
+        q: "What makes Altamonte Springs's aesthetics market different from other Florida cities?",
+        a: "It sits on the I-4 corridor with SunRail access, a major mall, and a large surrounding Seminole County population that passes through it twice a day on the way to and from Orlando. For a medspa, that geography is the entire opportunity: the client here is not choosing a destination, she is choosing the option that is already on her route.",
+      },
+      {
+        q: "Why should an independent Altamonte Springs medspa start now instead of waiting?",
+        a: "Retention is what makes a medspa's economics work, and Altamonte Springs offers better retention conditions than almost any market in Central Florida \u2014 a stable, non-transient population that keeps its providers and values convenience above novelty. The constraint is that each of those clients only chooses once. Every month without visibility on the corridor is a month in which a share of that stable population quietly settles on a chain location in the same shopping center, and settles for years.",
+      },
+      {
+        q: "What areas within Altamonte Springs does this cover?",
+        a: "We work across Altamonte Springs, including Altamonte Mall, Cranes Roost Park and State Road 436 corridor \u2014 not just the city center. Retail-corridor facial and laser franchises and Seminole County independent studios already rank and advertise across those neighborhoods, so an Altamonte Springs medspa has to show up by neighborhood name to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "sanford-medspa-marketing",
@@ -843,6 +1437,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Small independent studios with dormant listings",
       "Salon-based aesthetic services",
       "Lake Mary and Altamonte Springs chain locations",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Sanford?",
+        a: "We do. Sanford medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Sanford that means going up against Small independent studios with dormant listings and Salon-based aesthetic services for the same patients.",
+      },
+      {
+        q: "Who is Sanford independent medspa competing against?",
+        a: "There is no serious chain presence in Sanford. National operators cluster in Altamonte Springs, Lake Mary, and the larger Orlando retail nodes, which leaves Sanford served by a small number of independent studios and salon-based providers, most with minimal or no search optimization. A Google Maps search for aesthetic services in Sanford returns a short list, and the listings on it are frequently single-category, service-list-free, and years out of date. The demand, meanwhile, is changing shape.",
+      },
+      {
+        q: "What makes Sanford's aesthetics market different from other Florida cities?",
+        a: "The historic downtown and riverfront district have drawn restaurants, breweries, and a younger residential population, SunRail has connected it to the Orlando core, and Seminole County continues to grow around it. The aesthetics market has not followed yet \u2014 which makes Sanford one of the least contested places in Central Florida to build a dominant local presence.",
+      },
+      {
+        q: "Why should an independent Sanford medspa start now instead of waiting?",
+        a: "Downtown revivals attract commercial competition on a predictable schedule, and Sanford is early in that cycle rather than late. The practices that establish local search authority before the Orlando metro's operators start looking north will hold a position that is genuinely difficult to dislodge, because map pack rankings backed by deep review counts are sticky. The same work done in three years happens against an established field and costs several times as much for a worse result.",
+      },
+      {
+        q: "What areas within Sanford does this cover?",
+        a: "Our work in Sanford extends to Historic Downtown Sanford, Sanford Riverwalk and Lake Monroe, not only the core of the city. Small independent studios with dormant listings and Salon-based aesthetic services are already positioned across those neighborhoods, so a Sanford medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
     ],
   },
 
@@ -875,6 +1491,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Northeast Florida dermatology groups",
       "Independent studios in Riverside and San Marco",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Jacksonville?",
+        a: "Primara actively works with independent medspas in Jacksonville. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Jacksonville medspa is actually competing against, which here means National laser and body contouring chains at Town Center and Northeast Florida dermatology groups.",
+      },
+      {
+        q: "Who is Jacksonville independent medspa competing against?",
+        a: "National laser and body contouring chains hold positions around the Town Center and the major Southside retail nodes, dermatology groups serve the established residential corridors, and independent studios cluster in Riverside, San Marco, and the Beaches. Because the geography is so dispersed, no operator dominates the whole metro \u2014 competition is genuinely local to each submarket, which is both the difficulty and the opportunity.",
+      },
+      {
+        q: "What makes Jacksonville's aesthetics market different from other Florida cities?",
+        a: "San Marco, Riverside, the Southside and Town Center corridor, Mandarin, the Beaches, and Nocatee are not neighborhoods of one market \u2014 they are separate markets with separate populations, and no one drives across Jacksonville for a forty-minute appointment. A practice with one location and one generic listing is competing in roughly one-sixth of the city it thinks it serves.",
+      },
+      {
+        q: "Why should an independent Jacksonville medspa start now instead of waiting?",
+        a: "Jacksonville's size means market share is won submarket by submarket, and every one of them is individually winnable \u2014 which also means every one of them can be individually lost to whoever builds a local page and a local review base first. The practices that treat Jacksonville as one market will keep spending metro-wide budgets for neighborhood-sized results.",
+      },
+      {
+        q: "What areas within Jacksonville does this cover?",
+        a: "Coverage spans Jacksonville, including San Marco Square, Riverside / Five Points and St. Johns Town Center. National laser and body contouring chains at Town Center and Northeast Florida dermatology groups compete for the same searches and impressions across those same neighborhoods, which is why a Jacksonville medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
+    ],
   },
   {
     slug: "jacksonville-beach-medspa-marketing",
@@ -903,6 +1541,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Boutique Beaches independent studios",
       "Ponte Vedra premium aesthetic providers",
       "Northeast Florida dermatology practices",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Jacksonville Beach?",
+        a: "Independent Jacksonville Beach medspas are a market we serve today, with the same remotely-run engagement everywhere \u2014 Meta Ads, GBP management, monthly reporting. What's specific to Jacksonville Beach is the aesthetic competitive set a practice here has to out-market, namely Boutique Beaches independent studios and Ponte Vedra premium aesthetic providers.",
+      },
+      {
+        q: "Who is Jacksonville Beach independent medspa competing against?",
+        a: "This is not a chain environment \u2014 the retail character does not suit it and the population is not dense enough to attract one \u2014 so competition comes from boutique studios, dermatology practices, and Ponte Vedra's higher-end aesthetic providers. That makes the field winnable, but it also means differentiation has to come from brand and reputation rather than from outspending anyone. Discovery here runs through Instagram geotags to an unusual degree.",
+      },
+      {
+        q: "What makes Jacksonville Beach's aesthetics market different from other Florida cities?",
+        a: "They are also outdoors constantly. Surfing, running, boating, and beach life produce cumulative sun exposure at a rate that makes skin resurfacing, IPL, and pigmentation correction a structurally larger share of local aesthetic demand than anywhere inland in Northeast Florida.",
+      },
+      {
+        q: "Why should an independent Jacksonville Beach medspa start now instead of waiting?",
+        a: "The Beaches are a small, tightly connected community, and in communities like this reputation reaches saturation fast in both directions. A practice that becomes the recognized skin-health provider here \u2014 through consistent local content, a specialized service menu, and a deep review base \u2014 becomes the default answer quickly, because there are only so many providers for the community to consider. The corollary is that the position is winnable by exactly one practice, and it is currently unclaimed.",
+      },
+      {
+        q: "What areas within Jacksonville Beach does this cover?",
+        a: "Coverage spans Jacksonville Beach, including Jacksonville Beach Pier, Neptune Beach / Beaches Town Center and Atlantic Beach. Boutique Beaches independent studios and Ponte Vedra premium aesthetic providers compete for the same searches and impressions across those same neighborhoods, which is why a Jacksonville Beach medspa's Google Business Profile and Meta creative need to speak to those areas specifically.",
+      },
     ],
   },
   {
@@ -933,6 +1593,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Independent local studios",
       "St. Johns County dermatology practices",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in St. Augustine?",
+        a: "Primara actively works with independent medspas in St. Augustine. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a St. Augustine medspa is actually competing against, which here means Resort and hotel spa services and Independent local studios.",
+      },
+      {
+        q: "Who is St. Augustine independent medspa competing against?",
+        a: "St. Johns County has been one of the fastest-growing counties in Florida, with substantial new development around World Golf Village, the Route 1 corridor, and south toward Palm Coast, bringing in affluent households who arrive without a provider. That is the recurring revenue base, and the competitive field serving it is small \u2014 independent studios, dermatology practices, and a handful of spa services attached to resorts and hotels. National chains have essentially no presence in St.",
+      },
+      {
+        q: "What makes St. Augustine's aesthetics market different from other Florida cities?",
+        a: "Millions of people visit the historic district every year, many staying several days, and a meaningful number of them will book a facial, a peel, or a maintenance treatment while they are here if they can find one \u2014 which is a revenue stream almost no local practice deliberately pursues.",
+      },
+      {
+        q: "Why should an independent St. Augustine medspa start now instead of waiting?",
+        a: "St. Johns County's growth is fast and sustained, and the aesthetic services supply in St. Augustine has not scaled with it. That gap is the resident opportunity, and it is straightforward but finite. The visitor opportunity is different \u2014 it is simply unclaimed, and it requires nothing more than a Google Business Profile built to convert a stranger on a phone.",
+      },
+      {
+        q: "What areas within St. Augustine does this cover?",
+        a: "Our work in St. Augustine extends to St. George Street / historic district, Castillo de San Marcos and World Golf Village, not only the core of the city. Resort and hotel spa services and Independent local studios are already positioned across those neighborhoods, so a St. Augustine medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
+    ],
   },
   {
     slug: "orange-park-medspa-marketing",
@@ -962,6 +1644,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Clay County dermatology practices",
       "Jacksonville Southside chain locations",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Orange Park?",
+        a: "Primara actively works with independent medspas in Orange Park. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Orange Park medspa is actually competing against, which here means Small independent studios and salon-based services and Clay County dermatology practices.",
+      },
+      {
+        q: "Who is Orange Park independent medspa competing against?",
+        a: "Clay County's competitive field consists largely of small independent studios, salon-embedded services, and dermatology practices with secondary cosmetic offerings. National chains concentrate across the river in Jacksonville's Southside retail nodes rather than in Orange Park, which means much of the local demand either goes unserved or drives into Jacksonville for treatment \u2014 a drive that is a real deterrent for a family-scheduled client and a real opportunity for a local practice.",
+      },
+      {
+        q: "What makes Orange Park's aesthetics market different from other Florida cities?",
+        a: "Clay County keeps adding households and its aesthetic services supply has not kept pace, which means the residents driving into Jacksonville today are doing it out of necessity rather than preference. A local practice that is visibly credible, transparently priced, and easy to book takes that demand back without competing with anyone for it. The military relocation cycle also means this market renews itself continuously \u2014 a first-touch position built now keeps producing new clients every rotation, indefinitely.",
+      },
+      {
+        q: "Why should an independent Orange Park medspa start now instead of waiting?",
+        a: "Clay County keeps adding households and its aesthetic services supply has not kept pace, which means the residents driving into Jacksonville today are doing it out of necessity rather than preference. A local practice that is visibly credible, transparently priced, and easy to book takes that demand back without competing with anyone for it. The military relocation cycle also means this market renews itself continuously \u2014 a first-touch position built now keeps producing new clients every rotation, indefinitely.",
+      },
+      {
+        q: "What areas within Orange Park does this cover?",
+        a: "Service area within Orange Park includes Orange Park Mall, Fleming Island and Eagle Landing. Small independent studios and salon-based services and Clay County dermatology practices already advertise and rank across those same neighborhoods, which means an Orange Park medspa's content strategy has to be built at the neighborhood level, not just the city level.",
+      },
+    ],
   },
   {
     slug: "fernandina-beach-medspa-marketing",
@@ -990,6 +1694,28 @@ export const medspaLocations: MedspaLocation[] = [
       "Resort spa services on Amelia Island",
       "Small independent local providers",
       "Nassau County dermatology practices",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with medspas in Fernandina Beach?",
+        a: "Primara actively works with independent medspas in Fernandina Beach. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a Fernandina Beach medspa is actually competing against, which here means Resort spa services on Amelia Island and Small independent local providers.",
+      },
+      {
+        q: "Who is Fernandina Beach independent medspa competing against?",
+        a: "The competitive field here is about as thin as any market on this list. National chains have no presence \u2014 the population does not remotely justify their model \u2014 and local aesthetic services consist of a small number of independent providers, spa services attached to the island's resorts, and dermatology care concentrated around the medical offices near the hospital.",
+      },
+      {
+        q: "What makes Fernandina Beach's aesthetics market different from other Florida cities?",
+        a: "Nassau County's population has grown sharply, with most of that growth landing inland in Yulee and Wildlight, while the island itself carries a resort economy, a second-home population, and a year-round community that is affluent, older, and outdoors constantly. Three distinct demand sources, and almost no one competing seriously for any of them.",
+      },
+      {
+        q: "Why should an independent Fernandina Beach medspa start now instead of waiting?",
+        a: "Right now a single practice can plausibly become the dominant name across an entire county, at a cost that would not buy a foothold in a single Jacksonville neighborhood. That is an unusual position, and it exists specifically because the field is still empty \u2014 which is a temporary condition in a county growing this fast.",
+      },
+      {
+        q: "What areas within Fernandina Beach does this cover?",
+        a: "Our work in Fernandina Beach extends to Downtown Fernandina Beach Historic District, Amelia Island resorts and Main Beach, not only the core of the city. Resort spa services on Amelia Island and Small independent local providers are already positioned across those neighborhoods, so a Fernandina Beach medspa's profile and creative have to match that geographic footprint to compete for patients.",
+      },
     ],
   },
 ];
