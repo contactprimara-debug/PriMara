@@ -328,6 +328,15 @@ export const guidesPartNine: Guide[] = [
         type: "p",
         text: "The mistake we see most is a practice judging the first 60 days purely by Google ranking position, which is the slowest-moving signal. Watch Google Business Profile insights (calls, direction requests, website clicks from the listing) and Search Console impressions (how often your pages are shown, even before they're clicked) instead — both typically move weeks before rankings do, and both are early, honest evidence the work is taking hold.",
       },
+      { type: "h2", text: "What to do if nothing has moved by month four" },
+      {
+        type: "p",
+        text: "If GBP insights and Search Console impressions are both flat at the 90-day mark, the problem usually isn't patience — it's that one of the inputs above was never actually fixed. The three most common culprits we find on a stalled account: the technical health of the site is bad enough that Google can't crawl new or updated pages properly, the practice has fewer than 10-15 Google reviews so there's no local-ranking signal to work with yet, or the work itself was inconsistent (a strong first month, then nothing for the following two). Before extending the timeline further, re-run a basic audit of those three things rather than assuming more time alone will fix it.",
+      },
+      {
+        type: "p",
+        text: "It's also worth separating a stalled Google Business Profile from a stalled website. A GBP listing with good reviews and complete information can show real Maps movement even while the website's organic rankings are still catching up — they run on different clocks, and conflating the two can make a practice think nothing is working when half the picture is actually fine.",
+      },
     ],
     faqs: [
       {
@@ -657,6 +666,15 @@ export const guidesPartNine: Guide[] = [
       {
         type: "p",
         text: "It's possible to go too far — adding a negative keyword that's broader than intended can silently block legitimate searches too. \"Pain\" as a broad-match negative on a pain-management campaign, for instance, can exclude searches you actually want. Add negatives at the most specific match type that solves the problem, and review the list itself periodically, not just the search terms feeding it.",
+      },
+      { type: "h2", text: "Negative keyword lists at the account level vs. the campaign level" },
+      {
+        type: "p",
+        text: "Google Ads lets you build a shared negative keyword list at the account level and apply it across every campaign, instead of re-adding the same standard exclusions (jobs, free, salary) one campaign at a time. For a practice running separate campaigns per service line — one for primary care, one for a specific procedure, one for a seasonal promotion — a shared list for the universal exclusions, plus a campaign-specific list for anything unique to that service, keeps the setup both faster to maintain and less likely to drift out of sync between campaigns.",
+      },
+      {
+        type: "p",
+        text: "This split also makes auditing easier. When a new campaign launches, you can see at a glance which negatives came from the shared baseline and which were added specifically for that campaign's own search terms report — useful six months later when deciding whether an exclusion still makes sense or was tied to a promotion that already ended.",
       },
     ],
     faqs: [
