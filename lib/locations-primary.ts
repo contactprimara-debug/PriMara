@@ -1,3 +1,8 @@
+export interface LocationFAQ {
+  q: string;
+  a: string;
+}
+
 export interface PrimaryCareLocation {
   slug: string;
   city: string;
@@ -11,6 +16,12 @@ export interface PrimaryCareLocation {
   whyNow: string;
   landmarks: string[];
   hospitals: string[];
+  // Optional per-city FAQ data. When present, [slug]/page.tsx renders a
+  // visible FAQ section and matching FAQPage JSON-LD. When absent, nothing
+  // renders — this keeps the other verticals (which don't have faqs yet)
+  // working untouched. See PAGE-STANDARD.md for the 40-80 word bar and the
+  // sibling-similarity requirement before adding faqs to more cities.
+  faqs?: LocationFAQ[];
 }
 
 export const primaryCareLocations: PrimaryCareLocation[] = [
@@ -43,6 +54,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "HCA Florida Kendall Hospital",
       "Nicklaus Children's Hospital",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Miami?",
+        a: "Yes \u2014 Miami is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Miami practices are up against Baptist Health South Florida and Jackson Health System / UM Health in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Miami practices competing against in local search?",
+        a: "Baptist Health South Florida is the dominant force in Miami's healthcare market, with more than a dozen facilities and an aggressive digital marketing operation that touches every ZIP code from Doral to Coral Gables. Their Google Business Profiles are fully optimized, their review velocity is high, and their ad budgets dwarf anything a solo physician can sustain.",
+      },
+      {
+        q: "What makes Miami's primary care market different from other Florida cities?",
+        a: "Independent primary care physicians here compete against hospital-owned clinics, concierge networks, and corporate urgent care chains all fighting for the same local search real estate. Primara helps Miami-area practices build the digital footprint that earns new patients before a competitor's ad ever appears.",
+      },
+      {
+        q: "Why should an independent Miami practice start now instead of waiting?",
+        a: "Baptist Health's acquisition of Boca Raton Regional Hospital signaled a regional expansion strategy that hasn't slowed. Their marketing operation in Miami-Dade is growing, not plateauing. Every month an independent practice delays optimizing its Google presence is a month that a hospital-employed physician two miles away is receiving the referrals and new-patient calls that should be yours.",
+      },
+      {
+        q: "What areas within Miami does this cover?",
+        a: "We work across Miami, including Brickell City Centre, Calle Ocho / Little Havana and Coconut Grove waterfront \u2014 not just the city center. Baptist Health South Florida and Jackson Health System / UM Health already rank across those neighborhoods, so a Miami practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-fl",
@@ -73,6 +106,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Memorial Healthcare System",
       "Cleveland Clinic Florida",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Fort Lauderdale?",
+        a: "We do. Fort Lauderdale practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Fort Lauderdale that means going up against Broward Health Medical Center and Holy Cross Health (Trinity Health) for the same searches.",
+      },
+      {
+        q: "Who are independent Fort Lauderdale practices competing against in local search?",
+        a: "Broward Health Medical Center is the county's largest safety-net hospital and carries significant name recognition across Fort Lauderdale, Pompano Beach, and Deerfield Beach. Its affiliated ambulatory clinics rank prominently for primary care searches throughout central Broward, and its review profile reflects decades of patient volume. Holy Cross Health, now part of Trinity Health, operates a growing network of outpatient offices that target the Victoria Park and Coral Ridge corridors \u2014 neighborhoods where independent practices historically thrived before hospital employment expanded.",
+      },
+      {
+        q: "What makes Fort Lauderdale's primary care market different from other Florida cities?",
+        a: "Fort Lauderdale's independent primary care physicians now compete against one of the most recognized hospital brands in the world \u2014 in addition to Broward Health, Holy Cross, and Memorial Healthcare System. Primara helps independent practices in Fort Lauderdale build the local search presence needed to stay visible and competitive.",
+      },
+      {
+        q: "Why should an independent Fort Lauderdale practice start now instead of waiting?",
+        a: "Cleveland Clinic Florida is not standing still. Their Weston campus is expanding, and their digital marketing budget grows with each new service line. Broward Health is simultaneously investing in its ambulatory network. The Fort Lauderdale independent primary care market is being squeezed from both ends \u2014 by a national brand at the top and by cost-driven corporate urgent care at the bottom.",
+      },
+      {
+        q: "What areas within Fort Lauderdale does this cover?",
+        a: "Coverage spans Fort Lauderdale, including Las Olas Boulevard, Victoria Park and Coral Ridge neighborhood. Broward Health Medical Center and Holy Cross Health (Trinity Health) compete for the same searches across those same neighborhoods, which is why a Fort Lauderdale practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
+    ],
   },
   {
     slug: "boca-raton-fl",
@@ -101,6 +156,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Boca Raton Regional Hospital (Baptist Health)",
       "Delray Medical Center (Tenet Healthcare)",
       "West Boca Medical Center",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Boca Raton?",
+        a: "Primara actively works with independent practices in Boca Raton. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Boca Raton practice is actually competing against in local search, which here means Boca Raton Regional Hospital (Baptist Health) and Delray Medical Center (Tenet Healthcare).",
+      },
+      {
+        q: "Who are independent Boca Raton practices competing against in local search?",
+        a: "Baptist Health's acquisition of Boca Raton Regional Hospital gave the system a flagship facility in one of the highest-income ZIP codes in Florida. Baptist Health operates with a sophisticated digital marketing team that has rebuilt the hospital's online profile, review collection, and GBP optimization since the acquisition \u2014 making it a far more formidable local search competitor than it was under prior leadership.",
+      },
+      {
+        q: "What makes Boca Raton's primary care market different from other Florida cities?",
+        a: "The city's high household incomes have attracted an unusual density of concierge medicine practices, boutique health systems, and hospital-affiliated clinics \u2014 all competing for a patient population that expects premium experiences and researches every provider online before calling. Independent primary care physicians in Boca face a different kind of competition than other South Florida markets: it's not just hospital budgets they're fighting, it's the perception of prestige that concierge brands project online.",
+      },
+      {
+        q: "Why should an independent Boca Raton practice start now instead of waiting?",
+        a: "Baptist Health's digital marketing operation at Boca Raton Regional Hospital is still in an active build phase following the acquisition \u2014 they're adding services, building out physician profiles, and collecting reviews at scale. The window to establish Local Pack authority before their optimization fully matures is not permanent. Independent practices that build strong GBP profiles and content-rich websites now will hold ranking positions that are much harder to displace once an incumbent has compounded their review count and content depth.",
+      },
+      {
+        q: "What areas within Boca Raton does this cover?",
+        a: "This covers all of Boca Raton, with particular focus on Mizner Park, Boca Town Center and Arvida Parkway corridor, since that's where patient search volume concentrates. Boca Raton Regional Hospital (Baptist Health) and Delray Medical Center (Tenet Healthcare) operate across those same areas, so neighborhood-level content is what lets a Boca Raton practice compete with them in local search.",
+      },
     ],
   },
   {
@@ -132,6 +209,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Palm Beach Gardens Medical Center (HCA)",
       "Wellington Regional Medical Center",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in West Palm Beach?",
+        a: "Yes \u2014 West Palm Beach is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent West Palm Beach practices are up against St. Mary's Medical Center and HCA Florida JFK Hospital in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent West Palm Beach practices competing against in local search?",
+        a: "St. Mary's Medical Center has operated in West Palm Beach for over a century and maintains strong community name recognition \u2014 particularly among the city's older Medicare population. Its affiliated physician network spans primary care, cardiology, and geriatrics across Palm Beach County, with GBP profiles that reflect decades of patient reviews and regular content updates. HCA Florida JFK Hospital anchors the central county corridor and competes aggressively for primary care referrals through its employed physician group.",
+      },
+      {
+        q: "What makes West Palm Beach's primary care market different from other Florida cities?",
+        a: "The SoSo and Flamingo Park neighborhoods, the downtown waterfront, and the Northwood arts district are all seeing new residents, which means new patients searching for a local primary care physician. Primara helps West Palm Beach practices capture that demand before hospital-employed physicians claim it.",
+      },
+      {
+        q: "Why should an independent West Palm Beach practice start now instead of waiting?",
+        a: "Palm Beach County's population has grown faster than its primary care capacity, particularly in the Medicare demographic. The new downtown West Palm Beach corridor \u2014 city investments, the new amphitheater, the waterfront development \u2014 is bringing younger residents and accelerating the need for neighborhood primary care. The practices that establish digital authority in these growth areas now will be positioned as the default local option when those residents search for a doctor.",
+      },
+      {
+        q: "What areas within West Palm Beach does this cover?",
+        a: "This covers all of West Palm Beach, with particular focus on Northwood Village arts district, SoSo (South of Southern Boulevard) neighborhood and Flamingo Park historic district, since that's where patient search volume concentrates. St. Mary's Medical Center and HCA Florida JFK Hospital operate across those same areas, so neighborhood-level content is what lets a West Palm Beach practice compete with them in local search.",
+      },
+    ],
   },
   {
     slug: "palm-beach-gardens-fl",
@@ -160,6 +259,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Palm Beach Gardens Medical Center (HCA)",
       "Jupiter Medical Center (independent)",
       "St. Mary's Medical Center",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Palm Beach Gardens?",
+        a: "Yes \u2014 Palm Beach Gardens is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Palm Beach Gardens practices are up against Palm Beach Gardens Medical Center (HCA) and Jupiter Medical Center (independent) in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Palm Beach Gardens practices competing against in local search?",
+        a: "Palm Beach Gardens Medical Center, an HCA facility, is the dominant hospital in the immediate market and maintains a strong primary care referral network through its employed physician group. Its GBP profiles for affiliated physicians rank prominently across Gardens-area searches, and its marketing operation is well-resourced.",
+      },
+      {
+        q: "What makes Palm Beach Gardens's primary care market different from other Florida cities?",
+        a: "The PGA Boulevard corridor, Mirasol, Frenchman's Reserve, BallenIsles, and PGA National communities represent a patient demographic that is affluent, medically engaged, and increasingly willing to search online for a physician who feels like a personal fit \u2014 not just the closest one accepting new patients. Independent primary care physicians here have a rare opportunity: a patient base that values the relationship-based care independent practices provide, if they can be found.",
+      },
+      {
+        q: "Why should an independent Palm Beach Gardens practice start now instead of waiting?",
+        a: "Palm Beach Gardens has been absorbing significant population growth from northern migration, particularly from the Northeast and Midwest, as new residents relocate to Mirasol, Alton, and the newer developments north of PGA Boulevard. These new residents arrive without an established physician relationship and rely heavily on Google to find one. The practices that are visible and credible in local search when these residents arrive will build multi-year patient panels from a single well-timed optimization.",
+      },
+      {
+        q: "What areas within Palm Beach Gardens does this cover?",
+        a: "This covers all of Palm Beach Gardens, with particular focus on PGA Boulevard corridor, PGA National Resort and Mirasol community, since that's where patient search volume concentrates. Palm Beach Gardens Medical Center (HCA) and Jupiter Medical Center (independent) operate across those same areas, so neighborhood-level content is what lets a Palm Beach Gardens practice compete with them in local search.",
+      },
     ],
   },
   {
@@ -190,6 +311,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Boca Raton Regional Hospital (Baptist Health)",
       "HCA Florida JFK Hospital",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Delray Beach?",
+        a: "We do. Delray Beach practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Delray Beach that means going up against Delray Medical Center (Tenet Healthcare) and Boca Raton Regional Hospital (Baptist Health) for the same searches.",
+      },
+      {
+        q: "Who are independent Delray Beach practices competing against in local search?",
+        a: "Delray Medical Center, a Tenet Healthcare facility, is the primary hospital serving Delray Beach and holds strong name recognition particularly among older residents. Its affiliated physician network competes directly for the Medicare primary care patient, and its GBP profiles are reasonably well-optimized. Boca Raton Regional Hospital (Baptist Health) pulls Delray's southern zip codes \u2014 33444, 33483 \u2014 into its orbit for specialty referrals and primary care.",
+      },
+      {
+        q: "What makes Delray Beach's primary care market different from other Florida cities?",
+        a: "Delray Beach's Atlantic Avenue corridor continues to attract new residents and businesses, driving population growth that outpaces primary care capacity. City development plans along the waterfront and the continued expansion of the Pineapple Grove Arts District are bringing in new residents monthly \u2014 each one a potential patient who will establish a physician relationship based largely on what they find in Google.",
+      },
+      {
+        q: "Why should an independent Delray Beach practice start now instead of waiting?",
+        a: "Delray Beach's Atlantic Avenue corridor continues to attract new residents and businesses, driving population growth that outpaces primary care capacity. City development plans along the waterfront and the continued expansion of the Pineapple Grove Arts District are bringing in new residents monthly \u2014 each one a potential patient who will establish a physician relationship based largely on what they find in Google.",
+      },
+      {
+        q: "What areas within Delray Beach does this cover?",
+        a: "Coverage spans Delray Beach, including Atlantic Avenue, Pineapple Grove Arts District and Lake Ida neighborhood. Delray Medical Center (Tenet Healthcare) and Boca Raton Regional Hospital (Baptist Health) compete for the same searches across those same neighborhoods, which is why a Delray Beach practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
+    ],
   },
   {
     slug: "boynton-beach-fl",
@@ -218,6 +361,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Bethesda Hospital East (Baptist Health)",
       "HCA Florida JFK Hospital",
       "Boca Raton Regional Hospital (Baptist Health)",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Boynton Beach?",
+        a: "Primara actively works with independent practices in Boynton Beach. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Boynton Beach practice is actually competing against in local search, which here means Bethesda Hospital East (Baptist Health) and HCA Florida JFK Hospital.",
+      },
+      {
+        q: "Who are independent Boynton Beach practices competing against in local search?",
+        a: "Bethesda Hospital East, now part of Baptist Health South Florida, is the dominant community hospital in Boynton Beach and maintains an extensive employed physician network that competes directly for the city's Medicare primary care patient base. Baptist Health's marketing operation has significantly upgraded Bethesda's digital presence since the acquisition \u2014 GBP optimization, review generation, and local SEO are active \u2014 which means the competitive baseline in Boynton Beach has risen.",
+      },
+      {
+        q: "What makes Boynton Beach's primary care market different from other Florida cities?",
+        a: "This demographic is also among the most digitally engaged retiree populations in Florida \u2014 they search for physicians on Google, read reviews, and make decisions based on what they find online. For independent primary care physicians in Boynton Beach, digital visibility is not optional: it is the primary referral channel for the largest patient segment in the city.",
+      },
+      {
+        q: "Why should an independent Boynton Beach practice start now instead of waiting?",
+        a: "Baptist Health is actively expanding Bethesda's ambulatory footprint in Boynton Beach, and their marketing investment there is growing. The window for independent practices to establish Local Pack authority before Baptist Health's optimization reaches full maturity is finite. Boynton Beach's 55+ population is also growing: Palm Beach County has seen consistent net migration of retirement-age adults, and those new residents will establish physician relationships based primarily on what they find in Google within their first 90 days in Florida.",
+      },
+      {
+        q: "What areas within Boynton Beach does this cover?",
+        a: "This covers all of Boynton Beach, with particular focus on Renaissance Commons, Quantum Lakes and Woolbright Road corridor, since that's where patient search volume concentrates. Bethesda Hospital East (Baptist Health) and HCA Florida JFK Hospital operate across those same areas, so neighborhood-level content is what lets a Boynton Beach practice compete with them in local search.",
+      },
     ],
   },
   {
@@ -248,6 +413,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "North Broward Medical Center (Broward Health)",
       "Holy Cross Health",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Pompano Beach?",
+        a: "Primara actively works with independent practices in Pompano Beach. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Pompano Beach practice is actually competing against in local search, which here means Broward Health North and North Broward Medical Center (Broward Health).",
+      },
+      {
+        q: "Who are independent Pompano Beach practices competing against in local search?",
+        a: "Broward Health North is the primary hospital facility serving northern Broward County and maintains a physician network that covers Pompano Beach, Deerfield Beach, and the Lighthouse Point area. Its GBP profiles for affiliated practices are moderately optimized \u2014 better than most independent practices in the area, but not at the level of a Baptist Health or Cleveland Clinic operation. North Broward Medical Center (Broward Health) anchors the Deerfield Beach border and pulls searches from the northern Pompano ZIP codes.",
+      },
+      {
+        q: "What makes Pompano Beach's primary care market different from other Florida cities?",
+        a: "The city has areas of genuine primary care undersupply, particularly in the Collier Manor and Crystal Lake neighborhoods, where residents have limited access to quality independent physicians and rely heavily on Google to find any available provider. That undersupply is an opportunity.",
+      },
+      {
+        q: "Why should an independent Pompano Beach practice start now instead of waiting?",
+        a: "Pompano Beach is undergoing a commercial revitalization with new development along Atlantic Boulevard and the ongoing renovation of the beachfront corridor. New residents and business owners arriving in the city represent a wave of potential primary care patients who will establish physician relationships based on what they find online.",
+      },
+      {
+        q: "What areas within Pompano Beach does this cover?",
+        a: "This covers all of Pompano Beach, with particular focus on Pompano Beach pier and waterfront, Crystal Lake neighborhood and Collier Manor, since that's where patient search volume concentrates. Broward Health North and North Broward Medical Center (Broward Health) operate across those same areas, so neighborhood-level content is what lets a Pompano Beach practice compete with them in local search.",
+      },
+    ],
   },
   {
     slug: "coral-springs-fl",
@@ -276,6 +463,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Broward Health Coral Springs",
       "Westside Regional Medical Center",
       "HCA Florida Woodmont Hospital",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Coral Springs?",
+        a: "We do. Coral Springs practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Coral Springs that means going up against Broward Health Coral Springs and Westside Regional Medical Center for the same searches.",
+      },
+      {
+        q: "Who are independent Coral Springs practices competing against in local search?",
+        a: "Broward Health Coral Springs is the community hospital anchoring the city and maintains a primary care physician network that competes directly for Coral Springs family medicine patients. Its GBP profiles are moderately optimized, its review count reflects years of patient volume, and its marketing presence has grown since Broward Health launched system-wide digital investments. Westside Regional Medical Center operates in the adjacent Plantation/Sunrise corridor and captures some western Coral Springs traffic.",
+      },
+      {
+        q: "What makes Coral Springs's primary care market different from other Florida cities?",
+        a: "The city's Eagle Trace, Turtle Run, Heron Bay, and Ramblewood communities are home to thousands of households with children, dual-income working parents, and aging parents who have relocated to be near family \u2014 three distinct patient segments, all searching for primary care. The tight internal social networks of Coral Springs' planned communities mean that a physician who earns one family's trust often earns their entire neighborhood's.",
+      },
+      {
+        q: "Why should an independent Coral Springs practice start now instead of waiting?",
+        a: "Coral Springs' population remains stable but its demand for primary care is growing as the original planned-community residents age into higher utilization and new families move in to replace them. Broward Health's planned expansion of its ambulatory network in western Broward \u2014 announced as part of their capital plan \u2014 will add more competition for Coral Springs primary care searches within the next 18\u201324 months.",
+      },
+      {
+        q: "What areas within Coral Springs does this cover?",
+        a: "We work across Coral Springs, including Eagle Trace Country Club area, Turtle Run neighborhood and Heron Bay gated communities \u2014 not just the city center. Broward Health Coral Springs and Westside Regional Medical Center already rank across those neighborhoods, so a Coral Springs practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
     ],
   },
   {
@@ -306,6 +515,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Palm Beach Gardens Medical Center (HCA)",
       "St. Mary's Medical Center",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Jupiter?",
+        a: "Yes \u2014 Jupiter is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Jupiter practices are up against Jupiter Medical Center (independent community hospital) and Palm Beach Gardens Medical Center (HCA) in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Jupiter practices competing against in local search?",
+        a: "Jupiter Medical Center is the defining institution in Jupiter's healthcare market \u2014 independently operated, locally trusted, and consistently ranked among Florida's top community hospitals. Its affiliated physicians benefit from strong community name recognition, and the hospital's marketing has historically relied on that reputation rather than aggressive digital tactics.",
+      },
+      {
+        q: "What makes Jupiter's primary care market different from other Florida cities?",
+        a: "But that culture is under pressure. Palm Beach Gardens Medical Center sits eight miles south, Palm Beach Health Network continues to consolidate employed physicians, and the patients flooding into Abacoa, Jonathan's Landing, and the newer Tequesta border communities are digitally native in their healthcare research behavior.",
+      },
+      {
+        q: "Why should an independent Jupiter practice start now instead of waiting?",
+        a: "Jupiter Medical Center's transition from purely reputation-based marketing to active digital investment is underway \u2014 they have added digital resources over the last two years and will continue. Palm Beach Gardens Medical Center's marketing reach is extending further north as that facility expands. The moment of maximum opportunity for independent primary care practices in Jupiter is now, when Jupiter Medical Center's digital operation is still building and their employed physician profiles are still suboptimally configured.",
+      },
+      {
+        q: "What areas within Jupiter does this cover?",
+        a: "Coverage spans Jupiter, including Abacoa community, Jupiter Farms and Jonathan's Landing. Jupiter Medical Center (independent community hospital) and Palm Beach Gardens Medical Center (HCA) compete for the same searches across those same neighborhoods, which is why a Jupiter practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
+    ],
   },
   {
     slug: "hialeah-fl",
@@ -334,6 +565,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Hialeah Hospital (HCA)",
       "Palmetto General Hospital (Tenet Healthcare)",
       "Jackson Health System / UM Health community centers",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Hialeah?",
+        a: "Yes \u2014 Hialeah is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Hialeah practices are up against Hialeah Hospital (HCA) and Palmetto General Hospital (Tenet Healthcare) in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Hialeah practices competing against in local search?",
+        a: "Hialeah Hospital, an HCA facility, has long been the anchor of local inpatient care in the city and maintains a primary care referral network that touches the Palm Springs Mile corridor, the Hialeah Gardens border, and the Miami Lakes edge. Palmetto General Hospital \u2014 a Tenet Healthcare facility located just east of the city \u2014 competes aggressively for the same patient population with affiliated outpatient clinics that rank prominently for primary care searches throughout western Miami-Dade.",
+      },
+      {
+        q: "What makes Hialeah's primary care market different from other Florida cities?",
+        a: "Independent primary care physicians here face pressure from multiple directions: HCA-operated hospitals, Tenet facilities, and one of the highest concentrations of Federally Qualified Health Centers in the state. Primara helps Hialeah practices cut through that competition by building the bilingual digital infrastructure that earns new patients before they ever reach a competitor's listing.",
+      },
+      {
+        q: "Why should an independent Hialeah practice start now instead of waiting?",
+        a: "HCA is actively expanding its ambulatory footprint in Miami-Dade, and Palmetto General's parent company Tenet Healthcare has been increasing outpatient marketing investment across South Florida. Independent primary care physicians in Hialeah who do not build a strong digital presence now will find themselves competing against increasingly sophisticated hospital marketing operations within 18\u201324 months.",
+      },
+      {
+        q: "What areas within Hialeah does this cover?",
+        a: "Coverage spans Hialeah, including Palm Springs Mile shopping corridor, Westland Mall area and East Hialeah neighborhood. Hialeah Hospital (HCA) and Palmetto General Hospital (Tenet Healthcare) compete for the same searches across those same neighborhoods, which is why a Hialeah practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
     ],
   },
   {
@@ -364,6 +617,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Kendall Regional Medical Center (HCA)",
       "Hialeah Hospital (HCA)",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Doral?",
+        a: "Yes \u2014 Doral is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Doral practices are up against Baptist Health South Florida (outpatient network) and Kendall Regional Medical Center (HCA) in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Doral practices competing against in local search?",
+        a: "Baptist Health South Florida has extended its reach into Doral through outpatient clinics and affiliated physician practices, and its marketing operation \u2014 one of the most sophisticated in Florida \u2014 has begun optimizing for Doral-specific searches as the city's population has grown.",
+      },
+      {
+        q: "What makes Doral's primary care market different from other Florida cities?",
+        a: "The city's rapid growth has outpaced its healthcare infrastructure, creating genuine white space for independent physicians willing to invest in local search visibility before hospital systems and corporate chains move aggressively into the market. Primara helps Doral-area practices build the bilingual digital footprint needed to claim that opportunity now.",
+      },
+      {
+        q: "Why should an independent Doral practice start now instead of waiting?",
+        a: "Doral's population is still growing at a rate that significantly outpaces its primary care supply. Baptist Health is actively expanding ambulatory operations into the city, and when a system with that marketing infrastructure fully commits to a market, independent practices that haven't established Local Pack authority lose access to first-page Google results in a matter of months. The bilingual SEO opportunity in Doral \u2014 where Spanish-language search terms have almost no well-optimized competition \u2014 is genuinely time-limited.",
+      },
+      {
+        q: "What areas within Doral does this cover?",
+        a: "We work across Doral, including Downtown Doral development, CityPlace Doral and NW 87th Avenue business corridor \u2014 not just the city center. Baptist Health South Florida (outpatient network) and Kendall Regional Medical Center (HCA) already rank across those neighborhoods, so a Doral practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "kendall-fl",
@@ -392,6 +667,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Kendall Regional Medical Center (HCA)",
       "Baptist Health Kendall Hospital",
       "Baptist Health South Florida (network)",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Kendall?",
+        a: "We do. Kendall practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Kendall that means going up against Kendall Regional Medical Center (HCA) and Baptist Health Kendall Hospital for the same searches.",
+      },
+      {
+        q: "Who are independent Kendall practices competing against in local search?",
+        a: "Kendall Regional Medical Center, an HCA facility, is one of the largest hospitals in Miami-Dade County and operates a primary care physician network that spans the entire western Kendall corridor. Its GBP profiles are actively managed, its affiliated physician listings are well-optimized, and its ad budgets reach into neighborhoods throughout the Kendall ZIP code cluster.",
+      },
+      {
+        q: "What makes Kendall's primary care market different from other Florida cities?",
+        a: "Independent physicians here face two of the region's most aggressive hospital marketing operations \u2014 HCA's Kendall Regional Medical Center and Baptist Health's Kendall Hospital \u2014 both fighting for the same patient base across the same Kendall Drive and SW 88th Street corridors where most independent practices are located. Primara helps Kendall practices build the local search presence that keeps them visible alongside, and often ahead of, those hospital competitors.",
+      },
+      {
+        q: "Why should an independent Kendall practice start now instead of waiting?",
+        a: "Baptist Health Kendall Hospital opened in 2021 and has been in an active build phase for its ambulatory physician network and digital marketing operation ever since. That buildout is not complete \u2014 but it is accelerating. Independent practices that establish strong Local Pack authority in Kendall before Baptist Health's optimization reaches full maturity will hold those positions through significantly more competitive circumstances than exist today.",
+      },
+      {
+        q: "What areas within Kendall does this cover?",
+        a: "We work across Kendall, including Kendall Drive commercial corridor, The Hammocks community and Sunset Drive / Snapper Creek area \u2014 not just the city center. Kendall Regional Medical Center (HCA) and Baptist Health Kendall Hospital already rank across those neighborhoods, so a Kendall practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
     ],
   },
   {
@@ -422,6 +719,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "North Shore Medical Center",
       "Memorial Regional Hospital System",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Aventura?",
+        a: "Yes \u2014 Aventura is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Aventura practices are up against Aventura Hospital and Medical Center (HCA) and North Shore Medical Center in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Aventura practices competing against in local search?",
+        a: "Aventura Hospital and Medical Center, an HCA facility, is the dominant hospital in the immediate market and maintains a well-developed primary care physician network that covers the Aventura, Hallandale Beach, and Sunny Isles Beach corridor. HCA's marketing infrastructure is modern and aggressive \u2014 its affiliated physician GBP profiles are well-optimized, review velocity is managed actively, and its ad campaigns reach into virtually every ZIP code in the area.",
+      },
+      {
+        q: "What makes Aventura's primary care market different from other Florida cities?",
+        a: "Independent primary care physicians here face HCA's Aventura Hospital and the broader hospital-employed physician ecosystem, but also serve a patient base that is unusually research-driven and brand-aware. In Aventura, a strong Google presence is the direct equivalent of a strong professional reputation.",
+      },
+      {
+        q: "Why should an independent Aventura practice start now instead of waiting?",
+        a: "HCA's investment in Aventura Hospital's ambulatory network is ongoing, and the competitive landscape for primary care search in the Aventura corridor is becoming more sophisticated every quarter. The snowbird patient segment \u2014 which represents an annual new-patient acquisition opportunity of 40\u201380 patients per season for a well-positioned practice \u2014 is captured almost entirely by whichever physician appears at the top of local search in October and November.",
+      },
+      {
+        q: "What areas within Aventura does this cover?",
+        a: "We work across Aventura, including Aventura Mall area, Mystic Pointe and Porto Vita high-rises and Country Club Drive corridor \u2014 not just the city center. Aventura Hospital and Medical Center (HCA) and North Shore Medical Center already rank across those neighborhoods, so an Aventura practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "pembroke-pines-fl",
@@ -450,6 +769,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Memorial Hospital Pembroke (Memorial Healthcare System)",
       "Memorial Regional Hospital South",
       "Westside Regional Medical Center",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Pembroke Pines?",
+        a: "We do. Pembroke Pines practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Pembroke Pines that means going up against Memorial Hospital Pembroke (Memorial Healthcare System) and Memorial Regional Hospital South for the same searches.",
+      },
+      {
+        q: "Who are independent Pembroke Pines practices competing against in local search?",
+        a: "Memorial Hospital Pembroke and Memorial Regional Hospital South together form the core of Memorial Healthcare System's Pembroke Pines and South Broward presence. Memorial's marketing operation is substantial \u2014 its GBP profiles for affiliated physicians are well-optimized, its review generation is active, and its name recognition throughout Broward County is second only to Cleveland Clinic in terms of brand strength.",
+      },
+      {
+        q: "What makes Pembroke Pines's primary care market different from other Florida cities?",
+        a: "Independent physicians here compete against Memorial Healthcare System's significant Broward County presence, but they also serve patient populations \u2014 particularly in the Century Village retirement community and the newer developments in Chapel Trail and Silver Lakes \u2014 who actively prefer an independent physician over a large health system practice. Primara helps Pembroke Pines practices build the digital presence that connects them to those patients.",
+      },
+      {
+        q: "Why should an independent Pembroke Pines practice start now instead of waiting?",
+        a: "Memorial Healthcare System has been expanding its physician employment model in South Broward, and each employed physician who joins Memorial's network represents another well-marketed competitor in Pembroke Pines' local search results. The window for independent practices to claim and hold Local Pack positions before the next round of Memorial physician network expansion is active right now.",
+      },
+      {
+        q: "What areas within Pembroke Pines does this cover?",
+        a: "This covers all of Pembroke Pines, with particular focus on Century Village retirement community, Chapel Trail neighborhood and Silver Lakes area, since that's where patient search volume concentrates. Memorial Hospital Pembroke (Memorial Healthcare System) and Memorial Regional Hospital South operate across those same areas, so neighborhood-level content is what lets a Pembroke Pines practice compete with them in local search.",
+      },
     ],
   },
   {
@@ -480,6 +821,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Joe DiMaggio Children's Hospital",
       "Broward Health Medical Center",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Hollywood?",
+        a: "Primara actively works with independent practices in Hollywood. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Hollywood practice is actually competing against in local search, which here means Memorial Regional Hospital (Memorial Healthcare System) and Joe DiMaggio Children's Hospital.",
+      },
+      {
+        q: "Who are independent Hollywood practices competing against in local search?",
+        a: "Memorial Regional Hospital is one of the most recognized hospital brands in South Florida \u2014 a Level 1 trauma center with a pediatric affiliate, Joe DiMaggio Children's Hospital, that drives enormous search volume and parent trust across the entire South Broward market. Memorial's marketing operation is sophisticated and well-funded, its affiliated physician GBP profiles are actively managed, and its name recognition creates a brand halo that extends to every employed physician in the network.",
+      },
+      {
+        q: "What makes Hollywood's primary care market different from other Florida cities?",
+        a: "Independent primary care physicians here compete against Memorial Healthcare System's flagship campus, one of Florida's highest-ranked hospitals, but serve patient communities that Memorial's employed physician network cannot fully reach. Primara helps Hollywood practices build the local search infrastructure that connects them to those underserved patient segments.",
+      },
+      {
+        q: "Why should an independent Hollywood practice start now instead of waiting?",
+        a: "Memorial Healthcare System is expanding its ambulatory physician network in South Broward, adding employed physicians whose profiles will compete directly for Hollywood primary care searches. Joe DiMaggio Children's Hospital's marketing reach extends to pediatric-family search terms that currently surface a mix of well- and poorly-optimized independent practice profiles \u2014 an independent pediatric-focused family medicine physician who optimizes now can claim those positions before Memorial's next round of marketing investment reaches full velocity.",
+      },
+      {
+        q: "What areas within Hollywood does this cover?",
+        a: "We work across Hollywood, including Hollywood Beach boardwalk, Young Circle Arts Park and Emerald Hills neighborhood \u2014 not just the city center. Memorial Regional Hospital (Memorial Healthcare System) and Joe DiMaggio Children's Hospital already rank across those neighborhoods, so a Hollywood practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "port-st-lucie-fl",
@@ -509,6 +872,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "St. Lucie Medical Center (HCA)",
       "Lawnwood Regional Medical Center (HCA)",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Port St. Lucie?",
+        a: "Primara actively works with independent practices in Port St. Lucie. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Port St. Lucie practice is actually competing against in local search, which here means Cleveland Clinic Tradition Medical Center and St. Lucie Medical Center (HCA).",
+      },
+      {
+        q: "Who are independent Port St. Lucie practices competing against in local search?",
+        a: "Cleveland Clinic Tradition Medical Center \u2014 part of the Cleveland Clinic Florida health system \u2014 is the primary hospital serving the Tradition development corridor in western Port St. Lucie and brings one of the most recognized hospital brands in the world into a regional market. Cleveland Clinic's digital marketing is national-caliber: fully optimized GBP profiles, aggressive review collection, and SEO infrastructure built by a marketing team that also manages brand presence for a global academic medical center. St.",
+      },
+      {
+        q: "What makes Port St. Lucie's primary care market different from other Florida cities?",
+        a: "Lucie has been one of the fastest-growing cities in Florida for nearly a decade \u2014 adding tens of thousands of new residents annually in planned communities like Tradition, PGA Village, and the Legacy development corridors \u2014 and its primary care infrastructure has not kept pace with that growth.",
+      },
+      {
+        q: "Why should an independent Port St. Lucie practice start now instead of waiting?",
+        a: "Port St. Lucie added over 10,000 new residents in the past year, and the Tradition development corridor continues to build out. Cleveland Clinic's presence in Tradition is growing, not stable \u2014 their ambulatory network is expanding and their local SEO investment will accelerate as the community grows. The narrow window where an independent practice can establish Local Pack authority before Cleveland Clinic's optimization fully captures the Tradition corridor's search real estate is open right now.",
+      },
+      {
+        q: "What areas within Port St. Lucie does this cover?",
+        a: "This covers all of Port St. Lucie, with particular focus on Tradition community and Town Square, PGA Village golf communities and Sawgrass Lakes neighborhood, since that's where patient search volume concentrates. Cleveland Clinic Tradition Medical Center and St. Lucie Medical Center (HCA) operate across those same areas, so neighborhood-level content is what lets a Port St. Lucie practice compete with them in local search.",
+      },
+    ],
   },
   {
     slug: "stuart-fl",
@@ -537,6 +922,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Martin Medical Center (Cleveland Clinic Martin Health)",
       "Cleveland Clinic Tradition Medical Center",
       "St. Lucie Medical Center (HCA)",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Stuart?",
+        a: "We do. Stuart practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Stuart that means going up against Martin Medical Center (Cleveland Clinic Martin Health) and Cleveland Clinic Tradition Medical Center for the same searches.",
+      },
+      {
+        q: "Who are independent Stuart practices competing against in local search?",
+        a: "Martin Medical Center, now operating under the Cleveland Clinic Martin Health umbrella, is the dominant hospital in Martin County and has benefited significantly from the Cleveland Clinic brand association in terms of patient trust and digital marketing resources. Cleveland Clinic's national marketing infrastructure has elevated Martin Medical Center's online presence \u2014 its GBP profiles are better optimized than they were under prior management, and the Cleveland Clinic brand carries immediate credibility with the affluent retiree population that Stuart attracts.",
+      },
+      {
+        q: "What makes Stuart's primary care market different from other Florida cities?",
+        a: "Martin County's retiree-heavy population \u2014 among the highest median-age counties in Florida \u2014 combined with a steady influx of remote workers and boating-community residents drawn by the St. Lucie River estuary and the city's historically preserved downtown, creates a primary care demand profile that far exceeds what the supply of independent physicians can currently serve.",
+      },
+      {
+        q: "Why should an independent Stuart practice start now instead of waiting?",
+        a: "Cleveland Clinic Martin Health is still in the process of integrating its marketing infrastructure following the affiliation, and its local digital optimization for Martin County is not yet at the level that Cleveland Clinic's facilities in Weston and Tradition have achieved.",
+      },
+      {
+        q: "What areas within Stuart does this cover?",
+        a: "Coverage spans Stuart, including Historic downtown Stuart, St. Lucie River waterfront and Hutchinson Island corridor. Martin Medical Center (Cleveland Clinic Martin Health) and Cleveland Clinic Tradition Medical Center compete for the same searches across those same neighborhoods, which is why a Stuart practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
     ],
   },
 
@@ -570,6 +977,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Tampa General Hospital / USF Health",
       "HCA Florida Healthcare (South Tampa & West Tampa Hospitals)",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Tampa?",
+        a: "Primara actively works with independent practices in Tampa. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Tampa practice is actually competing against in local search, which here means BayCare Health System and AdventHealth Tampa.",
+      },
+      {
+        q: "Who are independent Tampa practices competing against in local search?",
+        a: "BayCare Health System is the dominant force in Tampa Bay's healthcare market, operating 16 hospitals \u2014 with a 17th underway \u2014 and holding roughly 36% market share across the region. BayCare Medical Group backs that up with more than 600 providers across 190+ outpatient locations, giving it an outsized presence in local search results from Carrollwood to Riverview. AdventHealth Tampa on Fletcher Avenue and AdventHealth Carrollwood on Dale Mabry Highway extend that competition into North Tampa.",
+      },
+      {
+        q: "What makes Tampa's primary care market different from other Florida cities?",
+        a: "Independent primary care physicians here compete against BayCare Health System's 16-hospital network, AdventHealth's regional footprint, HCA Florida's acute-care hospitals, and Tampa General's academic physician group \u2014 all of which run marketing operations that dwarf a single practice's budget. Primara helps Tampa-area practices build the Google Business Profile and website presence that captures new-patient searches before a hospital-employed competitor ever shows up in the results.",
+      },
+      {
+        q: "Why should an independent Tampa practice start now instead of waiting?",
+        a: "BayCare's 17th hospital is already underway, and its 2023 acquisition of the independent Gessler Clinic shows the system is actively buying up independent practices, not just outspending them. Tampa General is in the middle of a $550 million master facility plan, including a Bayshore Pavilion expansion adding 12 new operating rooms and 100 beds, while its academic tie-up with USF Health has created one of the largest physician groups in the state.",
+      },
+      {
+        q: "What areas within Tampa does this cover?",
+        a: "Coverage spans Tampa, including Hyde Park Village, Bayshore Boulevard and Ybor City Historic District. BayCare Health System and AdventHealth Tampa compete for the same searches across those same neighborhoods, which is why a Tampa practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
+    ],
   },
   {
     slug: "st-petersburg-fl",
@@ -599,6 +1028,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "HCA Florida St. Petersburg Hospital",
       "Orlando Health Bayfront Hospital",
       "Johns Hopkins All Children's Hospital",
+    ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in St. Petersburg?",
+        a: "We do. St. Petersburg practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in St. Petersburg that means going up against BayCare Health System (St. Anthony's Hospital) and HCA Florida St. Petersburg Hospital for the same searches.",
+      },
+      {
+        q: "Who are independent St. Petersburg practices competing against in local search?",
+        a: "BayCare Health System is the dominant not-for-profit network across Tampa Bay, operating St. Anthony's Hospital \u2014 a 448-bed acute care facility in St. Petersburg with a certified Primary Stroke Center \u2014 along with dozens of urgent care and outpatient locations throughout Pinellas County. BayCare's brand recognition runs deep with longtime St. Petersburg residents, and its employed primary care offices extend into neighborhoods like Old Northeast and Kenwood. HCA Florida St.",
+      },
+      {
+        q: "What makes St. Petersburg's primary care market different from other Florida cities?",
+        a: "Petersburg is home to more than 265,000 residents with a median age of 43, and a senior population \u2014 65 and older \u2014 that makes up nearly one in five residents, giving the city one of the most healthcare-engaged populations in Tampa Bay. That demand hasn't gone unnoticed: BayCare Health System, HCA Florida Healthcare, and Orlando Health all operate major hospitals within St. Petersburg city limits and compete aggressively for every primary care search a patient runs online.",
+      },
+      {
+        q: "Why should an independent St. Petersburg practice start now instead of waiting?",
+        a: "BayCare made its intentions for St. Petersburg unmistakable in January 2025, paying $10 million for a former Barnes & Noble in the city and committing roughly $30 million to convert it into a freestanding emergency room \u2014 a level of capital investment no independent practice can match. Orlando Health, meanwhile, is still building out Institute Square, its medical campus next to Bayfront Hospital downtown, extending the footprint it gained when it took over the former Bayfront Health system.",
+      },
+      {
+        q: "What areas within St. Petersburg does this cover?",
+        a: "We work across St. Petersburg, including Downtown St. Petersburg, Old Northeast and Snell Isle \u2014 not just the city center. BayCare Health System (St. Anthony's Hospital) and HCA Florida St. Petersburg Hospital already rank across those neighborhoods, so a St. Petersburg practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
     ],
   },
   {
@@ -631,6 +1082,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "HCA Florida Largo Hospital",
       "HCA Florida Countryside Emergency",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Clearwater?",
+        a: "We do. Clearwater practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Clearwater that means going up against Morton Plant Hospital (BayCare Health System) and Mease Countryside Hospital (BayCare Health System) for the same searches.",
+      },
+      {
+        q: "Who are independent Clearwater practices competing against in local search?",
+        a: "Morton Plant Hospital, BayCare's 599-bed flagship at 300 Pinellas Street, has anchored downtown Clearwater's healthcare identity since 1916, and its affiliated BayCare Medical Group primary care clinics carry that name recognition into Island Estates, Belleair, and Clearwater Beach. A few miles north, Mease Countryside Hospital in Safety Harbor extends BayCare's footprint into the Countryside corridor, where its on-campus BayCare Medical Group Primary Care practice competes directly with independent family physicians for the same patients.",
+      },
+      {
+        q: "What makes Clearwater's primary care market different from other Florida cities?",
+        a: "For an independent primary care physician setting up practice in Clearwater, that isn't abstract competition \u2014 BayCare's brand, marketing budget, and employed physician network are woven into daily life across the city. HCA Healthcare has now begun pushing into the same market with a new freestanding emergency room near Countryside. Primara helps independent practices in Clearwater build the local search presence needed to stand out against both systems.",
+      },
+      {
+        q: "Why should an independent Clearwater practice start now instead of waiting?",
+        a: "HCA Florida Countryside Emergency is scheduled to open in 2026, putting a second national hospital brand's marketing machine to work in the same neighborhoods BayCare has dominated for decades. Every month an independent physician waits to build a real local search presence is a month closer to two competing systems fully saturating the map pack for primary care searches in Clearwater.",
+      },
+      {
+        q: "What areas within Clearwater does this cover?",
+        a: "We work across Clearwater, including Clearwater Beach, Island Estates and Countryside \u2014 not just the city center. Morton Plant Hospital (BayCare Health System) and Mease Countryside Hospital (BayCare Health System) already rank across those neighborhoods, so a Clearwater practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
+    ],
   },
   {
     slug: "brandon-fl",
@@ -662,6 +1135,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "AdventHealth Riverview",
       "BayCare Health System",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Brandon?",
+        a: "Yes \u2014 Brandon is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Brandon practices are up against HCA Florida Brandon Hospital and AdventHealth Brandon (ER & Imaging Center) in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Brandon practices competing against in local search?",
+        a: "HCA Florida Brandon Hospital is the area's dominant acute-care facility, a 479-bed hospital that anchors HCA's West Florida Division and has spent the past several years extending its reach through freestanding emergency departments rather than a single flagship building \u2014 it now operates or is building its seventh in the region, most recently breaking ground on a $19 million ER on Boyette Road to serve the fast-growing Lithia-FishHawk-Riverview corridor.",
+      },
+      {
+        q: "What makes Brandon's primary care market different from other Florida cities?",
+        a: "That growth has triggered a hospital land grab: HCA Florida Brandon Hospital anchors the market with 479 beds and a growing network of freestanding emergency departments, while AdventHealth has built its own freestanding ER and imaging center on East Brandon Boulevard and opened a new hospital in nearby Riverview. BayCare Health System rounds out the competition with urgent care and primary care clinics across the area.",
+      },
+      {
+        q: "Why should an independent Brandon practice start now instead of waiting?",
+        a: "AdventHealth's Riverview hospital is on pace to nearly double its bed count by the end of 2026, and HCA is opening freestanding emergency departments closer to Valrico, Bloomingdale, and FishHawk every year \u2014 both moves explicitly justified by Hillsborough County's population growth. Every month an independent practice waits to build a real local search presence is a month closer to two expanding hospital systems fully claiming the map pack for primary care searches across Brandon's newer neighborhoods.",
+      },
+      {
+        q: "What areas within Brandon does this cover?",
+        a: "Coverage spans Brandon, including Valrico, Riverview and Bloomingdale. HCA Florida Brandon Hospital and AdventHealth Brandon (ER & Imaging Center) compete for the same searches across those same neighborhoods, which is why a Brandon practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      },
+    ],
   },
   {
     slug: "lakeland-fl",
@@ -692,6 +1187,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       "Orlando Health Watson Clinic Lakeland Highlands Hospital",
       "BayCare",
     ],
+    faqs: [
+      {
+        q: "Does Primara work with primary care practices in Lakeland?",
+        a: "Yes \u2014 Lakeland is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Lakeland practices are up against Lakeland Regional Health and Watson Clinic in local search, and that's what the work is built around.",
+      },
+      {
+        q: "Who are independent Lakeland practices competing against in local search?",
+        a: "Lakeland Regional Health anchors the market as one of Florida's largest hospitals, running the only trauma center in the tri-county area and a physician group of more than 400 providers across 30-plus locations. Watson Clinic, founded in 1941, is the other dominant name in Polk County primary care \u2014 its 200-plus physicians and dozens of satellite offices make it the default choice for patients across South Lakeland, Dixieland, and the neighborhoods ringing Lake Hollingsworth near Florida Southern College.",
+      },
+      {
+        q: "What makes Lakeland's primary care market different from other Florida cities?",
+        a: "Independent primary care physicians here compete against Lakeland Regional Health, one of Florida's largest hospitals, alongside Watson Clinic's 200+ physician network and BayCare's expanding outpatient footprint. The market shifted again when Orlando Health Watson Clinic Lakeland Highlands Hospital opened \u2014 the first new hospital built in Lakeland in more than a century. Primara helps independent practices in Lakeland build the local search presence needed to stay visible and competitive.",
+      },
+      {
+        q: "Why should an independent Lakeland practice start now instead of waiting?",
+        a: "Orlando Health Watson Clinic Lakeland Highlands Hospital's marketing and review-generation machine is only beginning to ramp up in a market that hadn't seen a new hospital brand in over a century. BayCare's new freestanding emergency department in south Lakeland adds another well-funded competitor building local search presence at the same time.",
+      },
+      {
+        q: "What areas within Lakeland does this cover?",
+        a: "We work across Lakeland, including Downtown Lakeland, Dixieland and South Lakeland \u2014 not just the city center. Lakeland Regional Health and Watson Clinic already rank across those neighborhoods, so a Lakeland practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+      },
+    ],
   },
 {
   slug: "orlando-fl",
@@ -715,6 +1232,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "Orlando Health Medical Group",
     "UCF Lake Nona Hospital / Nemours Children's Hospital",
     "Orlando VA Medical Center",
+  ],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Orlando?",
+      a: "Yes \u2014 Orlando is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Orlando practices are up against AdventHealth Orlando and Orlando Health Medical Group in local search, and that's what the work is built around.",
+    },
+    {
+      q: "Who are independent Orlando practices competing against in local search?",
+      a: "AdventHealth Orlando's flagship campus is the dominant force in Central Florida healthcare, and it's not standing still \u2014 its $660 million, 14-story surgical tower is part of a $1 billion long-term investment in the Orlando campus, and the system just opened a new emergency department in Meadow Woods (March 2026) to capture south Orange County growth.",
+    },
+    {
+      q: "What makes Orlando's primary care market different from other Florida cities?",
+      a: "Independent primary care physicians here compete against two dominant hospital systems, AdventHealth and Orlando Health, both of which run sprawling employed-physician networks backed by full-time marketing teams. Primara helps Orlando-area practices build the local search presence that turns that population growth into new patients instead of watching it flow straight into a hospital-owned clinic.",
+    },
+    {
+      q: "Why should an independent Orlando practice start now instead of waiting?",
+      a: "AdventHealth's $660 million, 14-story surgical tower is already under construction as part of a $1 billion long-term investment in its Orlando campus \u2014 the largest single healthcare investment in Central Florida's history \u2014 and the system just opened a brand-new emergency department in Meadow Woods in March 2026 to capture south Orange County growth before anyone else could.",
+    },
+    {
+      q: "What areas within Orlando does this cover?",
+      a: "Coverage spans Orlando, including Lake Nona, Winter Park and College Park. AdventHealth Orlando and Orlando Health Medical Group compete for the same searches across those same neighborhoods, which is why a Orlando practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+    },
   ],
 },
 {
@@ -746,6 +1285,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "HCA Florida Poinciana Hospital",
     "Orlando Health",
   ],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Kissimmee?",
+      a: "Yes \u2014 Kissimmee is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Kissimmee practices are up against AdventHealth Kissimmee and HCA Florida Osceola Hospital in local search, and that's what the work is built around.",
+    },
+    {
+      q: "Who are independent Kissimmee practices competing against in local search?",
+      a: "AdventHealth Kissimmee (formerly Florida Hospital Kissimmee) anchors the city's healthcare market from its 282-bed campus on North Orange Blossom Trail, backed by national recognition for coronary and stroke care and a marketing budget most solo practices can't match. HCA Florida Osceola Hospital, a 407-bed Level II Trauma Center and UCF College of Medicine teaching hospital on West Oak Street, pulls a steady stream of primary care and specialist searches toward its affiliated physician network, and HCA's second local facility, Florida.",
+    },
+    {
+      q: "What makes Kissimmee's primary care market different from other Florida cities?",
+      a: "Independent primary care practices here compete against three hospital systems expanding their ambulatory footprint at the same time: AdventHealth Kissimmee, HCA Florida Osceola Hospital, and Orlando Health's growing urgent care and hospital-development plans. Primara helps Kissimmee-area practices build the Google Business Profile and website presence that lets them win new-patient searches before a hospital-employed competitor two miles away does.",
+    },
+    {
+      q: "Why should an independent Kissimmee practice start now instead of waiting?",
+      a: "Orlando Health confirmed in February 2026 that it's opening a new CareSpot Urgent Care location in east Kissimmee and expanding its existing medical pavilion near the former Tupperware headquarters site into a full-service hospital \u2014 the clearest sign yet that a third major system now sees enough demand in Osceola County, which has grown 84% since 2010, to compete directly for primary care patients here.",
+    },
+    {
+      q: "What areas within Kissimmee does this cover?",
+      a: "This covers all of Kissimmee, with particular focus on Celebration, Poinciana and Buenaventura Lakes, since that's where patient search volume concentrates. AdventHealth Kissimmee and HCA Florida Osceola Hospital operate across those same areas, so neighborhood-level content is what lets a Kissimmee practice compete with them in local search.",
+    },
+  ],
 },
 {
   slug: "winter-park-fl",
@@ -765,6 +1326,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "MDVIP opened two concierge internal medicine practices on N. Lakemont Ave in July 2025, and the national average wait for a new primary care appointment hit 31 days that same year — a combination that's actively pushing both affluent and frustrated patients away from the default hospital-affiliated listing and toward whichever independent practice looks most available in search. Every month that passes without a fully optimized Google Business Profile is a month AdventHealth Winter Park, Orlando Health, and MDVIP's concierge clinics keep collecting the new-patient searches an independent practice should be winning.",
   landmarks: ["Hannibal Square", "Park Avenue District", "Baldwin Park"],
   hospitals: ["AdventHealth Winter Park", "Orlando Health"],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Winter Park?",
+      a: "Yes \u2014 Winter Park is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Winter Park practices are up against AdventHealth Winter Park and Orlando Health in local search, and that's what the work is built around.",
+    },
+    {
+      q: "Who are independent Winter Park practices competing against in local search?",
+      a: "AdventHealth Winter Park is the anchor hospital competing directly with independent primary care physicians here \u2014 a 422-bed facility on N. Lakemont Ave (formerly Winter Park Memorial Hospital) that carries a Leapfrog 'A' safety grade as of May 2026, a credential it markets heavily to prospective patients. Orlando Health extends the competition with its Women's Pavilion on W. Fairbanks Ave, giving the city two major health systems with hospital-scale marketing budgets fighting for the same primary care searches.",
+    },
+    {
+      q: "What makes Winter Park's primary care market different from other Florida cities?",
+      a: "AdventHealth Winter Park, the 422-bed hospital on N. Lakemont Ave (formerly Winter Park Memorial Hospital, Leapfrog 'A' safety grade as of May 2026), and Orlando Health's Women's Pavilion on W. Fairbanks Ave already dominate brand search. In July 2025, MDVIP opened two new concierge, membership-based internal medicine practices on N. Lakemont Ave, pulling affluent Winter Park patients toward direct primary care.",
+    },
+    {
+      q: "Why should an independent Winter Park practice start now instead of waiting?",
+      a: "MDVIP opened two concierge internal medicine practices on N. Lakemont Ave in July 2025, and the national average wait for a new primary care appointment hit 31 days that same year \u2014 a combination that's actively pushing both affluent and frustrated patients away from the default hospital-affiliated listing and toward whichever independent practice looks most available in search.",
+    },
+    {
+      q: "What areas within Winter Park does this cover?",
+      a: "We work across Winter Park, including Hannibal Square, Park Avenue District and Baldwin Park \u2014 not just the city center. AdventHealth Winter Park and Orlando Health already rank across those neighborhoods, so a Winter Park practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+    },
+  ],
 },
 {
   slug: "altamonte-springs-fl",
@@ -783,6 +1366,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "AdventHealth Altamonte Springs just earned a 2026-2027 U.S. News Best Hospital designation, and Orlando Health has two Physician Associates locations now open inside Altamonte Springs as part of an active Seminole County expansion — both systems are investing in local presence right now, not slowing down. At the same time, the Aston at Uptown's 261 units delivered their first residents in March 2025, and a second 332-unit project across from the SunRail station is set to open in early 2027, meaning the pool of new-to-area patients searching for a doctor is only getting bigger. Every month an independent practice waits to build its Google presence is a month these systems — and the growing resident base — settle into search results that get harder to unseat once established.",
   landmarks: ["Uptown Altamonte", "Cranes Roost", "Spring Oaks"],
   hospitals: ["AdventHealth Altamonte Springs", "Orlando Health Physician Associates"],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Altamonte Springs?",
+      a: "We do. Altamonte Springs practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in Altamonte Springs that means going up against AdventHealth Altamonte Springs and Orlando Health Physician Associates for the same searches.",
+    },
+    {
+      q: "Who are independent Altamonte Springs practices competing against in local search?",
+      a: "AdventHealth Altamonte Springs, part of the AdventHealth Orlando system and named a 2026-2027 U.S. News Best Hospital, gives the market's dominant system a recognizable, high-authority brand behind every physician-finder listing it publishes. Orlando Health has been building out its own competing footprint at the same time, opening Orlando Health Physician Associates locations at 931 N. State Rd. 434 and 990 N.",
+    },
+    {
+      q: "What makes Altamonte Springs's primary care market different from other Florida cities?",
+      a: "News Best Hospital \u2014 anchors the local healthcare landscape, while Orlando Health Physician Associates has been actively opening new primary care locations across Seminole County, including two inside Altamonte Springs itself. Independent primary care physicians here are squeezed between two well-funded systems with institutional marketing budgets, at the exact moment hundreds of new residents are moving into the walkable Uptown Altamonte corridor without an established doctor.",
+    },
+    {
+      q: "Why should an independent Altamonte Springs practice start now instead of waiting?",
+      a: "AdventHealth Altamonte Springs just earned a 2026-2027 U.S. News Best Hospital designation, and Orlando Health has two Physician Associates locations now open inside Altamonte Springs as part of an active Seminole County expansion \u2014 both systems are investing in local presence right now, not slowing down.",
+    },
+    {
+      q: "What areas within Altamonte Springs does this cover?",
+      a: "This covers all of Altamonte Springs, with particular focus on Uptown Altamonte, Cranes Roost and Spring Oaks, since that's where patient search volume concentrates. AdventHealth Altamonte Springs and Orlando Health Physician Associates operate across those same areas, so neighborhood-level content is what lets an Altamonte Springs practice compete with them in local search.",
+    },
+  ],
 },
 {
   slug: "sanford-fl",
@@ -806,6 +1411,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "AdventHealth (Sanford Freestanding ER)",
     "Orlando Health (Lake Mary Hospital)",
   ],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Sanford?",
+      a: "Primara actively works with independent practices in Sanford. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Sanford practice is actually competing against in local search, which here means HCA Florida Lake Monroe Hospital and AdventHealth (Sanford Freestanding ER).",
+    },
+    {
+      q: "Who are independent Sanford practices competing against in local search?",
+      a: "HCA Florida Lake Monroe Hospital \u2014 known for decades as Central Florida Regional Hospital before its recent rebrand \u2014 has anchored Sanford's healthcare landscape since 1982. The 221-bed Level II Trauma Center sits on the shores of Lake Monroe and runs the only full-service cardiovascular program serving Seminole and West Volusia counties, giving it deep institutional roots most independent practices can't match.",
+    },
+    {
+      q: "What makes Sanford's primary care market different from other Florida cities?",
+      a: "That growth has triggered a wave of hospital investment independent primary care physicians can't ignore: AdventHealth opened a new freestanding ER in Sanford in October 2025, Orlando Health opened its 124-bed Lake Mary Hospital just north of the city in January 2025 and followed it with a dedicated Sanford/Lake Forest primary care office, and HCA rebranded the city's longtime Central Florida Regional Hospital as HCA Florida Lake Monroe Hospital.",
+    },
+    {
+      q: "Why should an independent Sanford practice start now instead of waiting?",
+      a: "Sanford's hospital landscape changed on three fronts within about a year: AdventHealth's freestanding ER opened in October 2025, Orlando Health's 124-bed Lake Mary Hospital opened in January 2025 and has already added a Sanford/Lake Forest primary care office with OB/GYN coming soon, and HCA completed its rebrand of the market's longtime hospital to HCA Florida Lake Monroe Hospital.",
+    },
+    {
+      q: "What areas within Sanford does this cover?",
+      a: "This covers all of Sanford, with particular focus on Historic Downtown Sanford, Midway and Lake Forest, since that's where patient search volume concentrates. HCA Florida Lake Monroe Hospital and AdventHealth (Sanford Freestanding ER) operate across those same areas, so neighborhood-level content is what lets a Sanford practice compete with them in local search.",
+    },
+  ],
 },
 {
   slug: "jacksonville-fl",
@@ -825,6 +1452,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "ArchWell Health opened its sixth Jacksonville-area senior primary care clinic in July 2026, a real-time signal of how fast Medicare Advantage demand is accelerating in this market, while Baptist Health keeps building its McGehee Family Tower and Mayo Clinic keeps expanding on the back of more than $1 billion invested in its Jacksonville campus since 2016. Every one of these moves is happening right now, and each one makes it harder for an independent practice to win search visibility once these systems finish absorbing more of the local market. The window to build a defensible local search presence is open today, before the next wave of expansion closes it further.",
   landmarks: ["Riverside/Avondale", "San Marco", "Mandarin", "Southside/Baymeadows", "Jacksonville Beach"],
   hospitals: ["Baptist Health", "Mayo Clinic", "Ascension St. Vincent's", "UF Health", "ArchWell Health"],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Jacksonville?",
+      a: "Yes \u2014 Jacksonville is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Jacksonville practices are up against Baptist Health and Mayo Clinic in local search, and that's what the work is built around.",
+    },
+    {
+      q: "Who are independent Jacksonville practices competing against in local search?",
+      a: "Baptist Health, Mayo Clinic, Ascension St. Vincent's, and UF Health all compete for the same primary care searches in Jacksonville, and each is actively expanding rather than standing still. Baptist Health's McGehee Family Tower is under construction on its downtown campus, Mayo Clinic has invested more than $1 billion in its Jacksonville campus since 2016 and continues building out capacity, and Ascension St.",
+    },
+    {
+      q: "What makes Jacksonville's primary care market different from other Florida cities?",
+      a: "Baptist Health is building the McGehee Family Tower on its downtown campus, Mayo Clinic has poured over $1 billion into its Jacksonville campus since 2016, and Ascension St. Vincent's Riverside continues expanding specialty partnerships with Mayo. At the same time, ArchWell Health opened its sixth Jacksonville-area senior primary care clinic in July 2026, a sign of how fast Medicare Advantage demand is growing here.",
+    },
+    {
+      q: "Why should an independent Jacksonville practice start now instead of waiting?",
+      a: "ArchWell Health opened its sixth Jacksonville-area senior primary care clinic in July 2026, a real-time signal of how fast Medicare Advantage demand is accelerating in this market, while Baptist Health keeps building its McGehee Family Tower and Mayo Clinic keeps expanding on the back of more than $1 billion invested in its Jacksonville campus since 2016.",
+    },
+    {
+      q: "What areas within Jacksonville does this cover?",
+      a: "This covers all of Jacksonville, with particular focus on Riverside/Avondale, San Marco and Mandarin, since that's where patient search volume concentrates. Baptist Health and Mayo Clinic operate across those same areas, so neighborhood-level content is what lets a Jacksonville practice compete with them in local search.",
+    },
+  ],
 },
 {
   slug: "jacksonville-beach-fl",
@@ -852,6 +1501,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "Baptist Health (Baptist Medical Center Beaches)",
     "UF Health Jacksonville",
     "CareSpot Urgent Care",
+  ],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Jacksonville Beach?",
+      a: "Primara actively works with independent practices in Jacksonville Beach. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Jacksonville Beach practice is actually competing against in local search, which here means Baptist Health (Baptist Medical Center Beaches) and UF Health Jacksonville.",
+    },
+    {
+      q: "Who are independent Jacksonville Beach practices competing against in local search?",
+      a: "Baptist Health has anchored medical care on Jacksonville's barrier island for decades, and Baptist Medical Center Beaches remains the only hospital-based, 24-hour emergency department at the beach. Baptist's own directory listings and physician-finder pages dominate organic results for \"doctor near me\" searches in Jacksonville Beach, reinforced by Healthgrades, Vitals, and Baptist Physician Partners profiles that outrank most independent practices by default.",
+    },
+    {
+      q: "What makes Jacksonville Beach's primary care market different from other Florida cities?",
+      a: "The city's population skews older and affluent \u2014 median age 46.1, median household income around $120,700 \u2014 meaning more residents managing chronic conditions and choosing a primary care provider deliberately rather than by default. That decision is getting more competitive: UF Health Jacksonville broke ground in September 2025 on a new emergency and urgent care center on Atlantic Boulevard near the Intracoastal, with a primary care clinic planned on top, and CareSpot is opening an urgent care location at Marsh.",
+    },
+    {
+      q: "Why should an independent Jacksonville Beach practice start now instead of waiting?",
+      a: "UF Health Jacksonville broke ground on its new Atlantic Boulevard emergency and urgent care center \u2014 with a primary care clinic planned on top \u2014 in September 2025, and CareSpot has already announced a Marsh Landing urgent care opening for fall 2026. Both are still under construction, which means the map-pack and organic search positions in Jacksonville Beach are still winnable.",
+    },
+    {
+      q: "What areas within Jacksonville Beach does this cover?",
+      a: "We work across Jacksonville Beach, including Seawalk / Downtown Jacksonville Beach, Isle of Palms and Marsh Landing \u2014 not just the city center. Baptist Health (Baptist Medical Center Beaches) and UF Health Jacksonville already rank across those neighborhoods, so a Jacksonville Beach practice has to show up by neighborhood name, not only by city, to compete for the same local searches.",
+    },
   ],
 },
 {
@@ -883,6 +1554,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "Baptist Health",
     "Ascension St. Vincent's",
   ],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in St. Augustine?",
+      a: "We do. St. Augustine practices get the same core engagement as every other market we're in \u2014 Google Business Profile work, local rank tracking, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in St. Augustine that means going up against UF Health Flagler Hospital and HCA Florida Healthcare for the same searches.",
+    },
+    {
+      q: "Who are independent St. Augustine practices competing against in local search?",
+      a: "UF Health Flagler Hospital anchors St. Augustine's hospital landscape with 335 beds, but it's no longer competing alone. HCA Florida opened a new freestanding ER on Woodlawn Road in February 2026, Baptist Health opened a $28.5 million ER and imaging center near the St. Augustine Outlet Mall in 2024 and has a full hospital planned near the I-95/SR-207 interchange, and Ascension St. Vincent's opened a $30 million ambulatory surgery center with Southeast Orthopedic Specialists in March 2026.",
+    },
+    {
+      q: "What makes St. Augustine's primary care market different from other Florida cities?",
+      a: "Augustine's primary care market is being reshaped by hospital money. UF Health Flagler Hospital \u2014 the former Flagler Hospital, renamed after UF Health's 2023 acquisition of the Flagler Health+ system \u2014 remains the county's anchor with 335 beds. But HCA Florida opened a new freestanding ER on Woodlawn Road in February 2026, Baptist Health opened a $28.5 million ER and imaging center near the Outlet Mall in 2024 (with a full hospital planned near the I-95/SR-207 interchange), and Ascension St.",
+    },
+    {
+      q: "Why should an independent St. Augustine practice start now instead of waiting?",
+      a: "Three of St. Augustine's hospital systems have opened or broken ground on new facilities within the last two years \u2014 HCA Florida's Woodlawn Road ER in February 2026, Ascension St. Vincent's $30 million ambulatory surgery center in March 2026, and Baptist Health's planned full hospital near I-95/SR-207 following its 2024 ER and imaging center \u2014 while St. Johns County keeps adding residents faster than any county in Florida.",
+    },
+    {
+      q: "What areas within St. Augustine does this cover?",
+      a: "Coverage spans St. Augustine, including Vilano Beach, World Golf Village and St. Augustine Beach. UF Health Flagler Hospital and HCA Florida Healthcare compete for the same searches across those same neighborhoods, which is why a St. Augustine practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+    },
+  ],
 },
 {
   slug: "orange-park-fl",
@@ -902,6 +1595,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     "HCA Florida Orange Park Hospital's 2026 recognition among America's 50 Best Hospitals for Surgical Excellence came the same year its new five-story inpatient tower and medical office building came online — proof the system is actively expanding capacity and marketing muscle in Orange Park right now, not scaling back. Baptist Health's Fleming Island campus is still a young hospital, having opened its doors in December 2022, and continues building out its service lines to capture the same referral base. Meanwhile the First Coast Expressway is opening new corridors for growth around Orange Park, and Clay County is on pace to add tens of thousands of new residents who don't yet have a family doctor. Every month an independent practice waits to build its Google presence is a month these two systems spend absorbing that new-patient demand first.",
   landmarks: ["The Woodlands", "Eagle Landing", "Wilford Preserve", "Doctors Lake", "Fleming Island"],
   hospitals: ["HCA Florida Orange Park Hospital", "Baptist Medical Center Clay (Baptist Health)"],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Orange Park?",
+      a: "Primara actively works with independent practices in Orange Park. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Orange Park practice is actually competing against in local search, which here means HCA Florida Orange Park Hospital and Baptist Medical Center Clay (Baptist Health).",
+    },
+    {
+      q: "Who are independent Orange Park practices competing against in local search?",
+      a: "HCA Florida Orange Park Hospital has anchored local care since 1974 and holds a Level II trauma center designation with 365 inpatient beds. The hospital recently completed a five-story, 100,000-square-foot inpatient tower alongside a new 60,000-square-foot medical office building on its main campus, and in 2026 it was named to America's 50 Best Hospitals for Surgical Excellence and won national Gastrointestinal Surgery and Neurosciences excellence awards.",
+    },
+    {
+      q: "What makes Orange Park's primary care market different from other Florida cities?",
+      a: "HCA Florida Orange Park Hospital, a 365-bed Level II trauma center, recently added a five-story, 100,000-square-foot inpatient tower and a 60,000-square-foot medical office building next to its main campus. A few miles away in Fleming Island, Baptist Health opened the $234 million, 100-bed Baptist Medical Center Clay in December 2022.",
+    },
+    {
+      q: "Why should an independent Orange Park practice start now instead of waiting?",
+      a: "HCA Florida Orange Park Hospital's 2026 recognition among America's 50 Best Hospitals for Surgical Excellence came the same year its new five-story inpatient tower and medical office building came online \u2014 proof the system is actively expanding capacity and marketing muscle in Orange Park right now, not scaling back. Baptist Health's Fleming Island campus is still a young hospital, having opened its doors in December 2022, and continues building out its service lines to capture the same referral base.",
+    },
+    {
+      q: "What areas within Orange Park does this cover?",
+      a: "Coverage spans Orange Park, including The Woodlands, Eagle Landing and Wilford Preserve. HCA Florida Orange Park Hospital and Baptist Medical Center Clay (Baptist Health) compete for the same searches across those same neighborhoods, which is why a Orange Park practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+    },
+  ],
 },
 {
   slug: "fernandina-beach-fl",
@@ -928,6 +1643,28 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
   hospitals: [
     "Baptist Health / Baptist Medical Center Nassau",
     "UF Health Jacksonville",
+  ],
+  faqs: [
+    {
+      q: "Does Primara work with primary care practices in Fernandina Beach?",
+      a: "Primara actively works with independent practices in Fernandina Beach. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Fernandina Beach practice is actually competing against in local search, which here means Baptist Health / Baptist Medical Center Nassau and UF Health Jacksonville.",
+    },
+    {
+      q: "Who are independent Fernandina Beach practices competing against in local search?",
+      a: "Baptist Medical Center Nassau, a 54-bed acute care hospital on S 18th Street, has been the dominant healthcare brand on Amelia Island for years \u2014 it holds an 'A' hospital safety rating and is marketed as Florida's only nationally ranked rural community hospital. UF Health Jacksonville extends a second hospital-system brand into the primary care search results with UF Health Family Medicine \u2013 Amelia Island on Sadler Road, competing directly against independent physicians for the same searches.",
+    },
+    {
+      q: "What makes Fernandina Beach's primary care market different from other Florida cities?",
+      a: "That growth is bringing new patients to a market still anchored by one 54-bed community hospital, a handful of independent physicians, and two walk-in urgent care clinics. Primara helps independent primary care practices in Fernandina Beach build the Google Maps presence needed to capture new-resident search volume before Baptist Health's expanding Yulee campus does it for them.",
+    },
+    {
+      q: "Why should an independent Fernandina Beach practice start now instead of waiting?",
+      a: "Baptist Health's $38 million Emergency and Imaging Center at the new Nassau Crossing Medical Campus in Yulee opened in late 2025 and was quickly joined by Baptist Primary Care, Baptist Heart Specialists, Borland Groover gastroenterology, and an endoscopy center on the same campus \u2014 every one of those locations launches with a professionally built Google Business Profile already in place.",
+    },
+    {
+      q: "What areas within Fernandina Beach does this cover?",
+      a: "This covers all of Fernandina Beach, with particular focus on Downtown Fernandina Beach Historic District, Old Town Fernandina and Yulee, since that's where patient search volume concentrates. Baptist Health / Baptist Medical Center Nassau and UF Health Jacksonville operate across those same areas, so neighborhood-level content is what lets a Fernandina Beach practice compete with them in local search.",
+    },
   ],
 },
 ];

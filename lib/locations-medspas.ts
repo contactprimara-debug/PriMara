@@ -6,6 +6,8 @@
 // `competitors` replaces the `hospitals` field used by primary care — the
 // institutional threat in aesthetics is national chains and dermatology-group
 // -owned spas, not hospital systems.
+import type { LocationFAQ } from "@/lib/locations-primary";
+
 export interface MedspaLocation {
   slug: string;
   city: string;
@@ -19,6 +21,7 @@ export interface MedspaLocation {
   whyNow: string;
   landmarks: string[];
   competitors: string[];
+  faqs?: LocationFAQ[];
 }
 
 export const medspaLocations: MedspaLocation[] = [

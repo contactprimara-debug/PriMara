@@ -223,6 +223,24 @@ export default function LocationPage({
   // ones reuse neighborhoods (and suppress the duplicate block below).
   const landmarkItems = isDirectoryStyle(loc) ? loc.neighborhoods : loc.landmarks;
 
+  // Optional per-city FAQ data (currently only populated on primary-care).
+  // Renders nothing, and emits no FAQPage schema, when absent — so the other
+  // five verticals keep working untouched until their own faqs are filled.
+  const faqs = loc.faqs ?? [];
+
+  const faqSchema =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }
+      : null;
+
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
@@ -275,6 +293,12 @@ export default function LocationPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* ── Breadcrumb ────────────────────────────────────────────────── */}
       <nav
@@ -970,6 +994,82 @@ export default function LocationPage({
                   </p>
                 </Link>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── FAQ (optional per-city data; nothing renders without it) ──── */}
+      {faqs.length > 0 && (
+        <section
+          style={{
+            padding: "clamp(48px, 8vw, 96px) 0",
+            borderBottom: "1px solid var(--wire)",
+          }}
+        >
+          <div className="mx-auto max-w-content px-6 lg:px-8">
+            <p
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: "0.75rem",
+                letterSpacing: "0.14em",
+                textTransform: "uppercase",
+                color: "var(--gold)",
+                marginBottom: "1rem",
+              }}
+            >
+              Common Questions
+            </p>
+            <h2
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontSize: "clamp(1.5rem, 3vw, 2.25rem)",
+                fontWeight: 700,
+                color: "var(--chalk)",
+                marginBottom: "2rem",
+                lineHeight: 1.2,
+                maxWidth: "700px",
+              }}
+            >
+              FAQs for {loc.city} Practices
+            </h2>
+            <div
+              style={{
+                maxWidth: "760px",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              {faqs.map((faq, idx) => (
+                <div
+                  key={idx}
+                  style={{ borderTop: "1px solid var(--wire)", padding: "1.5rem 0" }}
+                >
+                  <h3
+                    style={{
+                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontSize: "1.0625rem",
+                      fontWeight: 600,
+                      color: "var(--chalk)",
+                      marginBottom: "0.75rem",
+                      lineHeight: 1.3,
+                    }}
+                  >
+                    {faq.q}
+                  </h3>
+                  <p
+                    style={{
+                      color: "var(--ash)",
+                      fontSize: "0.9375rem",
+                      lineHeight: 1.75,
+                      margin: 0,
+                    }}
+                  >
+                    {faq.a}
+                  </p>
+                </div>
+              ))}
+              <div style={{ borderTop: "1px solid var(--wire)" }} />
             </div>
           </div>
         </section>

@@ -1,3 +1,5 @@
+import type { LocationFAQ } from "@/lib/locations-primary";
+
 export interface MensHealthLocation {
   slug: string;
   city: string;
@@ -11,6 +13,7 @@ export interface MensHealthLocation {
   searchIntent: string;
   services: string;
   neighborhoods: string[];
+  faqs?: LocationFAQ[];
 }
 
 export const mensHealthLocations: MensHealthLocation[] = [

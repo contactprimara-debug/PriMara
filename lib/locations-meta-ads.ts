@@ -24,6 +24,8 @@
 // rejection, but remains a violation when paired with a prohibited claim, and some
 // formats (pinched-fat shots, sensationalized framing) stay banned outright. Never
 // state the old blanket before-and-after ban.
+import type { LocationFAQ } from "@/lib/locations-primary";
+
 export interface MetaAdsLocation {
   slug: string;
   city: string;
@@ -37,6 +39,7 @@ export interface MetaAdsLocation {
   whyNow: string;
   landmarks: string[];
   adLandscape: string[];
+  faqs?: LocationFAQ[];
 }
 
 export const metaAdsLocations: MetaAdsLocation[] = [

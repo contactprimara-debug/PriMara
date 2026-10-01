@@ -1,3 +1,5 @@
+import type { LocationFAQ } from "@/lib/locations-primary";
+
 export interface DentalLocation {
   slug: string;
   city: string;
@@ -11,6 +13,7 @@ export interface DentalLocation {
   whyNow: string;
   landmarks: string[];
   competitors: string[];
+  faqs?: LocationFAQ[];
 }
 
 export const dentalLocations: DentalLocation[] = [

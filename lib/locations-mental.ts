@@ -1,3 +1,5 @@
+import type { LocationFAQ } from "@/lib/locations-primary";
+
 export interface MentalHealthLocation {
   slug: string;
   city: string;
@@ -11,6 +13,7 @@ export interface MentalHealthLocation {
   searchIntent: string;
   services: string;
   neighborhoods: string[];
+  faqs?: LocationFAQ[];
 }
 
 export const mentalHealthLocations: MentalHealthLocation[] = [
