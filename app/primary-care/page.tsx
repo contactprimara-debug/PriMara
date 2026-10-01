@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, primaryCareSchema } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import FaqSection from "@/components/FaqSection";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Primary Care Practices | Primara",
@@ -104,6 +105,15 @@ const stats = [
 ];
 
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
+
+
+const faqs = [
+  { q: "How is marketing an independent primary care practice different from marketing a hospital system?", a: "A hospital system usually wins on raw budget and domain authority, not on relevance to one specific local search. We build everything around the searches a nearby patient actually makes — “family doctor accepting new patients in [city]” — rather than competing broadly for expensive terms a hospital system already dominates." },
+  { q: "What's actually included in Primara's primary care marketing packages?", a: "Our primary care work runs across local SEO, Google Business Profile management, a website built to convert, and compliant call/form tracking, packaged as either Foundation or Visibility depending on how much of the local market a practice is ready to compete for. See our packages page for the specifics of each." },
+  { q: "Do you guarantee a specific ranking position or number of new patients?", a: "No. Rankings depend on Google's own systems and on-the-ground competition in your market, and anyone promising a guaranteed position or patient count isn't describing how search actually works. What we commit to is the work itself, and reporting honest, measurable progress against it." },
+  { q: "How is patient data handled in primary care marketing and tracking?", a: "Tracking is built to be HIPAA-aware by design — we track that a call or form submission happened and which channel produced it, never the content of what a patient said or any clinical detail. No PHI goes into analytics or ad platforms." },
+  { q: "What if our primary care practice already has a website?", a: "We audit it before recommending anything — a working site that just needs local SEO and GBP work is a very different job from one that needs rebuilding, and we only recommend the second when the audit actually shows it." },
+];
 
 export default function PrimaryCarePage() {
   return (
@@ -931,6 +941,9 @@ export default function PrimaryCarePage() {
           { href: "/blog/what-is-local-seo-for-doctors", label: "What Is Local SEO for Doctors?", description: "A plain-English guide to what local SEO actually means for a medical practice." },
         ]}
       />
+
+      <FaqSection faqs={faqs} />
+
       <section
         aria-labelledby="pc-cta"
         style={{

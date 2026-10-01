@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, mensHealthSchema } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import FaqSection from "@/components/FaqSection";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Men's Health Practices | Primara",
@@ -129,6 +130,15 @@ const positioning = [
 ];
 
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
+
+
+const faqs = [
+  { q: "How do independent men's health clinics compete with national telehealth brands like Hims and Roman?", a: "National telehealth brands win on ad budget and brand recognition, not on local relevance. An independent clinic competes by owning the local search terms a telehealth brand can't — “TRT clinic in [city]”, “in-person testosterone therapy near me” — plus the credibility of an actual clinical provider, not a subscription form." },
+  { q: "Why does this category have a \"credibility problem\"?", a: "A lot of TRT and ED marketing online comes from telehealth-only operations with limited clinical oversight, which has made some searchers skeptical of the category generally. We build clinic pages and GBP profiles around real provider credentials and an in-person clinical model to separate a practice from that noise, never by borrowing their marketing tactics." },
+  { q: "What search terms matter most for a TRT or ED treatment clinic?", a: "Direct, high-intent local terms — “testosterone therapy [city]”, “ED treatment near me” — convert far better than broad, educational terms. Men searching this category are usually further along in deciding to seek treatment than a typical medical search, so the page they land on needs to match that readiness." },
+  { q: "Is direct-pay care harder to market than insurance-based care?", a: "Not necessarily — direct-pay demand in this category is high-intent precisely because the patient has already decided cost isn't the blocker, insurance coverage is. That makes clear pricing and a straightforward path to a consult more valuable here than in an insurance-driven specialty." },
+  { q: "Do you handle advertising compliance for TRT and ED treatment specifically?", a: "Yes — Google and Meta both restrict how prescription and hormone-related treatments can be advertised, and we build campaigns to stay inside those platform policies rather than risk an account suspension chasing an aggressive claim." },
+];
 
 export default function MensHealthPage() {
   return (
@@ -845,6 +855,9 @@ export default function MensHealthPage() {
           { href: "/blog/gbp-categories-for-mens-health-clinics", label: "GBP Categories for Men's Health Clinics", description: "The Google Business Profile categories most independent clinics are missing." },
         ]}
       />
+
+      <FaqSection faqs={faqs} />
+
       <section
         aria-labelledby="mh2-cta"
         style={{

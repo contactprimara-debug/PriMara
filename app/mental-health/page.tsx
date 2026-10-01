@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, mentalHealthSchema } from "@/lib/schema"; // v2
 import RelatedLinks from "@/components/RelatedLinks";
+import FaqSection from "@/components/FaqSection";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Mental Health Practices | Primara",
@@ -132,6 +133,15 @@ const stats = [
 ];
 
 const sectionPad = "clamp(72px, 10vw, 120px) clamp(24px, 8vw, 120px)";
+
+
+const faqs = [
+  { q: "How is marketing a mental health practice different from marketing other medical practices?", a: "Someone searching for a therapist is usually in a more vulnerable moment than someone searching for a family doctor, and the search behavior reflects that — more specific, more cautious, often typed late at night. We build content and Google Business Profile strategy around that search pattern, not a generic medical template." },
+  { q: "Should we rely on Psychology Today instead of building our own search visibility?", a: "A directory listing like Psychology Today puts you next to every competitor searching the same specialty and insurance panel. Owned visibility — your own Google Business Profile and website ranking for your specific specialty and city — is what lets a prospective client find and choose your practice specifically, not a list of five similar options." },
+  { q: "How do you handle HIPAA when responding to a patient's Google review?", a: "We never confirm or deny that someone is a patient, even implicitly, in a review response, which is the core HIPAA risk in this specific situation. Responses stay general, professional, and move any specific complaint to a private channel rather than discussing it publicly." },
+  { q: "Does anything in your tracking or advertising setup risk client confidentiality?", a: "No — tracking is built the same HIPAA-aware way across every practice we work with: a call or form fill is tracked as an event tied to a channel, never to a name, condition, or any identifying detail. Ad platforms never receive clinical information." },
+  { q: "What does \"the market is there, the visibility is not\" mean in practice?", a: "Search demand for therapy and mental health support in most markets is high and growing, but independent practices are frequently the least visible result for it — outranked by directories and larger platforms that don't know the practice or its specialties. The gap is winnable, not a demand problem." },
+];
 
 export default function MentalHealthPage() {
   return (
@@ -853,6 +863,9 @@ export default function MentalHealthPage() {
           { href: "/blog/hipaa-compliant-google-review-responses", label: "HIPAA-Compliant Review Responses", description: "How to respond to Google reviews — including negative ones — without violating HIPAA." },
         ]}
       />
+
+      <FaqSection faqs={faqs} />
+
       <section
         aria-labelledby="mh-cta"
         style={{
