@@ -73,6 +73,14 @@ const faqs = [
     q: "How long until GBP work shows results?",
     a: "Local visibility usually moves faster than organic SEO — typically within 60–90 days. We track it with rank grids across your real service area, so you can see exactly where your profile shows up across West Palm Beach, not just from one spot.",
   },
+  {
+    q: "Do you handle review responses as part of this, or just the profile itself?",
+    a: "Review response is part of the monthly management, not a separate add-on. Every response follows the HIPAA minimum-necessary rule — we never confirm a patient relationship or reference a specific visit — and we never incentivize or filter who gets asked for a review, which keeps the whole program inside Google's own platform policies.",
+  },
+  {
+    q: "What happens if a competitor's listing is already stronger than ours?",
+    a: "That's exactly what the free audit identifies before any work starts — your review count, category setup, and posting activity measured directly against the named practice currently outranking you. The fastest wins are usually the gaps that competitor hasn't closed either, not a race to copy what they're already doing.",
+  },
 ];
 
 const faqSchema = {
