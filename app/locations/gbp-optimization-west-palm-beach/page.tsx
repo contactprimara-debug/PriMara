@@ -81,6 +81,10 @@ const faqs = [
     q: "What happens if a competitor's listing is already stronger than ours?",
     a: "That's exactly what the free audit identifies before any work starts — your review count, category setup, and posting activity measured directly against the named practice currently outranking you. The fastest wins are usually the gaps that competitor hasn't closed either, not a race to copy what they're already doing.",
   },
+  {
+    q: "Does a complete profile actually change who shows up in the map pack?",
+    a: "Google doesn't publish attributes, categories, or photo count as direct ranking factors, but a complete, accurate, actively managed profile consistently outperforms a sparse one in the three practical inputs Google does weigh: relevance to the search, distance, and prominence — where prominence includes review volume and how often a profile earns clicks and calls relative to competitors nearby.",
+  },
 ];
 
 const faqSchema = {
