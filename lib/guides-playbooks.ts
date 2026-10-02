@@ -236,6 +236,16 @@ export const guidesPartTwo: Guide[] = [
         label: "How to Handle Google Business Profile Suggested Edits",
         description: "How to keep the profile this playbook relies on from being changed by someone else.",
       },
+      {
+        href: "/guides/google-business-profile-attributes-for-a-medical-practice",
+        label: "Google Business Profile Attributes, Explained for a Medical Practice",
+        description: "The checkbox-level detail behind a complete, accurate profile.",
+      },
+      {
+        href: "/guides/press-release-for-a-medical-practice-that-helps-seo",
+        label: "How to Write a Press Release for a Medical Practice That Actually Helps SEO",
+        description: "Where a press-worthy announcement should also get posted as a GBP update.",
+      },
     ],
   },
 
@@ -442,6 +452,16 @@ export const guidesPartTwo: Guide[] = [
         href: "/guides/optimizing-a-medical-practice-website-for-voice-search",
         label: "Optimizing a Medical Practice Website for Voice Search",
         description: "How to track the traffic voice and AI assistants send without leaking anything.",
+      },
+      {
+        href: "/guides/how-to-set-up-google-analytics-4-for-a-medical-practice",
+        label: "How to Set Up Google Analytics 4 for a Medical Practice From Scratch",
+        description: "The step-by-step setup this compliance guide assumes is already in place.",
+      },
+      {
+        href: "/guides/how-to-pick-a-crm-for-a-medical-practice",
+        label: "How to Pick a CRM for a Medical Practice's Marketing and Patient Follow-Up",
+        description: "Where this same PHI-separation principle applies to lead-management tools.",
       },
     ],
   },

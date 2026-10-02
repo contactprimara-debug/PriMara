@@ -159,6 +159,11 @@ export const guidesPartFour: Guide[] = [
         label: "Primara Pricing",
         description: "How we scope and quote a combined SEO and paid media engagement.",
       },
+      {
+        href: "/guides/google-ads-quality-score-explained-for-a-medical-practice",
+        label: "Google Ads Quality Score, Explained for a Medical Practice",
+        description: "The diagnostic score that directly moves the cost figures on this page.",
+      },
     ],
   },
   // ───────────────────────────────────────────────────────────────────────

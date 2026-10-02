@@ -429,6 +429,16 @@ export const guidesPartFive: Guide[] = [
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "How to Respond to a Negative Patient Review", description: "The follow-on guide for handling what shows up once you stop gating." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "Where reviews live and how they affect ranking." },
       { href: "/pricing", label: "Primara Pricing", description: "How review-request systems are scoped and priced." },
+      {
+        href: "/guides/press-release-for-a-medical-practice-that-helps-seo",
+        label: "How to Write a Press Release for a Medical Practice That Actually Helps SEO",
+        description: "Press coverage and genuine reviews reinforce the same trust signal.",
+      },
+      {
+        href: "/guides/google-review-vs-patient-testimonial-legal-difference",
+        label: "Google Review vs. Patient Testimonial: The Legal Difference That Matters",
+        description: "Why Google reviews and published testimonials follow different rules.",
+      },
     ],
   },
   // ───────────────────────────────────────────────────────────────────────
@@ -594,6 +604,16 @@ export const guidesPartFive: Guide[] = [
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The service this tracking setup measures the results of." },
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where call tracking is wired in on every build." },
       { href: "/pricing", label: "Primara Pricing", description: "How tracking setup is scoped into an engagement." },
+      {
+        href: "/guides/how-to-set-up-google-analytics-4-for-a-medical-practice",
+        label: "How to Set Up Google Analytics 4 for a Medical Practice From Scratch",
+        description: "Where the phone-click event this guide covers actually gets configured.",
+      },
+      {
+        href: "/guides/how-to-pick-a-crm-for-a-medical-practice",
+        label: "How to Pick a CRM for a Medical Practice's Marketing and Patient Follow-Up",
+        description: "The call-tracking data a good CRM should receive automatically.",
+      },
     ],
   },
   // ───────────────────────────────────────────────────────────────────────
@@ -684,6 +704,16 @@ export const guidesPartFive: Guide[] = [
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where service pages like this get built and hosted." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "The AEO extension of the same page-structure discipline." },
       { href: "/pricing", label: "Primara Pricing", description: "How service-page content work is scoped." },
+      {
+        href: "/guides/what-is-eeat-and-why-it-matters-for-medical-practices",
+        label: "What Is E-E-A-T, and Why It Matters for a Medical Practice Website",
+        description: "The quality framework behind why a credentialed reviewer matters.",
+      },
+      {
+        href: "/guides/single-site-vs-multiple-sites-for-a-multi-provider-practice",
+        label: "Single Website vs. Separate Sites for a Multi-Provider Medical Practice",
+        description: "The same logic applied to specialty and service pages.",
+      },
     ],
   },
 ];

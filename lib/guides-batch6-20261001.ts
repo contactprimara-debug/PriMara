@@ -507,6 +507,11 @@ export const guidesPartNine: Guide[] = [
         label: "Medical Website Design in West Palm Beach",
         description: "What this work looks like applied to one real market.",
       },
+      {
+        href: "/guides/how-much-website-traffic-does-a-medical-practice-need",
+        label: "How Much Website Traffic Does a Medical Practice Actually Need?",
+        description: "Why page speed is a conversion-rate fix, not just a technical one.",
+      },
     ],
   },
 
@@ -728,6 +733,11 @@ export const guidesPartNine: Guide[] = [
         href: "/locations/google-ads-management-west-palm-beach",
         label: "Google Ads Management in West Palm Beach",
         description: "What this work looks like applied to one real market.",
+      },
+      {
+        href: "/guides/google-ads-quality-score-explained-for-a-medical-practice",
+        label: "Google Ads Quality Score, Explained for a Medical Practice",
+        description: "The other account-structure lever that works alongside negative keywords.",
       },
     ],
   },
@@ -1172,6 +1182,11 @@ export const guidesPartNine: Guide[] = [
         href: "/locations/medical-seo-florida",
         label: "Medical SEO in Florida",
         description: "What the service-times-city method looks like applied statewide.",
+      },
+      {
+        href: "/guides/backlinks-for-a-medical-practice-safe-vs-penalized",
+        label: "Backlinks for a Medical Practice: What's Safe and What Gets Penalized",
+        description: "The off-page half of the SEO work keyword research points toward.",
       },
     ],
   },

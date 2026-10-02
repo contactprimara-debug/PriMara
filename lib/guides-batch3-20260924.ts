@@ -180,6 +180,16 @@ export const guidesPartSix: Guide[] = [
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "Why exact, verifiable credentials matter even more for AI-generated answers." },
       { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where provider bio pages get structured and built to this standard." },
       { href: "/pricing", label: "Primara Pricing", description: "How bio and service page builds are scoped into a website engagement." },
+      {
+        href: "/guides/what-is-eeat-and-why-it-matters-for-medical-practices",
+        label: "What Is E-E-A-T, and Why It Matters for a Medical Practice Website",
+        description: "The Google framework a credentialed bio page is built to satisfy.",
+      },
+      {
+        href: "/guides/single-site-vs-multiple-sites-for-a-multi-provider-practice",
+        label: "Single Website vs. Separate Sites for a Multi-Provider Medical Practice",
+        description: "Why every provider's bio page belongs on one shared domain.",
+      },
     ],
   },
 ];

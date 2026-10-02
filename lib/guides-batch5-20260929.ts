@@ -365,6 +365,11 @@ export const guidesPartEight: Guide[] = [
       { href: "/guides/medical-practice-website-cost", label: "Medical Practice Website Cost", description: "Budget context for building out a genuine multi-location template." },
       { href: "/guides/how-much-does-medical-seo-cost", label: "How Much Does Medical SEO Cost?", description: "How pricing scales when SEO covers more than one location." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "How we structure profiles and pages for practices with more than one office." },
+      {
+        href: "/guides/single-site-vs-multiple-sites-for-a-multi-provider-practice",
+        label: "Single Website vs. Separate Sites for a Multi-Provider Medical Practice",
+        description: "The domain-structure decision this playbook's build-out assumes.",
+      },
     ],
   },
 
@@ -505,6 +510,11 @@ export const guidesPartEight: Guide[] = [
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "The physician-credential version of the same structure." },
       { href: "/guides/new-practice-marketing-checklist", label: "New Practice Marketing Checklist", description: "Where provider bio pages fit into a full new-practice site build." },
       { href: "/services/medical-practice-website-design", label: "Medical Practice Website Design", description: "How we build genuinely distinct provider pages instead of templated stubs." },
+      {
+        href: "/guides/what-is-eeat-and-why-it-matters-for-medical-practices",
+        label: "What Is E-E-A-T, and Why It Matters for a Medical Practice Website",
+        description: "Why an accurate, licensed credential matters this much to Google.",
+      },
     ],
   },
 
@@ -579,6 +589,11 @@ export const guidesPartEight: Guide[] = [
       { href: "/guides/choosing-google-business-profile-categories-for-a-medical-practice", label: "Choosing Google Business Profile Categories for a Medical Practice", description: "The category decision that determines which services can even be listed." },
       { href: "/guides/how-to-get-more-patients-from-google-business-profile", label: "How to Get More Patients from Google Business Profile", description: "Where the services list fits into the full profile optimization picture." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "How we build out and maintain a practice's full services list." },
+      {
+        href: "/guides/google-business-profile-attributes-for-a-medical-practice",
+        label: "Google Business Profile Attributes, Explained for a Medical Practice",
+        description: "The companion profile section worth the same periodic-review habit.",
+      },
     ],
   },
 
@@ -875,6 +890,11 @@ export const guidesPartEight: Guide[] = [
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "How to Respond to a Negative Patient Review", description: "The related question of what a practice can and can't say publicly about a specific patient." },
       { href: "/guides/therapist-marketing-pricing", label: "Therapist Marketing Pricing", description: "Where testimonial and review compliance fits into an overall marketing budget." },
       { href: "/services/online-reputation-management", label: "Online Reputation Management", description: "How we handle reviews and testimonials within compliance guardrails." },
+      {
+        href: "/guides/google-review-vs-patient-testimonial-legal-difference",
+        label: "Google Review vs. Patient Testimonial: The Legal Difference That Matters",
+        description: "The legal distinction this checklist's steps are built around.",
+      },
     ],
   },
 
@@ -955,6 +975,16 @@ export const guidesPartEight: Guide[] = [
       { href: "/guides/fix-a-suspended-google-business-profile", label: "Fix a Suspended Google Business Profile", description: "What inconsistent or conflicting data can escalate into if left unresolved." },
       { href: "/guides/how-much-does-medical-seo-cost", label: "How Much Does Medical SEO Cost?", description: "Where citation cleanup fits into a broader local SEO budget." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "How we audit and correct citations as part of a full local SEO engagement." },
+      {
+        href: "/guides/backlinks-for-a-medical-practice-safe-vs-penalized",
+        label: "Backlinks for a Medical Practice: What's Safe and What Gets Penalized",
+        description: "How citation building fits into a safe, broader link profile.",
+      },
+      {
+        href: "/guides/press-release-for-a-medical-practice-that-helps-seo",
+        label: "How to Write a Press Release for a Medical Practice That Actually Helps SEO",
+        description: "Another legitimate way to earn real local mentions and links.",
+      },
     ],
   },
 
@@ -1109,6 +1139,16 @@ export const guidesPartEight: Guide[] = [
       { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "What to look for in whoever runs this audit for the practice." },
       { href: "/guides/how-much-does-medical-seo-cost", label: "How Much Does Medical SEO Cost?", description: "What typically follows an audit, and what it should cost." },
       { href: "/the-audit", label: "Get a Free Audit", description: "The free version of this exact four-part audit, run on a real practice's listing." },
+      {
+        href: "/guides/backlinks-for-a-medical-practice-safe-vs-penalized",
+        label: "Backlinks for a Medical Practice: What's Safe and What Gets Penalized",
+        description: "What a backlink-profile check inside an audit should look for.",
+      },
+      {
+        href: "/guides/how-much-website-traffic-does-a-medical-practice-need",
+        label: "How Much Website Traffic Does a Medical Practice Actually Need?",
+        description: "Where a sessions-vs-conversion check belongs in a full audit.",
+      },
     ],
   },
 ];

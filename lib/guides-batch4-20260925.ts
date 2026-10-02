@@ -184,6 +184,11 @@ export const guidesPartSeven: Guide[] = [
         label: "Google Business Profile Management",
         description: "The service this checklist describes — what we actually do each month for a listing.",
       },
+      {
+        href: "/guides/google-business-profile-attributes-for-a-medical-practice",
+        label: "Google Business Profile Attributes, Explained for a Medical Practice",
+        description: "Where an attribute recheck belongs in an ongoing maintenance routine.",
+      },
     ],
     howTo: {
       name: "Monthly Google Business Profile maintenance routine",
@@ -681,6 +686,11 @@ export const guidesPartSeven: Guide[] = [
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "How to Respond to a Negative Patient Review", description: "The parallel process for a real, genuine negative review that won't be removed." },
       { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Getting More Patient Reviews Without Review Gating", description: "The proactive counterweight — more genuine reviews dilute the impact of any one fake one." },
       { href: "/guides/fix-a-suspended-google-business-profile", label: "How to Fix a Suspended Google Business Profile", description: "A related listing-integrity issue with its own separate resolution process." },
+      {
+        href: "/guides/google-review-vs-patient-testimonial-legal-difference",
+        label: "Google Review vs. Patient Testimonial: The Legal Difference That Matters",
+        description: "The review side of this comparison, covered in full.",
+      },
     ],
   },
 
@@ -839,6 +849,26 @@ export const guidesPartSeven: Guide[] = [
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Tracking Phone Calls From a Medical Website", description: "The call-tracking setup this ROI formula depends on." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "HIPAA-Safe Tracking for a Medical Website", description: "How to track conversions without passing PHI into the same events." },
       { href: "/guides/in-house-marketer-vs-agency-for-a-medical-practice", label: "In-House Marketer vs Agency", description: "How this ROI math factors into the build-or-hire decision." },
+      {
+        href: "/guides/how-to-set-up-google-analytics-4-for-a-medical-practice",
+        label: "How to Set Up Google Analytics 4 for a Medical Practice From Scratch",
+        description: "The tracking foundation any ROI measurement depends on.",
+      },
+      {
+        href: "/guides/google-ads-quality-score-explained-for-a-medical-practice",
+        label: "Google Ads Quality Score, Explained for a Medical Practice",
+        description: "Why ad account structure is part of what an ROI review should check.",
+      },
+      {
+        href: "/guides/how-much-website-traffic-does-a-medical-practice-need",
+        label: "How Much Website Traffic Does a Medical Practice Actually Need?",
+        description: "The sessions-to-patients math behind the ROI numbers on this page.",
+      },
+      {
+        href: "/guides/how-to-pick-a-crm-for-a-medical-practice",
+        label: "How to Pick a CRM for a Medical Practice's Marketing and Patient Follow-Up",
+        description: "The lead-to-patient pipeline a CRM makes measurable end to end.",
+      },
     ],
   },
 ];
