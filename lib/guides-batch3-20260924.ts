@@ -145,7 +145,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "Linking the bio page into the rest of the site" },
       {
         type: "p",
-        text: "A bio page that sits disconnected from the rest of the site — reachable only from a generic \"Our Team\" grid — rarely ranks well on its own. Link to it directly from the specific service pages the provider is most associated with (\"Dr. Chen sees most of our diabetes management patients\" linking to her bio from the diabetes management page), and link back from the bio to those same service pages. That two-way link is what tells Google the provider and the service are connected, not just co-located on the same site.",
+        text: "A bio page that sits disconnected from the rest of the site — reachable only from a generic \"Our Team\" grid — rarely ranks well on its own. Link to it directly from the specific service pages the provider is most associated with (\"Dr. Chen sees most of our diabetes management patients\" linking to her bio from the diabetes management page), and link back from the bio to those same service pages. That two-way link is what tells Google the provider and the service are connected, not just co-located on the same site. Each bio should be linked from the practice-level page described in [what to put on a medical practice About page](/guides/what-to-put-on-a-medical-practice-about-page).",
       },
       {
         type: "callout",

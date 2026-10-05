@@ -314,7 +314,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "One page per location, genuinely unique" },
       {
         type: "p",
-        text: "Each location needs its own page with its real address, real hours (not copy-pasted from another location), the actual providers who see patients there, and language specific to that location — parking, nearby landmarks, what makes that particular office's experience different if anything does. A template that swaps only the city name and leaves every other sentence identical across ten location pages reads as duplicate content to Google, and duplicate or near-duplicate pages are exactly the pattern that ends up stuck in \"Discovered — currently not indexed\" instead of ranking. If locations are being merged into one domain, the redirect and Search Console steps are in [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain).",
+        text: "Each location needs its own page with its real address, real hours (not copy-pasted from another location), the actual providers who see patients there, and language specific to that location — parking, nearby landmarks, what makes that particular office's experience different if anything does. A template that swaps only the city name and leaves every other sentence identical across ten location pages reads as duplicate content to Google, and duplicate or near-duplicate pages are exactly the pattern that ends up stuck in \"Discovered — currently not indexed\" instead of ranking. If locations are being merged into one domain, the redirect and Search Console steps are in [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain). Each location needs its own accurate coverage list, as described in [how to build an accepted-insurance page for a medical practice](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice).",
       },
       { type: "h2", text: "Structure: hub page, then location pages, then service-at-location if it applies" },
       {
@@ -488,7 +488,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Where the bio page should link, and what a patient reads it for" },
       {
         type: "p",
-        text: "A patient landing on an NP or PA bio page is usually trying to answer one question: can this specific person treat what I need treated, and how soon can I get in. The page should link directly to that provider's specialty page if one exists, to the practice's booking or contact flow, and to the supervising physician's own bio page where disclosure applies, so a patient can verify the whole care team in a couple of clicks rather than hunting through the site. A photo of the actual provider, not a placeholder silhouette, measurably improves how far a visitor reads before deciding to book — patients researching a new provider want to see who they'll actually be meeting.",
+        text: "A patient landing on an NP or PA bio page is usually trying to answer one question: can this specific person treat what I need treated, and how soon can I get in. The page should link directly to that provider's specialty page if one exists, to the practice's booking or contact flow, and to the supervising physician's own bio page where disclosure applies, so a patient can verify the whole care team in a couple of clicks rather than hunting through the site. A photo of the actual provider, not a placeholder silhouette, measurably improves how far a visitor reads before deciding to book — patients researching a new provider want to see who they'll actually be meeting. Link each clinician's bio from the practice-level page, which [what to put on a medical practice About page](/guides/what-to-put-on-a-medical-practice-about-page) covers.",
       },
       {
         type: "p",
@@ -571,7 +571,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "For a practice running its own Google Business Profile without outside help, a simple test catches most of the gap: have someone unfamiliar with the practice try to search for five or six specific things the practice actually does, the way a patient would phrase it, and see whether each one is represented in the services list as its own entry. Anything missing from that quick test is exactly what should be added first.",
+        text: "For a practice running its own Google Business Profile without outside help, a simple test catches most of the gap: have someone unfamiliar with the practice try to search for five or six specific things the practice actually does, the way a patient would phrase it, and see whether each one is represented in the services list as its own entry. Anything missing from that quick test is exactly what should be added first. Keep the services list consistent with your insurance details, which [how to build an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) explains.",
       },
     ],
     faqs: [
@@ -870,7 +870,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "It's also worth deciding in advance how the practice will handle a testimonial that was accurate when given but has since become outdated — a patient's treatment plan changed, or the practice no longer offers that specific service. Reviewing published testimonials alongside the quarterly content accuracy check keeps this from becoming a problem discovered only when a patient happens to notice their own old story still live on a page.",
+        text: "It's also worth deciding in advance how the practice will handle a testimonial that was accurate when given but has since become outdated — a patient's treatment plan changed, or the practice no longer offers that specific service. Reviewing published testimonials alongside the quarterly content accuracy check keeps this from becoming a problem discovered only when a patient happens to notice their own old story still live on a page. The same authorization rules apply to stories and photos on the practice's own page; see [what to put on a medical practice About page](/guides/what-to-put-on-a-medical-practice-about-page).",
       },
     ],
     faqs: [
@@ -1118,7 +1118,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "How long a real audit takes, and what it shouldn't cost" },
       {
         type: "p",
-        text: "A thorough audit of the four areas above, for a single-location practice, typically takes a few hours of actual review time, longer for a multi-location or multi-provider practice with more listings and pages to check. It should never require access the practice isn't comfortable granting, and a practice should be able to see the actual findings, not just a summary score, regardless of whether they hire the auditor to fix anything afterward. A free audit that only produces a vague pitch for a retainer without naming specific, checkable findings isn't really an audit. Pages the audit flags as outdated should follow the cadence in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website).",
+        text: "A thorough audit of the four areas above, for a single-location practice, typically takes a few hours of actual review time, longer for a multi-location or multi-provider practice with more listings and pages to check. It should never require access the practice isn't comfortable granting, and a practice should be able to see the actual findings, not just a summary score, regardless of whether they hire the auditor to fix anything afterward. A free audit that only produces a vague pitch for a retainer without naming specific, checkable findings isn't really an audit. Pages the audit flags as outdated should follow the cadence in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website). Pull the data from Search Console first; [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains each report.",
       },
     ],
     faqs: [

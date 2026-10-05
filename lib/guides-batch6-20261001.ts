@@ -74,7 +74,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Where this fits with the rest of the page" },
       {
         type: "p",
-        text: "A meta description that promises same-day availability only works if the page it points to actually shows that — a booking widget, a phone number, hours. We write these last, after the page's content and answer box are finished, specifically so the promise in the snippet matches what the patient finds when they land. A description that overpromises gets a quick bounce, which tells Google the page did not satisfy the search.",
+        text: "A meta description that promises same-day availability only works if the page it points to actually shows that — a booking widget, a phone number, hours. We write these last, after the page's content and answer box are finished, specifically so the promise in the snippet matches what the patient finds when they land. A description that overpromises gets a quick bounce, which tells Google the page did not satisfy the search. Search Console's click-through rate shows which descriptions need work; see [how to read Google Search Console for a medical practice](/guides/how-to-read-google-search-console-for-a-medical-practice-website).",
       },
     ],
     faqs: [
@@ -331,7 +331,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What to do if nothing has moved by month four" },
       {
         type: "p",
-        text: "If GBP insights and Search Console impressions are both flat at the 90-day mark, the problem usually isn't patience — it's that one of the inputs above was never actually fixed. The three most common culprits we find on a stalled account: the technical health of the site is bad enough that Google can't crawl new or updated pages properly, the practice has fewer than 10-15 Google reviews so there's no local-ranking signal to work with yet, or the work itself was inconsistent (a strong first month, then nothing for the following two). Before extending the timeline further, re-run a basic audit of those three things rather than assuming more time alone will fix it.",
+        text: "If GBP insights and Search Console impressions are both flat at the 90-day mark, the problem usually isn't patience — it's that one of the inputs above was never actually fixed. The three most common culprits we find on a stalled account: the technical health of the site is bad enough that Google can't crawl new or updated pages properly, the practice has fewer than 10-15 Google reviews so there's no local-ranking signal to work with yet, or the work itself was inconsistent (a strong first month, then nothing for the following two). Before extending the timeline further, re-run a basic audit of those three things rather than assuming more time alone will fix it. Track progress month to month in Search Console, using [this guide to reading its reports](/guides/how-to-read-google-search-console-for-a-medical-practice-website).",
       },
       {
         type: "p",
@@ -452,7 +452,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What we do not recommend" },
       {
         type: "p",
-        text: "Chasing a perfect 100 PageSpeed score is not the goal and can cost more than it's worth — stripping out a genuinely useful booking widget or lazy-loading content a patient needs immediately in the name of a few tenths of a second is a bad trade. The goal is passing Google's \"good\" threshold on all three metrics, consistently, across your real page types — not a leaderboard score.",
+        text: "Chasing a perfect 100 PageSpeed score is not the goal and can cost more than it's worth — stripping out a genuinely useful booking widget or lazy-loading content a patient needs immediately in the name of a few tenths of a second is a bad trade. The goal is passing Google's \"good\" threshold on all three metrics, consistently, across your real page types — not a leaderboard score. After speed, confirm Google can crawl the site at all; see [XML sitemaps and robots.txt for a practice website](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website).",
       },
     ],
     faqs: [
@@ -1128,7 +1128,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What to do with the finished list" },
       {
         type: "p",
-        text: "Group it by intent, not alphabetically. Transactional service × city phrases become dedicated pages. Related informational phrases that don't deserve their own page become FAQ sections or blog posts. Phrases with real volume but no clear match to anything you currently offer are worth a second look — sometimes they reveal a service patients want that isn't on the site yet at all, which is as valuable a finding as the keyword itself.",
+        text: "Group it by intent, not alphabetically. Transactional service × city phrases become dedicated pages. Related informational phrases that don't deserve their own page become FAQ sections or blog posts. Phrases with real volume but no clear match to anything you currently offer are worth a second look — sometimes they reveal a service patients want that isn't on the site yet at all, which is as valuable a finding as the keyword itself. Pages only rank if Google can crawl and index them; [XML sitemaps and robots.txt for a practice website](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) covers the basics.",
       },
     ],
     faqs: [

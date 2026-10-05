@@ -84,7 +84,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "A practice with forty-five reviews receiving four new ones a month typically outranks a practice with two hundred reviews and nothing in eighteen months. Recency is the signal. The practical version of this is a standing process — a card at checkout, a text after the visit, a line in the discharge summary — applied to every patient rather than the ones you expect to be happy.",
+        text: "A practice with forty-five reviews receiving four new ones a month typically outranks a practice with two hundred reviews and nothing in eighteen months. Recency is the signal. The practical version of this is a standing process — a card at checkout, a text after the visit, a line in the discharge summary — applied to every patient rather than the ones you expect to be happy. Add a booking link to the profile, and build the page behind it using [online scheduling on a practice website without hurting SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo).",
       },
       {
         type: "p",
@@ -364,7 +364,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Practices assume compliance means flying blind. It does not. You can still know how many calls came from the Google Business Profile versus organic search versus ads, how many forms each channel produced, which pages produce contacts, and what a booked patient costs by channel. What you give up is the ability to tie a specific human to a specific condition inside an advertising platform — which was never something a practice needed in order to run marketing well.",
+        text: "Practices assume compliance means flying blind. It does not. You can still know how many calls came from the Google Business Profile versus organic search versus ads, how many forms each channel produced, which pages produce contacts, and what a booked patient costs by channel. What you give up is the ability to tie a specific human to a specific condition inside an advertising platform — which was never something a practice needed in order to run marketing well. Scheduling tools raise the same privacy questions; see [online appointment scheduling on a medical practice website](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo).",
       },
     ],
     faqs: [

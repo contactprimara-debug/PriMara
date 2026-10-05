@@ -580,7 +580,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Checking that it's actually working" },
       {
         type: "p",
-        text: "Call your own tracked number from a phone, confirm the event fires in GA4 Realtime within a minute, and confirm it shows up as a conversion in Google Ads within 24 hours (Ads conversions aren't instant). Do this after any website redesign or CRM/analytics platform change — call tracking is one of the most common things silently broken by an unrelated update.",
+        text: "Call your own tracked number from a phone, confirm the event fires in GA4 Realtime within a minute, and confirm it shows up as a conversion in Google Ads within 24 hours (Ads conversions aren't instant). Do this after any website redesign or CRM/analytics platform change — call tracking is one of the most common things silently broken by an unrelated update. If patients can also book online, track that path too, as covered in [online appointment scheduling on a practice website and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo).",
       },
     ],
     faqs: [
@@ -653,7 +653,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Keyword targeting without keyword stuffing" },
       {
         type: "p",
-        text: "One page should own one primary intent — don't try to rank the same page for \"knee replacement,\" \"hip replacement,\" and \"joint pain treatment\" all at once; split them into separate pages if they're genuinely different searches. Use the exact patient phrasing naturally in the H1, the first paragraph, and at least one H2 — but the page should read like a person wrote it for a patient, not like it was built for an algorithm. Clear headings and labeled forms also support accessibility, which we cover in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website).",
+        text: "One page should own one primary intent — don't try to rank the same page for \"knee replacement,\" \"hip replacement,\" and \"joint pain treatment\" all at once; split them into separate pages if they're genuinely different searches. Use the exact patient phrasing naturally in the H1, the first paragraph, and at least one H2 — but the page should read like a person wrote it for a patient, not like it was built for an algorithm. Clear headings and labeled forms also support accessibility, which we cover in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). Keep the page's own text in your HTML around any booking widget, as explained in [online appointment scheduling and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo).",
       },
       { type: "h2", text: "Schema markup every service page needs" },
       {

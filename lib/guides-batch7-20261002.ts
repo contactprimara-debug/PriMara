@@ -373,7 +373,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Link it to Google Ads and Search Console" },
       {
         type: "p",
-        text: "Once the key events exist, link the GA4 property to your Google Ads account (Admin > Product Links > Google Ads Linking) so conversions can be imported for bidding, and separately link Search Console (Admin > Product Links > Search Console Links) to see which organic queries actually drive the sessions that convert. Both links take a few minutes and turn GA4 from a standalone report into the thing that tells you whether your marketing spend is working.",
+        text: "Once the key events exist, link the GA4 property to your Google Ads account (Admin > Product Links > Google Ads Linking) so conversions can be imported for bidding, and separately link Search Console (Admin > Product Links > Search Console Links) to see which organic queries actually drive the sessions that convert. Both links take a few minutes and turn GA4 from a standalone report into the thing that tells you whether your marketing spend is working. Pair GA4 with Search Console, which shows what happens in Google before the click; see [how to read Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website).",
       },
     ],
     faqs: [
