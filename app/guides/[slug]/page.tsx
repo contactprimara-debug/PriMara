@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { guides, getGuide } from "@/lib/guides";
 import type { Guide, GuideSection } from "@/lib/guides";
@@ -185,6 +186,31 @@ const ORGANIZATION_SAME_AS = [
 
 const serif = "var(--font-fraunces), Georgia, serif";
 
+// Inline markdown-style links in authored prose: [label](/guides/slug). Body
+// copy in GuideSection.text/items is otherwise plain text with no markup —
+// this is the one exception, added 2026-10-02 so existing guide pages can
+// carry genuine editorial inbound links inside real sentences (PAGE-STANDARD
+// §8/§8a), not just the "Keep reading" chrome list. Text with no bracket
+// pattern renders exactly as it did before.
+function renderInline(text: string): ReactNode {
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const nodes: ReactNode[] = [];
+  let last = 0;
+  let match: RegExpExecArray | null;
+  let i = 0;
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > last) nodes.push(text.slice(last, match.index));
+    nodes.push(
+      <Link key={`inline-link-${i++}`} href={match[2]} style={{ color: "var(--gold)", textDecoration: "underline" }}>
+        {match[1]}
+      </Link>
+    );
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return nodes.length ? nodes : text;
+}
+
 function Section({ section }: { section: GuideSection }) {
   switch (section.type) {
     case "h2":
@@ -227,7 +253,7 @@ function Section({ section }: { section: GuideSection }) {
             marginBottom: "1.25rem",
           }}
         >
-          {section.text}
+          {renderInline(section.text ?? "")}
         </p>
       );
     case "ul":
@@ -239,7 +265,7 @@ function Section({ section }: { section: GuideSection }) {
                 aria-hidden="true"
                 style={{ width: "6px", height: "6px", borderRadius: "50%", background: "var(--gold)", flexShrink: 0, marginTop: "0.55em" }}
               />
-              {item}
+              {renderInline(item)}
             </li>
           ))}
         </ul>
@@ -267,7 +293,7 @@ function Section({ section }: { section: GuideSection }) {
               >
                 {i + 1}
               </span>
-              {item}
+              {renderInline(item)}
             </li>
           ))}
         </ol>

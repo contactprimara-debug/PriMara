@@ -423,7 +423,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "What actually changed" },
       {
         type: "p",
-        text: "A growing share of searches now end with an answer rather than a list of ten blue links, and in those surfaces there is no tenth place: either the answer names your practice or it does not. The work is not exotic, though. Google has been explicit that there is nothing fundamentally new to do for AI features. What changes is emphasis — extractability, entity clarity and corroboration now matter far more than keyword density.",
+        text: "A growing share of searches now end with an answer rather than a list of ten blue links, and in those surfaces there is no tenth place: either the answer names your practice or it does not. The work is not exotic, though. Google has been explicit that there is nothing fundamentally new to do for AI features. What changes is emphasis — extractability, entity clarity and corroboration now matter far more than keyword density. [What AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-medical-practice-organic-traffic) is the specific, measurable version of this shift worth tracking in Search Console.",
       },
       { type: "h2", text: "Extractability: write the answer, then the argument" },
       {
@@ -433,7 +433,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "Entity clarity: one practice, described one way" },
       {
         type: "p",
-        text: "A model builds its picture of your practice from every mention it has seen. If your name appears as 'Lakeside Family Medicine' on your site, 'Lakeside Family Medicine, PA' in an insurance directory and 'Lakeside Family Med' on the profile, that picture is blurred — and blurred entities get skipped.",
+        text: "A model builds its picture of your practice from every mention it has seen. If your name appears as 'Lakeside Family Medicine' on your site, 'Lakeside Family Medicine, PA' in an insurance directory and 'Lakeside Family Med' on the profile, that picture is blurred — and blurred entities get skipped. A blurred entity is also the most common reason an assistant repeats something false; if that has already happened to your practice, [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer) walks through tracing the error back to its source.",
       },
       {
         type: "ul",

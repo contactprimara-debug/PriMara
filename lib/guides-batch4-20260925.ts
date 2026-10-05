@@ -554,7 +554,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Q&A is public and crowd-sourced, and that's the risk" },
       {
         type: "p",
-        text: "Unlike most of a Google Business Profile, the Q&A section isn't controlled by the business — any Google user can ask a question, and any Google user can answer it, including someone with no actual connection to the practice. An unmanaged Q&A section on a busy listing frequently has an incorrect answer sitting visibly at the top, upvoted by other users who assumed it was accurate. \"Does insurance X work here?\" answered wrong by a stranger costs the practice a lead that never called to check.",
+        text: "Unlike most of a Google Business Profile, the Q&A section isn't controlled by the business — any Google user can ask a question, and any Google user can answer it, including someone with no actual connection to the practice. An unmanaged Q&A section on a busy listing frequently has an incorrect answer sitting visibly at the top, upvoted by other users who assumed it was accurate. \"Does insurance X work here?\" answered wrong by a stranger costs the practice a lead that never called to check. Left uncorrected, that same wrong answer is exactly the kind of thing an AI assistant can end up repeating as fact — [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer) covers what to do once it's already spread that far.",
       },
       { type: "h2", text: "Seed it before someone else does" },
       {

@@ -645,7 +645,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Why this matters more for a medical practice than most businesses" },
       {
         type: "p",
-        text: "A restaurant with hours off by thirty minutes loses a little walk-in traffic. A medical practice with hours quietly changed to show closed on a day it's actually open loses patients who needed care that day and had no way to know the listing was wrong — and some of them won't call back to check, they'll simply choose the next practice Google shows them. The stakes of an unnoticed bad edit are higher here, which is exactly why this deserves a specific recurring check rather than being folded into a vague \"keep an eye on the listing\" habit that rarely actually happens.",
+        text: "A restaurant with hours off by thirty minutes loses a little walk-in traffic. A medical practice with hours quietly changed to show closed on a day it's actually open loses patients who needed care that day and had no way to know the listing was wrong — and some of them won't call back to check, they'll simply choose the next practice Google shows them. The stakes of an unnoticed bad edit are higher here, which is exactly why this deserves a specific recurring check rather than being folded into a vague \"keep an eye on the listing\" habit that rarely actually happens. A bad edit like this is also exactly the kind of thing an AI chatbot will repeat confidently once it's crawled — see [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer) for the full correction path once that's already happened.",
       },
       {
         type: "p",
@@ -791,7 +791,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Voice search and AI search answers are related but not the same" },
       {
         type: "p",
-        text: "Voice search — a spoken query to Siri, Google Assistant, or a smart speaker — usually wants a short, local, factual answer read aloud in seconds. A written query to an AI assistant like ChatGPT or Perplexity is often more exploratory and can tolerate, even expects, a longer synthesized answer with more context. Both reward accurate structured data and clear writing, but a voice-search fix (get the Business Profile hours and services exactly right) and an AI-search-answer fix (write comprehensive, well-cited content an assistant can pull from) are different projects that happen to share a foundation.",
+        text: "Voice search — a spoken query to Siri, Google Assistant, or a smart speaker — usually wants a short, local, factual answer read aloud in seconds. A written query to an AI assistant like ChatGPT or Perplexity is often more exploratory and can tolerate, even expects, a longer synthesized answer with more context. Both reward accurate structured data and clear writing, but a voice-search fix (get the Business Profile hours and services exactly right) and an AI-search-answer fix (write comprehensive, well-cited content an assistant can pull from) are different projects that happen to share a foundation. On the typed side specifically, [what AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-medical-practice-organic-traffic) is worth reading before assuming a traffic dip is a ranking problem.",
       },
       { type: "h2", text: "A simple monthly check worth running" },
       {
