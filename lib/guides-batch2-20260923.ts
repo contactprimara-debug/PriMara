@@ -349,7 +349,7 @@ export const guidesPartFive: Guide[] = [
     links: [
       { href: "/guides/primary-care-patient-acquisition-playbook", label: "Primary Care Patient Acquisition Playbook", description: "How this channel comparison plays out specifically for primary care." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "The service half of this comparison." },
-      { href: "/services/medical-website-design", label: "Medical Website Design", description: "The website half of this comparison." },
+      { href: "/services/medical-practice-website-design", label: "Medical Website Design", description: "The website half of this comparison." },
       { href: "/guides/how-to-get-more-patients-from-google-business-profile", label: "How to Get More Patients from GBP", description: "The GBP-specific playbook this page points to." },
       { href: "/pricing", label: "Primara Pricing", description: "How we scope work across both channels together." },
     ],
@@ -425,7 +425,7 @@ export const guidesPartFive: Guide[] = [
     ],
     links: [
       { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "How to Handle a Fake Google Review", description: "The reactive counterpart to this proactive review-generation guide." },
-      { href: "/services/reputation-management", label: "Reputation Management", description: "The compliant review-generation service this page describes." },
+      { href: "/services/online-reputation-management", label: "Reputation Management", description: "The compliant review-generation service this page describes." },
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "How to Respond to a Negative Patient Review", description: "The follow-on guide for handling what shows up once you stop gating." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "Where reviews live and how they affect ranking." },
       { href: "/pricing", label: "Primara Pricing", description: "How review-request systems are scoped and priced." },
@@ -602,7 +602,7 @@ export const guidesPartFive: Guide[] = [
       { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "How to Measure ROI on Medical Practice Marketing", description: "The call-tracking setup this ROI formula depends on." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "HIPAA-Safe Tracking for a Medical Website", description: "The broader tracking-compliance guide this page's HIPAA section fits under." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The service this tracking setup measures the results of." },
-      { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where call tracking is wired in on every build." },
+      { href: "/services/medical-practice-website-design", label: "Medical Website Design", description: "Where call tracking is wired in on every build." },
       { href: "/pricing", label: "Primara Pricing", description: "How tracking setup is scoped into an engagement." },
       {
         href: "/guides/how-to-set-up-google-analytics-4-for-a-medical-practice",
@@ -701,7 +701,7 @@ export const guidesPartFive: Guide[] = [
       { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "Keeping this page structure consistent across a name change." },
       { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "The contact-page counterpart to this service-page structure." },
       { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "The service that includes building pages to this standard." },
-      { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where service pages like this get built and hosted." },
+      { href: "/services/medical-practice-website-design", label: "Medical Website Design", description: "Where service pages like this get built and hosted." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "The AEO extension of the same page-structure discipline." },
       { href: "/pricing", label: "Primara Pricing", description: "How service-page content work is scoped." },
       {

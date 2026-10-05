@@ -178,7 +178,7 @@ export const guidesPartSix: Guide[] = [
       { href: "/guides/how-to-write-patient-faqs-that-answer-ai-search", label: "How to Write Patient FAQs That Answer AI Search", description: "Another page-level AEO tactic that pairs with a strong bio page." },
       { href: "/guides/how-to-write-a-medical-service-page-that-ranks", label: "How to Write a Medical Service Page That Ranks", description: "The sibling structure guide for the service pages a bio page should link to and from." },
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Get a Medical Practice into AI Search Answers", description: "Why exact, verifiable credentials matter even more for AI-generated answers." },
-      { href: "/services/medical-website-design", label: "Medical Website Design", description: "Where provider bio pages get structured and built to this standard." },
+      { href: "/services/medical-practice-website-design", label: "Medical Website Design", description: "Where provider bio pages get structured and built to this standard." },
       { href: "/pricing", label: "Primara Pricing", description: "How bio and service page builds are scoped into a website engagement." },
       {
         href: "/guides/what-is-eeat-and-why-it-matters-for-medical-practices",

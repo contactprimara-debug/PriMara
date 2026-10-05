@@ -180,7 +180,7 @@ export const guidesPartSeven: Guide[] = [
       { href: "/guides/choosing-google-business-profile-categories-for-a-medical-practice", label: "Choosing GBP Categories for a Medical Practice", description: "A one-time setup task that still needs an annual re-check." },
       { href: "/guides/google-business-profile-qa-management-for-a-medical-practice", label: "GBP Q&A Management", description: "The monthly Q&A task from this checklist, covered in depth." },
       {
-        href: "/services/google-business-profile-management",
+        href: "/services/google-business-profile",
         label: "Google Business Profile Management",
         description: "The service this checklist describes — what we actually do each month for a listing.",
       },
