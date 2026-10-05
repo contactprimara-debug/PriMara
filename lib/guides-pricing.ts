@@ -46,7 +46,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "These are the ranges we see quoted to independent practices across South Florida, Tampa, Orlando, and Jacksonville. They are market observations, not Primara's fee. Anything meaningfully below the entry tier is almost always automated directory submissions sold as SEO.",
+        text: "These are the ranges we see quoted to independent practices across South Florida, Tampa, Orlando, and Jacksonville. They are market observations, not Primara's fee. Anything meaningfully below the entry tier is almost always automated directory submissions sold as SEO. If budget is tight, [local pack vs organic results vs Google Ads](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice) explains which channel to fund first.",
       },
       {
         type: "table",
@@ -462,7 +462,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The second complication is tracking. Sending an ad platform data that ties a specific person to a specific health interest is exactly the kind of disclosure that health privacy rules exist to prevent. That shapes how conversion tracking has to be built, which is a real cost line and the thing most agencies get wrong.",
+        text: "The second complication is tracking. Sending an ad platform data that ties a specific person to a specific health interest is exactly the kind of disclosure that health privacy rules exist to prevent. That shapes how conversion tracking has to be built, which is a real cost line and the thing most agencies get wrong. The map pack is a third option beside these two; see [local pack vs organic vs Google Ads](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice) for how a limited budget should be ordered.",
       },
       {
         type: "h2",
@@ -674,7 +674,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The third is paying for a redesign when the problem is content. If your site loads fast, works on a phone, and converts the visitors it gets, a redesign will not increase patient volume. More pages and better local signals will.",
+        text: "The third is paying for a redesign when the problem is content. If your site loads fast, works on a phone, and converts the visitors it gets, a redesign will not increase patient volume. More pages and better local signals will. Insist that any quote includes a responsive build, since [mobile-first indexing](/guides/mobile-first-indexing-explained-for-a-medical-practice-website) means Google reads the phone version of your pages.",
       },
       {
         type: "h2",
@@ -696,7 +696,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Start from the searches you want to win, not from a sitemap template. List the twelve to twenty things patients type that you can honestly serve, and make each one a page. Then add the location pages for the cities you actually draw from. Then design. Scoped that way, a custom build in the ten-to-fifteen-thousand range covers most single-location practices and does not need to be redone when you add a service line.",
+        text: "Start from the searches you want to win, not from a sitemap template. List the twelve to twenty things patients type that you can honestly serve, and make each one a page. Then add the location pages for the cities you actually draw from. Then design. Scoped that way, a custom build in the ten-to-fifteen-thousand range covers most single-location practices and does not need to be redone when you add a service line. Ask whether the price includes accessibility work, and see [what the ADA requires of a practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) for what to expect.",
       },
       {
         type: "callout",

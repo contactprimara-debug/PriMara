@@ -314,7 +314,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "One page per location, genuinely unique" },
       {
         type: "p",
-        text: "Each location needs its own page with its real address, real hours (not copy-pasted from another location), the actual providers who see patients there, and language specific to that location — parking, nearby landmarks, what makes that particular office's experience different if anything does. A template that swaps only the city name and leaves every other sentence identical across ten location pages reads as duplicate content to Google, and duplicate or near-duplicate pages are exactly the pattern that ends up stuck in \"Discovered — currently not indexed\" instead of ranking.",
+        text: "Each location needs its own page with its real address, real hours (not copy-pasted from another location), the actual providers who see patients there, and language specific to that location — parking, nearby landmarks, what makes that particular office's experience different if anything does. A template that swaps only the city name and leaves every other sentence identical across ten location pages reads as duplicate content to Google, and duplicate or near-duplicate pages are exactly the pattern that ends up stuck in \"Discovered — currently not indexed\" instead of ranking. If locations are being merged into one domain, the redirect and Search Console steps are in [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain).",
       },
       { type: "h2", text: "Structure: hub page, then location pages, then service-at-location if it applies" },
       {
@@ -567,7 +567,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Who should actually do this work, and how long it takes" },
       {
         type: "p",
-        text: "Building out a full services list properly for the first time is a one-to-two-hour task for a single-provider practice, longer for a multi-provider or multi-specialty office where the list genuinely needs to reflect several different capabilities. It's worth doing as a dedicated sit-down rather than a few minutes squeezed between patients — the value of a complete list comes from it actually being comprehensive and accurately worded, not from checking a box that says services were added. Whoever manages the practice's marketing, whether in-house or an agency, should be able to say specifically when the list was last reviewed and what changed.",
+        text: "Building out a full services list properly for the first time is a one-to-two-hour task for a single-provider practice, longer for a multi-provider or multi-specialty office where the list genuinely needs to reflect several different capabilities. It's worth doing as a dedicated sit-down rather than a few minutes squeezed between patients — the value of a complete list comes from it actually being comprehensive and accurately worded, not from checking a box that says services were added. Whoever manages the practice's marketing, whether in-house or an agency, should be able to say specifically when the list was last reviewed and what changed. An outdated services list is a common source of wrong chatbot answers, covered in [how to fix wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer).",
       },
       {
         type: "p",
@@ -645,11 +645,11 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Why this matters more for a medical practice than most businesses" },
       {
         type: "p",
-        text: "A restaurant with hours off by thirty minutes loses a little walk-in traffic. A medical practice with hours quietly changed to show closed on a day it's actually open loses patients who needed care that day and had no way to know the listing was wrong — and some of them won't call back to check, they'll simply choose the next practice Google shows them. The stakes of an unnoticed bad edit are higher here, which is exactly why this deserves a specific recurring check rather than being folded into a vague \"keep an eye on the listing\" habit that rarely actually happens. A bad edit like this is also exactly the kind of thing an AI chatbot will repeat confidently once it's crawled — see [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer) for the full correction path once that's already happened.",
+        text: "A restaurant with hours off by thirty minutes loses a little walk-in traffic. A medical practice with hours quietly changed to show closed on a day it's actually open loses patients who needed care that day and had no way to know the listing was wrong — and some of them won't call back to check, they'll simply choose the next practice Google shows them. The stakes of an unnoticed bad edit are higher here, which is exactly why this deserves a specific recurring check rather than being folded into a vague \"keep an eye on the listing\" habit that rarely actually happens. A bad edit like this is also exactly the kind of thing an AI chatbot will repeat confidently once it's crawled — see [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer) for the full correction path once that's already happened. If a suggested edit reveals an old address or phone number elsewhere, trace it with the [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it).",
       },
       {
         type: "p",
-        text: "It's also worth knowing that not every suggested edit is a mistake — plenty are genuine corrections from patients noticing something the practice hadn't updated yet, like a phone number that changed or a new suite number after a move. The goal isn't to distrust every suggested edit, it's to have a real process for checking that whatever changed is actually accurate before it sits live for weeks unnoticed.",
+        text: "It's also worth knowing that not every suggested edit is a mistake — plenty are genuine corrections from patients noticing something the practice hadn't updated yet, like a phone number that changed or a new suite number after a move. The goal isn't to distrust every suggested edit, it's to have a real process for checking that whatever changed is actually accurate before it sits live for weeks unnoticed. Wrong details that spread to AI assistants usually trace back to listings like these; see [fixing wrong practice information in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer).",
       },
     ],
     faqs: [
@@ -715,7 +715,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Who owns which piece" },
       {
         type: "p",
-        text: "A content calendar without a clear owner per task tends to quietly stop the moment the person who was informally handling it gets busy. Assign the twice-weekly Google post, the monthly page work, and the quarterly accuracy review to specific people or to whoever manages the practice's marketing, with a simple shared calendar or task list — not memory — tracking what's due when. Practices that outsource this piece still benefit from knowing what the cadence should be, so they can tell whether an agency is actually delivering it.",
+        text: "A content calendar without a clear owner per task tends to quietly stop the moment the person who was informally handling it gets busy. Assign the twice-weekly Google post, the monthly page work, and the quarterly accuracy review to specific people or to whoever manages the practice's marketing, with a simple shared calendar or task list — not memory — tracking what's due when. Practices that outsource this piece still benefit from knowing what the cadence should be, so they can tell whether an agency is actually delivering it. Reserve calendar slots for refreshes as well as new posts, using [how often to update old content on a practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website).",
       },
       { type: "h2", text: "What to do when the calendar falls behind" },
       {
@@ -786,7 +786,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Writing for voice, not just for reading" },
       {
         type: "p",
-        text: "Text written to be read on a screen and text written to be read aloud by an assistant aren't quite the same. Short sentences, numbers spelled out or stated simply rather than abbreviated, and a direct answer in the first sentence of a section all perform better when an assistant is choosing what to read aloud. A page's answer box — the first 40 to 60 words directly answering the page's core question — is exactly the kind of content voice assistants tend to pull from, which is part of why it belongs at the top of every guide and service page, not buried after a long introduction.",
+        text: "Text written to be read on a screen and text written to be read aloud by an assistant aren't quite the same. Short sentences, numbers spelled out or stated simply rather than abbreviated, and a direct answer in the first sentence of a section all perform better when an assistant is choosing what to read aloud. A page's answer box — the first 40 to 60 words directly answering the page's core question — is exactly the kind of content voice assistants tend to pull from, which is part of why it belongs at the top of every guide and service page, not buried after a long introduction. The same short, direct answers also matter for generated search summaries, which we cover in [what AI Overviews mean for organic traffic](/guides/what-ai-overviews-mean-for-a-medical-practices-organic-traffic).",
       },
       { type: "h2", text: "Voice search and AI search answers are related but not the same" },
       {
@@ -943,7 +943,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "What consistency actually means, precisely" },
       {
         type: "p",
-        text: "\"123 Main St, Suite 200\" and \"123 Main Street, Ste. 200\" read as the same address to a person but not always to the automated matching that builds citation confidence — pick one exact format for the practice's name, address, and phone, and use that exact format, character for character, on the website, the Google Business Profile, and every directory listing going forward. This is the same NAP consistency principle that applies within a multi-location practice, just applied across third-party sources instead of across the practice's own pages.",
+        text: "\"123 Main St, Suite 200\" and \"123 Main Street, Ste. 200\" read as the same address to a person but not always to the automated matching that builds citation confidence — pick one exact format for the practice's name, address, and phone, and use that exact format, character for character, on the website, the Google Business Profile, and every directory listing going forward. This is the same NAP consistency principle that applies within a multi-location practice, just applied across third-party sources instead of across the practice's own pages. Once your listings exist, keep them identical by following our guide to [NAP consistency, what breaks it, and how to fix it](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it).",
       },
       { type: "h2", text: "Health-specific directories carry more weight than general ones" },
       {
@@ -1113,12 +1113,12 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "What a good audit produces" },
       {
         type: "p",
-        text: "The output of a real audit isn't a score out of 100 — it's a specific, ordered list of what's actually wrong and what fixing each item is likely worth, roughly in order of effort versus impact. A category correction takes minutes and can matter more than months of posting. A tracking gap that's been hiding real call volume from the analytics is worth finding before spending anything on ads, since the ad platform can't optimize toward conversions it can't see. An honest audit says plainly when the biggest opportunity is a five-minute fix, not a retainer.",
+        text: "The output of a real audit isn't a score out of 100 — it's a specific, ordered list of what's actually wrong and what fixing each item is likely worth, roughly in order of effort versus impact. A category correction takes minutes and can matter more than months of posting. A tracking gap that's been hiding real call volume from the analytics is worth finding before spending anything on ads, since the ad platform can't optimize toward conversions it can't see. An honest audit says plainly when the biggest opportunity is a five-minute fix, not a retainer. If an audit follows a sudden traffic drop, start with [how to tell if a Google core update hit your practice site](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit).",
       },
       { type: "h2", text: "How long a real audit takes, and what it shouldn't cost" },
       {
         type: "p",
-        text: "A thorough audit of the four areas above, for a single-location practice, typically takes a few hours of actual review time, longer for a multi-location or multi-provider practice with more listings and pages to check. It should never require access the practice isn't comfortable granting, and a practice should be able to see the actual findings, not just a summary score, regardless of whether they hire the auditor to fix anything afterward. A free audit that only produces a vague pitch for a retainer without naming specific, checkable findings isn't really an audit.",
+        text: "A thorough audit of the four areas above, for a single-location practice, typically takes a few hours of actual review time, longer for a multi-location or multi-provider practice with more listings and pages to check. It should never require access the practice isn't comfortable granting, and a practice should be able to see the actual findings, not just a summary score, regardless of whether they hire the auditor to fix anything afterward. A free audit that only produces a vague pitch for a retainer without naming specific, checkable findings isn't really an audit. Pages the audit flags as outdated should follow the cadence in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website).",
       },
     ],
     faqs: [

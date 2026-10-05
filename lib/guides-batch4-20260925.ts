@@ -45,7 +45,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "NAP consistency is where launches quietly break" },
       {
         type: "p",
-        text: "Name, address, and phone number need to match, character for character, across the new site's footer, contact page, schema markup, and the Google Business Profile listing. \"Suite 200\" versus \"Ste 200,\" or a mismatched phone number, both slow local ranking recovery for weeks. If switching to a call-tracking number, keep the GBP primary number matching what's printed on the site — never swap the number Google has verified.",
+        text: "Name, address, and phone number need to match, character for character, across the new site's footer, contact page, schema markup, and the Google Business Profile listing. \"Suite 200\" versus \"Ste 200,\" or a mismatched phone number, both slow local ranking recovery for weeks. If switching to a call-tracking number, keep the GBP primary number matching what's printed on the site — never swap the number Google has verified. Before launch, confirm the phone version carries the same content as desktop, as explained in [mobile-first indexing for a medical practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website). A launch that replaces an existing domain also needs the redirect plan in [how to migrate a practice website to a new domain without losing SEO](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain). Add accessibility to the launch list using [ADA web accessibility for a medical practice website: what the law requires](/guides/ada-web-accessibility-for-a-medical-practice-website).",
       },
       { type: "h2", text: "Tracking has to work before launch, not after" },
       {
@@ -146,7 +146,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Posts: text-only is a wasted post" },
       {
         type: "p",
-        text: "A Google Post without an image reads as thinner content and gets far less visibility in both the listing and Google's local surfaces than a post with a real, non-stock photo attached. Every post should open with what the practice actually does or offers in the first sentence — Google truncates posts at roughly 80 characters before \"read more,\" so a post that opens with a vague hook or a statistic instead of the substance loses the reader before they click through.",
+        text: "A Google Post without an image reads as thinner content and gets far less visibility in both the listing and Google's local surfaces than a post with a real, non-stock photo attached. Every post should open with what the practice actually does or offers in the first sentence — Google truncates posts at roughly 80 characters before \"read more,\" so a post that opens with a vague hook or a statistic instead of the substance loses the reader before they click through. Add a quarterly check of third-party directories too, using the steps in [NAP consistency: what breaks it and how to fix it](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it).",
       },
       {
         type: "callout",
@@ -418,7 +418,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Which questions to actually write" },
       {
         type: "p",
-        text: "Pull real questions from three sources rather than guessing: what patients ask on the phone most often (front desk staff know this better than anyone), Google Search Console's query report for the site (queries with impressions but a low click-through rate are often questions the page hasn't directly answered yet), and the \"People also ask\" boxes that appear on a Google search for the practice's core service terms. Six well-chosen real questions outperform fifteen generic ones a template generated.",
+        text: "Pull real questions from three sources rather than guessing: what patients ask on the phone most often (front desk staff know this better than anyone), Google Search Console's query report for the site (queries with impressions but a low click-through rate are often questions the page hasn't directly answered yet), and the \"People also ask\" boxes that appear on a Google search for the practice's core service terms. Six well-chosen real questions outperform fifteen generic ones a template generated. If you are weighing how much AI summaries will cut into informational clicks, see [what AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-a-medical-practices-organic-traffic).",
       },
       {
         type: "callout",
@@ -427,7 +427,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Where FAQs should live" },
       {
         type: "p",
-        text: "Every page type benefits from its own 4–6 question FAQ block specific to that page's intent — a service page's FAQ should be about that service, not a copy-pasted general practice FAQ. A dedicated, comprehensive FAQ or guide page can also exist for broader questions, but duplicating the exact same FAQ block across every page on the site dilutes which page Google (and an AI system) treats as the authoritative source for that question.",
+        text: "Every page type benefits from its own 4–6 question FAQ block specific to that page's intent — a service page's FAQ should be about that service, not a copy-pasted general practice FAQ. A dedicated, comprehensive FAQ or guide page can also exist for broader questions, but duplicating the exact same FAQ block across every page on the site dilutes which page Google (and an AI system) treats as the authoritative source for that question. When an assistant gets a fact wrong anyway, use the steps in [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer).",
       },
     ],
     faqs: [
@@ -744,7 +744,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "What to expect during the transition" },
       {
         type: "p",
-        text: "A short dip in local visibility during a rebrand is common and usually temporary — Google needs time to reconcile the new name against the existing trust signals (reviews, citations, backlinks) built under the old one. Practices that keep every signal consistent and update everything within the same short window typically see visibility recover within a few weeks. Practices that leave stale directory listings or an inconsistent name across pages for months extend that recovery significantly, sometimes for the better part of a quarter.",
+        text: "A short dip in local visibility during a rebrand is common and usually temporary — Google needs time to reconcile the new name against the existing trust signals (reviews, citations, backlinks) built under the old one. Practices that keep every signal consistent and update everything within the same short window typically see visibility recover within a few weeks. Practices that leave stale directory listings or an inconsistent name across pages for months extend that recovery significantly, sometimes for the better part of a quarter. If the rebrand includes a new domain, follow [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) step by step.",
       },
     ],
     faqs: [
@@ -820,7 +820,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Step three: convert leads to revenue with a real lifetime value" },
       {
         type: "p",
-        text: "A single new-patient visit rarely reflects what that patient is actually worth — primary care and most specialty relationships extend over years, with follow-up visits, referrals to other family members, and ancillary services. A conservative lifetime value estimate (not the first visit's revenue alone) gives a much more honest ROI picture. A practice that spends $150 to acquire a patient through paid search and that patient is worth $1,200 over two years of visits is a strong return, even though the first visit alone might only bill $180.",
+        text: "A single new-patient visit rarely reflects what that patient is actually worth — primary care and most specialty relationships extend over years, with follow-up visits, referrals to other family members, and ancillary services. A conservative lifetime value estimate (not the first visit's revenue alone) gives a much more honest ROI picture. A practice that spends $150 to acquire a patient through paid search and that patient is worth $1,200 over two years of visits is a strong return, even though the first visit alone might only bill $180. A traffic dip on informational pages is a good example of why conversions matter more than visits; see [what AI Overviews mean for a practice's organic traffic](/guides/what-ai-overviews-mean-for-a-medical-practices-organic-traffic).",
       },
       {
         type: "callout",

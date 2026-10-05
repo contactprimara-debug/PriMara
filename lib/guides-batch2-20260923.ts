@@ -475,7 +475,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Using secondary categories correctly" },
       {
         type: "p",
-        text: "Google allows up to nine secondary categories in addition to the primary. Each should represent a real, currently offered service — never an aspirational one. Adding \"Weight loss service\" because you're planning to launch a program next quarter, but haven't yet, risks a profile suspension for misrepresentation and won't help ranking for a service you can't actually deliver on when someone calls.",
+        text: "Google allows up to nine secondary categories in addition to the primary. Each should represent a real, currently offered service — never an aspirational one. Adding \"Weight loss service\" because you're planning to launch a program next quarter, but haven't yet, risks a profile suspension for misrepresentation and won't help ranking for a service you can't actually deliver on when someone calls. A Business Profile is not the same as a Knowledge Panel; the difference is explained in [what a Knowledge Panel is](/guides/google-knowledge-panel-for-a-medical-practice).",
       },
       { type: "h2", text: "Common category mistakes we see" },
       {
@@ -653,7 +653,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Keyword targeting without keyword stuffing" },
       {
         type: "p",
-        text: "One page should own one primary intent — don't try to rank the same page for \"knee replacement,\" \"hip replacement,\" and \"joint pain treatment\" all at once; split them into separate pages if they're genuinely different searches. Use the exact patient phrasing naturally in the H1, the first paragraph, and at least one H2 — but the page should read like a person wrote it for a patient, not like it was built for an algorithm.",
+        text: "One page should own one primary intent — don't try to rank the same page for \"knee replacement,\" \"hip replacement,\" and \"joint pain treatment\" all at once; split them into separate pages if they're genuinely different searches. Use the exact patient phrasing naturally in the H1, the first paragraph, and at least one H2 — but the page should read like a person wrote it for a patient, not like it was built for an algorithm. Clear headings and labeled forms also support accessibility, which we cover in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website).",
       },
       { type: "h2", text: "Schema markup every service page needs" },
       {

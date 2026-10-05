@@ -35,7 +35,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "Google does not always use the description you write. Its systems choose whichever text on the page (or in the meta tag) best matches what the searcher typed, and Google's own documentation says that can mean pulling a different sentence from your body copy instead. Writing a strong, specific meta description lowers how often that happens — a vague one gives Google nothing better to work with than a rewrite.",
+        text: "Google does not always use the description you write. Its systems choose whichever text on the page (or in the meta tag) best matches what the searcher typed, and Google's own documentation says that can mean pulling a different sentence from your body copy instead. Writing a strong, specific meta description lowers how often that happens — a vague one gives Google nothing better to work with than a rewrite. Rewrite a description whenever you refresh the page itself, as described in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website).",
       },
       { type: "h2", text: "The four things that make a patient click" },
       {
@@ -163,7 +163,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "Whatever the cause, the effect is the same: your reviews, your call history, and your Google Maps ranking signal are now split across two profiles instead of consolidated on one. A patient searching your practice name sometimes sees the wrong one — closed hours, old address, zero reviews — and picks a competitor instead.",
+        text: "Whatever the cause, the effect is the same: your reviews, your call history, and your Google Maps ranking signal are now split across two profiles instead of consolidated on one. A patient searching your practice name sometimes sees the wrong one — closed hours, old address, zero reviews — and picks a competitor instead. Many duplicates start as small mismatches in a name, suite, or phone number, which our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to audit.",
       },
       { type: "h2", text: "Find every listing first" },
       {
@@ -287,7 +287,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "What we can give you instead is what tends to move, and roughly when, based on running this for medical practices across Florida.",
+        text: "What we can give you instead is what tends to move, and roughly when, based on running this for medical practices across Florida. Progress can also be interrupted by a broad ranking update, and [how to tell if a core update hit your practice site](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) explains how to check.",
       },
       { type: "h2", text: "The realistic timeline, phase by phase" },
       {
@@ -434,7 +434,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Why this matters for a medical practice specifically" },
       {
         type: "p",
-        text: "Google has confirmed page experience is one factor among many in ranking, smaller than content relevance, but it is also one of the only factors under your direct technical control. More immediately, a slow-loading page or one where the phone number shifts position mid-load costs you patients who simply leave — Google's own research on this consistently shows bounce rate climbing sharply as load time increases past a few seconds, and a patient looking for same-day care has the least patience of almost any searcher.",
+        text: "Google has confirmed page experience is one factor among many in ranking, smaller than content relevance, but it is also one of the only factors under your direct technical control. More immediately, a slow-loading page or one where the phone number shifts position mid-load costs you patients who simply leave — Google's own research on this consistently shows bounce rate climbing sharply as load time increases past a few seconds, and a patient looking for same-day care has the least patience of almost any searcher. Speed is only one half of mobile performance; the other is whether Google indexes your full phone version, covered in [mobile-first indexing explained for a practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website).",
       },
       { type: "h2", text: "The checklist" },
       {
@@ -539,7 +539,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Why it matters more now than it used to" },
       {
         type: "p",
-        text: "Schema has always helped traditional Google results — it's what produces star ratings, FAQ dropdowns, and breadcrumb trails directly in the search listing. What's changed is that AI-generated answers (Google's AI Overviews, ChatGPT browsing, Perplexity) lean on structured data even more heavily than traditional ranking does, because it's the fastest way for those systems to extract a clean, attributable fact without summarizing an entire paragraph and risking an error. A medical practice that wants to be the source an AI answer cites needs the facts stated in a format those systems can lift directly, which matters even more once you understand [what AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-medical-practice-organic-traffic) in the first place.",
+        text: "Schema has always helped traditional Google results — it's what produces star ratings, FAQ dropdowns, and breadcrumb trails directly in the search listing. What's changed is that AI-generated answers (Google's AI Overviews, ChatGPT browsing, Perplexity) lean on structured data even more heavily than traditional ranking does, because it's the fastest way for those systems to extract a clean, attributable fact without summarizing an entire paragraph and risking an error. A medical practice that wants to be the source an AI answer cites needs the facts stated in a format those systems can lift directly, which matters even more once you understand [what AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-medical-practice-organic-traffic) in the first place. Remember that markup must also exist on the mobile version of a page, which is the subject of [mobile-first indexing for a medical practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website).",
       },
       { type: "h2", text: "The schema types a medical practice site needs" },
       {
@@ -556,7 +556,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "How to check if your schema is actually working" },
       {
         type: "p",
-        text: "Having schema on the page and having valid schema are different things — a single typo in the JSON-LD can silently invalidate the entire block, and Google will simply ignore it with no visible error on the page itself. Paste any live URL into Google's Rich Results Test, and it will list every schema type it detected and flag specific errors or warnings. Run this after any site change, redesign, or platform migration — we've seen a working schema graph get wiped entirely by a theme update with nothing on the visible page indicating it happened.",
+        text: "Having schema on the page and having valid schema are different things — a single typo in the JSON-LD can silently invalidate the entire block, and Google will simply ignore it with no visible error on the page itself. Paste any live URL into Google's Rich Results Test, and it will list every schema type it detected and flag specific errors or warnings. Run this after any site change, redesign, or platform migration — we've seen a working schema graph get wiped entirely by a theme update with nothing on the visible page indicating it happened. Organization markup also supports recognition by Google's knowledge graph, as described in [what a Knowledge Panel is and whether a practice can get one](/guides/google-knowledge-panel-for-a-medical-practice).",
       },
       { type: "h2", text: "What not to do" },
       {
@@ -998,7 +998,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "When it's not the right next move" },
       {
         type: "p",
-        text: "If your service pages themselves are thin or missing — a single paragraph where a real page should be — that's the higher-leverage fix. Those pages target people actively searching for your exact service, with buying intent a blog post about general wellness tips simply doesn't carry. We've measured this directly: a practice's weakest, most templated pages are consistently its lowest-ranking ones, and no amount of blog content elsewhere compensates for that gap. Fix the foundation first.",
+        text: "If your service pages themselves are thin or missing — a single paragraph where a real page should be — that's the higher-leverage fix. Those pages target people actively searching for your exact service, with buying intent a blog post about general wellness tips simply doesn't carry. We've measured this directly: a practice's weakest, most templated pages are consistently its lowest-ranking ones, and no amount of blog content elsewhere compensates for that gap. Fix the foundation first. Publishing is only half the plan; the other half is covered in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website).",
       },
       { type: "h2", text: "A realistic cadence" },
       {

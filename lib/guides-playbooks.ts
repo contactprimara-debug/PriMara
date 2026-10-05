@@ -64,7 +64,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Google's own documentation on local ranking names three factors: relevance, distance, and prominence. You cannot change distance. Relevance is categories, services, and description. Prominence is reviews, links, and how well known your practice is. So the levers are categories and reviews, in that order.",
+        text: "Google's own documentation on local ranking names three factors: relevance, distance, and prominence. You cannot change distance. Relevance is categories, services, and description. Prominence is reviews, links, and how well known your practice is. So the levers are categories and reviews, in that order. If you see a different box for a physician or organization, see [what a Knowledge Panel is and how a practice can claim one](/guides/google-knowledge-panel-for-a-medical-practice).",
       },
       {
         type: "h2",
@@ -72,7 +72,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Most practices set one category and stop. That leaves nine slots empty, and each slot is a set of searches you are choosing not to appear for. A fully configured primary care profile might carry Family Medicine Physician, Internist, General Practitioner, Medical Clinic, Doctor, Walk-in Clinic where applicable, and Physician. A men's health clinic might carry Medical Clinic, Men's Health Physician, Endocrinologist where a licensed one practices, and Urologist where applicable.",
+        text: "Most practices set one category and stop. That leaves nine slots empty, and each slot is a set of searches you are choosing not to appear for. A fully configured primary care profile might carry Family Medicine Physician, Internist, General Practitioner, Medical Clinic, Doctor, Walk-in Clinic where applicable, and Physician. A men's health clinic might carry Medical Clinic, Men's Health Physician, Endocrinologist where a licensed one practices, and Urologist where applicable. To see where a profile fits beside organic search and paid ads, read [local pack vs organic results vs Google Ads for a practice](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice).",
       },
       {
         type: "callout",
@@ -308,7 +308,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "The practical consequence is not that you must stop measuring. It is that the identity of the visitor and the health meaning of the page must never travel together to a vendor who has not signed a business associate agreement.",
+        text: "The practical consequence is not that you must stop measuring. It is that the identity of the visitor and the health meaning of the page must never travel together to a vendor who has not signed a business associate agreement. Accessibility is the other legal topic for practice sites; see [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website).",
       },
       {
         type: "h2",

@@ -48,7 +48,7 @@ export const guidesPartFour: Guide[] = [
       },
       {
         type: "p",
-        text: "These ranges move with your county. Miami-Dade, Broward, and Palm Beach run near the top of each band because of the sheer number of competing practices; Treasure Coast and North Florida markets often sit twenty to thirty percent lower for the same specialty. Branded searches for your own practice name cost a fraction of these numbers and should almost always be part of the plan, since a competitor can otherwise bid on your name.",
+        text: "These ranges move with your county. Miami-Dade, Broward, and Palm Beach run near the top of each band because of the sheer number of competing practices; Treasure Coast and North Florida markets often sit twenty to thirty percent lower for the same specialty. Branded searches for your own practice name cost a fraction of these numbers and should almost always be part of the plan, since a competitor can otherwise bid on your name. Before setting a budget, compare channels in [local pack vs organic results vs Google Ads for a medical practice](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice).",
       },
       {
         type: "h2",

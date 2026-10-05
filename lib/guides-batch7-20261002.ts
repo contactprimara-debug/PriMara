@@ -141,7 +141,7 @@ export const guidesPartTen: Guide[] = [
       },
       {
         type: "p",
-        text: "The second E — Experience — was added in December 2022, specifically to capture whether the content creator has first-hand or life experience with the topic, separate from formal expertise. For a medical practice, that distinction matters: a provider writing about a condition they actually treat daily demonstrates both expertise and experience, while a freelance content writer with neither may produce technically accurate text that still reads as thin to a rater trained to look for both.",
+        text: "The second E — Experience — was added in December 2022, specifically to capture whether the content creator has first-hand or life experience with the topic, separate from formal expertise. For a medical practice, that distinction matters: a provider writing about a condition they actually treat daily demonstrates both expertise and experience, while a freelance content writer with neither may produce technically accurate text that still reads as thin to a rater trained to look for both. Quality signals like these are exactly what Google's broad ranking changes reassess; see [how to tell if a core update hit your practice site](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit).",
       },
       { type: "h2", text: "Why it matters more for medical content than most" },
       {
@@ -246,7 +246,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What gets a practice penalized" },
       {
         type: "p",
-        text: "Google's link spam policy names specific tactics as violations, not backlinks in general: buying or selling links that pass ranking value, participating in large-scale link exchanges ('link to me and I'll link to you'), excessive guest posting purely for the link rather than the content, and automated link-building services that place your link across hundreds of unrelated sites at once. Widely distributed press releases stuffed with keyword-rich links are explicitly called out as a form of this, which is one reason a press release should use plain brand-name links, not exact-match keyword anchor text.",
+        text: "Google's link spam policy names specific tactics as violations, not backlinks in general: buying or selling links that pass ranking value, participating in large-scale link exchanges ('link to me and I'll link to you'), excessive guest posting purely for the link rather than the content, and automated link-building services that place your link across hundreds of unrelated sites at once. Widely distributed press releases stuffed with keyword-rich links are explicitly called out as a form of this, which is one reason a press release should use plain brand-name links, not exact-match keyword anchor text. If your rankings moved after a major Google update, check whether it was a core update using [this diagnosis guide](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before blaming your links.",
       },
       {
         type: "ul",
@@ -578,7 +578,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Writing it so a journalist will actually use it" },
       {
         type: "p",
-        text: "Lead with the news, not the practice's self-description — a journalist scanning dozens of releases a day needs the actual story in the first sentence, not a paragraph of boilerplate about your mission. Keep it to one page, write it in third person, and include one short, real quote from the provider involved — generic marketing language reads as exactly what it is and gets skipped. Close with accurate, basic contact information for media inquiries, not a sales pitch.",
+        text: "Lead with the news, not the practice's self-description — a journalist scanning dozens of releases a day needs the actual story in the first sentence, not a paragraph of boilerplate about your mission. Keep it to one page, write it in third person, and include one short, real quote from the provider involved — generic marketing language reads as exactly what it is and gets skipped. Close with accurate, basic contact information for media inquiries, not a sales pitch. Independent mentions like these are also what help Google recognize an entity, as covered in [Knowledge Panels for a medical practice](/guides/google-knowledge-panel-for-a-medical-practice).",
       },
       { type: "h2", text: "The link mistake to avoid" },
       {
@@ -677,7 +677,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What 'one site done right' actually requires" },
       {
         type: "p",
-        text: "A single multi-location, multi-provider site only realizes its SEO advantage if it's structured properly — a generic homepage trying to represent five providers and three cities at once does worse than either approach done well. Each location needs its own dedicated page with that location's real address, phone number, hours, and locally relevant content — not a template with the city name swapped and nothing else changed. Each provider needs a real bio page. Each specialty or service needs its own page rather than being buried in a paragraph on a general services page. Internal links need to connect these pages to each other and to the relevant service and location hubs, so the site reads as one coherent structure rather than disconnected pages that happen to share a domain.",
+        text: "A single multi-location, multi-provider site only realizes its SEO advantage if it's structured properly — a generic homepage trying to represent five providers and three cities at once does worse than either approach done well. Each location needs its own dedicated page with that location's real address, phone number, hours, and locally relevant content — not a template with the city name swapped and nothing else changed. Each provider needs a real bio page. Each specialty or service needs its own page rather than being buried in a paragraph on a general services page. Internal links need to connect these pages to each other and to the relevant service and location hubs, so the site reads as one coherent structure rather than disconnected pages that happen to share a domain. If you decide to consolidate several sites into one, plan the redirects using [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain).",
       },
       { type: "h2", text: "The subdomain middle ground, and why it mostly fails" },
       {
