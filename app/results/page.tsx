@@ -138,7 +138,7 @@ export default function ResultsPage() {
               {milestone.items.map((item) => (
                 <li key={item} style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
                   <span aria-hidden="true" style={{ color: "var(--gold)", flexShrink: 0, marginTop: "3px", fontSize: "0.875rem" }}>▸</span>
-                  <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>{item}</p>
+                  <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>{item}</span>
                 </li>
               ))}
             </ul>

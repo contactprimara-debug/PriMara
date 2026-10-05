@@ -293,12 +293,12 @@ export default function AssessmentLandingPage() {
                     {number}
                   </div>
                   <div style={{ width: "24px", height: "1px", background: "var(--gold)" }} />
-                  <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--chalk)", lineHeight: 1.6, margin: 0, opacity: 0.72 }}>
+                  <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--chalk)", lineHeight: 1.6, margin: 0, opacity: 0.72 }}>
                     {label}
-                  </p>
-                  <p style={{ fontFamily: "var(--font-mono, 'Courier New', monospace)", fontSize: "9px", letterSpacing: "0.06em", color: "var(--smoke)", lineHeight: 1.4, margin: 0, borderLeft: "1px solid var(--wire)", paddingLeft: "8px" }}>
+                  </div>
+                  <div style={{ fontFamily: "var(--font-mono, 'Courier New', monospace)", fontSize: "9px", letterSpacing: "0.06em", color: "var(--smoke)", lineHeight: 1.4, margin: 0, borderLeft: "1px solid var(--wire)", paddingLeft: "8px" }}>
                     {source}
-                  </p>
+                  </div>
                 </div>
               ))}
             </div>

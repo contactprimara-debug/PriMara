@@ -769,9 +769,9 @@ export default function DentalPracticesPage() {
                 >
                   {item.value}
                 </div>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", lineHeight: 1.65, color: "var(--ash)", margin: 0 }}>
+                <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", lineHeight: 1.65, color: "var(--ash)", margin: 0 }}>
                   {item.label}
-                </p>
+                </div>
               </div>
             ))}
           </div>

@@ -746,13 +746,13 @@ export default function MentalHealthPage() {
                 >
                   {stat.value}
                 </div>
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", lineHeight: 1.65, color: "var(--ash)", margin: 0 }}>
+                <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", lineHeight: 1.65, color: "var(--ash)", margin: 0 }}>
                   {stat.label}
-                </p>
+                </div>
                 {stat.source && (
-                  <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "11px", color: "var(--smoke)", margin: "6px 0 0", fontStyle: "italic" }}>
+                  <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "11px", color: "var(--smoke)", margin: "6px 0 0", fontStyle: "italic" }}>
                     — {stat.source}
-                  </p>
+                  </div>
                 )}
               </div>
             ))}

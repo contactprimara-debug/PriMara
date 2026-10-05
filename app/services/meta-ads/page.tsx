@@ -344,7 +344,7 @@ export default function MetaAdsPage() {
       {/* Planning benchmarks */}
       <section style={{ backgroundColor: "var(--void)", padding: "clamp(40px, 6vw, 64px) 0", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p
+          <h2
             style={{
               fontFamily: "system-ui, sans-serif",
               fontSize: "10px",
@@ -355,7 +355,7 @@ export default function MetaAdsPage() {
             }}
           >
             Planning Benchmarks
-          </p>
+          </h2>
           <div
             style={{
               display: "grid",
@@ -392,7 +392,7 @@ export default function MetaAdsPage() {
                 >
                   {stat}
                 </div>
-                <p
+                <div
                   style={{
                     fontFamily: "system-ui, sans-serif",
                     fontSize: "0.8125rem",
@@ -403,7 +403,7 @@ export default function MetaAdsPage() {
                   }}
                 >
                   {label}
-                </p>
+                </div>
               </div>
             ))}
           </div>

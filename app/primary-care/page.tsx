@@ -681,7 +681,7 @@ export default function PrimaryCarePage() {
                 >
                   {stat.value}
                 </div>
-                <p
+                <div
                   style={{
                     fontFamily: "system-ui, sans-serif",
                     fontSize: "13px",
@@ -691,9 +691,9 @@ export default function PrimaryCarePage() {
                   }}
                 >
                   {stat.label}
-                </p>
+                </div>
                 {stat.source && (
-                  <p
+                  <div
                     style={{
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "11px",
@@ -703,7 +703,7 @@ export default function PrimaryCarePage() {
                     }}
                   >
                     — {stat.source}
-                  </p>
+                  </div>
                 )}
               </div>
             ))}

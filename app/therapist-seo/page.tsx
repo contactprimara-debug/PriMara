@@ -761,7 +761,7 @@ export default function TherapistSEOPage() {
                       style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}
                     >
                       <span aria-hidden="true" style={{ color: "var(--gold)", flexShrink: 0, marginTop: "3px", fontSize: "0.875rem" }}>▸</span>
-                      <p
+                      <span
                         style={{
                           fontFamily: "system-ui, sans-serif",
                           fontSize: "0.9375rem",
@@ -771,7 +771,7 @@ export default function TherapistSEOPage() {
                         }}
                       >
                         {item}
-                      </p>
+                      </span>
                     </li>
                   ))}
                 </ul>

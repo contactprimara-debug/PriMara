@@ -59,7 +59,7 @@ export default function RelatedLinks({
               }}
               className="related-link-card"
             >
-              <p
+              <h3
                 style={{
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,
@@ -69,7 +69,7 @@ export default function RelatedLinks({
                 }}
               >
                 {label} →
-              </p>
+              </h3>
               <p
                 style={{
                   fontFamily: "system-ui, sans-serif",

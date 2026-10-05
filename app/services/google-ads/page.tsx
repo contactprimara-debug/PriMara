@@ -339,7 +339,7 @@ export default function GoogleAdsPage() {
                 >
                   {stat}
                 </div>
-                <p
+                <div
                   style={{
                     fontFamily: "system-ui, sans-serif",
                     fontSize: "0.8125rem",
@@ -350,7 +350,7 @@ export default function GoogleAdsPage() {
                   }}
                 >
                   {label}
-                </p>
+                </div>
               </div>
             ))}
           </div>
