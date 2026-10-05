@@ -445,6 +445,7 @@ export default function TherapistSEOPage() {
           >
             As the therapist directory space has become more crowded — Psychology Today now lists tens of thousands of therapists — individual listings within the directory are increasingly invisible. Being on page 3 of a Psychology Today therapist search is not meaningfully different from not being on Psychology Today at all.
           </p>
+          <h3 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.3, margin: "1.75rem 0 0.75rem" }}>Where Google Maps changes the picture</h3>
           <p
             style={{
               fontFamily: "system-ui, sans-serif",

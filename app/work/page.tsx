@@ -256,7 +256,7 @@ export default function WorkPage() {
               {/* Left: summary + result */}
               <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
                 <div>
-                  <p
+                  <h3
                     style={{
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "10px",
@@ -267,13 +267,13 @@ export default function WorkPage() {
                     }}
                   >
                     The Practice
-                  </p>
+                  </h3>
                   <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75 }}>
                     {project.practice}
                   </p>
                 </div>
                 <div>
-                  <p
+                  <h3
                     style={{
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "10px",
@@ -284,7 +284,7 @@ export default function WorkPage() {
                     }}
                   >
                     The Engagement
-                  </p>
+                  </h3>
                   <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75 }}>
                     {project.engagement}
                   </p>

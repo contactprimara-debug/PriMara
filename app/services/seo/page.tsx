@@ -439,7 +439,7 @@ export default function SEOServicePage() {
                 >
                   {step.period}
                 </span>
-                <span
+                <h3
                   style={{
                     fontFamily: "var(--font-display), Georgia, serif",
                     fontSize: "1.0625rem",
@@ -448,7 +448,7 @@ export default function SEOServicePage() {
                   }}
                 >
                   {step.heading}
-                </span>
+                </h3>
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.8125rem", color: "var(--ash)", lineHeight: 1.65, margin: 0 }}>
                   {step.body}
                 </p>

@@ -129,7 +129,7 @@ function CardBody({ item }: { item: Item }) {
       </div>
 
       {/* Bottom: detail */}
-      <p
+      <div
         style={{
           fontFamily: "var(--font-ui), system-ui, sans-serif",
           fontSize: "13px",
@@ -142,7 +142,7 @@ function CardBody({ item }: { item: Item }) {
         }}
       >
         {item.detail}
-      </p>
+      </div>
     </>
   );
 }

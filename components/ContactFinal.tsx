@@ -394,7 +394,7 @@ export default function ContactFinal() {
 
             {/* Phone */}
             <div>
-              <p
+              <div
                 style={{
                   fontFamily: 'system-ui, sans-serif',
                   fontSize: '9px',
@@ -405,7 +405,7 @@ export default function ContactFinal() {
                 }}
               >
                 Phone
-              </p>
+              </div>
               <a
                 href="tel:+15612912681"
                 className="nav-link"
@@ -425,7 +425,7 @@ export default function ContactFinal() {
 
             {/* Address — NAP block, character for character GBP match */}
             <div>
-              <p
+              <div
                 style={{
                   fontFamily: 'system-ui, sans-serif',
                   fontSize: '9px',
@@ -436,7 +436,7 @@ export default function ContactFinal() {
                 }}
               >
                 Location
-              </p>
+              </div>
               <address
                 style={{
                   fontStyle: 'normal',
@@ -454,7 +454,7 @@ export default function ContactFinal() {
 
             {/* Email */}
             <div>
-              <p
+              <div
                 style={{
                   fontFamily: 'system-ui, sans-serif',
                   fontSize: '9px',
@@ -465,7 +465,7 @@ export default function ContactFinal() {
                 }}
               >
                 Email
-              </p>
+              </div>
               <a
                 href="mailto:liam.costello@primara365.com"
                 style={{
