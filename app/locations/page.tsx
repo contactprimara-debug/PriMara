@@ -95,9 +95,9 @@ function LocationCardGrid({ locations }: { locations: { slug: string; city: stri
             transition: "border-color 0.2s",
           }}
         >
-          <p style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
+          <h3 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.25rem", color: "var(--chalk)", marginBottom: "8px" }}>
             {loc.city}, FL
-          </p>
+          </h3>
           <p style={{ fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.6 }}>
             {loc.intro.slice(0, 120)}...
           </p>

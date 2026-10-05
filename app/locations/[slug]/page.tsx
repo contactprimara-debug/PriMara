@@ -769,7 +769,7 @@ export default function LocationPage({
         }}
       >
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p
+          <h2
             style={{
               fontFamily: "var(--font-mono)",
               fontSize: "0.75rem",
@@ -780,7 +780,7 @@ export default function LocationPage({
             }}
           >
             Learn More
-          </p>
+          </h2>
           <div
             style={{
               display: "grid",
@@ -811,7 +811,7 @@ export default function LocationPage({
               >
                 {copy.linkCardEyebrow}
               </p>
-              <p
+              <h3
                 style={{
                   fontFamily: "var(--font-fraunces), Georgia, serif",
                   fontSize: "1.0625rem",
@@ -821,7 +821,7 @@ export default function LocationPage({
                 }}
               >
                 {mainVerticalLabel} →
-              </p>
+              </h3>
               <p
                 style={{
                   fontSize: "0.875rem",
@@ -857,7 +857,7 @@ export default function LocationPage({
               >
                 What We Do
               </p>
-              <p
+              <h3
                 style={{
                   fontFamily: "var(--font-fraunces), Georgia, serif",
                   fontSize: "1.0625rem",
@@ -867,7 +867,7 @@ export default function LocationPage({
                 }}
               >
                 All Services →
-              </p>
+              </h3>
               <p
                 style={{
                   fontSize: "0.875rem",
@@ -903,7 +903,7 @@ export default function LocationPage({
               >
                 Highest Leverage
               </p>
-              <p
+              <h3
                 style={{
                   fontFamily: "var(--font-fraunces), Georgia, serif",
                   fontSize: "1.0625rem",
@@ -913,7 +913,7 @@ export default function LocationPage({
                 }}
               >
                 GBP Optimization →
-              </p>
+              </h3>
               <p
                 style={{
                   fontSize: "0.875rem",
@@ -939,7 +939,7 @@ export default function LocationPage({
           }}
         >
           <div className="mx-auto max-w-content px-6 lg:px-8">
-            <p
+            <h2
               style={{
                 fontFamily: "var(--font-mono)",
                 fontSize: "0.75rem",
@@ -950,7 +950,7 @@ export default function LocationPage({
               }}
             >
               Nearby Locations — {verticalLabel}
-            </p>
+            </h2>
             <div
               style={{
                 display: "grid",
@@ -971,7 +971,7 @@ export default function LocationPage({
                     textDecoration: "none",
                   }}
                 >
-                  <p
+                  <h3
                     style={{
                       fontFamily: "var(--font-fraunces), Georgia, serif",
                       fontSize: "1.0625rem",
@@ -981,7 +981,7 @@ export default function LocationPage({
                     }}
                   >
                     {nearby.city}, {nearby.state} →
-                  </p>
+                  </h3>
                   <p
                     style={{
                       fontSize: "0.875rem",
