@@ -369,7 +369,7 @@ export const guidesPartNine: Guide[] = [
       {
         publisher: "Google Search Central",
         label: "Understanding search results and ranking changes",
-        href: "https://developers.google.com/search/docs/monitor-debug/understanding-rankings",
+        href: "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
       },
     ],
     links: [

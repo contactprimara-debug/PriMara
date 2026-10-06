@@ -665,8 +665,8 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "publisher": "Google Search Central",
-        "label": "Understanding how Google ranks results",
-        "href": "https://developers.google.com/search/docs/monitor-debug/understanding-rankings"
+        "label": "A guide to Google Search ranking systems",
+        "href": "https://developers.google.com/search/docs/appearance/ranking-systems-guide"
       }
     ],
     "links": [
