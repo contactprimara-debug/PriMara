@@ -72,7 +72,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "What suspension actually means" },
       {
         type: "p",
-        text: "Google suspends a Business Profile when something about it stops matching what Google believes the real-world business is. It is almost always an automated system reacting to a change — a new address, a name edit, a category added — and deciding the listing cannot be trusted until a human confirms it. So an appeal is not an argument. It is evidence that a real practice operates at that address under that name.",
+        text: "Google suspends a Business Profile when something about it stops matching what Google believes the real-world business is. It is almost always an automated system reacting to a change — a new address, a name edit, a category added — and deciding the listing cannot be trusted until a human confirms it. So an appeal is not an argument. It is evidence that a real practice operates at that address under that name. A common cause is choosing the wrong profile type, which our guide on [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) helps you avoid.",
       },
       { type: "h2", text: "The five things that suspend medical listings" },
       {
@@ -88,7 +88,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "Why the appeal gets denied the first time" },
       {
         type: "p",
-        text: "Two reasons, both fixable. The first is appealing before fixing: the reviewer opens a profile that still breaks the guideline and denies it in seconds. The second is evidence that proves nothing. A screenshot of your own website is worthless, because you control the website. A photo of your sign, the suite door, and a utility bill are third-party facts.",
+        text: "Two reasons, both fixable. The first is appealing before fixing: the reviewer opens a profile that still breaks the guideline and denies it in seconds. The second is evidence that proves nothing. A screenshot of your own website is worthless, because you control the website. A photo of your sign, the suite door, and a utility bill are third-party facts. If you are starting a new listing, our guide on [verifying a Google Business Profile](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice) walks through each method Google may offer.",
       },
       {
         type: "callout",
@@ -279,7 +279,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "When you can get a review removed" },
       {
         type: "p",
-        text: "Google removes reviews that break its prohibited and restricted content policy: spam, impersonation, off-topic content, harassment, hate speech, personal information, or a conflict of interest such as a competitor or former employee posting as a patient. Report it through the profile, name the policy in one sentence, and expect days rather than hours. Reviews that are simply negative are not removable.",
+        text: "Google removes reviews that break its prohibited and restricted content policy: spam, impersonation, off-topic content, harassment, hate speech, personal information, or a conflict of interest such as a competitor or former employee posting as a patient. Report it through the profile, name the policy in one sentence, and expect days rather than hours. Reviews that are simply negative are not removable. The same reply rules apply on directory sites, and our guide on [Healthgrades, Zocdoc and Vitals](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) covers claiming those profiles.",
       },
       { type: "h2", text: "Never gate reviews to avoid this problem" },
       {
@@ -448,12 +448,12 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "Structured data states facts machine-first" },
       {
         type: "p",
-        text: "Schema markup does not make a page rank. It removes ambiguity about what the page says, which is precisely the problem an answer engine is trying to solve. Two rules keep it honest. The markup must describe what a visitor actually sees, because Google's structured data guidelines treat hidden or mismatched markup as spam. And aggregate ratings belong there only when they reflect real, countable reviews.",
+        text: "Schema markup does not make a page rank. It removes ambiguity about what the page says, which is precisely the problem an answer engine is trying to solve. Two rules keep it honest. The markup must describe what a visitor actually sees, because Google's structured data guidelines treat hidden or mismatched markup as spam. And aggregate ratings belong there only when they reflect real, countable reviews. Eligibility also depends on what your robots.txt allows, which we cover in our guide to [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers).",
       },
       { type: "h2", text: "Corroboration: your website is not enough on its own" },
       {
         type: "p",
-        text: "A claim that appears only on your own domain is one a model cannot verify. The same claim in a hospital directory, an association listing and a local news story becomes a fact it will repeat. The sources that carry weight in healthcare are unglamorous: state licensing boards, the National Provider Identifier registry, hospital affiliation pages, insurer provider lookups.",
+        text: "A claim that appears only on your own domain is one a model cannot verify. The same claim in a hospital directory, an association listing and a local news story becomes a fact it will repeat. The sources that carry weight in healthcare are unglamorous: state licensing boards, the National Provider Identifier registry, hospital affiliation pages, insurer provider lookups. To see where you stand today, use the test in our guide on [checking whether AI assistants mention your practice](/guides/how-to-check-if-ai-assistants-mention-your-medical-practice).",
       },
       { type: "h2", text: "How to tell whether it is working" },
       {

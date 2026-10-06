@@ -112,7 +112,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "Why most bio pages rank poorly" },
       {
         type: "p",
-        text: "Most physician bio pages read like a résumé written in the third person: a list of degrees, a stock photo, maybe a paragraph about \"compassionate care.\" That tells Google very little about what the provider actually does, and it tells a patient almost nothing useful for deciding whether to book. A bio page ranks and converts when it answers the two questions a patient actually has: is this the right kind of doctor for my problem, and can I trust their credentials.",
+        text: "Most physician bio pages read like a résumé written in the third person: a list of degrees, a stock photo, maybe a paragraph about \"compassionate care.\" That tells Google very little about what the provider actually does, and it tells a patient almost nothing useful for deciding whether to book. A bio page ranks and converts when it answers the two questions a patient actually has: is this the right kind of doctor for my problem, and can I trust their credentials. When a provider leaves, the page needs a plan, which we cover in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice).",
       },
       { type: "h2", text: "The structure that works" },
       {
@@ -130,7 +130,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "Never invent or exaggerate a credential" },
       {
         type: "p",
-        text: "This is non-negotiable, not a style preference. Every credential, title, and certification listed on a bio page must be exactly accurate and something the provider actually holds — a physician assistant is \"PA-C,\" not implied to be a physician; a nurse practitioner's certification is stated exactly as licensed. Beyond the ethical and legal exposure, inflated or vague credentials are also a trust signal search engines and patients both notice — specificity reads as credible, vagueness reads as evasive.",
+        text: "This is non-negotiable, not a style preference. Every credential, title, and certification listed on a bio page must be exactly accurate and something the provider actually holds — a physician assistant is \"PA-C,\" not implied to be a physician; a nurse practitioner's certification is stated exactly as licensed. Beyond the ethical and legal exposure, inflated or vague credentials are also a trust signal search engines and patients both notice — specificity reads as credible, vagueness reads as evasive. A headshot also needs a file name and alt text that fit the page, as we describe in our guide to [image SEO for a medical practice website](/guides/image-seo-and-alt-text-for-a-medical-practice-website).",
       },
       {
         type: "table",

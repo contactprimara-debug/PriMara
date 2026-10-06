@@ -399,7 +399,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "What to do when a negative review actually arrives" },
       {
         type: "p",
-        text: "Respond promptly, acknowledge the specific concern without disclosing any patient health information, and offer to resolve it offline through your front desk or office manager. A calm, professional public response is itself marketing — it's often the deciding factor for a prospective patient reading through your reviews before calling.",
+        text: "Respond promptly, acknowledge the specific concern without disclosing any patient health information, and offer to resolve it offline through your front desk or office manager. A calm, professional public response is itself marketing — it's often the deciding factor for a prospective patient reading through your reviews before calling. Reviews on physician directories follow the same rules, as our guide to [Healthgrades, Zocdoc and Vitals profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) explains.",
       },
       {
         type: "callout",
@@ -460,7 +460,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Why category choice matters more than most practices realize" },
       {
         type: "p",
-        text: "Google's local ranking algorithm weighs your primary category heavily when matching a search to nearby businesses — it's one of the strongest signals in the whole profile. A dermatology practice categorized as a generic \"Medical clinic\" is competing against every kind of clinic for map pack placement instead of specifically against other dermatologists, and it shows up less often for \"dermatologist near me\" as a result.",
+        text: "Google's local ranking algorithm weighs your primary category heavily when matching a search to nearby businesses — it's one of the strongest signals in the whole profile. A dermatology practice categorized as a generic \"Medical clinic\" is competing against every kind of clinic for map pack placement instead of specifically against other dermatologists, and it shows up less often for \"dermatologist near me\" as a result. Categories work together with the profile type, and our guide to [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) explains that choice.",
       },
       { type: "h2", text: "How to pick your primary category" },
       {
@@ -635,7 +635,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Start with the question, not the service name" },
       {
         type: "p",
-        text: "Most medical service pages open with a paragraph about the practice's mission before ever mentioning what the page is actually about. A patient searching \"knee replacement recovery time\" or \"do I need a referral for a dermatologist\" wants that answer immediately, not after three paragraphs of brand introduction. The first 40 to 60 words on the page should directly answer the core question the page targets — the rest of the page supports and expands on that answer.",
+        text: "Most medical service pages open with a paragraph about the practice's mission before ever mentioning what the page is actually about. A patient searching \"knee replacement recovery time\" or \"do I need a referral for a dermatologist\" wants that answer immediately, not after three paragraphs of brand introduction. The first 40 to 60 words on the page should directly answer the core question the page targets — the rest of the page supports and expands on that answer. Once the page exists, it needs links from related pages, as we explain in our guide to [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website).",
       },
       { type: "h2", text: "The structure that consistently works" },
       {

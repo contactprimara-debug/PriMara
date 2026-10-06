@@ -670,7 +670,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The most common waste is a beautiful site with eight pages. Design does not rank. A site cannot appear for 'hormone therapy Boca Raton' if there is no page about hormone therapy, no matter how good the homepage looks. The second most common is a vendor-locked template that cannot accept structured data or custom page templates, which caps what any future SEO work can achieve and usually forces a rebuild within two years.",
+        text: "The most common waste is a beautiful site with eight pages. Design does not rank. A site cannot appear for 'hormone therapy Boca Raton' if there is no page about hormone therapy, no matter how good the homepage looks. The second most common is a vendor-locked template that cannot accept structured data or custom page templates, which caps what any future SEO work can achieve and usually forces a rebuild within two years. The platform you choose changes the long-term cost, and our guide on [WordPress, Squarespace, Wix and Webflow for a medical practice](/guides/wordpress-vs-squarespace-vs-wix-vs-webflow-for-a-medical-practice) compares the four common options.",
       },
       {
         type: "p",

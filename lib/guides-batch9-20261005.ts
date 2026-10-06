@@ -53,7 +53,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The Pages report, under Indexing, lists URLs Google knows about and whether each is indexed. Not every URL belongs in the index, since login pages and thank-you pages are often excluded on purpose. Focus on the pages you want patients to find: service pages, location pages, and provider pages. If one of those appears under a status such as discovered but not indexed, or crawled but not indexed, treat it as a content or linking problem to investigate. The URL Inspection tool lets you test a single page and see what Google last crawled."
+        "text": "The Pages report, under Indexing, lists URLs Google knows about and whether each is indexed. Not every URL belongs in the index, since login pages and thank-you pages are often excluded on purpose. Focus on the pages you want patients to find: service pages, location pages, and provider pages. If one of those appears under a status such as discovered but not indexed, or crawled but not indexed, treat it as a content or linking problem to investigate. The URL Inspection tool lets you test a single page and see what Google last crawled. Average position is one of several rank sources, and our guide on [tracking local search rankings for a practice](/guides/how-to-track-local-search-rankings-for-a-medical-practice) compares them."
       },
       {
         "type": "h2",
@@ -332,7 +332,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "One practical test: read the page as a new patient who knows nothing about you. Can you tell, in ten seconds, what kind of care is offered, where, by whom, and how to book? If any of those answers takes scrolling or guessing, rewrite the top of the page. Ask a front-desk team member to read it too, since they hear the questions patients actually ask and will spot any detail that no longer matches the office."
+        "text": "One practical test: read the page as a new patient who knows nothing about you. Can you tell, in ten seconds, what kind of care is offered, where, by whom, and how to book? If any of those answers takes scrolling or guessing, rewrite the top of the page. Ask a front-desk team member to read it too, since they hear the questions patients actually ask and will spot any detail that no longer matches the office. Moving a provider between offices touches every listing, and our guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists them."
       }
     ],
     faqs: [
@@ -421,7 +421,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "An XML sitemap is a file, usually at yoursite.com/sitemap.xml, that lists the URLs you want search engines to know about, optionally with the date each last changed. A robots.txt file sits at the root of your domain and gives crawlers instructions about which paths they should not request. One invites, the other asks crawlers to stay away. They work together, but they do not do the same thing, and mixing them up is behind many indexing problems on small practice sites."
+        "text": "An XML sitemap is a file, usually at yoursite.com/sitemap.xml, that lists the URLs you want search engines to know about, optionally with the date each last changed. A robots.txt file sits at the root of your domain and gives crawlers instructions about which paths they should not request. One invites, the other asks crawlers to stay away. They work together, but they do not do the same thing, and mixing them up is behind many indexing problems on small practice sites. AI crawlers read the same file, and our guide on [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers) explains what to allow and what to block."
       },
       {
         "type": "h2",
@@ -447,7 +447,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Robots.txt controls crawling, not indexing. A page you block can still appear in search results if other sites link to it, shown without a description. To keep a page out of search, leave it crawlable and add a noindex directive, or protect it behind a login. Google's documentation says robots.txt is not a way to hide a page. That matters for a practice: never treat robots.txt as protection for anything private, and never place patient information on a public URL at all."
+        "text": "Robots.txt controls crawling, not indexing. A page you block can still appear in search results if other sites link to it, shown without a description. To keep a page out of search, leave it crawlable and add a noindex directive, or protect it behind a login. Google's documentation says robots.txt is not a way to hide a page. That matters for a practice: never treat robots.txt as protection for anything private, and never place patient information on a public URL at all. A sitemap does not replace links between pages, so read our guide on [internal linking for a practice site](/guides/internal-linking-for-a-medical-practice-website) as well."
       },
       {
         "type": "p",
@@ -562,7 +562,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "'Do you take my insurance' is one of the first questions a new patient asks, and many of them leave a site if they cannot find the answer quickly. A clear insurance page also matches a common search, such as 'family doctor that accepts Aetna in Lakeland.' The risk is in accuracy. Plans change, networks differ by product, and an out-of-date list can cost a patient an unexpected bill and cost you their trust."
+        "text": "'Do you take my insurance' is one of the first questions a new patient asks, and many of them leave a site if they cannot find the answer quickly. A clear insurance page also matches a common search, such as 'family doctor that accepts Aetna in Lakeland.' The risk is in accuracy. Plans change, networks differ by product, and an out-of-date list can cost a patient an unexpected bill and cost you their trust. Patients who pay on their own need a companion page, which we describe in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website)."
       },
       {
         "type": "h2",

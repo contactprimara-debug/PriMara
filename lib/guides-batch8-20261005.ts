@@ -40,7 +40,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Sort the searches that bring people to your site into two piles. The first pile is informational: 'what is a nerve block,' 'how long does a physical take.' Those are the searches where a summary can satisfy the reader without a click, so expect softer click-through there over time. The second pile is local and transactional: 'dermatologist near me,' 'primary care accepting new patients,' 'book a telehealth visit.' Those searches are decided by the map pack, your reviews, your hours, and a page that makes booking obvious. A summary does not replace any of that."
+        "text": "Sort the searches that bring people to your site into two piles. The first pile is informational: 'what is a nerve block,' 'how long does a physical take.' Those are the searches where a summary can satisfy the reader without a click, so expect softer click-through there over time. The second pile is local and transactional: 'dermatologist near me,' 'primary care accepting new patients,' 'book a telehealth visit.' Those searches are decided by the map pack, your reviews, your hours, and a page that makes booking obvious. A summary does not replace any of that. You can control how some AI products use your pages, as our guide on [AI crawlers for a medical practice](/guides/should-a-medical-practice-allow-or-block-ai-crawlers) explains."
       },
       {
         "type": "p",
@@ -164,7 +164,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Mobile-first indexing is about which version of your page Google crawls and stores, not about whether your site looks good on a phone. Google's crawler now primarily visits pages as a smartphone user would, and the content it finds that way is what gets indexed. If a paragraph, a table, or a block of markup exists only in the desktop layout, it is effectively invisible to the index."
+        "text": "Mobile-first indexing is about which version of your page Google crawls and stores, not about whether your site looks good on a phone. Google's crawler now primarily visits pages as a smartphone user would, and the content it finds that way is what gets indexed. If a paragraph, a table, or a block of markup exists only in the desktop layout, it is effectively invisible to the index. If you have not chosen a platform yet, read our comparison of [WordPress, Squarespace, Wix and Webflow](/guides/wordpress-vs-squarespace-vs-wix-vs-webflow-for-a-medical-practice) first."
       },
       {
         "type": "p",
@@ -295,11 +295,11 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Search engines build a picture of your practice by matching details across many sources. When the name, address, and phone number agree, the picture is clear. When one directory says 'Suite 200' and another says 'Ste. 2', or one lists a former phone number, the sources look like they describe different businesses, and a patient can land on the wrong one."
+        "text": "Search engines build a picture of your practice by matching details across many sources. When the name, address, and phone number agree, the picture is clear. When one directory says 'Suite 200' and another says 'Ste. 2', or one lists a former phone number, the sources look like they describe different businesses, and a patient can land on the wrong one. A change of provider is one of the common causes of drift, so use our guide to [what to update when a provider joins or leaves a practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) as a checklist."
       },
       {
         "type": "p",
-        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect."
+        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them."
       },
       {
         "type": "h2",
@@ -458,7 +458,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Set a server-side 301 redirect from every old URL to its mapped new URL, and test a meaningful sample by hand, then every URL by script. A 301 tells search engines the move is permanent, so the old address's signals can pass to the new one. Avoid chains where one redirect points to another, and avoid temporary 302 redirects, which signal that the old address will return."
+        "text": "Set a server-side 301 redirect from every old URL to its mapped new URL, and test a meaningful sample by hand, then every URL by script. A 301 tells search engines the move is permanent, so the old address's signals can pass to the new one. Avoid chains where one redirect points to another, and avoid temporary 302 redirects, which signal that the old address will return. If you are still deciding on the name itself, read our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice) before you buy anything."
       },
       {
         "type": "p",
@@ -726,7 +726,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection."
+        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website)."
       },
       {
         "type": "h2",
@@ -848,7 +848,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The difference matters because the fixes differ. Wrong hours or a wrong phone number belong in your Business Profile. A wrong description or photo in a panel about a person or organization is handled through the panel's own feedback and claim process."
+        "text": "The difference matters because the fixes differ. Wrong hours or a wrong phone number belong in your Business Profile. A wrong description or photo in a panel about a person or organization is handled through the panel's own feedback and claim process. Assistants and panels can disagree about the same practice, so our guide to [checking AI assistant answers](/guides/how-to-check-if-ai-assistants-mention-your-medical-practice) shows how to compare them."
       },
       {
         "type": "h2",
@@ -856,7 +856,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google does not accept applications. Its systems assemble a panel when they find enough consistent, reliable information about an entity across the web, such as an official website, structured data, and independent sources that describe it. A new or small practice often has too little independent coverage for the systems to be confident, so no panel appears. That is a data problem, not a penalty."
+        "text": "Google does not accept applications. Its systems assemble a panel when they find enough consistent, reliable information about an entity across the web, such as an official website, structured data, and independent sources that describe it. A new or small practice often has too little independent coverage for the systems to be confident, so no panel appears. That is a data problem, not a penalty. Other map products show their own place cards, and our guide on [Apple Maps and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them."
       },
       {
         "type": "h2",
@@ -971,7 +971,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "AI assistants build an answer from what they learned in training and, when they search the web, from pages they retrieve. If your old address is still on a directory, your site never states the services you offer, or another practice has a similar name, the assistant may repeat the wrong version with complete confidence. It is not reading your mind or your files. It is reflecting the weight of what is written about you online."
+        "text": "AI assistants build an answer from what they learned in training and, when they search the web, from pages they retrieve. If your old address is still on a directory, your site never states the services you offer, or another practice has a similar name, the assistant may repeat the wrong version with complete confidence. It is not reading your mind or your files. It is reflecting the weight of what is written about you online. To find those wrong answers in the first place, follow our guide to [checking whether AI assistants mention your medical practice](/guides/how-to-check-if-ai-assistants-mention-your-medical-practice)."
       },
       {
         "type": "p",
@@ -1249,7 +1249,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A search for a nearby provider can show three kinds of results. The local pack is the map and three listings pulled from Google Business Profiles. Organic results are the regular blue links to web pages. Ads sit at the top and bottom, labeled as sponsored, and you pay when someone clicks. Each has a different cost, a different speed, and a different job."
+        "text": "A search for a nearby provider can show three kinds of results. The local pack is the map and three listings pulled from Google Business Profiles. Organic results are the regular blue links to web pages. Ads sit at the top and bottom, labeled as sponsored, and you pay when someone clicks. Each has a different cost, a different speed, and a different job. Because results differ by location, a single manual search misleads, which our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) explains."
       },
       {
         "type": "h2",

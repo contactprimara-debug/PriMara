@@ -255,7 +255,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Search intent is different: fewer searches, higher consideration" },
       {
         type: "p",
-        text: "\"Direct primary care near me\" and \"concierge doctor [city]\" have real but smaller search volume than \"primary care doctor near me,\" and the people typing those specific phrases already have some awareness of the model — they're closer to a decision than a broad primary-care searcher. That means the page doesn't need to win a crowded local pack fight as much as it needs to be the clearest, most complete answer among the smaller set of practices that show up, and it benefits from content that also targets the earlier-stage searches — \"is direct primary care worth it,\" \"concierge medicine vs regular doctor\" — where the practice can introduce the model to someone who hasn't decided yet.",
+        text: "\"Direct primary care near me\" and \"concierge doctor [city]\" have real but smaller search volume than \"primary care doctor near me,\" and the people typing those specific phrases already have some awareness of the model — they're closer to a decision than a broad primary-care searcher. That means the page doesn't need to win a crowded local pack fight as much as it needs to be the clearest, most complete answer among the smaller set of practices that show up, and it benefits from content that also targets the earlier-stage searches — \"is direct primary care worth it,\" \"concierge medicine vs regular doctor\" — where the practice can introduce the model to someone who hasn't decided yet. Membership and self-pay fees belong on a clear page, and our guide to [publishing self-pay prices on a practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) shows how to build one.",
       },
       { type: "h2", text: "Google Business Profile for a membership-model practice" },
       {
@@ -309,7 +309,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Every real location gets its own profile — no exceptions" },
       {
         type: "p",
-        text: "Google Business Profile is built around physical locations, not brands. A practice with three offices needs three separate profiles, each verified at its own address, each with its own phone number (or a tracked number that still routes correctly), its own hours, and its own set of reviews. Attempting to run one listing that lists multiple addresses, or creating profiles for locations that aren't independently staffed and reachable, violates Google's guidelines and risks suspension. This is the foundation everything else in a multi-location strategy sits on top of.",
+        text: "Google Business Profile is built around physical locations, not brands. A practice with three offices needs three separate profiles, each verified at its own address, each with its own phone number (or a tracked number that still routes correctly), its own hours, and its own set of reviews. Attempting to run one listing that lists multiple addresses, or creating profiles for locations that aren't independently staffed and reachable, violates Google's guidelines and risks suspension. This is the foundation everything else in a multi-location strategy sits on top of. Practices serving Spanish-speaking communities at several offices should also read our guide to [bilingual SEO for a Florida medical practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice).",
       },
       { type: "h2", text: "One page per location, genuinely unique" },
       {
@@ -413,7 +413,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Tracking has to be HIPAA-safe from the first page view" },
       {
         type: "p",
-        text: "A telehealth site's traffic often includes visitors actively researching a health condition before they've become a patient, which is exactly the kind of browsing HHS guidance on tracking technologies treats as protected health information once it can be tied to an individual and a condition. That means no third-party pixels firing on pages that reveal a specific condition, a signed business associate agreement with any analytics or ad platform that could otherwise be a HIPAA violation, and event tracking (form submissions, scheduling clicks) built to capture that an action happened without capturing what health information triggered it.",
+        text: "A telehealth site's traffic often includes visitors actively researching a health condition before they've become a patient, which is exactly the kind of browsing HHS guidance on tracking technologies treats as protected health information once it can be tied to an individual and a condition. That means no third-party pixels firing on pages that reveal a specific condition, a signed business associate agreement with any analytics or ad platform that could otherwise be a HIPAA violation, and event tracking (form submissions, scheduling clicks) built to capture that an action happened without capturing what health information triggered it. Telehealth can be the fallback during a closure, and our guide on [hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) explains how to tell patients.",
       },
       { type: "h2", text: "Where organic content still works without a local pack anchor" },
       {
@@ -478,12 +478,12 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Why so many NP/PA bio pages don't rank" },
       {
         type: "p",
-        text: "The most common problem isn't the credential line, it's everything else: a practice with five NPs often gives each one four sentences that are 90% identical except the name and a swapped specialty word. Search engines treat a set of near-duplicate pages as one page competing with itself, not five pages each capable of ranking for their own provider's name and specialty search. The fix costs nothing but time — a genuinely distinct paragraph per provider about what they actually focus on, written from an interview or a real conversation with that provider, not from a template.",
+        text: "The most common problem isn't the credential line, it's everything else: a practice with five NPs often gives each one four sentences that are 90% identical except the name and a swapped specialty word. Search engines treat a set of near-duplicate pages as one page competing with itself, not five pages each capable of ranking for their own provider's name and specialty search. The fix costs nothing but time — a genuinely distinct paragraph per provider about what they actually focus on, written from an interview or a real conversation with that provider, not from a template. Your bio should match the provider's directory profiles, as our guide on [physician directory profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) explains.",
       },
       { type: "h2", text: "Schema and structure" },
       {
         type: "p",
-        text: "A bio page should carry Person or PhysicianAssistant-appropriate schema (schema.org doesn't have a distinct NP type, so a Person with the correct jobTitle and honorificSuffix is the accurate representation) with the credential stated exactly, medicalSpecialty where applicable, and a link to the practice's Organization entity. This gives an answer engine the structured facts to cite the provider correctly instead of guessing at their role from prose alone.",
+        text: "A bio page should carry Person or PhysicianAssistant-appropriate schema (schema.org doesn't have a distinct NP type, so a Person with the correct jobTitle and honorificSuffix is the accurate representation) with the credential stated exactly, medicalSpecialty where applicable, and a link to the practice's Organization entity. This gives an answer engine the structured facts to cite the provider correctly instead of guessing at their role from prose alone. The same applies on arrival and departure, as our guide on [updating a practice when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lays out step by step.",
       },
       { type: "h2", text: "Where the bio page should link, and what a patient reads it for" },
       {
@@ -537,7 +537,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "The services list is a search-matching tool, not a brochure" },
       {
         type: "p",
-        text: "Google's local search treats the services section of a Business Profile as a direct signal for which specific searches that listing should surface for. A practice that only fills in a general category and skips the services list entirely is relying purely on category-level matching, which misses every more specific search a patient might type — \"same day sick visit,\" \"sports physical,\" \"DOT physical,\" \"ear wax removal\" — each of which is worth listing individually if the practice actually offers it, rather than assuming the category name covers it.",
+        text: "Google's local search treats the services section of a Business Profile as a direct signal for which specific searches that listing should surface for. A practice that only fills in a general category and skips the services list entirely is relying purely on category-level matching, which misses every more specific search a patient might type — \"same day sick visit,\" \"sports physical,\" \"DOT physical,\" \"ear wax removal\" — each of which is worth listing individually if the practice actually offers it, rather than assuming the category name covers it. If you are unsure how your practice should appear on the map at all, read our guide to [service-area versus storefront profiles for a medical practice](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice).",
       },
       { type: "h2", text: "How to build the list out correctly" },
       {
@@ -616,7 +616,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Suggested edits are more common — and more consequential — than most practices realize" },
       {
         type: "p",
-        text: "Google allows the public, other businesses, and its own automated systems to suggest edits to any Business Profile: a changed phone number, a closed status, corrected hours, even a different category. Some low-risk suggested edits go live automatically without the owner's review, on the theory that crowd-sourced corrections usually improve accuracy. For most businesses that works fine. For a medical practice, an incorrect automatic edit — hours marked wrong, a status changed to permanently closed by mistake, a phone number altered — can quietly cost real patient calls for weeks before anyone notices, because nobody's specifically watching for it.",
+        text: "Google allows the public, other businesses, and its own automated systems to suggest edits to any Business Profile: a changed phone number, a closed status, corrected hours, even a different category. Some low-risk suggested edits go live automatically without the owner's review, on the theory that crowd-sourced corrections usually improve accuracy. For most businesses that works fine. For a medical practice, an incorrect automatic edit — hours marked wrong, a status changed to permanently closed by mistake, a phone number altered — can quietly cost real patient calls for weeks before anyone notices, because nobody's specifically watching for it. Hours are the field most often changed by others during a closure, as we explain in our guide to [profile hours and closures in hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season).",
       },
       { type: "h2", text: "How to catch a bad suggested edit" },
       {
@@ -796,7 +796,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "A simple monthly check worth running" },
       {
         type: "p",
-        text: "Pick up a phone once a month, ask its voice assistant \"find [practice type] near me that's open now,\" and listen to what it actually says. If the hours it reads back are wrong, or the practice doesn't come up at all for a search it should reasonably win, that's a direct signal something in the underlying Google Business Profile data needs attention — this five-minute check catches problems faster than waiting for a patient to mention a wrong answer they got from their own phone.",
+        text: "Pick up a phone once a month, ask its voice assistant \"find [practice type] near me that's open now,\" and listen to what it actually says. If the hours it reads back are wrong, or the practice doesn't come up at all for a search it should reasonably win, that's a direct signal something in the underlying Google Business Profile data needs attention — this five-minute check catches problems faster than waiting for a patient to mention a wrong answer they got from their own phone. Then test the result with the question list in our guide on [checking if ChatGPT, Gemini and Perplexity mention you](/guides/how-to-check-if-ai-assistants-mention-your-medical-practice).",
       },
     ],
     faqs: [
@@ -948,11 +948,11 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Health-specific directories carry more weight than general ones" },
       {
         type: "p",
-        text: "Not every citation is worth equal effort. A listing on Healthgrades, Vitals, or a specific insurance network's provider directory tends to matter more for a medical practice's local ranking and for actual patient discovery than a listing on a general small-business directory most patients never browse for healthcare. Prioritize the health-specific and high-traffic general directories first when auditing and correcting, and treat obscure, low-traffic directories as lower priority — worth fixing if found wrong, not worth spending significant time actively pursuing.",
+        text: "Not every citation is worth equal effort. A listing on Healthgrades, Vitals, or a specific insurance network's provider directory tends to matter more for a medical practice's local ranking and for actual patient discovery than a listing on a general small-business directory most patients never browse for healthcare. Prioritize the health-specific and high-traffic general directories first when auditing and correcting, and treat obscure, low-traffic directories as lower priority — worth fixing if found wrong, not worth spending significant time actively pursuing. Two listings often missed are Apple Maps and Bing, which we cover in our guide to [Apple Maps and Bing Places for a medical practice](/guides/apple-maps-and-bing-places-for-a-medical-practice).",
       },
       {
         type: "p",
-        text: "Insurance network directories deserve special attention, since they're often the citation source most likely to be out of date. A practice that changed its phone number or moved offices two years ago but never notified every insurance plan it's credentialed with may still show the old information to patients using that plan's own provider search — a source of inconsistency that's easy to miss because it doesn't live anywhere the practice would normally check.",
+        text: "Insurance network directories deserve special attention, since they're often the citation source most likely to be out of date. A practice that changed its phone number or moved offices two years ago but never notified every insurance plan it's credentialed with may still show the old information to patients using that plan's own provider search — a source of inconsistency that's easy to miss because it doesn't live anywhere the practice would normally check. For physician directories in particular, see our guide on [Healthgrades, Zocdoc and Vitals profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice).",
       },
       { type: "h2", text: "A realistic first pass" },
       {
@@ -1039,7 +1039,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Who should take the photos, and how often" },
       {
         type: "p",
-        text: "A phone camera in good lighting is enough for most of this — a professional photographer is a nice upgrade, not a requirement, especially for the recurring, smaller updates like a new piece of equipment or a staff photo after someone joins. What matters more than equipment is consistency: assign the twice-monthly or monthly task of adding a new photo to a specific person, the same way the Google posting cadence gets assigned, so the photo library keeps growing instead of sitting frozen at whatever was uploaded during initial setup.",
+        text: "A phone camera in good lighting is enough for most of this — a professional photographer is a nice upgrade, not a requirement, especially for the recurring, smaller updates like a new piece of equipment or a staff photo after someone joins. What matters more than equipment is consistency: assign the twice-monthly or monthly task of adding a new photo to a specific person, the same way the Google posting cadence gets assigned, so the photo library keeps growing instead of sitting frozen at whatever was uploaded during initial setup. The same naming and description habits apply on your website, and our guide to [image SEO and alt text for a practice website](/guides/image-seo-and-alt-text-for-a-medical-practice-website) covers them.",
       },
       {
         type: "p",
@@ -1087,7 +1087,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "What a real audit checks, and in what order" },
       {
         type: "p",
-        text: "A local pack audit worth paying attention to doesn't start with reviews or rankings — it starts with the foundation those depend on. Reviews and posting cadence matter, but they can't compensate for a Google Business Profile with the wrong category, a mismatched phone number across directories, or a website whose pages don't actually answer what a patient is searching for. An audit that jumps straight to \"post more\" or \"get more reviews\" without checking the foundation first is either incomplete or is selling a simple fix instead of diagnosing the real one.",
+        text: "A local pack audit worth paying attention to doesn't start with reviews or rankings — it starts with the foundation those depend on. Reviews and posting cadence matter, but they can't compensate for a Google Business Profile with the wrong category, a mismatched phone number across directories, or a website whose pages don't actually answer what a patient is searching for. An audit that jumps straight to \"post more\" or \"get more reviews\" without checking the foundation first is either incomplete or is selling a simple fix instead of diagnosing the real one. For the site-structure part of an audit, our guide on [internal linking for a practice website](/guides/internal-linking-for-a-medical-practice-website) gives a short routine for finding orphan pages.",
       },
       { type: "h2", text: "The four-part audit" },
       {

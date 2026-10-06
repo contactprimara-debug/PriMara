@@ -28,7 +28,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Launch day is where most practices lose rankings, not gain them" },
       {
         type: "p",
-        text: "A new website rarely launches into a vacuum — there's usually an old site with URLs Google has already indexed and existing backlinks aimed at pages about to disappear. The SEO work that matters most happens before the new site goes live, not after. A practice that redesigns its site and loses organic traffic for two months afterward almost always skipped one of the items below — it is a missed step, not bad luck.",
+        text: "A new website rarely launches into a vacuum — there's usually an old site with URLs Google has already indexed and existing backlinks aimed at pages about to disappear. The SEO work that matters most happens before the new site goes live, not after. A practice that redesigns its site and loses organic traffic for two months afterward almost always skipped one of the items below — it is a missed step, not bad luck. Plan the links between pages before launch, using our guide to [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website).",
       },
       { type: "h2", text: "Pre-launch: the non-negotiables" },
       {
@@ -155,12 +155,12 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Reviews: reply to all of them, not just the bad ones" },
       {
         type: "p",
-        text: "Replying only to negative reviews and ignoring five-star ones is a common habit, but a reply to a positive review — even a short, genuine thank-you — signals an actively managed listing and gives the reply a second chance to mention a service line or location keyword naturally. Never offer anything in exchange for a review and never selectively ask only satisfied patients to leave one; both cross into review-gating territory Google's guidelines prohibit.",
+        text: "Replying only to negative reviews and ignoring five-star ones is a common habit, but a reply to a positive review — even a short, genuine thank-you — signals an actively managed listing and gives the reply a second chance to mention a service line or location keyword naturally. Never offer anything in exchange for a review and never selectively ask only satisfied patients to leave one; both cross into review-gating territory Google's guidelines prohibit. Once the Google profile is in order, claim the other map listings described in our guide to [Apple Maps and Bing Places for a medical practice](/guides/apple-maps-and-bing-places-for-a-medical-practice).",
       },
       { type: "h2", text: "Watching the Insights numbers month over month" },
       {
         type: "p",
-        text: "The three numbers worth tracking every month are calls, direction requests, and website clicks from the listing. A flat or declining trend across all three, even while impressions hold steady, usually points at a stale profile — no recent posts, an old primary photo, or a category that no longer matches what the practice actually does. A rising trend in impressions with flat clicks often means the listing is being seen but not chosen over a competitor, which is a signal to look at photos and review count relative to the next-ranked competitor.",
+        text: "The three numbers worth tracking every month are calls, direction requests, and website clicks from the listing. A flat or declining trend across all three, even while impressions hold steady, usually points at a stale profile — no recent posts, an old primary photo, or a category that no longer matches what the practice actually does. A rising trend in impressions with flat clicks often means the listing is being seen but not chosen over a competitor, which is a signal to look at photos and review count relative to the next-ranked competitor. Before storm season, read our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) so the update is a ten-minute job.",
       },
     ],
     faqs: [
@@ -236,7 +236,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Tracking: the part most practices never think about" },
       {
         type: "p",
-        text: "The most common compliance failure isn't in the ad copy — it's in what the tracking pixel sends back to the platform. A conversion event that includes a patient's name, the specific service they booked, or any identifiable health condition in the event parameters is passing protected health information to a third party the practice almost certainly doesn't have a Business Associate Agreement with. The fix is to track that a conversion happened — a form was submitted, a call was placed — without ever passing what the form said or what the call was about into the event itself.",
+        text: "The most common compliance failure isn't in the ad copy — it's in what the tracking pixel sends back to the platform. A conversion event that includes a patient's name, the specific service they booked, or any identifiable health condition in the event parameters is passing protected health information to a third party the practice almost certainly doesn't have a Business Associate Agreement with. The fix is to track that a conversion happened — a form was submitted, a call was placed — without ever passing what the form said or what the call was about into the event itself. If an ad mentions a price, the landing page should state it plainly, as our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains.",
       },
       {
         type: "table",
@@ -393,7 +393,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "AI answer engines read differently than a person skimming a page" },
       {
         type: "p",
-        text: "A person skimming a page tolerates a long lead-in before the actual answer. An AI system extracting an answer to quote or summarize does not — it's looking for a clean, self-contained question-and-answer pair it can lift without needing the surrounding paragraph for context. A practice FAQ written as marketing copy (\"At [Practice], we believe every patient deserves...\") gets skipped over in favor of a competitor's FAQ that states the answer plainly in the first sentence, even if the marketing-copy version has more accurate or more complete information underneath.",
+        text: "A person skimming a page tolerates a long lead-in before the actual answer. An AI system extracting an answer to quote or summarize does not — it's looking for a clean, self-contained question-and-answer pair it can lift without needing the surrounding paragraph for context. A practice FAQ written as marketing copy (\"At [Practice], we believe every patient deserves...\") gets skipped over in favor of a competitor's FAQ that states the answer plainly in the first sentence, even if the marketing-copy version has more accurate or more complete information underneath. Writing the answers is half the job, and the other half is deciding which crawlers may read them, covered in our guide to [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers).",
       },
       { type: "h2", text: "What makes an FAQ answer AI-extractable" },
       {
@@ -479,7 +479,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "The contact page is a local SEO signal, not just a convenience" },
       {
         type: "p",
-        text: "A contact page gets treated by most practices as an afterthought — a form and a Google Map embed. But it's one of the pages Google actually looks at to confirm the business details on a listing match the business details on the website, which is one of the local ranking factors that keeps a Google Business Profile trustworthy. A contact page with a stale address, a phone number that doesn't match the listing, or an address that only exists inside a map image (with no selectable text) is a real, measurable gap.",
+        text: "A contact page gets treated by most practices as an afterthought — a form and a Google Map embed. But it's one of the pages Google actually looks at to confirm the business details on a listing match the business details on the website, which is one of the local ranking factors that keeps a Google Business Profile trustworthy. A contact page with a stale address, a phone number that doesn't match the listing, or an address that only exists inside a map image (with no selectable text) is a real, measurable gap. If you charge self-pay fees, link the contact page to the price page described in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website).",
       },
       { type: "h2", text: "What has to be on the page, as real text" },
       {
@@ -495,7 +495,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Schema markup the page should carry" },
       {
         type: "p",
-        text: "LocalBusiness or MedicalBusiness schema on the contact page (or sitewide, referencing the same entity) should restate the name, address, phone, hours, and geo-coordinates in structured, machine-readable form — this is what lets Google and other search engines confirm the visible page content and the underlying data agree. It should also include the same social profile links (sameAs) used elsewhere on the site, so every mention of the business ties back to one consistent entity.",
+        text: "LocalBusiness or MedicalBusiness schema on the contact page (or sitewide, referencing the same entity) should restate the name, address, phone, hours, and geo-coordinates in structured, machine-readable form — this is what lets Google and other search engines confirm the visible page content and the underlying data agree. It should also include the same social profile links (sameAs) used elsewhere on the site, so every mention of the business ties back to one consistent entity. When you close for a storm, the contact page needs a notice, which we describe in our guide to [hurricane season hours and closures](/guides/google-business-profile-hours-and-closures-during-hurricane-season).",
       },
       {
         type: "table",
@@ -713,7 +713,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "A rebrand is a name change layered on top of everything a launch checklist covers" },
       {
         type: "p",
-        text: "Renaming a practice — after a merger, an ownership change, or an expansion into a new service line — carries every risk of a fresh website launch, plus one additional risk unique to renaming: the business name itself is one of the core signals tying every existing citation, review, and backlink to the entity Google already trusts. Change it carelessly and Google has to re-establish, from a name mismatch, which listing and which set of reviews actually belong to which business.",
+        text: "Renaming a practice — after a merger, an ownership change, or an expansion into a new service line — carries every risk of a fresh website launch, plus one additional risk unique to renaming: the business name itself is one of the core signals tying every existing citation, review, and backlink to the entity Google already trusts. Change it carelessly and Google has to re-establish, from a name mismatch, which listing and which set of reviews actually belong to which business. A new name usually means a new address, and our guide on [choosing a domain name](/guides/how-to-choose-a-domain-name-for-a-medical-practice) covers what makes one that lasts.",
       },
       { type: "h2", text: "The update-everywhere-at-once rule" },
       {
@@ -794,7 +794,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "\"Traffic is up\" is not the same as \"marketing is working\"" },
       {
         type: "p",
-        text: "A practice can see website sessions climb, Google Business Profile impressions rise, and still have no idea whether marketing spend is paying off — because none of that tells you how many of those visits turned into an actual booked, paying patient. ROI measurement requires connecting three separate systems that most practices never actually wire together: where a lead came from, what it cost to generate, and what a patient is actually worth once booked.",
+        text: "A practice can see website sessions climb, Google Business Profile impressions rise, and still have no idea whether marketing spend is paying off — because none of that tells you how many of those visits turned into an actual booked, paying patient. ROI measurement requires connecting three separate systems that most practices never actually wire together: where a lead came from, what it cost to generate, and what a patient is actually worth once booked. For the rank side of the picture, see our guide on [how to track local search rankings for a medical practice](/guides/how-to-track-local-search-rankings-for-a-medical-practice).",
       },
       { type: "h2", text: "Step one: track every lead source to one place" },
       {

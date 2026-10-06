@@ -38,7 +38,7 @@ export const guidesPartTen: Guide[] = [
       },
       {
         type: "p",
-        text: "Attributes are not a ranking factor the way reviews or proximity are. Google has never published them as part of the local ranking algorithm. What they do is narrow who sees you at all once a patient applies a filter, and they add small trust signals — a 'verified' badge, an identity attribute — that can tip a close decision between two listings a patient is already comparing.",
+        text: "Attributes are not a ranking factor the way reviews or proximity are. Google has never published them as part of the local ranking algorithm. What they do is narrow who sees you at all once a patient applies a filter, and they add small trust signals — a 'verified' badge, an identity attribute — that can tip a close decision between two listings a patient is already comparing. Which attributes apply can depend on how you serve patients, and our guide on [storefront and service-area profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) covers the type decision.",
       },
       { type: "h2", text: "Two kinds of attributes, and who controls each" },
       {
@@ -52,7 +52,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Which attributes matter most for a medical practice" },
       {
         type: "p",
-        text: "Accessibility attributes come first: wheelchair accessible entrance, restroom, and parking lot are genuinely used as search filters by patients who need them, and leaving them blank reads as 'unknown,' not 'no.' Service-option attributes — online appointments, onsite services, online care — matter next, because they answer the exact question a patient is trying to resolve before they even click through: can I book this without calling? After that, identity attributes (women-led, veteran-led, LGBTQ+ friendly) are optional but, when true, worth turning on; a false attribute is worse than no attribute, and Google does remove profiles found gaming them.",
+        text: "Accessibility attributes come first: wheelchair accessible entrance, restroom, and parking lot are genuinely used as search filters by patients who need them, and leaving them blank reads as 'unknown,' not 'no.' Service-option attributes — online appointments, onsite services, online care — matter next, because they answer the exact question a patient is trying to resolve before they even click through: can I book this without calling? After that, identity attributes (women-led, veteran-led, LGBTQ+ friendly) are optional but, when true, worth turning on; a false attribute is worse than no attribute, and Google does remove profiles found gaming them. Language attributes should only be selected if true, and our guide to [bilingual SEO for a Florida practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how that fits with Spanish pages.",
       },
       { type: "h2", text: "Keeping them accurate over time" },
       {
@@ -663,7 +663,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Why one site usually wins for SEO" },
       {
         type: "p",
-        text: "Search authority — the accumulated trust and relevance signals Google associates with a domain — builds per domain, not per page. Every backlink earned, every review schema reference, every year of site history adds to one pool when it's one domain, or gets split into several smaller, weaker pools when it's spread across multiple sites. A practice with three locations and five providers under one domain, with a dedicated page per location and per provider, concentrates all of that accumulated trust behind every individual page — including brand-new ones, which inherit some of the domain's established authority from day one.",
+        text: "Search authority — the accumulated trust and relevance signals Google associates with a domain — builds per domain, not per page. Every backlink earned, every review schema reference, every year of site history adds to one pool when it's one domain, or gets split into several smaller, weaker pools when it's spread across multiple sites. A practice with three locations and five providers under one domain, with a dedicated page per location and per provider, concentrates all of that accumulated trust behind every individual page — including brand-new ones, which inherit some of the domain's established authority from day one. The address comes first in any launch, and our guide on [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice) explains how to choose and register it.",
       },
       { type: "h2", text: "When separate sites genuinely make sense" },
       {
@@ -682,7 +682,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "The subdomain middle ground, and why it mostly fails" },
       {
         type: "p",
-        text: "Some practices try a middle path — putting each location or specialty on its own subdomain (miami.practicename.com, dental.practicename.com) hoping to get both separation and shared authority. Google generally treats subdomains as close to, but not identical to, the root domain for authority-sharing purposes, and the practical result is usually worse than either clean option: you get most of the management overhead of separate sites — separate hosting, separate technical SEO work, separate content calendars — without fully capturing the consolidated authority of one true single site. Unless there's a specific technical or organizational reason forcing a subdomain split, a single domain with well-structured subfolders (practicename.com/locations/miami) is almost always the stronger choice.",
+        text: "Some practices try a middle path — putting each location or specialty on its own subdomain (miami.practicename.com, dental.practicename.com) hoping to get both separation and shared authority. Google generally treats subdomains as close to, but not identical to, the root domain for authority-sharing purposes, and the practical result is usually worse than either clean option: you get most of the management overhead of separate sites — separate hosting, separate technical SEO work, separate content calendars — without fully capturing the consolidated authority of one true single site. Unless there's a specific technical or organizational reason forcing a subdomain split, a single domain with well-structured subfolders (practicename.com/locations/miami) is almost always the stronger choice. The tool you build on matters as much as the structure, and our guide to [WordPress, Squarespace, Wix and Webflow](/guides/wordpress-vs-squarespace-vs-wix-vs-webflow-for-a-medical-practice) compares four common platforms.",
       },
     ],
     faqs: [

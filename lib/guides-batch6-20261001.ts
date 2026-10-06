@@ -168,7 +168,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Find every listing first" },
       {
         type: "p",
-        text: "Search your exact practice name in Google Maps, and separately in Google Search, from a browser that is not logged into your GBP manager account (an incognito window works). Also search the old address if you moved, and any previous practice name if you rebranded. Write down every result's name, address, phone number, and review count before touching anything — you need the full picture before deciding which one is the keeper.",
+        text: "Search your exact practice name in Google Maps, and separately in Google Search, from a browser that is not logged into your GBP manager account (an incognito window works). Also search the old address if you moved, and any previous practice name if you rebranded. Write down every result's name, address, phone number, and review count before touching anything — you need the full picture before deciding which one is the keeper. If you are unsure whether a profile is verified, our guide on [verifying a Google Business Profile](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice) explains the methods and what to do when a code does not arrive.",
       },
       { type: "h2", text: "Decide which listing is the correct one" },
       {
@@ -326,7 +326,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What \"it's working\" looks like before rankings move" },
       {
         type: "p",
-        text: "The mistake we see most is a practice judging the first 60 days purely by Google ranking position, which is the slowest-moving signal. Watch Google Business Profile insights (calls, direction requests, website clicks from the listing) and Search Console impressions (how often your pages are shown, even before they're clicked) instead — both typically move weeks before rankings do, and both are early, honest evidence the work is taking hold.",
+        text: "The mistake we see most is a practice judging the first 60 days purely by Google ranking position, which is the slowest-moving signal. Watch Google Business Profile insights (calls, direction requests, website clicks from the listing) and Search Console impressions (how often your pages are shown, even before they're clicked) instead — both typically move weeks before rankings do, and both are early, honest evidence the work is taking hold. To measure that movement properly, use the routine in our guide to [tracking local search rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice).",
       },
       { type: "h2", text: "What to do if nothing has moved by month four" },
       {
@@ -429,7 +429,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "These are field metrics, meaning Google measures them from real visitors' browsers, not a lab simulation, through the Chrome User Experience Report. A page can look fast in a quick manual check and still fail Core Web Vitals if real visitors on real phones over real cellular connections experience it differently — which, for a medical practice, most of your patients are.",
+        text: "These are field metrics, meaning Google measures them from real visitors' browsers, not a lab simulation, through the Chrome User Experience Report. A page can look fast in a quick manual check and still fail Core Web Vitals if real visitors on real phones over real cellular connections experience it differently — which, for a medical practice, most of your patients are. Heavy photos are a common cause of a slow page, so see our guide on [image SEO and alt text](/guides/image-seo-and-alt-text-for-a-medical-practice-website) for how to prepare each image before it goes live.",
       },
       { type: "h2", text: "Why this matters for a medical practice specifically" },
       {
@@ -561,7 +561,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What not to do" },
       {
         type: "p",
-        text: "Never mark up a fact that isn't true to try to win a richer result — a review count you don't have, a credential a provider doesn't hold, aggregateRating without real, verifiable review data behind it. Google's structured data guidelines explicitly prohibit this, and the penalty for being caught is a structured-data-specific manual action that can strip rich results sitewide, which is a worse outcome than never having added the markup at all.",
+        text: "Never mark up a fact that isn't true to try to win a richer result — a review count you don't have, a credential a provider doesn't hold, aggregateRating without real, verifiable review data behind it. Google's structured data guidelines explicitly prohibit this, and the penalty for being caught is a structured-data-specific manual action that can strip rich results sitewide, which is a worse outcome than never having added the markup at all. Structured data should match each language version, as our guide on [bilingual Spanish and English SEO](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) describes.",
       },
     ],
     faqs: [
@@ -1113,7 +1113,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "A common mistake is chasing the highest-volume keyword regardless of intent. \"Doctor\" alone might show enormous volume, but it's so broad it converts almost nobody — you're competing with hospital systems, WebMD, and every practice in the country for a searcher who hasn't even decided what kind of doctor they need yet. A lower-volume, specific phrase with clear booking intent is worth more than a high-volume vague one.",
+        text: "A common mistake is chasing the highest-volume keyword regardless of intent. \"Doctor\" alone might show enormous volume, but it's so broad it converts almost nobody — you're competing with hospital systems, WebMD, and every practice in the country for a searcher who hasn't even decided what kind of doctor they need yet. A lower-volume, specific phrase with clear booking intent is worth more than a high-volume vague one. If your patients search in Spanish, our guide on [bilingual Spanish and English SEO](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how to set up pages for those searches.",
       },
       { type: "h2", text: "Where to find phrases a tool alone won't surface" },
       {

@@ -88,7 +88,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Two hard rules. Do not offer anything of value for a review; the Federal Trade Commission's consumer review rule treats incentivized reviews as deceptive when the incentive is undisclosed or conditioned on sentiment. Do not screen patients before asking — sending happy ones to Google and unhappy ones to a private form is review gating, prohibited by Google and covered by the same FTC rule.",
+        text: "Two hard rules. Do not offer anything of value for a review; the Federal Trade Commission's consumer review rule treats incentivized reviews as deceptive when the incentive is undisclosed or conditioned on sentiment. Do not screen patients before asking — sending happy ones to Google and unhappy ones to a private form is review gating, prohibited by Google and covered by the same FTC rule. None of this works until the listing is confirmed, as our guide on [verifying a profile for a medical practice](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice) explains.",
       },
       {
         type: "p",
@@ -304,7 +304,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "In 2022 the Office for Civil Rights published guidance stating that information collected by online tracking technologies on a covered entity's website can be protected health information, including when the only facts are an IP address and the page visited. The reasoning is simple: an IP address plus a page about a specific condition is enough to indicate that an identifiable person sought care for that condition. Enforcement actions and class actions followed, and healthcare sites are now a standing target.",
+        text: "In 2022 the Office for Civil Rights published guidance stating that information collected by online tracking technologies on a covered entity's website can be protected health information, including when the only facts are an IP address and the page visited. The reasoning is simple: an IP address plus a page about a specific condition is enough to indicate that an identifiable person sought care for that condition. Enforcement actions and class actions followed, and healthcare sites are now a standing target. Platform choice also decides which vendors handle form data, as our guide on [website platforms for a medical practice](/guides/wordpress-vs-squarespace-vs-wix-vs-webflow-for-a-medical-practice) explains.",
       },
       {
         type: "p",
@@ -728,7 +728,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Almost every new practice does these tasks eventually. The ones that fill faster do them in this order, because each step makes the next cheaper. A verified profile costs nothing and produces calls in weeks. A site without a profile is invisible to the map pack. Ads run before either are in place pay to send traffic to something that cannot convert it.",
+        text: "Almost every new practice does these tasks eventually. The ones that fill faster do them in this order, because each step makes the next cheaper. A verified profile costs nothing and produces calls in weeks. A site without a profile is invisible to the map pack. Ads run before either are in place pay to send traffic to something that cannot convert it. Verification of the Google listing is an early step, covered in our guide to [verifying a Google Business Profile for a medical practice](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice).",
       },
       {
         type: "h2",
@@ -785,7 +785,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "A correctly executed first quarter in a mid-competition Florida city usually produces a verified profile appearing for branded and a handful of neighborhood searches, ten to twenty reviews, a site indexed with eight to twelve pages, and a measurable trickle of calls from the profile. That is not a full schedule. It is the foundation that makes months four through nine produce one, and it is roughly a two-to-three-quarter path to a steady flow of new patients from search.",
+        text: "A correctly executed first quarter in a mid-competition Florida city usually produces a verified profile appearing for branded and a handful of neighborhood searches, ten to twenty reviews, a site indexed with eight to twelve pages, and a measurable trickle of calls from the profile. That is not a full schedule. It is the foundation that makes months four through nine produce one, and it is roughly a two-to-three-quarter path to a steady flow of new patients from search. One of the first decisions is the web address, which we cover in our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice).",
       },
     ],
     faqs: [
