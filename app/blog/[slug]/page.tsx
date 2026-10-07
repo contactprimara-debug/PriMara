@@ -255,7 +255,7 @@ function RenderSection({ section }: { section: BlogSection }) {
               marginBottom: section.cite ? "0.75rem" : 0,
             }}
           >
-            {section.text}
+            {section.text ? renderBlogText(section.text) : null}
           </p>
           {section.cite && (
             <cite

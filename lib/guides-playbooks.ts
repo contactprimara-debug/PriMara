@@ -76,7 +76,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "callout",
-        text: "Add only categories your practice truly serves. A category you cannot back up is a suspension risk, and suspensions take weeks to reverse.",
+        text: "Add only categories your practice truly serves. A category you cannot back up is a suspension risk, and suspensions take weeks to reverse. Primary care practices can see the category choice worked through in [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors).",
       },
       {
         type: "h2",
@@ -697,7 +697,7 @@ export const guidesPartTwo: Guide[] = [
       steps: [
         {
           name: "Days 1–14: claim the ground",
-          text: "Register the domain and a practice email on it. Create and verify the Google Business Profile with the most specific primary category. Set consistent name, address, and phone details everywhere they appear.",
+          text: "Register the domain and a practice email on it. Create and verify the Google Business Profile with the most specific primary category. Set consistent name, address, and phone details everywhere they appear. [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors) covers the choice for that specialty.",
         },
         {
           name: "Days 15–30: publish a site that can rank",
@@ -709,7 +709,7 @@ export const guidesPartTwo: Guide[] = [
         },
         {
           name: "Days 46–60: start the review engine",
-          text: "Give the front desk a fixed script and a short link. Ask every patient, without filtering. Three to five reviews a month from month two is a stronger position than most established competitors hold.",
+          text: "Give the front desk a fixed script and a short link. Ask every patient, without filtering. Three to five reviews a month from month two is a stronger position than most established competitors hold. [How many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need) puts that number in context.",
         },
         {
           name: "Days 61–75: build local relationships",

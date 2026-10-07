@@ -342,7 +342,7 @@ function Section({ section }: { section: GuideSection }) {
                     {row[0]}
                   </th>
                   <td style={{ padding: "12px", borderBottom: "1px solid var(--wire)", color: "var(--color-text-muted)", lineHeight: 1.65 }}>
-                    {row[1]}
+                    {renderInline(row[1])}
                   </td>
                 </tr>
               ))}

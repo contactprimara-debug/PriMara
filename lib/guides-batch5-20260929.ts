@@ -837,7 +837,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "A website testimonial is not the same thing as a Google review" },
       {
         type: "p",
-        text: "A Google review lives on Google's platform under Google's policies. A testimonial a practice chooses to feature on its own website or in an ad is the practice's own marketing content, and it carries two separate sets of obligations: HIPAA, because using any patient's story or likeness in marketing requires their authorization, and the FTC's endorsement and advertising rules, because a testimonial is a form of advertising claim regardless of who wrote the original words. Treating a testimonial as \"just a nice quote a patient sent us\" skips both.",
+        text: "A Google review lives on Google's platform under Google's policies. A testimonial a practice chooses to feature on its own website or in an ad is the practice's own marketing content, and it carries two separate sets of obligations: HIPAA, because using any patient's story or likeness in marketing requires their authorization, and the FTC's endorsement and advertising rules, because a testimonial is a form of advertising claim regardless of who wrote the original words. Treating a testimonial as \"just a nice quote a patient sent us\" skips both. For the practical question of volume, see [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need).",
       },
       { type: "h2", text: "The consent a testimonial actually needs" },
       {
