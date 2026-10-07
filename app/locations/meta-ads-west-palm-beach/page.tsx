@@ -198,13 +198,18 @@ export default function MetaAdsWestPalmBeachPage() {
               good concept for a year somewhere else will find it stops working in a couple of
               months here.
             </p>
-            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
               That is a production problem before it is a media problem, and it is the reason
               being local is worth something. Filming a provider properly takes a morning when
               the agency can drive over; it takes weeks of back-and-forth when it cannot. We
               run this market from inside it, for independent practices, medspas, and dental
               clinics — not for the hospital systems or the franchise groups on the other side
               of the auction.
+            </p>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
+              Cost per impression is the wrong number to watch here: summer impressions are cheap
+              because they are worth less. Seasonal residents also pick providers in the first weeks
+              after they arrive, so retargeting pools and landing pages need to be warm by October.
             </p>
           </div>
         </div>

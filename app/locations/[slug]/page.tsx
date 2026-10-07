@@ -8,6 +8,7 @@ import { medspaLocations, type MedspaLocation } from "@/lib/locations-medspas";
 import { dentalLocations, type DentalLocation } from "@/lib/locations-dental";
 import { metaAdsLocations, type MetaAdsLocation } from "@/lib/locations-meta-ads";
 import { regionFor } from "@/lib/locations-regions";
+import locationMerges from "@/lib/location-merges.json";
 
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
 type MentalLoc = MentalHealthLocation & { type: "mental-health" };
@@ -173,7 +174,12 @@ export default function LocationPage({
   // fallback if a region doesn't have enough same-vertical cities yet.
   const currentRegion = regionFor(loc.city);
   const currentRegionIndex = currentRegion ? currentRegion.cities.indexOf(loc.city) : -1;
-  const nearbyLocations = allLocations
+  // A city whose page was merged into a hand-built keeper (lib/location-merges.json)
+  // no longer has a data entry, but its neighbours should still link to the keeper.
+  const mergedAsNearby = locationMerges
+    .filter((m) => m.type === loc.type)
+    .map((m) => ({ slug: m.to, city: m.city, state: m.state, type: m.type }));
+  const nearbyLocations = [...allLocations, ...mergedAsNearby]
     .filter((l) => l.type === loc.type && l.slug !== loc.slug)
     .map((l) => {
       const sameRegion = !!currentRegion && currentRegion.cities.includes(l.city);

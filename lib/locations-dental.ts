@@ -172,57 +172,6 @@ export const dentalLocations: DentalLocation[] = [
     ],
   },
   {
-    slug: "west-palm-beach-dental-marketing",
-    city: "West Palm Beach",
-    state: "FL",
-    metaTitle: "Dental Marketing in West Palm Beach, FL | Primara",
-    metaDescription:
-      "Primara helps West Palm Beach dentists capture seasonal snowbird demand and implant cases with Meta Ads, GBP optimization, and review systems. Call (561) 291-2681.",
-    h1: "Dental Marketing for Independent Practices in West Palm Beach, FL",
-    intro:
-      "West Palm Beach dentistry runs on a calendar most of the country does not have. Between November and April the city's part-time residents arrive, and a meaningful share of them need dental work they postponed up north — a crown that failed, a bridge that came loose, an implant consult they never scheduled. They have a finite window, they search hard, and they decide fast. A practice that is invisible in October has already lost the season.",
-    localContext:
-      "Palm Beach County's dental competition splits along an unusual line. On one side sit the volume operators: retail chains and multi-location groups clustered along Okeechobee Boulevard, Military Trail, and Palm Beach Lakes Boulevard, competing on convenience, extended hours, and payment plans. On the other side sit practices serving the county's very large older population with restorative and prosthetic work — implant-supported dentures, full-mouth rehabilitation, and the staged treatment planning that an aging dentition requires. Corporate denture-and-implant brands have targeted that second group aggressively across the county, because the case values are high and the demand is demographically guaranteed.\n\nThe seasonal layer is what independents routinely under-exploit. Snowbird patients are not price shoppers in the usual sense — they are time-constrained. They want to know who can see them quickly, who can complete treatment before they leave, and who they can trust based on reviews written by people like them. Downtown's growth has added a second, younger cohort: the SoSo, Northwood, and Flamingo Park corridors have filled with working-age residents who arrived without a dentist and want aligners, whitening, and a practice that answers a text. Those two audiences require different messaging, and running one campaign for both is why most local dental advertising here underperforms.",
-    services:
-      "We build West Palm Beach campaigns on a seasonal schedule rather than a flat monthly one. Google Business Profile work — categories, 30+ service entries in patient phrasing, current photography, and accurate appointment-type attributes — is completed before October so the profile is mature when search volume spikes. Review generation via NFC tap cards runs year-round, but we push hardest in season, because reviews written by seasonal residents mentioning their situation are exactly the social proof next season's arrivals respond to.\n\nMeta Ads then splits into two distinct campaigns. One targets the 60+ audience with restorative and implant-supported denture messaging, weighted to the winter months when the audience is physically in the county — Meta's location targeting handles that shift automatically, which most practices never take advantage of. The second runs year-round to the downtown and SoSo working-age audience with clear aligner and cosmetic offers, where the case values support the spend and the buying decision is discretionary enough that interruption advertising outperforms search. The website underneath both carries neighborhood pages for Northwood, Flamingo Park, SoSo, and the downtown waterfront, plus treatment pages built for the restorative searches that dominate this market's high-value volume.",
-    whyNow:
-      "The seasonal window is the constraint that makes delay expensive here in a way it is not elsewhere. Local search authority takes roughly three to six months to build; review counts take longer. A practice that starts in September is not ready for the season that begins eight weeks later, and the next opportunity is a full year away. Meanwhile corporate denture and implant brands advertise through the summer specifically so their profiles and retargeting pools are warm when the population doubles.",
-    landmarks: [
-      "Northwood Village",
-      "SoSo (South of Southern)",
-      "Flamingo Park",
-      "Rosemary Square",
-      "Okeechobee Boulevard corridor",
-    ],
-    competitors: [
-      "Corporate denture and implant brands across Palm Beach County",
-      "Multi-location group practices on Military Trail",
-      "Retail dental chains on Okeechobee and Palm Beach Lakes Blvd",
-    ],
-    faqs: [
-      {
-        q: "Does Primara work with dental practices in West Palm Beach?",
-        a: "Primara actively works with independent dental practices in West Palm Beach. The engagement is standard across every market \u2014 Meta Ads, GBP optimization, monthly reports, delivered remotely \u2014 but the strategy is built around who a West Palm Beach practice actually competes against, which here means Corporate denture and implant brands across Palm Beach County and Multi-location group practices on Military Trail.",
-      },
-      {
-        q: "Who is an independent West Palm Beach dental practice competing against?",
-        a: "On one side sit the volume operators: retail chains and multi-location groups clustered along Okeechobee Boulevard, Military Trail, and Palm Beach Lakes Boulevard, competing on convenience, extended hours, and payment plans. On the other side sit practices serving the county's very large older population with restorative and prosthetic work \u2014 implant-supported dentures, full-mouth rehabilitation, and the staged treatment planning that an aging dentition requires.",
-      },
-      {
-        q: "What makes West Palm Beach's dental market different from other Florida cities?",
-        a: "Between November and April the city's part-time residents arrive, and a meaningful share of them need dental work they postponed up north \u2014 a crown that failed, a bridge that came loose, an implant consult they never scheduled. They have a finite window, they search hard, and they decide fast. A practice that is invisible in October has already lost the season.",
-      },
-      {
-        q: "Why should an independent West Palm Beach dental practice start now instead of waiting?",
-        a: "The seasonal window is the constraint that makes delay expensive here in a way it is not elsewhere. Local search authority takes roughly three to six months to build; review counts take longer. A practice that starts in September is not ready for the season that begins eight weeks later, and the next opportunity is a full year away.",
-      },
-      {
-        q: "What areas within West Palm Beach does this cover?",
-        a: "Coverage spans West Palm Beach, including Northwood Village, SoSo (South of Southern) and Flamingo Park. Corporate denture and implant brands across Palm Beach County and Multi-location group practices on Military Trail compete for the same searches across those same neighborhoods, which is why a West Palm Beach practice's Google Business Profile and ad creative need to speak to those areas specifically.",
-      },
-    ],
-  },
-  {
     slug: "palm-beach-gardens-dental-marketing",
     city: "Palm Beach Gardens",
     state: "FL",

@@ -191,12 +191,24 @@ export default function MedspasWestPalmBeachPage() {
               covering the whole catchment, which usually explains a gap the clinic already
               felt but could not locate.
             </p>
-            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
               The second thing this corridor does is exhaust ad creative. Between Jupiter and
               Boca Raton there are enough aesthetic clinics advertising that a resident sees a
               lot of them, and a concept that would run for a year elsewhere gets tired here
               in a couple of months. That is a production problem, and it is the practical
               reason a local agency is worth more in this specific market than in most.
+            </p>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
+              West Palm Beach is also two aesthetic markets sharing a bridge. Seasonal clients
+              arrive in the fall expecting a concierge experience and re-establish their providers
+              within weeks; a year-round local population in downtown, Northwood and the western
+              suburbs buys injectables, laser and medical weight loss on steadier, more price-aware
+              terms. Physician-led practices hold the first group by reputation, while national
+              laser and body-contouring chains hold the Okeechobee Boulevard and Palm Beach Lakes
+              corridors for the second. A clinic caught between the two tends to go unseen by both,
+              which is why we run the seasonal and year-round tracks on separate budgets and start
+              the seasonal one in October, through our{" "}
+              <Link href="/locations/meta-ads-west-palm-beach" style={{ color: "var(--gold)" }}>Meta Ads work in West Palm Beach</Link>.
             </p>
           </div>
         </div>

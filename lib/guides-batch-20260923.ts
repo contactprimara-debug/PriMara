@@ -188,7 +188,7 @@ export const guidesPartFour: Guide[] = [
       },
       {
         type: "p",
-        text: "A med spa competes on two things a primary care office rarely has to: visible results and repeat purchase frequency. Prospective clients scroll photos before they read a word, and a client who books Botox once often becomes a filler, laser, and membership client within a year. That changes where the marketing dollar should go — photo and before/after content, and review volume specific to each procedure, carry more weight than they would for a family practice page.",
+        text: "A med spa competes on two things a primary care office rarely has to: visible results and repeat purchase frequency. Prospective clients scroll photos before they read a word, and a client who books Botox once often becomes a filler, laser, and membership client within a year. That changes where the marketing dollar should go — photo and before/after content, and review volume specific to each procedure, carry more weight than they would for a family practice page. Independent clinics in Palm Beach County can see how this plays out in our [medspa marketing page for West Palm Beach](/locations/medspas-west-palm-beach), where seasonal clients and a dense competitor corridor change the budget split.",
       },
       {
         type: "h2",
@@ -296,7 +296,7 @@ export const guidesPartFour: Guide[] = [
         description: "The underlying service — Google Business Profile plus content plus reviews.",
       },
       {
-        href: "/locations/west-palm-beach-medspa-marketing",
+        href: "/locations/medspas-west-palm-beach",
         label: "Med Spa Marketing in West Palm Beach",
         description: "The metro-level view of med spa competition and review benchmarks.",
       },

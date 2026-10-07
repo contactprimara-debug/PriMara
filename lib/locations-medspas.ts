@@ -181,57 +181,6 @@ export const medspaLocations: MedspaLocation[] = [
     ],
   },
   {
-    slug: "west-palm-beach-medspa-marketing",
-    city: "West Palm Beach",
-    state: "FL",
-    metaTitle: "Medspa Marketing in West Palm Beach, FL | Primara",
-    metaDescription:
-      "Primara helps West Palm Beach medspas market to two very different clients — the seasonal luxury buyer and the year-round local — without wasting budget on either.",
-    h1: "Medical Spa Marketing in West Palm Beach, FL",
-    intro:
-      "West Palm Beach is really two aesthetic markets sharing a bridge. On one side is an extremely high-end, heavily seasonal client who arrives in the fall and expects a concierge experience. On the other is a large, year-round population in downtown, Northwood, and the western suburbs with steady, price-aware demand for injectables, laser, and medical weight loss. Most medspas here build one marketing program and run it at one intensity all twelve months, which means they overspend in summer and underserve the season that actually pays for the year.",
-    localContext:
-      "The competitive picture reflects that split. The premium end of the market is served by physician-led cosmetic practices and boutique studios that market almost entirely through referral and reputation, while national laser and body contouring chains hold position along the Okeechobee Boulevard and Palm Beach Lakes retail corridors chasing the year-round volume buyer. An independent medspa sitting between those two poles frequently ends up invisible to both — too promotional for the seasonal client, not aggressive enough for the value shopper.\n\nThe seasonality here is not a minor adjustment; it is the central planning fact. Demand and the price a client will accept both rise materially from roughly November through April and fall off through the summer. A medspa that flights its Meta budget to that curve — heavier acquisition spend in October and November when seasonal residents are re-establishing providers, lighter and retention-focused in July — gets meaningfully more out of the same annual budget than a competitor spending one-twelfth of it every month regardless of who is actually in town.",
-    services:
-      "We build West Palm Beach programs on two tracks. The seasonal track runs Instagram-led Meta campaigns timed to arrival — creative that goes live in October, geo-targeted to the island and the intracoastal corridor, built around the provider rather than around an offer, and written to Meta's healthcare rules so nothing gets rejected at the worst possible moment of the year. The year-round track runs continuously against downtown, Northwood, and the western suburbs, with medical weight loss and laser packages as the volume products and a more value-legible offer structure.\n\nGoogle Business Profile work underpins both. We rebuild the profile with full category coverage, 25+ services in patient-search language, and a posting calendar that actually acknowledges the season — \"now booking for the season\" content published in October, not January. Reviews are collected continuously through NFC tap cards and QR codes at checkout, which matters especially here: a seasonal client who returns each winter will re-check your reviews before rebooking, and a profile whose last review is eight months old reads as a practice that lost momentum.",
-    whyNow:
-      "The season is a deadline, not a trend. Seasonal residents establish their provider relationships in the first few weeks after they arrive, and whoever is visible in October and November holds that client for the entire winter — and usually for the following winter too. A medspa that starts building its Google presence and its retargeting audiences in January has already missed the only window of the year where acquisition is cheap relative to lifetime value. That makes the timing of this work far more consequential in West Palm Beach than in a market with flat, year-round demand.",
-    landmarks: [
-      "Rosemary Square / CityPlace",
-      "Clematis Street",
-      "Northwood Village",
-      "El Cid",
-      "Palm Beach Lakes corridor",
-    ],
-    competitors: [
-      "Physician-led cosmetic practices",
-      "National laser hair removal chains",
-      "Body contouring chains on the retail corridors",
-    ],
-    faqs: [
-      {
-        q: "Does Primara work with medspas in West Palm Beach?",
-        a: "We do. West Palm Beach medspas get the same core engagement as every other market \u2014 Meta Ads, GBP optimization, monthly reporting \u2014 run remotely from our West Palm Beach base. What changes is the competitive picture: in West Palm Beach that means going up against Physician-led cosmetic practices and National laser hair removal chains for the same patients.",
-      },
-      {
-        q: "Who is West Palm Beach independent medspa competing against?",
-        a: "The premium end of the market is served by physician-led cosmetic practices and boutique studios that market almost entirely through referral and reputation, while national laser and body contouring chains hold position along the Okeechobee Boulevard and Palm Beach Lakes retail corridors chasing the year-round volume buyer. An independent medspa sitting between those two poles frequently ends up invisible to both \u2014 too promotional for the seasonal client, not aggressive enough for the value shopper.",
-      },
-      {
-        q: "What makes West Palm Beach's aesthetics market different from other Florida cities?",
-        a: "On one side is an extremely high-end, heavily seasonal client who arrives in the fall and expects a concierge experience. On the other is a large, year-round population in downtown, Northwood, and the western suburbs with steady, price-aware demand for injectables, laser, and medical weight loss. Most medspas here build one marketing program and run it at one intensity all twelve months, which means they overspend in summer and underserve the season that actually pays for the year.",
-      },
-      {
-        q: "Why should an independent West Palm Beach medspa start now instead of waiting?",
-        a: "The season is a deadline, not a trend. Seasonal residents establish their provider relationships in the first few weeks after they arrive, and whoever is visible in October and November holds that client for the entire winter \u2014 and usually for the following winter too. A medspa that starts building its Google presence and its retargeting audiences in January has already missed the only window of the year where acquisition is cheap relative to lifetime value.",
-      },
-      {
-        q: "What areas within West Palm Beach does this cover?",
-        a: "We work across West Palm Beach, including Rosemary Square / CityPlace, Clematis Street and Northwood Village \u2014 not just the city center. Physician-led cosmetic practices and National laser hair removal chains already rank and advertise across those neighborhoods, so a West Palm Beach medspa has to show up by neighborhood name to compete for the same local searches.",
-      },
-    ],
-  },
-  {
     slug: "palm-beach-gardens-medspa-marketing",
     city: "Palm Beach Gardens",
     state: "FL",

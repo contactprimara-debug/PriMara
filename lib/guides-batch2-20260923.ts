@@ -26,7 +26,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Why dental marketing pricing splits by service line" },
       {
         type: "p",
-        text: "A single dental practice usually sells several products at once: routine cleanings and checkups, cosmetic work, and high-value procedures like implants or full-mouth reconstruction. Each has a different customer journey. Cleanings are searched constantly and decided on quickly; implants are searched less often but researched for weeks before a call. A marketing budget that treats all three the same way underspends on the procedures that actually fund the practice.",
+        text: "A single dental practice usually sells several products at once: routine cleanings and checkups, cosmetic work, and high-value procedures like implants or full-mouth reconstruction. Each has a different customer journey. Cleanings are searched constantly and decided on quickly; implants are searched less often but researched for weeks before a call. A marketing budget that treats all three the same way underspends on the procedures that actually fund the practice. For a practice in Palm Beach County, our [dental marketing page for West Palm Beach](/locations/dental-practices-west-palm-beach) shows how seasonal demand and corporate group competition shape the plan.",
       },
       { type: "h2", text: "2026 monthly budget ranges in Florida" },
       {
@@ -65,7 +65,7 @@ export const guidesPartFive: Guide[] = [
       },
       {
         type: "callout",
-        text: "If a proposal quotes one flat number regardless of your city or service mix, ask what it assumes about your competition — a Miami implant practice and a rural general-dentistry office should never get the same number.",
+        text: "If a proposal quotes one flat number regardless of your city or service mix, ask what it assumes about your competition — a Miami implant practice and a rural general-dentistry office should never get the same number. Seasonal markets also change when the money should be spent, which our [Meta Ads in West Palm Beach](/locations/meta-ads-west-palm-beach) page explains for Palm Beach County.",
       },
     ],
     faqs: [
@@ -141,7 +141,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "A realistic combined approach" },
       {
         type: "p",
-        text: "Most Florida med spas that grow steadily run a heavier Meta budget in the first two to three months of a launch or new-service push, then shift weight toward SEO and Google Business Profile as organic rankings start to hold. Meta content — the same before/after photos and testimonials — should also live on the website and Google Business Profile, since duplicating creative across channels costs nothing extra once it exists.",
+        text: "Most Florida med spas that grow steadily run a heavier Meta budget in the first two to three months of a launch or new-service push, then shift weight toward SEO and Google Business Profile as organic rankings start to hold. Meta content — the same before/after photos and testimonials — should also live on the website and Google Business Profile, since duplicating creative across channels costs nothing extra once it exists. In Palm Beach County the creative side is easier when the agency can film in person, as described on our [West Palm Beach medspa marketing page](/locations/medspas-west-palm-beach) and in our [Meta Ads in West Palm Beach](/locations/meta-ads-west-palm-beach) overview.",
       },
       {
         type: "callout",

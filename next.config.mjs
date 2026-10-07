@@ -1,5 +1,23 @@
+import { readFileSync } from "node:fs";
+
+// Merged /locations/ pages (same service + city as a hand-built page). The
+// list lives in lib/location-merges.json so the page code, the sitemap guard
+// and these redirects all read ONE source. statusCode 301 explicitly: Next's
+// `permanent: true` emits 308.
+const locationMerges = JSON.parse(
+  readFileSync(new URL("./lib/location-merges.json", import.meta.url), "utf8")
+);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return locationMerges.map((m) => ({
+      source: `/locations/${m.from}`,
+      destination: `/locations/${m.to}`,
+      statusCode: 301,
+    }));
+  },
+
   // ── React StrictMode ────────────────────────────────────────────────────
   // Disabled in dev because StrictMode double-mounts useEffect, which
   // double-initialises GSAP/Lenis/ScrollTrigger and leaves the preloader

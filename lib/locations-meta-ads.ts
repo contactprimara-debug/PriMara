@@ -7,7 +7,9 @@
 // paid-social AD MARKET (auction pressure, audience composition, who is and isn't
 // already buying impressions there), not about one customer type.
 //
-// Covers the same 33 cities, in the same order, as locations-medspas.ts. Slug suffix
+// Covers the same cities as locations-medspas.ts, EXCEPT West Palm Beach (merged into the hand-built
+// /locations/meta-ads-west-palm-beach, see lib/location-merges.json; scripts/check-location-dupes.mjs
+// fails the build if a city+service is served twice). Slug suffix
 // is `-meta-ads-marketing`, which does not collide with the existing hand-built
 // matrix pages at /locations/meta-ads-florida, /locations/meta-ads-west-palm-beach,
 // /locations/meta-ads-for-medspas or /locations/meta-ads-for-dental-practices.
@@ -196,58 +198,6 @@ export const metaAdsLocations: MetaAdsLocation[] = [
       {
         q: "What areas within Boca Raton does this cover?",
         a: "Our campaigns in Boca Raton extend to Mizner Park, Town Center at Boca Raton and Glades Road corridor, not only the core of the city. Dermatology groups with cosmetic arms and Plastic surgery practices and in-office medspas already target those neighborhoods, so a Boca Raton practice's audience setup has to match that geographic footprint to win the same impressions.",
-      },
-    ],
-  },
-  {
-    slug: "west-palm-beach-meta-ads-marketing",
-    city: "West Palm Beach",
-    state: "FL",
-    metaTitle: "Meta Ads Management in West Palm Beach, FL | Facebook & Instagram Ads | Primara",
-    metaDescription:
-      "Facebook and Instagram advertising for West Palm Beach practices, medspas and dental clinics — budget flighted to a season that decides the year. Call (561) 291-2681.",
-    h1: "Meta Ads Management in West Palm Beach, FL",
-    intro:
-      "Primara is based in West Palm Beach, and the single most consequential decision in a Palm Beach County ad account is not audience or creative — it is when the money is spent. The county's population swells from roughly November through April, and for elective and cash-pay services that is the window in which the audience is physically here and able to book. An account spending one twelfth of its annual budget every month is overspending against an audience that has left and underspending against the one that decides the year.",
-    localContext:
-      "Seasonality changes two variables at once, which is why splitting the budget evenly is worse than it looks. Demand rises in the season, and so does auction pressure, because every other advertiser in the corridor from Jupiter through Boca is bidding harder at the same time. The naive response is to avoid the expensive months and buy the cheap ones — and it is wrong, because the summer impressions are cheap precisely for the reason that makes them worth less. Cost per impression is not the number that matters. Cost per booked appointment is, and in Palm Beach County the two curves run in opposite directions.\n\nThe second, less obvious seasonal fact is that provider relationships get established in the first few weeks after arrival. A seasonal resident who lands in late October and needs a dentist, a dermatologist or an aesthetic provider makes that decision quickly and tends to keep it — not just for that winter, but for the following ones. That puts a hard deadline on the account. Retargeting pools, landing pages and creative need to be built and warm before the arrival window, not during it, because the practice that is already visible in October captures a client whose value extends over multiple seasons. Practices serving the year-round population in Northwood, El Cid and the western suburbs — general dentistry, primary care — see far less of this swing and are budgeted flat.",
-    services:
-      "We build West Palm Beach accounts on two tracks with different calendars. The seasonal track ramps in September and October, geo-targeted to the island and the intracoastal corridor, with acquisition creative live before the audience arrives and a landing page per offer rather than one generic contact form. The year-round track runs continuously at a steadier spend against downtown, Northwood and the western communities, where demand does not move with the calendar. Which track a practice weights toward comes out of its own booking history, not a generic seasonal curve.\n\nBecause we are twenty minutes away, creative is produced in person: a scripted shoot day at the practice produces months of provider-led vertical video, which is the constraint that actually limits most accounts in this corridor. Every concept is policy-reviewed before it goes up — Personal Attributes language, claim framing, and the claims-based standard Meta moved to for before-and-after imagery in July 2026 — because an account restriction in late October is the most expensive thing that can happen to a Palm Beach County practice. Tracking is configured so no patient information reaches the platform, and each month we compare Meta's modeled results against your actual schedule and report the reconciled number.",
-    whyNow:
-      "The season is a deadline, not a trend. Everything that makes an ad account effective in November — a warm retargeting pool, tested creative, a landing page that converts, a front desk rehearsed on response time — takes six to eight weeks to build. Starting that work in November means spending the highest-value weeks of the year learning things the account should already have known. Starting it in January means the provider relationships have already been made by someone else, and the next genuine opportunity to take them is a full year away.",
-    landmarks: [
-      "Rosemary Square / CityPlace",
-      "Clematis Street",
-      "Northwood Village",
-      "El Cid",
-      "Palm Beach Lakes corridor",
-    ],
-    adLandscape: [
-      "Seasonal-facing aesthetic and concierge practices",
-      "Cosmetic dental groups on the island corridor",
-      "National chains on the Okeechobee retail corridors",
-      "Year-round primary care and general dentistry advertisers",
-    ],
-    faqs: [
-      {
-        q: "Does Primara run Meta Ads for practices in West Palm Beach?",
-        a: "Independent West Palm Beach practices are a market we run Meta Ads in today, with the same remotely-delivered engagement everywhere \u2014 creative, targeting, monthly reporting. What's specific to West Palm Beach is who's already bought into that feed, namely Seasonal-facing aesthetic and concierge practices and Cosmetic dental groups on the island corridor.",
-      },
-      {
-        q: "Who is already bidding in West Palm Beach's Meta Ads auction?",
-        a: "Demand rises in the season, and so does auction pressure, because every other advertiser in the corridor from Jupiter through Boca is bidding harder at the same time. The naive response is to avoid the expensive months and buy the cheap ones \u2014 and it is wrong, because the summer impressions are cheap precisely for the reason that makes them worth less. Cost per impression is not the number that matters.",
-      },
-      {
-        q: "What makes West Palm Beach's paid-social market different from other Florida cities?",
-        a: "The county's population swells from roughly November through April, and for elective and cash-pay services that is the window in which the audience is physically here and able to book. An account spending one twelfth of its annual budget every month is overspending against an audience that has left and underspending against the one that decides the year.",
-      },
-      {
-        q: "Why should a West Palm Beach practice move budget into Meta Ads now?",
-        a: "The season is a deadline, not a trend. Everything that makes an ad account effective in November \u2014 a warm retargeting pool, tested creative, a landing page that converts, a front desk rehearsed on response time \u2014 takes six to eight weeks to build. Starting that work in November means spending the highest-value weeks of the year learning things the account should already have known.",
-      },
-      {
-        q: "What areas within West Palm Beach does this cover?",
-        a: "Coverage spans West Palm Beach, including Rosemary Square / CityPlace, Clematis Street and Northwood Village. Seasonal-facing aesthetic and concierge practices and Cosmetic dental groups on the island corridor are already bidding for impressions across those same neighborhoods, which is why a West Palm Beach practice's audience targeting needs to account for those areas specifically rather than the city as a whole.",
       },
     ],
   },

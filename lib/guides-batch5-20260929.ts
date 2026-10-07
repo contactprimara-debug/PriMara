@@ -93,7 +93,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Med spas compete on visibility more than almost any other practice type" },
       {
         type: "p",
-        text: "A patient choosing a primary care doctor mostly stays with whoever their insurance and location dictate. A patient choosing where to get Botox, laser hair removal, or a HydraFacial is actively comparing three or four options by price, photos, and reviews before booking — often within the same day they start searching. That makes the local pack and the Google Business Profile carry more weight for a med spa than for almost any other type of practice on our roster, and it's why the profile itself deserves the first investment, before any ad spend.",
+        text: "A patient choosing a primary care doctor mostly stays with whoever their insurance and location dictate. A patient choosing where to get Botox, laser hair removal, or a HydraFacial is actively comparing three or four options by price, photos, and reviews before booking — often within the same day they start searching. That makes the local pack and the Google Business Profile carry more weight for a med spa than for almost any other type of practice on our roster, and it's why the profile itself deserves the first investment, before any ad spend. For a clinic in the Palm Beach corridor, our [West Palm Beach medspa marketing page](/locations/medspas-west-palm-beach) walks through how grid-measured map positions change from one zip code to the next.",
       },
       { type: "h2", text: "Build order: profile, site, then paid" },
       {
@@ -159,7 +159,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Implants are researched differently than any other dental procedure" },
       {
         type: "p",
-        text: "Someone searching for a cleaning or a filling books quickly, usually with whoever is closest and in-network. Someone searching for dental implants is often weighing a four-figure-or-higher decision, comparing multiple practices, and reading well past the first page of results before calling anyone. That longer research window means a thin \"we offer implants\" line on a general services page loses almost every one of those searches to a competitor with a dedicated implant page that actually answers the questions being typed into Google.",
+        text: "Someone searching for a cleaning or a filling books quickly, usually with whoever is closest and in-network. Someone searching for dental implants is often weighing a four-figure-or-higher decision, comparing multiple practices, and reading well past the first page of results before calling anyone. That longer research window means a thin \"we offer implants\" line on a general services page loses almost every one of those searches to a competitor with a dedicated implant page that actually answers the questions being typed into Google. In Palm Beach County, where [dental marketing in West Palm Beach](/locations/dental-practices-west-palm-beach) competes against heavily funded group practices, that specificity is the main advantage an independent has.",
       },
       { type: "h2", text: "What the implant page needs to answer, on the page itself" },
       {
@@ -195,7 +195,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Reviews and Google Business Profile setup do more work here than for routine dental care" },
       {
         type: "p",
-        text: "A patient comparing implant providers reads further into reviews than someone choosing a dentist for a cleaning, specifically looking for mentions of comfort during the procedure, how the recovery went, and whether the result matched what was discussed beforehand. Ask every implant patient for a review through the same neutral process used for every other patient, and where they're comfortable naming the procedure, that specificity helps the next prospective implant patient evaluate the practice. On the Google Business Profile itself, \"Dental Implants\" listed as its own service item, combined with photos of the actual office and equipment, gives the listing a real chance to surface for implant-specific local searches rather than only generic dentist searches.",
+        text: "A patient comparing implant providers reads further into reviews than someone choosing a dentist for a cleaning, specifically looking for mentions of comfort during the procedure, how the recovery went, and whether the result matched what was discussed beforehand. Ask every implant patient for a review through the same neutral process used for every other patient, and where they're comfortable naming the procedure, that specificity helps the next prospective implant patient evaluate the practice. On the Google Business Profile itself, \"Dental Implants\" listed as its own service item, combined with photos of the actual office and equipment, gives the listing a real chance to surface for implant-specific local searches rather than only generic dentist searches. The same request-only review approach is built into our [West Palm Beach dental marketing work](/locations/dental-practices-west-palm-beach) for independent practices.",
       },
       {
         type: "p",

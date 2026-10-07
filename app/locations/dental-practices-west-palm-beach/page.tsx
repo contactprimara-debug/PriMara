@@ -195,13 +195,23 @@ export default function DentalPracticesWestPalmBeachPage() {
               about section, one set of stock photos. A patient researching a full-arch case
               for the third week in a row can feel that, even if they could not name it.
             </p>
-            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
               An independent practice here has the opposite constraint and the opposite
               advantage: a smaller budget, and the ability to publish something true and
               particular. A named dentist explaining how they sequence a case, a page that
               admits what a treatment does not fix, reviews that mention a person rather than
               a brand. That is the entire strategy in this market, and it works precisely
               because the well-funded competition structurally cannot copy it.
+            </p>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
+              The calendar matters as much as the competition. From November to April, part-time
+              residents arrive needing work they postponed up north, such as a failed crown, a loose
+              bridge or an implant consult, and they search hard and decide fast, so a practice that
+              is invisible in October has lost the season. Downtown, Northwood, Flamingo Park and
+              SoSo have also added a younger working-age group that wants aligners, whitening and a
+              practice that answers a text. Those two audiences need separate messaging and separate{" "}
+              <Link href="/locations/meta-ads-west-palm-beach" style={{ color: "var(--gold)" }}>Meta Ads campaigns</Link>;
+              one campaign for both is why most local dental advertising here underperforms.
             </p>
           </div>
         </div>
