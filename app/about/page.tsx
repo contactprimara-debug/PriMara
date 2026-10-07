@@ -5,7 +5,7 @@ import { toJsonLd, liamSchema, gioSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "About Primara — Healthcare Marketing Agency for Independent Practices | Primara",
   description:
-    "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent men's health, primary care, and mental health practices. Call (561) 291-2681.",
+    "Meet Liam Costello & Gio LaRoche, co-founders of Primara. We help independent medical practices get more patients by optimizing their digital presence and running their ads.",
   alternates: { canonical: "https://primara365.com/about" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -44,10 +44,10 @@ export default function AboutPage() {
           Meet Liam Costello &amp; Gio LaRoche — Primara
         </h1>
         <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Digital marketing for independent men’s health, primary care, and mental health practices.
+          We help independent medical practices get more patients by optimizing their digital presence and running their ads.
         </p>
         <p className="mt-2 text-base max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          Men’s health, primary care, and mental health practices &mdash; founder-led, nationwide.
+          Founder-led, nationwide.
         </p>
 
         <div className="mt-12 max-w-2xl">

@@ -6,6 +6,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Primara",
+  description:
+    "We help independent medical practices get more patients by optimizing their digital presence and running their ads.",
   url: SITE_URL,
   telephone: "+15612912681",
   email: "liam.costello@primara365.com",
@@ -57,7 +59,7 @@ import ScrollStorytelling from "@/components/ScrollStorytelling";
 export const metadata: Metadata = {
   title: "Healthcare Marketing Agency for Independent Medical Practices | Primara365",
   description:
-    "Primara365 is a digital marketing agency managing SEO, Meta Ads, and Google Ads for independent medical practices, medspas, and dental clinics — founder-led, HIPAA-aware, no long-term contracts.",
+    "We help independent medical practices get more patients by optimizing their digital presence and running their ads.",
   alternates: {
     canonical: "https://primara365.com",
   },
@@ -65,12 +67,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Healthcare Marketing Agency for Independent Medical Practices | Primara365",
     description:
-      "Primara365 is a digital marketing agency managing SEO, Meta Ads, and Google Ads for independent medical practices, medspas, and dental clinics — founder-led, HIPAA-aware, no long-term contracts.",
+      "We help independent medical practices get more patients by optimizing their digital presence and running their ads.",
     type: "website",
     url: "https://primara365.com",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
   },
-  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "Primara365 is a digital marketing agency managing SEO, Meta Ads, and Google Ads for independent medical practices, medspas, and dental clinics — founder-led, HIPAA-aware, no long-term contracts." },
+  twitter: { card: 'summary_large_image', images: ['/opengraph-image'], description: "We help independent medical practices get more patients by optimizing their digital presence and running their ads." },
 };
 
 export default function HomePage() {

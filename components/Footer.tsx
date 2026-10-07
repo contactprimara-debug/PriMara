@@ -138,8 +138,7 @@ export default function Footer({
                 maxWidth: "260px",
               }}
             >
-              Primara365 is an independent digital marketing agency
-              exclusively serving independent healthcare practices, nationwide.
+              We help independent medical practices get more patients by optimizing their digital presence and running their ads.
             </p>
 
             {/* NAP block — character-for-character GBP match */}

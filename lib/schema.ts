@@ -44,7 +44,7 @@ export const localBusinessSchema = {
     name: "United States",
   },
   description:
-    "Primara is a digital marketing agency specializing in helping independent, physician-owned medical practices across the United States grow their patient base through honest, measurable, and HIPAA-aware digital marketing.",
+    "We help independent medical practices get more patients by optimizing their digital presence and running their ads.",
   // NOTE: no aggregateRating here on purpose. Google prohibits self-serving
   // review markup on LocalBusiness, and a count not backed by verifiable
   // public reviews risks a structured-data manual action. Re-add only when

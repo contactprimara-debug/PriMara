@@ -125,7 +125,7 @@ export default function Hero() {
               marginBottom: "clamp(32px, 4vw, 52px)",
             }}
           >
-            Primara365 is a digital marketing agency that manages SEO and Google Ads — plus Google Business Profile and review systems — for independent men&rsquo;s health, primary care, and mental health practices. Founder-led, no account managers, month-to-month.
+            We help independent medical practices get more patients by optimizing their digital presence and running their ads.
           </p>
 
           {/* CTA pair */}

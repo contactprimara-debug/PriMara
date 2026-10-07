@@ -291,7 +291,7 @@ export default function GoogleAdsPage() {
               process for the healthcare vertical, or HIPAA-aware conversion tracking requirements.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              Primara runs campaigns exclusively for independent primary care and mental health practices. We know
+              Primara runs campaigns for independent medical practices. We know
               which campaign structures work in this vertical, which ad copy formulations pass Google&rsquo;s healthcare
               review without being watered down to uselessness, and how to attribute new patients to the right channels
               without creating compliance exposure.
@@ -626,7 +626,7 @@ export default function GoogleAdsPage() {
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Independent primary care &amp; mental health practices only · No long-term contracts ·{" "}
+            Independent medical practices only · No long-term contracts ·{" "}
             <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
               All Services
             </Link>

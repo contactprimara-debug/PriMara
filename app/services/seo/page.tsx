@@ -604,7 +604,7 @@ export default function SEOServicePage() {
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Independent primary care &amp; mental health practices only · No long-term contracts ·{" "}
+            Independent medical practices only · No long-term contracts ·{" "}
             <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
               All Services
             </Link>
