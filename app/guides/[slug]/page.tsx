@@ -169,7 +169,7 @@ function buildSchema(guide: Guide) {
         "@type": "HowToStep",
         position: i + 1,
         name: s.name,
-        text: s.text,
+        text: s.text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1"),
         url: `${url}#step-${i + 1}`,
       })),
     });
@@ -364,7 +364,7 @@ function Section({ section }: { section: GuideSection }) {
             fontSize: "1.0625rem",
           }}
         >
-          {section.text}
+          {renderInline(section.text ?? "")}
         </aside>
       );
     default:
@@ -510,7 +510,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                       </span>
                       {step.name}
                     </h3>
-                    <p style={{ color: "var(--color-text-muted)", lineHeight: 1.75, fontSize: "1.0625rem", margin: 0 }}>{step.text}</p>
+                    <p style={{ color: "var(--color-text-muted)", lineHeight: 1.75, fontSize: "1.0625rem", margin: 0 }}>{renderInline(step.text)}</p>
                   </li>
                 ))}
               </ol>
