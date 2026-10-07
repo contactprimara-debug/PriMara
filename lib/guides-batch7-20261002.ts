@@ -57,7 +57,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Keeping them accurate over time" },
       {
         type: "p",
-        text: "Because some attributes are user-suggested, check your profile's attribute list every few months the same way you'd check hours or phone number. A patient who suggests 'wheelchair accessible' for a building that was renovated and no longer has a ramp creates a real problem: someone who needs that filter arrives expecting it. Google Business Profile Manager shows pending suggested edits for review before they go live for most fields, but attributes can sometimes apply directly — so a periodic manual check matters, not just a reactive one when something gets reported to you.",
+        text: "Because some attributes are user-suggested, check your profile's attribute list every few months the same way you'd check hours or phone number. A patient who suggests 'wheelchair accessible' for a building that was renovated and no longer has a ramp creates a real problem: someone who needs that filter arrives expecting it. Google Business Profile Manager shows pending suggested edits for review before they go live for most fields, but attributes can sometimes apply directly — so a periodic manual check matters, not just a reactive one when something gets reported to you. Details that do not fit an attribute belong in the short text field, and our guide to [writing the profile description](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice) explains what to say there.",
       },
     ],
     faqs: [
@@ -368,7 +368,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What has to stay out of GA4 entirely" },
       {
         type: "p",
-        text: "This is the step a generic GA4 tutorial never mentions and a healthcare practice cannot skip: no field in any tracked event may contain a patient's name, email, phone number, condition, or appointment reason as plain text sent to Google's servers. HHS has stated that using tracking technologies in a way that discloses protected health information to a third party like Google without a valid authorization can violate HIPAA, even when the practice didn't intend to send PHI and even when the identifying detail arrived through something as simple as a URL parameter or a form field name. Track that a form was submitted — never what was typed into it.",
+        text: "This is the step a generic GA4 tutorial never mentions and a healthcare practice cannot skip: no field in any tracked event may contain a patient's name, email, phone number, condition, or appointment reason as plain text sent to Google's servers. HHS has stated that using tracking technologies in a way that discloses protected health information to a third party like Google without a valid authorization can violate HIPAA, even when the practice didn't intend to send PHI and even when the identifying detail arrived through something as simple as a URL parameter or a form field name. Track that a form was submitted — never what was typed into it. Once data is flowing, use [this monthly routine for reading GA4 reports](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) so the numbers lead to decisions.",
       },
       { type: "h2", text: "Link it to Google Ads and Search Console" },
       {

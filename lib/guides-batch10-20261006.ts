@@ -429,7 +429,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages."
+        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit."
       },
       {
         "type": "h2",
@@ -1942,7 +1942,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages."
+        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
       },
       {
         "type": "h2",

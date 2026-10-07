@@ -128,7 +128,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "A Google Business Profile is not \"set it and forget it\"" },
       {
         type: "p",
-        text: "Most practices claim their Google Business Profile once, fill in the basics, and never open it again. Google notices. Listings that post regularly, get reviews replied to quickly, and keep their hours accurate tend to hold their local pack position better than listings that go quiet — activity is one of the signals baked into how Google ranks local results, alongside relevance and distance. A profile that hasn't been touched in six months is easy to spot from the outside: no recent posts, old reviews left unanswered, hours that don't match a holiday weekend.",
+        text: "Most practices claim their Google Business Profile once, fill in the basics, and never open it again. Google notices. Listings that post regularly, get reviews replied to quickly, and keep their hours accurate tend to hold their local pack position better than listings that go quiet — activity is one of the signals baked into how Google ranks local results, alongside relevance and distance. A profile that hasn't been touched in six months is easy to spot from the outside: no recent posts, old reviews left unanswered, hours that don't match a holiday weekend. While you are in the profile, reread the business text against your website using our guide to [writing a profile description](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice).",
       },
       { type: "h2", text: "The recurring monthly checklist" },
       {
@@ -829,7 +829,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "The formula, put together" },
       {
         type: "p",
-        text: "ROI = (leads generated × close rate × average patient lifetime value − total channel cost) ÷ total channel cost. Running this per channel, monthly, is what turns a vague sense of \"marketing seems to be working\" into an actual number a practice can use to decide where to spend the next dollar. It also surfaces the uncomfortable but useful finding that a channel with strong-looking traffic numbers can have a genuinely negative ROI once close rate and patient value are actually factored in.",
+        text: "ROI = (leads generated × close rate × average patient lifetime value − total channel cost) ÷ total channel cost. Running this per channel, monthly, is what turns a vague sense of \"marketing seems to be working\" into an actual number a practice can use to decide where to spend the next dollar. It also surfaces the uncomfortable but useful finding that a channel with strong-looking traffic numbers can have a genuinely negative ROI once close rate and patient value are actually factored in. For the traffic side of the picture, follow our [monthly Google Analytics 4 routine](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice).",
       },
     ],
     faqs: [

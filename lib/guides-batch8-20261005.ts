@@ -462,7 +462,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Then verify the new domain as a property in Google Search Console and use the Change of Address tool on the old property, as Google's site-move documentation describes. Submit the new sitemap. Update internal links so they point to the new domain directly rather than relying on redirects."
+        "text": "Then verify the new domain as a property in Google Search Console and use the Change of Address tool on the old property, as Google's site-move documentation describes. Submit the new sitemap. Update internal links so they point to the new domain directly rather than relying on redirects. After launch, keep checking for dead links with our guide to [finding and fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
       },
       {
         "type": "h2",

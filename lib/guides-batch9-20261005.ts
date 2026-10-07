@@ -28,7 +28,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Search Console is a free service from Google that reports how your site appears in Google Search. It tells you which searches showed your pages, how often people clicked, whether Google can crawl and index each page, and whether anything is wrong, such as a security issue or a manual action. It is not a visitor tracker like Google Analytics, and it does not tell you who the patients are. It reports search behavior in aggregate. You prove ownership of the site once, usually through DNS or a file on your server, and the data starts accumulating from then."
+        "text": "Search Console is a free service from Google that reports how your site appears in Google Search. It tells you which searches showed your pages, how often people clicked, whether Google can crawl and index each page, and whether anything is wrong, such as a security issue or a manual action. It is not a visitor tracker like Google Analytics, and it does not tell you who the patients are. It reports search behavior in aggregate. You prove ownership of the site once, usually through DNS or a file on your server, and the data starts accumulating from then. Pages that Search Console reports as not found are covered in [how to find and fix broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website), and visitor behavior is covered in our [monthly Google Analytics 4 routine](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice)."
       },
       {
         "type": "h2",
@@ -468,7 +468,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If your site has several sections, such as a blog or separate location folders, a single sitemap or a sitemap index file both work, as long as every important page appears once. For a small practice, one clean file is easiest to maintain. Whoever updates the website should know who owns these two files, because a plugin update or a platform migration can silently overwrite them, and the fix is much easier when the change is caught within days."
+        "text": "If your site has several sections, such as a blog or separate location folders, a single sitemap or a sitemap index file both work, as long as every important page appears once. For a small practice, one clean file is easiest to maintain. Whoever updates the website should know who owns these two files, because a plugin update or a platform migration can silently overwrite them, and the fix is much easier when the change is caught within days. If the sitemap lists addresses that now fail, follow [how to find and fix broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
       }
     ],
     faqs: [

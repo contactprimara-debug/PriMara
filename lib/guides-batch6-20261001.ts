@@ -69,7 +69,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "One description per page, never duplicated" },
       {
         type: "p",
-        text: "Google Search Console's Page Indexing report flags duplicate meta descriptions as a quality signal, and a practice with five city pages that all share one description is telling Google those pages are interchangeable — which makes it easier for Google to treat them that way when deciding which one, if any, to rank. Every page needs its own, built around what is actually different about it: the city, the specific service, or the specific provider.",
+        text: "Google Search Console's Page Indexing report flags duplicate meta descriptions as a quality signal, and a practice with five city pages that all share one description is telling Google those pages are interchangeable — which makes it easier for Google to treat them that way when deciding which one, if any, to rank. Every page needs its own, built around what is actually different about it: the city, the specific service, or the specific provider. The title above the snippet matters just as much, so read [how to write title tags for each page](/guides/how-to-write-title-tags-for-a-medical-practice-website) before you rewrite descriptions.",
       },
       { type: "h2", text: "Where this fits with the rest of the page" },
       {

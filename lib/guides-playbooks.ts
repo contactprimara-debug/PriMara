@@ -92,7 +92,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Respond to everything within a few days. For a negative review, respond without confirming the person was ever a patient. Acknowledging care publicly is a HIPAA disclosure even if the reviewer disclosed it first.",
+        text: "Respond to everything within a few days. For a negative review, respond without confirming the person was ever a patient. Acknowledging care publicly is a HIPAA disclosure even if the reviewer disclosed it first. A clear, accurate description also helps a patient decide to call, and [this guide to the description field](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice) shows how to write one.",
       },
       {
         type: "h2",
@@ -308,7 +308,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "The practical consequence is not that you must stop measuring. It is that the identity of the visitor and the health meaning of the page must never travel together to a vendor who has not signed a business associate agreement. Accessibility is the other legal topic for practice sites; see [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website).",
+        text: "The practical consequence is not that you must stop measuring. It is that the identity of the visitor and the health meaning of the page must never travel together to a vendor who has not signed a business associate agreement. Accessibility is the other legal topic for practice sites; see [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). After the setup is safe, our guide to [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows which few numbers to review.",
       },
       {
         type: "h2",
