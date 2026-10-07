@@ -4,6 +4,7 @@ import type { BlogSection } from "@/lib/blog";
 import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedLinks from "@/components/RelatedLinks";
+import { blogFaqs } from "@/lib/blog-faqs";
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -273,12 +274,47 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     url: `https://primara365.com/blog/${post.slug}`,
   };
 
+  const faqs = blogFaqs[post.slug] ?? [];
+  const postUrl = `https://primara365.com/blog/${post.slug}`;
+  const faqSchema =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "@id": `${postUrl}#faq`,
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }
+      : null;
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://primara365.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
+    ],
+  };
+
   return (
     <main className="pt-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
@@ -390,6 +426,41 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           {post.sections.map((section, i) => (
             <RenderSection key={i} section={section} />
           ))}
+
+          {faqs.length > 0 && (
+            <section aria-labelledby="faq-heading" style={{ marginTop: "3rem", paddingTop: "2rem", borderTop: "1px solid var(--wire)" }}>
+              <h2
+                id="faq-heading"
+                style={{
+                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
+                  color: "var(--color-text)",
+                  fontWeight: 700,
+                  marginBottom: "1.25rem",
+                  lineHeight: 1.2,
+                }}
+              >
+                Frequently asked questions
+              </h2>
+              {faqs.map((f, i) => (
+                <div key={i} style={{ marginBottom: "1.5rem" }}>
+                  <h3
+                    style={{
+                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontSize: "1.15rem",
+                      color: "var(--color-text)",
+                      fontWeight: 700,
+                      margin: "0 0 0.5rem",
+                      lineHeight: 1.3,
+                    }}
+                  >
+                    {f.q}
+                  </h3>
+                  <p style={{ color: "var(--color-text-muted)", lineHeight: 1.75, fontSize: "1.0625rem", margin: 0 }}>{f.a}</p>
+                </div>
+              ))}
+            </section>
+          )}
 
           {/* Back link */}
           <div style={{ marginTop: "3rem", paddingTop: "2rem", borderTop: "1px solid var(--wire)" }}>

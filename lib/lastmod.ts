@@ -52,6 +52,11 @@ function sourceFor(path: string): string | null {
 export function lastmodForUrl(url: string): Date {
   const path = url.startsWith(SITE_URL) ? url.slice(SITE_URL.length) : url;
   const src = sourceFor(path);
-  const iso = (src && map[src]) || FALLBACK;
+  let iso = (src && map[src]) || FALLBACK;
+  // Blog posts: the FAQ block lives in lib/blog-faqs.ts — take the later of the two sources.
+  if (src === "lib/blog.ts") {
+    const faqIso = map["lib/blog-faqs.ts"];
+    if (faqIso && faqIso > iso) iso = faqIso;
+  }
   return new Date(`${iso}T00:00:00.000Z`);
 }
