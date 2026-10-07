@@ -254,7 +254,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "Why a public reply is a compliance question first" },
       {
         type: "p",
-        text: "In most industries a review response is customer service. In healthcare it is a disclosure decision. The HHS Office for Civil Rights has taken enforcement action against practices that discussed patients' care in review replies, and the patient posting first does not waive the protection. You cannot confirm the timeline, the billing or the missed appointment — nor even offer a sympathetic line about their visit, because that acknowledges them as a patient.",
+        text: "In most industries a review response is customer service. In healthcare it is a disclosure decision. The HHS Office for Civil Rights has taken enforcement action against practices that discussed patients' care in review replies, and the patient posting first does not waive the protection. You cannot confirm the timeline, the billing or the missed appointment — nor even offer a sympathetic line about their visit, because that acknowledges them as a patient. More on writing replies that stay inside the rules is in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses).",
       },
       { type: "h2", text: "A template that stays inside the line" },
       {
@@ -289,7 +289,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "The maths that makes bad reviews survivable" },
       {
         type: "p",
-        text: "A one-star review landing on a profile with ninety reviews barely moves the average. The same review on a profile with nine drops it by roughly half a star and sits at the top for months. Volume is the real defence, built in ordinary weeks.",
+        text: "A one-star review landing on a profile with ninety reviews barely moves the average. The same review on a profile with nine drops it by roughly half a star and sits at the top for months. Volume is the real defence, built in ordinary weeks. How many reviews a practice needs to absorb that is covered in [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need).",
       },
     ],
     faqs: [

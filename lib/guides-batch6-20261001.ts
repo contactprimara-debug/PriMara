@@ -242,7 +242,7 @@ export const guidesPartNine: Guide[] = [
       steps: [
         {
           name: "Search for every version of the listing",
-          text: "Search your exact practice name (and old name/address if applicable) in Maps and Search from a logged-out browser. Record every result's address, phone, and review count.",
+          text: "Search your exact practice name (and old name/address if applicable) in Maps and Search from a logged-out browser. Record every result's address, phone, and review count. If your listing still does not show up after the duplicates are sorted out, [this guide to why a practice isn't showing up on Google Maps](/blog/why-your-medical-practice-isnt-showing-up-on-google-maps) covers the other common causes.",
         },
         {
           name: "Confirm you have access to the correct listing",
@@ -335,7 +335,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "It's also worth separating a stalled Google Business Profile from a stalled website. A GBP listing with good reviews and complete information can show real Maps movement even while the website's organic rankings are still catching up — they run on different clocks, and conflating the two can make a practice think nothing is working when half the picture is actually fine.",
+        text: "It's also worth separating a stalled Google Business Profile from a stalled website. A GBP listing with good reviews and complete information can show real Maps movement even while the website's organic rankings are still catching up — they run on different clocks, and conflating the two can make a practice think nothing is working when half the picture is actually fine. The blog version, [how long local SEO takes for medical practices](/blog/how-long-does-local-seo-take-for-medical-practices), covers the same question.",
       },
     ],
     faqs: [
@@ -1093,7 +1093,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Start with the service × city grid, not a brainstorm" },
       {
         type: "p",
-        text: "The single most reliable keyword research method for a local medical practice isn't creative brainstorming — it's mechanical. List every service you offer in plain patient language (not clinical jargon; \"stomach pain\" gets searched far more than \"abdominal discomfort\"), then list every city, town, and neighborhood you genuinely serve. Cross every service against every location. A practice offering 5 services across 4 nearby cities already has 20 real keyword targets before any tool is involved.",
+        text: "The single most reliable keyword research method for a local medical practice isn't creative brainstorming — it's mechanical. List every service you offer in plain patient language (not clinical jargon; \"stomach pain\" gets searched far more than \"abdominal discomfort\"), then list every city, town, and neighborhood you genuinely serve. Cross every service against every location. A practice offering 5 services across 4 nearby cities already has 20 real keyword targets before any tool is involved. If local search is new to you, start with [what local SEO for doctors involves](/blog/what-is-local-seo-for-doctors).",
       },
       { type: "h2", text: "Then check real volume and competition" },
       {

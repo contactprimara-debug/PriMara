@@ -606,7 +606,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use Search Console for website rank, the profile report for listing activity, and a grid scan for local map position. A geo-grid scan needs a tool that checks rank from many coordinates, and it generally works only when your profile shows a public address. A service-area practice with a hidden address is not visible to those tools, so for that profile lean on Search Console position and the profile's search terms."
+        "text": "Use Search Console for website rank, the profile report for listing activity, and a grid scan for local map position. A geo-grid scan needs a tool that checks rank from many coordinates, and it generally works only when your profile shows a public address. A service-area practice with a hidden address is not visible to those tools, so for that profile lean on Search Console position and the profile's search terms. Rankings move slowly, so [how long local SEO takes for medical practices](/blog/how-long-does-local-seo-take-for-medical-practices) helps set expectations, and [what local SEO for doctors involves](/blog/what-is-local-seo-for-doctors) explains what is being tracked."
       },
       {
         "type": "h2",
@@ -915,7 +915,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "You do not choose which method you get. Google offers the ones it considers appropriate for your business, and the options can change. Do not enter the same details repeatedly hoping for a different option, because repeated attempts can slow the process. Note the date of each request so you know when the window you are waiting on began."
+        "text": "You do not choose which method you get. Google offers the ones it considers appropriate for your business, and the options can change. Do not enter the same details repeatedly hoping for a different option, because repeated attempts can slow the process. Note the date of each request so you know when the window you are waiting on began. Verification is only one reason a listing can be missing from Maps; [why a practice isn't showing up on Google Maps](/blog/why-your-medical-practice-isnt-showing-up-on-google-maps) covers the others."
       },
       {
         "type": "h2",
@@ -2065,7 +2065,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "When someone searches a doctor's name, the results often include a directory page next to the practice's own site. Those pages exist whether or not you ever touched them. The directories build them from public records, such as state licensing data and the national provider registry, so an unclaimed profile may hold an old address, a closed office or a missing specialty. Answer engines also draw on pages like these, though we cannot see which sources any one answer used, and nobody can promise that a profile earns a mention."
+        "text": "When someone searches a doctor's name, the results often include a directory page next to the practice's own site. Those pages exist whether or not you ever touched them. The directories build them from public records, such as state licensing data and the national provider registry, so an unclaimed profile may hold an old address, a closed office or a missing specialty. Answer engines also draw on pages like these, though we cannot see which sources any one answer used, and nobody can promise that a profile earns a mention. Therapists weighing a directory such as Psychology Today can see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists)."
       },
       {
         "type": "h2",
@@ -2391,7 +2391,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google sorts profiles by where service happens. A storefront serves customers at its address during staffed hours. A service-area business goes to its customers, so it lists the areas it covers instead of, or in addition to, an address. A hybrid does both: customers visit the location and staff also travel. These are Google's own categories, and its guidelines for representing your business on Google decide which one applies to you."
+        "text": "Google sorts profiles by where service happens. A storefront serves customers at its address during staffed hours. A service-area business goes to its customers, so it lists the areas it covers instead of, or in addition to, an address. A hybrid does both: customers visit the location and staff also travel. These are Google's own categories, and its guidelines for representing your business on Google decide which one applies to you. A profile that is set up correctly can still be missing from results, and [why a practice isn't showing up on Google Maps](/blog/why-your-medical-practice-isnt-showing-up-on-google-maps) walks through the usual reasons."
       },
       {
         "type": "table",

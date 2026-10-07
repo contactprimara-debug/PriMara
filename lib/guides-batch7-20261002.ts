@@ -34,7 +34,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What an attribute actually is" },
       {
         type: "p",
-        text: "An attribute is a small, specific fact about your practice that Google displays as a checkmark or a filter chip: 'Wheelchair accessible entrance,' 'Identifies as women-led,' 'Online care,' 'Accepts new patients.' They sit below your category and hours on the profile, and they drive the filter checkboxes patients see on the left side of a Google Maps search — so when someone filters a 'family medicine near me' search by 'wheelchair accessible,' only profiles with that attribute checked stay on the map.",
+        text: "An attribute is a small, specific fact about your practice that Google displays as a checkmark or a filter chip: 'Wheelchair accessible entrance,' 'Identifies as women-led,' 'Online care,' 'Accepts new patients.' They sit below your category and hours on the profile, and they drive the filter checkboxes patients see on the left side of a Google Maps search — so when someone filters a 'family medicine near me' search by 'wheelchair accessible,' only profiles with that attribute checked stay on the map. Men's health clinics have attributes worth a look in [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics).",
       },
       {
         type: "p",
@@ -872,7 +872,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What governs Google reviews" },
       {
         type: "p",
-        text: "Google's own policies prohibit review gating — asking only satisfied patients for reviews while filtering out others, or offering any incentive (discount, gift, free service) in exchange for leaving a review. These are Google platform policy violations that can result in review removal or profile penalties, separate from any FTC concern. The practical rule: ask every patient the same way, with no conditions attached, and let the reviews land where they land." ,
+        text: "Google's own policies prohibit review gating — asking only satisfied patients for reviews while filtering out others, or offering any incentive (discount, gift, free service) in exchange for leaving a review. These are Google platform policy violations that can result in review removal or profile penalties, separate from any FTC concern. The practical rule: ask every patient the same way, with no conditions attached, and let the reviews land where they land. Within those rules, the practical question is [how many Google reviews a practice actually needs](/blog/how-many-google-reviews-does-a-medical-practice-need)." ,
       },
       { type: "h2", text: "What governs a published testimonial" },
       {
@@ -887,7 +887,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "A practical rule of thumb" },
       {
         type: "p",
-        text: "Let Google reviews happen naturally and never incentivize or filter them. For testimonials you actively select and publish, get specific written authorization if a condition or treatment is named, keep the claim to what's genuinely typical, and when in doubt, favor service-and-experience testimonials over outcome-based ones — they carry real marketing value with almost none of the compliance exposure." ,
+        text: "Let Google reviews happen naturally and never incentivize or filter them. For testimonials you actively select and publish, get specific written authorization if a condition or treatment is named, keep the claim to what's genuinely typical, and when in doubt, favor service-and-experience testimonials over outcome-based ones — they carry real marketing value with almost none of the compliance exposure. The reply side is covered in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses)." ,
       },
     ],
     faqs: [

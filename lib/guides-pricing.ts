@@ -80,7 +80,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Local search is a relative game. You are not trying to hit an absolute quality bar; you are trying to be better than the three practices currently holding the map pack in your ZIP code. In Port St. Lucie that might mean a claimed profile, forty reviews, and eight decent pages. In Brickell or Coral Gables the incumbents may have six hundred reviews, a hospital system behind them, and a decade of content. The work required to pass them is several times larger, so the price is too.",
+        text: "Local search is a relative game. You are not trying to hit an absolute quality bar; you are trying to be better than the three practices currently holding the map pack in your ZIP code. In Port St. Lucie that might mean a claimed profile, forty reviews, and eight decent pages. In Brickell or Coral Gables the incumbents may have six hundred reviews, a hospital system behind them, and a decade of content. The work required to pass them is several times larger, so the price is too. [What local SEO for doctors involves](/blog/what-is-local-seo-for-doctors) is the plain-language starting point.",
       },
       {
         type: "p",
@@ -92,7 +92,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Take the project if your site is genuinely broken, you have in-house help to keep things moving afterwards, and your market is not crowded. Take the retainer if map pack position is where your patients come from, because rankings decay. Reviews age, competitors post, Google changes how it weighs categories. A build with nobody maintaining it slides back within a few quarters.",
+        text: "Take the project if your site is genuinely broken, you have in-house help to keep things moving afterwards, and your market is not crowded. Take the retainer if map pack position is where your patients come from, because rankings decay. Reviews age, competitors post, Google changes how it weighs categories. A build with nobody maintaining it slides back within a few quarters. For what to expect on timing, see [how long local SEO takes for medical practices](/blog/how-long-does-local-seo-take-for-medical-practices).",
       },
       {
         type: "h2",
@@ -280,11 +280,11 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Directory listings work the way a phone book worked. You pay for placement in a list you do not control, next to everyone you compete with, and the moment you stop paying you disappear. They are worth keeping as a source of matched-insurance referrals. They are not worth being your only channel, because the practices that grow past full caseload are the ones that own the search result instead of renting a spot inside someone else's.",
+        text: "Directory listings work the way a phone book worked. You pay for placement in a list you do not control, next to everyone you compete with, and the moment you stop paying you disappear. They are worth keeping as a source of matched-insurance referrals. They are not worth being your only channel, because the practices that grow past full caseload are the ones that own the search result instead of renting a spot inside someone else's. For a side-by-side look, see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists).",
       },
       {
         type: "p",
-        text: "The alternative is not more expensive than people assume. A claimed, correctly categorized Google Business Profile with a steady trickle of reviews will out-produce a directory listing in most Florida cities within a year, and it costs nothing but the work.",
+        text: "The alternative is not more expensive than people assume. A claimed, correctly categorized Google Business Profile with a steady trickle of reviews will out-produce a directory listing in most Florida cities within a year, and it costs nothing but the work. [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists) explains the setup.",
       },
       {
         type: "h2",
@@ -474,7 +474,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The Google Business Profile compounds this. For any search with local intent, Google shows a three-result map pack above everything else. Getting into it is largely a function of correct categories, proximity, and review velocity — all three of which are work, not spend.",
+        text: "The Google Business Profile compounds this. For any search with local intent, Google shows a three-result map pack above everything else. Getting into it is largely a function of correct categories, proximity, and review velocity — all three of which are work, not spend. Setup specifics for therapists are in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists).",
       },
       {
         type: "h2",
@@ -498,7 +498,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "callout",
-        text: "If your budget only covers one channel and you can survive a slow quarter, choose the Google Business Profile and local SEO. It is the only spend that is still working for you next year.",
+        text: "If your budget only covers one channel and you can survive a slow quarter, choose the Google Business Profile and local SEO. It is the only spend that is still working for you next year. If a directory listing is part of the plan, [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) shows how it compares.",
       },
       {
         type: "h2",

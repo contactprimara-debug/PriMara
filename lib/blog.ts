@@ -991,7 +991,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "This matters because the map pack captures a specific, valuable type of patient: the one who has already decided they want an in-person relationship with a real physician, not a subscription app and a mailed prescription. That patient is actively searching with local intent — \"TRT clinic near me,\" \"testosterone doctor [city]\" — and a clinic with a complete, well-reviewed profile is what they find.",
+        text: "This matters because the map pack captures a specific, valuable type of patient: the one who has already decided they want an in-person relationship with a real physician, not a subscription app and a mailed prescription. That patient is actively searching with local intent — \"TRT clinic near me,\" \"testosterone doctor [city]\" — and a clinic with a complete, well-reviewed profile is what they find. [How men search for TRT and ED treatment](/blog/how-men-search-for-trt-and-ed-treatment) describes how that patient researches.",
       },
       {
         type: "h2",
@@ -999,7 +999,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Most independent TRT clinics claim a single generic category — \"Medical Clinic\" — and stop there. A properly configured profile uses every relevant category available: Men's Health Physician, Urologist where applicable, Weight Loss Service if that's part of your offering. Each additional accurate category is an additional ranking signal and an additional way for Google to match your profile to a relevant search.",
+        text: "Most independent TRT clinics claim a single generic category — \"Medical Clinic\" — and stop there. A properly configured profile uses every relevant category available: Men's Health Physician, Urologist where applicable, Weight Loss Service if that's part of your offering. Each additional accurate category is an additional ranking signal and an additional way for Google to match your profile to a relevant search. See [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics) for the full category list.",
       },
       {
         type: "p",
@@ -1063,7 +1063,7 @@ export const blogPosts: BlogPost[] = [
     sections: [
       {
         type: "p",
-        text: "Google Business Profile categories drive more local ranking impact than reviews, more than your website, more than almost anything else on your profile. Most independent men's health clinics select one category — usually \"Medical Clinic\" or \"Urologist\" — and never touch the setting again. That leaves real ranking opportunity on the table, because Google allows up to ten categories per profile, and each one is a separate signal matching your practice to a separate set of searches.",
+        text: "Google Business Profile categories drive more local ranking impact than reviews, more than your website, more than almost anything else on your profile. Most independent men's health clinics select one category — usually \"Medical Clinic\" or \"Urologist\" — and never touch the setting again. That leaves real ranking opportunity on the table, because Google allows up to ten categories per profile, and each one is a separate signal matching your practice to a separate set of searches. Independent clinics also compete with national brands in the pack, as covered in [TRT clinics versus national telehealth brands](/blog/trt-clinics-vs-national-telehealth-brands-local-seo).",
       },
       {
         type: "h2",
@@ -1087,7 +1087,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Men's health is one of the more privacy-sensitive medical categories, and the profile should reflect that directly. Attributes like \"appointment required\" and \"private consultation available\" — where supported — communicate to a hesitant, comparison-shopping patient that your practice understands the nature of what they're researching. This is a small detail that measurably affects whether a patient clicks through to call.",
+        text: "Men's health is one of the more privacy-sensitive medical categories, and the profile should reflect that directly. Attributes like \"appointment required\" and \"private consultation available\" — where supported — communicate to a hesitant, comparison-shopping patient that your practice understands the nature of what they're researching. This is a small detail that measurably affects whether a patient clicks through to call. That reflects how men tend to [search for TRT and ED treatment](/blog/how-men-search-for-trt-and-ed-treatment): privately and carefully.",
       },
       {
         type: "blockquote",
@@ -1151,7 +1151,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "A lot of men's health marketing — particularly from national telehealth brands — reads like a subscription supplement funnel: bold claims, urgency language, a slick multi-step signup flow. That style works for some audiences, but it actively erodes trust with a skeptical, research-oriented patient comparing his options. The clinic that reads as clinical, physician-led, and evidence-based — clear information, real credentials, no exaggerated promises — is the one a careful researcher chooses to call.",
+        text: "A lot of men's health marketing — particularly from national telehealth brands — reads like a subscription supplement funnel: bold claims, urgency language, a slick multi-step signup flow. That style works for some audiences, but it actively erodes trust with a skeptical, research-oriented patient comparing his options. The clinic that reads as clinical, physician-led, and evidence-based — clear information, real credentials, no exaggerated promises — is the one a careful researcher chooses to call. [TRT clinics versus national telehealth brands](/blog/trt-clinics-vs-national-telehealth-brands-local-seo) covers how a local clinic can compete.",
       },
       {
         type: "h2",
@@ -1163,7 +1163,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "blockquote",
-        text: "The clinics that win in this category aren't the ones with the loudest marketing. They're the ones whose website makes a skeptical, private researcher feel like he found a real doctor instead of a sales funnel.",
+        text: "The clinics that win in this category aren't the ones with the loudest marketing. They're the ones whose website makes a skeptical, private researcher feel like he found a real doctor instead of a sales funnel. Part of that is a profile built on the right categories; see [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics).",
         cite: "Gio LaRoche, Primara",
       },
       {

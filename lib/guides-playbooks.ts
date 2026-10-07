@@ -29,7 +29,7 @@ export const guidesPartTwo: Guide[] = [
         },
         {
           name: "Set the most specific primary category",
-          text: "Choose the narrowest category that describes your practice — Internist rather than Doctor, Psychotherapist rather than Mental Health Service. Primary category is the strongest single ranking input on the profile.",
+          text: "Choose the narrowest category that describes your practice — Internist rather than Doctor, Psychotherapist rather than Mental Health Service. Primary category is the strongest single ranking input on the profile. Therapists can see how this applies to their own listing in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists).",
         },
         {
           name: "Fill every applicable secondary category",
@@ -907,7 +907,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "In most Florida metros the men's health search results are held by two groups: national telehealth brands with enormous ad budgets, and franchise clinics with several local addresses. Neither ranks well on specifics. They run broad, generic pages because they operate in forty markets. That is the opening. A single clinic that publishes genuinely local, genuinely specific pages and holds a real map pack position beats a national brand on every search with local intent.",
+        text: "In most Florida metros the men's health search results are held by two groups: national telehealth brands with enormous ad budgets, and franchise clinics with several local addresses. Neither ranks well on specifics. They run broad, generic pages because they operate in forty markets. That is the opening. A single clinic that publishes genuinely local, genuinely specific pages and holds a real map pack position beats a national brand on every search with local intent. [TRT clinics versus national telehealth brands](/blog/trt-clinics-vs-national-telehealth-brands-local-seo) goes deeper on that competition.",
       },
       {
         type: "h2",
@@ -929,7 +929,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Men researching hormone therapy, erectile dysfunction treatment, or medical weight management read carefully and compare quietly before they call. They want to know what the first visit involves, what labs are drawn, who prescribes, how follow-up works, and what it costs per month. A page that answers all five converts several times better than one that ends with a consultation form and no numbers.",
+        text: "Men researching hormone therapy, erectile dysfunction treatment, or medical weight management read carefully and compare quietly before they call. They want to know what the first visit involves, what labs are drawn, who prescribes, how follow-up works, and what it costs per month. A page that answers all five converts several times better than one that ends with a consultation form and no numbers. [How men search for TRT and ED treatment](/blog/how-men-search-for-trt-and-ed-treatment) covers that research process.",
       },
       {
         type: "p",

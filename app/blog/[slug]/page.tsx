@@ -116,6 +116,32 @@ function linkifyText(text: string): React.ReactNode {
   );
 }
 
+/** Supports inline markdown-style links ([label](/path)) in authored prose so a
+ *  post can carry a genuine editorial link inside a real sentence; the remaining
+ *  plain text still goes through linkifyText. Text with no bracket pattern
+ *  renders exactly as before. */
+function renderBlogText(text: string): React.ReactNode {
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  if (!re.test(text)) return linkifyText(text);
+  re.lastIndex = 0;
+  const nodes: React.ReactNode[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let i = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) nodes.push(<span key={`t${i}`}>{linkifyText(text.slice(last, m.index))}</span>);
+    nodes.push(
+      <Link key={`l${i}`} href={m[2]} style={{ color: "var(--gold)", textDecoration: "underline" }}>
+        {m[1]}
+      </Link>
+    );
+    last = m.index + m[0].length;
+    i++;
+  }
+  if (last < text.length) nodes.push(<span key="tend">{linkifyText(text.slice(last))}</span>);
+  return <>{nodes}</>;
+}
+
 function RenderSection({ section }: { section: BlogSection }) {
   switch (section.type) {
     case "h2":
@@ -162,7 +188,7 @@ function RenderSection({ section }: { section: BlogSection }) {
             fontSize: "1.0625rem",
           }}
         >
-          {section.text ? linkifyText(section.text) : null}
+          {section.text ? renderBlogText(section.text) : null}
         </p>
       );
 

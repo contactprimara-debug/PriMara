@@ -1278,7 +1278,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Cost and speed are why order matters. The pack and organic results are assets that compound, while ads are rented traffic. Neither is better in the abstract. Which one comes first depends on what is already in place."
+        "text": "Cost and speed are why order matters. The pack and organic results are assets that compound, while ads are rented traffic. Neither is better in the abstract. Which one comes first depends on what is already in place. For the basics behind the pack, see [what local SEO for doctors involves](/blog/what-is-local-seo-for-doctors)."
       },
       {
         "type": "h2",
@@ -1295,7 +1295,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's own documentation on local ranking names relevance, distance, and prominence as the factors, and you can influence relevance and prominence directly through profile completeness and reviews."
+        "text": "Google's own documentation on local ranking names relevance, distance, and prominence as the factors, and you can influence relevance and prominence directly through profile completeness and reviews. If your practice is not appearing in the pack at all, start with [why a practice isn't showing up on Google Maps](/blog/why-your-medical-practice-isnt-showing-up-on-google-maps)."
       },
       {
         "type": "h2",

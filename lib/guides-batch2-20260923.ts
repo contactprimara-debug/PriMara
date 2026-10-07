@@ -403,12 +403,12 @@ export const guidesPartFive: Guide[] = [
       },
       {
         type: "callout",
-        text: "A 4.6 average built from 150 honestly collected reviews outperforms a curated 4.9 from 20 gated ones — both for Google's ranking algorithm and for a prospective patient's trust.",
+        text: "A 4.6 average built from 150 honestly collected reviews outperforms a curated 4.9 from 20 gated ones — both for Google's ranking algorithm and for a prospective patient's trust. For a closer look at volume, see [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need).",
       },
       { type: "h2", text: "Setting up a compliant request system" },
       {
         type: "p",
-        text: "The mechanics are simple: a text or email sent after every visit with a direct link to your Google Business Profile review form, no pre-screening question in the message. Primara's own review-request system works exactly this way — every patient gets the same link, at the same point, regardless of how the visit likely went, which is both the compliant approach and, over time, the one that produces a review profile Google actually trusts and ranks well.",
+        text: "The mechanics are simple: a text or email sent after every visit with a direct link to your Google Business Profile review form, no pre-screening question in the message. Primara's own review-request system works exactly this way — every patient gets the same link, at the same point, regardless of how the visit likely went, which is both the compliant approach and, over time, the one that produces a review profile Google actually trusts and ranks well. Once reviews come in, [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses) covers how to reply without disclosing patient information.",
       },
     ],
     faqs: [
@@ -491,11 +491,11 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "How to change your categories" },
       {
         type: "p",
-        text: "In Google Business Profile Manager: Edit profile → Business information → the pencil icon next to Category. Changes to the primary category can take a short period to reflect in ranking, and Google occasionally requires re-verification after a significant category change — plan changes outside of a high-traffic period if possible.",
+        text: "In Google Business Profile Manager: Edit profile → Business information → the pencil icon next to Category. Changes to the primary category can take a short period to reflect in ranking, and Google occasionally requires re-verification after a significant category change — plan changes outside of a high-traffic period if possible. Men's health clinics have their own category questions, covered in [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics).",
       },
       {
         type: "callout",
-        text: "Review your categories any time you add, drop, or meaningfully change a service line — not just at initial setup. A category list frozen from when the profile was created is one of the most common, easiest-to-fix GBP gaps we find in an audit.",
+        text: "Review your categories any time you add, drop, or meaningfully change a service line — not just at initial setup. A category list frozen from when the profile was created is one of the most common, easiest-to-fix GBP gaps we find in an audit. For a worked example, see [which Google Business Profile categories primary care doctors should use](/blog/gbp-categories-for-primary-care-doctors).",
       },
     ],
     faqs: [

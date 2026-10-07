@@ -307,7 +307,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Primary care patients search differently than specialty patients" },
       {
         type: "p",
-        text: "Someone searching for a dermatologist or an orthopedist usually already has a specific problem in mind. Primary care search intent is broader and more insurance-driven: \"primary care doctor accepting new patients near me,\" \"family medicine that takes [specific insurance],\" \"walk-in primary care today.\" That difference matters for what actually gets built first — insurance acceptance and \"accepting new patients\" status need to be visible on the Google Business Profile and the website above the fold, not buried on a separate insurance page three clicks deep.",
+        text: "Someone searching for a dermatologist or an orthopedist usually already has a specific problem in mind. Primary care search intent is broader and more insurance-driven: \"primary care doctor accepting new patients near me,\" \"family medicine that takes [specific insurance],\" \"walk-in primary care today.\" That difference matters for what actually gets built first — insurance acceptance and \"accepting new patients\" status need to be visible on the Google Business Profile and the website above the fold, not buried on a separate insurance page three clicks deep. The category you choose shapes which of those searches you appear in; see [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors).",
       },
       { type: "h2", text: "Channel order, and why it matters" },
       {
@@ -664,7 +664,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "While the report is pending" },
       {
         type: "p",
-        text: "Post one measured, factual public reply — not defensive, not accusatory — that a reasonable reader (and a future patient) would find credible. Something like: \"We have no record of a patient matching this visit. If you believe this is an error, please call us directly at (561) 291-2681 so we can look into it.\" That reply does two things: it signals to other visitors that the practice takes the review seriously without escalating, and if Google ultimately declines to remove it, the practice isn't left with silence next to a fake review.",
+        text: "Post one measured, factual public reply — not defensive, not accusatory — that a reasonable reader (and a future patient) would find credible. Something like: \"We have no record of a patient matching this visit. If you believe this is an error, please call us directly at (561) 291-2681 so we can look into it.\" That reply does two things: it signals to other visitors that the practice takes the review seriously without escalating, and if Google ultimately declines to remove it, the practice isn't left with silence next to a fake review. The same privacy limits apply as in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses).",
       },
       {
         type: "callout",
@@ -824,7 +824,7 @@ export const guidesPartSeven: Guide[] = [
       },
       {
         type: "callout",
-        text: "Do not compare channels using cost-per-lead alone without also accounting for close rate. A channel that generates cheaper leads but converts far fewer of them into booked, paying patients can cost more per actual new patient than a more expensive channel with a higher close rate.",
+        text: "Do not compare channels using cost-per-lead alone without also accounting for close rate. A channel that generates cheaper leads but converts far fewer of them into booked, paying patients can cost more per actual new patient than a more expensive channel with a higher close rate. Give local SEO enough time before judging it; [how long local SEO takes for medical practices](/blog/how-long-does-local-seo-take-for-medical-practices) explains why.",
       },
       { type: "h2", text: "The formula, put together" },
       {

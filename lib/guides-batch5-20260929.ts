@@ -33,7 +33,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Structure the site around the client's decision, not the org chart" },
       {
         type: "p",
-        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once.",
+        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two.",
       },
       { type: "h2", text: "The five pieces a group practice needs" },
       {
@@ -53,7 +53,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "callout",
-        text: "A therapist who leaves the practice should not take the practice's search visibility with them. Keep reviews, the Google Business Profile, and the domain owned by the practice entity, not by any individual clinician — this is a structural decision to make before the practice grows, not after someone departs.",
+        text: "A therapist who leaves the practice should not take the practice's search visibility with them. Keep reviews, the Google Business Profile, and the domain owned by the practice entity, not by any individual clinician — this is a structural decision to make before the practice grows, not after someone departs. The same ownership point applies to the profile, as covered in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists).",
       },
     ],
     faqs: [
@@ -260,7 +260,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Google Business Profile for a membership-model practice" },
       {
         type: "p",
-        text: "List the practice under the most accurate category available and use the services section and posts to explain access features (same-day visits, direct physician line) rather than just naming specialties, since the differentiator here is the care model, not the specialty. Photos of the actual office and physician help — this model sells trust and access, and a real face performs better than any stock image ever will.",
+        text: "List the practice under the most accurate category available and use the services section and posts to explain access features (same-day visits, direct physician line) rather than just naming specialties, since the differentiator here is the care model, not the specialty. Photos of the actual office and physician help — this model sells trust and access, and a real face performs better than any stock image ever will. Our post on [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors) covers how to choose.",
       },
     ],
     howTo: {
@@ -392,7 +392,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "No physical office changes the whole strategy" },
       {
         type: "p",
-        text: "A brick-and-mortar practice can lean on Google Business Profile and the local pack to do a lot of the acquisition work. A pure telehealth service either has no eligible physical location to register a full-featured profile for, or serves an area far larger than any local pack reflects, so the website itself has to carry more of the weight — clear service pages, real content answering telehealth-specific questions, and paid or organic reach that isn't tied to a single city's local results the way an in-person practice's would be.",
+        text: "A brick-and-mortar practice can lean on Google Business Profile and the local pack to do a lot of the acquisition work. A pure telehealth service either has no eligible physical location to register a full-featured profile for, or serves an area far larger than any local pack reflects, so the website itself has to carry more of the weight — clear service pages, real content answering telehealth-specific questions, and paid or organic reach that isn't tied to a single city's local results the way an in-person practice's would be. For the in-person side of that contest, see [TRT clinics versus national telehealth brands](/blog/trt-clinics-vs-national-telehealth-brands-local-seo).",
       },
       { type: "h2", text: "State licensing has to be addressed directly, not buried" },
       {
@@ -418,7 +418,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Where organic content still works without a local pack anchor" },
       {
         type: "p",
-        text: "Without a physical office's local pack advantage, a telehealth practice's best organic opportunity is usually condition- and question-focused content rather than city-based pages — \"can a UTI be treated over telehealth,\" \"is telehealth appropriate for a medication refill,\" \"what conditions can't be diagnosed virtually.\" These are the questions a patient actually has before deciding whether telehealth fits their situation at all, and answering them honestly, including saying plainly when an in-person visit is the right call instead, builds the kind of trust that converts better than content trying to sell telehealth as a replacement for everything.",
+        text: "Without a physical office's local pack advantage, a telehealth practice's best organic opportunity is usually condition- and question-focused content rather than city-based pages — \"can a UTI be treated over telehealth,\" \"is telehealth appropriate for a medication refill,\" \"what conditions can't be diagnosed virtually.\" These are the questions a patient actually has before deciding whether telehealth fits their situation at all, and answering them honestly, including saying plainly when an in-person visit is the right call instead, builds the kind of trust that converts better than content trying to sell telehealth as a replacement for everything. For a men's health example, see [how men search for TRT and ED treatment](/blog/how-men-search-for-trt-and-ed-treatment).",
       },
       {
         type: "p",
@@ -562,7 +562,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "callout",
-        text: "A services list is not a place to list aspirational offerings the practice plans to add later. Every listed service should be something a patient could call today and actually book — a mismatch discovered on the phone is a worse first impression than not listing the service at all.",
+        text: "A services list is not a place to list aspirational offerings the practice plans to add later. Every listed service should be something a patient could call today and actually book — a mismatch discovered on the phone is a worse first impression than not listing the service at all. For a men's health example of building the list, see [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics).",
       },
       { type: "h2", text: "Who should actually do this work, and how long it takes" },
       {
