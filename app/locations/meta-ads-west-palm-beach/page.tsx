@@ -202,8 +202,9 @@ export default function MetaAdsWestPalmBeachPage() {
               That is a production problem before it is a media problem, and it is the reason
               being local is worth something. Filming a provider properly takes a morning when
               the agency can drive over; it takes weeks of back-and-forth when it cannot. We
-              run this market from inside it, for independent practices, medspas, and dental
-              clinics — not for the hospital systems or the franchise groups on the other side
+              run this market from inside it, for independent practices, medspas, and{" "}
+              <Link href="/locations/dental-practices-west-palm-beach">dental clinics in West Palm Beach</Link>{" "}
+              — not for the hospital systems or the franchise groups on the other side
               of the auction.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
