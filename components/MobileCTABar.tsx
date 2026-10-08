@@ -8,8 +8,8 @@ import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
    Sticky tap-to-call bar, mobile only (md:hidden — desktop never renders it).
 
    Visibility rules:
-   - Hidden until the visitor scrolls past the hero (~500px). Showing it
-     immediately would cover the hero's own CTA on first paint.
+   - Visible from first paint (changed 2026-10-08: the audit found no call/form CTA
+     in the first mobile screen of the top pages). Hidden whenever a lead form is on screen.
    - Hidden again whenever a lead form is on screen — the bar exists to get
      people TO a form, so it must never sit on top of one.
 
@@ -22,7 +22,7 @@ import { siteConfig, STANDALONE_ROUTES } from "@/lib/siteConfig";
 */
 
 const FORM_IDS = ["contact", "contact-form", "inquire"];
-const SHOW_AFTER_PX = 500;
+const SHOW_AFTER_PX = 0; // results audit 2026-10-08: call + form CTA must be on the FIRST mobile screen
 
 export default function MobileCTABar() {
   const [visible, setVisible] = useState(false);
@@ -39,7 +39,7 @@ export default function MobileCTABar() {
     // code path is easier to reason about, and rect reads on ≤3 elements
     // after a scroll are cheap (layout is already clean at that point).
     const update = () => {
-      const pastHero = window.scrollY > SHOW_AFTER_PX;
+      const pastHero = window.scrollY >= SHOW_AFTER_PX;
       const viewportH = window.innerHeight;
       const formOnScreen = FORM_IDS.some((id) => {
         const el = document.getElementById(id);
