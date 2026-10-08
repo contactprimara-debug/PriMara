@@ -1,7 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Syne } from "next/font/google";
-import Script from "next/script";
-import AfterHydration from "@/components/AfterHydration";
 import GAPageViews from "@/components/GAPageViews";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -14,6 +12,50 @@ import MobileCTABar from "@/components/MobileCTABar";
 import Preloader from "@/components/Preloader";
 import RouteFade from "@/components/RouteFade";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
+
+/* ── AFTER_PAINT — one inline loader for every non-critical third-party script ─
+   WHY (card #190, 2026-10-08): PSI mobile LCP on the homepage was bimodal, 2.5s
+   in one run and 9.1s in the next, with the same page. Measured in a local
+   Lighthouse trace: the hero text really paints at ~0.5-2.0s in BOTH cases
+   (observed LCP 2.0-2.3s), but Lighthouse's mobile score is a SIMULATION. It
+   takes the observed LCP time and counts every script that STARTED loading
+   before it (GTM 117 KB, gtag 3 x ~165 KB, GSAP, Lenis) as work the throttled
+   phone must finish first. When the headless paint lands at ~2s those scripts
+   start before it (simulated LCP 7-10s); when it lands at ~0.6s they start
+   after it (LCP 2.5s). So the fix is to make "starts after the paint" true on
+   every run: this script waits for the browser's own largest-contentful-paint
+   entry, then loads everything. Real visitors get the same tags, a few hundred
+   ms later than before; nothing is dropped.
+   Fallbacks so tracking can never depend on a paint event: first user input,
+   or 3s, whichever comes first.
+   Kept as ONE literal inline script in the server HTML (not next/script) so the
+   health checks that read raw HTML still see gtm.js?id=GTM-TFSRXGS6 and
+   gtag(...) / gtag/js?id=GT-PB6FNVRG. window.gtag AND the js/config calls run
+   immediately (they only queue into dataLayer), so a tel: click, the thank-you
+   conversion or an SPA page_view that happens before the library arrives is
+   queued behind the config in the right order, not lost. Do NOT move these back to
+   afterInteractive/lazyOnload without re-measuring on PSI (3 runs, cache-busted). */
+const AFTER_PAINT = `(function(w,d){
+var q=[],fired=false;
+function run(){if(fired)return;fired=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}q=[]}
+function after(f){if(fired)f();else q.push(f)}
+function load(src,cb){var s=d.createElement('script');s.src=src;s.async=true;if(cb)s.onload=cb;d.head.appendChild(s)}
+w.dataLayer=w.dataLayer||[];
+w.gtag=function(){w.dataLayer.push(arguments)};
+w.gtag('js',new Date());
+w.gtag('config','GT-PB6FNVRG');
+w.gtag('config','AW-18204165915');
+w.gtag('config','G-DYRL31NGRH');
+after(function(){
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(w,d,'script','dataLayer','GTM-TFSRXGS6');
+load('https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG');
+load('https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js',function(){load('https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js')});
+load('https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js');
+});
+try{new PerformanceObserver(function(l,o){if(l.getEntries().length){o.disconnect();run()}}).observe({type:'largest-contentful-paint',buffered:true})}catch(e){}
+['pointerdown','keydown','touchstart','wheel'].forEach(function(t){w.addEventListener(t,run,{once:true,passive:true})});
+setTimeout(run,3000);
+})(window,document);`;
 
 const instrumentSerif = Instrument_Serif({
   weight: ["400"],
@@ -97,13 +139,7 @@ export default function RootLayout({
               configured in the container beyond defaults). Standard Google
               snippet pattern, via next/script afterInteractive to match how
               every other third-party script on this page already loads. */}
-        <Script id="gtm-head" strategy="afterInteractive">{`
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TFSRXGS6');
-`}</Script>
+        {/* GTM + gtag + GSAP/Lenis now load from the single inline AFTER_PAINT script below (see its comment). */}
 
         {/* ── Early connections to the third-party origins every page load
               depends on (GTM, GA4, Google Ads remarketing, GSAP/Lenis CDN,
@@ -156,25 +192,8 @@ export default function RootLayout({
               saves ~159 KB and is what we now do (2026-09-14). It used to cost
               the SPA route-change page_views; components/GAPageViews.tsx sends
               those directly to G-DYRL31NGRH instead, off this same library. */}
-        {/* PERF (task #179): wrapped in <AfterHydration> ONLY to stop next/script
-              from emitting <link rel="preload" as="script"> for the gtag
-              libraries into the initial HTML — see components/AfterHydration.tsx.
-              The tags below are otherwise untouched: same strategy, same ids,
-              same order. */}
-        <AfterHydration>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG" strategy="afterInteractive" />
-        <Script id="google-tag" strategy="afterInteractive">{`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GT-PB6FNVRG');
-  gtag('config', 'AW-18204165915');
-  // GA4 property on the Primara Google account (552664101) — the one the
-  // Command Center reads, and now our ONLY GA4 destination. This config call
-  // sends the initial page_view; GAPageViews.tsx sends route changes.
-  gtag('config', 'G-DYRL31NGRH');
-`}</Script>
-        </AfterHydration>
+        {/* gtag.js (GT-PB6FNVRG -> AW-18204165915 + G-DYRL31NGRH): loaded by AFTER_PAINT, see its comment. Same ids, same config calls. */}
+        <script id="after-paint-loader" dangerouslySetInnerHTML={{ __html: AFTER_PAINT }} />
 
       </head>
 
@@ -231,14 +250,8 @@ export default function RootLayout({
               window entirely.
 
               (ordered: core → ScrollTrigger) */}
-        <Script
-          src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
-          strategy="lazyOnload"
-        />
-        <Script
-          src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
-          strategy="lazyOnload"
-        />
+
+
         {/* SplitText was requested here and REMOVED 2026-09-11: the URL has
             always returned HTTP 404 ("Couldn't find the requested file
             /dist/SplitText.min.js in gsap") — SplitText is a paid GSAP Club
@@ -253,10 +266,7 @@ export default function RootLayout({
             decision, not a perf fix. */}
 
         {/* ── Lenis smooth scroll CDN ───────────────────────────────────── */}
-        <Script
-          src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"
-          strategy="lazyOnload"
-        />
+
 
         {/* ── SPA route-change page_views for G-DYRL31NGRH ──────────────
               Replaces <GoogleAnalytics gaId={NEXT_PUBLIC_GA_ID}/>, which was

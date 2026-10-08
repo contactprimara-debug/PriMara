@@ -15,7 +15,7 @@ export default function AnimationProvider() {
       const Lenis = (window as any).Lenis;
 
       if (!g || !ST || !Lenis) {
-        if (attempts++ < 60) setTimeout(init, 100);
+        if (attempts++ < 120) setTimeout(init, 100);
         return;
       }
 
