@@ -64,7 +64,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Google's own documentation on local ranking names three factors: relevance, distance, and prominence. You cannot change distance. Relevance is categories, services, and description. Prominence is reviews, links, and how well known your practice is. So the levers are categories and reviews, in that order. If you see a different box for a physician or organization, see [what a Knowledge Panel is and how a practice can claim one](/guides/google-knowledge-panel-for-a-medical-practice).",
+        text: "Google's own documentation on local ranking names three factors: relevance, distance, and prominence. You cannot change distance. Relevance is categories, services, and description. Prominence is reviews, links, and how well known your practice is. So the levers are categories and reviews, in that order. If you see a different box for a physician or organization, see [what a Knowledge Panel is and how a practice can claim one](/guides/google-knowledge-panel-for-a-medical-practice). Once the work is done, check the profile's monthly numbers; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) explains how to read them.",
       },
       {
         type: "h2",
@@ -364,7 +364,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Practices assume compliance means flying blind. It does not. You can still know how many calls came from the Google Business Profile versus organic search versus ads, how many forms each channel produced, which pages produce contacts, and what a booked patient costs by channel. What you give up is the ability to tie a specific human to a specific condition inside an advertising platform — which was never something a practice needed in order to run marketing well. Scheduling tools raise the same privacy questions; see [online appointment scheduling on a medical practice website](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo).",
+        text: "Practices assume compliance means flying blind. It does not. You can still know how many calls came from the Google Business Profile versus organic search versus ads, how many forms each channel produced, which pages produce contacts, and what a booked patient costs by channel. What you give up is the ability to tie a specific human to a specific condition inside an advertising platform — which was never something a practice needed in order to run marketing well. Scheduling tools raise the same privacy questions; see [online appointment scheduling on a medical practice website](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Secure delivery matters as well, so make sure every page and form loads over HTTPS, as explained in [HTTPS, SSL certificates and mixed-content warnings](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website), though encryption alone does not settle compliance questions.",
       },
     ],
     faqs: [
@@ -545,7 +545,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "You do not have to match the totals. Velocity, completeness, and proximity are what you can change this quarter, and a profile that is fully configured with a rising review rate can enter a top three in a specific neighborhood in a few months even against much older listings.",
+        text: "You do not have to match the totals. Velocity, completeness, and proximity are what you can change this quarter, and a profile that is fully configured with a rising review rate can enter a top three in a specific neighborhood in a few months even against much older listings. A simple side-by-side comparison of the med spas that appear for your core searches, as in [how to analyze local competitors for a medical practice](/guides/how-to-analyze-local-competitors-for-a-medical-practice), shows exactly what the bar looks like.",
       },
       {
         type: "h2",

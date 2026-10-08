@@ -211,7 +211,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The cleanest fix is a responsive design, one set of HTML that adapts to screen size, so there is only one version of each page to keep correct. If your site still serves a separate mobile version, put identical primary content, titles, and structured data on both, and keep the redirects between them accurate. If your site was built on an older theme, a rebuild on a responsive framework is often cheaper than patching two versions. Our [medical practice website design](/services/medical-practice-website-design) service starts from this requirement."
+        "text": "The cleanest fix is a responsive design, one set of HTML that adapts to screen size, so there is only one version of each page to keep correct. If your site still serves a separate mobile version, put identical primary content, titles, and structured data on both, and keep the redirects between them accurate. If your site was built on an older theme, a rebuild on a responsive framework is often cheaper than patching two versions. Our [medical practice website design](/services/medical-practice-website-design) service starts from this requirement. Whichever version Google crawls should load securely over HTTPS; see [HTTPS, SSL certificates and mixed-content warnings on a medical practice website](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website) for how to check it."
       }
     ],
     faqs: [
@@ -458,11 +458,11 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Set a server-side 301 redirect from every old URL to its mapped new URL, and test a meaningful sample by hand, then every URL by script. A 301 tells search engines the move is permanent, so the old address's signals can pass to the new one. Avoid chains where one redirect points to another, and avoid temporary 302 redirects, which signal that the old address will return. If you are still deciding on the name itself, read our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice) before you buy anything."
+        "text": "Set a server-side 301 redirect from every old URL to its mapped new URL, and test a meaningful sample by hand, then every URL by script. A 301 tells search engines the move is permanent, so the old address's signals can pass to the new one. Avoid chains where one redirect points to another, and avoid temporary 302 redirects, which signal that the old address will return. If you are still deciding on the name itself, read our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice) before you buy anything. Alongside the redirects, check that each new page names itself as canonical, a step covered in our guide on [canonical tags and duplicate content](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website)."
       },
       {
         "type": "p",
-        "text": "Then verify the new domain as a property in Google Search Console and use the Change of Address tool on the old property, as Google's site-move documentation describes. Submit the new sitemap. Update internal links so they point to the new domain directly rather than relying on redirects. After launch, keep checking for dead links with our guide to [finding and fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
+        "text": "Then verify the new domain as a property in Google Search Console and use the Change of Address tool on the old property, as Google's site-move documentation describes. Submit the new sitemap. Update internal links so they point to the new domain directly rather than relying on redirects. After launch, keep checking for dead links with our guide to [finding and fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). After the move, confirm the new domain serves every page over HTTPS and that no old http resources remain, as in our guide to [HTTPS, SSL certificates and mixed-content warnings](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website)."
       },
       {
         "type": "h2",
@@ -603,7 +603,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not make rushed sitewide changes. Google's guidance for sites that dropped is to evaluate your content against its helpful, people-first content questions, not to chase a single factor. Look at the pages that lost the most and ask honestly: is this page thin, outdated, or generic, does a real clinician stand behind it, and does it answer the question better than the pages now ranking above it?"
+        "text": "Do not make rushed sitewide changes. Google's guidance for sites that dropped is to evaluate your content against its helpful, people-first content questions, not to chase a single factor. Look at the pages that lost the most and ask honestly: is this page thin, outdated, or generic, does a real clinician stand behind it, and does it answer the question better than the pages now ranking above it? Before you can investigate a dip, the site needs to be verified in Search Console; our guide on [how to set up and verify Google Search Console for a medical practice website](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website) covers the steps."
       },
       {
         "type": "ul",
@@ -726,7 +726,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website)."
+        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website). Captions and transcripts for video are part of the same obligation to be usable, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) explains how to add them."
       },
       {
         "type": "h2",
@@ -755,7 +755,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Accessibility and technical SEO overlap, because clean headings, labeled forms, and alt text help search engines too. When you build a new site, make it a requirement, as in our [medical practice website design](/services/medical-practice-website-design) approach, and include it in your [website launch checklist](/guides/medical-website-launch-seo-checklist)."
+        "text": "Accessibility and technical SEO overlap, because clean headings, labeled forms, and alt text help search engines too. When you build a new site, make it a requirement, as in our [medical practice website design](/services/medical-practice-website-design) approach, and include it in your [website launch checklist](/guides/medical-website-launch-seo-checklist). Heading order is one of the simplest accessibility wins, and our guide on [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) shows how to outline a page so screen reader users can jump through it."
       }
     ],
     faqs: [
@@ -856,7 +856,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google does not accept applications. Its systems assemble a panel when they find enough consistent, reliable information about an entity across the web, such as an official website, structured data, and independent sources that describe it. A new or small practice often has too little independent coverage for the systems to be confident, so no panel appears. That is a data problem, not a penalty. Other map products show their own place cards, and our guide on [Apple Maps and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them."
+        "text": "Google does not accept applications. Its systems assemble a panel when they find enough consistent, reliable information about an entity across the web, such as an official website, structured data, and independent sources that describe it. A new or small practice often has too little independent coverage for the systems to be confident, so no panel appears. That is a data problem, not a penalty. Other map products show their own place cards, and our guide on [Apple Maps and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them. Valid structured data on your own site is one of the consistent signals Google can use, so test it with the routine in [how to test and validate structured data](/guides/how-to-test-and-validate-structured-data-on-a-medical-practice-website)."
       },
       {
         "type": "h2",
@@ -1156,7 +1156,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A real refresh fixes inaccurate facts, adds information a reader would now expect, tightens the answer at the top, adds or checks FAQs, updates citations to current sources, and checks that links still work. A clinician should read medical content and sign off. After that, update the visible date and the structured data's date together, as Google's guidance on publication dates recommends, and only when the page truly changed."
+        "text": "A real refresh fixes inaccurate facts, adds information a reader would now expect, tightens the answer at the top, adds or checks FAQs, updates citations to current sources, and checks that links still work. A clinician should read medical content and sign off. After that, update the visible date and the structured data's date together, as Google's guidance on publication dates recommends, and only when the page truly changed. Seasonal pages are a good example: update the same page each year rather than publishing a new one, as covered in [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals)."
       },
       {
         "type": "p",
@@ -1295,7 +1295,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's own documentation on local ranking names relevance, distance, and prominence as the factors, and you can influence relevance and prominence directly through profile completeness and reviews. If your practice is not appearing in the pack at all, start with [why a practice isn't showing up on Google Maps](/blog/why-your-medical-practice-isnt-showing-up-on-google-maps)."
+        "text": "Google's own documentation on local ranking names relevance, distance, and prominence as the factors, and you can influence relevance and prominence directly through profile completeness and reviews. If your practice is not appearing in the pack at all, start with [why a practice isn't showing up on Google Maps](/blog/why-your-medical-practice-isnt-showing-up-on-google-maps). Searching your own key phrases and noting who holds the pack is the first step of a competitor comparison, described in [how to analyze local competitors for a medical practice](/guides/how-to-analyze-local-competitors-for-a-medical-practice)."
       },
       {
         "type": "h2",

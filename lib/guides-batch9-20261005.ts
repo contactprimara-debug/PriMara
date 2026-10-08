@@ -53,7 +53,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The Pages report, under Indexing, lists URLs Google knows about and whether each is indexed. Not every URL belongs in the index, since login pages and thank-you pages are often excluded on purpose. Focus on the pages you want patients to find: service pages, location pages, and provider pages. If one of those appears under a status such as discovered but not indexed, or crawled but not indexed, treat it as a content or linking problem to investigate. The URL Inspection tool lets you test a single page and see what Google last crawled. Average position is one of several rank sources, and our guide on [tracking local search rankings for a practice](/guides/how-to-track-local-search-rankings-for-a-medical-practice) compares them."
+        "text": "The Pages report, under Indexing, lists URLs Google knows about and whether each is indexed. Not every URL belongs in the index, since login pages and thank-you pages are often excluded on purpose. Focus on the pages you want patients to find: service pages, location pages, and provider pages. If one of those appears under a status such as discovered but not indexed, or crawled but not indexed, treat it as a content or linking problem to investigate. The URL Inspection tool lets you test a single page and see what Google last crawled. Average position is one of several rank sources, and our guide on [tracking local search rankings for a practice](/guides/how-to-track-local-search-rankings-for-a-medical-practice) compares them. When the report shows duplicates, the URL Inspection tool can show which canonical Google chose; see [canonical tags and duplicate content on a medical practice website](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website) for how to respond."
       },
       {
         "type": "h2",
@@ -71,7 +71,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything."
+        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way."
       }
     ],
     faqs: [
@@ -186,7 +186,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Define a booking as a conversion. If the scheduler is on the vendor's domain, track the button click on your site with a GA4 event, and ask the vendor whether it can send a confirmation back to a thank-you page on your domain, which is a cleaner measure. Set up call tracking beside it, as covered in [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website). Then compare booked appointments by source, rather than clicks alone."
+        "text": "Define a booking as a conversion. If the scheduler is on the vendor's domain, track the button click on your site with a GA4 event, and ask the vendor whether it can send a confirmation back to a thank-you page on your domain, which is a cleaner measure. Set up call tracking beside it, as covered in [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website). Then compare booked appointments by source, rather than clicks alone. Seasonal booking pages for flu shots and school physicals need current dates and a working link; see [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals)."
       },
       {
         "type": "h2",
@@ -198,7 +198,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile)."
+        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone."
       }
     ],
     faqs: [
@@ -324,7 +324,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add Organization or MedicalBusiness structured data to the page, with your name, address, phone, and links to your official profiles, as described in our guide to [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). Link each clinician's name to a full bio, and build those pages using [how to write a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). Add a clear next step, a booking link and a tappable phone number, because trust is what gets a patient to act."
+        "text": "Add Organization or MedicalBusiness structured data to the page, with your name, address, phone, and links to your official profiles, as described in our guide to [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). Link each clinician's name to a full bio, and build those pages using [how to write a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). Add a clear next step, a booking link and a tappable phone number, because trust is what gets a patient to act. The same clean outline applies here, with one H1 and short H2 sections as laid out in our guide to [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page), so visitors and machines can both scan the page."
       },
       {
         "type": "p",
@@ -332,7 +332,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "One practical test: read the page as a new patient who knows nothing about you. Can you tell, in ten seconds, what kind of care is offered, where, by whom, and how to book? If any of those answers takes scrolling or guessing, rewrite the top of the page. Ask a front-desk team member to read it too, since they hear the questions patients actually ask and will spot any detail that no longer matches the office. Moving a provider between offices touches every listing, and our guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists them."
+        "text": "One practical test: read the page as a new patient who knows nothing about you. Can you tell, in ten seconds, what kind of care is offered, where, by whom, and how to book? If any of those answers takes scrolling or guessing, rewrite the top of the page. Ask a front-desk team member to read it too, since they hear the questions patients actually ask and will spot any detail that no longer matches the office. Moving a provider between offices touches every listing, and our guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists them. Reading the page aloud is a good plain-language check, and our guide on [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) adds a few more ways to test whether a patient can follow it."
       }
     ],
     faqs: [
@@ -439,7 +439,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Most website platforms generate a sitemap for you, so the job is checking it. Open it in a browser, sample twenty URLs, and confirm they load. If you read [how to read Google Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website), the Sitemaps report will show when Google last read yours."
+        "text": "Most website platforms generate a sitemap for you, so the job is checking it. Open it in a browser, sample twenty URLs, and confirm they load. If you read [how to read Google Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website), the Sitemaps report will show when Google last read yours. Also confirm that every listed address is the preferred version, with a matching canonical tag, as explained in [canonical tags and duplicate content on a medical practice website](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website)."
       },
       {
         "type": "h2",
@@ -468,7 +468,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If your site has several sections, such as a blog or separate location folders, a single sitemap or a sitemap index file both work, as long as every important page appears once. For a small practice, one clean file is easiest to maintain. Whoever updates the website should know who owns these two files, because a plugin update or a platform migration can silently overwrite them, and the fix is much easier when the change is caught within days. If the sitemap lists addresses that now fail, follow [how to find and fix broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
+        "text": "If your site has several sections, such as a blog or separate location folders, a single sitemap or a sitemap index file both work, as long as every important page appears once. For a small practice, one clean file is easiest to maintain. Whoever updates the website should know who owns these two files, because a plugin update or a platform migration can silently overwrite them, and the fix is much easier when the change is caught within days. If the sitemap lists addresses that now fail, follow [how to find and fix broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Submit the sitemap in Search Console once you have verified the site, as described in [how to set up and verify Google Search Console](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website)."
       }
     ],
     faqs: [
@@ -610,7 +610,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A short note on tone helps. Write in plain language and avoid insurance jargon where a simpler word works, since patients are often reading in a stressful moment. If a plan is accepted only for some services, say which. If you are not in network with a plan but patients can still be seen, explain the self-pay or out-of-network process clearly, and never imply that coverage is guaranteed or that billing will be handled in a particular way unless your billing office confirms it."
+        "text": "A short note on tone helps. Write in plain language and avoid insurance jargon where a simpler word works, since patients are often reading in a stressful moment. If a plan is accepted only for some services, say which. If you are not in network with a plan but patients can still be seen, explain the self-pay or out-of-network process clearly, and never imply that coverage is guaranteed or that billing will be handled in a particular way unless your billing office confirms it. For more on keeping the wording simple, see our guide to [plain language and reading level for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content), which includes a short list of word swaps."
       }
     ],
     faqs: [

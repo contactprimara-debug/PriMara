@@ -51,7 +51,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "In-house, agency, or a mix — which is actually right" },
       {
         type: "p",
-        text: "A solo practice or small group almost never has the volume of work to justify a full-time marketing hire, so an agency is usually the more efficient option early on. Larger multi-location groups sometimes reach a size where a hybrid makes sense — an in-house person who manages the patient experience and reviews day-to-day, with an agency handling SEO, content, and paid media that need specialized, ongoing technical work. There's no universal answer; the deciding factor is whether the practice has enough marketing work to keep a full-time hire genuinely busy.",
+        text: "A solo practice or small group almost never has the volume of work to justify a full-time marketing hire, so an agency is usually the more efficient option early on. Larger multi-location groups sometimes reach a size where a hybrid makes sense — an in-house person who manages the patient experience and reviews day-to-day, with an agency handling SEO, content, and paid media that need specialized, ongoing technical work. There's no universal answer; the deciding factor is whether the practice has enough marketing work to keep a full-time hire genuinely busy. Whoever you choose, the practice should keep ownership of its domain, Business Profile, Search Console and Analytics, as laid out in [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain).",
       },
       {
         type: "table",
@@ -112,7 +112,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "Why most bio pages rank poorly" },
       {
         type: "p",
-        text: "Most physician bio pages read like a résumé written in the third person: a list of degrees, a stock photo, maybe a paragraph about \"compassionate care.\" That tells Google very little about what the provider actually does, and it tells a patient almost nothing useful for deciding whether to book. A bio page ranks and converts when it answers the two questions a patient actually has: is this the right kind of doctor for my problem, and can I trust their credentials. When a provider leaves, the page needs a plan, which we cover in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice).",
+        text: "Most physician bio pages read like a résumé written in the third person: a list of degrees, a stock photo, maybe a paragraph about \"compassionate care.\" That tells Google very little about what the provider actually does, and it tells a patient almost nothing useful for deciding whether to book. A bio page ranks and converts when it answers the two questions a patient actually has: is this the right kind of doctor for my problem, and can I trust their credentials. When a provider leaves, the page needs a plan, which we cover in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). A short introduction video can help a nervous new patient, provided it has captions and a transcript, as described in our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema).",
       },
       { type: "h2", text: "The structure that works" },
       {
@@ -145,7 +145,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "Linking the bio page into the rest of the site" },
       {
         type: "p",
-        text: "A bio page that sits disconnected from the rest of the site — reachable only from a generic \"Our Team\" grid — rarely ranks well on its own. Link to it directly from the specific service pages the provider is most associated with (\"Dr. Chen sees most of our diabetes management patients\" linking to her bio from the diabetes management page), and link back from the bio to those same service pages. That two-way link is what tells Google the provider and the service are connected, not just co-located on the same site. Each bio should be linked from the practice-level page described in [what to put on a medical practice About page](/guides/what-to-put-on-a-medical-practice-about-page).",
+        text: "A bio page that sits disconnected from the rest of the site — reachable only from a generic \"Our Team\" grid — rarely ranks well on its own. Link to it directly from the specific service pages the provider is most associated with (\"Dr. Chen sees most of our diabetes management patients\" linking to her bio from the diabetes management page), and link back from the bio to those same service pages. That two-way link is what tells Google the provider and the service are connected, not just co-located on the same site. Each bio should be linked from the practice-level page described in [what to put on a medical practice About page](/guides/what-to-put-on-a-medical-practice-about-page). A provider page also reads better with one H1 and a few short H2 sections, which our guide on [heading structure for a medical practice web page](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) walks through step by step.",
       },
       {
         type: "callout",

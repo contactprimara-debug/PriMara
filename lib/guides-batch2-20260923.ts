@@ -232,7 +232,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "The hybrid model most growing practices land on" },
       {
         type: "p",
-        text: "A common, effective setup for a Florida practice with two to five locations: one in-house marketing coordinator who owns the phone, the front desk experience, internal comms, and day-to-day content gathering (photos, testimonials, provider updates), paired with an agency running SEO, ads, and Google Business Profile strategy. The coordinator feeds the agency real material; the agency turns it into ranking pages and campaigns. Neither role works as well alone as the two do together.",
+        text: "A common, effective setup for a Florida practice with two to five locations: one in-house marketing coordinator who owns the phone, the front desk experience, internal comms, and day-to-day content gathering (photos, testimonials, provider updates), paired with an agency running SEO, ads, and Google Business Profile strategy. The coordinator feeds the agency real material; the agency turns it into ranking pages and campaigns. Neither role works as well alone as the two do together. In a hybrid setup, decide up front who owns each account, since an in-house hire or an agency leaving should never lock the practice out; see [who should own a practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain).",
       },
       { type: "h2", text: "Questions to ask before deciding" },
       {
@@ -289,7 +289,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "What each one is actually for" },
       {
         type: "p",
-        text: "Google Business Profile is your storefront inside Google Search and Maps — it's what shows up in the map pack for \"urgent care near me,\" complete with reviews, hours, photos, and a call button, before anyone ever reaches your website. Your website is where someone goes to verify you're legitimate, check a provider's background, see accepted insurance, or fill out a form. They serve different moments in the same decision, not competing purposes.",
+        text: "Google Business Profile is your storefront inside Google Search and Maps — it's what shows up in the map pack for \"urgent care near me,\" complete with reviews, hours, photos, and a call button, before anyone ever reaches your website. Your website is where someone goes to verify you're legitimate, check a provider's background, see accepted insurance, or fill out a form. They serve different moments in the same decision, not competing purposes. The booking button is where the two meet; see [how to add an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) for setting it up.",
       },
       { type: "h2", text: "The typical patient path" },
       {
@@ -580,7 +580,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Checking that it's actually working" },
       {
         type: "p",
-        text: "Call your own tracked number from a phone, confirm the event fires in GA4 Realtime within a minute, and confirm it shows up as a conversion in Google Ads within 24 hours (Ads conversions aren't instant). Do this after any website redesign or CRM/analytics platform change — call tracking is one of the most common things silently broken by an unrelated update. If patients can also book online, track that path too, as covered in [online appointment scheduling on a practice website and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo).",
+        text: "Call your own tracked number from a phone, confirm the event fires in GA4 Realtime within a minute, and confirm it shows up as a conversion in Google Ads within 24 hours (Ads conversions aren't instant). Do this after any website redesign or CRM/analytics platform change — call tracking is one of the most common things silently broken by an unrelated update. If patients can also book online, track that path too, as covered in [online appointment scheduling on a practice website and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Callers can also be asked how they heard about you, which catches word of mouth that call tracking cannot see; see [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing).",
       },
     ],
     faqs: [
@@ -653,7 +653,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Keyword targeting without keyword stuffing" },
       {
         type: "p",
-        text: "One page should own one primary intent — don't try to rank the same page for \"knee replacement,\" \"hip replacement,\" and \"joint pain treatment\" all at once; split them into separate pages if they're genuinely different searches. Use the exact patient phrasing naturally in the H1, the first paragraph, and at least one H2 — but the page should read like a person wrote it for a patient, not like it was built for an algorithm. Clear headings and labeled forms also support accessibility, which we cover in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). Keep the page's own text in your HTML around any booking widget, as explained in [online appointment scheduling and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Each service page also needs its own title, and our guide to [writing title tags for a practice website](/guides/how-to-write-title-tags-for-a-medical-practice-website) shows a pattern for each page type.",
+        text: "One page should own one primary intent — don't try to rank the same page for \"knee replacement,\" \"hip replacement,\" and \"joint pain treatment\" all at once; split them into separate pages if they're genuinely different searches. Use the exact patient phrasing naturally in the H1, the first paragraph, and at least one H2 — but the page should read like a person wrote it for a patient, not like it was built for an algorithm. Clear headings and labeled forms also support accessibility, which we cover in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). Keep the page's own text in your HTML around any booking widget, as explained in [online appointment scheduling and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Each service page also needs its own title, and our guide to [writing title tags for a practice website](/guides/how-to-write-title-tags-for-a-medical-practice-website) shows a pattern for each page type. Once the page owns one intent, outline it with a single H1 and clear H2 sections; our guide to [heading structure for a medical practice page](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) shows the outline in a worked example.",
       },
       { type: "h2", text: "Schema markup every service page needs" },
       {
