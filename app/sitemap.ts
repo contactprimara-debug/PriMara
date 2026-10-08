@@ -480,7 +480,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Priority 0.3 — Trust/legal pages ─────────────────────────────────
     { url: `${SITE_URL}/hipaa`, lastModified, changeFrequency: "yearly" as const, priority: 0.3 },
-    { url: `${SITE_URL}/privacy`, lastModified, changeFrequency: "yearly" as const, priority: 0.3 },
 
     // ── Priority 0.7 — Process + comparison pages ────────────────────────
     { url: `${SITE_URL}/how-it-works`, lastModified, changeFrequency: "monthly" as const, priority: 0.7 },
