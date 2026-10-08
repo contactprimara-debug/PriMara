@@ -45,6 +45,7 @@ function sourceFor(path: string): string | null {
   if (clean.startsWith("blog/")) return "lib/blog.ts";
   // Same for guides — the copy lives in lib/guides-*.ts, not in the route file.
   if (clean.startsWith("guides/")) return "lib/guides.ts";
+  if (clean.startsWith("case-studies/")) return "lib/case-studies.ts";
   return `app/${clean}/page.tsx`;
 }
 

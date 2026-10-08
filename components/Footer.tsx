@@ -56,6 +56,7 @@ const LOCATIONS_LINKS = [
 ];
 
 const RESOURCES_LINKS = [
+  { label: "Case Studies", href: "/case-studies" },
   { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },

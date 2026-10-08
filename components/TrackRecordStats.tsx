@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useEffect, useRef } from 'react';
 
 /* ── TrackRecordStats ─────────────────────────────────────────────────────
@@ -202,6 +203,9 @@ export default function TrackRecordStats() {
         }}
       >
         Current client roster as of {MONTH_YEAR}.
+      </p>
+      <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, marginTop: "16px", maxWidth: "640px" }}>
+        We publish dated numbers, including the ones that have not moved yet, for three practices we run: <Link href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>.
       </p>
     </section>
   );

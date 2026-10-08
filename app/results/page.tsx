@@ -112,7 +112,7 @@ export default function ResultsPage() {
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8 }}>
               What we can tell you is what the consistent patterns look like across every engagement we run — what happens at 30 days, 60 days, 90 days, and 180 days for practices that follow the system. These timelines are grounded in real client data tracked via Local Falcon grid rankings, GBP Insights impression counts, review velocity numbers, and Google Search Console organic traffic. The milestones below are what you should hold us accountable to.
-            </p>
+             For dated numbers from three practices we run, including the ones that have not moved yet, read the case studies for <Link href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>, or see the <Link href="/case-studies" style={{ color: "var(--gold)" }}>full list</Link>.</p>
           </div>
         </div>
       </section>

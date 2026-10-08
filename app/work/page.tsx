@@ -127,7 +127,7 @@ export default function WorkPage() {
               maxWidth: "600px",
             }}
           >
-            Two independent practices Primara actively manages — SEO, Google Business Profile, Google Ads, and website work. Both engagements are ongoing.
+            Two independent practices Primara actively manages — SEO, Google Business Profile, Google Ads, and website work. Both engagements are ongoing. Dated numbers for three more practices are in our case studies: <Link href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>.
           </p>
         </div>
       </section>
