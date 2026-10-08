@@ -459,7 +459,7 @@ export default function SEOServicePage() {
             ))}
           </div>
           <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", marginTop: "28px" }}>
-            Every specialty needs its own search plan. For dental offices we run that plan as <Link href="/dental-seo" style={{ color: "var(--gold)" }}>dental SEO</Link>, with treatment pages for implants, aligners and emergency visits, and for therapists we describe what works in our guide to <Link href="/therapist-seo" style={{ color: "var(--gold)" }}>SEO for therapists</Link>.
+            Every specialty needs its own search plan. For therapists we describe what works in our guide to <Link href="/therapist-seo" style={{ color: "var(--gold)" }}>SEO for therapists</Link>.
           </p>
         </div>
       </section>

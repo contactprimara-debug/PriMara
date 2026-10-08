@@ -217,7 +217,7 @@ export default function GBPPage() {
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
             The profile looks different for each kind of practice, so we have written up how it works for <Link href="/locations/medspas-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspas across Florida</Link>, <Link href="/locations/dental-practices-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>dental practices across Florida</Link> and the <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review requests that keep a listing current</Link>.
-           For dental offices specifically, the profile work is one part of our <Link href="/dental-seo" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>dental SEO service</Link>, which adds treatment pages and call tracking around the listing.
+          
           </p>
         </div>
       </section>

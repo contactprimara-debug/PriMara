@@ -209,8 +209,8 @@ export default function WebsiteDesignPage() {
             If your current site fails Google&rsquo;s Mobile-Friendly test, loads in more than three seconds on a mobile
             connection, lacks HTTPS, or has no clear action path for a prospective new patient, a redesign may be
             worth discussing. The same applies if your site was last updated more than three years ago and predates
-            Google&rsquo;s Core Web Vitals standards. Primara works with independent practices, including primary
-            care, mental health, dental and medspa.
+            Google&rsquo;s Core Web Vitals standards. Primara works with independent practices, focused on primary
+            care and mental health.
           </p>
         </div>
       </section>
