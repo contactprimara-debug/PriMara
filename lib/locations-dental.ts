@@ -971,11 +971,7 @@ export const dentalLocations: DentalLocation[] = [
       },
       {
         q: "Who is an independent St. Petersburg dental practice competing against?",
-        a: "Chain and group dentistry in Pinellas County concentrates along the Fourth Street and 66th Street corridors and in the Tyrone and Gateway retail areas, serving the convenience-driven and volume ends of the market. What they have not captured is the urban core. Downtown St.",
-      },
-      {
-        q: "What makes St. Petersburg's dental market different from other Florida cities?",
-        a: "Petersburg is a city that actively prefers independent businesses, and dentistry is not an exception. The same instinct that fills the Grand Central District and the EDGE District with local restaurants and local shops extends to how residents choose healthcare \u2014 a practice that reads as genuinely local carries an advantage here that would be worth nothing in a suburb built around strip malls.",
+        a: "Chain and group dentistry in Pinellas County concentrates along the Fourth Street and 66th Street corridors and in the Tyrone and Gateway retail areas, serving the convenience-driven and volume ends of the market. What they have not captured is the urban core. Downtown St. Petersburg is a city that actively prefers independent businesses, and dentistry is not an exception. The same instinct that fills the Grand Central District and the EDGE District with local restaurants and local shops extends to how residents choose healthcare \u2014 a practice that reads as genuinely local carries an advantage here that would be worth nothing in a suburb built around strip malls.",
       },
       {
         q: "Why should an independent St. Petersburg dental practice start now instead of waiting?",

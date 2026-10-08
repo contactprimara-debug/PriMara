@@ -1549,11 +1549,7 @@ export const medspaLocations: MedspaLocation[] = [
       },
       {
         q: "Who is St. Augustine independent medspa competing against?",
-        a: "St. Johns County has been one of the fastest-growing counties in Florida, with substantial new development around World Golf Village, the Route 1 corridor, and south toward Palm Coast, bringing in affluent households who arrive without a provider. That is the recurring revenue base, and the competitive field serving it is small \u2014 independent studios, dermatology practices, and a handful of spa services attached to resorts and hotels. National chains have essentially no presence in St.",
-      },
-      {
-        q: "What makes St. Augustine's aesthetics market different from other Florida cities?",
-        a: "Millions of people visit the historic district every year, many staying several days, and a meaningful number of them will book a facial, a peel, or a maintenance treatment while they are here if they can find one \u2014 which is a revenue stream almost no local practice deliberately pursues.",
+        a: "St. Johns County has been one of the fastest-growing counties in Florida, with substantial new development around World Golf Village, the Route 1 corridor, and south toward Palm Coast, bringing in affluent households who arrive without a provider. That is the recurring revenue base, and the competitive field serving it is small \u2014 independent studios, dermatology practices, and a handful of spa services attached to resorts and hotels. National chains have essentially no presence in St. Millions of people visit the historic district every year, many staying several days, and a meaningful number of them will book a facial, a peel, or a maintenance treatment while they are here if they can find one \u2014 which is a revenue stream almost no local practice deliberately pursues.",
       },
       {
         q: "Why should an independent St. Augustine medspa start now instead of waiting?",

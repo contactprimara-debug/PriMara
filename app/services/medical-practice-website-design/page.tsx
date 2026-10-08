@@ -209,8 +209,46 @@ export default function WebsiteDesignPage() {
             If your current site fails Google&rsquo;s Mobile-Friendly test, loads in more than three seconds on a mobile
             connection, lacks HTTPS, or has no clear action path for a prospective new patient, a redesign may be
             worth discussing. The same applies if your site was last updated more than three years ago and predates
-            Google&rsquo;s Core Web Vitals standards. Primara works exclusively with independent, physician-owned
-            primary care clinics.
+            Google&rsquo;s Core Web Vitals standards. Primara works with independent practices, including primary
+            care, mental health, dental and medspa.
+          </p>
+        </div>
+      </section>
+
+      {/* How a build runs */}
+      <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">
+        <div className="max-w-prose">
+          <h2
+            className="font-serif font-bold mb-4"
+            style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.5rem", color: "var(--color-text)" }}
+          >
+            How a Practice Website Build Runs
+          </h2>
+          <p className="leading-relaxed mb-5" style={{ color: "var(--color-text-muted)" }}>
+            A typical build takes four to six weeks, depending on how quickly the practice returns content. These are the five stages, and what you can check at the end of each.
+          </p>
+          <div className="mb-5">
+            <h3 className="font-semibold mb-1" style={{ color: "var(--color-text)", fontSize: "1.0625rem" }}>1. Content inventory (week 1)</h3>
+            <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>We list every page, provider bio, service and photo the practice already has, and mark what is missing. The practice confirms services, insurance plans and hours in writing, and only confirmed facts go on the site.</p>
+          </div>
+          <div className="mb-5">
+            <h3 className="font-semibold mb-1" style={{ color: "var(--color-text)", fontSize: "1.0625rem" }}>2. Page plan and first-screen design (weeks 1-2)</h3>
+            <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>Each page gets one job. On a phone, the first screen carries the practice name, the city, a tap-to-call button and a request-an-appointment button, so no one scrolls to find how to reach you.</p>
+          </div>
+          <div className="mb-5">
+            <h3 className="font-semibold mb-1" style={{ color: "var(--color-text)", fontSize: "1.0625rem" }}>3. Build and forms (weeks 2-4)</h3>
+            <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>We build on a content system your staff can edit. Forms collect a name, a phone number and a short reason, and never ask for symptoms, diagnoses or anything clinical.</p>
+          </div>
+          <div className="mb-5">
+            <h3 className="font-semibold mb-1" style={{ color: "var(--color-text)", fontSize: "1.0625rem" }}>4. Pre-launch tests (week 4-5)</h3>
+            <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>We load every page on a real phone and in Lighthouse, tap every phone number, and submit a test inquiry to confirm it reaches the right inbox. We also check that every old URL has a redirect to its new page.</p>
+          </div>
+          <div className="mb-5">
+            <h3 className="font-semibold mb-1" style={{ color: "var(--color-text)", fontSize: "1.0625rem" }}>5. Launch and first month</h3>
+            <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>After the domain cutover we submit the sitemap, watch Search Console for crawl errors, and check that calls and form leads are being counted. You get a short written note on what we found.</p>
+          </div>
+          <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
+            Ongoing ranking work then continues under <Link href="/services/seo" style={{ color: "var(--color-gold)" }}>medical practice SEO</Link>, and the site feeds your <Link href="/services/google-business-profile" style={{ color: "var(--color-gold)" }}>Google Business Profile</Link>.
           </p>
         </div>
       </section>

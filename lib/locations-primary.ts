@@ -879,11 +879,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       },
       {
         q: "Who are independent Port St. Lucie practices competing against in local search?",
-        a: "Cleveland Clinic Tradition Medical Center \u2014 part of the Cleveland Clinic Florida health system \u2014 is the primary hospital serving the Tradition development corridor in western Port St. Lucie and brings one of the most recognized hospital brands in the world into a regional market. Cleveland Clinic's digital marketing is national-caliber: fully optimized GBP profiles, aggressive review collection, and SEO infrastructure built by a marketing team that also manages brand presence for a global academic medical center. St.",
-      },
-      {
-        q: "What makes Port St. Lucie's primary care market different from other Florida cities?",
-        a: "Lucie has been one of the fastest-growing cities in Florida for nearly a decade \u2014 adding tens of thousands of new residents annually in planned communities like Tradition, PGA Village, and the Legacy development corridors \u2014 and its primary care infrastructure has not kept pace with that growth.",
+        a: "Cleveland Clinic Tradition Medical Center \u2014 part of the Cleveland Clinic Florida health system \u2014 is the primary hospital serving the Tradition development corridor in western Port St. Lucie and brings one of the most recognized hospital brands in the world into a regional market. Cleveland Clinic's digital marketing is national-caliber: fully optimized GBP profiles, aggressive review collection, and SEO infrastructure built by a marketing team that also manages brand presence for a global academic medical center. St. Lucie has been one of the fastest-growing cities in Florida for nearly a decade \u2014 adding tens of thousands of new residents annually in planned communities like Tradition, PGA Village, and the Legacy development corridors \u2014 and its primary care infrastructure has not kept pace with that growth.",
       },
       {
         q: "Why should an independent Port St. Lucie practice start now instead of waiting?",
@@ -1036,11 +1032,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       },
       {
         q: "Who are independent St. Petersburg practices competing against in local search?",
-        a: "BayCare Health System is the dominant not-for-profit network across Tampa Bay, operating St. Anthony's Hospital \u2014 a 448-bed acute care facility in St. Petersburg with a certified Primary Stroke Center \u2014 along with dozens of urgent care and outpatient locations throughout Pinellas County. BayCare's brand recognition runs deep with longtime St. Petersburg residents, and its employed primary care offices extend into neighborhoods like Old Northeast and Kenwood. HCA Florida St.",
-      },
-      {
-        q: "What makes St. Petersburg's primary care market different from other Florida cities?",
-        a: "Petersburg is home to more than 265,000 residents with a median age of 43, and a senior population \u2014 65 and older \u2014 that makes up nearly one in five residents, giving the city one of the most healthcare-engaged populations in Tampa Bay. That demand hasn't gone unnoticed: BayCare Health System, HCA Florida Healthcare, and Orlando Health all operate major hospitals within St. Petersburg city limits and compete aggressively for every primary care search a patient runs online.",
+        a: "BayCare Health System is the dominant not-for-profit network across Tampa Bay, operating St. Anthony's Hospital \u2014 a 448-bed acute care facility in St. Petersburg with a certified Primary Stroke Center \u2014 along with dozens of urgent care and outpatient locations throughout Pinellas County. BayCare's brand recognition runs deep with longtime St. Petersburg residents, and its employed primary care offices extend into neighborhoods like Old Northeast and Kenwood. HCA Florida St. Petersburg is home to more than 265,000 residents with a median age of 43, and a senior population \u2014 65 and older \u2014 that makes up nearly one in five residents, giving the city one of the most healthcare-engaged populations in Tampa Bay. That demand hasn't gone unnoticed: BayCare Health System, HCA Florida Healthcare, and Orlando Health all operate major hospitals within St. Petersburg city limits and compete aggressively for every primary care search a patient runs online.",
       },
       {
         q: "Why should an independent St. Petersburg practice start now instead of waiting?",
@@ -1458,13 +1450,9 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       a: "Yes \u2014 Jacksonville is a market we serve directly, the same way everywhere else we operate: Google Business Profile management, local rank tracking, and monthly reporting, delivered remotely. The real difference city to city is competitive: independent Jacksonville practices are up against Baptist Health and Mayo Clinic in local search, and that's what the work is built around.",
     },
     {
-      q: "Who are independent Jacksonville practices competing against in local search?",
-      a: "Baptist Health, Mayo Clinic, Ascension St. Vincent's, and UF Health all compete for the same primary care searches in Jacksonville, and each is actively expanding rather than standing still. Baptist Health's McGehee Family Tower is under construction on its downtown campus, Mayo Clinic has invested more than $1 billion in its Jacksonville campus since 2016 and continues building out capacity, and Ascension St.",
-    },
-    {
-      q: "What makes Jacksonville's primary care market different from other Florida cities?",
-      a: "Baptist Health is building the McGehee Family Tower on its downtown campus, Mayo Clinic has poured over $1 billion into its Jacksonville campus since 2016, and Ascension St. Vincent's Riverside continues expanding specialty partnerships with Mayo. At the same time, ArchWell Health opened its sixth Jacksonville-area senior primary care clinic in July 2026, a sign of how fast Medicare Advantage demand is growing here.",
-    },
+        q: "Who are independent Jacksonville practices competing against in local search?",
+        a: "Baptist Health, Mayo Clinic, Ascension St. Vincent's, and UF Health all compete for the same primary care searches in Jacksonville, and each is actively expanding rather than standing still. Baptist Health's McGehee Family Tower is under construction on its downtown campus, Mayo Clinic has invested more than $1 billion in its Jacksonville campus since 2016 and continues building out capacity, and Ascension St. Baptist Health is building the McGehee Family Tower on its downtown campus, Mayo Clinic has poured over $1 billion into its Jacksonville campus since 2016, and Ascension St. Vincent's Riverside continues expanding specialty partnerships with Mayo. At the same time, ArchWell Health opened its sixth Jacksonville-area senior primary care clinic in July 2026, a sign of how fast Medicare Advantage demand is growing here.",
+      },
     {
       q: "Why should an independent Jacksonville practice start now instead of waiting?",
       a: "ArchWell Health opened its sixth Jacksonville-area senior primary care clinic in July 2026, a real-time signal of how fast Medicare Advantage demand is accelerating in this market, while Baptist Health keeps building its McGehee Family Tower and Mayo Clinic keeps expanding on the back of more than $1 billion invested in its Jacksonville campus since 2016.",
@@ -1564,13 +1552,9 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       a: "UF Health Flagler Hospital anchors St. Augustine's hospital landscape with 335 beds, but it's no longer competing alone. HCA Florida opened a new freestanding ER on Woodlawn Road in February 2026, Baptist Health opened a $28.5 million ER and imaging center near the St. Augustine Outlet Mall in 2024 and has a full hospital planned near the I-95/SR-207 interchange, and Ascension St. Vincent's opened a $30 million ambulatory surgery center with Southeast Orthopedic Specialists in March 2026.",
     },
     {
-      q: "What makes St. Augustine's primary care market different from other Florida cities?",
-      a: "Augustine's primary care market is being reshaped by hospital money. UF Health Flagler Hospital \u2014 the former Flagler Hospital, renamed after UF Health's 2023 acquisition of the Flagler Health+ system \u2014 remains the county's anchor with 335 beds. But HCA Florida opened a new freestanding ER on Woodlawn Road in February 2026, Baptist Health opened a $28.5 million ER and imaging center near the Outlet Mall in 2024 (with a full hospital planned near the I-95/SR-207 interchange), and Ascension St.",
-    },
-    {
-      q: "Why should an independent St. Augustine practice start now instead of waiting?",
-      a: "Three of St. Augustine's hospital systems have opened or broken ground on new facilities within the last two years \u2014 HCA Florida's Woodlawn Road ER in February 2026, Ascension St. Vincent's $30 million ambulatory surgery center in March 2026, and Baptist Health's planned full hospital near I-95/SR-207 following its 2024 ER and imaging center \u2014 while St. Johns County keeps adding residents faster than any county in Florida.",
-    },
+        q: "What makes St. Augustine's primary care market different from other Florida cities?",
+        a: "Augustine's primary care market is being reshaped by hospital money. UF Health Flagler Hospital \u2014 the former Flagler Hospital, renamed after UF Health's 2023 acquisition of the Flagler Health+ system \u2014 remains the county's anchor with 335 beds. But HCA Florida opened a new freestanding ER on Woodlawn Road in February 2026, Baptist Health opened a $28.5 million ER and imaging center near the Outlet Mall in 2024 (with a full hospital planned near the I-95/SR-207 interchange), and Ascension St. Three of St. Augustine's hospital systems have opened or broken ground on new facilities within the last two years \u2014 HCA Florida's Woodlawn Road ER in February 2026, Ascension St. Vincent's $30 million ambulatory surgery center in March 2026, and Baptist Health's planned full hospital near I-95/SR-207 following its 2024 ER and imaging center \u2014 while St. Johns County keeps adding residents faster than any county in Florida.",
+      },
     {
       q: "What areas within St. Augustine does this cover?",
       a: "Coverage spans St. Augustine, including Vilano Beach, World Golf Village and St. Augustine Beach. UF Health Flagler Hospital and HCA Florida Healthcare compete for the same searches across those same neighborhoods, which is why a St. Augustine practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",

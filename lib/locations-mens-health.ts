@@ -431,11 +431,7 @@ export const mensHealthLocations: MensHealthLocation[] = [
       },
       {
         q: "What should a St. Petersburg men's health clinic's Google Business Profile include?",
-        a: "Petersburg men's health clinic starts with category selection. Most clinics claim only \"Urologist\" or \"Medical Clinic\" and leave categories like \"Men's Health Physician\" and \"Hormone Therapy\" unclaimed \u2014 each one carries its own independent local ranking signal. A fully built-out St.",
-      },
-      {
-        q: "What areas within St. Petersburg does this cover?",
-        a: "Our work in St. Petersburg extends across Downtown St. Petersburg, Old Northeast and Snell Isle, not just one office address. Since search intent shifts between those neighborhoods, a St. Petersburg clinic's GBP and site content has to be built at that same granularity to be found.",
+        a: "Petersburg men's health clinic starts with category selection. Most clinics claim only \"Urologist\" or \"Medical Clinic\" and leave categories like \"Men's Health Physician\" and \"Hormone Therapy\" unclaimed \u2014 each one carries its own independent local ranking signal. A fully built-out St. Our work in St. Petersburg extends across Downtown St. Petersburg, Old Northeast and Snell Isle, not just one office address. Since search intent shifts between those neighborhoods, a St. Petersburg clinic's GBP and site content has to be built at that same granularity to be found.",
       },
     ],
   },
@@ -887,13 +883,9 @@ export const mensHealthLocations: MensHealthLocation[] = [
       a: "Augustine are dominated by national telehealth-style operators \u2014 Institute of Vitality, Advanced TRT Clinic, Medical HRT, Hormone Harmony Clinic, Vital Hormones Clinic \u2014 most running templated, multi-city landing pages rather than a real local presence. Those thin, franchise-style pages are built to rank in every city at once, not to serve St. Augustine patients specifically, which is exactly the kind of content Google increasingly discounts for having no real local footprint.",
     },
     {
-      q: "What makes St. Augustine's men's health market different from other Florida cities?",
-      a: "St. Augustine men's health patients search with real specificity. High-intent searches include phrases like 'TRT clinic St. Augustine FL,' 'low testosterone doctor near me St. Augustine,' 'men's health clinic World Golf Village,' 'urologist St. Augustine FL,' 'testosterone replacement therapy near Ponte Vedra,' 'erectile dysfunction treatment St. Augustine,' and 'hormone therapy clinic St.",
-    },
-    {
-      q: "What should a St. Augustine men's health clinic's Google Business Profile include?",
-      a: "A men's health clinic with a real St. Augustine address and a properly optimized Google Business Profile can win 'TRT clinic near me' and 'low T doctor St. Augustine' map-pack placements that telehealth-only competitors structurally can't compete for. That advantage compounds with the right service entries and review volume.",
-    },
+        q: "What makes St. Augustine's men's health market different from other Florida cities?",
+        a: "St. Augustine men's health patients search with real specificity. High-intent searches include phrases like 'TRT clinic St. Augustine FL,' 'low testosterone doctor near me St. Augustine,' 'men's health clinic World Golf Village,' 'urologist St. Augustine FL,' 'testosterone replacement therapy near Ponte Vedra,' 'erectile dysfunction treatment St. Augustine,' and 'hormone therapy clinic St. A men's health clinic with a real St. Augustine address and a properly optimized Google Business Profile can win 'TRT clinic near me' and 'low T doctor St. Augustine' map-pack placements that telehealth-only competitors structurally can't compete for. That advantage compounds with the right service entries and review volume.",
+      },
     {
       q: "What areas within St. Augustine does this cover?",
       a: "Targeting within St. Augustine covers World Golf Village, Vilano Beach and St. Augustine Beach. Because patient intent is not uniform across St. Augustine, a St. Augustine clinic's content strategy has to treat each neighborhood as its own search market rather than one city-wide blanket page.",

@@ -505,15 +505,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
       },
       {
         q: "What's the biggest challenge for a private-pay therapist in Port St. Lucie?",
-        a: "Lucie, Stuart, Fort Pierce, and Vero Beach under a single regional umbrella \u2014 which means patients searching specifically for Port St. Lucie therapists encounter listings from across a 50-mile geographic range. The directory's geographic blurring reduces its utility for PSL-specific patient searches and sends patients who want a genuinely local therapist back to Google Maps, where they search 'therapist Port St.",
-      },
-      {
-        q: "What makes Port St. Lucie's therapy market different from other Florida cities?",
-        a: "Lucie therapy patients search with community-specific and access-driven intent. High-volume local searches include 'therapist Port St. Lucie,' 'therapist near Tradition FL,' 'anxiety therapist PSL,' 'couples counselor Port St. Lucie,' 'family therapist Treasure Coast,' 'telehealth therapist Port St. Lucie,' 'therapist near PGA Village,' 'counseling near Cleveland Clinic Tradition,' and 'therapist for depression Port St. Lucie FL.' New-resident searches \u2014 'therapist accepting new patients Port St. Lucie,' 'therapist same week Port St.",
-      },
-      {
-        q: "What should a Port St. Lucie therapist's Google Business Profile include?",
-        a: "Lucie therapist GBP optimization offers one of the clearest return-on-investment profiles of any mental health market in South Florida. The review benchmark for PSL's therapy local pack is remarkably low \u2014 the top-ranked therapists in Port St. Lucie hold 15\u201335 Google reviews \u2014 meaning that a therapist entering the market with a structured review acquisition system reaches local pack prominence in 60\u201390 days.",
+        a: "Lucie, Stuart, Fort Pierce, and Vero Beach under a single regional umbrella \u2014 which means patients searching specifically for Port St. Lucie therapists encounter listings from across a 50-mile geographic range. The directory's geographic blurring reduces its utility for PSL-specific patient searches and sends patients who want a genuinely local therapist back to Google Maps, where they search 'therapist Port St. Lucie therapy patients search with community-specific and access-driven intent. High-volume local searches include 'therapist Port St. Lucie,' 'therapist near Tradition FL,' 'anxiety therapist PSL,' 'couples counselor Port St. Lucie,' 'family therapist Treasure Coast,' 'telehealth therapist Port St. Lucie,' 'therapist near PGA Village,' 'counseling near Cleveland Clinic Tradition,' and 'therapist for depression Port St. Lucie FL.' New-resident searches \u2014 'therapist accepting new patients Port St. Lucie,' 'therapist same week Port St. Lucie therapist GBP optimization offers one of the clearest return-on-investment profiles of any mental health market in South Florida. The review benchmark for PSL's therapy local pack is remarkably low \u2014 the top-ranked therapists in Port St. Lucie hold 15\u201335 Google reviews \u2014 meaning that a therapist entering the market with a structured review acquisition system reaches local pack prominence in 60\u201390 days.",
       },
       {
         q: "What areas within Port St. Lucie does this cover?",
@@ -595,15 +587,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
       },
       {
         q: "What makes St. Petersburg's therapy market different from other Florida cities?",
-        a: "Petersburg therapy patients search with real geographic and demographic specificity. High-intent local searches include phrases like \"therapist in St. Petersburg accepting new patients,\" \"anxiety therapist Old Northeast,\" \"LGBTQ-affirming therapist Grand Central District,\" \"grief counselor St. Pete,\" and \"couples therapist Snell Isle.\" Patients near the Grand Central District and Downtown trend younger and search for identity-affirming and relationship-focused therapy. Patients in Old Northeast, Snell Isle, and Kenwood \u2014 along with St.",
-      },
-      {
-        q: "What should a St. Petersburg therapist's Google Business Profile include?",
-        a: "Google Business Profile optimization for St. Petersburg therapists starts with category selection. Most practices claim only the generic \"Mental Health Service\" category and stop there, leaving behind subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" and \"Grief Counselor\" that each carry their own local search ranking signal. A fully optimized St. Petersburg therapist GBP carries multiple relevant categories, services written in the language patients actually search \u2014 \"anxiety therapy St.",
-      },
-      {
-        q: "What areas within St. Petersburg does this cover?",
-        a: "We work across St. Petersburg, including Downtown St. Pete, Old Northeast and Snell Isle \u2014 not just a single office location. Search intent varies by neighborhood in St. Petersburg, so a St. Petersburg therapist's content has to be built at that same geographic level to show up where patients search.",
+        a: "Petersburg therapy patients search with real geographic and demographic specificity. High-intent local searches include phrases like \"therapist in St. Petersburg accepting new patients,\" \"anxiety therapist Old Northeast,\" \"LGBTQ-affirming therapist Grand Central District,\" \"grief counselor St. Pete,\" and \"couples therapist Snell Isle.\" Patients near the Grand Central District and Downtown trend younger and search for identity-affirming and relationship-focused therapy. Patients in Old Northeast, Snell Isle, and Kenwood \u2014 along with St. Google Business Profile optimization for St. Petersburg therapists starts with category selection. Most practices claim only the generic \"Mental Health Service\" category and stop there, leaving behind subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" and \"Grief Counselor\" that each carry their own local search ranking signal. A fully optimized St. Petersburg therapist GBP carries multiple relevant categories, services written in the language patients actually search \u2014 \"anxiety therapy St. We work across St. Petersburg, including Downtown St. Pete, Old Northeast and Snell Isle \u2014 not just a single office location. Search intent varies by neighborhood in St. Petersburg, so a St. Petersburg therapist's content has to be built at that same geographic level to show up where patients search.",
       },
     ],
   },
@@ -1055,17 +1039,9 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
       a: "Most people searching for a St. Augustine therapist land on Psychology Today, Headway, or Zocdoc before they ever find an individual practice's own website. Insurance is often the deciding filter at that stage \u2014 searches like 'BlueCross BlueShield therapist Saint Augustine' pull real volume \u2014 and a practice without a strong, insurance-specific presence on its own site is relying entirely on third-party directories to be found, which caps how much of that search demand it actually captures.",
     },
     {
-      q: "What makes St. Augustine's therapy market different from other Florida cities?",
-      a: "Augustine therapy patients search with real specificity. High-intent searches include phrases like 'therapist St. Augustine FL accepting new patients,' 'child therapist near Vilano Beach,' 'anxiety counseling St. Augustine Beach,' 'psychiatrist near World Golf Village,' 'marriage counselor St. Johns County,' and 'telehealth therapist St. Augustine FL' \u2014 alongside more specialized searches like 'TMS therapy St. Augustine FL' and 'Spravato provider near me St.",
-    },
-    {
-      q: "What should a St. Augustine therapist's Google Business Profile include?",
-      a: "Augustine. A compliant, well-maintained GBP \u2014 accurate specialties, accepted insurance, and genuine reviews \u2014 captures searches like 'therapist St. Augustine FL accepting new patients' and 'marriage counselor St. Johns County' in the local map pack, visibility that a Psychology Today listing alone can't surface. Category selection matters as much as the basics: claiming only the generic 'Mental Health Service' category misses subordinate categories that carry their own ranking signal for the specific searches St.",
-    },
-    {
-      q: "What areas within St. Augustine does this cover?",
-      a: "We work across St. Augustine, including Vilano Beach, World Golf Village and St. Augustine Beach \u2014 not just a single office location. Search intent varies by neighborhood in St. Augustine, so a St. Augustine therapist's content has to be built at that same geographic level to show up where patients search.",
-    },
+        q: "What makes St. Augustine's therapy market different from other Florida cities?",
+        a: "Augustine therapy patients search with real specificity. High-intent searches include phrases like 'therapist St. Augustine FL accepting new patients,' 'child therapist near Vilano Beach,' 'anxiety counseling St. Augustine Beach,' 'psychiatrist near World Golf Village,' 'marriage counselor St. Johns County,' and 'telehealth therapist St. Augustine FL' \u2014 alongside more specialized searches like 'TMS therapy St. Augustine FL' and 'Spravato provider near me St. Augustine. A compliant, well-maintained GBP \u2014 accurate specialties, accepted insurance, and genuine reviews \u2014 captures searches like 'therapist St. Augustine FL accepting new patients' and 'marriage counselor St. Johns County' in the local map pack, visibility that a Psychology Today listing alone can't surface. Category selection matters as much as the basics: claiming only the generic 'Mental Health Service' category misses subordinate categories that carry their own ranking signal for the specific searches St. We work across St. Augustine, including Vilano Beach, World Golf Village and St. Augustine Beach \u2014 not just a single office location. Search intent varies by neighborhood in St. Augustine, so a St. Augustine therapist's content has to be built at that same geographic level to show up where patients search.",
+      },
   ],
 },
 {
