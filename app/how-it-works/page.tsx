@@ -260,11 +260,14 @@ export default function HowItWorksPage() {
         }}
       >
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div
+          <ul
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
               gap: "32px",
+              listStyle: "none",
+              padding: 0,
+              margin: 0,
             }}
           >
             {[
@@ -275,9 +278,10 @@ export default function HowItWorksPage() {
               { label: "Month 3+", value: "Full monthly reporting" },
               { label: "Months 4–6", value: "Compounding growth" },
             ].map((item) => (
-              <div key={item.label}>
-                <p
+              <li key={item.label}>
+                <span
                   style={{
+                    display: "block",
                     fontFamily: "var(--font-mono)",
                     fontSize: "11px",
                     letterSpacing: "0.1em",
@@ -287,13 +291,13 @@ export default function HowItWorksPage() {
                   }}
                 >
                   {item.label}
-                </p>
-                <p style={{ fontSize: "14px", color: "var(--chalk)", fontWeight: 500 }}>
+                </span>
+                <span style={{ display: "block", fontSize: "14px", color: "var(--chalk)", fontWeight: 500 }}>
                   {item.value}
-                </p>
-              </div>
+                </span>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -580,13 +584,15 @@ export default function HowItWorksPage() {
           >
             Related reading
           </h2>
-          <div
+          <ul
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
               gap: "16px",
               maxWidth: "800px",
               margin: "0 auto",
+              listStyle: "none",
+              padding: 0,
             }}
           >
             {[
@@ -611,6 +617,7 @@ export default function HowItWorksPage() {
                 desc: "Common questions about contracts, timelines, and what we actually do",
               },
             ].map((link) => (
+              <li key={link.href} style={{ display: "flex" }}>
               <Link
                 key={link.href}
                 href={link.href}
@@ -621,10 +628,12 @@ export default function HowItWorksPage() {
                   borderRadius: "4px",
                   textDecoration: "none",
                   backgroundColor: "var(--void)",
+                  width: "100%",
                 }}
               >
-                <p
+                <span
                   style={{
+                    display: "block",
                     fontSize: "15px",
                     fontWeight: 600,
                     color: "var(--chalk)",
@@ -632,12 +641,13 @@ export default function HowItWorksPage() {
                   }}
                   dangerouslySetInnerHTML={{ __html: link.label }}
                 />
-                <p style={{ fontSize: "13px", color: "var(--smoke)", lineHeight: 1.5 }}>
+                <span style={{ display: "block", fontSize: "13px", color: "var(--smoke)", lineHeight: 1.5 }}>
                   {link.desc}
-                </p>
+                </span>
               </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 

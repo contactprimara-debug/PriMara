@@ -71,6 +71,9 @@ export default function AboutPage() {
             compete on their local search results page. We do it with the same attention to HIPAA compliance,
             patient privacy, and ethical marketing that your practice operates under every day.
           </p>
+          <h2 className="font-serif font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.5rem" }}>
+            Where We Expanded
+          </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             We expanded in 2026 to serve independent mental health practices for the same reason:
             demand for therapy is rising faster than independent therapists can acquire clients through
@@ -78,11 +81,17 @@ export default function AboutPage() {
             independent practitioners directly. We build the local presence that makes those directories
             optional.
           </p>
+          <h2 className="font-serif font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.5rem" }}>
+            How We Work
+          </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Every engagement is managed directly by Liam and Gio. No account coordinators. No offshore writing
             teams. No handoffs. When you have a question about your ranking or your report, you speak with the
             person who built the strategy and wrote the content &mdash; because that&rsquo;s us.
           </p>
+          <h2 className="font-serif font-bold mt-10 mb-4" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.5rem" }}>
+            Who We Serve
+          </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
             Today, that means managing digital marketing for independent practices across primary care,
             mental health, and men&rsquo;s health &mdash; representing more than 100 physicians and clinicians
