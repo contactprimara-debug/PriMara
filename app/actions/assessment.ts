@@ -12,6 +12,7 @@ export type AssessmentPayload = {
   score: number;
   tier: string;
   answers: Record<string, string>;
+  attribution?: Record<string, string>;
 };
 
 export async function submitAssessment(payload: AssessmentPayload) {
@@ -35,6 +36,7 @@ export async function submitAssessment(payload: AssessmentPayload) {
       practice: payload.practice || undefined,
       score: payload.score,
       tier: payload.tier,
+      ...(payload.attribution || {}),
       message: `Practice Score Assessment: ${payload.score}% (${payload.tier})\n\nAnswers:\n${answerLines}`,
     }).then(() => undefined),
     pushLeadToCrm({

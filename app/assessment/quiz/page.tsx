@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { submitAssessment } from '@/app/actions/assessment';
+import { readAttribution } from '@/lib/attribution';
 
 /* ── Quiz data ─────────────────────────────────────────────────────────── */
 
@@ -151,6 +152,7 @@ export default function QuizPage() {
       score,
       tier,
       answers: allAnswers,
+      attribution: readAttribution() as Record<string, string>,
     });
 
     // Store results for results page

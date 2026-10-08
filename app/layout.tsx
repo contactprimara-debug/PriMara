@@ -9,6 +9,7 @@ import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
 import HashScroll from "@/components/HashScroll";
 import MobileCTABar from "@/components/MobileCTABar";
+import AttributionCapture from "@/components/AttributionCapture";
 import Preloader from "@/components/Preloader";
 import RouteFade from "@/components/RouteFade";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
@@ -224,6 +225,7 @@ export default function RootLayout({
 
         {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
         <MobileCTABar />
+        <AttributionCapture />
 
         {/* ── Animation infrastructure ──────────────────────────────────── */}
         <AnimationProvider />

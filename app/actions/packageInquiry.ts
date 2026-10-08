@@ -1,6 +1,6 @@
 "use server";
 
-import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
+import { attributionFrom, firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
 import { markLeadRecorded } from "@/lib/leadPing";
@@ -47,6 +47,7 @@ export async function submitPackageInquiry(
       phone,
       email,
       message: notes,
+      ...attributionFrom(formData),
     }).then(() => undefined),
     pushLeadToCrm({
       contactName: name,

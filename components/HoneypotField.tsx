@@ -6,8 +6,12 @@
    offscreen positioning catches more of them.
    No id/htmlFor so multiple forms on one page don't duplicate ids. */
 
+import AttributionFields from "@/components/AttributionFields";
+
 export default function HoneypotField() {
   return (
+    <>
+    <AttributionFields />
     <div
       aria-hidden="true"
       style={{
@@ -24,5 +28,6 @@ export default function HoneypotField() {
         <input name="company" type="text" tabIndex={-1} autoComplete="off" />
       </label>
     </div>
+    </>
   );
 }

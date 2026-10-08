@@ -52,3 +52,17 @@ export async function sendLeadEmail(opts: {
   }
   return { sent: true };
 }
+
+/** First-touch attribution fields posted by <AttributionFields /> (see lib/attribution.ts). */
+export function attributionFrom(formData: FormData): Record<string, string> {
+  const keys = [
+    "first_touch_landing_page", "entry_referrer", "utm_source", "utm_medium", "utm_campaign",
+    "utm_term", "utm_content", "gclid", "gbraid", "wbraid",
+  ];
+  const out: Record<string, string> = {};
+  for (const k of keys) {
+    const v = formData.get(k);
+    if (typeof v === "string" && v.trim()) out[k] = v.trim().slice(0, 300);
+  }
+  return out;
+}

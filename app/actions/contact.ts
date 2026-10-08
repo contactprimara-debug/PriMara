@@ -1,6 +1,6 @@
 "use server";
 
-import { firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
+import { attributionFrom, firstNameFrom, isBotSubmission, sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
 import { markLeadRecorded } from "@/lib/leadPing";
@@ -55,6 +55,7 @@ export async function submitContact(
       email: email || undefined,
       best_time_to_call: callTime,
       message: reason || undefined,
+      ...attributionFrom(formData),
     }).then(() => undefined),
     pushLeadToCrm({
       contactName: name,
