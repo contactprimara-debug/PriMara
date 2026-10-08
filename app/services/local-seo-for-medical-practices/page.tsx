@@ -211,6 +211,9 @@ export default function LocalSEOPage() {
             primary care clinics — not hospital systems, urgent care franchises, or dental chains. No long-term
             contract required.
           </p>
+          <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
+            Our AI search work is also written up for local markets, with separate pages for <Link href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. Both build on <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website</Link> that search engines can read.
+          </p>
         </div>
       </section>
 

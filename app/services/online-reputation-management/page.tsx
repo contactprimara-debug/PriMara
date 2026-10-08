@@ -214,6 +214,9 @@ export default function ReputationPage() {
             alternatives within a short drive. Primara works exclusively with independent, physician-owned primary
             care practices.
           </p>
+          <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
+            Review work looks different by practice type, so the same approach is written up for <Link href="/locations/medspas-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspas across Florida</Link> and <Link href="/locations/dental-practices-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>dental practices across Florida</Link>, alongside our <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation guide for Florida practices</Link>.
+          </p>
         </div>
       </section>
 

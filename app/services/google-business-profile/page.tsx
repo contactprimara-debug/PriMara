@@ -215,6 +215,9 @@ export default function GBPPage() {
             claimed. Primara works exclusively with independent, physician-owned primary care clinics — not hospital
             systems, urgent care franchises, or dental chains.
           </p>
+          <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
+            The profile looks different for each kind of practice, so we have written up how it works for <Link href="/locations/medspas-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspas across Florida</Link>, <Link href="/locations/dental-practices-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>dental practices across Florida</Link> and the <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review requests that keep a listing current</Link>.
+          </p>
         </div>
       </section>
 

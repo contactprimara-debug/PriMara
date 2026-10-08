@@ -194,6 +194,30 @@ export default function LocationPage({
     .slice(0, 5)
     .map((x) => x.loc);
 
+  // In-sentence internal links (card #186, 2026-10-08). The index diagnosis
+  // found 80 of the 84 pages Google had not indexed were "never_read_no_links":
+  // they were reachable from the hub and from card grids, but had ZERO in-text
+  // links from pages Google already indexes. Cards are not prose, so this adds
+  // two real sentences per page, derived from the data files (a slug here can
+  // never point at a page that does not exist):
+  //   1. the same city's pages in every OTHER vertical;
+  //   2. the five nearest same-vertical cities (the same list as the cards).
+  // Simulated against the live indexed set before shipping: 68 of the 74
+  // unindexed city pages reach >=3 inbound in-sentence links from indexed pages
+  // (was 0), the other 6 reach 2, and every page that gets indexed adds more.
+  const SAME_CITY_ORDER: LocType[] = ["primary-care", "medspas", "dental", "meta-ads", "mental-health", "mens-health"];
+  const sameCityOthers = allLocations
+    .filter((l) => l.city === loc.city && l.type !== loc.type)
+    .sort((a, b) => SAME_CITY_ORDER.indexOf(a.type) - SAME_CITY_ORDER.indexOf(b.type));
+  const proseLinkStyle = { color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" } as const;
+  const joinLinks = (items: { key: string; node: React.ReactNode }[]) =>
+    items.map((it, i) => (
+      <span key={it.key}>
+        {i > 0 ? (i === items.length - 1 ? (items.length > 2 ? ", and " : " and ") : ", ") : ""}
+        {it.node}
+      </span>
+    ));
+
   const copy = VERTICAL_COPY[loc.type];
   const verticalLabel = copy.label;
   const mainVerticalHref = copy.href;
@@ -936,7 +960,7 @@ export default function LocationPage({
       </section>
 
       {/* ── Nearby Locations ──────────────────────────────────────────── */}
-      {nearbyLocations.length > 0 && (
+      {(nearbyLocations.length > 0 || sameCityOthers.length > 0) && (
         <section
           style={{
             padding: "clamp(40px, 6vw, 72px) 0",
@@ -957,6 +981,39 @@ export default function LocationPage({
             >
               Nearby Locations — {verticalLabel}
             </h2>
+            {sameCityOthers.length > 0 && (
+              <p style={{ color: "var(--ash)", lineHeight: 1.7, marginBottom: "1rem", maxWidth: "70ch" }}>
+                If {loc.city} is your market, you can also see how we approach{" "}
+                {joinLinks(
+                  sameCityOthers.map((o) => ({
+                    key: o.slug,
+                    node: (
+                      <Link href={`/locations/${o.slug}`} style={proseLinkStyle}>
+                        {VERTICAL_COPY[o.type].label.toLowerCase()} in {o.city}
+                      </Link>
+                    ),
+                  }))
+                )}
+                , which cover the same local search groundwork from a different angle.
+              </p>
+            )}
+            {nearbyLocations.length > 0 && (
+              <p style={{ color: "var(--ash)", lineHeight: 1.7, marginBottom: "1.5rem", maxWidth: "70ch" }}>
+                Owners comparing markets across the area can read the same service as it applies in{" "}
+                {joinLinks(
+                  nearbyLocations.map((n) => ({
+                    key: n.slug,
+                    node: (
+                      <Link href={`/locations/${n.slug}`} style={proseLinkStyle}>
+                        {verticalLabel.toLowerCase()} in {n.city}
+                      </Link>
+                    ),
+                  }))
+                )}
+                .
+              </p>
+            )}
+            {nearbyLocations.length > 0 && (
             <div
               style={{
                 display: "grid",
@@ -1001,6 +1058,7 @@ export default function LocationPage({
                 </Link>
               ))}
             </div>
+            )}
           </div>
         </section>
       )}

@@ -212,6 +212,9 @@ export default function PatientAdsPage() {
             patient volume more quickly than organic strategies typically allow. Primara works exclusively with
             independent physician-owned primary care clinics.
           </p>
+          <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
+            Paid search is rarely the only channel a clinic uses. Practices often pair it with <Link href="/locations/meta-ads-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads across Florida</Link>, <Link href="/locations/meta-ads-for-medspas" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads for medspas</Link>, <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website built for local search</Link> and <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation for Florida practices</Link>.
+          </p>
         </div>
       </section>
 

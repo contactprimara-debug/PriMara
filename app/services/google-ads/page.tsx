@@ -296,6 +296,9 @@ export default function GoogleAdsPage() {
               review without being watered down to uselessness, and how to attribute new patients to the right channels
               without creating compliance exposure.
             </p>
+            <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginTop: "20px" }}>
+              Search ads capture demand that already exists. For practices that need to create it, we also run <Link href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management for independent practices</Link>, including <Link href="/locations/meta-ads-for-medspas" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads for medspas</Link>, <Link href="/locations/meta-ads-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads across Florida</Link> and <Link href="/locations/meta-ads-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads in West Palm Beach</Link>. A campaign only pays off when <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>the practice website</Link> is built to turn those clicks into booked visits.
+            </p>
           </div>
         </div>
       </section>
