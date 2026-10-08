@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { blogHubFaqs } from "@/lib/page-faqs";
 import { blogPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
@@ -268,6 +270,8 @@ export default function BlogPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={blogHubFaqs} />
 
       {/* CTA */}
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

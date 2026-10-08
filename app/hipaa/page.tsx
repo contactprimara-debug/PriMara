@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { hipaaFaqs } from "@/lib/page-faqs";
 
 export const metadata: Metadata = {
   title: "HIPAA Notice | Primara",
@@ -313,6 +315,8 @@ export default function HipaaPage() {
           </Link>
         </div>
       </div>
+      <FaqSection faqs={hipaaFaqs} />
+
     </main>
   );
 }

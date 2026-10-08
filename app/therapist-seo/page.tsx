@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { therapistSeoFaqs } from "@/lib/page-faqs";
 
 export const metadata: Metadata = {
   title: "SEO for Therapists — What Actually Works | Primara",
@@ -818,6 +820,8 @@ export default function TherapistSEOPage() {
           ))}
         </div>
       </section>
+
+      <FaqSection faqs={therapistSeoFaqs} />
 
       {/* CTA */}
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

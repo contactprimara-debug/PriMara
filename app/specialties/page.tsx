@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { specialtiesFaqs } from "@/lib/page-faqs";
 
 export const metadata: Metadata = {
   title: "Marketing by Specialty — Men's Health & Primary Care | Primara",
@@ -457,6 +459,8 @@ export default function SpecialtiesPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={specialtiesFaqs} />
 
     </main>
   );

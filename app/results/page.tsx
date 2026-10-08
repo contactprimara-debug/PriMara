@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { resultsFaqs } from "@/lib/page-faqs";
 
 export const metadata: Metadata = {
   title: "Results for Independent Medical Practices | Primara",
@@ -167,6 +169,8 @@ export default function ResultsPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={resultsFaqs} />
 
       {/* CTA */}
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { vsDoctorlogicFaqs } from "@/lib/page-faqs";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -579,6 +581,8 @@ export default function VsDoctorLogicPage() {
           ))}
         </div>
       </section>
+
+      <FaqSection faqs={vsDoctorlogicFaqs} />
 
       {/* CTA */}
       {/* Related links (contextual internal linking) */}

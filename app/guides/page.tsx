@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { guidesHubFaqs } from "@/lib/page-faqs";
 import { guides, guideCategories } from "@/lib/guides";
 import { SITE_URL } from "@/lib/schema";
 
@@ -208,6 +210,8 @@ export default function GuidesHub() {
           </div>
         </div>
       </section>
+      <FaqSection faqs={guidesHubFaqs} />
+
     </main>
   );
 }

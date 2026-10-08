@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { locationsFaqs } from "@/lib/page-faqs";
 import { primaryCareLocations } from "@/lib/locations-primary";
 import { mentalHealthLocations } from "@/lib/locations-mental";
 import { mensHealthLocations } from "@/lib/locations-mens-health";
@@ -363,6 +365,8 @@ export default function LocationsPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={locationsFaqs} />
 
       {/* CTA */}
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>

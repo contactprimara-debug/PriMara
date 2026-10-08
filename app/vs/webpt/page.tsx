@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { vsWebptFaqs } from "@/lib/page-faqs";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -654,6 +656,8 @@ export default function VsWebPTPage() {
           ))}
         </div>
       </section>
+
+      <FaqSection faqs={vsWebptFaqs} />
 
       {/* CTA */}
       {/* Related links (contextual internal linking) */}
