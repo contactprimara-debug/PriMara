@@ -105,6 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/services/google-ads`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/services/meta-ads`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${SITE_URL}/services/ai-seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${SITE_URL}/dental-seo`, lastModified, changeFrequency: "monthly" as const, priority: 0.9 },
 
     // ── Priority 0.7 — Service cluster pages ────────────────────────────
     {

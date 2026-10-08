@@ -5,13 +5,13 @@ import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "GBP Optimization for Medical Practices | Primara",
+  title: "Google Business Profile Management for Doctors | Primara",
   description:
     "Primara manages Google Business Profiles for independent medical practices. Liam Costello & Gio LaRoche accept new clients. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/services/google-business-profile" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "GBP Optimization for Medical Practices | Primara",
+    title: "Google Business Profile Management for Doctors | Primara",
     description:
       "Primara manages Google Business Profiles for independent medical practices. Call (561) 291-2681.",
     type: "website",
@@ -212,11 +212,12 @@ export default function GBPPage() {
             professional response, GBP management may be one of the highest-leverage improvements available. This is
             particularly relevant for practices newer to Florida, clinics that have recently moved or
             rebranded, and independent practices whose Google listings may have been auto-generated and never formally
-            claimed. Primara works exclusively with independent, physician-owned primary care clinics — not hospital
-            systems, urgent care franchises, or dental chains.
+            claimed. Primara works with independent practices — not hospital
+            systems or large chains.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
             The profile looks different for each kind of practice, so we have written up how it works for <Link href="/locations/medspas-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspas across Florida</Link>, <Link href="/locations/dental-practices-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>dental practices across Florida</Link> and the <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review requests that keep a listing current</Link>.
+           For dental offices specifically, the profile work is one part of our <Link href="/dental-seo" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>dental SEO service</Link>, which adds treatment pages and call tracking around the listing.
           </p>
         </div>
       </section>
