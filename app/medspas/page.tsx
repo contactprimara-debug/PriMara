@@ -447,7 +447,7 @@ export default function MedspasPage() {
             For most medspas, <Link href="/services/meta-ads" style={{ color: "var(--gold)", textDecoration: "none" }}>Meta Ads</Link>{" "}
             is the primary acquisition channel — the audience is on Instagram, the category is visual, and
             demand is created rather than searched for. Local search and reviews are what turn that attention
-            into a booked consultation instead of a follow. The same approach is written up in our <Link href="/locations/meta-ads-for-medspas" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads for medspas</Link> guide and our <Link href="/locations/medspas-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspa marketing guide for Florida</Link>.
+            into a booked consultation instead of a follow. The same approach is written up in our <Link href="/locations/meta-ads-for-medspas" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads for medspas</Link> guide, our <Link href="/locations/medspas-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspa marketing guide for Florida</Link> and the city version for <Link href="/locations/kendall-medspa-marketing" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medspa marketing in Kendall</Link>.
           </p>
           <ol
             style={{
