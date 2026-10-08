@@ -61,21 +61,20 @@ const serviceSchema = {
 
 const faqs = [
   {
-    q: "What is AI SEO / GEO?",
-    a: "AI SEO — also called Generative Engine Optimization (GEO) or Answer Engine Optimization (AEO) — is the practice of structuring a website so AI systems like ChatGPT, Perplexity, and Google AI Overviews can accurately find, understand, and cite it. It sits alongside traditional SEO rather than replacing it: the same technical foundation — fast pages, real content, structured data — helps with both.",
+    q: "Why does a West Palm Beach practice need its own AI SEO work?",
+    a: "Assistants answer local questions from local facts. If your address, hours or phone differ between your site and your listings, the assistant has to guess, and it often leaves you out instead. Fixing those differences is the local half of the job.",
   },
   {
-    q: "Why does this matter for a West Palm Beach practice?",
-    a: "Patients increasingly ask AI assistants the same questions they used to type into Google — \"who's a good primary care doctor in West Palm Beach?\" If your practice's site isn't technically readable to those systems, you're simply not in the answer. The work makes sure you're findable and accurately represented when patients ask.",
+    q: "What do you need from us to start?",
+    a: "Your current Google Business Profile access (or a manager invite), your website login or a developer contact, and a short confirmed list of services, insurance plans and hours. We do not write about anything the practice has not confirmed.",
   },
   {
-    q: "Can you guarantee my practice will show up in ChatGPT?",
-    a: "No — and you should be skeptical of anyone who does. No one controls what an AI model decides to cite; these systems pull from many sources and their behavior changes as they're updated. What we can do is make sure your practice is technically ready to be found and accurately represented when it is — correct structured data, no accidental crawler blocks, and content written the way these systems actually quote it.",
+    q: "Can you guarantee my practice will be named by ChatGPT or Google?",
+    a: "No. These products decide for themselves what to cite, and they change often. We can make sure your facts are correct, consistent and readable, and we can show you what the assistants said each month.",
   },
-  { q: "Do you do this for your own website?", a: "Yes. Primara's own site runs the same setup we build for clients — schema markup, an llms.txt file, and explicit AI crawler access. It's live right now at primara365.com, not a theoretical service. This is one of the items we walk through personally with every new practice." },
   {
-    q: "Is there a separate cost for AI SEO?",
-    a: "For most clients it's built into the SEO or Foundation/Visibility package rather than sold separately — the technical work overlaps heavily with what we already do for traditional SEO. We'll tell you plainly if your situation calls for additional scope.",
+    q: "Is this separate from local SEO and Google Business Profile work?",
+    a: "It shares most of the same foundation. For most clients it is part of the SEO or Visibility package rather than a separate fee, and we say so plainly if your situation needs extra scope.",
   },
 ];
 
@@ -91,20 +90,20 @@ const faqSchema = {
 
 const deliverables = [
   {
-    title: "Structured Data That AI Systems Can Read",
-    body: "Schema markup — LocalBusiness, Service, and FAQ — on every page that matters, so AI systems and search engines alike can identify who you are, what you treat, and where you practice in West Palm Beach.",
+    title: "One Name, One Address, One Phone Everywhere",
+    body: "We compare your Google Business Profile, website footer, schema and the main directories, then fix the differences. If your practice has moved or changed numbers, the old version is the one most likely to be repeated back to a patient.",
   },
   {
-    title: "AI Crawler Access, Deliberately Configured",
-    body: "Many sites block AI crawlers by accident through old robots.txt rules or firewall settings. We audit and configure crawler access — including an llms.txt file — so the systems patients actually ask can read your site.",
+    title: "Service-Area Wording That Matches How You Practice",
+    body: "A practice that sees patients at one office and a practice that travels to them need different wording. We set the address, service area and city references to match the real arrangement, and nothing broader.",
   },
   {
-    title: "Content Written the Way AI Quotes It",
-    body: "Direct answers to real patient questions, structured as questions and answers — the format AI systems lift citations from. Grounded in what your practice actually offers, never invented claims.",
+    title: "Pages That Answer the Local Question First",
+    body: "Insurance accepted, same-week appointments, languages spoken, telehealth or in-person. We put those answers in the first lines of the page and in visible questions and answers, using only facts your front desk confirms.",
   },
   {
-    title: "Built on the Traditional SEO Foundation",
-    body: "AI SEO isn't a separate universe — fast pages, clean structure, and real content help both. We run it alongside the same local SEO and GBP work that gets you found on Google today.",
+    title: "A Monthly Check in the AI Assistants",
+    body: "Once a month we ask the assistants the questions a West Palm Beach patient would ask and log whether your practice is named and whether the details are right. You get the log, including the months nothing changed.",
   },
 ];
 
@@ -180,20 +179,13 @@ export default function AiSeoWestPalmBeachPage() {
               Why It Matters Here
             </p>
             <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "24px" }}>
-              Patients are starting to ask AI instead of Google.
+              Local questions get local answers, so your listing has to agree with your site.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              The question &ldquo;who&rsquo;s a good primary care doctor in West Palm
-              Beach?&rdquo; is now asked to ChatGPT and answered by Google&rsquo;s AI
-              Overviews before a patient ever sees a traditional results page. Those
-              systems can only recommend practices they can read: sites with clean
-              structured data, open crawler access, and content that answers questions
-              directly. Most practice websites have none of the three.
+              Ask an assistant for a doctor in West Palm Beach and it leans on what it can verify about a place: the address and phone on your Google Business Profile, the hours, the services you list, and whether your own website says the same thing. Practices move, merge and change phone numbers, and old listings that disagree with the website are easy for an assistant to find.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              We do this work from West Palm Beach, for independent primary care, mental
-              health, and men&rsquo;s health practices — and we run the same setup on
-              our own site, so it&rsquo;s a practiced service, not a theoretical one.
+              Primara is based in West Palm Beach, so this page covers the local side of AI SEO. The technical checks that apply to any Florida site are on our <Link href="/locations/ai-seo-florida" style={{ color: "var(--gold)" }}>statewide AI SEO page</Link>, and the traditional ranking work is on <Link href="/locations/medical-seo-west-palm-beach" style={{ color: "var(--gold)" }}>medical SEO in West Palm Beach</Link>.
             </p>
           </div>
         </div>

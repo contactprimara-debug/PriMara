@@ -206,6 +206,51 @@ export default function AiSeoFloridaPage() {
         </div>
       </section>
 
+      {/* AI-readiness checks */}
+      <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 7vw, 80px) 0", borderTop: "1px solid var(--wire)" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "16px" }}>
+            The Statewide Audit
+          </p>
+          <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "12px" }}>
+            Six things we check on a Florida practice site
+          </h2>
+          <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", marginBottom: "28px" }}>
+            The same six checks apply in Miami, Tampa or a small town, because they test your website rather than your city. Each one produces a plain pass or fail on your own pages, and we fix the failures in the order they cost you the most.
+          </p>
+          <div style={{ maxWidth: "720px" }}>
+            <div style={{ borderTop: "1px solid var(--wire)", padding: "22px 0" }}>
+              <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "8px", lineHeight: 1.3 }}>Which AI crawlers your robots.txt allows</h3>
+              <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>We read your robots.txt for the user agents AI products use to fetch pages (GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Google-Extended) and note which are allowed, which are blocked, and whether a blanket rule is blocking them by accident.</p>
+            </div>
+            <div style={{ borderTop: "1px solid var(--wire)", padding: "22px 0" }}>
+              <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "8px", lineHeight: 1.3 }}>Whether your firewall or CDN turns bots away</h3>
+              <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>A security plugin or CDN challenge page can return an error to every automated visitor while your site looks fine in a browser. We request your key pages the way a crawler does and record the status code each one returns.</p>
+            </div>
+            <div style={{ borderTop: "1px solid var(--wire)", padding: "22px 0" }}>
+              <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "8px", lineHeight: 1.3 }}>Whether the answer is in the HTML</h3>
+              <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>If your services and hours only appear after JavaScript runs, many fetchers see an empty page. We compare the raw HTML with the rendered page so the facts a patient asks about are in the first response.</p>
+            </div>
+            <div style={{ borderTop: "1px solid var(--wire)", padding: "22px 0" }}>
+              <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "8px", lineHeight: 1.3 }}>Whether your facts agree with each other</h3>
+              <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>Practice name, address, phone, hours and service names should match on the site, your Google Business Profile and your schema. A mismatch gives an AI system two answers and a reason to skip you.</p>
+            </div>
+            <div style={{ borderTop: "1px solid var(--wire)", padding: "22px 0" }}>
+              <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "8px", lineHeight: 1.3 }}>Whether each page answers one question first</h3>
+              <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>We check that each service page opens with a short, direct answer and keeps visible questions and answers that match its FAQ markup, so there is a clean passage to quote.</p>
+            </div>
+            <div style={{ borderTop: "1px solid var(--wire)", padding: "22px 0" }}>
+              <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "8px", lineHeight: 1.3 }}>Whether a plain-text summary exists</h3>
+              <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, margin: 0 }}>We add an llms.txt file that lists your main pages in plain text. Support for it varies by product, so we treat it as a low-cost extra, never as the whole job.</p>
+            </div>
+            <div style={{ borderTop: "1px solid var(--wire)" }} />
+          </div>
+          <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", marginTop: "24px" }}>
+            Afterwards we ask the common patient questions in the main AI assistants, once a month, and log whether your practice is named. We report what we saw. We do not promise a result, because the assistants decide what to cite. Our <Link href="/services/ai-seo" style={{ color: "var(--gold)" }}>AI SEO service page</Link> explains how this fits with the rest of the work.
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
