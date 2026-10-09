@@ -16,11 +16,8 @@ const navLinks = [
 ];
 
 const WHO_WE_SERVE = [
-  { label: "Men's Health", href: "/mens-health" },
   { label: "Primary Care", href: "/primary-care" },
   { label: "Mental Health", href: "/mental-health" },
-  { label: "Medspas", href: "/medspas" },
-  { label: "Dental Practices", href: "/dental-practices" },
 ];
 
 // Flagship services first — Meta Ads and SEO are the two co-flagship

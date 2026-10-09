@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { caseStudies } from "@/lib/case-studies";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 
 const organizationSchema = {
@@ -117,55 +118,6 @@ export default function HomePage() {
           }}
         >
           <Link
-            href="/mens-health"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "12px",
-              padding: "clamp(28px, 4vw, 40px)",
-              border: "1px solid var(--wire)",
-              borderRadius: "4px",
-              backgroundColor: "var(--void)",
-              textDecoration: "none",
-              transition: "border-color 0.2s",
-            }}
-            className="vertical-card"
-          >
-            <span
-              style={{
-                fontFamily: "var(--font-display), Georgia, serif",
-                fontSize: "clamp(24px, 3vw, 32px)",
-                color: "var(--chalk)",
-                fontWeight: 400,
-                letterSpacing: "-0.02em",
-                lineHeight: 1.1,
-              }}
-            >
-              Men&rsquo;s Health
-            </span>
-            <span
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "13px",
-                color: "var(--ash)",
-                lineHeight: 1.6,
-              }}
-            >
-              TRT clinics, men&rsquo;s wellness centers, urology practices
-            </span>
-            <span
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "12px",
-                letterSpacing: "0.08em",
-                color: "var(--gold)",
-                marginTop: "4px",
-              }}
-            >
-              See How We Help →
-            </span>
-          </Link>
-          <Link
             href="/primary-care"
             style={{
               display: "flex",
@@ -263,105 +215,79 @@ export default function HomePage() {
               See How We Help →
             </span>
           </Link>
-          <Link
-            href="/medspas"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "12px",
-              padding: "clamp(28px, 4vw, 40px)",
-              border: "1px solid var(--wire)",
-              borderRadius: "4px",
-              backgroundColor: "var(--void)",
-              textDecoration: "none",
-              transition: "border-color 0.2s",
-            }}
-            className="vertical-card"
-          >
-            <span
-              style={{
-                fontFamily: "var(--font-display), Georgia, serif",
-                fontSize: "clamp(24px, 3vw, 32px)",
-                color: "var(--chalk)",
-                fontWeight: 400,
-                letterSpacing: "-0.02em",
-                lineHeight: 1.1,
-              }}
-            >
-              Medspas
-            </span>
-            <span
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "13px",
-                color: "var(--ash)",
-                lineHeight: 1.6,
-              }}
-            >
-              Injectables, laser, body contouring — physician- and nurse-led aesthetic practices
-            </span>
-            <span
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "12px",
-                letterSpacing: "0.08em",
-                color: "var(--gold)",
-                marginTop: "4px",
-              }}
-            >
-              See How We Help →
-            </span>
-          </Link>
-          <Link
-            href="/dental-practices"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "12px",
-              padding: "clamp(28px, 4vw, 40px)",
-              border: "1px solid var(--wire)",
-              borderRadius: "4px",
-              backgroundColor: "var(--void)",
-              textDecoration: "none",
-              transition: "border-color 0.2s",
-            }}
-            className="vertical-card"
-          >
-            <span
-              style={{
-                fontFamily: "var(--font-display), Georgia, serif",
-                fontSize: "clamp(24px, 3vw, 32px)",
-                color: "var(--chalk)",
-                fontWeight: 400,
-                letterSpacing: "-0.02em",
-                lineHeight: 1.1,
-              }}
-            >
-              Dental Practices
-            </span>
-            <span
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "13px",
-                color: "var(--ash)",
-                lineHeight: 1.6,
-              }}
-            >
-              Dentist-owned general, cosmetic, implant and aligner-focused practices
-            </span>
-            <span
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "12px",
-                letterSpacing: "0.08em",
-                color: "var(--gold)",
-                marginTop: "4px",
-              }}
-            >
-              See How We Help →
-            </span>
-          </Link>
         </div>
+      </section>
+
+      {/* ── Case studies: real clients, dated numbers (see /case-studies) ── */}
+      <section
+        aria-label="Case studies"
+        style={{
+          padding: "clamp(48px, 6vw, 80px) clamp(24px, 8vw, 120px)",
+          borderTop: "1px solid var(--wire)",
+          backgroundColor: "var(--void)",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "system-ui, sans-serif",
+            fontSize: "10px",
+            letterSpacing: "0.2em",
+            textTransform: "uppercase",
+            color: "var(--smoke)",
+            marginBottom: "clamp(20px, 3vw, 32px)",
+          }}
+        >
+          Case Studies
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: "20px",
+          }}
+        >
+          {caseStudies.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/case-studies/${c.slug}`}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+                padding: "clamp(28px, 4vw, 40px)",
+                border: "1px solid var(--wire)",
+                borderRadius: "4px",
+                backgroundColor: "var(--surface)",
+                textDecoration: "none",
+              }}
+              className="vertical-card"
+            >
+              <span
+                style={{
+                  fontFamily: "var(--font-display), Georgia, serif",
+                  fontSize: "clamp(22px, 2.6vw, 28px)",
+                  color: "var(--chalk)",
+                  fontWeight: 400,
+                  letterSpacing: "-0.02em",
+                  lineHeight: 1.15,
+                }}
+              >
+                {c.shortName}
+              </span>
+              <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6 }}>
+                {c.kind}
+              </span>
+              <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", letterSpacing: "0.08em", color: "var(--gold)", marginTop: "4px" }}>
+                Read the case study →
+              </span>
+            </Link>
+          ))}
+        </div>
+        <p style={{ marginTop: "24px", fontFamily: "system-ui, sans-serif", fontSize: "13px" }}>
+          <Link href="/case-studies" style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+            All case studies
+          </Link>
+        </p>
       </section>
 
       {/* ── Co-flagship channels — SEO + Meta Ads ─────────────────────────── */}
@@ -406,7 +332,7 @@ export default function HomePage() {
               tag: "Demand Creation",
               name: "Meta Ads",
               body:
-                "Facebook and Instagram for practices, medspas, and dental clinics. Policy-safe creative, HIPAA-aware tracking, dedicated landing pages, and call attribution. Search has a ceiling — this is how you go past it.",
+                "Facebook and Instagram for primary care and mental health practices. Policy-safe creative, HIPAA-aware tracking, dedicated landing pages, and call attribution. Search has a ceiling — this is how you go past it.",
               cta: "Explore Meta Ads",
             },
           ].map((channel) => (

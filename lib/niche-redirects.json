@@ -1,0 +1,582 @@
+[
+ {
+  "from_": "/mens-health",
+  "to": "/primary-care"
+ },
+ {
+  "from_": "/medspas",
+  "to": "/primary-care"
+ },
+ {
+  "from_": "/dental-practices",
+  "to": "/primary-care"
+ },
+ {
+  "from_": "/specialties/trt-clinics",
+  "to": "/specialties"
+ },
+ {
+  "from_": "/specialties/mens-wellness-clinics",
+  "to": "/specialties"
+ },
+ {
+  "from_": "/specialties/urology-practices",
+  "to": "/specialties"
+ },
+ {
+  "from_": "/specialties/ed-treatment-clinics",
+  "to": "/specialties"
+ },
+ {
+  "from_": "/blog/trt-clinics-vs-national-telehealth-brands-local-seo",
+  "to": "/blog/what-is-local-seo-for-doctors"
+ },
+ {
+  "from_": "/blog/gbp-categories-for-mens-health-clinics",
+  "to": "/blog/gbp-categories-for-primary-care-doctors"
+ },
+ {
+  "from_": "/blog/how-men-search-for-trt-and-ed-treatment",
+  "to": "/blog/what-is-local-seo-for-doctors"
+ },
+ {
+  "from_": "/locations/miami-mens-health-marketing",
+  "to": "/locations/miami-fl"
+ },
+ {
+  "from_": "/locations/fort-lauderdale-mens-health-marketing",
+  "to": "/locations/fort-lauderdale-fl"
+ },
+ {
+  "from_": "/locations/boca-raton-mens-health-marketing",
+  "to": "/locations/boca-raton-fl"
+ },
+ {
+  "from_": "/locations/west-palm-beach-mens-health-marketing",
+  "to": "/locations/west-palm-beach-fl"
+ },
+ {
+  "from_": "/locations/palm-beach-gardens-mens-health-marketing",
+  "to": "/locations/palm-beach-gardens-fl"
+ },
+ {
+  "from_": "/locations/delray-beach-mens-health-marketing",
+  "to": "/locations/delray-beach-fl"
+ },
+ {
+  "from_": "/locations/coral-gables-mens-health-marketing",
+  "to": "/locations/coral-gables-therapist-marketing"
+ },
+ {
+  "from_": "/locations/aventura-mens-health-marketing",
+  "to": "/locations/aventura-fl"
+ },
+ {
+  "from_": "/locations/tampa-mens-health-marketing",
+  "to": "/locations/tampa-fl"
+ },
+ {
+  "from_": "/locations/st-petersburg-mens-health-marketing",
+  "to": "/locations/st-petersburg-fl"
+ },
+ {
+  "from_": "/locations/clearwater-mens-health-marketing",
+  "to": "/locations/clearwater-fl"
+ },
+ {
+  "from_": "/locations/brandon-mens-health-marketing",
+  "to": "/locations/brandon-fl"
+ },
+ {
+  "from_": "/locations/lakeland-mens-health-marketing",
+  "to": "/locations/lakeland-fl"
+ },
+ {
+  "from_": "/locations/orlando-mens-health-marketing",
+  "to": "/locations/orlando-fl"
+ },
+ {
+  "from_": "/locations/kissimmee-mens-health-marketing",
+  "to": "/locations/kissimmee-fl"
+ },
+ {
+  "from_": "/locations/winter-park-mens-health-marketing",
+  "to": "/locations/winter-park-fl"
+ },
+ {
+  "from_": "/locations/altamonte-springs-mens-health-marketing",
+  "to": "/locations/altamonte-springs-fl"
+ },
+ {
+  "from_": "/locations/sanford-mens-health-marketing",
+  "to": "/locations/sanford-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-mens-health-marketing",
+  "to": "/locations/jacksonville-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-beach-mens-health-marketing",
+  "to": "/locations/jacksonville-beach-fl"
+ },
+ {
+  "from_": "/locations/st-augustine-mens-health-marketing",
+  "to": "/locations/st-augustine-fl"
+ },
+ {
+  "from_": "/locations/orange-park-mens-health-marketing",
+  "to": "/locations/orange-park-fl"
+ },
+ {
+  "from_": "/locations/fernandina-beach-mens-health-marketing",
+  "to": "/locations/fernandina-beach-fl"
+ },
+ {
+  "from_": "/locations/miami-medspa-marketing",
+  "to": "/locations/miami-fl"
+ },
+ {
+  "from_": "/locations/fort-lauderdale-medspa-marketing",
+  "to": "/locations/fort-lauderdale-fl"
+ },
+ {
+  "from_": "/locations/boca-raton-medspa-marketing",
+  "to": "/locations/boca-raton-fl"
+ },
+ {
+  "from_": "/locations/palm-beach-gardens-medspa-marketing",
+  "to": "/locations/palm-beach-gardens-fl"
+ },
+ {
+  "from_": "/locations/delray-beach-medspa-marketing",
+  "to": "/locations/delray-beach-fl"
+ },
+ {
+  "from_": "/locations/boynton-beach-medspa-marketing",
+  "to": "/locations/boynton-beach-fl"
+ },
+ {
+  "from_": "/locations/pompano-beach-medspa-marketing",
+  "to": "/locations/pompano-beach-fl"
+ },
+ {
+  "from_": "/locations/coral-springs-medspa-marketing",
+  "to": "/locations/coral-springs-fl"
+ },
+ {
+  "from_": "/locations/jupiter-medspa-marketing",
+  "to": "/locations/jupiter-fl"
+ },
+ {
+  "from_": "/locations/hialeah-medspa-marketing",
+  "to": "/locations/hialeah-fl"
+ },
+ {
+  "from_": "/locations/doral-medspa-marketing",
+  "to": "/locations/doral-fl"
+ },
+ {
+  "from_": "/locations/kendall-medspa-marketing",
+  "to": "/locations/kendall-fl"
+ },
+ {
+  "from_": "/locations/aventura-medspa-marketing",
+  "to": "/locations/aventura-fl"
+ },
+ {
+  "from_": "/locations/pembroke-pines-medspa-marketing",
+  "to": "/locations/pembroke-pines-fl"
+ },
+ {
+  "from_": "/locations/hollywood-medspa-marketing",
+  "to": "/locations/hollywood-fl"
+ },
+ {
+  "from_": "/locations/port-st-lucie-medspa-marketing",
+  "to": "/locations/port-st-lucie-fl"
+ },
+ {
+  "from_": "/locations/stuart-medspa-marketing",
+  "to": "/locations/stuart-fl"
+ },
+ {
+  "from_": "/locations/tampa-medspa-marketing",
+  "to": "/locations/tampa-fl"
+ },
+ {
+  "from_": "/locations/st-petersburg-medspa-marketing",
+  "to": "/locations/st-petersburg-fl"
+ },
+ {
+  "from_": "/locations/clearwater-medspa-marketing",
+  "to": "/locations/clearwater-fl"
+ },
+ {
+  "from_": "/locations/brandon-medspa-marketing",
+  "to": "/locations/brandon-fl"
+ },
+ {
+  "from_": "/locations/lakeland-medspa-marketing",
+  "to": "/locations/lakeland-fl"
+ },
+ {
+  "from_": "/locations/orlando-medspa-marketing",
+  "to": "/locations/orlando-fl"
+ },
+ {
+  "from_": "/locations/kissimmee-medspa-marketing",
+  "to": "/locations/kissimmee-fl"
+ },
+ {
+  "from_": "/locations/winter-park-medspa-marketing",
+  "to": "/locations/winter-park-fl"
+ },
+ {
+  "from_": "/locations/altamonte-springs-medspa-marketing",
+  "to": "/locations/altamonte-springs-fl"
+ },
+ {
+  "from_": "/locations/sanford-medspa-marketing",
+  "to": "/locations/sanford-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-medspa-marketing",
+  "to": "/locations/jacksonville-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-beach-medspa-marketing",
+  "to": "/locations/jacksonville-beach-fl"
+ },
+ {
+  "from_": "/locations/st-augustine-medspa-marketing",
+  "to": "/locations/st-augustine-fl"
+ },
+ {
+  "from_": "/locations/orange-park-medspa-marketing",
+  "to": "/locations/orange-park-fl"
+ },
+ {
+  "from_": "/locations/fernandina-beach-medspa-marketing",
+  "to": "/locations/fernandina-beach-fl"
+ },
+ {
+  "from_": "/locations/miami-dental-marketing",
+  "to": "/locations/miami-fl"
+ },
+ {
+  "from_": "/locations/fort-lauderdale-dental-marketing",
+  "to": "/locations/fort-lauderdale-fl"
+ },
+ {
+  "from_": "/locations/boca-raton-dental-marketing",
+  "to": "/locations/boca-raton-fl"
+ },
+ {
+  "from_": "/locations/palm-beach-gardens-dental-marketing",
+  "to": "/locations/palm-beach-gardens-fl"
+ },
+ {
+  "from_": "/locations/delray-beach-dental-marketing",
+  "to": "/locations/delray-beach-fl"
+ },
+ {
+  "from_": "/locations/boynton-beach-dental-marketing",
+  "to": "/locations/boynton-beach-fl"
+ },
+ {
+  "from_": "/locations/pompano-beach-dental-marketing",
+  "to": "/locations/pompano-beach-fl"
+ },
+ {
+  "from_": "/locations/coral-springs-dental-marketing",
+  "to": "/locations/coral-springs-fl"
+ },
+ {
+  "from_": "/locations/jupiter-dental-marketing",
+  "to": "/locations/jupiter-fl"
+ },
+ {
+  "from_": "/locations/hialeah-dental-marketing",
+  "to": "/locations/hialeah-fl"
+ },
+ {
+  "from_": "/locations/doral-dental-marketing",
+  "to": "/locations/doral-fl"
+ },
+ {
+  "from_": "/locations/kendall-dental-marketing",
+  "to": "/locations/kendall-fl"
+ },
+ {
+  "from_": "/locations/aventura-dental-marketing",
+  "to": "/locations/aventura-fl"
+ },
+ {
+  "from_": "/locations/pembroke-pines-dental-marketing",
+  "to": "/locations/pembroke-pines-fl"
+ },
+ {
+  "from_": "/locations/hollywood-dental-marketing",
+  "to": "/locations/hollywood-fl"
+ },
+ {
+  "from_": "/locations/port-st-lucie-dental-marketing",
+  "to": "/locations/port-st-lucie-fl"
+ },
+ {
+  "from_": "/locations/stuart-dental-marketing",
+  "to": "/locations/stuart-fl"
+ },
+ {
+  "from_": "/locations/tampa-dental-marketing",
+  "to": "/locations/tampa-fl"
+ },
+ {
+  "from_": "/locations/st-petersburg-dental-marketing",
+  "to": "/locations/st-petersburg-fl"
+ },
+ {
+  "from_": "/locations/clearwater-dental-marketing",
+  "to": "/locations/clearwater-fl"
+ },
+ {
+  "from_": "/locations/brandon-dental-marketing",
+  "to": "/locations/brandon-fl"
+ },
+ {
+  "from_": "/locations/lakeland-dental-marketing",
+  "to": "/locations/lakeland-fl"
+ },
+ {
+  "from_": "/locations/orlando-dental-marketing",
+  "to": "/locations/orlando-fl"
+ },
+ {
+  "from_": "/locations/kissimmee-dental-marketing",
+  "to": "/locations/kissimmee-fl"
+ },
+ {
+  "from_": "/locations/winter-park-dental-marketing",
+  "to": "/locations/winter-park-fl"
+ },
+ {
+  "from_": "/locations/altamonte-springs-dental-marketing",
+  "to": "/locations/altamonte-springs-fl"
+ },
+ {
+  "from_": "/locations/sanford-dental-marketing",
+  "to": "/locations/sanford-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-dental-marketing",
+  "to": "/locations/jacksonville-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-beach-dental-marketing",
+  "to": "/locations/jacksonville-beach-fl"
+ },
+ {
+  "from_": "/locations/st-augustine-dental-marketing",
+  "to": "/locations/st-augustine-fl"
+ },
+ {
+  "from_": "/locations/orange-park-dental-marketing",
+  "to": "/locations/orange-park-fl"
+ },
+ {
+  "from_": "/locations/fernandina-beach-dental-marketing",
+  "to": "/locations/fernandina-beach-fl"
+ },
+ {
+  "from_": "/locations/miami-meta-ads-marketing",
+  "to": "/locations/miami-fl"
+ },
+ {
+  "from_": "/locations/fort-lauderdale-meta-ads-marketing",
+  "to": "/locations/fort-lauderdale-fl"
+ },
+ {
+  "from_": "/locations/boca-raton-meta-ads-marketing",
+  "to": "/locations/boca-raton-fl"
+ },
+ {
+  "from_": "/locations/palm-beach-gardens-meta-ads-marketing",
+  "to": "/locations/palm-beach-gardens-fl"
+ },
+ {
+  "from_": "/locations/delray-beach-meta-ads-marketing",
+  "to": "/locations/delray-beach-fl"
+ },
+ {
+  "from_": "/locations/boynton-beach-meta-ads-marketing",
+  "to": "/locations/boynton-beach-fl"
+ },
+ {
+  "from_": "/locations/pompano-beach-meta-ads-marketing",
+  "to": "/locations/pompano-beach-fl"
+ },
+ {
+  "from_": "/locations/coral-springs-meta-ads-marketing",
+  "to": "/locations/coral-springs-fl"
+ },
+ {
+  "from_": "/locations/jupiter-meta-ads-marketing",
+  "to": "/locations/jupiter-fl"
+ },
+ {
+  "from_": "/locations/hialeah-meta-ads-marketing",
+  "to": "/locations/hialeah-fl"
+ },
+ {
+  "from_": "/locations/doral-meta-ads-marketing",
+  "to": "/locations/doral-fl"
+ },
+ {
+  "from_": "/locations/kendall-meta-ads-marketing",
+  "to": "/locations/kendall-fl"
+ },
+ {
+  "from_": "/locations/aventura-meta-ads-marketing",
+  "to": "/locations/aventura-fl"
+ },
+ {
+  "from_": "/locations/pembroke-pines-meta-ads-marketing",
+  "to": "/locations/pembroke-pines-fl"
+ },
+ {
+  "from_": "/locations/hollywood-meta-ads-marketing",
+  "to": "/locations/hollywood-fl"
+ },
+ {
+  "from_": "/locations/port-st-lucie-meta-ads-marketing",
+  "to": "/locations/port-st-lucie-fl"
+ },
+ {
+  "from_": "/locations/stuart-meta-ads-marketing",
+  "to": "/locations/stuart-fl"
+ },
+ {
+  "from_": "/locations/tampa-meta-ads-marketing",
+  "to": "/locations/tampa-fl"
+ },
+ {
+  "from_": "/locations/st-petersburg-meta-ads-marketing",
+  "to": "/locations/st-petersburg-fl"
+ },
+ {
+  "from_": "/locations/clearwater-meta-ads-marketing",
+  "to": "/locations/clearwater-fl"
+ },
+ {
+  "from_": "/locations/brandon-meta-ads-marketing",
+  "to": "/locations/brandon-fl"
+ },
+ {
+  "from_": "/locations/lakeland-meta-ads-marketing",
+  "to": "/locations/lakeland-fl"
+ },
+ {
+  "from_": "/locations/orlando-meta-ads-marketing",
+  "to": "/locations/orlando-fl"
+ },
+ {
+  "from_": "/locations/kissimmee-meta-ads-marketing",
+  "to": "/locations/kissimmee-fl"
+ },
+ {
+  "from_": "/locations/winter-park-meta-ads-marketing",
+  "to": "/locations/winter-park-fl"
+ },
+ {
+  "from_": "/locations/altamonte-springs-meta-ads-marketing",
+  "to": "/locations/altamonte-springs-fl"
+ },
+ {
+  "from_": "/locations/sanford-meta-ads-marketing",
+  "to": "/locations/sanford-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-meta-ads-marketing",
+  "to": "/locations/jacksonville-fl"
+ },
+ {
+  "from_": "/locations/jacksonville-beach-meta-ads-marketing",
+  "to": "/locations/jacksonville-beach-fl"
+ },
+ {
+  "from_": "/locations/st-augustine-meta-ads-marketing",
+  "to": "/locations/st-augustine-fl"
+ },
+ {
+  "from_": "/locations/orange-park-meta-ads-marketing",
+  "to": "/locations/orange-park-fl"
+ },
+ {
+  "from_": "/locations/fernandina-beach-meta-ads-marketing",
+  "to": "/locations/fernandina-beach-fl"
+ },
+ {
+  "from_": "/locations/meta-ads-west-palm-beach",
+  "to": "/locations/west-palm-beach-fl"
+ },
+ {
+  "from_": "/locations/meta-ads-florida",
+  "to": "/services/meta-ads"
+ },
+ {
+  "from_": "/locations/medspas-west-palm-beach",
+  "to": "/locations/west-palm-beach-fl"
+ },
+ {
+  "from_": "/locations/medspas-florida",
+  "to": "/primary-care"
+ },
+ {
+  "from_": "/locations/dental-practices-west-palm-beach",
+  "to": "/locations/west-palm-beach-fl"
+ },
+ {
+  "from_": "/locations/dental-practices-florida",
+  "to": "/primary-care"
+ },
+ {
+  "from_": "/locations/meta-ads-for-medspas",
+  "to": "/services/meta-ads"
+ },
+ {
+  "from_": "/locations/meta-ads-for-dental-practices",
+  "to": "/services/meta-ads"
+ },
+ {
+  "from_": "/guides/how-to-rank-a-med-spa-in-miami",
+  "to": "/locations/miami-fl"
+ },
+ {
+  "from_": "/guides/mens-health-clinic-marketing-playbook",
+  "to": "/guides/primary-care-patient-acquisition-playbook"
+ },
+ {
+  "from_": "/guides/med-spa-marketing-cost",
+  "to": "/guides/how-much-does-medical-seo-cost"
+ },
+ {
+  "from_": "/guides/dental-practice-marketing-cost",
+  "to": "/guides/how-much-does-medical-seo-cost"
+ },
+ {
+  "from_": "/guides/seo-vs-meta-ads-for-a-med-spa",
+  "to": "/services/seo"
+ },
+ {
+  "from_": "/guides/med-spa-marketing-playbook",
+  "to": "/guides/primary-care-patient-acquisition-playbook"
+ },
+ {
+  "from_": "/guides/dental-implant-marketing-playbook",
+  "to": "/guides/primary-care-patient-acquisition-playbook"
+ },
+ {
+  "from_": "/dental-seo",
+  "to": "/services/seo"
+ }
+]

@@ -37,7 +37,7 @@ const services: Service[] = [
     href: "/services/meta-ads",
     tag: "Paid Social",
     description:
-      "Facebook and Instagram campaigns for practices, medspas, and dental clinics. Policy-safe creative built without before-and-after imagery, audience strategy that works after Meta removed health targeting, and tracking configured so no patient data reaches a platform that will not sign a BAA.",
+      "Facebook and Instagram campaigns for primary care and mental health practices. Policy-safe creative built without before-and-after imagery, audience strategy that works after Meta removed health targeting, and tracking configured so no patient data reaches a platform that will not sign a BAA.",
   },
   {
     index: "03",

@@ -2,16 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
-import { metaAdsLocations } from "@/lib/locations-meta-ads";
 
 export const metadata: Metadata = {
-  title: "Meta Ads for Medical Practices, Medspas & Dental Clinics | Primara",
+  title: "Meta Ads for Primary Care & Mental Health Practices | Primara",
   description:
-    "Primara manages Facebook and Instagram ads for independent medical practices, medspas, and dental clinics. HIPAA-aware tracking, policy-safe creative, landing pages, and call tracking. No long-term contracts.",
+    "Primara manages Facebook and Instagram ads for independent primary care and mental health practices. HIPAA-aware tracking, policy-safe creative, landing pages, and call tracking. No long-term contracts.",
   alternates: { canonical: "https://primara365.com/services/meta-ads" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Meta Ads for Medical Practices, Medspas & Dental Clinics | Primara",
+    title: "Meta Ads for Primary Care & Mental Health Practices | Primara",
     description:
       "Facebook and Instagram ad management built for healthcare: policy-safe creative, HIPAA-aware conversion tracking, dedicated landing pages, and call tracking.",
     type: "website",
@@ -34,7 +33,7 @@ const breadcrumbSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Meta Ads for Medical Practices, Medspas and Dental Clinics",
+  name: "Meta Ads for Primary Care and Mental Health Practices",
   provider: {
     "@type": "LocalBusiness",
     name: "Primara",
@@ -49,7 +48,7 @@ const serviceSchema = {
   areaServed: { "@type": "Country", name: "United States" },
   serviceType: "Social Media Advertising",
   description:
-    "Facebook and Instagram advertising management for independent medical practices, medspas, and dental clinics — audience strategy, policy-compliant creative, HIPAA-aware conversion tracking, landing pages, and call tracking.",
+    "Facebook and Instagram advertising management for independent primary care and mental health practices — audience strategy, policy-compliant creative, HIPAA-aware conversion tracking, landing pages, and call tracking.",
 };
 
 const pillars = [
@@ -113,7 +112,7 @@ const faqs = [
   { q: "Can you target people on Facebook by medical condition or treatment interest?", a: "No, and any agency telling you otherwise is either out of date or making it up. Meta removed detailed targeting options tied to health, causes, and other sensitive categories in 2022. Modern healthcare campaigns are built on geography, first-party customer lists, lookalike audiences, and — most importantly — creative that self-selects the right respondent." },
   { q: "Is the Meta Pixel a HIPAA problem for my practice?", a: "It can be a serious one. Meta does not sign Business Associate Agreements, so protected health information must never be transmitted to it. A default Pixel installation that fires on a patient portal, an appointment confirmation URL, or a page whose address names a condition can send identifying data alongside health context — the pattern behind a large volume of healthcare tracking litigation in recent years." },
   { q: "What is the difference between running Meta Ads and Google Ads?", a: "Intent and time horizon. A Google searcher has already decided they need care and is choosing a provider, so the click is expensive and converts quickly. A Meta viewer is scrolling and has decided nothing, so the impression is cheap, the conversion window is longer, and the creative carries nearly all of the weight. The reporting also differs: Meta attribution is modeled and privacy-constrained, so we reconcile it against booked appointments rather than treating the platform's number as truth." },
-  { q: "How much should a medspa or dental clinic budget for Meta Ads?", a: "Meta rewards volume of data, so under-funded accounts learn too slowly to optimize. In most markets the minimum effective ad spend is $1,000–$2,500 per month, plus Primara's management fee, plus creative production if you want us handling the shoot. High-ticket categories — full-arch implants, body contouring, surgical aesthetics — usually need the upper half of that range or more to gather enough conversion signal." },
+  { q: "How much should a primary care or mental health practice budget for Meta Ads?", a: "Meta rewards volume of data, so under-funded accounts learn too slowly to optimize. In most markets the minimum effective ad spend is $1,000–$2,500 per month, plus Primara's management fee, plus creative production if you want us handling the shoot. Practices in a crowded city or promoting several offers at once usually need the upper half of that range or more to gather enough conversion signal." },
   { q: "Do we need a videographer, or can you work with what we have?", a: "You do not need a production crew. The highest-performing healthcare creative on Meta is usually a provider talking straight into a phone camera in good light — it reads as real, which is exactly the signal a skeptical viewer is looking for. We write the scripts, give you a shot list you can film in under an hour, and edit." },
 ];
 
@@ -131,28 +130,16 @@ const faqSchema = {
 
 const verticalAngles = [
   {
-    name: "Medspas",
-    href: "/medspas",
-    body:
-      "The most visual category in healthcare and the one Meta polices hardest. Since July 2026 the rule is claims-based: a before-and-after is no longer an automatic rejection, but attach a \"hate your wrinkles?\" hook or a guaranteed result and the ad — sometimes the account — comes down. Knowing exactly where that line sits is the work. Membership and package offers carry the economics.",
-  },
-  {
-    name: "Dental Clinics",
-    href: "/dental-practices",
-    body:
-      "Implants, clear aligners, and cosmetic work are researched for months before anyone calls. Meta is where that consideration window opens. Routine hygiene and emergency demand stay on Google — we do not pretend otherwise.",
-  },
-  {
-    name: "Men's Health",
-    href: "/mens-health",
-    body:
-      "A cash-pay category with clear lifetime value, and one where Meta's Personal Attributes policy bites hardest — an ad may not imply it knows the viewer's condition. Compliant copy here is a craft, and it is why accounts in this vertical get flagged so often.",
-  },
-  {
-    name: "Primary Care & Mental Health",
+    name: "Primary Care",
     href: "/primary-care",
     body:
-      "Best used for specific, nameable offers — a new provider accepting patients, a concierge membership, a group practice with same-week availability — rather than generic \"we're accepting new patients\" spend.",
+      "Best used for specific, nameable offers — a new provider accepting patients, a concierge or direct primary care membership, a family practice with same-week availability — rather than generic \"we're accepting new patients\" spend.",
+  },
+  {
+    name: "Mental Health & Counseling",
+    href: "/mental-health",
+    body:
+      "Therapy is a considered decision: people research for weeks before they reach out. Meta can open that window with a plain, honest message about a new opening or a specialty, and it has to stay inside Meta's rules on implying anything about the viewer's condition. Search stays the main channel for people ready to book.",
   },
 ];
 
@@ -217,7 +204,7 @@ export default function MetaAdsPage() {
               marginBottom: "24px",
             }}
           >
-            Meta Ads for Medical Practices, Medspas, and Dental Clinics
+            Meta Ads for Primary Care and Mental Health Practices
           </h1>
 
           <p
@@ -315,16 +302,16 @@ export default function MetaAdsPage() {
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
               Every practice that runs search ads eventually hits the same wall: you can own every
               relevant keyword in your market and still be capped by how many people typed them this
-              month. That ceiling is especially low for elective and high-consideration care. Nobody
-              searches &ldquo;full-arch dental implants near me&rdquo; the day they start thinking
-              about it — they think about it for months first, and that entire stretch happens
-              somewhere other than a search box.
+              month. That ceiling is especially low for care people think about for a long time. Nobody
+              searches &ldquo;therapist near me&rdquo; the day they start thinking about it —
+              they think about it for weeks first, and that entire stretch happens somewhere
+              other than a search box.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
               Meta is where that stretch happens. It is also the only major channel where a small
               independent practice can beat a much larger competitor on creative alone, because the
               auction rewards the ad people actually watch — not the one with the biggest budget
-              behind it. A medspa with a good hook and an honest offer genuinely outperforms a
+              behind it. A family practice with a good hook and an honest offer genuinely outperforms a
               chain with ten times the spend, and we have built this service around that fact.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
@@ -653,8 +640,8 @@ export default function MetaAdsPage() {
             Management fee depends on how many offers you are running, whether we are producing
             creative, and how much tracking remediation your current setup needs. We will not quote
             a number before looking at the account, because the honest answer changes a great deal
-            between a single-location dental practice running one implant offer and a three-location
-            medspa with a membership program.
+            between a solo therapist running one opening announcement and a three-location
+            family practice with a membership program.
           </p>
           <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
             Ad spend is paid by you directly to Meta and is never marked up by us. Month-to-month
@@ -722,8 +709,6 @@ export default function MetaAdsPage() {
               { href: "/services/patient-acquisition-ads", label: "Patient Acquisition Ads" },
               { href: "/services/medical-practice-website-design", label: "Website Design" },
               { href: "/services/online-reputation-management", label: "Reputation Management" },
-              { href: "/locations/meta-ads-florida", label: "Meta Ads in Florida" },
-              { href: "/locations/meta-ads-west-palm-beach", label: "Meta Ads in West Palm Beach" },
               { href: "/services", label: "All Services" },
             ].map(({ href, label }) => (
               <Link
@@ -746,87 +731,13 @@ export default function MetaAdsPage() {
       </section>
 
       {/* ── Locations we serve ───────────────────────────────────────────── */}
-      <section
-        aria-labelledby="ma-locations"
-        id="locations"
-        style={{ backgroundColor: "var(--void)", borderBottom: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0" }}
-      >
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "16px",
-              marginBottom: "16px",
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-            }}
-          >
-            <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
-            Locations We Serve
-          </div>
-          <h2
-            id="ma-locations"
-            style={{
-              fontFamily: "var(--font-display), Georgia, serif",
-              fontSize: "clamp(28px, 4vw, 48px)",
-              lineHeight: 1.05,
-              letterSpacing: "-0.02em",
-              color: "var(--chalk)",
-              fontWeight: 400,
-              margin: "0 0 20px",
-            }}
-          >
-            Meta Ads Markets We Serve
-          </h2>
-          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "16px", lineHeight: 1.8, color: "var(--ash)", margin: "0 0 clamp(28px, 4vw, 40px)", maxWidth: "720px" }}>
-            Every market below has its own page covering that city&rsquo;s paid-social ad
-            market — who is already bidding for the same feeds, how auction pressure and
-            audience composition differ from the market next door, and what that means for
-            a practice, medspa, or dental clinic entering it.
-          </p>
-          <ul
-            style={{
-              listStyle: "none",
-              margin: 0,
-              padding: 0,
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-              gap: "10px 24px",
-            }}
-          >
-            {metaAdsLocations.map((loc) => (
-              <li key={loc.slug} style={{ borderTop: "1px solid var(--wire)", paddingTop: "10px" }}>
-                <Link
-                  href={`/locations/${loc.slug}`}
-                  style={{
-                    fontFamily: "system-ui, sans-serif",
-                    fontSize: "0.9375rem",
-                    color: "var(--ash)",
-                    textDecoration: "none",
-                    display: "block",
-                  }}
-                >
-                  {loc.city}, {loc.state} →
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
       {/* Related links (contextual internal linking) */}
       <RelatedLinks
         eyebrow="Related"
         heading="Where Meta Ads Fit"
         items={[
-          { href: "/locations/meta-ads-for-medspas", label: "Meta Ads for Medspas", description: "This service applied to the highest-fit vertical — creative, offers, and where the policy line sits." },
-          { href: "/locations/meta-ads-for-dental-practices", label: "Meta Ads for Dental Practices", description: "Implant, aligner, and cosmetic case acquisition, campaign by campaign." },
-          { href: "/medspas", label: "Medspa Marketing", description: "The vertical where paid social is the primary acquisition channel — and the most heavily policed." },
-          { href: "/dental-practices", label: "Dental Practice Marketing", description: "Implants, aligners, and cosmetic cases have a months-long consideration window Meta is built for." },
+          { href: "/primary-care", label: "Primary Care Marketing", description: "Offers and membership models that suit paid social for independent primary care practices." },
+          { href: "/mental-health", label: "Mental Health Marketing", description: "How therapists and counseling practices use paid social without leaning on search alone." },
           { href: "/services/google-ads", label: "Google Ads", description: "Demand capture: the patients already searching for a provider today." },
           { href: "/services/seo", label: "SEO", description: "The compounding channel underneath both ad platforms — and the one that keeps working when spend pauses." },
           { href: "/the-audit", label: "The Free Audit", description: "What we look at before recommending any ad spend, including your current tracking setup." },
@@ -888,7 +799,7 @@ export default function MetaAdsPage() {
             </Link>
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Independent practices, medspas &amp; dental clinics · No long-term contracts ·{" "}
+            Independent primary care &amp; mental health practices · No long-term contracts ·{" "}
             <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
               All Services
             </Link>

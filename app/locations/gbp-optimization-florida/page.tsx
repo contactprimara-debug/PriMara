@@ -240,8 +240,8 @@ export default function GbpOptimizationFloridaPage() {
           { href: "/locations/medical-seo-florida", label: "Medical SEO for Florida Practices", description: "The statewide SEO picture GBP work fits into." },
           { href: "/locations/gbp-optimization-west-palm-beach", label: "GBP Optimization in West Palm Beach", description: "The same GBP work, focused on our home market." },
           { href: "/blog/why-your-medical-practice-isnt-showing-up-on-google-maps", label: "Why Your Practice Isn't Showing Up on Google Maps", description: "The most common Maps-pack problems and how to diagnose them." },
-          { href: "/locations/medspas-florida", label: "Medspa Marketing in Florida", description: "Where a wrong primary category costs the most — aesthetic clinics statewide." },
-          { href: "/locations/dental-practices-florida", label: "Dental Marketing in Florida", description: "Dental categories are unusually granular, and unusually often set wrong." },
+          { href: "/primary-care", label: "Primary Care Marketing", description: "Where a wrong primary category costs the most — family and internal medicine practices statewide." },
+          { href: "/mental-health", label: "Mental Health Marketing", description: "Therapy categories are unusually granular, and unusually often set wrong." },
         ]}
       />
 

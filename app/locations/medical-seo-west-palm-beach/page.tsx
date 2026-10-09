@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "How is this different from hiring a national SEO agency?",
-    a: "We only work with independent medical practices — primary care, mental health, and men's health — and we don't take hospital systems or chains. You work directly with the two founders, not an account manager, and there are no long-term contracts.",
+    a: "We only work with independent medical practices — primary care and mental health — and we don't take hospital systems or chains. You work directly with the two founders, not an account manager, and there are no long-term contracts.",
   },
   { q: "How long until a West Palm Beach practice sees SEO results?", a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible. We're happy to go deeper on this for your specific market during a free audit." },
 ];

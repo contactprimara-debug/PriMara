@@ -9,10 +9,6 @@ import lastmodMap from "@/lib/lastmod.json";
 import { SITE_URL } from "@/lib/schema";
 import { primaryCareLocations } from "@/lib/locations-primary";
 import { mentalHealthLocations } from "@/lib/locations-mental";
-import { mensHealthLocations } from "@/lib/locations-mens-health";
-import { medspaLocations } from "@/lib/locations-medspas";
-import { dentalLocations } from "@/lib/locations-dental";
-import { metaAdsLocations } from "@/lib/locations-meta-ads";
 
 const map = lastmodMap as Record<string, string>;
 
@@ -24,10 +20,6 @@ const register = (locs: { slug: string }[], file: string) => {
 };
 register(primaryCareLocations, "lib/locations-primary.ts");
 register(mentalHealthLocations, "lib/locations-mental.ts");
-register(mensHealthLocations, "lib/locations-mens-health.ts");
-register(medspaLocations, "lib/locations-medspas.ts");
-register(dentalLocations, "lib/locations-dental.ts");
-register(metaAdsLocations, "lib/locations-meta-ads.ts");
 
 const FALLBACK = map["app/sitemap.ts"] ?? "2026-09-21";
 

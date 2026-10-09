@@ -70,8 +70,8 @@ export const localBusinessSchema = {
     "Healthcare Digital Marketing",
     "Patient Acquisition",
     "Meta Ads for Healthcare",
-    "Medspa Marketing",
-    "Dental Practice Marketing",
+    "Primary Care Practice Marketing",
+    "Mental Health Practice Marketing",
   ],
 };
 
@@ -137,62 +137,6 @@ export const mentalHealthSchema = {
   areaServed: { "@type": "Country", name: "United States" },
   description:
     "Primara helps independent therapists, psychologists, and group mental health practices rank higher on Google and grow without relying on Psychology Today or insurance directories.",
-  provider: {
-    "@type": "ProfessionalService",
-    name: "Primara",
-    url: SITE_URL,
-  },
-};
-
-// ── 6. Men's Health vertical schema ───────────────────────────────────────
-export const mensHealthSchema = {
-  "@context": "https://schema.org",
-  "@type": ["MedicalClinic", "ProfessionalService"],
-  name: "Primara — Men's Health Practice Digital Marketing",
-  url: `${SITE_URL}/mens-health`,
-  telephone: "+15612912681",
-  email: "liam.costello@primara365.com",
-  medicalSpecialty: "Urology",
-  areaServed: { "@type": "Country", name: "United States" },
-  description:
-    "Primara helps independent men's health practices — TRT clinics, men's wellness centers, and urology practices — rank higher on Google, build patient trust, and grow without relying on national franchise directories.",
-  provider: {
-    "@type": "ProfessionalService",
-    name: "Primara",
-    url: SITE_URL,
-  },
-};
-
-// ── 7. Medspa vertical schema ─────────────────────────────────────────────
-export const medspaSchema = {
-  "@context": "https://schema.org",
-  "@type": ["MedicalClinic", "ProfessionalService"],
-  name: "Primara — Medspa Digital Marketing",
-  url: `${SITE_URL}/medspas`,
-  telephone: "+15612912681",
-  email: "liam.costello@primara365.com",
-  medicalSpecialty: "PlasticSurgery",
-  areaServed: { "@type": "Country", name: "United States" },
-  description:
-    "Primara helps independent, physician- and nurse-led medspas win the local map pack, run policy-compliant Meta Ads, and build a review engine — without competing on discount-site pricing.",
-  provider: {
-    "@type": "ProfessionalService",
-    name: "Primara",
-    url: SITE_URL,
-  },
-};
-
-// ── 8. Dental vertical schema ─────────────────────────────────────────────
-export const dentalSchema = {
-  "@context": "https://schema.org",
-  "@type": ["Dentist", "ProfessionalService"],
-  name: "Primara — Dental Practice Digital Marketing",
-  url: `${SITE_URL}/dental-practices`,
-  telephone: "+15612912681",
-  email: "liam.costello@primara365.com",
-  areaServed: { "@type": "Country", name: "United States" },
-  description:
-    "Primara helps independent, dentist-owned practices compete with DSO-backed groups on local search, and reach implant, aligner, and cosmetic cases through Meta Ads.",
   provider: {
     "@type": "ProfessionalService",
     name: "Primara",

@@ -23,21 +23,17 @@
 import { REGIONS } from "@/lib/locations-regions";
 import { primaryCareLocations } from "@/lib/locations-primary";
 import { mentalHealthLocations } from "@/lib/locations-mental";
-import { mensHealthLocations } from "@/lib/locations-mens-health";
-import { medspaLocations } from "@/lib/locations-medspas";
-import { dentalLocations } from "@/lib/locations-dental";
-import { metaAdsLocations } from "@/lib/locations-meta-ads";
 
 /**
  * One location page per real city, in region order — but rotated across the
- * six verticals so no single vertical owns the sitewide footer.
+ * the focus verticals so no single vertical owns the sitewide footer.
  *
  * WHY ROTATION (2026-09-21, indexing audit): the previous rule took the first
  * vertical that had the city, in a fixed "search value" order, so primary care
  * won 33 of 35 footer slots and medspa / dental / meta-ads got ZERO sitewide
  * links. Those three verticals are the ones sitting at 7/33, 2/33 and 1/4
  * indexed. The city-per-slot budget is unchanged (still one link per city —
- * six verticals x 33 cities in a footer would be link spam); only WHICH
+ * the focus verticals x 33 cities in a footer would be link spam); only WHICH
  * vertical fills each slot changed, so the same link equity is now spread
  * evenly instead of concentrated.
  *
@@ -48,10 +44,6 @@ import { metaAdsLocations } from "@/lib/locations-meta-ads";
 const VERTICALS: { name: string; locations: { slug: string; city: string }[] }[] = [
   { name: "Primary care", locations: primaryCareLocations },
   { name: "Mental health", locations: mentalHealthLocations },
-  { name: "Men's health", locations: mensHealthLocations },
-  { name: "Medspa", locations: medspaLocations },
-  { name: "Dental", locations: dentalLocations },
-  { name: "Meta Ads", locations: metaAdsLocations },
 ];
 
 export const footerCities: {
@@ -133,15 +125,6 @@ export const SERVICE_CITY_PAGES: { service: string; pages: { label: string; slug
     ],
   },
   {
-    service: "Meta Ads",
-    pages: [
-      { label: "Florida", slug: "meta-ads-florida" },
-      { label: "West Palm Beach", slug: "meta-ads-west-palm-beach" },
-      { label: "For Medspas", slug: "meta-ads-for-medspas" },
-      { label: "For Dental Practices", slug: "meta-ads-for-dental-practices" },
-    ],
-  },
-  {
     service: "Website Design",
     pages: [
       { label: "Florida", slug: "medical-website-design-florida" },
@@ -160,15 +143,6 @@ export const SERVICE_CITY_PAGES: { service: string; pages: { label: string; slug
     pages: [
       { label: "Florida", slug: "ai-seo-florida" },
       { label: "West Palm Beach", slug: "ai-seo-west-palm-beach" },
-    ],
-  },
-  {
-    service: "By Practice Type",
-    pages: [
-      { label: "Medspas in Florida", slug: "medspas-florida" },
-      { label: "Medspas in West Palm Beach", slug: "medspas-west-palm-beach" },
-      { label: "Dental in Florida", slug: "dental-practices-florida" },
-      { label: "Dental in West Palm Beach", slug: "dental-practices-west-palm-beach" },
     ],
   },
 ];

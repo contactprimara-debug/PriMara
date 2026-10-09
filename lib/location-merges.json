@@ -1,5 +1,23 @@
 [
-  { "from": "west-palm-beach-medspa-marketing", "to": "medspas-west-palm-beach", "type": "medspas", "city": "West Palm Beach", "state": "FL" },
-  { "from": "west-palm-beach-dental-marketing", "to": "dental-practices-west-palm-beach", "type": "dental", "city": "West Palm Beach", "state": "FL" },
-  { "from": "west-palm-beach-meta-ads-marketing", "to": "meta-ads-west-palm-beach", "type": "meta-ads", "city": "West Palm Beach", "state": "FL" }
+ {
+  "from": "west-palm-beach-medspa-marketing",
+  "to": "west-palm-beach-fl",
+  "type": "medspas",
+  "city": "West Palm Beach",
+  "state": "FL"
+ },
+ {
+  "from": "west-palm-beach-dental-marketing",
+  "to": "west-palm-beach-fl",
+  "type": "dental",
+  "city": "West Palm Beach",
+  "state": "FL"
+ },
+ {
+  "from": "west-palm-beach-meta-ads-marketing",
+  "to": "west-palm-beach-fl",
+  "type": "meta-ads",
+  "city": "West Palm Beach",
+  "state": "FL"
+ }
 ]

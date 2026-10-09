@@ -1360,11 +1360,6 @@ export const guidesPartEleven: Guide[] = [
         "description": "What to budget once the foundation is ready."
       },
       {
-        "href": "/guides/seo-vs-meta-ads-for-a-med-spa",
-        "label": "SEO vs Meta Ads for a Med Spa",
-        "description": "Another channel comparison for a specific specialty."
-      },
-      {
         "href": "/services/google-ads",
         "label": "Google Ads for Medical Practices",
         "description": "Managed ads with tracking built in."

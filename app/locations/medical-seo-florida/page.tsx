@@ -63,7 +63,7 @@ const faqs = [
     q: "Does SEO work differently in Florida than elsewhere?",
     a: "The mechanics are identical, but Florida is one of the most competitive healthcare markets in the country — large hospital systems, heavy urgent-care density, and seasonal population swings that shift search volume. That makes disciplined local SEO more valuable here, not less: the practices that do the work stand out faster against competitors who rely on brand recognition alone.",
   },
-  { q: "What kinds of practices do you work with?", a: "Independent practices only — primary care (family medicine, internal medicine, pediatrics, concierge and direct primary care), mental health therapists and group practices, and men's health clinics. We don't take hospital systems, urgent care chains, or dental groups. You can ask about your specific practice on a free audit call before deciding anything." },
+  { q: "What kinds of practices do you work with?", a: "Independent practices only — primary care (family medicine, internal medicine, pediatrics, concierge and direct primary care), and mental health therapists and group practices. We don't take hospital systems, urgent care chains, or dental groups. You can ask about your specific practice on a free audit call before deciding anything." },
   {
     q: "What does Florida medical SEO cost?",
     a: "It depends on scope — market competitiveness, number of locations, and the state of your current website. Every engagement starts with a free audit of your existing Google presence, and everything is month-to-month after the initial setup period. No long-term contracts.",

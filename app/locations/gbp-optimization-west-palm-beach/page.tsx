@@ -255,8 +255,8 @@ export default function GbpOptimizationWestPalmBeachPage() {
           { href: "/services/google-business-profile", label: "Google Business Profile Service", description: "The full GBP service — what's included and how we manage it month to month." },
           { href: "/locations/gbp-optimization-florida", label: "GBP Optimization in Florida", description: "The statewide picture — Business Profile management for Florida practices." },
           { href: "/locations/medical-seo-west-palm-beach", label: "Medical SEO in West Palm Beach", description: "The full SEO stack GBP work fits into, for practices in our home market." },
-          { href: "/locations/medspas-west-palm-beach", label: "Medspa Marketing in West Palm Beach", description: "Grid-measured map position for aesthetic clinics across Palm Beach County." },
-          { href: "/locations/dental-practices-west-palm-beach", label: "Dental Marketing in West Palm Beach", description: "Map-pack visibility for independent practices against DSO-backed groups." },
+          { href: "/locations/west-palm-beach-fl", label: "Primary Care Marketing in West Palm Beach", description: "Grid-measured map position for primary care practices across Palm Beach County." },
+          { href: "/locations/west-palm-beach-therapist-marketing", label: "Therapist Marketing in West Palm Beach", description: "Map-pack visibility for independent therapists against directory listings." },
         ]}
       />
 

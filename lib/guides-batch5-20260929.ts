@@ -75,150 +75,8 @@ export const guidesPartEight: Guide[] = [
   },
 
   // 295 — med spa marketing playbook
-  {
-    slug: "med-spa-marketing-playbook",
-    keyword: "med spa marketing playbook",
-    category: "Playbook",
-    title: "Med Spa Marketing Playbook",
-    metaTitle: "Med Spa Marketing Playbook (2026)",
-    metaDescription:
-      "The channel order and Google Business Profile setup that actually moves bookings for a med spa. Call (561) 291-2681.",
-    answer:
-      "A med spa's marketing should run in this order: a Google Business Profile with every real treatment listed as a service item and a steady stream of real before/after and facility photos, a website with one page per treatment category, then paid channels layered on top once organic visibility exists. Skipping straight to paid ads before the Google Business Profile and site are built out means paying full price for every single lead with nothing compounding underneath it.",
-    author: "Gio LaRoche",
-    publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
-    readMinutes: 8,
-    sections: [
-      { type: "h2", text: "Med spas compete on visibility more than almost any other practice type" },
-      {
-        type: "p",
-        text: "A patient choosing a primary care doctor mostly stays with whoever their insurance and location dictate. A patient choosing where to get Botox, laser hair removal, or a HydraFacial is actively comparing three or four options by price, photos, and reviews before booking — often within the same day they start searching. That makes the local pack and the Google Business Profile carry more weight for a med spa than for almost any other type of practice on our roster, and it's why the profile itself deserves the first investment, before any ad spend. For a clinic in the Palm Beach corridor, our [West Palm Beach medspa marketing page](/locations/medspas-west-palm-beach) walks through how grid-measured map positions change from one zip code to the next.",
-      },
-      { type: "h2", text: "Build order: profile, site, then paid" },
-      {
-        type: "ol",
-        items: [
-          "Google Business Profile with every treatment the spa actually offers listed as a distinct service item — not a bundled \"aesthetic services\" line — so each one can surface for its own search.",
-          "A steady library of real facility, staff, and treatment photos (with the patient's written consent for any before/after images) uploaded regularly, not once at setup.",
-          "A website with one page per treatment category (injectables, laser, skin, body), each with real pricing ranges where the spa is comfortable publishing them — pages with visible pricing convert noticeably better for aesthetic services than pages that hide it behind a call.",
-          "Google posts twice weekly featuring a real photo, tied to actual availability or a real seasonal promotion, never a stock image.",
-          "Paid search or Meta ads layered on top only after the above exists — paid traffic landing on a thin site with no reviews and no photos converts far worse than the same spend landing on a built-out one.",
-        ],
-      },
-      { type: "h2", text: "Reviews are a conversion tool, not a vanity metric, for aesthetics" },
-      {
-        type: "p",
-        text: "Prospective med spa clients read reviews specifically looking for results language and provider names, more than star rating alone. Ask every client for a review after a treatment, through the same neutral, non-gated request process regardless of how the visit went — the FTC's rules on consumer reviews prohibit suppressing negative ones or only soliciting from clients expected to respond positively, and Google's own policies treat review gating as a violation that can get a listing penalized. A steady, unfiltered stream of real reviews naming real treatments does more for conversion than a smaller set of curated five-star-only reviews ever will.",
-      },
-      { type: "h2", text: "Compliance guardrails specific to aesthetics marketing" },
-      {
-        type: "ul",
-        items: [
-          "Before/after photos require documented patient consent, and results language should describe what was done, not promise an outcome every patient will get.",
-          "Any provider credentials shown (RN, PA, NP, MD) must be exactly accurate — advertising injectable services under a title the provider doesn't legally hold is both an ad-platform violation and a licensing risk.",
-          "Pricing shown online should match what the front desk actually quotes; mismatched pricing is one of the fastest ways to lose a booked consultation at check-in.",
-        ],
-      },
-    ],
-    faqs: [
-      { q: "Should a med spa run ads before building out its Google Business Profile?", a: "No — paid traffic landing on a thin profile with few photos and no service items converts far worse than the same spend once the profile is built out. We build the profile and site first with every client, then layer paid spend on top, because the same ad dollar performs better against a complete listing." },
-      { q: "Do before-and-after photos need patient consent?", a: "Yes, always, in writing, before any use in marketing — this is both a legal requirement and a trust issue with prospective clients. We never suggest posting a before/after without documented consent on file, and that consent should specifically name where the photo will be used, not just that photos may be taken." },
-      { q: "How many treatments should be listed as separate Google Business Profile services?", a: "Every real, distinct treatment the spa offers, not a bundled category — a searcher looking specifically for microneedling should find microneedling listed by name, not buried under \"skin services.\" Granular service items are one of the fastest, lowest-cost fixes we make on a new med spa account." },
-      { q: "How often should a med spa post on Google?", a: "At least twice a week, with a real photo attached every time — text-only posts get little visibility and never include a stock or placeholder image, which reads as inauthentic for a visual business like aesthetics. Consistency over months matters more than any single post's content or timing." },
-      { q: "Should pricing be published on the website?", a: "Where the spa is comfortable with it, yes — published pricing ranges for injectables, laser packages, and facials tend to produce better-qualified consultation requests than pages that require a call to find out cost, since the visitor has already self-selected into the right price range." },
-    ],
-    citations: [
-      { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
-      { publisher: "FTC", label: "Rule on the Use of Consumer Reviews and Testimonials", href: "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials" },
-      { publisher: "FTC", label: "Health Products Compliance Guidance", href: "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" },
-    ],
-    links: [
-      { href: "/guides/how-to-rank-a-med-spa-in-miami", label: "How to Rank a Med Spa in Miami", description: "A market-specific look at the same build-order in a competitive metro." },
-      { href: "/guides/seo-vs-meta-ads-for-a-med-spa", label: "SEO vs. Meta Ads for a Med Spa", description: "Which paid channel to layer on once the profile and site are built." },
-      { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "How we build the Google Business Profile and site foundation before any ad spend." },
-    ],
-  },
 
   // 296 — dental implant marketing playbook
-  {
-    slug: "dental-implant-marketing-playbook",
-    keyword: "dental implant marketing playbook",
-    category: "Playbook",
-    title: "Dental Implant Marketing Playbook",
-    metaTitle: "Dental Implant Marketing Playbook",
-    metaDescription:
-      "How a dental practice builds visibility and trust for its highest-value procedure. Call (561) 291-2681.",
-    answer:
-      "Dental implants are a high-cost, high-consideration purchase, so implant marketing needs its own dedicated page (not a line inside a general services page), real cost-range transparency, before/after examples with consent, and a review base that specifically mentions implants — plus a Google Business Profile service item listed as \"Dental Implants,\" not folded into general dentistry. Patients researching implants read more pages and take longer to decide than almost any other dental search, so the page has to answer cost and safety questions directly.",
-    author: "Liam Costello",
-    publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
-    readMinutes: 8,
-    sections: [
-      { type: "h2", text: "Implants are researched differently than any other dental procedure" },
-      {
-        type: "p",
-        text: "Someone searching for a cleaning or a filling books quickly, usually with whoever is closest and in-network. Someone searching for dental implants is often weighing a four-figure-or-higher decision, comparing multiple practices, and reading well past the first page of results before calling anyone. That longer research window means a thin \"we offer implants\" line on a general services page loses almost every one of those searches to a competitor with a dedicated implant page that actually answers the questions being typed into Google. In Palm Beach County, where [dental marketing in West Palm Beach](/locations/dental-practices-west-palm-beach) competes against heavily funded group practices, that specificity is the main advantage an independent has.",
-      },
-      { type: "h2", text: "What the implant page needs to answer, on the page itself" },
-      {
-        type: "ul",
-        items: [
-          "What a dental implant actually is and how it differs from a bridge or denture — most searchers are comparing options, not already committed to implants specifically.",
-          "A real cost range, even a wide one, rather than \"contact us for pricing\" — cost is the number-one thing implant searchers are trying to find, and pages that hide it lose visitors to competitors who show it.",
-          "Who places the implant (a general dentist, periodontist, or oral surgeon on staff) and their actual credentials — implant placement isn't universal across every general dentist, and patients specifically look for this.",
-          "What the process and timeline look like in plain steps, not clinical jargon.",
-          "Financing options the practice actually offers, named specifically, not a vague \"we offer financing.\"",
-        ],
-      },
-      { type: "h2", text: "Google Business Profile setup for implants" },
-      {
-        type: "p",
-        text: "List \"Dental Implants\" as its own service item on the Google Business Profile, separate from general dentistry — this lets the listing surface specifically for implant searches in the local pack, not just for generic \"dentist near me\" queries. Upload real photos of the practice's actual equipment and, with documented consent, real case photos rather than stock implant diagrams; stock imagery is common in this category and a real photo stands out. Reviews mentioning implants specifically carry more weight with prospective implant patients than general five-star reviews about a cleaning, so it's worth asking implant patients directly whether they're comfortable naming the procedure in their review.",
-      },
-      { type: "h2", text: "Content sequence for an implant campaign" },
-      {
-        type: "table",
-        headers: ["Page", "Job"],
-        rows: [
-          ["Dental implants (pillar page)", "Answers what, cost, process, and who places them"],
-          ["Implants vs. dentures", "Captures the comparison searches from people who haven't decided yet"],
-          ["Single tooth implant cost", "Captures a narrower, higher-intent cost search"],
-          ["Full mouth / All-on-4 implants", "Captures the higher-value, more complex case searches separately"],
-        ],
-      },
-      {
-        type: "callout",
-        text: "Never advertise or imply a specific cosmetic or functional outcome every patient will achieve. Describe the procedure and the range of typical costs; leave individual outcome predictions to the in-person consultation, where they belong.",
-      },
-      { type: "h2", text: "Reviews and Google Business Profile setup do more work here than for routine dental care" },
-      {
-        type: "p",
-        text: "A patient comparing implant providers reads further into reviews than someone choosing a dentist for a cleaning, specifically looking for mentions of comfort during the procedure, how the recovery went, and whether the result matched what was discussed beforehand. Ask every implant patient for a review through the same neutral process used for every other patient, and where they're comfortable naming the procedure, that specificity helps the next prospective implant patient evaluate the practice. On the Google Business Profile itself, \"Dental Implants\" listed as its own service item, combined with photos of the actual office and equipment, gives the listing a real chance to surface for implant-specific local searches rather than only generic dentist searches. The same request-only review approach is built into our [West Palm Beach dental marketing work](/locations/dental-practices-west-palm-beach) for independent practices.",
-      },
-      {
-        type: "p",
-        text: "Financing deserves its own honest paragraph on the implant page rather than a single vague line. Naming the actual financing options the practice offers — a specific third-party plan, in-house payment arrangements, or accepted insurance coverage for the portion implants sometimes qualify under — answers one of the biggest hesitations implant searchers have before they'll pick up the phone, and it's a detail competitors frequently leave out entirely.",
-      },
-    ],
-    faqs: [
-      { q: "Should dental implant pricing be published on the website?", a: "A real range, yes — even a wide one performs better than hiding pricing entirely, since cost is the single most common thing implant searchers are trying to find before they'll call. An exact quote still belongs in a consultation, but a range sets expectations and filters in qualified leads." },
-      { q: "Do we need a separate page for implants if we already have a general services page?", a: "Yes. Implants are researched as their own high-consideration decision, and a dedicated page that answers cost, process, and credentials directly converts meaningfully better than a single bullet point buried on a general services page, since it can also target the comparison and financing questions a general page never gets to." },
-      { q: "Should implant reviews be different from general dental reviews?", a: "They don't need to be solicited differently — every patient gets the same neutral review request — but it helps conversion when patients who had implant work are comfortable naming the procedure, since prospective implant patients specifically look for that in reviews before booking." },
-      { q: "Who should be listed as performing implants on the website?", a: "Whoever actually places them, by name and real credential — general dentist, periodontist, or oral surgeon. Implant searchers specifically look for this because not every general dentist places implants in-house, and getting it wrong sets up a bad first call." },
-      { q: "How long does it typically take to rank a new implant page?", a: "It varies by market competition, but a dedicated, well-answered implant page typically starts appearing in search results within weeks and continues climbing over months as it earns reviews and links — we report month over month so the trend is visible rather than guessed at." },
-    ],
-    citations: [
-      { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
-      { publisher: "FTC", label: "Health Products Compliance Guidance", href: "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" },
-    ],
-    links: [
-      { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "Budget context for adding a dedicated implant campaign on top of general dental marketing." },
-      { href: "/guides/new-practice-marketing-checklist", label: "New Practice Marketing Checklist", description: "The foundation an implant campaign should sit on top of." },
-      { href: "/services/local-seo-for-medical-practices", label: "Local SEO for Medical Practices", description: "How we build procedure-specific pages that answer real search intent." },
-    ],
-  },
 
   // 298 — direct primary care / concierge marketing playbook
   {
@@ -392,7 +250,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "No physical office changes the whole strategy" },
       {
         type: "p",
-        text: "A brick-and-mortar practice can lean on Google Business Profile and the local pack to do a lot of the acquisition work. A pure telehealth service either has no eligible physical location to register a full-featured profile for, or serves an area far larger than any local pack reflects, so the website itself has to carry more of the weight — clear service pages, real content answering telehealth-specific questions, and paid or organic reach that isn't tied to a single city's local results the way an in-person practice's would be. For the in-person side of that contest, see [TRT clinics versus national telehealth brands](/blog/trt-clinics-vs-national-telehealth-brands-local-seo).",
+        text: "A brick-and-mortar practice can lean on Google Business Profile and the local pack to do a lot of the acquisition work. A pure telehealth service either has no eligible physical location to register a full-featured profile for, or serves an area far larger than any local pack reflects, so the website itself has to carry more of the weight — clear service pages, real content answering telehealth-specific questions, and paid or organic reach that isn't tied to a single city's local results the way an in-person practice's would be. For the in-person side of that contest, see [what local SEO means for doctors](/blog/what-is-local-seo-for-doctors).",
       },
       { type: "h2", text: "State licensing has to be addressed directly, not buried" },
       {
@@ -418,7 +276,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Where organic content still works without a local pack anchor" },
       {
         type: "p",
-        text: "Without a physical office's local pack advantage, a telehealth practice's best organic opportunity is usually condition- and question-focused content rather than city-based pages — \"can a UTI be treated over telehealth,\" \"is telehealth appropriate for a medication refill,\" \"what conditions can't be diagnosed virtually.\" These are the questions a patient actually has before deciding whether telehealth fits their situation at all, and answering them honestly, including saying plainly when an in-person visit is the right call instead, builds the kind of trust that converts better than content trying to sell telehealth as a replacement for everything. For a men's health example, see [how men search for TRT and ED treatment](/blog/how-men-search-for-trt-and-ed-treatment).",
+        text: "Without a physical office's local pack advantage, a telehealth practice's best organic opportunity is usually condition- and question-focused content rather than city-based pages — \"can a UTI be treated over telehealth,\" \"is telehealth appropriate for a medication refill,\" \"what conditions can't be diagnosed virtually.\" These are the questions a patient actually has before deciding whether telehealth fits their situation at all, and answering them honestly, including saying plainly when an in-person visit is the right call instead, builds the kind of trust that converts better than content trying to sell telehealth as a replacement for everything. For the in-person side, see [what local SEO means for doctors](/blog/what-is-local-seo-for-doctors).",
       },
       {
         type: "p",
@@ -562,7 +420,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "callout",
-        text: "A services list is not a place to list aspirational offerings the practice plans to add later. Every listed service should be something a patient could call today and actually book — a mismatch discovered on the phone is a worse first impression than not listing the service at all. For a men's health example of building the list, see [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics).",
+        text: "A services list is not a place to list aspirational offerings the practice plans to add later. Every listed service should be something a patient could call today and actually book — a mismatch discovered on the phone is a worse first impression than not listing the service at all. For a primary care example of choosing what to list, see [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors).",
       },
       { type: "h2", text: "Who should actually do this work, and how long it takes" },
       {
@@ -1063,7 +921,6 @@ export const guidesPartEight: Guide[] = [
     ],
     links: [
       { href: "/guides/how-to-get-more-patients-from-google-business-profile", label: "How to Get More Patients from Google Business Profile", description: "Where photos fit into the full profile optimization picture." },
-      { href: "/guides/how-to-rank-a-med-spa-in-miami", label: "How to Rank a Med Spa in Miami", description: "A practice type where photo quality carries even more weight." },
       { href: "/services/google-business-profile", label: "Google Business Profile Management", description: "How we manage an ongoing, real photo cadence for client listings." },
     ],
   },

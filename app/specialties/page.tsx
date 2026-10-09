@@ -4,9 +4,9 @@ import FaqSection from "@/components/FaqSection";
 import { specialtiesFaqs } from "@/lib/page-faqs";
 
 export const metadata: Metadata = {
-  title: "Marketing by Specialty — Men's Health & Primary Care | Primara",
+  title: "Marketing by Specialty — Primary Care & Family Medicine | Primara",
   description:
-    "Primara provides digital marketing for independent men's health, primary care, and mental health practices — TRT clinics, urology, family medicine, geriatrics, and more. Call (561) 291-2681.",
+    "Primara provides digital marketing for independent primary care and mental health practices — family medicine, geriatrics, and more. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -14,45 +14,6 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
-
-const mensHealthSpecialties = [
-  {
-    href: "/specialties/trt-clinics",
-    eyebrow: "Hormone Optimization",
-    title: "TRT Clinics",
-    description:
-      "Testosterone replacement therapy clinics compete against venture-funded national telehealth brands on paid search — and win on local Google Maps visibility, a channel those brands structurally can't access.",
-    stat: "Direct-pay, recurring treatment plans make TRT one of the clearest lifetime-value calculations in independent medicine.",
-    source: null,
-  },
-  {
-    href: "/specialties/mens-wellness-clinics",
-    eyebrow: "Longevity & Vitality",
-    title: "Men's Wellness Clinics",
-    description:
-      "A broad category — hormone health, weight management, vitality care — that most clinics market with one generic page instead of the dedicated service pages Google needs to rank each offering.",
-    stat: "Recurring membership and treatment-plan models reward the clinics that invest in dedicated, service-specific local SEO.",
-    source: null,
-  },
-  {
-    href: "/specialties/urology-practices",
-    eyebrow: "Men's Health Service Lines",
-    title: "Urology Practices",
-    description:
-      "Independent urology practices often bury their highest-intent men's health services — TRT, ED treatment, vasectomy — on generic pages that don't rank for the specific searches driving new patients.",
-    stat: "Patients increasingly search directly for symptom-specific care before ever asking a primary care physician for a referral.",
-    source: null,
-  },
-  {
-    href: "/specialties/ed-treatment-clinics",
-    eyebrow: "Most Privacy-Sensitive Category",
-    title: "ED Treatment Clinics",
-    description:
-      "The category where national telehealth apps have made the deepest inroads. An independent clinic wins by being the discreet, clinically credible local alternative — not an afterthought on a general services page.",
-    stat: "Trust has to be established before the first click — a website that reads like a telehealth funnel loses to the real telehealth apps.",
-    source: null,
-  },
-];
 
 const primaryCareSpecialties = [
   {
@@ -338,27 +299,6 @@ export default function SpecialtiesPage() {
         </div>
       </section>
 
-      {/* Men's Health specialty cards */}
-      <section
-        aria-labelledby="mens-health-specialties-heading"
-        style={{ borderTop: "1px solid var(--wire)" }}
-      >
-        <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
-          <div style={{ marginBottom: "32px" }}>
-            <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--gold)", marginBottom: "12px" }}>
-              Men&rsquo;s Health
-            </p>
-            <h2
-              id="mens-health-specialties-heading"
-              style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 400 }}
-            >
-              Men&rsquo;s Health Specialties
-            </h2>
-          </div>
-          <SpecialtyGrid items={mensHealthSpecialties} />
-        </div>
-      </section>
-
       {/* Primary Care specialty cards */}
       <section
         aria-labelledby="primary-care-specialties-heading"
@@ -400,7 +340,7 @@ export default function SpecialtiesPage() {
               {[
                 "A family medicine practice and a geriatric practice have different patients, different search terms, and different trust signals. Generic medical marketing treats them the same — and gets generic results.",
                 "Primara builds every strategy around your specific specialty. The keywords we target, the way we position your GBP, the review strategy we implement — all of it is tuned to how your patients actually search for care.",
-                "We work exclusively with independent practices. That means we understand the difference between how a DPC patient searches, how a Medicare patient finds a geriatrician, and how a man researches TRT privately at midnight. That specificity is the advantage.",
+                "We work exclusively with independent practices. That means we understand the difference between how a DPC patient searches, how a Medicare patient finds a geriatrician, and how a parent finds a pediatrician. That specificity is the advantage.",
               ].map((text, i) => (
                 <p
                   key={i}

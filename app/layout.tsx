@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Primara helps independent medical practices, medspas, and dental clinics dominate local search, run Meta Ads, fill their schedule, and grow. Call +1 (561) 291-2681.",
+    "Primara helps independent primary care and mental health practices dominate local search, run Meta Ads, fill their schedule, and grow. Call +1 (561) 291-2681.",
   // Explicit icon declaration — helps Google's crawler find and index the favicon faster
   icons: {
     icon: [

@@ -8,14 +8,30 @@ const locationMerges = JSON.parse(
   readFileSync(new URL("./lib/location-merges.json", import.meta.url), "utf8")
 );
 
+// Niche merge (Gio, 2026-10-08): Primara serves primary care + mental health
+// only. Every retired non-focus URL 301s to its closest focus page, so no
+// indexed URL ever 404s. Source of truth: lib/niche-redirects.json
+// (from -> to). scripts/check-niche-redirects.mjs guards it.
+const nicheRedirects = JSON.parse(
+  readFileSync(new URL("./lib/niche-redirects.json", import.meta.url), "utf8")
+);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
-    return locationMerges.map((m) => ({
-      source: `/locations/${m.from}`,
-      destination: `/locations/${m.to}`,
-      statusCode: 301,
-    }));
+    return [
+      // Older WPB merges point straight at the final focus page (no chains).
+      ...locationMerges.map((m) => ({
+        source: `/locations/${m.from}`,
+        destination: m.to_final || `/locations/${m.to}`,
+        statusCode: 301,
+      })),
+      ...nicheRedirects.map((r) => ({
+        source: r.from_,
+        destination: r.to,
+        statusCode: 301,
+      })),
+    ];
   },
 
   // ── React StrictMode ────────────────────────────────────────────────────

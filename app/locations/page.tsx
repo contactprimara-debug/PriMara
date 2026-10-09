@@ -4,23 +4,19 @@ import FaqSection from "@/components/FaqSection";
 import { locationsFaqs } from "@/lib/page-faqs";
 import { primaryCareLocations } from "@/lib/locations-primary";
 import { mentalHealthLocations } from "@/lib/locations-mental";
-import { mensHealthLocations } from "@/lib/locations-mens-health";
-import { medspaLocations } from "@/lib/locations-medspas";
-import { dentalLocations } from "@/lib/locations-dental";
-import { metaAdsLocations } from "@/lib/locations-meta-ads";
 import { REGIONS } from "@/lib/locations-regions";
 import { SERVICE_CITY_PAGES } from "@/lib/location-links";
 
 export const metadata: Metadata = {
   title: "Healthcare Marketing Agency Serving Florida | Primara",
   description:
-    "Primara serves independent men's health, primary care, mental health, medspa, and dental practices across South Florida, Tampa Bay, Orlando Metro, and Jacksonville.",
+    "Primara serves independent primary care and mental health practices across South Florida, Tampa Bay, Orlando Metro, and Jacksonville.",
   alternates: { canonical: "https://primara365.com/locations" },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Healthcare Marketing Agency Serving Florida | Primara",
     description:
-      "Primara serves independent men's health, primary care, mental health, medspa, and dental practices across South Florida, Tampa Bay, Orlando Metro, and Jacksonville.",
+      "Primara serves independent primary care and mental health practices across South Florida, Tampa Bay, Orlando Metro, and Jacksonville.",
     type: "website",
     url: "https://primara365.com/locations",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -171,33 +167,14 @@ export default function LocationsPage() {
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               Primara only takes on markets where we can bring genuine, granular market knowledge — not a templated playbook stretched across the whole state at once. The search landscape in Boca Raton is different from Fort Lauderdale's Flagler Village. The hospital systems competing against an independent physician in Tampa are different from the ones twenty minutes away in Clearwater. We build that market-by-market fluency deliberately, which is why our coverage today is South Florida, Tampa Bay, Orlando Metro, and Jacksonville, with more Florida markets added only once we've done the same depth of homework there.
             </p>
-            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.375rem", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.3, margin: "1.75rem 0 0.75rem" }}>Five verticals, every market</h2>
+            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "1.375rem", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.3, margin: "1.75rem 0 0.75rem" }}>Two specialties, every market</h2>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              We serve five verticals across every market we operate in: independent men’s health practices — TRT clinics, men’s wellness centers, and urology practices competing against national telehealth franchises; independent primary care practices — family medicine, internal medicine, geriatrics, and related primary care specialties; independent mental health practices, from individual therapists and LMHCs to psychologists and group practices; independent medical spas, physician- and nurse-led, competing against national laser and injectable chains; and independent dental practices facing DSO-backed offices and single-procedure implant centers. All five face the same fundamental challenge: their best potential patients are searching Google right now, and those patients are finding a hospital-employed provider, a national franchise, a corporate group, or a chain-owned clinic before they ever see the independent practice that could serve them better.
+              We serve two specialties across every market we operate in: independent primary care practices — family medicine, internal medicine, geriatrics, and related primary care specialties; and independent mental health practices, from individual therapists and LMHCs to psychologists and group practices. Both face the same fundamental challenge: their best potential patients are searching Google right now, and those patients are finding a hospital-employed provider, a national franchise, a corporate group, or a chain-owned clinic before they ever see the independent practice that could serve them better.
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8 }}>
               The pages below are organized by market. Each city page contains specific intelligence about the competitive landscape in that area — which hospital systems are competing against independent physicians, what the Psychology Today saturation looks like for therapists, what patients in that city actually search for, and what review count and velocity benchmarks define the local search leaderboard. Select your city to see how Primara approaches your specific market.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Men's Health Markets */}
-      <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div style={{ marginBottom: "40px" }}>
-            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
-              Men&rsquo;s Health
-            </p>
-            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
-              Men&rsquo;s Health Markets
-            </h2>
-            <p style={{ color: "var(--ash)", fontSize: "1rem", maxWidth: "600px", lineHeight: 1.7 }}>
-              For independent TRT clinics, men&rsquo;s wellness centers, and urology practices competing against national telehealth franchises for local visibility.
-            </p>
-          </div>
-
-          <LocationCardGrid locations={mensHealthLocations} />
         </div>
       </section>
 
@@ -236,64 +213,6 @@ export default function LocationsPage() {
           </div>
 
           <LocationCardGrid locations={mentalHealthLocations} />
-        </div>
-      </section>
-
-      {/* Medspa Markets */}
-      <section style={{ backgroundColor: "var(--void)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div style={{ marginBottom: "40px" }}>
-            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
-              Medspas
-            </p>
-            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
-              Medspa Markets
-            </h2>
-            <p style={{ color: "var(--ash)", fontSize: "1rem", maxWidth: "600px", lineHeight: 1.7 }}>
-              For independent, physician- and nurse-led medical spas competing against national laser and injectable chains, dermatology-group cosmetic arms, and discount-marketplace pricing.
-            </p>
-          </div>
-
-          <LocationCardGrid locations={medspaLocations} />
-        </div>
-      </section>
-
-      {/* Dental Markets */}
-      <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div style={{ marginBottom: "40px" }}>
-            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
-              Dental Practices
-            </p>
-            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
-              Dental Markets
-            </h2>
-            <p style={{ color: "var(--ash)", fontSize: "1rem", maxWidth: "600px", lineHeight: 1.7 }}>
-              For independent dentists and small group practices competing against DSO-backed offices, national retail chains, and single-procedure implant centers with centralized ad budgets.
-            </p>
-          </div>
-
-          <LocationCardGrid locations={dentalLocations} />
-        </div>
-      </section>
-
-      {/* Meta Ads Markets — a service, not a sixth vertical: these pages cover the
-          paid-social ad market in each city across all of the verticals above. */}
-      <section style={{ backgroundColor: "var(--void)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div style={{ marginBottom: "40px" }}>
-            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
-              Meta Ads
-            </p>
-            <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
-              Meta Ads Markets
-            </h2>
-            <p style={{ color: "var(--ash)", fontSize: "1rem", maxWidth: "600px", lineHeight: 1.7 }}>
-              Facebook and Instagram advertising, market by market. These pages cover the paid-social ad landscape in each city — auction pressure, audience composition, and who is already buying the impressions — across practices, medspas, and dental clinics alike.
-            </p>
-          </div>
-
-          <LocationCardGrid locations={metaAdsLocations} />
         </div>
       </section>
 

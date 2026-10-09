@@ -171,7 +171,6 @@ export const guidesPartOne: Guide[] = [
     links: [
       { href: "/guides/how-long-does-local-seo-take-for-a-medical-practice", label: "How Long Does Local SEO Take for a Medical Practice?", description: "The timeline question that usually comes right after the cost question." },
       { href: "/guides/keyword-research-for-a-medical-practice-seo-campaign", label: "Keyword Research for a Medical Practice SEO Campaign", description: "What a quoted SEO budget is actually spent building toward." },
-      { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "The same cost question for dental practices specifically." },
       { href: "/guides/how-to-pick-a-healthcare-marketing-agency", label: "How to Pick a Healthcare Marketing Agency", description: "Once cost is on the table, the questions that separate a good agency from a bad one." },
       {
         href: "/services/local-seo-for-medical-practices",
@@ -208,11 +207,6 @@ export const guidesPartOne: Guide[] = [
         href: "/guides/google-ads-cost-for-a-medical-practice",
         label: "Google Ads Cost for a Medical Practice",
         description: "The paid-media side of this same budgeting question.",
-      },
-      {
-        href: "/guides/med-spa-marketing-playbook",
-        label: "Med Spa Marketing Playbook",
-        description: "How the same cost question plays out for an aesthetics practice specifically.",
       },
       {
         href: "/guides/multi-location-medical-practice-seo-playbook",
@@ -549,7 +543,6 @@ export const guidesPartOne: Guide[] = [
     ],
     links: [
       { href: "/guides/google-ads-negative-keywords-checklist-for-a-medical-practice", label: "Google Ads Negative Keywords Checklist", description: "If paid search is the answer, this is the first setup step to not skip." },
-      { href: "/guides/seo-vs-meta-ads-for-a-med-spa", label: "SEO vs Meta Ads for a Med Spa", description: "The same channel-choice question, framed for aesthetics practices." },
       {
         href: "/services/google-ads",
         label: "Google Ads for Medical Practices",
@@ -744,7 +737,6 @@ export const guidesPartOne: Guide[] = [
       { href: "/guides/medical-website-launch-seo-checklist", label: "Medical Website Launch SEO Checklist", description: "The pre-launch checklist to run once this build is ready to go live." },
       { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "What to Put on a Contact Page for Local SEO", description: "The contact-page details this website cost should already include." },
       { href: "/guides/medical-practice-rebrand-seo-checklist", label: "Medical Practice Rebrand SEO Checklist", description: "What changes if this build is part of a rename rather than a fresh site." },
-      { href: "/guides/dental-practice-marketing-cost", label: "Dental Practice Marketing Cost", description: "Related budgeting guide for a dental practice's full marketing spend." },
       { href: "/guides/google-business-profile-vs-website-for-patient-acquisition", label: "GBP vs Website for Patient Acquisition", description: "How this website spend compares to Google Business Profile investment." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "How to Write a Doctor Bio Page That Ranks", description: "The provider-page structure a new site build should follow." },
       {
@@ -787,11 +779,6 @@ export const guidesPartOne: Guide[] = [
         href: "/guides/np-pa-bio-page-that-ranks",
         label: "How to Write a Nurse Practitioner or PA Bio Page That Ranks",
         description: "The provider-page structure for NP and PA staff specifically.",
-      },
-      {
-        href: "/guides/dental-implant-marketing-playbook",
-        label: "Dental Implant Marketing Playbook",
-        description: "What this website build needs to include for a practice's highest-value procedure.",
       },
     ],
   },

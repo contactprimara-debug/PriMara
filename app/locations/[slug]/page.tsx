@@ -3,41 +3,21 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { primaryCareLocations, type PrimaryCareLocation } from "@/lib/locations-primary";
 import { mentalHealthLocations, type MentalHealthLocation } from "@/lib/locations-mental";
-import { mensHealthLocations, type MensHealthLocation } from "@/lib/locations-mens-health";
-import { medspaLocations, type MedspaLocation } from "@/lib/locations-medspas";
-import { dentalLocations, type DentalLocation } from "@/lib/locations-dental";
-import { metaAdsLocations, type MetaAdsLocation } from "@/lib/locations-meta-ads";
 import { regionFor } from "@/lib/locations-regions";
 import locationMerges from "@/lib/location-merges.json";
 
 type PrimaryLoc = PrimaryCareLocation & { type: "primary-care" };
 type MentalLoc = MentalHealthLocation & { type: "mental-health" };
-type MensLoc = MensHealthLocation & { type: "mens-health" };
-type MedspaLoc = MedspaLocation & { type: "medspas" };
-type DentalLoc = DentalLocation & { type: "dental" };
-type MetaAdsLoc = MetaAdsLocation & { type: "meta-ads" };
-type AnyLoc = PrimaryLoc | MentalLoc | MensLoc | MedspaLoc | DentalLoc | MetaAdsLoc;
+type AnyLoc = PrimaryLoc | MentalLoc;
 type LocType = AnyLoc["type"];
 
 const allLocations: AnyLoc[] = [
   ...primaryCareLocations.map((loc) => ({ ...loc, type: "primary-care" as const })),
   ...mentalHealthLocations.map((loc) => ({ ...loc, type: "mental-health" as const })),
-  ...mensHealthLocations.map((loc) => ({ ...loc, type: "mens-health" as const })),
-  ...medspaLocations.map((loc) => ({ ...loc, type: "medspas" as const })),
-  ...dentalLocations.map((loc) => ({ ...loc, type: "dental" as const })),
-  ...metaAdsLocations.map((loc) => ({ ...loc, type: "meta-ads" as const })),
 ];
 
 function isPrimary(loc: AnyLoc): loc is PrimaryLoc {
   return loc.type === "primary-care";
-}
-
-function isMensHealth(loc: AnyLoc): loc is MensLoc {
-  return loc.type === "mens-health";
-}
-
-function isMetaAds(loc: AnyLoc): loc is MetaAdsLoc {
-  return loc.type === "meta-ads";
 }
 
 // Two distinct data shapes live behind AnyLoc, and every field access below
@@ -49,8 +29,8 @@ function isMetaAds(loc: AnyLoc): loc is MetaAdsLoc {
 //     source file: hospitals (primary care), competitors (medspas/dental),
 //     adLandscape (meta-ads — a service file, so the list is who is already
 //     bidding in that city's feeds, not one competitor class).
-function isDirectoryStyle(loc: AnyLoc): loc is MentalLoc | MensLoc {
-  return loc.type === "mental-health" || loc.type === "mens-health";
+function isDirectoryStyle(loc: AnyLoc): loc is MentalLoc {
+  return loc.type === "mental-health";
 }
 
 // Per-vertical copy. Typed as a Record over every member of the union so that
@@ -91,46 +71,6 @@ const VERTICAL_COPY: Record<
     sidebarLabel: "Key Neighborhoods We Serve",
     whyNowEyebrow: "Search Landscape",
     whyNowHeading: (city) => `How ${city} Patients Search for Therapy`,
-  },
-  "mens-health": {
-    label: "Men's Health Marketing",
-    href: "/mens-health",
-    desc: "How Primara works with independent men's health practices nationwide.",
-    linkCardEyebrow: "Who We Serve",
-    schemaAudience: "Men's Health Practices",
-    sidebarLabel: "Key Neighborhoods We Serve",
-    whyNowEyebrow: "Search Landscape",
-    whyNowHeading: (city) => `How ${city} Patients Search for Men's Health Care`,
-  },
-  medspas: {
-    label: "Medspa Marketing",
-    href: "/medspas",
-    desc: "How Primara works with independent, physician- and nurse-led medspas nationwide.",
-    linkCardEyebrow: "Who We Serve",
-    schemaAudience: "Medical Spas",
-    sidebarLabel: "Who You Are Competing With",
-    whyNowEyebrow: "Timing",
-    whyNowHeading: (city) => `Why Independent Medspas in ${city} Are Moving Now`,
-  },
-  dental: {
-    label: "Dental Marketing",
-    href: "/dental-practices",
-    desc: "How Primara works with independent dental practices nationwide.",
-    linkCardEyebrow: "Who We Serve",
-    schemaAudience: "Dental Practices",
-    sidebarLabel: "Who You Are Competing With",
-    whyNowEyebrow: "Timing",
-    whyNowHeading: (city) => `Why Independent Dental Practices in ${city} Are Moving Now`,
-  },
-  "meta-ads": {
-    label: "Meta Ads Management",
-    href: "/services/meta-ads",
-    desc: "How Primara runs Facebook and Instagram ads for independent practices, medspas, and dental clinics — creative, targeting, and HIPAA-conscious tracking.",
-    linkCardEyebrow: "The Service",
-    schemaAudience: "Practices, Medspas and Dental Clinics",
-    sidebarLabel: "Who Is Already Bidding in This Market",
-    whyNowEyebrow: "Timing",
-    whyNowHeading: (city) => `Why ${city} Practices Are Moving Budget Into Meta Now`,
   },
 };
 
@@ -205,7 +145,7 @@ export default function LocationPage({
   // Simulated against the live indexed set before shipping: 68 of the 74
   // unindexed city pages reach >=3 inbound in-sentence links from indexed pages
   // (was 0), the other 6 reach 2, and every page that gets indexed adds more.
-  const SAME_CITY_ORDER: LocType[] = ["primary-care", "medspas", "dental", "meta-ads", "mental-health", "mens-health"];
+  const SAME_CITY_ORDER: LocType[] = ["primary-care", "mental-health"];
   const sameCityOthers = allLocations
     .filter((l) => l.city === loc.city && l.type !== loc.type)
     .sort((a, b) => SAME_CITY_ORDER.indexOf(a.type) - SAME_CITY_ORDER.indexOf(b.type));
@@ -245,9 +185,7 @@ export default function LocationPage({
     ? loc.neighborhoods
     : isPrimary(loc)
     ? loc.hospitals
-    : isMetaAds(loc)
-    ? loc.adLandscape
-    : loc.competitors;
+    : [];
 
   // Market-style verticals carry a separate landmark list; directory-style
   // ones reuse neighborhoods (and suppress the duplicate block below).
@@ -614,7 +552,7 @@ export default function LocationPage({
                 maxWidth: "700px",
               }}
             >
-              GBP Optimization for {loc.city} {isMensHealth(loc) ? "Men's Health Practices" : "Therapists"}
+              GBP Optimization for {loc.city} Therapists
             </h2>
             <div
               style={{

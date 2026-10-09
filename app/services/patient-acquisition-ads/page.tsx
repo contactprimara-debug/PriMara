@@ -213,7 +213,7 @@ export default function PatientAdsPage() {
             independent physician-owned primary care clinics.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            Paid search is rarely the only channel a clinic uses. Practices often pair it with <Link href="/locations/meta-ads-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads across Florida</Link>, <Link href="/locations/meta-ads-for-medspas" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads for medspas</Link>, <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website built for local search</Link> and <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation for Florida practices</Link>.
+            Paid search is rarely the only channel a clinic uses. Practices often pair it with <Link href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management</Link>, <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website built for local search</Link> and <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation for Florida practices</Link>.
           </p>
         </div>
       </section>
@@ -257,7 +257,7 @@ export default function PatientAdsPage() {
         items={[
           { href: "/services/google-ads", label: "Google Ads", description: "Paid search and Maps ads for practices that want patients faster than organic SEO alone." },
           { href: "/services/medical-practice-website-design", label: "Website Design", description: "Websites built around the specific local search terms that drive new patient bookings." },
-          { href: "/specialties/ed-treatment-clinics", label: "ED Treatment Clinics", description: "How independent ED treatment clinics compete with Hims/Roman on local search." },
+          { href: "/specialties/family-medicine", label: "Family Medicine", description: "How independent family medicine practices compete with hospital-owned clinics on local search." },
         ]}
       />
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }} aria-labelledby="ads-cta">

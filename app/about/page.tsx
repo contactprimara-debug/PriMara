@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Primara — Healthcare Marketing Agency for Independent Practices | Primara",
     description:
-      "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent men's health, primary care, and mental health practices. Call (561) 291-2681.",
+      "Meet Liam Costello & Gio LaRoche, co-founders of Primara — digital marketing for independent primary care and mental health practices. Call (561) 291-2681.",
     type: "website",
     url: "https://primara365.com/about",
     images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
@@ -98,8 +98,8 @@ export default function AboutPage() {
             across 20+ patient locations.
           </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            We work exclusively with independent, physician-owned practices &mdash; primary care, mental health,
-            and men&rsquo;s health. Not dental chains. Not urgent care franchises. Not hospital systems.
+            We work exclusively with independent, physician-owned practices &mdash; primary care and mental health.
+            Not dental chains. Not urgent care franchises. Not hospital systems.
             Independent medicine, done well.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>

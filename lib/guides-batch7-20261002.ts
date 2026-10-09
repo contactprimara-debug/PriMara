@@ -34,7 +34,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What an attribute actually is" },
       {
         type: "p",
-        text: "An attribute is a small, specific fact about your practice that Google displays as a checkmark or a filter chip: 'Wheelchair accessible entrance,' 'Identifies as women-led,' 'Online care,' 'Accepts new patients.' They sit below your category and hours on the profile, and they drive the filter checkboxes patients see on the left side of a Google Maps search — so when someone filters a 'family medicine near me' search by 'wheelchair accessible,' only profiles with that attribute checked stay on the map. Men's health clinics have attributes worth a look in [Google Business Profile categories for men's health clinics](/blog/gbp-categories-for-mens-health-clinics).",
+        text: "An attribute is a small, specific fact about your practice that Google displays as a checkmark or a filter chip: 'Wheelchair accessible entrance,' 'Identifies as women-led,' 'Online care,' 'Accepts new patients.' They sit below your category and hours on the profile, and they drive the filter checkboxes patients see on the left side of a Google Maps search — so when someone filters a 'family medicine near me' search by 'wheelchair accessible,' only profiles with that attribute checked stay on the map. Related reading on categories: [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors).",
       },
       {
         type: "p",
