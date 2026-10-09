@@ -3,6 +3,8 @@
 import { sendLeadEmail } from "@/lib/leads";
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
+import { markLeadRecorded } from "@/lib/leadPing";
+import { isTestLead } from "@/lib/lead-test-markers";
 
 export type AssessmentPayload = {
   name: string;
@@ -19,6 +21,16 @@ export async function submitAssessment(payload: AssessmentPayload) {
   const answerLines = Object.entries(payload.answers)
     .map(([q, a]) => `  ${q}: ${a}`)
     .join("\n");
+
+  // Test lead: Command Center only, flagged. No dialer row, no email, no
+  // conversion flag (same rule as app/actions/contact.ts).
+  if (isTestLead({ name: payload.name, email: payload.email })) {
+    await mirrorLeadToIntake(
+      { form: "assessment", page: "/assessment/quiz", name: payload.name, email: payload.email, phone: payload.phone || undefined, score: payload.score, tier: payload.tier },
+      { test: true }
+    );
+    return;
+  }
 
   // See app/actions/contact.ts for why this is a CRM push + email, run in
   // parallel, both best-effort. Phone is optional on this form — when it's
@@ -74,4 +86,10 @@ export async function submitAssessment(payload: AssessmentPayload) {
   if (emailResult.status === "rejected") {
     console.error("[assessment] Resend send failed:", emailResult.reason);
   }
+
+  // A real lead reached a durable destination: authorize the single conversion
+  // ping that /assessment/results (the quiz's thank-you page) renders. Same
+  // handshake as the contact form — see lib/leadPing.ts. Card #290.
+  const crmSaved = crmResult.status === "fulfilled" && crmResult.value.ok;
+  if (crmSaved || emailResult.status === "fulfilled") markLeadRecorded();
 }
