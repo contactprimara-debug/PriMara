@@ -191,8 +191,8 @@ export default function GoogleAdsManagementFloridaPage() {
               create HIPAA exposure.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              We run this from West Palm Beach, for independent primary care, mental
-              health, and men&rsquo;s health practices across the state — market
+              We run this from West Palm Beach, for independent primary care and mental
+              health practices across the state — market
               analysis first, then a campaign built for your city and your specialty.
             </p>
           </div>

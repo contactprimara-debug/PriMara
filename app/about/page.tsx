@@ -93,8 +93,8 @@ export default function AboutPage() {
             Who We Serve
           </h2>
           <p className="leading-relaxed mb-4" style={{ color: "var(--color-text-muted)" }}>
-            Today, that means managing digital marketing for independent practices across primary care,
-            mental health, and men&rsquo;s health &mdash; representing more than 100 physicians and clinicians
+            Today, that means managing digital marketing for independent practices across primary care
+            and mental health &mdash; representing more than 100 physicians and clinicians
             across 20+ patient locations.
           </p>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>

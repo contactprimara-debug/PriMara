@@ -191,8 +191,7 @@ export default function GoogleAdsManagementLakelandPage() {
               few results.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              We run this for independent primary care, mental health, and men&rsquo;s
-              health practices — the same campaign structure, negative-keyword
+              We run this for independent primary care and mental health practices — the same campaign structure, negative-keyword
               discipline, and HIPAA-conscious tracking we use for practices nationwide,
               tuned to the searches Lakeland patients actually make.
             </p>

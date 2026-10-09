@@ -200,7 +200,7 @@ export default function GbpOptimizationWestPalmBeachPage() {
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
               That gap is fixable. We do this work from West Palm Beach, for independent
-              primary care, mental health, and men&rsquo;s health practices — the same
+              primary care and mental health practices — the same
               GBP process we run for practices nationwide, applied to the market we
               know best.
             </p>

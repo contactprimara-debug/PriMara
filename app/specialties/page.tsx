@@ -236,7 +236,7 @@ export default function SpecialtiesPage() {
             maxWidth: "800px",
           }}
         >
-          Digital Marketing for Independent Men&rsquo;s Health &amp; Primary Care Practices
+          Digital Marketing for Independent Primary Care &amp; Mental Health Practices
         </h1>
 
         <p

@@ -191,8 +191,8 @@ export default function GoogleAdsManagementWestPalmBeachPage() {
               tracking setups can create HIPAA exposure.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              We manage this from West Palm Beach, for independent primary care, mental
-              health, and men&rsquo;s health practices — the same campaign discipline we
+              We manage this from West Palm Beach, for independent primary care and mental
+              health practices — the same campaign discipline we
               run for practices nationwide, applied to the market we know best.
             </p>
           </div>

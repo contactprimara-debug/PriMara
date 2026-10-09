@@ -261,8 +261,7 @@ export default function AboutSection() {
                   margin: 0,
                 }}
               >
-                We work exclusively with independent primary care, mental health, and
-                men&rsquo;s health practices. No hospital systems, no urgent care chains,
+                We work exclusively with independent primary care and mental health practices. No hospital systems, no urgent care chains,
                 no corporate groups. If you&rsquo;re running your own practice and your
                 schedule isn&rsquo;t full, we should talk.
               </p>
