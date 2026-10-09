@@ -4,6 +4,7 @@ import { attributionFrom, firstNameFrom, isBotSubmission, sendLeadEmail } from "
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
 import { markLeadRecorded } from "@/lib/leadPing";
+import { isTestLead, formDataToFields } from "@/lib/lead-test-markers";
 
 export type ContactState = {
   status: "idle" | "success" | "error";
@@ -35,6 +36,13 @@ export async function submitContact(
   // same /thank-you redirect, but no conversion flag, so /thank-you renders
   // without the tag and GA4/Ads never see it. See lib/leadPing.ts.
   if (isBotSubmission(formData)) {
+    return { status: "success", firstName };
+  }
+
+  // Test lead (name TEST*, test@/@example.com email, X-Primara-Test, ?test=1):
+  // Command Center only, flagged. No dialer row, no email, no conversion flag.
+  if (isTestLead(formDataToFields(formData))) {
+    await mirrorLeadToIntake({ form: "contact", page: "site contact form", name, practice: practiceName, phone, email: email || undefined, best_time_to_call: callTime, message: reason || undefined, ...attributionFrom(formData) }, { test: true });
     return { status: "success", firstName };
   }
 

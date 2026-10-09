@@ -31,14 +31,14 @@ const TIMEOUT_MS = 4000;
 const ATTEMPTS = 3;
 const BACKOFF_MS = [0, 400, 1200];
 
-export async function mirrorLeadToIntake(payload: Record<string, unknown>): Promise<void> {
+export async function mirrorLeadToIntake(payload: Record<string, unknown>, opts: { test?: boolean } = {}): Promise<void> {
   let lastReason = "unknown";
   for (let attempt = 0; attempt < ATTEMPTS; attempt++) {
     if (BACKOFF_MS[attempt]) await new Promise((r) => setTimeout(r, BACKOFF_MS[attempt]));
     try {
       const res = await fetch(INTAKE_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: opts.test ? { "Content-Type": "application/json", "X-Primara-Test": "1" } : { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
         signal: AbortSignal.timeout(TIMEOUT_MS),
         cache: "no-store",
@@ -54,7 +54,8 @@ export async function mirrorLeadToIntake(payload: Record<string, unknown>): Prom
       console.error(`[intake] mirror attempt ${attempt + 1}/${ATTEMPTS} failed:`, err);
     }
   }
-  await alertIntakeFailure(payload, lastReason);
+  // A test lead must never email anyone, even on failure.
+  if (!opts.test) await alertIntakeFailure(payload, lastReason);
 }
 
 /** Emails the full lead to the inbox we do read, so a failed mirror is never silent. */

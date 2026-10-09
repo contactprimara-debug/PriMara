@@ -4,6 +4,7 @@ import { attributionFrom, firstNameFrom, isBotSubmission, sendLeadEmail } from "
 import { pushLeadToCrm } from "@/lib/crm";
 import { mirrorLeadToIntake } from "@/lib/intake";
 import { markLeadRecorded } from "@/lib/leadPing";
+import { isTestLead, formDataToFields } from "@/lib/lead-test-markers";
 
 export type PackageInquiryState = {
   status: "idle" | "success" | "error";
@@ -31,6 +32,13 @@ export async function submitPackageInquiry(
   // Honeypot hit → pretend success, send nothing, and deliberately do NOT
   // call markLeadRecorded() — see lib/leadPing.ts and app/actions/contact.ts.
   if (isBotSubmission(formData)) {
+    return { status: "success", firstName };
+  }
+
+  // Test lead (name TEST*, test@/@example.com email, X-Primara-Test, ?test=1):
+  // Command Center only, flagged. No dialer row, no email, no conversion flag.
+  if (isTestLead(formDataToFields(formData))) {
+    await mirrorLeadToIntake({ form: "package-inquiry", page: "/packages", package: pkg, name, practice, phone, email, message: notes, ...attributionFrom(formData) }, { test: true });
     return { status: "success", firstName };
   }
 

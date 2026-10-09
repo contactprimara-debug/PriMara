@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { submitContact } from "@/app/actions/contact";
+import { isTestLead } from "@/lib/lead-test-markers";
 import { submitPackageInquiry } from "@/app/actions/packageInquiry";
 
 /* ── Real HTTP endpoint for the contact/audit lead forms ────────────────────
@@ -24,6 +25,10 @@ export async function POST(req: NextRequest) {
     const formData = new FormData();
     for (const [key, value] of Object.entries(body)) {
       if (value !== undefined && value !== null) formData.set(key, String(value));
+    }
+    // X-Primara-Test header or ?test=1 marks the submission as a test.
+    if (isTestLead({}, { header: req.headers.get("x-primara-test"), query: req.nextUrl.searchParams.get("test") })) {
+      formData.set("__primara_test", "1");
     }
 
     // No-JS fallback for the packages forms: their raw SSR <form> also
