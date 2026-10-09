@@ -69,7 +69,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "What a fair engagement actually looks like" },
       {
         type: "p",
-        text: "A reasonable healthcare marketing engagement starts with an audit of the current site, listing, and tracking setup before any work begins — not a generic proposal built without ever looking at the practice's actual numbers. It includes a plain-language explanation of what gets measured and how often the practice will see those numbers, not just a monthly PDF of screenshots. And it should be cancelable on reasonable notice, because a contract that only works if the practice can't leave is a contract built around the wrong incentive.",
+        text: "A reasonable healthcare marketing engagement starts with an audit of the current site, listing, and tracking setup before any work begins — not a generic proposal built without ever looking at the practice's actual numbers. It includes a plain-language explanation of what gets measured and how often the practice will see those numbers, not just a monthly PDF of screenshots. And it should be cancelable on reasonable notice, because a contract that only works if the practice can't leave is a contract built around the wrong incentive. If you run a family medicine practice, our page on [digital marketing for family medicine practices](/specialties/family-medicine) shows what an engagement looks like in practice.",
       },
     ],
     faqs: [

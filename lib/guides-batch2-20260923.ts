@@ -245,7 +245,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Setting up a compliant request system" },
       {
         type: "p",
-        text: "The mechanics are simple: a text or email sent after every visit with a direct link to your Google Business Profile review form, no pre-screening question in the message. Primara's own review-request system works exactly this way — every patient gets the same link, at the same point, regardless of how the visit likely went, which is both the compliant approach and, over time, the one that produces a review profile Google actually trusts and ranks well. Once reviews come in, [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses) covers how to reply without disclosing patient information.",
+        text: "The mechanics are simple: a text or email sent after every visit with a direct link to your Google Business Profile review form, no pre-screening question in the message. Primara's own review-request system works exactly this way — every patient gets the same link, at the same point, regardless of how the visit likely went, which is both the compliant approach and, over time, the one that produces a review profile Google actually trusts and ranks well. Once reviews come in, [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses) covers how to reply without disclosing patient information. Independent family medicine practices that compete with urgent care chains on review volume can see how we approach it on our [family medicine marketing page](/specialties/family-medicine).",
       },
     ],
     faqs: [
@@ -297,7 +297,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Why category choice matters more than most practices realize" },
       {
         type: "p",
-        text: "Google's local ranking algorithm weighs your primary category heavily when matching a search to nearby businesses — it's one of the strongest signals in the whole profile. A dermatology practice categorized as a generic \"Medical clinic\" is competing against every kind of clinic for map pack placement instead of specifically against other dermatologists, and it shows up less often for \"dermatologist near me\" as a result. Categories work together with the profile type, and our guide to [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) explains that choice.",
+        text: "Google's local ranking algorithm weighs your primary category heavily when matching a search to nearby businesses — it's one of the strongest signals in the whole profile. A dermatology practice categorized as a generic \"Medical clinic\" is competing against every kind of clinic for map pack placement instead of specifically against other dermatologists, and it shows up less often for \"dermatologist near me\" as a result. Categories work together with the profile type, and our guide to [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) explains that choice. A family medicine practice has more category and service choices than most, so see our page on [marketing for family medicine practices](/specialties/family-medicine) for how we set them up.",
       },
       { type: "h2", text: "How to pick your primary category" },
       {
