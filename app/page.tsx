@@ -98,7 +98,7 @@ export default function HomePage() {
           backgroundColor: "var(--surface)",
         }}
       >
-        <p
+        <h2
           style={{
             fontFamily: "system-ui, sans-serif",
             fontSize: "10px",
@@ -106,10 +106,13 @@ export default function HomePage() {
             textTransform: "uppercase",
             color: "var(--smoke)",
             marginBottom: "clamp(20px, 3vw, 32px)",
+            marginTop: 0,
+            fontWeight: 400,
+            lineHeight: 1.4,
           }}
         >
           Who We Serve
-        </p>
+        </h2>
         <div
           style={{
             display: "grid",
@@ -227,7 +230,7 @@ export default function HomePage() {
           backgroundColor: "var(--void)",
         }}
       >
-        <p
+        <h2
           style={{
             fontFamily: "system-ui, sans-serif",
             fontSize: "10px",
@@ -235,10 +238,13 @@ export default function HomePage() {
             textTransform: "uppercase",
             color: "var(--smoke)",
             marginBottom: "clamp(20px, 3vw, 32px)",
+            marginTop: 0,
+            fontWeight: 400,
+            lineHeight: 1.4,
           }}
         >
           Case Studies
-        </p>
+        </h2>
         <div
           style={{
             display: "grid",
@@ -283,11 +289,11 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
-        <p style={{ marginTop: "24px", fontFamily: "system-ui, sans-serif", fontSize: "13px" }}>
+        <div style={{ marginTop: "24px", fontFamily: "system-ui, sans-serif", fontSize: "13px" }}>
           <Link href="/case-studies" style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
             All case studies
           </Link>
-        </p>
+        </div>
       </section>
 
       {/* ── Co-flagship channels — SEO + Meta Ads ─────────────────────────── */}
@@ -299,7 +305,7 @@ export default function HomePage() {
           backgroundColor: "var(--void)",
         }}
       >
-        <p
+        <h2
           style={{
             fontFamily: "system-ui, sans-serif",
             fontSize: "10px",
@@ -307,10 +313,13 @@ export default function HomePage() {
             textTransform: "uppercase",
             color: "var(--smoke)",
             marginBottom: "clamp(20px, 3vw, 32px)",
+            marginTop: 0,
+            fontWeight: 400,
+            lineHeight: 1.4,
           }}
         >
           Two Flagship Channels
-        </p>
+        </h2>
         <div
           style={{
             display: "grid",
