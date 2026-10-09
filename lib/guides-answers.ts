@@ -423,7 +423,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "What actually changed" },
       {
         type: "p",
-        text: "A growing share of searches now end with an answer rather than a list of ten blue links, and in those surfaces there is no tenth place: either the answer names your practice or it does not. The work is not exotic, though. Google has been explicit that there is nothing fundamentally new to do for AI features. What changes is emphasis — extractability, entity clarity and corroboration now matter far more than keyword density. [What AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-medical-practice-organic-traffic) is the specific, measurable version of this shift worth tracking in Search Console.",
+        text: "A growing share of searches now end with an answer rather than a list of ten blue links, and in those surfaces there is no tenth place: either the answer names your practice or it does not. The work is not exotic, though. Google has been explicit that there is nothing fundamentally new to do for AI features. What changes is emphasis — extractability, entity clarity and corroboration now matter far more than keyword density. [What AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-a-medical-practices-organic-traffic) is the specific, measurable version of this shift worth tracking in Search Console.",
       },
       { type: "h2", text: "Extractability: write the answer, then the argument" },
       {
