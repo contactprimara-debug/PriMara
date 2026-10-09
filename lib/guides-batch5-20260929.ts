@@ -53,7 +53,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "callout",
-        text: "A therapist who leaves the practice should not take the practice's search visibility with them. Keep reviews, the Google Business Profile, and the domain owned by the practice entity, not by any individual clinician — this is a structural decision to make before the practice grows, not after someone departs. The same ownership point applies to the profile, as covered in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists).",
+        text: "A therapist who leaves the practice should not take the practice's search visibility with them. Keep reviews, the Google Business Profile, and the domain owned by the practice entity, not by any individual clinician — this is a structural decision to make before the practice grows, not after someone departs. The same ownership point applies to the profile, as covered in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists). Because fees are a top question for new clients, a plain explanation of rates, out-of-network payment and sliding scale spots on one page is worth building, as our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) describes.",
       },
     ],
     faqs: [

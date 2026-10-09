@@ -286,7 +286,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "A solo therapist has one problem: fill a caseload of roughly twenty to twenty-five clients and keep it filled. That is a small number, which means a small, cheap, well-aimed effort is usually enough. Claim the profile, publish six honest pages about the modalities you actually practice, collect reviews from clients who volunteer, and answer the phone. Eight hundred to fifteen hundred a month of managed work is a reasonable ceiling.",
+        text: "A solo therapist has one problem: fill a caseload of roughly twenty to twenty-five clients and keep it filled. That is a small number, which means a small, cheap, well-aimed effort is usually enough. Claim the profile, publish six honest pages about the modalities you actually practice, collect reviews from clients who volunteer, and answer the phone. Eight hundred to fifteen hundred a month of managed work is a reasonable ceiling. Budget a little time as well for a plain fees page, because our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to state rates, out-of-network payment and a sliding scale without confusing a first-time client.",
       },
       {
         type: "p",
@@ -452,7 +452,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Mental health falls under Google's personalized advertising restrictions, which limit how you may target people based on inferred health status. In practice this means you cannot build an audience of people Google thinks are depressed, and you cannot use remarketing that implies you know something about a visitor's condition. You can still bid on what people type — 'anxiety therapist near me' — you just cannot profile them.",
+        text: "Mental health falls under Google's personalized advertising restrictions, which limit how you may target people based on inferred health status. In practice this means you cannot build an audience of people Google thinks are depressed, and you cannot use remarketing that implies you know something about a visitor's condition. You can still bid on what people type — 'anxiety therapist near me' — you just cannot profile them. Whichever channel brings the inquiry, a clear page that states session fees, insurance status and any sliding scale keeps the first call short, and our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows what to include.",
       },
       {
         type: "p",

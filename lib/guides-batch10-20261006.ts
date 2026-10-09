@@ -2294,7 +2294,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A \"starting at\" price is a claim. It must be a price some patients actually pay, and the page must say what else may apply. The FTC's advertising guidance asks that claims be truthful and not misleading."
+        "text": "A \"starting at\" price is a claim. It must be a price some patients actually pay, and the page must say what else may apply. The FTC's advertising guidance asks that claims be truthful and not misleading. The same honesty applies to a therapist who lists session fees and a sliding scale, which our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) walks through for mental health practices."
       },
       {
         "type": "h2",
