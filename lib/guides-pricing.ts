@@ -100,7 +100,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Work the math backwards from one patient. Take your average new-patient value over the first twelve months, multiply by your close rate on inbound calls, and ask how many additional new patients per month the engagement has to produce to pay for itself. For most primary care, mental health, and men's health practices in Florida the answer is between one and three. If an agency cannot tell you what number they are aiming at, that is the problem, not the price.",
+        text: "Work the math backwards from one patient. Take your average new-patient value over the first twelve months, multiply by your close rate on inbound calls, and ask how many additional new patients per month the engagement has to produce to pay for itself. For most primary care and mental health practices in Florida the answer is between one and three. If an agency cannot tell you what number they are aiming at, that is the problem, not the price.",
       },
       {
         type: "callout",

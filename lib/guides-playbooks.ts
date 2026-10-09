@@ -72,7 +72,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Most practices set one category and stop. That leaves nine slots empty, and each slot is a set of searches you are choosing not to appear for. A fully configured primary care profile might carry Family Medicine Physician, Internist, General Practitioner, Medical Clinic, Doctor, Walk-in Clinic where applicable, and Physician. A men's health clinic might carry Medical Clinic, Men's Health Physician, Endocrinologist where a licensed one practices, and Urologist where applicable. To see where a profile fits beside organic search and paid ads, read [local pack vs organic results vs Google Ads for a practice](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice).",
+        text: "Most practices set one category and stop. That leaves nine slots empty, and each slot is a set of searches you are choosing not to appear for. A fully configured primary care profile might carry Family Medicine Physician, Internist, General Practitioner, Medical Clinic, Doctor, Walk-in Clinic where applicable, and Physician. A mental health practice might carry Mental Health Clinic, Psychotherapist, Psychiatrist where a licensed one practices, and Counselor where applicable. To see where a profile fits beside organic search and paid ads, read [local pack vs organic results vs Google Ads for a practice](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice).",
       },
       {
         type: "callout",
