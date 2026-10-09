@@ -121,6 +121,7 @@
   "lib/page-faqs.ts": "2026-10-08",
   "lib/schema.ts": "2026-10-08",
   "lib/siteConfig.ts": "2026-08-12",
+  "lib/slug-lastmod.json": "2026-10-09",
   "components/AboutAnimation.tsx": "2026-05-28",
   "components/AboutSection.tsx": "2026-10-08",
   "components/AfterHydration.tsx": "2026-09-14",

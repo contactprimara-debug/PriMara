@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lastmod": "node scripts/gen-lastmod.mjs",
     "typecheck": "tsc --noEmit",
-    "check": "node scripts/check-location-dupes.mjs && node scripts/check-niche-redirects.mjs && npx -y tsx scripts/check-lead-test-markers.ts && tsc --noEmit && next lint"
+    "check": "node scripts/check-lastmod.mjs && node scripts/check-location-dupes.mjs && node scripts/check-niche-redirects.mjs && npx -y tsx scripts/check-lead-test-markers.ts && tsc --noEmit && next lint"
   },
   "dependencies": {
     "@next/third-parties": "^14.2.35",
