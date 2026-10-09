@@ -41,6 +41,7 @@ var q=[],fired=false;
 function run(){if(fired)return;fired=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}q=[]}
 function after(f){if(fired)f();else q.push(f)}
 function load(src,cb){var s=d.createElement('script');s.src=src;s.async=true;if(cb)s.onload=cb;d.head.appendChild(s)}
+w.__primaraLoadTags=run;
 w.dataLayer=w.dataLayer||[];
 w.gtag=function(){w.dataLayer.push(arguments)};
 w.gtag('js',new Date());

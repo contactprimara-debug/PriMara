@@ -71,6 +71,15 @@ export default function LeadConversionPing() {
         return;
       }
 
+      // Card #290: tags are deferred past first paint (a9b9dc3). A conversion
+      // must never wait for that, so start loading them now; the events below
+      // are already safely queued in dataLayer behind the config calls.
+      try {
+        (window as unknown as { __primaraLoadTags?: () => void }).__primaraLoadTags?.();
+      } catch {
+        // ignore
+      }
+
       window.gtag("event", "generate_lead", {
         send_to: GA_ID,
         form_destination: "thank-you",
