@@ -28,7 +28,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Search Console is a free service from Google that reports how your site appears in Google Search. It tells you which searches showed your pages, how often people clicked, whether Google can crawl and index each page, and whether anything is wrong, such as a security issue or a manual action. It is not a visitor tracker like Google Analytics, and it does not tell you who the patients are. It reports search behavior in aggregate. You prove ownership of the site once, usually through DNS or a file on your server, and the data starts accumulating from then. Pages that Search Console reports as not found are covered in [how to find and fix broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website), and visitor behavior is covered in our [monthly Google Analytics 4 routine](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice)."
+        "text": "Search Console is a free service from Google that reports how your site appears in Google Search. It tells you which searches showed your pages, how often people clicked, whether Google can crawl and index each page, and whether anything is wrong, such as a security issue or a manual action. It is not a visitor tracker like Google Analytics, and it does not tell you who the patients are. It reports search behavior in aggregate. You prove ownership of the site once, usually through DNS or a file on your server, and the data starts accumulating from then. Pages that Search Console reports as not found are covered in [how to find and fix broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website), and visitor behavior is covered in our [monthly Google Analytics 4 routine](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice). Filtering queries by your practice name is the data side of a [brand search audit](/guides/what-patients-see-when-they-search-your-practice-name-a-brand-search-audit) of what patients see when they Google you."
       },
       {
         "type": "h2",
@@ -160,7 +160,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many online scheduling tools install as an embedded frame or a script that loads a form from the vendor's server. To a visitor it looks like part of your page. To a search engine, the content inside a frame generally belongs to the other source, not to your page. If your 'Book an appointment' page is only a heading and a widget, there is almost no text for Google to read, and the page has nothing to rank for. The scheduler solves a patient's problem but does nothing for search."
+        "text": "Many online scheduling tools install as an embedded frame or a script that loads a form from the vendor's server. To a visitor it looks like part of your page. To a search engine, the content inside a frame generally belongs to the other source, not to your page. If your 'Book an appointment' page is only a heading and a widget, there is almost no text for Google to read, and the page has nothing to rank for. The scheduler solves a patient's problem but does nothing for search. If your scheduling tool also collects intake paperwork, read how to [publish new patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) before you turn that feature on."
       },
       {
         "type": "h2",
@@ -287,7 +287,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The About page is often one of the most visited pages on a practice website, because a new patient wants to know who they are trusting before they book. It is also a primary source for search engines and AI assistants that describe your practice. A thin page that says 'we are dedicated to compassionate care' gives readers and machines nothing to use. A page with concrete, checkable facts does both jobs."
+        "text": "The About page is often one of the most visited pages on a practice website, because a new patient wants to know who they are trusting before they book. It is also a primary source for search engines and AI assistants that describe your practice. A thin page that says 'we are dedicated to compassionate care' gives readers and machines nothing to use. A page with concrete, checkable facts does both jobs. Therapy practices can pair the about page with [a first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) that explains what the first visit is like."
       },
       {
         "type": "h2",
@@ -562,7 +562,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "'Do you take my insurance' is one of the first questions a new patient asks, and many of them leave a site if they cannot find the answer quickly. A clear insurance page also matches a common search, such as 'family doctor that accepts Aetna in Lakeland.' The risk is in accuracy. Plans change, networks differ by product, and an out-of-date list can cost a patient an unexpected bill and cost you their trust. Patients who pay on their own need a companion page, which we describe in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website)."
+        "text": "'Do you take my insurance' is one of the first questions a new patient asks, and many of them leave a site if they cannot find the answer quickly. A clear insurance page also matches a common search, such as 'family doctor that accepts Aetna in Lakeland.' The risk is in accuracy. Plans change, networks differ by product, and an out-of-date list can cost a patient an unexpected bill and cost you their trust. Patients who pay on their own need a companion page, which we describe in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website). When a contract changes, follow [what to update online when your practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) so every listing matches your page."
       },
       {
         "type": "h2",
@@ -610,7 +610,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A short note on tone helps. Write in plain language and avoid insurance jargon where a simpler word works, since patients are often reading in a stressful moment. If a plan is accepted only for some services, say which. If you are not in network with a plan but patients can still be seen, explain the self-pay or out-of-network process clearly, and never imply that coverage is guaranteed or that billing will be handled in a particular way unless your billing office confirms it. For more on keeping the wording simple, see our guide to [plain language and reading level for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content), which includes a short list of word swaps."
+        "text": "A short note on tone helps. Write in plain language and avoid insurance jargon where a simpler word works, since patients are often reading in a stressful moment. If a plan is accepted only for some services, say which. If you are not in network with a plan but patients can still be seen, explain the self-pay or out-of-network process clearly, and never imply that coverage is guaranteed or that billing will be handled in a particular way unless your billing office confirms it. For more on keeping the wording simple, see our guide to [plain language and reading level for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content), which includes a short list of word swaps. The insurance page should agree with your patient intake status, which we explain in [keeping accepting new patients status accurate across Google, your website and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories)."
       }
     ],
     faqs: [

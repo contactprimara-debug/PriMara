@@ -213,7 +213,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "The federal government's plain language guidance defines it simply: writing your audience can find, understand and use the first time they read it. That standard fits a medical practice website well. A patient reading about a visit is often worried, busy or reading on a phone in a waiting room, and every unfamiliar term is a reason to leave and call someone else."
+      "text": "The federal government's plain language guidance defines it simply: writing your audience can find, understand and use the first time they read it. That standard fits a medical practice website well. A patient reading about a visit is often worried, busy or reading on a phone in a waiting room, and every unfamiliar term is a reason to leave and call someone else. A good place to practice plain wording is [a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), where a nervous reader needs short, calm sentences."
     },
     {
       "type": "p",
@@ -1296,7 +1296,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A booking or appointment link adds a button to your listing in Search and Maps so a patient can go straight from finding you to scheduling. Google's help pages describe adding appointment links to a Business Profile, and also describe setting up bookings through a provider that integrates with Google. Which option you see depends on your account, category and region, and Google changes these features over time."
+      "text": "A booking or appointment link adds a button to your listing in Search and Maps so a patient can go straight from finding you to scheduling. Google's help pages describe adding appointment links to a Business Profile, and also describe setting up bookings through a provider that integrates with Google. Which option you see depends on your account, category and region, and Google changes these features over time. A booking link is especially useful for same-day requests, which we cover in [getting found for same-day and walk-in visits as a primary care practice](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice)."
     },
     {
       "type": "p",
@@ -1451,7 +1451,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A practice's online presence is a set of accounts: the domain name, the website host, the Google Business Profile, Google Search Console and Google Analytics. When one of them is registered to a former employee's personal email, a web designer's account or an agency, the practice does not control its own listing or site. Fixing it later means chasing someone who may not reply."
+      "text": "A practice's online presence is a set of accounts: the domain name, the website host, the Google Business Profile, Google Search Console and Google Analytics. When one of them is registered to a former employee's personal email, a web designer's account or an agency, the practice does not control its own listing or site. Fixing it later means chasing someone who may not reply. Ownership matters most during a sale or retirement, so use [the checklist for protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires)."
     },
     {
       "type": "p",

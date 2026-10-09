@@ -140,6 +140,38 @@ export default function FamilyMedicinePage() {
         </div>
       </section>
 
+      {/* How patients choose (added 2026-10-09 page factory: strengthens a 692-word page) */}
+      <section aria-labelledby="choose-heading" style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
+          <h2 id="choose-heading" style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", color: "var(--chalk)", fontWeight: 400, marginBottom: "20px" }}>
+            How patients choose a family doctor online
+          </h2>
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "720px", marginBottom: "16px" }}>
+            A patient looking for a new family doctor usually checks a few things in a fixed order: whether the practice is
+            taking new patients, whether it accepts their insurance, how far away it is, and what other patients say. Each of
+            those answers lives somewhere you control, which is why we start with the basics in our guides to{" "}
+            <Link href="/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories" style={{ color: "var(--gold)", textDecoration: "underline" }}>keeping your accepting new patients status accurate</Link>{" "}
+            and <Link href="/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice" style={{ color: "var(--gold)", textDecoration: "underline" }}>building an accepted insurance page</Link>.
+          </p>
+          <h3 style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1rem", color: "var(--chalk)", margin: "24px 0 12px" }}>What we check first on a family medicine practice</h3>
+          <ul style={{ listStyle: "disc", paddingLeft: "22px", margin: 0, maxWidth: "720px", display: "flex", flexDirection: "column", gap: "10px" }}>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether the Google profile uses a primary care category, lists every service you offer and shows accurate hours; see{" "}<Link href="/guides/how-to-get-more-patients-from-google-business-profile" style={{ color: "var(--gold)", textDecoration: "underline" }}>how to get more patients from your Google Business Profile</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether each physician has a real bio page with training and a photo, as described in our guide to{" "}<Link href="/guides/how-to-write-a-doctor-bio-page-that-ranks" style={{ color: "var(--gold)", textDecoration: "underline" }}>writing a doctor bio page that ranks</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether phone calls and form requests are counted separately, so you can see which source sends real patients; start with{" "}<Link href="/guides/tracking-phone-calls-from-a-medical-website" style={{ color: "var(--gold)", textDecoration: "underline" }}>tracking phone calls from a medical website</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether reviews are requested from every patient in a compliant way and answered without sharing any health detail; see{" "}<Link href="/guides/getting-more-patient-reviews-without-review-gating" style={{ color: "var(--gold)", textDecoration: "underline" }}>getting more patient reviews without review gating</Link>.</li>
+          </ul>
+          <h3 style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1rem", color: "var(--chalk)", margin: "24px 0 12px" }}>Same-day access and honest wording</h3>
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "720px", margin: 0 }}>
+            Many family practices keep a few appointments open each day for sick visits. If yours does, say so plainly and do not
+            present the practice as urgent care; our guide to{" "}
+            <Link href="/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice" style={{ color: "var(--gold)", textDecoration: "underline" }}>getting found for same-day and walk-in visits</Link>{" "}
+            shows how to word it. We do not promise rankings or patient counts, because results depend on your market, your
+            reviews and how quickly your front desk answers. Our <Link href="/primary-care" style={{ color: "var(--gold)", textDecoration: "underline" }}>primary care marketing page</Link>{" "}
+            explains the full approach.
+          </p>
+        </div>
+      </section>
+
       <FaqSection faqs={faqs} />
 
       {/* Related links (contextual internal linking) */}

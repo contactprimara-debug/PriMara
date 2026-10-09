@@ -72,7 +72,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "What suspension actually means" },
       {
         type: "p",
-        text: "Google suspends a Business Profile when something about it stops matching what Google believes the real-world business is. It is almost always an automated system reacting to a change — a new address, a name edit, a category added — and deciding the listing cannot be trusted until a human confirms it. So an appeal is not an argument. It is evidence that a real practice operates at that address under that name. A common cause is choosing the wrong profile type, which our guide on [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) helps you avoid.",
+        text: "Google suspends a Business Profile when something about it stops matching what Google believes the real-world business is. It is almost always an automated system reacting to a change — a new address, a name edit, a category added — and deciding the listing cannot be trusted until a human confirms it. So an appeal is not an argument. It is evidence that a real practice operates at that address under that name. A common cause is choosing the wrong profile type, which our guide on [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) helps you avoid. Home-based therapists should read [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home) before choosing an address setup, since a misleading location is a common cause of suspension.",
       },
       { type: "h2", text: "The five things that suspend medical listings" },
       {

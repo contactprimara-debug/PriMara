@@ -882,7 +882,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Until a profile is verified, you cannot fully manage it. You may be unable to reply to reviews, edit details, or have the listing appear for local searches. Verification is Google's check that the person asking for control really has a connection to the practice at the address shown. It is the first step in every listing, and it is separate from recovering a profile Google has suspended, which our guide on [fixing a suspended profile](/guides/fix-a-suspended-google-business-profile) covers."
+        "text": "Until a profile is verified, you cannot fully manage it. You may be unable to reply to reviews, edit details, or have the listing appear for local searches. Verification is Google's check that the person asking for control really has a connection to the practice at the address shown. It is the first step in every listing, and it is separate from recovering a profile Google has suspended, which our guide on [fixing a suspended profile](/guides/fix-a-suspended-google-business-profile) covers. Changing a location after verification can trigger another check, which is covered in [fixing a wrong map pin or location on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile)."
       },
       {
         "type": "h2",
@@ -1043,7 +1043,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The Atlantic hurricane season runs from June 1 to November 30, according to the National Hurricane Center. In those months a practice can close for a day or for weeks, and patients will look at Google before they drive or call. If the listing says open and the door is locked, the patient notices, and some will leave a review about it. A short routine keeps your listing accurate and lets patients know what to do instead."
+        "text": "The Atlantic hurricane season runs from June 1 to November 30, according to the National Hurricane Center. In those months a practice can close for a day or for weeks, and patients will look at Google before they drive or call. If the listing says open and the door is locked, the patient notices, and some will leave a review about it. A short routine keeps your listing accurate and lets patients know what to do instead. When the office is closed for a storm, a clear voicemail matters as much as the listing, so see [how to handle after-hours calls and voicemail at a medical practice](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice)."
       },
       {
         "type": "h2",
@@ -1116,7 +1116,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches."
+        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording."
       }
     ],
     "faqs": [
@@ -1897,7 +1897,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A provider appears in more places than most practices realize: the website, the Google listing, the state licensing page, insurance directories, review sites, social profiles and AI answers. After a change, any place that still shows the old roster sends patients to someone who is not there. Updating them is a short, repeatable job. Do it as a checklist, with one named owner and a due date, because a task that belongs to everyone usually gets done by no one. Keep the checklist where the office manager can find it the day a start or departure is announced."
+        "text": "A provider appears in more places than most practices realize: the website, the Google listing, the state licensing page, insurance directories, review sites, social profiles and AI answers. After a change, any place that still shows the old roster sends patients to someone who is not there. Updating them is a short, repeatable job. Do it as a checklist, with one named owner and a due date, because a task that belongs to everyone usually gets done by no one. Keep the checklist where the office manager can find it the day a start or departure is announced. A retirement or sale is a bigger version of the same change, and our checklist for [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers it."
       },
       {
         "type": "h2",
@@ -2065,7 +2065,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "When someone searches a doctor's name, the results often include a directory page next to the practice's own site. Those pages exist whether or not you ever touched them. The directories build them from public records, such as state licensing data and the national provider registry, so an unclaimed profile may hold an old address, a closed office or a missing specialty. Answer engines also draw on pages like these, though we cannot see which sources any one answer used, and nobody can promise that a profile earns a mention. Therapists weighing a directory such as Psychology Today can see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists)."
+        "text": "When someone searches a doctor's name, the results often include a directory page next to the practice's own site. Those pages exist whether or not you ever touched them. The directories build them from public records, such as state licensing data and the national provider registry, so an unclaimed profile may hold an old address, a closed office or a missing specialty. Answer engines also draw on pages like these, though we cannot see which sources any one answer used, and nobody can promise that a profile earns a mention. Therapists weighing a directory such as Psychology Today can see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists). Plan changes also need to reach each directory, and [what to update online when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) gives the order to do it in."
       },
       {
         "type": "h2",
@@ -2114,7 +2114,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Inconsistent details confuse patients and weaken trust signals. If the website says suite 200 and a directory says suite 20, patients and search engines see two different offices. Pick one version of the name, address and phone, as in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and make every profile match. When a provider joins or leaves, update these profiles in the same sweep. Our [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) shows the order."
+        "text": "Inconsistent details confuse patients and weaken trust signals. If the website says suite 200 and a directory says suite 20, patients and search engines see two different offices. Pick one version of the name, address and phone, as in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and make every profile match. When a provider joins or leaves, update these profiles in the same sweep. Our [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) shows the order. Directory profiles are where an outdated yes is most common, so use [how to keep your accepting new patients status accurate across listings](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories)."
       },
       {
         "type": "h2",
@@ -2442,7 +2442,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A hidden address means no pin on the map, and patients cannot see where to go, which suits house calls and confuses office visits. Hiding the address of a practice that sees patients in person violates the guidelines and misleads patients. Patients of a house-call practice, by contrast, only need the phone number, the covered areas and the hours. Local results depend on distance, relevance and prominence, and Google makes no promise about placement for any type. For a hidden-address profile, rank tracking tools that rely on the map pin do not work well, so see our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) for what to use."
+        "text": "A hidden address means no pin on the map, and patients cannot see where to go, which suits house calls and confuses office visits. Hiding the address of a practice that sees patients in person violates the guidelines and misleads patients. Patients of a house-call practice, by contrast, only need the phone number, the covered areas and the hours. Local results depend on distance, relevance and prominence, and Google makes no promise about placement for any type. For a hidden-address profile, rank tracking tools that rely on the map pin do not work well, so see our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) for what to use. Solo clinicians who work from home or by video face a special case, covered in [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home)."
       },
       {
         "type": "h2",

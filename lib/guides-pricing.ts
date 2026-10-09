@@ -456,7 +456,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The second complication is tracking. Sending an ad platform data that ties a specific person to a specific health interest is exactly the kind of disclosure that health privacy rules exist to prevent. That shapes how conversion tracking has to be built, which is a real cost line and the thing most agencies get wrong. The map pack is a third option beside these two; see [local pack vs organic vs Google Ads](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice) for how a limited budget should be ordered.",
+        text: "The second complication is tracking. Sending an ad platform data that ties a specific person to a specific health interest is exactly the kind of disclosure that health privacy rules exist to prevent. That shapes how conversion tracking has to be built, which is a real cost line and the thing most agencies get wrong. The map pack is a third option beside these two; see [local pack vs organic vs Google Ads](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice) for how a limited budget should be ordered. A third paid option, Google's [Local Services Ads](/guides/local-services-ads-for-a-medical-practice-eligibility-and-what-to-expect), is offered only for certain categories, so confirm whether counseling is available in your area before planning around it.",
       },
       {
         type: "h2",

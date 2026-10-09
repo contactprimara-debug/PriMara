@@ -26,7 +26,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The title tag is the line of text in your page's HTML that tells browsers and search engines what the page is called. It appears on the browser tab, and Google often uses it as the blue headline in search results. For a patient scanning ten results on a phone, it is the first thing they read about your practice and frequently the only thing."
+        "text": "The title tag is the line of text in your page's HTML that tells browsers and search engines what the page is called. It appears on the browser tab, and Google often uses it as the blue headline in search results. For a patient scanning ten results on a phone, it is the first thing they read about your practice and frequently the only thing. A page about same-day access needs a title that says exactly what is offered, as shown in [getting found for same-day visits as a primary care practice](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice)."
       },
       {
         "type": "p",

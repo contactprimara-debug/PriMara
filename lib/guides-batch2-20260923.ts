@@ -376,7 +376,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Why untracked phone calls are the biggest blind spot in medical marketing" },
       {
         type: "p",
-        text: "Most patients calling a practice from a mobile search never fill out a form — they tap the number and call directly, especially from the Google Business Profile map pack. Without call tracking, that entire conversion path is invisible to your analytics: you can see clicks and impressions, but not whether they turned into a booked patient. This is the single most common reason a practice's marketing looks like it isn't working when it actually is.",
+        text: "Most patients calling a practice from a mobile search never fill out a form — they tap the number and call directly, especially from the Google Business Profile map pack. Without call tracking, that entire conversion path is invisible to your analytics: you can see clicks and impressions, but not whether they turned into a booked patient. This is the single most common reason a practice's marketing looks like it isn't working when it actually is. Form submissions need the same honest counting as calls, and [blocking spam on a medical practice contact form](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form) explains how to keep fake leads out of your totals.",
       },
       { type: "h2", text: "Two ways to track calls, and when to use each" },
       {
@@ -417,7 +417,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Checking that it's actually working" },
       {
         type: "p",
-        text: "Call your own tracked number from a phone, confirm the event fires in GA4 Realtime within a minute, and confirm it shows up as a conversion in Google Ads within 24 hours (Ads conversions aren't instant). Do this after any website redesign or CRM/analytics platform change — call tracking is one of the most common things silently broken by an unrelated update. If patients can also book online, track that path too, as covered in [online appointment scheduling on a practice website and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Callers can also be asked how they heard about you, which catches word of mouth that call tracking cannot see; see [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing).",
+        text: "Call your own tracked number from a phone, confirm the event fires in GA4 Realtime within a minute, and confirm it shows up as a conversion in Google Ads within 24 hours (Ads conversions aren't instant). Do this after any website redesign or CRM/analytics platform change — call tracking is one of the most common things silently broken by an unrelated update. If patients can also book online, track that path too, as covered in [online appointment scheduling on a practice website and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Callers can also be asked how they heard about you, which catches word of mouth that call tracking cannot see; see [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing). Calls that arrive outside business hours deserve their own count, and our guide on [handling after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) explains how to answer them safely.",
       },
     ],
     faqs: [
