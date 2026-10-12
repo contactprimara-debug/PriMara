@@ -69,7 +69,7 @@ export const guidesPartFour: Guide[] = [
       },
       {
         type: "p",
-        text: "A fourteen-dollar click that converts at eight percent beats a six-dollar click that converts at one percent. The number to actually track is cost per booked appointment, and you cannot see it without tying the ad campaign to a phone call and a form fill, not just a click. This is where most in-house attempts at Google Ads for a practice quietly fail: the ad account shows clicks and impressions, nobody connects them to what happened after the phone rang.",
+        text: "A fourteen-dollar click that converts at eight percent beats a six-dollar click that converts at one percent. The number to actually track is cost per booked appointment, and you cannot see it without tying the ad campaign to a phone call and a form fill, not just a click. This is where most in-house attempts at Google Ads for a practice quietly fail: the ad account shows clicks and impressions, nobody connects them to what happened after the phone rang. Whichever route you choose, ask to see [dated case studies](/case-studies) from practices like yours, and read the part that lists what has not worked yet.",
       },
       {
         type: "h2",

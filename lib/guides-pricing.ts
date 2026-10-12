@@ -46,7 +46,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "These are the ranges we see quoted to independent practices across South Florida, Tampa, Orlando, and Jacksonville. They are market observations, not Primara's fee. Anything meaningfully below the entry tier is almost always automated directory submissions sold as SEO. If budget is tight, [local pack vs organic results vs Google Ads](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice) explains which channel to fund first.",
+        text: "These are the ranges we see quoted to independent practices across South Florida, Tampa, Orlando, and Jacksonville. They are market observations, not Primara's fee. Anything meaningfully below the entry tier is almost always automated directory submissions sold as SEO. If budget is tight, [local pack vs organic results vs Google Ads](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice) explains which channel to fund first. Before you commit to a monthly fee, compare it against [client case studies with dates and sources](/case-studies) so you can see what a practice actually received over a stated period.",
       },
       {
         type: "table",
