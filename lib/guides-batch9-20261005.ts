@@ -151,7 +151,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-12",
     readMinutes: 6,
     sections: [
       {
@@ -198,7 +198,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone."
+        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot."
       }
     ],
     faqs: [

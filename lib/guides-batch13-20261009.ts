@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-12",
     "readMinutes": 7,
     "sections": [
       {
@@ -225,7 +225,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly."
+        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website)."
       },
       {
         "type": "h2",
@@ -395,7 +395,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-12",
     "readMinutes": 7,
     "sections": [
       {
@@ -467,7 +467,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A simple rule works well: the page that asks a patient for details gets no marketing scripts, while the page that merely describes the new patient process can carry normal analytics."
+        "text": "A simple rule works well: the page that asks a patient for details gets no marketing scripts, while the page that merely describes the new patient process can carry normal analytics. Video-session instructions follow the same rule: keep them on a separate [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) with no health questions on it."
       },
       {
         "type": "h2",
@@ -485,7 +485,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious."
+        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together."
       },
       {
         "type": "callout",
@@ -1336,7 +1336,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Accepting new patients is one of the most checked facts about a practice, and it is stated in many places: your site, your profile, directories and insurance lists. Decide the status once, word it plainly with a date, update every listing the same day it changes, and review the list monthly.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-12",
     "readMinutes": 7,
     "sections": [
       {
@@ -1434,7 +1434,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches."
+        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions."
       },
       {
         "type": "callout",
@@ -1523,7 +1523,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A therapist working from home or by telehealth can usually still have a Google Business Profile. Whether to show an address depends on whether clients visit that location. If clients do not come to your home, hide the address and list a service area. Never borrow a mailbox or virtual office address to appear local.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-12",
     "readMinutes": 7,
     "sections": [
       {
@@ -1613,7 +1613,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Your website should explain the same facts. Our blog post on [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists) covers categories and descriptions in more detail, and the [telehealth marketing playbook](/guides/telehealth-marketing-playbook) covers how to describe remote care clearly."
+        "text": "Your website should explain the same facts. Our blog post on [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists) covers categories and descriptions in more detail, and the [telehealth marketing playbook](/guides/telehealth-marketing-playbook) covers how to describe remote care clearly. If you see clients by video, link a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) from the same place."
       },
       {
         "type": "h2",
@@ -1625,7 +1625,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "callout",
-        "text": "If you ever find your home address published on a listing you did not create, report it through the profile or Maps support right away, and consider whether you need to hide the address on your own profile."
+        "text": "If you ever find your home address published on a listing you did not create, report it through the profile or Maps support right away, and consider whether you need to hide the address on your own profile. Because there is no walk-in office to point to, add a calm note that links to your [crisis resources section](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) for anyone who reaches the profile in distress."
       }
     ],
     "faqs": [
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-12",
     "readMinutes": 7,
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page."
+        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment."
       },
       {
         "type": "h2",
@@ -1798,7 +1798,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "People visiting a therapy website may be in distress. Put a short, visible note near the top or bottom that says this site and phone line are not for emergencies, and that anyone in crisis can call or text 988, the Suicide and Crisis Lifeline, or call 911. Keep the wording calm and plain. You can link this page from each of your [anxiety, trauma and couples specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), so a reader who is curious about the focus can also see what the first visit involves."
+        "text": "People visiting a therapy website may be in distress. Put a short, visible note near the top or bottom that says this site and phone line are not for emergencies, and that anyone in crisis can call or text 988, the Suicide and Crisis Lifeline, or call 911. Keep the wording calm and plain. You can link this page from each of your [anxiety, trauma and couples specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), so a reader who is curious about the focus can also see what the first visit involves. Our guide on the [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) shows full wording and placement."
       },
       {
         "type": "h2",
@@ -1816,7 +1816,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan."
+        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session."
       },
       {
         "type": "callout",
@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-12",
     "readMinutes": 7,
     "sections": [
       {
@@ -2190,7 +2190,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Same-day access is one of many reasons a patient picks a practice. It works best next to a clear new patient page, a strong profile and good reviews. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) shows how those pieces connect, and the guide on [getting more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile) covers the profile work."
+        "text": "Same-day access is one of many reasons a patient picks a practice. It works best next to a clear new patient page, a strong profile and good reviews. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) shows how those pieces connect, and the guide on [getting more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile) covers the profile work. A first-visit checklist, such as a [page telling new patients what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients), keeps the next step clear for someone who has just booked a same-day slot."
       },
       {
         "type": "callout",

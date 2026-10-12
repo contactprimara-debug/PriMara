@@ -2513,7 +2513,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Keep one permanent page for each seasonal service, such as flu shots or school physicals, and update it every year rather than publishing a new page each season. Put the current dates, how to book and what to bring at the top, keep medical statements general and sourced, and archive nothing that patients may still search for.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-12",
   "readMinutes": 6,
   "sections": [
     {
@@ -2604,7 +2604,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Support the seasonal pages with a post on your Business Profile at the start of the season; see [what to post on a Google Business Profile](/guides/what-to-post-on-google-business-profile-for-a-medical-practice). A content plan helps; our [content calendar checklist](/guides/medical-practice-content-calendar-checklist) shows where to place these."
+      "text": "Support the seasonal pages with a post on your Business Profile at the start of the season; see [what to post on a Google Business Profile](/guides/what-to-post-on-google-business-profile-for-a-medical-practice). A content plan helps; our [content calendar checklist](/guides/medical-practice-content-calendar-checklist) shows where to place these. The same approach works for a year-round preventive service, such as an [annual wellness visit page written without clinical claims](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims)."
     },
     {
       "type": "callout",

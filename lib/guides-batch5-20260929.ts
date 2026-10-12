@@ -22,7 +22,7 @@ export const guidesPartEight: Guide[] = [
       "A group therapy practice markets differently than a solo therapist: instead of one personal brand, it needs a practice-level Google Business Profile plus individual clinician visibility, a website that routes each inquiry to the right specialty and availability, and a review and referral system that doesn't pit therapists against each other for the same leads. Getting the routing wrong is the most common reason group practices grow slower than their solo-therapist competitors.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-12",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Group practices have a structural marketing problem solo therapists don't" },
@@ -33,7 +33,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Structure the site around the client's decision, not the org chart" },
       {
         type: "p",
-        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two. A plain page explaining what happens at the first appointment lowers the barrier to calling, as described in [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Once the basics are in place, give each focus its own page, as our guide on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) explains, with plain language and no promises of results.",
+        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two. A plain page explaining what happens at the first appointment lowers the barrier to calling, as described in [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Once the basics are in place, give each focus its own page, as our guide on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) explains, with plain language and no promises of results. Whichever clinician a client chooses, every page should carry the same [crisis and emergency notice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) so no one is left searching for it.",
       },
       { type: "h2", text: "The five pieces a group practice needs" },
       {
@@ -244,13 +244,13 @@ export const guidesPartEight: Guide[] = [
       "Telehealth marketing loses the local-pack advantage a physical office gets from Google Business Profile, so it has to work harder on the website itself: state-by-state licensing clarity, what conditions are and aren't appropriate for a virtual visit, real scheduling and insurance detail, and HIPAA-safe tracking on every page — since a telehealth site is often the entire patient acquisition funnel with no office visit to fall back on.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-12",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "No physical office changes the whole strategy" },
       {
         type: "p",
-        text: "A brick-and-mortar practice can lean on Google Business Profile and the local pack to do a lot of the acquisition work. A pure telehealth service either has no eligible physical location to register a full-featured profile for, or serves an area far larger than any local pack reflects, so the website itself has to carry more of the weight — clear service pages, real content answering telehealth-specific questions, and paid or organic reach that isn't tied to a single city's local results the way an in-person practice's would be. For the in-person side of that contest, see [what local SEO means for doctors](/blog/what-is-local-seo-for-doctors). For a clinician who sees clients only by video, the address question is covered in [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home).",
+        text: "A brick-and-mortar practice can lean on Google Business Profile and the local pack to do a lot of the acquisition work. A pure telehealth service either has no eligible physical location to register a full-featured profile for, or serves an area far larger than any local pack reflects, so the website itself has to carry more of the weight — clear service pages, real content answering telehealth-specific questions, and paid or organic reach that isn't tied to a single city's local results the way an in-person practice's would be. For the in-person side of that contest, see [what local SEO means for doctors](/blog/what-is-local-seo-for-doctors). For a clinician who sees clients only by video, the address question is covered in [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home). Once a client books, a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) tells them how to join the video session and what to do if the call drops.",
       },
       { type: "h2", text: "State licensing has to be addressed directly, not buried" },
       {
@@ -389,7 +389,7 @@ export const guidesPartEight: Guide[] = [
       "The Google Business Profile services list should name every real service the practice offers as its own individual line item, in the patient's own language rather than clinical shorthand, matched to the primary category chosen for the listing — a practice that lumps everything into three vague categories is invisible to the specific searches ('does this urgent care do sports physicals') that a fully built-out services list captures automatically.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-12",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "The services list is a search-matching tool, not a brochure" },
@@ -425,7 +425,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Who should actually do this work, and how long it takes" },
       {
         type: "p",
-        text: "Building out a full services list properly for the first time is a one-to-two-hour task for a single-provider practice, longer for a multi-provider or multi-specialty office where the list genuinely needs to reflect several different capabilities. It's worth doing as a dedicated sit-down rather than a few minutes squeezed between patients — the value of a complete list comes from it actually being comprehensive and accurately worded, not from checking a box that says services were added. Whoever manages the practice's marketing, whether in-house or an agency, should be able to say specifically when the list was last reviewed and what changed. An outdated services list is a common source of wrong chatbot answers, covered in [how to fix wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). The services list sits next to the description field, which has its own rules, covered in [how to write a Google Business Profile description](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice).",
+        text: "Building out a full services list properly for the first time is a one-to-two-hour task for a single-provider practice, longer for a multi-provider or multi-specialty office where the list genuinely needs to reflect several different capabilities. It's worth doing as a dedicated sit-down rather than a few minutes squeezed between patients — the value of a complete list comes from it actually being comprehensive and accurately worded, not from checking a box that says services were added. Whoever manages the practice's marketing, whether in-house or an agency, should be able to say specifically when the list was last reviewed and what changed. An outdated services list is a common source of wrong chatbot answers, covered in [how to fix wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). The services list sits next to the description field, which has its own rules, covered in [how to write a Google Business Profile description](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice). When you add a preventive service such as the yearly wellness visit to the list, match the name used on your [annual wellness visit page](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) exactly.",
       },
       {
         type: "p",

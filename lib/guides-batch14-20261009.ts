@@ -15,7 +15,7 @@ export const guidesPartSeventeen: Guide[] = [
   "answer": "A therapy fees page should state each session fee and length, say plainly whether you take insurance or are out of network, explain whether you give superbills clients can submit to their own plan, and describe any sliding scale honestly. Avoid promising reimbursement or outcomes, and update the page whenever rates change.",
   "author": "Liam Costello",
   "publishDate": "2026-10-09T13:00:00Z",
-  "dateModified": "2026-10-09",
+  "dateModified": "2026-10-12",
   "readMinutes": 6,
   "sections": [
     {
@@ -135,7 +135,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If you also publish prices for other services, the same accuracy rules apply. Our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to keep numbers consistent. For the wider plan, see our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook)."
+      "text": "If you also publish prices for other services, the same accuracy rules apply. Our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to keep numbers consistent. For the wider plan, see our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook). Place a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) next to the fee table, since late-cancellation charges are part of what a client will pay."
     },
     {
       "type": "callout",
