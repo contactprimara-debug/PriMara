@@ -144,7 +144,7 @@ export default function CaseStudiesHub() {
           <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: "28px 0 12px" }}>
             What we count
           </h3>
-          <ul style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, paddingLeft: "1.25rem", margin: "0 0 16px" }}>
+          <ul style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, paddingLeft: "1.25rem", margin: "0 0 16px", listStyle: "disc" }}>
             <li>Form requests: a person filled in the contact form on the practice website.</li>
             <li>Pages Google reports as indexed: pages that Google has read and can show in results.</li>
             <li>Reviews answered: Google reviews that now carry a reply from the practice.</li>
