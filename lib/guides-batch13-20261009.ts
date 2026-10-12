@@ -1532,7 +1532,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many solo therapists practice from a home office or run their whole practice by video. They want to be found on Google, but they do not want a client, or anyone else, to learn where they live. That concern is reasonable, and Google's rules have a path for it, as long as you describe your business honestly."
+        "text": "Many solo therapists practice from a home office or run their whole practice by video. They want to be found on Google, but they do not want a client, or anyone else, to learn where they live. That concern is reasonable, and Google's rules have a path for it, as long as you describe your business honestly. Clients who reach a profile without a visible office also need to know where to turn in an emergency, which our guide to a [crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains."
       },
       {
         "type": "p",
@@ -1625,7 +1625,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "callout",
-        "text": "If you ever find your home address published on a listing you did not create, report it through the profile or Maps support right away, and consider whether you need to hide the address on your own profile. Because there is no walk-in office to point to, add a calm note that links to your [crisis resources section](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) for anyone who reaches the profile in distress."
+        "text": "If you ever find your home address published on a listing you did not create, report it through the profile or Maps support right away, and consider whether you need to hide the address on your own profile."
       }
     ],
     "faqs": [
