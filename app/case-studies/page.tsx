@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import { caseStudies, CASE_DATA_DATE } from "@/lib/case-studies";
+import FaqSection from "@/components/FaqSection";
 
 const PAGE_URL = `${SITE_URL}/case-studies`;
 const TITLE = "Case Studies: Real Client Numbers With Dates | Primara";
@@ -34,6 +35,29 @@ const headline: Record<string, { big: string; label: string }[]> = {
     { big: "Early", label: "Google listing not yet verified; see the page" },
   ],
 };
+
+const faqs = [
+  {
+    q: "Why do your case studies show dates on every number?",
+    a: "A number without a date range cannot be checked. Each result shows the days it covers so a practice can read the same figure from its own Google Search Console, Google Analytics or review inbox and see whether it matches.",
+  },
+  {
+    q: "Why do you count form requests but not impressions or clicks?",
+    a: "Impressions and clicks show that a page was seen, not that a person asked for an appointment. A form request is a person reaching out, so it is the closest measure we have to a patient inquiry. We report calls separately and never add them to form requests.",
+  },
+  {
+    q: "Do you promise a practice will see the same results?",
+    a: "No. Every practice starts from a different site, a different city and a different amount of competition. These pages show what happened for three practices over a stated period, including what has not moved yet. They are not a forecast for anyone else.",
+  },
+  {
+    q: "Do the case studies include patient information?",
+    a: "No. We use no patient names, no case details and no clinical outcomes. The numbers are counts of requests, indexed pages and answered reviews, taken from our own records and from Google.",
+  },
+  {
+    q: "What happens in the free audit?",
+    a: "We review the practice's Google Business Profile, website, tracking and reviews, then send a written report in 3 to 5 business days. You decide afterwards whether you want help with any of it.",
+  },
+];
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -105,6 +129,45 @@ export default function CaseStudiesHub() {
           ))}
         </div>
       </section>
+
+      <section style={{ backgroundColor: "var(--void)", padding: "clamp(36px, 6vw, 72px) 0", borderTop: "1px solid var(--wire)" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8" style={{ maxWidth: "820px" }}>
+          <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 400, color: "var(--chalk)", marginBottom: "16px" }}>
+            How to read these numbers
+          </h2>
+          <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, marginBottom: "16px" }}>
+            Each case study follows the same order. It says who the practice is using public facts only, lists what we did, shows the results with their dates, and ends with a short list of what has not moved. The last part matters most to us, because a page that only lists wins is hard to trust.
+          </p>
+          <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, marginBottom: "16px" }}>
+            Search results take time. A new page often needs weeks before Google reads it, and longer before it earns visits. For that reason we show the start and end of the period, so a reader can see how long a change took and whether it has finished.
+          </p>
+          <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: "28px 0 12px" }}>
+            What we count
+          </h3>
+          <ul style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, paddingLeft: "1.25rem", margin: "0 0 16px" }}>
+            <li>Form requests: a person filled in the contact form on the practice website.</li>
+            <li>Pages Google reports as indexed: pages that Google has read and can show in results.</li>
+            <li>Reviews answered: Google reviews that now carry a reply from the practice.</li>
+          </ul>
+          <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: "28px 0 12px" }}>
+            What we do not count as a result
+          </h3>
+          <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, marginBottom: "16px" }}>
+            We do not present impressions, clicks or call taps as results. They are useful signals, and we watch them, but they do not tell you whether a person asked for care. We also do not claim a ranking position as a win unless it is tied to something a practice can measure for itself.
+          </p>
+          <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, marginBottom: "16px" }}>
+            If you want the method behind a number, ask. Every figure on these pages was read from a named source on the date shown, and we keep the source list so a figure can be checked again.
+          </p>
+          <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: "28px 0 12px" }}>
+            Where to go next
+          </h3>
+          <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, marginBottom: "16px" }}>
+            If you run a therapy or counseling practice, our <Link href="/therapist-seo" style={{ color: "var(--gold)" }}>therapist SEO service</Link> page explains what we would do first. If you run a primary care or family medicine office, see our <Link href="/primary-care" style={{ color: "var(--gold)" }}>primary care marketing</Link> page. For a plain explanation of how to judge any marketing report, read our guide on <Link href="/guides/how-to-measure-roi-on-medical-practice-marketing" style={{ color: "var(--gold)" }}>measuring ROI on medical practice marketing</Link>.
+          </p>
+        </div>
+      </section>
+
+      <FaqSection faqs={faqs} />
 
       <section style={{ backgroundColor: "var(--color-primary)", borderTop: "3px solid var(--ember)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-14 text-center">

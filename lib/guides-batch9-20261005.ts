@@ -45,7 +45,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the Pages tab to see which URLs earn clicks and the Queries tab to see the searches. Set the date range to compare the last three months to the prior three months, and choose a full-month view before drawing conclusions, because a single week is noise. Impressions rising with clicks flat means you are being seen more but not chosen, which usually points to titles and descriptions. Our guide on [meta descriptions that get clicks](/guides/meta-descriptions-that-get-clicks-for-a-medical-practice) covers that fix."
+        "text": "Use the Pages tab to see which URLs earn clicks and the Queries tab to see the searches. Set the date range to compare the last three months to the prior three months, and choose a full-month view before drawing conclusions, because a single week is noise. Impressions rising with clicks flat means you are being seen more but not chosen, which usually points to titles and descriptions. Our guide on [meta descriptions that get clicks](/guides/meta-descriptions-that-get-clicks-for-a-medical-practice) covers that fix. Search Console is better checked monthly, while a [short weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) catches quick problems such as a dead phone line or an unanswered review."
       },
       {
         "type": "h2",
@@ -178,7 +178,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy."
+        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second."
       },
       {
         "type": "h2",

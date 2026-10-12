@@ -561,7 +561,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "GA4 reports engagement rate, which is the share of sessions that were engaged. Google's definition counts a session as engaged if it lasted longer than ten seconds, had a key event or had at least two page or screen views. Google explains this in its help on [engagement rate and bounce rate](https://support.google.com/analytics/answer/12195621). A falling engagement rate on an important page suggests the page is not meeting what visitors expected, though a single month is rarely conclusive."
+        "text": "GA4 reports engagement rate, which is the share of sessions that were engaged. Google's definition counts a session as engaged if it lasted longer than ten seconds, had a key event or had at least two page or screen views. Google explains this in its help on [engagement rate and bounce rate](https://support.google.com/analytics/answer/12195621). A falling engagement rate on an important page suggests the page is not meeting what visitors expected, though a single month is rarely conclusive. If you want to know which listing sent a visit, add [UTM labels on listing links](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), and then read the source column in the acquisition report each month."
       },
       {
         "type": "h2",

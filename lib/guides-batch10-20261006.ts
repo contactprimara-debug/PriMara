@@ -1942,7 +1942,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
+        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction."
       },
       {
         "type": "h2",
@@ -2134,7 +2134,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Set a calendar reminder to review every claimed profile twice a year, and check them whenever a provider's details change. Keep a simple list of each directory, the login owner, the date you last checked and what you changed. That list is what lets a new office manager take over without starting from zero."
+        "text": "Set a calendar reminder to review every claimed profile twice a year, and check them whenever a provider's details change. Keep a simple list of each directory, the login owner, the date you last checked and what you changed. That list is what lets a new office manager take over without starting from zero. Practices with privileges at a local hospital should also check the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), since that page often ranks for a clinician's name."
       }
     ],
     "faqs": [

@@ -1203,7 +1203,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If views are steady but calls fall, check that your phone number, hours and primary category are correct and that the call button works. If direction requests fall, check the address and map pin. If website clicks fall, confirm the website link still loads the right page. Our [monthly Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) lists the checks to run each month."
+      "text": "If views are steady but calls fall, check that your phone number, hours and primary category are correct and that the call button works. If direction requests fall, check the address and map pin. If website clicks fall, confirm the website link still loads the right page. Our [monthly Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) lists the checks to run each month. To compare Google's own click numbers with what happens on your site, put a [UTM link on your profile's website button](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) and check the source in Analytics."
     },
     {
       "type": "callout",
@@ -1341,7 +1341,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies."
+      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button."
     },
     {
       "type": "h2",

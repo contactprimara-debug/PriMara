@@ -88,7 +88,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Two hard rules. Do not offer anything of value for a review; the Federal Trade Commission's consumer review rule treats incentivized reviews as deceptive when the incentive is undisclosed or conditioned on sentiment. Do not screen patients before asking — sending happy ones to Google and unhappy ones to a private form is review gating, prohibited by Google and covered by the same FTC rule. None of this works until the listing is confirmed, as our guide on [verifying a profile for a medical practice](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice) explains.",
+        text: "Two hard rules. Do not offer anything of value for a review; the Federal Trade Commission's consumer review rule treats incentivized reviews as deceptive when the incentive is undisclosed or conditioned on sentiment. Do not screen patients before asking — sending happy ones to Google and unhappy ones to a private form is review gating, prohibited by Google and covered by the same FTC rule. None of this works until the listing is confirmed, as our guide on [verifying a profile for a medical practice](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice) explains. A practical way to make asking easy is to set up a [QR code and a short link for review requests](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice), which takes a patient straight to the review box on their own phone.",
       },
       {
         type: "p",
@@ -566,7 +566,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "A correctly executed first quarter in a mid-competition Florida city usually produces a verified profile appearing for branded and a handful of neighborhood searches, ten to twenty reviews, a site indexed with eight to twelve pages, and a measurable trickle of calls from the profile. That is not a full schedule. It is the foundation that makes months four through nine produce one, and it is roughly a two-to-three-quarter path to a steady flow of new patients from search. One of the first decisions is the web address, which we cover in our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice).",
+        text: "A correctly executed first quarter in a mid-competition Florida city usually produces a verified profile appearing for branded and a handful of neighborhood searches, ten to twenty reviews, a site indexed with eight to twelve pages, and a measurable trickle of calls from the profile. That is not a full schedule. It is the foundation that makes months four through nine produce one, and it is roughly a two-to-three-quarter path to a steady flow of new patients from search. One of the first decisions is the web address, which we cover in our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice). Before you open your doors, walk the route a patient takes and write down [parking and entrance information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile), since first-visit confusion is easy to prevent. After launch, hand the routine to the practice manager as a [weekly 15-minute check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager), covering reviews, the phone line, the profile and the website.",
       },
     ],
     faqs: [

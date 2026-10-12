@@ -299,7 +299,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them."
+        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them. Hospital and health system directories are a common source of an old address, so check how [hospital and health system provider directories](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) display your clinicians."
       },
       {
         "type": "h2",
@@ -751,7 +751,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Accessibility 'overlay' widgets that promise instant compliance with one line of code do not fix the underlying markup, and sites that use them have still been sued. Fix the template itself. Then test with a keyboard, with a screen reader such as the one built into your phone, and with an automated checker, knowing that automated tools catch only part of the problems."
+        "text": "Accessibility 'overlay' widgets that promise instant compliance with one line of code do not fix the underlying markup, and sites that use them have still been sued. Fix the template itself. Then test with a keyboard, with a screen reader such as the one built into your phone, and with an automated checker, knowing that automated tools catch only part of the problems. Accessibility also applies to the building, and our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) explains what patients need to know before they arrive."
       },
       {
         "type": "p",

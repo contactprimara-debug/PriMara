@@ -884,7 +884,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "The line isn't always obvious — a message that's mostly transactional but adds a promotional line (\"Your appointment is confirmed. Also, ask about our new Saturday hours!\") can push the whole message into marketing territory under TCPA's own interpretation of mixed-content messages. When a message blends both purposes, treat it as marketing and require the written consent.",
+        text: "The line isn't always obvious — a message that's mostly transactional but adds a promotional line (\"Your appointment is confirmed. Also, ask about our new Saturday hours!\") can push the whole message into marketing territory under TCPA's own interpretation of mixed-content messages. When a message blends both purposes, treat it as marketing and require the written consent. If you would rather not send review links by text at all, a printed sign using [QR codes and short links for review requests](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice) reaches patients at the desk without a message.",
       },
       { type: "h2", text: "What written consent needs to include" },
       {

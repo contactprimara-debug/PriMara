@@ -290,7 +290,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "A group practice has a different problem: every new clinician needs a pipeline from day one or they leave. That means per-clinician pages, per-modality pages, intake capacity that can absorb the volume, and usually paid search to smooth the gaps. Two thousand five hundred to five thousand a month is the normal band, and the number that matters is cost per booked intake, not cost per click.",
+        text: "A group practice has a different problem: every new clinician needs a pipeline from day one or they leave. That means per-clinician pages, per-modality pages, intake capacity that can absorb the volume, and usually paid search to smooth the gaps. Two thousand five hundred to five thousand a month is the normal band, and the number that matters is cost per booked intake, not cost per click. Part of any therapy marketing budget goes to writing [specialty pages without clinical claims](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), and each one needs its own substance rather than a reworded copy.",
       },
       {
         type: "h2",
@@ -468,7 +468,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The Google Business Profile compounds this. For any search with local intent, Google shows a three-result map pack above everything else. Getting into it is largely a function of correct categories, proximity, and review velocity — all three of which are work, not spend. Setup specifics for therapists are in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists).",
+        text: "The Google Business Profile compounds this. For any search with local intent, Google shows a three-result map pack above everything else. Getting into it is largely a function of correct categories, proximity, and review velocity — all three of which are work, not spend. Setup specifics for therapists are in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists). Search traffic for a focus such as anxiety usually lands on a dedicated [anxiety, trauma or couples page](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), which is why each specialty deserves its own honest page.",
       },
       {
         type: "h2",

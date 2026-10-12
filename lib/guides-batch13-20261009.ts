@@ -1798,7 +1798,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "People visiting a therapy website may be in distress. Put a short, visible note near the top or bottom that says this site and phone line are not for emergencies, and that anyone in crisis can call or text 988, the Suicide and Crisis Lifeline, or call 911. Keep the wording calm and plain."
+        "text": "People visiting a therapy website may be in distress. Put a short, visible note near the top or bottom that says this site and phone line are not for emergencies, and that anyone in crisis can call or text 988, the Suicide and Crisis Lifeline, or call 911. Keep the wording calm and plain. You can link this page from each of your [anxiety, trauma and couples specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), so a reader who is curious about the focus can also see what the first visit involves."
       },
       {
         "type": "h2",
@@ -2164,7 +2164,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately."
+        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly."
       },
       {
         "type": "p",
