@@ -336,7 +336,7 @@ function Section({ section }: { section: GuideSection }) {
                       color: "var(--chalk)",
                       fontWeight: 600,
                       verticalAlign: "top",
-                      whiteSpace: "nowrap",
+                      width: "38%",
                     }}
                   >
                     {row[0]}
