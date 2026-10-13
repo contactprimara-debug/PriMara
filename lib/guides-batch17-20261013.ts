@@ -2113,7 +2113,9 @@ export const guidesPartTwenty: Guide[] = [
           "The billing phone number and hours match the contact page.",
           "The page does not discuss any diagnosis or reason for a visit.",
           "Any mention of a good faith estimate links to the federal overview.",
-          "Someone reviews the page after each change of billing vendor."
+          "Someone reviews the page after each change of billing vendor.",
+          "Staff know which questions to answer on the phone and which to pass to the billing lead.",
+          "The page loads quickly and reads well on a phone."
         ]
       }
     ],
@@ -2477,7 +2479,9 @@ export const guidesPartTwenty: Guide[] = [
           "An emergency notice tells patients to call 911 and not to use messages.",
           "The phone number and hours sit near the top.",
           "The page explains how a family member can be added with the patient's permission.",
-          "It is linked from the portal page and from appointment reminders."
+          "It is linked from the portal page and from appointment reminders.",
+          "Front desk staff have read it and give the same answers on the phone.",
+          "The page loads quickly and reads well on a phone."
         ]
       }
     ],
