@@ -301,7 +301,7 @@ function Section({ section }: { section: GuideSection }) {
     case "table":
       return (
         <div style={{ overflowX: "auto", margin: "0 0 1.75rem" }}>
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.95rem", minWidth: "520px" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.95rem", minWidth: (section.headers?.length ?? 0) > 2 ? "520px" : undefined }}>
             <thead>
               <tr>
                 {section.headers?.map((h, i) => (
