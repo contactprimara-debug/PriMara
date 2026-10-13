@@ -662,6 +662,19 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "If you track calls with a tracking number, check that one too. Call tracking numbers are newer and have no history, so they are sometimes flagged more readily than an established line. Our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) covers how to set up lines so every one of them is answered."
+      },
+      {
+        "type": "h3",
+        "text": "Keep a dated record"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Write down the date, carrier and label shown for each test call.",
+          "Save screenshots of any app labels with the date.",
+          "Note which line placed each batch of reminder calls.",
+          "Record the date each review request was submitted."
+        ]
       }
     ],
     "faqs": [
@@ -833,6 +846,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Link the team page from the about page, the new-patients page and each provider bio. Add a short sentence on the contact page, such as who answers the phone and in which hours. In your Google Business Profile, a team photo uploaded as a normal photo reinforces the same message. Keep names, roles and photos identical in all those places so a patient sees one practice, not three versions."
+      },
+      {
+        "type": "h3",
+        "text": "Before you publish the team page"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Every name, role and photo has written permission on file.",
+          "Credentials appear only where the person has confirmed them.",
+          "Roles match what appears on your Google Business Profile and directories.",
+          "Each clinician links to a full bio page.",
+          "The page contains no outcome claims, rankings or patient names.",
+          "Someone is assigned to review it each quarter and when staff change."
+        ]
       }
     ],
     "faqs": [
@@ -1015,6 +1043,19 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Review the page every time you change the schedule template. A page that says 20 minutes when the book has changed to 30 teaches patients that your website cannot be trusted."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Visit names match the scheduling system exactly.",
+          "Lengths are stated as typical scheduling blocks.",
+          "No sentence offers advice about which symptoms need which visit.",
+          "The booking page and phone script use the same names."
+        ]
       }
     ],
     "faqs": [
@@ -1353,6 +1394,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "If you already publish a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), keep the two pages consistent: the consultation is the step before the first session, so each should link to the other in one plain sentence."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The length, cost and format of the call are stated in numbers.",
+          "The page says plainly that the call is not therapy.",
+          "A crisis notice with 911 and 988 is visible without scrolling.",
+          "The form asks only for a name, contact details and a time.",
+          "No sentence promises or implies a result.",
+          "The wording has been checked against your licensing board's advertising rules."
+        ]
       }
     ],
     "faqs": [
@@ -1500,6 +1556,19 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Check the page once a year against your actual process. If you change vendors or release-of-information handling, update the page that week. This belongs on the same annual list as the policy pages we describe in [what to update when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires)."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The contact person, phone number and mailing method are current.",
+          "The form asks for identity and contact details only.",
+          "The fee, if any, has been confirmed by your compliance advisor.",
+          "The turnaround you state is one the office really meets."
+        ]
       }
     ],
     "faqs": [
@@ -1675,6 +1744,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "The plan list on this page should agree with your Google Business Profile, your directory entries and your fees page. When a plan leaves your network or joins it, update all of them, as explained in our guide on [what to update online when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). A mismatched list is the fastest way to create angry callers."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The plan list shows the date it was last confirmed with each insurer.",
+          "The page says a benefits check is an estimate and not a guarantee.",
+          "Out-of-network clients are pointed to the fees and superbill page.",
+          "The form asks for plan details only and never for the reason for therapy.",
+          "Member IDs are never requested by ordinary email.",
+          "The same plan list appears on Google and your directory profiles."
+        ]
       }
     ],
     "faqs": [
@@ -1823,6 +1907,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Keep the language plain. A page that is easy to scan on a phone, with the notice period in the first two lines, will do more than a long policy that no one reads."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The notice period is stated in business days that match your real process.",
+          "The page names the portal, phone and any other route that actually works.",
+          "No medicine, dose or instruction appears anywhere on the page.",
+          "An emergency notice mentions 911 and the Poison Help line.",
+          "Weekend, holiday and storm-closure handling is explained.",
+          "The page has been tested by following its own steps."
+        ]
       }
     ],
     "faqs": [
@@ -2001,6 +2100,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Review the page twice a year, and after any change of billing vendor. If staff change the payment portal, update the page the same day. A broken link on a billing page is the quickest way to produce an angry caller."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Every payment link goes to a secure address that begins with https.",
+          "No page, form or message asks patients for a card number by email or text.",
+          "The billing phone number and hours match the contact page.",
+          "The page does not discuss any diagnosis or reason for a visit.",
+          "Any mention of a good faith estimate links to the federal overview.",
+          "Someone reviews the page after each change of billing vendor."
+        ]
       }
     ],
     "faqs": [
@@ -2350,6 +2464,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice)."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Response times come from a month of real measurements, not hopes.",
+          "No sentence explains what a result means or what is normal.",
+          "An emergency notice tells patients to call 911 and not to use messages.",
+          "The phone number and hours sit near the top.",
+          "The page explains how a family member can be added with the patient's permission.",
+          "It is linked from the portal page and from appointment reminders."
+        ]
       }
     ],
     "faqs": [
@@ -2526,6 +2655,21 @@ export const guidesPartTwenty: Guide[] = [
       {
         "type": "p",
         "text": "Review the page every year and whenever you complete new training or change how you practice. A page that describes a method you no longer use is a small but real misstatement."
+      },
+      {
+        "type": "h3",
+        "text": "Check the page before you publish"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Every credential is one you hold and can verify, with the correct license type.",
+          "Methods are named in plain words and described honestly as trained, certified or used.",
+          "No sentence promises or predicts an outcome.",
+          "A crisis notice with 911 and 988 is easy to find.",
+          "The next step is one clear button that leads to a simple form.",
+          "A date is set to review the page after any new training."
+        ]
       }
     ],
     "faqs": [
