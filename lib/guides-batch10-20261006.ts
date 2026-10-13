@@ -1725,7 +1725,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Build real Spanish pages at their own web addresses, link each to its English twin with hreflang, translate titles and descriptions too, and have a fluent person review everything before it goes live. Research Spanish search terms separately. Only mention Spanish-language care if your staff or interpreters can truly provide it.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-13",
     "readMinutes": 6,
     "sections": [
       {
@@ -1742,7 +1742,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google recommends a separate address for each language version, such as a /es/ folder, rather than swapping text on the same URL. Each page then has its own title, description and headings, and each can rank on its own. Also set the language in the page code so browsers and assistive technology read it correctly."
+        "text": "Google recommends a separate address for each language version, such as a /es/ folder, rather than swapping text on the same URL. Each page then has its own title, description and headings, and each can rank on its own. Also set the language in the page code so browsers and assistive technology read it correctly. Before you translate a single page, decide how you will describe [languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) honestly, because that wording will appear on your website and your profile."
       },
       {
         "type": "table",
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-13",
     "readMinutes": 6,
     "sections": [
       {
@@ -1942,7 +1942,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction."
+        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves."
       },
       {
         "type": "h2",
@@ -1968,7 +1968,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Same day: scheduling, phone, voicemail and the website team page. First week: bio page, schema, Google profile and the major directories. Within a month: insurance directories, secondary directories, and a check of AI answers for the old name, as in our guide to [fixing wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the matching principle behind all of it."
+        "text": "Same day: scheduling, phone, voicemail and the website team page. First week: bio page, schema, Google profile and the major directories. Within a month: insurance directories, secondary directories, and a check of AI answers for the old name, as in our guide to [fixing wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the matching principle behind all of it. When a clinician leaves, patients will ask how to get their records, so link to a clear [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) from the notice."
       },
       {
         "type": "h2",
@@ -2056,7 +2056,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Physician directories such as Healthgrades, Zocdoc and Vitals often rank for a provider's name and can feed what AI assistants repeat. Claim each profile for free, match your name, address, phone, specialty and insurance to your website, and recheck twice a year. Evaluate paid products on patient volume, not on SEO promises.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-13",
     "readMinutes": 6,
     "sections": [
       {
@@ -2106,7 +2106,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Claim the profile with the provider's approval, since the provider usually has to verify. Expect each directory to ask for proof of identity or a license number, so gather those before you start. Some directories sell advertising or booking products, and a free claim does not require one. Our [local citation checklist](/guides/local-citation-building-checklist-for-a-medical-practice) lists the broader directories and the order to work through them."
+        "text": "Claim the profile with the provider's approval, since the provider usually has to verify. Expect each directory to ask for proof of identity or a license number, so gather those before you start. Some directories sell advertising or booking products, and a free claim does not require one. Our [local citation checklist](/guides/local-citation-building-checklist-for-a-medical-practice) lists the broader directories and the order to work through them. Insurance lists on directory profiles should match the website, and our guide to an [insurance verification page for a therapy practice](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) shows how to explain what a benefits check means."
       },
       {
         "type": "h2",
@@ -2114,7 +2114,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Inconsistent details confuse patients and weaken trust signals. If the website says suite 200 and a directory says suite 20, patients and search engines see two different offices. Pick one version of the name, address and phone, as in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and make every profile match. When a provider joins or leaves, update these profiles in the same sweep. Our [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) shows the order. Directory profiles are where an outdated yes is most common, so use [how to keep your accepting new patients status accurate across listings](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories)."
+        "text": "Inconsistent details confuse patients and weaken trust signals. If the website says suite 200 and a directory says suite 20, patients and search engines see two different offices. Pick one version of the name, address and phone, as in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and make every profile match. When a provider joins or leaves, update these profiles in the same sweep. Our [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) shows the order. Directory profiles are where an outdated yes is most common, so use [how to keep your accepting new patients status accurate across listings](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). Directory profiles usually have a languages field, so make sure it matches the approach in our guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile)."
       },
       {
         "type": "h2",
@@ -2214,7 +2214,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Publish self-pay prices in a plain table: the service, what is included, the price or a true starting price, what costs extra, and how to book. Date the page and keep it current. List only prices you will honor, never invent ranges, and ask your attorney which price rules apply to your practice.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-13",
     "readMinutes": 6,
     "sections": [
       {
@@ -2231,7 +2231,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "We are a marketing agency and this is not legal advice. Two points are worth knowing. First, federal rules under the No Surprises Act give uninsured and self-pay patients a right to a good faith estimate of expected charges from providers when they schedule or ask, and CMS explains the details on its site. Second, the federal hospital price transparency rule applies to hospitals and is not a rule for a typical small practice, but rules and expectations change, and state rules vary. Ask your attorney what applies to you before you publish."
+        "text": "We are a marketing agency and this is not legal advice. Two points are worth knowing. First, federal rules under the No Surprises Act give uninsured and self-pay patients a right to a good faith estimate of expected charges from providers when they schedule or ask, and CMS explains the details on its site. Second, the federal hospital price transparency rule applies to hospitals and is not a rule for a typical small practice, but rules and expectations change, and state rules vary. Ask your attorney what applies to you before you publish. Alongside published fees, patients need a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice) that explains statements, payment options and who to call."
       },
       {
         "type": "h2",
@@ -2276,7 +2276,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not invent prices to fill the table. If a service is quoted individually, say so and explain what the quote depends on and how to request one. A sentence such as the price depends on the visit type and any tests ordered is more honest than a guess, and it still answers the question patients came with."
+        "text": "Do not invent prices to fill the table. If a service is quoted individually, say so and explain what the quote depends on and how to request one. A sentence such as the price depends on the visit type and any tests ordered is more honest than a guess, and it still answers the question patients came with. Clients who are not using insurance still ask what a benefits check covers, which our guide to an [insurance verification page for a therapy practice](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) addresses."
       },
       {
         "type": "h2",

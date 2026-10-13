@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-13",
     readMinutes: 6,
     sections: [
       {
@@ -331,7 +331,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Start with the sources patients actually use: your Google Business Profile, Apple Business Connect, Bing Places, your health system and insurer directories, and your major social profiles. If you need the full list of places that matter, see our [local citation building checklist](/guides/local-citation-building-checklist-for-a-medical-practice)."
+        "text": "Start with the sources patients actually use: your Google Business Profile, Apple Business Connect, Bing Places, your health system and insurer directories, and your major social profiles. If you need the full list of places that matter, see our [local citation building checklist](/guides/local-citation-building-checklist-for-a-medical-practice). A number that carriers have flagged as spam is a different problem from a mismatched one, and our guide to [spam-flagged practice phone numbers](/guides/spam-flagged-practice-phone-numbers-how-to-check-and-fix-a-number-marked-as-scam) shows how to tell them apart."
       },
       {
         "type": "h2",

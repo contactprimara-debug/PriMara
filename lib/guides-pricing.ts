@@ -239,7 +239,7 @@ export const guidesPartOne: Guide[] = [
       "A solo therapist in Florida typically spends three hundred to fifteen hundred dollars a month on marketing, and a group practice spends two thousand to five thousand. The cheapest option is a directory listing at roughly thirty dollars a month; the most durable is local SEO and a Google Business Profile, which costs more but keeps producing after you stop paying.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-10-13",
     readMinutes: 7,
     sections: [
       {
@@ -286,11 +286,11 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "A solo therapist has one problem: fill a caseload of roughly twenty to twenty-five clients and keep it filled. That is a small number, which means a small, cheap, well-aimed effort is usually enough. Claim the profile, publish six honest pages about the modalities you actually practice, collect reviews from clients who volunteer, and answer the phone. Eight hundred to fifteen hundred a month of managed work is a reasonable ceiling. Budget a little time as well for a plain fees page, because our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to state rates, out-of-network payment and a sliding scale without confusing a first-time client.",
+        text: "A solo therapist has one problem: fill a caseload of roughly twenty to twenty-five clients and keep it filled. That is a small number, which means a small, cheap, well-aimed effort is usually enough. Claim the profile, publish six honest pages about the modalities you actually practice, collect reviews from clients who volunteer, and answer the phone. Eight hundred to fifteen hundred a month of managed work is a reasonable ceiling. Budget a little time as well for a plain fees page, because our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to state rates, out-of-network payment and a sliding scale without confusing a first-time client. If your caseload is already full, spend less on new demand and publish a [waitlist page that explains timing honestly](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) while you decide what to do next.",
       },
       {
         type: "p",
-        text: "A group practice has a different problem: every new clinician needs a pipeline from day one or they leave. That means per-clinician pages, per-modality pages, intake capacity that can absorb the volume, and usually paid search to smooth the gaps. Two thousand five hundred to five thousand a month is the normal band, and the number that matters is cost per booked intake, not cost per click. Part of any therapy marketing budget goes to writing [specialty pages without clinical claims](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), and each one needs its own substance rather than a reworded copy.",
+        text: "A group practice has a different problem: every new clinician needs a pipeline from day one or they leave. That means per-clinician pages, per-modality pages, intake capacity that can absorb the volume, and usually paid search to smooth the gaps. Two thousand five hundred to five thousand a month is the normal band, and the number that matters is cost per booked intake, not cost per click. Part of any therapy marketing budget goes to writing [specialty pages without clinical claims](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), and each one needs its own substance rather than a reworded copy. Many therapists offer an introductory call before the first session, and our guide to the [free consultation call page](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) explains what to say and what to avoid.",
       },
       {
         type: "h2",
@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-10-13",
     readMinutes: 6,
     sections: [
       {
@@ -464,7 +464,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Therapy searches are specific. People do not search for 'therapy.' They search for 'EMDR therapist Fort Lauderdale,' 'couples counseling that takes Aetna,' 'postpartum anxiety therapist near me.' Each of those is a page you can write honestly and rank for, because most practices have not written it. The competitive field is thin in a way that it is not for, say, cosmetic dentistry.",
+        text: "Therapy searches are specific. People do not search for 'therapy.' They search for 'EMDR therapist Fort Lauderdale,' 'couples counseling that takes Aetna,' 'postpartum anxiety therapist near me.' Each of those is a page you can write honestly and rank for, because most practices have not written it. The competitive field is thin in a way that it is not for, say, cosmetic dentistry. Pause paid clicks when a practice has no openings and give visitors a [waitlist page](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) that explains how the list works and where to turn in the meantime.",
       },
       {
         type: "p",
@@ -488,7 +488,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Most therapy practices should not choose. The workable order is: fix the Google Business Profile first because it is free and it is the highest-leverage hour you will spend; publish the six to ten pages that describe what you really treat; then, if the caseload still has gaps, run a tightly geo-fenced ad campaign on your highest-intent terms while the organic work matures. Twelve months in, the ads become optional rather than load-bearing.",
+        text: "Most therapy practices should not choose. The workable order is: fix the Google Business Profile first because it is free and it is the highest-leverage hour you will spend; publish the six to ten pages that describe what you really treat; then, if the caseload still has gaps, run a tightly geo-fenced ad campaign on your highest-intent terms while the organic work matures. Twelve months in, the ads become optional rather than load-bearing. Visitors who click an ad or a search result are often not ready to book, so offer a low-pressure [free consultation call page](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) that explains exactly what the call is.",
       },
       {
         type: "callout",

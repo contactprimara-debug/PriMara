@@ -28,7 +28,7 @@ export const guidesPartTen: Guide[] = [
       "Attributes are the checkboxes on a Google Business Profile — wheelchair accessible entrance, online appointments, women-led, and dozens more — that let Google Maps filter and badge your listing for specific searches. Some you set yourself in the GBP dashboard; others are crowd-sourced from patients and need regular review, because anyone can suggest one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-13",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What an attribute actually is" },
@@ -52,7 +52,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Which attributes matter most for a medical practice" },
       {
         type: "p",
-        text: "Accessibility attributes come first: wheelchair accessible entrance, restroom, and parking lot are genuinely used as search filters by patients who need them, and leaving them blank reads as 'unknown,' not 'no.' Service-option attributes — online appointments, onsite services, online care — matter next, because they answer the exact question a patient is trying to resolve before they even click through: can I book this without calling? After that, identity attributes (women-led, veteran-led, LGBTQ+ friendly) are optional but, when true, worth turning on; a false attribute is worse than no attribute, and Google does remove profiles found gaming them. Language attributes should only be selected if true, and our guide to [bilingual SEO for a Florida practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how that fits with Spanish pages. Appointment details belong here too, and our guide on [adding a booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) covers the link itself. Attributes such as wheelchair-accessible entrance should match what you say on your website, so see our guide on [parking and accessibility details](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the facts to publish.",
+        text: "Accessibility attributes come first: wheelchair accessible entrance, restroom, and parking lot are genuinely used as search filters by patients who need them, and leaving them blank reads as 'unknown,' not 'no.' Service-option attributes — online appointments, onsite services, online care — matter next, because they answer the exact question a patient is trying to resolve before they even click through: can I book this without calling? After that, identity attributes (women-led, veteran-led, LGBTQ+ friendly) are optional but, when true, worth turning on; a false attribute is worse than no attribute, and Google does remove profiles found gaming them. Language attributes should only be selected if true, and our guide to [bilingual SEO for a Florida practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how that fits with Spanish pages. Appointment details belong here too, and our guide on [adding a booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) covers the link itself. Attributes such as wheelchair-accessible entrance should match what you say on your website, so see our guide on [parking and accessibility details](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the facts to publish. Some attributes control how patients can reach you, and the related question of whether to turn on chat is covered in [Google Business Profile messaging for a medical practice](/guides/google-business-profile-messaging-for-a-medical-practice-should-you-turn-it-on).",
       },
       { type: "h2", text: "Keeping them accurate over time" },
       {
@@ -131,13 +131,13 @@ export const guidesPartTen: Guide[] = [
       "E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trust — the framework Google's human quality raters use to judge whether content, especially on health topics, is reliable enough to rank well. It is not a direct ranking factor by itself, but it shapes the signals (author credentials, citations, site reputation) that Google's actual ranking systems do use.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-13",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Where E-E-A-T actually comes from" },
       {
         type: "p",
-        text: "E-E-A-T is a concept defined in Google's Search Quality Rater Guidelines, the public document Google gives to the thousands of human raters it employs to evaluate search result quality and feed that judgment back into its ranking systems. It is not itself an algorithm or a score your site receives — Google has said this directly. It's a framework for what 'good' looks like, and Google's actual automated ranking systems are built and tuned to approximate that judgment at scale.",
+        text: "E-E-A-T is a concept defined in Google's Search Quality Rater Guidelines, the public document Google gives to the thousands of human raters it employs to evaluate search result quality and feed that judgment back into its ranking systems. It is not itself an algorithm or a score your site receives — Google has said this directly. It's a framework for what 'good' looks like, and Google's actual automated ranking systems are built and tuned to approximate that judgment at scale. For a therapy practice, experience shows up in how plainly you describe your work, which is the idea behind an [approach page without outcome claims](/guides/our-approach-page-for-a-therapy-practice-without-outcome-claims).",
       },
       {
         type: "p",
@@ -146,7 +146,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Why it matters more for medical content than most" },
       {
         type: "p",
-        text: "Google has long treated health topics as 'Your Money or Your Life' (YMYL) content — pages where inaccurate information could cause real harm to a reader's health, safety, or finances. YMYL pages are held to a visibly higher bar in the rater guidelines than, say, a recipe blog. For a medical practice's website, that means the baseline expectation for author credentials, citations to real clinical sources, and overall site trustworthiness is already elevated before you write a single word.",
+        text: "Google has long treated health topics as 'Your Money or Your Life' (YMYL) content — pages where inaccurate information could cause real harm to a reader's health, safety, or finances. YMYL pages are held to a visibly higher bar in the rater guidelines than, say, a recipe blog. For a medical practice's website, that means the baseline expectation for author credentials, citations to real clinical sources, and overall site trustworthiness is already elevated before you write a single word. Showing the real people behind a practice is part of demonstrating experience, and a [care team page that introduces the front desk and clinical staff](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) is a simple way to do it.",
       },
       { type: "h2", text: "What this looks like in practice on a practice's site" },
       {

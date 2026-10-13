@@ -755,7 +755,7 @@ export const guidesPartNine: Guide[] = [
       "Commercial email from a medical practice is governed primarily by the federal CAN-SPAM Act — accurate sender info, a working unsubscribe link honored within 10 business days, and no deceptive subject lines — plus HIPAA if the email references a patient's specific condition or treatment. This is a plain-language summary of the requirements, not legal advice; confirm specifics with a healthcare attorney or compliance officer.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-13",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two separate laws apply, and they cover different things" },
@@ -783,7 +783,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Where consent fits in" },
       {
         type: "p",
-        text: "CAN-SPAM does not require opt-in consent before the first commercial email the way some international email laws do — it's an opt-out standard. But most medical-practice patient-management and email platforms have their own stricter terms of service requiring documented consent before adding someone to a marketing list, and a practice that collected an email address solely for appointment reminders should not assume that permission extends to a separate promotional newsletter without a clear, separate opt-in for that specific use.",
+        text: "CAN-SPAM does not require opt-in consent before the first commercial email the way some international email laws do — it's an opt-out standard. But most medical-practice patient-management and email platforms have their own stricter terms of service requiring documented consent before adding someone to a marketing list, and a practice that collected an email address solely for appointment reminders should not assume that permission extends to a separate promotional newsletter without a clear, separate opt-in for that specific use. Billing emails and statements should never ask for card numbers, a point covered in our guide to a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice).",
       },
       { type: "h2", text: "Practical setup for a practice starting this" },
       {
@@ -864,7 +864,7 @@ export const guidesPartNine: Guide[] = [
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-12",
+    dateModified: "2026-10-13",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
@@ -901,7 +901,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "The opt-out has to work immediately, every time" },
       {
         type: "p",
-        text: "Every marketing text needs a working STOP mechanism, and it has to actually stop future messages — not route to a queue someone processes weekly. Most practice texting platforms handle STOP/START keyword processing automatically; confirm yours does before sending anything, since manual processing is one of the more common ways a practice ends up out of compliance without intending to.",
+        text: "Every marketing text needs a working STOP mechanism, and it has to actually stop future messages — not route to a queue someone processes weekly. Most practice texting platforms handle STOP/START keyword processing automatically; confirm yours does before sending anything, since manual processing is one of the more common ways a practice ends up out of compliance without intending to. If patients are not answering your reminder calls either, read how to [check and fix a practice number labeled as scam](/guides/spam-flagged-practice-phone-numbers-how-to-check-and-fix-a-number-marked-as-scam), since the cause may be the label rather than the message.",
       },
       { type: "h2", text: "Where HIPAA overlaps" },
       {

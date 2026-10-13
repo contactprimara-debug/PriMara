@@ -151,7 +151,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-12",
+    dateModified: "2026-10-13",
     readMinutes: 6,
     sections: [
       {
@@ -178,7 +178,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second."
+        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second. Patients who book online will soon want to sign in and see their visits, which is why a clear [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) belongs next to your scheduling tool."
       },
       {
         "type": "h2",
@@ -186,7 +186,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Define a booking as a conversion. If the scheduler is on the vendor's domain, track the button click on your site with a GA4 event, and ask the vendor whether it can send a confirmation back to a thank-you page on your domain, which is a cleaner measure. Set up call tracking beside it, as covered in [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website). Then compare booked appointments by source, rather than clicks alone. Seasonal booking pages for flu shots and school physicals need current dates and a working link; see [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals)."
+        "text": "Define a booking as a conversion. If the scheduler is on the vendor's domain, track the button click on your site with a GA4 event, and ask the vendor whether it can send a confirmation back to a thank-you page on your domain, which is a cleaner measure. Set up call tracking beside it, as covered in [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website). Then compare booked appointments by source, rather than clicks alone. Seasonal booking pages for flu shots and school physicals need current dates and a working link; see [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals). Refill requests are a frequent reason patients call the front desk, so explain the process on a [prescription refill request page](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) that gives no clinical advice."
       },
       {
         "type": "h2",
@@ -278,7 +278,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "A practice About page should state who you are, where you are, who the licensed clinicians are, what you treat, and how to reach you, in plain language. Add each clinician's real credentials and a short, honest story of the practice. Leave out outcome promises, invented awards, and anything you cannot document.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-13",
     readMinutes: 6,
     sections: [
       {
@@ -324,7 +324,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add Organization or MedicalBusiness structured data to the page, with your name, address, phone, and links to your official profiles, as described in our guide to [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). Link each clinician's name to a full bio, and build those pages using [how to write a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). Add a clear next step, a booking link and a tappable phone number, because trust is what gets a patient to act. The same clean outline applies here, with one H1 and short H2 sections as laid out in our guide to [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page), so visitors and machines can both scan the page."
+        "text": "Add Organization or MedicalBusiness structured data to the page, with your name, address, phone, and links to your official profiles, as described in our guide to [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). Link each clinician's name to a full bio, and build those pages using [how to write a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). Add a clear next step, a booking link and a tappable phone number, because trust is what gets a patient to act. The same clean outline applies here, with one H1 and short H2 sections as laid out in our guide to [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page), so visitors and machines can both scan the page. A short, truthful line about which staff speak which languages belongs on this page, and our guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) shows how to word it."
       },
       {
         "type": "p",
@@ -553,7 +553,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-13",
     readMinutes: 6,
     sections: [
       {
@@ -562,7 +562,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "'Do you take my insurance' is one of the first questions a new patient asks, and many of them leave a site if they cannot find the answer quickly. A clear insurance page also matches a common search, such as 'family doctor that accepts Aetna in Lakeland.' The risk is in accuracy. Plans change, networks differ by product, and an out-of-date list can cost a patient an unexpected bill and cost you their trust. Patients who pay on their own need a companion page, which we describe in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website). When a contract changes, follow [what to update online when your practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) so every listing matches your page."
+        "text": "'Do you take my insurance' is one of the first questions a new patient asks, and many of them leave a site if they cannot find the answer quickly. A clear insurance page also matches a common search, such as 'family doctor that accepts Aetna in Lakeland.' The risk is in accuracy. Plans change, networks differ by product, and an out-of-date list can cost a patient an unexpected bill and cost you their trust. Patients who pay on their own need a companion page, which we describe in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website). When a contract changes, follow [what to update online when your practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) so every listing matches your page. After the plan list, patients usually want to know how bills work, which a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice) can explain in plain language."
       },
       {
         "type": "h2",
@@ -589,7 +589,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Give the page a clear title, such as 'Insurance Accepted at [Practice Name] in [City],' and write real text, not only a logo wall. Logos with no text give Google little to read, so put each carrier's name in the HTML. A table with carrier and plan columns is easy for patients and for answer engines to quote. Add a few FAQs about billing and verification, and mark them up as described in our [patient FAQ guide](/guides/how-to-write-patient-faqs-that-answer-ai-search). Link to the page from your main navigation, your contact page, and relevant service pages, and use the same list on your Google Business Profile where it supports insurance details."
+        "text": "Give the page a clear title, such as 'Insurance Accepted at [Practice Name] in [City],' and write real text, not only a logo wall. Logos with no text give Google little to read, so put each carrier's name in the HTML. A table with carrier and plan columns is easy for patients and for answer engines to quote. Add a few FAQs about billing and verification, and mark them up as described in our [patient FAQ guide](/guides/how-to-write-patient-faqs-that-answer-ai-search). Link to the page from your main navigation, your contact page, and relevant service pages, and use the same list on your Google Business Profile where it supports insurance details. For therapy practices, the accepted-plans list pairs well with an [insurance verification and benefits check page](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) that explains what the office confirms before a first session."
       },
       {
         "type": "h2",

@@ -22,7 +22,7 @@ export const guidesPartEight: Guide[] = [
       "A group therapy practice markets differently than a solo therapist: instead of one personal brand, it needs a practice-level Google Business Profile plus individual clinician visibility, a website that routes each inquiry to the right specialty and availability, and a review and referral system that doesn't pit therapists against each other for the same leads. Getting the routing wrong is the most common reason group practices grow slower than their solo-therapist competitors.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-12",
+    dateModified: "2026-10-13",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Group practices have a structural marketing problem solo therapists don't" },
@@ -33,7 +33,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Structure the site around the client's decision, not the org chart" },
       {
         type: "p",
-        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two. A plain page explaining what happens at the first appointment lowers the barrier to calling, as described in [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Once the basics are in place, give each focus its own page, as our guide on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) explains, with plain language and no promises of results. Whichever clinician a client chooses, every page should carry the same [crisis and emergency notice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) so no one is left searching for it.",
+        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two. A plain page explaining what happens at the first appointment lowers the barrier to calling, as described in [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Once the basics are in place, give each focus its own page, as our guide on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) explains, with plain language and no promises of results. Whichever clinician a client chooses, every page should carry the same [crisis and emergency notice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) so no one is left searching for it. When every clinician in the group is full, a clear [waitlist page for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) keeps callers from assuming nobody is answering.",
       },
       { type: "h2", text: "The five pieces a group practice needs" },
       {
@@ -91,13 +91,13 @@ export const guidesPartEight: Guide[] = [
       "Direct primary care and concierge practices aren't selling a doctor visit, they're selling a membership and a relationship, so the marketing has to explain the model itself before it explains the practice — what the membership fee covers, what it doesn't (usually specialist care, labs, and hospitalization still route through insurance or separate cost), and why a patient would pay out of pocket for access most people assume insurance already provides.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-13",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "The membership model has to be explained before the practice can be sold" },
       {
         type: "p",
-        text: "Most prospective patients researching a doctor have never encountered the direct primary care or concierge model and don't automatically understand why they'd pay a monthly or annual fee on top of, or instead of, insurance. A site that jumps straight into \"same-day appointments\" and \"unhurried visits\" without first explaining what the membership actually includes and costs loses visitors who are still trying to figure out if this is even a category of care they want. The first page a prospective patient lands on needs to do the explaining insurance-based competitors never have to do.",
+        text: "Most prospective patients researching a doctor have never encountered the direct primary care or concierge model and don't automatically understand why they'd pay a monthly or annual fee on top of, or instead of, insurance. A site that jumps straight into \"same-day appointments\" and \"unhurried visits\" without first explaining what the membership actually includes and costs loses visitors who are still trying to figure out if this is even a category of care they want. The first page a prospective patient lands on needs to do the explaining insurance-based competitors never have to do. Members of a direct primary care practice also ask about refills, so publish a plain [refill request page that stays on process](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice).",
       },
       { type: "h2", text: "What the membership page needs to cover, explicitly" },
       {
@@ -244,7 +244,7 @@ export const guidesPartEight: Guide[] = [
       "Telehealth marketing loses the local-pack advantage a physical office gets from Google Business Profile, so it has to work harder on the website itself: state-by-state licensing clarity, what conditions are and aren't appropriate for a virtual visit, real scheduling and insurance detail, and HIPAA-safe tracking on every page — since a telehealth site is often the entire patient acquisition funnel with no office visit to fall back on.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-12",
+    dateModified: "2026-10-13",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "No physical office changes the whole strategy" },
@@ -255,7 +255,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "State licensing has to be addressed directly, not buried" },
       {
         type: "p",
-        text: "Telehealth providers are licensed state by state, and a patient in a state the practice can't legally serve is a wasted inquiry for everyone. The site should state plainly which states the practice is licensed to treat patients in, ideally with a simple selector or a clear list, before a visitor gets far into scheduling. Burying this in fine print, or worse, not stating it at all, produces booked appointments that have to be canceled once licensing is checked — a bad experience that a clear state list up front avoids entirely.",
+        text: "Telehealth providers are licensed state by state, and a patient in a state the practice can't legally serve is a wasted inquiry for everyone. The site should state plainly which states the practice is licensed to treat patients in, ideally with a simple selector or a clear list, before a visitor gets far into scheduling. Burying this in fine print, or worse, not stating it at all, produces booked appointments that have to be canceled once licensing is checked — a bad experience that a clear state list up front avoids entirely. Families often prefer video sessions for teens because of school schedules, which is one reason to publish a clear [teen therapy page for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims) that covers consent and logistics.",
       },
       { type: "h2", text: "What a telehealth service page needs" },
       {
@@ -314,13 +314,13 @@ export const guidesPartEight: Guide[] = [
       "A nurse practitioner or PA bio page needs the exact credential (NP, APRN, PA-C — never shortened or implied to be a physician), their real specialty and scope of practice, supervising or collaborating physician information where the state requires disclosure, and enough unique biographical detail to avoid reading like a templated stub — thin, near-identical NP/PA bio pages are one of the most common reasons a multi-provider practice's provider pages don't rank individually.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-13",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Credential accuracy is not optional, and it's a ranking issue too" },
       {
         type: "p",
-        text: "\"PA-C\" is Physician Assistant, Certified — not \"physician,\" and never shortened to just \"Dr.\" unless the individual separately holds a doctoral degree used in that context correctly. \"NP\" or \"APRN\" (Advanced Practice Registered Nurse) likewise has to be stated exactly as the provider is licensed. Beyond being a licensing and advertising-compliance issue, getting this wrong also confuses the entity data search engines use to understand who a page is about — a bio page that's vague about credential type is harder for an answer engine to confidently cite when someone asks who on staff can prescribe medication or perform a specific procedure.",
+        text: "\"PA-C\" is Physician Assistant, Certified — not \"physician,\" and never shortened to just \"Dr.\" unless the individual separately holds a doctoral degree used in that context correctly. \"NP\" or \"APRN\" (Advanced Practice Registered Nurse) likewise has to be stated exactly as the provider is licensed. Beyond being a licensing and advertising-compliance issue, getting this wrong also confuses the entity data search engines use to understand who a page is about — a bio page that's vague about credential type is harder for an answer engine to confidently cite when someone asks who on staff can prescribe medication or perform a specific procedure. Individual bios cover credentials, while a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) introduces the other people a patient meets during a visit.",
       },
       { type: "h2", text: "What belongs on the page" },
       {

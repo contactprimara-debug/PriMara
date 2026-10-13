@@ -18,7 +18,7 @@ export const guidesPartTwo: Guide[] = [
       "To get more patients from a Google Business Profile, claim and verify it, set the most specific primary category, fill every applicable secondary category, add your services and hours, collect reviews steadily from every patient, post and add photos monthly, and track calls. Categories and review velocity move ranking more than anything else on the profile.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-10-13",
     readMinutes: 8,
     howTo: {
       name: "How to get more patients from a Google Business Profile",
@@ -60,7 +60,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "For any search with local intent — 'primary care doctor near me,' 'dermatologist Boca Raton' — Google shows a three-result map pack above the normal results. Those three listings take the overwhelming majority of clicks and calls. Your website competes below them. That is why an afternoon spent on the profile usually outperforms a month spent on the site.",
+        text: "For any search with local intent — 'primary care doctor near me,' 'dermatologist Boca Raton' — Google shows a three-result map pack above the normal results. Those three listings take the overwhelming majority of clicks and calls. Your website competes below them. That is why an afternoon spent on the profile usually outperforms a month spent on the site. A tap-to-call button and booking link are usually safer than a chat button, and our guide on [whether to turn on Google Business Profile messaging](/guides/google-business-profile-messaging-for-a-medical-practice-should-you-turn-it-on) explains the trade-offs.",
       },
       {
         type: "p",
@@ -252,7 +252,7 @@ export const guidesPartTwo: Guide[] = [
       "To track a medical website safely, keep analytics and ad pixels off pages and events that reveal a condition, never send names, emails, phone numbers, or URL parameters containing health details to an ad platform, send conversions server-side with no identifiers, and sign business associate agreements with any vendor that could receive protected health information.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-10-13",
     readMinutes: 8,
     howTo: {
       name: "How to set up HIPAA-safe tracking on a medical website",
@@ -294,11 +294,11 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "In 2022 the Office for Civil Rights published guidance stating that information collected by online tracking technologies on a covered entity's website can be protected health information, including when the only facts are an IP address and the page visited. The reasoning is simple: an IP address plus a page about a specific condition is enough to indicate that an identifiable person sought care for that condition. Enforcement actions and class actions followed, and healthcare sites are now a standing target. Platform choice also decides which vendors handle form data, as our guide on [website platforms for a medical practice](/guides/wordpress-vs-squarespace-vs-wix-vs-webflow-for-a-medical-practice) explains.",
+        text: "In 2022 the Office for Civil Rights published guidance stating that information collected by online tracking technologies on a covered entity's website can be protected health information, including when the only facts are an IP address and the page visited. The reasoning is simple: an IP address plus a page about a specific condition is enough to indicate that an identifiable person sought care for that condition. Enforcement actions and class actions followed, and healthcare sites are now a standing target. Platform choice also decides which vendors handle form data, as our guide on [website platforms for a medical practice](/guides/wordpress-vs-squarespace-vs-wix-vs-webflow-for-a-medical-practice) explains. A records request form should ask for identity and contact details only, as described in our guide to a [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records).",
       },
       {
         type: "p",
-        text: "The practical consequence is not that you must stop measuring. It is that the identity of the visitor and the health meaning of the page must never travel together to a vendor who has not signed a business associate agreement. Accessibility is the other legal topic for practice sites; see [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). After the setup is safe, our guide to [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows which few numbers to review.",
+        text: "The practical consequence is not that you must stop measuring. It is that the identity of the visitor and the health meaning of the page must never travel together to a vendor who has not signed a business associate agreement. Accessibility is the other legal topic for practice sites; see [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). After the setup is safe, our guide to [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows which few numbers to review. When you count clicks on a sign-in button, record only the click itself, as described in our guide to a [patient portal login page that never asks for health details](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe).",
       },
       {
         type: "h2",
