@@ -1086,6 +1086,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p(
         "Afterward, spend five minutes noting what went wrong. Did patients still call asking if you were open? Did a refill request slip through? Add that line to the template for next time."
       ),
+      h3("Keep a record and tell your vendors"),
       p("Keep a short record of each closure after it ends: the dates, where the notice was posted, who approved it and how many patients called anyway. After two or three closures, the pattern shows which channel patients actually read, and you can put the most effort there next time."),
       p("Do not forget the people who work outside the building. If a billing company, an answering service or a telehealth vendor depends on your hours, tell them the dates in writing, and ask them to confirm."),
       p("Test every channel after you post. Search for the practice on a phone and read the hours panel, call the main number and listen to the greeting, and open the website in a private window to see the banner as a visitor would. It takes five minutes and catches the mistakes that otherwise surface as angry calls on the first closed morning."),
@@ -1289,6 +1290,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("The clinician who sees couples should read the final page aloud and mark any sentence that does not match how they actually work. If the page says the first session is joint but the clinician always starts with each partner separately, the page is wrong, not the clinician. Corrections made now prevent an awkward first meeting."),
       p("Then read it once as a skeptical partner would. Does any line sound like blame, or assume that one person is the problem? Rewrite it so both partners could read the page together and feel equally welcome."),
       p("Finally, link the page from your fees page and your contact page, so a couple can find the cost and the booking details without searching again. Review it every six months, and any time the clinician changes how they structure the first session."),
+      h3("Small practical touches"),
       p("Consider a single paragraph about what to bring to the first call: a calendar of the partners' availability, the insurance card if coverage matters, and any questions about fees. This is practical, makes the first conversation shorter, and gives hesitant visitors something simple to do while they decide."),
       p("Mention too that the practice will not take sides in a booking call. Staff who answer the phone should be trained to schedule, explain fees and answer practical questions, and to leave the details of the relationship for the clinician. Saying so on the page lets a nervous partner call without rehearsing their story first."),
     ],
@@ -1390,6 +1392,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("We are pleased to welcome a new provider to the practice, who will begin seeing patients on the start date. The provider is accepting new patients and can be booked online or by calling the front desk. You can read about their training and background on their page, and you are welcome to ask any questions when you call."),
       p("That is all the announcement needs. It states a fact, gives a date, tells the reader how to act and invites questions. Resist adding a sentence about being excited about outcomes or the difference the provider will make in the community."),
       p("Adapt the wording to your own voice, and send it to the provider for approval before it goes anywhere public. A provider who has read the exact text will not be surprised when a patient mentions it."),
+      h3("Consistency and follow-up"),
       p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement."),
       p("After the first month, review the provider's page in Search Console. If it is getting impressions but few clicks, rewrite the title and the first paragraph in plainer words. If it is getting none, add a link from a page that is already indexed and busy, such as the team page, and give search engines a few weeks to find it."),
     ],
@@ -1490,6 +1493,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("The staff who greet patients know which questions come up every day. Ask them for the five most common ones and make sure the page answers each. Let them read the final draft and tell you where it does not match what really happens, since a page that describes an ideal check-in rather than the real one will disappoint on the first visit."),
       p("Add a line about children, interpreters and patients who need extra time. Many families look for this information before they book, and a sentence that says how to ask for help can decide whether they come at all."),
       p("If your practice uses a texting system to say when a room is ready, explain it in one sentence and mention that patients may opt out. Remember that the message should never include the reason for the visit."),
+      h3("Pictures and extra help"),
       p("Photographs help if they are honest. A clear picture of the entrance from the parking lot, and another of the front desk, can save a patient from walking past the door. Add descriptive text for each image so the page works for patients who use screen readers, and avoid pictures that show other patients or visible paperwork."),
       p("Finally, say who to ask for help. A patient who is anxious, in pain or unsure about the forms should know they can speak to the front desk first, and that a staff member will find a quiet place to talk. One warm sentence about this, placed near the top of the page, often matters more than a long list of rules."),
     ],
