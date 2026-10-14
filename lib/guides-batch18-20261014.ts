@@ -292,6 +292,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("A policy is only as fair as its enforcement. If one receptionist waives the rule for regulars and another applies it to newcomers, patients will feel the difference and say so in reviews. Give the front desk a short script for each situation, covering what to say when a patient calls from the road, when they arrive past the window and when they ask for an exception."),
       p("Review the numbers at the practice level every month. Count how many visits were rescheduled for lateness, how many were missed and how many fees were waived. If the figures are climbing, the problem may be reminder timing or parking rather than patient behavior, and the page should change to match what you learn."),
       p("Finally, put a date of last review at the bottom of the page. It tells patients the rules are current, and it reminds your team to check them."),
+      p("Offer a quick path to act, too. A reschedule link or a direct phone number placed beside the policy turns a rule into a solution, and patients who can fix a problem in one tap are far less likely to simply stop coming."),
     ],
     faqs: [
       {
@@ -383,6 +384,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Check that the page is doing its job"),
       p("After a month, compare the number of note-request calls with the number before the page existed. Ask the front desk which questions still arrive despite the page, and rewrite the relevant sentence. If families keep asking where to find the request tool, move the link higher or repeat it in your appointment reminders."),
       p("Also look at how people reach the page. If most arrive from a search for a school physical form, add a short pointer on that page. If most arrive from the portal, leave it alone. The goal is a short path from the question to the answer, with no clinical detail passing through the website at any point."),
+      p("Keep the tone helpful rather than bureaucratic. Families asking for these notes are usually in the middle of a busy week, so short steps, a visible phone number and a clear turnaround estimate will be remembered far longer than any policy language."),
     ],
     faqs: [
       {
@@ -578,6 +580,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("Before the page goes live, the clinician who runs the group should read it aloud. Ask whether each sentence describes what really happens, and whether a participant would recognize it in the room. If the leader hesitates, the sentence is probably aspirational and should go."),
       p("Choose images carefully. A stock photo of people in a circle is harmless, but one that implies a certain kind of member or a certain problem is not. Plain photographs of the room, with no people in them, tell visitors what the space feels like without suggesting who attends."),
       p("When a group fills, say so and offer a way to join a waiting list. A page that stays open on a full group wastes visitors' time, and that is a quiet way to lose trust before the first session."),
+      p("Keep the tone steady and unhurried throughout. A visitor reading about a group is often deciding whether they can face a room of strangers, so short sentences, plain words and a visible phone number do more to help than any description of the benefits ever could."),
     ],
     faqs: [
       {
@@ -681,6 +684,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Special cases: couples, minors and shared devices"),
       p("Some first sessions need more than one set of forms. For couples, say whether each person completes their own forms and whether the link goes to both addresses. For a minor, state who signs, since a parent or guardian is generally the one who consents, and the rules differ by state and by the age of the client. Keep these statements short and have the clinician confirm them."),
       p("Also consider shared devices. A client who uses a family computer may not want a message with the practice name in the subject line. Offer a choice of contact method at booking, and let the client pick text, email or phone, so the practice honors the preference from the first message."),
+      p("Keep a copy of the final wording in a shared document and note the date of the last change. When the forms, the fee policy or the portal change, the email changes too, and a dated master copy makes sure nobody keeps sending last year's version to this year's clients."),
     ],
     faqs: [
       {
@@ -780,6 +784,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "The page works with a screen reader, with each question as a real heading and each answer as plain text."
       ),
       p("Ask someone who has never been to therapy to read it. If they can find the cost, the hours and the way to book within a minute, the page is working. If they stop at a word they do not know, replace it."),
+      p("One more test is worth running. Read each answer aloud as if the visitor were sitting across from you, and ask whether you would say it to a stranger who might be in distress. Anything that sounds like advice should be shortened to a fact and a next step, and anything that sounds cold should be softened without adding a promise."),
     ],
     faqs: [
       {
@@ -881,6 +886,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Using the page to hint at which employers are common clients."
       ),
       p("Also keep a plain record of the date each program was last confirmed, because a name that was correct in spring may not be by autumn, and the front desk will be the first to hear about it from a frustrated client. A quarterly review keeps the page accurate. Put the review on the practice manager's calendar, and have the clinician who handles EAP referrals sign off each time."),
+      p("Finally, test the page by calling your own front desk as a client would. Ask how to start with an EAP authorization and see whether the answer matches the page word for word. If the two differ, the page or the training needs fixing before a real client is confused by it."),
     ],
     faqs: [
       {
@@ -979,6 +985,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Assign an owner and a date to every line"),
       p("The checklist only works when each line has a name and a due date beside it. Give the website items to whoever manages the site, the directory items to the practice manager, and the insurer items to the credentialing contact. Put the list in a shared document that the whole team can see."),
       p("Hold a short check-in a week after the move and again at one month. Look for patients who went to the wrong address, calls that began with a question about the old office, and listings that still disagree. Those are the lines to chase next, and they tell you what to add to the checklist for the next time."),
+      p("Remember the small things that patients actually touch. Update the address on parking permits, building directories, delivery instructions for specimens or supplies, and the map link in every reminder, because a patient circling the wrong block is the experience that ends up in a review."),
     ],
     faqs: [
       {
