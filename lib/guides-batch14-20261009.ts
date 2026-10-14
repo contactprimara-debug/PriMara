@@ -118,7 +118,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Federal rules on good faith estimates can apply to some self-pay clients. Read the official guidance from the Centers for Medicare & Medicaid Services, and ask your own advisor how it applies to your practice, because this guide cannot give legal advice."
+      "text": "Federal rules on good faith estimates can apply to some self-pay clients. Read the official guidance from the Centers for Medicare & Medicaid Services, and ask your own advisor how it applies to your practice, because this guide cannot give legal advice. Couples sessions may be priced differently from individual ones, which is why a [couples counseling page without clinical claims](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) should link directly to the fees page."
     },
     {
       "type": "h2",

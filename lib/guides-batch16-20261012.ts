@@ -140,7 +140,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the booking confirmation, the appointment reminder, your contact page and the new-patients section of your navigation. If your Google Business Profile has an appointment link, make sure patients who book there can still find this checklist afterward. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the phone number, address and hours next to it."
+        "text": "Link the page from the booking confirmation, the appointment reminder, your contact page and the new-patients section of your navigation. If your Google Business Profile has an appointment link, make sure patients who book there can still find this checklist afterward. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the phone number, address and hours next to it. After patients know what to bring, tell them what happens when they arrive, using a [waiting room and check-in expectations page for a primary care practice](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for the front desk."
       },
       {
         "type": "p",

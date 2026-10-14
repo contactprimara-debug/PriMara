@@ -302,7 +302,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "You cannot improve what you do not count. Set up [call tracking for your medical website](/guides/tracking-phone-calls-from-a-medical-website) so missed and after-hours calls show up in a report, without recording or storing patient conversations. Look at the weekly count of calls outside business hours and the share that went unanswered."
+        "text": "You cannot improve what you do not count. Set up [call tracking for your medical website](/guides/tracking-phone-calls-from-a-medical-website) so missed and after-hours calls show up in a report, without recording or storing patient conversations. Look at the weekly count of calls outside business hours and the share that went unanswered. When the office is closed for a holiday, the greeting should carry the exact dates, as laid out in our [holiday and closure notices guide](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) for a medical practice."
       },
       {
         "type": "p",
@@ -467,7 +467,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A simple rule works well: the page that asks a patient for details gets no marketing scripts, while the page that merely describes the new patient process can carry normal analytics. Video-session instructions follow the same rule: keep them on a separate [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) with no health questions on it."
+        "text": "A simple rule works well: the page that asks a patient for details gets no marketing scripts, while the page that merely describes the new patient process can carry normal analytics. Video-session instructions follow the same rule: keep them on a separate [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) with no health questions on it. A consent form is one of the forms that must stay on a secure system, and the [telehealth consent and technology check page for a counseling practice](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) for video visits shows how to point clients to it."
       },
       {
         "type": "h2",
@@ -1523,7 +1523,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A therapist working from home or by telehealth can usually still have a Google Business Profile. Whether to show an address depends on whether clients visit that location. If clients do not come to your home, hide the address and list a service area. Never borrow a mailbox or virtual office address to appear local.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -1621,7 +1621,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A review from a client can reveal that the person is in therapy. Never confirm that someone is a client in a public reply. Our guide to [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating) explains how to ask in a compliant way, and clients are free to leave a review or not."
+        "text": "A review from a client can reveal that the person is in therapy. Never confirm that someone is a client in a public reply. Our guide to [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating) explains how to ask in a compliant way, and clients are free to leave a review or not. A clinician who sees clients mostly by video should say so clearly, and a [telehealth consent and technology check page](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) helps clients prepare before the first session."
       },
       {
         "type": "callout",
@@ -1723,7 +1723,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment."
+        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples."
       },
       {
         "type": "h2",
@@ -1798,7 +1798,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "People visiting a therapy website may be in distress. Put a short, visible note near the top or bottom that says this site and phone line are not for emergencies, and that anyone in crisis can call or text 988, the Suicide and Crisis Lifeline, or call 911. Keep the wording calm and plain. You can link this page from each of your [anxiety, trauma and couples specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), so a reader who is curious about the focus can also see what the first visit involves. Our guide on the [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) shows full wording and placement."
+        "text": "People visiting a therapy website may be in distress. Put a short, visible note near the top or bottom that says this site and phone line are not for emergencies, and that anyone in crisis can call or text 988, the Suicide and Crisis Lifeline, or call 911. Keep the wording calm and plain. You can link this page from each of your [anxiety, trauma and couples specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), so a reader who is curious about the focus can also see what the first visit involves. Our guide on the [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) shows full wording and placement. Clients who book a video first session also need to know how consent works, which our [telehealth consent and technology check page](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) explains for a counseling practice."
       },
       {
         "type": "h2",

@@ -194,7 +194,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A scheduler can collect names, reasons for visit, and insurance details, which may be protected health information. Before you add one, confirm the vendor will sign a Business Associate Agreement and that it is configured to collect only what you need. Do not send form contents, appointment reasons, or identifiers to analytics or advertising tags. Review our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website), and ask your compliance advisor to approve the setup."
+        "text": "A scheduler can collect names, reasons for visit, and insurance details, which may be protected health information. Before you add one, confirm the vendor will sign a Business Associate Agreement and that it is configured to collect only what you need. Do not send form contents, appointment reasons, or identifiers to analytics or advertising tags. Review our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website), and ask your compliance advisor to approve the setup. The booking confirmation is the right place to link a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice), so patients know what to expect on arrival."
       },
       {
         "type": "p",

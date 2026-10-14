@@ -1034,7 +1034,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Before a storm, set special hours or mark the profile temporarily closed, post a short notice on your site and listing, and tell patients how to reach you. After it, restore regular hours the day you reopen. Wrong hours on Google send patients to a locked door, so update in the same hour you decide.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-14",
     "readMinutes": 6,
     "sections": [
       {
@@ -1116,7 +1116,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording."
+        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording. For planned closures such as holidays, the same special-hours steps apply, and our guide to [holiday and closure notices for a medical practice](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) shows which three places to update on the same day."
       }
     ],
     "faqs": [
@@ -1968,7 +1968,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Same day: scheduling, phone, voicemail and the website team page. First week: bio page, schema, Google profile and the major directories. Within a month: insurance directories, secondary directories, and a check of AI answers for the old name, as in our guide to [fixing wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the matching principle behind all of it. When a clinician leaves, patients will ask how to get their records, so link to a clear [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) from the notice."
+        "text": "Same day: scheduling, phone, voicemail and the website team page. First week: bio page, schema, Google profile and the major directories. Within a month: insurance directories, secondary directories, and a check of AI answers for the old name, as in our guide to [fixing wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the matching principle behind all of it. When a clinician leaves, patients will ask how to get their records, so link to a clear [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) from the notice. The checklist covers every listing, and the [guide to introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) covers the message patients should receive and how to word it."
       },
       {
         "type": "h2",

@@ -705,7 +705,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "The Americans with Disabilities Act applies to medical practices as places of public accommodation, and the Department of Justice says it covers web content too. The law does not name one technical standard for private practices, but the Web Content Accessibility Guidelines (WCAG) are the usual benchmark. Aim for WCAG 2.1 Level AA, and have counsel confirm your obligations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     sections: [
       {
@@ -755,7 +755,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Accessibility and technical SEO overlap, because clean headings, labeled forms, and alt text help search engines too. When you build a new site, make it a requirement, as in our [medical practice website design](/services/medical-practice-website-design) approach, and include it in your [website launch checklist](/guides/medical-website-launch-seo-checklist). Heading order is one of the simplest accessibility wins, and our guide on [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) shows how to outline a page so screen reader users can jump through it."
+        "text": "Accessibility and technical SEO overlap, because clean headings, labeled forms, and alt text help search engines too. When you build a new site, make it a requirement, as in our [medical practice website design](/services/medical-practice-website-design) approach, and include it in your [website launch checklist](/guides/medical-website-launch-seo-checklist). Heading order is one of the simplest accessibility wins, and our guide on [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) shows how to outline a page so screen reader users can jump through it. Accessibility information about entrances and seating belongs on the same page as arrival details, as shown in our [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for primary care."
       }
     ],
     faqs: [

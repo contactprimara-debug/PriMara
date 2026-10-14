@@ -244,7 +244,7 @@ export const guidesPartEight: Guide[] = [
       "Telehealth marketing loses the local-pack advantage a physical office gets from Google Business Profile, so it has to work harder on the website itself: state-by-state licensing clarity, what conditions are and aren't appropriate for a virtual visit, real scheduling and insurance detail, and HIPAA-safe tracking on every page — since a telehealth site is often the entire patient acquisition funnel with no office visit to fall back on.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "No physical office changes the whole strategy" },
@@ -280,7 +280,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "Paid search and social can fill the gap organic content takes longer to build, but the same HIPAA-safe tracking rules apply to every dollar spent — a conversion event tied to a specific condition page, sent to an ad platform without a signed business associate agreement in place, creates the same compliance exposure whether the click came from an organic result or a paid one.",
+        text: "Paid search and social can fill the gap organic content takes longer to build, but the same HIPAA-safe tracking rules apply to every dollar spent — a conversion event tied to a specific condition page, sent to an ad platform without a signed business associate agreement in place, creates the same compliance exposure whether the click came from an organic result or a paid one. Before a telehealth service is promoted, publish a [telehealth consent and technology check page for a counseling practice](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) so clients know what they are agreeing to and how to test their connection.",
       },
     ],
     faqs: [
@@ -314,7 +314,7 @@ export const guidesPartEight: Guide[] = [
       "A nurse practitioner or PA bio page needs the exact credential (NP, APRN, PA-C — never shortened or implied to be a physician), their real specialty and scope of practice, supervising or collaborating physician information where the state requires disclosure, and enough unique biographical detail to avoid reading like a templated stub — thin, near-identical NP/PA bio pages are one of the most common reasons a multi-provider practice's provider pages don't rank individually.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Credential accuracy is not optional, and it's a ranking issue too" },
@@ -350,7 +350,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "For a practice writing several of these pages at once, the fastest way to avoid the near-duplicate trap is a short interview format: three or four questions asked directly of the provider (what drew them to this specialty, what a first visit with them looks like, what they want a new patient to know) turned into the bio's opening paragraph. It takes fifteen minutes per provider and produces genuinely different pages every time, which a generic template filled in from a resume almost never does.",
+        text: "For a practice writing several of these pages at once, the fastest way to avoid the near-duplicate trap is a short interview format: three or four questions asked directly of the provider (what drew them to this specialty, what a first visit with them looks like, what they want a new patient to know) turned into the bio's opening paragraph. It takes fifteen minutes per provider and produces genuinely different pages every time, which a generic template filled in from a resume almost never does. Once the bio page exists, tell patients about it, and our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) shows how to announce a new clinician without clinical claims.",
       },
     ],
     faqs: [

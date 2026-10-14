@@ -744,7 +744,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link between related pages where it helps a reader. For instance, a page on couples work can mention that individual sessions are also available, and an anxiety page can link to your fees page. Our guide to [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website) covers how to do it without clutter."
+        "text": "Link between related pages where it helps a reader. For instance, a page on couples work can mention that individual sessions are also available, and an anxiety page can link to your fees page. Our guide to [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website) covers how to do it without clutter. If couples sessions are a main offering, give them a dedicated page, and our [couples counseling page for a counseling practice without clinical claims](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) walks through the format, fees and safety notice to include."
       },
       {
         "type": "h2",

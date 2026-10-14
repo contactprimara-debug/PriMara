@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-14",
   "readMinutes": 7,
   "sections": [
     {
@@ -476,7 +476,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change."
+      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one."
     },
     {
       "type": "callout",

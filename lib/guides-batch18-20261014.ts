@@ -1021,4 +1021,510 @@ export const guidesPartTwentyOne: Guide[] = [
       { href: "/primary-care", label: "Primary Care Marketing", description: "Our service for primary care practices." },
     ],
   },
+
+  // ---------------------------------------------------------------- 954
+  {
+    slug: "holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting",
+    keyword: "holiday and closure notices for a medical practice: website, Google profile and phone greeting",
+    category: "Checklist",
+    title: "Holiday and Closure Notices for a Medical Practice: Website, Google Profile and Phone Greeting",
+    metaTitle: "Holiday and Closure Notices for a Medical Practice",
+    metaDescription:
+      "How a medical practice can announce holiday hours and closures on its website, Google profile and phone greeting. Call (561) 291-2681.",
+    answer:
+      "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
+    author: "Liam Costello",
+    publishDate: "2026-10-14T12:20:00Z",
+    dateModified: "2026-10-14",
+    readMinutes: 6,
+    sections: [
+      h2("A closed door with no explanation costs you patients"),
+      p(
+        "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that."
+      ),
+      p(
+        "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed."
+      ),
+      h2("Write the notice once, then copy it"),
+      p(
+        "Draft a single version before you touch any system. Decide the first day closed, the first day open again, whether anyone answers the phone, and where urgent callers should go. Then every channel carries the same words, which stops the mismatches that make patients doubt the office."
+      ),
+      ul(
+        "The dates, written out with the day of the week, so nobody has to count.",
+        "Whether the phone is answered, goes to voicemail or forwards to an answering service.",
+        "What happens to refill requests and messages in the portal while the office is closed.",
+        "The emergency line: call 911 for an emergency, and the nearest urgent option your practice recommends.",
+        "The date and time the office reopens and when staff will return messages."
+      ),
+      h2("Where to post it"),
+      table(
+        ["Place", "How to post it"],
+        ["Google Business Profile", "Add special hours for each affected date so the listing shows closed."],
+        ["Website", "Put a short banner on the home and contact pages, with a link to details."],
+        ["Phone greeting", "Record a message that gives the dates and the emergency instruction."],
+        ["Portal and email", "Set an automatic reply with the same dates and wording."],
+        ["Door sign", "Post a printed copy with the phone number and the reopening date."]
+      ),
+      p(
+        "Special hours on a Google listing are different from changing the regular hours. They apply only to the dates you choose and revert on their own, which is exactly what you want. Our guide on [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) explains how to set them and how to mark a temporary closure."
+      ),
+      h3("Remember the voicemail and the answering service"),
+      p(
+        "The greeting is the notice patients hear most. Record it in a calm voice, keep it under thirty seconds, and test it by calling the office from a mobile phone. If an answering service takes calls, send them the notice in writing so their staff read the same words your recording uses."
+      ),
+      h2("Plan for unplanned closures"),
+      p(
+        "Keep a draft notice with blanks for the reason, the dates and the contact route. When something happens, someone can fill in the blanks within minutes instead of writing from scratch at the worst possible time. Decide ahead of time who is allowed to edit the Google listing and the website banner, and write the logins into your shared access document."
+      ),
+      p(
+        "Agree on a single person who confirms the final wording. A notice that says one thing on the website and another on the phone message does more harm than silence."
+      ),
+      h2("Take the notice down on time"),
+      p(
+        "Put a reminder on the calendar for the morning you reopen. Remove the banner, restore the greeting and check that the Google listing shows open hours again. An out-of-date closure notice is one of the most common reasons a patient decides a practice has gone out of business, and it is entirely avoidable."
+      ),
+      p(
+        "Afterward, spend five minutes noting what went wrong. Did patients still call asking if you were open? Did a refill request slip through? Add that line to the template for next time."
+      ),
+      p("Keep a short record of each closure after it ends: the dates, where the notice was posted, who approved it and how many patients called anyway. After two or three closures, the pattern shows which channel patients actually read, and you can put the most effort there next time."),
+      p("Do not forget the people who work outside the building. If a billing company, an answering service or a telehealth vendor depends on your hours, tell them the dates in writing, and ask them to confirm."),
+      p("Test every channel after you post. Search for the practice on a phone and read the hours panel, call the main number and listen to the greeting, and open the website in a private window to see the banner as a visitor would. It takes five minutes and catches the mistakes that otherwise surface as angry calls on the first closed morning."),
+    ],
+    faqs: [
+      {
+        q: "Should a closure notice go on the Google listing or the website first?",
+        a: "Do both on the same day. Set the Google special hours and publish the website banner together so patients do not see two different answers.",
+      },
+      {
+        q: "Does a notice need to mention emergencies?",
+        a: "Yes. A short line telling patients to call 911 for an emergency is standard, along with any urgent care route your practice recommends.",
+      },
+      {
+        q: "What if the phone will not be answered at all?",
+        a: "Say so clearly in the greeting and the notice, give the reopening date, and tell patients how portal messages and refill requests will be handled.",
+      },
+      {
+        q: "How far ahead should a holiday closure be announced?",
+        a: "Two weeks is a practical minimum for planned closures, with a reminder in the final week. Unplanned closures should be posted as soon as the decision is made.",
+      },
+      {
+        q: "When should the notice come down?",
+        a: "The morning the office reopens. Remove the banner, restore the greeting and confirm the Google listing shows normal hours.",
+      },
+    ],
+    citations: [
+      { publisher: "Google Business Profile Help", label: "Edit your business information", href: "https://support.google.com/business/answer/3039617" },
+      HHS_PRIVACY,
+      PLAIN,
+    ],
+    links: [
+      { href: "/guides/google-business-profile-hours-and-closures-during-hurricane-season", label: "Hours and Closures", description: "Special hours during hurricane season." },
+      { href: "/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice", label: "After-Hours Calls", description: "What patients hear when you are closed." },
+      { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Profile Checklist", description: "Keep your listing accurate." },
+      { href: "/primary-care", label: "Primary Care Marketing", description: "Our service for primary care practices." },
+    ],
+  },
+
+  // ---------------------------------------------------------------- 956
+  {
+    slug: "telehealth-consent-and-technology-check-page-for-a-counseling-practice",
+    keyword: "telehealth consent and technology check page for a counseling practice",
+    category: "How-to",
+    title: "Telehealth Consent and Technology Check Page for a Counseling Practice",
+    metaTitle: "Telehealth Consent and Technology Check Page",
+    metaDescription:
+      "How a counseling practice can explain video-visit consent and a quick technology check before the first telehealth session. Call (561) 291-2681.",
+    answer:
+      "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
+    author: "Gio LaRoche",
+    publishDate: "2026-10-14T12:40:00Z",
+    dateModified: "2026-10-14",
+    readMinutes: 7,
+    sections: [
+      h2("Two jobs in one page: consent and readiness"),
+      p(
+        "Clients who choose video visits are asking for convenience, and the practice owes them two things in return. The first is a clear explanation of what telehealth involves and a way to agree to it. The second is a quick way to confirm the technology will work, so the first ten minutes of a session are not spent hunting for a microphone."
+      ),
+      p(
+        "Our guide to a [telehealth visit instructions page for a therapy practice](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) covers the step-by-step joining instructions. This page deals with the earlier question: has the client agreed, and is their setup ready."
+      ),
+      h2("What the consent section should explain"),
+      p(
+        "Your own consent form is written by the practice and reviewed by someone qualified in your state, since telehealth rules differ by location and by clinician license. The website page should not replace it. It should summarize what the form covers in plain language and link to the form on the secure portal."
+      ),
+      ul(
+        "That sessions take place by secure video, and which platform the practice uses.",
+        "That the client should be in a private place and the clinician will confirm their location at the start.",
+        "That technology can fail, and what the plan is if it does, such as a phone call to a number on file.",
+        "That the client agrees not to record the session unless the practice's policy says otherwise.",
+        "Where to find the full consent form and how long it takes to complete."
+      ),
+      h3("Do not collect the signed form on the public page"),
+      p(
+        "A consent that names the client belongs on a secure system, not in a web form that emails the practice. Use the practice's portal or its forms tool, and check with the vendor that it supports the protections your practice needs under HIPAA. The same caution is described in our guide to [publishing forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data)."
+      ),
+      h2("A five-minute technology check"),
+      ol(
+        "Use the device you will use for the session, not a different one.",
+        "Open the practice's test link or a free camera test, and confirm that video and sound both work.",
+        "Close other programs and, if you can, move closer to the router or switch from mobile data to Wi-Fi.",
+        "Find a quiet room with a door, and consider headphones for privacy.",
+        "Write down the office phone number so you can call if the video drops."
+      ),
+      table(
+        ["Problem", "What to try first"],
+        ["No picture", "Allow camera access in the browser settings and reload the page."],
+        ["No sound", "Check the speaker or headphone choice inside the video tool."],
+        ["Choppy video", "Close other apps, move closer to Wi-Fi or turn off video temporarily."],
+        ["Cannot join", "Call the office and ask for a new link or a phone session."]
+      ),
+      h2("Privacy, in plain words"),
+      p(
+        "Tell clients what the practice does to protect a session and what they can do on their side. They can use a private room, avoid public Wi-Fi and keep the device updated. Avoid promises of perfect security, since no vendor can truthfully give one."
+      ),
+      p(
+        "Finish with the crisis information: call 911 in an emergency, and call or text 988 for someone in distress. Because a telehealth client may be far from the office, ask them to share their location at the start of every session, as the clinician will explain."
+      ),
+      h2("Keep the page accessible"),
+      p("Some clients will use a phone, some a tablet and some a shared computer. Write the instructions so that they work on any of them, avoid screenshots that cannot be read by a screen reader without text beside them, and offer a phone-only alternative for clients who cannot manage video. A client who cannot join is not a failed client; it is a signal that the process needs another door."),
+      p("Ask a colleague who does not work in the office to follow the page from start to finish on their own device, and time how long each step takes. Replace any instruction that needs a phone call to understand."),
+      p("Keep a short log of the technology problems that clients report. If three people struggle with the same step, the instruction is unclear rather than the clients being careless. Rewrite that step, test it again, and note the date of the change at the bottom of the page."),
+    ],
+    faqs: [
+      {
+        q: "Does a counseling practice need written consent for telehealth?",
+        a: "Most practices collect one, and requirements differ by state and license. Have your compliance contact or attorney review the form, and keep the signed copy in a secure system.",
+      },
+      {
+        q: "Can the consent form be an ordinary web form?",
+        a: "Only if the tool is built to protect health information and the vendor will sign the agreement your practice needs. Otherwise, use the secure portal.",
+      },
+      {
+        q: "What should the page say about recording sessions?",
+        a: "State the practice's policy plainly. Many practices ask clients not to record, and the clinician will explain any exceptions in person.",
+      },
+      {
+        q: "What if the video fails during a session?",
+        a: "Say in advance that the clinician will call the number on file, so clients know what to expect and are not left waiting.",
+      },
+      {
+        q: "Should the page promise that video visits are completely secure?",
+        a: "No. Describe what the practice does and what the client can do, without guaranteeing absolute security.",
+      },
+    ],
+    citations: [
+      HHS_PRIVACY,
+      { publisher: "HHS Telehealth", label: "Telehealth for patients", href: "https://telehealth.hhs.gov/patients" },
+      LIFELINE,
+    ],
+    links: [
+      { href: "/guides/telehealth-visit-instructions-page-for-a-therapy-practice", label: "Telehealth Instructions", description: "Help clients join a video visit." },
+      { href: "/guides/telehealth-marketing-playbook", label: "Telehealth Marketing Playbook", description: "Marketing virtual care." },
+      { href: "/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data", label: "New-Patient Forms", description: "Publish forms without exposing data." },
+      { href: "/mental-health", label: "Mental Health Marketing", description: "Our service for counseling practices." },
+    ],
+  },
+
+  // ---------------------------------------------------------------- 958
+  {
+    slug: "couples-counseling-page-for-a-counseling-practice-without-clinical-claims",
+    keyword: "couples counseling page for a counseling practice without clinical claims",
+    category: "How-to",
+    title: "Couples Counseling Page for a Counseling Practice Without Clinical Claims",
+    metaTitle: "Couples Counseling Page Without Clinical Claims",
+    metaDescription:
+      "How a counseling practice can describe couples sessions by format, scheduling and fees without promising outcomes. Call (561) 291-2681.",
+    answer:
+      "A couples counseling page should explain how sessions work, who attends, how long they run, how to book, what they cost and how the first call goes. It should not promise a stronger relationship, name problems it will fix or tell couples what is wrong. Describe the format and invite one conversation with the clinician.",
+    author: "Liam Costello",
+    publishDate: "2026-10-14T13:00:00Z",
+    dateModified: "2026-10-14",
+    readMinutes: 6,
+    sections: [
+      h2("Couples search with a different kind of nervousness"),
+      p(
+        "Someone looking for couples counseling is usually carrying two worries at once. They are unsure whether to seek help, and they are unsure how to ask their partner to do the same. A page that is calm, specific and free of judgment makes the decision to call a smaller one."
+      ),
+      p(
+        "That same sensitivity is why the page needs discipline. The wrong sentence can sound like a diagnosis of a relationship, or a promise that sessions will save one. Neither is something a website can say responsibly."
+      ),
+      h2("Start with the format, not the conflict"),
+      p(
+        "Visitors want to know what happens before they decide to attend. Describe it the way you would describe it at a front desk, and keep every statement something the clinician actually does."
+      ),
+      ul(
+        "Who attends: both partners together, with a note on whether individual sessions are ever offered.",
+        "How long a session lasts and how often the practice usually meets with couples, with the schedule stated as typical and not guaranteed.",
+        "How the first contact works, such as a short phone call with each partner or a first joint session.",
+        "Where sessions take place: in the office, by video or both.",
+        "What it costs, whether insurance can be used and what the cancellation policy says.",
+        "How to book, including a phone number and a secure contact form."
+      ),
+      h3("Use neutral words about people"),
+      p(
+        "Write about couples and partners rather than husbands, wives or any assumption about who the visitors are. Let people describe their own relationships, and avoid examples that suggest a single typical problem."
+      ),
+      h2("What to leave out"),
+      table(
+        ["Avoid saying", "Say instead"],
+        ["We will save your marriage", "Sessions are a place for partners to talk with a licensed clinician."],
+        ["Fix communication problems", "The clinician will explain how sessions are structured."],
+        ["Most couples improve", "Ask about fit during a short first call."],
+        ["Struggling with affairs or abuse", "Call 911 or the national crisis lines if anyone is in danger."]
+      ),
+      p(
+        "The last row matters. A couples page may be read by someone who is not safe at home. Add a clear line for emergencies and a link to the National Domestic Violence Hotline or 988, and make clear that the practice cannot respond to a crisis through a web form."
+      ),
+      h2("Be honest about privacy and the first call"),
+      p(
+        "Partners often worry about what the clinician will share with the other person. Your policy on this belongs in the clinician's own words, and the page can say that the practice will explain how it handles information at the first contact. Do not paraphrase a legal rule if you are unsure."
+      ),
+      p(
+        "Mention that the form should not contain details about the relationship. Our guide on [writing a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) shows how to prepare visitors for the first call without asking for anything private."
+      ),
+      p(
+        "Photographs should be plain and welcoming. Avoid stock images of arguments, tears or perfect couples, since each suggests a story the clinician cannot promise."
+      ),
+      h2("Check the page against the clinician's own words"),
+      p("The clinician who sees couples should read the final page aloud and mark any sentence that does not match how they actually work. If the page says the first session is joint but the clinician always starts with each partner separately, the page is wrong, not the clinician. Corrections made now prevent an awkward first meeting."),
+      p("Then read it once as a skeptical partner would. Does any line sound like blame, or assume that one person is the problem? Rewrite it so both partners could read the page together and feel equally welcome."),
+      p("Finally, link the page from your fees page and your contact page, so a couple can find the cost and the booking details without searching again. Review it every six months, and any time the clinician changes how they structure the first session."),
+      p("Consider a single paragraph about what to bring to the first call: a calendar of the partners' availability, the insurance card if coverage matters, and any questions about fees. This is practical, makes the first conversation shorter, and gives hesitant visitors something simple to do while they decide."),
+      p("Mention too that the practice will not take sides in a booking call. Staff who answer the phone should be trained to schedule, explain fees and answer practical questions, and to leave the details of the relationship for the clinician. Saying so on the page lets a nervous partner call without rehearsing their story first."),
+    ],
+    faqs: [
+      {
+        q: "Can a couples counseling page say that therapy saves relationships?",
+        a: "No. That is an outcome promise. Describe the format of sessions and invite visitors to talk with a clinician about whether counseling is a fit.",
+      },
+      {
+        q: "Should both partners be named on the page?",
+        a: "Never name clients or couples. Describe the service in general terms and do not use real stories.",
+      },
+      {
+        q: "Does the page need a safety notice?",
+        a: "Yes. A short line telling people to call 911 in danger, along with a crisis line, is important because some visitors may not be safe at home.",
+      },
+      {
+        q: "Can the practice say it works with same-sex or unmarried couples?",
+        a: "You can state who the practice welcomes if that is true and the clinicians agree. Keep it factual, such as welcoming all couples, without claims about outcomes.",
+      },
+      {
+        q: "What should the page say about confidentiality between partners?",
+        a: "Say that the clinician will explain how the practice handles information at the first contact. Do not paraphrase legal rules unless the clinician or your attorney has approved the wording.",
+      },
+    ],
+    citations: [
+      HHS_PRIVACY,
+      { publisher: "American Psychological Association", label: "Ethical Principles of Psychologists and Code of Conduct", href: "https://www.apa.org/ethics/code" },
+      LIFELINE,
+    ],
+    links: [
+      { href: "/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims", label: "Therapy Specialty Pages", description: "Describe focus areas without clinical claims." },
+      { href: "/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice", label: "First Session Page", description: "What new clients want to know." },
+      { href: "/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained", label: "Therapy Fees Page", description: "Sliding scale, out-of-network and superbills." },
+      { href: "/mental-health", label: "Mental Health Marketing", description: "Our service for counseling practices." },
+    ],
+  },
+
+  // ---------------------------------------------------------------- 959
+  {
+    slug: "introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims",
+    keyword: "introducing a new provider to patients online for a primary care practice without clinical claims",
+    category: "Playbook",
+    title: "Introducing a New Provider to Patients Online for a Primary Care Practice Without Clinical Claims",
+    metaTitle: "Introduce a New Provider Online Without Claims",
+    metaDescription:
+      "How a primary care practice can announce a new provider on its website, Google profile and patient messages without clinical claims. Call (561) 291-2681.",
+    answer:
+      "Announce a new provider with a bio page, a short website notice, a Google profile update and one patient message. State training and licensure exactly as verified, describe the visit experience rather than outcomes, and avoid comparisons with other clinicians. Add the provider to every listing on the same day.",
+    author: "Gio LaRoche",
+    publishDate: "2026-10-14T13:20:00Z",
+    dateModified: "2026-10-14",
+    readMinutes: 7,
+    sections: [
+      h2("A new provider is a new reason for patients to come back"),
+      p(
+        "Adding a physician, nurse practitioner or physician assistant is good news for a practice, because it can open appointments that were full. But a new name on the schedule means nothing to patients until they hear about it, and nothing to search engines until the name appears consistently in many places."
+      ),
+      p(
+        "The announcement has to be honest and calm. It is easy to reach for superlatives or promises about results, and those are exactly the phrases that create regulatory risk. Introduce the person, say how patients can book, and let their work speak for itself."
+      ),
+      h2("Gather the facts before you write a word"),
+      ul(
+        "Full name and credentials exactly as they appear on the license, with the license number kept in the practice's records.",
+        "Education and training that has been verified, with names of institutions spelled correctly.",
+        "The date the provider starts seeing patients and the days and hours they work.",
+        "Whether they are accepting new patients and which insurance plans they are credentialed with.",
+        "A recent professional photograph taken for this purpose and approved by the provider.",
+        "Languages the provider speaks at the visit, if the practice lists them."
+      ),
+      h3("Never invent or round up a credential"),
+      p(
+        "Board certification, fellowships and awards are verifiable, and a wrong claim is serious. Include only what the provider confirms in writing and the practice has checked. Our guide to [writing a nurse practitioner or physician assistant bio page that ranks](/guides/np-pa-bio-page-that-ranks) covers how to phrase credentials correctly."
+      ),
+      h2("Where to announce"),
+      table(
+        ["Channel", "What to do"],
+        ["Website bio page", "Publish a full page for the provider, linked from the team and home pages."],
+        ["Home or news banner", "Add a short notice with the start date and how to book."],
+        ["Google Business Profile", "Add the provider or update the profile, and add a post if it fits your cadence."],
+        ["Directories and insurers", "Update health directories and send the new provider to each plan."],
+        ["Patient message", "Send one email or text to the people who agreed to receive messages."]
+      ),
+      p(
+        "Our guide on [what to update when a provider joins or leaves a medical practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists every listing to touch, and it is worth following line by line."
+      ),
+      h2("How the visit is described"),
+      p(
+        "Patients choose a provider on fit more than credentials. Describe what a visit with the new provider is like in simple, factual terms: how long visits run, how appointments are booked and what the provider asks patients to bring. Avoid words like best, leading, or specialist in the treatment of anything."
+      ),
+      p(
+        "Skip comparisons. Saying the new provider is more thorough than others implies something about colleagues, and it invites complaints."
+      ),
+      h2("Check the rollout a week later"),
+      p(
+        "Search for the provider's name and the practice. Confirm that the bio page appears, that the Google profile lists the right information and that the first appointments are being booked. Ask the front desk what patients are asking and add the answer to the page. If a directory still lacks the provider after two weeks, follow up with it directly."
+      ),
+      h2("Sample announcement wording"),
+      p("We are pleased to welcome a new provider to the practice, who will begin seeing patients on the start date. The provider is accepting new patients and can be booked online or by calling the front desk. You can read about their training and background on their page, and you are welcome to ask any questions when you call."),
+      p("That is all the announcement needs. It states a fact, gives a date, tells the reader how to act and invites questions. Resist adding a sentence about being excited about outcomes or the difference the provider will make in the community."),
+      p("Adapt the wording to your own voice, and send it to the provider for approval before it goes anywhere public. A provider who has read the exact text will not be surprised when a patient mentions it."),
+      p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement."),
+      p("After the first month, review the provider's page in Search Console. If it is getting impressions but few clicks, rewrite the title and the first paragraph in plainer words. If it is getting none, add a link from a page that is already indexed and busy, such as the team page, and give search engines a few weeks to find it."),
+    ],
+    faqs: [
+      {
+        q: "What should a new provider announcement include?",
+        a: "The provider's name and verified credentials, the start date, how to book and whether new patients are accepted. Keep it factual and avoid claims about outcomes.",
+      },
+      {
+        q: "Can the practice say a new provider is the best in the area?",
+        a: "No. Superlatives are difficult to substantiate and can create advertising risk. Describe the provider's training and the visit experience instead.",
+      },
+      {
+        q: "Should the provider have a Google Business Profile of their own?",
+        a: "Sometimes, but not always. It depends on whether the provider qualifies for an individual listing, and duplicates cause confusion. Check Google's guidelines before creating one.",
+      },
+      {
+        q: "How soon should the website be updated?",
+        a: "Before or on the day the provider starts. Publish the bio page, update the team page and add the booking details at the same time.",
+      },
+      {
+        q: "Who approves the bio text?",
+        a: "The provider should approve every line, and the practice manager should check credentials against the license and certification records.",
+      },
+    ],
+    citations: [
+      HHS_PRIVACY,
+      { publisher: "CMS", label: "National Plan and Provider Enumeration System (NPPES)", href: "https://nppes.cms.hhs.gov/" },
+      GOOGLE_HELPFUL,
+    ],
+    links: [
+      { href: "/guides/np-pa-bio-page-that-ranks", label: "NP and PA Bio Page", description: "Credentials and bios that rank." },
+      { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "Doctor Bio Page", description: "Write a bio patients read." },
+      { href: "/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice", label: "Provider Changes", description: "Everything to update when staff change." },
+      { href: "/primary-care", label: "Primary Care Marketing", description: "Our service for primary care practices." },
+    ],
+  },
+
+  // ---------------------------------------------------------------- 960
+  {
+    slug: "waiting-room-and-check-in-expectations-page-for-a-primary-care-practice",
+    keyword: "waiting room and check-in expectations page for a primary care practice",
+    category: "How-to",
+    title: "Waiting Room and Check-In Expectations Page for a Primary Care Practice",
+    metaTitle: "Waiting Room and Check-In Expectations Page",
+    metaDescription:
+      "How a primary care practice can explain check-in, the waiting room and what happens at arrival so patients know what to expect. Call (561) 291-2681.",
+    answer:
+      "A check-in page should explain how to arrive, where to enter, how to check in, what the front desk will ask for, how waiting works and what to do if the wait feels long. Keep it factual, avoid time promises you cannot keep, and never ask patients to describe their symptoms on the page.",
+    author: "Liam Costello",
+    publishDate: "2026-10-14T13:40:00Z",
+    dateModified: "2026-10-14",
+    readMinutes: 6,
+    sections: [
+      h2("The first five minutes shape the whole visit"),
+      p(
+        "Patients form a view of a practice before they ever see a provider. How easy it was to find the entrance, how the front desk greeted them and whether they knew what to do next all shape their trust. A page that walks them through arrival removes most of the small surprises that turn into unhappy reviews."
+      ),
+      p(
+        "It is also useful for search. People type questions like what happens when I check in at a doctor's office, and a page that answers in your practice's own voice is a natural fit."
+      ),
+      h2("Describe the arrival in the order it happens"),
+      ol(
+        "Finding the building: the street address, the entrance to use, the floor or suite and where to park.",
+        "Coming in: whether the door is open, if there is a buzzer, and how to find the front desk.",
+        "Checking in: what the desk needs, such as a photo ID and insurance card, and whether forms are on a tablet, on paper or already done online.",
+        "Waiting: where to sit, whether the practice calls patients by first name, and how a patient can tell the desk they need help.",
+        "Being called back: who meets the patient, and what the first few minutes usually involve, described without medical detail."
+      ),
+      h3("Say what you do when the schedule runs behind"),
+      p(
+        "Every practice runs late occasionally. Rather than promising no waiting, tell patients what the office does when it happens, such as letting the desk update them or offering to reschedule. This is more credible than a vow of punctuality and sets a reasonable expectation."
+      ),
+      h2("Make the page practical"),
+      table(
+        ["Patient question", "What the page can say"],
+        ["Where do I park?", "Name the lot, any fee and the best entrance to use."],
+        ["Can someone come with me?", "State your guest policy in plain words."],
+        ["Do I need forms ready?", "Link to the secure forms page and say how long they take."],
+        ["Is there a place for a child to sit?", "Describe the space only if it is accurate."],
+        ["How do I get help moving around?", "Mention accessible entrances and how to ask for assistance."]
+      ),
+      p(
+        "The accessibility line deserves care. Check that what you say matches the building, and see our guide on [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for how to describe it honestly."
+      ),
+      h2("Protect privacy in the room"),
+      p(
+        "Some patients worry about being overheard at the desk. If the practice has a quiet check-in option, such as a form or a private window, mention it. Do not claim a level of privacy the layout cannot deliver, and instruct staff not to call out a patient's reason for coming."
+      ),
+      p(
+        "Also mention the emergency instruction at the end: patients who feel very unwell should tell the desk right away, and in a true emergency, call 911."
+      ),
+      h2("Keep it linked and fresh"),
+      p(
+        "Link the page from your new-patient message and from your [what to bring to a first appointment page](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients). Walk through it yourself every few months. If the parking changes, the entrance moves or the forms switch to a tablet, the page changes the same week."
+      ),
+      h2("Involve the people who work the front desk"),
+      p("The staff who greet patients know which questions come up every day. Ask them for the five most common ones and make sure the page answers each. Let them read the final draft and tell you where it does not match what really happens, since a page that describes an ideal check-in rather than the real one will disappoint on the first visit."),
+      p("Add a line about children, interpreters and patients who need extra time. Many families look for this information before they book, and a sentence that says how to ask for help can decide whether they come at all."),
+      p("If your practice uses a texting system to say when a room is ready, explain it in one sentence and mention that patients may opt out. Remember that the message should never include the reason for the visit."),
+      p("Photographs help if they are honest. A clear picture of the entrance from the parking lot, and another of the front desk, can save a patient from walking past the door. Add descriptive text for each image so the page works for patients who use screen readers, and avoid pictures that show other patients or visible paperwork."),
+      p("Finally, say who to ask for help. A patient who is anxious, in pain or unsure about the forms should know they can speak to the front desk first, and that a staff member will find a quiet place to talk. One warm sentence about this, placed near the top of the page, often matters more than a long list of rules."),
+    ],
+    faqs: [
+      {
+        q: "Should a primary care practice publish expected wait times?",
+        a: "Be careful. Waits vary, and a published number can become a promise. Explain how the schedule works and what patients can do if they are waiting longer than expected.",
+      },
+      {
+        q: "What should the page say about forms at check-in?",
+        a: "Say whether forms are completed online beforehand or on arrival, link to the secure forms page and note how long they usually take.",
+      },
+      {
+        q: "Can the page ask what the patient is coming in for?",
+        a: "No. Keep health details off the page and out of web forms. The clinical team will ask in the exam room.",
+      },
+      {
+        q: "How often should a check-in page be reviewed?",
+        a: "Every few months, and whenever the entrance, parking, forms or front-desk process changes.",
+      },
+      {
+        q: "Does this page help with local search?",
+        a: "It can, because it answers common patient questions in your own words. Link it from the contact page and the new-patient message.",
+      },
+    ],
+    citations: [
+      HHS_PRIVACY,
+      { publisher: "ADA.gov", label: "Web accessibility guidance for businesses", href: "https://www.ada.gov/resources/web-guidance/" },
+      PLAIN,
+    ],
+    links: [
+      { href: "/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients", label: "What to Bring", description: "A first-appointment page for primary care." },
+      { href: "/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile", label: "Parking and Accessibility", description: "Directions that help every patient." },
+      { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "Contact Page Checklist", description: "Phone, address and hours done right." },
+      { href: "/primary-care", label: "Primary Care Marketing", description: "Our service for primary care practices." },
+    ],
+  },
 ];
