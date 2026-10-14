@@ -613,7 +613,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A specialty page describes who you work with, what a first session is like and how to book, using ordinary words. It should not promise outcomes, diagnose readers or describe treatment as a cure. Give each specialty its own page, built around what a person is searching for.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 8,
     "sections": [
       {
@@ -687,7 +687,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Clinical claims are the most common mistake on therapy sites. Words that promise a result, describe therapy as a cure, or imply that the practice can diagnose a reader from a web page create risk and can mislead a vulnerable person."
+        "text": "Clinical claims are the most common mistake on therapy sites. Words that promise a result, describe therapy as a cure, or imply that the practice can diagnose a reader from a web page create risk and can mislead a vulnerable person. Specialty pages should avoid advice, and the same discipline applies to a [FAQ page for a therapy practice](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice) that declines clinical questions politely."
       },
       {
         "type": "table",
@@ -752,7 +752,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Include four to six short questions a person might ask before booking: do you offer evening sessions, is telehealth available, how long is a session, do you take insurance, what does it cost. Mark them up with FAQ schema so search and answer engines can read them. Our guide on [writing patient FAQs that answer AI search](/guides/how-to-write-patient-faqs-that-answer-ai-search) explains the format."
+        "text": "Include four to six short questions a person might ask before booking: do you offer evening sessions, is telehealth available, how long is a session, do you take insurance, what does it cost. Mark them up with FAQ schema so search and answer engines can read them. Our guide on [writing patient FAQs that answer AI search](/guides/how-to-write-patient-faqs-that-answer-ai-search) explains the format. A group is another format your visitors search for, and a [group therapy page without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) follows the same rule of describing logistics instead of outcomes."
       },
       {
         "type": "h2",

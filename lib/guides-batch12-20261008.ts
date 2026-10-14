@@ -204,7 +204,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Plain language means patients can find what they need, understand it the first time, and act on it. Use common words, short sentences and one idea per paragraph, and define any medical term you cannot avoid. A reading-level score is a rough check, not the goal; a real patient understanding the page is.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-14",
   "readMinutes": 6,
   "sections": [
     {
@@ -308,7 +308,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Prioritize the pages patients act on: new-patient information, how to book, insurance and costs, and anything about preparing for a visit. These pages carry the highest stakes for confusion. Your [accepted insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) and your FAQ content are the first places to simplify."
+      "text": "Prioritize the pages patients act on: new-patient information, how to book, insurance and costs, and anything about preparing for a visit. These pages carry the highest stakes for confusion. Your [accepted insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) and your FAQ content are the first places to simplify. Pages that explain paperwork are a good test of plain language, and the [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) shows how short steps and a clear turnaround time can read."
     },
     {
       "type": "callout",
@@ -2513,7 +2513,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Keep one permanent page for each seasonal service, such as flu shots or school physicals, and update it every year rather than publishing a new page each season. Put the current dates, how to book and what to bring at the top, keep medical statements general and sourced, and archive nothing that patients may still search for.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-14",
   "readMinutes": 6,
   "sections": [
     {
@@ -2604,7 +2604,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Support the seasonal pages with a post on your Business Profile at the start of the season; see [what to post on a Google Business Profile](/guides/what-to-post-on-google-business-profile-for-a-medical-practice). A content plan helps; our [content calendar checklist](/guides/medical-practice-content-calendar-checklist) shows where to place these. The same approach works for a year-round preventive service, such as an [annual wellness visit page written without clinical claims](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims)."
+      "text": "Support the seasonal pages with a post on your Business Profile at the start of the season; see [what to post on a Google Business Profile](/guides/what-to-post-on-google-business-profile-for-a-medical-practice). A content plan helps; our [content calendar checklist](/guides/medical-practice-content-calendar-checklist) shows where to place these. The same approach works for a year-round preventive service, such as an [annual wellness visit page written without clinical claims](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims). The late-summer rush also brings a wave of paperwork requests, so pair the seasonal page with a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) that tells families how to ask."
     },
     {
       "type": "callout",

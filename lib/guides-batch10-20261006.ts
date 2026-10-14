@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-14",
     "readMinutes": 6,
     "sections": [
       {
@@ -1976,7 +1976,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The National Plan and Provider Enumeration System, NPPES, holds each provider's practice location and taxonomy, and the provider is responsible for keeping it current. Ask a new provider to confirm theirs lists your address, and ask a departing provider to remove it. Wrong data there feeds other directories. For redirect steps, follow Google's documentation on 301 redirects. After the changes are live, search the provider's name and your practice name together, and note anything that still shows the old arrangement, so the next sweep starts with a known list."
+        "text": "The National Plan and Provider Enumeration System, NPPES, holds each provider's practice location and taxonomy, and the provider is responsible for keeping it current. Ask a new provider to confirm theirs lists your address, and ask a departing provider to remove it. Wrong data there feeds other directories. For redirect steps, follow Google's documentation on 301 redirects. After the changes are live, search the provider's name and your practice name together, and note anything that still shows the old arrangement, so the next sweep starts with a known list. A move touches many of the same places as a staffing change, so use the [office move checklist for a medical practice: update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) alongside the provider checklist."
       }
     ],
     "faqs": [

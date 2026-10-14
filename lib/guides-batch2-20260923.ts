@@ -204,7 +204,7 @@ export const guidesPartFive: Guide[] = [
       "Review gating — screening patients privately and only sending happy ones to a public review link — violates Google's review policies and the FTC's rule against suppressing negative reviews, and Google can suppress or remove reviews earned that way. The compliant alternative is simple: ask every patient the same way, at the same moment, and make leaving a review easy regardless of what they're likely to say.",
     author: "Gio LaRoche",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-09-23",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why Primara does not build review-gating systems" },
@@ -245,7 +245,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "Setting up a compliant request system" },
       {
         type: "p",
-        text: "The mechanics are simple: a text or email sent after every visit with a direct link to your Google Business Profile review form, no pre-screening question in the message. Primara's own review-request system works exactly this way — every patient gets the same link, at the same point, regardless of how the visit likely went, which is both the compliant approach and, over time, the one that produces a review profile Google actually trusts and ranks well. Once reviews come in, [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses) covers how to reply without disclosing patient information. Independent family medicine practices that compete with urgent care chains on review volume can see how we approach it on our [family medicine marketing page](/specialties/family-medicine). For the front desk, our guide to [QR codes and short links for review requests](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice) shows how to put the same neutral review link in front of every patient.",
+        text: "The mechanics are simple: a text or email sent after every visit with a direct link to your Google Business Profile review form, no pre-screening question in the message. Primara's own review-request system works exactly this way — every patient gets the same link, at the same point, regardless of how the visit likely went, which is both the compliant approach and, over time, the one that produces a review profile Google actually trusts and ranks well. Once reviews come in, [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses) covers how to reply without disclosing patient information. Independent family medicine practices that compete with urgent care chains on review volume can see how we approach it on our [family medicine marketing page](/specialties/family-medicine). For the front desk, our guide to [QR codes and short links for review requests](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice) shows how to put the same neutral review link in front of every patient. The follow-up message that carries the review link can stay free of any visit detail, as shown in [this guide to after-visit follow-up emails](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details), so every patient receives the same invitation.",
       },
     ],
     faqs: [

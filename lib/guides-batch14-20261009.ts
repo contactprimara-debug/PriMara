@@ -15,7 +15,7 @@ export const guidesPartSeventeen: Guide[] = [
   "answer": "A therapy fees page should state each session fee and length, say plainly whether you take insurance or are out of network, explain whether you give superbills clients can submit to their own plan, and describe any sliding scale honestly. Avoid promising reimbursement or outcomes, and update the page whenever rates change.",
   "author": "Liam Costello",
   "publishDate": "2026-10-09T13:00:00Z",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-14",
   "readMinutes": 6,
   "sections": [
     {
@@ -85,11 +85,11 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A superbill is an itemized receipt that a practice gives a client after a paid session. It typically lists the date, the type of service, the fee, and the practice's identifying details, so the client can submit it to their own insurer for possible reimbursement. It is a receipt, not a claim you file for them."
+      "text": "A superbill is an itemized receipt that a practice gives a client after a paid session. It typically lists the date, the type of service, the fee, and the practice's identifying details, so the client can submit it to their own insurer for possible reimbursement. It is a receipt, not a claim you file for them. Clients should see the fee policy before the first session, so mention it in the [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) and link to the full page."
     },
     {
       "type": "p",
-      "text": "On your page, say whether you provide superbills, how often you send them, such as monthly or on request, and how the client receives them. Do not put a sample that contains real client details. If you show an example, make it clearly blank or filled with obviously fake data."
+      "text": "On your page, say whether you provide superbills, how often you send them, such as monthly or on request, and how the client receives them. Do not put a sample that contains real client details. If you show an example, make it clearly blank or filled with obviously fake data. Clients whose covered sessions have ended will ask about your fee next, so connect the [employee assistance program page](/guides/employee-assistance-program-page-for-a-counseling-practice) to the fees page."
     },
     {
       "type": "h2",
@@ -135,7 +135,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If you also publish prices for other services, the same accuracy rules apply. Our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to keep numbers consistent. For the wider plan, see our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook). Place a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) next to the fee table, since late-cancellation charges are part of what a client will pay."
+      "text": "If you also publish prices for other services, the same accuracy rules apply. Our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to keep numbers consistent. For the wider plan, see our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook). Place a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) next to the fee table, since late-cancellation charges are part of what a client will pay. Group sessions usually carry a different fee from individual ones, so state it on the group page, as described in our [group therapy page for a counseling practice without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims)."
     },
     {
       "type": "callout",

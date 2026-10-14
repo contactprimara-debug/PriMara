@@ -252,7 +252,7 @@ export const guidesPartTwo: Guide[] = [
       "To track a medical website safely, keep analytics and ad pixels off pages and events that reveal a condition, never send names, emails, phone numbers, or URL parameters containing health details to an ad platform, send conversions server-side with no identifiers, and sign business associate agreements with any vendor that could receive protected health information.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 8,
     howTo: {
       name: "How to set up HIPAA-safe tracking on a medical website",
@@ -354,7 +354,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Practices assume compliance means flying blind. It does not. You can still know how many calls came from the Google Business Profile versus organic search versus ads, how many forms each channel produced, which pages produce contacts, and what a booked patient costs by channel. What you give up is the ability to tie a specific human to a specific condition inside an advertising platform — which was never something a practice needed in order to run marketing well. Scheduling tools raise the same privacy questions; see [online appointment scheduling on a medical practice website](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Secure delivery matters as well, so make sure every page and form loads over HTTPS, as explained in [HTTPS, SSL certificates and mixed-content warnings](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website), though encryption alone does not settle compliance questions. Pages that collect completed intake answers need extra caution, and [publishing new patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) shows how to separate those pages from your normal analytics.",
+        text: "Practices assume compliance means flying blind. It does not. You can still know how many calls came from the Google Business Profile versus organic search versus ads, how many forms each channel produced, which pages produce contacts, and what a booked patient costs by channel. What you give up is the ability to tie a specific human to a specific condition inside an advertising platform — which was never something a practice needed in order to run marketing well. Scheduling tools raise the same privacy questions; see [online appointment scheduling on a medical practice website](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo). Secure delivery matters as well, so make sure every page and form loads over HTTPS, as explained in [HTTPS, SSL certificates and mixed-content warnings](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website), though encryption alone does not settle compliance questions. Pages that collect completed intake answers need extra caution, and [publishing new patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) shows how to separate those pages from your normal analytics. Email is the other place where tracking and privacy collide, so read how a practice can write an [after-visit follow-up email without health details](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details) before adding open tracking to any patient message.",
       },
     ],
     faqs: [
@@ -471,7 +471,7 @@ export const guidesPartTwo: Guide[] = [
       "In the first ninety days a new practice should claim and verify its Google Business Profile, secure a domain and a site with one page per service, set up call and form tracking, start asking every patient for a review, and make direct contact with the referring practices nearby. Profile first, site second, ads last.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     howTo: {
       name: "New medical practice marketing checklist for the first 90 days",
@@ -566,7 +566,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "A correctly executed first quarter in a mid-competition Florida city usually produces a verified profile appearing for branded and a handful of neighborhood searches, ten to twenty reviews, a site indexed with eight to twelve pages, and a measurable trickle of calls from the profile. That is not a full schedule. It is the foundation that makes months four through nine produce one, and it is roughly a two-to-three-quarter path to a steady flow of new patients from search. One of the first decisions is the web address, which we cover in our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice). Before you open your doors, walk the route a patient takes and write down [parking and entrance information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile), since first-visit confusion is easy to prevent. After launch, hand the routine to the practice manager as a [weekly 15-minute check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager), covering reviews, the phone line, the profile and the website.",
+        text: "A correctly executed first quarter in a mid-competition Florida city usually produces a verified profile appearing for branded and a handful of neighborhood searches, ten to twenty reviews, a site indexed with eight to twelve pages, and a measurable trickle of calls from the profile. That is not a full schedule. It is the foundation that makes months four through nine produce one, and it is roughly a two-to-three-quarter path to a steady flow of new patients from search. One of the first decisions is the web address, which we cover in our guide to [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice). Before you open your doors, walk the route a patient takes and write down [parking and entrance information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile), since first-visit confusion is easy to prevent. After launch, hand the routine to the practice manager as a [weekly 15-minute check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager), covering reviews, the phone line, the profile and the website. Before the doors open, draft the message each new patient will receive, using the [new patient welcome text or email guide](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) so the address, parking and what-to-bring details are ready on day one.",
       },
     ],
     faqs: [

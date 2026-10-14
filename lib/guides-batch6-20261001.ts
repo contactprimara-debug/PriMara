@@ -755,7 +755,7 @@ export const guidesPartNine: Guide[] = [
       "Commercial email from a medical practice is governed primarily by the federal CAN-SPAM Act — accurate sender info, a working unsubscribe link honored within 10 business days, and no deceptive subject lines — plus HIPAA if the email references a patient's specific condition or treatment. This is a plain-language summary of the requirements, not legal advice; confirm specifics with a healthcare attorney or compliance officer.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two separate laws apply, and they cover different things" },
@@ -778,12 +778,12 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "HIPAA: when a marketing email also becomes a PHI question" },
       {
         type: "p",
-        text: "A general \"we're now offering Saturday appointments\" blast to your full patient list is marketing content, not PHI, because it doesn't reference anything specific to the individual recipient. It becomes a different situation the moment the content ties back to a specific patient's condition or treatment — a reminder referencing a specific diagnosis, or a segment list built by filtering patients by a condition. HHS's guidance on HIPAA and marketing communications is the authoritative source here, and when in doubt, the safer approach is to keep patient-list segmentation based on administrative facts (new patient vs. established, appointment type scheduled) rather than clinical ones.",
+        text: "A general \"we're now offering Saturday appointments\" blast to your full patient list is marketing content, not PHI, because it doesn't reference anything specific to the individual recipient. It becomes a different situation the moment the content ties back to a specific patient's condition or treatment — a reminder referencing a specific diagnosis, or a segment list built by filtering patients by a condition. HHS's guidance on HIPAA and marketing communications is the authoritative source here, and when in doubt, the safer approach is to keep patient-list segmentation based on administrative facts (new patient vs. established, appointment type scheduled) rather than clinical ones. Transactional messages such as intake instructions follow different rules from newsletters, and the [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) for a therapy practice shows a safe example.",
       },
       { type: "h2", text: "Where consent fits in" },
       {
         type: "p",
-        text: "CAN-SPAM does not require opt-in consent before the first commercial email the way some international email laws do — it's an opt-out standard. But most medical-practice patient-management and email platforms have their own stricter terms of service requiring documented consent before adding someone to a marketing list, and a practice that collected an email address solely for appointment reminders should not assume that permission extends to a separate promotional newsletter without a clear, separate opt-in for that specific use. Billing emails and statements should never ask for card numbers, a point covered in our guide to a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice).",
+        text: "CAN-SPAM does not require opt-in consent before the first commercial email the way some international email laws do — it's an opt-out standard. But most medical-practice patient-management and email platforms have their own stricter terms of service requiring documented consent before adding someone to a marketing list, and a practice that collected an email address solely for appointment reminders should not assume that permission extends to a separate promotional newsletter without a clear, separate opt-in for that specific use. Billing emails and statements should never ask for card numbers, a point covered in our guide to a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). If the message is a simple thank-you sent after a visit, our guide to [after-visit follow-up emails for a primary care practice without health details](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details) shows what to put in it and what to leave out.",
       },
       { type: "h2", text: "Practical setup for a practice starting this" },
       {
@@ -864,7 +864,7 @@ export const guidesPartNine: Guide[] = [
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
@@ -906,7 +906,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Where HIPAA overlaps" },
       {
         type: "p",
-        text: "Same principle as email: TCPA governs whether you can text at all and under what consent; HIPAA governs whether the content discloses PHI. A text referencing a specific diagnosis or treatment detail needs a HIPAA-compliant secure messaging channel, not standard SMS, regardless of whether TCPA consent was obtained. Standard, unencrypted SMS is generally fine for appointment logistics and general marketing — not for anything clinical.",
+        text: "Same principle as email: TCPA governs whether you can text at all and under what consent; HIPAA governs whether the content discloses PHI. A text referencing a specific diagnosis or treatment detail needs a HIPAA-compliant secure messaging channel, not standard SMS, regardless of whether TCPA consent was obtained. Standard, unencrypted SMS is generally fine for appointment logistics and general marketing — not for anything clinical. A confirmation sent to a brand-new patient is the usual first text a practice sends, and our example of a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) shows consent, identification and opt-out wording in one short message.",
       },
     ],
     faqs: [

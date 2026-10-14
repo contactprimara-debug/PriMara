@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 6,
     sections: [
       {
@@ -339,7 +339,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Fix the sources you control first by logging in and editing the details. For listings you cannot edit, use the site's claim or suggest-an-edit process, and keep a record of what you submitted and when. Do not create a new listing to replace a wrong one, because that makes a duplicate. For Google specifically, follow our guide to [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings), and review changes Google suggests with [how to handle suggested edits](/guides/how-to-handle-google-business-profile-suggested-edits). If the address is right in your directories but the map marker is off, follow [how to fix a wrong map pin on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile)."
+        "text": "Fix the sources you control first by logging in and editing the details. For listings you cannot edit, use the site's claim or suggest-an-edit process, and keep a record of what you submitted and when. Do not create a new listing to replace a wrong one, because that makes a duplicate. For Google specifically, follow our guide to [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings), and review changes Google suggests with [how to handle suggested edits](/guides/how-to-handle-google-business-profile-suggested-edits). If the address is right in your directories but the map marker is off, follow [how to fix a wrong map pin on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile). An address change is the most common cause of a mismatch, so follow the [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) before and after any move."
       },
       {
         "type": "p",

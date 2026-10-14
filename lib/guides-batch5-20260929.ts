@@ -22,7 +22,7 @@ export const guidesPartEight: Guide[] = [
       "A group therapy practice markets differently than a solo therapist: instead of one personal brand, it needs a practice-level Google Business Profile plus individual clinician visibility, a website that routes each inquiry to the right specialty and availability, and a review and referral system that doesn't pit therapists against each other for the same leads. Getting the routing wrong is the most common reason group practices grow slower than their solo-therapist competitors.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Group practices have a structural marketing problem solo therapists don't" },
@@ -33,7 +33,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Structure the site around the client's decision, not the org chart" },
       {
         type: "p",
-        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two. A plain page explaining what happens at the first appointment lowers the barrier to calling, as described in [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Once the basics are in place, give each focus its own page, as our guide on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) explains, with plain language and no promises of results. Whichever clinician a client chooses, every page should carry the same [crisis and emergency notice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) so no one is left searching for it. When every clinician in the group is full, a clear [waitlist page for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) keeps callers from assuming nobody is answering.",
+        text: "A client searching for therapy isn't looking for \"a group practice\" — they're looking for someone who treats anxiety, or works with teens, or takes their specific insurance, and who has an opening soon. The site needs pages organized by that decision: a specialty or modality page for each real service line (anxiety and depression, couples counseling, adolescent therapy, EMDR, whatever the practice actually offers), each one naming which clinicians on staff provide it and linking to their individual bio pages. The homepage's job is to route, not to explain everything at once. Directory listings can supply some of that matching; [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) compares the two. A plain page explaining what happens at the first appointment lowers the barrier to calling, as described in [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Once the basics are in place, give each focus its own page, as our guide on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) explains, with plain language and no promises of results. Whichever clinician a client chooses, every page should carry the same [crisis and emergency notice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) so no one is left searching for it. When every clinician in the group is full, a clear [waitlist page for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) keeps callers from assuming nobody is answering. A group practice with several clinicians should decide which of them accept program referrals before writing the [employee assistance program page](/guides/employee-assistance-program-page-for-a-counseling-practice) for the website.",
       },
       { type: "h2", text: "The five pieces a group practice needs" },
       {
@@ -49,7 +49,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Avoid the internal-competition trap" },
       {
         type: "p",
-        text: "The fastest way to stall growth in a group practice is to let marketing create internal competition — one clinician's bio page ranking well while five others get no inquiries, or a paid campaign sending every lead to whichever therapist happens to have the loudest personal following. The fix is operational, not creative: track inquiry volume per specialty and per clinician monthly, and adjust which specialty pages get promoted (in Google Posts, in ad spend, in the homepage's featured services) based on which clinicians actually have open capacity. A practice with three full therapists and two with open slots should be marketing the two with open slots, not the practice as a whole. Because fees are a top question for new clients, a plain explanation of rates, out-of-network payment and sliding scale spots on one page is worth building, as our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) describes.",
+        text: "The fastest way to stall growth in a group practice is to let marketing create internal competition — one clinician's bio page ranking well while five others get no inquiries, or a paid campaign sending every lead to whichever therapist happens to have the loudest personal following. The fix is operational, not creative: track inquiry volume per specialty and per clinician monthly, and adjust which specialty pages get promoted (in Google Posts, in ad spend, in the homepage's featured services) based on which clinicians actually have open capacity. A practice with three full therapists and two with open slots should be marketing the two with open slots, not the practice as a whole. Because fees are a top question for new clients, a plain explanation of rates, out-of-network payment and sliding scale spots on one page is worth building, as our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) describes. If your practice runs therapy groups, give each group its own page, and our [group therapy page for a counseling practice without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) shows what to say and what to leave out.",
       },
       {
         type: "callout",
@@ -91,7 +91,7 @@ export const guidesPartEight: Guide[] = [
       "Direct primary care and concierge practices aren't selling a doctor visit, they're selling a membership and a relationship, so the marketing has to explain the model itself before it explains the practice — what the membership fee covers, what it doesn't (usually specialist care, labs, and hospitalization still route through insurance or separate cost), and why a patient would pay out of pocket for access most people assume insurance already provides.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "The membership model has to be explained before the practice can be sold" },
@@ -118,7 +118,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Google Business Profile for a membership-model practice" },
       {
         type: "p",
-        text: "List the practice under the most accurate category available and use the services section and posts to explain access features (same-day visits, direct physician line) rather than just naming specialties, since the differentiator here is the care model, not the specialty. Photos of the actual office and physician help — this model sells trust and access, and a real face performs better than any stock image ever will. Our post on [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors) covers how to choose. Even a membership practice gets requests from specialists and hospitals, and a simple [referral partner page](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) tells them how to reach you.",
+        text: "List the practice under the most accurate category available and use the services section and posts to explain access features (same-day visits, direct physician line) rather than just naming specialties, since the differentiator here is the care model, not the specialty. Photos of the actual office and physician help — this model sells trust and access, and a real face performs better than any stock image ever will. Our post on [Google Business Profile categories for primary care doctors](/blog/gbp-categories-for-primary-care-doctors) covers how to choose. Even a membership practice gets requests from specialists and hospitals, and a simple [referral partner page](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) tells them how to reach you. Even a membership practice fields questions about specialists, and a short [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) can explain how your office helps patients find one.",
       },
     ],
     howTo: {
@@ -769,7 +769,7 @@ export const guidesPartEight: Guide[] = [
       "A local citation is any online listing of a practice's name, address, and phone number — directories, insurance networks, medical association listings, the chamber of commerce — and they influence local search ranking through consistency, not volume: fifteen accurate, matching citations help more than fifty with even minor address or phone variations, so a citation project should start by finding and fixing existing wrong listings before adding new ones.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-14",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Citations are a trust signal built on consistency, not a volume game" },
@@ -815,7 +815,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "A realistic first pass" },
       {
         type: "p",
-        text: "Start by searching the practice's own name and phone number in Google, not just checking a citation tool's report — this surfaces directories a tool might miss, including old ones from before a rebrand or move. Note every listing found, correct the wrong ones starting with the highest-traffic sources, then decide which of the remaining real, relevant directories the practice isn't listed on yet and add those last. This whole first pass is usually a half-day project for a single-location practice, worth doing once thoroughly rather than a little at a time over months.",
+        text: "Start by searching the practice's own name and phone number in Google, not just checking a citation tool's report — this surfaces directories a tool might miss, including old ones from before a rebrand or move. Note every listing found, correct the wrong ones starting with the highest-traffic sources, then decide which of the remaining real, relevant directories the practice isn't listed on yet and add those last. This whole first pass is usually a half-day project for a single-location practice, worth doing once thoroughly rather than a little at a time over months. Every directory on your citation list will need the new address, so use the [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) as the working list for a move.",
       },
     ],
     faqs: [

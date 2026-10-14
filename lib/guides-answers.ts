@@ -384,7 +384,7 @@ export const guidesPartThree: Guide[] = [
       "AI search answers name practices that are described consistently across the open web, answer the question directly on the page, and carry clean structured data. To be cited, put a plain-language answer in your first fifty words, keep your name, address and phone identical everywhere, mark up services and questions with schema, and earn mentions on sources models trust.",
     author: "Gio LaRoche",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 6,
     howTo: {
       name: "How to make a medical practice citable by AI search",
@@ -458,7 +458,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "How to tell whether it is working" },
       {
         type: "p",
-        text: "Rank tracking will not show you this, because there is no position to hold. Three checks are practical. Ask the assistants your ten questions monthly from a signed-out session and record whether you are named. Watch for referral traffic from them, which arrives in small volumes but converts well. And watch impressions against clicks in Search Console: impressions holding while clicks fall is what it looks like when your content answers without being clicked. Answer engines quote plain descriptions of how a practice works, which is why a clear [approach page for a therapy practice](/guides/our-approach-page-for-a-therapy-practice-without-outcome-claims) is worth writing.",
+        text: "Rank tracking will not show you this, because there is no position to hold. Three checks are practical. Ask the assistants your ten questions monthly from a signed-out session and record whether you are named. Watch for referral traffic from them, which arrives in small volumes but converts well. And watch impressions against clicks in Search Console: impressions holding while clicks fall is what it looks like when your content answers without being clicked. Answer engines quote plain descriptions of how a practice works, which is why a clear [approach page for a therapy practice](/guides/our-approach-page-for-a-therapy-practice-without-outcome-claims) is worth writing. Short, honest question-and-answer pages are what AI assistants quote, and a [FAQ page for a therapy practice that avoids clinical advice](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice) is a good example for a counseling practice.",
       },
     ],
     faqs: [

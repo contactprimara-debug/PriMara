@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -306,7 +306,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough."
+        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules."
       },
       {
         "type": "callout",
@@ -395,7 +395,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -463,7 +463,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page where a patient enters health details should not load advertising pixels or session recording tools. Federal guidance on online tracking technologies explains why pages that collect health information deserve special care. Our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) lists what to keep on and off those pages."
+        "text": "The page where a patient enters health details should not load advertising pixels or session recording tools. Federal guidance on online tracking technologies explains why pages that collect health information deserve special care. Our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) lists what to keep on and off those pages. Once the forms are on a secure page, the next job is the message that sends clients there, which our [intake paperwork email for a counseling practice](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) covers step by step."
       },
       {
         "type": "p",
@@ -485,7 +485,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together."
+        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together. The same secure-portal approach applies to paperwork requests from families, as explained in our guide to a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) for a primary care office."
       },
       {
         "type": "callout",
@@ -954,7 +954,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Sign in to your Google Business Profile, open the business information, and correct the address and the pin position so it sits on your actual entrance. Save, then watch for a review or re-verification request. If an edit does not appear, check for a suggested edit overriding it, or a duplicate listing.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -1052,7 +1052,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google compares your profile with other sources. If your website, Apple Maps and directory listings still show the old address, the pin may drift back. Update the same details everywhere. The checklist in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows where to look."
+        "text": "Google compares your profile with other sources. If your website, Apple Maps and directory listings still show the old address, the pin may drift back. Update the same details everywhere. The checklist in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows where to look. If a move leaves the pin in the wrong place, work through our [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) to be sure every listing points to the new door."
       },
       {
         "type": "callout",
@@ -1141,7 +1141,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice is sold or a provider retires, the online assets are what patients use to find the practice. Before the date, list every account, make sure the right people own them, plan how patients will be told, and keep the profile, website and phone number working so the transition does not look like a closure.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-14",
     "readMinutes": 8,
     "sections": [
       {
@@ -1247,7 +1247,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If the website domain changes, set up permanent redirects from every old page to the matching new page, as described in our guide to [migrating a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain). Keep the old domain registered for years so old links and printed materials still work."
+        "text": "If the website domain changes, set up permanent redirects from every old page to the matching new page, as described in our guide to [migrating a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain). Keep the old domain registered for years so old links and printed materials still work. When a provider retires, patients often need a referral or a records transfer, and a clear [specialist referral request page for patients](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) helps them take the next step."
       },
       {
         "type": "callout",
@@ -1336,7 +1336,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Accepting new patients is one of the most checked facts about a practice, and it is stated in many places: your site, your profile, directories and insurance lists. Decide the status once, word it plainly with a date, update every listing the same day it changes, and review the list monthly.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -1434,7 +1434,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions."
+        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions. Keeping the schedule honest also means publishing the rules that protect it, as described in our [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for primary care offices."
       },
       {
         "type": "callout",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -1768,7 +1768,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use short sentences and the words a nervous first-time client would use. Say you, not the client. Avoid clinical jargon and avoid long lists of credentials in the first lines. The reader wants to know whether this is a safe, simple next step."
+        "text": "Use short sentences and the words a nervous first-time client would use. Say you, not the client. Avoid clinical jargon and avoid long lists of credentials in the first lines. The reader wants to know whether this is a safe, simple next step. Many of the questions visitors ask are about the first appointment, so link the first-session page to your [therapy practice FAQ page](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice) for the rest."
       },
       {
         "type": "p",
@@ -1790,7 +1790,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A first contact form should ask for a name, a phone number or email and a preferred time to reach the person. Anything more detailed should wait for a secure intake. Our guide on [new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains safe ways to handle intake."
+        "text": "A first contact form should ask for a name, a phone number or email and a preferred time to reach the person. Anything more detailed should wait for a secure intake. Our guide on [new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains safe ways to handle intake. The email that arrives after booking should echo the first-session page, and our guide to an [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to write one that protects privacy."
       },
       {
         "type": "h2",
@@ -1816,7 +1816,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session."
+        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session. Clients who join a group often first ask what the screening call is like, so link the first-session page to your [group therapy page for a counseling practice](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) for them."
       },
       {
         "type": "callout",
@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -2190,7 +2190,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Same-day access is one of many reasons a patient picks a practice. It works best next to a clear new patient page, a strong profile and good reviews. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) shows how those pieces connect, and the guide on [getting more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile) covers the profile work. A first-visit checklist, such as a [page telling new patients what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients), keeps the next step clear for someone who has just booked a same-day slot."
+        "text": "Same-day access is one of many reasons a patient picks a practice. It works best next to a clear new patient page, a strong profile and good reviews. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) shows how those pieces connect, and the guide on [getting more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile) covers the profile work. A first-visit checklist, such as a [page telling new patients what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients), keeps the next step clear for someone who has just booked a same-day slot. Same-day patients are the ones most affected when a late arrival pushes the schedule back, which is why a [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) matters to your walk-in availability."
       },
       {
         "type": "callout",
@@ -2279,7 +2279,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice joins or leaves an insurance network, patients find out online first. Update your own insurance page first, then your Google profile, directory listings, scheduling tool and phone script on the effective date. Use plain wording and a date, and send existing patients a notice through your normal channels.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-14",
     "readMinutes": 7,
     "sections": [
       {
@@ -2300,7 +2300,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not update public pages before the date a change actually takes effect, and do not leave them for weeks after. The date should come from your contract or credentialing confirmation, not from a conversation. Write it down and use it as the single source for every edit."
+        "text": "Do not update public pages before the date a change actually takes effect, and do not leave them for weeks after. The date should come from your contract or credentialing confirmation, not from a conversation. Write it down and use it as the single source for every edit. Joining or leaving an employee assistance program is similar to a network change, and the [employee assistance program page for a counseling practice](/guides/employee-assistance-program-page-for-a-counseling-practice) should be updated the same week."
       },
       {
         "type": "h2",
@@ -2363,7 +2363,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Existing patients who have a plan you are leaving need to hear it from you before they find it on a bill. Use the channels your compliance team approves, such as mail, a portal message or a posted notice. Keep the web version factual: which plan, from what date, and what patients can do next. Do not make comparisons or criticize the plan."
+        "text": "Existing patients who have a plan you are leaving need to hear it from you before they find it on a bill. Use the channels your compliance team approves, such as mail, a portal message or a posted notice. Keep the web version factual: which plan, from what date, and what patients can do next. Do not make comparisons or criticize the plan. A change of network often changes who your patients may be referred to, so update your [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) at the same time as your insurance pages."
       },
       {
         "type": "p",

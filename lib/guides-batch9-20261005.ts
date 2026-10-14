@@ -151,7 +151,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 6,
     sections: [
       {
@@ -198,7 +198,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot."
+        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot. Whatever booking tool you choose, the rules about lateness should be published on their own page, and our [late arrival and missed appointment policy page for a primary care practice](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) explains how to write one that stays fair."
       }
     ],
     faqs: [
@@ -553,7 +553,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     readMinutes: 6,
     sections: [
       {
@@ -589,7 +589,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Give the page a clear title, such as 'Insurance Accepted at [Practice Name] in [City],' and write real text, not only a logo wall. Logos with no text give Google little to read, so put each carrier's name in the HTML. A table with carrier and plan columns is easy for patients and for answer engines to quote. Add a few FAQs about billing and verification, and mark them up as described in our [patient FAQ guide](/guides/how-to-write-patient-faqs-that-answer-ai-search). Link to the page from your main navigation, your contact page, and relevant service pages, and use the same list on your Google Business Profile where it supports insurance details. For therapy practices, the accepted-plans list pairs well with an [insurance verification and benefits check page](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) that explains what the office confirms before a first session."
+        "text": "Give the page a clear title, such as 'Insurance Accepted at [Practice Name] in [City],' and write real text, not only a logo wall. Logos with no text give Google little to read, so put each carrier's name in the HTML. A table with carrier and plan columns is easy for patients and for answer engines to quote. Add a few FAQs about billing and verification, and mark them up as described in our [patient FAQ guide](/guides/how-to-write-patient-faqs-that-answer-ai-search). Link to the page from your main navigation, your contact page, and relevant service pages, and use the same list on your Google Business Profile where it supports insurance details. For therapy practices, the accepted-plans list pairs well with an [insurance verification and benefits check page](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) that explains what the office confirms before a first session. Clients with an employer benefit often look for it next to your insurance list, so add a link to an [employee assistance program page for a counseling practice](/guides/employee-assistance-program-page-for-a-counseling-practice) where it applies."
       },
       {
         "type": "h2",
@@ -610,7 +610,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A short note on tone helps. Write in plain language and avoid insurance jargon where a simpler word works, since patients are often reading in a stressful moment. If a plan is accepted only for some services, say which. If you are not in network with a plan but patients can still be seen, explain the self-pay or out-of-network process clearly, and never imply that coverage is guaranteed or that billing will be handled in a particular way unless your billing office confirms it. For more on keeping the wording simple, see our guide to [plain language and reading level for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content), which includes a short list of word swaps. The insurance page should agree with your patient intake status, which we explain in [keeping accepting new patients status accurate across Google, your website and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories)."
+        "text": "A short note on tone helps. Write in plain language and avoid insurance jargon where a simpler word works, since patients are often reading in a stressful moment. If a plan is accepted only for some services, say which. If you are not in network with a plan but patients can still be seen, explain the self-pay or out-of-network process clearly, and never imply that coverage is guaranteed or that billing will be handled in a particular way unless your billing office confirms it. For more on keeping the wording simple, see our guide to [plain language and reading level for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content), which includes a short list of word swaps. The insurance page should agree with your patient intake status, which we explain in [keeping accepting new patients status accurate across Google, your website and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). Patients who see an insurance page often have the next question about referrals, which a dedicated [specialist referral request page for patients of a primary care practice](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) can answer without a phone call."
       }
     ],
     faqs: [

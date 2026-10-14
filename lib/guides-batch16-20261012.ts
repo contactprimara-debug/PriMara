@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 6,
     "sections": [
       {
@@ -144,7 +144,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep the address, phone number and hours near the top of the page, written the same way as on your Google listing. Mismatches between the two are a common source of confused patients and wrong information in search results."
+        "text": "Keep the address, phone number and hours near the top of the page, written the same way as on your Google listing. Mismatches between the two are a common source of confused patients and wrong information in search results. The same list of items belongs in the confirmation message, and a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) explains how to word it so it never reveals the reason for the visit."
       }
     ],
     "faqs": [
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-14",
     "readMinutes": 6,
     "sections": [
       {
@@ -539,7 +539,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search."
+        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office."
       }
     ],
     "faqs": [
