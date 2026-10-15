@@ -344,7 +344,7 @@ export const guidesPartTen: Guide[] = [
       "Setting up GA4 for a medical practice means creating a property, adding the web data stream's tag to every page, then configuring two or three key events — form submission and phone click — as conversions. The part generic GA4 tutorials skip: never let any field capture a patient's name, condition, or appointment reason.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-15",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Create the property and data stream" },
@@ -355,7 +355,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Decide what actually counts as a conversion" },
       {
         type: "p",
-        text: "GA4 automatically tracks some events — page views, scrolls, outbound clicks — but the events that matter for a practice are the ones that represent a patient trying to reach you: submitting a contact or appointment-request form, and clicking a phone number on mobile. Neither is tracked by default; both need to be configured as custom events and then marked as conversions inside GA4's Admin > Events panel. Once the property is collecting data, add [UTM links on your Google Business Profile and directory listings](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) so that visits from your listings are labelled instead of lumped into one bucket.",
+        text: "GA4 automatically tracks some events — page views, scrolls, outbound clicks — but the events that matter for a practice are the ones that represent a patient trying to reach you: submitting a contact or appointment-request form, and clicking a phone number on mobile. Neither is tracked by default; both need to be configured as custom events and then marked as conversions inside GA4's Admin > Events panel. Once the property is collecting data, add [UTM links on your Google Business Profile and directory listings](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) so that visits from your listings are labelled instead of lumped into one bucket. Appointments booked in an outside scheduling tool need their own setup, described in [conversion tracking for third-party booking widgets](/guides/conversion-tracking-for-third-party-booking-widgets-on-a-medical-practice-website), so the conversion does not disappear.",
       },
       {
         type: "ol",
@@ -657,7 +657,7 @@ export const guidesPartTen: Guide[] = [
       "For most multi-provider practices, one well-structured website with dedicated pages per location, provider, and specialty outperforms running separate sites — it consolidates SEO authority instead of splitting it. Separate sites make sense mainly when the brands genuinely operate as distinct businesses to patients, not just internally.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why one site usually wins for SEO" },
@@ -677,7 +677,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What 'one site done right' actually requires" },
       {
         type: "p",
-        text: "A single multi-location, multi-provider site only realizes its SEO advantage if it's structured properly — a generic homepage trying to represent five providers and three cities at once does worse than either approach done well. Each location needs its own dedicated page with that location's real address, phone number, hours, and locally relevant content — not a template with the city name swapped and nothing else changed. Each provider needs a real bio page. Each specialty or service needs its own page rather than being buried in a paragraph on a general services page. Internal links need to connect these pages to each other and to the relevant service and location hubs, so the site reads as one coherent structure rather than disconnected pages that happen to share a domain. If you decide to consolidate several sites into one, plan the redirects using [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain).",
+        text: "A single multi-location, multi-provider site only realizes its SEO advantage if it's structured properly — a generic homepage trying to represent five providers and three cities at once does worse than either approach done well. Each location needs its own dedicated page with that location's real address, phone number, hours, and locally relevant content — not a template with the city name swapped and nothing else changed. Each provider needs a real bio page. Each specialty or service needs its own page rather than being buried in a paragraph on a general services page. Internal links need to connect these pages to each other and to the relevant service and location hubs, so the site reads as one coherent structure rather than disconnected pages that happen to share a domain. If you decide to consolidate several sites into one, plan the redirects using [how to migrate a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain). A second office usually fits best as its own page on the existing site, and the [new location announcement page guide](/guides/new-location-or-satellite-office-announcement-page-for-a-medical-practice) lists what that page needs on opening day.",
       },
       { type: "h2", text: "The subdomain middle ground, and why it mostly fails" },
       {
@@ -861,7 +861,7 @@ export const guidesPartTen: Guide[] = [
       "A Google review is left independently by a patient on a third-party platform and is governed mainly by Google's own review policies against gating or incentivizing it. A testimonial you select and publish on your own site or ads is your marketing speech, which makes it subject to FTC endorsement rules and, if it names a condition, HIPAA authorization requirements.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two different things that get talked about as one" },
@@ -882,7 +882,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "The HIPAA layer a testimonial adds" },
       {
         type: "p",
-        text: "A Google review is the patient's own choice to disclose their own experience publicly — the practice didn't disclose anything. A testimonial you ask for, select, and publish is different if it names or clearly implies a specific condition or treatment: using that content is a use of the patient's health information for marketing, which under HIPAA requires the patient's written authorization specific to that use, not just a general consent form signed at intake. The safer, simpler pattern is a testimonial about the experience — scheduling, staff, wait times — rather than the clinical outcome, which sidesteps the authorization requirement by never touching protected health information in the first place. The same no-incentive logic applies when you are [following up after you resolve a complaint](/guides/how-to-ask-a-patient-to-update-or-remove-a-google-review-after-you-resolve-the-problem), so staff should never tie a refund or a discount to a changed review." ,
+        text: "A Google review is the patient's own choice to disclose their own experience publicly — the practice didn't disclose anything. A testimonial you ask for, select, and publish is different if it names or clearly implies a specific condition or treatment: using that content is a use of the patient's health information for marketing, which under HIPAA requires the patient's written authorization specific to that use, not just a general consent form signed at intake. The safer, simpler pattern is a testimonial about the experience — scheduling, staff, wait times — rather than the clinical outcome, which sidesteps the authorization requirement by never touching protected health information in the first place. The same no-incentive logic applies when you are [following up after you resolve a complaint](/guides/how-to-ask-a-patient-to-update-or-remove-a-google-review-after-you-resolve-the-problem), so staff should never tie a refund or a discount to a changed review. Even a thank-you reply can turn a review into something more, which our guide on [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) helps staff avoid." ,
       },
       { type: "h2", text: "A practical rule of thumb" },
       {
@@ -966,7 +966,7 @@ export const guidesPartTen: Guide[] = [
       "A marketing CRM for a medical practice tracks leads and follow-up before and around the clinical record, not inside it — think of it as the system that catches a form submission or missed call and makes sure someone follows up, separate from the EHR that holds the actual patient chart. The right one integrates with your phone and forms without ever duplicating protected health information.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "A CRM is not your EHR, and shouldn't try to be" },
@@ -988,7 +988,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "The HIPAA question most CRM vendors get asked wrong" },
       {
         type: "p",
-        text: "A common mistake is assuming a marketing CRM is automatically outside HIPAA's reach because it's 'just marketing.' That's only true if the CRM genuinely never touches protected health information. The moment a form field captures 'reason for visit' with real clinical detail, or a note field gets used to jot down something a patient mentioned about their condition, the CRM is handling PHI and the practice needs a signed BAA with that vendor — the same requirement that applies to any other system touching patient health information. The safer design keeps CRM fields limited to name, contact info, lead source, and appointment status, with no clinical detail captured anywhere in the tool. Before you add a tool to follow up on inquiries, check that your [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) is not losing the calls that would feed it." ,
+        text: "A common mistake is assuming a marketing CRM is automatically outside HIPAA's reach because it's 'just marketing.' That's only true if the CRM genuinely never touches protected health information. The moment a form field captures 'reason for visit' with real clinical detail, or a note field gets used to jot down something a patient mentioned about their condition, the CRM is handling PHI and the practice needs a signed BAA with that vendor — the same requirement that applies to any other system touching patient health information. The safer design keeps CRM fields limited to name, contact info, lead source, and appointment status, with no clinical detail captured anywhere in the tool. Before you add a tool to follow up on inquiries, check that your [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) is not losing the calls that would feed it. Whichever scheduling tool you pair with it, check what it allows before you buy, using the questions in [conversion tracking for third-party booking widgets](/guides/conversion-tracking-for-third-party-booking-widgets-on-a-medical-practice-website)." ,
       },
       { type: "h2", text: "How this connects to the rest of your tracking" },
       {

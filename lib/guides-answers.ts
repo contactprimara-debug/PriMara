@@ -33,7 +33,7 @@ export const guidesPartThree: Guide[] = [
       "A suspended Google Business Profile comes back by fixing whatever broke the guidelines first, then filing one reinstatement request with evidence the business is real and eligible at that address. Do not create a second listing while you wait. Most medical suspensions trace to an unstaffed address, a keyword-stuffed business name, or a risky recent edit.",
     author: "Gio LaRoche",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-09-22",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     howTo: {
       name: "How to get a suspended Google Business Profile reinstated",
@@ -107,7 +107,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "After it comes back" },
       {
         type: "p",
-        text: "Reinstated profiles usually return with reviews and photos intact, but ranking can lag for a few weeks while the listing re-earns trust. Do not answer that with aggressive changes. Post normally, keep asking every patient for a review, and let it settle. Then fix the reason it was flagged — usually that means one named person owns the profile.",
+        text: "Reinstated profiles usually return with reviews and photos intact, but ranking can lag for a few weeks while the listing re-earns trust. Do not answer that with aggressive changes. Post normally, keep asking every patient for a review, and let it settle. Then fix the reason it was flagged — usually that means one named person owns the profile. A listing that shows as closed is a related problem with different steps, covered in [fixing a Google Business Profile marked permanently closed for an open practice](/guides/fixing-a-google-business-profile-marked-permanently-closed-for-an-open-practice).",
       },
     ],
     faqs: [
@@ -215,7 +215,7 @@ export const guidesPartThree: Guide[] = [
       "Reply to a negative patient review within a few days, in public, without confirming the person was ever a patient. Thank them for the feedback, describe your standard of care in general terms, give a phone number or office email, and move the conversation offline. Confirming treatment in public is a disclosure of protected health information.",
     author: "Liam Costello",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-09-22",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     howTo: {
       name: "How to respond to a negative patient review",
@@ -279,7 +279,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "When you can get a review removed" },
       {
         type: "p",
-        text: "Google removes reviews that break its prohibited and restricted content policy: spam, impersonation, off-topic content, harassment, hate speech, personal information, or a conflict of interest such as a competitor or former employee posting as a patient. Report it through the profile, name the policy in one sentence, and expect days rather than hours. Reviews that are simply negative are not removable. The same reply rules apply on directory sites, and our guide on [Healthgrades, Zocdoc and Vitals](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) covers claiming those profiles.",
+        text: "Google removes reviews that break its prohibited and restricted content policy: spam, impersonation, off-topic content, harassment, hate speech, personal information, or a conflict of interest such as a competitor or former employee posting as a patient. Report it through the profile, name the policy in one sentence, and expect days rather than hours. Reviews that are simply negative are not removable. The same reply rules apply on directory sites, and our guide on [Healthgrades, Zocdoc and Vitals](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) covers claiming those profiles. The same privacy rules apply to praise, so read how to handle [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) before thanking anyone publicly.",
       },
       { type: "h2", text: "Never gate reviews to avoid this problem" },
       {

@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     sections: [
       {
@@ -299,7 +299,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them. Hospital and health system directories are a common source of an old address, so check how [hospital and health system provider directories](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) display your clinicians."
+        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them. Hospital and health system directories are a common source of an old address, so check how [hospital and health system provider directories](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) display your clinicians. A new office adds a second address that must stay separate from the first, so use the [new location or satellite office announcement page checklist](/guides/new-location-or-satellite-office-announcement-page-for-a-medical-practice) before changing any listing."
       },
       {
         "type": "h2",
@@ -705,7 +705,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "The Americans with Disabilities Act applies to medical practices as places of public accommodation, and the Department of Justice says it covers web content too. The law does not name one technical standard for private practices, but the Web Content Accessibility Guidelines (WCAG) are the usual benchmark. Aim for WCAG 2.1 Level AA, and have counsel confirm your obligations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       {
@@ -751,7 +751,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Accessibility 'overlay' widgets that promise instant compliance with one line of code do not fix the underlying markup, and sites that use them have still been sued. Fix the template itself. Then test with a keyboard, with a screen reader such as the one built into your phone, and with an automated checker, knowing that automated tools catch only part of the problems. Accessibility also applies to the building, and our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) explains what patients need to know before they arrive."
+        "text": "Accessibility 'overlay' widgets that promise instant compliance with one line of code do not fix the underlying markup, and sites that use them have still been sued. Fix the template itself. Then test with a keyboard, with a screen reader such as the one built into your phone, and with an automated checker, knowing that automated tools catch only part of the problems. Accessibility also applies to the building, and our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) explains what patients need to know before they arrive. Add-ons such as chat widgets must work with keyboards and screen readers too, and our guide to [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid) lists what to test."
       },
       {
         "type": "p",
@@ -962,7 +962,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "You cannot edit an AI chatbot's answer directly, so fix the sources it draws from. First, document the error. Second, correct your website, Google Business Profile, and directory listings so they agree. Third, use the chatbot's built-in feedback option. Then recheck in a few weeks, because answers change as sources update.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     sections: [
       {
@@ -1021,7 +1021,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Retest the same prompts after two to four weeks and again after a few months, and log the dates. Corrections can take a while to appear, and some assistants will not change at all until their data refreshes. Add this to your quarterly listing check so a new error is caught early. If AI-generated answers about you keep going wrong, the underlying issue is usually inconsistent or thin source data, which is the work described in [how to get a medical practice into AI search answers](/guides/get-a-medical-practice-into-ai-search-answers)."
+        "text": "Retest the same prompts after two to four weeks and again after a few months, and log the dates. Corrections can take a while to appear, and some assistants will not change at all until their data refreshes. Add this to your quarterly listing check so a new error is caught early. If AI-generated answers about you keep going wrong, the underlying issue is usually inconsistent or thin source data, which is the work described in [how to get a medical practice into AI search answers](/guides/get-a-medical-practice-into-ai-search-answers). If your own website runs an automated assistant, limit it to approved facts and review it often, as covered in [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid)."
       }
     ],
     faqs: [

@@ -758,7 +758,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add one question to new-patient intake and phone scripts: how did you hear about us. Offer a short list of choices plus a write-in, have the front desk record the answer in a single field, and review the counts monthly next to your analytics. It is imperfect, but it catches what tracking misses, such as word of mouth.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-15",
   "readMinutes": 6,
   "sections": [
     {
@@ -845,7 +845,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "This question is about marketing source, not health. Do not ask what condition brought the patient in as part of marketing tracking, and do not send patient names, diagnoses or appointment reasons to ad platforms or analytics tools. Keep marketing attribution separate from clinical records. Our guide on [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why."
+      "text": "This question is about marketing source, not health. Do not ask what condition brought the patient in as part of marketing tracking, and do not send patient names, diagnoses or appointment reasons to ad platforms or analytics tools. Keep marketing attribution separate from clinical records. Our guide on [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why. One extra question on a short service survey costs patients nothing, and a [satisfaction survey invitation without health details](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) shows how to word the rest of it safely."
     },
     {
       "type": "h2",
@@ -1620,7 +1620,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Run important pages through Google's Rich Results Test to see whether the markup is valid and eligible for Google features, and through the Schema Markup Validator to check the syntax generally. Fix errors first, then warnings you care about, and confirm the markup matches what is visible on the page. Passing a test does not guarantee a rich result.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-15",
   "readMinutes": 6,
   "sections": [
     {
@@ -1709,7 +1709,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A page can pass every test and still not show a rich result. Google decides what to display, and it may show no special result at all. Valid markup is a way to be understood correctly, not a promise of placement. Never add markup that describes things the page does not show, because that can violate Google's structured data policies."
+      "text": "A page can pass every test and still not show a rich result. Google decides what to display, and it may show no special result at all. Valid markup is a way to be understood correctly, not a promise of placement. Never add markup that describes things the page does not show, because that can violate Google's structured data policies. Job postings are one of the types worth testing, and the guide to a [careers page and job posting markup](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) lists what to check before you publish."
     },
     {
       "type": "callout",
@@ -2513,7 +2513,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Keep one permanent page for each seasonal service, such as flu shots or school physicals, and update it every year rather than publishing a new page each season. Put the current dates, how to book and what to bring at the top, keep medical statements general and sourced, and archive nothing that patients may still search for.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-14",
+  "dateModified": "2026-10-15",
   "readMinutes": 6,
   "sections": [
     {
@@ -2567,7 +2567,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Do not make clinical claims on a seasonal page. State what you offer and let a trusted public health source explain the medicine. For example, a flu shot page can link to the CDC's seasonal flu information rather than restating recommendations, which change from year to year. A school physical page can explain what your office checks in general terms and point to the school's or state's own form requirements."
+      "text": "Do not make clinical claims on a seasonal page. State what you offer and let a trusted public health source explain the medicine. For example, a flu shot page can link to the CDC's seasonal flu information rather than restating recommendations, which change from year to year. A school physical page can explain what your office checks in general terms and point to the school's or state's own form requirements. Sports and school forms are only one kind of physical, and our guide to the [pre-employment, DOT and sports physicals page for primary care](/guides/pre-employment-dot-and-sports-physicals-page-for-a-primary-care-practice) covers the rest."
     },
     {
       "type": "p",

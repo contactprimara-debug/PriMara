@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-15",
     "readMinutes": 6,
     "sections": [
       {
@@ -1351,7 +1351,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session."
+        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims)."
       },
       {
         "type": "h2",

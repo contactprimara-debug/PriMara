@@ -153,7 +153,7 @@ export const guidesPartNine: Guide[] = [
       "Duplicate Google Business Profile listings usually come from a past move, a rebrand, or a second signup by a different staff member. Find every listing for your practice name and address with a Maps search, verify which one is correct and has your reviews, then flag the duplicate for removal from inside that incorrect listing — never create a new one on top of it.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "How a medical practice ends up with two listings" },
@@ -163,7 +163,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "Whatever the cause, the effect is the same: your reviews, your call history, and your Google Maps ranking signal are now split across two profiles instead of consolidated on one. A patient searching your practice name sometimes sees the wrong one — closed hours, old address, zero reviews — and picks a competitor instead. Many duplicates start as small mismatches in a name, suite, or phone number, which our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to audit. Individual provider profiles at the same address are a frequent source of this problem, and our guide on [practitioner versus practice listings](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when a provider should have a separate profile at all. A duplicate often shows up as a second pin in the wrong place, so also read [how to fix a wrong map pin or location on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile).",
+        text: "Whatever the cause, the effect is the same: your reviews, your call history, and your Google Maps ranking signal are now split across two profiles instead of consolidated on one. A patient searching your practice name sometimes sees the wrong one — closed hours, old address, zero reviews — and picks a competitor instead. Many duplicates start as small mismatches in a name, suite, or phone number, which our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to audit. Individual provider profiles at the same address are a frequent source of this problem, and our guide on [practitioner versus practice listings](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when a provider should have a separate profile at all. A duplicate often shows up as a second pin in the wrong place, so also read [how to fix a wrong map pin or location on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile). Sometimes the duplicate is the listing marked closed, which is why [fixing a Google Business Profile marked permanently closed for an open practice](/guides/fixing-a-google-business-profile-marked-permanently-closed-for-an-open-practice) checks for a second listing first.",
       },
       { type: "h2", text: "Find every listing first" },
       {
@@ -528,7 +528,7 @@ export const guidesPartNine: Guide[] = [
       "Schema markup is structured code added to a webpage that states facts directly to Google and AI search tools — your practice name, address, hours, services, and FAQ answers — instead of making them infer it from prose. A medical practice site should carry LocalBusiness or MedicalBusiness, Service, FAQPage, and BreadcrumbList schema at minimum, verified with Google's free Rich Results Test.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What schema markup actually is" },
@@ -539,7 +539,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Why it matters more now than it used to" },
       {
         type: "p",
-        text: "Schema has always helped traditional Google results — it's what produces star ratings, FAQ dropdowns, and breadcrumb trails directly in the search listing. What's changed is that AI-generated answers (Google's AI Overviews, ChatGPT browsing, Perplexity) lean on structured data even more heavily than traditional ranking does, because it's the fastest way for those systems to extract a clean, attributable fact without summarizing an entire paragraph and risking an error. A medical practice that wants to be the source an AI answer cites needs the facts stated in a format those systems can lift directly, which matters even more once you understand [what AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-a-medical-practices-organic-traffic) in the first place. Remember that markup must also exist on the mobile version of a page, which is the subject of [mobile-first indexing for a medical practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website).",
+        text: "Schema has always helped traditional Google results — it's what produces star ratings, FAQ dropdowns, and breadcrumb trails directly in the search listing. What's changed is that AI-generated answers (Google's AI Overviews, ChatGPT browsing, Perplexity) lean on structured data even more heavily than traditional ranking does, because it's the fastest way for those systems to extract a clean, attributable fact without summarizing an entire paragraph and risking an error. A medical practice that wants to be the source an AI answer cites needs the facts stated in a format those systems can lift directly, which matters even more once you understand [what AI Overviews mean for a medical practice's organic traffic](/guides/what-ai-overviews-mean-for-a-medical-practices-organic-traffic) in the first place. Remember that markup must also exist on the mobile version of a page, which is the subject of [mobile-first indexing for a medical practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website). Hiring pages can carry their own markup, and [careers page and job posting markup for a medical practice](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) lists the fields Google expects for open roles.",
       },
       { type: "h2", text: "The schema types a medical practice site needs" },
       {

@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-15",
     "readMinutes": 7,
     "sections": [
       {
@@ -233,7 +233,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Your Google Business Profile, website and directory listings should show the hours when a person actually answers. If your office is closed for lunch, say so. If a line is answered by an answering service after 5 p.m., that does not make the practice open at 5 p.m. Listing hours you do not staff sets patients up for a dead end and invites complaints."
+        "text": "Your Google Business Profile, website and directory listings should show the hours when a person actually answers. If your office is closed for lunch, say so. If a line is answered by an answering service after 5 p.m., that does not make the practice open at 5 p.m. Listing hours you do not staff sets patients up for a dead end and invites complaints. Website chat has the same after-hours problem as the phone, and [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid) explains when to switch to a message form."
       },
       {
         "type": "p",
@@ -574,7 +574,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Block form spam in layers: a hidden honeypot field, a lightweight challenge such as Cloudflare Turnstile or reCAPTCHA, server-side checks, and rate limits. Keep the form short so real patients are not turned away, and make sure your conversion tracking fires only on a submission that passed those checks.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-15",
     "readMinutes": 7,
     "sections": [
       {
@@ -676,7 +676,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The goal is fewer fake leads, not fewer leads. After adding any filter, submit a test through the real form on a phone and confirm it still arrives. Check the weekly lead count for a sudden drop. A filter that quietly rejects real patients is worse than the spam it replaced."
+        "text": "The goal is fewer fake leads, not fewer leads. After adding any filter, submit a test through the real form on a phone and confirm it still arrives. Check the weekly lead count for a sudden drop. A filter that quietly rejects real patients is worse than the spam it replaced. Once spam is controlled, send real submissions to a clear confirmation page as described in [what a thank-you page should say and how to track it](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), so only genuine leads are counted."
       },
       {
         "type": "callout",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-15",
     "readMinutes": 7,
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples."
+        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well."
       },
       {
         "type": "h2",
@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-15",
     "readMinutes": 7,
     "sections": [
       {
@@ -2190,7 +2190,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Same-day access is one of many reasons a patient picks a practice. It works best next to a clear new patient page, a strong profile and good reviews. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) shows how those pieces connect, and the guide on [getting more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile) covers the profile work. A first-visit checklist, such as a [page telling new patients what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients), keeps the next step clear for someone who has just booked a same-day slot. Same-day patients are the ones most affected when a late arrival pushes the schedule back, which is why a [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) matters to your walk-in availability."
+        "text": "Same-day access is one of many reasons a patient picks a practice. It works best next to a clear new patient page, a strong profile and good reviews. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) shows how those pieces connect, and the guide on [getting more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile) covers the profile work. A first-visit checklist, such as a [page telling new patients what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients), keeps the next step clear for someone who has just booked a same-day slot. Same-day patients are the ones most affected when a late arrival pushes the schedule back, which is why a [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) matters to your walk-in availability. Availability claims should be measured and dated rather than promised, as shown in our guide to [wait times and schedule availability messaging without promises](/guides/wait-times-and-schedule-availability-messaging-on-a-medical-practice-website-without-promises)."
       },
       {
         "type": "callout",
@@ -2279,7 +2279,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice joins or leaves an insurance network, patients find out online first. Update your own insurance page first, then your Google profile, directory listings, scheduling tool and phone script on the effective date. Use plain wording and a date, and send existing patients a notice through your normal channels.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-15",
     "readMinutes": 7,
     "sections": [
       {
@@ -2363,7 +2363,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Existing patients who have a plan you are leaving need to hear it from you before they find it on a bill. Use the channels your compliance team approves, such as mail, a portal message or a posted notice. Keep the web version factual: which plan, from what date, and what patients can do next. Do not make comparisons or criticize the plan. A change of network often changes who your patients may be referred to, so update your [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) at the same time as your insurance pages."
+        "text": "Existing patients who have a plan you are leaving need to hear it from you before they find it on a bill. Use the channels your compliance team approves, such as mail, a portal message or a posted notice. Keep the web version factual: which plan, from what date, and what patients can do next. Do not make comparisons or criticize the plan. A change of network often changes who your patients may be referred to, so update your [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) at the same time as your insurance pages. Seasonal plan changes create the same cleanup work on a smaller scale, which is why the [open enrollment season update for insurance pages and patient messages](/guides/open-enrollment-season-update-for-a-medical-practice-insurance-pages-and-patient-messages) belongs on the fall calendar."
       },
       {
         "type": "p",

@@ -16,7 +16,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "You may politely tell a patient that the problem is resolved and that they are welcome to update their review if they feel it is accurate. You may not offer anything in return, pressure them, or demand removal. Reply publicly first, follow up privately, ask once, and leave the choice to the patient.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-15",
     "readMinutes": 7,
     "sections": [
       {
@@ -41,7 +41,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Our guide on [how to respond to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) walks through safe wording. The public reply is also the part future patients read, so it does most of the reputation work whether or not the review ever changes."
+        "text": "Our guide on [how to respond to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) walks through safe wording. The public reply is also the part future patients read, so it does most of the reputation work whether or not the review ever changes. Keep public replies short and general, and use the approved patterns in [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) for the kind words as well."
       },
       {
         "type": "h2",

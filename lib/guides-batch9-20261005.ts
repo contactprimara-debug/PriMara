@@ -278,7 +278,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "A practice About page should state who you are, where you are, who the licensed clinicians are, what you treat, and how to reach you, in plain language. Add each clinician's real credentials and a short, honest story of the practice. Leave out outcome promises, invented awards, and anything you cannot document.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     sections: [
       {
@@ -324,7 +324,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add Organization or MedicalBusiness structured data to the page, with your name, address, phone, and links to your official profiles, as described in our guide to [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). Link each clinician's name to a full bio, and build those pages using [how to write a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). Add a clear next step, a booking link and a tappable phone number, because trust is what gets a patient to act. The same clean outline applies here, with one H1 and short H2 sections as laid out in our guide to [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page), so visitors and machines can both scan the page. A short, truthful line about which staff speak which languages belongs on this page, and our guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) shows how to word it."
+        "text": "Add Organization or MedicalBusiness structured data to the page, with your name, address, phone, and links to your official profiles, as described in our guide to [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). Link each clinician's name to a full bio, and build those pages using [how to write a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). Add a clear next step, a booking link and a tappable phone number, because trust is what gets a patient to act. The same clean outline applies here, with one H1 and short H2 sections as laid out in our guide to [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page), so visitors and machines can both scan the page. A short, truthful line about which staff speak which languages belongs on this page, and our guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) shows how to word it. Candidates often read the about page before applying, so connect it to a [careers page with job posting markup](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) that lists current roles."
       },
       {
         "type": "p",
@@ -553,7 +553,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     sections: [
       {
@@ -589,7 +589,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Give the page a clear title, such as 'Insurance Accepted at [Practice Name] in [City],' and write real text, not only a logo wall. Logos with no text give Google little to read, so put each carrier's name in the HTML. A table with carrier and plan columns is easy for patients and for answer engines to quote. Add a few FAQs about billing and verification, and mark them up as described in our [patient FAQ guide](/guides/how-to-write-patient-faqs-that-answer-ai-search). Link to the page from your main navigation, your contact page, and relevant service pages, and use the same list on your Google Business Profile where it supports insurance details. For therapy practices, the accepted-plans list pairs well with an [insurance verification and benefits check page](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) that explains what the office confirms before a first session. Clients with an employer benefit often look for it next to your insurance list, so add a link to an [employee assistance program page for a counseling practice](/guides/employee-assistance-program-page-for-a-counseling-practice) where it applies."
+        "text": "Give the page a clear title, such as 'Insurance Accepted at [Practice Name] in [City],' and write real text, not only a logo wall. Logos with no text give Google little to read, so put each carrier's name in the HTML. A table with carrier and plan columns is easy for patients and for answer engines to quote. Add a few FAQs about billing and verification, and mark them up as described in our [patient FAQ guide](/guides/how-to-write-patient-faqs-that-answer-ai-search). Link to the page from your main navigation, your contact page, and relevant service pages, and use the same list on your Google Business Profile where it supports insurance details. For therapy practices, the accepted-plans list pairs well with an [insurance verification and benefits check page](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) that explains what the office confirms before a first session. Clients with an employer benefit often look for it next to your insurance list, so add a link to an [employee assistance program page for a counseling practice](/guides/employee-assistance-program-page-for-a-counseling-practice) where it applies. Each fall the list needs a second look, and our [open enrollment checklist for insurance pages and patient messages](/guides/open-enrollment-season-update-for-a-medical-practice-insurance-pages-and-patient-messages) shows what to change before callers start asking about their new plans."
       },
       {
         "type": "h2",

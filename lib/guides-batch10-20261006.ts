@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-15",
     "readMinutes": 6,
     "sections": [
       {
@@ -1942,7 +1942,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves."
+        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves. A new clinician's license status also changes which states you can list, so update the [licensure and states served page for a telehealth practice](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) at the same time."
       },
       {
         "type": "h2",
@@ -2056,7 +2056,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Physician directories such as Healthgrades, Zocdoc and Vitals often rank for a provider's name and can feed what AI assistants repeat. Claim each profile for free, match your name, address, phone, specialty and insurance to your website, and recheck twice a year. Evaluate paid products on patient volume, not on SEO promises.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-15",
     "readMinutes": 6,
     "sections": [
       {
@@ -2114,7 +2114,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Inconsistent details confuse patients and weaken trust signals. If the website says suite 200 and a directory says suite 20, patients and search engines see two different offices. Pick one version of the name, address and phone, as in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and make every profile match. When a provider joins or leaves, update these profiles in the same sweep. Our [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) shows the order. Directory profiles are where an outdated yes is most common, so use [how to keep your accepting new patients status accurate across listings](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). Directory profiles usually have a languages field, so make sure it matches the approach in our guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile)."
+        "text": "Inconsistent details confuse patients and weaken trust signals. If the website says suite 200 and a directory says suite 20, patients and search engines see two different offices. Pick one version of the name, address and phone, as in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and make every profile match. When a provider joins or leaves, update these profiles in the same sweep. Our [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) shows the order. Directory profiles are where an outdated yes is most common, so use [how to keep your accepting new patients status accurate across listings](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). Directory profiles usually have a languages field, so make sure it matches the approach in our guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile). Counseling practices have their own directories to manage, covered in [Psychology Today and other therapist directory profiles](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice), with the same advice on keeping every detail consistent."
       },
       {
         "type": "h2",
@@ -2214,7 +2214,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Publish self-pay prices in a plain table: the service, what is included, the price or a true starting price, what costs extra, and how to book. Date the page and keep it current. List only prices you will honor, never invent ranges, and ask your attorney which price rules apply to your practice.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-15",
     "readMinutes": 6,
     "sections": [
       {
@@ -2231,7 +2231,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "We are a marketing agency and this is not legal advice. Two points are worth knowing. First, federal rules under the No Surprises Act give uninsured and self-pay patients a right to a good faith estimate of expected charges from providers when they schedule or ask, and CMS explains the details on its site. Second, the federal hospital price transparency rule applies to hospitals and is not a rule for a typical small practice, but rules and expectations change, and state rules vary. Ask your attorney what applies to you before you publish. Alongside published fees, patients need a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice) that explains statements, payment options and who to call."
+        "text": "We are a marketing agency and this is not legal advice. Two points are worth knowing. First, federal rules under the No Surprises Act give uninsured and self-pay patients a right to a good faith estimate of expected charges from providers when they schedule or ask, and CMS explains the details on its site. Second, the federal hospital price transparency rule applies to hospitals and is not a rule for a typical small practice, but rules and expectations change, and state rules vary. Ask your attorney what applies to you before you publish. Alongside published fees, patients need a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice) that explains statements, payment options and who to call. Patients who lose coverage during plan changes often look for self-pay options next, so mention them in the [open enrollment season update for your insurance page and patient messages](/guides/open-enrollment-season-update-for-a-medical-practice-insurance-pages-and-patient-messages)."
       },
       {
         "type": "h2",

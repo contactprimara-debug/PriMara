@@ -239,7 +239,7 @@ export const guidesPartOne: Guide[] = [
       "A solo therapist in Florida typically spends three hundred to fifteen hundred dollars a month on marketing, and a group practice spends two thousand to five thousand. The cheapest option is a directory listing at roughly thirty dollars a month; the most durable is local SEO and a Google Business Profile, which costs more but keeps producing after you stop paying.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-15",
     readMinutes: 7,
     sections: [
       {
@@ -278,7 +278,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The alternative is not more expensive than people assume. A claimed, correctly categorized Google Business Profile with a steady trickle of reviews will out-produce a directory listing in most Florida cities within a year, and it costs nothing but the work. [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists) explains the setup.",
+        text: "The alternative is not more expensive than people assume. A claimed, correctly categorized Google Business Profile with a steady trickle of reviews will out-produce a directory listing in most Florida cities within a year, and it costs nothing but the work. [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists) explains the setup. Fee differences between licensed and pre-licensed clinicians should be explained openly, using the layout in our [associate and pre-licensed clinician disclosure page guide](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice).",
       },
       {
         type: "h2",
@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-15",
     readMinutes: 6,
     sections: [
       {
@@ -464,7 +464,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Therapy searches are specific. People do not search for 'therapy.' They search for 'EMDR therapist Fort Lauderdale,' 'couples counseling that takes Aetna,' 'postpartum anxiety therapist near me.' Each of those is a page you can write honestly and rank for, because most practices have not written it. The competitive field is thin in a way that it is not for, say, cosmetic dentistry. Pause paid clicks when a practice has no openings and give visitors a [waitlist page](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) that explains how the list works and where to turn in the meantime.",
+        text: "Therapy searches are specific. People do not search for 'therapy.' They search for 'EMDR therapist Fort Lauderdale,' 'couples counseling that takes Aetna,' 'postpartum anxiety therapist near me.' Each of those is a page you can write honestly and rank for, because most practices have not written it. The competitive field is thin in a way that it is not for, say, cosmetic dentistry. Pause paid clicks when a practice has no openings and give visitors a [waitlist page](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) that explains how the list works and where to turn in the meantime. Directory listings sit between the two channels, and the guide on [Psychology Today and therapist directory profiles](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice) explains how to judge whether a paid listing is worth renewing.",
       },
       {
         type: "p",
