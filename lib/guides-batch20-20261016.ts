@@ -389,6 +389,9 @@ export const guidesPartTwentyThree: Guide[] = [
       p(
         "Questions about coverage turn into billing questions, so link the page to your [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). This page is general information, not legal advice, and a compliance adviser should review the final wording."
       ),
+      p(
+        "A short staff script helps too. When a patient asks whether the office takes their plan, the front desk can say which programs the practice participates in, offer to check the specific plan and point the caller to the insurer for a final answer. Using one script on the phone, in messages and on the page keeps every answer identical."
+      ),
     ],
     faqs: [
       {
@@ -737,6 +740,9 @@ export const guidesPartTwentyThree: Guide[] = [
       p(
         "Include fees, insurance in plain terms and a crisis line, as covered in the guide on [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). End with a single way to begin, such as a call or a short contact form that does not ask for details about anyone's struggles."
       ),
+      p(
+        "Review the page once a year, and again whenever the counselor's schedule, fees or policies change. Families rely on the details, and a page that still lists last year's hours or a former counselor undermines the trust the rest of the page worked to build."
+      ),
     ],
     faqs: [
       {
@@ -824,6 +830,9 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       p(
         "Link the page to your [telehealth instructions](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) and to your [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained), since new parents will want to know both before they call."
+      ),
+      p(
+        "Finally, consider the hours new parents can actually keep. Evening or early-morning slots and short video visits can matter more than any wording on the page, so say plainly what the schedule allows. If the practice cannot see someone soon, a clear note about the waitlist and a list of community supports is kinder than silence, and it keeps the page honest about what the practice can offer right now."
       ),
     ],
     faqs: [
@@ -913,6 +922,9 @@ export const guidesPartTwentyThree: Guide[] = [
       h2("Make the first visit easy to book"),
       p(
         "End the page with a booking path and a phone number. Our guides on [what to bring to a first appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) and on [keeping the accepting-new-patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) support this page directly, and the [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) is the follow-up that continues it."
+      ),
+      p(
+        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third."
       ),
     ],
     faqs: [
@@ -1088,6 +1100,9 @@ export const guidesPartTwentyThree: Guide[] = [
         "A hospital relationship is useful to patients and to other doctors who look for referral partners. Our guides on [getting listed in a hospital or health-system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) and on the [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) show how to make it findable. Check each doctor's [bio page](/guides/how-to-write-a-doctor-bio-page-that-ranks) for the same wording."
       ),
       p(
+        "A short internal review each year keeps the statement true. Ask the office manager to compare the website, the Google profile and each provider bio against the credentialing records, note the date and fix any difference at once. Treat the statement as a living fact about the practice, never as copy that is written once and forgotten."
+      ),
+      p(
         "This page is general information and not legal advice. Have the practice's adviser review the final wording, especially where a system's branding rules apply."
       ),
     ],
@@ -1174,6 +1189,9 @@ export const guidesPartTwentyThree: Guide[] = [
       h2("Review before you publish"),
       p(
         "Have the practice's adviser or compliance resource read the final text, because the rule changes and has details for different kinds of services. Put a last-reviewed date on the page and set a reminder to check it each year. Link it from the fees page and the contact page so clients find it when they are asking about cost."
+      ),
+      p(
+        "Train the front desk to answer the first question in the same words every time. A caller who asks what a session will cost should hear the fee, hear that a written estimate is available on request and be told how to ask, with no pressure and no guessing about figures the practice has not yet confirmed."
       ),
     ],
     faqs: [
@@ -1262,6 +1280,9 @@ export const guidesPartTwentyThree: Guide[] = [
       p(
         "Link the page from your services menu and from the [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) section so it can be found by people searching for this kind of support."
       ),
+      p(
+        "Read the page aloud before it goes live. If any sentence would sound like a recruiting slogan to a service member, rewrite it in plainer words, and ask a veteran or a military spouse you know to read it too. Their reaction will tell you faster than any checklist whether the tone is respectful and the information is useful."
+      ),
     ],
     faqs: [
       {
@@ -1349,6 +1370,9 @@ export const guidesPartTwentyThree: Guide[] = [
       h2("Make it findable and consistent"),
       p(
         "Add the page to your location page and the services menu, and use the neighborhood and city names a newcomer would type. Check that your [Google Business Profile attributes](/guides/google-business-profile-attributes-for-a-medical-practice) and hours match, and that the [new-patient status is accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) everywhere. A [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) closes the loop after the first booking."
+      ),
+      p(
+        "Review the page each fall and again in early spring, because the people it serves change with the calendar. Students arrive in August and winter residents arrive in November, so update the hours, the new-patient status and the insurance lines before each wave, and note the date you checked on the page itself."
       ),
     ],
     faqs: [
