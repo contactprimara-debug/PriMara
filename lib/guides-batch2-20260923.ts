@@ -120,13 +120,13 @@ export const guidesPartFive: Guide[] = [
       "For most Florida practices, Google Business Profile drives the first click and the website closes the decision — a searcher sees your profile in the map pack, checks your rating and photos, then either calls directly from the profile or clicks through to your site to confirm details before booking. Neglecting either one breaks the path a new patient actually takes.",
     author: "Liam Costello",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-09-23",
+    dateModified: "2026-10-16",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What each one is actually for" },
       {
         type: "p",
-        text: "Google Business Profile is your storefront inside Google Search and Maps — it's what shows up in the map pack for \"urgent care near me,\" complete with reviews, hours, photos, and a call button, before anyone ever reaches your website. Your website is where someone goes to verify you're legitimate, check a provider's background, see accepted insurance, or fill out a form. They serve different moments in the same decision, not competing purposes. The booking button is where the two meet; see [how to add an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) for setting it up.",
+        text: "Google Business Profile is your storefront inside Google Search and Maps — it's what shows up in the map pack for \"urgent care near me,\" complete with reviews, hours, photos, and a call button, before anyone ever reaches your website. Your website is where someone goes to verify you're legitimate, check a provider's background, see accepted insurance, or fill out a form. They serve different moments in the same decision, not competing purposes. The booking button is where the two meet; see [how to add an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) for setting it up. People who just moved search differently from established patients, and [a new-to-the-area page for movers, students and seasonal residents](/guides/new-to-the-area-page-for-a-primary-care-practice-for-relocating-families-students-and-seasonal-residents) shows how to write for them.",
       },
       { type: "h2", text: "The typical patient path" },
       {

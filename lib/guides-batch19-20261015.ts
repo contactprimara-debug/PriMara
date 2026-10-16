@@ -272,7 +272,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A disclosure page should say plainly which clinicians are fully licensed and which are pre-licensed or registered interns working under supervision, name the supervisor, state what title each person may use, and explain fees. Use only the titles each board allows, and never imply that a trainee holds a license they have not earned.",
     author: "Liam Costello",
     publishDate: "2026-10-15T09:40:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-16",
     readMinutes: 6,
     sections: [
       h2("Why clients need to be told, and where"),
@@ -280,7 +280,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Many group practices see clients with a mix of licensed clinicians and pre-licensed ones who are completing supervised hours toward a license. Both are legitimate. What a client cannot do is choose well if they are not told which is which, and a website that blurs the difference creates a trust problem and, in some states, a compliance problem."
       ),
       p(
-        "In Florida, for example, clinicians who have not yet reached full licensure in clinical social work, marriage and family therapy or mental health counseling practice as registered interns under a qualified supervisor. The state board that oversees those professions publishes its own rules, and your page should mirror them rather than paraphrase from memory."
+        "In Florida, for example, clinicians who have not yet reached full licensure in clinical social work, marriage and family therapy or mental health counseling practice as registered interns under a qualified supervisor. The state board that oversees those professions publishes its own rules, and your page should mirror them rather than paraphrase from memory. Counselors who serve veterans and military families can use [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) to state their experience and coverage accurately."
       ),
       h2("What to put on the page"),
       ul(
@@ -308,7 +308,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Keep the rest of the site consistent"),
       p(
-        "The disclosure only works if every other page agrees with it. Check the clinician bios, the Google Business Profile, directory profiles and any insurance-panel listings. A trainee who appears on a directory with no mention of supervision undoes the page's honesty. Our guide on [fees, sliding scale and superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to describe price differences without sounding like a discount."
+        "The disclosure only works if every other page agrees with it. Check the clinician bios, the Google Business Profile, directory profiles and any insurance-panel listings. A trainee who appears on a directory with no mention of supervision undoes the page's honesty. Our guide on [fees, sliding scale and superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to describe price differences without sounding like a discount. A fees page is stronger when it links to [a plain-language good faith estimate page for self-pay clients](/guides/good-faith-estimate-and-no-surprises-act-notice-page-for-a-therapy-practice), which tells uninsured clients how to ask for an estimate."
       ),
       p(
         "Review the page whenever someone is licensed, leaves, or changes supervisor, and remove the pre-licensed label only after the board record shows the change. The date of the last review belongs at the bottom of the page. Never promise results or compare levels of clinician quality; the honest difference is training stage and fee, nothing more."

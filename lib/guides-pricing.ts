@@ -239,7 +239,7 @@ export const guidesPartOne: Guide[] = [
       "A solo therapist in Florida typically spends three hundred to fifteen hundred dollars a month on marketing, and a group practice spends two thousand to five thousand. The cheapest option is a directory listing at roughly thirty dollars a month; the most durable is local SEO and a Google Business Profile, which costs more but keeps producing after you stop paying.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-16",
     readMinutes: 7,
     sections: [
       {
@@ -286,7 +286,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "A solo therapist has one problem: fill a caseload of roughly twenty to twenty-five clients and keep it filled. That is a small number, which means a small, cheap, well-aimed effort is usually enough. Claim the profile, publish six honest pages about the modalities you actually practice, collect reviews from clients who volunteer, and answer the phone. Eight hundred to fifteen hundred a month of managed work is a reasonable ceiling. Budget a little time as well for a plain fees page, because our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to state rates, out-of-network payment and a sliding scale without confusing a first-time client. If your caseload is already full, spend less on new demand and publish a [waitlist page that explains timing honestly](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) while you decide what to do next.",
+        text: "A solo therapist has one problem: fill a caseload of roughly twenty to twenty-five clients and keep it filled. That is a small number, which means a small, cheap, well-aimed effort is usually enough. Claim the profile, publish six honest pages about the modalities you actually practice, collect reviews from clients who volunteer, and answer the phone. Eight hundred to fifteen hundred a month of managed work is a reasonable ceiling. Budget a little time as well for a plain fees page, because our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to state rates, out-of-network payment and a sliding scale without confusing a first-time client. If your caseload is already full, spend less on new demand and publish a [waitlist page that explains timing honestly](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) while you decide what to do next. For clients paying out of pocket, the practice should also publish the notice described in [a plain-language good faith estimate page for self-pay clients](/guides/good-faith-estimate-and-no-surprises-act-notice-page-for-a-therapy-practice), reviewed by its adviser.",
       },
       {
         type: "p",
@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-16",
     readMinutes: 6,
     sections: [
       {
@@ -452,7 +452,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Mental health falls under Google's personalized advertising restrictions, which limit how you may target people based on inferred health status. In practice this means you cannot build an audience of people Google thinks are depressed, and you cannot use remarketing that implies you know something about a visitor's condition. You can still bid on what people type — 'anxiety therapist near me' — you just cannot profile them. Whichever channel brings the inquiry, a clear page that states session fees, insurance status and any sliding scale keeps the first call short, and our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows what to include.",
+        text: "Mental health falls under Google's personalized advertising restrictions, which limit how you may target people based on inferred health status. In practice this means you cannot build an audience of people Google thinks are depressed, and you cannot use remarketing that implies you know something about a visitor's condition. You can still bid on what people type — 'anxiety therapist near me' — you just cannot profile them. Whichever channel brings the inquiry, a clear page that states session fees, insurance status and any sliding scale keeps the first call short, and our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows what to include. A grief page needs a different voice from a booking page, which [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) shows with examples of what to say and avoid. A practice that supports parents after a birth can use [a perinatal and postpartum counseling page without clinical claims](/guides/perinatal-and-postpartum-counseling-page-for-a-counseling-practice-without-clinical-claims) to state its scope honestly and place crisis lines near the top.",
       },
       {
         type: "p",

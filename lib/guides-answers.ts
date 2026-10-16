@@ -33,7 +33,7 @@ export const guidesPartThree: Guide[] = [
       "A suspended Google Business Profile comes back by fixing whatever broke the guidelines first, then filing one reinstatement request with evidence the business is real and eligible at that address. Do not create a second listing while you wait. Most medical suspensions trace to an unstaffed address, a keyword-stuffed business name, or a risky recent edit.",
     author: "Gio LaRoche",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-16",
     readMinutes: 6,
     howTo: {
       name: "How to get a suspended Google Business Profile reinstated",
@@ -72,7 +72,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "What suspension actually means" },
       {
         type: "p",
-        text: "Google suspends a Business Profile when something about it stops matching what Google believes the real-world business is. It is almost always an automated system reacting to a change — a new address, a name edit, a category added — and deciding the listing cannot be trusted until a human confirms it. So an appeal is not an argument. It is evidence that a real practice operates at that address under that name. A common cause is choosing the wrong profile type, which our guide on [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) helps you avoid. Home-based therapists should read [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home) before choosing an address setup, since a misleading location is a common cause of suspension.",
+        text: "Google suspends a Business Profile when something about it stops matching what Google believes the real-world business is. It is almost always an automated system reacting to a change — a new address, a name edit, a category added — and deciding the listing cannot be trusted until a human confirms it. So an appeal is not an argument. It is evidence that a real practice operates at that address under that name. A common cause is choosing the wrong profile type, which our guide on [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) helps you avoid. Home-based therapists should read [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home) before choosing an address setup, since a misleading location is a common cause of suspension. A sublet room or coworking desk raises its own listing questions, which [using a shared or virtual office address on a Google Business Profile](/guides/shared-or-virtual-office-address-for-a-therapy-practice-on-google-business-profile) answers step by step.",
       },
       { type: "h2", text: "The five things that suspend medical listings" },
       {

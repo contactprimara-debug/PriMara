@@ -28,7 +28,7 @@ export const guidesPartTen: Guide[] = [
       "Attributes are the checkboxes on a Google Business Profile — wheelchair accessible entrance, online appointments, women-led, and dozens more — that let Google Maps filter and badge your listing for specific searches. Some you set yourself in the GBP dashboard; others are crowd-sourced from patients and need regular review, because anyone can suggest one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-16",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What an attribute actually is" },
@@ -38,7 +38,7 @@ export const guidesPartTen: Guide[] = [
       },
       {
         type: "p",
-        text: "Attributes are not a ranking factor the way reviews or proximity are. Google has never published them as part of the local ranking algorithm. What they do is narrow who sees you at all once a patient applies a filter, and they add small trust signals — a 'verified' badge, an identity attribute — that can tip a close decision between two listings a patient is already comparing. Which attributes apply can depend on how you serve patients, and our guide on [storefront and service-area profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) covers the type decision.",
+        text: "Attributes are not a ranking factor the way reviews or proximity are. Google has never published them as part of the local ranking algorithm. What they do is narrow who sees you at all once a patient applies a filter, and they add small trust signals — a 'verified' badge, an identity attribute — that can tip a close decision between two listings a patient is already comparing. Which attributes apply can depend on how you serve patients, and our guide on [storefront and service-area profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) covers the type decision. When the address itself is the problem, [using a shared or virtual office address on a Google Business Profile](/guides/shared-or-virtual-office-address-for-a-therapy-practice-on-google-business-profile) explains which shared setups Google accepts and which it treats as a virtual office.",
       },
       { type: "h2", text: "Two kinds of attributes, and who controls each" },
       {
@@ -52,7 +52,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Which attributes matter most for a medical practice" },
       {
         type: "p",
-        text: "Accessibility attributes come first: wheelchair accessible entrance, restroom, and parking lot are genuinely used as search filters by patients who need them, and leaving them blank reads as 'unknown,' not 'no.' Service-option attributes — online appointments, onsite services, online care — matter next, because they answer the exact question a patient is trying to resolve before they even click through: can I book this without calling? After that, identity attributes (women-led, veteran-led, LGBTQ+ friendly) are optional but, when true, worth turning on; a false attribute is worse than no attribute, and Google does remove profiles found gaming them. Language attributes should only be selected if true, and our guide to [bilingual SEO for a Florida practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how that fits with Spanish pages. Appointment details belong here too, and our guide on [adding a booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) covers the link itself. Attributes such as wheelchair-accessible entrance should match what you say on your website, so see our guide on [parking and accessibility details](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the facts to publish. Some attributes control how patients can reach you, and the related question of whether to turn on chat is covered in [Google Business Profile messaging for a medical practice](/guides/google-business-profile-messaging-for-a-medical-practice-should-you-turn-it-on).",
+        text: "Accessibility attributes come first: wheelchair accessible entrance, restroom, and parking lot are genuinely used as search filters by patients who need them, and leaving them blank reads as 'unknown,' not 'no.' Service-option attributes — online appointments, onsite services, online care — matter next, because they answer the exact question a patient is trying to resolve before they even click through: can I book this without calling? After that, identity attributes (women-led, veteran-led, LGBTQ+ friendly) are optional but, when true, worth turning on; a false attribute is worse than no attribute, and Google does remove profiles found gaming them. Language attributes should only be selected if true, and our guide to [bilingual SEO for a Florida practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how that fits with Spanish pages. Appointment details belong here too, and our guide on [adding a booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) covers the link itself. Attributes such as wheelchair-accessible entrance should match what you say on your website, so see our guide on [parking and accessibility details](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the facts to publish. Some attributes control how patients can reach you, and the related question of whether to turn on chat is covered in [Google Business Profile messaging for a medical practice](/guides/google-business-profile-messaging-for-a-medical-practice-should-you-turn-it-on). A page for college students and winter residents is a quick win for a Florida practice, as [a new-to-the-area page for movers, students and seasonal residents](/guides/new-to-the-area-page-for-a-primary-care-practice-for-relocating-families-students-and-seasonal-residents) explains.",
       },
       { type: "h2", text: "Keeping them accurate over time" },
       {
@@ -131,7 +131,7 @@ export const guidesPartTen: Guide[] = [
       "E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trust — the framework Google's human quality raters use to judge whether content, especially on health topics, is reliable enough to rank well. It is not a direct ranking factor by itself, but it shapes the signals (author credentials, citations, site reputation) that Google's actual ranking systems do use.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-16",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Where E-E-A-T actually comes from" },
@@ -141,7 +141,7 @@ export const guidesPartTen: Guide[] = [
       },
       {
         type: "p",
-        text: "The second E — Experience — was added in December 2022, specifically to capture whether the content creator has first-hand or life experience with the topic, separate from formal expertise. For a medical practice, that distinction matters: a provider writing about a condition they actually treat daily demonstrates both expertise and experience, while a freelance content writer with neither may produce technically accurate text that still reads as thin to a rater trained to look for both. Quality signals like these are exactly what Google's broad ranking changes reassess; see [how to tell if a core update hit your practice site](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit). One visible trust signal is a named clinician who reviewed the page, and [medically reviewed by labels](/guides/medically-reviewed-by-labels-on-a-medical-practice-website) must be accurate and dated to help rather than hurt.",
+        text: "The second E — Experience — was added in December 2022, specifically to capture whether the content creator has first-hand or life experience with the topic, separate from formal expertise. For a medical practice, that distinction matters: a provider writing about a condition they actually treat daily demonstrates both expertise and experience, while a freelance content writer with neither may produce technically accurate text that still reads as thin to a rater trained to look for both. Quality signals like these are exactly what Google's broad ranking changes reassess; see [how to tell if a core update hit your practice site](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit). One visible trust signal is a named clinician who reviewed the page, and [medically reviewed by labels](/guides/medically-reviewed-by-labels-on-a-medical-practice-website) must be accurate and dated to help rather than hurt. Provider pages that name a hospital should follow [how to word a hospital affiliation or privileges statement](/guides/hospital-affiliation-and-admitting-privileges-statement-on-a-medical-practice-website) so the claim stays accurate and dated.",
       },
       { type: "h2", text: "Why it matters more for medical content than most" },
       {
@@ -657,13 +657,13 @@ export const guidesPartTen: Guide[] = [
       "For most multi-provider practices, one well-structured website with dedicated pages per location, provider, and specialty outperforms running separate sites — it consolidates SEO authority instead of splitting it. Separate sites make sense mainly when the brands genuinely operate as distinct businesses to patients, not just internally.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-16",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why one site usually wins for SEO" },
       {
         type: "p",
-        text: "Search authority — the accumulated trust and relevance signals Google associates with a domain — builds per domain, not per page. Every backlink earned, every review schema reference, every year of site history adds to one pool when it's one domain, or gets split into several smaller, weaker pools when it's spread across multiple sites. A practice with three locations and five providers under one domain, with a dedicated page per location and per provider, concentrates all of that accumulated trust behind every individual page — including brand-new ones, which inherit some of the domain's established authority from day one. The address comes first in any launch, and our guide on [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice) explains how to choose and register it.",
+        text: "Search authority — the accumulated trust and relevance signals Google associates with a domain — builds per domain, not per page. Every backlink earned, every review schema reference, every year of site history adds to one pool when it's one domain, or gets split into several smaller, weaker pools when it's spread across multiple sites. A practice with three locations and five providers under one domain, with a dedicated page per location and per provider, concentrates all of that accumulated trust behind every individual page — including brand-new ones, which inherit some of the domain's established authority from day one. The address comes first in any launch, and our guide on [choosing a domain name for a medical practice](/guides/how-to-choose-a-domain-name-for-a-medical-practice) explains how to choose and register it. When a provider holds privileges at a hospital, [how to word a hospital affiliation or privileges statement](/guides/hospital-affiliation-and-admitting-privileges-statement-on-a-medical-practice-website) explains how to say so without implying ownership or endorsement.",
       },
       { type: "h2", text: "When separate sites genuinely make sense" },
       {
@@ -861,7 +861,7 @@ export const guidesPartTen: Guide[] = [
       "A Google review is left independently by a patient on a third-party platform and is governed mainly by Google's own review policies against gating or incentivizing it. A testimonial you select and publish on your own site or ads is your marketing speech, which makes it subject to FTC endorsement rules and, if it names a condition, HIPAA authorization requirements.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-16",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two different things that get talked about as one" },
@@ -882,7 +882,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "The HIPAA layer a testimonial adds" },
       {
         type: "p",
-        text: "A Google review is the patient's own choice to disclose their own experience publicly — the practice didn't disclose anything. A testimonial you ask for, select, and publish is different if it names or clearly implies a specific condition or treatment: using that content is a use of the patient's health information for marketing, which under HIPAA requires the patient's written authorization specific to that use, not just a general consent form signed at intake. The safer, simpler pattern is a testimonial about the experience — scheduling, staff, wait times — rather than the clinical outcome, which sidesteps the authorization requirement by never touching protected health information in the first place. The same no-incentive logic applies when you are [following up after you resolve a complaint](/guides/how-to-ask-a-patient-to-update-or-remove-a-google-review-after-you-resolve-the-problem), so staff should never tie a refund or a discount to a changed review. Even a thank-you reply can turn a review into something more, which our guide on [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) helps staff avoid." ,
+        text: "A Google review is the patient's own choice to disclose their own experience publicly — the practice didn't disclose anything. A testimonial you ask for, select, and publish is different if it names or clearly implies a specific condition or treatment: using that content is a use of the patient's health information for marketing, which under HIPAA requires the patient's written authorization specific to that use, not just a general consent form signed at intake. The safer, simpler pattern is a testimonial about the experience — scheduling, staff, wait times — rather than the clinical outcome, which sidesteps the authorization requirement by never touching protected health information in the first place. The same no-incentive logic applies when you are [following up after you resolve a complaint](/guides/how-to-ask-a-patient-to-update-or-remove-a-google-review-after-you-resolve-the-problem), so staff should never tie a refund or a discount to a changed review. Even a thank-you reply can turn a review into something more, which our guide on [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) helps staff avoid. If the practice keeps a social media account alongside this work, [what a practice should and should never post on social media](/guides/social-media-accounts-for-a-medical-practice-what-to-post-and-what-never-to-post) explains who should own the logins and what staff must never share." ,
       },
       { type: "h2", text: "A practical rule of thumb" },
       {
