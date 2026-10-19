@@ -1204,7 +1204,7 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Professional Domain Email for a Medical Practice Instead of Gmail",
     metaTitle: "Professional Domain Email for a Medical Practice",
     metaDescription:
-      "Why a medical practice should use email on its own domain, and how to set it up so messages are delivered and patient data stays protected. Call (561) 291-2681.",
+      "Why a medical practice should use email on its own domain, and how to set it up so messages are delivered and data stays protected. Call (561) 291-2681.",
     answer:
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
