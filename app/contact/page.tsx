@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ContactSection from "@/components/ContactSection";
+import BookingFunnelInfo from "@/components/BookingFunnelInfo";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 
 const contactLocalBusinessSchema = {
@@ -65,6 +66,8 @@ export default function ContactPage() {
           </a>
         </p>
       </div>
+
+      <BookingFunnelInfo />
 
       {/* Reuse the homepage contact section (CTA banner + form) */}
       <ContactSection />
