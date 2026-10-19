@@ -1725,7 +1725,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Build real Spanish pages at their own web addresses, link each to its English twin with hreflang, translate titles and descriptions too, and have a fluent person review everything before it goes live. Research Spanish search terms separately. Only mention Spanish-language care if your staff or interpreters can truly provide it.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -1791,7 +1791,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A raw automatic translation published without review reads badly, and Google's guidance on localized pages cautions against it. Its spam policies also warn against auto-generated text published without human review. Use a tool for a first draft if you like, then have a fluent person who knows medical terms edit every page. Medical vocabulary differs between regions, and a mistranslated symptom or procedure is worse than none. Keep claims identical in both languages, and do not add clinical promises in one version that the other lacks. Plan on re-reviewing the Spanish copy whenever the English page changes, since a stale translation is a common way for the two versions to drift apart."
+        "text": "A raw automatic translation published without review reads badly, and Google's guidance on localized pages cautions against it. Its spam policies also warn against auto-generated text published without human review. Use a tool for a first draft if you like, then have a fluent person who knows medical terms edit every page. Medical vocabulary differs between regions, and a mistranslated symptom or procedure is worse than none. Keep claims identical in both languages, and do not add clinical promises in one version that the other lacks. Plan on re-reviewing the Spanish copy whenever the English page changes, since a stale translation is a common way for the two versions to drift apart. Our [Florida city pages for medical practices](/locations) show how local copy changes from one community to the next, which is the same discipline bilingual pages need."
       },
       {
         "type": "h2",
