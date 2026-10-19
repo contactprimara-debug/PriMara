@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-19",
     "readMinutes": 7,
     "sections": [
       {
@@ -225,7 +225,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website)."
+        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). A counseling office that closes for a vacation should record a matching greeting, and our guide on [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice) lists what that message should say."
       },
       {
         "type": "h2",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-19",
     "readMinutes": 7,
     "sections": [
       {
@@ -1719,7 +1719,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Reaching out to a therapist is hard. Many people open a practice website, read the first screen, and leave without calling because they do not know what will happen. A page that walks through the first session removes uncertainty, and uncertainty is often the real obstacle."
+        "text": "Reaching out to a therapist is hard. Many people open a practice website, read the first screen, and leave without calling because they do not know what will happen. A page that walks through the first session removes uncertainty, and uncertainty is often the real obstacle. Clients also want to know the length and rhythm of sessions, which our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) covers without promising results."
       },
       {
         "type": "p",
@@ -1768,7 +1768,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use short sentences and the words a nervous first-time client would use. Say you, not the client. Avoid clinical jargon and avoid long lists of credentials in the first lines. The reader wants to know whether this is a safe, simple next step. Many of the questions visitors ask are about the first appointment, so link the first-session page to your [therapy practice FAQ page](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice) for the rest."
+        "text": "Use short sentences and the words a nervous first-time client would use. Say you, not the client. Avoid clinical jargon and avoid long lists of credentials in the first lines. The reader wants to know whether this is a safe, simple next step. Many of the questions visitors ask are about the first appointment, so link the first-session page to your [therapy practice FAQ page](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice) for the rest. Students searching near a campus often want shorter answers than other clients, which is why a [college student counseling page for a counseling practice](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) can restate these first-session basics in a student-friendly way."
       },
       {
         "type": "p",
@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-19",
     "readMinutes": 7,
     "sections": [
       {
@@ -2164,7 +2164,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly."
+        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly. Same-day availability should come with a clear rule for emergencies, which our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) helps a primary care practice write."
       },
       {
         "type": "p",

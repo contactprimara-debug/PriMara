@@ -465,7 +465,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Describe availability with measured, dated statements such as typical days to the next new-patient visit, not guarantees like same-day appointments always. Update the figure on a schedule, say how patients can get seen sooner, and avoid claims about waiting times that the office cannot support with its own schedule data.",
     author: "Liam Costello",
     publishDate: "2026-10-15T10:20:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-19",
     readMinutes: 6,
     sections: [
       h2("Patients search for speed, and practices overpromise"),
@@ -495,7 +495,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h3("Say how to be seen sooner"),
       p(
-        "A wait is easier to accept when there is a next step. List the options a patient has: a cancellation list, a nurse practitioner or physician assistant visit, a telehealth slot, or a different office. Our guide on [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) covers how to describe those options in a way that matches what happens in real life."
+        "A wait is easier to accept when there is a next step. List the options a patient has: a cancellation list, a nurse practitioner or physician assistant visit, a telehealth slot, or a different office. Our guide on [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) covers how to describe those options in a way that matches what happens in real life. Honest availability messaging works best alongside a page on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice), which tells patients where to go when waiting is not an option."
       ),
       h2("Where the message should appear"),
       p(
@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-19",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1260,7 +1260,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         ["Expert in everything.", "I see people about anxiety, grief, life changes and relationships."]
       ),
       p(
-        "Outcome language is where bios get into trouble. The American Psychological Association's ethics code asks psychologists to avoid false or misleading statements about their services, and the same standard is a sensible guide for any licensed counselor. Our article on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) goes deeper on how to name concerns without clinical claims."
+        "Outcome language is where bios get into trouble. The American Psychological Association's ethics code asks psychologists to avoid false or misleading statements about their services, and the same standard is a sensible guide for any licensed counselor. Our article on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) goes deeper on how to name concerns without clinical claims. Choose the therapist's photo with the same care as the text, following our [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) on consent, background and alt text."
       ),
       h3("Credentials: only what is true"),
       p(

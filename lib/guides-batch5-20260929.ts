@@ -244,7 +244,7 @@ export const guidesPartEight: Guide[] = [
       "Telehealth marketing loses the local-pack advantage a physical office gets from Google Business Profile, so it has to work harder on the website itself: state-by-state licensing clarity, what conditions are and aren't appropriate for a virtual visit, real scheduling and insurance detail, and HIPAA-safe tracking on every page — since a telehealth site is often the entire patient acquisition funnel with no office visit to fall back on.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-19",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "No physical office changes the whole strategy" },
@@ -280,7 +280,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "Paid search and social can fill the gap organic content takes longer to build, but the same HIPAA-safe tracking rules apply to every dollar spent — a conversion event tied to a specific condition page, sent to an ad platform without a signed business associate agreement in place, creates the same compliance exposure whether the click came from an organic result or a paid one. Before a telehealth service is promoted, publish a [telehealth consent and technology check page for a counseling practice](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) so clients know what they are agreeing to and how to test their connection.",
+        text: "Paid search and social can fill the gap organic content takes longer to build, but the same HIPAA-safe tracking rules apply to every dollar spent — a conversion event tied to a specific condition page, sent to an ad platform without a signed business associate agreement in place, creates the same compliance exposure whether the click came from an organic result or a paid one. Before a telehealth service is promoted, publish a [telehealth consent and technology check page for a counseling practice](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) so clients know what they are agreeing to and how to test their connection. A primary care office offering video visits should also publish a [virtual visits page that says what can and cannot be done by video](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), so patients know before they book.",
       },
     ],
     faqs: [
@@ -468,13 +468,13 @@ export const guidesPartEight: Guide[] = [
       "Anyone can suggest an edit to a Google Business Profile — a change to hours, address, or category — and some suggestions apply automatically before the owner even reviews them, so a practice needs to check its listing's edit history regularly, not just when something looks wrong; the fix for an incorrect suggested edit is to review and revert it in the Business Profile dashboard, not to ignore it and assume Google will catch the error on its own.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-09-29",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Suggested edits are more common — and more consequential — than most practices realize" },
       {
         type: "p",
-        text: "Google allows the public, other businesses, and its own automated systems to suggest edits to any Business Profile: a changed phone number, a closed status, corrected hours, even a different category. Some low-risk suggested edits go live automatically without the owner's review, on the theory that crowd-sourced corrections usually improve accuracy. For most businesses that works fine. For a medical practice, an incorrect automatic edit — hours marked wrong, a status changed to permanently closed by mistake, a phone number altered — can quietly cost real patient calls for weeks before anyone notices, because nobody's specifically watching for it. Hours are the field most often changed by others during a closure, as we explain in our guide to [profile hours and closures in hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season). A public edit is a common reason a corrected location slips back, and [how to fix a wrong map pin on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile) walks through the repair.",
+        text: "Google allows the public, other businesses, and its own automated systems to suggest edits to any Business Profile: a changed phone number, a closed status, corrected hours, even a different category. Some low-risk suggested edits go live automatically without the owner's review, on the theory that crowd-sourced corrections usually improve accuracy. For most businesses that works fine. For a medical practice, an incorrect automatic edit — hours marked wrong, a status changed to permanently closed by mistake, a phone number altered — can quietly cost real patient calls for weeks before anyone notices, because nobody's specifically watching for it. Hours are the field most often changed by others during a closure, as we explain in our guide to [profile hours and closures in hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season). A public edit is a common reason a corrected location slips back, and [how to fix a wrong map pin on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile) walks through the repair. Public suggestions most often change hours, so keep a log as described in our guide to [evening and weekend hours for a primary care practice and Google accuracy](/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate).",
       },
       { type: "h2", text: "How to catch a bad suggested edit" },
       {
@@ -689,13 +689,13 @@ export const guidesPartEight: Guide[] = [
       "Before publishing any patient testimonial, a medical practice needs written consent from that specific patient naming exactly where and how it will be used, confirmation the testimonial doesn't reveal protected health information the patient didn't explicitly agree to share publicly, honest representation that it reflects a typical rather than guaranteed result, and a process that doesn't compensate or pressure patients for positive testimonials — the FTC's endorsement rules and HIPAA both apply here, and they apply differently.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "A website testimonial is not the same thing as a Google review" },
       {
         type: "p",
-        text: "A Google review lives on Google's platform under Google's policies. A testimonial a practice chooses to feature on its own website or in an ad is the practice's own marketing content, and it carries two separate sets of obligations: HIPAA, because using any patient's story or likeness in marketing requires their authorization, and the FTC's endorsement and advertising rules, because a testimonial is a form of advertising claim regardless of who wrote the original words. Treating a testimonial as \"just a nice quote a patient sent us\" skips both. For the practical question of volume, see [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need). The same privacy habits apply to social channels, and [what a practice should and should never post on social media](/guides/social-media-accounts-for-a-medical-practice-what-to-post-and-what-never-to-post) lists the posts that are safe and the ones that never are.",
+        text: "A Google review lives on Google's platform under Google's policies. A testimonial a practice chooses to feature on its own website or in an ad is the practice's own marketing content, and it carries two separate sets of obligations: HIPAA, because using any patient's story or likeness in marketing requires their authorization, and the FTC's endorsement and advertising rules, because a testimonial is a form of advertising claim regardless of who wrote the original words. Treating a testimonial as \"just a nice quote a patient sent us\" skips both. For the practical question of volume, see [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need). The same privacy habits apply to social channels, and [what a practice should and should never post on social media](/guides/social-media-accounts-for-a-medical-practice-what-to-post-and-what-never-to-post) lists the posts that are safe and the ones that never are. Reviews displayed by a widget follow different rules from quoted testimonials, as our guide on [showing Google reviews on a medical practice website](/guides/showing-google-reviews-on-a-medical-practice-website-widgets-schema-and-rules) explains.",
       },
       { type: "h2", text: "The consent a testimonial actually needs" },
       {
@@ -769,7 +769,7 @@ export const guidesPartEight: Guide[] = [
       "A local citation is any online listing of a practice's name, address, and phone number — directories, insurance networks, medical association listings, the chamber of commerce — and they influence local search ranking through consistency, not volume: fifteen accurate, matching citations help more than fifty with even minor address or phone variations, so a citation project should start by finding and fixing existing wrong listings before adding new ones.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Citations are a trust signal built on consistency, not a volume game" },
@@ -810,7 +810,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "Insurance network directories deserve special attention, since they're often the citation source most likely to be out of date. A practice that changed its phone number or moved offices two years ago but never notified every insurance plan it's credentialed with may still show the old information to patients using that plan's own provider search — a source of inconsistency that's easy to miss because it doesn't live anywhere the practice would normally check. For physician directories in particular, see our guide on [Healthgrades, Zocdoc and Vitals profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice).",
+        text: "Insurance network directories deserve special attention, since they're often the citation source most likely to be out of date. A practice that changed its phone number or moved offices two years ago but never notified every insurance plan it's credentialed with may still show the old information to patients using that plan's own provider search — a source of inconsistency that's easy to miss because it doesn't live anywhere the practice would normally check. For physician directories in particular, see our guide on [Healthgrades, Zocdoc and Vitals profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice). Sponsor and association pages are a source of local mentions too, covered in our guide to [local sponsorships and community events for a medical practice](/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn), and the details must match your listings.",
       },
       { type: "h2", text: "A realistic first pass" },
       {

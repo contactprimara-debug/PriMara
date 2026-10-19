@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -258,7 +258,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you bill insurance, the plan generally pays for sessions that took place, so a late-cancellation fee is typically the client's responsibility rather than the plan's. Check your payer contracts before you publish, and say plainly on the page that insurance may not cover it. If you take self-pay clients, the federal good faith estimate rules for uninsured and self-pay patients are a useful reminder to give costs in writing before care begins. Our guide on a [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) covers how to present rates alongside this policy."
+        "text": "If you bill insurance, the plan generally pays for sessions that took place, so a late-cancellation fee is typically the client's responsibility rather than the plan's. Check your payer contracts before you publish, and say plainly on the page that insurance may not cover it. If you take self-pay clients, the federal good faith estimate rules for uninsured and self-pay patients are a useful reminder to give costs in writing before care begins. Our guide on a [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) covers how to present rates alongside this policy. A cancellation rule makes more sense when the page also states the usual session length and frequency, as set out in our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results)."
       },
       {
         "type": "table",

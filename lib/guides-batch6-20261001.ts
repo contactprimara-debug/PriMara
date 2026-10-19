@@ -755,7 +755,7 @@ export const guidesPartNine: Guide[] = [
       "Commercial email from a medical practice is governed primarily by the federal CAN-SPAM Act — accurate sender info, a working unsubscribe link honored within 10 business days, and no deceptive subject lines — plus HIPAA if the email references a patient's specific condition or treatment. This is a plain-language summary of the requirements, not legal advice; confirm specifics with a healthcare attorney or compliance officer.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two separate laws apply, and they cover different things" },
@@ -778,7 +778,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "HIPAA: when a marketing email also becomes a PHI question" },
       {
         type: "p",
-        text: "A general \"we're now offering Saturday appointments\" blast to your full patient list is marketing content, not PHI, because it doesn't reference anything specific to the individual recipient. It becomes a different situation the moment the content ties back to a specific patient's condition or treatment — a reminder referencing a specific diagnosis, or a segment list built by filtering patients by a condition. HHS's guidance on HIPAA and marketing communications is the authoritative source here, and when in doubt, the safer approach is to keep patient-list segmentation based on administrative facts (new patient vs. established, appointment type scheduled) rather than clinical ones. Transactional messages such as intake instructions follow different rules from newsletters, and the [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) for a therapy practice shows a safe example.",
+        text: "A general \"we're now offering Saturday appointments\" blast to your full patient list is marketing content, not PHI, because it doesn't reference anything specific to the individual recipient. It becomes a different situation the moment the content ties back to a specific patient's condition or treatment — a reminder referencing a specific diagnosis, or a segment list built by filtering patients by a condition. HHS's guidance on HIPAA and marketing communications is the authoritative source here, and when in doubt, the safer approach is to keep patient-list segmentation based on administrative facts (new patient vs. established, appointment type scheduled) rather than clinical ones. Transactional messages such as intake instructions follow different rules from newsletters, and the [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) for a therapy practice shows a safe example. Before sending anything in bulk, set up the records described in our guide to [professional domain email for a medical practice](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) so that your messages are trusted and delivered.",
       },
       { type: "h2", text: "Where consent fits in" },
       {
@@ -864,7 +864,7 @@ export const guidesPartNine: Guide[] = [
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
@@ -884,7 +884,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "The line isn't always obvious — a message that's mostly transactional but adds a promotional line (\"Your appointment is confirmed. Also, ask about our new Saturday hours!\") can push the whole message into marketing territory under TCPA's own interpretation of mixed-content messages. When a message blends both purposes, treat it as marketing and require the written consent. If you would rather not send review links by text at all, a printed sign using [QR codes and short links for review requests](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice) reaches patients at the desk without a message. Appointment reminders that mention your late-cancellation terms are a common mixed case, so keep the reminder to the time and a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice).",
+        text: "The line isn't always obvious — a message that's mostly transactional but adds a promotional line (\"Your appointment is confirmed. Also, ask about our new Saturday hours!\") can push the whole message into marketing territory under TCPA's own interpretation of mixed-content messages. When a message blends both purposes, treat it as marketing and require the written consent. If you would rather not send review links by text at all, a printed sign using [QR codes and short links for review requests](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice) reaches patients at the desk without a message. Appointment reminders that mention your late-cancellation terms are a common mixed case, so keep the reminder to the time and a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice). Reminders are not marketing, but the same care about wording and opt-outs applies, as described in our guide to [appointment reminder text and email wording for a primary care practice](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details).",
       },
       { type: "h2", text: "What written consent needs to include" },
       {

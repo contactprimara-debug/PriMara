@@ -17,7 +17,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Image SEO means every photo on your site loads quickly, has a descriptive file name, and carries alt text that says what the image shows. Compress files before upload, write one plain sentence of alt text per meaningful image, leave decorative images empty, and never publish a patient's photo without written authorization.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -89,7 +89,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A recognizable photo of a patient can be protected health information, and using it on a website for marketing generally requires the patient's written authorization. Get that authorization before a photo goes live, keep a copy, and honor a withdrawal. Never put a patient's name, condition or treatment in alt text or a file name, since those are indexed and read aloud. Photos of your staff need the staff member's consent too. Where a before-and-after image is involved, our [patient testimonial compliance checklist](/guides/patient-testimonial-compliance-checklist) covers what to confirm first."
+        "text": "A recognizable photo of a patient can be protected health information, and using it on a website for marketing generally requires the patient's written authorization. Get that authorization before a photo goes live, keep a copy, and honor a withdrawal. Never put a patient's name, condition or treatment in alt text or a file name, since those are indexed and read aloud. Photos of your staff need the staff member's consent too. Where a before-and-after image is involved, our [patient testimonial compliance checklist](/guides/patient-testimonial-compliance-checklist) covers what to confirm first. Provider photos are the images most visitors look at first, so see our checklist on [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) for size, consent and alt text."
       },
       {
         "type": "p",
@@ -712,7 +712,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Choose a short, easy-to-spell .com that matches your practice name, avoid hyphens and numbers, and avoid a provider's personal name if the group may change. Register it in the practice's own name with auto-renewal, not through a vendor's account. A keyword-stuffed domain is not a ranking shortcut.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -721,7 +721,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A domain name is the address patients type, say over the phone and read on a business card. The best ones are short, match the practice name, and survive being spoken aloud. Try the phone test: say the address to a colleague and ask them to write it down. If they need to ask how it is spelled, patients will too. Then read it back with the words run together and check it does not spell something unfortunate."
+        "text": "A domain name is the address patients type, say over the phone and read on a business card. The best ones are short, match the practice name, and survive being spoken aloud. Try the phone test: say the address to a colleague and ask them to write it down. If they need to ask how it is spelled, patients will too. Then read it back with the words run together and check it does not spell something unfortunate. A good domain name also becomes the email address patients see, so read our guide on [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) before you commit."
       },
       {
         "type": "ul",
@@ -1034,7 +1034,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Before a storm, set special hours or mark the profile temporarily closed, post a short notice on your site and listing, and tell patients how to reach you. After it, restore regular hours the day you reopen. Wrong hours on Google send patients to a locked door, so update in the same hour you decide.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -1116,7 +1116,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording. For planned closures such as holidays, the same special-hours steps apply, and our guide to [holiday and closure notices for a medical practice](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) shows which three places to update on the same day."
+        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording. For planned closures such as holidays, the same special-hours steps apply, and our guide to [holiday and closure notices for a medical practice](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) shows which three places to update on the same day. Practices that add evening or Saturday hours permanently should follow our guide to [publishing extended hours and keeping Google accurate](/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate), not only the special-hours steps above."
       }
     ],
     "faqs": [

@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -25,7 +25,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A large share of the people who visit a practice website are not new. They are existing patients trying to reach a portal to read a message, request a refill or look at a bill. If the login is buried three menus deep, they type the practice name plus the word portal into Google and click whatever comes first. Sometimes that is a vendor's generic help page, and sometimes it is a stranger's lookalike."
+        "text": "A large share of the people who visit a practice website are not new. They are existing patients trying to reach a portal to read a message, request a refill or look at a bill. If the login is buried three menus deep, they type the practice name plus the word portal into Google and click whatever comes first. Sometimes that is a vendor's generic help page, and sometimes it is a stranger's lookalike. Pair the login page with a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) so patients find where prescriptions and lab orders are sent."
       },
       {
         "type": "p",
@@ -76,7 +76,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the words patients use. A title such as Patient Portal Login with your practice name is enough, with a matching H1. Link to the page from the header or footer on every page, from the contact page, from appointment reminder texts and from the website link in your Google Business Profile. A patient who finds your listing on a phone should be able to reach the login in two taps."
+        "text": "Use the words patients use. A title such as Patient Portal Login with your practice name is enough, with a matching H1. Link to the page from the header or footer on every page, from the contact page, from appointment reminder texts and from the website link in your Google Business Profile. A patient who finds your listing on a phone should be able to reach the login in two taps. Add a short warning on the login page that the office never asks for a password by text, as our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) recommends."
       },
       {
         "type": "table",
@@ -553,7 +553,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "If patients do not answer reminder or callback calls, your practice number may be labeled Spam Likely by phone carriers or call-blocking apps. Check the number on your carrier's tools, ask your phone provider to register it, and request a review through each carrier's reputation program. Fixes take days, so test and record before and after.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T10:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -661,7 +661,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you track calls with a tracking number, check that one too. Call tracking numbers are newer and have no history, so they are sometimes flagged more readily than an established line. Our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) covers how to set up lines so every one of them is answered."
+        "text": "If you track calls with a tracking number, check that one too. Call tracking numbers are newer and have no history, so they are sometimes flagged more readily than an established line. Our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) covers how to set up lines so every one of them is answered. Patients may also receive scam texts that imitate the practice, which our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) tells you how to answer."
       },
       {
         "type": "h3",
@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -1166,7 +1166,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A waitlist form is not an intake. It should not ask why the person wants therapy, what symptoms they have or anything about their history. Names and contact details are enough, and the page should say so out loud: please do not include health details in this form. Our guide on [the form spam and fake leads problem](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form) explains how to keep even a simple form clean."
+        "text": "A waitlist form is not an intake. It should not ask why the person wants therapy, what symptoms they have or anything about their history. Names and contact details are enough, and the page should say so out loud: please do not include health details in this form. Our guide on [the form spam and fake leads problem](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form) explains how to keep even a simple form clean. Clients on a waitlist are the most likely to worry about silence during a closure, so use the dates and coverage wording in our guide on [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice)."
       },
       {
         "type": "p",
@@ -1178,7 +1178,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The person reading a waitlist page may be waiting at a hard moment. Put a short, visible block above or beside the form that says what to do in a crisis, and keep it consistent with the rest of your site. Our guide on [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains the wording. The 988 Suicide and Crisis Lifeline can be reached by call or text, and 911 is for emergencies."
+        "text": "The person reading a waitlist page may be waiting at a hard moment. Put a short, visible block above or beside the form that says what to do in a crisis, and keep it consistent with the rest of your site. Our guide on [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains the wording. The 988 Suicide and Crisis Lifeline can be reached by call or text, and 911 is for emergencies. While clients wait for an opening, a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) gives them reliable places to turn in the meantime."
       },
       {
         "type": "h3",
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -1351,7 +1351,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims)."
+        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims). Callers who are not a fit should leave with somewhere to go, which is why a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) is worth linking from this page."
       },
       {
         "type": "h2",
@@ -1833,7 +1833,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A refill request page explains how patients ask for a refill, how much notice the office needs, how to name their pharmacy and what happens next. It stays about process: no medication guidance, no dosing and no advice on missed doses. Point patients to the portal or phone, and to 911 for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -1894,7 +1894,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Spell out what happens on weekends and holidays and during hurricane closures. If the office closes, tell patients how to reach the on-call line and how the pharmacy can contact the practice. The [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) explains how to set that message up."
+        "text": "Spell out what happens on weekends and holidays and during hurricane closures. If the office closes, tell patients how to reach the on-call line and how the pharmacy can contact the practice. The [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) explains how to set that message up. Patients also ask which pharmacy the office uses, which a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) can answer without recommending anyone."
       },
       {
         "type": "h2",
@@ -2191,7 +2191,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A teen therapy page for parents explains who the practice sees, how consent works, how confidentiality is handled in plain terms, how parents are involved, scheduling and fees. It avoids clinical claims, outcomes and diagnostic lists. Have your attorney or licensing board confirm the consent and confidentiality wording before it goes live.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:40:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -2272,7 +2272,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A parent may arrive in the middle of a hard night. Put a short, visible notice on the page: for an emergency call 911, and for a mental health crisis call or text 988. Match it to the crisis section described in our guide to [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website)."
+        "text": "A parent may arrive in the middle of a hard night. Put a short, visible notice on the page: for an emergency call 911, and for a mental health crisis call or text 988. Match it to the crisis section described in our guide to [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). Practices that also see young adults can give college students their own page, as our guide on a [college student counseling page without clinical claims](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) explains, because an adult student's privacy rules differ from a teenager's."
       },
       {
         "type": "h2",
@@ -2355,7 +2355,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A results and messages page tells patients how test results reach them, that results may appear in the portal before a clinician has reviewed them, how long portal messages usually take to answer, and where to call if they are worried. It gives no interpretation of any result and always shows an emergency notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T14:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -2364,7 +2364,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Federal information blocking rules push practices to release results to patients promptly, which often means a result appears in the portal before the clinician has had time to review it. That is good for access, but it can be alarming. A patient who sees an unfamiliar number at nine at night and cannot reach anyone will search the web, and they may land on a page that explains nothing."
+        "text": "Federal information blocking rules push practices to release results to patients promptly, which often means a result appears in the portal before the clinician has had time to review it. That is good for access, but it can be alarming. A patient who sees an unfamiliar number at nine at night and cannot reach anyone will search the web, and they may land on a page that explains nothing. Link the results page to a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) so patients can find a draw site and see how results reach them."
       },
       {
         "type": "p",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-19",
     "readMinutes": 6,
     "sections": [
       {
@@ -2654,7 +2654,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number."
+        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it."
       },
       {
         "type": "p",

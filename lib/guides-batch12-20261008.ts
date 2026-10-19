@@ -1287,7 +1287,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "In your Business Profile, open the booking or appointment link setting, add the web address where patients can book, save it, and then test it on a phone. Link to a page that works without extra steps and does not collect health details. If you use a booking provider, Google may connect through it instead.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-19",
   "readMinutes": 6,
   "sections": [
     {
@@ -1341,7 +1341,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button."
+      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it."
     },
     {
       "type": "h2",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-19",
   "readMinutes": 7,
   "sections": [
     {
@@ -1451,7 +1451,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A practice's online presence is a set of accounts: the domain name, the website host, the Google Business Profile, Google Search Console and Google Analytics. When one of them is registered to a former employee's personal email, a web designer's account or an agency, the practice does not control its own listing or site. Fixing it later means chasing someone who may not reply. Ownership matters most during a sale or retirement, so use [the checklist for protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires)."
+      "text": "A practice's online presence is a set of accounts: the domain name, the website host, the Google Business Profile, Google Search Console and Google Analytics. When one of them is registered to a former employee's personal email, a web designer's account or an agency, the practice does not control its own listing or site. Fixing it later means chasing someone who may not reply. Ownership matters most during a sale or retirement, so use [the checklist for protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). The practice's email should live on the same domain it owns, as our guide on [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) explains."
     },
     {
       "type": "p",
@@ -1798,7 +1798,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Every page of a practice website should load over HTTPS, with a valid certificate that renews automatically and every http address redirected to https. A mixed-content warning means a secure page still loads an image, script or font over http, and the fix is changing those addresses to https.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-19",
   "readMinutes": 6,
   "sections": [
     {
@@ -1889,7 +1889,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "HTTPS problems often appear after moving a site. Follow the redirect and sitemap steps in our [website migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) and the [launch checklist](/guides/medical-website-launch-seo-checklist), and confirm Search Console shows the https version as your property."
+      "text": "HTTPS problems often appear after moving a site. Follow the redirect and sitemap steps in our [website migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) and the [launch checklist](/guides/medical-website-launch-seo-checklist), and confirm Search Console shows the https version as your property. A lapsed certificate is one of several preventable outages, covered in our checklist on [website backups, uptime monitoring and maintenance for a medical practice](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice)."
     },
     {
       "type": "callout",

@@ -204,7 +204,7 @@ export const guidesPartFive: Guide[] = [
       "Review gating — screening patients privately and only sending happy ones to a public review link — violates Google's review policies and the FTC's rule against suppressing negative reviews, and Google can suppress or remove reviews earned that way. The compliant alternative is simple: ask every patient the same way, at the same moment, and make leaving a review easy regardless of what they're likely to say.",
     author: "Gio LaRoche",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why Primara does not build review-gating systems" },
@@ -236,7 +236,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "What to do when a negative review actually arrives" },
       {
         type: "p",
-        text: "Respond promptly, acknowledge the specific concern without disclosing any patient health information, and offer to resolve it offline through your front desk or office manager. A calm, professional public response is itself marketing — it's often the deciding factor for a prospective patient reading through your reviews before calling. Reviews on physician directories follow the same rules, as our guide to [Healthgrades, Zocdoc and Vitals profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) explains.",
+        text: "Respond promptly, acknowledge the specific concern without disclosing any patient health information, and offer to resolve it offline through your front desk or office manager. A calm, professional public response is itself marketing — it's often the deciding factor for a prospective patient reading through your reviews before calling. Reviews on physician directories follow the same rules, as our guide to [Healthgrades, Zocdoc and Vitals profiles](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) explains. Once reviews come in, you can show them on your site with the care described in our guide to [showing Google reviews on a medical practice website: widgets, schema and rules](/guides/showing-google-reviews-on-a-medical-practice-website-widgets-schema-and-rules).",
       },
       {
         type: "callout",

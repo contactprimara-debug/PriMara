@@ -412,7 +412,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "An XML sitemap lists the pages you want Google to find, and robots.txt tells crawlers which areas not to crawl. Neither is a security tool. Your sitemap should list only live, indexable pages, and robots.txt must never block pages you want in search. To keep a page out of results, use a noindex tag instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-19",
     readMinutes: 6,
     sections: [
       {
@@ -447,7 +447,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Robots.txt controls crawling, not indexing. A page you block can still appear in search results if other sites link to it, shown without a description. To keep a page out of search, leave it crawlable and add a noindex directive, or protect it behind a login. Google's documentation says robots.txt is not a way to hide a page. That matters for a practice: never treat robots.txt as protection for anything private, and never place patient information on a public URL at all. A sitemap does not replace links between pages, so read our guide on [internal linking for a practice site](/guides/internal-linking-for-a-medical-practice-website) as well."
+        "text": "Robots.txt controls crawling, not indexing. A page you block can still appear in search results if other sites link to it, shown without a description. To keep a page out of search, leave it crawlable and add a noindex directive, or protect it behind a login. Google's documentation says robots.txt is not a way to hide a page. That matters for a practice: never treat robots.txt as protection for anything private, and never place patient information on a public URL at all. A sitemap does not replace links between pages, so read our guide on [internal linking for a practice site](/guides/internal-linking-for-a-medical-practice-website) as well. If a bad update ever takes the site down, the recovery steps in our guide to [website backups, uptime monitoring and maintenance for a medical practice](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice) include re-checking the sitemap and robots file."
       },
       {
         "type": "p",

@@ -40,6 +40,7 @@ import { guidesPartTwenty } from "@/lib/guides-batch17-20261013";
 import { guidesPartTwentyOne } from "@/lib/guides-batch18-20261014";
 import { guidesPartTwentyTwo } from "@/lib/guides-batch19-20261015";
 import { guidesPartTwentyThree } from "@/lib/guides-batch20-20261016";
+import { guidesPartTwentyFour } from "@/lib/guides-batch21-20261019";
 
 export type GuideSectionType = "h2" | "h3" | "p" | "ul" | "ol" | "table" | "callout";
 
@@ -120,6 +121,7 @@ export const guides: Guide[] = [
   ...guidesPartTwentyOne,
   ...guidesPartTwentyTwo,
   ...guidesPartTwentyThree,
+  ...guidesPartTwentyFour,
 ];
 
 export function getGuide(slug: string): Guide | undefined {

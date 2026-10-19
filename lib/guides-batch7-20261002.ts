@@ -235,7 +235,7 @@ export const guidesPartTen: Guide[] = [
       "A backlink is another website linking to yours, and Google still treats earned, relevant links as a meaningful trust signal. The risk isn't backlinks themselves — it's acquiring them through paid link schemes, link farms, or bulk directory submissions, which Google's spam policies explicitly target and can demote or remove a site over.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What a backlink is doing for you" },
@@ -260,7 +260,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What a safe link-earning plan looks like for a practice" },
       {
         type: "p",
-        text: "For an independent medical practice, the realistic, durable sources are narrower than a generic SEO pitch suggests, and that's fine — quality matters more than volume here. Hospital or health-system affiliate directories you're actually credentialed with. Local chamber of commerce and business association listings. Professional association member directories (your specialty board, a state medical society). Local press coverage of something genuinely newsworthy — a new provider, a community health event, an award. Patient-facing partnerships, like a sponsorship or community program, where the partner site links back naturally. None of these require paying for a link; they require being a real, locally engaged practice and asking the organizations you're already connected to for the listing you're entitled to.",
+        text: "For an independent medical practice, the realistic, durable sources are narrower than a generic SEO pitch suggests, and that's fine — quality matters more than volume here. Hospital or health-system affiliate directories you're actually credentialed with. Local chamber of commerce and business association listings. Professional association member directories (your specialty board, a state medical society). Local press coverage of something genuinely newsworthy — a new provider, a community health event, an award. Patient-facing partnerships, like a sponsorship or community program, where the partner site links back naturally. None of these require paying for a link; they require being a real, locally engaged practice and asking the organizations you're already connected to for the listing you're entitled to. A real sponsorship of a local event is one of the safe ways to earn a link, as described in our guide to [local sponsorships and community events for a medical practice](/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn).",
       },
       { type: "h2", text: "If you already have risky links pointing at your site" },
       {
@@ -556,7 +556,7 @@ export const guidesPartTen: Guide[] = [
       "A press release helps a medical practice's SEO mainly by earning genuine local press pickup and brand-name mentions, not by stuffing keyword-rich links into the release text itself — Google explicitly flags mass-distributed press releases with exact-match anchor links as a link spam pattern, so the release has to be newsworthy on its own merits.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-19",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What a press release can and can't do for SEO" },
@@ -578,7 +578,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Writing it so a journalist will actually use it" },
       {
         type: "p",
-        text: "Lead with the news, not the practice's self-description — a journalist scanning dozens of releases a day needs the actual story in the first sentence, not a paragraph of boilerplate about your mission. Keep it to one page, write it in third person, and include one short, real quote from the provider involved — generic marketing language reads as exactly what it is and gets skipped. Close with accurate, basic contact information for media inquiries, not a sales pitch. Independent mentions like these are also what help Google recognize an entity, as covered in [Knowledge Panels for a medical practice](/guides/google-knowledge-panel-for-a-medical-practice).",
+        text: "Lead with the news, not the practice's self-description — a journalist scanning dozens of releases a day needs the actual story in the first sentence, not a paragraph of boilerplate about your mission. Keep it to one page, write it in third person, and include one short, real quote from the provider involved — generic marketing language reads as exactly what it is and gets skipped. Close with accurate, basic contact information for media inquiries, not a sales pitch. Independent mentions like these are also what help Google recognize an entity, as covered in [Knowledge Panels for a medical practice](/guides/google-knowledge-panel-for-a-medical-practice). A community sponsorship gives the practice something genuine to announce, as shown in our guide on [local sponsorships and community events and the links they earn](/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn).",
       },
       { type: "h2", text: "The link mistake to avoid" },
       {
@@ -861,7 +861,7 @@ export const guidesPartTen: Guide[] = [
       "A Google review is left independently by a patient on a third-party platform and is governed mainly by Google's own review policies against gating or incentivizing it. A testimonial you select and publish on your own site or ads is your marketing speech, which makes it subject to FTC endorsement rules and, if it names a condition, HIPAA authorization requirements.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-19",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two different things that get talked about as one" },
@@ -872,7 +872,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What governs Google reviews" },
       {
         type: "p",
-        text: "Google's own policies prohibit review gating — asking only satisfied patients for reviews while filtering out others, or offering any incentive (discount, gift, free service) in exchange for leaving a review. These are Google platform policy violations that can result in review removal or profile penalties, separate from any FTC concern. The practical rule: ask every patient the same way, with no conditions attached, and let the reviews land where they land. Within those rules, the practical question is [how many Google reviews a practice actually needs](/blog/how-many-google-reviews-does-a-medical-practice-need)." ,
+        text: "Google's own policies prohibit review gating — asking only satisfied patients for reviews while filtering out others, or offering any incentive (discount, gift, free service) in exchange for leaving a review. These are Google platform policy violations that can result in review removal or profile penalties, separate from any FTC concern. The practical rule: ask every patient the same way, with no conditions attached, and let the reviews land where they land. Within those rules, the practical question is [how many Google reviews a practice actually needs](/blog/how-many-google-reviews-does-a-medical-practice-need). If you want to display Google reviews on your own site, follow our guide on [showing Google reviews on a medical practice website](/guides/showing-google-reviews-on-a-medical-practice-website-widgets-schema-and-rules) so the display respects both review rules and privacy." ,
       },
       { type: "h2", text: "What governs a published testimonial" },
       {

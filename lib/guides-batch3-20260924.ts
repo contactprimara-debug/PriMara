@@ -106,13 +106,13 @@ export const guidesPartSix: Guide[] = [
       "A doctor bio page that ranks leads with the provider's full name, exact credentials, and specialty in the first sentence, lists real education and board certifications a patient can verify, names the conditions or procedures they actually treat using the terms patients search for, and includes a real photo and direct way to book — never invented awards or exaggerated claims.",
     author: "Liam Costello",
     publishDate: "2026-09-24T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-19",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "Why most bio pages rank poorly" },
       {
         type: "p",
-        text: "Most physician bio pages read like a résumé written in the third person: a list of degrees, a stock photo, maybe a paragraph about \"compassionate care.\" That tells Google very little about what the provider actually does, and it tells a patient almost nothing useful for deciding whether to book. A bio page ranks and converts when it answers the two questions a patient actually has: is this the right kind of doctor for my problem, and can I trust their credentials. When a provider leaves, the page needs a plan, which we cover in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). A short introduction video can help a nervous new patient, provided it has captions and a transcript, as described in our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema).",
+        text: "Most physician bio pages read like a résumé written in the third person: a list of degrees, a stock photo, maybe a paragraph about \"compassionate care.\" That tells Google very little about what the provider actually does, and it tells a patient almost nothing useful for deciding whether to book. A bio page ranks and converts when it answers the two questions a patient actually has: is this the right kind of doctor for my problem, and can I trust their credentials. When a provider leaves, the page needs a plan, which we cover in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). A short introduction video can help a nervous new patient, provided it has captions and a transcript, as described in our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema). A good bio needs a good photo beside it, and our guide to [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) explains how to shoot, size and describe it.",
       },
       { type: "h2", text: "The structure that works" },
       {
