@@ -18,7 +18,7 @@ export const guidesPartTwo: Guide[] = [
       "To get more patients from a Google Business Profile, claim and verify it, set the most specific primary category, fill every applicable secondary category, add your services and hours, collect reviews steadily from every patient, post and add photos monthly, and track calls. Categories and review velocity move ranking more than anything else on the profile.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-20",
     readMinutes: 8,
     howTo: {
       name: "How to get more patients from a Google Business Profile",
@@ -72,7 +72,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Most practices set one category and stop. That leaves nine slots empty, and each slot is a set of searches you are choosing not to appear for. A fully configured primary care profile might carry Family Medicine Physician, Internist, General Practitioner, Medical Clinic, Doctor, Walk-in Clinic where applicable, and Physician. A mental health practice might carry Mental Health Clinic, Psychotherapist, Psychiatrist where a licensed one practices, and Counselor where applicable. To see where a profile fits beside organic search and paid ads, read [local pack vs organic results vs Google Ads for a practice](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice). If your category qualifies, paid placements such as [Local Services Ads for medical practices](/guides/local-services-ads-for-a-medical-practice-eligibility-and-what-to-expect) can sit alongside a strong profile, but they do not replace it.",
+        text: "Most practices set one category and stop. That leaves nine slots empty, and each slot is a set of searches you are choosing not to appear for. A fully configured primary care profile might carry Family Medicine Physician, Internist, General Practitioner, Medical Clinic, Doctor, Walk-in Clinic where applicable, and Physician. A mental health practice might carry Mental Health Clinic, Psychotherapist, Psychiatrist where a licensed one practices, and Counselor where applicable. To see where a profile fits beside organic search and paid ads, read [local pack vs organic results vs Google Ads for a practice](/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice). If your category qualifies, paid placements such as [Local Services Ads for medical practices](/guides/local-services-ads-for-a-medical-practice-eligibility-and-what-to-expect) can sit alongside a strong profile, but they do not replace it. The most common profile problems we find on Florida listings, such as a wrong primary category or a duplicate listing, are listed on our [Florida Google Business Profile optimization page](/locations/gbp-optimization-florida).",
       },
       {
         type: "callout",

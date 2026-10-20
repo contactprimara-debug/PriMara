@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/medical-seo-florida`;
 
 export const metadata: Metadata = {
   title: "Medical SEO for Florida Practices | Primara",
   description:
-    "Florida medical SEO from a Florida-based agency. Local SEO, Google Business Profile, and content strategy for independent practices from Miami to Jacksonville. Call (561) 291-2681.",
+    "Medical SEO for independent Florida practices: Google Business Profile, local rankings and content, from Miami to Jacksonville. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
@@ -68,6 +69,8 @@ const faqs = [
     q: "What does Florida medical SEO cost?",
     a: "It depends on scope — market competitiveness, number of locations, and the state of your current website. Every engagement starts with a free audit of your existing Google presence, and everything is month-to-month after the initial setup period. No long-term contracts.",
   },
+  { q: "How soon does work start after we sign?", a: "The audit and baseline come first, usually within the first couple of weeks. Changes to the Business Profile and the site follow in the order described above, and you can see each change in the monthly report." },
+  { q: "Do you replace our website or work with what we have?", a: "We work with what you have wherever it is sound. If the site's structure is the problem, we say so in the audit and give you the choice, rather than rebuilding it by default." },
 ];
 
 const faqSchema = {
@@ -216,6 +219,12 @@ export default function MedicalSeoFloridaPage() {
           </p>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="How An Engagement Runs"
+        heading="The order we work in, from the first audit to the monthly report."
+        blocks={[{"type": "p", "text": "Florida practices often ask what actually happens after they say yes. The order matters more than the length of the task list, because each step makes the next one cheaper. We start with measurement, then fix what is broken, then build what is missing, and only then report on movement."}, {"type": "h3", "text": "Step one: a baseline you can check"}, {"type": "p", "text": "Before any change, we record where the practice stands today: the Google Business Profile as Google shows it, a crawl of the website for broken links, missing titles and duplicate pages, and a ranking scan for the searches patients really use in your service area. That record is the yardstick for every month that follows, so no later claim depends on our memory."}, {"type": "h3", "text": "Step two: fix the foundations first"}, {"type": "p", "text": "Most independent practices have a few problems that hold everything else back: a primary category that does not match the practice, a phone number that differs between the site and the listing, a page that loads slowly on a phone, or tracking that does not record calls. We fix these before writing a single new page, because new content built on a shaky base is wasted."}, {"type": "h3", "text": "Step three: build for the searches that exist"}, {"type": "p", "text": "Primary care patients tend to search by insurance, same-week appointments and the service they need. Therapy clients tend to search by approach, availability and whether video visits are offered. We build pages that answer those questions in the first lines, using only facts your front desk confirms, and we avoid clinical claims entirely."}, {"type": "p", "text": "Each month you receive the ranking changes, the Search Console numbers, the calls and form requests the site produced, and a plain list of what we did. If a month brings no movement, the report says so."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

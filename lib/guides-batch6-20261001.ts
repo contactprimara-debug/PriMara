@@ -277,7 +277,7 @@ export const guidesPartNine: Guide[] = [
       "Most medical practices see Google Business Profile changes reflect within days to a few weeks, early call and website-visit lift within 60-90 days, and meaningful Google Maps and organic ranking movement at 4-6 months. A practice with a thin or inconsistent online presence to start usually takes longer than one that already has reviews and a working website.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why this question doesn't have a single number" },
@@ -331,7 +331,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What to do if nothing has moved by month four" },
       {
         type: "p",
-        text: "If GBP insights and Search Console impressions are both flat at the 90-day mark, the problem usually isn't patience — it's that one of the inputs above was never actually fixed. The three most common culprits we find on a stalled account: the technical health of the site is bad enough that Google can't crawl new or updated pages properly, the practice has fewer than 10-15 Google reviews so there's no local-ranking signal to work with yet, or the work itself was inconsistent (a strong first month, then nothing for the following two). Before extending the timeline further, re-run a basic audit of those three things rather than assuming more time alone will fix it. Track progress month to month in Search Console, using [this guide to reading its reports](/guides/how-to-read-google-search-console-for-a-medical-practice-website).",
+        text: "If GBP insights and Search Console impressions are both flat at the 90-day mark, the problem usually isn't patience — it's that one of the inputs above was never actually fixed. The three most common culprits we find on a stalled account: the technical health of the site is bad enough that Google can't crawl new or updated pages properly, the practice has fewer than 10-15 Google reviews so there's no local-ranking signal to work with yet, or the work itself was inconsistent (a strong first month, then nothing for the following two). Before extending the timeline further, re-run a basic audit of those three things rather than assuming more time alone will fix it. Track progress month to month in Search Console, using [this guide to reading its reports](/guides/how-to-read-google-search-console-for-a-medical-practice-website). Timelines also depend on what the audit finds first, and the order of work on our [Florida medical SEO page](/locations/medical-seo-florida) shows why foundations are fixed before new pages are built.",
       },
       {
         type: "p",
@@ -1087,7 +1087,7 @@ export const guidesPartNine: Guide[] = [
       "Keyword research for a medical practice means listing every service you offer, crossing each one against every city or neighborhood you actually serve, and checking real search volume and competition for each combination with a tool like Google Keyword Planner — then prioritizing phrases with clear booking intent (\"therapist in Lakeland\") over purely informational ones (\"what is therapy\").",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Start with the service × city grid, not a brainstorm" },
@@ -1113,7 +1113,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "A common mistake is chasing the highest-volume keyword regardless of intent. \"Doctor\" alone might show enormous volume, but it's so broad it converts almost nobody — you're competing with hospital systems, WebMD, and every practice in the country for a searcher who hasn't even decided what kind of doctor they need yet. A lower-volume, specific phrase with clear booking intent is worth more than a high-volume vague one. If your patients search in Spanish, our guide on [bilingual Spanish and English SEO](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how to set up pages for those searches.",
+        text: "A common mistake is chasing the highest-volume keyword regardless of intent. \"Doctor\" alone might show enormous volume, but it's so broad it converts almost nobody — you're competing with hospital systems, WebMD, and every practice in the country for a searcher who hasn't even decided what kind of doctor they need yet. A lower-volume, specific phrase with clear booking intent is worth more than a high-volume vague one. If your patients search in Spanish, our guide on [bilingual Spanish and English SEO](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) explains how to set up pages for those searches. Once the list of searches is settled, the next question is who builds and tracks the pages, which our [medical SEO service for Florida practices](/locations/medical-seo-florida) lays out month by month.",
       },
       { type: "h2", text: "Where to find phrases a tool alone won't surface" },
       {

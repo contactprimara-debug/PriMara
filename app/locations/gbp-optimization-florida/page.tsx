@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/gbp-optimization-florida`;
 
 export const metadata: Metadata = {
   title: "Google Business Profile Optimization in Florida | Primara",
   description:
-    "GBP optimization for Florida medical practices — categories, services, posts, reviews, and Maps rankings, managed by a Florida-based agency. Call (561) 291-2681.",
+    "Google Business Profile optimization for Florida medical practices: categories, services, reviews and Maps rank tracking. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
@@ -71,6 +72,8 @@ const faqs = [
     q: "Do you handle review responses for medical practices?",
     a: "Yes — with the compliance rules medicine requires. Responses never confirm someone is a patient and never reference clinical details, which keeps them consistent with HIPAA obligations. Review generation itself stays policy-compliant too: we ask every patient the same way, with no pre-screening or gating.",
   },
+  { q: "How long do Business Profile changes take to show?", a: "Many edits appear within a few days, though Google sometimes reviews changes first. Ranking movement in the Maps pack builds over weeks, which is why we track it monthly instead of daily." },
+  { q: "Do we need to give you access to our Google account?", a: "No. The cleanest setup is for you to add us as a manager on the profile, so you stay the owner and can remove access at any time." },
 ];
 
 const faqSchema = {
@@ -213,6 +216,12 @@ export default function GbpOptimizationFloridaPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="What Gets Fixed"
+        heading="The profile problems we find most often on Florida practice listings."
+        blocks={[{"type": "p", "text": "A Business Profile audit rarely finds one dramatic failure. It finds a handful of small ones that add up. Knowing which ones to look for is most of the work, and they are the same ones whether the practice is in Miami, Orlando or Jacksonville."}, {"type": "h3", "text": "The usual suspects"}, {"type": "ul", "items": ["A primary category chosen years ago that no longer describes the practice, such as a generic doctor category on a family medicine office.", "Hours that differ from the website, especially around holidays and hurricane-season closures.", "A services list that is empty, or filled with marketing phrases instead of the real services the office provides.", "Photos that are out of date, show a former location or are missing entirely.", "Questions in the Q and A section that nobody has answered, and reviews with no reply.", "A second listing for the same address, created by a former landlord, billing company or earlier owner."]}, {"type": "h3", "text": "Why we change categories carefully"}, {"type": "p", "text": "Categories are the strongest signal on the profile, and also the easiest way to put a listing at risk. Adding many secondary categories to chase more searches can look like manipulation and can contribute to suspensions. We choose the primary category for what the practice mostly does, add only categories that are true, and record the change so it can be reversed."}, {"type": "h3", "text": "What we do not do"}, {"type": "p", "text": "We do not buy reviews, we do not filter who is asked, and we do not post stock photos of patients. Posts always carry a real picture. Replies to reviews never confirm that someone is a patient. These rules protect your listing, and they also protect your patients' privacy."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

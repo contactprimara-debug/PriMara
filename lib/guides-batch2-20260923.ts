@@ -291,13 +291,13 @@ export const guidesPartFive: Guide[] = [
       "Your Google Business Profile primary category should match the single service patients most associate with you — \"Family practice physician\" for a general practice, \"Dermatologist\" for a dermatology office — because it carries the most weight in Google's ranking for that term. Secondary categories (up to nine more) should cover other real services you offer, never terms you're hoping to rank for but don't actually provide.",
     author: "Liam Costello",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-09-23",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "Why category choice matters more than most practices realize" },
       {
         type: "p",
-        text: "Google's local ranking algorithm weighs your primary category heavily when matching a search to nearby businesses — it's one of the strongest signals in the whole profile. A dermatology practice categorized as a generic \"Medical clinic\" is competing against every kind of clinic for map pack placement instead of specifically against other dermatologists, and it shows up less often for \"dermatologist near me\" as a result. Categories work together with the profile type, and our guide to [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) explains that choice. A family medicine practice has more category and service choices than most, so see our page on [marketing for family medicine practices](/specialties/family-medicine) for how we set them up.",
+        text: "Google's local ranking algorithm weighs your primary category heavily when matching a search to nearby businesses — it's one of the strongest signals in the whole profile. A dermatology practice categorized as a generic \"Medical clinic\" is competing against every kind of clinic for map pack placement instead of specifically against other dermatologists, and it shows up less often for \"dermatologist near me\" as a result. Categories work together with the profile type, and our guide to [service-area versus storefront profiles](/guides/service-area-vs-storefront-google-business-profile-for-a-medical-practice) explains that choice. A family medicine practice has more category and service choices than most, so see our page on [marketing for family medicine practices](/specialties/family-medicine) for how we set them up. We change categories carefully because they are the strongest signal and the easiest way to put a listing at risk, as described on our page about [Google Business Profile optimization in Florida](/locations/gbp-optimization-florida).",
       },
       { type: "h2", text: "How to pick your primary category" },
       {

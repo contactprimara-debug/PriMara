@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/medical-seo-west-palm-beach`;
 
 export const metadata: Metadata = {
   title: "Medical SEO in West Palm Beach, FL | Primara",
   description:
-    "Medical SEO for independent practices in West Palm Beach — Google Business Profile, local rankings, on-page and technical SEO from an agency based right here in West Palm Beach. Call (561) 291-2681.",
+    "Medical SEO for West Palm Beach practices from an agency based in town: Google Business Profile, local rankings and site fixes. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
@@ -70,6 +71,8 @@ const faqs = [
     a: "We only work with independent medical practices — primary care and mental health — and we don't take hospital systems or chains. You work directly with the two founders, not an account manager, and there are no long-term contracts.",
   },
   { q: "How long until a West Palm Beach practice sees SEO results?", a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible. We're happy to go deeper on this for your specific market during a free audit." },
+  { q: "Can we meet in person?", a: "Yes. Because we are based in West Palm Beach, an in-person meeting is possible if you prefer it, and the audit call can also be done by phone or video." },
+  { q: "Do you only work with practices in West Palm Beach?", a: "No. We serve independent practices across Florida and beyond, but this page covers the work as it applies to this market." },
 ];
 
 const faqSchema = {
@@ -213,6 +216,12 @@ export default function MedicalSeoWestPalmBeachPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Working From Here"
+        heading="What it means that the agency and the practice are in the same market."
+        blocks={[{"type": "p", "text": "Most agencies that sell medical SEO in West Palm Beach manage it from somewhere else. We are here, and the difference shows up in small ways that rarely appear in a proposal."}, {"type": "h3", "text": "Local facts we can check ourselves"}, {"type": "p", "text": "We can drive past the office, look at the signage and the parking, and confirm that the map pin sits on the right building. We know which parts of the county people mean when they search for a doctor near the coast and which parts they mean inland, and we can build pages that name the neighborhoods your patients actually come from, not the whole county."}, {"type": "h3", "text": "Seasonal patterns"}, {"type": "p", "text": "Palm Beach County has seasonal residents and a hurricane season. Both affect search and both affect the listing. Hours and closures need to be accurate when a storm closes the office, and a practice that serves winter residents may want its page on accepting new patients to be current before the season starts. We plan these dates into the calendar, not after the fact."}, {"type": "h3", "text": "What stays the same everywhere"}, {"type": "p", "text": "The work itself is the same as for any practice we serve: a complete profile, a technically healthy site, pages that match real searches, and monthly reporting that shows what moved. What a local base adds is speed on the things that need a person to check something in the real world."}, {"type": "p", "text": "We work with primary care and mental health practices only, and we do not take hospital systems or chains. That focus is why the advice here is specific to the way those practices are found."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

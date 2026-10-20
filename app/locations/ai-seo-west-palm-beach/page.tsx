@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/ai-seo-west-palm-beach`;
 
 export const metadata: Metadata = {
   title: "AI SEO in West Palm Beach, FL | Primara",
   description:
-    "AI SEO (GEO) for independent medical practices in West Palm Beach — structured data, AI crawler access, and content built to be cited by ChatGPT and AI Overviews. Call (561) 291-2681.",
+    "AI SEO for West Palm Beach medical practices: consistent listings and clear pages so AI assistants find correct local facts. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
@@ -76,6 +77,8 @@ const faqs = [
     q: "Is this separate from local SEO and Google Business Profile work?",
     a: "It shares most of the same foundation. For most clients it is part of the SEO or Visibility package rather than a separate fee, and we say so plainly if your situation needs extra scope.",
   },
+  { q: "Which assistants do you check?", a: "We check the main ones patients are likely to use, including ChatGPT, Perplexity and Google's AI Overviews, and the log records which one gave which answer." },
+  { q: "Will the answers be the same every time?", a: "No. Assistants can answer differently from one day to the next, which is why we record the answers monthly and look for patterns instead of reacting to a single response." },
 ];
 
 const faqSchema = {
@@ -212,6 +215,12 @@ export default function AiSeoWestPalmBeachPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="A Worked Example"
+        heading="What a monthly check in the assistants actually looks like."
+        blocks={[{"type": "p", "text": "The phrase AI SEO covers a lot of ground, so here is the routine part in plain terms. Once a month we ask the major assistants a short list of questions a local patient might ask, and we record the answers exactly as given."}, {"type": "h3", "text": "The questions we ask"}, {"type": "ul", "items": ["Who are some primary care doctors or therapists in West Palm Beach who accept my insurance?", "What are the hours and phone number for your practice?", "Does the practice offer video visits or evening appointments?", "Is the practice accepting new patients?"]}, {"type": "h3", "text": "What we look for in the answers"}, {"type": "p", "text": "We check whether the practice is named at all, whether the address and phone number are correct, and whether the answer repeats something that is out of date, such as a former suite number or an old phone line. Each wrong detail is traced back to where the assistant probably found it: a directory listing, an old page, a profile nobody updated."}, {"type": "h3", "text": "What happens next"}, {"type": "p", "text": "We fix the source, not the assistant. That might mean correcting a directory entry, updating a page, or removing a duplicate listing. Then we ask again the next month and log whether the answer changed. Some months nothing changes, and the log says so."}, {"type": "p", "text": "We cannot see inside these products and we do not promise to be named. What we can promise is that the facts they find about your practice are correct, consistent and easy to read."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

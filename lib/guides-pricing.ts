@@ -19,7 +19,7 @@ export const guidesPartOne: Guide[] = [
       "Medical SEO in Florida usually costs between one thousand five hundred and six thousand dollars a month on retainer, or eight thousand to twenty-five thousand dollars for a one-time project. What moves the number is competition in your city, how many locations you have, and whether the work includes content and review generation or only the Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       {
@@ -100,7 +100,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Work the math backwards from one patient. Take your average new-patient value over the first twelve months, multiply by your close rate on inbound calls, and ask how many additional new patients per month the engagement has to produce to pay for itself. For most primary care and mental health practices in Florida the answer is between one and three. If an agency cannot tell you what number they are aiming at, that is the problem, not the price.",
+        text: "Work the math backwards from one patient. Take your average new-patient value over the first twelve months, multiply by your close rate on inbound calls, and ask how many additional new patients per month the engagement has to produce to pay for itself. For most primary care and mental health practices in Florida the answer is between one and three. If an agency cannot tell you what number they are aiming at, that is the problem, not the price. Statewide pricing varies with the number of locations and how competitive the market is, and our page on [medical SEO for Florida practices](/locations/medical-seo-florida) explains how an engagement is sequenced and what each month includes.",
       },
       {
         type: "callout",
