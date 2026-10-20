@@ -61,14 +61,14 @@ const serviceSchema = {
 };
 
 const faqs = [
-  { q: "Do you actually work with practices in West Palm Beach?", a: "Yes — Primara is based in West Palm Beach. We work with independent practices nationwide, but this is our home market: we know the local hospital-system competition, the neighborhoods patients search from, and what it takes to rank here. This is one of the items we walk through personally with every new practice." },
+  { q: "Do you actually work with practices in West Palm Beach?", a: "Yes. Our office is in West Palm Beach, so this is the market we know first-hand. We know which systems your practice competes against and how patients describe where they live. We go through those details with each new practice by name." },
   {
     q: "What does medical SEO include for a West Palm Beach practice?",
-    a: "The same full stack we run everywhere: complete Google Business Profile configuration, local rank tracking across your real service area, on-page optimization (titles, headings, schema markup, internal linking), technical SEO fixes, and content built around the searches West Palm Beach patients actually make.",
+    a: "Four things: a fully built Google Business Profile, a technical and on-page clean-up of the website, new pages written around real local searches, and a monthly report with rankings, Search Console numbers and calls. The scope is written down before work starts.",
   },
   {
     q: "How is this different from hiring a national SEO agency?",
-    a: "We only work with independent medical practices — primary care and mental health — and we don't take hospital systems or chains. You work directly with the two founders, not an account manager, and there are no long-term contracts.",
+    a: "We take only independent primary care and mental health practices, never hospital systems or chains, and the two founders handle the work themselves. There is no account manager in between, and the agreement runs month to month.",
   },
   { q: "How long until a West Palm Beach practice sees SEO results?", a: "Local visibility (Google Maps and Business Profile) usually moves within 60–90 days. Competitive organic keywords take longer — typically 4–6 months. We show progress monthly through rank grids and Google Search Console, so movement is always visible. We're happy to go deeper on this for your specific market during a free audit." },
   { q: "Can we meet in person?", a: "Yes. Because we are based in West Palm Beach, an in-person meeting is possible if you prefer it, and the audit call can also be done by phone or video." },
@@ -88,15 +88,15 @@ const faqSchema = {
 const deliverables = [
   {
     title: "Google Business Profile, Fully Built",
-    body: "For a West Palm Beach practice, the Maps pack is the front door. We configure categories, services, attributes, and a posting cadence so your listing competes with the hospital-system clinics that dominate local results by default.",
+    body: "Searchers near the coast see the Maps pack before anything else, so the listing has to be complete: the right primary category, a real services list, accurate hours and a steady stream of genuine photos and posts. We set that up and keep it current, so the practice stands next to the clinic chains instead of below them.",
   },
   {
     title: "On-Page & Technical SEO",
-    body: "Title tags, headings, schema markup, internal linking, Core Web Vitals, and mobile performance — every page of your site audited and optimized so Google can find, understand, and rank it.",
+    body: "We crawl the whole site and fix what gets in the way: unclear titles, missing headings, broken links, slow mobile pages and absent structured data. The goal is simple. Every page should be easy for a search engine to read and fast for a patient on a phone.",
   },
   {
     title: "Local Content That Matches Patient Searches",
-    body: "Patients in West Palm Beach search by condition, insurance, and neighborhood — not by your practice name. We build service and location pages that meet those searches, grounded in what your practice actually offers.",
+    body: "People here look for a doctor by insurance, by the service they need and by the part of the county they live in, almost never by the practice name. We write pages for those searches, using only what your front desk confirms, with no clinical promises.",
   },
   {
     title: "Transparent Monthly Reporting",
@@ -179,17 +179,20 @@ export default function MedicalSeoWestPalmBeachPage() {
               West Palm Beach patients pick whoever Google shows them first.
             </h2>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
-              When someone in West Palm Beach searches &ldquo;primary care doctor near me&rdquo; or
-              &ldquo;therapist accepting new patients,&rdquo; Google decides in real time which
-              practices appear — based on the strength of the Google Business Profile, the
-              relevance of the website, and the consistency of the practice&rsquo;s information
-              online. Independent practices lose that contest by default, because the large
-              systems in this market run dedicated marketing teams on it daily.
+              A person typing &ldquo;primary care doctor near me&rdquo; or &ldquo;therapist
+              accepting new patients&rdquo; in West Palm Beach rarely scrolls past the first few
+              results. Which practices fill those spots comes down to three things Google can
+              measure: how complete and active the Business Profile is, how well the website
+              answers the question, and whether the practice&rsquo;s name, address and phone read
+              the same everywhere online. The hospital systems here employ people whose daily
+              job is that work, which is why a small practice that does it badly simply
+              disappears.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              That gap is fixable. We do this work from West Palm Beach, for independent primary
-              care and mental health practices — the same disciplined SEO
-              process we run for practices nationwide, applied to the market we know best.
+              The gap closes with steady, unglamorous work, and that is what we do from an office
+              in town. Our clients are independent primary care and mental health practices, and
+              the method is the one we use everywhere, adjusted for the neighborhoods and seasons
+              of this county.
             </p>
           </div>
         </div>
