@@ -47,7 +47,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "An after-visit follow-up email from a primary care practice should say thank you, point to the secure portal for anything personal, give the front desk phone number, and ask for nothing sensitive in reply. Leave out the reason for the visit, test names and anything a stranger could learn by reading over a shoulder.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("What the follow-up email is for"),
@@ -77,7 +77,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h3("Sample wording to adapt"),
       p(
-        "Thank you for visiting us today. If you have a question about your visit, please sign in to the patient portal or call the front desk at the number below during office hours. If this is an emergency, call 911. We would be grateful if you would consider sharing your experience of our office on Google, and there is a link below. We cannot discuss personal health details by email. A practice can describe regular check-in visits safely by following [a follow-up visits page for ongoing care that avoids clinical claims](/guides/chronic-condition-follow-up-visits-page-for-a-primary-care-practice-without-clinical-claims), which keeps the focus on process instead of outcomes. Every follow-up message should also say where to go if something feels urgent, using the plain rule in our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice)."
+        "Thank you for visiting us today. If you have a question about your visit, please sign in to the patient portal or call the front desk at the number below during office hours. If this is an emergency, call 911. We would be grateful if you would consider sharing your experience of our office on Google, and there is a link below. We cannot discuss personal health details by email. A practice can describe regular check-in visits safely by following [a follow-up visits page for ongoing care that avoids clinical claims](/guides/chronic-condition-follow-up-visits-page-for-a-primary-care-practice-without-clinical-claims), which keeps the focus on process instead of outcomes. Every follow-up message should also say where to go if something feels urgent, using the plain rule in our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice). Patients who opt in to follow-up messages may also want practice news, which a [patient newsletter without health details](/guides/patient-newsletter-for-a-medical-practice-without-health-details) can provide on a schedule you control."
       ),
       h2("Where each part belongs"),
       table(
@@ -147,7 +147,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
@@ -166,7 +166,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Printed card", "A handout at the desk that repeats the same details for the next visit."]
       ),
       p(
-        "Texting carries extra duties. You need the patient's permission to send marketing or reminder texts, a message that identifies the practice, and a plain way to stop receiving them. Our guide on [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice) covers the consent wording in detail. Once the welcome message sets contact preferences, the reminders that follow should be just as careful, as our guide on [appointment reminder text and email wording without health details](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows."
+        "Texting carries extra duties. You need the patient's permission to send marketing or reminder texts, a message that identifies the practice, and a plain way to stop receiving them. Our guide on [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice) covers the consent wording in detail. Once the welcome message sets contact preferences, the reminders that follow should be just as careful, as our guide on [appointment reminder text and email wording without health details](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows. The welcome message is a good moment to ask whether a patient would like the practice's monthly update, using the opt-in rules in our guide to a [patient newsletter without health details](/guides/patient-newsletter-for-a-medical-practice-without-health-details)."
       ),
       h2("What the email should contain"),
       ul(
@@ -243,12 +243,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "A late-arrival and missed-appointment page should state how many minutes late a patient can arrive, what happens after that, how to reschedule, and whether any fee applies. Publish only rules the office actually follows, write them in plain words, and keep the same wording on the website and in the Google profile.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Why primary care needs its own version of this page"),
       p(
-        "Primary care schedules run in short, back-to-back slots. One patient who arrives twenty minutes late can push every visit behind them, and the patients waiting in the room are the ones who feel it. A written policy turns that problem from an argument at the desk into a rule people knew in advance. To capture people who are switching practices, publish a page like the one described in [a page that explains how to transfer care from another doctor](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice) and link it from the new-patient pages. Patients with ongoing needs look for how follow-up visits work, and [a follow-up visits page for ongoing care that avoids clinical claims](/guides/chronic-condition-follow-up-visits-page-for-a-primary-care-practice-without-clinical-claims) shows how to explain it without medical claims."
+        "Primary care schedules run in short, back-to-back slots. One patient who arrives twenty minutes late can push every visit behind them, and the patients waiting in the room are the ones who feel it. A written policy turns that problem from an argument at the desk into a rule people knew in advance. To capture people who are switching practices, publish a page like the one described in [a page that explains how to transfer care from another doctor](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice) and link it from the new-patient pages. Patients with ongoing needs look for how follow-up visits work, and [a follow-up visits page for ongoing care that avoids clinical claims](/guides/chronic-condition-follow-up-visits-page-for-a-primary-care-practice-without-clinical-claims) shows how to explain it without medical claims. Every cancelled visit leaves a gap, and a written [cancellation list and same-day openings policy](/guides/cancellation-list-and-same-day-openings-for-a-primary-care-practice) lets the office offer that slot to a waiting patient fairly."
       ),
       p(
         "This is different from a counseling cancellation page. A therapy hour is a protected block with one person in it. A primary care day mixes new visits, follow-ups and same-day requests, so the policy has to explain what happens to a late patient in terms of the schedule, not just a fee."
@@ -338,12 +338,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "A note-request page should say who can ask for a school, work or camp note, how to ask through the portal or phone, how long the office needs, and what the note will and will not contain. Never collect health details on the page itself, and explain that sending a note to a third party may need the patient's written permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T10:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Notes are small requests that fill a front desk"),
       p(
-        "Every school year, and again before summer camps and new jobs, a primary care office fields the same set of calls. Can I get a note for the days I missed? Can you fill in this camp form? Does my employer need something signed? Each one is simple, and together they eat hours that could go to scheduling real visits."
+        "Every school year, and again before summer camps and new jobs, a primary care office fields the same set of calls. Can I get a note for the days I missed? Can you fill in this camp form? Does my employer need something signed? Each one is simple, and together they eat hours that could go to scheduling real visits. Work notes and forms often come through an employer, so keep the rules in one place and link a [workplace partnership page for a primary care practice](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) for companies that book in groups."
       ),
       p(
         "A dedicated page answers most of those calls before they are made. It also helps the families who search for it, because a parent standing in a school office will type a question much like the title of this guide into their phone."
@@ -535,7 +535,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A group therapy page should describe the logistics: who leads it, how big it is, when it meets, how someone joins, what it costs and what the ground rules are. Leave out promises about results and avoid saying a group treats a condition. Explain how confidentiality works in a group and how to reach a crisis line.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T10:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       h2("People search for the format as well as the problem"),
@@ -571,7 +571,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Keep the sensitive parts out of the web form"),
       p(
-        "A person who wants to join may be tempted to describe their situation in the contact form. Add a line that says please do not include personal or health details here, and send them to a phone call or secure form instead. Our guide on [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) shows how to set the same expectation before a one-to-one visit. Specialty pages on sensitive topics need extra care, and [an addiction counseling page that avoids clinical claims](/guides/addiction-counseling-services-page-for-a-counseling-practice-without-clinical-claims) shows the wording to use and the claims to leave out. Grief is one of the specialties people search for most, and [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to write it gently and without promises."
+        "A person who wants to join may be tempted to describe their situation in the contact form. Add a line that says please do not include personal or health details here, and send them to a phone call or secure form instead. Our guide on [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) shows how to set the same expectation before a one-to-one visit. Specialty pages on sensitive topics need extra care, and [an addiction counseling page that avoids clinical claims](/guides/addiction-counseling-services-page-for-a-counseling-practice-without-clinical-claims) shows the wording to use and the claims to leave out. Grief is one of the specialties people search for most, and [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to write it gently and without promises. If you run a workshop or group for engaged couples, describe it separately and link a [premarital counseling page](/guides/premarital-counseling-page-for-a-counseling-practice-without-clinical-claims) so couples can choose between sessions and a group format."
       ),
       p(
         "End with the crisis notice that every counseling page should carry. If someone is in immediate danger they should call 911, and the 988 Suicide and Crisis Lifeline is available by call or text for those in distress. A practice that runs groups for young adults may also want a separate [college student counseling page without clinical claims](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) so students can find the right entry point quickly."
@@ -630,12 +630,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
       p(
-        "A new therapy client who has booked an appointment often feels a mix of relief and nerves. The next message they receive from the practice is the first proof of what working with you is like. If it is clear, kind and short, they arrive ready. If it is a wall of text with a stack of attachments, the first fifteen minutes of the hour disappear into paperwork. For families searching about substance use, [an addiction counseling page that avoids clinical claims](/guides/addiction-counseling-services-page-for-a-counseling-practice-without-clinical-claims) explains how to describe counseling without promising recovery. If the counselor supports people after a loss, [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) covers the tone, the details and the crisis line that belong on the page."
+        "A new therapy client who has booked an appointment often feels a mix of relief and nerves. The next message they receive from the practice is the first proof of what working with you is like. If it is clear, kind and short, they arrive ready. If it is a wall of text with a stack of attachments, the first fifteen minutes of the hour disappear into paperwork. For families searching about substance use, [an addiction counseling page that avoids clinical claims](/guides/addiction-counseling-services-page-for-a-counseling-practice-without-clinical-claims) explains how to describe counseling without promising recovery. If the counselor supports people after a loss, [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) covers the tone, the details and the crisis line that belong on the page. Clients moving to a new clinician inside the practice should not have to repeat every form, and a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) can explain what carries over."
       ),
       p(
         "Sending the paperwork ahead is also a privacy question. The forms ask for names, history and insurance information, so the way you deliver them matters as much as the forms themselves."
@@ -830,7 +830,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "An employee assistance program page should say whether the practice takes EAP referrals, which programs it works with if any, how a client gets an authorization, and what happens when the covered sessions end. Only name an EAP the practice has an agreement with, and tell clients to confirm limits with their program.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:40:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("What clients are really asking when they search for EAP"),
@@ -838,7 +838,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Someone who types counselor that accepts EAP into a search bar is usually trying to find out whether they can see a therapist without paying much or anything out of pocket. They may have a flyer from their employer, a phone number for the program, and no idea how the pieces connect. A clear page for that visitor can be the deciding factor in who they call."
       ),
       p(
-        "An employee assistance program is a benefit that some employers offer. It often provides a limited number of confidential counseling sessions, though the details vary by employer and by program. That variation is the main reason the page has to be careful about what it states as fact. Practices that work with TRICARE or military families will find [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) useful for describing it without implying a VA affiliation."
+        "An employee assistance program is a benefit that some employers offer. It often provides a limited number of confidential counseling sessions, though the details vary by employer and by program. That variation is the main reason the page has to be careful about what it states as fact. Practices that work with TRICARE or military families will find [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) useful for describing it without implying a VA affiliation. Some people arrive through an employer plan and others want to stay private from it, and a [counseling page for working professionals](/guides/workplace-stress-counseling-page-for-working-professionals-without-clinical-claims) can explain both paths in plain words."
       ),
       h2("Only state what your practice has arranged"),
       p(
@@ -1139,12 +1139,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
       p(
-        "Clients who choose video visits are asking for convenience, and the practice owes them two things in return. The first is a clear explanation of what telehealth involves and a way to agree to it. The second is a quick way to confirm the technology will work, so the first ten minutes of a session are not spent hunting for a microphone. New and expecting parents search in short windows, so [a perinatal and postpartum counseling page without clinical claims](/guides/perinatal-and-postpartum-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to put the practical answers first. The same structure carries over to medical offices, which can adapt it into a [virtual visits page for a primary care practice](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video) with their own consent and eligibility wording."
+        "Clients who choose video visits are asking for convenience, and the practice owes them two things in return. The first is a clear explanation of what telehealth involves and a way to agree to it. The second is a quick way to confirm the technology will work, so the first ten minutes of a session are not spent hunting for a microphone. New and expecting parents search in short windows, so [a perinatal and postpartum counseling page without clinical claims](/guides/perinatal-and-postpartum-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to put the practical answers first. The same structure carries over to medical offices, which can adapt it into a [virtual visits page for a primary care practice](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video) with their own consent and eligibility wording. Working professionals often choose video visits from a private space, so link this page from your [workplace stress counseling page for working professionals](/guides/workplace-stress-counseling-page-for-working-professionals-without-clinical-claims) with the times you offer."
       ),
       p(
         "Our guide to a [telehealth visit instructions page for a therapy practice](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) covers the step-by-step joining instructions. This page deals with the earlier question: has the client agreed, and is their setup ready. Families searching for parent support need to know who attends sessions, which [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) explains in plain language."
@@ -1239,12 +1239,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "A couples counseling page should explain how sessions work, who attends, how long they run, how to book, what they cost and how the first call goes. It should not promise a stronger relationship, name problems it will fix or tell couples what is wrong. Describe the format and invite one conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Couples search with a different kind of nervousness"),
       p(
-        "Someone looking for couples counseling is usually carrying two worries at once. They are unsure whether to seek help, and they are unsure how to ask their partner to do the same. A page that is calm, specific and free of judgment makes the decision to call a smaller one. Practices that see parents and children together can use [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) to explain consent, scheduling and what the practice does not do."
+        "Someone looking for couples counseling is usually carrying two worries at once. They are unsure whether to seek help, and they are unsure how to ask their partner to do the same. A page that is calm, specific and free of judgment makes the decision to call a smaller one. Practices that see parents and children together can use [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) to explain consent, scheduling and what the practice does not do. Couples who are engaged and planning ahead have different questions from couples in difficulty, so give them their own [premarital counseling page](/guides/premarital-counseling-page-for-a-counseling-practice-without-clinical-claims) with its own fees and timing."
       ),
       p(
         "That same sensitivity is why the page needs discipline. The wrong sentence can sound like a diagnosis of a relationship, or a promise that sessions will save one. Neither is something a website can say responsibly."
@@ -1444,7 +1444,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A check-in page should explain how to arrive, where to enter, how to check in, what the front desk will ask for, how waiting works and what to do if the wait feels long. Keep it factual, avoid time promises you cannot keep, and never ask patients to describe their symptoms on the page.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:40:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("The first five minutes shape the whole visit"),
@@ -1476,7 +1476,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["How do I get help moving around?", "Mention accessible entrances and how to ask for assistance."]
       ),
       p(
-        "The accessibility line deserves care. Check that what you say matches the building, and see our guide on [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for how to describe it honestly."
+        "The accessibility line deserves care. Check that what you say matches the building, and see our guide on [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for how to describe it honestly. Patients who arrive by bus or ride service may be early or late for reasons outside their control, which is why a [page on transportation and ride assistance](/guides/transportation-and-ride-assistance-information-page-for-a-primary-care-practice) belongs beside your check-in guidance."
       ),
       h2("Protect privacy in the room"),
       p(

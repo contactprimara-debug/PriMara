@@ -151,7 +151,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       {
@@ -178,7 +178,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second. Patients who book online will soon want to sign in and see their visits, which is why a clear [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) belongs next to your scheduling tool."
+        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second. Patients who book online will soon want to sign in and see their visits, which is why a clear [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) belongs next to your scheduling tool. If the online scheduler shows no openings, add a line that points to a [cancellation list for same-day openings](/guides/cancellation-list-and-same-day-openings-for-a-primary-care-practice) so a patient has a next step instead of leaving."
       },
       {
         "type": "h2",
@@ -278,7 +278,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "A practice About page should state who you are, where you are, who the licensed clinicians are, what you treat, and how to reach you, in plain language. Add each clinician's real credentials and a short, honest story of the practice. Leave out outcome promises, invented awards, and anything you cannot document.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       {
@@ -332,7 +332,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "One practical test: read the page as a new patient who knows nothing about you. Can you tell, in ten seconds, what kind of care is offered, where, by whom, and how to book? If any of those answers takes scrolling or guessing, rewrite the top of the page. Ask a front-desk team member to read it too, since they hear the questions patients actually ask and will spot any detail that no longer matches the office. Moving a provider between offices touches every listing, and our guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists them. Reading the page aloud is a good plain-language check, and our guide on [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) adds a few more ways to test whether a patient can follow it."
+        "text": "One practical test: read the page as a new patient who knows nothing about you. Can you tell, in ten seconds, what kind of care is offered, where, by whom, and how to book? If any of those answers takes scrolling or guessing, rewrite the top of the page. Ask a front-desk team member to read it too, since they hear the questions patients actually ask and will spot any detail that no longer matches the office. Moving a provider between offices touches every listing, and our guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists them. Reading the page aloud is a good plain-language check, and our guide on [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) adds a few more ways to test whether a patient can follow it. The about page is not the first screen patients see, so decide what must be visible immediately and follow our guide to [homepage above-the-fold content for a primary care practice](/guides/homepage-above-the-fold-content-for-a-primary-care-practice-website)."
       }
     ],
     faqs: [
@@ -412,7 +412,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "An XML sitemap lists the pages you want Google to find, and robots.txt tells crawlers which areas not to crawl. Neither is a security tool. Your sitemap should list only live, indexable pages, and robots.txt must never block pages you want in search. To keep a page out of results, use a noindex tag instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       {
@@ -421,7 +421,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "An XML sitemap is a file, usually at yoursite.com/sitemap.xml, that lists the URLs you want search engines to know about, optionally with the date each last changed. A robots.txt file sits at the root of your domain and gives crawlers instructions about which paths they should not request. One invites, the other asks crawlers to stay away. They work together, but they do not do the same thing, and mixing them up is behind many indexing problems on small practice sites. AI crawlers read the same file, and our guide on [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers) explains what to allow and what to block."
+        "text": "An XML sitemap is a file, usually at yoursite.com/sitemap.xml, that lists the URLs you want search engines to know about, optionally with the date each last changed. A robots.txt file sits at the root of your domain and gives crawlers instructions about which paths they should not request. One invites, the other asks crawlers to stay away. They work together, but they do not do the same thing, and mixing them up is behind many indexing problems on small practice sites. AI crawlers read the same file, and our guide on [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers) explains what to allow and what to block. A sitemap lists every page, but the menu decides which ones patients and crawlers meet first, so review the [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) at the same time."
       },
       {
         "type": "h2",

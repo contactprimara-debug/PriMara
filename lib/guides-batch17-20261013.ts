@@ -242,7 +242,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Practices that receive federal funds, including Medicare and Medicaid payments, have obligations to give people with limited English proficiency meaningful access. The federal site LEP.gov explains the expectations in plain terms, and the HHS Office for Civil Rights covers the health-specific rules. Your compliance advisor can tell you which apply to you. For the website, the practical point is simple: if you offer interpreter help, say so, and say it costs the patient nothing."
+        "text": "Practices that receive federal funds, including Medicare and Medicaid payments, have obligations to give people with limited English proficiency meaningful access. The federal site LEP.gov explains the expectations in plain terms, and the HHS Office for Civil Rights covers the health-specific rules. Your compliance advisor can tell you which apply to you. For the website, the practical point is simple: if you offer interpreter help, say so, and say it costs the patient nothing. Interpreter access is one kind of accommodation, and a [page for service animals and accessibility requests](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) can cover the others in the same place."
       },
       {
         "type": "p",
@@ -1351,7 +1351,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims). Callers who are not a fit should leave with somewhere to go, which is why a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) is worth linking from this page."
+        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims). Callers who are not a fit should leave with somewhere to go, which is why a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) is worth linking from this page. The short call is easier to book when the homepage already makes the first step obvious, as our guide to a [therapy practice homepage for a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see) explains."
       },
       {
         "type": "h2",
@@ -1535,7 +1535,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Therapy practices keep different kinds of notes, and the rules about what a client may see can differ. Rather than explain these on the page, state the process: clients request records in writing, the clinician reviews the request, and the office replies within the timeline the law and the license board require. Refer questions to your attorney or professional association for wording."
+        "text": "Therapy practices keep different kinds of notes, and the rules about what a client may see can differ. Rather than explain these on the page, state the process: clients request records in writing, the clinician reviews the request, and the office replies within the timeline the law and the license board require. Refer questions to your attorney or professional association for wording. A clinician's departure often triggers a wave of records requests, so link the process from any [client transfer notice for a departing therapist](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) as well as from this page."
       },
       {
         "type": "h2",
@@ -1894,7 +1894,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Spell out what happens on weekends and holidays and during hurricane closures. If the office closes, tell patients how to reach the on-call line and how the pharmacy can contact the practice. The [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) explains how to set that message up. Patients also ask which pharmacy the office uses, which a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) can answer without recommending anyone."
+        "text": "Spell out what happens on weekends and holidays and during hurricane closures. If the office closes, tell patients how to reach the on-call line and how the pharmacy can contact the practice. The [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) explains how to set that message up. Patients also ask which pharmacy the office uses, which a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) can answer without recommending anyone. Refill questions are among the most common calls, which makes them a natural entry on a [primary care FAQ page that answers practical questions without medical advice](/guides/faq-page-for-a-primary-care-practice-questions-to-answer-without-medical-advice)."
       },
       {
         "type": "h2",
@@ -2364,7 +2364,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Federal information blocking rules push practices to release results to patients promptly, which often means a result appears in the portal before the clinician has had time to review it. That is good for access, but it can be alarming. A patient who sees an unfamiliar number at nine at night and cannot reach anyone will search the web, and they may land on a page that explains nothing. Link the results page to a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) so patients can find a draw site and see how results reach them."
+        "text": "Federal information blocking rules push practices to release results to patients promptly, which often means a result appears in the portal before the clinician has had time to review it. That is good for access, but it can be alarming. A patient who sees an unfamiliar number at nine at night and cannot reach anyone will search the web, and they may land on a page that explains nothing. Link the results page to a [pharmacy and lab partner information page for a primary care practice](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) so patients can find a draw site and see how results reach them. Waiting time for results is a question every front desk hears, so summarize it on a [primary care FAQ page](/guides/faq-page-for-a-primary-care-practice-questions-to-answer-without-medical-advice) and link to this page for the detail."
       },
       {
         "type": "p",
@@ -2654,7 +2654,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it."
+        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it. Keep the homepage short and let the approach page carry the detail, using the structure in our guide to a [therapy practice homepage that reassures a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see)."
       },
       {
         "type": "p",

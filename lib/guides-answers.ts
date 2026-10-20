@@ -215,7 +215,7 @@ export const guidesPartThree: Guide[] = [
       "Reply to a negative patient review within a few days, in public, without confirming the person was ever a patient. Thank them for the feedback, describe your standard of care in general terms, give a phone number or office email, and move the conversation offline. Confirming treatment in public is a disclosure of protected health information.",
     author: "Liam Costello",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     howTo: {
       name: "How to respond to a negative patient review",
@@ -284,7 +284,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "Never gate reviews to avoid this problem" },
       {
         type: "p",
-        text: "The tempting shortcut is to survey patients, route the happy ones to Google and the unhappy ones to a private form. That is review gating. Google's policies prohibit it and the FTC's consumer review rule reaches it too, because suppressing negative feedback misrepresents what patients think. Ask everyone, the same way, every time. Once the underlying problem is truly fixed, our guide on [how to ask a patient to update or remove a Google review](/guides/how-to-ask-a-patient-to-update-or-remove-a-google-review-after-you-resolve-the-problem) explains how to follow up in private without pressure or incentives.",
+        text: "The tempting shortcut is to survey patients, route the happy ones to Google and the unhappy ones to a private form. That is review gating. Google's policies prohibit it and the FTC's consumer review rule reaches it too, because suppressing negative feedback misrepresents what patients think. Ask everyone, the same way, every time. Once the underlying problem is truly fixed, our guide on [how to ask a patient to update or remove a Google review](/guides/how-to-ask-a-patient-to-update-or-remove-a-google-review-after-you-resolve-the-problem) explains how to follow up in private without pressure or incentives. A private route for concerns lowers the number of surprises that end up online, so offer a [patient feedback and complaint page](/guides/patient-feedback-and-complaint-contact-page-for-a-medical-practice-without-health-details) beside your review response routine.",
       },
       { type: "h2", text: "The maths that makes bad reviews survivable" },
       {

@@ -240,12 +240,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "A virtual visits page for a primary care practice should say who can book a video visit, how to join, what the practice will and will not handle by video, and when a patient must come in or call 911 instead. Keep the list of eligible visit types short and let the clinician decide the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T09:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("The page patients are trying to find"),
       p(
-        "Patients rarely search for telemedicine. They search for a doctor visit by video, or ask whether the office does virtual appointments. The page that answers that question quickly, with a booking link and a plain list of what to expect, tends to beat a long essay about the benefits of remote care."
+        "Patients rarely search for telemedicine. They search for a doctor visit by video, or ask whether the office does virtual appointments. The page that answers that question quickly, with a booking link and a plain list of what to expect, tends to beat a long essay about the benefits of remote care. For patients who cannot easily travel, explain the video option here and also publish [ride and transportation information](/guides/transportation-and-ride-assistance-information-page-for-a-primary-care-practice) for the visits that must happen in the office."
       ),
       p(
         "Open with the answer: yes or no, how to book, and the first thing a patient needs to join. Everything else, including policies and limits, sits underneath for the patient who wants it."
@@ -627,7 +627,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A pharmacy and lab partner page tells patients where the office sends prescriptions and lab orders, how to pick a different location, and how to get results, without recommending a product or collecting health information. List locations factually, state that patients may choose their own, and keep the page free of ads and conflicts of interest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Why patients look for this page"),
@@ -669,7 +669,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Ask the front desk which five questions they answer most about prescriptions and lab work, and answer exactly those on the page. Typical examples are what to do when a pharmacy says it has no prescription, how long a lab takes to return results and what to bring to a draw. Keep each answer to a couple of sentences and avoid advice about any specific medicine."
       ),
       p(
-        "Connect the page to the rest of the site. A link from the patient portal page, from the new patient information page and from the prescription refill page lets patients find it at the moment they need it. Our guide to a [prescription refill request page without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) covers the related wording, and the [lab results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice) covers timing."
+        "Connect the page to the rest of the site. A link from the patient portal page, from the new patient information page and from the prescription refill page lets patients find it at the moment they need it. Our guide to a [prescription refill request page without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) covers the related wording, and the [lab results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice) covers timing. Patients without a car often plan the pharmacy or lab stop around a bus route, so pair this with a [transportation and ride assistance page for a primary care practice](/guides/transportation-and-ride-assistance-information-page-for-a-primary-care-practice) that lists routes and drop-off spots."
       ),
       h3("Test the page the way a patient would"),
       p(
@@ -720,7 +720,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A community resources page for a counseling practice lists trusted outside services such as crisis lines, support groups and social services, states plainly that the practice does not run or endorse them, and keeps the list short and current. Put the crisis numbers first and review every link on a schedule.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Why this page earns its place"),
@@ -759,7 +759,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Link it into the rest of the site"),
       p(
-        "Connect the page to the places where people look for help. Link it from the contact page, from the page that describes your first session, and from your fees page for people who cannot afford sessions right now. Our guide to a [fees page with sliding scale, out-of-network and superbill options](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows how to be honest about cost while pointing to alternatives."
+        "Connect the page to the places where people look for help. Link it from the contact page, from the page that describes your first session, and from your fees page for people who cannot afford sessions right now. Our guide to a [fees page with sliding scale, out-of-network and superbill options](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows how to be honest about cost while pointing to alternatives. Many people who reach this page are looking after a relative, and a [caregiver support counseling page](/guides/caregiver-support-counseling-page-for-a-counseling-practice-without-clinical-claims) is the right place to send them for sessions of their own."
       ),
       p(
         "The safety block should match the one on every other page. Our guide on an [emergency and crisis resources section for a counseling practice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) provides the wording, and the community page extends it with ongoing support rather than replacing it."
@@ -917,7 +917,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A therapy practice website should say how long a typical session lasts, how often clients usually meet at the start, who decides the schedule, and what the practice does not promise. State the facts as the practice's own policy and leave outcomes, timelines for improvement and duration of treatment to the conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("The question every new client is too polite to ask"),
@@ -952,7 +952,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("What about cost?"),
       p(
-        "Frequency affects what clients pay, so connect the explanation to the fees page and be clear that the practice does not require a minimum number of sessions, if that is true. Our guide to a [fees page with sliding scale, out-of-network and superbill options](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to present cost without pressure."
+        "Frequency affects what clients pay, so connect the explanation to the fees page and be clear that the practice does not require a minimum number of sessions, if that is true. Our guide to a [fees page with sliding scale, out-of-network and superbill options](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to present cost without pressure. A short course before a wedding follows a different rhythm from open-ended therapy, and a [premarital counseling page](/guides/premarital-counseling-page-for-a-counseling-practice-without-clinical-claims) can state a typical range of sessions without promising results."
       ),
       h2("Where to put the information"),
       p(
@@ -1308,12 +1308,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice can earn real local links by sponsoring a school team, a charity run or a community event, as long as it asks for an honest mention on the organizer's own page, never buys links on a site that sells them, and never uses a patient's story or photo. Choose causes the practice would support anyway.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Why local links come from local things"),
       p(
-        "Search engines treat a link as a vote of confidence from one site to another. For a medical practice, the votes that matter most come from local organizations that exist in the real world: schools, teams, charities, chambers of commerce and community groups. They are hard to fake, which is why they carry weight."
+        "Search engines treat a link as a vote of confidence from one site to another. For a medical practice, the votes that matter most come from local organizations that exist in the real world: schools, teams, charities, chambers of commerce and community groups. They are hard to fake, which is why they carry weight. Business groups and chambers of commerce are a natural place to meet employers, and an [employer partnership page for a primary care practice](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) gives them something to link to."
       ),
       p(
         "They are also earned in a different way from the links a marketing vendor sells. A sponsorship, a donation or a volunteer day is a real act, and the link to the practice's website is a natural thank-you."

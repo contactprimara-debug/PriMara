@@ -414,7 +414,7 @@ export const guidesPartNine: Guide[] = [
       "Core Web Vitals are three Google-defined measurements of real-world page experience — loading speed (LCP), visual stability (CLS), and responsiveness (INP) — and a medical practice site should test every page type (homepage, a service page, a location page) with Google's free PageSpeed Insights tool, since a slow or unstable page loses patients before they ever read it.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "The three metrics, and the current pass/fail line" },
@@ -434,7 +434,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Why this matters for a medical practice specifically" },
       {
         type: "p",
-        text: "Google has confirmed page experience is one factor among many in ranking, smaller than content relevance, but it is also one of the only factors under your direct technical control. More immediately, a slow-loading page or one where the phone number shifts position mid-load costs you patients who simply leave — Google's own research on this consistently shows bounce rate climbing sharply as load time increases past a few seconds, and a patient looking for same-day care has the least patience of almost any searcher. Speed is only one half of mobile performance; the other is whether Google indexes your full phone version, covered in [mobile-first indexing explained for a practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website).",
+        text: "Google has confirmed page experience is one factor among many in ranking, smaller than content relevance, but it is also one of the only factors under your direct technical control. More immediately, a slow-loading page or one where the phone number shifts position mid-load costs you patients who simply leave — Google's own research on this consistently shows bounce rate climbing sharply as load time increases past a few seconds, and a patient looking for same-day care has the least patience of almost any searcher. Speed is only one half of mobile performance; the other is whether Google indexes your full phone version, covered in [mobile-first indexing explained for a practice website](/guides/mobile-first-indexing-explained-for-a-medical-practice-website). The first screen is where a late-loading image does the most harm, so check the hero area against our guide to [what belongs above the fold on a primary care homepage](/guides/homepage-above-the-fold-content-for-a-primary-care-practice-website).",
       },
       { type: "h2", text: "The checklist" },
       {

@@ -698,7 +698,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A parenting and family therapy page should explain who comes to sessions, how consent works when a child is involved, how often the family meets and how scheduling works. It should describe the counselor's approach in plain words, avoid promises about behavior or family outcomes, and say clearly what the practice does not do, such as custody evaluations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T11:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       h2("Parents search with a particular question"),
@@ -738,7 +738,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Families have to coordinate schedules, so list the hours the counselor sees families, how to change an appointment and how the cancellation policy works. Our guides on [cancellation and no-show policy pages](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) and on a [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) show how to word them kindly."
       ),
       p(
-        "Include fees, insurance in plain terms and a crisis line, as covered in the guide on [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). End with a single way to begin, such as a call or a short contact form that does not ask for details about anyone's struggles."
+        "Include fees, insurance in plain terms and a crisis line, as covered in the guide on [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). End with a single way to begin, such as a call or a short contact form that does not ask for details about anyone's struggles. Families with an LGBTQ+ teen or parent look for specific signs of welcome, and a clear [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) is a better answer than a generic line about everyone being welcome."
       ),
       p(
         "Review the page once a year, and again whenever the counselor's schedule, fees or policies change. Families rely on the details, and a page that still lists last year's hours or a former counselor undermines the trust the rest of the page worked to build."
@@ -788,7 +788,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A perinatal counseling page should speak to expecting and new parents in plain words, describe the counselor's training as the license shows it, explain how sessions work and whether babies may attend, and show crisis lines prominently. It should not diagnose, promise recovery or imply that counseling replaces medical care from an obstetrician or doctor.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:40:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 7,
     sections: [
       h2("Who reads this page and what they need first"),
@@ -826,7 +826,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Training and credentials, stated honestly"),
       p(
-        "Name the counselor and the license as the state lists it. If the counselor has completed additional training in perinatal mental health, say so with the name of the program, and only if it is documented. Never imply a certification the practice cannot show. Our guide on [therapist bio pages](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) explains how to write that paragraph."
+        "Name the counselor and the license as the state lists it. If the counselor has completed additional training in perinatal mental health, say so with the name of the program, and only if it is documented. Never imply a certification the practice cannot show. Our guide on [therapist bio pages](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) explains how to write that paragraph. New parents who are also caring for an older relative carry a double load, and our guide to a [caregiver support counseling page](/guides/caregiver-support-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to speak to them honestly."
       ),
       p(
         "Link the page to your [telehealth instructions](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) and to your [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained), since new parents will want to know both before they call."
@@ -1238,12 +1238,12 @@ export const guidesPartTwentyThree: Guide[] = [
       "A page for veterans and military families should state who the counselor sees, which insurance such as TRICARE the practice is verified with, how sessions work, and where to go in a crisis, including the Veterans Crisis Line. It should not claim a military background the counselor lacks, promise outcomes or use service imagery without permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T13:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("What this reader looks for first"),
       p(
-        "A veteran or a military spouse searching for counseling wants to know three things quickly. Will this person understand what service life involves, will my coverage work and where do I go if things get bad. They are practical readers, and they tend to distrust a page that sounds like a recruiting poster."
+        "A veteran or a military spouse searching for counseling wants to know three things quickly. Will this person understand what service life involves, will my coverage work and where do I go if things get bad. They are practical readers, and they tend to distrust a page that sounds like a recruiting poster. Spouses and parents who care for a service member or veteran at home may want support for themselves, which a separate [page for caregivers seeking counseling](/guides/caregiver-support-counseling-page-for-a-counseling-practice-without-clinical-claims) can address without clinical claims."
       ),
       p(
         "The honest version of this page is plain. It states what the practice offers, says what it does not, and gives real information on coverage and crisis support."

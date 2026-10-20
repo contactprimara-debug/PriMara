@@ -176,12 +176,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A patient survey invitation should ask about the experience of the office, such as scheduling, waiting and courtesy, and never about conditions, treatments or results. Send the same invitation to every patient, keep the questions to five or fewer, and do not use survey answers to decide who is asked to leave a public review.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T09:20:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("What a survey is for, and what it is not for"),
       p(
-        "A short survey tells a practice what it cannot see from the front desk: where the wait felt long, which step of booking confused people, whether the parking instructions made sense. That is operational feedback, and it improves the next visit. It is not a marketing screening tool and it is not a clinical questionnaire."
+        "A short survey tells a practice what it cannot see from the front desk: where the wait felt long, which step of booking confused people, whether the parking instructions made sense. That is operational feedback, and it improves the next visit. It is not a marketing screening tool and it is not a clinical questionnaire. A monthly [patient newsletter that carries no health details](/guides/patient-newsletter-for-a-medical-practice-without-health-details) is one more place to invite feedback, as long as the link goes to a short survey that collects no health information."
       ),
       p(
         "Keeping those two things apart is the whole job. The moment a survey asks how a patient feels about their treatment, you are collecting health information through a tool that may not be built for it. The moment it routes happy patients to a review site and unhappy patients to a private form, you are gating reviews."
@@ -563,7 +563,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Thank the reviewer in general terms, do not confirm that they were a patient, do not mention the visit, the provider's treatment or any health detail, and invite them to call the office for anything personal. A reply is public, and even a warm one can disclose protected information if it confirms who was seen.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:40:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("A happy review is still a privacy risk"),
@@ -603,7 +603,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "If a reviewer includes a question or a concern, keep the public reply general and move the conversation to a phone call. Never ask them to confirm identity in the public thread. Our guide on [how to respond to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) explains the same principle for harder cases, and the HHS guidance on marketing and privacy sets the rules your replies must follow."
       ),
       p(
-        "Reply to positive reviews too. Google surfaces owner responses, and a steady record of calm, privacy-conscious replies tells readers the practice is attentive. If you ask patients for reviews at all, read how to do it without selecting who is asked in [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating). And do not offer anything in exchange for a review, which breaks Google's contribution policy."
+        "Reply to positive reviews too. Google surfaces owner responses, and a steady record of calm, privacy-conscious replies tells readers the practice is attentive. If you ask patients for reviews at all, read how to do it without selecting who is asked in [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating). And do not offer anything in exchange for a review, which breaks Google's contribution policy. Praise and complaints belong in different places, and a [patient feedback and complaint page without health details](/guides/patient-feedback-and-complaint-contact-page-for-a-medical-practice-without-health-details) gives unhappy patients their own route."
       ),
       h2("A quick approval routine"),
       p(
@@ -762,7 +762,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
@@ -770,7 +770,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers."
       ),
       p(
-        "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not."
+        "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not. Directory profiles often carry an affirming statement, and it should say the same thing as the practice's own [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) so a client sees one consistent welcome."
       ),
       h2("Make the profile match everything else"),
       p(
@@ -1040,7 +1040,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A states-served page lists each clinician, the state or states where they hold a license, how to verify it, and a plain rule that clients must be physically located in a licensed state during a session. Use only what the licensing record shows, and do not describe interstate compacts as available until the clinician is actually authorized under them.",
     author: "Liam Costello",
     publishDate: "2026-10-15T12:20:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Where the client sits matters more than where you sit"),
@@ -1080,7 +1080,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Link it to the rest of the telehealth experience"),
       p(
-        "Mention the page on the telehealth visit instructions and on the consent page, and in booking confirmations. Our guides on [telehealth visit instructions](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) and [telehealth consent and technology checks](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) show where it fits. For crisis information, include a pointer to the emergency section described in [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website)."
+        "Mention the page on the telehealth visit instructions and on the consent page, and in booking confirmations. Our guides on [telehealth visit instructions](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) and [telehealth consent and technology checks](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) show where it fits. For crisis information, include a pointer to the emergency section described in [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). Professionals who travel for work will check where you are licensed, so cross-reference it on a [counseling page for working professionals](/guides/workplace-stress-counseling-page-for-working-professionals-without-clinical-claims) that lists your video hours."
       ),
       h2("Make the rule easy to follow at booking"),
       p(
@@ -1134,7 +1134,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A physicals page should say which kinds of physicals the practice offers, what to bring, how long a visit takes, what it costs or how to ask, and whether the visit is billed to insurance. State clearly if the practice does not perform DOT exams, and never describe results or fitness decisions before a clinician has seen the patient.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T12:40:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("Physicals are a different search from a checkup"),
@@ -1171,7 +1171,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Link the page to the rest of the site"),
       p(
-        "Connect the page to the services list, the pricing information and the booking page. Our guide on [how to publish self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to talk about cost, and [seasonal service pages for flu shots and school physicals](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals) covers the school-year rush. Put the phone number high on the page and use a tap-to-call link, since many searchers are in a hurry."
+        "Connect the page to the services list, the pricing information and the booking page. Our guide on [how to publish self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to talk about cost, and [seasonal service pages for flu shots and school physicals](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals) covers the school-year rush. Put the phone number high on the page and use a tap-to-call link, since many searchers are in a hurry. Employers who send several people for physicals will want to know how booking and billing work, which a separate [employer and workplace partnership page](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) can explain."
       ),
       p(
         "Keep the details on the Google Business Profile in sync. Add the service names to the services list exactly as on the page, and see [Google Business Profile services list optimization](/guides/google-business-profile-services-list-optimization) for how to do it without stuffing. Test by calling the office as a stranger would and checking that the front desk gives the same answers the page does."
@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-20",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1264,7 +1264,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h3("Credentials: only what is true"),
       p(
-        "List the degree, the license and any certifications exactly as they were earned. Do not use a title the board does not permit, and do not list an acronym without saying what it stands for. If the clinician is pre-licensed, say so, and name the supervisor; the details are in our guide to a [pre-licensed clinician disclosure page](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice)."
+        "List the degree, the license and any certifications exactly as they were earned. Do not use a title the board does not permit, and do not list an acronym without saying what it stands for. If the clinician is pre-licensed, say so, and name the supervisor; the details are in our guide to a [pre-licensed clinician disclosure page](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice). If a clinician chooses to say they work with LGBTQ+ clients, the wording on their bio should match an honest [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) with no credentials the clinician does not hold."
       ),
       h2("Make it findable"),
       p(
