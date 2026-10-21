@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/ai-seo-florida`;
 export const metadata: Metadata = {
   title: "AI SEO for Florida Medical Practices | Primara",
   description:
-    "AI SEO (GEO) for Florida medical practices — structured data, AI crawler access, and content built to be cited by ChatGPT and AI Overviews, statewide. Call (561) 291-2681.",
+    "AI SEO for Florida medical practices: structured data, AI crawler access, and content built to be cited by ChatGPT and AI Overviews. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

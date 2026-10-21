@@ -60,7 +60,7 @@ const faqs = [
     "q": "Does review generation work the same everywhere in Florida?",
     "a": "The process is identical statewide — audit, ethical outreach, compliant responses, monitoring. What changes is the competitive bar: the review volume it takes to stand out in Miami or Tampa is higher than in a smaller market, so the audit sets targets against your actual local competitors."
   },
-  { q: "Is asking patients for reviews even allowed?", a: "Yes — asking is fine. What violates Google's guidelines is paying for reviews, incentivizing them, or filtering who gets asked based on how happy they seem. Our process is ethical outreach to real patients, full stop. We're happy to go deeper on this for your specific market during a free audit." },
+  { q: "Is asking patients for reviews even allowed, and who sends the requests?", a: "Yes — asking is fine. What violates Google's guidelines is paying for reviews, incentivizing them, or filtering who gets asked based on how happy they seem. Our process is ethical outreach to real patients. The request goes out under the practice's name through a system that holds only a name and a phone number; we set it up, and your front desk decides who receives it." },
   {
     "q": "How do HIPAA rules affect review responses?",
     "a": "A practice can never confirm or deny that a reviewer is a patient, let alone discuss care. Our response frameworks keep every reply professional and general while still addressing the concern — which is exactly what prospective patients reading the exchange want to see."
@@ -68,7 +68,6 @@ const faqs = [
   { q: "What platforms matter beyond Google?", a: "Google drives the most decisions, but Healthgrades, Zocdoc, WebMD, and Yelp all surface in patient research. We audit and monitor all of them, and clean up duplicate or unverified listings that dilute your profile. You can ask about your specific practice on a free audit call before deciding anything." },
   { q: "How do I know if my practice needs this?", a: "Three signals: an average Google rating below 4.0, review volume significantly below competing practices in your market, or critical reviews sitting without a professional response. Any of them is costing you patients you never see. We put this in writing before you commit to anything, so there are no surprises later." },
   { q: "Can you remove a negative review?", a: "Not directly. A review can be reported to Google when it breaks the platform's rules, such as a fake review or content unrelated to a visit. Otherwise, the right response is a calm public reply and, where appropriate, a private call." },
-  { q: "Do you send the requests, or do we?", a: "The request goes out under the practice's name through a system that holds only a name and a phone number. We set it up, and your front desk decides who receives it." },
 ];
 
 const faqSchema = {

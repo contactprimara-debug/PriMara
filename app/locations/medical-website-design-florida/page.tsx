@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/medical-website-design-florida`;
 export const metadata: Metadata = {
   title: "Medical Website Design for Florida Practices | Primara",
   description:
-    "Florida medical website design from a Florida-based agency — fast, HIPAA-aware, mobile-first practice websites built to convert new patients statewide. Call (561) 291-2681.",
+    "Florida medical website design: fast, HIPAA-aware, mobile-first practice websites built to convert new patients across the state. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/review-generation-west-palm-beach`;
 export const metadata: Metadata = {
   title: "Review Generation in West Palm Beach, FL | Primara",
   description:
-    "Ethical review generation for West Palm Beach medical practices — Google-guideline-compliant outreach, HIPAA-compliant responses, and review monitoring. Call (561) 291-2681.",
+    "Ethical review generation for West Palm Beach practices: Google-compliant outreach, HIPAA-conscious responses, and review monitoring. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

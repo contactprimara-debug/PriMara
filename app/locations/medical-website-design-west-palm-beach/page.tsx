@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/medical-website-design-west-palm-beach`;
 export const metadata: Metadata = {
   title: "Medical Website Design in West Palm Beach, FL | Primara",
   description:
-    "Medical website design for West Palm Beach practices — fast, HIPAA-aware, mobile-first sites built to convert new patients, from a local agency. Call (561) 291-2681.",
+    "Medical website design for West Palm Beach practices: fast, HIPAA-aware, mobile-first sites built to convert new patients. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

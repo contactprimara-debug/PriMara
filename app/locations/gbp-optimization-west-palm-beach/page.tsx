@@ -9,7 +9,7 @@ const PAGE_URL = `${SITE_URL}/locations/gbp-optimization-west-palm-beach`;
 export const metadata: Metadata = {
   title: "GBP Optimization in West Palm Beach, FL | Primara",
   description:
-    "Google Business Profile optimization for independent medical practices in West Palm Beach — categories, services, posts, and Maps-pack visibility from an agency based right here. Call (561) 291-2681.",
+    "Google Business Profile optimization for West Palm Beach medical practices: categories, services, posts, and Maps-pack visibility. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
@@ -68,7 +68,7 @@ const faqs = [
   { q: "What does GBP optimization include?", a: "Complete profile configuration: primary and secondary categories, the full services list, attributes, business description, hours (including holiday hours), a consistent posting cadence, and photo strategy. Then ongoing management — profiles that go quiet lose ground in the Maps pack. We put this in writing before you commit to anything, so there are no surprises later." },
   {
     q: "Why does the Maps pack matter so much for a West Palm Beach practice?",
-    a: "For local searches like \"primary care doctor near me,\" the map results appear above the traditional organic listings. Patients call directly from those listings without ever visiting a website. If your profile isn't configured to compete there, the visibility goes to the hospital-system clinics by default.",
+    a: "For local searches like \"primary care doctor near me,\" the map results appear above the organic listings, and patients call directly from them without visiting a website. Google doesn't publish categories, attributes, or photo count as direct ranking factors, but a complete, actively managed profile outperforms a sparse one on the three inputs it does weigh: relevance, distance, and prominence, which includes review volume and how often a profile earns clicks and calls. Otherwise the visibility goes to the hospital-system clinics by default.",
   },
   {
     q: "How long until GBP work shows results?",
@@ -81,10 +81,6 @@ const faqs = [
   {
     q: "What happens if a competitor's listing is already stronger than ours?",
     a: "That's exactly what the free audit identifies before any work starts — your review count, category setup, and posting activity measured directly against the named practice currently outranking you. The fastest wins are usually the gaps that competitor hasn't closed either, not a race to copy what they're already doing.",
-  },
-  {
-    q: "Does a complete profile actually change who shows up in the map pack?",
-    a: "Google doesn't publish attributes, categories, or photo count as direct ranking factors, but a complete, accurate, actively managed profile consistently outperforms a sparse one in the three practical inputs Google does weigh: relevance to the search, distance, and prominence — where prominence includes review volume and how often a profile earns clicks and calls relative to competitors nearby.",
   },
 ];
 

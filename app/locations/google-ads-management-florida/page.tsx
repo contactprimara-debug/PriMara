@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/google-ads-management-florida`;
 export const metadata: Metadata = {
   title: "Google Ads Management for Florida Practices | Primara",
   description:
-    "Google Ads management for independent medical practices across Florida — search campaigns, Local Service Ads, and HIPAA-conscious tracking from a Florida-based agency. Call (561) 291-2681.",
+    "Google Ads management for independent Florida medical practices: search campaigns, Local Service Ads, and HIPAA-conscious tracking. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

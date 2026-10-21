@@ -9,7 +9,7 @@ const PAGE_URL = `${SITE_URL}/locations/gbp-optimization-lakeland`;
 export const metadata: Metadata = {
   title: "GBP Optimization in Lakeland, FL | Primara",
   description:
-    "Google Business Profile optimization for independent medical practices in Lakeland and Polk County — categories, posting cadence, and Maps-pack visibility from a Florida agency. Call (561) 291-2681.",
+    "Google Business Profile optimization for Lakeland medical practices: categories, posting cadence, and Maps-pack visibility. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

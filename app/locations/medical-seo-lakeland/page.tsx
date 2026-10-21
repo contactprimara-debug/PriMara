@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/medical-seo-lakeland`;
 export const metadata: Metadata = {
   title: "Medical SEO in Lakeland, FL | Primara",
   description:
-    "Medical SEO for independent practices in Lakeland and Polk County — Google Business Profile, local rankings, on-page and technical SEO from a Florida medical marketing agency. Call (561) 291-2681.",
+    "Medical SEO for Lakeland practices: Google Business Profile, local rankings, and on-page and technical SEO from a Florida agency. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

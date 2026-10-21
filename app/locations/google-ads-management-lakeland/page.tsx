@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/google-ads-management-lakeland`;
 export const metadata: Metadata = {
   title: "Google Ads Management in Lakeland, FL | Primara",
   description:
-    "Google Ads management for independent medical practices in Lakeland and Polk County — search campaigns, Local Service Ads, and HIPAA-conscious tracking from a Florida agency. Call (561) 291-2681.",
+    "Google Ads management for Lakeland medical practices: search campaigns, Local Service Ads, and HIPAA-conscious tracking. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {

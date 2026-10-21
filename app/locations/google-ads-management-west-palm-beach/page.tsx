@@ -8,7 +8,7 @@ const PAGE_URL = `${SITE_URL}/locations/google-ads-management-west-palm-beach`;
 export const metadata: Metadata = {
   title: "Google Ads Management in West Palm Beach, FL | Primara",
   description:
-    "Google Ads management for independent medical practices in West Palm Beach — search campaigns, Local Service Ads, and HIPAA-conscious tracking from an agency based right here. Call (561) 291-2681.",
+    "Google Ads management for West Palm Beach medical practices: search campaigns, Local Service Ads, and HIPAA-conscious tracking. Call (561) 291-2681.",
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
