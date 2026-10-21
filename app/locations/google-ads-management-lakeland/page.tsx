@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "Should my practice run Search Ads or Local Service Ads?",
-    a: "Often both. Standard Search Ads are text ads you pay for per click. Local Service Ads appear above them, show a Google Screened badge, and charge per verified lead — a phone call or message from a prospective patient. LSAs require credential verification but typically deliver higher-quality inquiries. We set up and manage both.",
+    a: "Often both. Search Ads are text ads you pay for per click. Local Service Ads appear above them with a Google Screened badge and charge per verified lead, meaning a call or message from a prospective patient. LSAs require credential verification, which we handle, and whether they are worth running in Lakeland depends on whether Google offers them for your specialty and area, so we check that first.",
   },
   {
     q: "Is HIPAA compliance an issue with Google Ads?",
@@ -105,7 +105,7 @@ const deliverables = [
   },
   {
     title: "Ongoing Optimization & Plain-English Reporting",
-    body: "A/B testing on headlines and descriptions, bid and budget management, and a monthly report that shows spend, leads, and cost per lead — no vanity metrics.",
+    body: "Each month you get one page that shows spend, calls, forms and cost per lead for Lakeland, plus what we changed and why. We test headlines and descriptions, trim searches that cost money without producing calls, and move budget between neighborhoods based on where the calls actually came from.",
   },
 ];
 
