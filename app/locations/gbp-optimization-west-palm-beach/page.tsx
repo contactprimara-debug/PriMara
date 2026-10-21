@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/gbp-optimization-west-palm-beach`;
 
@@ -229,6 +230,12 @@ export default function GbpOptimizationWestPalmBeachPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Working From Home Base"
+        heading="What a maintained profile looks like in the market we work from."
+        blocks={[{"type": "p", "text": "Primara works from West Palm Beach, so a Business Profile for a practice here is something we can check against the real building and the real street, not only against a screen. That sounds small. In practice it removes a whole class of errors that stay hidden for years, such as a pin dropped on the wrong corner or an entrance description that no longer matches how patients walk in."}, {"type": "h3", "text": "Storefront or service area"}, {"type": "p", "text": "A practice with a staffed office and posted hours is a storefront listing, and the street address stays visible. Google's guidelines are strict about who may hide an address or list a service area, and a medical office that sees patients on site almost never qualifies. We decide this with you first, because changing it later can trigger a re-verification."}, {"type": "h3", "text": "Storm season and winter residents"}, {"type": "p", "text": "The Atlantic hurricane season runs from June 1 to November 30, and Palm Beach County also has residents who live here only part of the year. Both change what the profile must say. Before a storm, the hours should show the closure and the voicemail should say when the office reopens. Before the winter months, the note on accepting new patients should be current, since that is when many seasonal residents look for a local doctor."}, {"type": "h3", "text": "What we look at each month"}, {"type": "ul", "items": ["Hours, including holidays and any closure, compared with the website and the front desk.", "Whether the practice is still accepting new patients, and for which providers.", "Primary and secondary categories, so nothing drifts after an edit by Google or a stranger.", "Duplicate or closed listings near the same address.", "New photos of the entrance, waiting room and team, with permission, and no patient in the frame."]}, {"type": "p", "text": "We do not promise a map position. Rankings move with distance, competition and reviews, and some of that is outside our control. What we can promise is that the profile is complete, current and consistent, and that you will see the grid measurement each month with the changes we made."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

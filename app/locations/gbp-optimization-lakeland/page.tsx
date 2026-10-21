@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/gbp-optimization-lakeland`;
 
@@ -217,6 +218,12 @@ export default function GbpOptimizationLakelandPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Working From A Distance"
+        heading="How we manage a Lakeland profile and what we measure."
+        blocks={[{"type": "p", "text": "Primara is based in West Palm Beach, and a Business Profile lives online, so we manage a Lakeland practice's listing through screen sharing and phone calls instead of site visits. The work is the same, with one difference: the things only someone standing at the office can confirm, such as the entrance, the signage and the parking, come from you, and we write them down so they stay accurate."}, {"type": "h3", "text": "Why the I-4 corridor changes how we measure"}, {"type": "p", "text": "Lakeland sits between Tampa and Orlando, and Google weighs how close a searcher is to the practice. A patient on the north side of the city and a patient near the southern edge may see different results for the same search. That is why we measure on a grid across the areas you want to serve, so you can see whether the profile appears across Lakeland or only close to the office."}, {"type": "h3", "text": "What we ask of a Lakeland practice"}, {"type": "ul", "items": ["Confirm the entrance and parking description once, in writing, and tell us when it changes.", "Send photos of the building and team, with permission, and nothing that shows a patient.", "Tell us about schedule changes, new providers and days the office will close, before they happen.", "Forward review alerts you get, and keep a name on file for who may reply in the practice's voice."]}, {"type": "h3", "text": "Hours that match the website"}, {"type": "p", "text": "A common problem for independent practices is hours that differ between the profile, the website and the front desk voicemail. We compare the three each month and fix whichever one is wrong, because a patient who arrives at a locked door leaves a review about it."}, {"type": "p", "text": "We work with primary care and mental health practices only, and we do not promise a specific position in the map results."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
