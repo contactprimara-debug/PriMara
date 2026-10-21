@@ -32,10 +32,16 @@ const HHS_1557 = {
   label: "Section 1557 nondiscrimination and language access",
   href: "https://www.hhs.gov/civil-rights/for-individuals/section-1557/index.html",
 };
-const FTC_ADS = {
-  publisher: "Federal Trade Commission",
-  label: "Advertising and marketing guidance for businesses",
-  href: "https://www.ftc.gov/business-guidance/advertising-marketing",
+const UNITED_WAY_211 = { publisher: "211", label: "211.org community resource lookup", href: "https://www.211.org/" };
+const MEDICARE_AWV = {
+  publisher: "Medicare.gov",
+  label: "Yearly wellness visits",
+  href: "https://www.medicare.gov/coverage/yearly-wellness-visits",
+};
+const CMS_NOSURPRISES_HOME = {
+  publisher: "Centers for Medicare & Medicaid Services",
+  label: "No Surprises Act overview",
+  href: "https://www.cms.gov/nosurprises",
 };
 const FCC_TEXTS = {
   publisher: "Federal Communications Commission",
@@ -95,7 +101,7 @@ const CMS_NOSURPRISES = {
 const HEALTHCARE_PREVENTIVE = {
   publisher: "HealthCare.gov",
   label: "Preventive care benefits for adults",
-  href: "https://www.healthcare.gov/preventive-care-benefits/adults/",
+  href: "https://www.healthcare.gov/preventive-care-benefits/",
 };
 const HRSA_FIND = {
   publisher: "Health Resources and Services Administration",
@@ -407,7 +413,7 @@ export const guidesPartTwentySix: Guide[] = [
         a: "Give the 988 Lifeline and 911 on the page and in the voicemail, and tell the front desk to give the same information on the phone. The office is not a crisis service and should say so clearly without alarming the caller.",
       },
     ],
-    citations: [LIFELINE, NIMH_HELP, FTC_ADS],
+    citations: [LIFELINE, NIMH_HELP, SAMHSA],
     links: [
       { href: "/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims", label: "Teen Therapy Page", description: "Consent and privacy for parents." },
       { href: "/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims", label: "College Student Counseling", description: "A page for older students." },
@@ -606,7 +612,7 @@ export const guidesPartTwentySix: Guide[] = [
         a: "Choose one or two trained people, usually the practice manager and a billing lead, so every patient hears the same explanation. Write a short script, keep the conversation private and record the decision in the billing system, not the clinical chart.",
       },
     ],
-    citations: [CMS_NOSURPRISES, HRSA_FIND, FTC_ADS],
+    citations: [CMS_NOSURPRISES, HRSA_FIND, UNITED_WAY_211],
     links: [
       { href: "/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website", label: "Publishing Self-Pay Prices", description: "Show a price list the right way." },
       { href: "/guides/billing-and-payment-questions-page-for-a-medical-practice", label: "Billing And Payment Page", description: "Answer the common questions." },
@@ -840,7 +846,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["Problem-focused", "Looking at a new or ongoing concern, such as pain or a symptom that has changed. Usually subject to a copay, deductible or coinsurance under the plan."]
       ),
       p(
-        "The table is a general picture, not a promise. Plans differ, and what counts as preventive is defined by the plan. The page should say so and send patients to their insurer for details. The healthcare.gov list of [preventive care benefits](https://www.healthcare.gov/preventive-care-benefits/adults/) is a useful neutral reference for the services plans must cover."
+        "The table is a general picture, not a promise. Plans differ, and what counts as preventive is defined by the plan. The page should say so and send patients to their insurer for details. The healthcare.gov list of [preventive care benefits](https://www.healthcare.gov/preventive-care-benefits/) is a useful neutral reference for the services plans must cover."
       ),
       h2("When one appointment becomes two charges"),
       p(
@@ -893,7 +899,7 @@ export const guidesPartTwentySix: Guide[] = [
         a: "The scheduler should mention it when booking a checkup, the page should repeat it, and the check-in staff should know the answer. A single script used by all three keeps the explanation consistent and avoids contradictions.",
       },
     ],
-    citations: [HEALTHCARE_PREVENTIVE, CMS_NOSURPRISES, FTC_ADS],
+    citations: [HEALTHCARE_PREVENTIVE, MEDICARE_AWV, CMS_NOSURPRISES_HOME],
     links: [
       { href: "/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website", label: "Visit Types And Lengths", description: "Describe each appointment clearly." },
       { href: "/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims", label: "Annual Wellness Visit Page", description: "The Medicare checkup version." },
@@ -1292,7 +1298,7 @@ export const guidesPartTwentySix: Guide[] = [
         a: "Keep it. After the date passes, convert it to a recap and link to your next event. The address, links and history have value, and deleting the page causes broken links on partner sites.",
       },
     ],
-    citations: [HEALTHFINDER, HHS_PRIVACY, FTC_ADS],
+    citations: [HEALTHFINDER, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn", label: "Local Sponsorships And Events", description: "The links events can earn." },
       { href: "/guides/social-media-accounts-for-a-medical-practice-what-to-post-and-what-never-to-post", label: "Social Media Do And Don't", description: "What to post from an event." },
@@ -1483,7 +1489,7 @@ export const guidesPartTwentySix: Guide[] = [
         a: "Be cautious. Professional endorsements can raise ethics and advertising questions. Ask for feedback on the process, not a public statement, and check with a compliance advisor before publishing anything from a colleague.",
       },
     ],
-    citations: [HHS_TPO, HHS_PRIVACY, FTC_ADS],
+    citations: [HHS_TPO, HHS_PRIVACY, HHS_MIN_NECESSARY],
     links: [
       { href: "/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you", label: "Referral Partner Page", description: "How other offices find you." },
       { href: "/guides/getting-listed-in-a-hospital-or-health-system-provider-directory", label: "Hospital Provider Directories", description: "Be easy to find for referrals." },
@@ -1579,7 +1585,7 @@ export const guidesPartTwentySix: Guide[] = [
         a: "Explain how the office books related patients, such as back-to-back times or one clinician for everyone, and note the ages each clinician sees. The front desk can then arrange the best match when the family calls.",
       },
     ],
-    citations: [HEALTHCARE_PREVENTIVE, GOOGLE_HELPFUL, FTC_ADS],
+    citations: [HEALTHCARE_PREVENTIVE, MEDICARE_AWV, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page", label: "Choosing A Provider", description: "Show clinicians fairly." },
       { href: "/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice", label: "Transferring Care", description: "Help patients who are switching." },
