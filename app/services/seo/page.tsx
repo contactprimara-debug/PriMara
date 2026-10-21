@@ -292,8 +292,8 @@ export default function SEOServicePage() {
               this infrastructure daily. Primara levels that field without charging hospital-system rates.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginTop: "20px" }}>
-              Our newer AI search work is also written up for local markets, with separate pages for <Link href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. The website itself matters too, which is why we also cover <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medical practice website design</Link>.
-            </p>
+              Our newer AI search work is also written up for local markets, with separate pages for <Link href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. The website itself matters too, which is why we also cover <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medical practice website design</Link>. Medical SEO is also written up market by market, including a page for practices in <Link href="/locations/medical-seo-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Lakeland and Polk County</Link> and one for our home market of <Link href="/locations/medical-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>West Palm Beach</Link>.
+          </p>
           </div>
         </div>
       </section>

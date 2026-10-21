@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/medical-website-design-florida`;
 
@@ -203,6 +204,12 @@ export default function MedicalWebsiteDesignFloridaPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Where The Website Fits"
+        heading="A website is one of several places a patient checks before calling."
+        blocks={[{"type": "p", "text": "Before calling, a patient usually looks at more than the website: the Business Profile, the reviews and sometimes a directory listing. The site should agree with all of them, with the same hours, the same phone number and the same list of services, so that nothing makes a patient hesitate."}, {"type": "h3", "text": "What we keep consistent"}, {"type": "ul", "items": ["Hours, including holidays and storm closures.", "The phone number and address, written the same way everywhere.", "Whether the practice is accepting new patients, and for which providers.", "The services listed, in the words patients actually search."]}, {"type": "pl", "parts": ["For a single-market example, see how we approach ", {"href": "/locations/medical-website-design-west-palm-beach", "text": "medical website design in West Palm Beach"}, ", where the agency and the practice are in the same market, and how the site connects to ", {"href": "/locations/gbp-optimization-florida", "text": "Google Business Profile optimization across Florida"}, "."]}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

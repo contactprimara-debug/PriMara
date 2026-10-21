@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/google-ads-management-west-palm-beach`;
 
@@ -66,7 +67,7 @@ const faqs = [
   },
   {
     q: "How much does Google Ads cost for a West Palm Beach practice?",
-    a: "Ad spend varies by specialty and competition. In most primary care markets, expect a minimum effective budget of $800–$1,500/month in ad spend plus Primara's management fee. Mental health markets are often less competitive. We provide a market analysis before recommending a budget.",
+    a: "In most primary care markets, expect a minimum effective budget of $800–$1,500 a month in ad spend plus Primara's management fee. In West Palm Beach the winter months can justify a larger monthly budget than the summer, so we usually plan the year in two parts and review the split after the first quarter. We provide a market analysis before recommending a figure.",
   },
   {
     q: "Should my practice run Search Ads or Local Service Ads?",
@@ -76,7 +77,7 @@ const faqs = [
     q: "Is HIPAA compliance an issue with Google Ads?",
     a: "It can be. Standard conversion tracking implementations can inadvertently capture search queries or URL parameters that contain health-related information, which may constitute PHI under HIPAA. Primara configures all tracking to count conversion events without capturing the content of those events.",
   },
-  { q: "Is there a long-term contract?", a: "No long-term contracts. Month-to-month after initial campaign setup. Setup typically takes 7–10 days from signed agreement to first live ad. Every engagement gets a monthly report so you can see exactly what changed and why. This is one of the items we walk through personally with every new practice." },
+  { q: "Is there a long-term contract?", a: "No long-term contracts. Service is month-to-month after initial campaign setup, which typically takes 7–10 days from signed agreement to first live ad. Every engagement gets a monthly report showing what changed and why, and we walk new practices through the first report on a call instead of just sending it. Everything is put in writing before you commit." },
 ];
 
 const faqSchema = {
@@ -220,6 +221,12 @@ export default function GoogleAdsManagementWestPalmBeachPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Home Market"
+        heading="Running ads in the market where the agency is based."
+        blocks={[{"type": "p", "text": "Primara works from West Palm Beach, which changes the setup in one practical way: we can check the things an ad account depends on against the real streets. The address shown in the ads, the entrance patients use and the drive between your office and a neighborhood are things we can verify in person instead of assuming from a map."}, {"type": "h3", "text": "Seasonal residents and the winter months"}, {"type": "p", "text": "Palm Beach County has residents who live here only part of the year, and many of them look for a local doctor soon after they arrive. We plan the budget around that, so spend is not flat across the year, and we make sure the ads, the Business Profile and the website all say whether the practice is accepting new patients before the season starts."}, {"type": "h3", "text": "Neighborhoods and neighboring cities"}, {"type": "p", "text": "A West Palm Beach practice draws from downtown and the waterfront, Northwood, SoSo and Flamingo Park, and from neighboring cities such as Lake Worth Beach, Greenacres and Royal Palm Beach. We usually start with one ad group for the neighborhoods closest to the office and add each neighboring city as its own ad group, so you can see which one pays for itself. Where a neighborhood has many Spanish-speaking households, a Spanish-language ad group is worth testing."}, {"type": "h3", "text": "Storm season"}, {"type": "p", "text": "Hurricane season runs from June 1 to November 30. If the office closes for a storm, ads that keep sending calls to a closed office waste money and frustrate patients. We agree a short procedure in advance: who tells us, how quickly we pause or adjust the schedule, and what the call extension and voicemail say until the office reopens."}, {"type": "h3", "text": "What we check from here"}, {"type": "ul", "items": ["That the address and entrance in the ads and call extension match the real building.", "Which neighboring cities deserve a separate ad group, and which are better left out.", "That the front desk answers during the hours the ads are scheduled to run.", "That the phone number is the same on the ads, the Business Profile and the website."]}, {"type": "pl", "parts": ["Ads send people to a profile and a website that have to hold up, so we also write about ", {"href": "/locations/gbp-optimization-west-palm-beach", "text": "Google Business Profile optimization"}, ", ", {"href": "/locations/medical-seo-west-palm-beach", "text": "medical SEO"}, " and ", {"href": "/locations/review-generation-west-palm-beach", "text": "review generation"}, " for West Palm Beach practices, and about the statewide ", {"href": "/locations/google-ads-management-florida", "text": "Google Ads management for Florida practices"}, "."]}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

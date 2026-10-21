@@ -297,8 +297,8 @@ export default function GoogleAdsPage() {
               without creating compliance exposure.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginTop: "20px" }}>
-              Search ads capture demand that already exists. For practices that need to create it, we also run <Link href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management for independent practices</Link>. A campaign only pays off when <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>the practice website</Link> is built to turn those clicks into booked visits.
-            </p>
+              Search ads capture demand that already exists. For practices that need to create it, we also run <Link href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management for independent practices</Link>. A campaign only pays off when <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>the practice website</Link> is built to turn those clicks into booked visits. Budgets and targeting are set per market, and the approach is written up for <Link href="/locations/google-ads-management-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Google Ads management in West Palm Beach</Link>, <Link href="/locations/google-ads-management-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link href="/locations/google-ads-management-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
+          </p>
           </div>
         </div>
       </section>

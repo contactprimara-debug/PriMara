@@ -2,10 +2,14 @@
 // thin /locations/ pages to the PAGE-STANDARD word floor with unique, service-specific copy.
 // Same visual language as the surrounding sections; never more than 4 consecutive <p> (walls gate).
 
+import Link from "next/link";
+
 export type DepthBlock =
   | { type: "h3"; text: string }
   | { type: "p"; text: string }
-  | { type: "ul"; items: string[] };
+  | { type: "ul"; items: string[] }
+  // A paragraph with in-sentence links: parts are plain strings or { href, text } links.
+  | { type: "pl"; parts: (string | { href: string; text: string })[] };
 
 export default function LocationDepth({
   eyebrow,
@@ -31,6 +35,18 @@ export default function LocationDepth({
               <h3 key={i} style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.3, margin: "32px 0 12px" }}>
                 {b.text}
               </h3>
+            ) : b.type === "pl" ? (
+              <p key={i} style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
+                {b.parts.map((part, j) =>
+                  typeof part === "string" ? (
+                    <span key={j}>{part}</span>
+                  ) : (
+                    <Link key={j} href={part.href} style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                      {part.text}
+                    </Link>
+                  )
+                )}
+              </p>
             ) : b.type === "p" ? (
               <p key={i} style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "20px" }}>
                 {b.text}

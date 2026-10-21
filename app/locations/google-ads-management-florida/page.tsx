@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/google-ads-management-florida`;
 
@@ -220,6 +221,12 @@ export default function GoogleAdsManagementFloridaPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Across The State"
+        heading="How budgets and targeting differ between Florida markets."
+        blocks={[{"type": "p", "text": "Florida is several markets with one state name. South Florida (Miami-Dade, Broward and Palm Beach), the Tampa Bay area, Central Florida around Orlando and Northeast Florida around Jacksonville each have their own mix of hospital systems, population and search habits, and an account that treats them alike spends money in the wrong places."}, {"type": "h3", "text": "What we adjust market by market"}, {"type": "ul", "items": ["Budget: a click costs more where more practices compete, so the same budget buys fewer clicks in a large metro than in a smaller city.", "Language: in parts of South Florida, a Spanish-language ad group can be worth testing next to the English one.", "Seasonal residents: markets with winter residents need budget and messaging that rise before the season, not after it.", "Hurricane season: every coastal market needs a plan for pausing or adjusting ads if the office closes."]}, {"type": "h3", "text": "Where we are based"}, {"type": "p", "text": "We work from West Palm Beach and run accounts remotely for practices statewide. For a practice outside our home market we ask for a few things only someone on site can confirm, such as the entrance, the parking and the hours the front desk really answers the phone. We keep that list in writing so it stays accurate when something changes."}, {"type": "pl", "parts": ["If you serve a single city, our pages on ", {"href": "/locations/google-ads-management-west-palm-beach", "text": "Google Ads management in West Palm Beach"}, " and ", {"href": "/locations/google-ads-management-lakeland", "text": "Google Ads management in Lakeland"}, " show how a one-market account is set up, from location targeting to the way the budget is paced."]}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

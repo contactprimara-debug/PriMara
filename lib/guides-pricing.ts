@@ -667,7 +667,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The third is paying for a redesign when the problem is content. If your site loads fast, works on a phone, and converts the visitors it gets, a redesign will not increase patient volume. More pages and better local signals will. Insist that any quote includes a responsive build, since [mobile-first indexing](/guides/mobile-first-indexing-explained-for-a-medical-practice-website) means Google reads the phone version of your pages.",
+        text: "The third is paying for a redesign when the problem is content. If your site loads fast, works on a phone, and converts the visitors it gets, a redesign will not increase patient volume. More pages and better local signals will. Insist that any quote includes a responsive build, since [mobile-first indexing](/guides/mobile-first-indexing-explained-for-a-medical-practice-website) means Google reads the phone version of your pages. For Florida practices, the way we scope a build is described on our pages for [medical website design in West Palm Beach](/locations/medical-website-design-west-palm-beach) and [medical website design across Florida](/locations/medical-website-design-florida).",
       },
       {
         type: "h2",

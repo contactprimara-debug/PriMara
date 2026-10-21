@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/google-ads-management-lakeland`;
 
@@ -66,7 +67,7 @@ const faqs = [
   },
   {
     q: "How much does Google Ads cost for a Lakeland practice?",
-    a: "Ad spend varies by specialty and competition. In most primary care markets, expect a minimum effective budget of $800–$1,500/month in ad spend plus Primara's management fee. Mental health markets are often less competitive. We provide a market analysis before recommending a budget.",
+    a: "In most primary care markets, expect a minimum effective budget of $800–$1,500 a month in ad spend plus Primara's management fee. Lakeland is a mid-sized market, so before recommending a number we check the real monthly search volume for your specialty, and we will tell you if a smaller budget is enough or if paid search should wait until the Business Profile is stronger.",
   },
   {
     q: "Should my practice run Search Ads or Local Service Ads?",
@@ -76,7 +77,7 @@ const faqs = [
     q: "Is HIPAA compliance an issue with Google Ads?",
     a: "It can be. Standard conversion tracking implementations can inadvertently capture search queries or URL parameters that contain health-related information, which may constitute PHI under HIPAA. Primara configures all tracking to count conversion events without capturing the content of those events.",
   },
-  { q: "Is there a long-term contract?", a: "No long-term contracts. Month-to-month after initial campaign setup. Setup typically takes 7–10 days from signed agreement to first live ad. You can ask about your specific practice on a free audit call before deciding anything. We put this in writing before you commit to anything, so there are no surprises later." },
+  { q: "Is there a long-term contract?", a: "No long-term contracts. Service is month-to-month after initial campaign setup, which typically takes 7–10 days from signed agreement to first live ad. For a Lakeland practice the first month is mostly measurement: we watch which neighborhoods and which searches produce calls, then move the budget toward them. Everything is put in writing before you commit." },
 ];
 
 const faqSchema = {
@@ -220,6 +221,12 @@ export default function GoogleAdsManagementLakelandPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Working The I-4 Corridor"
+        heading="How we set up a Lakeland account, and what we ask of the practice."
+        blocks={[{"type": "p", "text": "Lakeland sits on the I-4 corridor between Tampa and Orlando, so a patient's search area does not stop at the city line. Someone who lives in South Lakeland may work in Winter Haven or Plant City, and a commuter heading toward Tampa may search for a doctor near the office instead of near home. We set location targeting around the neighborhoods you want to serve, such as Dixieland, South Lakeland, Grasslands and the streets around Lake Hollingsworth, then review which areas actually produce calls."}, {"type": "h3", "text": "Who the ads compete with"}, {"type": "p", "text": "Searches for a doctor in Lakeland also surface Lakeland Regional Health, Watson Clinic, Orlando Health Watson Clinic Lakeland Highlands Hospital and BayCare. An independent practice rarely wins a bidding contest against a health system on that system's own name, so we do not build the account around those names. It is built around the plain searches a patient types when they need an appointment, and around reasons a patient might pick a smaller practice: a shorter wait, a familiar clinician, and an office close to home."}, {"type": "h3", "text": "Settings that matter in a mid-sized market"}, {"type": "ul", "items": ["Location targeting set to people in or regularly in the area, not people merely researching Lakeland from elsewhere.", "Negative keywords for job-seeker searches, hospital-employee searches and medical-records requests, none of which becomes a new patient.", "A call extension showing the office hours, since many Lakeland searches happen on a phone and end in a call.", "An ad schedule matched to when the front desk can answer, so a click at 9 p.m. does not ring through to voicemail."]}, {"type": "h3", "text": "Budget in a smaller market"}, {"type": "p", "text": "Lakeland is a smaller market than Tampa or Orlando, which usually means fewer bidders on the searches that matter. That can make a modest budget go further, but it also caps how many searches exist each month. We check the real search volume for your specialty before recommending a budget, and we tell you plainly if the volume is too small to justify paid search on its own, in which case the money is better spent on the Business Profile first."}, {"type": "pl", "parts": ["Paid search works best next to a complete Business Profile, so most Lakeland practices that run ads also need ", {"href": "/locations/gbp-optimization-lakeland", "text": "Google Business Profile optimization in Lakeland"}, " and the organic work described under ", {"href": "/locations/medical-seo-lakeland", "text": "medical SEO in Lakeland"}, ". The same campaign structure at statewide scale is explained on our ", {"href": "/locations/google-ads-management-florida", "text": "Florida Google Ads page"}, "."]}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

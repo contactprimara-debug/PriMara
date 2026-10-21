@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/medical-website-design-west-palm-beach`;
 
@@ -214,6 +215,12 @@ export default function MedicalWebsiteDesignWestPalmBeachPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="Home Market"
+        heading="What it means to build a site in the market we work from."
+        blocks={[{"type": "p", "text": "Primara works from West Palm Beach, so for a practice here we can check the website against the real building: the address, the entrance, the parking and the neighborhood names used on the pages. Errors of that kind survive for years on sites built remotely, because nobody who wrote the page has stood on the street."}, {"type": "h3", "text": "Neighborhood pages that say something"}, {"type": "p", "text": "A page about a neighborhood is only useful if it tells a patient something, such as which side of the county the office is on and how people usually reach it. We write them only where the practice really draws patients and skip the rest, so the site does not fill up with near-identical pages."}, {"type": "pl", "parts": ["The site is one layer next to ", {"href": "/locations/gbp-optimization-west-palm-beach", "text": "Google Business Profile optimization"}, " and ", {"href": "/locations/medical-seo-west-palm-beach", "text": "medical SEO"}, " in West Palm Beach, and the statewide version of this work is on our page for ", {"href": "/locations/medical-website-design-florida", "text": "medical website design across Florida"}, "."]}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

@@ -215,7 +215,7 @@ export default function ReputationPage() {
             care practices.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            Review work looks different by practice type, so the same approach is written up for <Link href="/primary-care" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>primary care practices</Link> and <Link href="/mental-health" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>mental health practices</Link>, alongside our <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation guide for Florida practices</Link>.
+            Review work looks different by practice type, so the same approach is written up for <Link href="/primary-care" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>primary care practices</Link> and <Link href="/mental-health" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>mental health practices</Link>, alongside our <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation guide for Florida practices</Link>. The same review process, run in the market where our team is based, is described on our page for <Link href="/locations/review-generation-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation in West Palm Beach</Link>.
           </p>
         </div>
       </section>

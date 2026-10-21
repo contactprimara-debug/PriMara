@@ -248,7 +248,7 @@ export default function WebsiteDesignPage() {
             <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>After the domain cutover we submit the sitemap, watch Search Console for crawl errors, and check that calls and form leads are being counted. You get a short written note on what we found.</p>
           </div>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            Ongoing ranking work then continues under <Link href="/services/seo" style={{ color: "var(--color-gold)" }}>medical practice SEO</Link>, and the site feeds your <Link href="/services/google-business-profile" style={{ color: "var(--color-gold)" }}>Google Business Profile</Link>.
+            Ongoing ranking work then continues under <Link href="/services/seo" style={{ color: "var(--color-gold)" }}>medical practice SEO</Link>, and the site feeds your <Link href="/services/google-business-profile" style={{ color: "var(--color-gold)" }}>Google Business Profile</Link>. Market by market, the website work is described on our pages for <Link href="/locations/medical-website-design-west-palm-beach" style={{ color: "var(--color-gold)" }}>medical website design in West Palm Beach</Link> and <Link href="/locations/medical-website-design-florida" style={{ color: "var(--color-gold)" }}>medical website design across Florida</Link>.
           </p>
         </div>
       </section>
