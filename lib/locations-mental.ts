@@ -23,7 +23,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Miami, FL | Primara",
     metaDescription:
-      "Primara helps Miami therapists rank on Google Maps, cut through Psychology Today saturation, and attract private-pay patients in Brickell, Coral Gables, and beyond.",
+      "Primara helps Miami therapists rank on Google Maps, stand out from Psychology Today, and attract private-pay clients in Brickell and Coral Gables.",
     h1: "Therapist Marketing in Miami, FL",
     intro:
       "Miami's mental health market is one of the most competitive in Florida — and also one of the most lucrative for private-pay therapists who know how to stand out. With more than 800 active Psychology Today listings in the Miami metro area, directory presence alone is no longer a growth strategy. Therapists in Brickell, Coral Gables, and Coconut Grove who invest in Google Business Profile optimization and local SEO are capturing high-intent patient searches that directory listings simply cannot reach.",
@@ -65,7 +65,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Fort Lauderdale, FL | Primara",
     metaDescription:
-      "Primara helps Fort Lauderdale therapists dominate Google Maps, bypass Medicaid fee schedule pressure, and attract private-pay patients across Broward County.",
+      "Primara helps Fort Lauderdale therapists rank on Google Maps and attract private-pay clients across Broward County, beyond Medicaid fee schedules.",
     h1: "Therapist Marketing in Fort Lauderdale, FL",
     intro:
       "Fort Lauderdale's mental health market is defined by two competing forces: heavy managed care penetration throughout Broward County, and a growing consumer health consciousness driven in part by Cleveland Clinic's arrival in the region. Private-pay therapists who rank prominently on Google Maps bypass insurance panel fee schedules entirely, attracting patients who prioritize therapist fit over network membership. Wilton Manors, Flagler Village, and Las Olas are generating consistent organic therapy demand that rewards visibility over directory presence.",
@@ -107,7 +107,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Boca Raton, FL | Primara",
     metaDescription:
-      "Primara helps Boca Raton therapists attract premium private-pay patients, outrank insurance-panel directories, and dominate Google Maps in Palm Beach County.",
+      "Primara helps Boca Raton therapists rank on Google Maps, outrank insurance-panel directories, and attract private-pay clients in Palm Beach County.",
     h1: "Therapist Marketing in Boca Raton, FL",
     intro:
       "Boca Raton is one of the strongest private-pay therapy markets in South Florida, with median household incomes above $75,000 and a patient population that actively seeks out premium, out-of-network mental health care. The challenge for therapists in Boca is not patient demand — it is visibility. Psychology Today's Boca Raton listings skew heavily toward insurance-panel therapists, and private-pay practices without a strong Google presence are invisible to the high-net-worth patients most likely to pay full session rates. A Google Business Profile optimized for Boca Raton's specific search landscape changes that equation entirely.",
@@ -149,7 +149,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in West Palm Beach, FL | Primara",
     metaDescription:
-      "Primara helps West Palm Beach therapists rank on Google Maps, serve both high-net-worth and underserved patients, and attract trauma and addiction counseling referrals in Palm Beach County.",
+      "Primara helps West Palm Beach therapists rank on Google Maps and reach clients seeking trauma and addiction counseling across Palm Beach County.",
     h1: "Therapist Marketing in West Palm Beach, FL",
     intro:
       "West Palm Beach presents a uniquely bifurcated therapy market: high-net-worth private-pay patients from the Palm Beach Island adjacent corridors, and a substantial underserved inland population generating strong demand for trauma therapy, addiction counseling, and community mental health services near the VA Medical Center. Independent therapists who can navigate both segments — and who show up on Google for the specific searches each population generates — are positioned to build practices with consistent patient flow and strong referral networks.",
@@ -191,7 +191,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Palm Beach Gardens, FL | Primara",
     metaDescription:
-      "Primara helps Palm Beach Gardens therapists outrank behavioral health chains, attract PGA Corridor executives, and build Google visibility across northern Palm Beach County.",
+      "Primara helps Palm Beach Gardens therapists outrank behavioral health chains, reach PGA Corridor professionals, and rank in northern Palm Beach County.",
     h1: "Therapist Marketing in Palm Beach Gardens, FL",
     intro:
       "Palm Beach Gardens combines affluent insured demographics with growing competition from large behavioral health chains expanding into northern Palm Beach County. Independent therapists in PBG who compete on local search visibility — rather than brand recognition or insurance panel breadth — are well positioned to attract the corporate executive and professional patient population that prioritizes discretion, scheduling flexibility, and therapeutic fit over network participation. The PGA Boulevard corridor and adjacent communities represent a premium private-pay therapy market that rewards Google presence over directory listings.",
@@ -233,7 +233,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Delray Beach, FL | Primara",
     metaDescription:
-      "Primara helps Delray Beach therapists dominate local search in Florida's recovery capital — addiction counselors, trauma specialists, and dual-diagnosis practices.",
+      "Primara helps Delray Beach therapists rank in local search for addiction, trauma, and dual-diagnosis counseling in Florida's recovery capital.",
     h1: "Therapist Marketing in Delray Beach, FL",
     intro:
       "Delray Beach is widely known as the recovery capital of Florida, hosting one of the largest concentrations of sober living facilities, outpatient treatment programs, and addiction-adjacent therapy practices in the country. This creates both enormous patient demand and intense local search competition — especially for therapists specializing in trauma, addiction, dual-diagnosis, and relationship issues. The Atlantic Avenue corridor additionally generates strong young professional therapy demand that runs parallel to the recovery community, creating a multi-segment market where Google visibility determines which practices fill their schedules and which ones don't.",
@@ -275,7 +275,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Miami Beach, FL | Primara",
     metaDescription:
-      "Primara helps Miami Beach therapists rank on Google Maps, reach LGBTQ+ and Spanish-speaking patients, and compete with Psychology Today saturation. Call (561) 291-2681.",
+      "Primara helps Miami Beach therapists rank on Google Maps and reach LGBTQ+ and Spanish-speaking clients beyond Psychology Today's crowded listings.",
     h1: "Therapist Marketing in Miami Beach, FL",
     intro:
       "Miami Beach's mental health market is one of the most demographically layered in South Florida — a city of permanent residents, seasonal visitors, tourism industry workers, and one of Florida's most visible LGBTQ+ communities compressed into a narrow barrier island where Psychology Today listings are dense, competition is high, and private-pay therapy rates are among the strongest in the state. Independent therapists here who compete on local search visibility rather than directory placement are capturing high-intent patients from South Beach to Surfside before those patients ever open a directory app.",
@@ -317,7 +317,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Coral Gables, FL | Primara",
     metaDescription:
-      "Primara helps Coral Gables therapists attract private-pay Latin professional patients, rank above Psychology Today, and build Google visibility near UM. Call (561) 291-2681.",
+      "Primara helps Coral Gables therapists attract private-pay clients, rank above Psychology Today listings, and build Google visibility near UM.",
     h1: "Therapist Marketing in Coral Gables, FL",
     intro:
       "Coral Gables is one of the strongest boutique private-pay therapy markets in South Florida — an affluent, university-adjacent city with a predominantly Latin professional population that has both the financial means and the cultural inclination toward private mental health care and genuinely limited GBP competition relative to Miami proper. Independent therapists in Coral Gables who invest in Google Business Profile optimization and local search infrastructure can achieve Local Pack prominence at a fraction of the effort required in Miami, Fort Lauderdale, or Boca Raton, while serving a patient demographic that pays full private-pay rates and tends to stay in therapy long-term.",
@@ -359,7 +359,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Aventura, FL | Primara",
     metaDescription:
-      "Primara helps Aventura therapists reach bilingual Jewish and Latin patients, capture snowbird surges, and rank on Google Maps year-round. Call (561) 291-2681.",
+      "Primara helps Aventura therapists reach bilingual clients, capture the winter snowbird surge, and rank on Google Maps year-round. Call (561) 291-2681.",
     h1: "Therapist Marketing in Aventura, FL",
     intro:
       "Aventura's private-pay therapy market is defined by two overlapping patient populations that create year-round demand with a November-to-April intensity spike: an affluent, predominantly bilingual Jewish and Latin American residential base that prioritizes therapeutic quality and therapist fit, and a seasonal snowbird cohort of Northeast transplants who arrive needing immediate mental health care and tend to make quick provider decisions based on Google visibility. Independent therapists in Aventura who build a strong local search presence before October are positioned to capture new patients at the precise moment demand peaks — and to convert seasonal patients into year-round telehealth clients.",
@@ -401,7 +401,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Pembroke Pines, FL | Primara",
     metaDescription:
-      "Primara helps Pembroke Pines therapists rank on Google Maps, serve families and retirees, and build private-pay visibility in South Broward. Call (561) 291-2681.",
+      "Primara helps Pembroke Pines therapists rank on Google Maps, serve families and retirees, and build private-pay visibility across South Broward.",
     h1: "Therapist Marketing in Pembroke Pines, FL",
     intro:
       "Pembroke Pines is a large, diverse suburban market where therapy demand comes from three distinct patient populations that don't always search the same way: the Century Village retiree community, which generates steady demand for grief, anxiety, and life-transition therapy; the city's growing young-professional and family demographic in Chapel Trail and Silver Lakes, which searches for anxiety, couples, and family therapy; and a moderate-income working-family base that is underserved by private-pay therapists and represents a significant opportunity for practices willing to offer a mix of sliding scale and insurance-accepted slots. Independent therapists in Pembroke Pines who build a strong Google presence capture patients from all three segments before they land on a directory listing.",
@@ -443,7 +443,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Hollywood, FL | Primara",
     metaDescription:
-      "Primara helps Hollywood, FL therapists reach diverse patients, rank on Google Maps, and build private-pay visibility across South Broward. Call (561) 291-2681.",
+      "Primara helps Hollywood, FL therapists reach a diverse community, rank on Google Maps, and build private-pay visibility across South Broward County.",
     h1: "Therapist Marketing in Hollywood, FL",
     intro:
       "Hollywood, Florida's therapy market is among the most demographically complex in South Broward County — where a significant Haitian and Caribbean patient community seeking culturally-specific mental health care, a beachfront wellness demographic of younger professionals, and an established Jewish retiree population all generate distinct therapy search patterns under the same city name. Private-pay therapists in Hollywood who understand how to reach each of these communities through targeted Google visibility are building practices that Psychology Today directories and generic search optimization cannot support. Primara helps Hollywood therapists build the culturally-aware local search infrastructure that converts those searches into scheduled appointments.",
@@ -485,7 +485,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Port St. Lucie, FL | Primara",
     metaDescription:
-      "Primara helps Port St. Lucie therapists rank on Google Maps, serve the Treasure Coast's underserved market, and attract private-pay patients in Tradition. Call (561) 291-2681.",
+      "Primara helps Port St. Lucie therapists rank on Google Maps, serve the Treasure Coast's underserved market, and attract private-pay clients in Tradition.",
     h1: "Therapist Marketing in Port St. Lucie, FL",
     intro:
       "Port St. Lucie is one of the few markets in South Florida where the gap between therapy demand and therapy supply is large enough that a well-positioned independent therapist can fill a full private-pay caseload almost entirely from local search visibility alone. The city's rapid population growth — tens of thousands of new residents per year in planned communities like Tradition, PGA Village, and the Legacy corridor — has created a mental health care access shortage that Psychology Today directories, BetterHelp, and Talkspace have not filled. Patients in Port St. Lucie are searching for local therapists in Google and finding thin, poorly-optimized results. Primara helps Port St. Lucie therapists build the local search infrastructure to capture that high-intent, underserved demand.",
@@ -505,12 +505,16 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
       },
       {
         q: "What's the biggest challenge for a private-pay therapist in Port St. Lucie?",
-        a: "Lucie, Stuart, Fort Pierce, and Vero Beach under a single regional umbrella \u2014 which means patients searching specifically for Port St. Lucie therapists encounter listings from across a 50-mile geographic range. The directory's geographic blurring reduces its utility for PSL-specific patient searches and sends patients who want a genuinely local therapist back to Google Maps, where they search 'therapist Port St. Lucie therapy patients search with community-specific and access-driven intent. High-volume local searches include 'therapist Port St. Lucie,' 'therapist near Tradition FL,' 'anxiety therapist PSL,' 'couples counselor Port St. Lucie,' 'family therapist Treasure Coast,' 'telehealth therapist Port St. Lucie,' 'therapist near PGA Village,' 'counseling near Cleveland Clinic Tradition,' and 'therapist for depression Port St. Lucie FL.' New-resident searches \u2014 'therapist accepting new patients Port St. Lucie,' 'therapist same week Port St. Lucie therapist GBP optimization offers one of the clearest return-on-investment profiles of any mental health market in South Florida. The review benchmark for PSL's therapy local pack is remarkably low \u2014 the top-ranked therapists in Port St. Lucie hold 15\u201335 Google reviews \u2014 meaning that a therapist entering the market with a structured review acquisition system reaches local pack prominence in 60\u201390 days.",
+        a: "Psychology Today's Treasure Coast directory covers Port St. Lucie, Stuart, Fort Pierce, and Vero Beach under one umbrella, so a patient searching for a Port St. Lucie therapist sees listings from across a 50-mile range. That blurring sends patients who want a truly local therapist back to Google Maps, where a well-built Business Profile that names Tradition and PGA Village has the advantage.",
       },
       {
         q: "What areas within Port St. Lucie does this cover?",
         a: "Coverage spans Port St. Lucie, including Tradition Town Square, PGA Village communities and Sawgrass Lakes. Patient search behavior differs by neighborhood, which is why a Port St. Lucie therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
       },
+    {
+      q: "Do you help with telehealth searches across the Treasure Coast?",
+      a: "Yes. The Visibility Package includes telehealth landing pages aimed at the wider Treasure Coast, from Martin County to Indian River County, alongside community pages for Tradition, PGA Village, and Sawgrass Lakes. The Business Profile can also list telehealth as a service, so patients who prefer video sessions find the practice in the same searches.",
+    },
     ],
   },
 
@@ -521,7 +525,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Tampa, FL | Primara",
     metaDescription:
-      "Primara helps Tampa therapists rank on Google Maps, cut through Psychology Today saturation, and attract private-pay patients in Hyde Park, South Tampa, and beyond.",
+      "Primara helps Tampa therapists rank on Google Maps, stand out from Psychology Today, and attract private-pay clients in Hyde Park and South Tampa.",
     h1: "Therapist Marketing in Tampa, FL",
     intro:
       "Tampa's mental health market has grown crowded fast — Psychology Today's Tampa directory now lists more than 500 active therapist profiles, and platforms like BetterHelp and Zocdoc have built out dedicated Tampa search pages of their own. Directory presence alone no longer moves the needle for an independent therapist trying to reach the patients who can pay out of pocket. Therapists in Hyde Park, South Tampa, and the surrounding neighborhoods who invest in Google Business Profile optimization and local SEO are capturing the high-intent \"near me\" searches that a Psychology Today listing, buried among hundreds of competitors, simply cannot reach.",
@@ -563,7 +567,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in St. Petersburg, FL | Primara",
     metaDescription:
-      "Primara helps St. Petersburg therapists rank on Google Maps, cut through Psychology Today saturation, and attract private-pay patients in Downtown St. Pete, Old Northeast, and beyond.",
+      "Primara helps St. Petersburg therapists rank on Google Maps and attract private-pay clients in Downtown St. Pete and Old Northeast. Call (561) 291-2681.",
     h1: "Therapist Marketing in St. Petersburg, FL",
     intro:
       "St. Petersburg's mental health market is growing fast, and the therapists who show up first on Google are the ones capturing the demand. Psychology Today's Saint Petersburg directory now runs to roughly 150-180 active listings across its search pages, and BetterHelp and Zocdoc both maintain dedicated St. Petersburg landing pages of their own — meaning independent therapists are competing with national platforms as well as each other for the same patient searches. Therapists in Downtown St. Pete, Old Northeast, and Snell Isle who invest in Google Business Profile optimization and local SEO are the ones patients actually find, while everyone else waits to be scrolled past on a directory page.",
@@ -587,8 +591,12 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
       },
       {
         q: "What makes St. Petersburg's therapy market different from other Florida cities?",
-        a: "Petersburg therapy patients search with real geographic and demographic specificity. High-intent local searches include phrases like \"therapist in St. Petersburg accepting new patients,\" \"anxiety therapist Old Northeast,\" \"LGBTQ-affirming therapist Grand Central District,\" \"grief counselor St. Pete,\" and \"couples therapist Snell Isle.\" Patients near the Grand Central District and Downtown trend younger and search for identity-affirming and relationship-focused therapy. Patients in Old Northeast, Snell Isle, and Kenwood \u2014 along with St. Google Business Profile optimization for St. Petersburg therapists starts with category selection. Most practices claim only the generic \"Mental Health Service\" category and stop there, leaving behind subordinate categories like \"Psychologist,\" \"Marriage or Relationship Counselor,\" \"Counselor,\" and \"Grief Counselor\" that each carry their own local search ranking signal. A fully optimized St. Petersburg therapist GBP carries multiple relevant categories, services written in the language patients actually search \u2014 \"anxiety therapy St. We work across St. Petersburg, including Downtown St. Pete, Old Northeast and Snell Isle \u2014 not just a single office location. Search intent varies by neighborhood in St. Petersburg, so a St. Petersburg therapist's content has to be built at that same geographic level to show up where patients search.",
+        a: "St. Petersburg has one of the highest senior populations of any major Florida city, and the Grand Central District is the city's LGBTQ+ cultural hub, so therapy searches split into distinct groups: grief and life-transition support for older adults, and identity-affirming care. Directories, BetterHelp, and Zocdoc compete for all of them, which is why separate Business Profile services and pages for each group matter.",
       },
+    {
+      q: "Which St. Petersburg neighborhoods do you cover?",
+      a: "The Visibility Package builds landing pages for Downtown St. Pete, Old Northeast, Snell Isle, Kenwood, and Grand Central, each targeting the search phrases patients in that area use. The Business Profile lists those areas and the services patients ask for, such as grief counseling or LGBTQ-affirming therapy, in their own words.",
+    },
     ],
   },
   {
@@ -597,7 +605,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Clearwater, FL | Primara",
     metaDescription:
-      "Primara helps Clearwater therapists rank on Google Maps, cut through Psychology Today saturation, and attract private-pay patients in Clearwater Beach, Countryside, and beyond.",
+      "Primara helps Clearwater therapists rank on Google Maps, stand out from Psychology Today, and attract clients in Clearwater Beach and Countryside.",
     h1: "Therapist Marketing in Clearwater, FL",
     intro:
       "Clearwater's mental health market sits inside one of Florida's most competitive metro areas — Pinellas County's Psychology Today directory carries more than 2,000 listings, and Clearwater alone accounts for over 400 active therapist profiles. In a market this saturated, a directory listing is no longer enough to reach new patients. Therapists in Countryside, Island Estates, and Belleair who invest in Google Business Profile optimization and local SEO are capturing the high-intent searches that Psychology Today, BetterHelp, and Zocdoc simply can't deliver on their behalf.",
@@ -639,7 +647,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Brandon, FL | Primara",
     metaDescription:
-      "Primara helps Brandon therapists rank on Google Maps, cut through Psychology Today saturation, and attract private-pay patients in Valrico, Riverview, and FishHawk.",
+      "Primara helps Brandon therapists rank on Google Maps, stand out from Psychology Today listings, and attract private-pay clients in Valrico and Riverview.",
     h1: "Therapist Marketing in Brandon, FL",
     intro:
       "Brandon sits just east of Tampa in Hillsborough County and has grown into one of the largest unincorporated communities in the state, with a population above 119,000 and steady annual growth. It's a family-heavy market — nearly 4 in 10 adults have kids under 18 at home, and the median age sits in the late 30s — which means demand for family counseling, child and adolescent therapy, and couples work runs high year-round. Psychology Today's directory returns 300+ therapist listings when a patient searches Brandon, FL, though that count blends providers from across the wider Tampa/Riverview/Valrico search radius rather than Brandon alone. Independent therapists competing inside that blended directory pool need a Google Business Profile and local website presence that a shared metro listing can't provide.",
@@ -681,7 +689,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     state: "FL",
     metaTitle: "Therapist Marketing in Lakeland, FL | Primara",
     metaDescription:
-      "Primara helps Lakeland therapists rank on Google Maps, get found ahead of Psychology Today listings, and attract private-pay patients in Dixieland, South Lakeland, and Grasslands.",
+      "Primara helps Lakeland therapists rank on Google Maps and attract private-pay clients in Dixieland, South Lakeland, and Grasslands. Call (561) 291-2681.",
     h1: "Therapist Marketing in Lakeland, FL",
     intro:
       "Lakeland sits on the I-4 corridor between Tampa and Orlando, and Polk County is now the fastest-growing county in Florida — adding tens of thousands of new residents a year who have no established relationship with a local therapist. Psychology Today's Lakeland directory carries roughly 230 active listings, a fraction of what larger Florida metros like Tampa or Orlando are fighting over, which means an independent therapist who builds a strong Google Business Profile and local SEO presence now can still capture top local-pack visibility before the market fills in. Therapists in Dixieland, South Lakeland, and around Lake Hollingsworth who invest in local search today are positioning themselves ahead of a wave of demand that directory listings alone won't capture.",
@@ -723,7 +731,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist Marketing in Orlando, FL | Primara",
   metaDescription:
-    "Primara helps Orlando therapists rank on Google Maps, cut through Psychology Today saturation, and attract private-pay patients in Winter Park, Lake Nona, and beyond.",
+    "Primara helps Orlando therapists rank on Google Maps, stand out from Psychology Today, and attract private-pay clients in Winter Park and Lake Nona.",
   h1: "Therapist Marketing in Orlando, FL",
   intro:
     "Orlando Health and Acadia Healthcare opened a new 144-bed behavioral health hospital in Apopka in spring 2025 — a clear signal that demand for mental health care in Central Florida is outpacing supply. Nationally, 6 in 10 psychologists weren't accepting new patients as of 2025, and more than 137 million Americans now live in designated mental health provider shortage areas. Independent Orlando therapists who build real Google visibility, rather than relying on a Psychology Today listing, are positioned to capture the private-pay patients that community providers like Aspire Health Partners simply don't have the capacity to see.",
@@ -765,7 +773,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist Marketing in Kissimmee, FL | Primara",
   metaDescription:
-    "Primara helps Kissimmee therapists rank on Google Maps, reach underserved bilingual patients, and grow a private-pay caseload in one of Florida's fastest-growing counties.",
+    "Primara helps Kissimmee therapists rank on Google Maps, reach underserved bilingual clients, and grow a private-pay caseload in Osceola County.",
   h1: "Therapist Marketing in Kissimmee, FL",
   intro:
     "Osceola County has roughly half the number of behavioral health professionals per capita as the Florida state average, even as the four-county Orlando region added nearly 38,000 new residents in the twelve months ending July 2025. Multi-site groups like LifeStance Health and Mindpath Health have opened Kissimmee locations to absorb that demand, and Planned Parenthood of Florida recently began offering free short-term mental health care in Osceola County specifically to help fill the gap. An independent Kissimmee therapist who ranks well on Google Maps is stepping into real, documented unmet need — not fighting over a saturated market.",
@@ -807,7 +815,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist & Counseling Practice Marketing in Winter Park, FL",
   metaDescription:
-    "SEO and Google Business Profile marketing for Winter Park therapists and counseling practices, built to compete as the Counseling Compact opens Florida to out-of-state telehealth providers.",
+    "SEO and Google Business Profile marketing for Winter Park therapists and counseling practices as the Counseling Compact opens Florida to telehealth.",
   h1: "Mental Health Practice Marketing for Winter Park, FL",
   intro:
     "Winter Park has a genuinely competitive private-pay therapy market, with dozens of licensed counselors, psychologists, and psychiatric providers already advertising in the 32789 zip code. The competition just got national: Florida enacted the Counseling Compact in 2022, and as of 2025-2026 it's fully operational, meaning licensed counselors based in other compact states can now get a Privilege to Practice and see Florida clients over telehealth without ever opening a local office. For a Winter Park practice, that turns local search and Google Business Profile visibility from a nice-to-have into the main thing separating you from an out-of-state telehealth counselor a client will never meet in person. Practices that show up first, with real local reviews and a profile that reads as clearly local, keep the in-person and hybrid clients that telehealth-only competitors can't.",
@@ -848,7 +856,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   city: "Altamonte Springs",
   state: "FL",
   metaTitle: "Therapist Marketing in Altamonte Springs, FL | Primara",
-  metaDescription: "Primara helps Altamonte Springs therapists rank on Google Maps, stand out from directory-listed competitors, and attract new clients from the fast-growing Uptown Altamonte area.",
+  metaDescription: "Primara helps Altamonte Springs therapists rank on Google Maps, stand out from directory-listed competitors, and attract clients near Uptown Altamonte.",
   h1: "Therapist Marketing in Altamonte Springs, FL",
   intro:
     "Altamonte Springs already has an established base of mental health practices — Healing Psychiatry of Florida runs a dedicated Altamonte Springs office, Telesto Health operates a physician-run psychiatry practice in the city, and Orlando Thrive Therapy serves the area from its nearby Centre Circle location. What's changing is the patient pool: the Uptown Altamonte apartment boom is bringing a wave of young professional renters into the city core, exactly the demographic most likely to search Google for a therapist rather than rely on a referral.",
@@ -890,7 +898,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist Marketing in Sanford, FL | Primara",
   metaDescription:
-    "Primara helps Sanford, FL therapists rank on Google Maps ahead of Orlando-based competitors, build a private-pay caseload, and grow with one of Seminole County's fastest-growing cities.",
+    "Primara helps Sanford therapists rank on Google Maps ahead of Orlando-based competitors and grow a private-pay caseload in fast-growing Seminole County.",
   h1: "Therapist Marketing in Sanford, FL",
   intro:
     "Sanford's mental health market looks nothing like Orlando's or South Florida's — the directory listings are a fraction as dense, and most searches for 'therapist near me' in Sanford still surface practices based 20 minutes away in Orlando or Lake Mary. That's an opening, not a weakness. Seminole County's population has grown more than 12% since 2020, AdventHealth and Orlando Health have both made major recent investments in the area, and a therapist who anchors their Google Business Profile firmly in Sanford — rather than letting Google default patients to a bigger Orlando practice — can own local search in a market almost nobody has bothered to optimize for yet.",
@@ -930,9 +938,9 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   slug: "jacksonville-therapist-marketing",
   city: "Jacksonville",
   state: "FL",
-  metaTitle: "Therapist & Mental Health Practice Marketing in Jacksonville, FL",
+  metaTitle: "Therapist Marketing in Jacksonville, FL | Primara",
   metaDescription:
-    "Jacksonville has a severe therapist shortage and 48-day average wait times. Primara helps mental health practices rank locally and convert searches into booked sessions.",
+    "Primara helps Jacksonville therapists and mental health practices rank in local search and turn searches into booked sessions. Call (561) 291-2681.",
   h1: "Mental Health Practice Marketing for Jacksonville, FL Therapists",
   intro:
     "Florida ranks 43rd in the nation for mental health provider availability, with roughly one provider for every 490 residents statewide, and current capacity meets only about a quarter of documented need. Local behavioral health leaders discussed the resulting workforce shortage on WJCT's First Coast Connect in March 2026, and patients across Northeast Florida are reporting average wait times near 48 days for an appointment. For a Jacksonville therapy practice, that gap is an opportunity: the demand already exists, and the practices that show up first in local search and can communicate real appointment availability are the ones filling their caseload. Primara builds that visibility so prospective clients find you before they give up and call someone else.",
@@ -974,7 +982,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist Marketing in Jacksonville Beach, FL | Primara",
   metaDescription:
-    "Primara helps Jacksonville Beach therapists rank on Google Maps, stand out from multi-location behavioral health groups and national telehealth platforms, and attract patients in Marsh Landing, Isle of Palms, and Seawalk/Downtown Jacksonville Beach.",
+    "Primara helps Jacksonville Beach therapists rank on Google Maps against group practices and telehealth platforms in Marsh Landing and Seawalk.",
   h1: "Therapist Marketing in Jacksonville Beach, FL",
   intro:
     "Florida is a federally designated mental health professional shortage area, and as of late 2025 roughly 40% of the state's population lived in a shortage zone — yet demand for mental health services nationally is projected to grow 49% by 2033 against only 11% growth in the workforce. Jacksonville Beach feels that gap directly: local practices compete against large multi-location groups like Elite DNA Behavioral Health, which runs a dedicated therapy and psychiatry clinic on Marsh Landing Boulevard, and against national telehealth platforms that Florida's interstate telehealth registration rules make easy to enter the market from out of state. A solo or small-group therapist in Jacksonville Beach needs to win the \"therapist near me\" search locally, because the larger groups already own the ad spend.",
@@ -1016,7 +1024,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist Marketing in St. Augustine, FL | Primara",
   metaDescription:
-    "Primara builds local SEO and Google Business Profiles for therapists and mental health practices in St. Augustine, FL — a fast-growing market still served mostly by small independent practices.",
+    "Primara builds local SEO and Google Business Profiles for St. Augustine therapists in a growing market served mostly by small independent practices.",
   h1: "Therapist & Mental Health Practice Marketing in St. Augustine, FL",
   intro:
     "St. Johns County is the fastest-growing county in Florida, and that growth is outpacing local behavioral health capacity. The therapy market here is still made up mostly of small, independent practices — New Growth Counseling, for example, started with two founders focused on children and families and has since grown into a team of five clinicians. A handful of practices, like Learning to Achieve Wellness, have added higher-acuity services such as TMS therapy and Spravato that most solo counselors don't offer. For a growing county with a fragmented provider base, being the practice that shows up first — and clearly states what insurance you take and what you treat — is a real advantage, not just a nice-to-have.",
@@ -1040,8 +1048,12 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     },
     {
         q: "What makes St. Augustine's therapy market different from other Florida cities?",
-        a: "Augustine therapy patients search with real specificity. High-intent searches include phrases like 'therapist St. Augustine FL accepting new patients,' 'child therapist near Vilano Beach,' 'anxiety counseling St. Augustine Beach,' 'psychiatrist near World Golf Village,' 'marriage counselor St. Johns County,' and 'telehealth therapist St. Augustine FL' \u2014 alongside more specialized searches like 'TMS therapy St. Augustine FL' and 'Spravato provider near me St. Augustine. A compliant, well-maintained GBP \u2014 accurate specialties, accepted insurance, and genuine reviews \u2014 captures searches like 'therapist St. Augustine FL accepting new patients' and 'marriage counselor St. Johns County' in the local map pack, visibility that a Psychology Today listing alone can't surface. Category selection matters as much as the basics: claiming only the generic 'Mental Health Service' category misses subordinate categories that carry their own ranking signal for the specific searches St. We work across St. Augustine, including Vilano Beach, World Golf Village and St. Augustine Beach \u2014 not just a single office location. Search intent varies by neighborhood in St. Augustine, so a St. Augustine therapist's content has to be built at that same geographic level to show up where patients search.",
+        a: "St. Johns County is the fastest-growing county in Florida, and behavioral health capacity has not kept pace, so the market is still mostly small independent practices. Patients search with real specificity, from \"child therapist near Vilano Beach\" to \"TMS therapy St. Augustine FL,\" and many start on Psychology Today, Headway, or Zocdoc before they ever reach a practice's own site.",
       },
+    {
+      q: "Which neighborhoods do you build pages for in St. Augustine?",
+      a: "The Visibility Package includes landing pages for Vilano Beach, World Golf Village, St. Augustine Beach, Murabella, and Historic Downtown, each written around the phrases patients in that area type into Google. The Business Profile gets service entries for insurance and specialty searches, such as TMS therapy or Spravato for practices that offer them.",
+    },
   ],
 },
 {
@@ -1092,7 +1104,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
   state: "FL",
   metaTitle: "Therapist Marketing in Fernandina Beach, FL | Primara",
   metaDescription:
-    "Primara helps Fernandina Beach and Amelia Island therapists rank on Google Maps and attract private-pay patients as Nassau County's population booms.",
+    "Primara helps Fernandina Beach and Amelia Island therapists rank on Google Maps and attract private-pay clients as Nassau County's population grows.",
   h1: "Therapist Marketing in Fernandina Beach, FL",
   intro:
     "Nassau County is one of the fastest-growing counties in Florida — up 14.65% in population between 2020 and 2024, with tens of thousands more residents projected by 2035 as the Wildlight and Yulee corridor fills in. Behavioral health capacity has not kept pace. Fernandina Beach's therapist directory is thin compared to nearby Jacksonville, which means an independent therapist who builds a strong Google Business Profile isn't fighting hundreds of competing listings — they're often one of only a handful of results a new resident finds.",
