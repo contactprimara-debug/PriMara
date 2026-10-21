@@ -144,7 +144,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A college student counseling page should tell a student and a parent who the practice sees, how scheduling works around classes and breaks, what it costs, and how privacy works for an adult child, without promising outcomes or describing treatment. Keep it short, practical and honest about what the office can and cannot do.",
     author: "Liam Costello",
     publishDate: "2026-10-19T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Who is actually reading this page"),
@@ -182,7 +182,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Make it findable without keyword stuffing"),
       p(
-        "Students search with plain phrases, such as therapist near my college or counseling for students. Use those words once in the heading and once in the first paragraph, name the schools or neighborhoods you are close to only if they are true, and keep the Google Business Profile services list consistent with the page, as our guide on the [services list on Google Business Profile](/guides/google-business-profile-services-list-optimization) explains."
+        "Students search with plain phrases, such as therapist near my college or counseling for students. Use those words once in the heading and once in the first paragraph, name the schools or neighborhoods you are close to only if they are true, and keep the Google Business Profile services list consistent with the page, as our guide on the [services list on Google Business Profile](/guides/google-business-profile-services-list-optimization) explains. Students returning in the fall look for openings quickly, so a short [back-to-school availability announcement](/guides/back-to-school-counseling-availability-announcement-for-a-counseling-practice) on the page and the Google profile saves them a phone call."
       ),
       h3("What not to put on the page"),
       ul(
@@ -430,7 +430,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "Provider headshots and team photos should be recent, consistent in style, taken with each person's agreement, compressed for fast loading and given plain alt text with the person's name and role. Check the background for patient information, and replace photos when a person leaves or looks noticeably different.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why a headshot matters more than most pages admit"),
@@ -465,7 +465,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Keep the profile, the website and the bio in step"),
       p(
-        "Use the same photo on the practice's bio page, its Google Business Profile and any provider directories. When a clinician looks different from the photo, patients feel misled before the visit starts. Our guide on a [therapist bio page without clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) shows how the photo and the text should work together."
+        "Use the same photo on the practice's bio page, its Google Business Profile and any provider directories. When a clinician looks different from the photo, patients feel misled before the visit starts. Our guide on a [therapist bio page without clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) shows how the photo and the text should work together. Photos work best when each one sits on a consistent card, and our guide to [choosing a provider on a multi-provider page](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page) shows which facts belong beside the picture."
       ),
       h2("When someone joins, leaves or changes"),
       ol(
@@ -627,7 +627,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A pharmacy and lab partner page tells patients where the office sends prescriptions and lab orders, how to pick a different location, and how to get results, without recommending a product or collecting health information. List locations factually, state that patients may choose their own, and keep the page free of ads and conflicts of interest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why patients look for this page"),
@@ -669,7 +669,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Ask the front desk which five questions they answer most about prescriptions and lab work, and answer exactly those on the page. Typical examples are what to do when a pharmacy says it has no prescription, how long a lab takes to return results and what to bring to a draw. Keep each answer to a couple of sentences and avoid advice about any specific medicine."
       ),
       p(
-        "Connect the page to the rest of the site. A link from the patient portal page, from the new patient information page and from the prescription refill page lets patients find it at the moment they need it. Our guide to a [prescription refill request page without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) covers the related wording, and the [lab results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice) covers timing. Patients without a car often plan the pharmacy or lab stop around a bus route, so pair this with a [transportation and ride assistance page for a primary care practice](/guides/transportation-and-ride-assistance-information-page-for-a-primary-care-practice) that lists routes and drop-off spots."
+        "Connect the page to the rest of the site. A link from the patient portal page, from the new patient information page and from the prescription refill page lets patients find it at the moment they need it. Our guide to a [prescription refill request page without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) covers the related wording, and the [lab results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice) covers timing. Patients without a car often plan the pharmacy or lab stop around a bus route, so pair this with a [transportation and ride assistance page for a primary care practice](/guides/transportation-and-ride-assistance-information-page-for-a-primary-care-practice) that lists routes and drop-off spots. Offices you work with every week, including labs and pharmacies, deserve the same follow-up routine described in our guide to a [referring doctor thank-you and feedback loop](/guides/referring-doctor-thank-you-and-feedback-loop-for-a-primary-care-practice)."
       ),
       h3("Test the page the way a patient would"),
       p(
@@ -720,7 +720,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A community resources page for a counseling practice lists trusted outside services such as crisis lines, support groups and social services, states plainly that the practice does not run or endorse them, and keeps the list short and current. Put the crisis numbers first and review every link on a schedule.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why this page earns its place"),
@@ -759,7 +759,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Link it into the rest of the site"),
       p(
-        "Connect the page to the places where people look for help. Link it from the contact page, from the page that describes your first session, and from your fees page for people who cannot afford sessions right now. Our guide to a [fees page with sliding scale, out-of-network and superbill options](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows how to be honest about cost while pointing to alternatives. Many people who reach this page are looking after a relative, and a [caregiver support counseling page](/guides/caregiver-support-counseling-page-for-a-counseling-practice-without-clinical-claims) is the right place to send them for sessions of their own."
+        "Connect the page to the places where people look for help. Link it from the contact page, from the page that describes your first session, and from your fees page for people who cannot afford sessions right now. Our guide to a [fees page with sliding scale, out-of-network and superbill options](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) shows how to be honest about cost while pointing to alternatives. Many people who reach this page are looking after a relative, and a [caregiver support counseling page](/guides/caregiver-support-counseling-page-for-a-counseling-practice-without-clinical-claims) is the right place to send them for sessions of their own. A primary care office that sends patients your way may want a clear [referral route between primary care and counseling](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) to point to, so keep your intake details on one page."
       ),
       p(
         "The safety block should match the one on every other page. Our guide on an [emergency and crisis resources section for a counseling practice](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) provides the wording, and the community page extends it with ongoing support rather than replacing it."
@@ -1308,12 +1308,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice can earn real local links by sponsoring a school team, a charity run or a community event, as long as it asks for an honest mention on the organizer's own page, never buys links on a site that sells them, and never uses a patient's story or photo. Choose causes the practice would support anyway.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why local links come from local things"),
       p(
-        "Search engines treat a link as a vote of confidence from one site to another. For a medical practice, the votes that matter most come from local organizations that exist in the real world: schools, teams, charities, chambers of commerce and community groups. They are hard to fake, which is why they carry weight. Business groups and chambers of commerce are a natural place to meet employers, and an [employer partnership page for a primary care practice](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) gives them something to link to."
+        "Search engines treat a link as a vote of confidence from one site to another. For a medical practice, the votes that matter most come from local organizations that exist in the real world: schools, teams, charities, chambers of commerce and community groups. They are hard to fake, which is why they carry weight. Business groups and chambers of commerce are a natural place to meet employers, and an [employer partnership page for a primary care practice](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) gives them something to link to. Give each event its own dated page, using the layout in our guide to a [health fair and community education event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice), so partners have something specific to link to."
       ),
       p(
         "They are also earned in a different way from the links a marketing vendor sells. A sponsorship, a donation or a volunteer day is a real act, and the link to the practice's website is a natural thank-you."
@@ -1505,7 +1505,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "When scammers imitate a medical practice by text or email, the practice should tell patients in plain words how it really contacts them, what it will never ask for, and where to report a suspicious message, without describing any individual patient's situation. Post the notice on the website and voicemail and keep it short.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("The problem patients will blame on you"),
@@ -1536,7 +1536,7 @@ export const guidesPartTwentyFour: Guide[] = [
         ["Social profiles", "A pinned post with the same wording."]
       ),
       p(
-        "Our guide on [appointment reminder wording](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows how to keep real reminders recognizable, which is the best defense, since a patient who knows what a genuine message looks like spots a fake faster."
+        "Our guide on [appointment reminder wording](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows how to keep real reminders recognizable, which is the best defense, since a patient who knows what a genuine message looks like spots a fake faster. Patients should also know what a genuine payment text looks like, which we cover in our guide to a [text-to-pay and online bill pay page](/guides/text-to-pay-and-online-bill-pay-page-for-a-medical-practice) for a medical practice."
       ),
       h3("When a patient reports a message"),
       ol(

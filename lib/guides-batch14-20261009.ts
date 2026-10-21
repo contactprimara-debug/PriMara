@@ -15,7 +15,7 @@ export const guidesPartSeventeen: Guide[] = [
   "answer": "A therapy fees page should state each session fee and length, say plainly whether you take insurance or are out of network, explain whether you give superbills clients can submit to their own plan, and describe any sliding scale honestly. Avoid promising reimbursement or outcomes, and update the page whenever rates change.",
   "author": "Liam Costello",
   "publishDate": "2026-10-09T13:00:00Z",
-  "dateModified": "2026-10-19",
+  "dateModified": "2026-10-21",
   "readMinutes": 6,
   "sections": [
     {
@@ -118,7 +118,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Federal rules on good faith estimates can apply to some self-pay clients. Read the official guidance from the Centers for Medicare & Medicaid Services, and ask your own advisor how it applies to your practice, because this guide cannot give legal advice. Couples sessions may be priced differently from individual ones, which is why a [couples counseling page without clinical claims](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) should link directly to the fees page. For people who cannot afford sessions right now, a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) can point to free and low-cost support."
+      "text": "Federal rules on good faith estimates can apply to some self-pay clients. Read the official guidance from the Centers for Medicare & Medicaid Services, and ask your own advisor how it applies to your practice, because this guide cannot give legal advice. Couples sessions may be priced differently from individual ones, which is why a [couples counseling page without clinical claims](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) should link directly to the fees page. For people who cannot afford sessions right now, a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) can point to free and low-cost support. A primary care office faces a different version of this question, which we cover in our guide to a [sliding-scale and reduced-fee note](/guides/sliding-scale-and-reduced-fee-note-for-a-primary-care-practice-without-discounting-claims) without discount promises."
     },
     {
       "type": "h2",

@@ -1427,7 +1427,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Hospital and health system directories list clinicians who hold privileges, belong to a network or accept referrals. Ask the system's credentialing or provider relations office how listings are added, send exact details that match your profile, and check the listing every quarter, because these directories are rarely updated on their own.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-21",
     "readMinutes": 7,
     "sections": [
       {
@@ -1517,7 +1517,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If the directory allows a photo or bio, use the same ones as your own site. Our guide on [writing a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks) explains what a good bio contains, and our [guide to bio pages for nurse practitioners and physician assistants](/guides/np-pa-bio-page-that-ranks) covers advanced practice roles."
+        "text": "If the directory allows a photo or bio, use the same ones as your own site. Our guide on [writing a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks) explains what a good bio contains, and our [guide to bio pages for nurse practitioners and physician assistants](/guides/np-pa-bio-page-that-ranks) covers advanced practice roles. Once a directory lists the practice, referring offices need a quick thank-you and a clear point of contact, which our guide to a [referring doctor thank-you and feedback loop](/guides/referring-doctor-thank-you-and-feedback-loop-for-a-primary-care-practice) outlines."
       },
       {
         "type": "h2",

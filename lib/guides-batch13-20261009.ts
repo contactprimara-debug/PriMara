@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 7,
     "sections": [
       {
@@ -225,7 +225,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). A counseling office that closes for a vacation should record a matching greeting, and our guide on [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice) lists what that message should say."
+        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). A counseling office that closes for a vacation should record a matching greeting, and our guide on [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice) lists what that message should say. Once the voicemail greeting is right, make sure the number on the site is a tappable link, as described in our guide to a [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) for a practice website."
       },
       {
         "type": "h2",
@@ -1336,7 +1336,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Accepting new patients is one of the most checked facts about a practice, and it is stated in many places: your site, your profile, directories and insurance lists. Decide the status once, word it plainly with a date, update every listing the same day it changes, and review the list monthly.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-21",
     "readMinutes": 7,
     "sections": [
       {
@@ -1434,7 +1434,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions. Keeping the schedule honest also means publishing the rules that protect it, as described in our [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for primary care offices."
+        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions. Keeping the schedule honest also means publishing the rules that protect it, as described in our [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for primary care offices. The accepting-new-patients line is one field on each clinician card, along with languages and ages seen, in a [provider-choice page for a multi-provider practice](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page)."
       },
       {
         "type": "callout",
@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 7,
     "sections": [
       {
@@ -2164,7 +2164,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly. Same-day availability should come with a clear rule for emergencies, which our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) helps a primary care practice write."
+        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly. Same-day availability should come with a clear rule for emergencies, which our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) helps a primary care practice write. Patients searching for a doctor near me often wonder which type to choose, so link the visit page to a plain [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice)."
       },
       {
         "type": "p",

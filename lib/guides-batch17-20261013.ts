@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -76,7 +76,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the words patients use. A title such as Patient Portal Login with your practice name is enough, with a matching H1. Link to the page from the header or footer on every page, from the contact page, from appointment reminder texts and from the website link in your Google Business Profile. A patient who finds your listing on a phone should be able to reach the login in two taps. Add a short warning on the login page that the office never asks for a password by text, as our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) recommends."
+        "text": "Use the words patients use. A title such as Patient Portal Login with your practice name is enough, with a matching H1. Link to the page from the header or footer on every page, from the contact page, from appointment reminder texts and from the website link in your Google Business Profile. A patient who finds your listing on a phone should be able to reach the login in two taps. Add a short warning on the login page that the office never asks for a password by text, as our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) recommends. If balances can be paid from the portal or by a texted link, explain both on a [text-to-pay and online bill pay page](/guides/text-to-pay-and-online-bill-pay-page-for-a-medical-practice) and link it from the login page."
       },
       {
         "type": "table",
@@ -192,7 +192,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "List the languages your clinicians and staff actually speak at the visit, say how interpreter help is arranged for others, and keep the wording identical on your website, Google Business Profile and directories. Never list a language that no one on site can use, and never charge patients for interpreter help.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T09:20:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -268,7 +268,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Listing a language and translating the website are not the same thing. If you publish pages in Spanish, have a fluent person who understands healthcare vocabulary write or review them rather than relying only on automatic translation, and give each translated page its own address with a clear language tag. Our guide on [bilingual Spanish and English SEO for a Florida medical practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) covers that setup."
+        "text": "Listing a language and translating the website are not the same thing. If you publish pages in Spanish, have a fluent person who understands healthcare vocabulary write or review them rather than relying only on automatic translation, and give each translated page its own address with a clear language tag. Our guide on [bilingual Spanish and English SEO for a Florida medical practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) covers that setup. Once the profile lists Spanish, the website should back it up with a page that says which sessions are offered in Spanish, as in our [bilingual counseling page](/guides/bilingual-spanish-english-counseling-page-for-a-counseling-practice-without-clinical-claims) guide."
       },
       {
         "type": "p",
@@ -553,7 +553,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "If patients do not answer reminder or callback calls, your practice number may be labeled Spam Likely by phone carriers or call-blocking apps. Check the number on your carrier's tools, ask your phone provider to register it, and request a review through each carrier's reputation program. Fixes take days, so test and record before and after.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T10:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -657,7 +657,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Once the label clears, protect it. Keep outbound reminders on a separate line from the one printed on your website. Answer or return missed calls, because a number that is never picked up looks worse to scoring systems. Review the setup when you change phone vendors, and add a quarterly test call to the routine in our [weekly 15-minute marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager)."
+        "text": "Once the label clears, protect it. Keep outbound reminders on a separate line from the one printed on your website. Answer or return missed calls, because a number that is never picked up looks worse to scoring systems. Review the setup when you change phone vendors, and add a quarterly test call to the routine in our [weekly 15-minute marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager). Test the tap-to-call button on a phone as well, since a number that shows as a possible scam undermines the [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) you worked to build."
       },
       {
         "type": "p",
@@ -749,7 +749,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A care team page introduces the people a new patient will meet in order: front desk, medical assistants, nurses and clinicians. Use real names, roles and photos with permission, one plain sentence each, and credentials only if the person confirms them. Leave out outcomes, rankings and anything you cannot document.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T10:20:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -825,7 +825,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Get written permission before using a name, photo or personal detail, and keep a note of it. Do not publish staff home details, personal social accounts or family information. Make it easy to remove someone when they leave the practice, which is covered in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). And never include a patient photo or testimonial naming a patient on this page."
+        "text": "Get written permission before using a name, photo or personal detail, and keep a note of it. Do not publish staff home details, personal social accounts or family information. Make it easy to remove someone when they leave the practice, which is covered in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). And never include a patient photo or testimonial naming a patient on this page. When several clinicians are listed, give every one the same fields, as described in our guide to [choosing a provider at a multi-provider primary care practice](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page)."
       },
       {
         "type": "h2",
@@ -935,7 +935,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A visit types page lists each kind of appointment your practice books, such as new patient, follow-up, sick visit and annual wellness, with a plain one-line purpose and a typical length. Say lengths are scheduling blocks, not promises, and tell patients which type to ask for when they call.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -1038,7 +1038,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Put the page under a plain heading such as Appointments or Visit Types and link it from the booking page, the contact page and the new-patients area. If you use online scheduling, repeat the same names in the booking tool so the words match. Our guides on the [annual wellness visit page](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) and [same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) show how to describe those two visit types in more detail."
+        "text": "Put the page under a plain heading such as Appointments or Visit Types and link it from the booking page, the contact page and the new-patients area. If you use online scheduling, repeat the same names in the booking tool so the words match. Our guides on the [annual wellness visit page](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) and [same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) show how to describe those two visit types in more detail. Spell out how a checkup differs from a visit for a new concern, and why [preventive and problem-focused visits are billed differently](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website), right next to the appointment lengths."
       },
       {
         "type": "p",
@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -1178,7 +1178,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The person reading a waitlist page may be waiting at a hard moment. Put a short, visible block above or beside the form that says what to do in a crisis, and keep it consistent with the rest of your site. Our guide on [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains the wording. The 988 Suicide and Crisis Lifeline can be reached by call or text, and 911 is for emergencies. While clients wait for an opening, a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) gives them reliable places to turn in the meantime."
+        "text": "The person reading a waitlist page may be waiting at a hard moment. Put a short, visible block above or beside the form that says what to do in a crisis, and keep it consistent with the rest of your site. Our guide on [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains the wording. The 988 Suicide and Crisis Lifeline can be reached by call or text, and 911 is for emergencies. While clients wait for an opening, a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) gives them reliable places to turn in the meantime. At the start of the school year, the waitlist wording can be paired with a dated [back-to-school availability announcement](/guides/back-to-school-counseling-availability-announcement-for-a-counseling-practice) that shows families which times are still open."
       },
       {
         "type": "h3",
@@ -1996,7 +1996,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A billing questions page tells patients how to read a statement, the ways they can pay, who to call about a charge, how payment plans work and what to bring to a conversation. Use plain words, never take card numbers by email or form, and avoid promises about what insurance will pay.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T13:20:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -2095,7 +2095,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the footer, the patient portal page, statement envelopes and email receipts if you use them. Include the same phone number and hours as your contact page and Google Business Profile, because a billing question is a common reason for a call at the end of the month. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the details aligned."
+        "text": "Link the page from the footer, the patient portal page, statement envelopes and email receipts if you use them. Include the same phone number and hours as your contact page and Google Business Profile, because a billing question is a common reason for a call at the end of the month. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the details aligned. Offices that send payment links by text should add a short [text-to-pay and online bill pay page](/guides/text-to-pay-and-online-bill-pay-page-for-a-medical-practice) that tells patients what the messages will and will never contain."
       },
       {
         "type": "p",
@@ -2191,7 +2191,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A teen therapy page for parents explains who the practice sees, how consent works, how confidentiality is handled in plain terms, how parents are involved, scheduling and fees. It avoids clinical claims, outcomes and diagnostic lists. Have your attorney or licensing board confirm the consent and confidentiality wording before it goes live.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:40:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -2272,7 +2272,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A parent may arrive in the middle of a hard night. Put a short, visible notice on the page: for an emergency call 911, and for a mental health crisis call or text 988. Match it to the crisis section described in our guide to [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). Practices that also see young adults can give college students their own page, as our guide on a [college student counseling page without clinical claims](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) explains, because an adult student's privacy rules differ from a teenager's."
+        "text": "A parent may arrive in the middle of a hard night. Put a short, visible notice on the page: for an emergency call 911, and for a mental health crisis call or text 988. Match it to the crisis section described in our guide to [emergency and crisis resources for a counseling website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). Practices that also see young adults can give college students their own page, as our guide on a [college student counseling page without clinical claims](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) explains, because an adult student's privacy rules differ from a teenager's. Each fall it helps to post which after-school times are open, using the format in our guide to a [back-to-school counseling availability announcement](/guides/back-to-school-counseling-availability-announcement-for-a-counseling-practice) so parents see it early."
       },
       {
         "type": "h2",

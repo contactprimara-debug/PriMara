@@ -344,7 +344,7 @@ export const guidesPartFourteen: Guide[] = [
     "answer": "A broken link points to a page that no longer loads, usually returning a 404. Find them with Search Console and a site crawl, then fix each one by updating the link, redirecting a retired page with a 301 to its closest replacement, or letting a truly gone page return a real 404.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-07T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -439,7 +439,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Run the crawl after every redesign, migration or provider change. Our [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) covers redirect mapping at launch, and the [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists the pages and links affected when someone leaves. Add a recurring calendar item to check Search Console once a month. Broken links are the quiet failures while outages are the loud ones, which is why our guide to [website backups, uptime monitoring and maintenance for a medical practice](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice) covers both."
+        "text": "Run the crawl after every redesign, migration or provider change. Our [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) covers redirect mapping at launch, and the [provider change checklist](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) lists the pages and links affected when someone leaves. Add a recurring calendar item to check Search Console once a month. Broken links are the quiet failures while outages are the loud ones, which is why our guide to [website backups, uptime monitoring and maintenance for a medical practice](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice) covers both. Once old addresses are redirected, design the page that remains for truly missing addresses, following our guide to a [helpful 404 page and optional site search](/guides/site-search-and-404-page-for-a-medical-practice-website) for a practice website."
       }
     ],
     "faqs": [

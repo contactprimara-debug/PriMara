@@ -79,7 +79,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A medical practice's social accounts should share office news, hours, team introductions and general wellness reminders, and should never show a patient's name, photo, story or reply to a comment that confirms someone is a patient. Pick one or two platforms, name one owner, and write down the rules before the first post goes live.",
     author: "Liam Costello",
     publishDate: "2026-10-16T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Start with one owner and one or two platforms"),
@@ -114,7 +114,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("How to answer a comment or private message"),
       p(
-        "Reply once, in general terms, and move the conversation offline. A sentence such as we take this seriously, please call the office at your convenience, shares nothing about anyone's care. Never ask for symptoms, medications or insurance details in a direct message, because social platforms are not a secure channel for health information."
+        "Reply once, in general terms, and move the conversation offline. A sentence such as we take this seriously, please call the office at your convenience, shares nothing about anyone's care. Never ask for symptoms, medications or insurance details in a direct message, because social platforms are not a secure channel for health information. For a booth or a talk, post the details from the [health fair and community event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice) and keep photos free of anything that shows who is a patient."
       ),
       h2("Turn on the settings that protect you"),
       ol(
@@ -172,7 +172,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A therapy practice can list a shared or sublet office on Google Business Profile if clients can actually be met there at the listed hours, and the practice has signage or a staffed entrance. A mailbox, a virtual address or a coworking desk where no one sees clients does not qualify and risks suspension.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T09:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("The rule Google actually applies"),
@@ -192,7 +192,7 @@ export const guidesPartTwentyThree: Guide[] = [
         ["Your home, where you see no clients", "No. Hide the address and use a service area."]
       ),
       p(
-        "If you share a building with other practices, expect Google to check whether more than one listing uses the same suite. Our guide on [practitioner versus practice listings for a multi-provider practice](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when each clinician may have their own profile."
+        "If you share a building with other practices, expect Google to check whether more than one listing uses the same suite. Our guide on [practitioner versus practice listings for a multi-provider practice](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when each clinician may have their own profile. Telehealth patients in nearby towns can be addressed in a short [service area and neighborhoods served section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) on the main location page, without creating thin pages for each place."
       ),
       h2("What to do if you have no visitable office"),
       ul(
@@ -349,7 +349,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "State exactly which Medicare and Medicaid programs the practice participates in, name the managed-care plans separately, and add a last-checked date. Do not write that you accept all Medicare, because Medicare Advantage and Medicaid managed-care plans each have their own networks that the practice must confirm one by one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T10:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why the word accept is too vague"),
@@ -384,7 +384,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Connect the page to everything else"),
       p(
-        "Use the same wording on the Google Business Profile, in the directories and on the phone greeting. Our guide on [building an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) covers the layout, and [what to update when a practice joins or leaves a network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists the places to change after a contract moves."
+        "Use the same wording on the Google Business Profile, in the directories and on the phone greeting. Our guide on [building an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) covers the layout, and [what to update when a practice joins or leaves a network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists the places to change after a contract moves. Wording about insurance acceptance pairs well with a short explanation of [why a checkup can become two charges](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) when a new concern comes up during the visit."
       ),
       p(
         "Questions about coverage turn into billing questions, so link the page to your [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). This page is general information, not legal advice, and a compliance adviser should review the final wording."
@@ -437,7 +437,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A caregiver communication page tells patients and their families that the office speaks about a patient's care only with people the patient has authorized in writing, explains how to name someone, and says what staff can do without that permission. It sets expectations before an anxious phone call, without sharing anything about any patient.",
     author: "Liam Costello",
     publishDate: "2026-10-16T10:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("What families call to ask"),
@@ -472,7 +472,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Connect it to the rest of the site"),
       p(
-        "Link the page from the contact page, the new-patient forms page and the portal login page. Our guides on [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) and the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) show how to place those links safely."
+        "Link the page from the contact page, the new-patient forms page and the portal login page. Our guides on [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) and the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) show how to place those links safely. Referral paperwork raises the same consent questions, and a [behavioral health referral page](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) for a primary care practice shows how to explain what is shared and with whom."
       ),
       p(
         "Train the front desk to use the same words as the page. Consistency matters more than detail, and a staff member who can say it is our policy to speak only with people the patient has named, and here is how to be added, protects both the patient and the office. This page is general information, and counsel or a compliance officer should review the final text."
@@ -1060,7 +1060,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A hospital affiliation statement should name the hospital only if a provider holds current privileges there, say which provider, and carry a last-checked date. It should not say the practice is part of or owned by the hospital unless that is true, and it should be removed the day privileges end.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T12:40:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why the wording matters"),
@@ -1097,7 +1097,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Connect it to your referral and directory work"),
       p(
-        "A hospital relationship is useful to patients and to other doctors who look for referral partners. Our guides on [getting listed in a hospital or health-system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) and on the [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) show how to make it findable. Check each doctor's [bio page](/guides/how-to-write-a-doctor-bio-page-that-ranks) for the same wording."
+        "A hospital relationship is useful to patients and to other doctors who look for referral partners. Our guides on [getting listed in a hospital or health-system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) and on the [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) show how to make it findable. Check each doctor's [bio page](/guides/how-to-write-a-doctor-bio-page-that-ranks) for the same wording. Hospital teams who send patients appreciate a prompt acknowledgment, and a simple [thank-you and feedback loop for referring doctors](/guides/referring-doctor-thank-you-and-feedback-loop-for-a-primary-care-practice) keeps that relationship active."
       ),
       p(
         "A short internal review each year keeps the statement true. Ask the office manager to compare the website, the Google profile and each provider bio against the credentialing records, note the date and fix any difference at once. Treat the statement as a living fact about the practice, never as copy that is written once and forgotten."
@@ -1150,7 +1150,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A good faith estimate page tells self-pay and uninsured clients that they have the right to receive an estimate of expected charges before care, explains how to ask for one and when the practice provides it, and links to the federal notice. It gives general information and must be checked by a compliance adviser before publishing.",
     author: "Liam Costello",
     publishDate: "2026-10-16T13:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("What the rule asks of a practice"),
@@ -1188,7 +1188,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Review before you publish"),
       p(
-        "Have the practice's adviser or compliance resource read the final text, because the rule changes and has details for different kinds of services. Put a last-reviewed date on the page and set a reminder to check it each year. Link it from the fees page and the contact page so clients find it when they are asking about cost."
+        "Have the practice's adviser or compliance resource read the final text, because the rule changes and has details for different kinds of services. Put a last-reviewed date on the page and set a reminder to check it each year. Link it from the fees page and the contact page so clients find it when they are asking about cost. Patients who ask about the estimate are often asking whether help with the cost exists, so link the notice to a plain [reduced-fee note](/guides/sliding-scale-and-reduced-fee-note-for-a-primary-care-practice-without-discounting-claims) if your office offers one."
       ),
       p(
         "Train the front desk to answer the first question in the same words every time. A caller who asks what a session will cost should hear the fee, hear that a written estimate is available on request and be told how to ask, with no pressure and no guessing about figures the practice has not yet confirmed."

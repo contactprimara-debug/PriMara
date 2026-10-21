@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -140,7 +140,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the booking confirmation, the appointment reminder, your contact page and the new-patients section of your navigation. If your Google Business Profile has an appointment link, make sure patients who book there can still find this checklist afterward. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the phone number, address and hours next to it. After patients know what to bring, tell them what happens when they arrive, using a [waiting room and check-in expectations page for a primary care practice](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for the front desk. A short answer about what to bring belongs on the [FAQ page for a primary care practice](/guides/faq-page-for-a-primary-care-practice-questions-to-answer-without-medical-advice), with a link here for anyone who wants the full list."
+        "text": "Link the page from the booking confirmation, the appointment reminder, your contact page and the new-patients section of your navigation. If your Google Business Profile has an appointment link, make sure patients who book there can still find this checklist afterward. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the phone number, address and hours next to it. After patients know what to bring, tell them what happens when they arrive, using a [waiting room and check-in expectations page for a primary care practice](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for the front desk. A short answer about what to bring belongs on the [FAQ page for a primary care practice](/guides/faq-page-for-a-primary-care-practice-questions-to-answer-without-medical-advice), with a link here for anyone who wants the full list. Front desk staff should read this list aloud at the end of a booking call, as part of a short [new patient intake phone script](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) that covers insurance and parking too."
       },
       {
         "type": "p",
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -539,7 +539,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office."
+        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office. Patients who raise a new concern during the visit may see a second charge, so explain [preventive visit versus problem visit billing](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) in plain words on the same page."
       }
     ],
     "faqs": [

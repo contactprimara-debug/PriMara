@@ -272,7 +272,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A disclosure page should say plainly which clinicians are fully licensed and which are pre-licensed or registered interns working under supervision, name the supervisor, state what title each person may use, and explain fees. Use only the titles each board allows, and never imply that a trainee holds a license they have not earned.",
     author: "Liam Costello",
     publishDate: "2026-10-15T09:40:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("Why clients need to be told, and where"),
@@ -308,7 +308,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Keep the rest of the site consistent"),
       p(
-        "The disclosure only works if every other page agrees with it. Check the clinician bios, the Google Business Profile, directory profiles and any insurance-panel listings. A trainee who appears on a directory with no mention of supervision undoes the page's honesty. Our guide on [fees, sliding scale and superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to describe price differences without sounding like a discount. A fees page is stronger when it links to [a plain-language good faith estimate page for self-pay clients](/guides/good-faith-estimate-and-no-surprises-act-notice-page-for-a-therapy-practice), which tells uninsured clients how to ask for an estimate."
+        "The disclosure only works if every other page agrees with it. Check the clinician bios, the Google Business Profile, directory profiles and any insurance-panel listings. A trainee who appears on a directory with no mention of supervision undoes the page's honesty. Our guide on [fees, sliding scale and superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) explains how to describe price differences without sounding like a discount. A fees page is stronger when it links to [a plain-language good faith estimate page for self-pay clients](/guides/good-faith-estimate-and-no-surprises-act-notice-page-for-a-therapy-practice), which tells uninsured clients how to ask for an estimate. When the new hire is pre-licensed, the introduction should state the role and supervisor, as our guide to [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) explains."
       ),
       p(
         "Review the page whenever someone is licensed, leaves, or changes supervisor, and remove the pre-licensed label only after the board record shows the change. The date of the last review belongs at the bottom of the page. Never promise results or compare levels of clinician quality; the honest difference is training stage and fee, nothing more."
@@ -369,7 +369,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Announce a new office with its own page that gives the address, opening date, hours, phone, parking and which services are offered there. Create the Google profile only once staffed hours exist, keep the original office's details unchanged, and link the two pages to each other so patients and search engines can tell them apart.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("The announcement is a page, not just a post"),
@@ -404,7 +404,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Schema, directories and consistency"),
       p(
-        "Add structured data for the new office with its own name, address and phone number, and keep the original office's data separate. If you run several offices, the playbook in our guide on [multi-location medical practice SEO](/guides/multi-location-medical-practice-seo-playbook) explains how to structure the pages and profiles so they do not compete. Then run through the same list we use for a move: [update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page), but add the new details rather than replacing the old ones."
+        "Add structured data for the new office with its own name, address and phone number, and keep the original office's data separate. If you run several offices, the playbook in our guide on [multi-location medical practice SEO](/guides/multi-location-medical-practice-seo-playbook) explains how to structure the pages and profiles so they do not compete. Then run through the same list we use for a move: [update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page), but add the new details rather than replacing the old ones. A second office justifies its own page, but a town without an office does not, and the guide to a [service area and neighborhoods section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) explains how to cover those places instead."
       ),
       p(
         "Tell your front desk about the change before the public hears. Staff should be able to say the new address, the opening date and what is different, in one breath. Update the phone menu if callers need to choose an office, and read [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) before you change it."
@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1264,7 +1264,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h3("Credentials: only what is true"),
       p(
-        "List the degree, the license and any certifications exactly as they were earned. Do not use a title the board does not permit, and do not list an acronym without saying what it stands for. If the clinician is pre-licensed, say so, and name the supervisor; the details are in our guide to a [pre-licensed clinician disclosure page](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice). If a clinician chooses to say they work with LGBTQ+ clients, the wording on their bio should match an honest [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) with no credentials the clinician does not hold."
+        "List the degree, the license and any certifications exactly as they were earned. Do not use a title the board does not permit, and do not list an acronym without saying what it stands for. If the clinician is pre-licensed, say so, and name the supervisor; the details are in our guide to a [pre-licensed clinician disclosure page](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice). If a clinician chooses to say they work with LGBTQ+ clients, the wording on their bio should match an honest [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) with no credentials the clinician does not hold. If a clinician conducts sessions in Spanish, say so on the bio and connect it to a fuller [bilingual Spanish-English counseling page](/guides/bilingual-spanish-english-counseling-page-for-a-counseling-practice-without-clinical-claims) that explains forms, reminders and booking."
       ),
       h2("Make it findable"),
       p(

@@ -360,7 +360,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Internal linking means pointing your own pages at each other using descriptive link text. Link every service page from your navigation and from related pages, give each provider bio and location page at least a few contextual links, and fix orphan pages that nothing links to. Google finds pages mainly by following links.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -429,7 +429,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit. Links in the menu and footer appear on every page, so plan them together with a [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) before adding contextual links."
+        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit. Links in the menu and footer appear on every page, so plan them together with a [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) before adding contextual links. A good error page is also an internal linking tool, because it sends lost visitors to your key pages, as the guide to a [site search box and 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) shows."
       },
       {
         "type": "h2",
@@ -1725,7 +1725,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Build real Spanish pages at their own web addresses, link each to its English twin with hreflang, translate titles and descriptions too, and have a fluent person review everything before it goes live. Research Spanish search terms separately. Only mention Spanish-language care if your staff or interpreters can truly provide it.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -1791,7 +1791,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A raw automatic translation published without review reads badly, and Google's guidance on localized pages cautions against it. Its spam policies also warn against auto-generated text published without human review. Use a tool for a first draft if you like, then have a fluent person who knows medical terms edit every page. Medical vocabulary differs between regions, and a mistranslated symptom or procedure is worse than none. Keep claims identical in both languages, and do not add clinical promises in one version that the other lacks. Plan on re-reviewing the Spanish copy whenever the English page changes, since a stale translation is a common way for the two versions to drift apart. Our [Florida city pages for medical practices](/locations) show how local copy changes from one community to the next, which is the same discipline bilingual pages need."
+        "text": "A raw automatic translation published without review reads badly, and Google's guidance on localized pages cautions against it. Its spam policies also warn against auto-generated text published without human review. Use a tool for a first draft if you like, then have a fluent person who knows medical terms edit every page. Medical vocabulary differs between regions, and a mistranslated symptom or procedure is worse than none. Keep claims identical in both languages, and do not add clinical promises in one version that the other lacks. Plan on re-reviewing the Spanish copy whenever the English page changes, since a stale translation is a common way for the two versions to drift apart. Our [Florida city pages for medical practices](/locations) show how local copy changes from one community to the next, which is the same discipline bilingual pages need. For a counseling practice, the same ideas apply to a single service page, which we walk through in our guide to a [bilingual Spanish and English counseling page](/guides/bilingual-spanish-english-counseling-page-for-a-counseling-practice-without-clinical-claims)."
       },
       {
         "type": "h2",
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -1942,7 +1942,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves. A new clinician's license status also changes which states you can list, so update the [licensure and states served page for a telehealth practice](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) at the same time. When the departing provider is a therapist, clients need a direct message before any public change, as explained in our guide to a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice)."
+        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves. A new clinician's license status also changes which states you can list, so update the [licensure and states served page for a telehealth practice](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) at the same time. When the departing provider is a therapist, clients need a direct message before any public change, as explained in our guide to a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice). For a counseling practice, the announcement to clients and the bio page follow a set order, laid out in our guide to [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice)."
       },
       {
         "type": "h2",
@@ -2056,7 +2056,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Physician directories such as Healthgrades, Zocdoc and Vitals often rank for a provider's name and can feed what AI assistants repeat. Claim each profile for free, match your name, address, phone, specialty and insurance to your website, and recheck twice a year. Evaluate paid products on patient volume, not on SEO promises.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -2065,7 +2065,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "When someone searches a doctor's name, the results often include a directory page next to the practice's own site. Those pages exist whether or not you ever touched them. The directories build them from public records, such as state licensing data and the national provider registry, so an unclaimed profile may hold an old address, a closed office or a missing specialty. Answer engines also draw on pages like these, though we cannot see which sources any one answer used, and nobody can promise that a profile earns a mention. Therapists weighing a directory such as Psychology Today can see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists). Plan changes also need to reach each directory, and [what to update online when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) gives the order to do it in."
+        "text": "When someone searches a doctor's name, the results often include a directory page next to the practice's own site. Those pages exist whether or not you ever touched them. The directories build them from public records, such as state licensing data and the national provider registry, so an unclaimed profile may hold an old address, a closed office or a missing specialty. Answer engines also draw on pages like these, though we cannot see which sources any one answer used, and nobody can promise that a profile earns a mention. Therapists weighing a directory such as Psychology Today can see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists). Plan changes also need to reach each directory, and [what to update online when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) gives the order to do it in. Directory profiles ask for a specialty, and the wording should match what the practice states in its [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice) on the site."
       },
       {
         "type": "h2",
@@ -2214,7 +2214,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Publish self-pay prices in a plain table: the service, what is included, the price or a true starting price, what costs extra, and how to book. Date the page and keep it current. List only prices you will honor, never invent ranges, and ask your attorney which price rules apply to your practice.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -2294,7 +2294,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A \"starting at\" price is a claim. It must be a price some patients actually pay, and the page must say what else may apply. The FTC's advertising guidance asks that claims be truthful and not misleading. The same honesty applies to a therapist who lists session fees and a sliding scale, which our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) walks through for mental health practices."
+        "text": "A \"starting at\" price is a claim. It must be a price some patients actually pay, and the page must say what else may apply. The FTC's advertising guidance asks that claims be truthful and not misleading. The same honesty applies to a therapist who lists session fees and a sliding scale, which our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) walks through for mental health practices. If you also help patients who cannot pay in full, add a short, careful [note about reduced fees and payment help](/guides/sliding-scale-and-reduced-fee-note-for-a-primary-care-practice-without-discounting-claims) next to the price list instead of advertising discounts."
       },
       {
         "type": "h2",
@@ -2382,7 +2382,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "If patients come to your office, you have a storefront and should show your address. If your clinicians travel to patients, you have a service-area business and may hide the address. If you do both, you are a hybrid. Choosing wrongly risks suspension, and no setting promises a better position in the local results.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-21",
     "readMinutes": 6,
     "sections": [
       {
@@ -2434,7 +2434,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A storefront shows a public address and staffed hours, and the address must match your signage and website. A service-area business hides its address from the profile, lists the areas it covers within the limits Google sets, and still needs a real base, which Google may ask about during verification. Google limits how many areas you can list and how far from your base, so confirm the current limits on its service-area help page. Never list areas just to appear in more places, since that is the common route to a suspension. Our guide on [fixing a suspended profile](/guides/fix-a-suspended-google-business-profile) covers what happens next."
+        "text": "A storefront shows a public address and staffed hours, and the address must match your signage and website. A service-area business hides its address from the profile, lists the areas it covers within the limits Google sets, and still needs a real base, which Google may ask about during verification. Google limits how many areas you can list and how far from your base, so confirm the current limits on its service-area help page. Never list areas just to appear in more places, since that is the common route to a suspension. Our guide on [fixing a suspended profile](/guides/fix-a-suspended-google-business-profile) covers what happens next. On the website, describe where patients come from in one section, not many town pages, following our guide to a [service area section without doorway pages](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages)."
       },
       {
         "type": "h2",

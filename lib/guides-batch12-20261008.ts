@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-14",
+  "dateModified": "2026-10-21",
   "readMinutes": 7,
   "sections": [
     {
@@ -476,7 +476,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one."
+      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest."
     },
     {
       "type": "callout",
@@ -758,7 +758,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add one question to new-patient intake and phone scripts: how did you hear about us. Offer a short list of choices plus a write-in, have the front desk record the answer in a single field, and review the counts monthly next to your analytics. It is imperfect, but it catches what tracking misses, such as word of mouth.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-15",
+  "dateModified": "2026-10-21",
   "readMinutes": 6,
   "sections": [
     {
@@ -845,7 +845,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "This question is about marketing source, not health. Do not ask what condition brought the patient in as part of marketing tracking, and do not send patient names, diagnoses or appointment reasons to ad platforms or analytics tools. Keep marketing attribution separate from clinical records. Our guide on [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why. One extra question on a short service survey costs patients nothing, and a [satisfaction survey invitation without health details](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) shows how to word the rest of it safely."
+      "text": "This question is about marketing source, not health. Do not ask what condition brought the patient in as part of marketing tracking, and do not send patient names, diagnoses or appointment reasons to ad platforms or analytics tools. Keep marketing attribution separate from clinical records. Our guide on [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why. One extra question on a short service survey costs patients nothing, and a [satisfaction survey invitation without health details](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) shows how to word the rest of it safely. The question belongs in the first call too, and our [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) shows where to ask it without slowing the caller down."
     },
     {
       "type": "h2",
@@ -1113,7 +1113,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Open the Performance section of your Business Profile, set the date range to the full previous month, and record the same few numbers every month: views, calls, directions, website clicks and bookings. Compare with the prior month and last year, and treat sudden changes as a reason to look closer, not a verdict.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-21",
   "readMinutes": 6,
   "sections": [
     {
@@ -1203,7 +1203,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If views are steady but calls fall, check that your phone number, hours and primary category are correct and that the call button works. If direction requests fall, check the address and map pin. If website clicks fall, confirm the website link still loads the right page. Our [monthly Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) lists the checks to run each month. To compare Google's own click numbers with what happens on your site, put a [UTM link on your profile's website button](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) and check the source in Analytics."
+      "text": "If views are steady but calls fall, check that your phone number, hours and primary category are correct and that the call button works. If direction requests fall, check the address and map pin. If website clicks fall, confirm the website link still loads the right page. Our [monthly Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) lists the checks to run each month. To compare Google's own click numbers with what happens on your site, put a [UTM link on your profile's website button](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) and check the source in Analytics. If the call count in the profile report looks low, compare it with taps on the website phone button, which our guide to [placing a click-to-call button on mobile pages](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) explains how to count."
     },
     {
       "type": "callout",
@@ -2163,7 +2163,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Post short, factual updates that help a patient decide: a new service, changed hours, a seasonal reminder, a new provider, or an answer to a common question. Add a real photo, keep the first line clear, link to a relevant page, and never include patient information, outcome claims or promotional offers that break Google's content policy.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-21",
   "readMinutes": 6,
   "sections": [
     {
@@ -2172,7 +2172,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A post on your Business Profile is a short update that can appear on your listing in Search and Maps. Google's help page on creating and managing posts describes the types and how to publish them. For a practice, the purpose is practical: tell patients something current and useful, and keep the listing looking active and cared for."
+      "text": "A post on your Business Profile is a short update that can appear on your listing in Search and Maps. Google's help page on creating and managing posts describes the types and how to publish them. For a practice, the purpose is practical: tell patients something current and useful, and keep the listing looking active and cared for. An upcoming community talk is a good subject for a profile post that links to a [health fair and community education event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice) with the date, place and cost."
     },
     {
       "type": "p",
@@ -2343,7 +2343,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add your site to Google Search Console as a Domain property if you can, or a URL-prefix property if you cannot, then verify ownership with a DNS record or another method Google offers. Submit your sitemap, add a second owner from the practice, and give vendors the lowest permission that works. Keep the verification in place permanently.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-21",
   "readMinutes": 7,
   "sections": [
     {
@@ -2407,7 +2407,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "In Search Console, open Sitemaps and enter your sitemap address, commonly the site address followed by /sitemap.xml. A sitemap helps Google find your pages, though it does not guarantee they will be indexed. Our guide on [XML sitemaps and robots.txt](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) explains what belongs in it. Check the Sitemaps report afterward and confirm Google read it without errors."
+      "text": "In Search Console, open Sitemaps and enter your sitemap address, commonly the site address followed by /sitemap.xml. A sitemap helps Google find your pages, though it does not guarantee they will be indexed. Our guide on [XML sitemaps and robots.txt](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) explains what belongs in it. Check the Sitemaps report afterward and confirm Google read it without errors. When Search Console lists pages it could not find, decide which need a redirect and which should show a [helpful custom 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) that sends visitors to the phone number."
     },
     {
       "type": "h2",

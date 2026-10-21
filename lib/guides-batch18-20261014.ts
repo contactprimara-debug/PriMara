@@ -147,7 +147,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-21",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
@@ -166,7 +166,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Printed card", "A handout at the desk that repeats the same details for the next visit."]
       ),
       p(
-        "Texting carries extra duties. You need the patient's permission to send marketing or reminder texts, a message that identifies the practice, and a plain way to stop receiving them. Our guide on [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice) covers the consent wording in detail. Once the welcome message sets contact preferences, the reminders that follow should be just as careful, as our guide on [appointment reminder text and email wording without health details](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows. The welcome message is a good moment to ask whether a patient would like the practice's monthly update, using the opt-in rules in our guide to a [patient newsletter without health details](/guides/patient-newsletter-for-a-medical-practice-without-health-details)."
+        "Texting carries extra duties. You need the patient's permission to send marketing or reminder texts, a message that identifies the practice, and a plain way to stop receiving them. Our guide on [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice) covers the consent wording in detail. Once the welcome message sets contact preferences, the reminders that follow should be just as careful, as our guide on [appointment reminder text and email wording without health details](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows. The welcome message is a good moment to ask whether a patient would like the practice's monthly update, using the opt-in rules in our guide to a [patient newsletter without health details](/guides/patient-newsletter-for-a-medical-practice-without-health-details). The welcome message works best when it matches what the scheduler said on the phone, so read it alongside the [new patient intake phone script](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) for the front desk."
       ),
       h2("What the email should contain"),
       ul(
@@ -730,12 +730,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "A therapy practice FAQ should answer questions about logistics, fees, insurance, privacy, scheduling and how to start, in short plain answers of two to four sentences. It should politely decline questions that need clinical judgment, such as whether therapy will work for a person, and point those to a conversation with a clinician.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T11:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 7,
     sections: [
       h2("Why an FAQ page earns its place"),
       p(
-        "People considering therapy often have a list of small worries that stop them from calling. They are not sure what it costs, whether their insurance covers it, or how long the first appointment lasts. A well-built FAQ removes those obstacles one at a time, and the same question-and-answer format is what search engines and AI assistants look for when they need a short, reliable reply. A page for service members should put the Veterans Crisis Line high on the page, which [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) explains with example wording."
+        "People considering therapy often have a list of small worries that stop them from calling. They are not sure what it costs, whether their insurance covers it, or how long the first appointment lasts. A well-built FAQ removes those obstacles one at a time, and the same question-and-answer format is what search engines and AI assistants look for when they need a short, reliable reply. A page for service members should put the Veterans Crisis Line high on the page, which [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) explains with example wording. Questions about how a doctor referral works are common enough to deserve an answer, and the outline for a [behavioral health referral page](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) can serve as a model."
       ),
       p(
         "The risk is going too far. An FAQ that begins to advise visitors about their feelings or symptoms stops being a marketing page and becomes unlicensed clinical guidance on a public website."
@@ -1342,7 +1342,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a new provider with a bio page, a short website notice, a Google profile update and one patient message. State training and licensure exactly as verified, describe the visit experience rather than outcomes, and avoid comparisons with other clinicians. Add the provider to every listing on the same day.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T13:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-21",
     readMinutes: 7,
     sections: [
       h2("A new provider is a new reason for patients to come back"),
@@ -1393,7 +1393,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("That is all the announcement needs. It states a fact, gives a date, tells the reader how to act and invites questions. Resist adding a sentence about being excited about outcomes or the difference the provider will make in the community."),
       p("Adapt the wording to your own voice, and send it to the provider for approval before it goes anywhere public. A provider who has read the exact text will not be surprised when a patient mentions it."),
       h3("Consistency and follow-up"),
-      p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement."),
+      p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement. The announcement should say which ages the new clinician sees, a point explained in our [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice) for a primary care practice."),
       p("After the first month, review the provider's page in Search Console. If it is getting impressions but few clicks, rewrite the title and the first paragraph in plainer words. If it is getting none, add a link from a page that is already indexed and busy, such as the team page, and give search engines a few weeks to find it."),
     ],
     faqs: [
