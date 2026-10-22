@@ -9,7 +9,7 @@ import LocationDepth from "@/components/LocationDepth";
 export const metadata: Metadata = {
   title: "Foundation Package — Healthcare Marketing | Primara",
   description:
-    "Foundation Package for primary care and mental health practices: Google Business Profile, local SEO, review replies and monthly reports. Call (561) 291-2681.",
+    "Foundation Package for primary care and mental health practices: Google Business Profile, review replies and monthly reports. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/foundation" },
   robots: { index: true, follow: true },
   openGraph: {
