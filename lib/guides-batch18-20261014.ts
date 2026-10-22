@@ -147,7 +147,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
@@ -183,7 +183,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Sample text message"),
       p(
-        "Hello from the practice. Your first visit is confirmed for the date and time you gave us. Our address and parking details are at the link below, and please bring a photo ID and your insurance card. Reply STOP to end texts or call the front desk with questions. We cannot discuss health details by text. Genuine messages should be easy to tell from fakes, a point our guide on [scam texts and emails that impersonate a medical practice: what to tell patients](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) makes in more detail."
+        "Hello from the practice. Your first visit is confirmed for the date and time you gave us. Our address and parking details are at the link below, and please bring a photo ID and your insurance card. Reply STOP to end texts or call the front desk with questions. We cannot discuss health details by text. Genuine messages should be easy to tell from fakes, a point our guide on [scam texts and emails that impersonate a medical practice: what to tell patients](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) makes in more detail. Practices that want to reach lapsed patients as well as new ones can use the same plain approach in a [patient reactivation letter for a primary care practice](/guides/patient-reactivation-letter-for-inactive-patients-of-a-primary-care-practice-without-health-details) sent by mail."
       ),
       p(
         "That is under 320 characters, so it will arrive as one or two messages. Resist adding an offer, a survey or a second link. A confirmation that does one job gets read."
@@ -243,7 +243,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A late-arrival and missed-appointment page should state how many minutes late a patient can arrive, what happens after that, how to reschedule, and whether any fee applies. Publish only rules the office actually follows, write them in plain words, and keep the same wording on the website and in the Google profile.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("Why primary care needs its own version of this page"),
@@ -279,7 +279,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Avoid three common mistakes"),
       p(
-        "First, do not copy another practice's fee. If your office has never charged one, say there is no fee, and do not invent a number to appear serious. Second, do not promise flexibility the schedule cannot give, such as we always make time for late patients. Third, never imply that a missed visit will affect the patient's care, since that is a clinical claim the website cannot make."
+        "First, do not copy another practice's fee. If your office has never charged one, say there is no fee, and do not invent a number to appear serious. Second, do not promise flexibility the schedule cannot give, such as we always make time for late patients. Third, never imply that a missed visit will affect the patient's care, since that is a clinical claim the website cannot make. Patients who stopped coming after a missed visit can be invited back without any mention of the past, using the approach in our [reactivation letter for inactive patients](/guides/patient-reactivation-letter-for-inactive-patients-of-a-primary-care-practice-without-health-details)."
       ),
       p(
         "Check the page against your online booking tool and your reminders. If the reminder text says arrive ten minutes early and the page says five, patients will notice. Our guide on [online appointment scheduling and SEO](/guides/online-appointment-scheduling-on-a-medical-practice-website-and-seo) shows where to keep those details consistent. A policy works best when the reminder repeats it in one line, using the wording suggested in our guide to [appointment reminder text and email without health details](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details)."
@@ -1035,12 +1035,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
       p(
-        "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that. A therapy practice has extra duties around planned absences, covered in our guide to [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice), because clients may need to know who to call in a crisis."
+        "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that. A therapy practice has extra duties around planned absences, covered in our guide to [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice), because clients may need to know who to call in a crisis. On days when only the advice line is staffed, point patients to a [nurse line and advice line page](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) that gives the number and the limits of the service."
       ),
       p(
         "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed."

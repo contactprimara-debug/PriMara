@@ -19,7 +19,7 @@ export const guidesPartFour: Guide[] = [
       "Google Ads for a Florida medical practice typically runs eight to thirty dollars per click, with most single-location practices spending fifteen hundred to five thousand dollars a month on media plus a management fee. The number that matters more than cost-per-click is cost per booked patient, which depends heavily on your landing page and phone tracking, not just the bid.",
     author: "Gio LaRoche",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-09-23",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       {
@@ -69,7 +69,7 @@ export const guidesPartFour: Guide[] = [
       },
       {
         type: "p",
-        text: "A fourteen-dollar click that converts at eight percent beats a six-dollar click that converts at one percent. The number to actually track is cost per booked appointment, and you cannot see it without tying the ad campaign to a phone call and a form fill, not just a click. This is where most in-house attempts at Google Ads for a practice quietly fail: the ad account shows clicks and impressions, nobody connects them to what happened after the phone rang. Whichever route you choose, ask to see [dated case studies](/case-studies) from practices like yours, and read the part that lists what has not worked yet.",
+        text: "A fourteen-dollar click that converts at eight percent beats a six-dollar click that converts at one percent. The number to actually track is cost per booked appointment, and you cannot see it without tying the ad campaign to a phone call and a form fill, not just a click. This is where most in-house attempts at Google Ads for a practice quietly fail: the ad account shows clicks and impressions, nobody connects them to what happened after the phone rang. Whichever route you choose, ask to see [dated case studies](/case-studies) from practices like yours, and read the part that lists what has not worked yet. In our [Visibility Package](/packages/visibility), management is priced separately from ad spend, and you pay Google directly for the clicks.",
       },
       {
         type: "h2",

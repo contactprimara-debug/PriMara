@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       {
@@ -488,7 +488,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Most therapy practices should not choose. The workable order is: fix the Google Business Profile first because it is free and it is the highest-leverage hour you will spend; publish the six to ten pages that describe what you really treat; then, if the caseload still has gaps, run a tightly geo-fenced ad campaign on your highest-intent terms while the organic work matures. Twelve months in, the ads become optional rather than load-bearing. Visitors who click an ad or a search result are often not ready to book, so offer a low-pressure [free consultation call page](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) that explains exactly what the call is. Whichever channel brings couples to the website, they land best on a page like our [couples counseling page for a counseling practice](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims), which describes the format instead of the outcome.",
+        text: "Most therapy practices should not choose. The workable order is: fix the Google Business Profile first because it is free and it is the highest-leverage hour you will spend; publish the six to ten pages that describe what you really treat; then, if the caseload still has gaps, run a tightly geo-fenced ad campaign on your highest-intent terms while the organic work matures. Twelve months in, the ads become optional rather than load-bearing. Visitors who click an ad or a search result are often not ready to book, so offer a low-pressure [free consultation call page](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) that explains exactly what the call is. Whichever channel brings couples to the website, they land best on a page like our [couples counseling page for a counseling practice](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims), which describes the format instead of the outcome. Practices that want both channels can see how they fit together in our [Visibility Package for Google Ads management](/packages/visibility), where ads begin once the profile and pages are ready.",
       },
       {
         type: "callout",

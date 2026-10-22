@@ -471,7 +471,7 @@ export const guidesPartTwo: Guide[] = [
       "In the first ninety days a new practice should claim and verify its Google Business Profile, secure a domain and a site with one page per service, set up call and form tracking, start asking every patient for a review, and make direct contact with the referring practices nearby. Profile first, site second, ads last.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     howTo: {
       name: "New medical practice marketing checklist for the first 90 days",
@@ -509,7 +509,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Almost every new practice does these tasks eventually. The ones that fill faster do them in this order, because each step makes the next cheaper. A verified profile costs nothing and produces calls in weeks. A site without a profile is invisible to the map pack. Ads run before either are in place pay to send traffic to something that cannot convert it. Verification of the Google listing is an early step, covered in our guide to [verifying a Google Business Profile for a medical practice](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice).",
+        text: "Almost every new practice does these tasks eventually. The ones that fill faster do them in this order, because each step makes the next cheaper. A verified profile costs nothing and produces calls in weeks. A site without a profile is invisible to the map pack. Ads run before either are in place pay to send traffic to something that cannot convert it. Verification of the Google listing is an early step, covered in our guide to [verifying a Google Business Profile for a medical practice](/guides/how-to-verify-a-google-business-profile-for-a-medical-practice). If you want the checklist items handled for you each month, the [Foundation Package](/packages/foundation) covers the Google profile, content pages, review replies and reporting.",
       },
       {
         type: "h2",

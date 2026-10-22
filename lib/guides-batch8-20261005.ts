@@ -705,7 +705,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "The Americans with Disabilities Act applies to medical practices as places of public accommodation, and the Department of Justice says it covers web content too. The law does not name one technical standard for private practices, but the Web Content Accessibility Guidelines (WCAG) are the usual benchmark. Aim for WCAG 2.1 Level AA, and have counsel confirm your obligations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       {
@@ -718,7 +718,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "In practice, courts, regulators, and settlement agreements point to WCAG, the guidelines published by the W3C, and most commonly to Level AA. Some rules for state and local government websites name a specific WCAG version. Separately, healthcare providers that receive federal health funding may face disability rules from the Department of Health and Human Services that reference WCAG. The details and dates have changed over time, so ask your attorney which rules apply to your practice. This page is general information, not legal advice."
+        "text": "In practice, courts, regulators, and settlement agreements point to WCAG, the guidelines published by the W3C, and most commonly to Level AA. Some rules for state and local government websites name a specific WCAG version. Separately, healthcare providers that receive federal health funding may face disability rules from the Department of Health and Human Services that reference WCAG. The details and dates have changed over time, so ask your attorney which rules apply to your practice. This page is general information, not legal advice. Once the main problems are fixed, publish an [accessibility statement with a clear way to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) so patients know whom to contact."
       },
       {
         "type": "h2",

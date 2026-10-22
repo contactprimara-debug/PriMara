@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-22",
     "readMinutes": 6,
     "sections": [
       {
@@ -1194,7 +1194,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If your practice calls people back in the order they joined, say that, and say how soon after a cancellation you reach out. Avoid language such as spots open soon unless you know it is true. A single sentence that separates a waitlist from a general inquiry also helps: if someone just has a question, they can call or email, and joining the list is only for people who want to start when there is room."
+        "text": "If your practice calls people back in the order they joined, say that, and say how soon after a cancellation you reach out. Avoid language such as spots open soon unless you know it is true. A single sentence that separates a waitlist from a general inquiry also helps: if someone just has a question, they can call or email, and joining the list is only for people who want to start when there is room. When someone reaches out while you are full, the contact form should say so and set a reply time, as described in our guide to a [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time)."
       },
       {
         "type": "h2",
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-22",
     "readMinutes": 6,
     "sections": [
       {
@@ -1389,7 +1389,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Treat the booking button as a conversion and count clicks and completed requests, never the content of the form. The setup is the same one we describe in our guide on [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing). Link the consultation page from your first session page, your contact page and your fees page, and mention it in your Google Business Profile description if it is a regular offer."
+        "text": "Treat the booking button as a conversion and count clicks and completed requests, never the content of the form. The setup is the same one we describe in our guide on [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing). Link the consultation page from your first session page, your contact page and your fees page, and mention it in your Google Business Profile description if it is a regular offer. The form that books the call deserves the same care, so see our guide to a [first-time client contact form for a counseling practice](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) for the fields and the privacy notice."
       },
       {
         "type": "p",
@@ -2355,7 +2355,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A results and messages page tells patients how test results reach them, that results may appear in the portal before a clinician has reviewed them, how long portal messages usually take to answer, and where to call if they are worried. It gives no interpretation of any result and always shows an emergency notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T14:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-22",
     "readMinutes": 6,
     "sections": [
       {
@@ -2408,7 +2408,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page must not explain what a number means, say what is normal, or reassure patients that no news is good news. Those are clinical statements. Instead, it can say that a clinician reviews each result in the context of the patient's history and will explain what it means. That sentence does a lot of work and carries no clinical claim."
+        "text": "The page must not explain what a number means, say what is normal, or reassure patients that no news is good news. Those are clinical statements. Instead, it can say that a clinician reviews each result in the context of the patient's history and will explain what it means. That sentence does a lot of work and carries no clinical claim. Urgent concerns should never wait in the portal, so link patients to a [nurse line page without clinical advice](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) that tells them which number to call."
       },
       {
         "type": "h3",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-22",
     "readMinutes": 6,
     "sections": [
       {
@@ -2642,7 +2642,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Here is a first paragraph written in this spirit, with invented details to replace. In our first few sessions we talk about what brought you in, what you want to be different and how you like to work. Sessions are 50 minutes. Between sessions I may suggest small practices you can try, and we review together how they went. You set the pace. Notice that nothing here predicts an outcome and every sentence describes something that actually happens in the room."
+        "text": "Here is a first paragraph written in this spirit, with invented details to replace. In our first few sessions we talk about what brought you in, what you want to be different and how you like to work. Sessions are 50 minutes. Between sessions I may suggest small practices you can try, and we review together how they went. You set the pace. Notice that nothing here predicts an outcome and every sentence describes something that actually happens in the room. Together with a clear fee page and a verifiable license, this page is part of how a practice can [earn trust without client testimonials](/guides/showing-trust-on-a-counseling-practice-website-without-client-testimonials)."
       },
       {
         "type": "p",

@@ -2343,7 +2343,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add your site to Google Search Console as a Domain property if you can, or a URL-prefix property if you cannot, then verify ownership with a DNS record or another method Google offers. Submit your sitemap, add a second owner from the practice, and give vendors the lowest permission that works. Keep the verification in place permanently.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-21",
+  "dateModified": "2026-10-22",
   "readMinutes": 7,
   "sections": [
     {
@@ -2352,7 +2352,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Google Search Console is a free tool that shows how Google sees your website: which pages are indexed, which searches show your site, how many clicks you get, and what problems Google found. It does not run your website. It reports on it. Verifying ownership proves to Google that you are allowed to see that data."
+      "text": "Google Search Console is a free tool that shows how Google sees your website: which pages are indexed, which searches show your site, how many clicks you get, and what problems Google found. It does not run your website. It reports on it. Verifying ownership proves to Google that you are allowed to see that data. Our [Making Heaven Crowded case study](/case-studies/making-heaven-crowded) shows what the first month of Google Search Console numbers looked like for a site starting almost from zero."
     },
     {
       "type": "p",
@@ -2513,7 +2513,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Keep one permanent page for each seasonal service, such as flu shots or school physicals, and update it every year rather than publishing a new page each season. Put the current dates, how to book and what to bring at the top, keep medical statements general and sourced, and archive nothing that patients may still search for.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-15",
+  "dateModified": "2026-10-22",
   "readMinutes": 6,
   "sections": [
     {
@@ -2526,7 +2526,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A better pattern is one page per seasonal service that lives at the same address all year and is refreshed before each season. It keeps whatever links and history it has earned, and it avoids the duplicate content problems described in our guide on [canonical tags and duplicate content](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website)."
+      "text": "A better pattern is one page per seasonal service that lives at the same address all year and is refreshed before each season. It keeps whatever links and history it has earned, and it avoids the duplicate content problems described in our guide on [canonical tags and duplicate content](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website). A practice that offers shots all year can keep one [vaccine availability page without clinical claims](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) up to date instead of making a new page each season."
     },
     {
       "type": "h2",

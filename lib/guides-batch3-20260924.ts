@@ -19,7 +19,7 @@ export const guidesPartSix: Guide[] = [
       "Pick a healthcare marketing agency by checking three things before price: do they show you real, verifiable results from other medical or dental practices (not generic case studies), do they understand HIPAA-safe tracking, and will they tell you exactly what they measure and how often. If an agency can't answer those three plainly, keep looking.",
     author: "Gio LaRoche",
     publishDate: "2026-09-24T09:00:00Z",
-    dateModified: "2026-09-24",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Most practices pick an agency backwards" },
@@ -69,7 +69,7 @@ export const guidesPartSix: Guide[] = [
       { type: "h2", text: "What a fair engagement actually looks like" },
       {
         type: "p",
-        text: "A reasonable healthcare marketing engagement starts with an audit of the current site, listing, and tracking setup before any work begins — not a generic proposal built without ever looking at the practice's actual numbers. It includes a plain-language explanation of what gets measured and how often the practice will see those numbers, not just a monthly PDF of screenshots. And it should be cancelable on reasonable notice, because a contract that only works if the practice can't leave is a contract built around the wrong incentive. If you run a family medicine practice, our page on [digital marketing for family medicine practices](/specialties/family-medicine) shows what an engagement looks like in practice.",
+        text: "A reasonable healthcare marketing engagement starts with an audit of the current site, listing, and tracking setup before any work begins — not a generic proposal built without ever looking at the practice's actual numbers. It includes a plain-language explanation of what gets measured and how often the practice will see those numbers, not just a monthly PDF of screenshots. And it should be cancelable on reasonable notice, because a contract that only works if the practice can't leave is a contract built around the wrong incentive. If you run a family medicine practice, our page on [digital marketing for family medicine practices](/specialties/family-medicine) shows what an engagement looks like in practice. One example of a clearly scoped monthly service is our [Foundation Package for primary care and mental health practices](/packages/foundation), which lists what is included and what we do not promise.",
       },
     ],
     faqs: [

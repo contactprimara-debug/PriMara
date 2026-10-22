@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1239,7 +1239,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Choosing a therapist is a personal decision, and the bio page is where most people make it. They are not scanning for keywords. They are asking quietly whether this person seems kind, competent and safe to talk to."
       ),
       p(
-        "That makes a therapist bio different from a physician's profile, which leans on training and specialty. A counseling bio has to carry warmth and clarity at the same time, and it must do so without crossing into promises that licensing boards and advertising rules do not allow."
+        "That makes a therapist bio different from a physician's profile, which leans on training and specialty. A counseling bio has to carry warmth and clarity at the same time, and it must do so without crossing into promises that licensing boards and advertising rules do not allow. A strong bio is one of several proof points that replace client quotes, and our guide to [showing trust on a counseling website without testimonials](/guides/showing-trust-on-a-counseling-practice-website-without-client-testimonials) lists the rest."
       ),
       h2("Put the person first"),
       ul(

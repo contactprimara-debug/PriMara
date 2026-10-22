@@ -1511,7 +1511,7 @@ export const guidesPartTwentySix: Guide[] = [
       "Family medicine physicians typically care for patients of all ages, including children, while internal medicine physicians typically care for adults. Both provide primary care. An explainer page should state which ages your practice sees, avoid calling either better, and let patients choose based on who is in their household.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("A question the front desk hears weekly"),
@@ -1527,7 +1527,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["What both can do", "Provide checkups, manage ongoing conditions and refer to specialists."]
       ),
       p(
-        "This is a general picture. Individual physicians vary, and many family physicians and internists have similar day-to-day practices. The page should not try to settle which is better because the answer depends on the patient."
+        "This is a general picture. Individual physicians vary, and many family physicians and internists have similar day-to-day practices. The page should not try to settle which is better because the answer depends on the patient. Practices that see children search and are searched for in a different way, which our page on [digital marketing for pediatric practices](/specialties/pediatrics) explains."
       ),
       h2("What your practice should add"),
       ul(

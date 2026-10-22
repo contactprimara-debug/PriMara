@@ -527,7 +527,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "An appointment reminder should name the practice, the date and time, the location or video link and how to confirm or reschedule, and should leave out the reason for the visit, the clinician's specialty detail and anything about a diagnosis. Send reminders to the contact method the patient chose, with a clear way to opt out.",
     author: "Liam Costello",
     publishDate: "2026-10-19T10:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("What a reminder is for"),
@@ -535,7 +535,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A reminder has one job: get the patient to the visit, or free the slot early if they cannot come. Everything else is a risk. A text can be read by someone else holding the phone, an email can land in a shared inbox, and a message that names a test or a condition has turned a scheduling note into a disclosure."
       ),
       p(
-        "Federal privacy rules permit appointment reminders, but they also expect reasonable care about what the message reveals. The easiest policy for a front desk is also the safest: say when and where, never why."
+        "Federal privacy rules permit appointment reminders, but they also expect reasonable care about what the message reveals. The easiest policy for a front desk is also the safest: say when and where, never why. If you also want to win back patients who have not visited in a while, our guide to a [reactivation letter that leaves out health details](/guides/patient-reactivation-letter-for-inactive-patients-of-a-primary-care-practice-without-health-details) covers the wording and the rules for building the list."
       ),
       h2("What belongs in the message"),
       ul(
@@ -627,7 +627,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A pharmacy and lab partner page tells patients where the office sends prescriptions and lab orders, how to pick a different location, and how to get results, without recommending a product or collecting health information. List locations factually, state that patients may choose their own, and keep the page free of ads and conflicts of interest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:40:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       h2("Why patients look for this page"),
@@ -635,7 +635,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "After a visit, patients have two practical questions: where is my prescription going, and where do I go for blood work. Offices answer both many times a day by phone. A short, accurate page removes most of those calls and gives a new patient the confidence that the practice works with places they can reach."
       ),
       p(
-        "The page also helps search. People type pharmacy near a doctor's office or lab near me, and a clear page that names the practice and its usual partners gives search engines and AI assistants a factual answer to point to."
+        "The page also helps search. People type pharmacy near a doctor's office or lab near me, and a clear page that names the practice and its usual partners gives search engines and AI assistants a factual answer to point to. When a patient needs a vaccine your office does not stock, a [vaccine availability page for a primary care practice](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) can point them to the pharmacy partners you list here."
       ),
       h2("What to include"),
       table(

@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-22",
     "readMinutes": 7,
     "sections": [
       {
@@ -233,7 +233,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Your Google Business Profile, website and directory listings should show the hours when a person actually answers. If your office is closed for lunch, say so. If a line is answered by an answering service after 5 p.m., that does not make the practice open at 5 p.m. Listing hours you do not staff sets patients up for a dead end and invites complaints. Website chat has the same after-hours problem as the phone, and [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid) explains when to switch to a message form."
+        "text": "Your Google Business Profile, website and directory listings should show the hours when a person actually answers. If your office is closed for lunch, say so. If a line is answered by an answering service after 5 p.m., that does not make the practice open at 5 p.m. Listing hours you do not staff sets patients up for a dead end and invites complaints. Website chat has the same after-hours problem as the phone, and [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid) explains when to switch to a message form. Practices that run an advice line should also publish a short [nurse line page that gives hours and numbers without clinical advice](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) so patients know which number to dial."
       },
       {
         "type": "p",
@@ -395,7 +395,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-22",
     "readMinutes": 7,
     "sections": [
       {
@@ -404,7 +404,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Practices often say they want new patient forms on the website, but that phrase covers two different jobs. The first is publishing a blank form so a patient can print or read it before the visit. The second is collecting a completed form online. The first carries almost no privacy risk. The second means health and personal details travel through your website, and that changes what tools and vendors you can use."
+        "text": "Practices often say they want new patient forms on the website, but that phrase covers two different jobs. The first is publishing a blank form so a patient can print or read it before the visit. The second is collecting a completed form online. The first carries almost no privacy risk. The second means health and personal details travel through your website, and that changes what tools and vendors you can use. The first request form on the site should stay much shorter than the paperwork, as our guide to [what an appointment request form should ask](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) explains."
       },
       {
         "type": "h2",
@@ -574,7 +574,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Block form spam in layers: a hidden honeypot field, a lightweight challenge such as Cloudflare Turnstile or reCAPTCHA, server-side checks, and rate limits. Keep the form short so real patients are not turned away, and make sure your conversion tracking fires only on a submission that passed those checks.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-22",
     "readMinutes": 7,
     "sections": [
       {
@@ -676,7 +676,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The goal is fewer fake leads, not fewer leads. After adding any filter, submit a test through the real form on a phone and confirm it still arrives. Check the weekly lead count for a sudden drop. A filter that quietly rejects real patients is worse than the spam it replaced. Once spam is controlled, send real submissions to a clear confirmation page as described in [what a thank-you page should say and how to track it](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), so only genuine leads are counted."
+        "text": "The goal is fewer fake leads, not fewer leads. After adding any filter, submit a test through the real form on a phone and confirm it still arrives. Check the weekly lead count for a sudden drop. A filter that quietly rejects real patients is worse than the spam it replaced. Once spam is controlled, send real submissions to a clear confirmation page as described in [what a thank-you page should say and how to track it](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), so only genuine leads are counted. Fewer fields also mean fewer places for spam to hide, so review which [appointment request form fields a primary care practice really needs](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) before adding protection."
       },
       {
         "type": "callout",
@@ -1336,7 +1336,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Accepting new patients is one of the most checked facts about a practice, and it is stated in many places: your site, your profile, directories and insurance lists. Decide the status once, word it plainly with a date, update every listing the same day it changes, and review the list monthly.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-22",
     "readMinutes": 7,
     "sections": [
       {
@@ -1426,7 +1426,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not delete your new patient page just because you are full. It can keep serving existing patients and referrals, and you will want it back when you reopen. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) covers how to plan around capacity so the pipeline matches your calendar."
+        "text": "Do not delete your new patient page just because you are full. It can keep serving existing patients and referrals, and you will want it back when you reopen. Our [primary care patient acquisition playbook](/guides/primary-care-patient-acquisition-playbook) covers how to plan around capacity so the pipeline matches your calendar. This matters most for families who have just moved and need a pediatrician quickly, as our page on [marketing for pediatric practices](/specialties/pediatrics) describes."
       },
       {
         "type": "h2",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-22",
     "readMinutes": 7,
     "sections": [
       {
@@ -1790,7 +1790,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A first contact form should ask for a name, a phone number or email and a preferred time to reach the person. Anything more detailed should wait for a secure intake. Our guide on [new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains safe ways to handle intake. The email that arrives after booking should echo the first-session page, and our guide to an [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to write one that protects privacy."
+        "text": "A first contact form should ask for a name, a phone number or email and a preferred time to reach the person. Anything more detailed should wait for a secure intake. Our guide on [new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains safe ways to handle intake. The email that arrives after booking should echo the first-session page, and our guide to an [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to write one that protects privacy. After the page explains the first session, the next step is a safe form, which we cover in [first-time client contact form fields, privacy notice and response time](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time)."
       },
       {
         "type": "h2",

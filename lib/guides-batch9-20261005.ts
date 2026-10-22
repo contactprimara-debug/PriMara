@@ -19,7 +19,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Google Search Console is a free tool that shows how your website performs in Google Search. For a practice, check three things: the Performance report for clicks and impressions by page and query, the Pages report for what is indexed, and the Sitemaps report. Review monthly, and act on drops that last several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       {
@@ -45,7 +45,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the Pages tab to see which URLs earn clicks and the Queries tab to see the searches. Set the date range to compare the last three months to the prior three months, and choose a full-month view before drawing conclusions, because a single week is noise. Impressions rising with clicks flat means you are being seen more but not chosen, which usually points to titles and descriptions. Our guide on [meta descriptions that get clicks](/guides/meta-descriptions-that-get-clicks-for-a-medical-practice) covers that fix. Search Console is better checked monthly, while a [short weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) catches quick problems such as a dead phone line or an unanswered review."
+        "text": "Use the Pages tab to see which URLs earn clicks and the Queries tab to see the searches. Set the date range to compare the last three months to the prior three months, and choose a full-month view before drawing conclusions, because a single week is noise. Impressions rising with clicks flat means you are being seen more but not chosen, which usually points to titles and descriptions. Our guide on [meta descriptions that get clicks](/guides/meta-descriptions-that-get-clicks-for-a-medical-practice) covers that fix. Search Console is better checked monthly, while a [short weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) catches quick problems such as a dead phone line or an unanswered review. A real set of before and after figures, including indexed pages and clicks, appears in our [Serenity By A Dr. Sareen case study](/case-studies/serenity-by-a-dr-sareen)."
       },
       {
         "type": "h2",
@@ -412,7 +412,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "An XML sitemap lists the pages you want Google to find, and robots.txt tells crawlers which areas not to crawl. Neither is a security tool. Your sitemap should list only live, indexable pages, and robots.txt must never block pages you want in search. To keep a page out of results, use a noindex tag instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       {
@@ -421,7 +421,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "An XML sitemap is a file, usually at yoursite.com/sitemap.xml, that lists the URLs you want search engines to know about, optionally with the date each last changed. A robots.txt file sits at the root of your domain and gives crawlers instructions about which paths they should not request. One invites, the other asks crawlers to stay away. They work together, but they do not do the same thing, and mixing them up is behind many indexing problems on small practice sites. AI crawlers read the same file, and our guide on [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers) explains what to allow and what to block. A sitemap lists every page, but the menu decides which ones patients and crawlers meet first, so review the [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) at the same time."
+        "text": "An XML sitemap is a file, usually at yoursite.com/sitemap.xml, that lists the URLs you want search engines to know about, optionally with the date each last changed. A robots.txt file sits at the root of your domain and gives crawlers instructions about which paths they should not request. One invites, the other asks crawlers to stay away. They work together, but they do not do the same thing, and mixing them up is behind many indexing problems on small practice sites. AI crawlers read the same file, and our guide on [allowing or blocking AI crawlers](/guides/should-a-medical-practice-allow-or-block-ai-crawlers) explains what to allow and what to block. A sitemap lists every page, but the menu decides which ones patients and crawlers meet first, so review the [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) at the same time. The first month after a new site launches looks small and uneven, as shown in our [case study](/case-studies/making-heaven-crowded) of a newly launched ministry site."
       },
       {
         "type": "h2",

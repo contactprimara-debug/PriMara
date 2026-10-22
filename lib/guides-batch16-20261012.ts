@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-22",
     "readMinutes": 6,
     "sections": [
       {
@@ -25,7 +25,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Before a new patient calls, they usually look at your website to find out what happens next. If the answer is not on the page, the front desk gets the same five questions all week: do I bring my insurance card, should I arrive early, do I need records from my old doctor. A single page that answers them once saves those calls and gives a new patient a reason to book."
+        "text": "Before a new patient calls, they usually look at your website to find out what happens next. If the answer is not on the page, the front desk gets the same five questions all week: do I bring my insurance card, should I arrive early, do I need records from my old doctor. A single page that answers them once saves those calls and gives a new patient a reason to book. Parents bringing a child for a first visit look for the same practical details, and our page on [Florida marketing for pediatric practices](/specialties/pediatrics) shows how pediatric practices present them."
       },
       {
         "type": "p",
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-22",
     "readMinutes": 6,
     "sections": [
       {
@@ -438,7 +438,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many patients, especially older adults, hear the phrase annual wellness visit from their insurance plan or a neighbor, then search for it with the name of a nearby practice. A page that answers the question directly can be the first thing they read about your office. It is also one of the more useful pages a primary care practice can publish, because confusion about what the visit includes is common."
+        "text": "Many patients, especially older adults, hear the phrase annual wellness visit from their insurance plan or a neighbor, then search for it with the name of a nearby practice. A page that answers the question directly can be the first thing they read about your office. It is also one of the more useful pages a primary care practice can publish, because confusion about what the visit includes is common. A short, factual [immunization and vaccine availability page](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) works well beside the wellness visit page, because both avoid clinical claims and answer practical questions."
       },
       {
         "type": "p",

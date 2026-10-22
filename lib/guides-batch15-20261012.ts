@@ -846,7 +846,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Tell patients where to park, which door to use, whether the entrance is step-free and how to find the suite. Publish the same facts on your contact page and your Google Business Profile, keep them current, and describe only what you have checked in person.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-22",
     "readMinutes": 7,
     "sections": [
       {
@@ -948,7 +948,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Arrival information is useful, and a website that cannot be used with a keyboard or screen reader leaves out some of the people you want to reach. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the basics, and the U.S. Department of Justice publishes its own web guidance."
+        "text": "Arrival information is useful, and a website that cannot be used with a keyboard or screen reader leaves out some of the people you want to reach. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the basics, and the U.S. Department of Justice publishes its own web guidance. For the website side of access, add an [accessibility statement and a way to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) alongside the physical details described here."
       },
       {
         "type": "h2",

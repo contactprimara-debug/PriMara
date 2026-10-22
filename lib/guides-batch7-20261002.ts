@@ -756,13 +756,13 @@ export const guidesPartTen: Guide[] = [
       "The right traffic number isn't a fixed figure — it's new patients needed, divided by your site's conversion rate, divided by how many sessions produce one conversion. A practice needing 20 new patients a month with a 3% conversion rate needs roughly 670 monthly sessions; the same practice at 1% needs about 2,000. Volume matters less than that ratio.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why 'more traffic' is the wrong starting question" },
       {
         type: "p",
-        text: "Practice owners often look at a competitor's estimated traffic and treat it as the target, which skips the actual math. Two practices can each get 1,000 monthly website visitors and end up with completely different numbers of new patients, because conversion rate — the share of visitors who actually call or submit a form — varies enormously based on page speed, how clearly the phone number and booking option are shown, and whether the traffic is even the right audience in the first place. Traffic is an input, not the goal; new patients booked is the goal.",
+        text: "Practice owners often look at a competitor's estimated traffic and treat it as the target, which skips the actual math. Two practices can each get 1,000 monthly website visitors and end up with completely different numbers of new patients, because conversion rate — the share of visitors who actually call or submit a form — varies enormously based on page speed, how clearly the phone number and booking option are shown, and whether the traffic is even the right audience in the first place. Traffic is an input, not the goal; new patients booked is the goal. You can see how a multi-office primary care practice's impressions, clicks and form requests moved in one month in our [case study with dated numbers](/case-studies/serenity-by-a-dr-sareen).",
       },
       { type: "h2", text: "The actual calculation" },
       {
@@ -861,13 +861,13 @@ export const guidesPartTen: Guide[] = [
       "A Google review is left independently by a patient on a third-party platform and is governed mainly by Google's own review policies against gating or incentivizing it. A testimonial you select and publish on your own site or ads is your marketing speech, which makes it subject to FTC endorsement rules and, if it names a condition, HIPAA authorization requirements.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two different things that get talked about as one" },
       {
         type: "p",
-        text: "A Google review lives on Google's platform, is written entirely in the patient's own words, and Google controls its display, removal, and policies — you can respond to it, but you can't edit it or legally require it in exchange for anything. A testimonial is different: it's a quote you've selected, often edited for length, and chosen to display prominently on your own website, in an ad, or in printed material. That act of selection and publication is your marketing speech, not the patient's independent platform review, and the law treats the two differently.",
+        text: "A Google review lives on Google's platform, is written entirely in the patient's own words, and Google controls its display, removal, and policies — you can respond to it, but you can't edit it or legally require it in exchange for anything. A testimonial is different: it's a quote you've selected, often edited for length, and chosen to display prominently on your own website, in an ad, or in printed material. That act of selection and publication is your marketing speech, not the patient's independent platform review, and the law treats the two differently. For a counseling practice that cannot use client quotes at all, we explain how to [build trust on a counseling website without testimonials](/guides/showing-trust-on-a-counseling-practice-website-without-client-testimonials) using credentials, fees and process pages.",
       },
       { type: "h2", text: "What governs Google reviews" },
       {

@@ -22,7 +22,7 @@ export const guidesPartFive: Guide[] = [
       "A full-time in-house marketer costs fifty to eighty thousand dollars a year in salary alone, plus tools and training, and typically covers one or two disciplines well. An agency costs one to six thousand dollars a month and brings a full team — SEO, ads, content, and GBP management — but knows your practice less personally than an employee who sits in your building every day.",
     author: "Gio LaRoche",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-09-23",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "The real cost comparison" },
@@ -69,7 +69,7 @@ export const guidesPartFive: Guide[] = [
       { type: "h2", text: "The hybrid model most growing practices land on" },
       {
         type: "p",
-        text: "A common, effective setup for a Florida practice with two to five locations: one in-house marketing coordinator who owns the phone, the front desk experience, internal comms, and day-to-day content gathering (photos, testimonials, provider updates), paired with an agency running SEO, ads, and Google Business Profile strategy. The coordinator feeds the agency real material; the agency turns it into ranking pages and campaigns. Neither role works as well alone as the two do together. In a hybrid setup, decide up front who owns each account, since an in-house hire or an agency leaving should never lock the practice out; see [who should own a practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain).",
+        text: "A common, effective setup for a Florida practice with two to five locations: one in-house marketing coordinator who owns the phone, the front desk experience, internal comms, and day-to-day content gathering (photos, testimonials, provider updates), paired with an agency running SEO, ads, and Google Business Profile strategy. The coordinator feeds the agency real material; the agency turns it into ranking pages and campaigns. Neither role works as well alone as the two do together. In a hybrid setup, decide up front who owns each account, since an in-house hire or an agency leaving should never lock the practice out; see [who should own a practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain). A practice that wants founder-level attention without hiring in-house can look at how our [Foundation Package](/packages/foundation) runs month to month.",
       },
       { type: "h2", text: "Questions to ask before deciding" },
       {

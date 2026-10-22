@@ -215,13 +215,13 @@ export const guidesPartSeven: Guide[] = [
       "A compliant healthcare ad checklist covers three areas: platform policy (Google requires healthcare advertiser verification for many categories; Meta restricts special-ad-category targeting for health), tracking (never send patient-identifying data — name, condition, appointment details — to an ad platform's pixel or conversion API), and claims (no outcome guarantees, no \"cure,\" no implied diagnosis in ad copy). Violating any of the three usually gets an account suspended, not just a single ad rejected.",
     author: "Gio LaRoche",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-22",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Three separate risks, not one" },
       {
         type: "p",
-        text: "Healthcare ad compliance gets treated as a single vague concern, but it's actually three distinct problems that each get a practice in trouble a different way: violating the ad platform's own policy (account suspension), sending protected health information to a third-party ad platform (a real HIPAA exposure), and making a claim the FTC or a state medical board would flag as deceptive. A practice can pass one and fail another — an ad with perfectly compliant copy can still trip HIPAA if the tracking pixel behind it is passing appointment-type data. The same care applies to free profile posts, which publish under the practice's name; see [what to post on Google Business Profile for a medical practice](/guides/what-to-post-on-google-business-profile-for-a-medical-practice) for what to avoid. The same healthcare rules apply if you look into Google's [Local Services Ads for a medical practice](/guides/local-services-ads-for-a-medical-practice-eligibility-and-what-to-expect), so check eligibility and policy before you spend anything. Pages aimed at parents of teens need extra care with claims, and our guide to a [teen therapy page for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims) shows how to describe consent and confidentiality without clinical promises.",
+        text: "Healthcare ad compliance gets treated as a single vague concern, but it's actually three distinct problems that each get a practice in trouble a different way: violating the ad platform's own policy (account suspension), sending protected health information to a third-party ad platform (a real HIPAA exposure), and making a claim the FTC or a state medical board would flag as deceptive. A practice can pass one and fail another — an ad with perfectly compliant copy can still trip HIPAA if the tracking pixel behind it is passing appointment-type data. The same care applies to free profile posts, which publish under the practice's name; see [what to post on Google Business Profile for a medical practice](/guides/what-to-post-on-google-business-profile-for-a-medical-practice) for what to avoid. The same healthcare rules apply if you look into Google's [Local Services Ads for a medical practice](/guides/local-services-ads-for-a-medical-practice-eligibility-and-what-to-expect), so check eligibility and policy before you spend anything. Pages aimed at parents of teens need extra care with claims, and our guide to a [teen therapy page for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims) shows how to describe consent and confidentiality without clinical promises. Our [Visibility Package](/packages/visibility) applies these rules to its ad copy, tracking and landing pages from the first campaign onward.",
       },
       { type: "h2", text: "Platform policy: Google and Meta" },
       {
@@ -473,13 +473,13 @@ export const guidesPartSeven: Guide[] = [
       "A medical practice contact page needs the full NAP (name, address, phone) as real text, not just inside an image or a map embed, an embedded Google Map, hours listed the same way as Google Business Profile, a working contact form with clear expected response time, and LocalBusiness or MedicalBusiness schema markup. Pages that put the address only inside a map graphic are invisible to search engines and to screen readers — the text has to exist separately.",
     author: "Liam Costello",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-22",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "The contact page is a local SEO signal, not just a convenience" },
       {
         type: "p",
-        text: "A contact page gets treated by most practices as an afterthought — a form and a Google Map embed. But it's one of the pages Google actually looks at to confirm the business details on a listing match the business details on the website, which is one of the local ranking factors that keeps a Google Business Profile trustworthy. A contact page with a stale address, a phone number that doesn't match the listing, or an address that only exists inside a map image (with no selectable text) is a real, measurable gap. If you charge self-pay fees, link the contact page to the price page described in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website). Tell patients how fast portal messages are answered and how results are shared, as laid out in our guide to a [results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice).",
+        text: "A contact page gets treated by most practices as an afterthought — a form and a Google Map embed. But it's one of the pages Google actually looks at to confirm the business details on a listing match the business details on the website, which is one of the local ranking factors that keeps a Google Business Profile trustworthy. A contact page with a stale address, a phone number that doesn't match the listing, or an address that only exists inside a map image (with no selectable text) is a real, measurable gap. If you charge self-pay fees, link the contact page to the price page described in our guide to [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website). Tell patients how fast portal messages are answered and how results are shared, as laid out in our guide to a [results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice). If the page includes a request form, decide carefully which questions to ask by following our list of [appointment request form fields to include and leave out](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out).",
       },
       { type: "h2", text: "What has to be on the page, as real text" },
       {
@@ -788,7 +788,7 @@ export const guidesPartSeven: Guide[] = [
       "Measuring ROI on medical practice marketing requires three connected pieces: every lead source (form, phone call, Google Business Profile) tracked to a single system, a cost per channel (ad spend plus agency fee, divided by channel), and a rough patient lifetime value to convert a lead count into a dollar figure. Without all three connected, a practice can see traffic and calls going up with no way to know if that's actually turning into paying patients worth more than what was spent.",
     author: "Liam Costello",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-22",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "\"Traffic is up\" is not the same as \"marketing is working\"" },
@@ -829,7 +829,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "The formula, put together" },
       {
         type: "p",
-        text: "ROI = (leads generated × close rate × average patient lifetime value − total channel cost) ÷ total channel cost. Running this per channel, monthly, is what turns a vague sense of \"marketing seems to be working\" into an actual number a practice can use to decide where to spend the next dollar. It also surfaces the uncomfortable but useful finding that a channel with strong-looking traffic numbers can have a genuinely negative ROI once close rate and patient value are actually factored in. For the traffic side of the picture, follow our [monthly Google Analytics 4 routine](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice). The Business Profile's own call and direction counts are an input here, and our guide on [reading performance reports each month](/guides/how-to-read-google-business-profile-performance-reports-each-month) explains how to pull them.",
+        text: "ROI = (leads generated × close rate × average patient lifetime value − total channel cost) ÷ total channel cost. Running this per channel, monthly, is what turns a vague sense of \"marketing seems to be working\" into an actual number a practice can use to decide where to spend the next dollar. It also surfaces the uncomfortable but useful finding that a channel with strong-looking traffic numbers can have a genuinely negative ROI once close rate and patient value are actually factored in. For the traffic side of the picture, follow our [monthly Google Analytics 4 routine](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice). The Business Profile's own call and direction counts are an input here, and our guide on [reading performance reports each month](/guides/how-to-read-google-business-profile-performance-reports-each-month) explains how to pull them. For a worked example with dated numbers and honest gaps, read our [case study of a primary care practice with several offices](/case-studies/serenity-by-a-dr-sareen).",
       },
     ],
     faqs: [
