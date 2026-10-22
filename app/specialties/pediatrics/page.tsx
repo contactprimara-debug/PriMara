@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import { toJsonLd } from "@/lib/schema";
 import LocationDepth from "@/components/LocationDepth";
 
 export const metadata: Metadata = {
@@ -45,6 +46,26 @@ const services = [
   "Seasonal content strategy for school physicals, immunizations, and new patient onboarding spikes",
 ];
 
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      name: "Digital Marketing for Pediatric Practices",
+      url: "https://primara365.com/specialties/pediatrics",
+      isPartOf: { "@type": "WebSite", name: "Primara", url: "https://primara365.com" },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://primara365.com" },
+        { "@type": "ListItem", position: 2, name: "Specialties", item: "https://primara365.com/specialties" },
+        { "@type": "ListItem", position: 3, name: "Pediatrics", item: "https://primara365.com/specialties/pediatrics" },
+      ],
+    },
+  ],
+};
+
 const faqs = [
   { q: "Our patients are children — who are we actually marketing to?", a: "Parents. Every keyword, page, and Google Business Profile category is built around how parents search — ‘pediatrician near me accepting new patients,’ ‘same-day sick visit for kids [city]’ — not clinical terminology. Photos, reviews, and copy are written to reassure a parent choosing care for their child." },
   { q: "Does Florida’s population growth actually help pediatric practices?", a: "Yes — steady in-migration means a constant flow of new families needing a pediatrician, often searching within days of relocating. We target ‘pediatrician accepting new patients [city]’ and similar urgent-need phrasing so your practice surfaces for families who just arrived and haven’t picked a provider yet." },
@@ -57,6 +78,7 @@ const faqs = [
 export default function PediatricsPage() {
   return (
     <main style={{ background: "var(--void)", minHeight: "100vh" }} className="pt-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(pageSchema) }} />
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
           <li><Link href="/" className="hover:underline">Home</Link></li>

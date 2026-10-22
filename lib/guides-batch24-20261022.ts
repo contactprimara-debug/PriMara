@@ -459,7 +459,7 @@ export const guidesPartTwentySeven: Guide[] = [
     title: "Nurse Line and Advice Line Page for a Primary Care Practice, Without Clinical Advice",
     metaTitle: "Nurse Line Page for a Primary Care Practice Website",
     metaDescription:
-      "How to write a nurse line or after-hours advice page that gives hours, numbers and a clear emergency line without giving medical advice. Call (561) 291-2681.",
+      "How to write a nurse line or after-hours page that gives hours, numbers and a clear emergency line without medical advice. Call (561) 291-2681.",
     answer:
       "A nurse line page tells patients when to call, what number to use and who answers, and it says plainly to call 911 in an emergency. It does not diagnose, name symptoms or suggest treatment. Keep the hours, the number and the limits of the line on one short, easy page.",
     author: "Gio LaRoche",
@@ -647,7 +647,7 @@ export const guidesPartTwentySeven: Guide[] = [
     title: "Website Accessibility Statement and How to Report a Barrier for a Medical Practice",
     metaTitle: "Accessibility Statement for a Medical Practice Website",
     metaDescription:
-      "What an accessibility statement should say, how patients can report a barrier, and how to answer without overclaiming. Call (561) 291-2681.",
+      "What an accessibility statement should say, how patients can report a barrier, and how to answer each report without overclaiming. Call (561) 291-2681.",
     answer:
       "An accessibility statement tells visitors that the practice cares about access, names the standard it works toward, and gives a phone number and email to report a barrier. It should be honest about known gaps, offer another way to get the same information, and never claim the site is fully accessible.",
     author: "Gio LaRoche",
