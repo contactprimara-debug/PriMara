@@ -4,11 +4,12 @@ import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
 import PackageInquiryForm from "@/components/PackageInquiryForm";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 export const metadata: Metadata = {
   title: "Visibility Package — Foundation + Google Ads | Primara",
   description:
-    "Visibility Package: everything in the Foundation Package plus Google Ads management for independent healthcare practices. You pay Google directly. Call (561) 291-2681.",
+    "Visibility Package: the Foundation Package plus Google Ads management for independent practices. You pay Google directly. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/visibility" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -442,6 +443,12 @@ export default function VisibilityPackagePage() {
 
       {/* ── Inquiry form ─────────────────────────────────────────────────── */}
       {/* Related links (contextual internal linking) */}
+      <LocationDepth
+        eyebrow="How The Ad Months Run"
+        heading="How Google Ads works alongside the foundation work."
+        blocks={[{"type": "p", "text": "Visibility is Foundation plus Google Ads, so the first two months look the same as Foundation: profile, pages, reviews and reporting. The ads are added once that base can carry them."}, {"type": "h3", "text": "Before the first campaign goes live"}, {"type": "ul", "items": ["We agree a starting budget with you on a call, based on your market and goals.", "We confirm the landing page loads quickly on a phone and that calls and forms are tracked.", "We build a negative keyword list so you do not pay for clicks from people looking for something you do not offer."]}, {"type": "h3", "text": "What the monthly ads review covers"}, {"type": "p", "text": "Spend, clicks and cost per inquiry come first. Then the search terms that actually triggered your ads, the negative keywords added that month, any copy tests and a budget recommendation for the next month. A quarterly strategy call looks at the larger picture."}, {"type": "h3", "text": "A note on healthcare ads"}, {"type": "p", "text": "Ad copy follows Google's advertising policies and makes no clinical claims, outcome claims or guarantees. Tracking records that an inquiry happened and which ad led to it, never who the person was or why they were calling. The ad account belongs to your practice, and you pay Google directly."}]}
+      />
+
       <FaqSection faqs={faqs} />
 
       <RelatedLinks

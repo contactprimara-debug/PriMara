@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/medical-seo-lakeland`;
 
@@ -220,6 +221,12 @@ export default function MedicalSeoLakelandPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="The First Quarter"
+        heading="What a Lakeland practice gets in the first three months."
+        blocks={[{"type": "p", "text": "Lakeland practices usually start from one of three places: a Google listing that was never claimed, a listing claimed years ago and left alone, or a good website that Google has barely read. The first week is an audit that tells us which one it is, because the plan is different for each."}, {"type": "h3", "text": "Month one: the listing and the base"}, {"type": "ul", "items": ["Name, address, phone and hours checked so they match on the website, the Google profile and the main directories.", "Primary and secondary categories set, and services written in the words patients type into a search box.", "Google Search Console connected, the sitemap submitted, and every important page confirmed readable."]}, {"type": "h3", "text": "Months two and three: pages and proof"}, {"type": "p", "text": "Each new page covers one service and uses the practice's own details, not a template with a town name swapped in. A rank grid across the Lakeland and Polk County service area shows where the practice appears on the map and where it does not, and that tells us which page to write next."}, {"type": "p", "text": "The monthly report puts the numbers in order: Google profile views, calls and direction requests, rank movement and pages Google has read. Where a number did not move, the report says so."}, {"type": "h3", "text": "What we cannot promise"}, {"type": "p", "text": "We cannot promise a position or a number of new patients, because Google decides who appears and patients decide whom to call. We can promise careful work, plain reporting and a direct line to the two founders."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

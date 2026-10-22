@@ -130,7 +130,19 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
         </div>
       </section>
 
-      <section style={{ backgroundColor: "var(--void)", padding: "clamp(36px, 6vw, 72px) 0", borderBottom: "1px solid var(--wire)" }}>
+      {c.reading && (
+        <section style={{ backgroundColor: "var(--void)", padding: "clamp(36px, 6vw, 72px) 0", borderBottom: "1px solid var(--wire)" }}>
+          <div className="mx-auto max-w-content px-6 lg:px-8">
+            <p style={eyebrow}>Reading the table</p>
+            <h2 style={h2}>{c.reading.heading}</h2>
+            {c.reading.paras.map((t) => (
+              <p key={t} style={{ ...body, marginBottom: "16px" }}>{t}</p>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section style={{ backgroundColor: "var(--surface)", padding: "clamp(36px, 6vw, 72px) 0", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={eyebrow}>The client</p>
           <h2 style={h2}>Who they are</h2>

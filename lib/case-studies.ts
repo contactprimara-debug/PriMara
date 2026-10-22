@@ -26,6 +26,8 @@ export type CaseStudy = {
   did: { title: string; body: string }[];
   results: CaseResult[];
   notYet: string[]; // honest "what has not moved"
+  // Plain-language guide to reading the table (added 2026-10-22). Uses only figures already in `results`.
+  reading?: { heading: string; paras: string[] };
   faqs: { q: string; a: string }[];
   dataDate: string;
 };
@@ -42,7 +44,7 @@ export const caseStudies: CaseStudy[] = [
     kind: "Counseling practice with offices in Lake, Orange and Polk counties",
     title: "Case Study: Family Life Counseling Center | Primara",
     description:
-      "What Primara did for Family Life Counseling Center, with dated numbers: 190 form requests in 28 days, indexed pages 49 to 77, and 191 of 191 Google reviews answered.",
+      "What Primara did for Family Life Counseling Center, with dated numbers: 190 form requests, indexed pages 49 to 77 and 191 of 191 reviews answered.",
     h1: "Case study: Family Life Counseling Center",
     summary:
       "Family Life Counseling Center is a Clermont, Florida counseling practice. Between 2026-09-08 and 2026-10-08 we published 85 pages for it, Google reported indexed pages rising from 49 to 77, and its form delivered 190 requests to the practice inbox. Search clicks stayed roughly flat, and we say so below.",
@@ -120,6 +122,14 @@ export const caseStudies: CaseStudy[] = [
       "Average search position moved from 19.4 to 25.5 over the same period, because the site now appears for many more searches, including weak ones.",
       "We cannot yet tell which page or channel produces each form request, because the form did not record a source before this month.",
     ],
+    reading: {
+      heading: "How to read these numbers",
+      paras: [
+        "Three of the figures above measure our work, and three measure what Google and patients did in response. Pages published, reviews answered and the share of form submissions delivered are in our control. Indexed pages, impressions and clicks are not, because Google decides what to read and show.",
+        "That is why the table keeps both kinds side by side. A practice can publish 85 pages in a month and still see clicks move only a little, because a new page usually needs weeks to be read, then more weeks to appear for any search. Impressions rising 12.3% while clicks rose 4.7% fits that pattern: the site is being shown more often, and the extra showings are mostly lower on the page.",
+        "The form count is the number a counseling practice feels first. We treat it as a count of requests and nothing else: no names, no reasons for a visit and no phone calls. Calls are tracked on their own, so the two are never added together or mistaken for one another.",
+      ],
+    },
     faqs: [
       {
         q: "Does the 190 include phone calls?",
@@ -133,6 +143,14 @@ export const caseStudies: CaseStudy[] = [
         q: "Are any patient details used on this page?",
         a: "No. We use counts only. We do not read or publish form contents, and nothing on this page describes treatment or outcomes.",
       },
+      {
+        q: "Why did average position get worse while clicks went up?",
+        a: "Position averages every search the site appears for. When a site is shown for many more searches, the new ones usually rank lower, which pulls the average down even as total clicks rise. We report both so the trade-off is visible.",
+      },
+      {
+        q: "Can I see the same report for my own practice?",
+        a: "Yes. A free audit shows your indexed pages, your Google listing and your review replies in the same plain format, with dates on every figure. It is delivered in 3 to 5 business days.",
+      },
     ],
     dataDate: CASE_DATA_DATE,
   },
@@ -145,7 +163,7 @@ export const caseStudies: CaseStudy[] = [
     kind: "Primary care practice with offices in Loxahatchee, West Palm Beach, Port St. Lucie and Belle Glade",
     title: "Case Study: Serenity By A Dr. Sareen | Primara",
     description:
-      "What Primara did for Serenity By A Dr. Sareen, with dated numbers: 158 of 160 pages indexed, 19 form requests in 28 days, and 263 of 265 Google reviews answered.",
+      "What Primara did for Serenity By A Dr. Sareen, with dated numbers: 158 of 160 pages indexed, 19 form requests and 263 of 265 reviews answered.",
     h1: "Case study: Serenity By A Dr. Sareen",
     summary:
       "Serenity By A Dr. Sareen is a Florida primary care practice with several offices. Between 2026-09-08 and 2026-10-08 we grew its published pages from 29 to 140, and Google reported indexed pages rising from 87 to 166. The practice received 19 form requests in 28 days, and 263 of 265 reviews are answered.",
@@ -228,6 +246,14 @@ export const caseStudies: CaseStudy[] = [
       "Average search position moved from 7.5 to 9.7 as the site appeared for more searches.",
       "Phone calls are the practice's main source of new patients, and we cannot yet say how many of Google's call-button taps become booked visits.",
     ],
+    reading: {
+      heading: "How to read these numbers",
+      paras: [
+        "This practice is the best-indexed of our three examples, and the table shows why we check indexing before publishing more. When 158 of 160 sitemap pages are already in Google, a new page has a fair chance of being read quickly, and the work moves to what each page says and who links to it.",
+        "Impressions more than doubled while clicks rose 67%. Both are real gains from a small base, and neither is a promise of the next month. Most clicks still come from people searching for the doctors by name, so the harder test is whether general searches, such as primary care in a particular town, start bringing visitors.",
+        "The form count looks small beside the review count because a primary care office is mostly reached by phone. We keep forms, Google call-button taps and review replies as three separate lines, and we do not add them into a single headline figure.",
+      ],
+    },
     faqs: [
       {
         q: "Why is the form number so small next to the review count?",
@@ -241,6 +267,14 @@ export const caseStudies: CaseStudy[] = [
         q: "Does this page use any patient information?",
         a: "No. Reviews are counted and timed, never quoted, and we do not read or publish form contents.",
       },
+      {
+        q: "Why report indexing before clicks?",
+        a: "A page Google has not read cannot bring anyone to the site. Counting how many pages are in the index shows whether new work is being seen at all, which is the first step before rank or clicks can change.",
+      },
+      {
+        q: "Does a gain in impressions mean more patients?",
+        a: "Not by itself. An impression is a showing in results, not a visit. That is why this page puts clicks, form requests and review replies beside impressions, and says plainly where phone calls cannot yet be linked to a booked visit.",
+      },
     ],
     dataDate: CASE_DATA_DATE,
   },
@@ -253,7 +287,7 @@ export const caseStudies: CaseStudy[] = [
     kind: "Christian outreach nonprofit in Tampa and Gainesville, Florida",
     title: "Case Study: Making Heaven Crowded | Primara",
     description:
-      "What Primara did for Making Heaven Crowded, with dated numbers: indexed pages 6 to 31, search impressions 26 to 241 in 28 days, and an honest list of what has not moved yet.",
+      "What Primara did for Making Heaven Crowded, with dated numbers: indexed pages 6 to 31, impressions 26 to 241 and an honest list of what has not moved.",
     h1: "Case study: Making Heaven Crowded",
     summary:
       "Making Heaven Crowded is a Christian outreach ministry in Tampa and Gainesville. Between 2026-09-08 and 2026-10-08 we published 45 more pages for its new site, Google reported indexed pages rising from 6 to 31, and monthly search impressions rose from 26 to 241. It is early, the numbers are small, and the Google listing is not yet verified.",
@@ -313,6 +347,14 @@ export const caseStudies: CaseStudy[] = [
       "The Google Business Profile has not been verified, so there are no Google reviews, no listing performance data and no map ranking yet. Verification needs the ministry's own confirmation.",
       "We report no form-request count for this ministry, because its volunteer sign-up form is separate and we do not have a reliable count to publish.",
     ],
+    reading: {
+      heading: "How to read these numbers",
+      paras: [
+        "This is a first-month snapshot of a new site, so every figure is small, and the honest way to read small numbers is to look at direction and cause rather than size. Indexed pages going from 6 to 31 tells us Google began reading the site. Impressions going from 26 to 241 tells us the site started to appear for more searches. Neither tells us how many people will volunteer.",
+        "The average position falling from 1.8 to 14.6 looks like a loss and is not one. In the first month almost every search was for the ministry's own name, where any site ranks first. As the site appeared for broader searches, those weaker positions pulled the average down. A lower average with more impressions is what growth from nothing usually looks like.",
+        "Two things are missing on purpose. There is no form count, because volunteer sign-ups happen on a separate form we cannot count reliably, and there is no Google listing data, because the listing is not yet verified. We would rather leave those lines out than fill them with a guess.",
+      ],
+    },
     faqs: [
       {
         q: "Why publish a case study with such small numbers?",
@@ -325,6 +367,14 @@ export const caseStudies: CaseStudy[] = [
       {
         q: "What happens next for this site?",
         a: "Get the unread pages indexed, verify the Google listing with the ministry, and shift new pages toward searches from people who want to volunteer or give.",
+      },
+      {
+        q: "Is a nonprofit ministry the same kind of client as a medical practice?",
+        a: "The search work is the same: pages Google can read, links between them, a verified listing and honest measurement. We include this example because it shows a first month from a near-zero start, and we apply the same plain reporting.",
+      },
+      {
+        q: "Why is there no review or listing data?",
+        a: "The Google listing is not verified yet, and verification needs the ministry's own confirmation. Until then there are no reviews or map data to report, so we leave those lines out rather than estimate them.",
       },
     ],
     dataDate: CASE_DATA_DATE,

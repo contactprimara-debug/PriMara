@@ -4,11 +4,12 @@ import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema"; // v2
 import PackageInquiryForm from "@/components/PackageInquiryForm";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 export const metadata: Metadata = {
   title: "Foundation Package — Healthcare Marketing | Primara",
   description:
-    "Foundation Package for independent primary care and mental health practices: Google Business Profile, Local SEO, reputation monitoring, and monthly reporting. Call (561) 291-2681.",
+    "Foundation Package for primary care and mental health practices: Google Business Profile, local SEO, review replies and monthly reports. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/packages/foundation" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -440,6 +441,12 @@ export default function FoundationPackagePage() {
 
       {/* ── Inquiry form ─────────────────────────────────────────────────── */}
       {/* Related links (contextual internal linking) */}
+      <LocationDepth
+        eyebrow="The First 90 Days"
+        heading="What the first three months of Foundation look like."
+        blocks={[{"type": "p", "text": "Foundation starts with a 30-day setup, then settles into a monthly rhythm. Knowing what happens when helps a practice plan who needs to be available and when."}, {"type": "h3", "text": "Month one: setup"}, {"type": "p", "text": "We build out the Google Business Profile and the technical base: categories, services, description, attributes and the insurance plans you accept, plus a check that Google Search Console can read the site. Setup needs no patient information at all."}, {"type": "h3", "text": "Months two and three: the monthly rhythm"}, {"type": "p", "text": "Two content pages publish each month, and you see the topics before they go live. New reviews are answered within 48 hours. The monthly report says what changed, what did not and what we recommend next."}, {"type": "h3", "text": "What we need from you"}, {"type": "ul", "items": ["Access to the Google Business Profile, or the details to claim it.", "A list of the services and insurance plans you actually accept.", "One recent photo of the office, and one person who can approve wording for review replies."]}, {"type": "h3", "text": "What we do not promise"}, {"type": "p", "text": "We do not promise a map position or a number of new patients, and we do not buy or incentivize reviews. Foundation builds the base that makes a practice easy to find and easy to choose, and the report shows how far that has gone."}]}
+      />
+
       <FaqSection faqs={faqs} />
 
       <RelatedLinks

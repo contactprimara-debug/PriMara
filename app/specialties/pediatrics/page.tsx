@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 export const metadata: Metadata = {
   title: "Digital Marketing for Pediatric Practices | Primara",
   description:
-    "Primara helps independent pediatricians rank higher on Google Maps, earn parent trust through reviews, and stay visible to relocating families. Free audit. Call (561) 291-2681.",
+    "Primara helps independent pediatric practices show up on Google Maps, earn parent trust through reviews and reach new families. Call (561) 291-2681.",
   alternates: { canonical: "https://primara365.com/specialties/pediatrics" },
   robots: { index: true, follow: true },
   openGraph: {
@@ -135,6 +136,12 @@ export default function PediatricsPage() {
           </ul>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="What Parents Check First"
+        heading="What a parent needs to see before they pick up the phone."
+        blocks={[{"type": "p", "text": "A parent choosing a pediatrician is usually comparing two or three practices on a phone, often while doing something else. They are not reading for clinical detail. They are looking for a few practical answers, and a practice that makes those easy to find has an advantage over one that makes them hunt."}, {"type": "h3", "text": "The practical answers"}, {"type": "ul", "items": ["Is the practice accepting new patients, and for which ages?", "Which insurance plans does it take, listed by name?", "What are the hours, and how does a parent reach the office on the same day?", "Where is it, with a map link and parking noted?"]}, {"type": "h3", "text": "Reviews from parents"}, {"type": "p", "text": "Parents read reviews for tone: whether the staff were kind, whether the wait was fair, whether a call was returned. We ask every family the same way, offer nothing in return, and reply to each review in wording that never confirms the writer was a patient and never mentions a child's care."}, {"type": "h3", "text": "What we leave out on purpose"}, {"type": "p", "text": "We do not write medical advice, we do not describe treatments or results, and we do not use a child's name or photo. The pages and listings we build say who the practice is, where it is and how to reach it, which is the part a marketing agency should be doing."}]}
+      />
 
       <FaqSection faqs={faqs} />
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
+import LocationDepth from "@/components/LocationDepth";
 
 const PAGE_URL = `${SITE_URL}/locations/review-generation-west-palm-beach`;
 
@@ -207,6 +208,12 @@ export default function ReviewGenerationWestPalmBeachPage() {
           </div>
         </div>
       </section>
+
+      <LocationDepth
+        eyebrow="How It Works Here"
+        heading="What review requests look like for a West Palm Beach practice."
+        blocks={[{"type": "p", "text": "The rules for asking are the same everywhere, but the patients are not. A practice in Palm Beach County serves a mix of year-round residents, seasonal residents and visitors, and many households speak Spanish or Haitian Creole at home. Those facts change when and how a review request should go out."}, {"type": "h3", "text": "Seasonal patients and timing"}, {"type": "p", "text": "Some patients spend part of the year in Florida and part somewhere else. A request that goes out weeks after a visit may reach someone who has already left, so we favor asking at checkout or within a day, using the practice's own phone number or card at the desk. The same request goes to every patient the practice chooses to ask, with no screening for who seems happy."}, {"type": "h3", "text": "Reviews in more than one language"}, {"type": "p", "text": "A review may arrive in Spanish or Haitian Creole as well as English. We reply in plain, short wording, thank the writer and invite a call to the office, and we ask a bilingual member of the practice's staff to check any reply that is not in English before it is posted. A reply never confirms that the writer was a patient."}, {"type": "h3", "text": "The monthly rhythm"}, {"type": "ul", "items": ["New reviews are found and answered within 48 hours, on Google first.", "Duplicate and unclaimed listings are checked once a month so reviews are not split.", "A short report shows the count of new reviews, the share answered and any listing problems, with dates on every number."]}, {"type": "p", "text": "We do not promise a star rating or a number of reviews. We make the ask consistent and compliant, and we answer what comes in."}]}
+      />
 
       {/* FAQ */}
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>
