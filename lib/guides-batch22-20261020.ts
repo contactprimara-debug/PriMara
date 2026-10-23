@@ -175,7 +175,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A transportation page for a primary care practice should list how to reach the office by car, bus and ride service, say where to be dropped off, and point patients to the ride benefits their plan may offer. It should promise no rides the office does not provide, and it should tell patients to ask about a ride before the visit date.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Why getting there is part of the visit"),
@@ -202,7 +202,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "Many patients do not know they may be entitled to a ride. State Medicaid programs must make sure eligible members can get to covered medical visits, and the federal program describes this as non-emergency medical transportation. Some Medicare Advantage plans and some commercial plans add ride benefits too, though the details vary by plan and by year."
       ),
       p(
-        "The page should not try to explain every plan. Instead, tell patients to look on the back of the insurance card for a member services number and to ask whether rides to doctor visits are covered, how many days ahead to book, and whether a companion may come along. Linking to the federal explanation of [non-emergency medical transportation](https://www.medicaid.gov/medicaid/benefits/non-emergency-medical-transportation/index.html) keeps the page accurate without the office interpreting coverage."
+        "The page should not try to explain every plan. Instead, tell patients to look on the back of the insurance card for a member services number and to ask whether rides to doctor visits are covered, how many days ahead to book, and whether a companion may come along. Linking to the federal explanation of [non-emergency medical transportation](https://www.medicaid.gov/medicaid/benefits/non-emergency-medical-transportation/index.html) keeps the page accurate without the office interpreting coverage. Show patients where the drop-off point and the main door are with pictures on an [office tour and photos page for new primary care patients](/guides/office-tour-and-photos-page-for-new-primary-care-patients)."
       ),
       table(
         ["Patient situation", "What the page can say"],

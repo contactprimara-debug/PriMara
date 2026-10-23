@@ -240,7 +240,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A virtual visits page for a primary care practice should say who can book a video visit, how to join, what the practice will and will not handle by video, and when a patient must come in or call 911 instead. Keep the list of eligible visit types short and let the clinician decide the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T09:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The page patients are trying to find"),
@@ -277,7 +277,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Insurance and cost"),
       p(
-        "Coverage for video visits differs by plan and changes over time, so the page should say to check with the insurer and offer to verify before the visit. For Medicare patients, link to the official Medicare telehealth page rather than quoting rules that may change."
+        "Coverage for video visits differs by plan and changes over time, so the page should say to check with the insurer and offer to verify before the visit. For Medicare patients, link to the official Medicare telehealth page rather than quoting rules that may change. Once a visit is booked, patients also need step-by-step help joining, which our guide to a [telehealth visit instructions page for a primary care practice](/guides/telehealth-visit-instructions-page-for-a-primary-care-practice) provides."
       ),
       h2("Keep Google and the page in step"),
       p(

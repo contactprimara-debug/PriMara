@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -228,7 +228,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Most cancellation conflicts in a therapy practice start with surprise. A client learns about a late fee only after a missed session, feels ambushed, and the relationship begins with an argument about money. A policy that is easy to find before the first appointment removes that surprise, and it gives the clinician something neutral to point to."
+        "text": "Most cancellation conflicts in a therapy practice start with surprise. A client learns about a late fee only after a missed session, feels ambushed, and the relationship begins with an argument about money. A policy that is easy to find before the first appointment removes that surprise, and it gives the clinician something neutral to point to. The same surprise problem applies to how care ends, so pair this policy with a [client discharge and termination policy page](/guides/client-discharge-and-termination-policy-page-for-a-counseling-practice-without-clinical-claims) that explains the process before the first session."
       },
       {
         "type": "p",
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -438,7 +438,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many patients, especially older adults, hear the phrase annual wellness visit from their insurance plan or a neighbor, then search for it with the name of a nearby practice. A page that answers the question directly can be the first thing they read about your office. It is also one of the more useful pages a primary care practice can publish, because confusion about what the visit includes is common. A short, factual [immunization and vaccine availability page](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) works well beside the wellness visit page, because both avoid clinical claims and answer practical questions."
+        "text": "Many patients, especially older adults, hear the phrase annual wellness visit from their insurance plan or a neighbor, then search for it with the name of a nearby practice. A page that answers the question directly can be the first thing they read about your office. It is also one of the more useful pages a primary care practice can publish, because confusion about what the visit includes is common. A short, factual [immunization and vaccine availability page](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) works well beside the wellness visit page, because both avoid clinical claims and answer practical questions. A visit after a hospital stay is a separate booking, and our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims) shows how to explain it."
       },
       {
         "type": "p",
@@ -618,7 +618,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A counseling practice website should state, in plain words near the contact details, that the site and phone line are not for emergencies, and that anyone in crisis can call or text 988 or call 911. Place it where a distressed visitor will see it without searching, and verify every number you list.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T15:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -627,7 +627,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A counseling website is sometimes the first place a person in distress lands, and a contact form is the wrong tool for that moment. The crisis section exists to make one thing obvious: if this is an emergency, here is where to go right now. Everything else on the page is secondary to that."
+        "text": "A counseling website is sometimes the first place a person in distress lands, and a contact form is the wrong tool for that moment. The crisis section exists to make one thing obvious: if this is an emergency, here is where to go right now. Everything else on the page is secondary to that. The same crisis wording should appear next to the portal login, a point covered in our guide to a [portal login and messaging expectations page](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice) for counseling practices."
       },
       {
         "type": "p",

@@ -272,12 +272,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A disclosure page should say plainly which clinicians are fully licensed and which are pre-licensed or registered interns working under supervision, name the supervisor, state what title each person may use, and explain fees. Use only the titles each board allows, and never imply that a trainee holds a license they have not earned.",
     author: "Liam Costello",
     publishDate: "2026-10-15T09:40:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Why clients need to be told, and where"),
       p(
-        "Many group practices see clients with a mix of licensed clinicians and pre-licensed ones who are completing supervised hours toward a license. Both are legitimate. What a client cannot do is choose well if they are not told which is which, and a website that blurs the difference creates a trust problem and, in some states, a compliance problem."
+        "Many group practices see clients with a mix of licensed clinicians and pre-licensed ones who are completing supervised hours toward a license. Both are legitimate. What a client cannot do is choose well if they are not told which is which, and a website that blurs the difference creates a trust problem and, in some states, a compliance problem. Licensed clinicians' titles also need a plain explanation, as covered in our guide to [therapist credentials and license titles explained on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website)."
       ),
       p(
         "In Florida, for example, clinicians who have not yet reached full licensure in clinical social work, marriage and family therapy or mental health counseling practice as registered interns under a qualified supervisor. The state board that oversees those professions publishes its own rules, and your page should mirror them rather than paraphrase from memory. Counselors who serve veterans and military families can use [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) to state their experience and coverage accurately."
@@ -465,12 +465,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Describe availability with measured, dated statements such as typical days to the next new-patient visit, not guarantees like same-day appointments always. Update the figure on a schedule, say how patients can get seen sooner, and avoid claims about waiting times that the office cannot support with its own schedule data.",
     author: "Liam Costello",
     publishDate: "2026-10-15T10:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Patients search for speed, and practices overpromise"),
       p(
-        "Many searches that end in a booked visit include words like soon, today or this week. A practice that can answer honestly has an advantage, and a practice that answers with a promise it cannot keep earns a bad review and a lost patient. The skill is to say something useful without turning availability into a guarantee."
+        "Many searches that end in a booked visit include words like soon, today or this week. A practice that can answer honestly has an advantage, and a practice that answers with a promise it cannot keep earns a bad review and a lost patient. The skill is to say something useful without turning availability into a guarantee. Families booking a visit after a hospital discharge want the earliest honest answer, which a [post-hospital follow-up visit page](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims) can give without promising a time."
       ),
       p(
         "The Federal Trade Commission expects advertising claims to be truthful and backed by evidence. A line such as no waiting is an objective claim, and if the waiting room is full on Monday mornings it is a liability. Describing what usually happens, with a date, stays on the right side of that line."
@@ -563,7 +563,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Thank the reviewer in general terms, do not confirm that they were a patient, do not mention the visit, the provider's treatment or any health detail, and invite them to call the office for anything personal. A reply is public, and even a warm one can disclose protected information if it confirms who was seen.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("A happy review is still a privacy risk"),
@@ -603,7 +603,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "If a reviewer includes a question or a concern, keep the public reply general and move the conversation to a phone call. Never ask them to confirm identity in the public thread. Our guide on [how to respond to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) explains the same principle for harder cases, and the HHS guidance on marketing and privacy sets the rules your replies must follow."
       ),
       p(
-        "Reply to positive reviews too. Google surfaces owner responses, and a steady record of calm, privacy-conscious replies tells readers the practice is attentive. If you ask patients for reviews at all, read how to do it without selecting who is asked in [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating). And do not offer anything in exchange for a review, which breaks Google's contribution policy. Praise and complaints belong in different places, and a [patient feedback and complaint page without health details](/guides/patient-feedback-and-complaint-contact-page-for-a-medical-practice-without-health-details) gives unhappy patients their own route."
+        "Reply to positive reviews too. Google surfaces owner responses, and a steady record of calm, privacy-conscious replies tells readers the practice is attentive. If you ask patients for reviews at all, read how to do it without selecting who is asked in [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating). And do not offer anything in exchange for a review, which breaks Google's contribution policy. Praise and complaints belong in different places, and a [patient feedback and complaint page without health details](/guides/patient-feedback-and-complaint-contact-page-for-a-medical-practice-without-health-details) gives unhappy patients their own route. Patients with a concern about their care deserve a clear route before they write a review, such as a [patient rights and complaint process page](/guides/patient-rights-and-complaint-process-page-for-a-primary-care-practice) linked from the footer."
       ),
       h2("A quick approval routine"),
       p(
@@ -762,12 +762,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
       p(
-        "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers."
+        "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers. Whatever titles you list on a directory profile should match the state record, as explained in our guide to [therapist credentials and license titles on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website)."
       ),
       p(
         "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not. Directory profiles often carry an affirming statement, and it should say the same thing as the practice's own [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) so a client sees one consistent welcome."
@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1260,7 +1260,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         ["Expert in everything.", "I see people about anxiety, grief, life changes and relationships."]
       ),
       p(
-        "Outcome language is where bios get into trouble. The American Psychological Association's ethics code asks psychologists to avoid false or misleading statements about their services, and the same standard is a sensible guide for any licensed counselor. Our article on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) goes deeper on how to name concerns without clinical claims. Choose the therapist's photo with the same care as the text, following our [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) on consent, background and alt text."
+        "Outcome language is where bios get into trouble. The American Psychological Association's ethics code asks psychologists to avoid false or misleading statements about their services, and the same standard is a sensible guide for any licensed counselor. Our article on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) goes deeper on how to name concerns without clinical claims. Choose the therapist's photo with the same care as the text, following our [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) on consent, background and alt text. Visitors who cannot choose between several bios can be helped by a [clinician matching page for a group counseling practice](/guides/clinician-matching-page-for-a-group-counseling-practice-how-clients-choose-a-therapist) that explains how pairing works."
       ),
       h3("Credentials: only what is true"),
       p(

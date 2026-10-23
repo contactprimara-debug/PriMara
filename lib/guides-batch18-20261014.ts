@@ -147,12 +147,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
       p(
-        "A new patient has just chosen your office from a list of nearly identical results. What they hear next decides whether they arrive calm and prepared or anxious and late. A welcome message is the cheapest way to make the first visit smoother, and it costs you nothing beyond the time to write it once."
+        "A new patient has just chosen your office from a list of nearly identical results. What they hear next decides whether they arrive calm and prepared or anxious and late. A welcome message is the cheapest way to make the first visit smoother, and it costs you nothing beyond the time to write it once. If the first visit is by video, include a link to your [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-primary-care-practice) in the welcome message so the patient can prepare before the day."
       ),
       p(
         "The message has two readers. The patient wants to know where to go and what to bring. The practice wants fewer forgotten insurance cards and fewer calls asking for directions. Write for both by answering the questions your front desk already hears every morning."
@@ -338,7 +338,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A note-request page should say who can ask for a school, work or camp note, how to ask through the portal or phone, how long the office needs, and what the note will and will not contain. Never collect health details on the page itself, and explain that sending a note to a third party may need the patient's written permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T10:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Notes are small requests that fill a front desk"),
@@ -383,7 +383,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Check that the page is doing its job"),
       p("After a month, compare the number of note-request calls with the number before the page existed. Ask the front desk which questions still arrive despite the page, and rewrite the relevant sentence. If families keep asking where to find the request tool, move the link higher or repeat it in your appointment reminders."),
-      p("Also look at how people reach the page. If most arrive from a search for a school physical form, add a short pointer on that page. If most arrive from the portal, leave it alone. The goal is a short path from the question to the answer, with no clinical detail passing through the website at any point."),
+      p("Also look at how people reach the page. If most arrive from a search for a school physical form, add a short pointer on that page. If most arrive from the portal, leave it alone. The goal is a short path from the question to the answer, with no clinical detail passing through the website at any point. Parents who arrive for school forms often need a routine checkup first, so link to a [well-child and school-age checkup page for a family medicine practice](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) from this page."),
       p("Keep the tone helpful rather than bureaucratic. Families asking for these notes are usually in the middle of a busy week, so short steps, a visible phone number and a clear turnaround estimate will be remembered far longer than any policy language."),
     ],
     faqs: [
@@ -630,7 +630,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
@@ -642,7 +642,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Send a link, never the forms"),
       p(
-        "Attachments travel. They get forwarded, downloaded to shared computers and kept in inboxes for years. A link to the practice's secure portal or its HIPAA-compliant forms tool keeps the information where the practice can protect it. If your software cannot do that, ask the vendor about the secure option before you send a single client a form."
+        "Attachments travel. They get forwarded, downloaded to shared computers and kept in inboxes for years. A link to the practice's secure portal or its HIPAA-compliant forms tool keeps the information where the practice can protect it. If your software cannot do that, ask the vendor about the secure option before you send a single client a form. Clients who read slowly or see poorly may need another route, so offer to take the forms by phone, as our guide to [accessible intake forms](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) suggests."
       ),
       p(
         "Our guide on [publishing new-patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) describes how to check a form tool before you rely on it."
@@ -1035,12 +1035,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
       p(
-        "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that. A therapy practice has extra duties around planned absences, covered in our guide to [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice), because clients may need to know who to call in a crisis. On days when only the advice line is staffed, point patients to a [nurse line and advice line page](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) that gives the number and the limits of the service."
+        "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that. A therapy practice has extra duties around planned absences, covered in our guide to [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice), because clients may need to know who to call in a crisis. On days when only the advice line is staffed, point patients to a [nurse line and advice line page](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) that gives the number and the limits of the service. For storm closures in particular, a permanent [severe weather notice page for a primary care practice](/guides/hurricane-and-severe-weather-patient-notice-page-for-a-primary-care-practice) lets you change one status line instead of writing a new announcement every time."
       ),
       p(
         "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed."
@@ -1139,7 +1139,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
@@ -1151,7 +1151,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("What the consent section should explain"),
       p(
-        "Your own consent form is written by the practice and reviewed by someone qualified in your state, since telehealth rules differ by location and by clinician license. The website page should not replace it. It should summarize what the form covers in plain language and link to the form on the secure portal."
+        "Your own consent form is written by the practice and reviewed by someone qualified in your state, since telehealth rules differ by location and by clinician license. The website page should not replace it. It should summarize what the form covers in plain language and link to the form on the secure portal. Clients usually reach those forms through the portal, so explain how to log in and what to expect from messages on a [portal login and messaging expectations page](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice)."
       ),
       ul(
         "That sessions take place by secure video, and which platform the practice uses.",
@@ -1239,7 +1239,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A couples counseling page should explain how sessions work, who attends, how long they run, how to book, what they cost and how the first call goes. It should not promise a stronger relationship, name problems it will fix or tell couples what is wrong. Describe the format and invite one conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Couples search with a different kind of nervousness"),
@@ -1278,7 +1278,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Be honest about privacy and the first call"),
       p(
-        "Partners often worry about what the clinician will share with the other person. Your policy on this belongs in the clinician's own words, and the page can say that the practice will explain how it handles information at the first contact. Do not paraphrase a legal rule if you are unsure."
+        "Partners often worry about what the clinician will share with the other person. Your policy on this belongs in the clinician's own words, and the page can say that the practice will explain how it handles information at the first contact. Do not paraphrase a legal rule if you are unsure. A calm explanation of privacy and its limits, as in our guide to a [confidentiality page for a counseling practice](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice), can sit on its own page linked from here."
       ),
       p(
         "Mention that the form should not contain details about the relationship. Our guide on [writing a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) shows how to prepare visitors for the first call without asking for anything private."
@@ -1444,7 +1444,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A check-in page should explain how to arrive, where to enter, how to check in, what the front desk will ask for, how waiting works and what to do if the wait feels long. Keep it factual, avoid time promises you cannot keep, and never ask patients to describe their symptoms on the page.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The first five minutes shape the whole visit"),
@@ -1464,7 +1464,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h3("Say what you do when the schedule runs behind"),
       p(
-        "Every practice runs late occasionally. Rather than promising no waiting, tell patients what the office does when it happens, such as letting the desk update them or offering to reschedule. This is more credible than a vow of punctuality and sets a reasonable expectation."
+        "Every practice runs late occasionally. Rather than promising no waiting, tell patients what the office does when it happens, such as letting the desk update them or offering to reschedule. This is more credible than a vow of punctuality and sets a reasonable expectation. Photos of the reception desk and the waiting area on an [office tour page for new patients](/guides/office-tour-and-photos-page-for-new-primary-care-patients) help people picture check-in before they arrive."
       ),
       h2("Make the page practical"),
       table(

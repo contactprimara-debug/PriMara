@@ -149,12 +149,12 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
       p(
-        "Most people who search for a doctor or a counselor do it on a phone, and many of them would rather talk to a person than fill in a form. If the number is buried in the footer, or shown as a picture, or typed as plain text that cannot be tapped, the visitor has to memorize seven digits, switch apps and type them in. Some will not bother."
+        "Most people who search for a doctor or a counselor do it on a phone, and many of them would rather talk to a person than fill in a form. If the number is buried in the footer, or shown as a picture, or typed as plain text that cannot be tapped, the visitor has to memorize seven digits, switch apps and type them in. Some will not bother. Older visitors benefit most from a large, clearly labeled call button, a point we expand on in our guide to a [senior-friendly website layout with large text and caregiver access](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access)."
       ),
       p(
         "A tap-to-call button removes that work. It is also one of the cheapest changes a practice can make, because it needs no new content, only a link and a little care about where it sits."
@@ -245,7 +245,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A behavioral health referral page tells patients how the practice connects them with counseling or psychiatry: who asks for the referral, how long it usually takes, what insurance may require and where to go in a crisis. It names partners only with their permission and makes no promise about results.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Patients ask, and then they stall"),
@@ -280,7 +280,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Privacy on the page"),
       p(
-        "Referral details are sensitive. The page should say that the office shares only the information needed for the referral, which matches the idea behind the [minimum necessary rule](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html), and that patients can ask what was sent. Do not put a referral request form on the page unless it is on a secure, privacy-reviewed system. A phone number is safer than a form that asks about feelings."
+        "Referral details are sensitive. The page should say that the office shares only the information needed for the referral, which matches the idea behind the [minimum necessary rule](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html), and that patients can ask what was sent. Do not put a referral request form on the page unless it is on a secure, privacy-reviewed system. A phone number is safer than a form that asks about feelings. Counseling practices that receive these referrals can publish the other side of the exchange on a [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer) with the same privacy limits."
       ),
       h3("The loop back to the practice"),
       p(
@@ -829,7 +829,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A preventive visit and a problem visit are billed differently. If a new concern is addressed during a checkup, the office may bill both, and the patient may owe a copay or deductible for the second part. A short, plain explanation on the website and at scheduling keeps this from surprising anyone.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("The surprise at the end of a checkup"),
@@ -861,7 +861,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("What the practice can do"),
       p(
-        "Offer to book a separate problem visit when a concern is known in advance, and set expectations when the schedule is tight. Our guide to [explaining visit types and appointment lengths](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) shows how to describe the options, and the page for [annual wellness visits](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) covers the Medicare version."
+        "Offer to book a separate problem visit when a concern is known in advance, and set expectations when the schedule is tight. Our guide to [explaining visit types and appointment lengths](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) shows how to describe the options, and the page for [annual wellness visits](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) covers the Medicare version. Routine checkups for children follow the same logic, and our guide to a [well-child and school-age checkup page](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) shows how to explain them to parents."
       ),
       h2("Wording that stays honest"),
       p(
@@ -1418,12 +1418,12 @@ export const guidesPartTwentySix: Guide[] = [
       "A referral thank-you loop acknowledges each referral quickly, confirms that the patient was seen, shares only the information the referring doctor needs for treatment, and asks one question about how the process worked. Keep it short, keep it private and send it through a secure channel, not plain email.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Referrals are relationships"),
       p(
-        "When another doctor, a counselor or a hospital team sends a patient to a primary care practice, they are lending their reputation. A quick acknowledgment tells them the patient landed safely and makes the next referral more likely. Silence does the opposite."
+        "When another doctor, a counselor or a hospital team sends a patient to a primary care practice, they are lending their reputation. A quick acknowledgment tells them the patient landed safely and makes the next referral more likely. Silence does the opposite. Counseling practices can welcome referrals from doctors and schools on a dedicated [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer) that explains how to send one."
       ),
       p(
         "The practices that earn steady referrals are rarely the flashiest. They are the ones that confirm, follow up and are easy to reach."

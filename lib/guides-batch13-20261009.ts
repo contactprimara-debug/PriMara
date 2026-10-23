@@ -1523,7 +1523,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A therapist working from home or by telehealth can usually still have a Google Business Profile. Whether to show an address depends on whether clients visit that location. If clients do not come to your home, hide the address and list a service area. Never borrow a mailbox or virtual office address to appear local.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-23",
     "readMinutes": 7,
     "sections": [
       {
@@ -1532,7 +1532,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many solo therapists practice from a home office or run their whole practice by video. They want to be found on Google, but they do not want a client, or anyone else, to learn where they live. That concern is reasonable, and Google's rules have a path for it, as long as you describe your business honestly. Clients who reach a profile without a visible office also need to know where to turn in an emergency, which our guide to a [crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains."
+        "text": "Many solo therapists practice from a home office or run their whole practice by video. They want to be found on Google, but they do not want a client, or anyone else, to learn where they live. That concern is reasonable, and Google's rules have a path for it, as long as you describe your business honestly. Clients who reach a profile without a visible office also need to know where to turn in an emergency, which our guide to a [crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains. Clients who cannot see an office also want to know how their information is protected, which a [confidentiality and its limits page](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice) can explain in plain words."
       },
       {
         "type": "p",

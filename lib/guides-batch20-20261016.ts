@@ -437,7 +437,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A caregiver communication page tells patients and their families that the office speaks about a patient's care only with people the patient has authorized in writing, explains how to name someone, and says what staff can do without that permission. It sets expectations before an anxious phone call, without sharing anything about any patient.",
     author: "Liam Costello",
     publishDate: "2026-10-16T10:20:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("What families call to ask"),
@@ -475,7 +475,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Link the page from the contact page, the new-patient forms page and the portal login page. Our guides on [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) and the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) show how to place those links safely. Referral paperwork raises the same consent questions, and a [behavioral health referral page](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) for a primary care practice shows how to explain what is shared and with whom."
       ),
       p(
-        "Train the front desk to use the same words as the page. Consistency matters more than detail, and a staff member who can say it is our policy to speak only with people the patient has named, and here is how to be added, protects both the patient and the office. This page is general information, and counsel or a compliance officer should review the final text."
+        "Train the front desk to use the same words as the page. Consistency matters more than detail, and a staff member who can say it is our policy to speak only with people the patient has named, and here is how to be added, protects both the patient and the office. This page is general information, and counsel or a compliance officer should review the final text. Family members who arrange care often start on the website, so see how to lay it out for them in our guide to a [senior-friendly website layout for a primary care practice](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access)."
       ),
     ],
     faqs: [
@@ -975,7 +975,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A follow-up visits page tells patients with ongoing health needs how the practice schedules regular visits, what to bring, how refills and lab appointments fit in, and how to reach the office between visits. It describes the process, not the medicine, and never promises that a condition will be controlled, reversed or improved.",
     author: "Liam Costello",
     publishDate: "2026-10-16T12:20:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       h2("Who this page is for"),
@@ -1013,7 +1013,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Make it findable and kind"),
       p(
-        "Patients may search for ongoing care without a condition name, so use the phrases they use, such as follow-up visits and regular check-ins. Add the page to your services menu and mention it from your [visit types and appointment lengths page](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). Include the practice phone and a plain line on how to reach the office after hours, as set out in our guide on [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice)."
+        "Patients may search for ongoing care without a condition name, so use the phrases they use, such as follow-up visits and regular check-ins. Add the page to your services menu and mention it from your [visit types and appointment lengths page](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). Include the practice phone and a plain line on how to reach the office after hours, as set out in our guide on [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who have just left a hospital search for a different kind of follow-up, covered in our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims)."
       ),
     ],
     faqs: [

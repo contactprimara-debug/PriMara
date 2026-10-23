@@ -564,7 +564,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "A Google core update is a broad change to how Google's systems rank pages, announced a few times a year. To tell if your practice was hit, compare Search Console clicks and impressions for the two weeks after the rollout finishes against the two weeks before. A lasting drop that begins during the rollout window is the signal.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-23",
     readMinutes: 7,
     sections: [
       {
@@ -603,7 +603,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not make rushed sitewide changes. Google's guidance for sites that dropped is to evaluate your content against its helpful, people-first content questions, not to chase a single factor. Look at the pages that lost the most and ask honestly: is this page thin, outdated, or generic, does a real clinician stand behind it, and does it answer the question better than the pages now ranking above it? Before you can investigate a dip, the site needs to be verified in Search Console; our guide on [how to set up and verify Google Search Console for a medical practice website](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website) covers the steps."
+        "text": "Do not make rushed sitewide changes. Google's guidance for sites that dropped is to evaluate your content against its helpful, people-first content questions, not to chase a single factor. Look at the pages that lost the most and ask honestly: is this page thin, outdated, or generic, does a real clinician stand behind it, and does it answer the question better than the pages now ranking above it? Before you can investigate a dip, the site needs to be verified in Search Console; our guide on [how to set up and verify Google Search Console for a medical practice website](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website) covers the steps. A steady yearly review prevents many of the problems that cause this kind of drop, and our [annual website content review checklist for a counseling practice](/guides/annual-website-content-review-checklist-for-a-counseling-practice) shows how to run one."
       },
       {
         "type": "ul",
@@ -705,7 +705,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "The Americans with Disabilities Act applies to medical practices as places of public accommodation, and the Department of Justice says it covers web content too. The law does not name one technical standard for private practices, but the Web Content Accessibility Guidelines (WCAG) are the usual benchmark. Aim for WCAG 2.1 Level AA, and have counsel confirm your obligations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-23",
     readMinutes: 7,
     sections: [
       {
@@ -726,7 +726,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website). Captions and transcripts for video are part of the same obligation to be usable, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) explains how to add them. Downloadable paperwork should be readable too, and our guide to [putting new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers accessible PDFs and secure forms. A site that works with a screen reader should also explain how to request help in person, which a [service animal and accessibility accommodation request page](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) can do in plain words."
+        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website). Captions and transcripts for video are part of the same obligation to be usable, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) explains how to add them. Downloadable paperwork should be readable too, and our guide to [putting new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers accessible PDFs and secure forms. A site that works with a screen reader should also explain how to request help in person, which a [service animal and accessibility accommodation request page](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) can do in plain words. Forms are where many visitors give up, and our checklist for [accessible intake forms for patients with low vision or limited reading skills](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) shows what to fix first."
       },
       {
         "type": "h2",
@@ -1101,7 +1101,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "Review every page at least once a year, and your highest-value pages, such as service and location pages, every quarter. Update a page when the facts change, when its clicks decline, or when a clinician reviews it and finds something outdated. Change the date only when the content genuinely changed.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-23",
     readMinutes: 6,
     sections: [
       {
@@ -1156,7 +1156,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A real refresh fixes inaccurate facts, adds information a reader would now expect, tightens the answer at the top, adds or checks FAQs, updates citations to current sources, and checks that links still work. A clinician should read medical content and sign off. After that, update the visible date and the structured data's date together, as Google's guidance on publication dates recommends, and only when the page truly changed. Seasonal pages are a good example: update the same page each year rather than publishing a new one, as covered in [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals). When a page carries a reviewer's name, a refresh also means a new clinical review, which we cover in [medically reviewed by labels on a medical practice website](/guides/medically-reviewed-by-labels-on-a-medical-practice-website)."
+        "text": "A real refresh fixes inaccurate facts, adds information a reader would now expect, tightens the answer at the top, adds or checks FAQs, updates citations to current sources, and checks that links still work. A clinician should read medical content and sign off. After that, update the visible date and the structured data's date together, as Google's guidance on publication dates recommends, and only when the page truly changed. Seasonal pages are a good example: update the same page each year rather than publishing a new one, as covered in [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals). When a page carries a reviewer's name, a refresh also means a new clinical review, which we cover in [medically reviewed by labels on a medical practice website](/guides/medically-reviewed-by-labels-on-a-medical-practice-website). Counseling practices can turn that routine into a yearly read-through of every page using our [annual website content review checklist for a counseling practice](/guides/annual-website-content-review-checklist-for-a-counseling-practice)."
       },
       {
         "type": "p",

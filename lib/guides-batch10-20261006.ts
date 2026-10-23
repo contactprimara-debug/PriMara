@@ -1034,7 +1034,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Before a storm, set special hours or mark the profile temporarily closed, post a short notice on your site and listing, and tell patients how to reach you. After it, restore regular hours the day you reopen. Wrong hours on Google send patients to a locked door, so update in the same hour you decide.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -1043,7 +1043,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The Atlantic hurricane season runs from June 1 to November 30, according to the National Hurricane Center. In those months a practice can close for a day or for weeks, and patients will look at Google before they drive or call. If the listing says open and the door is locked, the patient notices, and some will leave a review about it. A short routine keeps your listing accurate and lets patients know what to do instead. When the office is closed for a storm, a clear voicemail matters as much as the listing, so see [how to handle after-hours calls and voicemail at a medical practice](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice)."
+        "text": "The Atlantic hurricane season runs from June 1 to November 30, according to the National Hurricane Center. In those months a practice can close for a day or for weeks, and patients will look at Google before they drive or call. If the listing says open and the door is locked, the patient notices, and some will leave a review about it. A short routine keeps your listing accurate and lets patients know what to do instead. When the office is closed for a storm, a clear voicemail matters as much as the listing, so see [how to handle after-hours calls and voicemail at a medical practice](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). The listing is only one place patients look, so keep a permanent [hurricane and severe weather patient notice page](/guides/hurricane-and-severe-weather-patient-notice-page-for-a-primary-care-practice) on the website that says the same thing in plain words."
       },
       {
         "type": "h2",
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -1897,7 +1897,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A provider appears in more places than most practices realize: the website, the Google listing, the state licensing page, insurance directories, review sites, social profiles and AI answers. After a change, any place that still shows the old roster sends patients to someone who is not there. Updating them is a short, repeatable job. Do it as a checklist, with one named owner and a due date, because a task that belongs to everyone usually gets done by no one. Keep the checklist where the office manager can find it the day a start or departure is announced. A retirement or sale is a bigger version of the same change, and our checklist for [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers it."
+        "text": "A provider appears in more places than most practices realize: the website, the Google listing, the state licensing page, insurance directories, review sites, social profiles and AI answers. After a change, any place that still shows the old roster sends patients to someone who is not there. Updating them is a short, repeatable job. Do it as a checklist, with one named owner and a due date, because a task that belongs to everyone usually gets done by no one. Keep the checklist where the office manager can find it the day a start or departure is announced. A retirement or sale is a bigger version of the same change, and our checklist for [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers it. Roster changes are easy to miss during the rest of the year, so build them into your [annual website content review checklist](/guides/annual-website-content-review-checklist-for-a-counseling-practice) as a standing item to check."
       },
       {
         "type": "h2",

@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -68,7 +68,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A page about the portal is a magnet for people with questions, and some of them will want to type those questions into any form they find. Say plainly that the website cannot receive health information and that portal messages are the right place for it. Our guide on [publishing new-patient forms without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers the same boundary for intake forms."
+        "text": "A page about the portal is a magnet for people with questions, and some of them will want to type those questions into any form they find. Say plainly that the website cannot receive health information and that portal messages are the right place for it. Our guide on [publishing new-patient forms without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers the same boundary for intake forms. Small fields and dense wording defeat many patients, so our guide to [accessible intake forms for low vision or limited reading](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) shows how to make any form easier to finish."
       },
       {
         "type": "h2",
@@ -376,7 +376,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "For most medical and counseling practices the safe answer is to leave profile messaging off unless someone can answer within minutes, the replies stay free of health details, and an auto-reply tells patients to call 911 in an emergency and to use the portal for care questions. A missed or careless message does more harm than no chat button.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T09:40:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -462,7 +462,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Even if you have turned messaging off, some patients will find other ways to send health details: a comment on a post, a direct message on social media, or an email to a staff address. The same rule applies everywhere. Reply with a short, kind note that gives the phone number, says the channel is not for health information, and points to the portal. Do not repeat or confirm any detail the patient wrote, and do not copy it into other systems. Record who answered and when, so a missed message can be traced."
+        "text": "Even if you have turned messaging off, some patients will find other ways to send health details: a comment on a post, a direct message on social media, or an email to a staff address. The same rule applies everywhere. Reply with a short, kind note that gives the phone number, says the channel is not for health information, and points to the portal. Do not repeat or confirm any detail the patient wrote, and do not copy it into other systems. Record who answered and when, so a missed message can be traced. Counseling practices that use a portal should state its purpose and reply times clearly, as our guide to a [portal login and messaging expectations page for a counseling practice](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice) explains."
       },
       {
         "type": "p",
@@ -1833,7 +1833,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A refill request page explains how patients ask for a refill, how much notice the office needs, how to name their pharmacy and what happens next. It stays about process: no medication guidance, no dosing and no advice on missed doses. Point patients to the portal or phone, and to 911 for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -1902,7 +1902,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the patient portal page, the contact page, the footer and the voicemail greeting if it can be spoken in a sentence. Update the notice period and process whenever your electronic record system or pharmacy workflow changes. Test the page once a quarter by following its own instructions, as described in our [weekly 15-minute check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager)."
+        "text": "Link the page from the patient portal page, the contact page, the footer and the voicemail greeting if it can be spoken in a sentence. Update the notice period and process whenever your electronic record system or pharmacy workflow changes. Test the page once a quarter by following its own instructions, as described in our [weekly 15-minute check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager). During a storm warning many patients rush to refill medicines, so a [hurricane patient notice page](/guides/hurricane-and-severe-weather-patient-notice-page-for-a-primary-care-practice) should point them back to this refill page and to their pharmacy first."
       },
       {
         "type": "p",
@@ -1996,7 +1996,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A billing questions page tells patients how to read a statement, the ways they can pay, who to call about a charge, how payment plans work and what to bring to a conversation. Use plain words, never take card numbers by email or form, and avoid promises about what insurance will pay.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T13:20:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -2005,7 +2005,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A patient opens a billing page when something has arrived in the mail that they do not understand. They are often confused, sometimes upset, and rarely in the mood to read a policy. That makes a good billing page one of the kindest things on a website, and one of the fastest ways to cut repeated calls."
+        "text": "A patient opens a billing page when something has arrived in the mail that they do not understand. They are often confused, sometimes upset, and rarely in the mood to read a policy. That makes a good billing page one of the kindest things on a website, and one of the fastest ways to cut repeated calls. If the confusion becomes a complaint, patients should know where to take it, which our guide to a [patient rights and complaint process page](/guides/patient-rights-and-complaint-process-page-for-a-primary-care-practice) explains in plain steps."
       },
       {
         "type": "p",
@@ -2191,7 +2191,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A teen therapy page for parents explains who the practice sees, how consent works, how confidentiality is handled in plain terms, how parents are involved, scheduling and fees. It avoids clinical claims, outcomes and diagnostic lists. Have your attorney or licensing board confirm the consent and confidentiality wording before it goes live.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:40:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -2239,7 +2239,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Parents want to know they will not be shut out. Teens want to know their words will not be repeated lightly. A single honest paragraph can say both: the clinician works with the teen and the family, shares what is needed for safety and for care, and explains the limits before the work begins."
+        "text": "Parents want to know they will not be shut out. Teens want to know their words will not be repeated lightly. A single honest paragraph can say both: the clinician works with the teen and the family, shares what is needed for safety and for care, and explains the limits before the work begins. The general promise of privacy and its limits can be explained for every client on a separate [confidentiality and its limits page for a counseling practice](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice)."
       },
       {
         "type": "h2",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -2654,7 +2654,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it. Keep the homepage short and let the approach page carry the detail, using the structure in our guide to a [therapy practice homepage that reassures a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see)."
+        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it. Keep the homepage short and let the approach page carry the detail, using the structure in our guide to a [therapy practice homepage that reassures a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see). Explaining how therapy begins is only half the story, and a [discharge and termination policy page for a counseling practice](/guides/client-discharge-and-termination-policy-page-for-a-counseling-practice-without-clinical-claims) can describe how it ends in the same calm tone."
       },
       {
         "type": "p",

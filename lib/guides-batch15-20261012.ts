@@ -220,7 +220,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A referral partner page is a plain page for other clinicians and care coordinators. It states who you are, what you accept, how to send a referral and who to contact. Keep it separate from patient copy, keep patient information off it, and make the contact route obvious.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-23",
     "readMinutes": 7,
     "sections": [
       {
@@ -229,7 +229,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Most of a primary care website speaks to patients. A referral partner page speaks to a different reader: a specialist's office, a hospital discharge planner, a case manager at a community agency or a nurse who needs to send a record to the right place. These readers are busy and usually have one question, which is how to reach the right person at your practice."
+        "text": "Most of a primary care website speaks to patients. A referral partner page speaks to a different reader: a specialist's office, a hospital discharge planner, a case manager at a community agency or a nurse who needs to send a record to the right place. These readers are busy and usually have one question, which is how to reach the right person at your practice. The counseling side of the exchange, a [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer), speaks to doctors and school staff who want to send someone to a therapist."
       },
       {
         "type": "p",
@@ -613,7 +613,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A specialty page describes who you work with, what a first session is like and how to book, using ordinary words. It should not promise outcomes, diagnose readers or describe treatment as a cure. Give each specialty its own page, built around what a person is searching for.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-23",
     "readMinutes": 8,
     "sections": [
       {
@@ -622,7 +622,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A person who types anxiety therapist near me is not looking for a general practice homepage. They want to know whether you work with people like them. A single page listing twenty issues in a row rarely answers that, and search engines find it hard to match such a page to a specific search."
+        "text": "A person who types anxiety therapist near me is not looking for a general practice homepage. They want to know whether you work with people like them. A single page listing twenty issues in a row rarely answers that, and search engines find it hard to match such a page to a specific search. Once visitors know the focus they want, a [clinician matching page for a group counseling practice](/guides/clinician-matching-page-for-a-group-counseling-practice-how-clients-choose-a-therapist) can explain how the practice pairs them with the right therapist."
       },
       {
         "type": "p",
@@ -846,7 +846,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Tell patients where to park, which door to use, whether the entrance is step-free and how to find the suite. Publish the same facts on your contact page and your Google Business Profile, keep them current, and describe only what you have checked in person.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-23",
     "readMinutes": 7,
     "sections": [
       {
@@ -859,7 +859,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "It also answers real searches. People look for parking near a medical office, wheelchair access and directions from the street. A page that answers these questions plainly is useful and gives search engines accurate local detail."
+        "text": "It also answers real searches. People look for parking near a medical office, wheelchair access and directions from the street. A page that answers these questions plainly is useful and gives search engines accurate local detail. Many readers of that page are older patients and their families, and our guide to a [senior-friendly website layout for primary care](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access) shows how to keep pages easy to read."
       },
       {
         "type": "h2",

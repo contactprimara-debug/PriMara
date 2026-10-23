@@ -2513,7 +2513,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Keep one permanent page for each seasonal service, such as flu shots or school physicals, and update it every year rather than publishing a new page each season. Put the current dates, how to book and what to bring at the top, keep medical statements general and sourced, and archive nothing that patients may still search for.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-10-23",
   "readMinutes": 6,
   "sections": [
     {
@@ -2567,7 +2567,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Do not make clinical claims on a seasonal page. State what you offer and let a trusted public health source explain the medicine. For example, a flu shot page can link to the CDC's seasonal flu information rather than restating recommendations, which change from year to year. A school physical page can explain what your office checks in general terms and point to the school's or state's own form requirements. Sports and school forms are only one kind of physical, and our guide to the [pre-employment, DOT and sports physicals page for primary care](/guides/pre-employment-dot-and-sports-physicals-page-for-a-primary-care-practice) covers the rest."
+      "text": "Do not make clinical claims on a seasonal page. State what you offer and let a trusted public health source explain the medicine. For example, a flu shot page can link to the CDC's seasonal flu information rather than restating recommendations, which change from year to year. A school physical page can explain what your office checks in general terms and point to the school's or state's own form requirements. Sports and school forms are only one kind of physical, and our guide to the [pre-employment, DOT and sports physicals page for primary care](/guides/pre-employment-dot-and-sports-physicals-page-for-a-primary-care-practice) covers the rest. Back-to-school demand often starts with a routine child checkup, which our guide to a [well-child and school-age checkup page for a family medicine practice](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) covers."
     },
     {
       "type": "p",
