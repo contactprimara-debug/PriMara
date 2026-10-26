@@ -265,7 +265,7 @@ function Section({ section }: { section: GuideSection }) {
                 aria-hidden="true"
                 style={{ width: "6px", height: "6px", borderRadius: "50%", background: "var(--gold)", flexShrink: 0, marginTop: "0.55em" }}
               />
-              {renderInline(item)}
+              <span>{renderInline(item)}</span>
             </li>
           ))}
         </ul>
@@ -293,7 +293,7 @@ function Section({ section }: { section: GuideSection }) {
               >
                 {i + 1}
               </span>
-              {renderInline(item)}
+              <span>{renderInline(item)}</span>
             </li>
           ))}
         </ol>
