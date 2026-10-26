@@ -184,7 +184,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A counseling website earns trust through proof a visitor can check, not through client quotes. Show your license and how to verify it, your fees, your process, a real photo and a plain privacy page. Let unprompted Google reviews stand on their own, and never ask a client to write one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Why testimonials are a problem for therapists"),
@@ -209,7 +209,7 @@ export const guidesPartTwentySeven: Guide[] = [
       h2("Proof that does not involve a client"),
       h3("License and training"),
       p(
-        "List credentials exactly as they appear on your license, and link to the official lookup. Do not invent or round up a credential, and do not list a training you did not complete. If you are an associate working under supervision, say so and name the supervisor, as our guide on [associate and pre-licensed clinician disclosure](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice) explains."
+        "List credentials exactly as they appear on your license, and link to the official lookup. Do not invent or round up a credential, and do not list a training you did not complete. If you are an associate working under supervision, say so and name the supervisor, as our guide on [associate and pre-licensed clinician disclosure](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice) explains. Practices that include faith in sessions should state the license and the setting first, and our guide to a [faith based counseling page](/guides/faith-based-and-spiritually-integrated-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to do that without outcome claims."
       ),
       h3("Process and fees"),
       p(

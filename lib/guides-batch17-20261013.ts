@@ -749,7 +749,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A care team page introduces the people a new patient will meet in order: front desk, medical assistants, nurses and clinicians. Use real names, roles and photos with permission, one plain sentence each, and credentials only if the person confirms them. Leave out outcomes, rankings and anything you cannot document.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T10:20:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -813,7 +813,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The best team pages read like a friendly introduction. One sentence about what the person does, and optionally one about something they enjoy outside work, if they want it shared. Avoid superlatives such as the best in the area, avoid promises about wait times, and never write that anyone treats or cures a condition on a page about staff."
+        "text": "The best team pages read like a friendly introduction. One sentence about what the person does, and optionally one about something they enjoy outside work, if they want it shared. Avoid superlatives such as the best in the area, avoid promises about wait times, and never write that anyone treats or cures a condition on a page about staff. If the practice has a care coordinator or patient navigator, give that role its own entry or page, as our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) describes."
       },
       {
         "type": "p",
@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -1202,7 +1202,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The worst waitlist page is one that is still up after the practice opens again. Put a review date on your calendar, update the page when the status changes, and make sure your Google Business Profile, your directory profiles and the new-clients line on your homepage all match. The same reasoning applies to the status flag in our guide on [keeping accepting new patients accurate across Google and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories)."
+        "text": "The worst waitlist page is one that is still up after the practice opens again. Put a review date on your calendar, update the page when the status changes, and make sure your Google Business Profile, your directory profiles and the new-clients line on your homepage all match. The same reasoning applies to the status flag in our guide on [keeping accepting new patients accurate across Google and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). If some evening or weekend slots stay open while daytime hours are full, say so on a separate [evening and weekend availability page](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) and link the two so visitors can see every option."
       },
       {
         "type": "h3",
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -1377,7 +1377,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Some callers are comparing several therapists in one evening. Others are a parent looking on behalf of a teenager, or a partner nudging a spouse. Write for the tired reader: short sentences, one clear button, and no jargon about modalities. If the page makes the call feel easy and safe, it has done its job, and the first session can do the rest."
+        "text": "Some callers are comparing several therapists in one evening. Others are a parent looking on behalf of a teenager, or a partner nudging a spouse. Write for the tired reader: short sentences, one clear button, and no jargon about modalities. If the page makes the call feel easy and safe, it has done its job, and the first session can do the rest. A caller deciding whether to separate may want a short conversation first, as our guide to a [divorce and separation counseling page](/guides/divorce-and-separation-counseling-page-for-a-counseling-practice-without-clinical-claims) describes."
       },
       {
         "type": "p",
@@ -1483,7 +1483,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A records request page explains how a patient asks for their own records: who to contact, what the request needs, how identity is checked, how long the office takes, and any permitted fee. Link to a request form that does not ask for health details, and give a phone number for help.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T12:00:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -1527,7 +1527,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients often ask on behalf of a child, a parent or a partner. Add a short paragraph on who may request records for another person and what proof is needed, and refer unusual cases to the front desk. Do not try to explain the legal rules for every situation on the page."
+        "text": "Patients often ask on behalf of a child, a parent or a partner. Add a short paragraph on who may request records for another person and what proof is needed, and refer unusual cases to the front desk. Do not try to explain the legal rules for every situation on the page. Patients also ask for help with employer or insurer forms, so mention that process and link to our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) for how to explain timing and fees."
       },
       {
         "type": "h2",
@@ -2355,7 +2355,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A results and messages page tells patients how test results reach them, that results may appear in the portal before a clinician has reviewed them, how long portal messages usually take to answer, and where to call if they are worried. It gives no interpretation of any result and always shows an emergency notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T14:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -2465,7 +2465,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice)."
+        "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who send forms for leave or disability through the portal will need their own instructions, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) covers in plain terms."
       },
       {
         "type": "h3",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -2593,7 +2593,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The central rule is to describe your process and never promise a result. The sentence we work together to set goals is a process. The sentence you will feel better in six weeks is a promise. Advertising rules and professional ethics codes both warn against guarantees, testimonials that imply outcomes and before-and-after language. Your licensing board is the final authority."
+        "text": "The central rule is to describe your process and never promise a result. The sentence we work together to set goals is a process. The sentence you will feel better in six weeks is a promise. Advertising rules and professional ethics codes both warn against guarantees, testimonials that imply outcomes and before-and-after language. Your licensing board is the final authority. A practice that integrates faith should explain that choice in the same careful way, as our guide to a [faith based and spiritually integrated counseling page](/guides/faith-based-and-spiritually-integrated-counseling-page-for-a-counseling-practice-without-clinical-claims) shows."
       },
       {
         "type": "table",

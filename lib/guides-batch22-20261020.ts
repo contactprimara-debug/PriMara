@@ -274,7 +274,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A caregiver support counseling page should speak to the person caring for a parent, spouse or child, say who the practice sees and when, explain fees and privacy, and point to local and national caregiver resources. It should describe the kind of support offered without promising relief, naming diagnoses or implying results.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("The reader is tired, not browsing"),
@@ -312,7 +312,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h2("Link to real help outside the practice"),
       p(
-        "Caregivers often need more than counseling, and a page that says so earns trust. Link to the Eldercare Locator for services for older adults, to 211 for local programs, and to NAMI if the family is dealing with a mental health condition. Add the 988 Lifeline for anyone in crisis and say clearly that the office is not an emergency service."
+        "Caregivers often need more than counseling, and a page that says so earns trust. Link to the Eldercare Locator for services for older adults, to 211 for local programs, and to NAMI if the family is dealing with a mental health condition. Add the 988 Lifeline for anyone in crisis and say clearly that the office is not an emergency service. When the person being cared for is an older adult who may want support too, our guide to an [older adult counseling page](/guides/older-adult-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to describe it with respect."
       ),
       h3("Handling the person being cared for"),
       p(
@@ -370,12 +370,12 @@ export const guidesPartTwentyFive: Guide[] = [
       "A workplace stress counseling page should speak to a busy professional in plain words, show early morning, evening or video appointment options, state fees and privacy, and explain what happens if an employer plan or insurance is involved. It should describe pressure at work as a life topic, not promise relief or name a diagnosis.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Start with the schedule problem"),
       p(
-        "The working professional rarely lacks interest in counseling. What they lack is a gap in the day. They check the page at lunch or on the train, they want to know whether a 7 a.m. or 6 p.m. slot exists, and they are quietly worried that anyone at their job will find out."
+        "The working professional rarely lacks interest in counseling. What they lack is a gap in the day. They check the page at lunch or on the train, they want to know whether a 7 a.m. or 6 p.m. slot exists, and they are quietly worried that anyone at their job will find out. A page that lists real evening and Saturday openings answers that worry directly, as our guide to an [evening and weekend appointment availability page for a counseling practice](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) explains."
       ),
       p(
         "So the first screen should answer three things in the order the reader worries about them: when can I come, will anyone know, and what does it cost. Everything else, including your training and your approach, can sit lower."
@@ -408,7 +408,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h2("Employers, benefits and the third-party question"),
       p(
-        "Some visitors arrive because an employer plan pays for a number of sessions. Others are afraid the employer will see a claim. Explain, in two sentences at most, that insurance and employer programs have their own rules about what they receive, and that the person should ask the plan before the first visit. Our guide on an [employee assistance program page](/guides/employee-assistance-program-page-for-a-counseling-practice) covers the wording in more detail."
+        "Some visitors arrive because an employer plan pays for a number of sessions. Others are afraid the employer will see a claim. Explain, in two sentences at most, that insurance and employer programs have their own rules about what they receive, and that the person should ask the plan before the first visit. Our guide on an [employee assistance program page](/guides/employee-assistance-program-page-for-a-counseling-practice) covers the wording in more detail. A job loss changes that picture, and our guide to a [life transitions counseling page](/guides/life-transitions-counseling-page-for-job-loss-relocation-and-retirement-without-clinical-claims) explains how to write for people facing a layoff, a move or retirement."
       ),
       h3("If you also work with employers"),
       p(
@@ -559,7 +559,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A premarital counseling page should explain what the sessions look like, how many couples typically book, what each session costs, how long before a wedding to start, and what the office will not do. It should describe the format and topics couples discuss, and make no promise about marriage success or lasting results.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Couples are shopping for logistics first"),
@@ -567,7 +567,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "Engaged couples searching for premarital counseling are rarely in distress. They are planning, and they are comparing a short list of offices by price, availability and whether the person on the other end seems easy to work with. A page that is clear about those three things will beat a longer page that talks about the importance of communication."
       ),
       p(
-        "This is also a service where families, religious leaders and venues sometimes send people to you. A concise page that a pastor or planner can link to has more value than one that reads like a sermon."
+        "This is also a service where families, religious leaders and venues sometimes send people to you. A concise page that a pastor or planner can link to has more value than one that reads like a sermon. Practices that serve faith communities can read our guide to a [faith based and spiritually integrated counseling page](/guides/faith-based-and-spiritually-integrated-counseling-page-for-a-counseling-practice-without-clinical-claims) for how to describe that setting honestly and welcome couples of any belief."
       ),
       h2("Spell out the format"),
       table(

@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-26",
     "readMinutes": 7,
     "sections": [
       {
@@ -2142,7 +2142,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Be specific about who is eligible. Many practices reserve same-day slots for established patients, which is fine as long as the page says so. Surprising a caller with a no costs trust and generates poor reviews."
+        "text": "Be specific about who is eligible. Many practices reserve same-day slots for established patients, which is fine as long as the page says so. Surprising a caller with a no costs trust and generates poor reviews. Patients who book a same day visit while feeling unwell also need to know what to expect at the door, which our guide to a [sick visit and infection control expectations page](/guides/sick-visit-and-infection-control-expectations-page-for-a-primary-care-practice-without-clinical-advice) covers."
       },
       {
         "type": "h2",
@@ -2279,7 +2279,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice joins or leaves an insurance network, patients find out online first. Update your own insurance page first, then your Google profile, directory listings, scheduling tool and phone script on the effective date. Use plain wording and a date, and send existing patients a notice through your normal channels.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-15",
+    "dateModified": "2026-10-26",
     "readMinutes": 7,
     "sections": [
       {
@@ -2341,7 +2341,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The structure of the insurance page matters because patients scan it quickly. Our guide to [building an accepted insurance page for a medical practice](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) shows a layout that is easy to maintain."
+        "text": "The structure of the insurance page matters because patients scan it quickly. Our guide to [building an accepted insurance page for a medical practice](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) shows a layout that is easy to maintain. Patients whose plan requires approval for tests and referrals also need to know how that works, as our guide to [prior authorization and referral timelines](/guides/prior-authorization-and-referral-timelines-explained-on-a-primary-care-practice-website) explains."
       },
       {
         "type": "h2",

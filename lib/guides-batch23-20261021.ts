@@ -338,7 +338,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A back-to-school announcement tells parents and students which after-school, evening and video times are open this term, how to ask for them and what to expect on the first call. Post it on the website and Google profile, date it, update it as slots fill, and keep clinical promises out of the wording.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Why the fall calendar matters"),
@@ -388,7 +388,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Include the 988 Lifeline and a line saying the office is not an emergency service. A parent reading late at night may need that more than they need a Tuesday opening."
       ),
       p(
-        "After the term settles, archive the page by changing its date and wording instead of deleting it. Next fall you can refresh the same URL, which keeps the history and avoids creating a new thin page each year."
+        "After the term settles, archive the page by changing its date and wording instead of deleting it. Next fall you can refresh the same URL, which keeps the history and avoids creating a new thin page each year. A year end version of the same idea is described in our guide to a [holiday season scheduling announcement](/guides/holiday-season-scheduling-and-availability-announcement-for-a-counseling-practice), which covers closed days, early booking and where to point clients who need help while the office is closed."
       ),
     ],
     faqs: [
@@ -829,7 +829,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A preventive visit and a problem visit are billed differently. If a new concern is addressed during a checkup, the office may bill both, and the patient may owe a copay or deductible for the second part. A short, plain explanation on the website and at scheduling keeps this from surprising anyone.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("The surprise at the end of a checkup"),
@@ -846,7 +846,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["Problem-focused", "Looking at a new or ongoing concern, such as pain or a symptom that has changed. Usually subject to a copay, deductible or coinsurance under the plan."]
       ),
       p(
-        "The table is a general picture, not a promise. Plans differ, and what counts as preventive is defined by the plan. The page should say so and send patients to their insurer for details. The healthcare.gov list of [preventive care benefits](https://www.healthcare.gov/preventive-care-benefits/) is a useful neutral reference for the services plans must cover."
+        "The table is a general picture, not a promise. Plans differ, and what counts as preventive is defined by the plan. The page should say so and send patients to their insurer for details. The healthcare.gov list of [preventive care benefits](https://www.healthcare.gov/preventive-care-benefits/) is a useful neutral reference for the services plans must cover. The first preventive visit for new Medicare enrollees has its own rules, which our guide to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) explains in plain terms."
       ),
       h2("When one appointment becomes two charges"),
       p(
@@ -1018,7 +1018,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A bill pay page should show patients how to pay online, what a genuine text-to-pay message looks like, which payment methods are accepted and what the office will never ask for by text. It should link to a secure payment processor, never collect card numbers on the practice website itself.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Paying should be the easy part"),
@@ -1047,7 +1047,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["Health details", "Billing texts do not describe your visit or condition."]
       ),
       p(
-        "The page should not collect card numbers itself. Use a payment processor that follows the [PCI security standards](https://www.pcisecuritystandards.org/) and link to it. Ask your processor and your IT advisor to confirm how the service stores data."
+        "The page should not collect card numbers itself. Use a payment processor that follows the [PCI security standards](https://www.pcisecuritystandards.org/) and link to it. Ask your processor and your IT advisor to confirm how the service stores data. Counseling practices can pair this with a written policy on cards kept on file, as our guide to a [payment methods and card on file policy page](/guides/payment-methods-and-card-on-file-policy-page-for-a-counseling-practice) describes."
       ),
       h3("Texting rules"),
       p(

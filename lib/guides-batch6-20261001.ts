@@ -864,7 +864,7 @@ export const guidesPartNine: Guide[] = [
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-26",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
@@ -906,7 +906,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Where HIPAA overlaps" },
       {
         type: "p",
-        text: "Same principle as email: TCPA governs whether you can text at all and under what consent; HIPAA governs whether the content discloses PHI. A text referencing a specific diagnosis or treatment detail needs a HIPAA-compliant secure messaging channel, not standard SMS, regardless of whether TCPA consent was obtained. Standard, unencrypted SMS is generally fine for appointment logistics and general marketing — not for anything clinical. A confirmation sent to a brand-new patient is the usual first text a practice sends, and our example of a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) shows consent, identification and opt-out wording in one short message.",
+        text: "Same principle as email: TCPA governs whether you can text at all and under what consent; HIPAA governs whether the content discloses PHI. A text referencing a specific diagnosis or treatment detail needs a HIPAA-compliant secure messaging channel, not standard SMS, regardless of whether TCPA consent was obtained. Standard, unencrypted SMS is generally fine for appointment logistics and general marketing — not for anything clinical. A confirmation sent to a brand-new patient is the usual first text a practice sends, and our example of a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) shows consent, identification and opt-out wording in one short message. Counseling practices can apply these rules to reminders using our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy), which keeps the message free of anything a lock screen should not show.",
       },
     ],
     faqs: [

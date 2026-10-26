@@ -553,7 +553,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       {
@@ -581,7 +581,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan."
+        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it."
       },
       {
         "type": "h2",

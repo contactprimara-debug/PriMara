@@ -220,7 +220,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A referral partner page is a plain page for other clinicians and care coordinators. It states who you are, what you accept, how to send a referral and who to contact. Keep it separate from patient copy, keep patient information off it, and make the contact route obvious.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-26",
     "readMinutes": 7,
     "sections": [
       {
@@ -282,7 +282,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Say plainly which kinds of visits you take from referring offices. For example, you might accept follow-up visits after a hospital stay, new patients sent by a specialist, or patients who need an ongoing primary care home. If you do not accept certain insurance plans or are not taking new patients, say that too."
+        "text": "Say plainly which kinds of visits you take from referring offices. For example, you might accept follow-up visits after a hospital stay, new patients sent by a specialist, or patients who need an ongoing primary care home. If you do not accept certain insurance plans or are not taking new patients, say that too. Referring offices also ask how long approval takes when a plan requires it, and our guide to [prior authorization and referral timelines](/guides/prior-authorization-and-referral-timelines-explained-on-a-primary-care-practice-website) shows how to answer without promising dates."
       },
       {
         "type": "p",
@@ -613,7 +613,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A specialty page describes who you work with, what a first session is like and how to book, using ordinary words. It should not promise outcomes, diagnose readers or describe treatment as a cure. Give each specialty its own page, built around what a person is searching for.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-26",
     "readMinutes": 8,
     "sections": [
       {
@@ -740,7 +740,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Three pages that differ only in the keyword are the quickest way to get none of them to rank. The anxiety page and the couples page should differ in their examples, questions and details of who sees whom. If you cannot write at least several hundred honest words that are unique to a specialty, fold it into a broader page instead."
+        "text": "Three pages that differ only in the keyword are the quickest way to get none of them to rank. The anxiety page and the couples page should differ in their examples, questions and details of who sees whom. If you cannot write at least several hundred honest words that are unique to a specialty, fold it into a broader page instead. A page on life transitions is a good example of a topic people search by the change, such as job loss or retirement, as our guide to a [life transitions counseling page](/guides/life-transitions-counseling-page-for-job-loss-relocation-and-retirement-without-clinical-claims) explains."
       },
       {
         "type": "p",

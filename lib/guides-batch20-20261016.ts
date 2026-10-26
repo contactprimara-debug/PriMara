@@ -349,7 +349,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "State exactly which Medicare and Medicaid programs the practice participates in, name the managed-care plans separately, and add a last-checked date. Do not write that you accept all Medicare, because Medicare Advantage and Medicaid managed-care plans each have their own networks that the practice must confirm one by one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T10:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Why the word accept is too vague"),
@@ -384,7 +384,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Connect the page to everything else"),
       p(
-        "Use the same wording on the Google Business Profile, in the directories and on the phone greeting. Our guide on [building an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) covers the layout, and [what to update when a practice joins or leaves a network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists the places to change after a contract moves. Wording about insurance acceptance pairs well with a short explanation of [why a checkup can become two charges](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) when a new concern comes up during the visit."
+        "Use the same wording on the Google Business Profile, in the directories and on the phone greeting. Our guide on [building an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) covers the layout, and [what to update when a practice joins or leaves a network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists the places to change after a contract moves. Wording about insurance acceptance pairs well with a short explanation of [why a checkup can become two charges](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) when a new concern comes up during the visit. Counseling pages for older adults depend on this wording, and our guide to an [older adult counseling page](/guides/older-adult-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to place it next to easy to read contact steps."
       ),
       p(
         "Questions about coverage turn into billing questions, so link the page to your [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). This page is general information, not legal advice, and a compliance adviser should review the final wording."
@@ -437,7 +437,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A caregiver communication page tells patients and their families that the office speaks about a patient's care only with people the patient has authorized in writing, explains how to name someone, and says what staff can do without that permission. It sets expectations before an anxious phone call, without sharing anything about any patient.",
     author: "Liam Costello",
     publishDate: "2026-10-16T10:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("What families call to ask"),
@@ -468,7 +468,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("Keep the tone kind"),
       p(
-        "People call because they are worried. Begin with an acknowledgment that caring for a family member is hard, then give the process. A page that reads as a wall of refusals sends caregivers to a one-star review."
+        "People call because they are worried. Begin with an acknowledgment that caring for a family member is hard, then give the process. A page that reads as a wall of refusals sends caregivers to a one-star review. Foster and adoptive families raise a version of the same question, and our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to describe who may consent and who may be contacted."
       ),
       h2("Connect it to the rest of the site"),
       p(
@@ -610,7 +610,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A grief counseling page should speak gently, say who the counselor is and how sessions work, and describe the support as a place to talk, not a way to fix or end grief. It should avoid timelines, stages presented as rules, and claims of healing, and it should include crisis resources for someone in distress.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Begin where the reader is"),
@@ -644,7 +644,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("Link to related support, not just to booking"),
       p(
-        "Some visitors are not ready to book, so offer a path that does not require it. A short list of community resources, such as a local hospice bereavement program or a support group, gives them somewhere to go, and it builds trust with referral sources. Our guide on [group therapy pages](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) explains how to describe a group without promising outcomes."
+        "Some visitors are not ready to book, so offer a path that does not require it. A short list of community resources, such as a local hospice bereavement program or a support group, gives them somewhere to go, and it builds trust with referral sources. Our guide on [group therapy pages](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) explains how to describe a group without promising outcomes. Many grieving clients are older adults, and our guide to an [older adult counseling page](/guides/older-adult-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to write for them and for the family members who call on their behalf."
       ),
       h2("Crisis and safety information"),
       p(
@@ -698,7 +698,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A parenting and family therapy page should explain who comes to sessions, how consent works when a child is involved, how often the family meets and how scheduling works. It should describe the counselor's approach in plain words, avoid promises about behavior or family outcomes, and say clearly what the practice does not do, such as custody evaluations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T11:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 7,
     sections: [
       h2("Parents search with a particular question"),
@@ -731,7 +731,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("State what the practice does not do"),
       p(
-        "Be plain that the practice does not provide custody evaluations, court testimony or a written opinion for a legal dispute, if that is the policy. Families in a divorce often ask, and a clear answer prevents a hard conversation later. Point them to the licensed professionals who do those evaluations."
+        "Be plain that the practice does not provide custody evaluations, court testimony or a written opinion for a legal dispute, if that is the policy. Families in a divorce often ask, and a clear answer prevents a hard conversation later. Point them to the licensed professionals who do those evaluations. Adoptive and foster families have their own questions about consent and agencies, and our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to answer them."
       ),
       h2("Practical details that reduce drop-off"),
       p(
@@ -788,7 +788,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A perinatal counseling page should speak to expecting and new parents in plain words, describe the counselor's training as the license shows it, explain how sessions work and whether babies may attend, and show crisis lines prominently. It should not diagnose, promise recovery or imply that counseling replaces medical care from an obstetrician or doctor.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 7,
     sections: [
       h2("Who reads this page and what they need first"),
@@ -832,7 +832,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Link the page to your [telehealth instructions](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) and to your [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained), since new parents will want to know both before they call."
       ),
       p(
-        "Finally, consider the hours new parents can actually keep. Evening or early-morning slots and short video visits can matter more than any wording on the page, so say plainly what the schedule allows. If the practice cannot see someone soon, a clear note about the waitlist and a list of community supports is kinder than silence, and it keeps the page honest about what the practice can offer right now."
+        "Finally, consider the hours new parents can actually keep. Evening or early-morning slots and short video visits can matter more than any wording on the page, so say plainly what the schedule allows. If the practice cannot see someone soon, a clear note about the waitlist and a list of community supports is kinder than silence, and it keeps the page honest about what the practice can offer right now. Families who are growing through adoption or foster care need a page of their own, as our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) explains."
       ),
     ],
     faqs: [
@@ -883,7 +883,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A transfer-of-care page tells a new patient the steps for moving from another doctor: sign a records release, bring a medication list, book a first visit and keep seeing the current doctor until the new visit happens. It should explain how long records take to arrive and never promise a specific appointment date or outcome.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T12:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Why people search for this"),
@@ -924,7 +924,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "End the page with a booking path and a phone number. Our guides on [what to bring to a first appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) and on [keeping the accepting-new-patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) support this page directly, and the [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) is the follow-up that continues it."
       ),
       p(
-        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third."
+        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third. A named care coordinator can help new patients gather records and referrals, and our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) shows how to introduce that person."
       ),
     ],
     faqs: [
@@ -975,12 +975,12 @@ export const guidesPartTwentyThree: Guide[] = [
       "A follow-up visits page tells patients with ongoing health needs how the practice schedules regular visits, what to bring, how refills and lab appointments fit in, and how to reach the office between visits. It describes the process, not the medicine, and never promises that a condition will be controlled, reversed or improved.",
     author: "Liam Costello",
     publishDate: "2026-10-16T12:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Who this page is for"),
       p(
-        "Patients who live with an ongoing condition do not search for a miracle. They want to know how often they will be seen, how to get a refill without a crisis and who to call if something changes. Practices that answer those questions in advance reduce calls and missed appointments."
+        "Patients who live with an ongoing condition do not search for a miracle. They want to know how often they will be seen, how to get a refill without a crisis and who to call if something changes. Practices that answer those questions in advance reduce calls and missed appointments. Many practices assign a coordinator to help with referrals and paperwork between visits, as our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) explains."
       ),
       p(
         "This is a process page. It sits alongside your annual wellness page and your visit-types page, and it must stay on the right side of the line between describing a service and making a medical claim."
@@ -1238,7 +1238,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A page for veterans and military families should state who the counselor sees, which insurance such as TRICARE the practice is verified with, how sessions work, and where to go in a crisis, including the Veterans Crisis Line. It should not claim a military background the counselor lacks, promise outcomes or use service imagery without permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T13:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("What this reader looks for first"),
@@ -1281,7 +1281,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Link the page from your services menu and from the [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) section so it can be found by people searching for this kind of support."
       ),
       p(
-        "Read the page aloud before it goes live. If any sentence would sound like a recruiting slogan to a service member, rewrite it in plainer words, and ask a veteran or a military spouse you know to read it too. Their reaction will tell you faster than any checklist whether the tone is respectful and the information is useful."
+        "Read the page aloud before it goes live. If any sentence would sound like a recruiting slogan to a service member, rewrite it in plainer words, and ask a veteran or a military spouse you know to read it too. Their reaction will tell you faster than any checklist whether the tone is respectful and the information is useful. Many veterans also work as first responders or in healthcare, and our guide to a [first responders and healthcare workers counseling page](/guides/first-responders-and-healthcare-workers-counseling-page-for-a-counseling-practice-without-clinical-claims) covers that overlapping audience without clinical claims."
       ),
     ],
     faqs: [
@@ -1332,7 +1332,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A new-to-the-area page helps people who just moved, attend college nearby or live part of the year in Florida find a primary care practice. It explains how to become a patient, what to bring, how records transfer and how seasonal visits work, and it never promises appointment dates or care outcomes.",
     author: "Liam Costello",
     publishDate: "2026-10-16T13:40:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Three groups who search the same way"),
@@ -1369,7 +1369,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Make it findable and consistent"),
       p(
-        "Add the page to your location page and the services menu, and use the neighborhood and city names a newcomer would type. Check that your [Google Business Profile attributes](/guides/google-business-profile-attributes-for-a-medical-practice) and hours match, and that the [new-patient status is accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) everywhere. A [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) closes the loop after the first booking."
+        "Add the page to your location page and the services menu, and use the neighborhood and city names a newcomer would type. Check that your [Google Business Profile attributes](/guides/google-business-profile-attributes-for-a-medical-practice) and hours match, and that the [new-patient status is accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) everywhere. A [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) closes the loop after the first booking. Counseling practices see the same wave of newcomers, and our guide to a [life transitions counseling page](/guides/life-transitions-counseling-page-for-job-loss-relocation-and-retirement-without-clinical-claims) shows how to write for people who have just moved, lost a job or retired."
       ),
       p(
         "Review the page each fall and again in early spring, because the people it serves change with the calendar. Students arrive in August and winter residents arrive in November, so update the hours, the new-patient status and the insurance lines before each wave, and note the date you checked on the page itself."

@@ -338,7 +338,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A note-request page should say who can ask for a school, work or camp note, how to ask through the portal or phone, how long the office needs, and what the note will and will not contain. Never collect health details on the page itself, and explain that sending a note to a third party may need the patient's written permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T10:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Notes are small requests that fill a front desk"),
@@ -350,7 +350,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Say who can ask and how"),
       p(
-        "Start with the people who can make a request. For an adult, it is the patient. For a minor, it is usually a parent or legal guardian. The details depend on the patient's age and on state law, so keep the wording general and have your compliance contact review it before it goes live."
+        "Start with the people who can make a request. For an adult, it is the patient. For a minor, it is usually a parent or legal guardian. The details depend on the patient's age and on state law, so keep the wording general and have your compliance contact review it before it goes live. Longer leave and disability forms follow a different process, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) explains, including fees, turnaround and how to return completed forms safely."
       ),
       ol(
         "Tell the requester to sign in to the patient portal and use its request tool, or to call the front desk during office hours.",
@@ -434,7 +434,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A referral request page for patients should explain how to ask, which insurance plans need a referral, what to have ready, how long the office usually needs and how to check status. It should never ask for a diagnosis, and it should not promise approval, since the insurer decides.",
     author: "Liam Costello",
     publishDate: "2026-10-14T10:20:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-26",
     readMinutes: 7,
     sections: [
       h2("A referral page is for your own patients"),
@@ -471,7 +471,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Set expectations without making promises"),
       p(
-        "Give a range for how long the office needs to process the request, and be clear that the specialist's schedule and the insurer's review are outside your control. A line such as we send the request within a set number of business days, and the insurer or specialist's office may take longer is honest and rarely disappoints."
+        "Give a range for how long the office needs to process the request, and be clear that the specialist's schedule and the insurer's review are outside your control. A line such as we send the request within a set number of business days, and the insurer or specialist's office may take longer is honest and rarely disappoints. When the plan also needs to approve the visit, explain that step too, as our guide to [prior authorization and referral timelines](/guides/prior-authorization-and-referral-timelines-explained-on-a-primary-care-practice-website) describes."
       ),
       p(
         "Tell patients how to check status. If your portal shows referral progress, say so. If it does not, give the phone number and the hours when someone can look up the request. Patients forgive delay far more readily than silence."
@@ -630,7 +630,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
@@ -676,7 +676,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Keep the language gentle and plain"),
       p(
-        "Write at a reading level that a tired person can follow on a phone. Our notes on [plain language for patient-facing content](/guides/plain-language-and-reading-level-for-patient-facing-web-content) apply directly. Avoid clinical terms, avoid the word patient if your practice says client, and avoid exclamation marks that might read as pressure."
+        "Write at a reading level that a tired person can follow on a phone. Our notes on [plain language for patient-facing content](/guides/plain-language-and-reading-level-for-patient-facing-web-content) apply directly. Avoid clinical terms, avoid the word patient if your practice says client, and avoid exclamation marks that might read as pressure. Reminders sent after the intake email should be just as discreet, as our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) explains."
       ),
       p(
         "Finally, test the whole flow as a new client would. Book a test appointment, open the email on a phone, click every link and complete the forms. Fix the first thing that annoys you."
@@ -830,7 +830,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "An employee assistance program page should say whether the practice takes EAP referrals, which programs it works with if any, how a client gets an authorization, and what happens when the covered sessions end. Only name an EAP the practice has an agreement with, and tell clients to confirm limits with their program.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("What clients are really asking when they search for EAP"),
@@ -860,7 +860,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h3("Be clear about privacy on both sides"),
       p(
-        "Clients often wonder what their employer can see. The page should not guess. Say that the practice follows its privacy notice, link to it, and invite the client to ask their EAP how it shares information. Those are two separate relationships, and only the program can describe its own."
+        "Clients often wonder what their employer can see. The page should not guess. Say that the practice follows its privacy notice, link to it, and invite the client to ask their EAP how it shares information. Those are two separate relationships, and only the program can describe its own. First responders and healthcare workers ask the same question about their agencies and hospitals, and our guide to a [first responders and healthcare workers counseling page](/guides/first-responders-and-healthcare-workers-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to answer it plainly."
       ),
       h2("What happens when the covered sessions end"),
       table(
@@ -1035,7 +1035,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
@@ -1043,7 +1043,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that. A therapy practice has extra duties around planned absences, covered in our guide to [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice), because clients may need to know who to call in a crisis. On days when only the advice line is staffed, point patients to a [nurse line and advice line page](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) that gives the number and the limits of the service. For storm closures in particular, a permanent [severe weather notice page for a primary care practice](/guides/hurricane-and-severe-weather-patient-notice-page-for-a-primary-care-practice) lets you change one status line instead of writing a new announcement every time."
       ),
       p(
-        "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed."
+        "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed. Counseling practices face extra questions at year end, and our guide to a [holiday season scheduling announcement for a counseling practice](/guides/holiday-season-scheduling-and-availability-announcement-for-a-counseling-practice) shows how to handle booking, crisis resources and the return date."
       ),
       h2("Write the notice once, then copy it"),
       p(
@@ -1139,7 +1139,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
@@ -1187,7 +1187,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Finish with the crisis information: call 911 in an emergency, and call or text 988 for someone in distress. Because a telehealth client may be far from the office, ask them to share their location at the start of every session, as the clinician will explain."
       ),
       h2("Keep the page accessible"),
-      p("Some clients will use a phone, some a tablet and some a shared computer. Write the instructions so that they work on any of them, avoid screenshots that cannot be read by a screen reader without text beside them, and offer a phone-only alternative for clients who cannot manage video. A client who cannot join is not a failed client; it is a signal that the process needs another door."),
+      p("Some clients will use a phone, some a tablet and some a shared computer. Write the instructions so that they work on any of them, avoid screenshots that cannot be read by a screen reader without text beside them, and offer a phone-only alternative for clients who cannot manage video. A client who cannot join is not a failed client; it is a signal that the process needs another door. Clients who choose video because of long work hours will also look for the times you offer them, which our guide to an [evening and weekend appointment availability page](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) shows how to publish."),
       p("Ask a colleague who does not work in the office to follow the page from start to finish on their own device, and time how long each step takes. Replace any instruction that needs a phone call to understand."),
       p("Keep a short log of the technology problems that clients report. If three people struggle with the same step, the instruction is unclear rather than the clients being careless. Rewrite that step, test it again, and note the date of the change at the bottom of the page."),
     ],
@@ -1239,7 +1239,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A couples counseling page should explain how sessions work, who attends, how long they run, how to book, what they cost and how the first call goes. It should not promise a stronger relationship, name problems it will fix or tell couples what is wrong. Describe the format and invite one conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Couples search with a different kind of nervousness"),
@@ -1247,7 +1247,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Someone looking for couples counseling is usually carrying two worries at once. They are unsure whether to seek help, and they are unsure how to ask their partner to do the same. A page that is calm, specific and free of judgment makes the decision to call a smaller one. Practices that see parents and children together can use [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) to explain consent, scheduling and what the practice does not do. Couples who are engaged and planning ahead have different questions from couples in difficulty, so give them their own [premarital counseling page](/guides/premarital-counseling-page-for-a-counseling-practice-without-clinical-claims) with its own fees and timing."
       ),
       p(
-        "That same sensitivity is why the page needs discipline. The wrong sentence can sound like a diagnosis of a relationship, or a promise that sessions will save one. Neither is something a website can say responsibly."
+        "That same sensitivity is why the page needs discipline. The wrong sentence can sound like a diagnosis of a relationship, or a promise that sessions will save one. Neither is something a website can say responsibly. Visitors who are separating rather than repairing need a different page, and our guide to a [divorce and separation counseling page](/guides/divorce-and-separation-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to write it without taking sides."
       ),
       h2("Start with the format, not the conflict"),
       p(
@@ -1444,7 +1444,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A check-in page should explain how to arrive, where to enter, how to check in, what the front desk will ask for, how waiting works and what to do if the wait feels long. Keep it factual, avoid time promises you cannot keep, and never ask patients to describe their symptoms on the page.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:40:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("The first five minutes shape the whole visit"),
@@ -1487,7 +1487,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Keep it linked and fresh"),
       p(
-        "Link the page from your new-patient message and from your [what to bring to a first appointment page](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients). Walk through it yourself every few months. If the parking changes, the entrance moves or the forms switch to a tablet, the page changes the same week. A transfer page cuts down on phone calls about records and refills, as [a page that explains how to transfer care from another doctor](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice) explains."
+        "Link the page from your new-patient message and from your [what to bring to a first appointment page](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients). Walk through it yourself every few months. If the parking changes, the entrance moves or the forms switch to a tablet, the page changes the same week. A transfer page cuts down on phone calls about records and refills, as [a page that explains how to transfer care from another doctor](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice) explains. If patients with symptoms are asked to follow extra steps at the door, explain them on a page like our guide to a [sick visit and infection control expectations page](/guides/sick-visit-and-infection-control-expectations-page-for-a-primary-care-practice-without-clinical-advice) and link it from your check in instructions."
       ),
       h2("Involve the people who work the front desk"),
       p("The staff who greet patients know which questions come up every day. Ask them for the five most common ones and make sure the page answers each. Let them read the final draft and tell you where it does not match what really happens, since a page that describes an ideal check-in rather than the real one will disappoint on the first visit."),

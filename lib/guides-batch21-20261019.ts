@@ -335,7 +335,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A therapy practice should tell clients about a planned absence in advance, on the website, the voicemail and the Google profile, and every notice should name the return date, who covers urgent needs, and the 988 Lifeline. Do not post clients' names, reasons for the absence or any clinical detail.",
     author: "Liam Costello",
     publishDate: "2026-10-19T09:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Why an absence notice is a continuity issue, not a marketing task"),
@@ -379,7 +379,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A notice posted two weeks ahead lets clients move appointments early and leaves the office with fewer missed sessions. Mention the absence at the last session before it, in person or in the reminder text, and keep the message short and free of health detail. Our wording guide for [appointment reminders without health details](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows the principle, and it applies equally to therapy offices."
       ),
       p(
-        "When the clinician returns, remove the banner, reset the voicemail and clear the special hours. An out-of-date notice that still says closed is as damaging as no notice at all."
+        "When the clinician returns, remove the banner, reset the voicemail and clear the special hours. An out-of-date notice that still says closed is as damaging as no notice at all. The same planning applies to an office wide break, and our guide to a [holiday season scheduling announcement for a counseling practice](/guides/holiday-season-scheduling-and-availability-announcement-for-a-counseling-practice) explains how to word closed days and crisis resources for clients."
       ),
       h3("Make it a habit, not a scramble"),
       p(
@@ -527,7 +527,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "An appointment reminder should name the practice, the date and time, the location or video link and how to confirm or reschedule, and should leave out the reason for the visit, the clinician's specialty detail and anything about a diagnosis. Send reminders to the contact method the patient chose, with a clear way to opt out.",
     author: "Liam Costello",
     publishDate: "2026-10-19T10:20:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("What a reminder is for"),
@@ -580,7 +580,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Test the message before it goes out"),
       p(
-        "Send each template to two staff phones and one email account first, and read it on a locked screen the way a stranger might. Check what shows in the preview, what the sender name is and whether the opt-out works. Many practices find that a harmless-looking message reveals more in the lock-screen preview than anyone intended, and a two-minute test catches it."
+        "Send each template to two staff phones and one email account first, and read it on a locked screen the way a stranger might. Check what shows in the preview, what the sender name is and whether the opt-out works. Many practices find that a harmless-looking message reveals more in the lock-screen preview than anyone intended, and a two-minute test catches it. Counseling practices need even more discretion, and our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) shows the changes to make."
       ),
     ],
     faqs: [
@@ -720,7 +720,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A community resources page for a counseling practice lists trusted outside services such as crisis lines, support groups and social services, states plainly that the practice does not run or endorse them, and keeps the list short and current. Put the crisis numbers first and review every link on a schedule.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("Why this page earns its place"),
@@ -755,7 +755,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("What the page should say about itself"),
       p(
-        "Add two sentences near the top: the practice provides this list as information, does not operate or endorse these services, and cannot guarantee their availability. Add that a client should tell their clinician if they are using an outside resource, if they wish to. This avoids implying a referral relationship that does not exist."
+        "Add two sentences near the top: the practice provides this list as information, does not operate or endorse these services, and cannot guarantee their availability. Add that a client should tell their clinician if they are using an outside resource, if they wish to. This avoids implying a referral relationship that does not exist. Peer support lines for first responders and healthcare workers are a good example of a resource to list, as described in our guide to a [first responders and healthcare workers counseling page](/guides/first-responders-and-healthcare-workers-counseling-page-for-a-counseling-practice-without-clinical-claims)."
       ),
       h2("Link it into the rest of the site"),
       p(
@@ -819,7 +819,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A page on when to call the office, go to urgent care or call 911 should give patients a clear, non-diagnostic rule: emergencies go to 911, anything else that cannot wait goes to the office or an urgent care, and routine needs go to the schedule. It must not list symptoms as medical advice or replace a clinician's judgment.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T11:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("The line a patient is trying to draw"),
@@ -848,7 +848,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Make claims about how quickly the office can see sick patients."
       ),
       p(
-        "If the practice offers same-day sick visits, describe the process for requesting one, such as call at opening time, and avoid promising a slot. Our guide on [getting found for same-day and walk-in visits as a primary care practice](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) covers how to describe availability honestly."
+        "If the practice offers same-day sick visits, describe the process for requesting one, such as call at opening time, and avoid promising a slot. Our guide on [getting found for same-day and walk-in visits as a primary care practice](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) covers how to describe availability honestly. A companion page on [sick visit and infection control expectations](/guides/sick-visit-and-infection-control-expectations-page-for-a-primary-care-practice-without-clinical-advice) explains the practical steps once a patient has decided to come in."
       ),
       h3("Mental health crises"),
       p(
@@ -917,7 +917,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A therapy practice website should say how long a typical session lasts, how often clients usually meet at the start, who decides the schedule, and what the practice does not promise. State the facts as the practice's own policy and leave outcomes, timelines for improvement and duration of treatment to the conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-26",
     readMinutes: 6,
     sections: [
       h2("The question every new client is too polite to ask"),
@@ -937,7 +937,7 @@ export const guidesPartTwentyFour: Guide[] = [
         ["Longer or shorter visits", "Mention them only if the practice offers them, with their fees."]
       ),
       p(
-        "Use the practice's real numbers and avoid ranges you do not follow. If every clinician in the office works differently, say that sessions vary by clinician and invite visitors to ask when they call."
+        "Use the practice's real numbers and avoid ranges you do not follow. If every clinician in the office works differently, say that sessions vary by clinician and invite visitors to ask when they call. Clients going through a separation often ask how long counseling will last, which our guide to a [divorce and separation counseling page](/guides/divorce-and-separation-counseling-page-for-a-counseling-practice-without-clinical-claims) addresses without promising results."
       ),
       h2("Words to avoid"),
       ul(

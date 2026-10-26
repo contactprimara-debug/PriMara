@@ -15,7 +15,7 @@ export const guidesPartSeventeen: Guide[] = [
   "answer": "A therapy fees page should state each session fee and length, say plainly whether you take insurance or are out of network, explain whether you give superbills clients can submit to their own plan, and describe any sliding scale honestly. Avoid promising reimbursement or outcomes, and update the page whenever rates change.",
   "author": "Liam Costello",
   "publishDate": "2026-10-09T13:00:00Z",
-  "dateModified": "2026-10-23",
+  "dateModified": "2026-10-26",
   "readMinutes": 6,
   "sections": [
     {
@@ -36,7 +36,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "List the fee for each session type you offer, such as an intake session, an individual session and a couples session, along with the length of each. Use the current numbers, and put a review date on the page so you remember to check it. An old fee on a website is worse than no fee, because it creates a surprise on the first invoice."
+      "text": "List the fee for each session type you offer, such as an intake session, an individual session and a couples session, along with the length of each. Use the current numbers, and put a review date on the page so you remember to check it. An old fee on a website is worse than no fee, because it creates a surprise on the first invoice. Clients also want to know how they pay and what a card on file is used for, which our guide to a [payment methods and card on file policy page](/guides/payment-methods-and-card-on-file-policy-page-for-a-counseling-practice) explains in plain words."
     },
     {
       "type": "table",

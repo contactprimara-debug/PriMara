@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -346,7 +346,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The most common problem is a page that says 24 hours while the signed consent form says 48. Pick one source of truth, copy it everywhere, and re-read all three places whenever the policy changes. Then check your Google Business Profile and any directory listings that mention scheduling, so the same rule appears everywhere a client might look."
+        "text": "The most common problem is a page that says 24 hours while the signed consent form says 48. Pick one source of truth, copy it everywhere, and re-read all three places whenever the policy changes. Then check your Google Business Profile and any directory listings that mention scheduling, so the same rule appears everywhere a client might look. The same discipline applies to payment rules, and our guide to a [payment methods and card on file policy page](/guides/payment-methods-and-card-on-file-policy-page-for-a-counseling-practice) shows how to explain when a card is charged and how clients update it safely."
       },
       {
         "type": "p",
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-26",
     "readMinutes": 6,
     "sections": [
       {
@@ -450,7 +450,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients often use annual physical, wellness visit and welcome visit as if they meant the same thing. They are not always the same, and the page should help readers sort them out without giving insurance advice."
+        "text": "Patients often use annual physical, wellness visit and welcome visit as if they meant the same thing. They are not always the same, and the page should help readers sort them out without giving insurance advice. If a patient has just enrolled, the first visit is the Welcome to Medicare visit, and our guide to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) explains how to describe it separately."
       },
       {
         "type": "table",
