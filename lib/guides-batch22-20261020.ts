@@ -408,7 +408,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h2("Employers, benefits and the third-party question"),
       p(
-        "Some visitors arrive because an employer plan pays for a number of sessions. Others are afraid the employer will see a claim. Explain, in two sentences at most, that insurance and employer programs have their own rules about what they receive, and that the person should ask the plan before the first visit. Our guide on an [employee assistance program page](/guides/employee-assistance-program-page-for-a-counseling-practice) covers the wording in more detail. A job loss changes that picture, and our guide to a [life transitions counseling page](/guides/life-transitions-counseling-page-for-job-loss-relocation-and-retirement-without-clinical-claims) explains how to write for people facing a layoff, a move or retirement."
+        "Some visitors arrive because an employer plan pays for a number of sessions. Others are afraid the employer will see a claim. Explain, in two sentences at most, that insurance and employer programs have their own rules about what they receive, and that the person should ask the plan before the first visit. Our guide on an [employee assistance program page](/guides/employee-assistance-program-page-for-a-counseling-practice) covers the wording in more detail. A job loss changes that picture, and our guide to a [life transitions counseling page](/guides/life-transitions-counseling-page-for-job-loss-relocation-and-retirement-without-clinical-claims) explains how to write for people facing a layoff, a move or retirement. For one working group with a fixed daily schedule, see our guide to a [teachers and school staff counseling page](/guides/teachers-and-school-staff-counseling-page-for-a-counseling-practice-without-clinical-claims) that focuses on appointment times, privacy and fees."
       ),
       h3("If you also work with employers"),
       p(
@@ -974,7 +974,7 @@ export const guidesPartTwentyFive: Guide[] = [
         ["Contact the therapist at her new office", "She may contact you directly if she is able to, and you may choose whoever you like."]
       ),
       p(
-        "Records need special care. Clients have rights to their records, and a practice should have a written process for authorization and delivery. Our guide on a [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) shows how to describe it, and the federal privacy guidance linked below sets the baseline."
+        "Records need special care. Clients have rights to their records, and a practice should have a written process for authorization and delivery. Our guide on a [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) shows how to describe it, and the federal privacy guidance linked below sets the baseline. If the whole practice is closing, not just one clinician, follow our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) so clients know who holds records and how to ask."
       ),
       h2("Update the public side"),
       ul(
@@ -1468,7 +1468,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Website accessibility is part of the answer"),
       p(
-        "A patient who cannot use the site cannot ask for help. Make sure the page itself works with a screen reader, has text that can be enlarged, and that the form can be completed by keyboard. The guidance on [web accessibility for medical practices](/guides/ada-web-accessibility-for-a-medical-practice-website) lists the basics. A matching [website accessibility statement that explains how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) lets patients ask for help with the site as easily as with the building."
+        "A patient who cannot use the site cannot ask for help. Make sure the page itself works with a screen reader, has text that can be enlarged, and that the form can be completed by keyboard. The guidance on [web accessibility for medical practices](/guides/ada-web-accessibility-for-a-medical-practice-website) lists the basics. A matching [website accessibility statement that explains how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) lets patients ask for help with the site as easily as with the building. Patients who ask for an accommodation may also ask about a chaperone or a support person, and our [chaperone policy page](/guides/chaperone-policy-page-for-a-primary-care-practice) guide shows how to answer in advance."
       ),
     ],
     faqs: [

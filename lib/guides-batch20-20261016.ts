@@ -110,7 +110,7 @@ export const guidesPartTwentyThree: Guide[] = [
         ["A reply to a negative comment that explains what happened in the visit", "You cannot discuss care in public, even when the patient has already done so."]
       ),
       p(
-        "The same discipline applies to reviews, which our guide on [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) explains in detail. Social comments follow the same rule."
+        "The same discipline applies to reviews, which our guide on [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) explains in detail. Social comments follow the same rule. If someone creates a fake page in your name, follow our guide on a [copycat website or fake social profile impersonating a practice](/guides/copycat-website-or-fake-social-profile-impersonating-a-medical-practice-what-to-do) to document it, report it and tell patients."
       ),
       h3("How to answer a comment or private message"),
       p(
@@ -475,7 +475,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Link the page from the contact page, the new-patient forms page and the portal login page. Our guides on [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) and the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) show how to place those links safely. Referral paperwork raises the same consent questions, and a [behavioral health referral page](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) for a primary care practice shows how to explain what is shared and with whom."
       ),
       p(
-        "Train the front desk to use the same words as the page. Consistency matters more than detail, and a staff member who can say it is our policy to speak only with people the patient has named, and here is how to be added, protects both the patient and the office. This page is general information, and counsel or a compliance officer should review the final text. Family members who arrange care often start on the website, so see how to lay it out for them in our guide to a [senior-friendly website layout for a primary care practice](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access)."
+        "Train the front desk to use the same words as the page. Consistency matters more than detail, and a staff member who can say it is our policy to speak only with people the patient has named, and here is how to be added, protects both the patient and the office. This page is general information, and counsel or a compliance officer should review the final text. Family members who arrange care often start on the website, so see how to lay it out for them in our guide to a [senior-friendly website layout for a primary care practice](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access). When a parent brings a teenager to the visit, the [adolescent visit and parent presence page](/guides/adolescent-visit-and-parent-presence-page-for-a-family-medicine-practice-without-legal-advice) shows how to explain time in the room and what the office shares with a parent."
       ),
     ],
     faqs: [
@@ -731,7 +731,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("State what the practice does not do"),
       p(
-        "Be plain that the practice does not provide custody evaluations, court testimony or a written opinion for a legal dispute, if that is the policy. Families in a divorce often ask, and a clear answer prevents a hard conversation later. Point them to the licensed professionals who do those evaluations. Adoptive and foster families have their own questions about consent and agencies, and our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to answer them."
+        "Be plain that the practice does not provide custody evaluations, court testimony or a written opinion for a legal dispute, if that is the policy. Families in a divorce often ask, and a clear answer prevents a hard conversation later. Point them to the licensed professionals who do those evaluations. Adoptive and foster families have their own questions about consent and agencies, and our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to answer them. Families who also see a family medicine office for a teenager may want that office to explain how visits work, as described in our guide to the [adolescent visit and parent presence page](/guides/adolescent-visit-and-parent-presence-page-for-a-family-medicine-practice-without-legal-advice)."
       ),
       h2("Practical details that reduce drop-off"),
       p(
@@ -924,7 +924,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "End the page with a booking path and a phone number. Our guides on [what to bring to a first appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) and on [keeping the accepting-new-patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) support this page directly, and the [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) is the follow-up that continues it."
       ),
       p(
-        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third. A named care coordinator can help new patients gather records and referrals, and our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) shows how to introduce that person."
+        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third. A named care coordinator can help new patients gather records and referrals, and our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) shows how to introduce that person. Patients who need their records when a practice shuts down will look for the custodian, which our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains how to name and publish."
       ),
     ],
     faqs: [
@@ -1013,7 +1013,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Make it findable and kind"),
       p(
-        "Patients may search for ongoing care without a condition name, so use the phrases they use, such as follow-up visits and regular check-ins. Add the page to your services menu and mention it from your [visit types and appointment lengths page](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). Include the practice phone and a plain line on how to reach the office after hours, as set out in our guide on [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who have just left a hospital search for a different kind of follow-up, covered in our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims)."
+        "Patients may search for ongoing care without a condition name, so use the phrases they use, such as follow-up visits and regular check-ins. Add the page to your services menu and mention it from your [visit types and appointment lengths page](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). Include the practice phone and a plain line on how to reach the office after hours, as set out in our guide on [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who have just left a hospital search for a different kind of follow-up, covered in our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims). Patients who cannot easily travel to follow up visits may ask about house calls, which our guide to a [home visits and house calls page](/guides/home-visits-and-house-calls-page-for-a-primary-care-practice-without-clinical-claims) explains how to answer plainly."
       ),
     ],
     faqs: [
@@ -1337,7 +1337,7 @@ export const guidesPartTwentyThree: Guide[] = [
     sections: [
       h2("Three groups who search the same way"),
       p(
-        "Families who just moved, students who arrive each fall and seasonal residents who spend the winter in Florida all search for a doctor near me, and none of them has a doctor yet. Each group has a different question, and one short page can answer all three."
+        "Families who just moved, students who arrive each fall and seasonal residents who spend the winter in Florida all search for a doctor near me, and none of them has a doctor yet. Each group has a different question, and one short page can answer all three. Counseling offices on the coast that serve winter residents can pair this with a [seasonal resident and snowbird counseling page](/guides/seasonal-resident-and-snowbird-counseling-page-for-a-florida-counseling-practice-without-clinical-claims) that explains licensure limits and part year scheduling."
       ),
       p(
         "Searches like this peak when people arrive, so the page is best ready before the busy season, and it should say honestly whether the practice is accepting new patients."

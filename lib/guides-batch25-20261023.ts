@@ -280,7 +280,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("A page for family members and caregivers"),
       p(
-        "Create one clear page for caregivers that explains how a family member can help a patient book visits, what the office needs to see before it can speak with them, and how a patient can name someone they trust. Keep the wording general and let the front desk handle the details by phone, since consent and permissions depend on the individual patient. Our guide to [caregiver and family communication policies](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) covers what to say and what to avoid."
+        "Create one clear page for caregivers that explains how a family member can help a patient book visits, what the office needs to see before it can speak with them, and how a patient can name someone they trust. Keep the wording general and let the front desk handle the details by phone, since consent and permissions depend on the individual patient. Our guide to [caregiver and family communication policies](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) covers what to say and what to avoid. Caregivers who search for a doctor who makes house calls need a clear answer too, and our guide to a [home visits and house calls page](/guides/home-visits-and-house-calls-page-for-a-primary-care-practice-without-clinical-claims) shows what to include."
       ),
       ul(
         "State plainly that the practice will not discuss a patient's care with others without the patient's permission, and explain how the patient gives it.",
@@ -750,7 +750,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Remind clients to log out on shared devices, to avoid using a work computer or a work email address for therapy messages, and to call the office if they suspect someone else has their password. Do not display any client names, appointment times or screenshots of real messages on the public page."
       ),
       p(
-        "Keep the portal link on its own page rather than inside a long policy document, and link to it from the footer and contact page. If a client forgets their login, the page should tell them which phone number to call and who will answer."
+        "Keep the portal link on its own page rather than inside a long policy document, and link to it from the footer and contact page. If a client forgets their login, the page should tell them which phone number to call and who will answer. Tell clients which messages belong in the portal and which may be texted, using the structure in our [texting between sessions policy page](/guides/texting-between-sessions-policy-page-for-a-counseling-practice) guide."
       ),
       h2("Test the page like a new client"),
       p(
@@ -841,7 +841,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h3("Keep the tone human"),
       p(
-        "Write as one person to another. Avoid wording that sounds defensive and avoid threats. Do not discuss any individual patient or incident, and never reply to a public review on this page. Our guide on [responding to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) covers the public side."
+        "Write as one person to another. Avoid wording that sounds defensive and avoid threats. Do not discuss any individual patient or incident, and never reply to a public review on this page. Our guide on [responding to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) covers the public side. Many practices also publish a [chaperone policy page](/guides/chaperone-policy-page-for-a-primary-care-practice) so patients know they may ask for another person to be present during a sensitive exam."
       ),
       h2("Keep the page honest and current"),
       p(

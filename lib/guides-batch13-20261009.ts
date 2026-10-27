@@ -861,7 +861,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Pages can also describe the review in structured data using the reviewedBy property from schema.org, which names the person who reviewed the content. Only add it when the visible label exists and matches. Hidden or mismatched markup helps no one. Our guide on [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained) explains how to add it correctly and how to test it."
+        "text": "Pages can also describe the review in structured data using the reviewedBy property from schema.org, which names the person who reviewed the content. Only add it when the visible label exists and matches. Hidden or mismatched markup helps no one. Our guide on [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained) explains how to add it correctly and how to test it. Pair any review label with a visible byline, and publish an [author byline and editorial standards page](/guides/author-byline-and-editorial-standards-page-for-a-medical-practice-blog) that says who writes and reviews your articles."
       },
       {
         "type": "p",
@@ -1434,7 +1434,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions. Keeping the schedule honest also means publishing the rules that protect it, as described in our [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for primary care offices. The accepting-new-patients line is one field on each clinician card, along with languages and ages seen, in a [provider-choice page for a multi-provider practice](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page)."
+        "text": "Add one line to your monthly profile routine: confirm the new patient status on the website, Google and the top three directories. Our [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to put it. Five minutes a month prevents most mismatches. Once a new patient is accepted, a [first-appointment page listing what to bring](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) helps them arrive ready and saves the front desk repeat questions. Keeping the schedule honest also means publishing the rules that protect it, as described in our [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for primary care offices. The accepting-new-patients line is one field on each clinician card, along with languages and ages seen, in a [provider-choice page for a multi-provider practice](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page). For a full panel, publish a [not accepting new patients and waitlist page for a primary care practice](/guides/not-accepting-new-patients-and-waitlist-page-for-a-primary-care-practice) that matches the status you show on Google and in directories."
       },
       {
         "type": "callout",
@@ -1999,7 +1999,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google Search Console shows the queries that led people to your site. Filter for queries that contain your practice name to see branded demand over time. A steady line means your name is known. A drop may mean a closed listing or a change in how people find you. Our guide to [reading Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains the reports."
+        "text": "Google Search Console shows the queries that led people to your site. Filter for queries that contain your practice name to see branded demand over time. A steady line means your name is known. A drop may mean a closed listing or a change in how people find you. Our guide to [reading Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains the reports. Run the audit each quarter, and if a lookalike site or fake profile appears, our guide on a [copycat website or fake social profile impersonating a practice](/guides/copycat-website-or-fake-social-profile-impersonating-a-medical-practice-what-to-do) explains what to do next."
       },
       {
         "type": "h2",

@@ -1415,7 +1415,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Follow the texting rules"),
       p(
-        "Marketing and appointment texts are covered by rules on consent and opt out, and your texting vendor should record both. Our guide to [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice) explains the rules, and the FCC publishes a guide to [unwanted texts and calls](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts). Never include a clinical detail, a diagnosis or a medicine in a reminder."
+        "Marketing and appointment texts are covered by rules on consent and opt out, and your texting vendor should record both. Our guide to [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice) explains the rules, and the FCC publishes a guide to [unwanted texts and calls](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts). Never include a clinical detail, a diagnosis or a medicine in a reminder. Reminders are only half of the conversation, and our guide to a [texting between sessions policy page](/guides/texting-between-sessions-policy-page-for-a-counseling-practice) explains what clients may text back and when to expect a reply."
       ),
       h2("Test the message before it goes out"),
       p(

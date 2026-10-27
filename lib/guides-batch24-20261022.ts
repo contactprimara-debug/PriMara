@@ -217,7 +217,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Reviews you did not ask for"),
       p(
-        "Google reviews that clients write on their own are allowed to exist. You may reply to them, but only in wording that never confirms the writer was a client. Do not request them, do not offer anything for them, and do not copy them onto your site as quotes. Our guide to [responding to Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) covers the wording."
+        "Google reviews that clients write on their own are allowed to exist. You may reply to them, but only in wording that never confirms the writer was a client. Do not request them, do not offer anything for them, and do not copy them onto your site as quotes. Our guide to [responding to Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) covers the wording. Trust also comes from clear boundaries, such as a published [social media and friend request policy for a counseling practice](/guides/social-media-and-friend-request-policy-page-for-a-counseling-practice) that explains how clients may and may not contact clinicians online."
       ),
       h2("Small signs that add up"),
       ul(

@@ -835,7 +835,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The first video session is where many clients feel least sure of themselves. If the link does not work, the microphone is off or the connection fails, the opening minutes are spent on technology rather than on the session. A short instructions page shifts that work to before the appointment and gives clients something to read at their own pace."
+        "text": "The first video session is where many clients feel least sure of themselves. If the link does not work, the microphone is off or the connection fails, the opening minutes are spent on technology rather than on the session. A short instructions page shifts that work to before the appointment and gives clients something to read at their own pace. Add one line to the instructions on recording, linking to a [session recording policy page for a counseling practice](/guides/session-recording-policy-page-for-a-counseling-practice) so clients see the rule before they log in."
       },
       {
         "type": "p",

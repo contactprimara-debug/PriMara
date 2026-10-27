@@ -371,7 +371,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Parents and consent"),
       p(
-        "A parent calling about a minor needs to know early who can consent and how privacy works for older teens. Link the announcement to your page on [teen therapy for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims) so those questions are answered before the first call, and to the page about [college student counseling](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) if you see older students."
+        "A parent calling about a minor needs to know early who can consent and how privacy works for older teens. Link the announcement to your page on [teen therapy for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims) so those questions are answered before the first call, and to the page about [college student counseling](/guides/college-student-counseling-page-for-a-counseling-practice-without-clinical-claims) if you see older students. Teachers and school staff are busiest in the first weeks of the school year, so link this notice to a [teachers and school staff counseling page](/guides/teachers-and-school-staff-counseling-page-for-a-counseling-practice-without-clinical-claims) that lists early, late and video appointment options."
       ),
       h3("Keep it honest as it fills"),
       p(
@@ -669,7 +669,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Page structure for search"),
       p(
-        "Give the Spanish version its own address, such as a page under the counseling section, and label the language in the code. Google's overview of [multilingual sites](https://developers.google.com/search/docs/specialty/international/localized-versions) explains how to connect the two versions so each is shown to the right reader. Do not auto-redirect visitors by browser language, because some people prefer the other version."
+        "Give the Spanish version its own address, such as a page under the counseling section, and label the language in the code. Google's overview of [multilingual sites](https://developers.google.com/search/docs/specialty/international/localized-versions) explains how to connect the two versions so each is shown to the right reader. Do not auto-redirect visitors by browser language, because some people prefer the other version. Many winter visitors and residents prefer to read in Spanish, so link your language page to a [seasonal resident counseling page for Florida](/guides/seasonal-resident-and-snowbird-counseling-page-for-a-florida-counseling-practice-without-clinical-claims) that explains scheduling and licensure for part year clients."
       ),
       p(
         "Our article on [bilingual SEO for a Florida medical practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) covers the technical side across a whole site, and the guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) explains how to show the same facts on Google."
@@ -964,7 +964,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Keep availability honest"),
       p(
-        "A card that says accepting new patients when the clinician is full is worse than no card. Assign someone to review the status monthly, and add the month it was checked. Our guide to [keeping accepting-new-patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) lists the places the status must match."
+        "A card that says accepting new patients when the clinician is full is worse than no card. Assign someone to review the status monthly, and add the month it was checked. Our guide to [keeping accepting-new-patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) lists the places the status must match. When no provider is taking new patients, a [not accepting new patients and waitlist page](/guides/not-accepting-new-patients-and-waitlist-page-for-a-primary-care-practice) tells visitors the status and how the waitlist works."
       ),
       h2("Link it all together"),
       p(
@@ -1051,7 +1051,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Texting rules"),
       p(
-        "Billing messages are still text messages, and the FCC has guidance on texting rules, summarized in its [guide to unwanted calls and texts](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts). Get permission before sending text messages, offer a clear way to stop them and keep messages short and free of health details. Have a compliance advisor review your consent wording."
+        "Billing messages are still text messages, and the FCC has guidance on texting rules, summarized in its [guide to unwanted calls and texts](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts). Get permission before sending text messages, offer a clear way to stop them and keep messages short and free of health details. Have a compliance advisor review your consent wording. Clients who receive billing links by text also need to know what they may text back, which our guide to a [texting between sessions policy page](/guides/texting-between-sessions-policy-page-for-a-counseling-practice) spells out for counseling practices."
       ),
       h3("Fees and plans"),
       p(
@@ -1354,7 +1354,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("The urgent caller"),
       p(
-        "Train everyone to recognize words that mean the caller needs emergency help, and to say the same short line every time: if this is an emergency, please hang up and dial 911. Post the line at every desk. Our page on [when to call the office versus 911](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) gives wording that matches what the website says."
+        "Train everyone to recognize words that mean the caller needs emergency help, and to say the same short line every time: if this is an emergency, please hang up and dial 911. Post the line at every desk. Our page on [when to call the office versus 911](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) gives wording that matches what the website says. Front desk staff should know exactly which ages the practice accepts, and a published [ages seen and pediatric age range page](/guides/ages-seen-and-pediatric-age-range-page-for-a-family-medicine-practice) gives them the same answer to repeat."
       ),
       h3("The caller who is not a fit"),
       p(
@@ -1538,7 +1538,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Which of your clinicians are physicians and which are nurse practitioners or physician assistants, with credentials as licensed."
       ),
       p(
-        "A page that ends with we see all ages is less useful than a page that says which clinician sees which ages and who is accepting new patients."
+        "A page that ends with we see all ages is less useful than a page that says which clinician sees which ages and who is accepting new patients. Once a family chooses family medicine, an [ages seen and pediatric age range page](/guides/ages-seen-and-pediatric-age-range-page-for-a-family-medicine-practice) answers the next question, which is how young and how old the patients can be."
       ),
       h3("Keep claims in check"),
       p(

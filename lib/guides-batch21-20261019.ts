@@ -164,7 +164,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "How privacy works, in two or three sentences, with no guarantees beyond what the law and your own policies allow."
       ),
       p(
-        "Resist the urge to list conditions. A page that names anxiety, depression and other struggles in a long run of keywords reads as a sales pitch and invites clinical claims you do not need. Say that you support students with the pressures of school and life, and let the first conversation do the rest."
+        "Resist the urge to list conditions. A page that names anxiety, depression and other struggles in a long run of keywords reads as a sales pitch and invites clinical claims you do not need. Say that you support students with the pressures of school and life, and let the first conversation do the rest. Another group with fixed daily schedules is school staff, and our guide to a [teachers and school staff counseling page](/guides/teachers-and-school-staff-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to describe after school and evening appointments."
       ),
       h2("Handling the parent question honestly"),
       p(
@@ -848,7 +848,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Make claims about how quickly the office can see sick patients."
       ),
       p(
-        "If the practice offers same-day sick visits, describe the process for requesting one, such as call at opening time, and avoid promising a slot. Our guide on [getting found for same-day and walk-in visits as a primary care practice](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) covers how to describe availability honestly. A companion page on [sick visit and infection control expectations](/guides/sick-visit-and-infection-control-expectations-page-for-a-primary-care-practice-without-clinical-advice) explains the practical steps once a patient has decided to come in."
+        "If the practice offers same-day sick visits, describe the process for requesting one, such as call at opening time, and avoid promising a slot. Our guide on [getting found for same-day and walk-in visits as a primary care practice](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) covers how to describe availability honestly. A companion page on [sick visit and infection control expectations](/guides/sick-visit-and-infection-control-expectations-page-for-a-primary-care-practice-without-clinical-advice) explains the practical steps once a patient has decided to come in. A home visit is scheduled care and never a response to an emergency, a point made clearly in our guide to a [home visits and house calls page for a primary care practice](/guides/home-visits-and-house-calls-page-for-a-primary-care-practice-without-clinical-claims)."
       ),
       h3("Mental health crises"),
       p(
@@ -1217,7 +1217,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A patient who gets a message from a free personal address can reasonably wonder whether it is real. Phishing messages pretending to be from doctors' offices are common, and an address on the practice's own domain, matching the website, is the simplest signal that a message is genuine."
       ),
       p(
-        "The same address also belongs on the website, the Google Business Profile and the directories, so that name, address, phone and email agree everywhere. Mixed personal and business addresses are a small but real source of confusion."
+        "The same address also belongs on the website, the Google Business Profile and the directories, so that name, address, phone and email agree everywhere. Mixed personal and business addresses are a small but real source of confusion. Once every address uses your domain, give staff one standard [email signature and confidentiality footer](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) so name, phone and website match everywhere."
       ),
       h2("What a domain-based setup gives the practice"),
       ul(
@@ -1551,7 +1551,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Protect the practice's own accounts"),
       p(
-        "Sometimes a scam reflects a real problem, such as a compromised email account or a leaked contact list. Review who has access to the reminder system, turn on two-step sign-in for email and the patient portal, and check that your domain's mail records are set up so others cannot easily send fake mail in your name. Our guide on [professional domain email for a medical practice](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) covers the records to set. Government guidance on recognizing and reporting phishing is a good thing to link for patients."
+        "Sometimes a scam reflects a real problem, such as a compromised email account or a leaked contact list. Review who has access to the reminder system, turn on two-step sign-in for email and the patient portal, and check that your domain's mail records are set up so others cannot easily send fake mail in your name. Our guide on [professional domain email for a medical practice](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) covers the records to set. Government guidance on recognizing and reporting phishing is a good thing to link for patients. When the scam is a full copycat site or fake profile rather than a single message, our guide to [copycat websites and fake social profiles that impersonate a practice](/guides/copycat-website-or-fake-social-profile-impersonating-a-medical-practice-what-to-do) lists the reports to file."
       ),
       h3("Keep the notice honest and current"),
       p(
