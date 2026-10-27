@@ -529,9 +529,13 @@ export default function Header() {
             style={{
               background: "none",
               border: "none",
-              padding: "8px",
+              padding: "0",
+              width: "44px",
+              height: "44px",
               display: "flex",
               flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
               gap: "5px",
               cursor: "pointer",
             }}

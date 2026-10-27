@@ -77,7 +77,7 @@ const faqs = [
     "q": "Are you actually local to West Palm Beach?",
     "a": "Yes — Primara is based in West Palm Beach. We know the local landscape practices here compete in, from the Palm Beach Lakes Boulevard medical corridor to neighborhood clinics in Northwood and SoSo, and we can meet in person when it's useful."
   },
-  { q: "Who do you work with?", a: "Independent, physician-owned practices — primary care and mental health. We work with practices that want a site that actively brings in new patients, rather than one that simply exists as a digital brochure. We put this in writing before you commit to anything, so there are no surprises later." }
+  { q: "Who do you work with?", a: "Independent, physician-owned practices — primary care and mental health. We work with practices that want a site that actively brings in new patients, rather than one that simply exists as a digital brochure." }
 ];
 
 const faqSchema = {

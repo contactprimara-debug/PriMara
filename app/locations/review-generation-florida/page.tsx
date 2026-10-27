@@ -65,8 +65,8 @@ const faqs = [
     "q": "How do HIPAA rules affect review responses?",
     "a": "A practice can never confirm or deny that a reviewer is a patient, let alone discuss care. Our response frameworks keep every reply professional and general while still addressing the concern — which is exactly what prospective patients reading the exchange want to see."
   },
-  { q: "What platforms matter beyond Google?", a: "Google drives the most decisions, but Healthgrades, Zocdoc, WebMD, and Yelp all surface in patient research. We audit and monitor all of them, and clean up duplicate or unverified listings that dilute your profile. You can ask about your specific practice on a free audit call before deciding anything." },
-  { q: "How do I know if my practice needs this?", a: "Three signals: an average Google rating below 4.0, review volume significantly below competing practices in your market, or critical reviews sitting without a professional response. Any of them is costing you patients you never see. We put this in writing before you commit to anything, so there are no surprises later." },
+  { q: "What platforms matter beyond Google?", a: "Google drives the most decisions, but Healthgrades, Zocdoc, WebMD, and Yelp all surface in patient research. We audit and monitor all of them, and clean up duplicate or unverified listings that dilute your profile." },
+  { q: "How do I know if my practice needs this?", a: "Three signals: an average Google rating below 4.0, review volume significantly below competing practices in your market, or critical reviews sitting without a professional response. Any of them is costing you patients you never see." },
   { q: "Can you remove a negative review?", a: "Not directly. A review can be reported to Google when it breaks the platform's rules, such as a fake review or content unrelated to a visit. Otherwise, the right response is a calm public reply and, where appropriate, a private call." },
 ];
 
