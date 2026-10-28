@@ -1371,7 +1371,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Role-play the script in a staff meeting once a quarter. People find the weak spots quickly when they hear themselves say it."
       ),
       p(
-        "Keep the script short enough to fit on one page, and update it when anything changes, such as hours, insurance or the forms process."
+        "Keep the script short enough to fit on one page, and update it when anything changes, such as hours, insurance or the forms process. Some callers will say they cannot use the internet at all, and a [paper forms and phone registration page for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice) gives the front desk one link and a consistent set of options to describe."
       ),
     ],
     faqs: [

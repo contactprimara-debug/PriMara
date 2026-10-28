@@ -1380,7 +1380,7 @@ export const guidesPartTwentyNine: Guide[] = [
       "Counseling reminders should say as little as possible: the time, the clinician's first name and a way to confirm or change, sent only to a number the client chose and with an easy opt out. Leave out the words therapy, counseling and diagnosis, because a lock screen or a shared phone may show the message to someone else.",
     author: "Gio LaRoche",
     publishDate: "2026-10-26T18:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Why a reminder is a privacy decision"),
@@ -1423,7 +1423,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Write down what never goes in a message"),
       p(
-        "Give staff a short list of things that never appear in a reminder: the reason for the visit, a diagnosis, a medicine, a clinician's specialty or any detail from a past session. Add a rule that if a client replies with anything personal, staff answer by phone or portal, not by text. A written list is easier to follow than judgment in the moment, and it protects clients and staff when a message goes out in a hurry."
+        "Give staff a short list of things that never appear in a reminder: the reason for the visit, a diagnosis, a medicine, a clinician's specialty or any detail from a past session. Add a rule that if a client replies with anything personal, staff answer by phone or portal, not by text. A written list is easier to follow than judgment in the moment, and it protects clients and staff when a message goes out in a hurry. A reminder for a video session can also link to a [page that explains the location check at the start of a telehealth session](/guides/client-location-confirmation-at-the-start-of-a-telehealth-session-page-for-a-counseling-practice) so clients are not surprised when the counselor asks where they are."
       ),
     ],
     faqs: [

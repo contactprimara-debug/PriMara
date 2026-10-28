@@ -158,7 +158,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "An accessible intake form uses large text, one question per label, plain words and clear error messages, works with a screen reader and a keyboard, and always offers a phone option. Ask only what the first visit needs. A patient who cannot finish the form online should be able to finish it by calling.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Who gets stuck on a typical intake form"),
@@ -196,7 +196,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Always give a way that is not a form"),
       p(
-        "Place the office phone number at the top of every form page as a tap-to-call link, and say who will answer and when. Offer to complete the paperwork by phone, by mail or at the front desk on arrival, and mention that staff can read the questions aloud. This single line removes the biggest barrier for patients who cannot see the screen well."
+        "Place the office phone number at the top of every form page as a tap-to-call link, and say who will answer and when. Offer to complete the paperwork by phone, by mail or at the front desk on arrival, and mention that staff can read the questions aloud. This single line removes the biggest barrier for patients who cannot see the screen well. Patients who cannot use online forms at all should still have a route in, and a [paper forms and phone registration option for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice) describes how a primary care practice can offer one without adding risk."
       ),
       h3("Test it the way a patient would"),
       ol(
@@ -712,7 +712,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A portal page for a counseling practice should tell clients where to log in, what the portal is for, how fast messages are answered and what never to send there. State a reply window, send crisis messages to 988 and 911, and keep clinical conversation for the session.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Why clients need this page"),
@@ -754,7 +754,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Test the page like a new client"),
       p(
-        "Ask someone outside your staff to find the portal login from the home page on a phone and to read the page aloud. Note where they hesitate. If they cannot tell what the portal is for or how long a reply will take, rewrite that sentence. Repeat the test whenever the portal vendor changes the login screen."
+        "Ask someone outside your staff to find the portal login from the home page on a phone and to read the page aloud. Note where they hesitate. If they cannot tell what the portal is for or how long a reply will take, rewrite that sentence. Repeat the test whenever the portal vendor changes the login screen. Clients sometimes ask about changing their emergency contact by portal message, which an [emergency contact request on intake page for a counseling practice](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) can answer in advance."
       ),
     ],
     faqs: [
@@ -1271,7 +1271,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A post-hospital follow-up page tells patients and families how to book a visit soon after a hospital stay, what to bring, who to call and what the office will do with the discharge paperwork. Keep it practical, avoid medical advice and send emergencies to 911.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("A visit people search for in a hurry"),
@@ -1310,7 +1310,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Make the phone call easy"),
       p(
-        "Tell the front desk to expect these calls and give them a short script: ask whether the patient was recently discharged, ask for the discharge date, offer the earliest suitable visit and remind the caller what to bring. Add the same script to your internal handbook and review it with new staff. A page that promises quick help and a phone line that puts the caller on hold works against itself."
+        "Tell the front desk to expect these calls and give them a short script: ask whether the patient was recently discharged, ask for the discharge date, offer the earliest suitable visit and remind the caller what to bring. Add the same script to your internal handbook and review it with new staff. A page that promises quick help and a phone line that puts the caller on hold works against itself. After a hospital stay patients may be handed several documents, and a short [explainer about the after visit summary](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) helps them find the one from your office and know who to call about it."
       ),
     ],
     faqs: [

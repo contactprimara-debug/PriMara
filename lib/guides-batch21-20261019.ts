@@ -240,7 +240,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A virtual visits page for a primary care practice should say who can book a video visit, how to join, what the practice will and will not handle by video, and when a patient must come in or call 911 instead. Keep the list of eligible visit types short and let the clinician decide the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T09:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("The page patients are trying to find"),
@@ -288,7 +288,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Check it from the patient's side"),
       p(
-        "Once a quarter, book a test video visit as a patient would, from a phone, using the link on the page. Note how many taps it takes, whether the instructions match what appears on screen, and whether the backup phone number works. Small gaps, such as an old platform name or a dead link, are common, and each one costs the front desk a phone call and costs the patient some trust."
+        "Once a quarter, book a test video visit as a patient would, from a phone, using the link on the page. Note how many taps it takes, whether the instructions match what appears on screen, and whether the backup phone number works. Small gaps, such as an old platform name or a dead link, are common, and each one costs the front desk a phone call and costs the patient some trust. Patients who are deaf or hard of hearing may need captioning or an interpreter for a video visit, and the [deaf and hard of hearing patient access page](/guides/deaf-and-hard-of-hearing-patient-access-page-for-a-primary-care-practice-without-clinical-advice) is where the practice should say what it offers."
       ),
     ],
     faqs: [

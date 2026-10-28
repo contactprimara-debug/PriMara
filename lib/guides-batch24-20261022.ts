@@ -367,7 +367,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A first-time client form for a counseling practice should feel safe to fill in. Ask for a first name, a phone or email the person has marked as private, and a preferred contact time. Skip the story of why they are reaching out. Add a short privacy notice, a crisis line and an honest reply time.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("A different kind of form"),
@@ -410,7 +410,7 @@ export const guidesPartTwentySeven: Guide[] = [
         ["Has a waitlist", "We reply within two business days and share the expected wait for a first appointment."]
       ),
       p(
-        "If you have a waiting list, say so. Our guide to [waitlist pages for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to explain it without losing the visitor."
+        "If you have a waiting list, say so. Our guide to [waitlist pages for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to explain it without losing the visitor. Because the public contact form should stay short, leave the emergency contact off it and explain that step on an [emergency contact request on intake page](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that clients read before the secure intake packet."
       ),
       h2("Behind the scenes"),
       ul(

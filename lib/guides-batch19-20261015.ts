@@ -1087,7 +1087,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Add a short line to the booking form asking clients to confirm the state they will be in during their appointments, and train the front desk to ask the same question on the phone. If a client says they will be somewhere the clinician is not licensed, offer an in-person option, a referral to a clinician licensed there, or a pause until they return."
       ),
       p(
-        "Note the conversation in the usual scheduling notes without clinical detail, so the next person who talks to the client does not have to ask again."
+        "Note the conversation in the usual scheduling notes without clinical detail, so the next person who talks to the client does not have to ask again. Clients also ask why a counselor confirms their location at the start of a video session, and a [client location confirmation page for a counseling practice](/guides/client-location-confirmation-at-the-start-of-a-telehealth-session-page-for-a-counseling-practice) explains that routine in plain words without collecting anything on the page."
       ),
     ],
     faqs: [

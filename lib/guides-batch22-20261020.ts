@@ -1421,7 +1421,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A service animal and accommodation page should state that service dogs are welcome, say what staff may ask, explain how to request an interpreter, a wheelchair-accessible room or extra time, and give a phone number and email for requests. It should never ask patients to describe their disability or condition on the page or in a form.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Make the request easy before the visit"),
@@ -1468,7 +1468,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Website accessibility is part of the answer"),
       p(
-        "A patient who cannot use the site cannot ask for help. Make sure the page itself works with a screen reader, has text that can be enlarged, and that the form can be completed by keyboard. The guidance on [web accessibility for medical practices](/guides/ada-web-accessibility-for-a-medical-practice-website) lists the basics. A matching [website accessibility statement that explains how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) lets patients ask for help with the site as easily as with the building. Patients who ask for an accommodation may also ask about a chaperone or a support person, and our [chaperone policy page](/guides/chaperone-policy-page-for-a-primary-care-practice) guide shows how to answer in advance."
+        "A patient who cannot use the site cannot ask for help. Make sure the page itself works with a screen reader, has text that can be enlarged, and that the form can be completed by keyboard. The guidance on [web accessibility for medical practices](/guides/ada-web-accessibility-for-a-medical-practice-website) lists the basics. A matching [website accessibility statement that explains how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) lets patients ask for help with the site as easily as with the building. Patients who ask for an accommodation may also ask about a chaperone or a support person, and our [chaperone policy page](/guides/chaperone-policy-page-for-a-primary-care-practice) guide shows how to answer in advance. Requests for communication support belong beside requests for other accommodations, so link to a [deaf and hard of hearing patient access page for a primary care practice](/guides/deaf-and-hard-of-hearing-patient-access-page-for-a-primary-care-practice-without-clinical-advice) that lists the relay, text and interpreter routes."
       ),
     ],
     faqs: [

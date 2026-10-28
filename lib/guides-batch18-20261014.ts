@@ -47,7 +47,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "An after-visit follow-up email from a primary care practice should say thank you, point to the secure portal for anything personal, give the front desk phone number, and ask for nothing sensitive in reply. Leave out the reason for the visit, test names and anything a stranger could learn by reading over a shoulder.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("What the follow-up email is for"),
@@ -100,7 +100,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Count outcomes at the practice level, not the patient level. Track how many follow-ups went out each week, how many review invitations were clicked, and how many calls to the front desk began with a question the email should have answered. If a particular question keeps arriving, add one sentence about it. If nobody ever clicks the portal link, move it higher."
       ),
       p(
-        "Review the template every quarter with the person who answers the phone. Staff hear the confusion that analytics cannot see, and they will tell you which line patients misread."
+        "Review the template every quarter with the person who answers the phone. Staff hear the confusion that analytics cannot see, and they will tell you which line patients misread. The email can say that the summary is ready and link to an [after visit summary explained page for a primary care practice](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) that describes where patients find the document and who to call about it."
       ),
     ],
     faqs: [
@@ -684,7 +684,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Special cases: couples, minors and shared devices"),
       p("Some first sessions need more than one set of forms. For couples, say whether each person completes their own forms and whether the link goes to both addresses. For a minor, state who signs, since a parent or guardian is generally the one who consents, and the rules differ by state and by the age of the client. Keep these statements short and have the clinician confirm them."),
       p("Also consider shared devices. A client who uses a family computer may not want a message with the practice name in the subject line. Offer a choice of contact method at booking, and let the client pick text, email or phone, so the practice honors the preference from the first message."),
-      p("Keep a copy of the final wording in a shared document and note the date of the last change. When the forms, the fee policy or the portal change, the email changes too, and a dated master copy makes sure nobody keeps sending last year's version to this year's clients."),
+      p("Keep a copy of the final wording in a shared document and note the date of the last change. When the forms, the fee policy or the portal change, the email changes too, and a dated master copy makes sure nobody keeps sending last year's version to this year's clients. The email can mention that the packet includes an emergency contact request, and link to an [emergency contact request on intake page for a counseling practice](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that explains when the contact would be used and what the practice would say."),
     ],
     faqs: [
       {
@@ -1189,7 +1189,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Keep the page accessible"),
       p("Some clients will use a phone, some a tablet and some a shared computer. Write the instructions so that they work on any of them, avoid screenshots that cannot be read by a screen reader without text beside them, and offer a phone-only alternative for clients who cannot manage video. A client who cannot join is not a failed client; it is a signal that the process needs another door. Clients who choose video because of long work hours will also look for the times you offer them, which our guide to an [evening and weekend appointment availability page](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) shows how to publish."),
       p("Ask a colleague who does not work in the office to follow the page from start to finish on their own device, and time how long each step takes. Replace any instruction that needs a phone call to understand."),
-      p("Keep a short log of the technology problems that clients report. If three people struggle with the same step, the instruction is unclear rather than the clients being careless. Rewrite that step, test it again, and note the date of the change at the bottom of the page."),
+      p("Keep a short log of the technology problems that clients report. If three people struggle with the same step, the instruction is unclear rather than the clients being careless. Rewrite that step, test it again, and note the date of the change at the bottom of the page. Before the first video session it also helps clients to know the counselor will ask where they are sitting, which a [client location confirmation page](/guides/client-location-confirmation-at-the-start-of-a-telehealth-session-page-for-a-counseling-practice) can explain ahead of time so the opening minutes go to the session itself."),
     ],
     faqs: [
       {
