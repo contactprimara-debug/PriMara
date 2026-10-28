@@ -465,7 +465,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Describe availability with measured, dated statements such as typical days to the next new-patient visit, not guarantees like same-day appointments always. Update the figure on a schedule, say how patients can get seen sooner, and avoid claims about waiting times that the office cannot support with its own schedule data.",
     author: "Liam Costello",
     publishDate: "2026-10-15T10:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Patients search for speed, and practices overpromise"),
@@ -499,7 +499,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Where the message should appear"),
       p(
-        "Put the main statement near the booking button and again on the contact page. Repeat a short version on the Google Business Profile in the description or a post, using the same wording, and have the phone greeting say nothing the page does not. If the number differs between places, patients trust none of them."
+        "Put the main statement near the booking button and again on the contact page. Repeat a short version on the Google Business Profile in the description or a post, using the same wording, and have the phone greeting say nothing the page does not. If the number differs between places, patients trust none of them. A seasonal announcement is a good place to apply this, and a [new year availability announcement for a counseling practice](/guides/new-year-availability-announcement-for-a-counseling-practice) shows how to describe January openings without promising a start date."
       ),
       ul(
         "Appointment page: the dated range and the call-first option.",
@@ -1040,7 +1040,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A states-served page lists each clinician, the state or states where they hold a license, how to verify it, and a plain rule that clients must be physically located in a licensed state during a session. Use only what the licensing record shows, and do not describe interstate compacts as available until the clinician is actually authorized under them.",
     author: "Liam Costello",
     publishDate: "2026-10-15T12:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Where the client sits matters more than where you sit"),
@@ -1076,7 +1076,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h3("Keep the page current"),
       p(
-        "Review the page whenever a license is renewed, a clinician is added, or a state joins a compact. A stale page is worse than no page, and the date of the last review should be visible. If someone leaves, update this page along with the steps in [what to update when a provider joins or leaves a practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice)."
+        "Review the page whenever a license is renewed, a clinician is added, or a state joins a compact. A stale page is worse than no page, and the date of the last review should be visible. If someone leaves, update this page along with the steps in [what to update when a provider joins or leaves a practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). Once the states you can serve are written on the page, the same list should guide the service area on your listing, as covered in setting up a [Google Business Profile with no storefront](/guides/google-business-profile-for-a-telehealth-only-counseling-practice-without-a-storefront)."
       ),
       h2("Link it to the rest of the telehealth experience"),
       p(

@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-28",
     "readMinutes": 7,
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well."
+        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well. Many first time clients also ask whether a friend or relative can come along, which a [support person in session policy page](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims) answers in a few sentences."
       },
       {
         "type": "h2",

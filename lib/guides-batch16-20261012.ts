@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-28",
     "readMinutes": 6,
     "sections": [
       {
@@ -54,7 +54,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The last item matters more than it looks. The federal Agency for Healthcare Research and Quality publishes a plain-language guide that encourages patients to arrive with a short list of questions, and a first-appointment page is a natural place to say the same thing in your own words."
+        "text": "The last item matters more than it looks. The federal Agency for Healthcare Research and Quality publishes a plain-language guide that encourages patients to arrive with a short list of questions, and a first-appointment page is a natural place to say the same thing in your own words. For a first video visit the checklist changes slightly, and our guide to [what to have ready for a first telehealth visit, including a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice) covers those differences without giving medical advice."
       },
       {
         "type": "h2",
@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-28",
     "readMinutes": 6,
     "sections": [
       {
@@ -346,7 +346,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The most common problem is a page that says 24 hours while the signed consent form says 48. Pick one source of truth, copy it everywhere, and re-read all three places whenever the policy changes. Then check your Google Business Profile and any directory listings that mention scheduling, so the same rule appears everywhere a client might look. The same discipline applies to payment rules, and our guide to a [payment methods and card on file policy page](/guides/payment-methods-and-card-on-file-policy-page-for-a-counseling-practice) shows how to explain when a card is charged and how clients update it safely."
+        "text": "The most common problem is a page that says 24 hours while the signed consent form says 48. Pick one source of truth, copy it everywhere, and re-read all three places whenever the policy changes. Then check your Google Business Profile and any directory listings that mention scheduling, so the same rule appears everywhere a client might look. The same discipline applies to payment rules, and our guide to a [payment methods and card on file policy page](/guides/payment-methods-and-card-on-file-policy-page-for-a-counseling-practice) shows how to explain when a card is charged and how clients update it safely. Families whose childcare falls through are a common reason for late cancellations, which is why a [children in the waiting room policy](/guides/children-in-the-waiting-room-policy-page-for-a-counseling-practice) belongs next to this page."
       },
       {
         "type": "p",

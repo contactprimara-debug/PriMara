@@ -338,7 +338,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A back-to-school announcement tells parents and students which after-school, evening and video times are open this term, how to ask for them and what to expect on the first call. Post it on the website and Google profile, date it, update it as slots fill, and keep clinical promises out of the wording.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Why the fall calendar matters"),
@@ -375,7 +375,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Keep it honest as it fills"),
       p(
-        "An announcement that still says openings available in November looks careless. Assign one person to update it every week or two, or take down the specific times and say to call for current availability. Our guide to a [waitlist page](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to word the full-caseload version without making families feel turned away."
+        "An announcement that still says openings available in November looks careless. Assign one person to update it every week or two, or take down the specific times and say to call for current availability. Our guide to a [waitlist page](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to word the full-caseload version without making families feel turned away. The same approach works in winter, when a [new year availability announcement for a counseling practice](/guides/new-year-availability-announcement-for-a-counseling-practice) tells people about January openings and how to book."
       ),
       h2("What to leave out"),
       ul(
@@ -538,7 +538,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A reduced-fee note should say what the practice actually offers, who asks for it, what the office needs to decide and where to find other low-cost care. It should avoid words like discount, free or guaranteed, never imply the offer applies to insured patients, and be reviewed before it goes live.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("A note, not an advertisement"),
@@ -587,7 +587,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Do not ask for income documents through a web form or email. Decide what must be provided, collect it in person or by a secure method, and keep it out of the medical chart. Train the front desk to explain the process in private, not across a crowded waiting room."
       ),
       p(
-        "Review the note yearly with the fee schedule. When prices change, update it the same day, since an old number on a billing page becomes an argument at the desk."
+        "Review the note yearly with the fee schedule. When prices change, update it the same day, since an old number on a billing page becomes an argument at the desk. When prices change, current patients should hear about it directly, and the plain wording approach used in a [fee change notice letter for a counseling practice](/guides/fee-change-notice-letter-for-a-counseling-practice-without-legal-advice) works just as well for a medical office."
       ),
     ],
     faqs: [
@@ -921,7 +921,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A provider-choice page lists each clinician with the same facts: role, languages, ages seen, location, new-patient status and booking link. It lets patients filter by what matters to them, avoids ranking or praising anyone, and keeps availability current so no one books with a clinician who is full.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("More choice can feel like more work"),
@@ -939,7 +939,7 @@ export const guidesPartTwentySix: Guide[] = [
         "A booking link or phone number."
       ),
       p(
-        "Using the same fields for everyone is both fair and practical. It prevents the page from becoming a popularity contest, and it makes the information easy to turn into structured data that search engines can read."
+        "Using the same fields for everyone is both fair and practical. It prevents the page from becoming a popularity contest, and it makes the information easy to turn into structured data that search engines can read. Patients choose more easily when they understand the letters after each name, so link a [plain explanation of MD, DO, NP, PA and MA titles](/guides/staff-titles-explained-page-for-a-primary-care-practice-md-do-np-pa-and-ma) from every card."
       ),
       h2("Optional filters that help"),
       table(
@@ -1320,7 +1320,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A good new patient phone script greets the caller by the practice name, asks only what is needed to book, such as name, phone, insurance and preferred times, explains what to bring and what happens next, and avoids asking about symptoms. Review it quarterly and keep a log of why calls do not end in a booking.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("The first call decides a lot"),
@@ -1339,7 +1339,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Close warmly, and ask if they have any questions."
       ),
       p(
-        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust."
+        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice)."
       ),
       h2("Questions to leave out"),
       table(

@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-28",
     "readMinutes": 6,
     "sections": [
       {
@@ -1968,7 +1968,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Same day: scheduling, phone, voicemail and the website team page. First week: bio page, schema, Google profile and the major directories. Within a month: insurance directories, secondary directories, and a check of AI answers for the old name, as in our guide to [fixing wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the matching principle behind all of it. When a clinician leaves, patients will ask how to get their records, so link to a clear [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) from the notice. The checklist covers every listing, and the [guide to introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) covers the message patients should receive and how to word it."
+        "text": "Same day: scheduling, phone, voicemail and the website team page. First week: bio page, schema, Google profile and the major directories. Within a month: insurance directories, secondary directories, and a check of AI answers for the old name, as in our guide to [fixing wrong information in an AI answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the matching principle behind all of it. When a clinician leaves, patients will ask how to get their records, so link to a clear [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) from the notice. The checklist covers every listing, and the [guide to introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) covers the message patients should receive and how to word it. For a temporary absence rather than a departure, a short dated note on the booking page and phone greeting is usually enough, and our guide to a [provider on leave notice for a primary care practice](/guides/provider-on-leave-notice-for-a-primary-care-practice-without-clinical-claims) shows how to word it without giving a reason."
       },
       {
         "type": "h2",
@@ -2382,7 +2382,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "If patients come to your office, you have a storefront and should show your address. If your clinicians travel to patients, you have a service-area business and may hide the address. If you do both, you are a hybrid. Choosing wrongly risks suspension, and no setting promises a better position in the local results.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-28",
     "readMinutes": 6,
     "sections": [
       {
@@ -2442,7 +2442,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A hidden address means no pin on the map, and patients cannot see where to go, which suits house calls and confuses office visits. Hiding the address of a practice that sees patients in person violates the guidelines and misleads patients. Patients of a house-call practice, by contrast, only need the phone number, the covered areas and the hours. Local results depend on distance, relevance and prominence, and Google makes no promise about placement for any type. For a hidden-address profile, rank tracking tools that rely on the map pin do not work well, so see our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) for what to use. Solo clinicians who work from home or by video face a special case, covered in [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home)."
+        "text": "A hidden address means no pin on the map, and patients cannot see where to go, which suits house calls and confuses office visits. Hiding the address of a practice that sees patients in person violates the guidelines and misleads patients. Patients of a house-call practice, by contrast, only need the phone number, the covered areas and the hours. Local results depend on distance, relevance and prominence, and Google makes no promise about placement for any type. For a hidden-address profile, rank tracking tools that rely on the map pin do not work well, so see our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) for what to use. Solo clinicians who work from home or by video face a special case, covered in [Google Business Profile for a therapist who works from home](/guides/google-business-profile-for-a-therapist-who-works-from-home). A counselor who sees every client by video is a common service area case, and our guide to a [Google Business Profile for a telehealth only counseling practice](/guides/google-business-profile-for-a-telehealth-only-counseling-practice-without-a-storefront) walks through the hidden address and service area wording."
       },
       {
         "type": "h2",

@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       {
@@ -331,7 +331,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Start with the sources patients actually use: your Google Business Profile, Apple Business Connect, Bing Places, your health system and insurer directories, and your major social profiles. If you need the full list of places that matter, see our [local citation building checklist](/guides/local-citation-building-checklist-for-a-medical-practice). A number that carriers have flagged as spam is a different problem from a mismatched one, and our guide to [spam-flagged practice phone numbers](/guides/spam-flagged-practice-phone-numbers-how-to-check-and-fix-a-number-marked-as-scam) shows how to tell them apart. Hours are part of the same consistency problem, and our guide on [evening and weekend hours for a primary care practice](/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate) shows how to keep them identical everywhere."
+        "text": "Start with the sources patients actually use: your Google Business Profile, Apple Business Connect, Bing Places, your health system and insurer directories, and your major social profiles. If you need the full list of places that matter, see our [local citation building checklist](/guides/local-citation-building-checklist-for-a-medical-practice). A number that carriers have flagged as spam is a different problem from a mismatched one, and our guide to [spam-flagged practice phone numbers](/guides/spam-flagged-practice-phone-numbers-how-to-check-and-fix-a-number-marked-as-scam) shows how to tell them apart. Hours are part of the same consistency problem, and our guide on [evening and weekend hours for a primary care practice](/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate) shows how to keep them identical everywhere. The second address line is where many mismatches hide, so check how each directory writes the suite, using the steps in our guide to the [suite number and floor on Google Business Profile for a medical building](/guides/suite-number-and-floor-on-google-business-profile-for-a-practice-in-a-medical-building)."
       },
       {
         "type": "h2",

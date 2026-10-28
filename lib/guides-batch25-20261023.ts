@@ -337,7 +337,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A severe weather notice page tells patients in plain words whether the office is open, how to reach staff, how visits will be rescheduled and where to find official storm information. Keep one permanent page, update the status line at the top, and leave medical advice out of it.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Why a practice needs a permanent storm page"),
@@ -371,7 +371,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Keep the page, retire the news"),
       p(
-        "After the storm, change the status back to open as usual and keep the page live with the checklist underneath. Remove dated claims from the top, such as a closure for a storm that has passed, because stale closures confuse visitors and can look like an error to Google. Add the page to the footer so it is easy to find the next time."
+        "After the storm, change the status back to open as usual and keep the page live with the checklist underneath. Remove dated claims from the top, such as a closure for a storm that has passed, because stale closures confuse visitors and can look like an error to Google. Add the page to the footer so it is easy to find the next time. A planned absence of one clinician is a smaller version of the same problem, and a [leave notice for a primary care practice](/guides/provider-on-leave-notice-for-a-primary-care-practice-without-clinical-claims) uses the same dated status line idea for a single provider."
       ),
       h3("Match the other places"),
       ol(
@@ -433,7 +433,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A discharge policy page tells clients, before they start, how therapy can end: when they decide it is done, when the practice cannot be the right fit, or after a long gap. State the notice you give, the referrals you offer and how clients can return. Keep it calm and free of clinical claims.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Why publish how therapy ends"),
@@ -464,7 +464,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("How a former client comes back"),
       p(
-        "Say plainly that former clients are welcome to return and explain how: call the office, or use the contact form. State whether a new intake is required after a long break, and whether the same clinician may be available. This one paragraph removes the awkwardness that stops many people from reaching out again."
+        "Say plainly that former clients are welcome to return and explain how: call the office, or use the contact form. State whether a new intake is required after a long break, and whether the same clinician may be available. This one paragraph removes the awkwardness that stops many people from reaching out again. A separate page for people who stopped for a while, such as a [returning to counseling after a long break page](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims), can explain what paperwork repeats and how to rebook."
       ),
       h3("What to leave off the page"),
       ul(
@@ -524,7 +524,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A telehealth instructions page for a primary care practice shows patients how to join the video visit, what to have ready, what to do if the connection fails and which concerns need an in-person visit or 911. Write it as numbered steps a patient can follow from a phone.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("What this page is for"),
@@ -568,7 +568,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Point to the consent step if the platform asks for it."
       ),
       p(
-        "Finally, tell patients what happens after the visit: whether the provider will send a summary through the portal, how prescriptions are handled and how to book a follow-up. The Medicare page on [telehealth services](https://www.medicare.gov/coverage/telehealth) is a useful neutral reference for patients who ask what is covered."
+        "Finally, tell patients what happens after the visit: whether the provider will send a summary through the portal, how prescriptions are handled and how to book a follow-up. The Medicare page on [telehealth services](https://www.medicare.gov/coverage/telehealth) is a useful neutral reference for patients who ask what is covered. Patients also ask what to gather before the call, which a [first telehealth visit page about the medication list and records to have ready](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice) answers in a short checklist."
       ),
     ],
     faqs: [
@@ -1081,7 +1081,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "Explain each clinician's license title in one plain sentence, show the full title as the state issues it, and link to the state license lookup so visitors can verify it. Never abbreviate in a way that suggests a higher credential, and never list a title you cannot confirm.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Why the letters confuse visitors"),
@@ -1093,7 +1093,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Say it the way the state does"),
       p(
-        "Use the exact title on the clinician's license. Spell it out the first time and add the abbreviation, for example Licensed Mental Health Counselor (LMHC). In Florida the licenses for these three professions are issued through the Department of Health, and the boards publish information on their own website at [floridasmentalhealthprofessions.gov](https://floridasmentalhealthprofessions.gov/). Check which titles apply to your clinicians, and describe only what is true for them."
+        "Use the exact title on the clinician's license. Spell it out the first time and add the abbreviation, for example Licensed Mental Health Counselor (LMHC). In Florida the licenses for these three professions are issued through the Department of Health, and the boards publish information on their own website at [floridasmentalhealthprofessions.gov](https://floridasmentalhealthprofessions.gov/). Check which titles apply to your clinicians, and describe only what is true for them. Primary care teams face the same confusion with MD, DO, NP and PA, and the guide to [staff titles explained for a primary care practice](/guides/staff-titles-explained-page-for-a-primary-care-practice-md-do-np-pa-and-ma) shows how to word each one."
       ),
       table(
         ["Title", "A plain sentence a visitor can read"],

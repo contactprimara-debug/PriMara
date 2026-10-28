@@ -172,7 +172,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A therapy practice can list a shared or sublet office on Google Business Profile if clients can actually be met there at the listed hours, and the practice has signage or a staffed entrance. A mailbox, a virtual address or a coworking desk where no one sees clients does not qualify and risks suspension.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T09:20:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("The rule Google actually applies"),
@@ -192,7 +192,7 @@ export const guidesPartTwentyThree: Guide[] = [
         ["Your home, where you see no clients", "No. Hide the address and use a service area."]
       ),
       p(
-        "If you share a building with other practices, expect Google to check whether more than one listing uses the same suite. Our guide on [practitioner versus practice listings for a multi-provider practice](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when each clinician may have their own profile. Telehealth patients in nearby towns can be addressed in a short [service area and neighborhoods served section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) on the main location page, without creating thin pages for each place."
+        "If you share a building with other practices, expect Google to check whether more than one listing uses the same suite. Our guide on [practitioner versus practice listings for a multi-provider practice](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when each clinician may have their own profile. Telehealth patients in nearby towns can be addressed in a short [service area and neighborhoods served section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) on the main location page, without creating thin pages for each place. If you share a building, the second address line matters even more, and our guide to writing the [suite number and floor on your Google Business Profile](/guides/suite-number-and-floor-on-google-business-profile-for-a-practice-in-a-medical-building) shows where each piece goes."
       ),
       h2("What to do if you have no visitable office"),
       ul(
@@ -437,7 +437,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A caregiver communication page tells patients and their families that the office speaks about a patient's care only with people the patient has authorized in writing, explains how to name someone, and says what staff can do without that permission. It sets expectations before an anxious phone call, without sharing anything about any patient.",
     author: "Liam Costello",
     publishDate: "2026-10-16T10:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("What families call to ask"),
@@ -472,7 +472,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Connect it to the rest of the site"),
       p(
-        "Link the page from the contact page, the new-patient forms page and the portal login page. Our guides on [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) and the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) show how to place those links safely. Referral paperwork raises the same consent questions, and a [behavioral health referral page](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) for a primary care practice shows how to explain what is shared and with whom."
+        "Link the page from the contact page, the new-patient forms page and the portal login page. Our guides on [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) and the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) show how to place those links safely. Referral paperwork raises the same consent questions, and a [behavioral health referral page](/guides/behavioral-health-referral-page-for-a-primary-care-practice-without-clinical-claims) for a primary care practice shows how to explain what is shared and with whom. For adults who attend a client's counseling session, a [support person in session policy page for a counseling practice](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims) explains consent and privacy."
       ),
       p(
         "Train the front desk to use the same words as the page. Consistency matters more than detail, and a staff member who can say it is our policy to speak only with people the patient has named, and here is how to be added, protects both the patient and the office. This page is general information, and counsel or a compliance officer should review the final text. Family members who arrange care often start on the website, so see how to lay it out for them in our guide to a [senior-friendly website layout for a primary care practice](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access). When a parent brings a teenager to the visit, the [adolescent visit and parent presence page](/guides/adolescent-visit-and-parent-presence-page-for-a-family-medicine-practice-without-legal-advice) shows how to explain time in the room and what the office shares with a parent."
@@ -698,7 +698,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A parenting and family therapy page should explain who comes to sessions, how consent works when a child is involved, how often the family meets and how scheduling works. It should describe the counselor's approach in plain words, avoid promises about behavior or family outcomes, and say clearly what the practice does not do, such as custody evaluations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T11:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 7,
     sections: [
       h2("Parents search with a particular question"),
@@ -735,7 +735,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Practical details that reduce drop-off"),
       p(
-        "Families have to coordinate schedules, so list the hours the counselor sees families, how to change an appointment and how the cancellation policy works. Our guides on [cancellation and no-show policy pages](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) and on a [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) show how to word them kindly."
+        "Families have to coordinate schedules, so list the hours the counselor sees families, how to change an appointment and how the cancellation policy works. Our guides on [cancellation and no-show policy pages](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) and on a [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) show how to word them kindly. Parents also ask whether a child can wait in the lobby during their own session, which a [children in the waiting room policy page for a counseling practice](/guides/children-in-the-waiting-room-policy-page-for-a-counseling-practice) answers."
       ),
       p(
         "Include fees, insurance in plain terms and a crisis line, as covered in the guide on [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). End with a single way to begin, such as a call or a short contact form that does not ask for details about anyone's struggles. Families with an LGBTQ+ teen or parent look for specific signs of welcome, and a clear [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) is a better answer than a generic line about everyone being welcome."
@@ -1150,7 +1150,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A good faith estimate page tells self-pay and uninsured clients that they have the right to receive an estimate of expected charges before care, explains how to ask for one and when the practice provides it, and links to the federal notice. It gives general information and must be checked by a compliance adviser before publishing.",
     author: "Liam Costello",
     publishDate: "2026-10-16T13:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("What the rule asks of a practice"),
@@ -1180,7 +1180,7 @@ export const guidesPartTwentyThree: Guide[] = [
         ["Cancellation page", "What happens when a session is missed or moved."]
       ),
       p(
-        "Our guides on [therapy practice fees, sliding scale and superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained), [insurance verification and benefits checks](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) and [self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) describe how the pieces fit."
+        "Our guides on [therapy practice fees, sliding scale and superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained), [insurance verification and benefits checks](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) and [self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) describe how the pieces fit. If the practice raises its fee, the estimate and the public page both need to match, and a [fee change notice letter for a counseling practice](/guides/fee-change-notice-letter-for-a-counseling-practice-without-legal-advice) covers how to tell current clients first."
       ),
       h3("Do not publish the estimate itself"),
       p(

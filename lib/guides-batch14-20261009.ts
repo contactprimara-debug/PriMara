@@ -15,7 +15,7 @@ export const guidesPartSeventeen: Guide[] = [
   "answer": "A therapy fees page should state each session fee and length, say plainly whether you take insurance or are out of network, explain whether you give superbills clients can submit to their own plan, and describe any sliding scale honestly. Avoid promising reimbursement or outcomes, and update the page whenever rates change.",
   "author": "Liam Costello",
   "publishDate": "2026-10-09T13:00:00Z",
-  "dateModified": "2026-10-26",
+  "dateModified": "2026-10-28",
   "readMinutes": 6,
   "sections": [
     {
@@ -135,7 +135,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If you also publish prices for other services, the same accuracy rules apply. Our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to keep numbers consistent. For the wider plan, see our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook). Place a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) next to the fee table, since late-cancellation charges are part of what a client will pay. Group sessions usually carry a different fee from individual ones, so state it on the group page, as described in our [group therapy page for a counseling practice without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims). Clients should also know what happens to their account and file when care ends, which our guide to a [client discharge and termination policy page for a counseling practice](/guides/client-discharge-and-termination-policy-page-for-a-counseling-practice-without-clinical-claims) explains."
+      "text": "If you also publish prices for other services, the same accuracy rules apply. Our guide on [publishing self-pay prices on a medical practice website](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) explains how to keep numbers consistent. For the wider plan, see our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook). Place a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) next to the fee table, since late-cancellation charges are part of what a client will pay. Group sessions usually carry a different fee from individual ones, so state it on the group page, as described in our [group therapy page for a counseling practice without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims). Clients should also know what happens to their account and file when care ends, which our guide to a [client discharge and termination policy page for a counseling practice](/guides/client-discharge-and-termination-policy-page-for-a-counseling-practice-without-clinical-claims) explains. When your fees change, tell current clients before the new price appears, using the wording in a [fee change notice letter for a counseling practice](/guides/fee-change-notice-letter-for-a-counseling-practice-without-legal-advice)."
     },
     {
       "type": "callout",

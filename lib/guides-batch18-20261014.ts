@@ -630,7 +630,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
@@ -672,7 +672,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["After forms are done", "A quiet thank-you that confirms receipt, with no detail about contents."]
       ),
       p(
-        "If a client has not finished the forms by the evening before, a call is kinder than a third email. Some people struggle with the questions and need a chance to say so."
+        "If a client has not finished the forms by the evening before, a call is kinder than a third email. Some people struggle with the questions and need a chance to say so. Former clients usually need the same forms again, so the email to them can link a [returning to counseling after a break page](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) that explains what repeats."
       ),
       h2("Keep the language gentle and plain"),
       p(
@@ -1035,7 +1035,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
@@ -1066,7 +1066,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Door sign", "Post a printed copy with the phone number and the reopening date."]
       ),
       p(
-        "Special hours on a Google listing are different from changing the regular hours. They apply only to the dates you choose and revert on their own, which is exactly what you want. Our guide on [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) explains how to set them and how to mark a temporary closure. A permanent closure needs a different notice than a holiday break, and our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains what to publish and update."
+        "Special hours on a Google listing are different from changing the regular hours. They apply only to the dates you choose and revert on their own, which is exactly what you want. Our guide on [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) explains how to set them and how to mark a temporary closure. A permanent closure needs a different notice than a holiday break, and our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains what to publish and update. After a holiday closure ends, a [new year availability announcement](/guides/new-year-availability-announcement-for-a-counseling-practice) can tell people when the office reopens to new clients and how to book."
       ),
       h3("Remember the voicemail and the answering service"),
       p(
@@ -1139,7 +1139,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
@@ -1147,7 +1147,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Clients who choose video visits are asking for convenience, and the practice owes them two things in return. The first is a clear explanation of what telehealth involves and a way to agree to it. The second is a quick way to confirm the technology will work, so the first ten minutes of a session are not spent hunting for a microphone. New and expecting parents search in short windows, so [a perinatal and postpartum counseling page without clinical claims](/guides/perinatal-and-postpartum-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to put the practical answers first. The same structure carries over to medical offices, which can adapt it into a [virtual visits page for a primary care practice](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video) with their own consent and eligibility wording. Working professionals often choose video visits from a private space, so link this page from your [workplace stress counseling page for working professionals](/guides/workplace-stress-counseling-page-for-working-professionals-without-clinical-claims) with the times you offer."
       ),
       p(
-        "Our guide to a [telehealth visit instructions page for a therapy practice](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) covers the step-by-step joining instructions. This page deals with the earlier question: has the client agreed, and is their setup ready. Families searching for parent support need to know who attends sessions, which [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) explains in plain language."
+        "Our guide to a [telehealth visit instructions page for a therapy practice](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) covers the step-by-step joining instructions. This page deals with the earlier question: has the client agreed, and is their setup ready. Families searching for parent support need to know who attends sessions, which [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) explains in plain language. A practice that sees clients only by video also needs a listing that does not pretend to have an office, and the guide to a [telehealth only Google Business Profile](/guides/google-business-profile-for-a-telehealth-only-counseling-practice-without-a-storefront) explains how to set that up honestly."
       ),
       h2("What the consent section should explain"),
       p(
@@ -1239,7 +1239,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A couples counseling page should explain how sessions work, who attends, how long they run, how to book, what they cost and how the first call goes. It should not promise a stronger relationship, name problems it will fix or tell couples what is wrong. Describe the format and invite one conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("Couples search with a different kind of nervousness"),
@@ -1278,7 +1278,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Be honest about privacy and the first call"),
       p(
-        "Partners often worry about what the clinician will share with the other person. Your policy on this belongs in the clinician's own words, and the page can say that the practice will explain how it handles information at the first contact. Do not paraphrase a legal rule if you are unsure. A calm explanation of privacy and its limits, as in our guide to a [confidentiality page for a counseling practice](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice), can sit on its own page linked from here."
+        "Partners often worry about what the clinician will share with the other person. Your policy on this belongs in the clinician's own words, and the page can say that the practice will explain how it handles information at the first contact. Do not paraphrase a legal rule if you are unsure. A calm explanation of privacy and its limits, as in our guide to a [confidentiality page for a counseling practice](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice), can sit on its own page linked from here. A friend or relative who joins one partner's own session is a different case, covered by a [support person in session policy page for a counseling practice](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims)."
       ),
       p(
         "Mention that the form should not contain details about the relationship. Our guide on [writing a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) shows how to prepare visitors for the first call without asking for anything private."
@@ -1342,7 +1342,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a new provider with a bio page, a short website notice, a Google profile update and one patient message. State training and licensure exactly as verified, describe the visit experience rather than outcomes, and avoid comparisons with other clinicians. Add the provider to every listing on the same day.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T13:20:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-28",
     readMinutes: 7,
     sections: [
       h2("A new provider is a new reason for patients to come back"),
@@ -1393,7 +1393,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("That is all the announcement needs. It states a fact, gives a date, tells the reader how to act and invites questions. Resist adding a sentence about being excited about outcomes or the difference the provider will make in the community."),
       p("Adapt the wording to your own voice, and send it to the provider for approval before it goes anywhere public. A provider who has read the exact text will not be surprised when a patient mentions it."),
       h3("Consistency and follow-up"),
-      p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement. The announcement should say which ages the new clinician sees, a point explained in our [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice) for a primary care practice. If the new provider also teaches or hosts trainees, our guide to a [student and trainee observer notice page](/guides/medical-student-and-trainee-observer-notice-page-for-a-primary-care-practice) explains how to tell patients and let them say no."),
+      p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement. The announcement should say which ages the new clinician sees, a point explained in our [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice) for a primary care practice. If the new provider also teaches or hosts trainees, our guide to a [student and trainee observer notice page](/guides/medical-student-and-trainee-observer-notice-page-for-a-primary-care-practice) explains how to tell patients and let them say no. When another clinician covers for a provider who is away, the same plain announcement rules apply, and a [provider on leave notice page](/guides/provider-on-leave-notice-for-a-primary-care-practice-without-clinical-claims) explains what to tell patients about refills and visits."),
       p("After the first month, review the provider's page in Search Console. If it is getting impressions but few clicks, rewrite the title and the first paragraph in plainer words. If it is getting none, add a link from a page that is already indexed and busy, such as the team page, and give search engines a few weeks to find it."),
     ],
     faqs: [
@@ -1444,7 +1444,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A check-in page should explain how to arrive, where to enter, how to check in, what the front desk will ask for, how waiting works and what to do if the wait feels long. Keep it factual, avoid time promises you cannot keep, and never ask patients to describe their symptoms on the page.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-28",
     readMinutes: 6,
     sections: [
       h2("The first five minutes shape the whole visit"),
@@ -1491,7 +1491,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Involve the people who work the front desk"),
       p("The staff who greet patients know which questions come up every day. Ask them for the five most common ones and make sure the page answers each. Let them read the final draft and tell you where it does not match what really happens, since a page that describes an ideal check-in rather than the real one will disappoint on the first visit."),
-      p("Add a line about children, interpreters and patients who need extra time. Many families look for this information before they book, and a sentence that says how to ask for help can decide whether they come at all."),
+      p("Add a line about children, interpreters and patients who need extra time. Many families look for this information before they book, and a sentence that says how to ask for help can decide whether they come at all. Counseling offices face a sharper version of this question, and a [children in the waiting room policy page for a counseling practice](/guides/children-in-the-waiting-room-policy-page-for-a-counseling-practice) shows how to set the rule kindly."),
       p("If your practice uses a texting system to say when a room is ready, explain it in one sentence and mention that patients may opt out. Remember that the message should never include the reason for the visit."),
       h3("Pictures and extra help"),
       p("Photographs help if they are honest. A clear picture of the entrance from the parking lot, and another of the front desk, can save a patient from walking past the door. Add descriptive text for each image so the page works for patients who use screen readers, and avoid pictures that show other patients or visible paperwork."),

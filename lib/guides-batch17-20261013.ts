@@ -749,7 +749,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A care team page introduces the people a new patient will meet in order: front desk, medical assistants, nurses and clinicians. Use real names, roles and photos with permission, one plain sentence each, and credentials only if the person confirms them. Leave out outcomes, rankings and anything you cannot document.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T10:20:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-28",
     "readMinutes": 6,
     "sections": [
       {
@@ -813,7 +813,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The best team pages read like a friendly introduction. One sentence about what the person does, and optionally one about something they enjoy outside work, if they want it shared. Avoid superlatives such as the best in the area, avoid promises about wait times, and never write that anyone treats or cures a condition on a page about staff. If the practice has a care coordinator or patient navigator, give that role its own entry or page, as our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) describes."
+        "text": "The best team pages read like a friendly introduction. One sentence about what the person does, and optionally one about something they enjoy outside work, if they want it shared. Avoid superlatives such as the best in the area, avoid promises about wait times, and never write that anyone treats or cures a condition on a page about staff. If the practice has a care coordinator or patient navigator, give that role its own entry or page, as our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) describes. A short explanation of what each title means also helps visitors understand who they will meet, as shown in our [staff titles explained page for a primary care practice](/guides/staff-titles-explained-page-for-a-primary-care-practice-md-do-np-pa-and-ma)."
       },
       {
         "type": "p",
@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-28",
     "readMinutes": 6,
     "sections": [
       {
@@ -1194,7 +1194,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If your practice calls people back in the order they joined, say that, and say how soon after a cancellation you reach out. Avoid language such as spots open soon unless you know it is true. A single sentence that separates a waitlist from a general inquiry also helps: if someone just has a question, they can call or email, and joining the list is only for people who want to start when there is room. When someone reaches out while you are full, the contact form should say so and set a reply time, as described in our guide to a [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time)."
+        "text": "If your practice calls people back in the order they joined, say that, and say how soon after a cancellation you reach out. Avoid language such as spots open soon unless you know it is true. A single sentence that separates a waitlist from a general inquiry also helps: if someone just has a question, they can call or email, and joining the list is only for people who want to start when there is room. When someone reaches out while you are full, the contact form should say so and set a reply time, as described in our guide to a [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). Former clients who ask to return may join the same list, and a page about [returning to counseling after a long break](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) can say whether they are seen first."
       },
       {
         "type": "h2",
