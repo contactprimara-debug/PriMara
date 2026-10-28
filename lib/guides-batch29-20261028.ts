@@ -174,7 +174,7 @@ export const guidesPartThirtyTwo: Guide[] = [
     title: "Paper Forms and Phone Registration for Patients Without Internet",
     metaTitle: "Paper Forms and Phone Registration Page for Patients",
     metaDescription:
-      "How a primary care practice can offer paper forms and phone registration to patients without internet, and word the page so it is easy to find. (561) 291-2681.",
+      "How a primary care practice can offer paper forms and phone registration to patients without internet, and word the page clearly. Call (561) 291-2681.",
     answer:
       "A paper forms and phone registration page tells patients who cannot use the internet that they can register by calling the office, picking up forms at the front desk or receiving them by mail. It names the phone number, the hours and what to bring, and it never asks for personal details on the page.",
     author: "Gio LaRoche",
