@@ -932,12 +932,12 @@ export const guidesPartTwentyOne: Guide[] = [
       "When a medical practice moves, change the address everywhere on the same day the new office opens: Google Business Profile, the website and its schema, insurance directories, the NPI record, Apple and Bing, health directories, reminders and signage. Keep the old address visible for a while, and re-check search results weekly until every listing agrees.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-29",
     readMinutes: 7,
     sections: [
       h2("A move quietly breaks your local search results"),
       p(
-        "Patients find a practice through a mix of maps, directories, insurer lists and old links. When the office moves, each of those sources updates at a different speed, and for a few weeks the internet will tell some patients to go to the wrong building. Every one of those patients is a missed appointment or an irritated review."
+        "Patients find a practice through a mix of maps, directories, insurer lists and old links. When the office moves, each of those sources updates at a different speed, and for a few weeks the internet will tell some patients to go to the wrong building. Every one of those patients is a missed appointment or an irritated review. Clients need the same information in plain words, so publish an [office move notice for a counseling practice within the same city](/guides/office-move-within-the-same-city-notice-for-a-counseling-practice) with the new address, the first day at the new office and who to call."
       ),
       p(
         "The way to limit the damage is a checklist with an owner and a date for every line. Do not leave it to whoever has a spare hour after the movers leave."

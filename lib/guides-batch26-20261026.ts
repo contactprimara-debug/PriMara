@@ -1294,12 +1294,12 @@ export const guidesPartTwentyNine: Guide[] = [
       "A care coordinator page explains that one named person helps patients keep track of referrals, tests, paperwork and follow up between visits. It says how to reach them, what they handle, what they cannot do, such as give medical advice, and how health details are shared safely.",
     author: "Liam Costello",
     publishDate: "2026-10-26T17:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("What a care coordinator is for"),
       p(
-        "Patients see a primary care clinician for a short visit and then walk into a maze of referrals, test centers and phone calls. A care coordinator, sometimes called a patient navigator, is the person who helps them find their way. The Agency for Healthcare Research and Quality describes [care coordination](https://www.ahrq.gov/ncepcr/care/coordination.html) as organizing care activities so that the right information gets to the right people at the right time."
+        "Patients see a primary care clinician for a short visit and then walk into a maze of referrals, test centers and phone calls. A care coordinator, sometimes called a patient navigator, is the person who helps them find their way. The Agency for Healthcare Research and Quality describes [care coordination](https://www.ahrq.gov/ncepcr/care/coordination.html) as organizing care activities so that the right information gets to the right people at the right time. For Medicare patients, a coordinator's work may be part of a program that deserves its own page, as our guide to [chronic care management on a primary care website](/guides/chronic-care-management-program-explained-on-a-primary-care-practice-website) explains."
       ),
       p(
         "Even a small practice may have someone who does this work. Naming the role on the website makes it real for patients and gives them a place to start."

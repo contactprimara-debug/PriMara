@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-28",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -258,7 +258,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you bill insurance, the plan generally pays for sessions that took place, so a late-cancellation fee is typically the client's responsibility rather than the plan's. Check your payer contracts before you publish, and say plainly on the page that insurance may not cover it. If you take self-pay clients, the federal good faith estimate rules for uninsured and self-pay patients are a useful reminder to give costs in writing before care begins. Our guide on a [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) covers how to present rates alongside this policy. A cancellation rule makes more sense when the page also states the usual session length and frequency, as set out in our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results)."
+        "text": "If you bill insurance, the plan generally pays for sessions that took place, so a late-cancellation fee is typically the client's responsibility rather than the plan's. Check your payer contracts before you publish, and say plainly on the page that insurance may not cover it. If you take self-pay clients, the federal good faith estimate rules for uninsured and self-pay patients are a useful reminder to give costs in writing before care begins. Our guide on a [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) covers how to present rates alongside this policy. A cancellation rule makes more sense when the page also states the usual session length and frequency, as set out in our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results). Late-cancel charges often turn into balances that need a reminder, so write that message ahead of time using our guide to [balance due and statement reminder wording for a counseling practice](/guides/balance-due-and-statement-reminder-wording-for-a-counseling-practice-without-legal-advice)."
       },
       {
         "type": "table",
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -438,7 +438,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many patients, especially older adults, hear the phrase annual wellness visit from their insurance plan or a neighbor, then search for it with the name of a nearby practice. A page that answers the question directly can be the first thing they read about your office. It is also one of the more useful pages a primary care practice can publish, because confusion about what the visit includes is common. A short, factual [immunization and vaccine availability page](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) works well beside the wellness visit page, because both avoid clinical claims and answer practical questions. A visit after a hospital stay is a separate booking, and our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims) shows how to explain it."
+        "text": "Many patients, especially older adults, hear the phrase annual wellness visit from their insurance plan or a neighbor, then search for it with the name of a nearby practice. A page that answers the question directly can be the first thing they read about your office. It is also one of the more useful pages a primary care practice can publish, because confusion about what the visit includes is common. A short, factual [immunization and vaccine availability page](/guides/immunization-and-vaccine-availability-page-for-a-primary-care-practice-without-clinical-claims) works well beside the wellness visit page, because both avoid clinical claims and answer practical questions. A visit after a hospital stay is a separate booking, and our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims) shows how to explain it. Medicare patients may also ask what a monthly coordination program involves, and our guide to [explaining chronic care management on a primary care website](/guides/chronic-care-management-program-explained-on-a-primary-care-practice-website) answers that in plain words."
       },
       {
         "type": "p",

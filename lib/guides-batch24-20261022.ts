@@ -367,7 +367,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A first-time client form for a counseling practice should feel safe to fill in. Ask for a first name, a phone or email the person has marked as private, and a preferred contact time. Skip the story of why they are reaching out. Add a short privacy notice, a crisis line and an honest reply time.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("A different kind of form"),
@@ -401,7 +401,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h2("Set a response time you can keep"),
       p(
-        "People who reach out to a counselor often feel it takes courage. Waiting days for a reply can feel like a rejection. Choose a time you can meet, such as one business day, say it above the button, and put a person in charge of checking the inbox."
+        "People who reach out to a counselor often feel it takes courage. Waiting days for a reply can feel like a rejection. Choose a time you can meet, such as one business day, say it above the button, and put a person in charge of checking the inbox. After the form is sent, an automatic reply should confirm receipt and state the reply time, as our guide to an [auto reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) explains."
       ),
       table(
         ["If your practice", "A reasonable promise"],

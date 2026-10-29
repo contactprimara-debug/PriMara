@@ -1229,7 +1229,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A therapy practice homepage should tell a nervous first-time visitor who the clinicians are, who they see, what a first contact looks like, what it costs, and how privacy works. It should use calm, plain words, one clear way to reach out, and no promises about outcomes or lists of diagnoses.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("The visitor is deciding whether it is safe to call"),
@@ -1266,7 +1266,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Link out to the pages that carry detail"),
       p(
-        "The homepage should be short, and the detail should live on pages built for it: a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), a [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) and a [telehealth instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice). Each link should sit in a sentence that tells the reader what they will find."
+        "The homepage should be short, and the detail should live on pages built for it: a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), a [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) and a [telehealth instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice). Each link should sit in a sentence that tells the reader what they will find. Choose the wording of the main button to match what happens after the click, using our guide to [call to action button wording on a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) as a reference."
       ),
       h3("Keep it accessible"),
       p(
@@ -1421,7 +1421,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A service animal and accommodation page should state that service dogs are welcome, say what staff may ask, explain how to request an interpreter, a wheelchair-accessible room or extra time, and give a phone number and email for requests. It should never ask patients to describe their disability or condition on the page or in a form.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Make the request easy before the visit"),
@@ -1468,7 +1468,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Website accessibility is part of the answer"),
       p(
-        "A patient who cannot use the site cannot ask for help. Make sure the page itself works with a screen reader, has text that can be enlarged, and that the form can be completed by keyboard. The guidance on [web accessibility for medical practices](/guides/ada-web-accessibility-for-a-medical-practice-website) lists the basics. A matching [website accessibility statement that explains how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) lets patients ask for help with the site as easily as with the building. Patients who ask for an accommodation may also ask about a chaperone or a support person, and our [chaperone policy page](/guides/chaperone-policy-page-for-a-primary-care-practice) guide shows how to answer in advance. Requests for communication support belong beside requests for other accommodations, so link to a [deaf and hard of hearing patient access page for a primary care practice](/guides/deaf-and-hard-of-hearing-patient-access-page-for-a-primary-care-practice-without-clinical-advice) that lists the relay, text and interpreter routes."
+        "A patient who cannot use the site cannot ask for help. Make sure the page itself works with a screen reader, has text that can be enlarged, and that the form can be completed by keyboard. The guidance on [web accessibility for medical practices](/guides/ada-web-accessibility-for-a-medical-practice-website) lists the basics. A matching [website accessibility statement that explains how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) lets patients ask for help with the site as easily as with the building. Patients who ask for an accommodation may also ask about a chaperone or a support person, and our [chaperone policy page](/guides/chaperone-policy-page-for-a-primary-care-practice) guide shows how to answer in advance. Requests for communication support belong beside requests for other accommodations, so link to a [deaf and hard of hearing patient access page for a primary care practice](/guides/deaf-and-hard-of-hearing-patient-access-page-for-a-primary-care-practice-without-clinical-advice) that lists the relay, text and interpreter routes. If the practice also has an office animal, explain that separately, as our guide to a [therapy animal in the office notice page](/guides/therapy-animal-in-the-office-notice-page-for-a-counseling-practice-with-allergy-and-consent-wording) describes, so it is never confused with a service animal that a client brings."
       ),
     ],
     faqs: [

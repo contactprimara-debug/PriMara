@@ -144,7 +144,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A college student counseling page should tell a student and a parent who the practice sees, how scheduling works around classes and breaks, what it costs, and how privacy works for an adult child, without promising outcomes or describing treatment. Keep it short, practical and honest about what the office can and cannot do.",
     author: "Liam Costello",
     publishDate: "2026-10-19T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Who is actually reading this page"),
@@ -168,7 +168,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Handling the parent question honestly"),
       p(
-        "Parents will ask whether they can call to check in. For an adult student, the answer is that the practice can talk with a parent about scheduling or billing only if the student has agreed in writing, and cannot confirm whether the student is a client at all without that permission. Say this once, in plain words, near the bottom of the page."
+        "Parents will ask whether they can call to check in. For an adult student, the answer is that the practice can talk with a parent about scheduling or billing only if the student has agreed in writing, and cannot confirm whether the student is a client at all without that permission. Say this once, in plain words, near the bottom of the page. Students on a parent's plan often wonder who sees insurance statements, so link to an [insurance statements and billing privacy page](/guides/insurance-statements-and-billing-privacy-page-for-a-counseling-practice-what-the-policyholder-may-see) that explains the options without promising secrecy."
       ),
       table(
         ["Parent asks", "A safe answer for the page"],
@@ -720,12 +720,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "A community resources page for a counseling practice lists trusted outside services such as crisis lines, support groups and social services, states plainly that the practice does not run or endorse them, and keeps the list short and current. Put the crisis numbers first and review every link on a schedule.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Why this page earns its place"),
       p(
-        "Not everyone who finds a counseling practice is ready for therapy, can afford it or needs it first. A short list of reliable outside resources helps those visitors, and it tells everyone else that the practice cares about the whole person rather than only the intake form. It also gives the site a useful page that other local organizations may choose to link to."
+        "Not everyone who finds a counseling practice is ready for therapy, can afford it or needs it first. A short list of reliable outside resources helps those visitors, and it tells everyone else that the practice cares about the whole person rather than only the intake form. It also gives the site a useful page that other local organizations may choose to link to. A resources page also gives the practice something useful to share during Mental Health Awareness Month, as our [content plan for awareness month and World Mental Health Day](/guides/mental-health-awareness-month-and-world-mental-health-day-content-for-a-counseling-practice) suggests."
       ),
       p(
         "The page is a service to the reader, not an advertisement. Treat it like a reference sheet that a careful colleague would hand to a client."

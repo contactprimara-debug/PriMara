@@ -778,7 +778,7 @@ export const guidesPartThirtyOne: Guide[] = [
       "A children in the waiting room policy tells clients whether a child may wait in the lobby, that the adult is responsible for supervision, whether staff can watch children, and what to do if childcare falls through. It states the rule plainly and offers video sessions as an alternative.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-29",
     readMinutes: 5,
     sections: [
       h2("A question that arrives at the front desk"),
@@ -798,7 +798,7 @@ export const guidesPartThirtyOne: Guide[] = [
       ),
       h2("Say who is responsible"),
       p(
-        "The most important sentence on the page is about supervision. State that the staff are not able to supervise children, that an adult remains responsible for any child in the waiting room, and that the office is not a childcare service. This protects the practice and sets an expectation without blame. Ask your insurance carrier or attorney to review the exact wording."
+        "The most important sentence on the page is about supervision. State that the staff are not able to supervise children, that an adult remains responsible for any child in the waiting room, and that the office is not a childcare service. This protects the practice and sets an expectation without blame. Ask your insurance carrier or attorney to review the exact wording. Animals in the waiting room need similar advance notice, which our guide to a [therapy animal in the office notice page for a counseling practice](/guides/therapy-animal-in-the-office-notice-page-for-a-counseling-practice-with-allergy-and-consent-wording) covers, including how clients can opt out."
       ),
       p(
         "Confirm the practical details on site before you publish them: whether there is a place to sit, whether toys or screens are provided, and whether the lobby is shared with other offices. Do not describe features you have not checked. If you list something such as books or a play area, make sure it is available and clean."

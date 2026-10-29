@@ -1087,7 +1087,7 @@ export const guidesPartThirty: Guide[] = [
       "A social media policy page for a counseling practice tells clients that clinicians do not accept friend or follow requests, why, how the practice handles direct messages and reviews, and what to do instead. It protects privacy for both sides and includes crisis resources, without legal advice.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Clients will look for their therapist online"),
@@ -1111,7 +1111,7 @@ export const guidesPartThirty: Guide[] = [
         "Clients accept a boundary more easily when it is explained. Say that following or friending could reveal that a person is in therapy, that social media can blur the roles of clinician and client, and that private messages cannot be monitored all day. Avoid any hint that the client did something wrong by asking."
       ),
       p(
-        "The ACA and APA publish ethics codes that clinicians follow, including guidance on technology and social media. Link to the [ACA Code of Ethics](https://www.counseling.org/resources/ethics) or the relevant code for your profession, and ask your own board or association what it expects."
+        "The ACA and APA publish ethics codes that clinicians follow, including guidance on technology and social media. Link to the [ACA Code of Ethics](https://www.counseling.org/resources/ethics) or the relevant code for your profession, and ask your own board or association what it expects. Another boundary clients ask about is gifts, and a short [gift and thank you policy page for a counseling practice](/guides/gift-and-thank-you-policy-page-for-a-counseling-practice) explains the practice's approach in the same warm, plain tone."
       ),
       h2("Handle reviews with care"),
       ul(
@@ -1175,7 +1175,7 @@ export const guidesPartThirty: Guide[] = [
       "A session recording policy page tells clients whether they may record sessions, whether the practice ever records, what consent is required, how any recording is stored, and how to ask questions. It sets one clear rule for in-person and video sessions without giving legal advice.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Two different questions, one policy"),
@@ -1213,7 +1213,7 @@ export const guidesPartThirty: Guide[] = [
         "The intake packet should include a short version with a link to the full page. Our guide to the [confidentiality and its limits page](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice) covers how to explain privacy in general, and the [first session page guide](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) shows where policy links belong."
       ),
       p(
-        "Check the wording against the ethics code your clinicians follow, such as the [APA ethics code](https://www.apa.org/ethics/code), and ask your attorney to review it, especially if you serve clients in other states."
+        "Check the wording against the ethics code your clinicians follow, such as the [APA ethics code](https://www.apa.org/ethics/code), and ask your attorney to review it, especially if you serve clients in other states. Policies about boundaries read best as a set, so pair this page with a [gift and thank you policy page for a counseling practice](/guides/gift-and-thank-you-policy-page-for-a-counseling-practice) that explains how the office responds when a client offers a present."
       ),
       h3("Train clinicians to answer in one sentence"),
       p(

@@ -2163,7 +2163,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Post short, factual updates that help a patient decide: a new service, changed hours, a seasonal reminder, a new provider, or an answer to a common question. Add a real photo, keep the first line clear, link to a relevant page, and never include patient information, outcome claims or promotional offers that break Google's content policy.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-21",
+  "dateModified": "2026-10-29",
   "readMinutes": 6,
   "sections": [
     {
@@ -2172,7 +2172,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A post on your Business Profile is a short update that can appear on your listing in Search and Maps. Google's help page on creating and managing posts describes the types and how to publish them. For a practice, the purpose is practical: tell patients something current and useful, and keep the listing looking active and cared for. An upcoming community talk is a good subject for a profile post that links to a [health fair and community education event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice) with the date, place and cost."
+      "text": "A post on your Business Profile is a short update that can appear on your listing in Search and Maps. Google's help page on creating and managing posts describes the types and how to publish them. For a practice, the purpose is practical: tell patients something current and useful, and keep the listing looking active and cared for. An upcoming community talk is a good subject for a profile post that links to a [health fair and community education event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice) with the date, place and cost. Awareness dates are natural subjects for a post, and our guide to a [content plan around Mental Health Awareness Month and World Mental Health Day](/guides/mental-health-awareness-month-and-world-mental-health-day-content-for-a-counseling-practice) shows a small plan for a counseling practice."
     },
     {
       "type": "p",

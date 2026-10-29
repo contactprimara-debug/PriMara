@@ -1427,7 +1427,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Hospital and health system directories list clinicians who hold privileges, belong to a network or accept referrals. Ask the system's credentialing or provider relations office how listings are added, send exact details that match your profile, and check the listing every quarter, because these directories are rarely updated on their own.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-29",
     "readMinutes": 7,
     "sections": [
       {
@@ -1493,7 +1493,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The national provider registry, known as NPPES, holds a clinician's NPI record. Many directories pull from it, so a wrong address there can spread. Check it and update it if needed. Our guide on [keeping NAP consistent](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) explains what breaks consistency and how to fix it."
+        "text": "The national provider registry, known as NPPES, holds a clinician's NPI record. Many directories pull from it, so a wrong address there can spread. Check it and update it if needed. Our guide on [keeping NAP consistent](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) explains what breaks consistency and how to fix it. For a step-by-step routine covering NPPES, CAQH and insurer directories, see our guide to [NPI registry and insurance directory data accuracy](/guides/npi-registry-and-insurance-directory-data-accuracy-for-a-medical-practice)."
       },
       {
         "type": "h2",

@@ -835,7 +835,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "A Knowledge Panel is the information box Google shows for a person, organization, or topic it recognizes as a distinct entity. It is different from a Business Profile, which is the listing for a local place. A practice cannot buy a panel, but it can earn one and, once one exists, claim and suggest edits to it.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       {
@@ -848,7 +848,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The difference matters because the fixes differ. Wrong hours or a wrong phone number belong in your Business Profile. A wrong description or photo in a panel about a person or organization is handled through the panel's own feedback and claim process. Assistants and panels can disagree about the same practice, so our guide to [checking AI assistant answers](/guides/how-to-check-if-ai-assistants-mention-your-medical-practice) shows how to compare them."
+        "text": "The difference matters because the fixes differ. Wrong hours or a wrong phone number belong in your Business Profile. A wrong description or photo in a panel about a person or organization is handled through the panel's own feedback and claim process. Assistants and panels can disagree about the same practice, so our guide to [checking AI assistant answers](/guides/how-to-check-if-ai-assistants-mention-your-medical-practice) shows how to compare them. When the panel or an assistant mixes your practice up with a similarly named office, our guide to [what to do when another practice has a similar name](/guides/when-another-practice-has-a-similar-name-keeping-patients-from-calling-the-wrong-office-for-a-medical-practice) lists the fixes to make on your own properties."
       },
       {
         "type": "h2",

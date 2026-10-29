@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-28",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -1194,7 +1194,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If your practice calls people back in the order they joined, say that, and say how soon after a cancellation you reach out. Avoid language such as spots open soon unless you know it is true. A single sentence that separates a waitlist from a general inquiry also helps: if someone just has a question, they can call or email, and joining the list is only for people who want to start when there is room. When someone reaches out while you are full, the contact form should say so and set a reply time, as described in our guide to a [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). Former clients who ask to return may join the same list, and a page about [returning to counseling after a long break](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) can say whether they are seen first."
+        "text": "If your practice calls people back in the order they joined, say that, and say how soon after a cancellation you reach out. Avoid language such as spots open soon unless you know it is true. A single sentence that separates a waitlist from a general inquiry also helps: if someone just has a question, they can call or email, and joining the list is only for people who want to start when there is room. When someone reaches out while you are full, the contact form should say so and set a reply time, as described in our guide to a [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). Former clients who ask to return may join the same list, and a page about [returning to counseling after a long break](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) can say whether they are seen first. People who join the list should also receive a short confirmation, and our guide to an [auto reply email after a new client inquiry for a counseling practice](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) shows what to say."
       },
       {
         "type": "h2",
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -1389,7 +1389,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Treat the booking button as a conversion and count clicks and completed requests, never the content of the form. The setup is the same one we describe in our guide on [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing). Link the consultation page from your first session page, your contact page and your fees page, and mention it in your Google Business Profile description if it is a regular offer. The form that books the call deserves the same care, so see our guide to a [first-time client contact form for a counseling practice](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) for the fields and the privacy notice."
+        "text": "Treat the booking button as a conversion and count clicks and completed requests, never the content of the form. The setup is the same one we describe in our guide on [attributing new patients to marketing at intake](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing). Link the consultation page from your first session page, your contact page and your fees page, and mention it in your Google Business Profile description if it is a regular offer. The form that books the call deserves the same care, so see our guide to a [first-time client contact form for a counseling practice](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) for the fields and the privacy notice. The wording of the button that leads to the call should match what happens next, as our guide to [call to action button wording for a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) explains."
       },
       {
         "type": "p",
@@ -1643,7 +1643,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An insurance verification page explains which plans the practice takes, what the office checks before a first session, what clients should ask their own plan, and that a benefits check is an estimate, not a guarantee. Collect no health details, and link to your fees and out-of-network pages.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T12:20:00Z",
-    "dateModified": "2026-10-13",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -1715,7 +1715,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Never say that insurance will cover sessions, only that the office will check and report what the plan says. Add one line on the page: a benefits check is based on information from the plan on the day we check and is not a guarantee of payment. The federal No Surprises Act also gives clients with no insurance or who choose not to use it a right to a good faith estimate of costs, which your fees page should address."
+        "text": "Never say that insurance will cover sessions, only that the office will check and report what the plan says. Add one line on the page: a benefits check is based on information from the plan on the day we check and is not a guarantee of payment. The federal No Surprises Act also gives clients with no insurance or who choose not to use it a right to a good faith estimate of costs, which your fees page should address. If a carrier-specific page is on your site, it should point to this benefits check page, and our guide to [insurance carrier pages for a counseling practice](/guides/insurance-carrier-specific-pages-for-a-counseling-practice-accuracy-and-wording) covers how to word it accurately."
       },
       {
         "type": "h3",
@@ -1996,7 +1996,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A billing questions page tells patients how to read a statement, the ways they can pay, who to call about a charge, how payment plans work and what to bring to a conversation. Use plain words, never take card numbers by email or form, and avoid promises about what insurance will pay.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T13:20:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -2067,7 +2067,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Say clearly that the amount a patient owes depends on the plan and on the date the insurer processed the claim. Never say insurance will pay. A good billing page explains the sequence: the office sends the claim, the plan responds, and the patient receives a statement for the balance. Patients who have no insurance, or who choose not to use it, have a right under the No Surprises Act to ask for a good faith estimate, which your page can mention with a link to the federal overview."
+        "text": "Say clearly that the amount a patient owes depends on the plan and on the date the insurer processed the claim. Never say insurance will pay. A good billing page explains the sequence: the office sends the claim, the plan responds, and the patient receives a statement for the balance. Patients who have no insurance, or who choose not to use it, have a right under the No Surprises Act to ask for a good faith estimate, which your page can mention with a link to the federal overview. When a statement goes unpaid, the reminder should stay calm and private, and our guide to [balance due and statement reminder wording for a counseling practice](/guides/balance-due-and-statement-reminder-wording-for-a-counseling-practice-without-legal-advice) offers a structure that adapts well to a medical office."
       },
       {
         "type": "h3",
@@ -2191,7 +2191,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A teen therapy page for parents explains who the practice sees, how consent works, how confidentiality is handled in plain terms, how parents are involved, scheduling and fees. It avoids clinical claims, outcomes and diagnostic lists. Have your attorney or licensing board confirm the consent and confidentiality wording before it goes live.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:40:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -2239,7 +2239,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Parents want to know they will not be shut out. Teens want to know their words will not be repeated lightly. A single honest paragraph can say both: the clinician works with the teen and the family, shares what is needed for safety and for care, and explains the limits before the work begins. The general promise of privacy and its limits can be explained for every client on a separate [confidentiality and its limits page for a counseling practice](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice). A medical office that sees the same teenager can take the same plain approach, as shown in our guide to an [adolescent visit and parent presence page](/guides/adolescent-visit-and-parent-presence-page-for-a-family-medicine-practice-without-legal-advice) for a family medicine practice."
+        "text": "Parents want to know they will not be shut out. Teens want to know their words will not be repeated lightly. A single honest paragraph can say both: the clinician works with the teen and the family, shares what is needed for safety and for care, and explains the limits before the work begins. The general promise of privacy and its limits can be explained for every client on a separate [confidentiality and its limits page for a counseling practice](/guides/confidentiality-and-its-limits-page-for-a-counseling-practice-without-legal-advice). A medical office that sees the same teenager can take the same plain approach, as shown in our guide to an [adolescent visit and parent presence page](/guides/adolescent-visit-and-parent-presence-page-for-a-family-medicine-practice-without-legal-advice) for a family medicine practice. Parents and teens also ask who sees insurance statements, so link to a [billing privacy page that explains what the policyholder may see](/guides/insurance-statements-and-billing-privacy-page-for-a-counseling-practice-what-the-policyholder-may-see) and keep its wording careful."
       },
       {
         "type": "h2",

@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -179,7 +179,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["Thank-you and confirmation pages", "A line saying where to call if the visit needs to change."]
       ),
       p(
-        "Do not put four buttons in the first screen. One clear button plus the number in the header is enough, and a crowded top of page pushes the actual answer below the fold."
+        "Do not put four buttons in the first screen. One clear button plus the number in the header is enough, and a crowded top of page pushes the actual answer below the fold. The words on the button matter as much as its position, and our guide to [call to action button wording for a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) compares the book, request and call options."
       ),
       h3("Size and spacing"),
       p(
@@ -730,7 +730,7 @@ export const guidesPartTwentySix: Guide[] = [
       "To introduce a new clinician, confirm their license first, publish a bio page and update the practice listings, then tell current clients through a short note that explains who joined, what ages and topics they see and how to book. Never claim results, rankings or credentials the clinician does not hold.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("A new face is news, but not a promise"),
@@ -759,7 +759,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h2("The note to current clients"),
       p(
-        "Keep it to a few sentences. Say who is joining, what their role is, that nothing changes for existing clients, and who to contact with questions. If the new clinician is taking over part of a departing therapist's caseload, that is a different message, covered in our page on a [client transfer notice](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice)."
+        "Keep it to a few sentences. Say who is joining, what their role is, that nothing changes for existing clients, and who to contact with questions. If the new clinician is taking over part of a departing therapist's caseload, that is a different message, covered in our page on a [client transfer notice](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice). If the new clinician chooses to list pronouns, put them right after the name in the announcement, following the steps in our guide to [clinician pronouns and name display on a counseling website](/guides/clinician-pronouns-and-name-display-on-a-counseling-practice-website-without-clinical-claims)."
       ),
       table(
         ["Include", "Leave out"],
@@ -1320,7 +1320,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A good new patient phone script greets the caller by the practice name, asks only what is needed to book, such as name, phone, insurance and preferred times, explains what to bring and what happens next, and avoids asking about symptoms. Review it quarterly and keep a log of why calls do not end in a booking.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("The first call decides a lot"),
@@ -1354,7 +1354,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("The urgent caller"),
       p(
-        "Train everyone to recognize words that mean the caller needs emergency help, and to say the same short line every time: if this is an emergency, please hang up and dial 911. Post the line at every desk. Our page on [when to call the office versus 911](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) gives wording that matches what the website says. Front desk staff should know exactly which ages the practice accepts, and a published [ages seen and pediatric age range page](/guides/ages-seen-and-pediatric-age-range-page-for-a-family-medicine-practice) gives them the same answer to repeat."
+        "Train everyone to recognize words that mean the caller needs emergency help, and to say the same short line every time: if this is an emergency, please hang up and dial 911. Post the line at every desk. Our page on [when to call the office versus 911](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) gives wording that matches what the website says. Front desk staff should know exactly which ages the practice accepts, and a published [ages seen and pediatric age range page](/guides/ages-seen-and-pediatric-age-range-page-for-a-family-medicine-practice) gives them the same answer to repeat. Calls the front desk misses at busy moments deserve a follow-up, which our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) covers, including what to leave out of the text."
       ),
       h3("The caller who is not a fit"),
       p(

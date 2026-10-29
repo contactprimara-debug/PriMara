@@ -873,7 +873,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Verifying a Google Business Profile proves you are allowed to manage the listing. Google offers some mix of postcard, phone or text, email and video verification, and shows only the options available for your business. Use the exact address and phone you list publicly, and keep patients and records out of any video.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-10-29",
     "readMinutes": 6,
     "sections": [
       {
@@ -882,7 +882,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Until a profile is verified, you cannot fully manage it. You may be unable to reply to reviews, edit details, or have the listing appear for local searches. Verification is Google's check that the person asking for control really has a connection to the practice at the address shown. It is the first step in every listing, and it is separate from recovering a profile Google has suspended, which our guide on [fixing a suspended profile](/guides/fix-a-suspended-google-business-profile) covers. Changing a location after verification can trigger another check, which is covered in [fixing a wrong map pin or location on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile)."
+        "text": "Until a profile is verified, you cannot fully manage it. You may be unable to reply to reviews, edit details, or have the listing appear for local searches. Verification is Google's check that the person asking for control really has a connection to the practice at the address shown. It is the first step in every listing, and it is separate from recovering a profile Google has suspended, which our guide on [fixing a suspended profile](/guides/fix-a-suspended-google-business-profile) covers. Changing a location after verification can trigger another check, which is covered in [fixing a wrong map pin or location on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile). Once the profile is verified, a new practice can add an opening date, which our guide to an [opening date and coming soon page for a new counseling practice](/guides/opening-date-and-coming-soon-page-for-a-new-counseling-practice-on-google) describes along with the page to match."
       },
       {
         "type": "h2",

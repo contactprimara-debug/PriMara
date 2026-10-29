@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-29",
     "readMinutes": 7,
     "sections": [
       {
@@ -306,7 +306,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules."
+        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording."
       },
       {
         "type": "callout",
@@ -954,7 +954,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Sign in to your Google Business Profile, open the business information, and correct the address and the pin position so it sits on your actual entrance. Save, then watch for a review or re-verification request. If an edit does not appear, check for a suggested edit overriding it, or a duplicate listing.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-10-29",
     "readMinutes": 7,
     "sections": [
       {
@@ -1052,7 +1052,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google compares your profile with other sources. If your website, Apple Maps and directory listings still show the old address, the pin may drift back. Update the same details everywhere. The checklist in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows where to look. If a move leaves the pin in the wrong place, work through our [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) to be sure every listing points to the new door."
+        "text": "Google compares your profile with other sources. If your website, Apple Maps and directory listings still show the old address, the pin may drift back. Update the same details everywhere. The checklist in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows where to look. If a move leaves the pin in the wrong place, work through our [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) to be sure every listing points to the new door. Clients who still head to the old address are best helped by a clear [office move notice for a counseling practice within the same city](/guides/office-move-within-the-same-city-notice-for-a-counseling-practice) that stays on the website for a few weeks."
       },
       {
         "type": "callout",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-28",
+    "dateModified": "2026-10-29",
     "readMinutes": 7,
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well. Many first time clients also ask whether a friend or relative can come along, which a [support person in session policy page](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims) answers in a few sentences."
+        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well. Many first time clients also ask whether a friend or relative can come along, which a [support person in session policy page](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims) answers in a few sentences. If an animal is sometimes in the office, mention it here and link to a [therapy animal in the office notice page](/guides/therapy-animal-in-the-office-notice-page-for-a-counseling-practice-with-allergy-and-consent-wording) so clients with allergies or fears can plan ahead."
       },
       {
         "type": "h2",
@@ -1905,7 +1905,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Many patients Google a practice by name before they call. Search your name in several ways on a phone, record what appears, and fix what is wrong: the wrong phone number, an old address, a competitor ad, a missing profile or a stray directory page. The fixes are mostly ordinary profile and listing work.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-10-29",
     "readMinutes": 7,
     "sections": [
       {
@@ -1914,7 +1914,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A referral, a billboard or a doctor's recommendation often ends with the patient typing your name into Google. That search is the moment of truth. What they see decides whether they call, book online or move on. It is also the easiest search to win, because no one else should outrank you for your own name."
+        "text": "A referral, a billboard or a doctor's recommendation often ends with the patient typing your name into Google. That search is the moment of truth. What they see decides whether they call, book online or move on. It is also the easiest search to win, because no one else should outrank you for your own name. If another practice with a similar name shares those results, our guide to [keeping patients from calling the wrong office when another practice has a similar name](/guides/when-another-practice-has-a-similar-name-keeping-patients-from-calling-the-wrong-office-for-a-medical-practice) shows what to change."
       },
       {
         "type": "p",
@@ -2279,7 +2279,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice joins or leaves an insurance network, patients find out online first. Update your own insurance page first, then your Google profile, directory listings, scheduling tool and phone script on the effective date. Use plain wording and a date, and send existing patients a notice through your normal channels.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-29",
     "readMinutes": 7,
     "sections": [
       {
@@ -2363,7 +2363,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Existing patients who have a plan you are leaving need to hear it from you before they find it on a bill. Use the channels your compliance team approves, such as mail, a portal message or a posted notice. Keep the web version factual: which plan, from what date, and what patients can do next. Do not make comparisons or criticize the plan. A change of network often changes who your patients may be referred to, so update your [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) at the same time as your insurance pages. Seasonal plan changes create the same cleanup work on a smaller scale, which is why the [open enrollment season update for insurance pages and patient messages](/guides/open-enrollment-season-update-for-a-medical-practice-insurance-pages-and-patient-messages) belongs on the fall calendar."
+        "text": "Existing patients who have a plan you are leaving need to hear it from you before they find it on a bill. Use the channels your compliance team approves, such as mail, a portal message or a posted notice. Keep the web version factual: which plan, from what date, and what patients can do next. Do not make comparisons or criticize the plan. A change of network often changes who your patients may be referred to, so update your [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) at the same time as your insurance pages. Seasonal plan changes create the same cleanup work on a smaller scale, which is why the [open enrollment season update for insurance pages and patient messages](/guides/open-enrollment-season-update-for-a-medical-practice-insurance-pages-and-patient-messages) belongs on the fall calendar. Any page written for a single carrier, as described in our guide to [insurance carrier pages for a counseling practice](/guides/insurance-carrier-specific-pages-for-a-counseling-practice-accuracy-and-wording), must be updated or removed the day a contract ends."
       },
       {
         "type": "p",

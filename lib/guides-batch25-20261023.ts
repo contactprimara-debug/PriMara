@@ -433,7 +433,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A discharge policy page tells clients, before they start, how therapy can end: when they decide it is done, when the practice cannot be the right fit, or after a long gap. State the notice you give, the referrals you offer and how clients can return. Keep it calm and free of clinical claims.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Why publish how therapy ends"),
@@ -441,7 +441,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Most counseling websites explain how to begin and say little about how care ends. That gap causes misunderstandings. A client who stops coming wonders if they are still on the schedule. A clinician who sends a closing letter after eight weeks of silence can look abrupt. A short public page sets expectations early and gives the practice something clear to point to."
       ),
       p(
-        "Professional ethics codes, including the [ACA Code of Ethics](https://www.counseling.org/resources/ethics), address ending a professional relationship and avoiding abandonment. Use your own license board's rules and your attorney's advice to write the policy, then use the website page to explain it in everyday language."
+        "Professional ethics codes, including the [ACA Code of Ethics](https://www.counseling.org/resources/ethics), address ending a professional relationship and avoiding abandonment. Use your own license board's rules and your attorney's advice to write the policy, then use the website page to explain it in everyday language. Gifts and thank-you notes often appear when a client finishes counseling, so a short [gift and thank you policy page for a counseling practice](/guides/gift-and-thank-you-policy-page-for-a-counseling-practice) can set expectations before that moment arrives."
       ),
       h2("The ways therapy can end"),
       table(
@@ -989,7 +989,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A confidentiality page tells prospective clients that what they share is private, then states honestly the few situations where the law or safety requires a clinician to share information. Use plain words, link to the full signed agreement, and leave legal interpretation to an attorney and your license board.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Why people look for this before they call"),
@@ -1023,7 +1023,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Say how privacy works in the real world"),
       p(
-        "Clients also worry about everyday privacy: a waiting room, a text on a lock screen, a bill that arrives at a shared address. Explain what the practice does about each of these, such as how appointment reminders are worded and how sessions are held, and link to the practice's [portal and messaging page](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice) and [first-time contact form guide](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time)."
+        "Clients also worry about everyday privacy: a waiting room, a text on a lock screen, a bill that arrives at a shared address. Explain what the practice does about each of these, such as how appointment reminders are worded and how sessions are held, and link to the practice's [portal and messaging page](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice) and [first-time contact form guide](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). Billing is a place where privacy questions come up, and our guide to an [insurance statements and billing privacy page for a counseling practice](/guides/insurance-statements-and-billing-privacy-page-for-a-counseling-practice-what-the-policyholder-may-see) explains what the policyholder may see and what clients can ask for."
       ),
       h3("Teens and families"),
       p(

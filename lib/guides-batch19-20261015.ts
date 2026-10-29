@@ -272,12 +272,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A disclosure page should say plainly which clinicians are fully licensed and which are pre-licensed or registered interns working under supervision, name the supervisor, state what title each person may use, and explain fees. Use only the titles each board allows, and never imply that a trainee holds a license they have not earned.",
     author: "Liam Costello",
     publishDate: "2026-10-15T09:40:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Why clients need to be told, and where"),
       p(
-        "Many group practices see clients with a mix of licensed clinicians and pre-licensed ones who are completing supervised hours toward a license. Both are legitimate. What a client cannot do is choose well if they are not told which is which, and a website that blurs the difference creates a trust problem and, in some states, a compliance problem. Licensed clinicians' titles also need a plain explanation, as covered in our guide to [therapist credentials and license titles explained on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website)."
+        "Many group practices see clients with a mix of licensed clinicians and pre-licensed ones who are completing supervised hours toward a license. Both are legitimate. What a client cannot do is choose well if they are not told which is which, and a website that blurs the difference creates a trust problem and, in some states, a compliance problem. Licensed clinicians' titles also need a plain explanation, as covered in our guide to [therapist credentials and license titles explained on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website). The same page can show each clinician's name and pronouns exactly as they chose, using the approach in our guide to [clinician pronouns and name display on a counseling website](/guides/clinician-pronouns-and-name-display-on-a-counseling-practice-website-without-clinical-claims), so associates and licensed staff are presented consistently."
       ),
       p(
         "In Florida, for example, clinicians who have not yet reached full licensure in clinical social work, marriage and family therapy or mental health counseling practice as registered interns under a qualified supervisor. The state board that oversees those professions publishes its own rules, and your page should mirror them rather than paraphrase from memory. Counselors who serve veterans and military families can use [a respectful page for veterans and military families](/guides/veterans-and-military-families-page-for-a-counseling-practice-without-clinical-claims) to state their experience and coverage accurately."
@@ -369,7 +369,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Announce a new office with its own page that gives the address, opening date, hours, phone, parking and which services are offered there. Create the Google profile only once staffed hours exist, keep the original office's details unchanged, and link the two pages to each other so patients and search engines can tell them apart.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("The announcement is a page, not just a post"),
@@ -404,7 +404,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Schema, directories and consistency"),
       p(
-        "Add structured data for the new office with its own name, address and phone number, and keep the original office's data separate. If you run several offices, the playbook in our guide on [multi-location medical practice SEO](/guides/multi-location-medical-practice-seo-playbook) explains how to structure the pages and profiles so they do not compete. Then run through the same list we use for a move: [update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page), but add the new details rather than replacing the old ones. A second office justifies its own page, but a town without an office does not, and the guide to a [service area and neighborhoods section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) explains how to cover those places instead."
+        "Add structured data for the new office with its own name, address and phone number, and keep the original office's data separate. If you run several offices, the playbook in our guide on [multi-location medical practice SEO](/guides/multi-location-medical-practice-seo-playbook) explains how to structure the pages and profiles so they do not compete. Then run through the same list we use for a move: [update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page), but add the new details rather than replacing the old ones. A second office justifies its own page, but a town without an office does not, and the guide to a [service area and neighborhoods section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) explains how to cover those places instead. A relocation rather than a second office needs a different notice, which our guide to an [office move notice for a counseling practice within the same city](/guides/office-move-within-the-same-city-notice-for-a-counseling-practice) walks through."
       ),
       p(
         "Tell your front desk about the change before the public hears. Staff should be able to say the new address, the opening date and what is different, in one breath. Update the phone menu if callers need to choose an office, and read [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) before you change it."
@@ -657,12 +657,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A thank-you page should confirm the request arrived, say when the practice will respond, give the phone number for urgent needs and the 911 line for emergencies, and contain no health details. It is also the best place to count a lead, because the page only loads after a form is actually submitted.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("The page most practices forget to build"),
       p(
-        "When someone submits a contact form, many sites show a small green message and leave the visitor on the same page. That message is invisible to analytics, easy to miss and impossible to link to. A dedicated thank-you page fixes all three problems at once, and it takes less than an hour to build."
+        "When someone submits a contact form, many sites show a small green message and leave the visitor on the same page. That message is invisible to analytics, easy to miss and impossible to link to. A dedicated thank-you page fixes all three problems at once, and it takes less than an hour to build. The confirmation email that follows should say the same thing as the page, and our guide to an [auto reply email after a new client inquiry for a counseling practice](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) gives wording."
       ),
       p(
         "It also helps the visitor. A person who has just shared a phone number is slightly anxious. A calm page that says what happens next lowers that anxiety and cuts repeat submissions."
@@ -762,7 +762,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
@@ -800,7 +800,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Measure what the listing is worth"),
       p(
-        "A paid directory listing is a marketing expense, so treat it like one. Use a tagged link in the profile so analytics can separate directory visits from other traffic, and ask new clients how they found you. The method in [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) works for this. After six months, compare the cost of the listing with the consultations it produced, and decide whether to renew."
+        "A paid directory listing is a marketing expense, so treat it like one. Use a tagged link in the profile so analytics can separate directory visits from other traffic, and ask new clients how they found you. The method in [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) works for this. After six months, compare the cost of the listing with the consultations it produced, and decide whether to renew. Your NPI and insurer directory records should match the profile too, which our guide to [NPI registry and insurance directory data accuracy](/guides/npi-registry-and-insurance-directory-data-accuracy-for-a-medical-practice) explains how to check."
       ),
       p(
         "Review each profile twice a year and any time you change your fees, hours, address or availability. A profile that says accepting new clients when the caseload is full wastes the time of people who needed help."
@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-10-29",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1239,7 +1239,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Choosing a therapist is a personal decision, and the bio page is where most people make it. They are not scanning for keywords. They are asking quietly whether this person seems kind, competent and safe to talk to."
       ),
       p(
-        "That makes a therapist bio different from a physician's profile, which leans on training and specialty. A counseling bio has to carry warmth and clarity at the same time, and it must do so without crossing into promises that licensing boards and advertising rules do not allow. A strong bio is one of several proof points that replace client quotes, and our guide to [showing trust on a counseling website without testimonials](/guides/showing-trust-on-a-counseling-practice-website-without-client-testimonials) lists the rest."
+        "That makes a therapist bio different from a physician's profile, which leans on training and specialty. A counseling bio has to carry warmth and clarity at the same time, and it must do so without crossing into promises that licensing boards and advertising rules do not allow. A strong bio is one of several proof points that replace client quotes, and our guide to [showing trust on a counseling website without testimonials](/guides/showing-trust-on-a-counseling-practice-website-without-client-testimonials) lists the rest. Once the bio is written, show the clinician's name, pronouns and license title the same way on the page, the Google profile and every directory, as our guide to [clinician pronouns and name display on a counseling website](/guides/clinician-pronouns-and-name-display-on-a-counseling-practice-website-without-clinical-claims) explains."
       ),
       h2("Put the person first"),
       ul(
