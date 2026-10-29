@@ -104,7 +104,7 @@ export const metadata: Metadata = {
     siteName: "Primara",
     type: "website",
     locale: "en_US",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Primara — Digital Marketing for Independent Medical Practices" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Primara: More patients. Serving you first. Always getting better." }],
   },
   twitter: {
     card: "summary_large_image",

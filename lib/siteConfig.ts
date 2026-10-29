@@ -2,8 +2,9 @@
 // do not add geography fields here; city targeting lives in /locations data.
 export const siteConfig = {
   name: "Primara",
-  tagline: "Digital Marketing for Independent Medical Practices",
-  motto: "Matthew 6:33",
+  tagline: "More patients. Serving you first. Always getting better.",
+  motto: "More patients. Serving you first. Always getting better.",
+  why: "At Primara, we serve independent practices the right way. We put our clients' success before our own, and every day we get a little better at serving them.",
   phone: "+15612912681",
   phoneDisplay: "(561) 291-2681",
   email: "liam.costello@primara365.com",

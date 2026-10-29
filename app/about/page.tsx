@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { siteConfig } from "@/lib/siteConfig";
 import { toJsonLd, liamSchema, gioSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -51,6 +52,15 @@ export default function AboutPage() {
         </p>
 
         <div className="mt-12 max-w-2xl">
+          <h2 className="font-serif font-bold mb-4" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.5rem" }}>
+            Why We Do This
+          </h2>
+          <p className="leading-relaxed mb-4 text-lg" style={{ color: "var(--color-text)" }}>
+            {siteConfig.why}
+          </p>
+          <p className="mb-4 italic" style={{ color: "var(--color-text-muted)" }}>
+            {siteConfig.tagline}
+          </p>
           <h2 className="font-serif font-bold mb-4" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.5rem" }}>
             Why We Started Primara
           </h2>

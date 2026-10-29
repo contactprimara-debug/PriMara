@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Primara — Digital Marketing for Independent Medical Practices";
+export const alt = "Primara: More patients. Serving you first. Always getting better.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -50,7 +50,7 @@ export default async function OgImage() {
             textTransform: "uppercase",
           }}
         >
-          Digital Marketing for Independent Medical Practices
+          More patients. Serving you first. Always getting better.
         </div>
         <div
           style={{

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import HeroAnimation from "./HeroAnimation";
+import { siteConfig } from "@/lib/siteConfig";
 
 export default function Hero() {
   return (
@@ -22,7 +23,7 @@ export default function Hero() {
       {/* ── Hero section ─────────────────────────────────────────────────── */}
       <section
         className="hero"
-        aria-label="Primara365 — Digital Marketing for Independent Medical Practices"
+        aria-label="Primara365: More patients. Serving you first. Always getting better."
         style={{
           height: "100svh",
           minHeight: "600px",
@@ -65,7 +66,7 @@ export default function Hero() {
               margin: "0 0 clamp(16px, 2vw, 20px)",
             }}
           >
-            Matthew 6:33
+            {siteConfig.tagline}
           </p>
 
           {/* Eyebrow label */}
