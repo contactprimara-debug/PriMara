@@ -45,7 +45,7 @@ export default function RelatedLinks({
         </h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "16px" }}>
           {items.map(({ href, label, description }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{

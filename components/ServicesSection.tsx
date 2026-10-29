@@ -265,7 +265,7 @@ export default function ServicesSection() {
 
               {/* Col 4: explore link — magnetic + svc-explore (existing hover wiring) */}
               <div style={{ paddingTop: "4px", textAlign: "right" }}>
-                <Link
+                <Link prefetch={false}
                   href={svc.href}
                   className="magnetic svc-explore"
                   style={{

@@ -60,7 +60,7 @@ export default function BlogPage() {
           }}
         >
           <li>
-            <Link href="/" className="hover:underline">
+            <Link prefetch={false} href="/" className="hover:underline">
               Home
             </Link>
           </li>
@@ -161,7 +161,7 @@ export default function BlogPage() {
             }}
           >
             If you want to apply what you read here to your own practice, our{" "}
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{ color: "var(--gold)", textDecoration: "underline" }}
             >
@@ -224,7 +224,7 @@ export default function BlogPage() {
                     margin: 0,
                   }}
                 >
-                  <Link
+                  <Link prefetch={false}
                     href={`/blog/${post.slug}`}
                     style={{ color: "inherit", textDecoration: "none" }}
                     className="hover:underline"
@@ -248,7 +248,7 @@ export default function BlogPage() {
 
                 {/* CTA link */}
                 <div style={{ marginTop: "4px" }}>
-                  <Link
+                  <Link prefetch={false}
                     href={`/blog/${post.slug}`}
                     style={{
                       color: "var(--gold)",
@@ -315,7 +315,7 @@ export default function BlogPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

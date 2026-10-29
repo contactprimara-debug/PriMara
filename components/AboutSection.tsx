@@ -269,7 +269,7 @@ export default function AboutSection() {
 
             {/* 5. CTA — hover handled by .about-cta CSS (server component, no JS events) */}
             <div>
-              <Link
+              <Link prefetch={false}
                 href="/contact"
                 className="magnetic about-cta"
                 style={{

@@ -139,7 +139,7 @@ export default function Hero() {
               alignItems: "center",
             }}
           >
-            <Link
+            <Link prefetch={false}
               href="/contact#contact-form"
               className="magnetic"
               style={{
@@ -162,7 +162,7 @@ export default function Hero() {
               Get My Free GBP Audit →
             </Link>
 
-            <Link
+            <Link prefetch={false}
               href="/services"
               className="magnetic"
               style={{

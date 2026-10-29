@@ -41,7 +41,7 @@ export default function LocationDepth({
                   typeof part === "string" ? (
                     <span key={j}>{part}</span>
                   ) : (
-                    <Link key={j} href={part.href} style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                    <Link prefetch={false} key={j} href={part.href} style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                       {part.text}
                     </Link>
                   )

@@ -65,7 +65,7 @@ export default function GuidesHub() {
           className="flex items-center gap-2 flex-wrap"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Guides</li>
         </ol>
@@ -132,7 +132,7 @@ export default function GuidesHub() {
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: "12px" }}>
                   {inCategory.map((g) => (
                     <li key={g.slug}>
-                      <Link
+                      <Link prefetch={false}
                         href={`/guides/${g.slug}`}
                         style={{
                           display: "block",
@@ -193,7 +193,7 @@ export default function GuidesHub() {
             <p style={{ color: "var(--color-text-muted)", lineHeight: 1.7, margin: "0 0 1.25rem" }}>
               We audit your profile, your competitors, and your market, then tell you what it would take.
             </p>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               style={{
                 display: "inline-block",

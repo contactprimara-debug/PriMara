@@ -149,7 +149,7 @@ export default function ServicesPinSection() {
               </p>
 
               {/* CTA — magnetic pull wired by ScrollStorytelling.tsx */}
-              <Link
+              <Link prefetch={false}
                 href={svc.href}
                 className="svc-explore"
                 style={{

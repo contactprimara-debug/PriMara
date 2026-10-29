@@ -120,7 +120,7 @@ export default function Header() {
         }}
       >
         {/* Left — wordmark (magnetic pull wired by InteractionEffects) */}
-        <Link
+        <Link prefetch={false}
           href="/"
           aria-label="Primara365 — home"
           className="magnetic"
@@ -156,7 +156,7 @@ export default function Header() {
           className="hidden md:flex"
         >
           {/* Home */}
-          <Link
+          <Link prefetch={false}
             href="/"
             aria-current={pathname === "/" ? "page" : undefined}
             className="nav-link"
@@ -239,7 +239,7 @@ export default function Header() {
                 }}
               >
                 {WHO_WE_SERVE.map((item) => (
-                  <Link
+                  <Link prefetch={false}
                     key={item.href}
                     href={item.href}
                     onClick={() => setWhoWeServeOpen(false)}
@@ -266,7 +266,7 @@ export default function Header() {
           </div>
 
           {/* Locations link */}
-          <Link
+          <Link prefetch={false}
             href="/locations"
             aria-current={pathname === "/locations" || pathname.startsWith("/locations/") ? "page" : undefined}
             className="nav-link"
@@ -336,7 +336,7 @@ export default function Header() {
                 }}
               >
                 {RESOURCES.map((item) => (
-                  <Link
+                  <Link prefetch={false}
                     key={item.href}
                     href={item.href}
                     onClick={() => setResourcesOpen(false)}
@@ -416,7 +416,7 @@ export default function Header() {
                 }}
               >
                 {SERVICES.map((item) => (
-                  <Link
+                  <Link prefetch={false}
                     key={item.href}
                     href={item.href}
                     onClick={() => setServicesOpen(false)}
@@ -446,7 +446,7 @@ export default function Header() {
           {navLinks.filter((l) => l.href !== "/" && l.href !== "/services").map((link) => {
             const active = pathname === link.href;
             return (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 aria-current={active ? "page" : undefined}
@@ -493,7 +493,7 @@ export default function Header() {
             {siteConfig.phoneDisplay}
           </a>
 
-          <Link
+          <Link prefetch={false}
             href="/contact"
             className="magnetic"
             style={{
@@ -615,7 +615,7 @@ export default function Header() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, textAlign: "center", display: "flex", flexDirection: "column", gap: "clamp(14px, 2.5vh, 24px)" }}>
               {/* Home */}
               <li>
-                <Link
+                <Link prefetch={false}
                   href="/"
                   onClick={() => setMenuOpen(false)}
                   style={{
@@ -639,7 +639,7 @@ export default function Header() {
                 </p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                   {WHO_WE_SERVE.map((item) => (
-                    <Link
+                    <Link prefetch={false}
                       key={item.href}
                       href={item.href}
                       onClick={() => setMenuOpen(false)}
@@ -661,7 +661,7 @@ export default function Header() {
 
               {/* Locations */}
               <li>
-                <Link
+                <Link prefetch={false}
                   href="/locations"
                   onClick={() => setMenuOpen(false)}
                   style={{
@@ -685,7 +685,7 @@ export default function Header() {
                 </p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                   {RESOURCES.map((item) => (
-                    <Link
+                    <Link prefetch={false}
                       key={item.href}
                       href={item.href}
                       onClick={() => setMenuOpen(false)}
@@ -712,7 +712,7 @@ export default function Header() {
                 </p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                   {SERVICES.map((item) => (
-                    <Link
+                    <Link prefetch={false}
                       key={item.href}
                       href={item.href}
                       onClick={() => setMenuOpen(false)}
@@ -735,7 +735,7 @@ export default function Header() {
               {/* Remaining nav links */}
               {navLinks.filter((l) => l.href !== "/" && l.href !== "/services").map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <Link prefetch={false}
                     href={link.href}
                     onClick={() => setMenuOpen(false)}
                     style={{
@@ -756,7 +756,7 @@ export default function Header() {
           </nav>
 
           {/* CTA */}
-          <Link
+          <Link prefetch={false}
             href="/contact"
             onClick={() => setMenuOpen(false)}
             style={{

@@ -74,7 +74,7 @@ export default function WorkTeaser() {
             Real Practices We Work With.
           </h2>
         </div>
-        <Link
+        <Link prefetch={false}
           href="/work"
           style={{
             fontFamily: "system-ui, sans-serif",
@@ -179,7 +179,7 @@ export default function WorkTeaser() {
 
             {/* Footer links */}
             <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginTop: "8px" }}>
-              <Link
+              <Link prefetch={false}
                 href={p.href}
                 style={{
                   fontFamily: "system-ui, sans-serif",

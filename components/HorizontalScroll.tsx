@@ -208,7 +208,7 @@ export default function HorizontalScroll() {
 
           if (item.href) {
             return (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={item.href}
                 className="h-scroll-item h-scroll-card-link"
