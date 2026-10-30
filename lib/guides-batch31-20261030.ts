@@ -219,6 +219,10 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Doctors rotate lunch hours, add Saturday mornings and take staff trainings. Use special hours for one-off dates and edit the regular blocks only when the change is permanent. The pattern in our guide to [holiday and closure notices](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) works for single dates, and the monthly checklist catches drift before a patient does."
       ),
+      h2("Test it the way a patient would"),
+      p(
+        "Once the blocks are saved, check them from the outside. At 12:30 PM on a weekday, search for the practice name on a phone and read the status line under the listing. Then call the main number and listen to the greeting. If the profile says open while the recording says closed, one of the two is wrong, and fixing it takes about five minutes. Repeat the test after any staffing change, since that is when lunch hours quietly move, and write the date of the last check in your maintenance notes."
+      ),
     ],
     faqs: [
       {
@@ -297,6 +301,15 @@ export const guidesPartThirtyFour: Guide[] = [
       h2("Where the page should appear"),
       p(
         "Link it from the telehealth instructions, the booking confirmation and the intake email. Our guides on [telehealth visit instructions](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) and the [technology check page](/guides/telehealth-consent-and-technology-check-page-for-a-counseling-practice) show where it fits. A test link clients can open ahead of time cuts down on dropped sessions in the first place."
+      ),
+      h2("Test the plan before a client needs it"),
+      p(
+        "Run a practice session with a colleague once a quarter. Cut the connection on purpose, rejoin using the instructions on the page, and time how long it takes for the phone call to come. If the steps feel confusing to a staff member, they will feel worse to a client who is already unsettled."
+      ),
+      ul(
+        "Confirm the phone number on file is current for every active client at intake and again each year.",
+        "Check that the page still matches the platform you use after any software update.",
+        "Make sure the clinician knows the same rule the page states, so the answer never changes by person."
       ),
     ],
     faqs: [
@@ -378,6 +391,10 @@ export const guidesPartThirtyFour: Guide[] = [
       h2("Connect the page to the rest of the site"),
       p(
         "Link it from the new patient page and from your [transfer of care page](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice). If you are not taking new patients right now, keep the page but explain the status, as our note on keeping [accepting new patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) describes. A short mention in the [new to the area page](/guides/new-to-the-area-page-for-a-primary-care-practice-for-relocating-families-students-and-seasonal-residents) helps people who have just moved."
+      ),
+      h2("A short script for the front desk"),
+      p(
+        "Staff need the same words the page uses. A simple version is: \"Yes, we offer a short introduction with the nurse practitioner or doctor. It is not a medical visit, so we cannot examine you or talk about symptoms. May I take your name and a time that works?\" Keep the script beside the phone, update it whenever the page changes, and note each request in the call log so you can see how many introductions turn into new patients."
       ),
     ],
     faqs: [
@@ -462,6 +479,10 @@ export const guidesPartThirtyFour: Guide[] = [
       h2("Where to put the link"),
       p(
         "Place the page link under the booking button and on the pediatric, family and school physical pages, if you have them. If you use an online scheduling tool, check that the family option works, or add a line that says to call or use the request form instead. The [school and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) is another place where families look."
+      ),
+      h2("Check whether the page is working"),
+      p(
+        "After a month, count how many family requests came through and how many ended with consecutive appointments. If requests arrive but most fall apart over scheduling, the problem is availability, not the page, and it may be worth reserving a few back-to-back blocks each week for households. If requests never arrive, move the link higher on the booking page and mention it in the phone greeting so people hear that it is possible before they hang up."
       ),
     ],
     faqs: [
@@ -636,6 +657,13 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "After you add the fields, test the whole path: fill the form with a sample preferred name and confirm that the reminder, the portal and the sign-in screen use it."
       ),
+      h2("Test the form on a phone"),
+      p(
+        "Most clients will fill out the form on a phone, so test it there. Enter a sample preferred name and pronouns, submit it, and follow the name through the reminder message, the portal and the sign-in sheet. If any place still shows the legal name, find where the field is mapped and fix it. Check the labels for plain wording too; a long label with a legal term makes people skip the field."
+      ),
+      p(
+        "Review the form once a year with the front desk, who hear the awkward moments first, and update the labels if staff keep seeing the same confusion."
+      ),
     ],
     faqs: [
       {
@@ -723,6 +751,14 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Tie the approach statement to the same wording. The page on an [approach without outcome claims](/guides/our-approach-page-for-a-therapy-practice-without-outcome-claims) is a good model, and your Florida board's advertising rules, linked below, are the final word."
       ),
+      h2("Weak and strong wording side by side"),
+      table(
+        ["Weak wording", "Stronger wording"],
+        ["Expert in anxiety and trauma", "Sees adults for anxiety-related concerns; completed a named trauma training in 2023"],
+        ["Specializes in couples", "Works with couples; ten years of couples sessions in community and private settings"],
+        ["Leading provider for teens", "Sees teens ages 13 to 17 with parent involvement, as our consent process describes"],
+        ["Treats everything", "Sees adults and couples; listed focus areas are relationship stress and life transitions"]
+      ),
     ],
     faqs: [
       {
@@ -808,6 +844,13 @@ export const guidesPartThirtyFour: Guide[] = [
         "Ask a friend to find the practice on a phone and report what the listing says.",
         "Repeat the check whenever a clinician's schedule changes."
       ),
+      h2("Mistakes that cost calls"),
+      ul(
+        "Listing 24 hours or leaving the default hours in place, which invites unannounced visits.",
+        "Showing different phone-answering hours on the website, the Google profile and the voicemail greeting.",
+        "Using the words walk-in or drop-in anywhere on the page when the office does not offer them.",
+        "Forgetting to update hours when a clinician adds or drops an evening."
+      ),
     ],
     faqs: [
       {
@@ -891,6 +934,16 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       p(
         "Set a calendar reminder to click every link each quarter and replace anything that moved. Record the date on the page."
+      ),
+      h2("A starter outline you can copy"),
+      ol(
+        "A two-sentence introduction that says what the page is and is not.",
+        "Five or six group headings, such as Preventive care, Vaccines, Heart and blood pressure, Diabetes, Mental health and Medicare.",
+        "Under each heading, two or three links with the agency name in plain text.",
+        "A line with the office phone number and the date the links were last checked."
+      ),
+      p(
+        "Keep the page to one screen of scrolling on a phone if you can. A short, tidy list is more likely to be used than a long directory, and it is easier to keep accurate."
       ),
     ],
     faqs: [
@@ -978,6 +1031,10 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "A fast reply that says nothing is only half the job. Answer the question they asked, give the next step and offer a time. The [auto-reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) buys time overnight, and a short call from a person finishes the job. If your phone line is the bottleneck, see how to [handle after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Many practices also review the log next to their monthly [lead count](/guides/monthly-lead-count-sheet-for-a-primary-care-practice)."
       ),
+      h2("Handling the weekend gap"),
+      p(
+        "Many inquiries arrive on Saturday night or Sunday, when no one is in the office. Decide in advance what happens: an automatic reply that sets a clear expectation, a Monday morning block set aside for returning weekend messages, and a rule that those get answered first. Write the plan in the log header so a substitute covering the desk follows the same order."
+      ),
     ],
     faqs: [
       {
@@ -1060,6 +1117,10 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Set aside fifteen minutes on the same day each month, perhaps as part of the [weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) for the practice manager. Save each month's sheet in a folder so you can compare quarters. For the bigger picture of cost per patient, read our guide to [measuring return on marketing](/guides/how-to-measure-roi-on-medical-practice-marketing)."
       ),
+      h2("An example month, for illustration only"),
+      p(
+        "Imagine a practice that logs 24 first-time calls and 11 online requests in a month, which makes 35 inquiries. Suppose 19 of them end with a booked first visit. That is a little over half, and the sheet shows where the rest went: six were out of network, five never answered the callback and five could not find a time. The owner now has three separate problems with three separate fixes, instead of one vague feeling that marketing is not working. These numbers are made up to show the method, not a benchmark."
+      ),
     ],
     faqs: [
       {
@@ -1099,7 +1160,7 @@ export const guidesPartThirtyFour: Guide[] = [
     title: "Contact Form Emails Going to Spam: A Delivery Test",
     metaTitle: "Contact Form Emails Going to Spam: Delivery Test",
     metaDescription:
-      "A short test to confirm website contact form messages reach a medical practice's inbox, with fixes for spam folders and silent failures. Call (561) 291-2681.",
+      "A short test to confirm website contact form messages reach a medical practice's inbox, with fixes for spam folders and failures. Call (561) 291-2681.",
     answer:
       "Send a test message through your own contact form each month using a dummy name with no health details, and confirm it lands in the inbox of the person who handles inquiries. If it lands in spam or never arrives, check the sending address, the domain's email records and the form's notification setting, then test again.",
     author: "Gio LaRoche",
@@ -1230,6 +1291,13 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Recording calls brings consent rules that differ by state, and a counseling practice should have an attorney review any recording plan before it starts. This guide is not legal advice."
       ),
+      h2("A short setup checklist"),
+      ol(
+        "List every place the practice phone number appears: profile, website, directories and printed material.",
+        "Decide which, if any, will get a forwarding number, and write the reason beside each.",
+        "Confirm the main number stays in the footer, schema and profile.",
+        "Place a test call to each number and check the forwarding and the report."
+      ),
     ],
     faqs: [
       {
@@ -1269,7 +1337,7 @@ export const guidesPartThirtyFour: Guide[] = [
     title: "Front Desk New Patient Call Log Fields for Primary Care",
     metaTitle: "Front Desk New Patient Call Log Fields for Primary Care",
     metaDescription:
-      "What a primary care front desk should record on each new patient call, and what to leave out, so you can see which calls become visits. Call (561) 291-2681.",
+      "What a primary care front desk should record on each new patient call, and what to leave out, so you see which calls become visits. Call (561) 291-2681.",
     answer:
       "Record seven things on every new patient call: date and time, first name or initials, phone ending, how they found you, what they asked for in general terms, the outcome and the next step with a date. Leave out symptoms, diagnoses and insurance numbers so the log stays safe to review.",
     author: "Gio LaRoche",
@@ -1318,6 +1386,10 @@ export const guidesPartThirtyFour: Guide[] = [
         "Group the source column and see which sources bring calls that book.",
         "Note any wrong-number or spam-flagged calls, and check the [phone number reputation](/guides/spam-flagged-practice-phone-numbers-how-to-check-and-fix-a-number-marked-as-scam).",
         "Copy the totals onto the monthly lead sheet."
+      ),
+      h2("Train the desk with a two-minute drill"),
+      p(
+        "Role-play three calls with the team: a person who wants to become a patient, a caller whose plan you do not accept and a wrong number. Practice filling in the seven fields for each. Staff who rehearse the log find it quick, and the wording of outcomes becomes consistent, which makes the monthly count trustworthy."
       ),
     ],
     faqs: [
