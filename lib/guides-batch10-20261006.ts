@@ -1034,7 +1034,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Before a storm, set special hours or mark the profile temporarily closed, post a short notice on your site and listing, and tell patients how to reach you. After it, restore regular hours the day you reopen. Wrong hours on Google send patients to a locked door, so update in the same hour you decide.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -1061,7 +1061,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep the wording plain and factual. Say what changed and what patients should do. Avoid medical advice and avoid promises you cannot keep, such as a firm reopening date. Patients reading it on a phone with a weak signal need the closure and the next step in the first two sentences."
+        "text": "Keep the wording plain and factual. Say what changed and what patients should do. Avoid medical advice and avoid promises you cannot keep, such as a firm reopening date. Patients reading it on a phone with a weak signal need the closure and the next step in the first two sentences. If the office closes the front desk at midday, enter the morning and afternoon periods separately, as explained in our guide to [split hours and lunch closures on a Google Business Profile](/guides/split-hours-and-lunch-closures-on-google-business-profile-for-a-primary-care-practice), so the profile shows the right status at noon."
       },
       {
         "type": "h2",

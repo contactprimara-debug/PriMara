@@ -204,7 +204,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Plain language means patients can find what they need, understand it the first time, and act on it. Use common words, short sentences and one idea per paragraph, and define any medical term you cannot avoid. A reading-level score is a rough check, not the goal; a real patient understanding the page is.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-14",
+  "dateModified": "2026-10-30",
   "readMinutes": 6,
   "sections": [
     {
@@ -225,7 +225,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Health literacy research and public health agencies have long pointed out that many adults struggle with health information written for professionals. That is a reason to write patient pages in a way almost anyone can follow, and it is the premise behind health literacy guidance from agencies such as the CDC. A common target in plain language programs is a middle-school reading level for general patient content, though the right level depends on your audience and topic."
+      "text": "Health literacy research and public health agencies have long pointed out that many adults struggle with health information written for professionals. That is a reason to write patient pages in a way almost anyone can follow, and it is the premise behind health literacy guidance from agencies such as the CDC. A common target in plain language programs is a middle-school reading level for general patient content, though the right level depends on your audience and topic. Keep any resource list readable too, since a [patient education resources page](/guides/patient-education-resources-page-linking-to-cdc-and-nih-for-a-primary-care-practice) that links to public health agencies should use the same plain language as the rest of your patient pages."
     },
     {
       "type": "p",
@@ -758,7 +758,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add one question to new-patient intake and phone scripts: how did you hear about us. Offer a short list of choices plus a write-in, have the front desk record the answer in a single field, and review the counts monthly next to your analytics. It is imperfect, but it catches what tracking misses, such as word of mouth.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-21",
+  "dateModified": "2026-10-30",
   "readMinutes": 6,
   "sections": [
     {
@@ -771,7 +771,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "The answer is self-reported, so treat it as a clue to compare against the numbers, not as a precise measurement. Used alongside [call tracking](/guides/tracking-phone-calls-from-a-medical-website) and website analytics, it gives a more complete picture of where new patients come from."
+      "text": "The answer is self-reported, so treat it as a clue to compare against the numbers, not as a precise measurement. Used alongside [call tracking](/guides/tracking-phone-calls-from-a-medical-website) and website analytics, it gives a more complete picture of where new patients come from. Once you collect the answers, record them on a [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) that totals calls, form requests and booked visits so the source column has numbers beside it."
     },
     {
       "type": "h2",

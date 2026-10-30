@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       {
@@ -299,7 +299,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them. Hospital and health system directories are a common source of an old address, so check how [hospital and health system provider directories](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) display your clinicians. A new office adds a second address that must stay separate from the first, so use the [new location or satellite office announcement page checklist](/guides/new-location-or-satellite-office-announcement-page-for-a-medical-practice) before changing any listing."
+        "text": "This is mostly about trust and accuracy, not a secret ranking lever. Google's own guidelines for representing a business ask for the real-world name, address, and phone, and an inaccurate public listing sends patients to the wrong door, which is a worse problem than any ranking effect. The same matching rule applies to the map apps patients carry, and our guide on [Apple Business Connect and Bing Places](/guides/apple-maps-and-bing-places-for-a-medical-practice) explains how to claim them. Hospital and health system directories are a common source of an old address, so check how [hospital and health system provider directories](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) display your clinicians. A new office adds a second address that must stay separate from the first, so use the [new location or satellite office announcement page checklist](/guides/new-location-or-satellite-office-announcement-page-for-a-medical-practice) before changing any listing. Extra phone numbers can break the match between listings, so read our note on [call tracking numbers without changing the Google profile phone number](/guides/call-tracking-numbers-on-a-counseling-practice-website-without-changing-the-google-profile-phone-number) before you add one."
       },
       {
         "type": "h2",

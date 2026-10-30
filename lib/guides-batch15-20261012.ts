@@ -613,7 +613,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A specialty page describes who you work with, what a first session is like and how to book, using ordinary words. It should not promise outcomes, diagnose readers or describe treatment as a cure. Give each specialty its own page, built around what a person is searching for.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-30",
     "readMinutes": 8,
     "sections": [
       {
@@ -679,7 +679,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep paragraphs short and use headings that match real questions. Our guide on [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can be linked from each specialty page and covers the visit itself."
+        "text": "Keep paragraphs short and use headings that match real questions. Our guide on [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can be linked from each specialty page and covers the visit itself. Describe each focus area by what you can document, and our guide to [specialty and focus areas wording for a counseling practice](/guides/specialty-and-focus-areas-wording-for-a-counseling-practice-training-versus-expertise) explains how to separate training, experience and interest without overstating expertise."
       },
       {
         "type": "h2",
@@ -1042,7 +1042,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A UTM link is your normal web address with a few labels added, such as source and medium. Put one on your Google Business Profile website button and on each directory listing, and Google Analytics 4 will show which listing sent the visit. Never put patient information in any label.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -1105,7 +1105,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Give each placement its own source value so you can compare them. For a profile with both a website and appointment link, use two different campaign or content labels so you can see which button people press. Our guide on [adding a booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) covers that setup."
+        "text": "Give each placement its own source value so you can compare them. For a profile with both a website and appointment link, use two different campaign or content labels so you can see which button people press. Our guide on [adding a booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) covers that setup. Tagged links count clicks, not calls, and a [guide to call tracking numbers for a counseling practice](/guides/call-tracking-numbers-on-a-counseling-practice-website-without-changing-the-google-profile-phone-number) explains where a tracking number is safe and where the main number must stay."
       },
       {
         "type": "h2",
@@ -1232,7 +1232,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Once a week, spend fifteen minutes on six things: answer new reviews, test the phone line, glance at the Google profile, submit nothing but check the form inbox, open the website on a phone, and write down one number. A small routine catches most problems before patients notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -1290,7 +1290,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Open your profile and read every review since last week. Reply to each one, positive or negative, with a short generic message. Never confirm that the person was a patient and never discuss the visit. Our guide on [responding to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) gives safe wording."
+        "text": "Open your profile and read every review since last week. Reply to each one, positive or negative, with a short generic message. Never confirm that the person was a patient and never discuss the visit. Our guide on [responding to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) gives safe wording. A practice manager can add one more step to the weekly routine, which is to copy the counts onto a [monthly lead count sheet for a primary care practice](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) so trends are visible."
       },
       {
         "type": "h2",

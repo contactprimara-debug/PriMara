@@ -15,7 +15,7 @@ export const guidesPartSeventeen: Guide[] = [
   "answer": "A therapy fees page should state each session fee and length, say plainly whether you take insurance or are out of network, explain whether you give superbills clients can submit to their own plan, and describe any sliding scale honestly. Avoid promising reimbursement or outcomes, and update the page whenever rates change.",
   "author": "Liam Costello",
   "publishDate": "2026-10-09T13:00:00Z",
-  "dateModified": "2026-10-29",
+  "dateModified": "2026-10-30",
   "readMinutes": 6,
   "sections": [
     {
@@ -28,7 +28,7 @@ export const guidesPartSeventeen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "The page has three jobs. It states what you charge, it explains how payment works if you are out of network, and it tells people what to do if the standard fee is out of reach. Keep each of those in plain words, because many readers are nervous and unsure how therapy billing works."
+      "text": "The page has three jobs. It states what you charge, it explains how payment works if you are out of network, and it tells people what to do if the standard fee is out of reach. Keep each of those in plain words, because many readers are nervous and unsure how therapy billing works. Clients who pay out of pocket often hold a health savings card, so add a clear [HSA and FSA card payments page for a counseling practice](/guides/hsa-and-fsa-card-payments-page-for-a-counseling-practice) that says what you accept without promising that a plan will cover the service."
     },
     {
       "type": "h2",

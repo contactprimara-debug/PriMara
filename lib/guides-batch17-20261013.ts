@@ -376,7 +376,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "For most medical and counseling practices the safe answer is to leave profile messaging off unless someone can answer within minutes, the replies stay free of health details, and an auto-reply tells patients to call 911 in an emergency and to use the portal for care questions. A missed or careless message does more harm than no chat button.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T09:40:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -415,7 +415,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Messaging can work for a practice that has a staffed front desk, a written reply script and a person assigned to the inbox during open hours. It tends to suit simple logistics questions such as do you take new patients, what are your hours or where do I park. It is a poor fit for anything clinical, and a poor fit for a solo practice where the clinician is in session most of the day."
+        "text": "Messaging can work for a practice that has a staffed front desk, a written reply script and a person assigned to the inbox during open hours. It tends to suit simple logistics questions such as do you take new patients, what are your hours or where do I park. It is a poor fit for anything clinical, and a poor fit for a solo practice where the clinician is in session most of the day. Whatever you turn on, set a target for how fast each message gets an answer and track it with the method in our [response time target and inquiry log for a counseling practice](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice)."
       },
       {
         "type": "table",
@@ -553,7 +553,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "If patients do not answer reminder or callback calls, your practice number may be labeled Spam Likely by phone carriers or call-blocking apps. Check the number on your carrier's tools, ask your phone provider to register it, and request a review through each carrier's reputation program. Fixes take days, so test and record before and after.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T10:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -645,7 +645,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Reviews take days, and in the meantime reminders still need to land. Add a line to your appointment confirmation text and your voicemail greeting that names the number you will call from, so patients recognize it. Ask the front desk to send a text first when a call matters, such as a callback about a referral, and to note on the chart when a patient says they could not tell it was you. Keep the wording non-clinical: the message is about a call, never about the reason for the visit."
+        "text": "Reviews take days, and in the meantime reminders still need to land. Add a line to your appointment confirmation text and your voicemail greeting that names the number you will call from, so patients recognize it. Ask the front desk to send a text first when a call matters, such as a callback about a referral, and to note on the chart when a patient says they could not tell it was you. Keep the wording non-clinical: the message is about a call, never about the reason for the visit. Callers whose numbers are marked as spam may never reach you, so track outcomes in a [new patient call log for a primary care practice](/guides/front-desk-new-patient-call-log-fields-for-a-primary-care-practice) and watch for wrong-number patterns."
       },
       {
         "type": "p",
@@ -749,7 +749,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A care team page introduces the people a new patient will meet in order: front desk, medical assistants, nurses and clinicians. Use real names, roles and photos with permission, one plain sentence each, and credentials only if the person confirms them. Leave out outcomes, rankings and anything you cannot document.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T10:20:00Z",
-    "dateModified": "2026-10-28",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -825,7 +825,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Get written permission before using a name, photo or personal detail, and keep a note of it. Do not publish staff home details, personal social accounts or family information. Make it easy to remove someone when they leave the practice, which is covered in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). And never include a patient photo or testimonial naming a patient on this page. When several clinicians are listed, give every one the same fields, as described in our guide to [choosing a provider at a multi-provider primary care practice](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page)."
+        "text": "Get written permission before using a name, photo or personal detail, and keep a note of it. Do not publish staff home details, personal social accounts or family information. Make it easy to remove someone when they leave the practice, which is covered in our guide to [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice). And never include a patient photo or testimonial naming a patient on this page. When several clinicians are listed, give every one the same fields, as described in our guide to [choosing a provider at a multi-provider primary care practice](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page). A shared log makes the front desk's work visible, and our guide to [front desk new patient call log fields](/guides/front-desk-new-patient-call-log-fields-for-a-primary-care-practice) lists the seven items worth writing down after each first call."
       },
       {
         "type": "h2",
@@ -935,7 +935,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A visit types page lists each kind of appointment your practice books, such as new patient, follow-up, sick visit and annual wellness, with a plain one-line purpose and a typical length. Say lengths are scheduling blocks, not promises, and tell patients which type to ask for when they call.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -997,7 +997,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add a short list that starts with the patient's goal instead of your terminology. For example: I am new to the practice, ask for a new patient visit. I was told to come back, ask for a follow-up. I have something new that cannot wait for a physical, ask for a sick visit. If the patient is unsure, tell them the front desk will help them choose, and that they should not describe symptoms in a web form."
+        "text": "Add a short list that starts with the patient's goal instead of your terminology. For example: I am new to the practice, ask for a new patient visit. I was told to come back, ask for a follow-up. I have something new that cannot wait for a physical, ask for a sick visit. If the patient is unsure, tell them the front desk will help them choose, and that they should not describe symptoms in a web form. Families often want to schedule several people at once, and a [page about booking several family members in one visit](/guides/booking-several-family-members-in-one-visit-page-for-a-primary-care-practice) explains what to ask for, how slots are matched and what the practice cannot promise."
       },
       {
         "type": "h3",
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -1343,7 +1343,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A short boundary statement protects both sides. Tell the reader that the call does not create a therapy relationship, that it is not the place to describe a crisis, and that if they need immediate help they should call 911 or call or text 988. Link your crisis resources section so the same words appear in both places."
+        "text": "A short boundary statement protects both sides. Tell the reader that the call does not create a therapy relationship, that it is not the place to describe a crisis, and that if they need immediate help they should call 911 or call or text 988. Link your crisis resources section so the same words appear in both places. Speed matters most for the first contact, so pair the call with a [response time target and inquiry log](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice) that shows how quickly each new inquiry was answered."
       },
       {
         "type": "h3",
@@ -1483,7 +1483,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A records request page explains how a patient asks for their own records: who to contact, what the request needs, how identity is checked, how long the office takes, and any permitted fee. Link to a request form that does not ask for health details, and give a phone number for help.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T12:00:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -1519,7 +1519,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Offer a downloadable request form or a short online form that asks for identity and contact details only. It must not ask the patient to list conditions, medications or reasons. Say so plainly and tell patients they can bring or send the signed form by the method you name. For anything that includes health details, use the portal or a secure method your office supports, as covered in our guide on [publishing new-patient forms without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data)."
+        "text": "Offer a downloadable request form or a short online form that asks for identity and contact details only. It must not ask the patient to list conditions, medications or reasons. Say so plainly and tell patients they can bring or send the signed form by the method you name. For anything that includes health details, use the portal or a secure method your office supports, as covered in our guide on [publishing new-patient forms without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data). When clients ask for something to be sent elsewhere, the office should point them to a plain [letters and documentation requests page](/guides/letters-and-documentation-requests-page-for-a-counseling-practice-without-legal-advice) that explains who signs, how long it takes and what the practice does not write."
       },
       {
         "type": "h3",
@@ -1996,7 +1996,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A billing questions page tells patients how to read a statement, the ways they can pay, who to call about a charge, how payment plans work and what to bring to a conversation. Use plain words, never take card numbers by email or form, and avoid promises about what insurance will pay.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T13:20:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -2067,7 +2067,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Say clearly that the amount a patient owes depends on the plan and on the date the insurer processed the claim. Never say insurance will pay. A good billing page explains the sequence: the office sends the claim, the plan responds, and the patient receives a statement for the balance. Patients who have no insurance, or who choose not to use it, have a right under the No Surprises Act to ask for a good faith estimate, which your page can mention with a link to the federal overview. When a statement goes unpaid, the reminder should stay calm and private, and our guide to [balance due and statement reminder wording for a counseling practice](/guides/balance-due-and-statement-reminder-wording-for-a-counseling-practice-without-legal-advice) offers a structure that adapts well to a medical office."
+        "text": "Say clearly that the amount a patient owes depends on the plan and on the date the insurer processed the claim. Never say insurance will pay. A good billing page explains the sequence: the office sends the claim, the plan responds, and the patient receives a statement for the balance. Patients who have no insurance, or who choose not to use it, have a right under the No Surprises Act to ask for a good faith estimate, which your page can mention with a link to the federal overview. When a statement goes unpaid, the reminder should stay calm and private, and our guide to [balance due and statement reminder wording for a counseling practice](/guides/balance-due-and-statement-reminder-wording-for-a-counseling-practice-without-legal-advice) offers a structure that adapts well to a medical office. Questions about paying with a health savings or flexible spending card come up in billing calls too, and a [page on HSA and FSA card payments for a counseling practice](/guides/hsa-and-fsa-card-payments-page-for-a-counseling-practice) answers them before anyone dials."
       },
       {
         "type": "h3",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -2593,7 +2593,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The central rule is to describe your process and never promise a result. The sentence we work together to set goals is a process. The sentence you will feel better in six weeks is a promise. Advertising rules and professional ethics codes both warn against guarantees, testimonials that imply outcomes and before-and-after language. Your licensing board is the final authority. A practice that integrates faith should explain that choice in the same careful way, as our guide to a [faith based and spiritually integrated counseling page](/guides/faith-based-and-spiritually-integrated-counseling-page-for-a-counseling-practice-without-clinical-claims) shows."
+        "text": "The central rule is to describe your process and never promise a result. The sentence we work together to set goals is a process. The sentence you will feel better in six weeks is a promise. Advertising rules and professional ethics codes both warn against guarantees, testimonials that imply outcomes and before-and-after language. Your licensing board is the final authority. A practice that integrates faith should explain that choice in the same careful way, as our guide to a [faith based and spiritually integrated counseling page](/guides/faith-based-and-spiritually-integrated-counseling-page-for-a-counseling-practice-without-clinical-claims) shows. Keep the wording of the approach honest in the same way, and see our note on [training versus expertise in specialty wording](/guides/specialty-and-focus-areas-wording-for-a-counseling-practice-training-versus-expertise) for phrases to use and words to retire."
       },
       {
         "type": "table",

@@ -151,7 +151,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       {
@@ -178,7 +178,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second. Patients who book online will soon want to sign in and see their visits, which is why a clear [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) belongs next to your scheduling tool. If the online scheduler shows no openings, add a line that points to a [cancellation list for same-day openings](/guides/cancellation-list-and-same-day-openings-for-a-primary-care-practice) so a patient has a next step instead of leaving."
+        "text": "Google's guidance on links asks for real anchor elements with a destination, so a button that only works through a script can fail to pass signals or be followed. Our [guide to writing a medical service page](/guides/how-to-write-a-medical-service-page-that-ranks) shows how to structure the surrounding copy. Online booking works best next to a phone line that also works, and our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to set up the second. Patients who book online will soon want to sign in and see their visits, which is why a clear [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) belongs next to your scheduling tool. If the online scheduler shows no openings, add a line that points to a [cancellation list for same-day openings](/guides/cancellation-list-and-same-day-openings-for-a-primary-care-practice) so a patient has a next step instead of leaving. Online booking tools often handle one person at a time, so a clear [family booking page for a primary care practice](/guides/booking-several-family-members-in-one-visit-page-for-a-primary-care-practice) should tell households how to request back-to-back visits instead."
       },
       {
         "type": "h2",

@@ -240,7 +240,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A virtual visits page for a primary care practice should say who can book a video visit, how to join, what the practice will and will not handle by video, and when a patient must come in or call 911 instead. Keep the list of eligible visit types short and let the clinician decide the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T09:20:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("The page patients are trying to find"),
@@ -252,7 +252,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Say what video is good for, without clinical promises"),
       p(
-        "The page can describe categories of visits without claiming outcomes. A practice might list follow-up conversations, reviewing results already in the portal, medication questions that do not need an exam, and paperwork discussions, but only if the clinicians actually do them by video. If you are unsure whether a visit type belongs on the list, leave it off and let the front desk answer by phone."
+        "The page can describe categories of visits without claiming outcomes. A practice might list follow-up conversations, reviewing results already in the portal, medication questions that do not need an exam, and paperwork discussions, but only if the clinicians actually do them by video. If you are unsure whether a visit type belongs on the list, leave it off and let the front desk answer by phone. If a video visit fails partway through, patients should already know the next step, which our guide to a [dropped video connection policy page](/guides/dropped-video-connection-and-technical-problems-policy-page-for-a-counseling-practice) lays out in plain logistics wording."
       ),
       table(
         ["Visit type", "How to describe it on the page"],
@@ -335,7 +335,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A therapy practice should tell clients about a planned absence in advance, on the website, the voicemail and the Google profile, and every notice should name the return date, who covers urgent needs, and the 988 Lifeline. Do not post clients' names, reasons for the absence or any clinical detail.",
     author: "Liam Costello",
     publishDate: "2026-10-19T09:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("Why an absence notice is a continuity issue, not a marketing task"),
@@ -343,7 +343,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A client who calls on a Tuesday and hears nothing for ten days may assume the office has closed. A new client who finds a profile that says open, but cannot reach anyone, may leave a review that says the practice never answers. A clear notice prevents both and protects the clients who most need to know where to turn."
       ),
       p(
-        "Professional codes of ethics for counselors ask practitioners to plan for interruptions of service, so the notice is also part of good practice. The details of the plan belong to the clinician and their licensing board, and the website only needs to tell the truth about the dates and the options."
+        "Professional codes of ethics for counselors ask practitioners to plan for interruptions of service, so the notice is also part of good practice. The details of the plan belong to the clinician and their licensing board, and the website only needs to tell the truth about the dates and the options. Clients should also know which days someone answers the phone, and our guide to [appointment only hours wording on the website and Google profile](/guides/by-appointment-only-hours-wording-for-a-counseling-practice-website-and-google-profile) separates office hours from session times."
       ),
       h2("What every notice should include"),
       ol(
@@ -1017,7 +1017,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A primary care practice that offers evening or weekend hours should publish them in the same words on its website, Google Business Profile, directories and phone greeting, say who is seen at those times, and update all of them when the schedule changes. Wrong hours on Google are one of the quickest ways to lose a patient's trust.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T12:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("Hours are the most-checked fact about your practice"),
@@ -1048,7 +1048,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Social profiles and email signature: update the same words."
       ),
       p(
-        "Our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) shows how to use special hours for disruptions, and the same approach works for any change in the schedule."
+        "Our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) shows how to use special hours for disruptions, and the same approach works for any change in the schedule. Whatever extended hours you publish, an office that pauses at midday still needs two time blocks, which our guide to [split hours and lunch closures on Google](/guides/split-hours-and-lunch-closures-on-google-business-profile-for-a-primary-care-practice) explains step by step."
       ),
       h3("Use structured data carefully"),
       p(
@@ -1209,7 +1209,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
     publishDate: "2026-10-19T12:40:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("What patients and Google see in an email address"),
@@ -1217,7 +1217,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A patient who gets a message from a free personal address can reasonably wonder whether it is real. Phishing messages pretending to be from doctors' offices are common, and an address on the practice's own domain, matching the website, is the simplest signal that a message is genuine."
       ),
       p(
-        "The same address also belongs on the website, the Google Business Profile and the directories, so that name, address, phone and email agree everywhere. Mixed personal and business addresses are a small but real source of confusion. Once every address uses your domain, give staff one standard [email signature and confidentiality footer](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) so name, phone and website match everywhere."
+        "The same address also belongs on the website, the Google Business Profile and the directories, so that name, address, phone and email agree everywhere. Mixed personal and business addresses are a small but real source of confusion. Once every address uses your domain, give staff one standard [email signature and confidentiality footer](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) so name, phone and website match everywhere. Mail sent from your own domain is also easier to authenticate, which helps when you run the [contact form delivery test for a medical practice website](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) after any change."
       ),
       h2("What a domain-based setup gives the practice"),
       ul(

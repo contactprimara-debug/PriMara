@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -225,7 +225,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). A counseling office that closes for a vacation should record a matching greeting, and our guide on [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice) lists what that message should say. Once the voicemail greeting is right, make sure the number on the site is a tappable link, as described in our guide to a [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) for a practice website."
+        "text": "It is also a patient-safety and trust issue. Someone calling a medical office may be worried about a symptom or in distress. The first message they hear should point them to the right help quickly and plainly. For counseling practices the same thinking applies to the website, so see our guide to an [emergency and crisis resources section for a counseling practice website](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). A counseling office that closes for a vacation should record a matching greeting, and our guide on [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice) lists what that message should say. Once the voicemail greeting is right, make sure the number on the site is a tappable link, as described in our guide to a [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) for a practice website. If you offer a short introductory call, make sure requests are answered quickly, and use a simple [response time target and inquiry log for a counseling practice](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice) to see whether they are."
       },
       {
         "type": "h2",
@@ -395,7 +395,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -422,7 +422,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Accessibility is not optional polish. Patients who use screen readers or who are filling in a form on a small phone screen need a document they can actually read. Our guide on [ADA accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the basics that apply to downloads too. Patients who need large-print or assisted forms should be able to ask, so link a [service animal and accommodation request page](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) from the new patient form page."
+        "text": "Accessibility is not optional polish. Patients who use screen readers or who are filling in a form on a small phone screen need a document they can actually read. Our guide on [ADA accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the basics that apply to downloads too. Patients who need large-print or assisted forms should be able to ask, so link a [service animal and accommodation request page](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) from the new patient form page. When the form asks for a legal name for billing, add optional lines for the name the person goes by, as explained in our note on [preferred name and pronoun fields on intake forms](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice)."
       },
       {
         "type": "h2",
@@ -574,7 +574,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Block form spam in layers: a hidden honeypot field, a lightweight challenge such as Cloudflare Turnstile or reCAPTCHA, server-side checks, and rate limits. Keep the form short so real patients are not turned away, and make sure your conversion tracking fires only on a submission that passed those checks.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -638,7 +638,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do the checks on the server, not only in the browser. A rule that runs only on the page can be bypassed by a script that posts directly to your form endpoint. The honeypot and rate limit should reject the submission before an email is sent or a lead is counted."
+        "text": "Do the checks on the server, not only in the browser. A rule that runs only on the page can be bypassed by a script that posts directly to your form endpoint. The honeypot and rate limit should reject the submission before an email is sent or a lead is counted. Test the other side of the form as well, because a [delivery test for contact form emails that go to spam](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) confirms that real inquiries reach the inbox and not a forgotten folder."
       },
       {
         "type": "h2",
@@ -1336,7 +1336,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Accepting new patients is one of the most checked facts about a practice, and it is stated in many places: your site, your profile, directories and insurance lists. Decide the status once, word it plainly with a date, update every listing the same day it changes, and review the list monthly.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-22",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -1422,7 +1422,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you are not accepting new patients, say so, but give people a next step. Offer a waitlist, suggest they call to hear about openings, or point to the profile for other providers who are open. A plain no on the website with no path forward sends visitors away, and an out-of-date yes wastes everyone's time."
+        "text": "If you are not accepting new patients, say so, but give people a next step. Offer a waitlist, suggest they call to hear about openings, or point to the profile for other providers who are open. A plain no on the website with no path forward sends visitors away, and an out-of-date yes wastes everyone's time. If you do offer introductions, say so, and when you cannot take new patients, explain it honestly; our guide to a [meet and greet visit before becoming a patient](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) shows how to word each case."
       },
       {
         "type": "p",
@@ -1523,7 +1523,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A therapist working from home or by telehealth can usually still have a Google Business Profile. Whether to show an address depends on whether clients visit that location. If clients do not come to your home, hide the address and list a service area. Never borrow a mailbox or virtual office address to appear local.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -1544,7 +1544,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's guidelines center on one idea: does the business serve customers at its address? A business where clients come to the location during stated hours is a storefront-style listing, and the address is shown. A business that goes to clients, or serves them remotely, is a service-area listing, and the address can be hidden."
+        "text": "Google's guidelines center on one idea: does the business serve customers at its address? A business where clients come to the location during stated hours is a storefront-style listing, and the address is shown. A business that goes to clients, or serves them remotely, is a service-area listing, and the address can be hidden. If your sessions are scheduled rather than walk-in, our guide to [by appointment only hours wording for a counseling practice](/guides/by-appointment-only-hours-wording-for-a-counseling-practice-website-and-google-profile) shows how to describe it on the site and on the profile."
       },
       {
         "type": "table",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-10-30",
     "readMinutes": 7,
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well. Many first time clients also ask whether a friend or relative can come along, which a [support person in session policy page](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims) answers in a few sentences. If an animal is sometimes in the office, mention it here and link to a [therapy animal in the office notice page](/guides/therapy-animal-in-the-office-notice-page-for-a-counseling-practice-with-allergy-and-consent-wording) so clients with allergies or fears can plan ahead."
+        "text": "The page also answers searches people actually make, such as what happens in a first therapy appointment. It fits naturally alongside your service pages and your about page. If your sessions are by video, link to a [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) so clients know how to join before the first appointment. Partners often wonder how the first meeting works before they call, so link the first-session page to your [couples counseling page](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims) for couples. People often read about the clinician before the session, so link the page to a [therapist bio that avoids clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) as well. Many first time clients also ask whether a friend or relative can come along, which a [support person in session policy page](/guides/support-person-in-session-policy-page-for-a-counseling-practice-without-clinical-claims) answers in a few sentences. If an animal is sometimes in the office, mention it here and link to a [therapy animal in the office notice page](/guides/therapy-animal-in-the-office-notice-page-for-a-counseling-practice-with-allergy-and-consent-wording) so clients with allergies or fears can plan ahead. New clients also appreciate being addressed correctly from the first message, which is why an intake form with [preferred name and pronoun fields](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice) is worth adding before you publish the page."
       },
       {
         "type": "h2",

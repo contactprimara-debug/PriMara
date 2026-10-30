@@ -172,7 +172,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A therapy practice can list a shared or sublet office on Google Business Profile if clients can actually be met there at the listed hours, and the practice has signage or a staffed entrance. A mailbox, a virtual address or a coworking desk where no one sees clients does not qualify and risks suspension.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T09:20:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("The rule Google actually applies"),
@@ -192,7 +192,7 @@ export const guidesPartTwentyThree: Guide[] = [
         ["Your home, where you see no clients", "No. Hide the address and use a service area."]
       ),
       p(
-        "If you share a building with other practices, expect Google to check whether more than one listing uses the same suite. Our guide on [practitioner versus practice listings for a multi-provider practice](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when each clinician may have their own profile. Telehealth patients in nearby towns can be addressed in a short [service area and neighborhoods served section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) on the main location page, without creating thin pages for each place. If you share a building, the second address line matters even more, and our guide to writing the [suite number and floor on your Google Business Profile](/guides/suite-number-and-floor-on-google-business-profile-for-a-practice-in-a-medical-building) shows where each piece goes."
+        "If you share a building with other practices, expect Google to check whether more than one listing uses the same suite. Our guide on [practitioner versus practice listings for a multi-provider practice](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains when each clinician may have their own profile. Telehealth patients in nearby towns can be addressed in a short [service area and neighborhoods served section](/guides/service-area-and-neighborhoods-served-section-for-a-medical-practice-without-doorway-pages) on the main location page, without creating thin pages for each place. If you share a building, the second address line matters even more, and our guide to writing the [suite number and floor on your Google Business Profile](/guides/suite-number-and-floor-on-google-business-profile-for-a-practice-in-a-medical-building) shows where each piece goes. A suite or shared office that sees clients only by arrangement should say so, and our note on [by appointment only hours wording for a counseling practice](/guides/by-appointment-only-hours-wording-for-a-counseling-practice-website-and-google-profile) offers three plain ways to word it."
       ),
       h2("What to do if you have no visitable office"),
       ul(
@@ -883,7 +883,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A transfer-of-care page tells a new patient the steps for moving from another doctor: sign a records release, bring a medication list, book a first visit and keep seeing the current doctor until the new visit happens. It should explain how long records take to arrive and never promise a specific appointment date or outcome.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T12:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("Why people search for this"),
@@ -917,7 +917,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("What not to say"),
       p(
-        "Do not promise that the first visit will be quick, that all medications will continue or that the new doctor will agree with the old one. Do not criticize other practices. A transfer page should be neutral, and the new practice proves itself at the first visit."
+        "Do not promise that the first visit will be quick, that all medications will continue or that the new doctor will agree with the old one. Do not criticize other practices. A transfer page should be neutral, and the new practice proves itself at the first visit. People who are moving their care may prefer an introduction before sending records, and a [meet and greet visit page](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) tells them how to ask for one without booking a full appointment."
       ),
       h2("Make the first visit easy to book"),
       p(
@@ -975,7 +975,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A follow-up visits page tells patients with ongoing health needs how the practice schedules regular visits, what to bring, how refills and lab appointments fit in, and how to reach the office between visits. It describes the process, not the medicine, and never promises that a condition will be controlled, reversed or improved.",
     author: "Liam Costello",
     publishDate: "2026-10-16T12:20:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("Who this page is for"),
@@ -1005,7 +1005,7 @@ export const guidesPartTwentyThree: Guide[] = [
         ["Who do I call if something changes?", "Call the office. For an emergency, call 911."]
       ),
       p(
-        "Link the refill line to your [prescription refill request page](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) and the results line to the guide on [lab results and portal message expectations](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice)."
+        "Link the refill line to your [prescription refill request page](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) and the results line to the guide on [lab results and portal message expectations](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice). After a visit, a short list of trusted public sources helps, and our guide to a [patient education resources page for a primary care practice](/guides/patient-education-resources-page-linking-to-cdc-and-nih-for-a-primary-care-practice) explains how to group the links and keep them current."
       ),
       h3("Wording to avoid"),
       p(
@@ -1150,7 +1150,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A good faith estimate page tells self-pay and uninsured clients that they have the right to receive an estimate of expected charges before care, explains how to ask for one and when the practice provides it, and links to the federal notice. It gives general information and must be checked by a compliance adviser before publishing.",
     author: "Liam Costello",
     publishDate: "2026-10-16T13:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("What the rule asks of a practice"),
@@ -1158,7 +1158,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Under the federal No Surprises Act, health care providers must give a good faith estimate of expected charges to people who do not have insurance or who choose not to use it for a service. Many therapy practices have a number of self-pay clients, so this applies often, and a web page can help clients understand the right before a first call."
       ),
       p(
-        "The rule has timing requirements. In general, when a service is scheduled at least three business days ahead, the estimate is due within one business day of scheduling, and when it is scheduled at least ten business days ahead, within three business days. Clients may also ask for an estimate before they schedule. Confirm the current requirements with CMS and with your adviser."
+        "The rule has timing requirements. In general, when a service is scheduled at least three business days ahead, the estimate is due within one business day of scheduling, and when it is scheduled at least ten business days ahead, within three business days. Clients may also ask for an estimate before they schedule. Confirm the current requirements with CMS and with your adviser. A line about whether the office accepts health savings and flexible spending cards belongs near the estimate notice, and our guide to an [HSA and FSA card payments page](/guides/hsa-and-fsa-card-payments-page-for-a-counseling-practice) gives safe wording for it."
       ),
       h2("What a plain-language page can say"),
       ul(
@@ -1332,7 +1332,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A new-to-the-area page helps people who just moved, attend college nearby or live part of the year in Florida find a primary care practice. It explains how to become a patient, what to bring, how records transfer and how seasonal visits work, and it never promises appointment dates or care outcomes.",
     author: "Liam Costello",
     publishDate: "2026-10-16T13:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("Three groups who search the same way"),
@@ -1361,7 +1361,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "How to book, with a phone number and the online booking link."
       ),
       p(
-        "These are the same steps a patient would find on a transfer page, so link to our guide on [transferring care from another doctor](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice) and keep the new-to-the-area page focused on the situations that are special to movers."
+        "These are the same steps a patient would find on a transfer page, so link to our guide on [transferring care from another doctor](/guides/transferring-care-from-another-doctor-page-for-a-primary-care-practice) and keep the new-to-the-area page focused on the situations that are special to movers. Some people want a short conversation before choosing a doctor, so a [meet and greet visit page for a primary care practice](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) can explain what the introduction covers, how long it lasts and what it does not include."
       ),
       h3("Seasonal residents and short stays"),
       p(

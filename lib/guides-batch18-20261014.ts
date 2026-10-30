@@ -338,7 +338,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A note-request page should say who can ask for a school, work or camp note, how to ask through the portal or phone, how long the office needs, and what the note will and will not contain. Never collect health details on the page itself, and explain that sending a note to a third party may need the patient's written permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T10:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("Notes are small requests that fill a front desk"),
@@ -350,7 +350,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Say who can ask and how"),
       p(
-        "Start with the people who can make a request. For an adult, it is the patient. For a minor, it is usually a parent or legal guardian. The details depend on the patient's age and on state law, so keep the wording general and have your compliance contact review it before it goes live. Longer leave and disability forms follow a different process, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) explains, including fees, turnaround and how to return completed forms safely."
+        "Start with the people who can make a request. For an adult, it is the patient. For a minor, it is usually a parent or legal guardian. The details depend on the patient's age and on state law, so keep the wording general and have your compliance contact review it before it goes live. Longer leave and disability forms follow a different process, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) explains, including fees, turnaround and how to return completed forms safely. Parents who need several forms at once will look for a [page on booking several family members in one visit](/guides/booking-several-family-members-in-one-visit-page-for-a-primary-care-practice), so link it near the booking button and on school physical pages."
       ),
       ol(
         "Tell the requester to sign in to the patient portal and use its request tool, or to call the front desk during office hours.",
@@ -630,7 +630,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
@@ -642,7 +642,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Send a link, never the forms"),
       p(
-        "Attachments travel. They get forwarded, downloaded to shared computers and kept in inboxes for years. A link to the practice's secure portal or its HIPAA-compliant forms tool keeps the information where the practice can protect it. If your software cannot do that, ask the vendor about the secure option before you send a single client a form. Clients who read slowly or see poorly may need another route, so offer to take the forms by phone, as our guide to [accessible intake forms](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) suggests. The email can link to a [session recording policy page](/guides/session-recording-policy-page-for-a-counseling-practice) so clients know before the first session whether they may record and whether the practice ever does."
+        "Attachments travel. They get forwarded, downloaded to shared computers and kept in inboxes for years. A link to the practice's secure portal or its HIPAA-compliant forms tool keeps the information where the practice can protect it. If your software cannot do that, ask the vendor about the secure option before you send a single client a form. Clients who read slowly or see poorly may need another route, so offer to take the forms by phone, as our guide to [accessible intake forms](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) suggests. The email can link to a [session recording policy page](/guides/session-recording-policy-page-for-a-counseling-practice) so clients know before the first session whether they may record and whether the practice ever does. Small details on the first form matter as well, and our guide to [preferred name and pronoun fields on a counseling intake form](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice) shows two optional fields that help staff address each person correctly."
       ),
       p(
         "Our guide on [publishing new-patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) describes how to check a form tool before you rely on it."
@@ -730,7 +730,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A therapy practice FAQ should answer questions about logistics, fees, insurance, privacy, scheduling and how to start, in short plain answers of two to four sentences. It should politely decline questions that need clinical judgment, such as whether therapy will work for a person, and point those to a conversation with a clinician.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T11:20:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-10-30",
     readMinutes: 7,
     sections: [
       h2("Why an FAQ page earns its place"),
@@ -750,7 +750,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Practicalities", "Where is the office? Where do I park? What if I am running late?"]
       ),
       p(
-        "Each answer should be two to four sentences. Link out to the full page whenever one exists, such as the [fees and superbills page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) or the cancellation policy. Self-pay clients have the right to a good faith estimate, and [a plain-language good faith estimate page for self-pay clients](/guides/good-faith-estimate-and-no-surprises-act-notice-page-for-a-therapy-practice) explains how a therapy practice can describe that on its site."
+        "Each answer should be two to four sentences. Link out to the full page whenever one exists, such as the [fees and superbills page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) or the cancellation policy. Self-pay clients have the right to a good faith estimate, and [a plain-language good faith estimate page for self-pay clients](/guides/good-faith-estimate-and-no-surprises-act-notice-page-for-a-therapy-practice) explains how a therapy practice can describe that on its site. A related question that lands on the front desk is how clients can request letters and forms, which a [documentation requests page for a counseling practice](/guides/letters-and-documentation-requests-page-for-a-counseling-practice-without-legal-advice) answers in plain process terms."
       ),
       h2("Questions to decline, and how"),
       p(
@@ -1035,7 +1035,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
@@ -1043,7 +1043,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Practices close for holidays, for training days, for a hurricane watch and sometimes for a burst pipe. Patients who find out at the front door are annoyed, and patients who find out from a wrong Google listing are worse off, because they believed something your office never said. A notice that appears in three places at once prevents most of that. A therapy practice has extra duties around planned absences, covered in our guide to [vacation and out-of-office coverage notices for a therapy practice](/guides/vacation-and-out-of-office-coverage-notices-for-a-therapy-practice), because clients may need to know who to call in a crisis. On days when only the advice line is staffed, point patients to a [nurse line and advice line page](/guides/nurse-line-and-advice-line-page-for-a-primary-care-practice-without-clinical-advice) that gives the number and the limits of the service. For storm closures in particular, a permanent [severe weather notice page for a primary care practice](/guides/hurricane-and-severe-weather-patient-notice-page-for-a-primary-care-practice) lets you change one status line instead of writing a new announcement every time."
       ),
       p(
-        "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed. Counseling practices face extra questions at year end, and our guide to a [holiday season scheduling announcement for a counseling practice](/guides/holiday-season-scheduling-and-availability-announcement-for-a-counseling-practice) shows how to handle booking, crisis resources and the return date."
+        "The goal is not a clever announcement. It is a plain, consistent statement of dates, what the office can still do and what to do if something urgent happens while it is closed. Counseling practices face extra questions at year end, and our guide to a [holiday season scheduling announcement for a counseling practice](/guides/holiday-season-scheduling-and-availability-announcement-for-a-counseling-practice) shows how to handle booking, crisis resources and the return date. Offices that close for an hour at lunch should also show it correctly, and our note on [split hours and lunch closures for a primary care practice](/guides/split-hours-and-lunch-closures-on-google-business-profile-for-a-primary-care-practice) walks through entering two time blocks for one day."
       ),
       h2("Write the notice once, then copy it"),
       p(
@@ -1139,7 +1139,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-10-30",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
@@ -1147,7 +1147,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Clients who choose video visits are asking for convenience, and the practice owes them two things in return. The first is a clear explanation of what telehealth involves and a way to agree to it. The second is a quick way to confirm the technology will work, so the first ten minutes of a session are not spent hunting for a microphone. New and expecting parents search in short windows, so [a perinatal and postpartum counseling page without clinical claims](/guides/perinatal-and-postpartum-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to put the practical answers first. The same structure carries over to medical offices, which can adapt it into a [virtual visits page for a primary care practice](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video) with their own consent and eligibility wording. Working professionals often choose video visits from a private space, so link this page from your [workplace stress counseling page for working professionals](/guides/workplace-stress-counseling-page-for-working-professionals-without-clinical-claims) with the times you offer."
       ),
       p(
-        "Our guide to a [telehealth visit instructions page for a therapy practice](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) covers the step-by-step joining instructions. This page deals with the earlier question: has the client agreed, and is their setup ready. Families searching for parent support need to know who attends sessions, which [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) explains in plain language. A practice that sees clients only by video also needs a listing that does not pretend to have an office, and the guide to a [telehealth only Google Business Profile](/guides/google-business-profile-for-a-telehealth-only-counseling-practice-without-a-storefront) explains how to set that up honestly."
+        "Our guide to a [telehealth visit instructions page for a therapy practice](/guides/telehealth-visit-instructions-page-for-a-therapy-practice) covers the step-by-step joining instructions. This page deals with the earlier question: has the client agreed, and is their setup ready. Families searching for parent support need to know who attends sessions, which [a parenting and family therapy page that explains who attends and how consent works](/guides/parenting-and-family-therapy-page-for-a-counseling-practice-without-clinical-claims) explains in plain language. A practice that sees clients only by video also needs a listing that does not pretend to have an office, and the guide to a [telehealth only Google Business Profile](/guides/google-business-profile-for-a-telehealth-only-counseling-practice-without-a-storefront) explains how to set that up honestly. Clients also wonder what happens if the video freezes, and a short [dropped video connection and technical problems policy](/guides/dropped-video-connection-and-technical-problems-policy-page-for-a-counseling-practice) linked from the consent page answers it before the first session."
       ),
       h2("What the consent section should explain"),
       p(

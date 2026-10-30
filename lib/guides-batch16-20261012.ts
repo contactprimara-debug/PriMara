@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -258,7 +258,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you bill insurance, the plan generally pays for sessions that took place, so a late-cancellation fee is typically the client's responsibility rather than the plan's. Check your payer contracts before you publish, and say plainly on the page that insurance may not cover it. If you take self-pay clients, the federal good faith estimate rules for uninsured and self-pay patients are a useful reminder to give costs in writing before care begins. Our guide on a [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) covers how to present rates alongside this policy. A cancellation rule makes more sense when the page also states the usual session length and frequency, as set out in our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results). Late-cancel charges often turn into balances that need a reminder, so write that message ahead of time using our guide to [balance due and statement reminder wording for a counseling practice](/guides/balance-due-and-statement-reminder-wording-for-a-counseling-practice-without-legal-advice)."
+        "text": "If you bill insurance, the plan generally pays for sessions that took place, so a late-cancellation fee is typically the client's responsibility rather than the plan's. Check your payer contracts before you publish, and say plainly on the page that insurance may not cover it. If you take self-pay clients, the federal good faith estimate rules for uninsured and self-pay patients are a useful reminder to give costs in writing before care begins. Our guide on a [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) covers how to present rates alongside this policy. A cancellation rule makes more sense when the page also states the usual session length and frequency, as set out in our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results). Late-cancel charges often turn into balances that need a reminder, so write that message ahead of time using our guide to [balance due and statement reminder wording for a counseling practice](/guides/balance-due-and-statement-reminder-wording-for-a-counseling-practice-without-legal-advice). Clients also ask for attendance letters and forms, so a short [letters and documentation requests page for a counseling practice](/guides/letters-and-documentation-requests-page-for-a-counseling-practice-without-legal-advice) can set out the process, timing and fees without giving legal advice."
       },
       {
         "type": "table",
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -450,7 +450,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients often use annual physical, wellness visit and welcome visit as if they meant the same thing. They are not always the same, and the page should help readers sort them out without giving insurance advice. If a patient has just enrolled, the first visit is the Welcome to Medicare visit, and our guide to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) explains how to describe it separately."
+        "text": "Patients often use annual physical, wellness visit and welcome visit as if they meant the same thing. They are not always the same, and the page should help readers sort them out without giving insurance advice. If a patient has just enrolled, the first visit is the Welcome to Medicare visit, and our guide to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) explains how to describe it separately. Many patients want reliable reading between visits, and a [patient education resources page linking to CDC and NIH](/guides/patient-education-resources-page-linking-to-cdc-and-nih-for-a-primary-care-practice) can point them to public sources without the practice giving medical advice."
       },
       {
         "type": "table",
@@ -826,7 +826,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A telehealth instructions page tells clients how to join a video session: what device and connection to use, when the link arrives, how to find a private space, and what to do if the call drops. Include a backup phone number, and send no clinical details by email or text.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T15:20:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-10-30",
     "readMinutes": 6,
     "sections": [
       {
@@ -878,7 +878,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The HHS telehealth site for patients offers plain advice about joining a video visit from a private place and using a secure connection. A line on your page can point to it. Suggest headphones, a closed door and a private network rather than public wifi. Do not promise that the session cannot be intercepted, since you cannot guarantee that."
+        "text": "The HHS telehealth site for patients offers plain advice about joining a video visit from a private place and using a secure connection. A line on your page can point to it. Suggest headphones, a closed door and a private network rather than public wifi. Do not promise that the session cannot be intercepted, since you cannot guarantee that. Plan for the moment a connection fails, too, because clients feel calmer when a [dropped video connection policy page for a counseling practice](/guides/dropped-video-connection-and-technical-problems-policy-page-for-a-counseling-practice) says what happens next and whether the time is billed."
       },
       {
         "type": "p",

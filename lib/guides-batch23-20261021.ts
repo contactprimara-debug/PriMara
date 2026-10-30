@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-10-30",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -161,7 +161,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h2("How the link is written"),
       p(
-        "A tap-to-call link is an ordinary link whose address starts with tel: followed by the number in international form, with no spaces or dashes, for example tel:+15612912681. The words people see can be anything, but the safest choice is the number itself, because a desktop visitor cannot tap anything and needs to read the digits."
+        "A tap-to-call link is an ordinary link whose address starts with tel: followed by the number in international form, with no spaces or dashes, for example tel:+15612912681. The words people see can be anything, but the safest choice is the number itself, because a desktop visitor cannot tap anything and needs to read the digits. After the call, record the outcome, and the fields in our guide to a [front desk new patient call log for a primary care practice](/guides/front-desk-new-patient-call-log-fields-for-a-primary-care-practice) keep that record short and free of health details."
       ),
       ul(
         "Use the same number everywhere, matching your Google Business Profile exactly.",
