@@ -1,6 +1,9 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 
-export const runtime = "edge";
+// Static: rendered once at build time and served from the CDN (no function invocation).
+export const dynamic = "force-static";
 export const alt = "Primara: More patients. Serving you first. Always getting better.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -8,14 +11,15 @@ export const contentType = "image/png";
 // The shared-link card uses the official framed Didot logo (public/primara-logo.png)
 // embedded directly as an ArrayBuffer — @vercel/og accepts that as an img src.
 // Edge ImageResponse has no system fonts, so the supporting type is embedded too.
-const logoUrl = new URL("../public/primara-logo.png", import.meta.url);
-const sansFontUrl = new URL("./inter-semibold.woff", import.meta.url);
 
 export default async function OgImage() {
-  const [logoData, sansFontData] = await Promise.all([
-    fetch(logoUrl).then((res) => res.arrayBuffer()),
-    fetch(sansFontUrl).then((res) => res.arrayBuffer()),
+  const [logoBuf, fontBuf] = await Promise.all([
+    readFile(path.join(process.cwd(), "public/primara-logo.png")),
+    readFile(path.join(process.cwd(), "app/inter-semibold.woff")),
   ]);
+  const toAB = (b: Buffer) => b.buffer.slice(b.byteOffset, b.byteOffset + b.byteLength) as ArrayBuffer;
+  const logoData = toAB(logoBuf);
+  const sansFontData = toAB(fontBuf);
 
   return new ImageResponse(
     (

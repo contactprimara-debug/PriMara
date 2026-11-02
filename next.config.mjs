@@ -82,6 +82,11 @@ const nextConfig = {
           },
         ],
       },
+      // Plain-text/manifest files: cache a day at the CDN
+      {
+        source: "/llms.txt",
+        headers: [{ key: "Cache-Control", value: "public, max-age=3600, s-maxage=86400" }],
+      },
       // All pages: security + perf headers
       {
         source: "/(.*)",
