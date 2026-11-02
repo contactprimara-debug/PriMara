@@ -94,7 +94,7 @@ export default function Footer({
           <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
 
             {/* Wordmark */}
-            <Link
+            <Link prefetch={false}
               href="/"
               style={{
                 display: "inline-block",
@@ -228,7 +228,7 @@ export default function Footer({
             >
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="footer-link">
+                  <Link prefetch={false} href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -262,7 +262,7 @@ export default function Footer({
             >
               {SERVICE_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="footer-link">
+                  <Link prefetch={false} href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -296,7 +296,7 @@ export default function Footer({
             >
               {WHO_WE_SERVE_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="footer-link">
+                  <Link prefetch={false} href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -330,7 +330,7 @@ export default function Footer({
             >
               {LOCATIONS_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="footer-link">
+                  <Link prefetch={false} href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -364,7 +364,7 @@ export default function Footer({
             >
               {RESOURCES_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="footer-link">
+                  <Link prefetch={false} href={link.href} className="footer-link">
                     {link.label}
                   </Link>
                 </li>
@@ -471,7 +471,7 @@ export default function Footer({
               gap: "20px",
             }}
           >
-            <Link
+            <Link prefetch={false}
               href="/privacy"
               style={{
                 fontFamily: "system-ui, sans-serif",
@@ -490,7 +490,7 @@ export default function Footer({
             >
               ·
             </span>
-            <Link
+            <Link prefetch={false}
               href="/hipaa"
               style={{
                 fontFamily: "system-ui, sans-serif",

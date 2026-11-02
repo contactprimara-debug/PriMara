@@ -201,7 +201,7 @@ function renderInline(text: string): ReactNode {
   while ((match = re.exec(text)) !== null) {
     if (match.index > last) nodes.push(text.slice(last, match.index));
     nodes.push(
-      <Link key={`inline-link-${i++}`} href={match[2]} style={{ color: "var(--gold)", textDecoration: "underline" }}>
+      <Link prefetch={false} key={`inline-link-${i++}`} href={match[2]} style={{ color: "var(--gold)", textDecoration: "underline" }}>
         {match[1]}
       </Link>
     );
@@ -389,11 +389,11 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
           <li>
-            <Link href="/" className="hover:underline">Home</Link>
+            <Link prefetch={false} href="/" className="hover:underline">Home</Link>
           </li>
           <li aria-hidden="true">›</li>
           <li>
-            <Link href="/guides" className="hover:underline">Guides</Link>
+            <Link prefetch={false} href="/guides" className="hover:underline">Guides</Link>
           </li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>{guide.title}</li>
@@ -558,7 +558,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           <ul style={{ listStyle: "none", padding: 0, margin: "0 0 2.5rem", display: "grid", gap: "12px" }}>
             {guide.links.map((l) => (
               <li key={l.href}>
-                <Link
+                <Link prefetch={false}
                   href={l.href}
                   style={{
                     display: "block",
@@ -591,7 +591,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
             <p style={{ color: "var(--color-text-muted)", lineHeight: 1.7, margin: "0 0 1.25rem" }}>
               We audit your profile, your competitors, and your market first — then tell you what it would take. No obligation.
             </p>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               style={{
                 display: "inline-block",

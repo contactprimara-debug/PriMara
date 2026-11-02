@@ -78,7 +78,7 @@ export default function MentalHealthAuditPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(webPageSchema) }} />
       <header className={styles.header}>
         <div className={`${styles.wrap} ${styles.headerInner}`}>
-          <Link href="/" className={styles.logoText} aria-label="Primara365 — home">
+          <Link prefetch={false} href="/" className={styles.logoText} aria-label="Primara365 — home">
             Primara365
           </Link>
           <div className={styles.headerRight}>

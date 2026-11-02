@@ -88,7 +88,7 @@ export default function PricingPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Pricing</li>
         </ol>
@@ -163,7 +163,7 @@ export default function PricingPage() {
             Pricing a healthcare marketing engagement without knowing your market, your starting review count, and your competition is like quoting a construction project before seeing the building. The audit tells us what scope your situation requires. Pricing follows from that conversation.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -414,7 +414,7 @@ export default function PricingPage() {
                 >
                   Best if: your website was built after 2021, loads in under 3 seconds on mobile, and has city- or condition-specific pages.
                 </p>
-                <Link
+                <Link prefetch={false}
                   href="/packages/foundation"
                   style={{
                     display: "inline-flex",
@@ -557,7 +557,7 @@ export default function PricingPage() {
                 >
                   Best if: your website was built by your EHR vendor, is more than 3 years old, or has no locally targeted content pages.
                 </p>
-                <Link
+                <Link prefetch={false}
                   href="/packages/visibility"
                   style={{
                     display: "inline-flex",
@@ -777,9 +777,9 @@ export default function PricingPage() {
 
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", marginTop: "16px", fontStyle: "italic" }}>
             PatientPop and WebPT detailed comparisons:{" "}
-            <Link href="/vs/patientpop" style={{ color: "var(--ash)", textDecoration: "underline" }}>Primara vs. PatientPop</Link>
+            <Link prefetch={false} href="/vs/patientpop" style={{ color: "var(--ash)", textDecoration: "underline" }}>Primara vs. PatientPop</Link>
             {" · "}
-            <Link href="/vs/webpt" style={{ color: "var(--ash)", textDecoration: "underline" }}>Primara vs. WebPT</Link>
+            <Link prefetch={false} href="/vs/webpt" style={{ color: "var(--ash)", textDecoration: "underline" }}>Primara vs. WebPT</Link>
           </p>
         </div>
       </section>
@@ -872,7 +872,7 @@ export default function PricingPage() {
             { href: "/vs/patientpop", label: "vs. PatientPop" },
             { href: "/how-it-works", label: "How It Works" },
           ].map(({ href, label }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{
@@ -908,7 +908,7 @@ export default function PricingPage() {
             We research your market and your competition before quoting anything. The audit is free and delivered in 3–5 business days.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

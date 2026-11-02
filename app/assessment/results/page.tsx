@@ -139,7 +139,7 @@ export default function ResultsPage() {
 
       {/* Header */}
       <div style={{ padding: "24px clamp(24px, 6vw, 80px)", borderBottom: "1px solid var(--wire)" }}>
-        <Link href="/" style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "18px", color: "var(--chalk)", textDecoration: "none" }}>
+        <Link prefetch={false} href="/" style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "18px", color: "var(--chalk)", textDecoration: "none" }}>
           Primara
         </Link>
       </div>
@@ -277,7 +277,7 @@ export default function ResultsPage() {
                 ))}
               </div>
 
-              <Link
+              <Link prefetch={false}
                 href={pkg.url}
                 style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--gold)", textDecoration: "none", letterSpacing: "0.04em", borderBottom: "1px solid rgba(201,168,76,0.4)", paddingBottom: "2px" }}
               >
@@ -302,7 +302,7 @@ export default function ResultsPage() {
           </p>
 
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               style={{
                 display: "inline-flex",
@@ -356,7 +356,7 @@ export default function ResultsPage() {
         <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
           <a href="mailto:liam.costello@primara365.com" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>liam.costello@primara365.com</a>
           <a href="tel:+15612912681" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>+1 (561) 291-2681</a>
-          <Link href="/" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>primara365.com</Link>
+          <Link prefetch={false} href="/" style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", color: "var(--smoke)", textDecoration: "none" }}>primara365.com</Link>
         </div>
       </div>
 
@@ -381,7 +381,7 @@ export default function ResultsPage() {
           Ready to close the gap? Liam or Gio will walk you through a custom action plan — free.
         </p>
         <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", alignItems: "center" }}>
-          <Link
+          <Link prefetch={false}
             href="/contact"
             style={{
               display: "inline-flex",

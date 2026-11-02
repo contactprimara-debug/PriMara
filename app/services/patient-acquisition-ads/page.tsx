@@ -87,9 +87,9 @@ export default function PatientAdsPage() {
           className="flex items-center gap-2 flex-wrap"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
-          <li><Link href="/services" className="hover:underline">Services</Link></li>
+          <li><Link prefetch={false} href="/services" className="hover:underline">Services</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Patient Acquisition Ads</li>
         </ol>
@@ -124,7 +124,7 @@ export default function PatientAdsPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
@@ -213,7 +213,7 @@ export default function PatientAdsPage() {
             independent physician-owned primary care clinics.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            Paid search is rarely the only channel a clinic uses. Practices often pair it with <Link href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management</Link>, <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website built for local search</Link> and <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation for Florida practices</Link>. The search campaign side of this is described market by market, with pages for Google Ads management <Link href="/locations/google-ads-management-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in West Palm Beach</Link>, <Link href="/locations/google-ads-management-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link href="/locations/google-ads-management-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
+            Paid search is rarely the only channel a clinic uses. Practices often pair it with <Link prefetch={false} href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management</Link>, <Link prefetch={false} href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website built for local search</Link> and <Link prefetch={false} href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation for Florida practices</Link>. The search campaign side of this is described market by market, with pages for Google Ads management <Link prefetch={false} href="/locations/google-ads-management-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in West Palm Beach</Link>, <Link prefetch={false} href="/locations/google-ads-management-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link prefetch={false} href="/locations/google-ads-management-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
           </p>
         </div>
       </section>
@@ -277,7 +277,7 @@ export default function PatientAdsPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
@@ -287,7 +287,7 @@ export default function PatientAdsPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
             Part of our{" "}
-            <Link href="/services" className="underline hover:opacity-80 text-white">
+            <Link prefetch={false} href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
             for independent primary care practices.

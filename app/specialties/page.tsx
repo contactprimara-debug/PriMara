@@ -93,7 +93,7 @@ function SpecialtyGrid({ items }: { items: SpecialtyCard[] }) {
       }}
     >
       {items.map((s) => (
-        <Link
+        <Link prefetch={false}
           key={s.href}
           href={s.href}
           style={{
@@ -198,7 +198,7 @@ export default function SpecialtiesPage() {
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
           <li style={{ color: "var(--color-text)" }}>Specialties</li>
         </ol>
@@ -276,7 +276,7 @@ export default function SpecialtiesPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             style={{
               display: "inline-flex",
@@ -357,7 +357,7 @@ export default function SpecialtiesPage() {
               ))}
             </div>
             <div style={{ marginTop: "32px", display: "flex", gap: "16px", flexWrap: "wrap" }}>
-              <Link
+              <Link prefetch={false}
                 href="/the-audit"
                 style={{
                   display: "inline-flex",
@@ -376,7 +376,7 @@ export default function SpecialtiesPage() {
               >
                 Get Your Free Practice Audit
               </Link>
-              <Link
+              <Link prefetch={false}
                 href="/services"
                 style={{
                   display: "inline-flex",

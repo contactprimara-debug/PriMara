@@ -41,7 +41,7 @@ function formatDate(iso: string): string {
   });
 }
 
-/** Replace plain-text mentions of Primara service pages with <Link> elements.
+/** Replace plain-text mentions of Primara service pages with <Link prefetch={false}> elements.
  *  Returns a React node — either a plain string or an array of strings/links. */
 function linkifyText(text: string): React.ReactNode {
   const replacements: Array<{ pattern: RegExp; href: string; label?: string }> = [
@@ -101,7 +101,7 @@ function linkifyText(text: string): React.ReactNode {
     <>
       {segments.map((seg, i) =>
         seg.href ? (
-          <Link
+          <Link prefetch={false}
             key={i}
             href={seg.href}
             style={{ color: "var(--gold)", textDecoration: "underline" }}
@@ -131,7 +131,7 @@ function renderBlogText(text: string): React.ReactNode {
   while ((m = re.exec(text)) !== null) {
     if (m.index > last) nodes.push(<span key={`t${i}`}>{linkifyText(text.slice(last, m.index))}</span>);
     nodes.push(
-      <Link key={`l${i}`} href={m[2]} style={{ color: "var(--gold)", textDecoration: "underline" }}>
+      <Link prefetch={false} key={`l${i}`} href={m[2]} style={{ color: "var(--gold)", textDecoration: "underline" }}>
         {m[1]}
       </Link>
     );
@@ -353,13 +353,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           }}
         >
           <li>
-            <Link href="/" className="hover:underline">
+            <Link prefetch={false} href="/" className="hover:underline">
               Home
             </Link>
           </li>
           <li aria-hidden="true">›</li>
           <li>
-            <Link href="/blog" className="hover:underline">
+            <Link prefetch={false} href="/blog" className="hover:underline">
               Blog
             </Link>
           </li>
@@ -490,7 +490,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
           {/* Back link */}
           <div style={{ marginTop: "3rem", paddingTop: "2rem", borderTop: "1px solid var(--wire)" }}>
-            <Link
+            <Link prefetch={false}
               href="/blog"
               style={{
                 color: "var(--gold)",
@@ -557,7 +557,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

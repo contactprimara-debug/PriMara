@@ -64,7 +64,7 @@ export default function CommandCenterPage() {
             }}
           >
             <li>
-              <Link href="/" style={{ color: "var(--smoke)", textDecoration: "none" }}>
+              <Link prefetch={false} href="/" style={{ color: "var(--smoke)", textDecoration: "none" }}>
                 Home
               </Link>
             </li>
@@ -181,7 +181,7 @@ export default function CommandCenterPage() {
               Google API Services User Data Policy
             </a>
             , including the Limited Use requirements. Full detail is in our{" "}
-            <Link href="/privacy" style={{ color: "var(--chalk)" }}>
+            <Link prefetch={false} href="/privacy" style={{ color: "var(--chalk)" }}>
               Privacy Policy
             </Link>
             .

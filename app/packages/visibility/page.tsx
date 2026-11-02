@@ -123,7 +123,7 @@ export default function VisibilityPackagePage() {
           }}
         >
           <li>
-            <Link href="/" className="breadcrumb-link">Home</Link>
+            <Link prefetch={false} href="/" className="breadcrumb-link">Home</Link>
           </li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Visibility Package</li>
@@ -427,7 +427,7 @@ export default function VisibilityPackagePage() {
             }}
           >
             Just need to fix the basics first?{" "}
-            <Link
+            <Link prefetch={false}
               href="/packages/foundation"
               style={{
                 color: "var(--gold)",

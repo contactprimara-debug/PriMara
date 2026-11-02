@@ -282,13 +282,13 @@ export default function LocationPage({
           }}
         >
           <li>
-            <Link href="/" className="hover:underline">
+            <Link prefetch={false} href="/" className="hover:underline">
               Home
             </Link>
           </li>
           <li aria-hidden="true">›</li>
           <li>
-            <Link href="/locations" className="hover:underline">
+            <Link prefetch={false} href="/locations" className="hover:underline">
               Locations
             </Link>
           </li>
@@ -649,7 +649,7 @@ export default function LocationPage({
               { href: "/services/medical-practice-website-design", label: "Website Design →" },
               { href: "/services/online-reputation-management", label: "Review Management →" },
             ].map(({ href, label }) => (
-              <Link
+              <Link prefetch={false}
                 key={href}
                 href={href}
                 style={{
@@ -756,7 +756,7 @@ export default function LocationPage({
             }}
             className="sm:grid-cols-3"
           >
-            <Link
+            <Link prefetch={false}
               href={mainVerticalHref}
               style={{
                 display: "block",
@@ -802,7 +802,7 @@ export default function LocationPage({
               </p>
             </Link>
 
-            <Link
+            <Link prefetch={false}
               href="/services"
               style={{
                 display: "block",
@@ -848,7 +848,7 @@ export default function LocationPage({
               </p>
             </Link>
 
-            <Link
+            <Link prefetch={false}
               href="/services/google-business-profile"
               style={{
                 display: "block",
@@ -926,7 +926,7 @@ export default function LocationPage({
                   sameCityOthers.map((o) => ({
                     key: o.slug,
                     node: (
-                      <Link href={`/locations/${o.slug}`} style={proseLinkStyle}>
+                      <Link prefetch={false} href={`/locations/${o.slug}`} style={proseLinkStyle}>
                         {VERTICAL_COPY[o.type].label.toLowerCase()} in {o.city}
                       </Link>
                     ),
@@ -942,7 +942,7 @@ export default function LocationPage({
                   nearbyLocations.map((n) => ({
                     key: n.slug,
                     node: (
-                      <Link href={`/locations/${n.slug}`} style={proseLinkStyle}>
+                      <Link prefetch={false} href={`/locations/${n.slug}`} style={proseLinkStyle}>
                         {verticalLabel.toLowerCase()} in {n.city}
                       </Link>
                     ),
@@ -960,7 +960,7 @@ export default function LocationPage({
               className="sm:grid-cols-3"
             >
               {nearbyLocations.map((nearby) => (
-                <Link
+                <Link prefetch={false}
                   key={nearby.slug}
                   href={`/locations/${nearby.slug}`}
                   style={{
@@ -1130,7 +1130,7 @@ export default function LocationPage({
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

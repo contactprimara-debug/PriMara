@@ -121,9 +121,9 @@ export default function AiSeoWestPalmBeachPage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
+            <li><Link prefetch={false} href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>AI SEO West Palm Beach</li>
           </ol>
@@ -164,7 +164,7 @@ export default function AiSeoWestPalmBeachPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get a Free Audit
             </Link>
           </div>
@@ -188,7 +188,7 @@ export default function AiSeoWestPalmBeachPage() {
               Ask an assistant for a doctor in West Palm Beach and it leans on what it can verify about a place: the address and phone on your Google Business Profile, the hours, the services you list, and whether your own website says the same thing. Practices move, merge and change phone numbers, and old listings that disagree with the website are easy for an assistant to find.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8 }}>
-              Primara is based in West Palm Beach, so this page covers the local side of AI SEO. The technical checks that apply to any Florida site are on our <Link href="/locations/ai-seo-florida" style={{ color: "var(--gold)" }}>statewide AI SEO page</Link>, and the traditional ranking work is on <Link href="/locations/medical-seo-west-palm-beach" style={{ color: "var(--gold)" }}>medical SEO in West Palm Beach</Link>.
+              Primara is based in West Palm Beach, so this page covers the local side of AI SEO. The technical checks that apply to any Florida site are on our <Link prefetch={false} href="/locations/ai-seo-florida" style={{ color: "var(--gold)" }}>statewide AI SEO page</Link>, and the traditional ranking work is on <Link prefetch={false} href="/locations/medical-seo-west-palm-beach" style={{ color: "var(--gold)" }}>medical SEO in West Palm Beach</Link>.
             </p>
           </div>
         </div>
@@ -264,7 +264,7 @@ export default function AiSeoWestPalmBeachPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get My Free Audit
             </Link>
           </div>

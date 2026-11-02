@@ -114,9 +114,9 @@ export default function AiSeoFloridaPage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
+            <li><Link prefetch={false} href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>AI SEO Florida</li>
           </ol>
@@ -154,7 +154,7 @@ export default function AiSeoFloridaPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get a Free Audit
             </Link>
           </div>
@@ -246,7 +246,7 @@ export default function AiSeoFloridaPage() {
             <div style={{ borderTop: "1px solid var(--wire)" }} />
           </div>
           <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", marginTop: "24px" }}>
-            Afterwards we ask the common patient questions in the main AI assistants, once a month, and log whether your practice is named. We report what we saw. We do not promise a result, because the assistants decide what to cite. Our <Link href="/services/ai-seo" style={{ color: "var(--gold)" }}>AI SEO service page</Link> explains how this fits with the rest of the work.
+            Afterwards we ask the common patient questions in the main AI assistants, once a month, and log whether your practice is named. We report what we saw. We do not promise a result, because the assistants decide what to cite. Our <Link prefetch={false} href="/services/ai-seo" style={{ color: "var(--gold)" }}>AI SEO service page</Link> explains how this fits with the rest of the work.
           </p>
         </div>
       </section>
@@ -304,7 +304,7 @@ export default function AiSeoFloridaPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get My Free Audit
             </Link>
           </div>

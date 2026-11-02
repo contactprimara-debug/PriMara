@@ -76,9 +76,9 @@ export default function VsWebPTPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
-          <li><Link href="/vs" className="breadcrumb-link" style={{ color: "var(--smoke)" }}>Comparisons</Link></li>
+          <li><Link prefetch={false} href="/vs" className="breadcrumb-link" style={{ color: "var(--smoke)" }}>Comparisons</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>vs. WebPT</li>
         </ol>
@@ -639,7 +639,7 @@ export default function VsWebPTPage() {
             { href: "/vs/patientpop", label: "vs. PatientPop" },
             { href: "/vs/doctorlogic", label: "vs. DoctorLogic" },
           ].map(({ href, label }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{
@@ -687,7 +687,7 @@ export default function VsWebPTPage() {
             The free audit takes 3–5 days and shows exactly where your practice stands — and what it would take to move.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

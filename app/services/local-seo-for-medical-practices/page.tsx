@@ -86,9 +86,9 @@ export default function LocalSEOPage() {
           className="flex items-center gap-2 flex-wrap"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
-          <li><Link href="/services" className="hover:underline">Services</Link></li>
+          <li><Link prefetch={false} href="/services" className="hover:underline">Services</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Local SEO</li>
         </ol>
@@ -123,7 +123,7 @@ export default function LocalSEOPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
@@ -212,7 +212,7 @@ export default function LocalSEOPage() {
             contract required.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            Our AI search work is also written up for local markets, with separate pages for <Link href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. Both build on <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website</Link> that search engines can read. The Business Profile side of local SEO is written up for practices in <Link href="/locations/gbp-optimization-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>West Palm Beach</Link> and <Link href="/locations/gbp-optimization-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Lakeland</Link>, and the wider SEO work for <Link href="/locations/medical-seo-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>practices in Polk County</Link>.
+            Our AI search work is also written up for local markets, with separate pages for <Link prefetch={false} href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link prefetch={false} href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. Both build on <Link prefetch={false} href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>a medical practice website</Link> that search engines can read. The Business Profile side of local SEO is written up for practices in <Link prefetch={false} href="/locations/gbp-optimization-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>West Palm Beach</Link> and <Link prefetch={false} href="/locations/gbp-optimization-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Lakeland</Link>, and the wider SEO work for <Link prefetch={false} href="/locations/medical-seo-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>practices in Polk County</Link>.
           </p>
         </div>
       </section>
@@ -277,7 +277,7 @@ export default function LocalSEOPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
@@ -287,7 +287,7 @@ export default function LocalSEOPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
             Part of our{" "}
-            <Link href="/services" className="underline hover:opacity-80 text-white">
+            <Link prefetch={false} href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
             for independent primary care practices.

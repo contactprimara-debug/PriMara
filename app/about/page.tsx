@@ -30,7 +30,7 @@ export default function AboutPage() {
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>About</li>
         </ol>
@@ -113,7 +113,7 @@ export default function AboutPage() {
             Independent medicine, done well.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            <Link href="/motivation" style={{ color: "var(--gold)", textDecoration: "underline" }}>
+            <Link prefetch={false} href="/motivation" style={{ color: "var(--gold)", textDecoration: "underline" }}>
               Read what motivates the work.
             </Link>
           </p>
@@ -127,7 +127,7 @@ export default function AboutPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "48px", fontSize: "1rem" }}

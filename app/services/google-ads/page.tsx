@@ -138,9 +138,9 @@ export default function GoogleAdsPage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
+            <li><Link prefetch={false} href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>Google Ads</li>
           </ol>
@@ -224,7 +224,7 @@ export default function GoogleAdsPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -297,7 +297,7 @@ export default function GoogleAdsPage() {
               without creating compliance exposure.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginTop: "20px" }}>
-              Search ads capture demand that already exists. For practices that need to create it, we also run <Link href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management for independent practices</Link>. A campaign only pays off when <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>the practice website</Link> is built to turn those clicks into booked visits. Budgets and targeting are set per market, and the approach is written up for <Link href="/locations/google-ads-management-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Google Ads management in West Palm Beach</Link>, <Link href="/locations/google-ads-management-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link href="/locations/google-ads-management-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
+              Search ads capture demand that already exists. For practices that need to create it, we also run <Link prefetch={false} href="/services/meta-ads" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Meta Ads management for independent practices</Link>. A campaign only pays off when <Link prefetch={false} href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>the practice website</Link> is built to turn those clicks into booked visits. Budgets and targeting are set per market, and the approach is written up for <Link prefetch={false} href="/locations/google-ads-management-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Google Ads management in West Palm Beach</Link>, <Link prefetch={false} href="/locations/google-ads-management-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link prefetch={false} href="/locations/google-ads-management-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
           </p>
           </div>
         </div>
@@ -544,7 +544,7 @@ export default function GoogleAdsPage() {
               { href: "/services/online-reputation-management", label: "Reputation Management" },
               { href: "/results", label: "See the Results" },
             ].map(({ href, label }) => (
-              <Link
+              <Link prefetch={false}
                 key={href}
                 href={href}
                 style={{
@@ -610,7 +610,7 @@ export default function GoogleAdsPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -630,7 +630,7 @@ export default function GoogleAdsPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
             Independent medical practices only · No long-term contracts ·{" "}
-            <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
+            <Link prefetch={false} href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
               All Services
             </Link>
           </p>

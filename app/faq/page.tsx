@@ -68,7 +68,7 @@ export default function FAQPage() {
         <div className="mx-auto max-w-content px-6 lg:px-8" style={{ padding: "12px 24px" }}>
           <nav aria-label="Breadcrumb">
             <ol style={{ display: "flex", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontSize: "0.8125rem", color: "var(--smoke)" }}>
-              <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+              <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
               <li aria-hidden="true">/</li>
               <li style={{ color: "var(--chalk)" }}>FAQ</li>
             </ol>
@@ -83,7 +83,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p style={{ fontSize: "1.0625rem", color: "var(--ash)", maxWidth: "600px", lineHeight: 1.75 }}>
-            Answers about Primara's healthcare marketing services, timelines, HIPAA practices, and what results look like for independent practices. If you have a question that isn't here, <Link href="/contact" style={{ color: "var(--chalk)", textDecoration: "underline" }}>contact us directly</Link>.
+            Answers about Primara's healthcare marketing services, timelines, HIPAA practices, and what results look like for independent practices. If you have a question that isn't here, <Link prefetch={false} href="/contact" style={{ color: "var(--chalk)", textDecoration: "underline" }}>contact us directly</Link>.
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function FAQPage() {
               { href: "/services", label: "Our Services" },
               { href: "/results", label: "Results" },
             ].map(({ href, label }) => (
-              <Link key={href} href={href} style={{ fontSize: "0.875rem", color: "var(--ash)", border: "1px solid var(--wire)", borderRadius: "4px", padding: "6px 14px", textDecoration: "none" }}>
+              <Link prefetch={false} key={href} href={href} style={{ fontSize: "0.875rem", color: "var(--ash)", border: "1px solid var(--wire)", borderRadius: "4px", padding: "6px 14px", textDecoration: "none" }}>
                 {label}
               </Link>
             ))}
@@ -141,7 +141,7 @@ export default function FAQPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get My Free Audit
             </Link>
           </div>

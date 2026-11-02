@@ -35,7 +35,7 @@ export default function MotivationPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" style={{ color: "var(--smoke)", textDecoration: "none" }}>Home</Link></li>
+          <li><Link prefetch={false} href="/" style={{ color: "var(--smoke)", textDecoration: "none" }}>Home</Link></li>
           <li aria-hidden="true">›</li>
           <li style={{ color: "var(--ash)" }}>Our Motivation</li>
         </ol>
@@ -98,7 +98,7 @@ export default function MotivationPage() {
           </div>
 
           <div className="mt-10 flex gap-4 flex-wrap">
-            <Link
+            <Link prefetch={false}
               href="/about"
               style={{
                 display: "inline-flex",

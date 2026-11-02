@@ -89,9 +89,9 @@ export default function GBPPage() {
           className="flex items-center gap-2 flex-wrap"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
-          <li><Link href="/services" className="hover:underline">Services</Link></li>
+          <li><Link prefetch={false} href="/services" className="hover:underline">Services</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Google Business Profile</li>
         </ol>
@@ -126,7 +126,7 @@ export default function GBPPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
@@ -216,7 +216,7 @@ export default function GBPPage() {
             systems or large chains.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            The profile looks different for each kind of practice, so we have written up how it works for <Link href="/primary-care" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>primary care practices</Link>, <Link href="/mental-health" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>mental health practices</Link> and the <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review requests that keep a listing current</Link>. Where we have written up a single market, the same work is described for <Link href="/locations/gbp-optimization-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Google Business Profile optimization in West Palm Beach</Link>, <Link href="/locations/gbp-optimization-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link href="/locations/gbp-optimization-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
+            The profile looks different for each kind of practice, so we have written up how it works for <Link prefetch={false} href="/primary-care" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>primary care practices</Link>, <Link prefetch={false} href="/mental-health" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>mental health practices</Link> and the <Link prefetch={false} href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review requests that keep a listing current</Link>. Where we have written up a single market, the same work is described for <Link prefetch={false} href="/locations/gbp-optimization-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Google Business Profile optimization in West Palm Beach</Link>, <Link prefetch={false} href="/locations/gbp-optimization-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>in Lakeland</Link> and <Link prefetch={false} href="/locations/gbp-optimization-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>across Florida</Link>.
           </p>
         </div>
       </section>
@@ -284,7 +284,7 @@ export default function GBPPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
@@ -294,7 +294,7 @@ export default function GBPPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
             Part of our{" "}
-            <Link href="/services" className="underline hover:opacity-80 text-white">
+            <Link prefetch={false} href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
             for independent primary care practices.

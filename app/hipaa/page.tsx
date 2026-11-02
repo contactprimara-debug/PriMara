@@ -69,7 +69,7 @@ export default function HipaaPage() {
               color: "var(--smoke)",
             }}
           >
-            <li><Link href="/" style={{ color: "var(--smoke)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--smoke)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true">›</li>
             <li style={{ color: "var(--ash)" }}>HIPAA Notice</li>
           </ol>
@@ -300,7 +300,7 @@ export default function HipaaPage() {
 
         {/* Back link */}
         <div style={{ marginTop: "3rem", paddingTop: "2rem", borderTop: "1px solid var(--wire)" }}>
-          <Link
+          <Link prefetch={false}
             href="/"
             style={{
               fontFamily: "system-ui, sans-serif",

@@ -130,9 +130,9 @@ export default function AiSeoPage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
+            <li><Link prefetch={false} href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>AI SEO</li>
           </ol>
@@ -216,7 +216,7 @@ export default function AiSeoPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -290,7 +290,7 @@ export default function AiSeoPage() {
               separate, speculative add-on.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginTop: "20px" }}>
-              Our AI search work is also written up for local markets, with separate pages for <Link href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>.
+              Our AI search work is also written up for local markets, with separate pages for <Link prefetch={false} href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link prefetch={false} href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>.
             </p>
           </div>
         </div>
@@ -446,7 +446,7 @@ export default function AiSeoPage() {
               { href: "/services/local-seo-for-medical-practices", label: "Local SEO" },
               { href: "/results", label: "See the Results" },
             ].map(({ href, label }) => (
-              <Link
+              <Link prefetch={false}
                 key={href}
                 href={href}
                 style={{
@@ -511,7 +511,7 @@ export default function AiSeoPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

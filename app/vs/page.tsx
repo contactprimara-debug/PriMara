@@ -83,7 +83,7 @@ export default function VsIndexPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Comparisons</li>
         </ol>
@@ -154,7 +154,7 @@ export default function VsIndexPage() {
           }}
         >
           {comparisons.map(({ href, name, description, tag, tagGold }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{ textDecoration: "none" }}
@@ -247,7 +247,7 @@ export default function VsIndexPage() {
             We&rsquo;ll assess your online presence and tell you honestly whether Primara is the right fit — or whether a platform solution might serve you better.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

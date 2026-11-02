@@ -217,7 +217,7 @@ export default function HowItWorksPage() {
               Most medical marketing agencies send you a proposal, take your credit card, and disappear behind a client portal. Here is exactly what happens when you work with Primara — week by week, deliverable by deliverable, with no ambiguity about what you're getting.
             </p>
             <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-              <Link
+              <Link prefetch={false}
                 href="/the-audit"
                 style={{
                   display: "inline-block",
@@ -232,7 +232,7 @@ export default function HowItWorksPage() {
               >
                 Start with a Free Audit
               </Link>
-              <Link
+              <Link prefetch={false}
                 href="/results"
                 style={{
                   display: "inline-block",
@@ -618,7 +618,7 @@ export default function HowItWorksPage() {
               },
             ].map((link) => (
               <li key={link.href} style={{ display: "flex" }}>
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 style={{
@@ -703,7 +703,7 @@ export default function HowItWorksPage() {
               flexWrap: "wrap",
             }}
           >
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-block",

@@ -104,7 +104,7 @@ export default function DigitalMarketingPage() {
           }}
         >
           <li>
-            <Link href="/" className="breadcrumb-link">
+            <Link prefetch={false} href="/" className="breadcrumb-link">
               Home
             </Link>
           </li>
@@ -232,7 +232,7 @@ export default function DigitalMarketingPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               style={{
                 display: "inline-flex",
@@ -620,7 +620,7 @@ export default function DigitalMarketingPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               style={{
                 display: "inline-flex",

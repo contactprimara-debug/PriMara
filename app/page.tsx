@@ -120,7 +120,7 @@ export default function HomePage() {
             gap: "20px",
           }}
         >
-          <Link
+          <Link prefetch={false}
             href="/primary-care"
             style={{
               display: "flex",
@@ -169,7 +169,7 @@ export default function HomePage() {
               See How We Help →
             </span>
           </Link>
-          <Link
+          <Link prefetch={false}
             href="/mental-health"
             style={{
               display: "flex",
@@ -253,7 +253,7 @@ export default function HomePage() {
           }}
         >
           {caseStudies.map((c) => (
-            <Link
+            <Link prefetch={false}
               key={c.slug}
               href={`/case-studies/${c.slug}`}
               style={{
@@ -290,7 +290,7 @@ export default function HomePage() {
           ))}
         </div>
         <div style={{ marginTop: "24px", fontFamily: "system-ui, sans-serif", fontSize: "13px" }}>
-          <Link href="/case-studies" style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+          <Link prefetch={false} href="/case-studies" style={{ color: "var(--gold)", textDecoration: "underline", textUnderlineOffset: "3px" }}>
             All case studies
           </Link>
         </div>
@@ -345,7 +345,7 @@ export default function HomePage() {
               cta: "Explore Meta Ads",
             },
           ].map((channel) => (
-            <Link
+            <Link prefetch={false}
               key={channel.href}
               href={channel.href}
               className="vertical-card"

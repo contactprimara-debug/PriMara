@@ -44,7 +44,7 @@ export default function NotFound() {
       >
         The address may have changed, or the link was mistyped.
       </p>
-      <Link
+      <Link prefetch={false}
         href="/"
         style={{
           marginTop: "2.25rem",

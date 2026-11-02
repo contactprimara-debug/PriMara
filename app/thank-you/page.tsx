@@ -82,7 +82,7 @@ export default function ThankYouPage() {
 
       {/* Logo bar only — no nav */}
       <div style={{ padding: "20px clamp(24px, 6vw, 80px)", borderBottom: "1px solid var(--wire)" }}>
-        <Link
+        <Link prefetch={false}
           href="/"
           style={{
             fontFamily: "var(--font-display), Georgia, serif",
@@ -212,7 +212,7 @@ export default function ThankYouPage() {
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--chalk)", lineHeight: 1.75, opacity: 0.65, marginBottom: "32px" }}>
             While you wait, take a look at what we do and the practices we work with.
           </p>
-          <Link
+          <Link prefetch={false}
             href="/"
             style={{
               display: "inline-flex",

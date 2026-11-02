@@ -70,7 +70,7 @@ export default function AssessmentLandingPage() {
 
       {/* ── Logo bar ─────────────────────────────────────────────────────── */}
       <div style={{ padding: "20px clamp(24px, 6vw, 80px)", borderBottom: "1px solid var(--wire)" }}>
-        <Link
+        <Link prefetch={false}
           href="/"
           style={{
             fontFamily: "var(--font-display), Georgia, serif",
@@ -141,7 +141,7 @@ export default function AssessmentLandingPage() {
 
           {/* Primary CTA */}
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px" }}>
-            <Link
+            <Link prefetch={false}
               href="/assessment/quiz"
               style={{
                 display: "inline-flex",
@@ -327,7 +327,7 @@ export default function AssessmentLandingPage() {
             on what to fix first — completely free, no obligation.
           </p>
 
-          <Link
+          <Link prefetch={false}
             href="/assessment/quiz"
             style={{
               display: "inline-flex",

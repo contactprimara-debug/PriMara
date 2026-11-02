@@ -69,9 +69,9 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/case-studies" style={{ color: "var(--ash)", textDecoration: "none" }}>Case Studies</Link></li>
+            <li><Link prefetch={false} href="/case-studies" style={{ color: "var(--ash)", textDecoration: "none" }}>Case Studies</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>{c.shortName}</li>
           </ol>
@@ -92,7 +92,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
           <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem", marginRight: "12px", marginBottom: "8px" }}>
             Call (561) 291-2681
           </a>
-          <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem", marginBottom: "8px" }}>
+          <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem", marginBottom: "8px" }}>
             Get a Free Audit
           </Link>
         </div>
@@ -199,10 +199,10 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
             More examples: {others.map((o, i) => (
               <span key={o.slug}>
                 {i > 0 && " and "}
-                <Link href={`/case-studies/${o.slug}`} style={{ color: "var(--gold)" }}>{o.shortName}</Link>
+                <Link prefetch={false} href={`/case-studies/${o.slug}`} style={{ color: "var(--gold)" }}>{o.shortName}</Link>
               </span>
             ))}
-            . All of them are on the <Link href="/case-studies" style={{ color: "var(--gold)" }}>case studies page</Link>.
+            . All of them are on the <Link prefetch={false} href="/case-studies" style={{ color: "var(--gold)" }}>case studies page</Link>.
           </p>
         </div>
       </section>
@@ -215,7 +215,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
           <p style={{ color: "var(--ash)", marginBottom: "1.75rem" }}>We start with a free audit of your Google presence, delivered in 3 to 5 business days.</p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Call (561) 291-2681</a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Get My Free Audit</Link>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Get My Free Audit</Link>
           </div>
         </div>
       </section>

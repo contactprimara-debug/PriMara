@@ -87,9 +87,9 @@ export default function ReputationPage() {
           className="flex items-center gap-2 flex-wrap"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
-          <li><Link href="/services" className="hover:underline">Services</Link></li>
+          <li><Link prefetch={false} href="/services" className="hover:underline">Services</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Reputation Management</li>
         </ol>
@@ -124,7 +124,7 @@ export default function ReputationPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
@@ -215,7 +215,7 @@ export default function ReputationPage() {
             care practices.
           </p>
           <p className="leading-relaxed mt-4" style={{ color: "var(--color-text-muted)" }}>
-            Review work looks different by practice type, so the same approach is written up for <Link href="/primary-care" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>primary care practices</Link> and <Link href="/mental-health" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>mental health practices</Link>, alongside our <Link href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation guide for Florida practices</Link>. The same review process, run in the market where our team is based, is described on our page for <Link href="/locations/review-generation-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation in West Palm Beach</Link>.
+            Review work looks different by practice type, so the same approach is written up for <Link prefetch={false} href="/primary-care" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>primary care practices</Link> and <Link prefetch={false} href="/mental-health" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>mental health practices</Link>, alongside our <Link prefetch={false} href="/locations/review-generation-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation guide for Florida practices</Link>. The same review process, run in the market where our team is based, is described on our page for <Link prefetch={false} href="/locations/review-generation-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>review generation in West Palm Beach</Link>.
           </p>
         </div>
       </section>
@@ -280,7 +280,7 @@ export default function ReputationPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
@@ -290,7 +290,7 @@ export default function ReputationPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
             Part of our{" "}
-            <Link href="/services" className="underline hover:opacity-80 text-white">
+            <Link prefetch={false} href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
             for independent primary care practices.

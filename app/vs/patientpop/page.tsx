@@ -101,9 +101,9 @@ export default function VsPatientPopPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
-          <li><Link href="/vs" className="breadcrumb-link" style={{ color: "var(--smoke)" }}>Comparisons</Link></li>
+          <li><Link prefetch={false} href="/vs" className="breadcrumb-link" style={{ color: "var(--smoke)" }}>Comparisons</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>vs. PatientPop</li>
         </ol>
@@ -665,7 +665,7 @@ export default function VsPatientPopPage() {
             { href: "/vs/webpt", label: "vs. WebPT" },
             { href: "/vs/doctorlogic", label: "vs. DoctorLogic" },
           ].map(({ href, label }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{
@@ -711,7 +711,7 @@ export default function VsPatientPopPage() {
             The free audit shows your current Maps position vs. your named competitor — in real numbers, not platform estimates.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

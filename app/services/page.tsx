@@ -83,7 +83,7 @@ export default function ServicesPage() {
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2 text-sm" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Services</li>
         </ol>
@@ -109,7 +109,7 @@ export default function ServicesPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "48px", fontSize: "1rem" }}
@@ -136,7 +136,7 @@ export default function ServicesPage() {
               We audit your practice for free — GBP, Maps ranking, website, and reviews. No templates. Delivered in 3&ndash;5 days.
             </p>
           </div>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
             style={{ backgroundColor: "var(--ember)", height: "48px", fontSize: "0.9375rem", textDecoration: "none", whiteSpace: "nowrap" }}
@@ -163,7 +163,7 @@ export default function ServicesPage() {
                 {s.title}
               </h2>
               <p style={{ fontSize: "0.9rem", color: "var(--color-text-muted)", lineHeight: "1.65" }}>{s.description}</p>
-              <Link
+              <Link prefetch={false}
                 href={`/services/${s.slug}`}
                 className="mt-auto text-sm font-semibold"
                 style={{ color: "var(--color-accent)", fontFamily: "var(--font-mono)" }}
@@ -213,7 +213,7 @@ export default function ServicesPage() {
           </p>
 
           <div className="mt-10 flex gap-4 flex-wrap">
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
               style={{ backgroundColor: "var(--color-accent)", height: "52px", fontSize: "1rem", textDecoration: "none" }}

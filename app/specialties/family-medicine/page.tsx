@@ -59,9 +59,9 @@ export default function FamilyMedicinePage() {
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
-          <li><Link href="/specialties" className="hover:underline">Specialties</Link></li>
+          <li><Link prefetch={false} href="/specialties" className="hover:underline">Specialties</Link></li>
           <li aria-hidden="true">›</li>
           <li style={{ color: "var(--color-text)" }}>Family Medicine</li>
         </ol>
@@ -86,7 +86,7 @@ export default function FamilyMedicinePage() {
           <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
             Call (561) 291-2681
           </a>
-          <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+          <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
             Get a Free Practice Audit
           </Link>
         </div>
@@ -150,23 +150,23 @@ export default function FamilyMedicinePage() {
             A patient looking for a new family doctor usually checks a few things in a fixed order: whether the practice is
             taking new patients, whether it accepts their insurance, how far away it is, and what other patients say. Each of
             those answers lives somewhere you control, which is why we start with the basics in our guides to{" "}
-            <Link href="/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories" style={{ color: "var(--gold)", textDecoration: "underline" }}>keeping your accepting new patients status accurate</Link>{" "}
-            and <Link href="/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice" style={{ color: "var(--gold)", textDecoration: "underline" }}>building an accepted insurance page</Link>.
+            <Link prefetch={false} href="/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories" style={{ color: "var(--gold)", textDecoration: "underline" }}>keeping your accepting new patients status accurate</Link>{" "}
+            and <Link prefetch={false} href="/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice" style={{ color: "var(--gold)", textDecoration: "underline" }}>building an accepted insurance page</Link>.
           </p>
           <h3 style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1rem", color: "var(--chalk)", margin: "24px 0 12px" }}>What we check first on a family medicine practice</h3>
           <ul style={{ listStyle: "disc", paddingLeft: "22px", margin: 0, maxWidth: "720px", display: "flex", flexDirection: "column", gap: "10px" }}>
-            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether the Google profile uses a primary care category, lists every service you offer and shows accurate hours; see{" "}<Link href="/guides/how-to-get-more-patients-from-google-business-profile" style={{ color: "var(--gold)", textDecoration: "underline" }}>how to get more patients from your Google Business Profile</Link>.</li>
-            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether each physician has a real bio page with training and a photo, as described in our guide to{" "}<Link href="/guides/how-to-write-a-doctor-bio-page-that-ranks" style={{ color: "var(--gold)", textDecoration: "underline" }}>writing a doctor bio page that ranks</Link>.</li>
-            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether phone calls and form requests are counted separately, so you can see which source sends real patients; start with{" "}<Link href="/guides/tracking-phone-calls-from-a-medical-website" style={{ color: "var(--gold)", textDecoration: "underline" }}>tracking phone calls from a medical website</Link>.</li>
-            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether reviews are requested from every patient in a compliant way and answered without sharing any health detail; see{" "}<Link href="/guides/getting-more-patient-reviews-without-review-gating" style={{ color: "var(--gold)", textDecoration: "underline" }}>getting more patient reviews without review gating</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether the Google profile uses a primary care category, lists every service you offer and shows accurate hours; see{" "}<Link prefetch={false} href="/guides/how-to-get-more-patients-from-google-business-profile" style={{ color: "var(--gold)", textDecoration: "underline" }}>how to get more patients from your Google Business Profile</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether each physician has a real bio page with training and a photo, as described in our guide to{" "}<Link prefetch={false} href="/guides/how-to-write-a-doctor-bio-page-that-ranks" style={{ color: "var(--gold)", textDecoration: "underline" }}>writing a doctor bio page that ranks</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether phone calls and form requests are counted separately, so you can see which source sends real patients; start with{" "}<Link prefetch={false} href="/guides/tracking-phone-calls-from-a-medical-website" style={{ color: "var(--gold)", textDecoration: "underline" }}>tracking phone calls from a medical website</Link>.</li>
+            <li style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.7 }}>Whether reviews are requested from every patient in a compliant way and answered without sharing any health detail; see{" "}<Link prefetch={false} href="/guides/getting-more-patient-reviews-without-review-gating" style={{ color: "var(--gold)", textDecoration: "underline" }}>getting more patient reviews without review gating</Link>.</li>
           </ul>
           <h3 style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1rem", color: "var(--chalk)", margin: "24px 0 12px" }}>Same-day access and honest wording</h3>
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "720px", margin: 0 }}>
             Many family practices keep a few appointments open each day for sick visits. If yours does, say so plainly and do not
             present the practice as urgent care; our guide to{" "}
-            <Link href="/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice" style={{ color: "var(--gold)", textDecoration: "underline" }}>getting found for same-day and walk-in visits</Link>{" "}
+            <Link prefetch={false} href="/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice" style={{ color: "var(--gold)", textDecoration: "underline" }}>getting found for same-day and walk-in visits</Link>{" "}
             shows how to word it. We do not promise rankings or patient counts, because results depend on your market, your
-            reviews and how quickly your front desk answers. Our <Link href="/primary-care" style={{ color: "var(--gold)", textDecoration: "underline" }}>primary care marketing page</Link>{" "}
+            reviews and how quickly your front desk answers. Our <Link prefetch={false} href="/primary-care" style={{ color: "var(--gold)", textDecoration: "underline" }}>primary care marketing page</Link>{" "}
             explains the full approach.
           </p>
         </div>
@@ -194,10 +194,10 @@ export default function FamilyMedicinePage() {
             deliver a free custom audit within 3–5 business days. No obligation.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "#fff", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Request Free Audit
             </Link>
-            <Link href="/services" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            <Link prefetch={false} href="/services" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
               See All Services
             </Link>
           </div>

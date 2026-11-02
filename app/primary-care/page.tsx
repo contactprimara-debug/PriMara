@@ -140,7 +140,7 @@ export default function PrimaryCarePage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>›</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Primary Care</li>
         </ol>
@@ -227,7 +227,7 @@ export default function PrimaryCarePage() {
 
           {/* CTAs */}
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               className="magnetic"
               style={{
@@ -814,7 +814,7 @@ export default function PrimaryCarePage() {
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>
                 GBP Optimization · Local SEO · Monthly Reporting
               </p>
-              <Link
+              <Link prefetch={false}
                 href="/packages/foundation"
                 style={{
                   display: "inline-flex",
@@ -888,7 +888,7 @@ export default function PrimaryCarePage() {
               <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--ash)", lineHeight: 1.6, margin: 0 }}>
                 GBP + Website + Reviews + SEO Content · Full Coverage
               </p>
-              <Link
+              <Link prefetch={false}
                 href="/packages/visibility"
                 style={{
                   display: "inline-flex",
@@ -1005,7 +1005,7 @@ export default function PrimaryCarePage() {
             We&rsquo;ll research your GBP, your website, your reviews, and your top local competitor. We&rsquo;ll deliver a free custom audit within 3&ndash;5 business days — showing you exactly what&rsquo;s holding your ranking back and what fixing it would cost. No obligation. Liam or Gio will walk you through it directly, not a salesperson.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               className="magnetic"
               style={{

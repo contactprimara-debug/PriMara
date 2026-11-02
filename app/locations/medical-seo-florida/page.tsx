@@ -117,9 +117,9 @@ export default function MedicalSeoFloridaPage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
+            <li><Link prefetch={false} href="/locations" style={{ color: "var(--ash)", textDecoration: "none" }}>Locations</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>Medical SEO Florida</li>
           </ol>
@@ -160,7 +160,7 @@ export default function MedicalSeoFloridaPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get a Free Audit
             </Link>
           </div>
@@ -208,14 +208,14 @@ export default function MedicalSeoFloridaPage() {
               <div key={r.name} style={{ backgroundColor: "var(--void)", padding: "clamp(24px, 3vw, 36px)", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: 0 }}>{r.name}</h2>
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.875rem", color: "var(--ash)", lineHeight: 1.7, margin: 0 }}>{r.body}</p>
-                <Link href={r.example.href} style={{ fontSize: "0.8125rem", color: "var(--gold)", textDecoration: "none" }}>
+                <Link prefetch={false} href={r.example.href} style={{ fontSize: "0.8125rem", color: "var(--gold)", textDecoration: "none" }}>
                   {r.example.label} →
                 </Link>
               </div>
             ))}
           </div>
           <p style={{ marginTop: "24px", fontSize: "0.875rem", color: "var(--smoke)" }}>
-            Browse all city pages on the <Link href="/locations" style={{ color: "var(--ash)" }}>locations hub</Link>.
+            Browse all city pages on the <Link prefetch={false} href="/locations" style={{ color: "var(--ash)" }}>locations hub</Link>.
           </p>
         </div>
       </section>
@@ -268,7 +268,7 @@ export default function MedicalSeoFloridaPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get My Free Audit
             </Link>
           </div>

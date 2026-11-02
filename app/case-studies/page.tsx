@@ -111,7 +111,7 @@ export default function CaseStudiesHub() {
           {caseStudies.map((c) => (
             <article key={c.slug} style={{ border: "1px solid var(--wire)", borderRadius: "6px", padding: "clamp(20px, 3vw, 32px)", backgroundColor: "var(--void)" }}>
               <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "clamp(1.375rem, 2.6vw, 1.875rem)", fontWeight: 400, color: "var(--chalk)", lineHeight: 1.2, marginBottom: "6px" }}>
-                <Link href={`/case-studies/${c.slug}`} style={{ color: "inherit", textDecoration: "none" }}>{c.name}</Link>
+                <Link prefetch={false} href={`/case-studies/${c.slug}`} style={{ color: "inherit", textDecoration: "none" }}>{c.name}</Link>
               </h2>
               <p style={{ fontSize: "0.875rem", color: "var(--smoke)", marginBottom: "18px" }}>{c.kind}</p>
               <div style={{ display: "grid", gap: "14px", gridTemplateColumns: "repeat(auto-fit, minmax(190px, 1fr))", marginBottom: "18px" }}>
@@ -122,7 +122,7 @@ export default function CaseStudiesHub() {
                   </div>
                 ))}
               </div>
-              <Link href={`/case-studies/${c.slug}`} style={{ color: "var(--gold)", fontSize: "0.9375rem", fontWeight: 600 }}>
+              <Link prefetch={false} href={`/case-studies/${c.slug}`} style={{ color: "var(--gold)", fontSize: "0.9375rem", fontWeight: 600 }}>
                 Read the {c.shortName} case study
               </Link>
             </article>
@@ -162,7 +162,7 @@ export default function CaseStudiesHub() {
             Where to go next
           </h3>
           <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.75, marginBottom: "16px" }}>
-            If you run a therapy or counseling practice, our <Link href="/therapist-seo" style={{ color: "var(--gold)" }}>therapist SEO service</Link> page explains what we would do first. If you run a primary care or family medicine office, see our <Link href="/primary-care" style={{ color: "var(--gold)" }}>primary care marketing</Link> page. For a plain explanation of how to judge any marketing report, read our guide on <Link href="/guides/how-to-measure-roi-on-medical-practice-marketing" style={{ color: "var(--gold)" }}>measuring ROI on medical practice marketing</Link>.
+            If you run a therapy or counseling practice, our <Link prefetch={false} href="/therapist-seo" style={{ color: "var(--gold)" }}>therapist SEO service</Link> page explains what we would do first. If you run a primary care or family medicine office, see our <Link prefetch={false} href="/primary-care" style={{ color: "var(--gold)" }}>primary care marketing</Link> page. For a plain explanation of how to judge any marketing report, read our guide on <Link prefetch={false} href="/guides/how-to-measure-roi-on-medical-practice-marketing" style={{ color: "var(--gold)" }}>measuring ROI on medical practice marketing</Link>.
           </p>
         </div>
       </section>
@@ -177,7 +177,7 @@ export default function CaseStudiesHub() {
           <p style={{ color: "var(--ash)", marginBottom: "1.75rem" }}>We start with a free audit, delivered in 3 to 5 business days.</p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Call (561) 291-2681</a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Get My Free Audit</Link>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Get My Free Audit</Link>
           </div>
         </div>
       </section>

@@ -91,7 +91,7 @@ export default function ResultsPage() {
         <div className="mx-auto max-w-content px-6 lg:px-8" style={{ padding: "12px 24px" }}>
           <nav aria-label="Breadcrumb">
             <ol style={{ display: "flex", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontSize: "0.8125rem", color: "var(--smoke)" }}>
-              <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+              <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
               <li aria-hidden="true">/</li>
               <li style={{ color: "var(--chalk)" }}>Results</li>
             </ol>
@@ -112,7 +112,7 @@ export default function ResultsPage() {
             </p>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8 }}>
               What we can tell you is what the consistent patterns look like across every engagement we run — what happens at 30 days, 60 days, 90 days, and 180 days for practices that follow the system. These timelines are grounded in real client data tracked via Local Falcon grid rankings, GBP Insights impression counts, review velocity numbers, and Google Search Console organic traffic. The milestones below are what you should hold us accountable to.
-             For dated numbers from three practices we run, including the ones that have not moved yet, read the case studies for <Link href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>, or see the <Link href="/case-studies" style={{ color: "var(--gold)" }}>full list</Link>.</p>
+             For dated numbers from three practices we run, including the ones that have not moved yet, read the case studies for <Link prefetch={false} href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link prefetch={false} href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link prefetch={false} href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>, or see the <Link prefetch={false} href="/case-studies" style={{ color: "var(--gold)" }}>full list</Link>.</p>
           </div>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function ResultsPage() {
               { href: "/services", label: "Our Services" },
               { href: "/faq", label: "FAQ" },
             ].map(({ href, label }) => (
-              <Link key={href} href={href} style={{ fontSize: "0.875rem", color: "var(--ash)", border: "1px solid var(--wire)", borderRadius: "4px", padding: "6px 14px", textDecoration: "none" }}>
+              <Link prefetch={false} key={href} href={href} style={{ fontSize: "0.875rem", color: "var(--ash)", border: "1px solid var(--wire)", borderRadius: "4px", padding: "6px 14px", textDecoration: "none" }}>
                 {label}
               </Link>
             ))}
@@ -185,7 +185,7 @@ export default function ResultsPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get My Free Audit
             </Link>
           </div>

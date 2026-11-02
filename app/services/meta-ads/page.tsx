@@ -154,9 +154,9 @@ export default function MetaAdsPage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
+            <li><Link prefetch={false} href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>Meta Ads</li>
           </ol>
@@ -240,7 +240,7 @@ export default function MetaAdsPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -527,7 +527,7 @@ export default function MetaAdsPage() {
             }}
           >
             {verticalAngles.map((v) => (
-              <Link
+              <Link prefetch={false}
                 key={v.name}
                 href={v.href}
                 className="related-link-card"
@@ -711,7 +711,7 @@ export default function MetaAdsPage() {
               { href: "/services/online-reputation-management", label: "Reputation Management" },
               { href: "/services", label: "All Services" },
             ].map(({ href, label }) => (
-              <Link
+              <Link prefetch={false}
                 key={href}
                 href={href}
                 style={{
@@ -780,7 +780,7 @@ export default function MetaAdsPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -800,7 +800,7 @@ export default function MetaAdsPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
             Independent primary care &amp; mental health practices · No long-term contracts ·{" "}
-            <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
+            <Link prefetch={false} href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
               All Services
             </Link>
           </p>

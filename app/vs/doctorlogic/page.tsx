@@ -76,9 +76,9 @@ export default function VsDoctorLogicPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
-          <li><Link href="/vs" className="breadcrumb-link" style={{ color: "var(--smoke)" }}>Comparisons</Link></li>
+          <li><Link prefetch={false} href="/vs" className="breadcrumb-link" style={{ color: "var(--smoke)" }}>Comparisons</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>vs. DoctorLogic</li>
         </ol>
@@ -564,7 +564,7 @@ export default function VsDoctorLogicPage() {
             { href: "/vs/patientpop", label: "vs. PatientPop" },
             { href: "/vs/webpt", label: "vs. WebPT" },
           ].map(({ href, label }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{
@@ -612,7 +612,7 @@ export default function VsDoctorLogicPage() {
             We research your specific market and competitors before recommending anything. The audit takes 3–5 business days.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

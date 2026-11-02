@@ -80,7 +80,7 @@ function LocationCardGrid({ locations }: { locations: { slug: string; city: stri
   const grid = (cities: { slug: string; city: string; intro: string }[]) => (
     <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
       {cities.map((loc) => (
-        <Link
+        <Link prefetch={false}
           key={loc.slug}
           href={`/locations/${loc.slug}`}
           style={{
@@ -142,7 +142,7 @@ export default function LocationsPage() {
         <div className="mx-auto max-w-content px-6 lg:px-8" style={{ padding: "12px 24px" }}>
           <nav aria-label="Breadcrumb">
             <ol style={{ display: "flex", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontSize: "0.8125rem", color: "var(--smoke)" }}>
-              <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+              <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
               <li aria-hidden="true">/</li>
               <li style={{ color: "var(--chalk)" }}>Locations</li>
             </ol>
@@ -300,7 +300,7 @@ export default function LocationsPage() {
             <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Call (561) 291-2681
             </a>
-            <Link href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
               Get My Free Audit
             </Link>
           </div>

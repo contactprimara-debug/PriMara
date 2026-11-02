@@ -118,7 +118,7 @@ export default function FoundationPackagePage() {
           }}
         >
           <li>
-            <Link href="/" className="breadcrumb-link">Home</Link>
+            <Link prefetch={false} href="/" className="breadcrumb-link">Home</Link>
           </li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Foundation Package</li>
@@ -425,7 +425,7 @@ export default function FoundationPackagePage() {
           >
             Need website rebuild, monthly content, or active review generation?
             See the{" "}
-            <Link
+            <Link prefetch={false}
               href="/packages/visibility"
               style={{
                 color: "var(--gold)",

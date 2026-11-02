@@ -87,9 +87,9 @@ export default function WebsiteDesignPage() {
           className="flex items-center gap-2 flex-wrap"
           style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
         >
-          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
           <li aria-hidden="true">›</li>
-          <li><Link href="/services" className="hover:underline">Services</Link></li>
+          <li><Link prefetch={false} href="/services" className="hover:underline">Services</Link></li>
           <li aria-hidden="true">›</li>
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Website Design</li>
         </ol>
@@ -124,7 +124,7 @@ export default function WebsiteDesignPage() {
           >
             Call (561) 291-2681
           </a>
-          <Link
+          <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
             style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
@@ -248,7 +248,7 @@ export default function WebsiteDesignPage() {
             <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>After the domain cutover we submit the sitemap, watch Search Console for crawl errors, and check that calls and form leads are being counted. You get a short written note on what we found.</p>
           </div>
           <p className="leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
-            Ongoing ranking work then continues under <Link href="/services/seo" style={{ color: "var(--color-gold)" }}>medical practice SEO</Link>, and the site feeds your <Link href="/services/google-business-profile" style={{ color: "var(--color-gold)" }}>Google Business Profile</Link>. Market by market, the website work is described on our pages for <Link href="/locations/medical-website-design-west-palm-beach" style={{ color: "var(--color-gold)" }}>medical website design in West Palm Beach</Link> and <Link href="/locations/medical-website-design-florida" style={{ color: "var(--color-gold)" }}>medical website design across Florida</Link>.
+            Ongoing ranking work then continues under <Link prefetch={false} href="/services/seo" style={{ color: "var(--color-gold)" }}>medical practice SEO</Link>, and the site feeds your <Link prefetch={false} href="/services/google-business-profile" style={{ color: "var(--color-gold)" }}>Google Business Profile</Link>. Market by market, the website work is described on our pages for <Link prefetch={false} href="/locations/medical-website-design-west-palm-beach" style={{ color: "var(--color-gold)" }}>medical website design in West Palm Beach</Link> and <Link prefetch={false} href="/locations/medical-website-design-florida" style={{ color: "var(--color-gold)" }}>medical website design across Florida</Link>.
           </p>
         </div>
       </section>
@@ -313,7 +313,7 @@ export default function WebsiteDesignPage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/contact"
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-6 font-bold text-white"
               style={{ height: "52px", fontSize: "1rem" }}
@@ -323,7 +323,7 @@ export default function WebsiteDesignPage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.6)" }}>
             Part of our{" "}
-            <Link href="/services" className="underline hover:opacity-80 text-white">
+            <Link prefetch={false} href="/services" className="underline hover:opacity-80 text-white">
               digital marketing services
             </Link>{" "}
             for independent primary care practices.

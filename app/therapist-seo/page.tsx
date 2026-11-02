@@ -168,7 +168,7 @@ export default function TherapistSEOPage() {
             color: "var(--smoke)",
           }}
         >
-          <li><Link href="/" className="breadcrumb-link">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
           <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
           <li aria-current="page" style={{ color: "var(--ash)" }}>Therapist SEO</li>
         </ol>
@@ -243,7 +243,7 @@ export default function TherapistSEOPage() {
             Most therapist marketing advice treats therapy like any other service business. It isn&rsquo;t. Here&rsquo;s what actually drives private-pay client acquisition for independent therapists — and why the directory approach is costing you clients you don&rsquo;t know about.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -459,7 +459,7 @@ export default function TherapistSEOPage() {
             Google Maps and Google SEO operate differently. When a therapist has a fully optimized Google Business Profile with consistent review velocity, category specificity, and weekly GBP posts, they appear in the Local 3-Pack for high-intent searches — often above directory listings. A client who clicks your GBP listing goes directly to your practice profile, not a directory where you compete with 40 other therapists. That&rsquo;s the acquisition model worth building.
           </p>
           <p style={{ marginTop: "16px" }}>
-            <Link
+            <Link prefetch={false}
               href="/blog/psychology-today-vs-google-seo-for-therapists"
               style={{
                 fontFamily: "system-ui, sans-serif",
@@ -803,7 +803,7 @@ export default function TherapistSEOPage() {
             { href: "/blog/psychology-today-vs-google-seo-for-therapists", label: "Psychology Today vs. Google SEO" },
             { href: "/the-audit", label: "Get a Free Audit" },
           ].map(({ href, label }) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               style={{
@@ -841,7 +841,7 @@ export default function TherapistSEOPage() {
             We audit your GBP, your website, your reviews, and your top local competitor. We&rsquo;ll show you exactly what it would take to move into the Local 3-Pack.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",

@@ -135,9 +135,9 @@ export default function SEOServicePage() {
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
           <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li><Link href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
+            <li><Link prefetch={false} href="/services" style={{ color: "var(--ash)", textDecoration: "none" }}>Services</Link></li>
             <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
             <li style={{ color: "var(--chalk)" }}>SEO</li>
           </ol>
@@ -221,7 +221,7 @@ export default function SEOServicePage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -292,7 +292,7 @@ export default function SEOServicePage() {
               this infrastructure daily. Primara levels that field without charging hospital-system rates.
             </p>
             <p style={{ fontSize: "1rem", color: "var(--ash)", lineHeight: 1.8, marginTop: "20px" }}>
-              Our newer AI search work is also written up for local markets, with separate pages for <Link href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. The website itself matters too, which is why we also cover <Link href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medical practice website design</Link>. Medical SEO is also written up market by market, including a page for practices in <Link href="/locations/medical-seo-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Lakeland and Polk County</Link> and one for our home market of <Link href="/locations/medical-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>West Palm Beach</Link>.
+              Our newer AI search work is also written up for local markets, with separate pages for <Link prefetch={false} href="/locations/ai-seo-florida" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility for Florida practices</Link> and <Link prefetch={false} href="/locations/ai-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>AI search visibility in West Palm Beach</Link>. The website itself matters too, which is why we also cover <Link prefetch={false} href="/services/medical-practice-website-design" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>medical practice website design</Link>. Medical SEO is also written up market by market, including a page for practices in <Link prefetch={false} href="/locations/medical-seo-lakeland" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>Lakeland and Polk County</Link> and one for our home market of <Link prefetch={false} href="/locations/medical-seo-west-palm-beach" className="underline" style={{ color: "var(--gold)", textUnderlineOffset: "3px" }}>West Palm Beach</Link>.
           </p>
           </div>
         </div>
@@ -459,7 +459,7 @@ export default function SEOServicePage() {
             ))}
           </div>
           <p style={{ fontSize: "0.9375rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "680px", marginTop: "28px" }}>
-            Every specialty needs its own search plan. For therapists we describe what works in our guide to <Link href="/therapist-seo" style={{ color: "var(--gold)" }}>SEO for therapists</Link>.
+            Every specialty needs its own search plan. For therapists we describe what works in our guide to <Link prefetch={false} href="/therapist-seo" style={{ color: "var(--gold)" }}>SEO for therapists</Link>.
           </p>
         </div>
       </section>
@@ -525,7 +525,7 @@ export default function SEOServicePage() {
               { href: "/services/online-reputation-management", label: "Reputation Management" },
               { href: "/results", label: "See the Results" },
             ].map(({ href, label }) => (
-              <Link
+              <Link prefetch={false}
                 key={href}
                 href={href}
                 style={{
@@ -591,7 +591,7 @@ export default function SEOServicePage() {
             >
               Call (561) 291-2681
             </a>
-            <Link
+            <Link prefetch={false}
               href="/the-audit"
               style={{
                 display: "inline-flex",
@@ -611,7 +611,7 @@ export default function SEOServicePage() {
           </div>
           <p className="mt-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
             Independent medical practices only · No long-term contracts ·{" "}
-            <Link href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
+            <Link prefetch={false} href="/services" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "underline" }}>
               All Services
             </Link>
           </p>
