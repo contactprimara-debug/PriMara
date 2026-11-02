@@ -578,5 +578,9 @@
  {
   "from_": "/dental-seo",
   "to": "/services/seo"
+ },
+ {
+  "from_": "/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims",
+  "to": "/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims"
  }
 ]

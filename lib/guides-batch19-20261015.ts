@@ -770,7 +770,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers. Whatever titles you list on a directory profile should match the state record, as explained in our guide to [therapist credentials and license titles on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website)."
       ),
       p(
-        "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not. Directory profiles often carry an affirming statement, and it should say the same thing as the practice's own [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) so a client sees one consistent welcome."
+        "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not. Directory profiles should say the same thing as the practice's own site, so a client sees one consistent description."
       ),
       h2("Make the profile match everything else"),
       p(
@@ -1264,7 +1264,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h3("Credentials: only what is true"),
       p(
-        "List the degree, the license and any certifications exactly as they were earned. Do not use a title the board does not permit, and do not list an acronym without saying what it stands for. If the clinician is pre-licensed, say so, and name the supervisor; the details are in our guide to a [pre-licensed clinician disclosure page](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice). If a clinician chooses to say they work with LGBTQ+ clients, the wording on their bio should match an honest [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) with no credentials the clinician does not hold. If a clinician conducts sessions in Spanish, say so on the bio and connect it to a fuller [bilingual Spanish-English counseling page](/guides/bilingual-spanish-english-counseling-page-for-a-counseling-practice-without-clinical-claims) that explains forms, reminders and booking."
+        "List the degree, the license and any certifications exactly as they were earned. Do not use a title the board does not permit, and do not list an acronym without saying what it stands for. If the clinician is pre-licensed, say so, and name the supervisor; the details are in our guide to a [pre-licensed clinician disclosure page](/guides/associate-and-pre-licensed-clinician-disclosure-page-for-a-counseling-practice). If a clinician conducts sessions in Spanish, say so on the bio and connect it to a fuller [bilingual Spanish-English counseling page](/guides/bilingual-spanish-english-counseling-page-for-a-counseling-practice-without-clinical-claims) that explains forms, reminders and booking."
       ),
       h2("Make it findable"),
       p(

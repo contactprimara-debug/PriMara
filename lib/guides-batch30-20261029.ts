@@ -136,7 +136,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h2("Wording that stays out of clinical territory"),
       p(
-        "Listing pronouns is a courtesy about how to address a person. It is not a statement about treatment, a specialty or an identity-based service. If the practice also welcomes a particular community, say that on its own page, as our guide to an [LGBTQ+ affirming counseling page](/guides/lgbtq-affirming-counseling-page-for-a-counseling-practice-without-clinical-claims) explains, and keep claims about expertise tied to training the clinician can document."
+        "Listing pronouns is a courtesy about how to address a person. It is not a statement about treatment, a specialty or a service. Keep any claims about expertise tied to training the clinician can document."
       ),
       p(
         "On the bio page, put the name line first, then the license title, then a short sentence about who the clinician sees. The pattern in our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) works well, and the page on [credentials and license titles](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website) shows how to spell the titles out."
