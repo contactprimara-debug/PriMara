@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-10-28",
+    "dateModified": "2026-11-02",
     "readMinutes": 6,
     "sections": [
       {
@@ -107,7 +107,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link to your forms page if you have one, and tell patients whether they can print, fill in on a phone, or complete forms at the desk. Our guide on [publishing new-patient forms without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers the privacy points, including why forms should not travel through an ordinary contact form."
+        "text": "Link to your forms page if you have one, and tell patients whether they can print, fill in on a phone, or complete forms at the desk. Our guide on [publishing new-patient forms without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers the privacy points, including why forms should not travel through an ordinary contact form. Patients who receive their paperwork in the mail need to know which parts to complete before the visit, which a page about the [new patient packet and what to expect in the mail](/guides/new-patient-packet-and-what-to-expect-in-the-mail-page-for-a-primary-care-practice) can spell out."
       },
       {
         "type": "h3",
@@ -618,7 +618,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A counseling practice website should state, in plain words near the contact details, that the site and phone line are not for emergencies, and that anyone in crisis can call or text 988 or call 911. Place it where a distressed visitor will see it without searching, and verify every number you list.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T15:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-11-02",
     "readMinutes": 6,
     "sections": [
       {
@@ -739,7 +739,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Numbers change and services move. Put a quarterly reminder on the calendar to click every crisis link, call every local number you list and confirm the wording still matches what your voicemail says. A broken crisis link is worse than none, because it signals the practice has stopped paying attention."
+        "text": "Numbers change and services move. Put a quarterly reminder on the calendar to click every crisis link, call every local number you list and confirm the wording still matches what your voicemail says. A broken crisis link is worse than none, because it signals the practice has stopped paying attention. Any page about prescribing should carry the same crisis wording, and our guide to a [medication management visits page for a mental health practice](/guides/medication-management-visits-page-for-a-mental-health-practice-without-clinical-claims) shows where to place it."
       },
       {
         "type": "p",

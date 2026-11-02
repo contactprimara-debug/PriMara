@@ -243,7 +243,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A late-arrival and missed-appointment page should state how many minutes late a patient can arrive, what happens after that, how to reschedule, and whether any fee applies. Publish only rules the office actually follows, write them in plain words, and keep the same wording on the website and in the Google profile.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:40:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Why primary care needs its own version of this page"),
@@ -290,7 +290,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Make sure staff say it the same way"),
       p("A policy is only as fair as its enforcement. If one receptionist waives the rule for regulars and another applies it to newcomers, patients will feel the difference and say so in reviews. Give the front desk a short script for each situation, covering what to say when a patient calls from the road, when they arrive past the window and when they ask for an exception."),
-      p("Review the numbers at the practice level every month. Count how many visits were rescheduled for lateness, how many were missed and how many fees were waived. If the figures are climbing, the problem may be reminder timing or parking rather than patient behavior, and the page should change to match what you learn."),
+      p("Review the numbers at the practice level every month. Count how many visits were rescheduled for lateness, how many were missed and how many fees were waived. If the figures are climbing, the problem may be reminder timing or parking rather than patient behavior, and the page should change to match what you learn. Patients who need to move a visit before it becomes a late arrival should find a clear route, which a short [rescheduling page for a primary care practice](/guides/rescheduling-an-appointment-online-page-for-a-primary-care-practice) provides in one screen."),
       p("Finally, put a date of last review at the bottom of the page. It tells patients the rules are current, and it reminds your team to check them."),
       p("Offer a quick path to act, too. A reschedule link or a direct phone number placed beside the policy turns a rule into a solution, and patients who can fix a problem in one tap are far less likely to simply stop coming."),
     ],
@@ -630,7 +630,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
@@ -683,7 +683,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Special cases: couples, minors and shared devices"),
       p("Some first sessions need more than one set of forms. For couples, say whether each person completes their own forms and whether the link goes to both addresses. For a minor, state who signs, since a parent or guardian is generally the one who consents, and the rules differ by state and by the age of the client. Keep these statements short and have the clinician confirm them."),
-      p("Also consider shared devices. A client who uses a family computer may not want a message with the practice name in the subject line. Offer a choice of contact method at booking, and let the client pick text, email or phone, so the practice honors the preference from the first message."),
+      p("Also consider shared devices. A client who uses a family computer may not want a message with the practice name in the subject line. Offer a choice of contact method at booking, and let the client pick text, email or phone, so the practice honors the preference from the first message. After the first session is done, a short [first-week check-in message](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) that covers scheduling only keeps the relationship going without touching anything clinical."),
       p("Keep a copy of the final wording in a shared document and note the date of the last change. When the forms, the fee policy or the portal change, the email changes too, and a dated master copy makes sure nobody keeps sending last year's version to this year's clients. The email can mention that the packet includes an emergency contact request, and link to an [emergency contact request on intake page for a counseling practice](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that explains when the contact would be used and what the practice would say."),
     ],
     faqs: [
@@ -1139,7 +1139,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-02",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
@@ -1151,7 +1151,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("What the consent section should explain"),
       p(
-        "Your own consent form is written by the practice and reviewed by someone qualified in your state, since telehealth rules differ by location and by clinician license. The website page should not replace it. It should summarize what the form covers in plain language and link to the form on the secure portal. Clients usually reach those forms through the portal, so explain how to log in and what to expect from messages on a [portal login and messaging expectations page](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice). State whether sessions may be recorded in a separate [session recording policy page](/guides/session-recording-policy-page-for-a-counseling-practice) and link to it from the video consent form."
+        "Your own consent form is written by the practice and reviewed by someone qualified in your state, since telehealth rules differ by location and by clinician license. The website page should not replace it. It should summarize what the form covers in plain language and link to the form on the secure portal. Clients usually reach those forms through the portal, so explain how to log in and what to expect from messages on a [portal login and messaging expectations page](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice). State whether sessions may be recorded in a separate [session recording policy page](/guides/session-recording-policy-page-for-a-counseling-practice) and link to it from the video consent form. The video link is often sent inside a calendar invite, and our guide to [calendar invite wording for a counseling practice](/guides/calendar-invite-wording-for-a-counseling-practice-that-protects-client-privacy) explains how to keep the title and description neutral."
       ),
       ul(
         "That sessions take place by secure video, and which platform the practice uses.",

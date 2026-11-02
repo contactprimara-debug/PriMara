@@ -220,7 +220,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A referral partner page is a plain page for other clinicians and care coordinators. It states who you are, what you accept, how to send a referral and who to contact. Keep it separate from patient copy, keep patient information off it, and make the contact route obvious.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -229,7 +229,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Most of a primary care website speaks to patients. A referral partner page speaks to a different reader: a specialist's office, a hospital discharge planner, a case manager at a community agency or a nurse who needs to send a record to the right place. These readers are busy and usually have one question, which is how to reach the right person at your practice. The counseling side of the exchange, a [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer), speaks to doctors and school staff who want to send someone to a therapist."
+        "text": "Most of a primary care website speaks to patients. A referral partner page speaks to a different reader: a specialist's office, a hospital discharge planner, a case manager at a community agency or a nurse who needs to send a record to the right place. These readers are busy and usually have one question, which is how to reach the right person at your practice. The counseling side of the exchange, a [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer), speaks to doctors and school staff who want to send someone to a therapist. Counselors who want to reach physicians like these can send a short [introduction letter to local primary care offices](/guides/introduction-letter-to-local-primary-care-offices-from-a-counseling-practice-without-patient-details) that describes who they see and how to refer."
       },
       {
         "type": "p",
@@ -613,7 +613,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A specialty page describes who you work with, what a first session is like and how to book, using ordinary words. It should not promise outcomes, diagnose readers or describe treatment as a cure. Give each specialty its own page, built around what a person is searching for.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-02",
     "readMinutes": 8,
     "sections": [
       {
@@ -634,7 +634,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Build pages for work that clinicians in your practice actually do, and that someone can book this month. A page for a specialty nobody on staff handles creates calls you cannot serve and can raise honesty problems with your licensing board."
+        "text": "Build pages for work that clinicians in your practice actually do, and that someone can book this month. A page for a specialty nobody on staff handles creates calls you cannot serve and can raise honesty problems with your licensing board. A practice that offers evaluations through a psychologist can describe the process on its own [psychological testing and evaluation page](/guides/psychological-testing-and-evaluation-page-for-a-counseling-practice-without-clinical-claims) without listing tests or promising findings."
       },
       {
         "type": "p",
@@ -1042,7 +1042,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A UTM link is your normal web address with a few labels added, such as source and medium. Put one on your Google Business Profile website button and on each directory listing, and Google Analytics 4 will show which listing sent the visit. Never put patient information in any label.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -1113,7 +1113,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Never use UTM labels on links between pages of your own website. Doing so starts a new session in Analytics every time a person clicks and hides the original source. Use them only on links that bring people to the site from outside."
+        "text": "Never use UTM labels on links between pages of your own website. Doing so starts a new session in Analytics every time a person clicks and hides the original source. Use them only on links that bring people to the site from outside. Before you tag the link, decide where it should land, using our guide on [which page to use as the website link on a Google profile](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) for single and multi-office practices."
       },
       {
         "type": "p",

@@ -275,7 +275,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "An appointment request form should collect only what the front desk needs to call the patient back: name, phone, best time to call, new or returning, and insurance name. Leave out symptoms, reason for the visit and Social Security numbers. Fewer fields get more completed forms and expose less private information.",
     author: "Gio LaRoche",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("The form has one job"),
@@ -305,7 +305,7 @@ export const guidesPartTwentySeven: Guide[] = [
       h2("Wording that protects the patient"),
       h3("A short notice above the button"),
       p(
-        "Tell people what happens next and what not to send. For example: We will call you within one business day to find a time. Please do not include symptoms or medical details here. If this is an emergency, call 911. That sentence sets the expectation for speed, keeps the form clean and sends the urgent case somewhere safe."
+        "Tell people what happens next and what not to send. For example: We will call you within one business day to find a time. Please do not include symptoms or medical details here. If this is an emergency, call 911. That sentence sets the expectation for speed, keeps the form clean and sends the urgent case somewhere safe. The label above the form should match what the form does, and our guide to [same-day appointment request button wording](/guides/same-day-appointment-request-button-wording-for-a-primary-care-practice) shows how to say request and not book when staff confirm each one."
       ),
       h3("Honest response times"),
       p(

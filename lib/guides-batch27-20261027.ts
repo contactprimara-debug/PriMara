@@ -740,7 +740,7 @@ export const guidesPartThirty: Guide[] = [
       "A texting between sessions policy page says which texts the practice accepts, such as scheduling, tells clients to keep clinical content out of text messages, gives realistic response times, explains how to use the secure portal, and states that texting is not for emergencies. It includes consent and opt out wording and the 988 number.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Why clients text, and why the practice needs a policy"),
@@ -775,7 +775,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h2("Follow the texting rules"),
       p(
-        "Texts from a business are covered by rules on consent and opt out, and your texting vendor should keep the records. The FCC explains how to [stop unwanted texts and calls](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts), and our guide to [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice) explains how consent works for practices. Ask your attorney to review the final wording."
+        "Texts from a business are covered by rules on consent and opt out, and your texting vendor should keep the records. The FCC explains how to [stop unwanted texts and calls](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts), and our guide to [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice) explains how consent works for practices. Ask your attorney to review the final wording. When a client has agreed to texts, the plainest use is a scheduling note, and our guide to a [first-week check-in after the first session](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) shows the safe wording and the timing."
       ),
       h3("Tell staff what to do when a client breaks the rule"),
       p(

@@ -708,12 +708,12 @@ export const guidesPartThirtyFour: Guide[] = [
       "Describe each focus area by what you can document: the training completed, the years of experience and the kinds of clients seen. Avoid the words expert, specialist and leading unless a board or certifying body gives you that title. Let readers see the basis for every claim.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-02",
     readMinutes: 5,
     sections: [
       h2("The word that causes the trouble"),
       p(
-        "Almost every counseling website has a section called Specialties. The word feels harmless, but it can imply a certification that does not exist. A clinician who completed a weekend training and a clinician with ten years of focused work both end up with the same heading, and a reader has no way to tell them apart."
+        "Almost every counseling website has a section called Specialties. The word feels harmless, but it can imply a certification that does not exist. A clinician who completed a weekend training and a clinician with ten years of focused work both end up with the same heading, and a reader has no way to tell them apart. Testing is a good example of a service that must be tied to the right license, as our guide to a [psychological testing and evaluation page for a practice](/guides/psychological-testing-and-evaluation-page-for-a-counseling-practice-without-clinical-claims) explains step by step."
       ),
       p(
         "Professional ethics codes ask counselors to describe their qualifications accurately, and licensing boards can act on misleading advertising. The practical fix is simple: say what you did, not what you are."

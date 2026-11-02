@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       {
@@ -295,7 +295,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Search engines build a picture of your practice by matching details across many sources. When the name, address, and phone number agree, the picture is clear. When one directory says 'Suite 200' and another says 'Ste. 2', or one lists a former phone number, the sources look like they describe different businesses, and a patient can land on the wrong one. A change of provider is one of the common causes of drift, so use our guide to [what to update when a provider joins or leaves a practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) as a checklist. Insurance details drift the same way addresses do, so see [what to update online when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network)."
+        "text": "Search engines build a picture of your practice by matching details across many sources. When the name, address, and phone number agree, the picture is clear. When one directory says 'Suite 200' and another says 'Ste. 2', or one lists a former phone number, the sources look like they describe different businesses, and a patient can land on the wrong one. A change of provider is one of the common causes of drift, so use our guide to [what to update when a provider joins or leaves a practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) as a checklist. Insurance details drift the same way addresses do, so see [what to update online when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). The name is the first letter of NAP, and our guide to the [business name on a Google profile](/guides/business-name-on-a-google-business-profile-for-a-medical-practice-legal-name-credentials-and-keywords) explains how the real-world name should match the sign, the website and the state record."
       },
       {
         "type": "p",

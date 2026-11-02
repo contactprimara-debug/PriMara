@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-21",
+  "dateModified": "2026-11-02",
   "readMinutes": 7,
   "sections": [
     {
@@ -413,7 +413,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Google's published guidelines say a practitioner can be eligible for their own listing when they are a public-facing professional who is publicly visible, and they warn against creating multiple listings that represent the same business at the same location. Rules for healthcare providers have been updated over time, so read the current text yourself rather than relying on a summary, including this one. The guidelines are at the link in the sources below."
+      "text": "Google's published guidelines say a practitioner can be eligible for their own listing when they are a public-facing professional who is publicly visible, and they warn against creating multiple listings that represent the same business at the same location. Rules for healthcare providers have been updated over time, so read the current text yourself rather than relying on a summary, including this one. The guidelines are at the link in the sources below. Each listing should open the page that matches it, a point covered in our guide on [which page to use as the website link](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) for offices and individual providers."
     },
     {
       "type": "h2",
@@ -1113,7 +1113,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Open the Performance section of your Business Profile, set the date range to the full previous month, and record the same few numbers every month: views, calls, directions, website clicks and bookings. Compare with the prior month and last year, and treat sudden changes as a reason to look closer, not a verdict.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-21",
+  "dateModified": "2026-11-02",
   "readMinutes": 6,
   "sections": [
     {
@@ -1203,7 +1203,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If views are steady but calls fall, check that your phone number, hours and primary category are correct and that the call button works. If direction requests fall, check the address and map pin. If website clicks fall, confirm the website link still loads the right page. Our [monthly Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) lists the checks to run each month. To compare Google's own click numbers with what happens on your site, put a [UTM link on your profile's website button](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) and check the source in Analytics. If the call count in the profile report looks low, compare it with taps on the website phone button, which our guide to [placing a click-to-call button on mobile pages](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) explains how to count."
+      "text": "If views are steady but calls fall, check that your phone number, hours and primary category are correct and that the call button works. If direction requests fall, check the address and map pin. If website clicks fall, confirm the website link still loads the right page. Our [monthly Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) lists the checks to run each month. To compare Google's own click numbers with what happens on your site, put a [UTM link on your profile's website button](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) and check the source in Analytics. If the call count in the profile report looks low, compare it with taps on the website phone button, which our guide to [placing a click-to-call button on mobile pages](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) explains how to count. Once you can read the call-tap number, compare it against your own phone log each week, a routine described in our guide to a [Google profile call-count and missed-call review](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice) for a counseling practice."
     },
     {
       "type": "callout",
@@ -1287,7 +1287,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "In your Business Profile, open the booking or appointment link setting, add the web address where patients can book, save it, and then test it on a phone. Link to a page that works without extra steps and does not collect health details. If you use a booking provider, Google may connect through it instead.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-19",
+  "dateModified": "2026-11-02",
   "readMinutes": 6,
   "sections": [
     {
@@ -1341,7 +1341,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it."
+      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it. Keep the appointment link and the website link separate, and read our guide on [which page to use as the website link on a Google profile](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) before you decide which page the website field should open."
     },
     {
       "type": "h2",
@@ -2343,7 +2343,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add your site to Google Search Console as a Domain property if you can, or a URL-prefix property if you cannot, then verify ownership with a DNS record or another method Google offers. Submit your sitemap, add a second owner from the practice, and give vendors the lowest permission that works. Keep the verification in place permanently.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-11-02",
   "readMinutes": 7,
   "sections": [
     {
@@ -2407,7 +2407,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "In Search Console, open Sitemaps and enter your sitemap address, commonly the site address followed by /sitemap.xml. A sitemap helps Google find your pages, though it does not guarantee they will be indexed. Our guide on [XML sitemaps and robots.txt](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) explains what belongs in it. Check the Sitemaps report afterward and confirm Google read it without errors. When Search Console lists pages it could not find, decide which need a redirect and which should show a [helpful custom 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) that sends visitors to the phone number."
+      "text": "In Search Console, open Sitemaps and enter your sitemap address, commonly the site address followed by /sitemap.xml. A sitemap helps Google find your pages, though it does not guarantee they will be indexed. Our guide on [XML sitemaps and robots.txt](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) explains what belongs in it. Check the Sitemaps report afterward and confirm Google read it without errors. When Search Console lists pages it could not find, decide which need a redirect and which should show a [helpful custom 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) that sends visitors to the phone number. Once the property is verified, the first report to open is page indexing, which our guide to the [Search Console page indexing report](/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website) explains status by status."
     },
     {
       "type": "h2",

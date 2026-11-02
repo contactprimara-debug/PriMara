@@ -524,7 +524,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A telehealth instructions page for a primary care practice shows patients how to join the video visit, what to have ready, what to do if the connection fails and which concerns need an in-person visit or 911. Write it as numbered steps a patient can follow from a phone.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("What this page is for"),
@@ -568,7 +568,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Point to the consent step if the platform asks for it."
       ),
       p(
-        "Finally, tell patients what happens after the visit: whether the provider will send a summary through the portal, how prescriptions are handled and how to book a follow-up. The Medicare page on [telehealth services](https://www.medicare.gov/coverage/telehealth) is a useful neutral reference for patients who ask what is covered. Patients also ask what to gather before the call, which a [first telehealth visit page about the medication list and records to have ready](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice) answers in a short checklist."
+        "Finally, tell patients what happens after the visit: whether the provider will send a summary through the portal, how prescriptions are handled and how to book a follow-up. The Medicare page on [telehealth services](https://www.medicare.gov/coverage/telehealth) is a useful neutral reference for patients who ask what is covered. Patients also ask what to gather before the call, which a [first telehealth visit page about the medication list and records to have ready](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice) answers in a short checklist. Patients enrolled in a home device program need their own instructions, and a [remote patient monitoring explainer page](/guides/remote-patient-monitoring-program-explained-on-a-primary-care-practice-website) can cover setup, privacy and who to call."
       ),
     ],
     faqs: [
@@ -712,12 +712,12 @@ export const guidesPartTwentyEight: Guide[] = [
       "A portal page for a counseling practice should tell clients where to log in, what the portal is for, how fast messages are answered and what never to send there. State a reply window, send crisis messages to 988 and 911, and keep clinical conversation for the session.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Why clients need this page"),
       p(
-        "Counseling clients often assume a portal message works like a text to a friend. They write at midnight and expect an answer by morning. If the clinician only checks messages twice a week, that gap becomes frustration, and in a few cases it becomes a safety problem. Setting expectations on a public page, then repeating them inside the portal, protects clients and clinicians."
+        "Counseling clients often assume a portal message works like a text to a friend. They write at midnight and expect an answer by morning. If the clinician only checks messages twice a week, that gap becomes frustration, and in a few cases it becomes a safety problem. Setting expectations on a public page, then repeating them inside the portal, protects clients and clinicians. If a client wants appointment reminders outside the portal, follow the advice in our guide to [calendar invite wording that protects client privacy](/guides/calendar-invite-wording-for-a-counseling-practice-that-protects-client-privacy) so nothing revealing reaches a shared screen."
       ),
       p(
         "This page is different from the login page for a general medical practice described in our guide to the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe), and from the primary care guide to [lab results and portal message expectations](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice). A counseling portal carries different messages and different risks."
@@ -1081,12 +1081,12 @@ export const guidesPartTwentyEight: Guide[] = [
       "Explain each clinician's license title in one plain sentence, show the full title as the state issues it, and link to the state license lookup so visitors can verify it. Never abbreviate in a way that suggests a higher credential, and never list a title you cannot confirm.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Why the letters confuse visitors"),
       p(
-        "A visitor searching for therapy meets a stack of abbreviations: LMHC, LMFT, LCSW, PhD, PsyD. Most people do not know what they mean, and some assume the longest string of letters means the best provider. That is not true, and a website that leaves the letters unexplained makes visitors feel excluded at the exact moment they are trying to feel welcome."
+        "A visitor searching for therapy meets a stack of abbreviations: LMHC, LMFT, LCSW, PhD, PsyD. Most people do not know what they mean, and some assume the longest string of letters means the best provider. That is not true, and a website that leaves the letters unexplained makes visitors feel excluded at the exact moment they are trying to feel welcome. Because only certain licenses may perform testing, the difference matters on a [psychological testing and evaluation page](/guides/psychological-testing-and-evaluation-page-for-a-counseling-practice-without-clinical-claims), where the examiner must be named correctly."
       ),
       p(
         "A short explanation next to each clinician fixes that. It also protects the practice, because titles are regulated. States control who may use them, and a wrong title can lead to a complaint with the licensing board."
@@ -1449,7 +1449,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A referral page for a counseling practice tells doctors, school staff and clients who the practice serves, how to send a referral, what information is needed and how the referrer will hear back. Ask for the minimum, never post names, and obtain the client's written permission before sharing anything.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Who uses this page"),
@@ -1493,7 +1493,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Respond fast and keep it simple"),
       p(
-        "Referrers remember how quickly they heard back. Decide who checks the referral inbox each business day, how quickly that person will reach the prospective client and what to say if the practice has no openings. Write the answers down and put the first two on the page, so a doctor's office or a school counselor knows what to expect before they send anyone."
+        "Referrers remember how quickly they heard back. Decide who checks the referral inbox each business day, how quickly that person will reach the prospective client and what to say if the practice has no openings. Write the answers down and put the first two on the page, so a doctor's office or a school counselor knows what to expect before they send anyone. The page waits for referrals to find it, while a short [introduction letter to local primary care offices](/guides/introduction-letter-to-local-primary-care-offices-from-a-counseling-practice-without-patient-details) asks local primary care offices to look at it first."
       ),
     ],
     faqs: [

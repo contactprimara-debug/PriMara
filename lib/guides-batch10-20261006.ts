@@ -360,7 +360,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Internal linking means pointing your own pages at each other using descriptive link text. Link every service page from your navigation and from related pages, give each provider bio and location page at least a few contextual links, and fix orphan pages that nothing links to. Google finds pages mainly by following links.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-11-02",
     "readMinutes": 6,
     "sections": [
       {
@@ -369,7 +369,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google discovers pages by following links, and it uses the words in a link to learn what the target is about. A page that no other page links to is an orphan, and it can sit unindexed for months even when it is in your sitemap. Internal links also decide how patients move around: from a symptom article to the service page, from a bio to the booking page. Good linking helps the people who read the site and the crawler that visits it, with the same moves."
+        "text": "Google discovers pages by following links, and it uses the words in a link to learn what the target is about. A page that no other page links to is an orphan, and it can sit unindexed for months even when it is in your sitemap. Internal links also decide how patients move around: from a symptom article to the service page, from a bio to the booking page. Good linking helps the people who read the site and the crawler that visits it, with the same moves. Pages stuck as Crawled or Discovered in Search Console usually need links like these, as our guide to the [Search Console page indexing report](/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website) describes."
       },
       {
         "type": "h2",

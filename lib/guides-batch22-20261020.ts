@@ -660,12 +660,12 @@ export const guidesPartTwentyFive: Guide[] = [
       "A primary care practice can run a cancellation list by telling patients how to join, how they are contacted, how fast they must answer, and what order openings are offered in. Publish same-day availability only if it is real, say it can change, and never promise that a patient will be seen on a given day.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("An empty slot is a patient you did not reach"),
       p(
-        "Every cancelled visit leaves a gap, and every gap is a chance for someone who has been waiting to be seen sooner. Most practices fill those gaps by whoever happens to be on the phone, which is fair to nobody. A written cancellation list changes that into a system patients can understand."
+        "Every cancelled visit leaves a gap, and every gap is a chance for someone who has been waiting to be seen sooner. Most practices fill those gaps by whoever happens to be on the phone, which is fair to nobody. A written cancellation list changes that into a system patients can understand. Every visit that is moved online or by phone frees a slot, and a well-written [rescheduling page that explains the notice window](/guides/rescheduling-an-appointment-online-page-for-a-primary-care-practice) tells patients how to release it early enough for the list to use it."
       ),
       p(
         "It also gives the website something concrete to say to the visitor who finds a three-week wait and is about to book elsewhere: you can ask to be called if something sooner opens."
@@ -1229,12 +1229,12 @@ export const guidesPartTwentyFive: Guide[] = [
       "A therapy practice homepage should tell a nervous first-time visitor who the clinicians are, who they see, what a first contact looks like, what it costs, and how privacy works. It should use calm, plain words, one clear way to reach out, and no promises about outcomes or lists of diagnoses.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("The visitor is deciding whether it is safe to call"),
       p(
-        "A person arriving on a therapist's homepage has often thought about it for weeks. They are not comparing features. They are deciding whether the person behind this page will be kind, whether it will be expensive, and whether anyone they know will find out. The page has a few seconds to say yes to each."
+        "A person arriving on a therapist's homepage has often thought about it for weeks. They are not comparing features. They are deciding whether the person behind this page will be kind, whether it will be expensive, and whether anyone they know will find out. The page has a few seconds to say yes to each. A first-time visitor who is still unsure can be reassured by seeing the space, so link the homepage to an [office tour page for a counseling practice](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) with real photos and captions."
       ),
       p(
         "That reframes the job of the homepage. It is less a brochure than a reassurance: here is who we are, here is who we see, here is how to start, and here is what happens to your information."

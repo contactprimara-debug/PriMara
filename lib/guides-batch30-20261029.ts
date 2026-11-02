@@ -964,7 +964,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "A new counseling practice can show its opening date on its Google Business Profile once the listing is verified, and publish a coming soon page that states the opening date, the address, how to join a contact list and what is not yet available. Never accept clients, advertise services or list credentials before licensure is in place.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-02",
     readMinutes: 5,
     sections: [
       h2("The weeks before the first session"),
@@ -972,7 +972,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "A new counseling practice has a quiet stretch between signing a lease or finishing licensure and seeing the first client. Most owners spend it on furniture and paperwork, and the website sits empty. That is a lost opportunity, because search engines and the people nearby have no idea the practice is coming, and the first weeks after opening are when the profile and site start building history."
       ),
       p(
-        "A short coming soon page and a correctly set opening date let you begin that history honestly. They tell the public when you open, collect a contact list, and avoid the confusing impression of a practice that exists but cannot take calls."
+        "A short coming soon page and a correctly set opening date let you begin that history honestly. They tell the public when you open, collect a contact list, and avoid the confusing impression of a practice that exists but cannot take calls. New practices should also explain where insurance stands, and our guide to [insurance credentialing in progress for a new practice](/guides/insurance-credentialing-in-progress-wording-for-a-new-counseling-practice-website) gives honest wording by status."
       ),
       h2("What the coming soon page should hold"),
       table(
@@ -1221,12 +1221,12 @@ export const guidesPartThirtyThree: Guide[] = [
       "A chronic care management page explains, in plain words, that the practice offers an optional monthly service of care coordination between visits for Medicare patients with multiple ongoing conditions, that the patient must agree to take part, that cost sharing may apply, and that only one practice can bill for it per month. Say who to call and promise no health results.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-02",
     readMinutes: 5,
     sections: [
       h2("A program patients hear about from a bill first"),
       p(
-        "Chronic care management is a Medicare service in which a practice coordinates a patient's care between office visits for people who live with more than one ongoing health condition. Many patients first hear of it in a phone call from the office or see a line on a statement they do not understand. That is the worst order to learn about something that may carry a cost."
+        "Chronic care management is a Medicare service in which a practice coordinates a patient's care between office visits for people who live with more than one ongoing health condition. Many patients first hear of it in a phone call from the office or see a line on a statement they do not understand. That is the worst order to learn about something that may carry a cost. Practices that also send devices home should explain that program separately, as our guide to a [remote patient monitoring page](/guides/remote-patient-monitoring-program-explained-on-a-primary-care-practice-website) describes, including who sees the readings."
       ),
       p(
         "A short page on the practice website changes the order. It describes the service in plain words before anyone is asked to join, shows that the practice explains costs openly, and gives search engines and answer tools a clear statement to quote when someone searches for what the program means."
@@ -1306,12 +1306,12 @@ export const guidesPartThirtyThree: Guide[] = [
       "An auto reply to a new client inquiry should confirm the message arrived, say who will answer and when, give the office phone number, point to 988 and 911 for emergencies and ask for no health details. Send it from a real practice address, keep it short and only promise the reply time you reliably meet.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-02",
     readMinutes: 5,
     sections: [
       h2("The minute after someone presses send"),
       p(
-        "A person who fills out a counseling inquiry form has just done something hard. They typed a few lines, pressed send, and now they wait. Silence in that moment feels like rejection. A short automatic reply that says the message arrived, who reads it and what happens next turns the wait into a known quantity, and many people will not search for another counselor while they wait."
+        "A person who fills out a counseling inquiry form has just done something hard. They typed a few lines, pressed send, and now they wait. Silence in that moment feels like rejection. A short automatic reply that says the message arrived, who reads it and what happens next turns the wait into a known quantity, and many people will not search for another counselor while they wait. The auto-reply is the first message a client receives; the second should come within a day of the first session, and our [guide to wording the first-week check-in](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) shows what it can say."
       ),
       p(
         "The reply is also the first piece of writing from the practice that the person owns. It sets the tone for the voice of the office, so it should sound like a human at the front desk and not like a ticket system."

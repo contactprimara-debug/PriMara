@@ -179,7 +179,7 @@ export const guidesPartThirtyTwo: Guide[] = [
       "A paper forms and phone registration page tells patients who cannot use the internet that they can register by calling the office, picking up forms at the front desk or receiving them by mail. It names the phone number, the hours and what to bring, and it never asks for personal details on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T15:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-02",
     readMinutes: 5,
     sections: [
       h2("Not every patient starts online"),
@@ -210,7 +210,7 @@ export const guidesPartThirtyTwo: Guide[] = [
       ),
       h3("Make the paper route as private as the online one"),
       p(
-        "Forms mailed to a home address can be seen by other people in the household, so mark the envelope with the practice's return address only and keep the practice name neutral. Tell patients that returned forms are handled under the same privacy rules as everything else, described in the [HIPAA information for individuals](https://www.hhs.gov/hipaa/for-individuals/index.html)."
+        "Forms mailed to a home address can be seen by other people in the household, so mark the envelope with the practice's return address only and keep the practice name neutral. Tell patients that returned forms are handled under the same privacy rules as everything else, described in the [HIPAA information for individuals](https://www.hhs.gov/hipaa/for-individuals/index.html). If the practice mails a packet to patients who prefer paper, describe its contents and return options on a [page about the new patient packet](/guides/new-patient-packet-and-what-to-expect-in-the-mail-page-for-a-primary-care-practice) linked from this page."
       ),
       h2("Where to link the page"),
       p(

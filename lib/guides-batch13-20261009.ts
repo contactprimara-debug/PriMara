@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -306,7 +306,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording."
+        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice)."
       },
       {
         "type": "callout",
@@ -395,7 +395,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -404,7 +404,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Practices often say they want new patient forms on the website, but that phrase covers two different jobs. The first is publishing a blank form so a patient can print or read it before the visit. The second is collecting a completed form online. The first carries almost no privacy risk. The second means health and personal details travel through your website, and that changes what tools and vendors you can use. The first request form on the site should stay much shorter than the paperwork, as our guide to [what an appointment request form should ask](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) explains."
+        "text": "Practices often say they want new patient forms on the website, but that phrase covers two different jobs. The first is publishing a blank form so a patient can print or read it before the visit. The second is collecting a completed form online. The first carries almost no privacy risk. The second means health and personal details travel through your website, and that changes what tools and vendors you can use. The first request form on the site should stay much shorter than the paperwork, as our guide to [what an appointment request form should ask](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) explains. Practices that also mail forms should describe the packet on its own page, as our guide to a [new patient packet by mail page](/guides/new-patient-packet-and-what-to-expect-in-the-mail-page-for-a-primary-care-practice) explains, so patients know what arrives and how to return it."
       },
       {
         "type": "h2",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -1719,7 +1719,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Reaching out to a therapist is hard. Many people open a practice website, read the first screen, and leave without calling because they do not know what will happen. A page that walks through the first session removes uncertainty, and uncertainty is often the real obstacle. Clients also want to know the length and rhythm of sessions, which our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) covers without promising results. Many first-time visitors read the homepage before the first session page, so keep both consistent and use our guide to a [therapy practice homepage for first-time visitors](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see)."
+        "text": "Reaching out to a therapist is hard. Many people open a practice website, read the first screen, and leave without calling because they do not know what will happen. A page that walks through the first session removes uncertainty, and uncertainty is often the real obstacle. Clients also want to know the length and rhythm of sessions, which our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) covers without promising results. Many first-time visitors read the homepage before the first session page, so keep both consistent and use our guide to a [therapy practice homepage for first-time visitors](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see). Many first-time clients also want to see the waiting area and the room before they come, which an [office tour and virtual tour page](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) answers without asking them to phone."
       },
       {
         "type": "p",
@@ -2096,7 +2096,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "If your primary care practice offers same-day appointments, say so clearly in your profile, your page titles and your phone greeting. Say what same-day means, who qualifies, and when to go to urgent care or the emergency room instead. Do not describe yourself as urgent care unless you are.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -2164,7 +2164,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly. Same-day availability should come with a clear rule for emergencies, which our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) helps a primary care practice write. Patients searching for a doctor near me often wonder which type to choose, so link the visit page to a plain [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice)."
+        "text": "A good same-day page includes a short, calm note about when to seek other care. For example, say that anyone with a medical emergency should call 911 or go to the nearest emergency room, and that you are not an urgent care center. This protects patients and sets honest expectations. It also keeps your profile in line with Google's guidelines on representing your business accurately. Patients who search for same-day visits often call, so make sure your [phone menu and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) sends new-patient calls to a person quickly. Same-day availability should come with a clear rule for emergencies, which our guide on [when to call the office versus 911 or urgent care](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) helps a primary care practice write. Patients searching for a doctor near me often wonder which type to choose, so link the visit page to a plain [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice). The wording on the button matters as much as the listing, and our guide to [same-day appointment request button wording](/guides/same-day-appointment-request-button-wording-for-a-primary-care-practice) compares the labels and the cutoff-time line that go with them."
       },
       {
         "type": "p",
@@ -2279,7 +2279,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice joins or leaves an insurance network, patients find out online first. Update your own insurance page first, then your Google profile, directory listings, scheduling tool and phone script on the effective date. Use plain wording and a date, and send existing patients a notice through your normal channels.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-11-02",
     "readMinutes": 7,
     "sections": [
       {
@@ -2288,7 +2288,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many patients search for a doctor who takes their plan. If your site says you take a plan you have dropped, the call ends badly. If it fails to say you joined a new network, you miss patients who would have booked. Because insurance details sit in many places, changes tend to land in one place and miss the others."
+        "text": "Many patients search for a doctor who takes their plan. If your site says you take a plan you have dropped, the call ends badly. If it fails to say you joined a new network, you miss patients who would have booked. Because insurance details sit in many places, changes tend to land in one place and miss the others. Until the contract is confirmed in writing, use the careful wording in our guide to [insurance credentialing in progress wording](/guides/insurance-credentialing-in-progress-wording-for-a-new-counseling-practice-website) and do not list the plan as accepted."
       },
       {
         "type": "p",

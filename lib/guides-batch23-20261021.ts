@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -179,7 +179,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["Thank-you and confirmation pages", "A line saying where to call if the visit needs to change."]
       ),
       p(
-        "Do not put four buttons in the first screen. One clear button plus the number in the header is enough, and a crowded top of page pushes the actual answer below the fold. The words on the button matter as much as its position, and our guide to [call to action button wording for a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) compares the book, request and call options."
+        "Do not put four buttons in the first screen. One clear button plus the number in the header is enough, and a crowded top of page pushes the actual answer below the fold. The words on the button matter as much as its position, and our guide to [call to action button wording for a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) compares the book, request and call options. For same-day visits the request button and the call button sit side by side, and our guide to [same-day request button wording for primary care](/guides/same-day-appointment-request-button-wording-for-a-primary-care-practice) explains how to label and place both."
       ),
       h3("Size and spacing"),
       p(
@@ -245,7 +245,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A behavioral health referral page tells patients how the practice connects them with counseling or psychiatry: who asks for the referral, how long it usually takes, what insurance may require and where to go in a crisis. It names partners only with their permission and makes no promise about results.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Patients ask, and then they stall"),
@@ -280,7 +280,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Privacy on the page"),
       p(
-        "Referral details are sensitive. The page should say that the office shares only the information needed for the referral, which matches the idea behind the [minimum necessary rule](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html), and that patients can ask what was sent. Do not put a referral request form on the page unless it is on a secure, privacy-reviewed system. A phone number is safer than a form that asks about feelings. Counseling practices that receive these referrals can publish the other side of the exchange on a [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer) with the same privacy limits."
+        "Referral details are sensitive. The page should say that the office shares only the information needed for the referral, which matches the idea behind the [minimum necessary rule](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html), and that patients can ask what was sent. Do not put a referral request form on the page unless it is on a secure, privacy-reviewed system. A phone number is safer than a form that asks about feelings. Counseling practices that receive these referrals can publish the other side of the exchange on a [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer) with the same privacy limits. When the practice employs a prescriber, describe that visit on its own [medication management visits page](/guides/medication-management-visits-page-for-a-mental-health-practice-without-clinical-claims) so referring offices know what the practice can provide."
       ),
       h3("The loop back to the practice"),
       p(
@@ -1418,12 +1418,12 @@ export const guidesPartTwentySix: Guide[] = [
       "A referral thank-you loop acknowledges each referral quickly, confirms that the patient was seen, shares only the information the referring doctor needs for treatment, and asks one question about how the process worked. Keep it short, keep it private and send it through a secure channel, not plain email.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       h2("Referrals are relationships"),
       p(
-        "When another doctor, a counselor or a hospital team sends a patient to a primary care practice, they are lending their reputation. A quick acknowledgment tells them the patient landed safely and makes the next referral more likely. Silence does the opposite. Counseling practices can welcome referrals from doctors and schools on a dedicated [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer) that explains how to send one."
+        "When another doctor, a counselor or a hospital team sends a patient to a primary care practice, they are lending their reputation. A quick acknowledgment tells them the patient landed safely and makes the next referral more likely. Silence does the opposite. Counseling practices can welcome referrals from doctors and schools on a dedicated [referral page for a counseling practice](/guides/referral-source-page-for-a-counseling-practice-how-doctors-schools-and-clients-refer) that explains how to send one. A counseling practice that wants doctors to send it clients can start with a one-page [introduction letter to primary care offices](/guides/introduction-letter-to-local-primary-care-offices-from-a-counseling-practice-without-patient-details) and no patient details."
       ),
       p(
         "The practices that earn steady referrals are rarely the flashiest. They are the ones that confirm, follow up and are easy to reach."

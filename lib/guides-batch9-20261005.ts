@@ -19,7 +19,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Google Search Console is a free tool that shows how your website performs in Google Search. For a practice, check three things: the Performance report for clicks and impressions by page and query, the Pages report for what is indexed, and the Sitemaps report. Review monthly, and act on drops that last several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       {
@@ -53,7 +53,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The Pages report, under Indexing, lists URLs Google knows about and whether each is indexed. Not every URL belongs in the index, since login pages and thank-you pages are often excluded on purpose. Focus on the pages you want patients to find: service pages, location pages, and provider pages. If one of those appears under a status such as discovered but not indexed, or crawled but not indexed, treat it as a content or linking problem to investigate. The URL Inspection tool lets you test a single page and see what Google last crawled. Average position is one of several rank sources, and our guide on [tracking local search rankings for a practice](/guides/how-to-track-local-search-rankings-for-a-medical-practice) compares them. When the report shows duplicates, the URL Inspection tool can show which canonical Google chose; see [canonical tags and duplicate content on a medical practice website](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website) for how to respond."
+        "text": "The Pages report, under Indexing, lists URLs Google knows about and whether each is indexed. Not every URL belongs in the index, since login pages and thank-you pages are often excluded on purpose. Focus on the pages you want patients to find: service pages, location pages, and provider pages. If one of those appears under a status such as discovered but not indexed, or crawled but not indexed, treat it as a content or linking problem to investigate. The URL Inspection tool lets you test a single page and see what Google last crawled. Average position is one of several rank sources, and our guide on [tracking local search rankings for a practice](/guides/how-to-track-local-search-rankings-for-a-medical-practice) compares them. When the report shows duplicates, the URL Inspection tool can show which canonical Google chose; see [canonical tags and duplicate content on a medical practice website](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website) for how to respond. For what each status in the indexing report means and which ones need action, read our [page indexing report explainer for a medical practice website](/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website)."
       },
       {
         "type": "h2",
@@ -151,7 +151,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-02",
     readMinutes: 6,
     sections: [
       {
@@ -198,7 +198,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot. Whatever booking tool you choose, the rules about lateness should be published on their own page, and our [late arrival and missed appointment policy page for a primary care practice](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) explains how to write one that stays fair."
+        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot. Whatever booking tool you choose, the rules about lateness should be published on their own page, and our [late arrival and missed appointment policy page for a primary care practice](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) explains how to write one that stays fair. If your scheduling tool cannot move a booked visit by itself, publish a [rescheduling page with a clear phone fallback](/guides/rescheduling-an-appointment-online-page-for-a-primary-care-practice) that sends patients to the phone number instead."
       }
     ],
     faqs: [

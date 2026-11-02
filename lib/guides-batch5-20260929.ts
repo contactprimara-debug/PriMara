@@ -859,7 +859,7 @@ export const guidesPartEight: Guide[] = [
       "A Google Business Profile needs a real exterior photo so patients can identify the building, a real interior/waiting room photo, real team or provider photos, and a logo and cover photo — all real, none stock — uploaded on an ongoing basis rather than once at setup, since Google's own data shows listings with more recent, regularly added photos get more search and Maps views than listings with a static photo set from years ago.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-02",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Photos are a trust signal before a patient ever calls" },
@@ -905,7 +905,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "Photos added by patients and other visitors also show up on the listing alongside the practice's own, and they're worth checking periodically too — an old, poor-quality, or unflattering visitor photo sitting near the top of the gallery can be reported for removal if it violates Google's photo guidelines, though a practice can't remove a visitor photo simply for being unflattering if it's genuine and doesn't otherwise break the rules.",
+        text: "Photos added by patients and other visitors also show up on the listing alongside the practice's own, and they're worth checking periodically too — an old, poor-quality, or unflattering visitor photo sitting near the top of the gallery can be reported for removal if it violates Google's photo guidelines, though a practice can't remove a visitor photo simply for being unflattering if it's genuine and doesn't otherwise break the rules. Use the same interior photos on your website that you upload here, arranged on an [office tour page for a counseling practice](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) with captions and alt text, so the two always agree.",
       },
     ],
     faqs: [

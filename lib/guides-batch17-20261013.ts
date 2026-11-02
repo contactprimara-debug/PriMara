@@ -1643,7 +1643,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An insurance verification page explains which plans the practice takes, what the office checks before a first session, what clients should ask their own plan, and that a benefits check is an estimate, not a guarantee. Collect no health details, and link to your fees and out-of-network pages.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T12:20:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-11-02",
     "readMinutes": 6,
     "sections": [
       {
@@ -1715,7 +1715,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Never say that insurance will cover sessions, only that the office will check and report what the plan says. Add one line on the page: a benefits check is based on information from the plan on the day we check and is not a guarantee of payment. The federal No Surprises Act also gives clients with no insurance or who choose not to use it a right to a good faith estimate of costs, which your fees page should address. If a carrier-specific page is on your site, it should point to this benefits check page, and our guide to [insurance carrier pages for a counseling practice](/guides/insurance-carrier-specific-pages-for-a-counseling-practice-accuracy-and-wording) covers how to word it accurately."
+        "text": "Never say that insurance will cover sessions, only that the office will check and report what the plan says. Add one line on the page: a benefits check is based on information from the plan on the day we check and is not a guarantee of payment. The federal No Surprises Act also gives clients with no insurance or who choose not to use it a right to a good faith estimate of costs, which your fees page should address. If a carrier-specific page is on your site, it should point to this benefits check page, and our guide to [insurance carrier pages for a counseling practice](/guides/insurance-carrier-specific-pages-for-a-counseling-practice-accuracy-and-wording) covers how to word it accurately. A new practice still waiting on panels should say so honestly, using the status wording in our guide to [insurance credentialing in progress for a new counseling practice](/guides/insurance-credentialing-in-progress-wording-for-a-new-counseling-practice-website)."
       },
       {
         "type": "h3",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-02",
     "readMinutes": 6,
     "sections": [
       {
@@ -2566,7 +2566,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "People choosing a therapist want to know what working with you will feel like. They are not looking for a technical lecture. They want to know whether you listen, whether you give homework, whether you talk or mostly ask questions, and whether they will feel judged. An approach page answers those questions in your own voice."
+        "text": "People choosing a therapist want to know what working with you will feel like. They are not looking for a technical lecture. They want to know whether you listen, whether you give homework, whether you talk or mostly ask questions, and whether they will feel judged. An approach page answers those questions in your own voice. If the practice also has a prescriber, explain how those visits differ from sessions on a separate [medication management visits page](/guides/medication-management-visits-page-for-a-mental-health-practice-without-clinical-claims) that stays clear of drug names and results."
       },
       {
         "type": "p",
