@@ -57,6 +57,7 @@ export default function Hero() {
         >
           {/* Motto */}
           <p
+            className="hero-motto"
             style={{
               fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
               fontStyle: "italic",

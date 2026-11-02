@@ -761,3 +761,17 @@ section + section blockquote {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
+
+/* ── Mobile text floor (card #540): CTAs/tagline 16px, breadcrumbs 14px ─────
+   Targets only text that sat below the floor at <=767px; desktop untouched.
+   !important because the sizes are inline styles in server components. */
+@media (max-width: 767px) {
+  .hero-motto,
+  .about-cta {
+    font-size: 16px !important;
+  }
+  nav[aria-label="Breadcrumb" i],
+  nav[aria-label="Breadcrumb" i] * {
+    font-size: 14px !important;
+  }
+}
