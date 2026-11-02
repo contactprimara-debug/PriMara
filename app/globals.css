@@ -770,6 +770,13 @@ section + section blockquote {
   .about-cta {
     font-size: 16px !important;
   }
+  /* inline 13px uppercase button-style links (specialty/hub CTAs) */
+  main a[style*="font-size:13px"][style*="text-transform:uppercase"] {
+    font-size: 16px !important;
+    letter-spacing: 0.02em !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
   nav[aria-label="Breadcrumb" i],
   nav[aria-label="Breadcrumb" i] * {
     font-size: 14px !important;
