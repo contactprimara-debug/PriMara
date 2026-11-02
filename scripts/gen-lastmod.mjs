@@ -96,7 +96,14 @@ for (const line of commits) {
 }
 // Working-tree changes not yet committed -> today.
 const today = new Date().toISOString().slice(0, 10);
-for (const f of dataFiles) apply(f, readFileSync(f, "utf8"), today);
+const liveKeys = new Set();
+for (const f of dataFiles) {
+  const t = readFileSync(f, "utf8");
+  apply(f, t, today);
+  for (const slug of Object.keys(segments(t, kindOf(f)))) liveKeys.add(`${kindOf(f)}/${slug}`);
+}
+// Slugs deleted from the working tree must not live on from git history.
+for (const k of Object.keys(slugDates)) if (!liveKeys.has(k)) delete slugDates[k];
 
 const sorted = Object.fromEntries(Object.entries(slugDates).sort(([a], [b]) => a.localeCompare(b)));
 if (DRY) {

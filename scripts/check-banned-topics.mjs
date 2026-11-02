@@ -8,7 +8,7 @@ const hits = [];
 function walk(d) {
   for (const f of readdirSync(d)) {
     const p = join(d, f);
-    if (f === "node_modules" || f.startsWith(".")) continue;
+    if (f === "node_modules" || f.startsWith(".") || f === "niche-redirects.json") continue; // the 301 source URL legitimately names the removed page
     if (statSync(p).isDirectory()) walk(p);
     else if (/\.(ts|tsx|json|md|mdx)$/.test(f)) {
       readFileSync(p, "utf8").split("\n").forEach((l, i) => { if (re.test(l)) hits.push(`${p.replace(root, "")}:${i + 1}`); });
