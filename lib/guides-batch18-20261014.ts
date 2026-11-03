@@ -434,7 +434,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A referral request page for patients should explain how to ask, which insurance plans need a referral, what to have ready, how long the office usually needs and how to check status. It should never ask for a diagnosis, and it should not promise approval, since the insurer decides.",
     author: "Liam Costello",
     publishDate: "2026-10-14T10:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-03",
     readMinutes: 7,
     sections: [
       h2("A referral page is for your own patients"),
@@ -478,7 +478,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("How the page helps your search presence"),
       p(
-        "Patients search for phrases like how do I get a referral to a specialist with my doctor's name or office in the query. A clear page earns the click, and it supports the referral relationships described in our guide to a [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you). Link the two pages so each audience finds the right one."
+        "Patients search for phrases like how do I get a referral to a specialist with my doctor's name or office in the query. A clear page earns the click, and it supports the referral relationships described in our guide to a [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you). Link the two pages so each audience finds the right one. List what the office handles itself on a [minor procedures offered page](/guides/minor-procedures-offered-page-for-a-primary-care-practice-without-clinical-claims) and name what is referred out, so patients stop guessing which procedures need a specialist."
       ),
       p(
         "Review the page with the staff member who handles referrals every day, and add the question they hear most that the page does not yet answer."

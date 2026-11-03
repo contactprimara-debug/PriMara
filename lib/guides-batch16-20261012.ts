@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -54,7 +54,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The last item matters more than it looks. The federal Agency for Healthcare Research and Quality publishes a plain-language guide that encourages patients to arrive with a short list of questions, and a first-appointment page is a natural place to say the same thing in your own words. For a first video visit the checklist changes slightly, and our guide to [what to have ready for a first telehealth visit, including a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice) covers those differences without giving medical advice."
+        "text": "The last item matters more than it looks. The federal Agency for Healthcare Research and Quality publishes a plain-language guide that encourages patients to arrive with a short list of questions, and a first-appointment page is a natural place to say the same thing in your own words. For a first video visit the checklist changes slightly, and our guide to [what to have ready for a first telehealth visit, including a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice) covers those differences without giving medical advice. If your office calls the first visit something specific, explain it on a page like [an establishing care visit explained in plain words](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice) so patients choose the right appointment."
       },
       {
         "type": "h2",
@@ -618,7 +618,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A counseling practice website should state, in plain words near the contact details, that the site and phone line are not for emergencies, and that anyone in crisis can call or text 988 or call 911. Place it where a distressed visitor will see it without searching, and verify every number you list.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T15:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -739,7 +739,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Numbers change and services move. Put a quarterly reminder on the calendar to click every crisis link, call every local number you list and confirm the wording still matches what your voicemail says. A broken crisis link is worse than none, because it signals the practice has stopped paying attention. Any page about prescribing should carry the same crisis wording, and our guide to a [medication management visits page for a mental health practice](/guides/medication-management-visits-page-for-a-mental-health-practice-without-clinical-claims) shows where to place it."
+        "text": "Numbers change and services move. Put a quarterly reminder on the calendar to click every crisis link, call every local number you list and confirm the wording still matches what your voicemail says. A broken crisis link is worse than none, because it signals the practice has stopped paying attention. Any page about prescribing should carry the same crisis wording, and our guide to a [medication management visits page for a mental health practice](/guides/medication-management-visits-page-for-a-mental-health-practice-without-clinical-claims) shows where to place it. Put the same crisis wording at the end of your phone greeting, using this [voicemail greeting script for a counseling practice](/guides/voicemail-greeting-script-for-a-counseling-practice-that-protects-privacy) so callers hear 988 before the beep."
       },
       {
         "type": "p",

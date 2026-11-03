@@ -344,13 +344,13 @@ export const guidesPartTen: Guide[] = [
       "Setting up GA4 for a medical practice means creating a property, adding the web data stream's tag to every page, then configuring two or three key events — form submission and phone click — as conversions. The part generic GA4 tutorials skip: never let any field capture a patient's name, condition, or appointment reason.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-11-03",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Create the property and data stream" },
       {
         type: "p",
-        text: "In Google Analytics, create a new GA4 property under your Google account (a Google Workspace or personal Gmail account the practice controls, not an employee's personal one). Set the correct time zone and currency for reporting, then add a 'Web' data stream pointed at your practice's domain. GA4 generates a Measurement ID (format G-XXXXXXXXXX) and a small gtag.js snippet — that snippet needs to load on every single page of the site, which in practice usually means placing it in a shared header or layout file once, rather than copying it page by page. Create the property under a Google account the practice owns, not an agency's or a former employee's, as explained in [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain).",
+        text: "In Google Analytics, create a new GA4 property under your Google account (a Google Workspace or personal Gmail account the practice controls, not an employee's personal one). Set the correct time zone and currency for reporting, then add a 'Web' data stream pointed at your practice's domain. GA4 generates a Measurement ID (format G-XXXXXXXXXX) and a small gtag.js snippet — that snippet needs to load on every single page of the site, which in practice usually means placing it in a shared header or layout file once, rather than copying it page by page. Create the property under a Google account the practice owns, not an agency's or a former employee's, as explained in [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain). Most practices load Analytics through a container, and the checklist for [setting up Google Tag Manager without sending patient data](/guides/google-tag-manager-setup-for-a-medical-practice-website-without-sending-patient-data) shows how to keep that container small and reviewed.",
       },
       { type: "h2", text: "Decide what actually counts as a conversion" },
       {

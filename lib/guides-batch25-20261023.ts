@@ -433,7 +433,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A discharge policy page tells clients, before they start, how therapy can end: when they decide it is done, when the practice cannot be the right fit, or after a long gap. State the notice you give, the referrals you offer and how clients can return. Keep it calm and free of clinical claims.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Why publish how therapy ends"),
@@ -464,7 +464,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("How a former client comes back"),
       p(
-        "Say plainly that former clients are welcome to return and explain how: call the office, or use the contact form. State whether a new intake is required after a long break, and whether the same clinician may be available. This one paragraph removes the awkwardness that stops many people from reaching out again. A separate page for people who stopped for a while, such as a [returning to counseling after a long break page](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims), can explain what paperwork repeats and how to rebook."
+        "Say plainly that former clients are welcome to return and explain how: call the office, or use the contact form. State whether a new intake is required after a long break, and whether the same clinician may be available. This one paragraph removes the awkwardness that stops many people from reaching out again. A separate page for people who stopped for a while, such as a [returning to counseling after a long break page](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims), can explain what paperwork repeats and how to rebook. A client who wants a different clinician is not being discharged, and a separate [changing therapists request page for a counseling practice](/guides/changing-therapists-request-page-for-a-counseling-practice) keeps the two processes from being confused."
       ),
       h3("What to leave off the page"),
       ul(
@@ -1175,7 +1175,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A clinician matching page tells new clients how the practice pairs them with a therapist: a short intake call about preferences and availability, a recommendation, and an easy way to switch if it is not a fit. It needs no quiz, no clinical language and no promise of results.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("The problem with a wall of bios"),
@@ -1194,7 +1194,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "After the first session or two, the client can ask to switch, and the practice will help without judgment."
       ),
       p(
-        "Make sure the steps match what the front desk truly does. A page that promises a matching call within one business day must be backed by someone who makes it."
+        "Make sure the steps match what the front desk truly does. A page that promises a matching call within one business day must be backed by someone who makes it. Matching does not end at the first booking, so give existing clients a way to ask for a change using a [changing therapists request page](/guides/changing-therapists-request-page-for-a-counseling-practice) written without blame."
       ),
       h2("What the intake call should not do"),
       ul(

@@ -610,7 +610,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A grief counseling page should speak gently, say who the counselor is and how sessions work, and describe the support as a place to talk, not a way to fix or end grief. It should avoid timelines, stages presented as rules, and claims of healing, and it should include crisis resources for someone in distress.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Begin where the reader is"),
@@ -644,7 +644,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("Link to related support, not just to booking"),
       p(
-        "Some visitors are not ready to book, so offer a path that does not require it. A short list of community resources, such as a local hospice bereavement program or a support group, gives them somewhere to go, and it builds trust with referral sources. Our guide on [group therapy pages](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) explains how to describe a group without promising outcomes. Many grieving clients are older adults, and our guide to an [older adult counseling page](/guides/older-adult-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to write for them and for the family members who call on their behalf."
+        "Some visitors are not ready to book, so offer a path that does not require it. A short list of community resources, such as a local hospice bereavement program or a support group, gives them somewhere to go, and it builds trust with referral sources. Our guide on [group therapy pages](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) explains how to describe a group without promising outcomes. Many grieving clients are older adults, and our guide to an [older adult counseling page](/guides/older-adult-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to write for them and for the family members who call on their behalf. Sensitive topics call for calm wording and predictable steps, which this checklist on [trauma-informed website wording without clinical claims](/guides/trauma-informed-website-wording-for-a-counseling-practice-without-clinical-claims) turns into practical edits."
       ),
       h2("Crisis and safety information"),
       p(
@@ -883,7 +883,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A transfer-of-care page tells a new patient the steps for moving from another doctor: sign a records release, bring a medication list, book a first visit and keep seeing the current doctor until the new visit happens. It should explain how long records take to arrive and never promise a specific appointment date or outcome.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T12:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Why people search for this"),
@@ -917,7 +917,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("What not to say"),
       p(
-        "Do not promise that the first visit will be quick, that all medications will continue or that the new doctor will agree with the old one. Do not criticize other practices. A transfer page should be neutral, and the new practice proves itself at the first visit. People who are moving their care may prefer an introduction before sending records, and a [meet and greet visit page](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) tells them how to ask for one without booking a full appointment."
+        "Do not promise that the first visit will be quick, that all medications will continue or that the new doctor will agree with the old one. Do not criticize other practices. A transfer page should be neutral, and the new practice proves itself at the first visit. People who are moving their care may prefer an introduction before sending records, and a [meet and greet visit page](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) tells them how to ask for one without booking a full appointment. After the records request, tell patients what the first appointment is for, using an [establishing care visit page](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice) that says how long it takes and what the clinician will cover."
       ),
       h2("Make the first visit easy to book"),
       p(

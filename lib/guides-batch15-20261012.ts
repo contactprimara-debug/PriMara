@@ -613,7 +613,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A specialty page describes who you work with, what a first session is like and how to book, using ordinary words. It should not promise outcomes, diagnose readers or describe treatment as a cure. Give each specialty its own page, built around what a person is searching for.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 8,
     "sections": [
       {
@@ -679,7 +679,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep paragraphs short and use headings that match real questions. Our guide on [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can be linked from each specialty page and covers the visit itself. Describe each focus area by what you can document, and our guide to [specialty and focus areas wording for a counseling practice](/guides/specialty-and-focus-areas-wording-for-a-counseling-practice-training-versus-expertise) explains how to separate training, experience and interest without overstating expertise."
+        "text": "Keep paragraphs short and use headings that match real questions. Our guide on [what to put on a first session page for a therapy practice](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can be linked from each specialty page and covers the visit itself. Describe each focus area by what you can document, and our guide to [specialty and focus areas wording for a counseling practice](/guides/specialty-and-focus-areas-wording-for-a-counseling-practice-training-versus-expertise) explains how to separate training, experience and interest without overstating expertise. The tone of the whole site matters as much as the specialty page, as the checklist for [trauma-informed website wording for a counseling practice](/guides/trauma-informed-website-wording-for-a-counseling-practice-without-clinical-claims) shows with concrete examples."
       },
       {
         "type": "h2",

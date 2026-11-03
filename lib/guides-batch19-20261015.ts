@@ -563,7 +563,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Thank the reviewer in general terms, do not confirm that they were a patient, do not mention the visit, the provider's treatment or any health detail, and invite them to call the office for anything personal. A reply is public, and even a warm one can disclose protected information if it confirms who was seen.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:40:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("A happy review is still a privacy risk"),
@@ -600,7 +600,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Public reply, private follow-up"),
       p(
-        "If a reviewer includes a question or a concern, keep the public reply general and move the conversation to a phone call. Never ask them to confirm identity in the public thread. Our guide on [how to respond to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) explains the same principle for harder cases, and the HHS guidance on marketing and privacy sets the rules your replies must follow."
+        "If a reviewer includes a question or a concern, keep the public reply general and move the conversation to a phone call. Never ask them to confirm identity in the public thread. Our guide on [how to respond to a negative patient review](/guides/how-to-respond-to-a-negative-patient-review) explains the same principle for harder cases, and the HHS guidance on marketing and privacy sets the rules your replies must follow. The same wording applies when a kind review names a clinician who has moved on, as explained in [reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) with a short reply template."
       ),
       p(
         "Reply to positive reviews too. Google surfaces owner responses, and a steady record of calm, privacy-conscious replies tells readers the practice is attentive. If you ask patients for reviews at all, read how to do it without selecting who is asked in [getting more patient reviews without review gating](/guides/getting-more-patient-reviews-without-review-gating). And do not offer anything in exchange for a review, which breaks Google's contribution policy. Praise and complaints belong in different places, and a [patient feedback and complaint page without health details](/guides/patient-feedback-and-complaint-contact-page-for-a-medical-practice-without-health-details) gives unhappy patients their own route. Patients with a concern about their care deserve a clear route before they write a review, such as a [patient rights and complaint process page](/guides/patient-rights-and-complaint-process-page-for-a-primary-care-practice) linked from the footer. Counseling practices should also publish a [social media and friend request policy](/guides/social-media-and-friend-request-policy-page-for-a-counseling-practice) that tells clients how reviews, follow requests and direct messages are handled."
@@ -1134,12 +1134,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A physicals page should say which kinds of physicals the practice offers, what to bring, how long a visit takes, what it costs or how to ask, and whether the visit is billed to insurance. State clearly if the practice does not perform DOT exams, and never describe results or fitness decisions before a clinician has seen the patient.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T12:40:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Physicals are a different search from a checkup"),
       p(
-        "A person searching for a pre-employment physical, a DOT physical or a sports physical is not looking for general primary care. They have a form, a deadline and a specific question about whether your office does this at all. A page that answers those questions quickly wins the call."
+        "A person searching for a pre-employment physical, a DOT physical or a sports physical is not looking for general primary care. They have a form, a deadline and a specific question about whether your office does this at all. A page that answers those questions quickly wins the call. Offices that complete forms for work or sport often get questions about trips as well, so see how to write a [travel health consultation page without clinical claims](/guides/travel-health-consultation-page-for-a-primary-care-practice-without-clinical-claims)."
       ),
       p(
         "These visits are often paid out of pocket or by an employer, rather than billed to health insurance. That makes the cost and the paperwork the center of the page."
@@ -1231,7 +1231,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A therapist bio should lead with a clear photo and a short, human introduction, then list the license as issued, the kinds of people the clinician sees, what a first session looks like, fees and how to book. Describe the approach in plain words and skip outcome promises, testimonials from clients and any credential the person does not hold.",
     author: "Liam Costello",
     publishDate: "2026-10-15T13:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("The page people read before they call"),
@@ -1260,7 +1260,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         ["Expert in everything.", "I see people about anxiety, grief, life changes and relationships."]
       ),
       p(
-        "Outcome language is where bios get into trouble. The American Psychological Association's ethics code asks psychologists to avoid false or misleading statements about their services, and the same standard is a sensible guide for any licensed counselor. Our article on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) goes deeper on how to name concerns without clinical claims. Choose the therapist's photo with the same care as the text, following our [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) on consent, background and alt text. Visitors who cannot choose between several bios can be helped by a [clinician matching page for a group counseling practice](/guides/clinician-matching-page-for-a-group-counseling-practice-how-clients-choose-a-therapist) that explains how pairing works. Bio pages often send clients looking for a clinician's personal accounts, so pair the page with a [social media and friend request policy page](/guides/social-media-and-friend-request-policy-page-for-a-counseling-practice) that explains why clinicians do not accept requests. On a bio page, the line under a focus area should show its basis, and our guide to [specialty and focus areas wording for a counseling practice](/guides/specialty-and-focus-areas-wording-for-a-counseling-practice-training-versus-expertise) gives a simple way to review it."
+        "Outcome language is where bios get into trouble. The American Psychological Association's ethics code asks psychologists to avoid false or misleading statements about their services, and the same standard is a sensible guide for any licensed counselor. Our article on [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) goes deeper on how to name concerns without clinical claims. Choose the therapist's photo with the same care as the text, following our [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) on consent, background and alt text. Visitors who cannot choose between several bios can be helped by a [clinician matching page for a group counseling practice](/guides/clinician-matching-page-for-a-group-counseling-practice-how-clients-choose-a-therapist) that explains how pairing works. Bio pages often send clients looking for a clinician's personal accounts, so pair the page with a [social media and friend request policy page](/guides/social-media-and-friend-request-policy-page-for-a-counseling-practice) that explains why clinicians do not accept requests. On a bio page, the line under a focus area should show its basis, and our guide to [specialty and focus areas wording for a counseling practice](/guides/specialty-and-focus-areas-wording-for-a-counseling-practice-training-versus-expertise) gives a simple way to review it. Good bios make it easier for clients to ask for a better fit later, which is the situation addressed by this [page for clients who want to change therapists](/guides/changing-therapists-request-page-for-a-counseling-practice)."
       ),
       h3("Credentials: only what is true"),
       p(

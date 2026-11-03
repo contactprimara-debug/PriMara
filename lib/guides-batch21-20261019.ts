@@ -430,7 +430,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "Provider headshots and team photos should be recent, consistent in style, taken with each person's agreement, compressed for fast loading and given plain alt text with the person's name and role. Check the background for patient information, and replace photos when a person leaves or looks noticeably different.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Why a headshot matters more than most pages admit"),
@@ -465,7 +465,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Keep the profile, the website and the bio in step"),
       p(
-        "Use the same photo on the practice's bio page, its Google Business Profile and any provider directories. When a clinician looks different from the photo, patients feel misled before the visit starts. Our guide on a [therapist bio page without clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) shows how the photo and the text should work together. Photos work best when each one sits on a consistent card, and our guide to [choosing a provider on a multi-provider page](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page) shows which facts belong beside the picture."
+        "Use the same photo on the practice's bio page, its Google Business Profile and any provider directories. When a clinician looks different from the photo, patients feel misled before the visit starts. Our guide on a [therapist bio page without clinical claims](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims) shows how the photo and the text should work together. Photos work best when each one sits on a consistent card, and our guide to [choosing a provider on a multi-provider page](/guides/choosing-a-provider-at-a-multi-provider-primary-care-practice-page) shows which facts belong beside the picture. For counseling sites, the choice between real and licensed images deserves its own look, which is covered in this comparison of [stock photos and real photos on a counseling practice website](/guides/stock-photos-versus-real-photos-on-a-counseling-practice-website)."
       ),
       h2("When someone joins, leaves or changes"),
       ol(
@@ -1308,12 +1308,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice can earn real local links by sponsoring a school team, a charity run or a community event, as long as it asks for an honest mention on the organizer's own page, never buys links on a site that sells them, and never uses a patient's story or photo. Choose causes the practice would support anyway.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Why local links come from local things"),
       p(
-        "Search engines treat a link as a vote of confidence from one site to another. For a medical practice, the votes that matter most come from local organizations that exist in the real world: schools, teams, charities, chambers of commerce and community groups. They are hard to fake, which is why they carry weight. Business groups and chambers of commerce are a natural place to meet employers, and an [employer partnership page for a primary care practice](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) gives them something to link to. Give each event its own dated page, using the layout in our guide to a [health fair and community education event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice), so partners have something specific to link to."
+        "Search engines treat a link as a vote of confidence from one site to another. For a medical practice, the votes that matter most come from local organizations that exist in the real world: schools, teams, charities, chambers of commerce and community groups. They are hard to fake, which is why they carry weight. Business groups and chambers of commerce are a natural place to meet employers, and an [employer partnership page for a primary care practice](/guides/employer-and-workplace-partnership-page-for-a-primary-care-practice) gives them something to link to. Give each event its own dated page, using the layout in our guide to a [health fair and community education event page](/guides/health-fair-and-community-education-event-page-for-a-primary-care-practice), so partners have something specific to link to. When a counseling practice hosts an online session instead of an in-person one, the [online workshop page with Event markup](/guides/online-workshop-and-webinar-page-with-event-markup-for-a-counseling-practice) shows how to publish it so the link it earns keeps working."
       ),
       p(
         "They are also earned in a different way from the links a marketing vendor sells. A sponsorship, a donation or a volunteer day is a real act, and the link to the practice's website is a natural thank-you."

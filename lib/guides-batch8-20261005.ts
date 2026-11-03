@@ -705,7 +705,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "The Americans with Disabilities Act applies to medical practices as places of public accommodation, and the Department of Justice says it covers web content too. The law does not name one technical standard for private practices, but the Web Content Accessibility Guidelines (WCAG) are the usual benchmark. Aim for WCAG 2.1 Level AA, and have counsel confirm your obligations.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-03",
     readMinutes: 7,
     sections: [
       {
@@ -726,7 +726,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website). Captions and transcripts for video are part of the same obligation to be usable, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) explains how to add them. Downloadable paperwork should be readable too, and our guide to [putting new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers accessible PDFs and secure forms. A site that works with a screen reader should also explain how to request help in person, which a [service animal and accessibility accommodation request page](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) can do in plain words. Forms are where many visitors give up, and our checklist for [accessible intake forms for patients with low vision or limited reading skills](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) shows what to fix first."
+        "text": "Patients use your site to find a doctor, read about conditions, book, and pay. That includes people who are blind, have low vision, are deaf or hard of hearing, have motor limitations, or have cognitive differences. If your booking form cannot be used with a keyboard, or your PDF intake forms cannot be read by a screen reader, those patients cannot become patients. Demand letters and lawsuits over inaccessible sites are a known risk for small businesses, and a clean site is the cheapest protection. Alt text is one of the most concrete fixes, and we explain how to write it in our guide to [image SEO and alt text for a medical practice](/guides/image-seo-and-alt-text-for-a-medical-practice-website). Captions and transcripts for video are part of the same obligation to be usable, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) explains how to add them. Downloadable paperwork should be readable too, and our guide to [putting new patient forms online](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers accessible PDFs and secure forms. A site that works with a screen reader should also explain how to request help in person, which a [service animal and accessibility accommodation request page](/guides/service-animal-and-accessibility-accommodation-request-page-for-a-medical-practice) can do in plain words. Forms are where many visitors give up, and our checklist for [accessible intake forms for patients with low vision or limited reading skills](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) shows what to fix first. Links that open in a new tab without warning are a common barrier, and this guide to [external link and new tab wording](/guides/external-link-and-new-tab-wording-on-a-medical-practice-website) shows how to label them so screen reader users know."
       },
       {
         "type": "h2",
@@ -1240,7 +1240,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "For most single-location practices, spend first on the local pack by completing your Google Business Profile and earning reviews, because it costs the least and sits above organic results for nearby searches. Fix your service pages second. Add Google Ads third, when the foundation can convert the clicks you pay for.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-11-03",
     readMinutes: 7,
     sections: [
       {
@@ -1249,7 +1249,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A search for a nearby provider can show three kinds of results. The local pack is the map and three listings pulled from Google Business Profiles. Organic results are the regular blue links to web pages. Ads sit at the top and bottom, labeled as sponsored, and you pay when someone clicks. Each has a different cost, a different speed, and a different job. Because results differ by location, a single manual search misleads, which our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) explains."
+        "text": "A search for a nearby provider can show three kinds of results. The local pack is the map and three listings pulled from Google Business Profiles. Organic results are the regular blue links to web pages. Ads sit at the top and bottom, labeled as sponsored, and you pay when someone clicks. Each has a different cost, a different speed, and a different job. Because results differ by location, a single manual search misleads, which our guide on [tracking local rankings](/guides/how-to-track-local-search-rankings-for-a-medical-practice) explains. For the searcher who types doctor near me, the first thing they see is the map, which this guide to [near me searches for a primary care practice](/guides/near-me-searches-and-how-a-primary-care-practice-shows-up-for-them) explains in plain terms."
       },
       {
         "type": "h2",

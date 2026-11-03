@@ -17,7 +17,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Image SEO means every photo on your site loads quickly, has a descriptive file name, and carries alt text that says what the image shows. Compress files before upload, write one plain sentence of alt text per meaningful image, leave decorative images empty, and never publish a patient's photo without written authorization.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -89,7 +89,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A recognizable photo of a patient can be protected health information, and using it on a website for marketing generally requires the patient's written authorization. Get that authorization before a photo goes live, keep a copy, and honor a withdrawal. Never put a patient's name, condition or treatment in alt text or a file name, since those are indexed and read aloud. Photos of your staff need the staff member's consent too. Where a before-and-after image is involved, our [patient testimonial compliance checklist](/guides/patient-testimonial-compliance-checklist) covers what to confirm first. Provider photos are the images most visitors look at first, so see our checklist on [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) for size, consent and alt text."
+        "text": "A recognizable photo of a patient can be protected health information, and using it on a website for marketing generally requires the patient's written authorization. Get that authorization before a photo goes live, keep a copy, and honor a withdrawal. Never put a patient's name, condition or treatment in alt text or a file name, since those are indexed and read aloud. Photos of your staff need the staff member's consent too. Where a before-and-after image is involved, our [patient testimonial compliance checklist](/guides/patient-testimonial-compliance-checklist) covers what to confirm first. Provider photos are the images most visitors look at first, so see our checklist on [provider headshots and team photo guidelines for a medical practice website](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) for size, consent and alt text. Alt text works only when the image is honest, so pair this advice with the comparison of [stock photos versus real photos for a counseling practice](/guides/stock-photos-versus-real-photos-on-a-counseling-practice-website) before you choose pictures."
       },
       {
         "type": "p",
@@ -360,7 +360,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Internal linking means pointing your own pages at each other using descriptive link text. Link every service page from your navigation and from related pages, give each provider bio and location page at least a few contextual links, and fix orphan pages that nothing links to. Google finds pages mainly by following links.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -369,7 +369,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google discovers pages by following links, and it uses the words in a link to learn what the target is about. A page that no other page links to is an orphan, and it can sit unindexed for months even when it is in your sitemap. Internal links also decide how patients move around: from a symptom article to the service page, from a bio to the booking page. Good linking helps the people who read the site and the crawler that visits it, with the same moves. Pages stuck as Crawled or Discovered in Search Console usually need links like these, as our guide to the [Search Console page indexing report](/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website) describes."
+        "text": "Google discovers pages by following links, and it uses the words in a link to learn what the target is about. A page that no other page links to is an orphan, and it can sit unindexed for months even when it is in your sitemap. Internal links also decide how patients move around: from a symptom article to the service page, from a bio to the booking page. Good linking helps the people who read the site and the crawler that visits it, with the same moves. Pages stuck as Crawled or Discovered in Search Console usually need links like these, as our guide to the [Search Console page indexing report](/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website) describes. Decide separately how outside links behave, using the rules in this guide to [external link and new tab wording on a medical practice website](/guides/external-link-and-new-tab-wording-on-a-medical-practice-website), so visitors are not stranded in a second tab."
       },
       {
         "type": "h2",
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-28",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -1942,7 +1942,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves. A new clinician's license status also changes which states you can list, so update the [licensure and states served page for a telehealth practice](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) at the same time. When the departing provider is a therapist, clients need a direct message before any public change, as explained in our guide to a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice). For a counseling practice, the announcement to clients and the bio page follow a set order, laid out in our guide to [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice)."
+        "text": "Use the provider's name and credentials exactly as licensed, and get their approval of the bio and photo before publishing. Add the page to the sitemap and link it from at least three relevant pages. When a provider page is retired, handle the old address properly using our guide to [fixing broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website). Do not forget the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), where a departed clinician can stay listed for months unless someone asks for a correction. Remember the staff who are not clinicians as well: if you publish a [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first), update it the same week a team member joins or leaves. A new clinician's license status also changes which states you can list, so update the [licensure and states served page for a telehealth practice](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) at the same time. When the departing provider is a therapist, clients need a direct message before any public change, as explained in our guide to a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice). For a counseling practice, the announcement to clients and the bio page follow a set order, laid out in our guide to [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice). When the departing provider has a page of their own, decide where its old address goes using this guide to [redirects when removing a service or provider page](/guides/redirects-when-removing-a-service-or-provider-page-on-a-medical-practice-website)."
       },
       {
         "type": "h2",

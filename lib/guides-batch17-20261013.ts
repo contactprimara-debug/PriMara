@@ -935,7 +935,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A visit types page lists each kind of appointment your practice books, such as new patient, follow-up, sick visit and annual wellness, with a plain one-line purpose and a typical length. Say lengths are scheduling blocks, not promises, and tell patients which type to ask for when they call.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -1005,7 +1005,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Many offices ask patients to bring one or two main concerns to each visit so there is time to do them well. If your office has that rule, state it kindly and explain what happens when a patient has more: a follow-up can be booked. Do not make the rule sound like a penalty."
+        "text": "Many offices ask patients to bring one or two main concerns to each visit so there is time to do them well. If your office has that rule, state it kindly and explain what happens when a patient has more: a follow-up can be booked. Do not make the rule sound like a penalty. If the office also performs small in-office procedures, a separate [minor procedures page that avoids clinical claims](/guides/minor-procedures-offered-page-for-a-primary-care-practice-without-clinical-claims) keeps them from cluttering the visit-type table."
       },
       {
         "type": "h2",
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -1351,7 +1351,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims). Callers who are not a fit should leave with somewhere to go, which is why a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) is worth linking from this page. The short call is easier to book when the homepage already makes the first step obvious, as our guide to a [therapy practice homepage for a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see) explains."
+        "text": "The booking form for a consultation should be as small as the one on a waitlist page: name, phone or email, preferred time. If a client begins to share their story on the call, a good clinician gently steers back to logistics. Your page can set that expectation with one sentence: we will save the details for your first session. The clinician's own page is where most people decide to book that call, so write it with the help of our [therapist bio page guide](/guides/therapist-bio-page-for-a-counseling-practice-without-clinical-claims). Callers who are not a fit should leave with somewhere to go, which is why a [community resources and support groups referral page for a counseling practice](/guides/community-resources-and-support-groups-referral-page-for-a-counseling-practice) is worth linking from this page. The short call is easier to book when the homepage already makes the first step obvious, as our guide to a [therapy practice homepage for a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see) explains. For readers who are not ready even for a call, write a [first-step page that explains what a first conversation is](/guides/not-sure-you-need-therapy-first-step-page-for-a-counseling-practice-without-clinical-claims) and keep the pressure out of it."
       },
       {
         "type": "h2",
@@ -2557,7 +2557,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An approach page for a therapy practice describes how the clinician works, what sessions are like and what a client can expect to do, in plain words. It states training and licensure only as verified, names methods without promising results, and avoids before-and-after language. Add a short crisis notice and a clear next step.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T14:20:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 6,
     "sections": [
       {
@@ -2654,7 +2654,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it. Keep the homepage short and let the approach page carry the detail, using the structure in our guide to a [therapy practice homepage that reassures a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see). Explaining how therapy begins is only half the story, and a [discharge and termination policy page for a counseling practice](/guides/client-discharge-and-termination-policy-page-for-a-counseling-practice-without-clinical-claims) can describe how it ends in the same calm tone."
+        "text": "Link from the approach page to your [specialty pages](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), your first session page and your fees page. Include a short notice that the website is not a substitute for care and that people in crisis should call 911 or call or text 988. Then end with a single next step, such as a consultation call or a contact form with only a name and phone number. Describing how often clients meet is part of describing how you work, and our guide on [session length and frequency explained without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) shows how to word it. Keep the homepage short and let the approach page carry the detail, using the structure in our guide to a [therapy practice homepage that reassures a first-time visitor](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see). Explaining how therapy begins is only half the story, and a [discharge and termination policy page for a counseling practice](/guides/client-discharge-and-termination-policy-page-for-a-counseling-practice-without-clinical-claims) can describe how it ends in the same calm tone. Describing your approach gently also means avoiding graphic detail and pressure, a habit explained in this guide to [trauma-informed website wording for a counseling practice](/guides/trauma-informed-website-wording-for-a-counseling-practice-without-clinical-claims)."
       },
       {
         "type": "p",

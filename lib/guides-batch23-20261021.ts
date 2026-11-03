@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -187,7 +187,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Hours and after-hours"),
       p(
-        "A button that rings an empty office at night teaches visitors that calling does not work. Show the hours next to it, and make sure the voicemail or phone menu does the right thing when the office is closed. Our guide to [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) covers what the greeting should say, and our piece on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to avoid losing a new patient in a menu."
+        "A button that rings an empty office at night teaches visitors that calling does not work. Show the hours next to it, and make sure the voicemail or phone menu does the right thing when the office is closed. Our guide to [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) covers what the greeting should say, and our piece on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) explains how to avoid losing a new patient in a menu. Phone and email links should never be given a new-tab treatment, as the guide to [external link and new tab wording on a medical practice website](/guides/external-link-and-new-tab-wording-on-a-medical-practice-website) explains with a short review you can run on your phone."
       ),
       h2("Keep the page quick"),
       p(
@@ -1320,7 +1320,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A good new patient phone script greets the caller by the practice name, asks only what is needed to book, such as name, phone, insurance and preferred times, explains what to bring and what happens next, and avoids asking about symptoms. Review it quarterly and keep a log of why calls do not end in a booking.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("The first call decides a lot"),
@@ -1339,7 +1339,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Close warmly, and ask if they have any questions."
       ),
       p(
-        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice)."
+        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice). Have the script offer the same visit your website describes, as laid out in this [establishing care visit page for a primary care practice](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice), so the phone and the page agree."
       ),
       h2("Questions to leave out"),
       table(
@@ -1418,7 +1418,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A referral thank-you loop acknowledges each referral quickly, confirms that the patient was seen, shares only the information the referring doctor needs for treatment, and asks one question about how the process worked. Keep it short, keep it private and send it through a secure channel, not plain email.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("Referrals are relationships"),
@@ -1450,7 +1450,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("The referral information page"),
       p(
-        "Give referring offices a page that lists how to send a referral, which fax or secure address to use, which insurance plans are accepted and who to call. Our guide to the [referral partner page](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) explains what to include, and the page that handles the patient side is the [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice)."
+        "Give referring offices a page that lists how to send a referral, which fax or secure address to use, which insurance plans are accepted and who to call. Our guide to the [referral partner page](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) explains what to include, and the page that handles the patient side is the [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice). Thanking patients who recommend the office follows different rules from thanking clinicians, so read the guide to [patient referral thank-you wording without incentives](/guides/patient-referral-thank-you-wording-for-a-primary-care-practice-without-incentives) before you send anything."
       ),
       h3("Track it simply"),
       p(

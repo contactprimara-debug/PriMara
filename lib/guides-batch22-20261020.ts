@@ -1136,7 +1136,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A therapy practice homepage should tell a nervous first-time visitor who the clinicians are, who they see, what a first contact looks like, what it costs, and how privacy works. It should use calm, plain words, one clear way to reach out, and no promises about outcomes or lists of diagnoses.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("The visitor is deciding whether it is safe to call"),
@@ -1173,7 +1173,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Link out to the pages that carry detail"),
       p(
-        "The homepage should be short, and the detail should live on pages built for it: a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), a [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) and a [telehealth instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice). Each link should sit in a sentence that tells the reader what they will find. Choose the wording of the main button to match what happens after the click, using our guide to [call to action button wording on a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) as a reference."
+        "The homepage should be short, and the detail should live on pages built for it: a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), a [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) and a [telehealth instructions page](/guides/telehealth-visit-instructions-page-for-a-therapy-practice). Each link should sit in a sentence that tells the reader what they will find. Choose the wording of the main button to match what happens after the click, using our guide to [call to action button wording on a counseling practice website](/guides/call-to-action-button-wording-on-a-counseling-practice-website-book-request-or-contact) as a reference. Link from the homepage to a gentle [page for visitors who are not sure they need therapy](/guides/not-sure-you-need-therapy-first-step-page-for-a-counseling-practice-without-clinical-claims), so a hesitant reader has somewhere to go that is not a booking form."
       ),
       h3("Keep it accessible"),
       p(

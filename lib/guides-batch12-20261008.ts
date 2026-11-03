@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-03",
   "readMinutes": 7,
   "sections": [
     {
@@ -476,7 +476,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest."
+      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest. After a clinician leaves, their practitioner listing and its reviews do not simply vanish, which is why this guide to [Google reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) is worth reading."
     },
     {
       "type": "callout",
@@ -758,7 +758,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add one question to new-patient intake and phone scripts: how did you hear about us. Offer a short list of choices plus a write-in, have the front desk record the answer in a single field, and review the counts monthly next to your analytics. It is imperfect, but it catches what tracking misses, such as word of mouth.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-30",
+  "dateModified": "2026-11-03",
   "readMinutes": 6,
   "sections": [
     {
@@ -837,7 +837,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Consistency matters more than detail. Give the front desk one field in the scheduling or patient system for the source, with the same choices every time. If the patient says a friend referred them, record the category, and note the name only if your system and policy allow it. Do not leave it as free text in a notes box, where it can never be counted."
+      "text": "Consistency matters more than detail. Give the front desk one field in the scheduling or patient system for the source, with the same choices every time. If the patient says a friend referred them, record the category, and note the name only if your system and policy allow it. Do not leave it as free text in a notes box, where it can never be counted. When a new patient says a friend sent them, record it as a source and use the [patient referral thank-you wording without incentives](/guides/patient-referral-thank-you-wording-for-a-primary-care-practice-without-incentives) instead of naming or rewarding anyone."
     },
     {
       "type": "h2",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-19",
+  "dateModified": "2026-11-03",
   "readMinutes": 7,
   "sections": [
     {
@@ -1451,7 +1451,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A practice's online presence is a set of accounts: the domain name, the website host, the Google Business Profile, Google Search Console and Google Analytics. When one of them is registered to a former employee's personal email, a web designer's account or an agency, the practice does not control its own listing or site. Fixing it later means chasing someone who may not reply. Ownership matters most during a sale or retirement, so use [the checklist for protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). The practice's email should live on the same domain it owns, as our guide on [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) explains."
+      "text": "A practice's online presence is a set of accounts: the domain name, the website host, the Google Business Profile, Google Search Console and Google Analytics. When one of them is registered to a former employee's personal email, a web designer's account or an agency, the practice does not control its own listing or site. Fixing it later means chasing someone who may not reply. Ownership matters most during a sale or retirement, so use [the checklist for protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). The practice's email should live on the same domain it owns, as our guide on [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) explains. The same ownership rule applies to the tag container, as covered in this checklist for [Google Tag Manager on a medical practice website](/guides/google-tag-manager-setup-for-a-medical-practice-website-without-sending-patient-data), where one named owner prevents forgotten tags."
     },
     {
       "type": "p",
@@ -2513,7 +2513,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Keep one permanent page for each seasonal service, such as flu shots or school physicals, and update it every year rather than publishing a new page each season. Put the current dates, how to book and what to bring at the top, keep medical statements general and sourced, and archive nothing that patients may still search for.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-23",
+  "dateModified": "2026-11-03",
   "readMinutes": 6,
   "sections": [
     {
@@ -2534,7 +2534,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A patient searching for a flu shot wants to know if you offer it now, when, and how to get one. Lead with that, not with background. Our guide on [writing a service page that ranks](/guides/how-to-write-a-medical-service-page-that-ranks) explains the general layout."
+      "text": "A patient searching for a flu shot wants to know if you offer it now, when, and how to get one. Lead with that, not with background. Our guide on [writing a service page that ranks](/guides/how-to-write-a-medical-service-page-that-ranks) explains the general layout. A pre-trip visit is another service with a deadline, and the guide to a [travel health consultation page for a primary care practice](/guides/travel-health-consultation-page-for-a-primary-care-practice-without-clinical-claims) shows how to handle the lead time honestly."
     },
     {
       "type": "ul",

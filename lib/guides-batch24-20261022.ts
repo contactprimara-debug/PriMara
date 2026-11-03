@@ -557,12 +557,12 @@ export const guidesPartTwentySeven: Guide[] = [
       "A vaccine availability page tells patients which vaccines the office offers, which ages it serves, how to book and what to bring. It stays factual and avoids claims about safety, benefits or who needs a shot. Link to the CDC for medical information and say to call to confirm what is in stock.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-03",
     readMinutes: 6,
     sections: [
       h2("The question patients are really asking"),
       p(
-        "When someone searches for a vaccine near them, they usually do not need to be convinced. They want to know whether your office gives it, whether they can get an appointment and what it will cost. A page that answers those three questions will do more for them, and for your phone line, than a page full of health advice."
+        "When someone searches for a vaccine near them, they usually do not need to be convinced. They want to know whether your office gives it, whether they can get an appointment and what it will cost. A page that answers those three questions will do more for them, and for your phone line, than a page full of health advice. If patients also ask about vaccines before a trip, a [travel health consultation page](/guides/travel-health-consultation-page-for-a-primary-care-practice-without-clinical-claims) can say whether the office gives them or refers them elsewhere."
       ),
       p(
         "That is also the safer way to write it. Statements about what a vaccine does, who should get it or how safe it is are clinical claims. They change as guidance changes, and they belong to the clinical team and the public health agencies, not a marketing page."

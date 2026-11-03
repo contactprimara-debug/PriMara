@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 7,
     "sections": [
       {
@@ -306,7 +306,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice)."
+        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice). Counseling offices need extra care with the recording itself, and this [voicemail greeting script for a counseling practice](/guides/voicemail-greeting-script-for-a-counseling-practice-that-protects-privacy) shows wording that never confirms who is a client."
       },
       {
         "type": "callout",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-03",
     "readMinutes": 7,
     "sections": [
       {
@@ -1719,7 +1719,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Reaching out to a therapist is hard. Many people open a practice website, read the first screen, and leave without calling because they do not know what will happen. A page that walks through the first session removes uncertainty, and uncertainty is often the real obstacle. Clients also want to know the length and rhythm of sessions, which our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) covers without promising results. Many first-time visitors read the homepage before the first session page, so keep both consistent and use our guide to a [therapy practice homepage for first-time visitors](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see). Many first-time clients also want to see the waiting area and the room before they come, which an [office tour and virtual tour page](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) answers without asking them to phone."
+        "text": "Reaching out to a therapist is hard. Many people open a practice website, read the first screen, and leave without calling because they do not know what will happen. A page that walks through the first session removes uncertainty, and uncertainty is often the real obstacle. Clients also want to know the length and rhythm of sessions, which our guide on [session length and frequency on a therapy practice website](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) covers without promising results. Many first-time visitors read the homepage before the first session page, so keep both consistent and use our guide to a [therapy practice homepage for first-time visitors](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see). Many first-time clients also want to see the waiting area and the room before they come, which an [office tour and virtual tour page](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) answers without asking them to phone. Some visitors need a step before this one, which is where a [first-step page for people who are not sure they need therapy](/guides/not-sure-you-need-therapy-first-step-page-for-a-counseling-practice-without-clinical-claims) can invite a question without asking for a commitment."
       },
       {
         "type": "p",
