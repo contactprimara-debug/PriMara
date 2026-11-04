@@ -664,11 +664,11 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "While the report is pending" },
       {
         type: "p",
-        text: "Post one measured, factual public reply — not defensive, not accusatory — that a reasonable reader (and a future patient) would find credible. Something like: \"We have no record of a patient matching this visit. If you believe this is an error, please call us directly at (561) 291-2681 so we can look into it.\" That reply does two things: it signals to other visitors that the practice takes the review seriously without escalating, and if Google ultimately declines to remove it, the practice isn't left with silence next to a fake review. The same privacy limits apply as in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses).",
+        text: "Post one measured, factual public reply — not defensive, not accusatory — that a reasonable reader (and a future patient) would find credible. Something like: \"We have no record of a patient matching this visit. If you believe this is an error, please call us directly at (561) 291-2681 so we can look into it.\" That reply does two things: it signals to other visitors that the practice takes the review seriously without escalating, and if Google ultimately declines to remove it, the practice isn't left with silence next to a fake review. The same privacy limits apply as in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses). Catching a fake review in the first week is easier with a regular check, such as the [weekly review monitoring routine for a counseling practice](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile), which also logs the date you reported it.",
       },
       {
         type: "callout",
-        text: "Removal is not guaranteed, and it can take anywhere from a few days to several weeks. Do not wait to reply publicly until removal is confirmed — post the calm, factual reply right away, since the review is visible to real prospective patients the entire time it's pending. Catching a fake review in the first week is easier with a regular check, such as the [weekly review monitoring routine for a counseling practice](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile), which also logs the date you reported it.",
+        text: "Removal is not guaranteed, and it can take anywhere from a few days to several weeks. Do not wait to reply publicly until removal is confirmed — post the calm, factual reply right away, since the review is visible to real prospective patients the entire time it's pending.",
       },
     ],
     faqs: [
