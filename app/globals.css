@@ -782,3 +782,80 @@ section + section blockquote {
     font-size: 14px !important;
   }
 }
+
+/* ── Mobile text floor, design-system level (card #543, 2026-11-04) ──────────
+   Rule: at <=767px body text, links, buttons and CTAs are >=16px; uppercase
+   labels / eyebrows / badges / fine print / breadcrumbs are >=14px. Desktop is
+   untouched. Most sizes are inline styles in server components, so these are
+   attribute selectors with !important. NEW COMPONENTS: write the size you want;
+   anything under the floor is lifted here, and tools/top-tier-sweep.py --smalltext
+   (CLIENT-STANDARD-CHECKS item 144) fails if something slips through. */
+@media (max-width: 767px) {
+  [style*="font-size:9px"],
+  [style*="font-size:10px"],
+  [style*="font-size:11px"],
+  [style*="font-size:12px"],
+  [style*="font-size:13px"],
+  [style*="font-size:14px"],
+  [style*="font-size:15px"],
+  [style*="font-size:0.5625rem"],
+  [style*="font-size:0.625rem"],
+  [style*="font-size:0.6875rem"],
+  [style*="font-size:0.68rem"],
+  [style*="font-size:0.7rem"],
+  [style*="font-size:0.72rem"],
+  [style*="font-size:0.75rem"],
+  [style*="font-size:0.78rem"],
+  [style*="font-size:0.8rem"],
+  [style*="font-size:0.8125rem"],
+  [style*="font-size:0.82rem"],
+  [style*="font-size:0.85rem"],
+  [style*="font-size:0.875rem"],
+  [style*="font-size:0.88rem"],
+  [style*="font-size:0.9rem"],
+  [style*="font-size:0.9375rem"],
+  [style*="font-size:0.95rem"],
+  [style*="font-size:clamp(15px"],
+  [style*="font-size:clamp(14px"],
+  [style*="font-size:clamp(13px"],
+  [style*="font-size:clamp(12px"],
+  .text-sm, .text-xs, .footer-link, main time, footer a {
+    font-size: 16px !important;
+  }
+  [style*="font-size:9px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:10px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:11px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:12px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:13px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:14px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:15px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.5625rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.625rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.6875rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.68rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.7rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.72rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.75rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.78rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.8rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.8125rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.82rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.85rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.875rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.88rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.9rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.9375rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:0.95rem"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:clamp(15px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:clamp(14px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:clamp(13px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  [style*="font-size:clamp(12px"][style*="text-transform:uppercase"]:not(a):not(button):not(a *):not(button *),
+  .text-xs.uppercase, .contact-field-label,
+  nav[aria-label="Breadcrumb" i], nav[aria-label="Breadcrumb" i] * {
+    font-size: 14px !important;
+  }
+  /* /assessment credibility grid was 1fr 1fr at every width -> 473px scrollWidth at 390 */
+  .assess-cred-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

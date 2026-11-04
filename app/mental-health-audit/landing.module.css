@@ -486,3 +486,34 @@
     font-size: 12px;
   }
 }
+
+/* Mobile text floor (card #543): body/links/buttons/inputs >=16px, labels and
+   fine print >=14px. Desktop unchanged. */
+@media (max-width: 767px) {
+  .phoneLink,
+  .formSub,
+  .founderTrust span,
+  .formRow input,
+  .fitCard ul,
+  .step p,
+  .successBox p,
+  .formError,
+  .footer .fname,
+  .btnOrange,
+  .btnOutline,
+  .submitBtn {
+    font-size: 16px;
+  }
+  .badge,
+  .formEyebrow,
+  .eyebrowBlock,
+  .fitCard h3,
+  .formRow label,
+  .heroFine,
+  .proofStat .label,
+  .formFine,
+  .sources,
+  .footer {
+    font-size: 14px;
+  }
+}

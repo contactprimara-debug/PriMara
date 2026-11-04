@@ -223,7 +223,7 @@ export default function AssessmentLandingPage() {
       {/* ── Credibility ───────────────────────────────────────────────────── */}
       <section aria-labelledby="credibility-heading" style={{ borderBottom: "1px solid var(--wire)" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "clamp(60px, 8vw, 100px) clamp(24px, 8vw, 80px)" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "clamp(40px, 6vw, 80px)", alignItems: "center" }}>
+          <div className="assess-cred-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "clamp(40px, 6vw, 80px)", alignItems: "center" }}>
 
             {/* Left: bio */}
             <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
@@ -262,7 +262,7 @@ export default function AssessmentLandingPage() {
                 no account coordinators, no handoffs.
               </p>
 
-              <div style={{ display: "flex", gap: "12px" }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "4px 12px" }}>
                 <a href="tel:+15612912681" style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--gold)", textDecoration: "none", letterSpacing: "0.04em" }}>
                   +1 (561) 291-2681
                 </a>
