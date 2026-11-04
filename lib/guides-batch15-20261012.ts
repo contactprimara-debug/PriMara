@@ -1042,7 +1042,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A UTM link is your normal web address with a few labels added, such as source and medium. Put one on your Google Business Profile website button and on each directory listing, and Google Analytics 4 will show which listing sent the visit. Never put patient information in any label.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-04",
     "readMinutes": 7,
     "sections": [
       {
@@ -1137,7 +1137,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep expectations reasonable. A small practice may see only a handful of visits per listing per month, and a handful of visits cannot support a firm conclusion. Use the data to spot a listing that sends nothing, or one that sends visitors who leave at once, then check that listing for errors. Our guide on [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows how to build the routine."
+        "text": "Keep expectations reasonable. A small practice may see only a handful of visits per listing per month, and a handful of visits cannot support a firm conclusion. Use the data to spot a listing that sends nothing, or one that sends visitors who leave at once, then check that listing for errors. Our guide on [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows how to build the routine. Every post button can carry a tagged link, and a counseling practice can find ready topics in these [post ideas that avoid clinical claims](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims)."
       },
       {
         "type": "h2",

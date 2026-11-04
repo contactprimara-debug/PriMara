@@ -360,7 +360,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Internal linking means pointing your own pages at each other using descriptive link text. Link every service page from your navigation and from related pages, give each provider bio and location page at least a few contextual links, and fix orphan pages that nothing links to. Google finds pages mainly by following links.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-04",
     "readMinutes": 6,
     "sections": [
       {
@@ -429,7 +429,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit. Links in the menu and footer appear on every page, so plan them together with a [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) before adding contextual links. A good error page is also an internal linking tool, because it sends lost visitors to your key pages, as the guide to a [site search box and 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) shows."
+        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit. Links in the menu and footer appear on every page, so plan them together with a [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) before adding contextual links. A good error page is also an internal linking tool, because it sends lost visitors to your key pages, as the guide to a [site search box and 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) shows. A clear main page for each topic also prevents two of your own pages from competing, which our guide to [two pages for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website) shows how to check."
       },
       {
         "type": "h2",
@@ -1196,7 +1196,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Most medical practices should allow the AI search crawlers and may choose to block the AI training crawlers. Blocking a search crawler can reduce your chance of being cited by that assistant, while blocking a training crawler only affects model training. Google-Extended does not affect your Google Search ranking. Decide on purpose, and never rely on robots.txt for privacy.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-11-04",
     "readMinutes": 6,
     "sections": [
       {
@@ -1283,7 +1283,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Robots.txt is a request, not a lock. A crawler that ignores it can still read any page that is public, and blocking a bot does not remove content already collected. Anything private must sit behind a login. Patient portals, forms and anything with patient information must never be on a public page, whatever robots.txt says. Our [HIPAA-safe tracking guide](/guides/hipaa-safe-tracking-for-a-medical-website) covers how to keep patient information off public pages."
+        "text": "Robots.txt is a request, not a lock. A crawler that ignores it can still read any page that is public, and blocking a bot does not remove content already collected. Anything private must sit behind a login. Patient portals, forms and anything with patient information must never be on a public page, whatever robots.txt says. Our [HIPAA-safe tracking guide](/guides/hipaa-safe-tracking-for-a-medical-website) covers how to keep patient information off public pages. Once you have decided what crawlers may read, you can consider the optional text file described in our guide to [llms.txt and AI-readable summaries for a medical practice website](/guides/llms-txt-and-ai-readable-summaries-for-a-medical-practice-website)."
       },
       {
         "type": "h2",
@@ -1376,7 +1376,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Write ten to fifteen questions a patient would ask, run each in ChatGPT, Gemini and Perplexity, repeat each a few times, and record whether your practice is named, whether the facts are right and which sources are cited. Answers vary by person, place and day, so treat the result as a sample. Never type patient information.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-11-04",
     "readMinutes": 6,
     "sections": [
       {
@@ -1474,7 +1474,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A short worked example shows the idea. Suppose the sheet shows an assistant naming your practice for the service-plus-city question in two of three runs, but quoting an old phone number each time. The mention is good news and the number is the task. Trace the number to its source, fix it, and rerun the question next quarter."
+        "text": "A short worked example shows the idea. Suppose the sheet shows an assistant naming your practice for the service-plus-city question in two of three runs, but quoting an old phone number each time. The mention is good news and the number is the task. Trace the number to its source, fix it, and rerun the question next quarter. If the answers you find are wrong or thin, a short factual summary and an optional file can help, as covered in [llms.txt and AI-readable summaries for a medical practice website](/guides/llms-txt-and-ai-readable-summaries-for-a-medical-practice-website)."
       }
     ],
     "faqs": [

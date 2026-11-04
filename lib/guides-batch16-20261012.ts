@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-04",
     "readMinutes": 6,
     "sections": [
       {
@@ -539,7 +539,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office. Patients who raise a new concern during the visit may see a second charge, so explain [preventive visit versus problem visit billing](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) in plain words on the same page."
+        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office. Patients who raise a new concern during the visit may see a second charge, so explain [preventive visit versus problem visit billing](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) in plain words on the same page. Practices that also see women for routine visits can describe those in a separate [women's health visit page that avoids clinical claims](/guides/womens-health-visit-page-for-a-primary-care-practice-without-clinical-claims) rather than crowding the annual visit page."
       }
     ],
     "faqs": [

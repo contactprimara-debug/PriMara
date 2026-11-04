@@ -239,7 +239,7 @@ export const guidesPartOne: Guide[] = [
       "A solo therapist in Florida typically spends three hundred to fifteen hundred dollars a month on marketing, and a group practice spends two thousand to five thousand. The cheapest option is a directory listing at roughly thirty dollars a month; the most durable is local SEO and a Google Business Profile, which costs more but keeps producing after you stop paying.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       {
@@ -326,7 +326,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "For a solo therapist in a Florida metro: roughly three thousand for a website that is actually yours, then eight hundred to twelve hundred a month for profile and content work, and a directory listing kept as a backstop. That is around fifteen thousand in year one. At an average client value of well over a thousand dollars across an episode of care, the channel breaks even on a single steady client and everything after that is margin.",
+        text: "For a solo therapist in a Florida metro: roughly three thousand for a website that is actually yours, then eight hundred to twelve hundred a month for profile and content work, and a directory listing kept as a backstop. That is around fifteen thousand in year one. At an average client value of well over a thousand dollars across an episode of care, the channel breaks even on a single steady client and everything after that is margin. To decide how to divide whatever you can afford each month, read [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice) before you sign a contract.",
       },
     ],
     faqs: [
@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       {
@@ -492,7 +492,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "callout",
-        text: "If your budget only covers one channel and you can survive a slow quarter, choose the Google Business Profile and local SEO. It is the only spend that is still working for you next year. If a directory listing is part of the plan, [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) shows how it compares.",
+        text: "If your budget only covers one channel and you can survive a slow quarter, choose the Google Business Profile and local SEO. It is the only spend that is still working for you next year. If a directory listing is part of the plan, [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists) shows how it compares. If the budget is small, the order of spending matters more than the split, which is the point of our guide to [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice).",
       },
       {
         type: "h2",

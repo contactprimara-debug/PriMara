@@ -414,7 +414,7 @@ export const guidesPartNine: Guide[] = [
       "Core Web Vitals are three Google-defined measurements of real-world page experience — loading speed (LCP), visual stability (CLS), and responsiveness (INP) — and a medical practice site should test every page type (homepage, a service page, a location page) with Google's free PageSpeed Insights tool, since a slow or unstable page loses patients before they ever read it.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "The three metrics, and the current pass/fail line" },
@@ -452,7 +452,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What we do not recommend" },
       {
         type: "p",
-        text: "Chasing a perfect 100 PageSpeed score is not the goal and can cost more than it's worth — stripping out a genuinely useful booking widget or lazy-loading content a patient needs immediately in the name of a few tenths of a second is a bad trade. The goal is passing Google's \"good\" threshold on all three metrics, consistently, across your real page types — not a leaderboard score. After speed, confirm Google can crawl the site at all; see [XML sitemaps and robots.txt for a practice website](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website).",
+        text: "Chasing a perfect 100 PageSpeed score is not the goal and can cost more than it's worth — stripping out a genuinely useful booking widget or lazy-loading content a patient needs immediately in the name of a few tenths of a second is a bad trade. The goal is passing Google's \"good\" threshold on all three metrics, consistently, across your real page types — not a leaderboard score. After speed, confirm Google can crawl the site at all; see [XML sitemaps and robots.txt for a practice website](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website). Extra scripts from banners and widgets slow a page and can cover buttons, so check the list in [pop-ups, banners and chat widgets on the mobile page of a medical practice website](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website).",
       },
     ],
     faqs: [
@@ -528,7 +528,7 @@ export const guidesPartNine: Guide[] = [
       "Schema markup is structured code added to a webpage that states facts directly to Google and AI search tools — your practice name, address, hours, services, and FAQ answers — instead of making them infer it from prose. A medical practice site should carry LocalBusiness or MedicalBusiness, Service, FAQPage, and BreadcrumbList schema at minimum, verified with Google's free Rich Results Test.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What schema markup actually is" },
@@ -561,7 +561,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What not to do" },
       {
         type: "p",
-        text: "Never mark up a fact that isn't true to try to win a richer result — a review count you don't have, a credential a provider doesn't hold, aggregateRating without real, verifiable review data behind it. Google's structured data guidelines explicitly prohibit this, and the penalty for being caught is a structured-data-specific manual action that can strip rich results sitewide, which is a worse outcome than never having added the markup at all. Structured data should match each language version, as our guide on [bilingual Spanish and English SEO](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) describes. Video markup should only describe a video that is really on the page, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) covers the properties Google asks for.",
+        text: "Never mark up a fact that isn't true to try to win a richer result — a review count you don't have, a credential a provider doesn't hold, aggregateRating without real, verifiable review data behind it. Google's structured data guidelines explicitly prohibit this, and the penalty for being caught is a structured-data-specific manual action that can strip rich results sitewide, which is a worse outcome than never having added the markup at all. Structured data should match each language version, as our guide on [bilingual Spanish and English SEO](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) describes. Video markup should only describe a video that is really on the page, and our guide on [video on a medical practice website](/guides/video-on-a-medical-practice-website-transcripts-captions-and-video-schema) covers the properties Google asks for. FAQ markup is the type whose purpose changed most recently, and our guide to [FAQ schema after Google limited FAQ rich results](/guides/faq-schema-for-a-medical-practice-website-after-google-limited-faq-rich-results) explains what to keep and what to expect from it.",
       },
     ],
     faqs: [
@@ -977,7 +977,7 @@ export const guidesPartNine: Guide[] = [
       "A medical practice should blog if it has real patient questions worth answering in depth and the capacity to publish consistently — one genuinely useful post every 2-4 weeks beats four rushed posts dumped in one month and nothing after. A practice with thin service pages should fix those first; a blog on top of weak core pages rarely moves the needle on its own.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What a blog is actually for, for a local practice" },
@@ -1017,7 +1017,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What makes a medical blog post actually rank" },
       {
         type: "p",
-        text: "The same bar as any other page on the site: a direct answer in the first few sentences, real specificity (your actual hours, your actual process, not generic advice available on a hundred other sites), and a named, credentialed author when the topic is clinical. A post written to \"hit a word count\" without a real question behind it reads as filler to both readers and Google's helpful-content systems, and tends to sit unindexed rather than rank.",
+        text: "The same bar as any other page on the site: a direct answer in the first few sentences, real specificity (your actual hours, your actual process, not generic advice available on a hundred other sites), and a named, credentialed author when the topic is clinical. A post written to \"hit a word count\" without a real question behind it reads as filler to both readers and Google's helpful-content systems, and tends to sit unindexed rather than rank. Once the blog grows, tag and date archives can pile up, and our guide to [blog tag, category and archive pages on a medical practice website](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex) explains which to keep.",
       },
     ],
     faqs: [

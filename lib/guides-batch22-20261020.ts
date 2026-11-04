@@ -660,7 +660,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A primary care FAQ page should answer the practical questions patients ask the front desk: hours, new patients, insurance, referrals, forms, refills, portal use and what to do in an emergency. It should leave out diagnosis, treatment and symptom advice, and send those questions to a clinician or to 911 when urgent.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("Mine the phone log, not your imagination"),
@@ -705,7 +705,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Where to link it from"),
       p(
-        "Link the FAQ from the contact page, the new-patient page and the footer. Do not repeat all the answers across those pages. A link plus one sentence is enough, and it keeps each page distinct. If your practice also sees patients for counseling, keep that FAQ separate."
+        "Link the FAQ from the contact page, the new-patient page and the footer. Do not repeat all the answers across those pages. A link plus one sentence is enough, and it keeps each page distinct. If your practice also sees patients for counseling, keep that FAQ separate. If you add markup to this page, remember that Google now shows FAQ results for few sites, which our guide on [FAQ schema after the rich result change](/guides/faq-schema-for-a-medical-practice-website-after-google-limited-faq-rich-results) explains in plain terms."
       ),
     ],
     faqs: [

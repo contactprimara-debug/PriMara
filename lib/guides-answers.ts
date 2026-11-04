@@ -215,7 +215,7 @@ export const guidesPartThree: Guide[] = [
       "Reply to a negative patient review within a few days, in public, without confirming the person was ever a patient. Thank them for the feedback, describe your standard of care in general terms, give a phone number or office email, and move the conversation offline. Confirming treatment in public is a disclosure of protected health information.",
     author: "Liam Costello",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     howTo: {
       name: "How to respond to a negative patient review",
@@ -289,7 +289,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "The maths that makes bad reviews survivable" },
       {
         type: "p",
-        text: "A one-star review landing on a profile with ninety reviews barely moves the average. The same review on a profile with nine drops it by roughly half a star and sits at the top for months. Volume is the real defence, built in ordinary weeks. How many reviews a practice needs to absorb that is covered in [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need).",
+        text: "A one-star review landing on a profile with ninety reviews barely moves the average. The same review on a profile with nine drops it by roughly half a star and sits at the top for months. Volume is the real defence, built in ordinary weeks. How many reviews a practice needs to absorb that is covered in [how many Google reviews a medical practice needs](/blog/how-many-google-reviews-does-a-medical-practice-need). A short weekly habit keeps replies timely, and the [weekly review routine for a counseling practice Google profile](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile) shows how to build one around a shared log.",
       },
     ],
     faqs: [

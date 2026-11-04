@@ -344,7 +344,7 @@ export const guidesPartTen: Guide[] = [
       "Setting up GA4 for a medical practice means creating a property, adding the web data stream's tag to every page, then configuring two or three key events — form submission and phone click — as conversions. The part generic GA4 tutorials skip: never let any field capture a patient's name, condition, or appointment reason.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Create the property and data stream" },
@@ -373,7 +373,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Link it to Google Ads and Search Console" },
       {
         type: "p",
-        text: "Once the key events exist, link the GA4 property to your Google Ads account (Admin > Product Links > Google Ads Linking) so conversions can be imported for bidding, and separately link Search Console (Admin > Product Links > Search Console Links) to see which organic queries actually drive the sessions that convert. Both links take a few minutes and turn GA4 from a standalone report into the thing that tells you whether your marketing spend is working. Pair GA4 with Search Console, which shows what happens in Google before the click; see [how to read Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website). Analytics only sees online activity, so pair it with a simple intake question; our guide on [asking new patients how they heard about you](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to record the answer without health details.",
+        text: "Once the key events exist, link the GA4 property to your Google Ads account (Admin > Product Links > Google Ads Linking) so conversions can be imported for bidding, and separately link Search Console (Admin > Product Links > Search Console Links) to see which organic queries actually drive the sessions that convert. Both links take a few minutes and turn GA4 from a standalone report into the thing that tells you whether your marketing spend is working. Pair GA4 with Search Console, which shows what happens in Google before the click; see [how to read Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website). Analytics only sees online activity, so pair it with a simple intake question; our guide on [asking new patients how they heard about you](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to record the answer without health details. After setup, keep your own visits out of the numbers by following the steps in [excluding staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website).",
       },
     ],
     faqs: [
@@ -556,7 +556,7 @@ export const guidesPartTen: Guide[] = [
       "A press release helps a medical practice's SEO mainly by earning genuine local press pickup and brand-name mentions, not by stuffing keyword-rich links into the release text itself — Google explicitly flags mass-distributed press releases with exact-match anchor links as a link spam pattern, so the release has to be newsworthy on its own merits.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What a press release can and can't do for SEO" },
@@ -583,7 +583,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "The link mistake to avoid" },
       {
         type: "p",
-        text: "If you do distribute through a wire service or submit to local outlets, link back to your site using your practice's actual name or a plain URL as the anchor text — never an exact-match keyword phrase like 'best family doctor in Lakeland.' Google's link spam guidance specifically names widely distributed press releases containing keyword-rich links as a manipulative link pattern, separate from the press release's legitimate news value. A natural-looking brand-name link carries no such risk and is also simply how a real journalist or editor would write it themselves.",
+        text: "If you do distribute through a wire service or submit to local outlets, link back to your site using your practice's actual name or a plain URL as the anchor text — never an exact-match keyword phrase like 'best family doctor in Lakeland.' Google's link spam guidance specifically names widely distributed press releases containing keyword-rich links as a manipulative link pattern, separate from the press release's legitimate news value. A natural-looking brand-name link carries no such risk and is also simply how a real journalist or editor would write it themselves. Once coverage arrives, collect it on a tidy page, as explained in our guide to an [in-the-news and media mentions page for a medical practice](/guides/in-the-news-and-media-mentions-page-for-a-medical-practice-without-endorsement-claims) that avoids endorsement claims.",
       },
     ],
     faqs: [

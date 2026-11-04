@@ -943,7 +943,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A canonical tag tells Google which version of a page is the main one when the same content can be reached at more than one address. Give every page one self-referencing canonical, redirect old or alternate addresses to it, and avoid publishing near-copies of the same page. Google treats canonicals as a strong hint, not a command.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-11-04",
   "readMinutes": 7,
   "sections": [
     {
@@ -1029,7 +1029,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation."
+      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website)."
     },
     {
       "type": "callout",
@@ -2163,7 +2163,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Post short, factual updates that help a patient decide: a new service, changed hours, a seasonal reminder, a new provider, or an answer to a common question. Add a real photo, keep the first line clear, link to a relevant page, and never include patient information, outcome claims or promotional offers that break Google's content policy.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-29",
+  "dateModified": "2026-11-04",
   "readMinutes": 6,
   "sections": [
     {
@@ -2259,7 +2259,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Use the [content calendar checklist](/guides/medical-practice-content-calendar-checklist) to plan the year. In a typical month you might post once about a service, once about hours or a reminder, and once answering a common patient question. That is three posts, written in an hour."
+      "text": "Use the [content calendar checklist](/guides/medical-practice-content-calendar-checklist) to plan the year. In a typical month you might post once about a service, once about hours or a reminder, and once answering a common patient question. That is three posts, written in an hour. A counseling practice has extra privacy concerns, so see these [Google Business Profile post ideas for a counseling practice that avoid clinical claims](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims) before writing a weekly post."
     },
     {
       "type": "callout",

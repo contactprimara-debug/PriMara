@@ -19,7 +19,7 @@ export const guidesPartFour: Guide[] = [
       "Google Ads for a Florida medical practice typically runs eight to thirty dollars per click, with most single-location practices spending fifteen hundred to five thousand dollars a month on media plus a management fee. The number that matters more than cost-per-click is cost per booked patient, which depends heavily on your landing page and phone tracking, not just the bid.",
     author: "Gio LaRoche",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       {
@@ -97,7 +97,7 @@ export const guidesPartFour: Guide[] = [
       },
       {
         type: "p",
-        text: "Ads produce calls within days; SEO takes months but does not stop the moment you stop paying. For a new practice or a location launch, Ads carries the first two to three quarters of demand while organic and the Google Business Profile mature underneath it. For an established practice with a strong map pack presence already, Ads is usually best used narrowly — a specific new service line, or filling appointment gaps in a slow week — rather than as the primary channel.",
+        text: "Ads produce calls within days; SEO takes months but does not stop the moment you stop paying. For a new practice or a location launch, Ads carries the first two to three quarters of demand while organic and the Google Business Profile mature underneath it. For an established practice with a strong map pack presence already, Ads is usually best used narrowly — a specific new service line, or filling appointment gaps in a slow week — rather than as the primary channel. A counseling practice with a small budget should fix the free foundations first, as laid out in [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice).",
       },
     ],
     faqs: [

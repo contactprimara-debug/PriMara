@@ -155,7 +155,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "Mobile-first indexing means Google reads the mobile version of your pages to decide how to index and rank them. If your phone version hides text, drops structured data, or blocks images that the desktop version shows, Google may never see that content. A medical practice site should show the same core content on both.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       {
@@ -211,7 +211,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The cleanest fix is a responsive design, one set of HTML that adapts to screen size, so there is only one version of each page to keep correct. If your site still serves a separate mobile version, put identical primary content, titles, and structured data on both, and keep the redirects between them accurate. If your site was built on an older theme, a rebuild on a responsive framework is often cheaper than patching two versions. Our [medical practice website design](/services/medical-practice-website-design) service starts from this requirement. Whichever version Google crawls should load securely over HTTPS; see [HTTPS, SSL certificates and mixed-content warnings on a medical practice website](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website) for how to check it."
+        "text": "The cleanest fix is a responsive design, one set of HTML that adapts to screen size, so there is only one version of each page to keep correct. If your site still serves a separate mobile version, put identical primary content, titles, and structured data on both, and keep the redirects between them accurate. If your site was built on an older theme, a rebuild on a responsive framework is often cheaper than patching two versions. Our [medical practice website design](/services/medical-practice-website-design) service starts from this requirement. Whichever version Google crawls should load securely over HTTPS; see [HTTPS, SSL certificates and mixed-content warnings on a medical practice website](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website) for how to check it. Because Google reads the mobile version first, test what pop-ups and banners do on a phone, as described in [pop-ups, banners and chat widgets on the mobile page of a medical practice website](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website)."
       }
     ],
     faqs: [
@@ -286,7 +286,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       {
@@ -339,7 +339,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Fix the sources you control first by logging in and editing the details. For listings you cannot edit, use the site's claim or suggest-an-edit process, and keep a record of what you submitted and when. Do not create a new listing to replace a wrong one, because that makes a duplicate. For Google specifically, follow our guide to [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings), and review changes Google suggests with [how to handle suggested edits](/guides/how-to-handle-google-business-profile-suggested-edits). If the address is right in your directories but the map marker is off, follow [how to fix a wrong map pin on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile). An address change is the most common cause of a mismatch, so follow the [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) before and after any move."
+        "text": "Fix the sources you control first by logging in and editing the details. For listings you cannot edit, use the site's claim or suggest-an-edit process, and keep a record of what you submitted and when. Do not create a new listing to replace a wrong one, because that makes a duplicate. For Google specifically, follow our guide to [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings), and review changes Google suggests with [how to handle suggested edits](/guides/how-to-handle-google-business-profile-suggested-edits). If the address is right in your directories but the map marker is off, follow [how to fix a wrong map pin on a Google Business Profile](/guides/how-to-fix-a-wrong-map-pin-or-location-on-a-google-business-profile). An address change is the most common cause of a mismatch, so follow the [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) before and after any move. If the practice owns both a local and a toll-free line, decide which is primary using our comparison of a [toll-free versus local phone number on a medical practice website and Google profile](/guides/toll-free-versus-local-phone-number-on-a-medical-practice-website-and-google-profile)."
       },
       {
         "type": "p",
@@ -962,7 +962,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "You cannot edit an AI chatbot's answer directly, so fix the sources it draws from. First, document the error. Second, correct your website, Google Business Profile, and directory listings so they agree. Third, use the chatbot's built-in feedback option. Then recheck in a few weeks, because answers change as sources update.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       {
@@ -1021,7 +1021,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Retest the same prompts after two to four weeks and again after a few months, and log the dates. Corrections can take a while to appear, and some assistants will not change at all until their data refreshes. Add this to your quarterly listing check so a new error is caught early. If AI-generated answers about you keep going wrong, the underlying issue is usually inconsistent or thin source data, which is the work described in [how to get a medical practice into AI search answers](/guides/get-a-medical-practice-into-ai-search-answers). If your own website runs an automated assistant, limit it to approved facts and review it often, as covered in [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid)."
+        "text": "Retest the same prompts after two to four weeks and again after a few months, and log the dates. Corrections can take a while to appear, and some assistants will not change at all until their data refreshes. Add this to your quarterly listing check so a new error is caught early. If AI-generated answers about you keep going wrong, the underlying issue is usually inconsistent or thin source data, which is the work described in [how to get a medical practice into AI search answers](/guides/get-a-medical-practice-into-ai-search-answers). If your own website runs an automated assistant, limit it to approved facts and review it often, as covered in [live chat and chatbots on a medical practice website](/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid). To make the correct facts easier for any tool to read, add a plain summary of the practice and consider the steps in [llms.txt and AI-readable summaries for a medical practice website](/guides/llms-txt-and-ai-readable-summaries-for-a-medical-practice-website)."
       }
     ],
     faqs: [
@@ -1101,7 +1101,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "Review every page at least once a year, and your highest-value pages, such as service and location pages, every quarter. Update a page when the facts change, when its clicks decline, or when a clinician reviews it and finds something outdated. Change the date only when the content genuinely changed.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       {
@@ -1160,7 +1160,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Avoid two traps. Do not rewrite a page that ranks well just to change it, and do not republish near-identical text with a new date. Both waste time, and the second can look like manipulation. Pair this routine with your [content calendar](/guides/medical-practice-content-calendar-checklist), and read our view on [how often to blog](/guides/should-a-medical-practice-blog-and-how-often) so new publishing and updating share one plan."
+        "text": "Avoid two traps. Do not rewrite a page that ranks well just to change it, and do not republish near-identical text with a new date. Both waste time, and the second can look like manipulation. Pair this routine with your [content calendar](/guides/medical-practice-content-calendar-checklist), and read our view on [how often to blog](/guides/should-a-medical-practice-blog-and-how-often) so new publishing and updating share one plan. While updating older posts, also check the thin tag and date list pages around them, using the guidance on [blog tag, category and archive pages for a medical practice website](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex)."
       }
     ],
     faqs: [

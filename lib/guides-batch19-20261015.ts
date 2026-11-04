@@ -563,7 +563,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Thank the reviewer in general terms, do not confirm that they were a patient, do not mention the visit, the provider's treatment or any health detail, and invite them to call the office for anything personal. A reply is public, and even a warm one can disclose protected information if it confirms who was seen.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:40:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("A happy review is still a privacy risk"),
@@ -607,7 +607,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("A quick approval routine"),
       p(
-        "Keep a short list of approved replies in a shared document, and assign one person to post them. For anything outside the list, such as a review that mentions a complaint, a name or a family member, pause and ask the practice manager before writing. Set a service level, such as replying within two business days, and track it in a simple log."
+        "Keep a short list of approved replies in a shared document, and assign one person to post them. For anything outside the list, such as a review that mentions a complaint, a name or a family member, pause and ask the practice manager before writing. Set a service level, such as replying within two business days, and track it in a simple log. To make sure every reply is read and sent on time, set up a [weekly review monitoring routine for a counseling practice Google profile](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile) with a named owner and a backup."
       ),
       p(
         "Consistent, privacy-conscious replies matter more than fast ones. A pause of an hour is cheap compared with a disclosure that cannot be taken back."
@@ -657,7 +657,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A thank-you page should confirm the request arrived, say when the practice will respond, give the phone number for urgent needs and the 911 line for emergencies, and contain no health details. It is also the best place to count a lead, because the page only loads after a form is actually submitted.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("The page most practices forget to build"),
@@ -705,7 +705,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         ["Phone view", "The confirmation and phone number are visible without scrolling."]
       ),
       p(
-        "For phone calls, set up a similar event on the tap of the phone link, as described in [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website). To keep junk submissions from inflating the count, see how to [stop spam and fake leads on a contact form](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form)."
+        "For phone calls, set up a similar event on the tap of the phone link, as described in [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website). To keep junk submissions from inflating the count, see how to [stop spam and fake leads on a contact form](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form). The email that follows the thank-you page needs equally careful wording, and our guide to a [contact form confirmation email for a primary care practice](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details) gives a safe structure."
       ),
       h2("Small details that make the page work"),
       ul(
@@ -948,7 +948,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Before adding a chat widget, confirm the vendor will sign a business associate agreement if messages can contain patient information, show a clear notice that chat is not for emergencies or health questions, route crisis words to 988 or 911 information, and keep transcripts out of general analytics. If these steps are not possible, use a simple contact form instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T12:00:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("Chat is convenient, and it is a data collection tool"),
@@ -990,7 +990,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Review the setup after launch"),
       p(
-        "Read the first two weeks of transcripts with the practice manager and look for what visitors actually ask. If many ask a question the website should answer, fix the website. If visitors regularly type health details despite the notice, make the notice more prominent or replace chat with a call-back form."
+        "Read the first two weeks of transcripts with the practice manager and look for what visitors actually ask. If many ask a question the website should answer, fix the website. If visitors regularly type health details despite the notice, make the notice more prominent or replace chat with a call-back form. A chat bubble is only one of several overlays that can hide the call button on a phone, so also read about [pop-ups, banners and chat widgets on the mobile page of a medical practice website](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website)."
       ),
       p(
         "Plan to revisit the choice every six months, since vendors change their terms and features, and a tool that was acceptable at launch may not be a year later."

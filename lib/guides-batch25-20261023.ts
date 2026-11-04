@@ -1271,7 +1271,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A post-hospital follow-up page tells patients and families how to book a visit soon after a hospital stay, what to bring, who to call and what the office will do with the discharge paperwork. Keep it practical, avoid medical advice and send emergencies to 911.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("A visit people search for in a hurry"),
@@ -1310,7 +1310,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Make the phone call easy"),
       p(
-        "Tell the front desk to expect these calls and give them a short script: ask whether the patient was recently discharged, ask for the discharge date, offer the earliest suitable visit and remind the caller what to bring. Add the same script to your internal handbook and review it with new staff. A page that promises quick help and a phone line that puts the caller on hold works against itself. After a hospital stay patients may be handed several documents, and a short [explainer about the after visit summary](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) helps them find the one from your office and know who to call about it."
+        "Tell the front desk to expect these calls and give them a short script: ask whether the patient was recently discharged, ask for the discharge date, offer the earliest suitable visit and remind the caller what to bring. Add the same script to your internal handbook and review it with new staff. A page that promises quick help and a phone line that puts the caller on hold works against itself. After a hospital stay patients may be handed several documents, and a short [explainer about the after visit summary](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) helps them find the one from your office and know who to call about it. If a follow-up includes a short nursing check instead of a full provider visit, describe it in plain words, as in this guide to a [nurse visit page for a primary care practice](/guides/nurse-visit-page-for-injections-and-blood-pressure-checks-at-a-primary-care-practice-without-clinical-claims)."
       ),
     ],
     faqs: [
@@ -1357,7 +1357,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A well-child checkup page explains which ages the family medicine practice sees, how to book a routine checkup, what to bring and how school forms are handled. Point parents to the American Academy of Pediatrics for the recommended schedule instead of writing your own medical guidance.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("What parents are looking for"),
@@ -1399,7 +1399,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Keep the page friendly"),
       p(
-        "Use warm, direct wording and a photo of the real waiting room if you have one. Parents book faster when they can picture the visit. Add the office hours, the languages staff speak and whether the practice offers extended hours for school pickups, so a working parent can see at once whether the schedule fits."
+        "Use warm, direct wording and a photo of the real waiting room if you have one. Parents book faster when they can picture the visit. Add the office hours, the languages staff speak and whether the practice offers extended hours for school pickups, so a working parent can see at once whether the schedule fits. Parents of a newborn are usually looking for a different page than parents of a school-age child, so link them to a [new baby first visit page for a family medicine practice](/guides/new-baby-first-visit-scheduling-page-for-a-family-medicine-practice-without-clinical-claims)."
       ),
       p(
         "Check the page before the school year starts and again before sports season, since that is when form requests increase."

@@ -367,7 +367,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A first-time client form for a counseling practice should feel safe to fill in. Ask for a first name, a phone or email the person has marked as private, and a preferred contact time. Skip the story of why they are reaching out. Add a short privacy notice, a crisis line and an honest reply time.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("A different kind of form"),
@@ -410,7 +410,7 @@ export const guidesPartTwentySeven: Guide[] = [
         ["Has a waitlist", "We reply within two business days and share the expected wait for a first appointment."]
       ),
       p(
-        "If you have a waiting list, say so. Our guide to [waitlist pages for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to explain it without losing the visitor. Because the public contact form should stay short, leave the emergency contact off it and explain that step on an [emergency contact request on intake page](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that clients read before the secure intake packet."
+        "If you have a waiting list, say so. Our guide to [waitlist pages for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to explain it without losing the visitor. Because the public contact form should stay short, leave the emergency contact off it and explain that step on an [emergency contact request on intake page](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that clients read before the secure intake packet. A primary care office faces similar choices when it replies to a web form, as shown in this guide to [contact form confirmation email wording without health details](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details)."
       ),
       h2("Behind the scenes"),
       ul(
@@ -557,7 +557,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A vaccine availability page tells patients which vaccines the office offers, which ages it serves, how to book and what to bring. It stays factual and avoids claims about safety, benefits or who needs a shot. Link to the CDC for medical information and say to call to confirm what is in stock.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("The question patients are really asking"),
@@ -598,7 +598,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "A page that says flu shots are available every day will be wrong on the first day the supply runs out. Add a sentence such as call to confirm availability, and date-stamp the page with the month it was last checked. Our guide to [seasonal service pages for flu shots and school physicals](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals) shows how to refresh a page each season without creating a new one."
       ),
       p(
-        "If you do not offer a vaccine, say so and suggest where else to look, such as the pharmacy partners page or the county health department. Sending someone away helpfully is better than letting them drive over for nothing. Our guide to the [pharmacy and lab partner information page](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) shows how to list those options."
+        "If you do not offer a vaccine, say so and suggest where else to look, such as the pharmacy partners page or the county health department. Sending someone away helpfully is better than letting them drive over for nothing. Our guide to the [pharmacy and lab partner information page](/guides/pharmacy-and-lab-partner-information-page-for-a-primary-care-practice) shows how to list those options. Offices that give shots on a nurse-only schedule can explain that separately, as described in our guide to a [nurse visit page for injections and blood pressure checks](/guides/nurse-visit-page-for-injections-and-blood-pressure-checks-at-a-primary-care-practice-without-clinical-claims)."
       ),
       h2("Make the page do its job"),
       ul(

@@ -122,7 +122,7 @@ export const guidesPartSeven: Guide[] = [
       "A healthy Google Business Profile needs monthly attention: reply to every new review within 48 hours, post at least twice a week with a real photo attached (never text-only), check and correct hours around holidays, answer any pending Q&A questions, and review the Insights tab for calls, direction requests, and website clicks month over month. A listing that only gets touched once a quarter falls behind competitors who post weekly.",
     author: "Liam Costello",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "A Google Business Profile is not \"set it and forget it\"" },
@@ -160,7 +160,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Watching the Insights numbers month over month" },
       {
         type: "p",
-        text: "The three numbers worth tracking every month are calls, direction requests, and website clicks from the listing. A flat or declining trend across all three, even while impressions hold steady, usually points at a stale profile — no recent posts, an old primary photo, or a category that no longer matches what the practice actually does. A rising trend in impressions with flat clicks often means the listing is being seen but not chosen over a competitor, which is a signal to look at photos and review count relative to the next-ranked competitor. Before storm season, read our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) so the update is a ten-minute job. Our step-by-step routine for [reading Business Profile performance reports each month](/guides/how-to-read-google-business-profile-performance-reports-each-month) shows which numbers to record and what each one can and cannot tell you. Add the upcoming holiday dates to the monthly review, and use the [holiday and closure notices checklist](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) to make sure the listing, website and phone greeting all say the same thing. Add a monthly search for your own practice name to look for red labels, and follow [what to do when Google marks an open practice permanently closed](/guides/fixing-a-google-business-profile-marked-permanently-closed-for-an-open-practice) if one appears.",
+        text: "The three numbers worth tracking every month are calls, direction requests, and website clicks from the listing. A flat or declining trend across all three, even while impressions hold steady, usually points at a stale profile — no recent posts, an old primary photo, or a category that no longer matches what the practice actually does. A rising trend in impressions with flat clicks often means the listing is being seen but not chosen over a competitor, which is a signal to look at photos and review count relative to the next-ranked competitor. Before storm season, read our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) so the update is a ten-minute job. Our step-by-step routine for [reading Business Profile performance reports each month](/guides/how-to-read-google-business-profile-performance-reports-each-month) shows which numbers to record and what each one can and cannot tell you. Add the upcoming holiday dates to the monthly review, and use the [holiday and closure notices checklist](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) to make sure the listing, website and phone greeting all say the same thing. Add a monthly search for your own practice name to look for red labels, and follow [what to do when Google marks an open practice permanently closed](/guides/fixing-a-google-business-profile-marked-permanently-closed-for-an-open-practice) if one appears. If you keep a list of reusable post topics, the ideas in [Google Business Profile post ideas for a counseling practice](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims) make the posting step quicker.",
       },
     ],
     faqs: [
@@ -387,7 +387,7 @@ export const guidesPartSeven: Guide[] = [
       "AI search tools like ChatGPT and Google's AI Overviews pull answers from pages that state a question and answer it directly in 40–80 words, in plain language, without burying the answer inside a longer paragraph. Write each FAQ as an exact question a patient would type or ask out loud, answer it completely in the first sentence or two, then mark the page up with FAQPage schema so the structure is machine-readable, not just visually formatted.",
     author: "Gio LaRoche",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-10-14",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "AI answer engines read differently than a person skimming a page" },
@@ -427,7 +427,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "Where FAQs should live" },
       {
         type: "p",
-        text: "Every page type benefits from its own 4–6 question FAQ block specific to that page's intent — a service page's FAQ should be about that service, not a copy-pasted general practice FAQ. A dedicated, comprehensive FAQ or guide page can also exist for broader questions, but duplicating the exact same FAQ block across every page on the site dilutes which page Google (and an AI system) treats as the authoritative source for that question. When an assistant gets a fact wrong anyway, use the steps in [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). If an FAQ block carries FAQPage markup, test that it validates and matches the visible text, using the steps in [how to test and validate structured data](/guides/how-to-test-and-validate-structured-data-on-a-medical-practice-website). Patients often ask when results appear and how fast messages are answered, so see how to write a [lab results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice) that stays clear of interpretation. For a counseling practice the questions to answer, and the ones to decline, are laid out in our [FAQ page for a therapy practice](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice), which applies this format to therapy.",
+        text: "Every page type benefits from its own 4–6 question FAQ block specific to that page's intent — a service page's FAQ should be about that service, not a copy-pasted general practice FAQ. A dedicated, comprehensive FAQ or guide page can also exist for broader questions, but duplicating the exact same FAQ block across every page on the site dilutes which page Google (and an AI system) treats as the authoritative source for that question. When an assistant gets a fact wrong anyway, use the steps in [how to fix wrong information about your practice in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). If an FAQ block carries FAQPage markup, test that it validates and matches the visible text, using the steps in [how to test and validate structured data](/guides/how-to-test-and-validate-structured-data-on-a-medical-practice-website). Patients often ask when results appear and how fast messages are answered, so see how to write a [lab results and portal message expectations page](/guides/lab-results-and-portal-message-expectations-page-for-a-primary-care-practice) that stays clear of interpretation. For a counseling practice the questions to answer, and the ones to decline, are laid out in our [FAQ page for a therapy practice](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice), which applies this format to therapy. Google has narrowed which sites get expandable question results, so read [what FAQ schema is still worth after Google limited FAQ rich results](/guides/faq-schema-for-a-medical-practice-website-after-google-limited-faq-rich-results) before you change any markup.",
       },
     ],
     faqs: [
@@ -629,7 +629,7 @@ export const guidesPartSeven: Guide[] = [
       "To handle a fake Google review on a medical practice's listing: don't argue with it publicly, flag it through Google Business Profile's \"Report review\" option citing the specific policy it violates (not a real patient, off-topic, conflict of interest), post one calm, factual public reply in case it stays up during the review period, and track the report — Google's removal decisions can take days to weeks and aren't guaranteed even when the review is clearly fake.",
     author: "Liam Costello",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-09-25",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "The instinct to argue publicly is the wrong first move" },
@@ -668,7 +668,7 @@ export const guidesPartSeven: Guide[] = [
       },
       {
         type: "callout",
-        text: "Removal is not guaranteed, and it can take anywhere from a few days to several weeks. Do not wait to reply publicly until removal is confirmed — post the calm, factual reply right away, since the review is visible to real prospective patients the entire time it's pending.",
+        text: "Removal is not guaranteed, and it can take anywhere from a few days to several weeks. Do not wait to reply publicly until removal is confirmed — post the calm, factual reply right away, since the review is visible to real prospective patients the entire time it's pending. Catching a fake review in the first week is easier with a regular check, such as the [weekly review monitoring routine for a counseling practice](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile), which also logs the date you reported it.",
       },
     ],
     faqs: [

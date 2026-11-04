@@ -541,7 +541,7 @@ export const guidesPartEight: Guide[] = [
       "A realistic medical practice content calendar covers three recurring commitments — two Google Business Profile posts a week with a real photo, one new or updated web page per month answering a real patient question, and a quarterly review of existing pages for accuracy — plus seasonal items (flu season, holiday hours, back-to-school physicals) planned a month ahead rather than written the week they're needed.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Most practices fail at content consistency, not content quality" },
@@ -586,7 +586,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "A shared calendar tool doesn't need to be elaborate — a simple spreadsheet with columns for date, task, owner, and status covers most independent practices completely. What matters is that it's checked on a fixed day each week, not opened only when someone remembers, and that whoever is accountable for each recurring item actually reviews it against what's due rather than relying on memory of what was posted or written recently.",
+        text: "A shared calendar tool doesn't need to be elaborate — a simple spreadsheet with columns for date, task, owner, and status covers most independent practices completely. What matters is that it's checked on a fixed day each week, not opened only when someone remembers, and that whoever is accountable for each recurring item actually reviews it against what's due rather than relying on memory of what was posted or written recently. A calendar that adds posts also adds archive pages automatically, so review [which blog tag, category and archive pages to index or noindex](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex) once a quarter.",
       },
     ],
     faqs: [
@@ -938,7 +938,7 @@ export const guidesPartEight: Guide[] = [
       "A real local SEO audit checks four things in order: whether the Google Business Profile is accurate and complete, whether the practice's name, address, and phone number match everywhere they appear online, whether the website's pages target real patient search intent with working tracking, and how the practice's local pack position compares to its actual nearby competitors — skipping straight to \"we'll get you more reviews\" without checking the first three is how a lot of local SEO work gets sold without fixing the real problem.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-04",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "What a real audit checks, and in what order" },
@@ -975,7 +975,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "How long a real audit takes, and what it shouldn't cost" },
       {
         type: "p",
-        text: "A thorough audit of the four areas above, for a single-location practice, typically takes a few hours of actual review time, longer for a multi-location or multi-provider practice with more listings and pages to check. It should never require access the practice isn't comfortable granting, and a practice should be able to see the actual findings, not just a summary score, regardless of whether they hire the auditor to fix anything afterward. A free audit that only produces a vague pitch for a retainer without naming specific, checkable findings isn't really an audit. Pages the audit flags as outdated should follow the cadence in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website). Pull the data from Search Console first; [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains each report. A practice site should also be verified in Search Console before the audit begins, using [how to set up and verify Google Search Console](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website). A quick first step is the [brand search audit of what patients see when they search your practice name](/guides/what-patients-see-when-they-search-your-practice-name-a-brand-search-audit), which takes about ten minutes.",
+        text: "A thorough audit of the four areas above, for a single-location practice, typically takes a few hours of actual review time, longer for a multi-location or multi-provider practice with more listings and pages to check. It should never require access the practice isn't comfortable granting, and a practice should be able to see the actual findings, not just a summary score, regardless of whether they hire the auditor to fix anything afterward. A free audit that only produces a vague pitch for a retainer without naming specific, checkable findings isn't really an audit. Pages the audit flags as outdated should follow the cadence in [how often to update old content on a medical practice website](/guides/how-often-to-update-old-content-on-a-medical-practice-website). Pull the data from Search Console first; [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains each report. A practice site should also be verified in Search Console before the audit begins, using [how to set up and verify Google Search Console](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website). A quick first step is the [brand search audit of what patients see when they search your practice name](/guides/what-patients-see-when-they-search-your-practice-name-a-brand-search-audit), which takes about ten minutes. During the audit, search your own site for each main service and note any case where two pages answer the same question, then follow [what to do when two pages compete for one service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website).",
       },
     ],
     faqs: [

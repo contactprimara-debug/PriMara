@@ -825,7 +825,7 @@ export const guidesPartThirty: Guide[] = [
       "A chaperone policy page tells patients that a trained staff member is available during sensitive exams on request, that they may also bring a trusted person, how to ask for or decline a chaperone, and who to talk to with concerns. It describes the practice's process in plain words and gives no clinical advice.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("A policy patients should not have to ask about"),
@@ -865,7 +865,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Train and document"),
       p(
-        "A policy page only works if the team follows it. Hold a short staff meeting to read it aloud, agree on how a patient is offered a chaperone at check in and decide where the offer is documented, using your own record procedures. Review the wording once a year, with the rest of your patient-facing pages."
+        "A policy page only works if the team follows it. Hold a short staff meeting to read it aloud, agree on how a patient is offered a chaperone at check in and decide where the offer is documented, using your own record procedures. Review the wording once a year, with the rest of your patient-facing pages. The same calm, plain tone works on a [women's health visit page for a primary care practice](/guides/womens-health-visit-page-for-a-primary-care-practice-without-clinical-claims), where patients often look for the chaperone policy before they book."
       ),
     ],
     faqs: [
@@ -999,7 +999,7 @@ export const guidesPartThirty: Guide[] = [
       "An ages seen page for a family medicine practice states plainly the youngest and oldest patients the practice accepts, explains how families with several ages book together, describes how a young person moves to adult care and says what to do if the practice is not the right fit. It makes no clinical claims.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("The first question many parents ask"),
@@ -1034,7 +1034,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h2("Make it work for scheduling"),
       p(
-        "Link the page from the booking button and the new patient information page. The [visit types and appointment lengths guide](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) shows how to describe family block visits, and the [well-child checkup page guide](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) covers younger children in more detail."
+        "Link the page from the booking button and the new patient information page. The [visit types and appointment lengths guide](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) shows how to describe family block visits, and the [well-child checkup page guide](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) covers younger children in more detail. Once the youngest age is stated, parents of infants need a practical next step, which a [new baby first visit scheduling page](/guides/new-baby-first-visit-scheduling-page-for-a-family-medicine-practice-without-clinical-claims) can provide without giving medical advice."
       ),
       p(
         "Repeat the age range in your Google Business Profile description in one short sentence, and keep it identical to the page. Mismatched age statements are a common reason for wasted phone calls."

@@ -1308,7 +1308,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice can earn real local links by sponsoring a school team, a charity run or a community event, as long as it asks for an honest mention on the organizer's own page, never buys links on a site that sells them, and never uses a patient's story or photo. Choose causes the practice would support anyway.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("Why local links come from local things"),
@@ -1361,7 +1361,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Keep a simple sponsorship log"),
       p(
-        "Record each sponsorship with the date, the amount, who agreed it, the contact at the organization, what they promised in return and the address of the page where the practice is listed. At the end of the year, review which ones brought visits, calls or goodwill and which did not. The log makes next year's decisions easy and keeps the listings accurate if the practice ever moves or changes its name."
+        "Record each sponsorship with the date, the amount, who agreed it, the contact at the organization, what they promised in return and the address of the page where the practice is listed. At the end of the year, review which ones brought visits, calls or goodwill and which did not. The log makes next year's decisions easy and keeps the listings accurate if the practice ever moves or changes its name. Press coverage from an event can be listed with dates and links on an [in-the-news and media mentions page for a medical practice](/guides/in-the-news-and-media-mentions-page-for-a-medical-practice-without-endorsement-claims) that stays honest about what was said."
       ),
     ],
     faqs: [

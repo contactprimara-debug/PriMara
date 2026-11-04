@@ -147,7 +147,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-04",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
@@ -196,7 +196,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Test the whole sequence yourself with a new phone number before you switch it on. Check that the map link opens, the forms link works on a phone, and the sender name is your practice rather than a string of digits."
       ),
       h2("Plan for replies, wrong numbers and no-shows"),
-      p("Every welcome text produces a few surprises. Someone replies with a question, a number belongs to a family member, or a patient never opens the message at all. Decide in advance who reads replies, how quickly, and what the standard answer is. A shared inbox that nobody owns is where welcome messages go to die."),
+      p("Every welcome text produces a few surprises. Someone replies with a question, a number belongs to a family member, or a patient never opens the message at all. Decide in advance who reads replies, how quickly, and what the standard answer is. A shared inbox that nobody owns is where welcome messages go to die. Before the welcome message, the first email a person receives is the form confirmation, which should follow the wording in this [contact form confirmation email guide for a primary care practice](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details)."),
       p("For patients who do not respond, a phone call the day before is still the most reliable reminder. Note on the schedule which patients have confirmed, and use the quiet moments in the front desk day to call the rest."),
     ],
     faqs: [
