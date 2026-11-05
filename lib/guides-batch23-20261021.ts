@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -198,7 +198,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Set up your analytics to record a tap on any tel: link as an event, then compare the count to the calls the front desk actually receives. Do not record the caller's number or anything about the visit. If you use a call-tracking number, make sure the number on the website, the Google profile and the directories is handled the way your analytics provider documents, so the public listing stays consistent. Which number the button dials matters as much as where it sits, and our guide on [toll-free versus local numbers for a medical practice](/guides/toll-free-versus-local-phone-number-on-a-medical-practice-website-and-google-profile) helps you choose."
       ),
       p(
-        "Review the numbers monthly. A page with many visitors and no taps may be hiding the button, or may answer the question so well that nobody needs to call. Both are worth knowing."
+        "Review the numbers monthly. A page with many visitors and no taps may be hiding the button, or may answer the question so well that nobody needs to call. Both are worth knowing. When the tap becomes a call, the person answering should follow the [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice), which says what to ask and what to skip."
       ),
     ],
     faqs: [
@@ -1315,17 +1315,17 @@ export const guidesPartTwentySix: Guide[] = [
     title: "New Patient Intake Phone Script for the Front Desk of a Primary Care Practice",
     metaTitle: "New Patient Phone Script for a Primary Care Front Desk",
     metaDescription:
-      "A front desk phone script for new patient calls: what to ask, what to skip, how to stay private and how to log the call. Call (561) 291-2681.",
+      "A new patient phone script for the front desk of a primary care practice: what to ask, what to skip, how to stay private and log the call. (561) 291-2681",
     answer:
       "A good new patient phone script greets the caller by the practice name, asks only what is needed to book, such as name, phone, insurance and preferred times, explains what to bring and what happens next, and avoids asking about symptoms. Review it quarterly and keep a log of why calls do not end in a booking.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("The first call decides a lot"),
       p(
-        "A new patient who calls is often comparing two or three practices at once. The one that answers kindly, asks clear questions and explains the next step tends to win. A script is not a robot. It is a short outline so that the caller always gets the same good experience, even on a busy morning."
+        "A written script lets everyone who answers the phone give a new patient the same clear, private first experience. A new patient who calls is often comparing two or three practices at once. The one that answers kindly, asks clear questions and explains the next step tends to win. A script is not a robot. It is a short outline so that the caller always gets the same good experience, even on a busy morning."
       ),
       h2("The outline"),
       ol(

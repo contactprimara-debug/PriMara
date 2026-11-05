@@ -47,7 +47,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "An after-visit follow-up email from a primary care practice should say thank you, point to the secure portal for anything personal, give the front desk phone number, and ask for nothing sensitive in reply. Leave out the reason for the visit, test names and anything a stranger could learn by reading over a shoulder.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("What the follow-up email is for"),
@@ -100,7 +100,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Count outcomes at the practice level, not the patient level. Track how many follow-ups went out each week, how many review invitations were clicked, and how many calls to the front desk began with a question the email should have answered. If a particular question keeps arriving, add one sentence about it. If nobody ever clicks the portal link, move it higher."
       ),
       p(
-        "Review the template every quarter with the person who answers the phone. Staff hear the confusion that analytics cannot see, and they will tell you which line patients misread. The email can say that the summary is ready and link to an [after visit summary explained page for a primary care practice](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) that describes where patients find the document and who to call about it."
+        "Review the template every quarter with the person who answers the phone. Staff hear the confusion that analytics cannot see, and they will tell you which line patients misread. The email can say that the summary is ready and link to an [after visit summary explained page for a primary care practice](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) that describes where patients find the document and who to call about it. Send these messages from an address on the practice domain, as in [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so patients trust them and they reach the inbox."
       ),
     ],
     faqs: [
@@ -142,17 +142,17 @@ export const guidesPartTwentyOne: Guide[] = [
     title: "New Patient Welcome Text or Email for a Medical Practice",
     metaTitle: "New Patient Welcome Text or Email for a Practice",
     metaDescription:
-      "What a medical practice should put in a welcome text or email to a new patient, and what to leave out. Call (561) 291-2681.",
+      "What to put in a welcome text or email to a new patient: date, address, parking, what to bring and a secure forms link, no health details. (561) 291-2681",
     answer:
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
       p(
-        "A new patient has just chosen your office from a list of nearly identical results. What they hear next decides whether they arrive calm and prepared or anxious and late. A welcome message is the cheapest way to make the first visit smoother, and it costs you nothing beyond the time to write it once. If the first visit is by video, include a link to your [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-primary-care-practice) in the welcome message so the patient can prepare before the day."
+        "A welcome message sent a few days before the first visit is the simplest way to reduce late arrivals and missing paperwork. A new patient has just chosen your office from a list of nearly identical results. What they hear next decides whether they arrive calm and prepared or anxious and late. A welcome message is the cheapest way to make the first visit smoother, and it costs you nothing beyond the time to write it once. If the first visit is by video, include a link to your [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-primary-care-practice) in the welcome message so the patient can prepare before the day."
       ),
       p(
         "The message has two readers. The patient wants to know where to go and what to bring. The practice wants fewer forgotten insurance cards and fewer calls asking for directions. Write for both by answering the questions your front desk already hears every morning."
@@ -625,17 +625,17 @@ export const guidesPartTwentyOne: Guide[] = [
     title: "Intake Paperwork Email Before Session One for a Counseling Practice",
     metaTitle: "Intake Paperwork Email Before Session One",
     metaDescription:
-      "How a counseling practice can email intake paperwork before the first session without exposing private details. Call (561) 291-2681.",
+      "How a counseling practice can email intake paperwork before session one: a neutral subject line, a secure forms link, no attachments. (561) 291-2681",
     answer:
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
       p(
-        "A new therapy client who has booked an appointment often feels a mix of relief and nerves. The next message they receive from the practice is the first proof of what working with you is like. If it is clear, kind and short, they arrive ready. If it is a wall of text with a stack of attachments, the first fifteen minutes of the hour disappear into paperwork. For families searching about substance use, [an addiction counseling page that avoids clinical claims](/guides/addiction-counseling-services-page-for-a-counseling-practice-without-clinical-claims) explains how to describe counseling without promising recovery. If the counselor supports people after a loss, [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) covers the tone, the details and the crisis line that belong on the page. Clients moving to a new clinician inside the practice should not have to repeat every form, and a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) can explain what carries over."
+        "Keep the message to a secure forms link, the session time and a phone number, with nothing clinical in the subject line. A new therapy client who has booked an appointment often feels a mix of relief and nerves. The next message they receive from the practice is the first proof of what working with you is like. If it is clear, kind and short, they arrive ready. If it is a wall of text with a stack of attachments, the first fifteen minutes of the hour disappear into paperwork. For families searching about substance use, [an addiction counseling page that avoids clinical claims](/guides/addiction-counseling-services-page-for-a-counseling-practice-without-clinical-claims) explains how to describe counseling without promising recovery. If the counselor supports people after a loss, [a grief counseling page written gently and without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) covers the tone, the details and the crisis line that belong on the page. Clients moving to a new clinician inside the practice should not have to repeat every form, and a [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) can explain what carries over."
       ),
       p(
         "Sending the paperwork ahead is also a privacy question. The forms ask for names, history and insurance information, so the way you deliver them matters as much as the forms themselves."
@@ -932,7 +932,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "When a medical practice moves, change the address everywhere on the same day the new office opens: Google Business Profile, the website and its schema, insurance directories, the NPI record, Apple and Bing, health directories, reminders and signage. Keep the old address visible for a while, and re-check search results weekly until every listing agrees.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-05",
     readMinutes: 7,
     sections: [
       h2("A move quietly breaks your local search results"),
@@ -985,7 +985,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Assign an owner and a date to every line"),
       p("The checklist only works when each line has a name and a due date beside it. Give the website items to whoever manages the site, the directory items to the practice manager, and the insurer items to the credentialing contact. Put the list in a shared document that the whole team can see."),
       p("Hold a short check-in a week after the move and again at one month. Look for patients who went to the wrong address, calls that began with a question about the old office, and listings that still disagree. Those are the lines to chase next, and they tell you what to add to the checklist for the next time."),
-      p("Remember the small things that patients actually touch. Update the address on parking permits, building directories, delivery instructions for specimens or supplies, and the map link in every reminder, because a patient circling the wrong block is the experience that ends up in a review."),
+      p("Remember the small things that patients actually touch. Update the address on parking permits, building directories, delivery instructions for specimens or supplies, and the map link in every reminder, because a patient circling the wrong block is the experience that ends up in a review. The same care applies when ownership changes, as covered in [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires)."),
     ],
     faqs: [
       {
@@ -1139,7 +1139,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A telehealth consent and technology check page should explain what a video visit needs, how to test the connection before the session, what to do if it fails, and where the consent form lives. Keep the consent itself on the secure portal, and never ask clients to describe their reasons for therapy on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T12:40:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-05",
     readMinutes: 7,
     sections: [
       h2("Two jobs in one page: consent and readiness"),
@@ -1189,7 +1189,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h2("Keep the page accessible"),
       p("Some clients will use a phone, some a tablet and some a shared computer. Write the instructions so that they work on any of them, avoid screenshots that cannot be read by a screen reader without text beside them, and offer a phone-only alternative for clients who cannot manage video. A client who cannot join is not a failed client; it is a signal that the process needs another door. Clients who choose video because of long work hours will also look for the times you offer them, which our guide to an [evening and weekend appointment availability page](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) shows how to publish."),
       p("Ask a colleague who does not work in the office to follow the page from start to finish on their own device, and time how long each step takes. Replace any instruction that needs a phone call to understand."),
-      p("Keep a short log of the technology problems that clients report. If three people struggle with the same step, the instruction is unclear rather than the clients being careless. Rewrite that step, test it again, and note the date of the change at the bottom of the page. Before the first video session it also helps clients to know the counselor will ask where they are sitting, which a [client location confirmation page](/guides/client-location-confirmation-at-the-start-of-a-telehealth-session-page-for-a-counseling-practice) can explain ahead of time so the opening minutes go to the session itself."),
+      p("Keep a short log of the technology problems that clients report. If three people struggle with the same step, the instruction is unclear rather than the clients being careless. Rewrite that step, test it again, and note the date of the change at the bottom of the page. Before the first video session it also helps clients to know the counselor will ask where they are sitting, which a [client location confirmation page](/guides/client-location-confirmation-at-the-start-of-a-telehealth-session-page-for-a-counseling-practice) can explain ahead of time so the opening minutes go to the session itself. Send the consent form and the technology check in one short message, following the [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice), which stays neutral."),
     ],
     faqs: [
       {

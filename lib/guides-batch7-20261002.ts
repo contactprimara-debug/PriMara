@@ -235,7 +235,7 @@ export const guidesPartTen: Guide[] = [
       "A backlink is another website linking to yours, and Google still treats earned, relevant links as a meaningful trust signal. The risk isn't backlinks themselves — it's acquiring them through paid link schemes, link farms, or bulk directory submissions, which Google's spam policies explicitly target and can demote or remove a site over.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-05",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What a backlink is doing for you" },
@@ -265,7 +265,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "If you already have risky links pointing at your site" },
       {
         type: "p",
-        text: "A past vendor or a previous marketing company sometimes leaves a trail of low-quality directory or paid links behind. Google Search Console's 'Links' report shows your top linking sites, which is the place to start an audit. For links you don't control and can't get removed, Google's Disavow Tool lets you tell Google to ignore specific domains or URLs when assessing your site — a targeted, last-resort tool, not a first response to every unfamiliar link.",
+        text: "A past vendor or a previous marketing company sometimes leaves a trail of low-quality directory or paid links behind. Google Search Console's 'Links' report shows your top linking sites, which is the place to start an audit. For links you don't control and can't get removed, Google's Disavow Tool lets you tell Google to ignore specific domains or URLs when assessing your site — a targeted, last-resort tool, not a first response to every unfamiliar link. A real chamber of commerce or business association listing is a safe local link, as described in [chamber listings for a medical practice](/guides/chamber-of-commerce-and-local-business-association-listings-for-a-medical-practice), because the membership is genuine.",
       },
     ],
     faqs: [
@@ -452,7 +452,7 @@ export const guidesPartTen: Guide[] = [
       "Quality Score is Google's 1-10 diagnostic rating of how relevant your keyword, ad, and landing page are to a search, built from expected click-through rate, ad relevance, and landing page experience. It isn't used directly in the ad auction, but a low score reliably means a higher cost per click for the same position — and healthcare keywords already carry some of the highest costs in any industry.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-02",
+    dateModified: "2026-11-05",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What the number means, and what it doesn't" },
@@ -482,7 +482,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "A realistic fix sequence" },
       {
         type: "p",
-        text: "Start by pulling the Quality Score column into your keyword view inside Google Ads and sorting low to high. For any keyword below 5, check first whether it's sitting in an ad group with unrelated keywords — if so, split it into its own tightly themed group with new ad copy before touching anything else. Then check whether its landing page actually matches the search intent word-for-word, not just topically. Bid and budget changes are the last lever to pull, not the first; they don't fix a structural relevance problem, they just make it more expensive to ignore.",
+        text: "Start by pulling the Quality Score column into your keyword view inside Google Ads and sorting low to high. For any keyword below 5, check first whether it's sitting in an ad group with unrelated keywords — if so, split it into its own tightly themed group with new ad copy before touching anything else. Then check whether its landing page actually matches the search intent word-for-word, not just topically. Bid and budget changes are the last lever to pull, not the first; they don't fix a structural relevance problem, they just make it more expensive to ignore. That is also why a small ad on your own name is usually cheap, as discussed in [what to do when a competitor bids on your practice name](/guides/competitor-bidding-on-your-practice-name-in-google-ads-what-a-medical-practice-can-do).",
       },
     ],
     faqs: [

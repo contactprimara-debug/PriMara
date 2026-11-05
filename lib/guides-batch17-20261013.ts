@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -117,7 +117,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, keep tracking light. A simple click event on the sign-in button is fine for counting, but do not send patient identifiers, names or account numbers to analytics. If you read our guide on [keeping a medical practice's analytics clean](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice), apply the same rule here: count clicks, never people."
+        "text": "Finally, keep tracking light. A simple click event on the sign-in button is fine for counting, but do not send patient identifiers, names or account numbers to analytics. If you read our guide on [keeping a medical practice's analytics clean](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice), apply the same rule here: count clicks, never people. Fake login links are a common trick, so tell patients what a real portal message looks like, as in [what to tell patients about scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients)."
       }
     ],
     "faqs": [
@@ -1130,7 +1130,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -1210,7 +1210,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Give the page a clear title such as Waitlist and your city or practice name. Use the word waitlist in the first paragraph, and add a short question and answer on how the list works. Answer tools often quote that kind of passage."
+        "text": "Give the page a clear title such as Waitlist and your city or practice name. Use the word waitlist in the first paragraph, and add a short question and answer on how the list works. Answer tools often quote that kind of passage. Link a closed insurance plan to the waitlist with the [wording for a panel closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile), so the caller always has a next step to take."
       }
     ],
     "faqs": [
@@ -1285,7 +1285,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -1393,7 +1393,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you already publish a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), keep the two pages consistent: the consultation is the step before the first session, so each should link to the other in one plain sentence."
+        "text": "If you already publish a [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice), keep the two pages consistent: the consultation is the step before the first session, so each should link to the other in one plain sentence. A caller who is coming back after years away can be pointed to the [returning to counseling after a break page](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims), which explains restarting paperwork and rebooking."
       },
       {
         "type": "h3",
@@ -1643,7 +1643,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An insurance verification page explains which plans the practice takes, what the office checks before a first session, what clients should ask their own plan, and that a benefits check is an estimate, not a guarantee. Collect no health details, and link to your fees and out-of-network pages.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T12:20:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -1743,7 +1743,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The plan list on this page should agree with your Google Business Profile, your directory entries and your fees page. When a plan leaves your network or joins it, update all of them, as explained in our guide on [what to update online when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). A mismatched list is the fastest way to create angry callers."
+        "text": "The plan list on this page should agree with your Google Business Profile, your directory entries and your fees page. When a plan leaves your network or joins it, update all of them, as explained in our guide on [what to update online when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). A mismatched list is the fastest way to create angry callers. If a plan is closed to new clients, say so plainly using the [wording for an insurance panel closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile) so callers do not waste a phone call."
       },
       {
         "type": "h3",

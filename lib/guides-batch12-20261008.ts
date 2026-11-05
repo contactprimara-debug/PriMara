@@ -204,7 +204,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Plain language means patients can find what they need, understand it the first time, and act on it. Use common words, short sentences and one idea per paragraph, and define any medical term you cannot avoid. A reading-level score is a rough check, not the goal; a real patient understanding the page is.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-30",
+  "dateModified": "2026-11-05",
   "readMinutes": 6,
   "sections": [
     {
@@ -308,7 +308,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Prioritize the pages patients act on: new-patient information, how to book, insurance and costs, and anything about preparing for a visit. These pages carry the highest stakes for confusion. Your [accepted insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) and your FAQ content are the first places to simplify. Pages that explain paperwork are a good test of plain language, and the [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) shows how short steps and a clear turnaround time can read."
+      "text": "Prioritize the pages patients act on: new-patient information, how to book, insurance and costs, and anything about preparing for a visit. These pages carry the highest stakes for confusion. Your [accepted insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) and your FAQ content are the first places to simplify. Pages that explain paperwork are a good test of plain language, and the [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) shows how short steps and a clear turnaround time can read. Give the same reading-level target to any outside writer, as described in [hiring a freelance writer for a medical practice blog](/guides/hiring-a-freelance-writer-for-a-medical-practice-blog-without-sharing-patient-information), and check the first draft against it."
     },
     {
       "type": "callout",
@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-05",
   "readMinutes": 7,
   "sections": [
     {
@@ -476,7 +476,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest. After a clinician leaves, their practitioner listing and its reviews do not simply vanish, which is why this guide to [Google reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) is worth reading."
+      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest. After a clinician leaves, their practitioner listing and its reviews do not simply vanish, which is why this guide to [Google reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) is worth reading. Hospital directories list clinicians individually, so see [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) before you submit any names."
     },
     {
       "type": "callout",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-05",
   "readMinutes": 7,
   "sections": [
     {
@@ -1531,7 +1531,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting."
+      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership."
     },
     {
       "type": "callout",
@@ -2343,7 +2343,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add your site to Google Search Console as a Domain property if you can, or a URL-prefix property if you cannot, then verify ownership with a DNS record or another method Google offers. Submit your sitemap, add a second owner from the practice, and give vendors the lowest permission that works. Keep the verification in place permanently.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-05",
   "readMinutes": 7,
   "sections": [
     {
@@ -2415,7 +2415,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Search Console distinguishes verified owners from delegated users, with different permissions. Add at least two people at the practice as owners, so access survives staff changes, and give vendors only what they need. Google's help page on managing owners, users and permissions explains the roles, and our guide on [who should own the practice's accounts](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) covers the larger picture."
+      "text": "Search Console distinguishes verified owners from delegated users, with different permissions. Add at least two people at the practice as owners, so access survives staff changes, and give vendors only what they need. Google's help page on managing owners, users and permissions explains the roles, and our guide on [who should own the practice's accounts](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) covers the larger picture. After verification, confirm who receives the warning emails, as explained in [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice), so nothing important goes unread."
     },
     {
       "type": "h2",

@@ -846,7 +846,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Tell patients where to park, which door to use, whether the entrance is step-free and how to find the suite. Publish the same facts on your contact page and your Google Business Profile, keep them current, and describe only what you have checked in person.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -948,7 +948,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Arrival information is useful, and a website that cannot be used with a keyboard or screen reader leaves out some of the people you want to reach. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the basics, and the U.S. Department of Justice publishes its own web guidance. For the website side of access, add an [accessibility statement and a way to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) alongside the physical details described here."
+        "text": "Arrival information is useful, and a website that cannot be used with a keyboard or screen reader leaves out some of the people you want to reach. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the basics, and the U.S. Department of Justice publishes its own web guidance. For the website side of access, add an [accessibility statement and a way to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) alongside the physical details described here. Put the parking and entrance notes directly under the address on the contact page, following [the wording for a map embed and driving directions](/guides/map-embed-and-driving-directions-wording-on-the-contact-page-of-a-primary-care-practice)."
       },
       {
         "type": "h2",
@@ -1042,7 +1042,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A UTM link is your normal web address with a few labels added, such as source and medium. Put one on your Google Business Profile website button and on each directory listing, and Google Analytics 4 will show which listing sent the visit. Never put patient information in any label.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-04",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -1137,7 +1137,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep expectations reasonable. A small practice may see only a handful of visits per listing per month, and a handful of visits cannot support a firm conclusion. Use the data to spot a listing that sends nothing, or one that sends visitors who leave at once, then check that listing for errors. Our guide on [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows how to build the routine. Every post button can carry a tagged link, and a counseling practice can find ready topics in these [post ideas that avoid clinical claims](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims)."
+        "text": "Keep expectations reasonable. A small practice may see only a handful of visits per listing per month, and a handful of visits cannot support a firm conclusion. Use the data to spot a listing that sends nothing, or one that sends visitors who leave at once, then check that listing for errors. Our guide on [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows how to build the routine. Every post button can carry a tagged link, and a counseling practice can find ready topics in these [post ideas that avoid clinical claims](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims). A chamber directory entry can carry a tagged link too, as shown in [chamber of commerce and local business association listings for a medical practice](/guides/chamber-of-commerce-and-local-business-association-listings-for-a-medical-practice)."
       },
       {
         "type": "h2",
@@ -1423,11 +1423,11 @@ export const guidesPartEighteen: Guide[] = [
     "category": "How-to",
     "title": "Getting Listed in a Hospital or Health System Provider Directory",
     "metaTitle": "Get Listed in a Hospital Provider Directory",
-    "metaDescription": "How a medical or mental health practice can get accurate listings in a hospital or health system provider directory, and keep them consistent. (561) 291-2681.",
+    "metaDescription": "How a practice gets accurate, consistent listings in a hospital or health system Find a Doctor directory, and keeps them current. (561) 291-2681",
     "answer": "Hospital and health system directories list clinicians who hold privileges, belong to a network or accept referrals. Ask the system's credentialing or provider relations office how listings are added, send exact details that match your profile, and check the listing every quarter, because these directories are rarely updated on their own.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -1436,7 +1436,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A hospital or health system often runs a Find a Doctor page. Patients use it, and so do referring clinicians and care coordinators. Search engines also treat it as a strong, local source, so a clinician's page there can show up when someone searches for the clinician's name."
+        "text": "A clinician's page in a health system directory is often the first thing a referring office sees, so the name, address and phone must match your own listings. A hospital or health system often runs a Find a Doctor page. Patients use it, and so do referring clinicians and care coordinators. Search engines also treat it as a strong, local source, so a clinician's page there can show up when someone searches for the clinician's name."
       },
       {
         "type": "p",

@@ -632,7 +632,7 @@ export const guidesPartNine: Guide[] = [
       "Negative keywords stop your Google Ads from showing on searches you don't want to pay for — \"jobs,\" \"salary,\" \"free,\" and a competitor's name, for example. A medical practice should load a standard exclusion list before the first dollar spends, then review the search terms report weekly for the first month to catch the waste a generic list can't predict.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-01",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What a negative keyword does" },
@@ -679,7 +679,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "This split also makes auditing easier. When a new campaign launches, you can see at a glance which negatives came from the shared baseline and which were added specifically for that campaign's own search terms report — useful six months later when deciding whether an exclusion still makes sense or was tied to a promotion that already ended.",
+        text: "This split also makes auditing easier. When a new campaign launches, you can see at a glance which negatives came from the shared baseline and which were added specifically for that campaign's own search terms report — useful six months later when deciding whether an exclusion still makes sense or was tied to a promotion that already ended. Brand terms need their own care, and [what to do when a competitor bids on your practice name](/guides/competitor-bidding-on-your-practice-name-in-google-ads-what-a-medical-practice-can-do) explains when a small brand campaign is worth running.",
       },
     ],
     faqs: [
@@ -755,7 +755,7 @@ export const guidesPartNine: Guide[] = [
       "Commercial email from a medical practice is governed primarily by the federal CAN-SPAM Act — accurate sender info, a working unsubscribe link honored within 10 business days, and no deceptive subject lines — plus HIPAA if the email references a patient's specific condition or treatment. This is a plain-language summary of the requirements, not legal advice; confirm specifics with a healthcare attorney or compliance officer.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-05",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Two separate laws apply, and they cover different things" },
@@ -783,7 +783,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "Where consent fits in" },
       {
         type: "p",
-        text: "CAN-SPAM does not require opt-in consent before the first commercial email the way some international email laws do — it's an opt-out standard. But most medical-practice patient-management and email platforms have their own stricter terms of service requiring documented consent before adding someone to a marketing list, and a practice that collected an email address solely for appointment reminders should not assume that permission extends to a separate promotional newsletter without a clear, separate opt-in for that specific use. Billing emails and statements should never ask for card numbers, a point covered in our guide to a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). If the message is a simple thank-you sent after a visit, our guide to [after-visit follow-up emails for a primary care practice without health details](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details) shows what to put in it and what to leave out. Every message, from newsletters to one to one replies, should carry a standard [email signature and confidentiality footer for practice staff](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) that shows the practice name and contact details exactly.",
+        text: "CAN-SPAM does not require opt-in consent before the first commercial email the way some international email laws do — it's an opt-out standard. But most medical-practice patient-management and email platforms have their own stricter terms of service requiring documented consent before adding someone to a marketing list, and a practice that collected an email address solely for appointment reminders should not assume that permission extends to a separate promotional newsletter without a clear, separate opt-in for that specific use. Billing emails and statements should never ask for card numbers, a point covered in our guide to a [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). If the message is a simple thank-you sent after a visit, our guide to [after-visit follow-up emails for a primary care practice without health details](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details) shows what to put in it and what to leave out. Every message, from newsletters to one to one replies, should carry a standard [email signature and confidentiality footer for practice staff](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) that shows the practice name and contact details exactly. Email is only one channel, and [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice) covers the stricter consent rules that apply before any marketing text.",
       },
       { type: "h2", text: "Practical setup for a practice starting this" },
       {
@@ -857,20 +857,20 @@ export const guidesPartNine: Guide[] = [
     keyword: "text message marketing compliance for a medical practice",
     category: "Checklist",
     title: "Text Message Marketing Compliance for a Medical Practice",
-    metaTitle: "Text Message Marketing Compliance for Medical Practices (TCPA)",
+    metaTitle: "Text Message Marketing Compliance for Medical Practices",
     metaDescription:
-      "What the TCPA requires before a medical practice texts patients for marketing — written consent, opt-out, and the HIPAA overlap. Call (561) 291-2681.",
+      "Before texting patients for marketing: written consent, a STOP opt-out honored at once, and where HIPAA overlaps the TCPA rules. (561) 291-2681",
     answer:
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-05",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
       {
         type: "p",
-        text: "The TCPA, enforced by the FCC, treats a text message to a cell phone differently than a marketing email, largely because a text interrupts a device people carry constantly and often pay per-message or data-plan costs on. For marketing texts specifically, the law requires prior express written consent — meaning the patient affirmatively agreed, in writing (which can be an electronic signature or a clear checkbox, not a verbal mention), before you send anything promotional. This is stricter than CAN-SPAM's opt-out standard for email, where you can email first and let someone unsubscribe.",
+        text: "Before a practice sends any marketing text, it needs the patient's written consent and a STOP reply that works immediately. The TCPA, enforced by the FCC, treats a text message to a cell phone differently than a marketing email, largely because a text interrupts a device people carry constantly and often pay per-message or data-plan costs on. For marketing texts specifically, the law requires prior express written consent — meaning the patient affirmatively agreed, in writing (which can be an electronic signature or a clear checkbox, not a verbal mention), before you send anything promotional. This is stricter than CAN-SPAM's opt-out standard for email, where you can email first and let someone unsubscribe.",
       },
       { type: "h2", text: "What counts as \"marketing\" vs. what doesn't" },
       {
@@ -977,7 +977,7 @@ export const guidesPartNine: Guide[] = [
       "A medical practice should blog if it has real patient questions worth answering in depth and the capacity to publish consistently — one genuinely useful post every 2-4 weeks beats four rushed posts dumped in one month and nothing after. A practice with thin service pages should fix those first; a blog on top of weak core pages rarely moves the needle on its own.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What a blog is actually for, for a local practice" },
@@ -1017,7 +1017,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What makes a medical blog post actually rank" },
       {
         type: "p",
-        text: "The same bar as any other page on the site: a direct answer in the first few sentences, real specificity (your actual hours, your actual process, not generic advice available on a hundred other sites), and a named, credentialed author when the topic is clinical. A post written to \"hit a word count\" without a real question behind it reads as filler to both readers and Google's helpful-content systems, and tends to sit unindexed rather than rank. Once the blog grows, tag and date archives can pile up, and our guide to [blog tag, category and archive pages on a medical practice website](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex) explains which to keep.",
+        text: "The same bar as any other page on the site: a direct answer in the first few sentences, real specificity (your actual hours, your actual process, not generic advice available on a hundred other sites), and a named, credentialed author when the topic is clinical. A post written to \"hit a word count\" without a real question behind it reads as filler to both readers and Google's helpful-content systems, and tends to sit unindexed rather than rank. Once the blog grows, tag and date archives can pile up, and our guide to [blog tag, category and archive pages on a medical practice website](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex) explains which to keep. If you decide to hire help for the posts, read [how to hire a freelance writer for a practice blog without sharing patient information](/guides/hiring-a-freelance-writer-for-a-medical-practice-blog-without-sharing-patient-information) before you share anything with the writer.",
       },
     ],
     faqs: [

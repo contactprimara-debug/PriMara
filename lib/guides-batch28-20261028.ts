@@ -585,17 +585,17 @@ export const guidesPartThirtyOne: Guide[] = [
     title: "Returning to Counseling After a Long Break Page",
     metaTitle: "Returning to Counseling After a Break: Practice Page",
     metaDescription:
-      "How a counseling practice can welcome a former client back after a long break: repeat paperwork, rebooking and honest wording. Call (561) 291-2681.",
+      "How a counseling practice can welcome a former client back after a long break: first steps, repeat paperwork and rebooking, honestly. (561) 291-2681",
     answer:
       "A returning client page tells former clients how to restart: contact the office, confirm whether the clinician is still taking clients, update intake and consent forms, and book a first visit. It makes no promise about the same pace or outcome and sends anyone in crisis to 988.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("The client who comes back often feels awkward"),
       p(
-        "People leave counseling for many reasons: a move, a busy season, a change of insurance, or simply feeling done for now. When they think about returning, many hesitate because they are unsure whether the therapist will remember them, whether they must start over, or whether they will be judged for leaving. A single page can answer those worries before the call."
+        "A returning client mainly needs three answers: whether the therapist is taking clients, what paperwork to repeat, and how to book. People leave counseling for many reasons: a move, a busy season, a change of insurance, or simply feeling done for now. When they think about returning, many hesitate because they are unsure whether the therapist will remember them, whether they must start over, or whether they will be judged for leaving. A single page can answer those worries before the call."
       ),
       p(
         "It is also a page people search for. Returning to therapy after a break is a common worry, and a practice that answers it plainly is easier to choose than one that says nothing."

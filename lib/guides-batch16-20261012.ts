@@ -219,7 +219,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A therapy practice cancellation policy page states the notice window, the fee for a late cancellation or missed session, any exceptions, and how clients cancel. Write it in calm plain language, match it to the consent form clients sign, and link it from booking, intake and reminders.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:20:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -350,7 +350,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Your [first-session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) is the natural neighbor of this one, because a new client reads both before booking."
+        "text": "Your [first-session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) is the natural neighbor of this one, because a new client reads both before booking. Clients who left after missed sessions may come back later, and a [returning to counseling after a long break page](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) helps them restart without embarrassment."
       }
     ],
     "faqs": [

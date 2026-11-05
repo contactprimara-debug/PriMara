@@ -335,7 +335,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A therapy practice should tell clients about a planned absence in advance, on the website, the voicemail and the Google profile, and every notice should name the return date, who covers urgent needs, and the 988 Lifeline. Do not post clients' names, reasons for the absence or any clinical detail.",
     author: "Liam Costello",
     publishDate: "2026-10-19T09:40:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why an absence notice is a continuity issue, not a marketing task"),
@@ -383,7 +383,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Make it a habit, not a scramble"),
       p(
-        "Keep a one-page template for absence notices with blanks for dates and coverage, plus a reminder on the calendar three weeks before any planned leave. When the notice is a template, the practice posts it on time even in a busy month, and every notice reads the same way. Store the template where the front desk can find it, and have the clinician approve the wording once a year."
+        "Keep a one-page template for absence notices with blanks for dates and coverage, plus a reminder on the calendar three weeks before any planned leave. When the notice is a template, the practice posts it on time even in a busy month, and every notice reads the same way. Store the template where the front desk can find it, and have the clinician approve the wording once a year. A practice that changes its whole schedule for the summer can adapt the [summer hours and schedule change notice](/guides/summer-hours-and-schedule-change-notice-for-a-primary-care-practice) written for a primary care practice."
       ),
     ],
     faqs: [
@@ -527,7 +527,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "An appointment reminder should name the practice, the date and time, the location or video link and how to confirm or reschedule, and should leave out the reason for the visit, the clinician's specialty detail and anything about a diagnosis. Send reminders to the contact method the patient chose, with a clear way to opt out.",
     author: "Liam Costello",
     publishDate: "2026-10-19T10:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("What a reminder is for"),
@@ -580,7 +580,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Test the message before it goes out"),
       p(
-        "Send each template to two staff phones and one email account first, and read it on a locked screen the way a stranger might. Check what shows in the preview, what the sender name is and whether the opt-out works. Many practices find that a harmless-looking message reveals more in the lock-screen preview than anyone intended, and a two-minute test catches it. Counseling practices need even more discretion, and our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) shows the changes to make."
+        "Send each template to two staff phones and one email account first, and read it on a locked screen the way a stranger might. Check what shows in the preview, what the sender name is and whether the opt-out works. Many practices find that a harmless-looking message reveals more in the lock-screen preview than anyone intended, and a two-minute test catches it. Counseling practices need even more discretion, and our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) shows the changes to make. A first visit deserves more than a reminder, so pair it with the [new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) that covers address, parking and what to bring."
       ),
     ],
     faqs: [
@@ -1114,7 +1114,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice can show its Google reviews on its own website if it displays them faithfully, does not pick only the good ones, does not add its own review markup for them and does not reply or edit in a way that identifies a patient. Use a reputable widget or a link to the profile and keep the display current.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T12:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why practices want reviews on their own site"),
@@ -1162,7 +1162,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Look at the page as a visitor"),
       p(
-        "Open the page on a phone with the review block in place and scroll as a patient would. Ask whether the reviews help the visitor decide, or whether they push the booking button off the screen. A small, quiet block with the real rating and a link to read more usually works better than a long carousel, and it keeps the page quick."
+        "Open the page on a phone with the review block in place and scroll as a patient would. Ask whether the reviews help the visitor decide, or whether they push the booking button off the screen. A small, quiet block with the real rating and a link to read more usually works better than a long carousel, and it keeps the page quick. If the number shown on your site no longer matches the profile, work through [what to check when Google reviews disappear or the count drops](/guides/google-reviews-disappeared-or-review-count-dropped-on-a-medical-practice-profile-what-to-check) before you change the widget."
       ),
     ],
     faqs: [
@@ -1204,17 +1204,17 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Professional Domain Email for a Medical Practice Instead of Gmail",
     metaTitle: "Professional Domain Email for a Medical Practice",
     metaDescription:
-      "Why a medical practice should use email on its own domain, and how to set it up so messages are delivered and data stays protected. Call (561) 291-2681.",
+      "Why a medical practice should use email on its own domain, how SPF, DKIM and DMARC fit in, and why patient details stay out of email. (561) 291-2681",
     answer:
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
     publishDate: "2026-10-19T12:40:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("What patients and Google see in an email address"),
       p(
-        "A patient who gets a message from a free personal address can reasonably wonder whether it is real. Phishing messages pretending to be from doctors' offices are common, and an address on the practice's own domain, matching the website, is the simplest signal that a message is genuine."
+        "Use an address on the practice's own domain so patients can tell a real message from a phishing one. A patient who gets a message from a free personal address can reasonably wonder whether it is real. Phishing messages pretending to be from doctors' offices are common, and an address on the practice's own domain, matching the website, is the simplest signal that a message is genuine."
       ),
       p(
         "The same address also belongs on the website, the Google Business Profile and the directories, so that name, address, phone and email agree everywhere. Mixed personal and business addresses are a small but real source of confusion. Once every address uses your domain, give staff one standard [email signature and confidentiality footer](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) so name, phone and website match everywhere. Mail sent from your own domain is also easier to authenticate, which helps when you run the [contact form delivery test for a medical practice website](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) after any change."
@@ -1308,7 +1308,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice can earn real local links by sponsoring a school team, a charity run or a community event, as long as it asks for an honest mention on the organizer's own page, never buys links on a site that sells them, and never uses a patient's story or photo. Choose causes the practice would support anyway.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why local links come from local things"),
@@ -1361,7 +1361,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Keep a simple sponsorship log"),
       p(
-        "Record each sponsorship with the date, the amount, who agreed it, the contact at the organization, what they promised in return and the address of the page where the practice is listed. At the end of the year, review which ones brought visits, calls or goodwill and which did not. The log makes next year's decisions easy and keeps the listings accurate if the practice ever moves or changes its name. Press coverage from an event can be listed with dates and links on an [in-the-news and media mentions page for a medical practice](/guides/in-the-news-and-media-mentions-page-for-a-medical-practice-without-endorsement-claims) that stays honest about what was said."
+        "Record each sponsorship with the date, the amount, who agreed it, the contact at the organization, what they promised in return and the address of the page where the practice is listed. At the end of the year, review which ones brought visits, calls or goodwill and which did not. The log makes next year's decisions easy and keeps the listings accurate if the practice ever moves or changes its name. Press coverage from an event can be listed with dates and links on an [in-the-news and media mentions page for a medical practice](/guides/in-the-news-and-media-mentions-page-for-a-medical-practice-without-endorsement-claims) that stays honest about what was said. Membership in the local chamber is a quieter way to earn a link, and [chamber of commerce and business association listings for a medical practice](/guides/chamber-of-commerce-and-local-business-association-listings-for-a-medical-practice) explains what to expect."
       ),
     ],
     faqs: [
@@ -1500,17 +1500,17 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Scam Texts and Emails That Impersonate a Medical Practice: What to Tell Patients",
     metaTitle: "Scam Texts That Impersonate a Medical Practice",
     metaDescription:
-      "What a medical practice should say when scammers imitate it by text or email, and how to protect patients and your reputation. Call (561) 291-2681.",
+      "Scam texts or emails posing as your medical practice? The notice to post, what you never ask for by text, and where to report it. (561) 291-2681",
     answer:
       "When scammers imitate a medical practice by text or email, the practice should tell patients in plain words how it really contacts them, what it will never ask for, and where to report a suspicious message, without describing any individual patient's situation. Post the notice on the website and voicemail and keep it short.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:40:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("The problem patients will blame on you"),
       p(
-        "Scammers often send messages that look like they come from a doctor's office: a bill that must be paid now, a portal link that asks for a login, a lab result that needs a code. A patient who falls for one may blame the practice, even though the practice did nothing wrong, and a report that the office leaked their number can spread quickly."
+        "If patients are getting texts or emails that claim to come from your office, the quickest protection is a short public notice that says how you really contact them and what you never ask for. Scammers often send messages that look like they come from a doctor's office: a bill that must be paid now, a portal link that asks for a login, a lab result that needs a code. A patient who falls for one may blame the practice, even though the practice did nothing wrong, and a report that the office leaked their number can spread quickly."
       ),
       p(
         "The practice cannot stop strangers from sending text messages, but it can make its real behavior easy to recognize, and it can respond calmly and quickly when patients report one."

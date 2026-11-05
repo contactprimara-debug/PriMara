@@ -19,7 +19,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Google Search Console is a free tool that shows how your website performs in Google Search. For a practice, check three things: the Performance report for clicks and impressions by page and query, the Pages report for what is indexed, and the Sitemaps report. Review monthly, and act on drops that last several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       {
@@ -71,7 +71,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way."
+        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way. Reading the dashboard weekly is easier when the alert emails also reach the right people, which [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) explains in detail."
       }
     ],
     faqs: [

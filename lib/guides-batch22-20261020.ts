@@ -845,17 +845,17 @@ export const guidesPartTwentyFive: Guide[] = [
     title: "Client Transfer Notice When a Therapist Leaves a Counseling Practice",
     metaTitle: "Client Transfer Notice When a Therapist Leaves a Practice",
     metaDescription:
-      "How a counseling practice can notify clients and update its site and listings when a therapist leaves, protecting privacy. Call (561) 291-2681.",
+      "How a counseling practice tells clients a therapist is leaving: the notice, last day, records, and updating the site and listings. (561) 291-2681",
     answer:
       "When a therapist leaves a counseling practice, clients need a clear notice with the last day of service, their options for staying or moving, how to get their records and who to call. The practice should tell clients directly before changing public pages, then update the website and listings and avoid saying where the therapist went without permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Clients hear it first, the website hears it second"),
       p(
-        "A therapist leaving is one of the more delicate announcements a counseling practice makes. Clients have a personal relationship with that person, and many will feel the news before they have a plan. The notice has to come to them before any public change, not after a client finds the bio missing."
+        "The notice should reach every affected client directly, with the last day of service and their options, before anything changes on the website or listings. A therapist leaving is one of the more delicate announcements a counseling practice makes. Clients have a personal relationship with that person, and many will feel the news before they have a plan. The notice has to come to them before any public change, not after a client finds the bio missing."
       ),
       p(
         "Decide the order of operations in advance: tell clients, then update the scheduling system, then change the website and listings. Doing it the other way round leaves a client reading about a departure on Google before anyone has called them."

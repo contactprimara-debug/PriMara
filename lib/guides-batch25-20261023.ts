@@ -433,7 +433,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A discharge policy page tells clients, before they start, how therapy can end: when they decide it is done, when the practice cannot be the right fit, or after a long gap. State the notice you give, the referrals you offer and how clients can return. Keep it calm and free of clinical claims.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why publish how therapy ends"),
@@ -477,7 +477,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Link the page from your fees and cancellation pages and from the intake paperwork email, so clients meet the same wording in every place. Our guide to the [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) shows a related situation where the tone matters just as much."
       ),
       p(
-        "Review the page once a year with the same care as the signed agreement. If the intake paperwork changes the notice period or the long-gap rule, change the page the same day, so clients never read one promise on the website and a different one in their paperwork."
+        "Review the page once a year with the same care as the signed agreement. If the intake paperwork changes the notice period or the long-gap rule, change the page the same day, so clients never read one promise on the website and a different one in their paperwork. When care ends because a therapist is leaving, rather than by a client decision, use the [client transfer notice](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) instead of the discharge policy wording."
       ),
     ],
     faqs: [
@@ -615,7 +615,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "Once a year, read every page of your counseling website as a new client would. Check clinicians and licenses, fees and insurance, forms and policies, crisis resources, phone numbers, links and the Google profile, and fix whatever has drifted. Write the date of the review so the next one is easy.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why a counseling site drifts out of date"),
@@ -665,7 +665,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Choose the same month every year and assign each row of the table to a named person. Keep the finished checklist in a shared folder with the date, so you can see what changed from one year to the next. A practice that reviews its site once a year rarely needs a panic rewrite, and new clients meet a site that matches the front desk."
       ),
       p(
-        "If you change a lot, such as a new clinician or a new fee schedule, republish the affected pages together and check the sitemap and Google profile the same day."
+        "If you change a lot, such as a new clinician or a new fee schedule, republish the affected pages together and check the sitemap and Google profile the same day. Do the review in the same sitting as the [year-end marketing results summary](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice), so the pages that need work are chosen using the real numbers from the year."
       ),
     ],
     faqs: [

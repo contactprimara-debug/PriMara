@@ -191,7 +191,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Yes, but as a second priority behind Google Business Profile. Apple Business Connect controls what iPhone users see in Apple Maps and Siri, and Bing Places feeds Microsoft's search products. Both are free, take about an hour each to claim, and mainly protect you from wrong hours or addresses. Do Google first.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -275,7 +275,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Set a calendar reminder to review both cards every six months and whenever hours, phone, address or provider names change. If a holiday or storm closure applies, update them alongside Google. Do not buy a paid placement or a ranking service for either listing without a clear reason, since the free claim covers the factual details. Patients' reviews on these platforms follow the same rules as everywhere else, so answer them without confirming anyone is a patient."
+        "text": "Set a calendar reminder to review both cards every six months and whenever hours, phone, address or provider names change. If a holiday or storm closure applies, update them alongside Google. Do not buy a paid placement or a ranking service for either listing without a clear reason, since the free claim covers the factual details. Patients' reviews on these platforms follow the same rules as everywhere else, so answer them without confirming anyone is a patient. Map and directory listings are easy to lose in a sale or retirement, so read [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) first."
       }
     ],
     "faqs": [
@@ -1034,7 +1034,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Before a storm, set special hours or mark the profile temporarily closed, post a short notice on your site and listing, and tell patients how to reach you. After it, restore regular hours the day you reopen. Wrong hours on Google send patients to a locked door, so update in the same hour you decide.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -1116,7 +1116,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording. For planned closures such as holidays, the same special-hours steps apply, and our guide to [holiday and closure notices for a medical practice](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) shows which three places to update on the same day. Practices that add evening or Saturday hours permanently should follow our guide to [publishing extended hours and keeping Google accurate](/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate), not only the special-hours steps above. Palm Beach County practices have both seasonal residents and storm closures to plan around, which we build into the calendar as part of [medical SEO in West Palm Beach](/locations/medical-seo-west-palm-beach)."
+        "text": "Write a one-page storm checklist before June: who updates what, where the logins are kept, and what the standard notice says. Include the phone number patients should call, the page where updates will appear and the person who approves the wording. Keep the profile owner's access on a device that works without your office power. A plan you wrote in May is worth more than one you improvise as the storm approaches. If you list walk-in hours, keep them as current as your storm closures, and see [getting found for same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) for wording. For planned closures such as holidays, the same special-hours steps apply, and our guide to [holiday and closure notices for a medical practice](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) shows which three places to update on the same day. Practices that add evening or Saturday hours permanently should follow our guide to [publishing extended hours and keeping Google accurate](/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate), not only the special-hours steps above. Palm Beach County practices have both seasonal residents and storm closures to plan around, which we build into the calendar as part of [medical SEO in West Palm Beach](/locations/medical-seo-west-palm-beach). Planned seasonal changes work the same way, and the [summer hours and schedule change notice](/guides/summer-hours-and-schedule-change-notice-for-a-primary-care-practice) shows how to set special hours for a fixed period of weeks."
       }
     ],
     "faqs": [
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-05",
     "readMinutes": 6,
     "sections": [
       {
@@ -1976,7 +1976,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The National Plan and Provider Enumeration System, NPPES, holds each provider's practice location and taxonomy, and the provider is responsible for keeping it current. Ask a new provider to confirm theirs lists your address, and ask a departing provider to remove it. Wrong data there feeds other directories. For redirect steps, follow Google's documentation on 301 redirects. After the changes are live, search the provider's name and your practice name together, and note anything that still shows the old arrangement, so the next sweep starts with a known list. A move touches many of the same places as a staffing change, so use the [office move checklist for a medical practice: update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) alongside the provider checklist."
+        "text": "The National Plan and Provider Enumeration System, NPPES, holds each provider's practice location and taxonomy, and the provider is responsible for keeping it current. Ask a new provider to confirm theirs lists your address, and ask a departing provider to remove it. Wrong data there feeds other directories. For redirect steps, follow Google's documentation on 301 redirects. After the changes are live, search the provider's name and your practice name together, and note anything that still shows the old arrangement, so the next sweep starts with a known list. A move touches many of the same places as a staffing change, so use the [office move checklist for a medical practice: update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) alongside the provider checklist. When a clinician leaves a counseling practice, the clients need a direct notice first, as set out in the [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice)."
       }
     ],
     "faqs": [

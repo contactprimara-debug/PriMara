@@ -650,7 +650,7 @@ export const guidesPartThirty: Guide[] = [
       "A practice staff email signature should show a name, role, practice name, phone number, website and address in a consistent format, plus a short confidentiality footer that says the message may be private and asks a mistaken recipient to notify the sender. A footer is not a safeguard by itself, and it should never replace secure messaging for health information.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why the signature matters"),
@@ -694,7 +694,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Keep health information out of ordinary email"),
       p(
-        "Tell staff in writing that patient details go through the secure portal or another approved channel, and that a mistaken email is reported to the privacy officer the same day. The signature should support that habit with a line pointing patients to the portal for private questions."
+        "Tell staff in writing that patient details go through the secure portal or another approved channel, and that a mistaken email is reported to the privacy officer the same day. The signature should support that habit with a line pointing patients to the portal for private questions. A consistent signature also helps patients spot a fake, which is covered in [what to tell patients about scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients)."
       ),
     ],
     faqs: [

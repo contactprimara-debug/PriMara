@@ -212,7 +212,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -306,7 +306,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice). Counseling offices need extra care with the recording itself, and this [voicemail greeting script for a counseling practice](/guides/voicemail-greeting-script-for-a-counseling-practice-that-protects-privacy) shows wording that never confirms who is a client."
+        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice). Counseling offices need extra care with the recording itself, and this [voicemail greeting script for a counseling practice](/guides/voicemail-greeting-script-for-a-counseling-practice-that-protects-privacy) shows wording that never confirms who is a client. Staff who return those messages next morning can follow the [new patient intake phone script for a primary care front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) so every caller gets the same answers."
       },
       {
         "type": "callout",
@@ -395,7 +395,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -485,7 +485,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together. The same secure-portal approach applies to paperwork requests from families, as explained in our guide to a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) for a primary care office."
+        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together. The same secure-portal approach applies to paperwork requests from families, as explained in our guide to a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) for a primary care office. Send the link to the forms in a short [welcome text or email to a new patient](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) a few days before the visit, with the address and parking details."
       },
       {
         "type": "callout",
@@ -574,7 +574,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Block form spam in layers: a hidden honeypot field, a lightweight challenge such as Cloudflare Turnstile or reCAPTCHA, server-side checks, and rate limits. Keep the form short so real patients are not turned away, and make sure your conversion tracking fires only on a submission that passed those checks.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -676,7 +676,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The goal is fewer fake leads, not fewer leads. After adding any filter, submit a test through the real form on a phone and confirm it still arrives. Check the weekly lead count for a sudden drop. A filter that quietly rejects real patients is worse than the spam it replaced. Once spam is controlled, send real submissions to a clear confirmation page as described in [what a thank-you page should say and how to track it](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), so only genuine leads are counted. Fewer fields also mean fewer places for spam to hide, so review which [appointment request form fields a primary care practice really needs](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) before adding protection."
+        "text": "The goal is fewer fake leads, not fewer leads. After adding any filter, submit a test through the real form on a phone and confirm it still arrives. Check the weekly lead count for a sudden drop. A filter that quietly rejects real patients is worse than the spam it replaced. Once spam is controlled, send real submissions to a clear confirmation page as described in [what a thank-you page should say and how to track it](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), so only genuine leads are counted. Fewer fields also mean fewer places for spam to hide, so review which [appointment request form fields a primary care practice really needs](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) before adding protection. Fake numbers also end up on text lists, which is another reason to use a clear [text message opt-in box on web forms](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) and to record each choice."
       },
       {
         "type": "callout",
@@ -765,7 +765,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A medically reviewed by label is a promise that a named, qualified clinician actually read the page and found it accurate on a stated date. Use it only when that is true, show the reviewer's real name and credentials, and keep the review date current. If no one reviewed the page, leave the label off.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -865,7 +865,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Tie the reviewer to a strong bio page as well. A reader who clicks the name should land on real credentials and experience, as described in our guide to [writing a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks)."
+        "text": "Tie the reviewer to a strong bio page as well. A reader who clicks the name should land on real credentials and experience, as described in our guide to [writing a doctor bio page that ranks](/guides/how-to-write-a-doctor-bio-page-that-ranks). A freelance writer can draft a post, but only a clinician can review it, and [hiring a freelance writer without sharing patient information](/guides/hiring-a-freelance-writer-for-a-medical-practice-blog-without-sharing-patient-information) explains how to keep those two roles apart."
       },
       {
         "type": "callout",
@@ -954,7 +954,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Sign in to your Google Business Profile, open the business information, and correct the address and the pin position so it sits on your actual entrance. Save, then watch for a review or re-verification request. If an edit does not appear, check for a suggested edit overriding it, or a duplicate listing.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -1052,7 +1052,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google compares your profile with other sources. If your website, Apple Maps and directory listings still show the old address, the pin may drift back. Update the same details everywhere. The checklist in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows where to look. If a move leaves the pin in the wrong place, work through our [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) to be sure every listing points to the new door. Clients who still head to the old address are best helped by a clear [office move notice for a counseling practice within the same city](/guides/office-move-within-the-same-city-notice-for-a-counseling-practice) that stays on the website for a few weeks."
+        "text": "Google compares your profile with other sources. If your website, Apple Maps and directory listings still show the old address, the pin may drift back. Update the same details everywhere. The checklist in our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows where to look. If a move leaves the pin in the wrong place, work through our [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) to be sure every listing points to the new door. Clients who still head to the old address are best helped by a clear [office move notice for a counseling practice within the same city](/guides/office-move-within-the-same-city-notice-for-a-counseling-practice) that stays on the website for a few weeks. Once the pin is correct, add plain written directions beside the map on your site, using the advice on [map embeds and driving directions wording for a contact page](/guides/map-embed-and-driving-directions-wording-on-the-contact-page-of-a-primary-care-practice)."
       },
       {
         "type": "callout",
@@ -1137,11 +1137,11 @@ export const guidesPartSixteen: Guide[] = [
     "category": "Checklist",
     "title": "Protecting Your Online Presence When a Practice Changes Hands or a Provider Retires",
     "metaTitle": "Online Presence When a Practice Changes Hands or Retires",
-    "metaDescription": "A checklist for keeping Google, your website, reviews and phone number intact when a medical practice is sold, merged or a provider retires. (561) 291-2681.",
+    "metaDescription": "Keep Google, your website, reviews and phone number intact when a medical practice is sold or a provider retires. A checklist. (561) 291-2681",
     "answer": "When a practice is sold or a provider retires, the online assets are what patients use to find the practice. Before the date, list every account, make sure the right people own them, plan how patients will be told, and keep the profile, website and phone number working so the transition does not look like a closure.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-14",
+    "dateModified": "2026-11-05",
     "readMinutes": 8,
     "sections": [
       {
@@ -1150,7 +1150,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A sale, merger or retirement is mostly a legal, financial and clinical project. The online side is smaller but easy to forget, and mistakes show up fast. Patients search the practice name, find a closed sign on Google, an unmanned phone line or a website that still lists a provider who left, and assume the practice is gone."
+        "text": "Keep the Google profile, website, reviews and phone number active until the transition is finished, so patients never find a closed sign for an open practice. A sale, merger or retirement is mostly a legal, financial and clinical project. The online side is smaller but easy to forget, and mistakes show up fast. Patients search the practice name, find a closed sign on Google, an unmanned phone line or a website that still lists a provider who left, and assume the practice is gone."
       },
       {
         "type": "p",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -1816,7 +1816,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session. Clients who join a group often first ask what the screening call is like, so link the first-session page to your [group therapy page for a counseling practice](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) for them."
+        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session. Clients who join a group often first ask what the screening call is like, so link the first-session page to your [group therapy page for a counseling practice](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) for them. Send the forms in a short message before the visit, following the [intake paperwork email for a counseling practice](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice), rather than asking clients to arrive early."
       },
       {
         "type": "callout",
@@ -1905,7 +1905,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Many patients Google a practice by name before they call. Search your name in several ways on a phone, record what appears, and fix what is wrong: the wrong phone number, an old address, a competitor ad, a missing profile or a stray directory page. The fixes are mostly ordinary profile and listing work.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-10-29",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -2007,7 +2007,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Repeat the audit quarterly, and any time you move, change a provider or change your phone number. Save screenshots with the date so you can see what changed. Include it in your [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) so it does not depend on anyone remembering."
+        "text": "Repeat the audit quarterly, and any time you move, change a provider or change your phone number. Save screenshots with the date so you can see what changed. Include it in your [monthly Google Business Profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) so it does not depend on anyone remembering. If an ad for another office appears on your name search, [what a practice can do when a competitor bids on its name](/guides/competitor-bidding-on-your-practice-name-in-google-ads-what-a-medical-practice-can-do) explains what to document and report."
       },
       {
         "type": "callout",
@@ -2279,7 +2279,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice joins or leaves an insurance network, patients find out online first. Update your own insurance page first, then your Google profile, directory listings, scheduling tool and phone script on the effective date. Use plain wording and a date, and send existing patients a notice through your normal channels.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-05",
     "readMinutes": 7,
     "sections": [
       {
@@ -2367,7 +2367,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you send emails or texts about the change, follow the rules in our guides on [email marketing compliance](/guides/email-marketing-compliance-for-a-medical-practice) and [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice)."
+        "text": "If you send emails or texts about the change, follow the rules in our guides on [email marketing compliance](/guides/email-marketing-compliance-for-a-medical-practice) and [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice). A plan that stops taking new clients without ending the contract needs its own notice, using the [wording for an insurance panel that is closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile)."
       },
       {
         "type": "h2",

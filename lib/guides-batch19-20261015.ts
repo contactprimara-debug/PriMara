@@ -176,7 +176,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A patient survey invitation should ask about the experience of the office, such as scheduling, waiting and courtesy, and never about conditions, treatments or results. Send the same invitation to every patient, keep the questions to five or fewer, and do not use survey answers to decide who is asked to leave a public review.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T09:20:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("What a survey is for, and what it is not for"),
@@ -225,7 +225,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Pick one day each month to review the results with the practice manager and the front desk lead. Write down the two most common comments, choose one that can be fixed without cost, and assign it to a named person. When it is fixed, post a short note in the waiting room or on the website saying what changed. This closes the loop for patients, who rarely hear what happened to their feedback, and it gives staff a reason to take the survey seriously."
       ),
       p(
-        "Archive each month's summary rather than the raw answers. A one-page summary with counts and themes is enough to show a trend over a year, and it keeps the amount of stored feedback small."
+        "Archive each month's summary rather than the raw answers. A one-page summary with counts and themes is enough to show a trend over a year, and it keeps the amount of stored feedback small. The invitation should come from a [professional domain email address for the practice rather than Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so patients recognize it as genuine."
       ),
     ],
     faqs: [
@@ -465,7 +465,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Describe availability with measured, dated statements such as typical days to the next new-patient visit, not guarantees like same-day appointments always. Update the figure on a schedule, say how patients can get seen sooner, and avoid claims about waiting times that the office cannot support with its own schedule data.",
     author: "Liam Costello",
     publishDate: "2026-10-15T10:20:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Patients search for speed, and practices overpromise"),
@@ -516,7 +516,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Set a reminder for the first working day of each month. Check the next-available date for a new patient and for an established patient, compare it with last month, and edit the range on the page only if it has moved by more than a few days. Change the month beside the figure even if the range stays the same, so the page shows it was checked. Share the figure with the front desk so the answer on the phone and the answer online agree."
       ),
       p(
-        "If reviews start to mention waits, treat them as information. A pattern of comments about Monday mornings is a reason to change the schedule or the message, not to argue with the comments."
+        "If reviews start to mention waits, treat them as information. A pattern of comments about Monday mornings is a reason to change the schedule or the message, not to argue with the comments. When the schedule changes for a season, post the dates and hours using the [summer hours and schedule change notice](/guides/summer-hours-and-schedule-change-notice-for-a-primary-care-practice) so patients do not arrive at a closed door."
       ),
     ],
     faqs: [
@@ -762,7 +762,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-05",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
@@ -810,7 +810,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Directories change their features and fees often, so assign one person to review each profile twice a year and write the date in a simple list. Look at the photo, the statement, the specialties, the fees and the availability. If a clinician leaves the practice, remove or update the profile right away, because a former clinician's page can keep sending calls to the wrong person for months."
       ),
       p(
-        "Search for your own name now and then to see which profiles appear first, and ask any directory to correct inaccurate information that you did not provide."
+        "Search for your own name now and then to see which profiles appear first, and ask any directory to correct inaccurate information that you did not provide. A hospital or health system directory is another listing worth having, so follow [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory)."
       ),
     ],
     faqs: [
