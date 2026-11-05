@@ -16,11 +16,6 @@ const GBP_HELP = {
   label: "Google Business Profile Help Center",
   href: "https://support.google.com/business",
 };
-const GOOGLE_REVIEW_POLICY = {
-  publisher: "Google Maps Help",
-  label: "Prohibited and restricted content for reviews",
-  href: "https://support.google.com/contributing/answer/7400114",
-};
 const HHS_PRIVACY = {
   publisher: "U.S. Department of Health and Human Services",
   label: "HIPAA Privacy Rule guidance",
@@ -44,7 +39,7 @@ const GOOGLE_HELPFUL = {
 const GOOGLE_SPAM = {
   publisher: "Google Search Central",
   label: "Spam policies for Google web search",
-  href: "https://developers.google.com/search/docs/essential/spam-policies",
+  href: "https://developers.google.com/search/docs/essentials/spam-policies",
 };
 const GSC_HELP = {
   publisher: "Google Search Console Help",
@@ -158,7 +153,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "One named person, usually the office manager. The check takes about five minutes and belongs with the other monthly profile tasks. Put the count in a shared sheet so it survives staff changes.",
       },
     ],
-    citations: [GBP_HELP, GOOGLE_REVIEW_POLICY, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [GBP_HELP, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "Handling A Fake Review", description: "What to do when a review is not real." },
       { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Asking For Reviews Safely", description: "Ways to ask without gating or incentives." },

@@ -201,11 +201,6 @@ export const guidesPartNine: Guide[] = [
     citations: [
       {
         publisher: "Google Business Profile Help",
-        label: "Fix a duplicate Business Profile",
-        href: "https://support.google.com/business/answer/4564454",
-      },
-      {
-        publisher: "Google Business Profile Help",
         label: "Guidelines for representing your business",
         href: "https://support.google.com/business/answer/3038177",
       },
@@ -933,7 +928,7 @@ export const guidesPartNine: Guide[] = [
     ],
     citations: [
       { publisher: "Federal Communications Commission", label: "Telephone Consumer Protection Act (TCPA) rules", href: "https://www.fcc.gov/general/telephone-consumer-protection-act-1991" },
-      { publisher: "Federal Trade Commission", label: "Telemarketing Sales Rule", href: "https://www.ftc.gov/business-guidance/resources/telemarketing-sales-rule" },
+      { publisher: "Federal Trade Commission", label: "Telemarketing Sales Rule", href: "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule" },
     ],
     links: [
       {

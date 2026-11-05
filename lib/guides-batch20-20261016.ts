@@ -30,7 +30,7 @@ const FTC_ADS = {
 const FTC_REVIEWS = {
   publisher: "Federal Trade Commission",
   label: "Rule on consumer reviews and testimonials",
-  href: "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+  href: "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials",
 };
 const GOOGLE_HELPFUL = {
   publisher: "Google Search Central",

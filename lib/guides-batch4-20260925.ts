@@ -173,7 +173,6 @@ export const guidesPartSeven: Guide[] = [
     citations: [
       { publisher: "Google Business Profile Help", label: "Improve your local ranking on Google", href: "https://support.google.com/business/answer/7091?hl=en" },
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
-      { publisher: "Google Business Profile Help", label: "Prohibited and restricted content — reviews", href: "https://support.google.com/business/answer/7412043" },
     ],
     links: [
       { href: "/guides/how-to-get-more-patients-from-google-business-profile", label: "How to Get More Patients From Google Business Profile", description: "The strategy this maintenance checklist supports month to month." },
@@ -679,7 +678,6 @@ export const guidesPartSeven: Guide[] = [
       { q: "Can a competitor leave a fake review anonymously?", a: "It happens, and it's reportable if the review contains no genuine visit-related content or references services the practice doesn't offer — those are red flags worth including explicitly in the report. We're happy to go deeper on this for your specific market during a free audit." },
     ],
     citations: [
-      { publisher: "Google Business Profile Help", label: "Prohibited and restricted content — reviews", href: "https://support.google.com/business/answer/7412043" },
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
     ],
     links: [

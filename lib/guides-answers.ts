@@ -147,11 +147,6 @@ export const guidesPartThree: Guide[] = [
         label: "Fix a suspended Business Profile",
         href: "https://support.google.com/business/answer/4569145",
       },
-      {
-        publisher: "Google Search Central",
-        label: "Local ranking: relevance, distance and prominence",
-        href: "https://developers.google.com/search/docs/appearance/google-business-profile",
-      },
     ],
     links: [
       { href: "/guides/fix-duplicate-google-business-profile-listings", label: "Fix Duplicate Google Business Profile Listings", description: "A duplicate listing is one of the more common triggers for the suspension this guide covers." },
@@ -327,7 +322,7 @@ export const guidesPartThree: Guide[] = [
       {
         publisher: "Federal Trade Commission",
         label: "Rule on the Use of Consumer Reviews and Testimonials",
-        href: "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+        href: "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials",
       },
       {
         publisher: "Google Business Profile Help",

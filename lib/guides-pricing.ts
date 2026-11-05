@@ -165,7 +165,7 @@ export const guidesPartOne: Guide[] = [
       {
         publisher: "Federal Trade Commission",
         label: "Rule on the Use of Consumer Reviews and Testimonials",
-        href: "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+        href: "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials",
       },
     ],
     links: [
@@ -360,7 +360,7 @@ export const guidesPartOne: Guide[] = [
       {
         publisher: "Federal Trade Commission",
         label: "Rule on the Use of Consumer Reviews and Testimonials",
-        href: "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+        href: "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials",
       },
       {
         publisher: "U.S. Dept. of Health & Human Services",

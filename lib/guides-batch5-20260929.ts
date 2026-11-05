@@ -739,7 +739,7 @@ export const guidesPartEight: Guide[] = [
       { q: "Are testimonials worth the compliance overhead compared to just using Google reviews?", a: "Both have a place — Google reviews carry their own weight in local search and are simpler to collect, while a small number of properly consented website testimonials can add detail Google's review format doesn't allow. The compliance steps above make the second option safe, not something to avoid entirely." },
     ],
     citations: [
-      { publisher: "FTC", label: "Guides Concerning Endorsements and Testimonials", href: "https://www.ftc.gov/legal-library/browse/rules/guides-concerning-use-endorsements-testimonials-advertising" },
+      { publisher: "FTC", label: "Guides Concerning Endorsements and Testimonials", href: "https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews" },
       { publisher: "HHS", label: "HIPAA guidance on marketing", href: "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html" },
       { publisher: "FTC", label: "FTC's Endorsement Guides: What People Are Asking", href: "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking" },
     ],

@@ -296,11 +296,6 @@ export const guidesPartTen: Guide[] = [
         label: "Link spam — Spam policies for Google web search",
         href: "https://developers.google.com/search/docs/essentials/spam-policies#link-spam",
       },
-      {
-        publisher: "Google Search Central",
-        label: "Disavow links to your site",
-        href: "https://developers.google.com/search/docs/monitor-debug/search-console-disavow-links-to-your-site",
-      },
     ],
     links: [
       {

@@ -35,7 +35,7 @@ const FTC_ADS = {
 const FTC_REVIEWS = {
   publisher: "Federal Trade Commission",
   label: "Rule on consumer reviews and testimonials",
-  href: "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+  href: "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials",
 };
 const GOOGLE_HELPFUL = {
   publisher: "Google Search Central",
@@ -1209,7 +1209,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         a: "Give a realistic range from your own schedule, and note that late summer and the start of a school season fill quickly. Update the range when your availability changes.",
       },
     ],
-    citations: [{ publisher: "Federal Motor Carrier Safety Administration", label: "National Registry of Certified Medical Examiners", href: "https://nrcme.fmcsa.dot.gov/" }, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [{ publisher: "Federal Motor Carrier Safety Administration", label: "National Registry of Certified Medical Examiners", href: "https://nationalregistry.fmcsa.dot.gov/" }, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals", label: "Seasonal Service Pages", description: "Flu shots and school physicals." },
       { href: "/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website", label: "Self-Pay Prices", description: "Publish prices without surprises." },

@@ -256,8 +256,7 @@ export const guidesPartFive: Guide[] = [
       { q: "Does review volume or average rating matter more for ranking?", a: "Both factor in, but a larger volume of honestly collected reviews with a solid (not perfect) average generally signals more trust to Google's algorithm and to patients than a very high average built from very few reviews. You can ask about your specific practice on a free audit call before deciding anything." },
     ],
     citations: [
-      { publisher: "Google Business Profile Help", label: "Prohibited and restricted content — reviews", href: "https://support.google.com/business/answer/7412043" },
-      { publisher: "FTC", label: "Rule on Fake Reviews and Testimonials", href: "https://www.ftc.gov/legal-library/browse/rules/rule-fake-reviews-testimonials" },
+      { publisher: "FTC", label: "Rule on Fake Reviews and Testimonials", href: "https://www.ftc.gov/legal-library/browse/rules/rulemaking-use-consumer-reviews-testimonials" },
       { publisher: "Google Business Profile Help", label: "Read and reply to reviews", href: "https://support.google.com/business/answer/3474122" },
     ],
     links: [
@@ -343,7 +342,6 @@ export const guidesPartFive: Guide[] = [
       { q: "Does changing my primary category affect my existing rankings?", a: "It can, temporarily — Google may take some time to re-evaluate ranking signals after a category change, and significant changes occasionally trigger a re-verification step. This is normal and not a sign something went wrong. You can ask about your specific practice on a free audit call before deciding anything." },
     ],
     citations: [
-      { publisher: "Google Business Profile Help", label: "Choose primary and secondary business categories", href: "https://support.google.com/business/answer/10688573" },
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
       { publisher: "Google Business Profile Help", label: "Improve your local ranking on Google", href: "https://support.google.com/business/answer/7091?hl=en" },
     ],
@@ -429,7 +427,6 @@ export const guidesPartFive: Guide[] = [
     ],
     citations: [
       { publisher: "HHS.gov", label: "HIPAA Privacy Rule and marketing", href: "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html" },
-      { publisher: "Google Ads Help", label: "About call conversions", href: "https://support.google.com/google-ads/answer/6115398" },
       { publisher: "Google Analytics Help", label: "GA4 event tracking", href: "https://support.google.com/analytics/answer/9322688" },
     ],
     links: [
