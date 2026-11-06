@@ -17,7 +17,7 @@
   --ash:        #2E3648;
   --chalk:      #0A1428;
   --navy:       #0A1428;
-  --gold:       #86640C;
+  --gold:       #7A5A08;
   --gold-bright:#F5B81C;
   --gold-glow:  rgba(245, 184, 28, 0.18);
   --teal:       #0E6B6B;
@@ -1210,3 +1210,39 @@ section[style*="--color-primary"] { border-top: 0 !important; }
   @keyframes hm-rise { from { opacity: .0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 }
 @supports not (animation-timeline: view()) { .hm-row-t, .hm-num { animation: none; } }
+
+/* White labels that sat on dark fills now sit on gold fills, so they go navy */
+.text-white[style*="--color-accent"], .text-white[style*="--ember"], .text-white[style*="--color-gold"], .text-white[style*="--gold-bright"] { color: var(--on-accent) !important; }
+section[style*="--color-primary"] .text-white { color: var(--navy) !important; }
+section[style*="--color-primary"] .border-white { border-color: var(--navy) !important; }
+section[style*="--color-primary"] a.text-white[style*="--color-accent"] { background-color: var(--navy) !important; color: #fff !important; }
+
+/* ── Shared page closer (components/PageCloser.tsx) ───────────────────── */
+.pg-closer { background: var(--gold-bright); padding: clamp(32px, 5vw, 64px) 0; border-top: 2px solid var(--navy); }
+.pg-closer-in { display: grid; grid-template-columns: minmax(0, 1.4fr) auto; gap: 28px; align-items: center; }
+.pg-closer .hm-h { margin-bottom: 10px; font-size: clamp(32px, 4.2vw, 56px); }
+.pg-closer .hm-body { color: var(--navy); margin: 0; }
+.pg-closer-btns { display: flex; flex-direction: column; gap: 12px; }
+.hm-btn-navy { background: var(--navy); color: #fff; box-shadow: 4px 4px 0 rgba(10,20,40,.35); }
+.hm-btn-navy:hover { transform: translate(-2px,-2px); }
+.pg-closer .hm-btn-line { border-color: var(--navy); }
+@media (max-width: 860px) { .pg-closer-in { grid-template-columns: 1fr; } .pg-closer-btns { flex-direction: column; } .pg-closer-btns .hm-btn { width: 100%; } }
+/* hide where the page already closes with its own band or a lead form */
+body:has(main section[style*="--color-primary"]) .pg-closer,
+body:has(main #contact-form) .pg-closer,
+body:has(main #contact) .pg-closer,
+body:has(main #inquire) .pg-closer,
+body:has(main[data-page="assessment"]) .pg-closer,
+body:has(main[data-page="thank-you"]) .pg-closer { display: none; }
+@media (max-width: 767px) { .pg-closer { margin-bottom: 0; } }
+
+/* About */
+.ab-hero { padding: calc(60px + env(safe-area-inset-top) + 24px) 0 clamp(28px, 5vw, 64px); background: var(--void); }
+.ab-hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
+.ab-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.ab-photos .hm-f-fig:nth-child(2) { margin-top: 32px; }
+.ab-photos img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.ab-story { background: var(--surface); padding: clamp(36px, 6vw, 80px) 0; }
+.ab-story-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
+.ab-who { background: var(--void); padding: clamp(36px, 6vw, 80px) 0; }
+@media (max-width: 860px) { .ab-hero-grid, .ab-story-grid { grid-template-columns: 1fr; } .ab-hero .hm-h { font-size: clamp(36px, 11vw, 56px); } }

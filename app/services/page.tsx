@@ -112,7 +112,7 @@ export default function ServicesPage() {
           <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "48px", fontSize: "1rem" }}
+            style={{ borderColor: "var(--navy)", color: "var(--navy)", height: "48px", fontSize: "1rem" }}
           >
             Request a Free Audit
           </Link>
@@ -166,7 +166,7 @@ export default function ServicesPage() {
               <Link prefetch={false}
                 href={`/services/${s.slug}`}
                 className="mt-auto text-sm font-semibold"
-                style={{ color: "var(--color-accent)", fontFamily: "var(--font-mono)" }}
+                style={{ color: "var(--gold)", fontFamily: "var(--font-mono)" }}
               >
                 Learn more →
               </Link>

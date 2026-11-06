@@ -142,8 +142,8 @@ export default function WhyPrimara() {
               role="listitem"
               className="text-sm font-medium"
               style={{
-                border: "1.5px solid var(--color-primary)",
-                color: "var(--color-primary)",
+                border: "1.5px solid var(--navy)",
+                color: "var(--navy)",
                 borderRadius: "999px",
                 padding: "10px 20px",
                 fontFamily: "var(--font-mono)",

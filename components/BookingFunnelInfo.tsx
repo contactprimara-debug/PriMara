@@ -31,7 +31,7 @@ export default function BookingFunnelInfo() {
       <ol className="mt-4 grid gap-4 md:grid-cols-3" style={{ listStyle: "none", padding: 0 }}>
         {steps.map((s) => (
           <li key={s.n} style={box}>
-            <p style={{ color: "var(--color-accent)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>Step {s.n}</p>
+            <p style={{ color: "var(--gold)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>Step {s.n}</p>
             <p className="mt-1 font-bold" style={{ color: "var(--color-text)" }}>{s.t}</p>
             <p className="mt-1 text-sm" style={{ color: "var(--color-text-muted)" }}>{s.d}</p>
           </li>
