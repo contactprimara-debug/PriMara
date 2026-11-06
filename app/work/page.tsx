@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 import { toJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -70,67 +71,19 @@ const projects = [
 
 export default function WorkPage() {
   return (
-    <main className="pt-16">
+    <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
 
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8 py-3">
-          <ol className="flex items-center gap-2 flex-wrap" style={{ color: "var(--smoke)", fontSize: "0.8125rem" }}>
-            <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
-            <li aria-hidden="true" style={{ color: "var(--wire)" }}>/</li>
-            <li style={{ color: "var(--chalk)" }}>Work</li>
-          </ol>
-        </div>
-      </nav>
-
-      {/* Hero */}
-      <section
-        style={{
-          backgroundColor: "var(--void)",
-          padding: "clamp(56px, 8vw, 96px) 0 clamp(40px, 6vw, 64px)",
-          borderBottom: "1px solid var(--wire)",
-        }}
-      >
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-              marginBottom: "20px",
-            }}
-          >
-            Client Work
-          </p>
-          <h1
-            style={{
-              fontFamily: "var(--font-display), Georgia, serif",
-              fontSize: "clamp(2.25rem, 5vw, 3.75rem)",
-              fontWeight: 400,
-              color: "var(--chalk)",
-              lineHeight: 1.1,
-              letterSpacing: "-0.02em",
-              maxWidth: "720px",
-              marginBottom: "20px",
-            }}
-          >
-            Real Practices We Work With.
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "var(--ash)",
-              lineHeight: 1.75,
-              maxWidth: "600px",
-            }}
-          >
-            Two independent practices Primara actively manages — SEO, Google Business Profile, Google Ads, and website work. Both engagements are ongoing. Dated numbers for three more practices are in our case studies: <Link prefetch={false} href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link prefetch={false} href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link prefetch={false} href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>.
-          </p>
-        </div>
-      </section>
+      <PgHero
+        id="work-h1"
+        page="work"
+        kicker="Client work"
+        h1="Real Practices We Work With."
+        sub={<>Two independent practices we actively manage, both ongoing. Dated numbers for three more are in the case studies: <Link prefetch={false} href="/case-studies/family-life-counseling-center" style={{ color: "var(--gold)" }}>Family Life Counseling Center</Link>, <Link prefetch={false} href="/case-studies/serenity-by-a-dr-sareen" style={{ color: "var(--gold)" }}>Serenity By A Dr. Sareen</Link> and <Link prefetch={false} href="/case-studies/making-heaven-crowded" style={{ color: "var(--gold)" }}>Making Heaven Crowded</Link>.</>}
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+        mark={false}
+        compact
+      />
 
       {/* Projects */}
       {projects.map((project, idx) => (

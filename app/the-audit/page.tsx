@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 
 export const metadata: Metadata = {
   title: "Free Practice Audit for Independent Healthcare Practices | Primara",
@@ -48,44 +49,23 @@ const faqSchema = {
 
 export default function TheAuditPage() {
   return (
-    <main className="pt-16">
+    <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
-        <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-          <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
-          <li aria-hidden="true">›</li>
-          <li aria-current="page" style={{ color: "var(--color-text)" }}>The Audit</li>
-        </ol>
-      </nav>
+      <PgHero
+        id="audit-h1"
+        page="the-audit"
+        kicker="Free. No obligation. HIPAA-aware."
+        h1="See Exactly Where Your Practice Stands — For Free"
+        sub="Your Google Maps position, your review gap against a named local competitor, and your fastest win. Built from real tools, not assumptions, delivered in 3–5 days and walked through personally by Liam or Gio. No templates. If it doesn’t make sense for your practice, we’ll tell you."
+        primary={{ label: "Request my free audit", href: "/contact#contact-form" }}
+      />
 
-      <section className="mx-auto max-w-content px-6 lg:px-8 py-16" aria-labelledby="audit-h1">
-        <div
-          className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-medium text-white mb-6"
-          style={{ backgroundColor: "var(--color-success)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
-        >
-          ✓ Free · No Obligation · HIPAA-Aware
-        </div>
-
-        <h1
-          id="audit-h1"
-          className="font-serif font-bold text-balance"
-          style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
-        >
-          See Exactly Where Your Practice Stands — For Free
-        </h1>
-        <p className="mt-5 text-lg max-w-2xl" style={{ color: "var(--color-text-muted)" }}>
-          We research your practice using real tools — not assumptions — and build a custom audit showing
-          your Google Maps position, your review gap vs. your named local competitor, and your single fastest
-          available win. Delivered in 3&ndash;5 days. Walked through personally by Liam or Gio. No templates.
-          No obligation. If it doesn&rsquo;t make sense for your practice, we&rsquo;ll tell you that too.
-        </p>
-
+      <section className="mx-auto max-w-content px-6 lg:px-8 pt-4 pb-16" aria-label="What the audit covers">
         {/* What's in the audit */}
-        <div className="mt-16">
+        <div>
           <h2 className="font-serif font-bold mb-6" style={{ fontFamily: "var(--font-fraunces)", fontSize: "1.75rem" }}>
             What the Audit Shows You
           </h2>

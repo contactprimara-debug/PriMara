@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions — Healthcare Marketing | Primara",
@@ -59,38 +60,24 @@ const breadcrumbSchema = {
 
 export default function FAQPage() {
   return (
-    <main className="pt-16">
+    <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      {/* Breadcrumb */}
-      <div style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8" style={{ padding: "12px 24px" }}>
-          <nav aria-label="Breadcrumb">
-            <ol style={{ display: "flex", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontSize: "0.8125rem", color: "var(--smoke)" }}>
-              <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
-              <li aria-hidden="true">/</li>
-              <li style={{ color: "var(--chalk)" }}>FAQ</li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-
-      {/* Hero */}
-      <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 8vw, 96px) 0 clamp(32px, 5vw, 56px)" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <h1 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.15, marginBottom: "1.25rem" }}>
-            Frequently Asked Questions
-          </h1>
-          <p style={{ fontSize: "1.0625rem", color: "var(--ash)", maxWidth: "600px", lineHeight: 1.75 }}>
-            Answers about Primara's healthcare marketing services, timelines, HIPAA practices, and what results look like for independent practices. If you have a question that isn't here, <Link prefetch={false} href="/contact" style={{ color: "var(--chalk)", textDecoration: "underline" }}>contact us directly</Link>.
-          </p>
-        </div>
-      </section>
+      <PgHero
+        id="faq-h1"
+        page="faq"
+        kicker="FAQ"
+        h1="Frequently Asked Questions"
+        sub={<>Answers about services, timelines, HIPAA practices, and what results look like for independent practices. Not here? <Link prefetch={false} href="/contact" style={{ color: "var(--chalk)", textDecoration: "underline" }}>Ask us directly</Link>.</>}
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+        mark={false}
+        compact
+      />
 
       {/* FAQ List */}
       <section style={{ backgroundColor: "var(--void)", padding: "0 0 clamp(48px, 8vw, 96px)" }}>
-        <div className="mx-auto max-w-content px-6 lg:px-8">
+        <div className="hm-wrap">
           <dl style={{ display: "flex", flexDirection: "column", gap: "0" }}>
             {faqs.map(({ q, a }, i, arr) => (
               <div key={q} style={{ padding: "clamp(20px, 3vw, 28px) 0", borderBottom: i < arr.length - 1 ? "1px solid var(--wire)" : "none" }}>

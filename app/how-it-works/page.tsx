@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 
 export const metadata: Metadata = {
   title: "How Primara Works — From First Call Through Month 6 | Primara",
@@ -172,84 +173,16 @@ export default function HowItWorksPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
-      {/* ── Hero ─────────────────────────────────────────────────────────── */}
-      <section
-        style={{
-          backgroundColor: "var(--void)",
-          borderBottom: "1px solid var(--wire)",
-          paddingTop: "80px",
-          paddingBottom: "64px",
-        }}
-      >
-        <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div style={{ maxWidth: "720px" }}>
-            <p
-              style={{
-                fontFamily: "var(--font-mono)",
-                fontSize: "12px",
-                letterSpacing: "0.12em",
-                textTransform: "uppercase",
-                color: "var(--gold)",
-                marginBottom: "16px",
-              }}
-            >
-              The Engagement
-            </p>
-            <h1
-              style={{
-                fontFamily: "var(--font-serif)",
-                fontSize: "clamp(36px, 5vw, 56px)",
-                lineHeight: 1.1,
-                color: "var(--chalk)",
-                marginBottom: "24px",
-              }}
-            >
-              How Primara Works — From First Call Through Month&nbsp;6
-            </h1>
-            <p
-              style={{
-                fontSize: "18px",
-                lineHeight: 1.7,
-                color: "var(--ash)",
-                marginBottom: "32px",
-              }}
-            >
-              Most medical marketing agencies send you a proposal, take your credit card, and disappear behind a client portal. Here is exactly what happens when you work with Primara — week by week, deliverable by deliverable, with no ambiguity about what you're getting.
-            </p>
-            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-              <Link prefetch={false}
-                href="/the-audit"
-                style={{
-                  display: "inline-block",
-                  backgroundColor: "var(--ember)",
-                  color: "var(--on-accent)",
-                  padding: "14px 28px",
-                  fontSize: "15px",
-                  fontWeight: 600,
-                  textDecoration: "none",
-                  borderRadius: "4px",
-                }}
-              >
-                Start with a Free Audit
-              </Link>
-              <Link prefetch={false}
-                href="/results"
-                style={{
-                  display: "inline-block",
-                  border: "1px solid var(--wire)",
-                  color: "var(--ash)",
-                  padding: "14px 28px",
-                  fontSize: "15px",
-                  textDecoration: "none",
-                  borderRadius: "4px",
-                }}
-              >
-                See Client Results
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PgHero
+        id="how-h1"
+        page="how-it-works"
+        kicker="The engagement"
+        h1={<>How Primara Works — From First Call Through Month&nbsp;6</>}
+        sub="Most medical marketing agencies send a proposal, take your card, and disappear behind a portal. Here is exactly what happens when you work with us, week by week, deliverable by deliverable."
+        primary={{ label: "Start with a free audit", href: "/the-audit" }}
+        mark={false}
+        compact
+      />
 
       {/* ── What to expect callout ────────────────────────────────────────── */}
       <section
