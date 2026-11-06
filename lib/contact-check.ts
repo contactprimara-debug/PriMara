@@ -223,10 +223,18 @@ export function attachContactChecks(form: HTMLFormElement): () => void {
     if (isPhoneField(el)) {
       if (!el.getAttribute("inputmode")) el.setAttribute("inputmode", "tel");
       if (!el.getAttribute("autocomplete")) el.setAttribute("autocomplete", "tel");
+      // Re-entry guard: setNative() dispatches an input event so React sees the change, and that event
+      // lands back in this handler. If any other listener on the page reformats the value differently
+      // (laco-book had one), the two ping-pong forever -> RangeError: Maximum call stack size exceeded.
+      let formatting = false;
       const onInput = (ev: Event) => {
+        if (formatting) return;
         if ((ev as InputEvent).inputType && (ev as InputEvent).inputType.indexOf("delete") === 0) return;
         const f = formatPhone(el.value);
-        if (f !== el.value) setNative(el, f);
+        if (f !== el.value) {
+          formatting = true;
+          try { setNative(el, f); } finally { formatting = false; }
+        }
         if (el.getAttribute("aria-invalid")) showMsg(el, run(el));
       };
       el.addEventListener("input", onInput);
