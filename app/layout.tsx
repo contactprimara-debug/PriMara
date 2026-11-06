@@ -10,6 +10,7 @@ import InteractionEffects from "@/components/InteractionEffects";
 import HashScroll from "@/components/HashScroll";
 import MobileCTABar from "@/components/MobileCTABar";
 import AttributionCapture from "@/components/AttributionCapture";
+import ContactChecks from "@/components/ContactChecks";
 import ConsentBanner from "@/components/ConsentBanner";
 import Preloader from "@/components/Preloader";
 import RouteFade from "@/components/RouteFade";
@@ -231,6 +232,7 @@ export default function RootLayout({
         {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
         <MobileCTABar />
         <AttributionCapture />
+        <ContactChecks />
         <ConsentBanner />
 
         {/* ── Animation infrastructure ──────────────────────────────────── */}

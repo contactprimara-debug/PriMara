@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { submitAssessment } from '@/app/actions/assessment';
+import { checkEmail, checkPhone, formatPhone } from '@/lib/contact-check';
 import { readAttribution } from '@/lib/attribution';
 
 /* ── Quiz data ─────────────────────────────────────────────────────────── */
@@ -109,7 +110,20 @@ export default function QuizPage() {
   // Qualifier step tracking
   const [qualStep, setQualStep] = useState(0);
 
+  const hintShown = useRef(false);
+
   async function handleFinish() {
+    // WEBSITE-STANDARD item 20: phone + email checked before submit. A "did you mean" hint stops once, then lets the person continue.
+    const em = checkEmail(contact.email, true);
+    const ph = checkPhone(contact.phone, false);
+    const bad = !em.ok ? em : !ph.ok ? ph : null;
+    if (bad) { setError(bad.message || "Please check your email and phone."); return; }
+    if (em.suggestion && !hintShown.current) {
+      hintShown.current = true;
+      setError("Did you mean " + em.suggestion + "? Fix it above, or press the button again to continue as typed.");
+      return;
+    }
+    setError("");
     setSubmitting(true);
     const yesCount = bpAnswers.filter(Boolean).length;
     const score = Math.round((yesCount / 10) * 100);
@@ -413,7 +427,7 @@ export default function QuizPage() {
                       required={required}
                       placeholder={placeholder}
                       value={contact[id as keyof ContactInfo]}
-                      onChange={(e) => setContact(prev => ({ ...prev, [id]: e.target.value }))}
+                      onChange={(e) => setContact(prev => ({ ...prev, [id]: id === "phone" ? formatPhone(e.target.value) : e.target.value }))}
                       style={{
                         background: "var(--surface)",
                         border: "1px solid var(--wire)",
