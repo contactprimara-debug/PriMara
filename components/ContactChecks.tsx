@@ -24,5 +24,6 @@ export default function ContactChecks() {
     mo.observe(document.body, { childList: true, subtree: true });
     return () => { mo.disconnect(); if (t) clearTimeout(t); };
   }, []);
-  return null;
+  // Marker in the server HTML so the sweep (CLIENT-STANDARD-CHECKS item 158) can see the checks are wired without a browser.
+  return <span hidden data-primara-contact-check="v1" />;
 }

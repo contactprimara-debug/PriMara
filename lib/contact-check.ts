@@ -263,6 +263,22 @@ export function attachContactChecks(form: HTMLFormElement): () => void {
       try { first.focus(); first.scrollIntoView({ block: "center", behavior: "smooth" }); } catch (e) { /* ignore */ }
     }
   };
+  // The browser's own validity bubble (type=email, required) fires BEFORE submit; swap it for our friendly message.
+  const onInvalid = (ev: Event) => {
+    const el = ev.target as HTMLInputElement;
+    if (!el || el.tagName !== "INPUT" || !(isPhoneField(el) || isEmailField(el))) return;
+    ev.preventDefault();
+    for (const other of fields()) {
+      if (other === el) continue;
+      const ro = run(other);
+      if (ro.message && other.value.trim()) showMsg(other, ro);
+    }
+    const r = run(el);
+    showMsg(el, r.message ? r : { ok: false, blocking: true, message: isPhoneField(el) ? "Please check your phone number." : "Please check your email address." });
+    try { el.focus(); } catch (e) { /* ignore */ }
+  };
+  form.addEventListener("invalid", onInvalid, true);
+  listeners.push(() => form.removeEventListener("invalid", onInvalid, true));
   form.addEventListener("submit", onSubmit, true);
   listeners.push(() => form.removeEventListener("submit", onSubmit, true));
   // late-rendered fields (multi-step React forms)
