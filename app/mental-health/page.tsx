@@ -554,6 +554,7 @@ export default function MentalHealthPage() {
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              alignItems: "start",
               gap: "clamp(24px, 4vw, 40px)",
             }}
           >
