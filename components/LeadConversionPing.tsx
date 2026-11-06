@@ -51,6 +51,16 @@ const MAX_WAIT_MS = 15000;
 
 export default function LeadConversionPing() {
   useEffect(() => {
+    // QA guard (card #598 B1): 13 of the 17 GA4 generate_lead events counted for
+    // primara365.com in the 28 days to 2026-11-05 came from two days of our own
+    // verification submissions (2026-10-08 x1, 2026-10-09 x12), which no lead
+    // row backs. A tester sets localStorage.primara_test="1" in that browser
+    // and the thank-you page fires nothing; real visitors never have it.
+    try {
+      if (localStorage.getItem("primara_test") === "1") return;
+    } catch {
+      // storage unavailable - real visitors with blocked storage still fire
+    }
     try {
       if (sessionStorage.getItem("primara_lead_pinged")) return;
     } catch {
