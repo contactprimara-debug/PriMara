@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 
 export const metadata: Metadata = {
   title: "Healthcare Marketing Agency Pricing | Primara",
@@ -71,142 +72,15 @@ export default function PricingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" style={{ padding: "76px clamp(24px, 8vw, 120px) 0" }}>
-        <ol
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "10px",
-            listStyle: "none",
-            margin: 0,
-            padding: 0,
-            fontFamily: "system-ui, sans-serif",
-            fontSize: "10px",
-            letterSpacing: "0.14em",
-            textTransform: "uppercase",
-            color: "var(--smoke)",
-          }}
-        >
-          <li><Link prefetch={false} href="/" className="breadcrumb-link">Home</Link></li>
-          <li aria-hidden="true" style={{ color: "var(--wire)", fontSize: "12px" }}>/</li>
-          <li aria-current="page" style={{ color: "var(--ash)" }}>Pricing</li>
-        </ol>
-      </nav>
-
-      {/* Hero */}
-      <section
-        aria-labelledby="pricing-h1"
-        style={{
-          position: "relative",
-          overflow: "hidden",
-          padding: "clamp(48px, 7vw, 100px) clamp(24px, 8vw, 120px) clamp(72px, 10vw, 120px)",
-        }}
-      >
-        <div
-          aria-hidden="true"
-          style={{
-            position: "absolute",
-            inset: 0,
-            pointerEvents: "none",
-            background: [
-              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(201,168,76,0.10) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50vw 40vh at 85% 75%, rgba(232,97,26,0.07) 0%, transparent 60%)",
-            ].join(", "),
-          }}
-        />
-        <div style={{ position: "relative", zIndex: 1, maxWidth: "900px" }}>
-          <div
-            style={{
-              display: "inline-block",
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-              border: "1px solid var(--wire)",
-              padding: "6px 14px",
-              borderRadius: "2px",
-              marginBottom: "clamp(28px, 4vw, 48px)",
-            }}
-          >
-            Transparent Pricing · South Florida Healthcare Marketing
-          </div>
-          <h1
-            id="pricing-h1"
-            style={{
-              fontFamily: "var(--font-display), Georgia, serif",
-              fontSize: "clamp(48px, 7vw, 88px)",
-              lineHeight: 0.97,
-              letterSpacing: "-0.03em",
-              color: "var(--chalk)",
-              fontWeight: 400,
-              margin: "0 0 clamp(24px, 3vw, 40px)",
-              maxWidth: "20ch",
-            }}
-          >
-            What Primara Costs —{" "}
-            <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
-              and Why an Audit Comes First
-            </em>
-          </h1>
-          <p
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "clamp(15px, 2vw, 18px)",
-              lineHeight: 1.7,
-              color: "var(--ash)",
-              maxWidth: "60ch",
-              margin: "0 0 clamp(36px, 5vw, 52px)",
-            }}
-          >
-            Pricing a healthcare marketing engagement without knowing your market, your starting review count, and your competition is like quoting a construction project before seeing the building. The audit tells us what scope your situation requires. Pricing follows from that conversation.
-          </p>
-          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <Link prefetch={false}
-              href="/the-audit"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "13px",
-                letterSpacing: "0.08em",
-                fontWeight: 700,
-                color: "var(--on-accent)",
-                backgroundColor: "var(--ember)",
-                padding: "0 32px",
-                height: "52px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                whiteSpace: "nowrap",
-              }}
-            >
-              Get My Free Audit →
-            </Link>
-            <a
-              href="tel:+15612912681"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "13px",
-                letterSpacing: "0.08em",
-                fontWeight: 600,
-                color: "var(--chalk)",
-                backgroundColor: "transparent",
-                border: "1px solid var(--wire)",
-                padding: "0 32px",
-                height: "52px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                whiteSpace: "nowrap",
-              }}
-            >
-              Call (561) 291-2681
-            </a>
-          </div>
-        </div>
-      </section>
+      <PgHero
+        id="pricing-h1"
+        page="pricing"
+        kicker="Transparent pricing"
+        h1={<>What Primara Costs — <em>and Why an Audit Comes First</em></>}
+        sub="Pricing a healthcare marketing engagement without knowing your market, your starting review count, and your competition is like quoting a construction project before seeing the building. The audit tells us what scope your situation requires. Pricing follows from that conversation."
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+        fine="No contract. Month to month after the first three months."
+      />
 
       {/* The One-Patient Framing */}
       <section
