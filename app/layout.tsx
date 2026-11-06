@@ -10,6 +10,7 @@ import InteractionEffects from "@/components/InteractionEffects";
 import HashScroll from "@/components/HashScroll";
 import MobileCTABar from "@/components/MobileCTABar";
 import AttributionCapture from "@/components/AttributionCapture";
+import ConsentBanner from "@/components/ConsentBanner";
 import Preloader from "@/components/Preloader";
 import RouteFade from "@/components/RouteFade";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
@@ -44,6 +45,8 @@ function load(src,cb){var s=d.createElement('script');s.src=src;s.async=true;if(
 w.__primaraLoadTags=run;
 w.dataLayer=w.dataLayer||[];
 w.gtag=function(){w.dataLayer.push(arguments)};
+w.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+try{var c=JSON.parse(localStorage.getItem('p365_consent')||'null');if(c&&c.a===true&&c.t&&Date.now()-c.t<31536000000&&!navigator.globalPrivacyControl)w.gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'})}catch(e){}
 w.gtag('js',new Date());
 w.gtag('config','GT-PB6FNVRG');
 w.gtag('config','AW-18204165915');
@@ -228,6 +231,7 @@ export default function RootLayout({
         {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
         <MobileCTABar />
         <AttributionCapture />
+        <ConsentBanner />
 
         {/* ── Animation infrastructure ──────────────────────────────────── */}
         <AnimationProvider />

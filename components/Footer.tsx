@@ -490,6 +490,28 @@ export default function Footer({
             >
               ·
             </span>
+            <button
+              type="button"
+              onClick={() => window.dispatchEvent(new Event("p365-consent-open"))}
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "10px",
+                color: "var(--smoke)",
+                background: "none",
+                border: 0,
+                padding: 0,
+                cursor: "pointer",
+                letterSpacing: "0.06em",
+              }}
+            >
+              Privacy choices
+            </button>
+            <span
+              aria-hidden="true"
+              style={{ color: "var(--wire)", fontSize: "10px" }}
+            >
+              ·
+            </span>
             <Link prefetch={false}
               href="/hipaa"
               style={{
