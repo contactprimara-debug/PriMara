@@ -113,7 +113,7 @@ function SpecialtyGrid({ items }: { items: SpecialtyCard[] }) {
               fontSize: "9px",
               letterSpacing: "0.2em",
               textTransform: "uppercase",
-              color: "var(--ember)",
+              color: "var(--gold)",
             }}
           >
             {s.eyebrow}
@@ -263,7 +263,7 @@ export default function SpecialtiesPage() {
               alignItems: "center",
               gap: "8px",
               background: "var(--ember)",
-              color: "#fff",
+              color: "var(--on-accent)",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
               fontSize: "13px",
@@ -306,7 +306,7 @@ export default function SpecialtiesPage() {
       >
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
           <div style={{ marginBottom: "32px" }}>
-            <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--ember)", marginBottom: "12px" }}>
+            <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--gold)", marginBottom: "12px" }}>
               Primary Care
             </p>
             <h2
@@ -363,7 +363,7 @@ export default function SpecialtiesPage() {
                   display: "inline-flex",
                   alignItems: "center",
                   background: "var(--ember)",
-                  color: "#fff",
+                  color: "var(--on-accent)",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,
                   fontSize: "13px",

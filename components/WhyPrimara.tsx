@@ -68,7 +68,7 @@ export default function WhyPrimara() {
         <div className="mb-12 text-center">
           <p
             className="mb-3 text-xs uppercase tracking-widest font-medium"
-            style={{ color: "var(--ember)", fontFamily: "var(--font-mono)" }}
+            style={{ color: "var(--gold)", fontFamily: "var(--font-mono)" }}
           >
             Why Practices Choose Us
           </p>

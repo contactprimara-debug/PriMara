@@ -252,7 +252,7 @@ export default function TherapistSEOPage() {
                 fontSize: "13px",
                 letterSpacing: "0.08em",
                 fontWeight: 700,
-                color: "#ffffff",
+                color: "var(--on-accent)fff",
                 backgroundColor: "var(--ember)",
                 padding: "0 32px",
                 height: "52px",
@@ -727,7 +727,7 @@ export default function TherapistSEOPage() {
                       fontSize: "0.75rem",
                       letterSpacing: "0.14em",
                       textTransform: "uppercase",
-                      color: "var(--ember)",
+                      color: "var(--gold)",
                       fontWeight: 700,
                     }}
                   >
@@ -847,7 +847,7 @@ export default function TherapistSEOPage() {
                 display: "inline-flex",
                 alignItems: "center",
                 backgroundColor: "var(--ember)",
-                color: "#fff",
+                color: "var(--on-accent)",
                 fontWeight: 700,
                 padding: "0 1.5rem",
                 height: "52px",

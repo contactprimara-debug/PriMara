@@ -129,7 +129,7 @@ export default function ResultsPage() {
         >
           <div className="mx-auto max-w-content px-6 lg:px-8">
             <div style={{ display: "flex", alignItems: "baseline", gap: "16px", marginBottom: "24px", flexWrap: "wrap" }}>
-              <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--ember)", fontWeight: 700 }}>
+              <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontWeight: 700 }}>
                 {milestone.period}
               </span>
               <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.2, margin: 0 }}>

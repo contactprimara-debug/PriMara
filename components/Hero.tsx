@@ -148,7 +148,7 @@ export default function Hero() {
                 alignItems: "center",
                 gap: "8px",
                 background: "var(--ember)",
-                color: "#ffffff",
+                color: "var(--on-accent)fff",
                 fontFamily: "system-ui, sans-serif",
                 fontWeight: 700,
                 fontSize: "13px",

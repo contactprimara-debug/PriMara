@@ -455,7 +455,7 @@ export default function LocationPage({
                       <span
                         aria-hidden="true"
                         style={{
-                          color: "var(--ember)",
+                          color: "var(--gold)",
                           flexShrink: 0,
                           marginTop: "2px",
                         }}
@@ -696,7 +696,7 @@ export default function LocationPage({
                   fontSize: "0.75rem",
                   letterSpacing: "0.14em",
                   textTransform: "uppercase",
-                  color: "var(--ember)",
+                  color: "var(--gold)",
                   marginBottom: "0.75rem",
                 }}
               >
@@ -1119,7 +1119,7 @@ export default function LocationPage({
                 display: "inline-flex",
                 alignItems: "center",
                 backgroundColor: "var(--ember)",
-                color: "#fff",
+                color: "var(--on-accent)",
                 fontWeight: 700,
                 padding: "0 1.5rem",
                 height: "52px",

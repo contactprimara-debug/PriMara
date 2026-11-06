@@ -223,7 +223,7 @@ export default function ServicesPage() {
             <a
               href="tel:+15612912681"
               className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-              style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "52px", fontSize: "1rem" }}
+              style={{ borderColor: "var(--ember)", color: "var(--gold)", height: "52px", fontSize: "1rem" }}
             >
               (561) 291-2681
             </a>

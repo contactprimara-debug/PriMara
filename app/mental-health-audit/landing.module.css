@@ -276,7 +276,7 @@
 }
 .formError {
   font-size: 13px;
-  color: var(--ember);
+  color: var(--gold);
   margin-bottom: 12px;
 }
 .successBox {

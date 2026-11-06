@@ -19,7 +19,7 @@ function SubmitButton({ pending }: { pending: boolean }) {
         fontSize: "14px",
         letterSpacing: "0.06em",
         fontWeight: 600,
-        color: "#ffffff",
+        color: "var(--on-accent)fff",
         backgroundColor: "var(--ember)",
         padding: "0 28px",
         height: "52px",
@@ -240,7 +240,7 @@ export default function PackageInquiryForm({
             style={{
               fontFamily: "system-ui, sans-serif",
               fontSize: "13px",
-              color: "var(--ember)",
+              color: "var(--gold)",
               margin: 0,
             }}
           >

@@ -210,7 +210,7 @@ export default function SEOServicePage() {
                 display: "inline-flex",
                 alignItems: "center",
                 backgroundColor: "var(--ember)",
-                color: "#fff",
+                color: "var(--on-accent)",
                 fontWeight: 700,
                 padding: "0 1.5rem",
                 height: "52px",
@@ -436,7 +436,7 @@ export default function SEOServicePage() {
                     fontSize: "10px",
                     letterSpacing: "0.14em",
                     textTransform: "uppercase" as const,
-                    color: "var(--ember)",
+                    color: "var(--gold)",
                     fontWeight: 700,
                   }}
                 >
@@ -580,7 +580,7 @@ export default function SEOServicePage() {
                 display: "inline-flex",
                 alignItems: "center",
                 backgroundColor: "var(--ember)",
-                color: "#fff",
+                color: "var(--on-accent)",
                 fontWeight: 700,
                 padding: "0 1.5rem",
                 height: "52px",

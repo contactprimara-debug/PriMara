@@ -376,7 +376,7 @@ export default function QuizPage() {
                   marginTop: "20px",
                   width: "100%",
                   background: "var(--ember)",
-                  color: "#fff",
+                  color: "var(--on-accent)",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,
                   fontSize: "14px",
@@ -446,7 +446,7 @@ export default function QuizPage() {
               </div>
 
               {error && (
-                <p style={{ color: "var(--ember)", fontFamily: "system-ui, sans-serif", fontSize: "13px", marginBottom: "12px" }}>{error}</p>
+                <p style={{ color: "var(--gold)", fontFamily: "system-ui, sans-serif", fontSize: "13px", marginBottom: "12px" }}>{error}</p>
               )}
 
               <button

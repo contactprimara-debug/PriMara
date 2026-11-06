@@ -110,7 +110,7 @@ export default function ContactSection() {
           </h2>
           <p
             className="mt-4 text-base max-w-xl mx-auto"
-            style={{ color: "rgba(255,255,255,0.75)" }}
+            style={{ color: "var(--ash)" }}
           >
             Primara is now accepting new independent practices nationwide. Most
             new engagements begin within one week.

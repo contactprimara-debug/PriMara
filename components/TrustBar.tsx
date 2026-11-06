@@ -61,7 +61,7 @@ export default function TrustBar() {
                 className="leading-snug"
                 style={{
                   fontSize: "0.75rem",
-                  color: "rgba(255,255,255,0.7)",
+                  color: "var(--smoke)",
                   fontFamily: "var(--font-mono)",
                   textTransform: "uppercase",
                   letterSpacing: "0.06em",

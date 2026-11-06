@@ -222,7 +222,7 @@ export default function HowItWorksPage() {
                 style={{
                   display: "inline-block",
                   backgroundColor: "var(--ember)",
-                  color: "#fff",
+                  color: "var(--on-accent)",
                   padding: "14px 28px",
                   fontSize: "15px",
                   fontWeight: 600,
@@ -475,7 +475,7 @@ export default function HowItWorksPage() {
                   >
                     <span
                       style={{
-                        color: "var(--ember)",
+                        color: "var(--gold)",
                         fontWeight: 700,
                         flexShrink: 0,
                         fontSize: "18px",
@@ -708,7 +708,7 @@ export default function HowItWorksPage() {
               style={{
                 display: "inline-block",
                 backgroundColor: "var(--ember)",
-                color: "#fff",
+                color: "var(--on-accent)",
                 padding: "16px 36px",
                 fontSize: "16px",
                 fontWeight: 600,
