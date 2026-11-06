@@ -237,7 +237,7 @@ export default function FoundationPackagePage() {
                 fontSize: "14px",
                 letterSpacing: "0.06em",
                 fontWeight: 600,
-                color: "var(--on-accent)fff",
+                color: "var(--on-accent)",
                 backgroundColor: "var(--ember)",
                 padding: "0 28px",
                 height: "48px",

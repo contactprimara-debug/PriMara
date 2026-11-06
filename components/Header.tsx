@@ -500,7 +500,7 @@ export default function Header() {
               display: "inline-flex",
               alignItems: "center",
               background: "var(--ember)",
-              color: "var(--on-accent)fff",
+              color: "var(--on-accent)",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
               fontSize: "11px",
@@ -761,7 +761,7 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
             style={{
               background: "var(--ember)",
-              color: "var(--on-accent)fff",
+              color: "var(--on-accent)",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
               fontSize: "13px",

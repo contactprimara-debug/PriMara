@@ -89,7 +89,7 @@ export default function MobileCTABar() {
         style={{
           width: "60%",
           backgroundColor: "var(--ember)",
-          color: "var(--on-accent)fff",
+          color: "var(--on-accent)",
           fontFamily: "system-ui, sans-serif",
           fontSize: "14px",
           fontWeight: 700,
