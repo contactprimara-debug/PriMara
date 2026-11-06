@@ -203,7 +203,7 @@ export default function MedicalSeoFloridaPage() {
           <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", marginBottom: "48px" }}>
             Markets We Cover
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1px", backgroundColor: "var(--wire)", border: "1px solid var(--wire)", borderRadius: "4px", overflow: "hidden" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))", gap: "1px", backgroundColor: "var(--wire)", border: "1px solid var(--wire)", borderRadius: "4px", overflow: "hidden" }}>
             {regions.map((r) => (
               <div key={r.name} style={{ backgroundColor: "var(--void)", padding: "clamp(24px, 3vw, 36px)", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <h2 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.25rem", fontWeight: 400, color: "var(--chalk)", margin: 0 }}>{r.name}</h2>

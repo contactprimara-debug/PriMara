@@ -78,7 +78,7 @@ function LocationCardGrid({ locations }: { locations: { slug: string; city: stri
   const showRegionLabels = groups.length > 1;
 
   const grid = (cities: { slug: string; city: string; intro: string }[]) => (
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(300px, 100%), 1fr))", gap: "20px" }}>
       {cities.map((loc) => (
         <Link prefetch={false}
           key={loc.slug}

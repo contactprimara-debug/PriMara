@@ -86,7 +86,7 @@ function SpecialtyGrid({ items }: { items: SpecialtyCard[] }) {
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+        gridTemplateColumns: "repeat(auto-fill, minmax(min(320px, 100%), 1fr))",
         gap: "1px",
         background: "var(--wire)",
         border: "1px solid var(--wire)",

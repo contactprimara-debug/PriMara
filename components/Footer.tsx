@@ -468,7 +468,9 @@ export default function Footer({
             style={{
               display: "flex",
               alignItems: "center",
-              gap: "20px",
+              flexWrap: "wrap",
+              gap: "8px 20px",
+              minWidth: 0,
             }}
           >
             <Link prefetch={false}

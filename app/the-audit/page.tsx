@@ -198,7 +198,7 @@ export default function TheAuditPage() {
               padding: 0,
               margin: 0,
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(240px, 100%), 1fr))",
               gap: "clamp(24px, 4vw, 48px)",
             }}
           >

@@ -150,7 +150,7 @@ export default function ThankYouPage() {
             What happens next
           </p>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "clamp(24px, 4vw, 48px)" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(220px, 100%), 1fr))", gap: "clamp(24px, 4vw, 48px)" }}>
             {steps.map(({ icon, label, body }, i) => (
               <div key={i} style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
@@ -178,7 +178,7 @@ export default function ThankYouPage() {
             Who you&rsquo;re working with
           </p>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "clamp(20px, 3vw, 36px)" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "clamp(20px, 3vw, 36px)" }}>
             {facts.map(({ icon, headline, body }) => (
               <div
                 key={headline}

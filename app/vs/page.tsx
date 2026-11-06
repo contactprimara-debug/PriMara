@@ -148,7 +148,7 @@ export default function VsIndexPage() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
             gap: "24px",
             paddingTop: "clamp(40px, 6vw, 64px)",
           }}

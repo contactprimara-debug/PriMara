@@ -98,7 +98,7 @@ export default function FamilyMedicinePage() {
           <h2 id="challenges-heading" style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", color: "var(--chalk)", fontWeight: 400, marginBottom: "48px" }}>
             Why family medicine practices struggle online
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "clamp(24px, 3vw, 40px)" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(280px, 100%), 1fr))", gap: "clamp(24px, 3vw, 40px)" }}>
             {challenges.map(({ title, body }) => (
               <div key={title} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ width: "24px", height: "2px", background: "var(--ember)" }} />

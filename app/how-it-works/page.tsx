@@ -263,7 +263,7 @@ export default function HowItWorksPage() {
           <ul
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(180px, 100%), 1fr))",
               gap: "32px",
               listStyle: "none",
               padding: 0,
@@ -587,7 +587,7 @@ export default function HowItWorksPage() {
           <ul
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(220px, 100%), 1fr))",
               gap: "16px",
               maxWidth: "800px",
               margin: "0 auto",
