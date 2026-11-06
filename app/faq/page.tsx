@@ -77,7 +77,7 @@ export default function FAQPage() {
 
       {/* FAQ List */}
       <section style={{ backgroundColor: "var(--void)", padding: "0 0 clamp(48px, 8vw, 96px)" }}>
-        <div className="hm-wrap">
+        <div className="mx-auto max-w-content px-6 lg:px-8">
           <dl style={{ display: "flex", flexDirection: "column", gap: "0" }}>
             {faqs.map(({ q, a }, i, arr) => (
               <div key={q} style={{ padding: "clamp(20px, 3vw, 28px) 0", borderBottom: i < arr.length - 1 ? "1px solid var(--wire)" : "none" }}>

@@ -20,6 +20,7 @@ type Props = {
   fine?: ReactNode;
   mark?: boolean;
   compact?: boolean;
+  wide?: boolean; // align to legacy full-width sections (pricing)
 };
 
 export function PackMark() {
@@ -47,10 +48,10 @@ export function PackMark() {
   );
 }
 
-export default function PgHero({ id, kicker, h1, sub, page, primary, fine, mark = true, compact }: Props) {
+export default function PgHero({ id, kicker, h1, sub, page, primary, fine, mark = true, compact, wide }: Props) {
   const p = primary ?? { label: "Get my free audit", href: "/contact#contact-form" };
   return (
-    <section className={`pgh${compact ? " pgh-compact" : ""}`} aria-labelledby={id}>
+    <section className={`pgh${compact ? " pgh-compact" : ""}${wide ? " pgh-wide" : ""}`} aria-labelledby={id}>
       <div className={`hm-wrap pgh-grid${mark ? "" : " pgh-one"}`}>
         <div>
           <p className="hm-kicker">{kicker}</p>
