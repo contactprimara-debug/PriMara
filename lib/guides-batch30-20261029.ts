@@ -874,7 +874,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "Keep the practice's NPI registry record, CAQH profile and each insurer's provider directory matching the address, phone and name on your website and Google profile. Update them whenever something changes, review CAQH on its re-attestation schedule, and check each directory every quarter, since errors there send patients elsewhere.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-06",
     readMinutes: 5,
     sections: [
       h2("The records you never see patients read"),
@@ -905,7 +905,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "Send corrections through each carrier's provider portal, and keep a dated record of what you submitted."
       ),
       p(
-        "Directories are slower to change than websites, so allow time and recheck a few weeks later. Our guide on [keeping accepting new patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) covers the status field, which is one of the most common mismatches."
+        "Directories are slower to change than websites, so allow time and recheck a few weeks later. Our guide on [keeping accepting new patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) covers the status field, which is one of the most common mismatches. A written name sheet helps here, because insurer directories often show a shortened or older form of the name, which [practice name abbreviations and legal name consistency](/guides/practice-name-abbreviations-and-legal-name-consistency-across-insurance-directories-and-google-for-a-counseling-practice) explains how to control."
       ),
       h2("Tie the routine to events that change data"),
       p(
@@ -1306,7 +1306,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "An auto reply to a new client inquiry should confirm the message arrived, say who will answer and when, give the office phone number, point to 988 and 911 for emergencies and ask for no health details. Send it from a real practice address, keep it short and only promise the reply time you reliably meet.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-06",
     readMinutes: 5,
     sections: [
       h2("The minute after someone presses send"),
@@ -1346,7 +1346,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "The wording should agree with the page the person saw after submitting, as described in our guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), and with the fields on the form itself. Use the same reply time in both places, or visitors notice."
       ),
       p(
-        "Send the message from your own domain, using the approach in the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so it lands in the inbox and not in spam. Then test it: submit a test inquiry marked as a test, check how the email looks on a phone, and make sure the reply-to address reaches a monitored inbox. Check the delivery path every quarter, since a form that stops sending silently costs real inquiries."
+        "Send the message from your own domain, using the approach in the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so it lands in the inbox and not in spam. Then test it: submit a test inquiry marked as a test, check how the email looks on a phone, and make sure the reply-to address reaches a monitored inbox. Check the delivery path every quarter, since a form that stops sending silently costs real inquiries. A person who emails only to ask about insurance needs a different reply than a form auto-reply, which [answering an email about whether a counselor takes their insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) walks through with a template."
       ),
     ],
     faqs: [

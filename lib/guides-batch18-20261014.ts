@@ -147,7 +147,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
@@ -155,7 +155,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "A welcome message sent a few days before the first visit is the simplest way to reduce late arrivals and missing paperwork. A new patient has just chosen your office from a list of nearly identical results. What they hear next decides whether they arrive calm and prepared or anxious and late. A welcome message is the cheapest way to make the first visit smoother, and it costs you nothing beyond the time to write it once. If the first visit is by video, include a link to your [telehealth visit instructions page](/guides/telehealth-visit-instructions-page-for-a-primary-care-practice) in the welcome message so the patient can prepare before the day."
       ),
       p(
-        "The message has two readers. The patient wants to know where to go and what to bring. The practice wants fewer forgotten insurance cards and fewer calls asking for directions. Write for both by answering the questions your front desk already hears every morning."
+        "The message has two readers. The patient wants to know where to go and what to bring. The practice wants fewer forgotten insurance cards and fewer calls asking for directions. Write for both by answering the questions your front desk already hears every morning. Whatever the message says should also match the printed appointment card in the patient's hand, which [appointment cards and brochures that match the website](/guides/appointment-cards-and-brochures-that-match-the-website-for-a-primary-care-practice) shows how to keep in step."
       ),
       h2("Choose the channel before you write the words"),
       table(

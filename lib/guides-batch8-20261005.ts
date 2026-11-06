@@ -151,11 +151,11 @@ export const guidesPartEleven: Guide[] = [
     category: "How-to",
     title: "Mobile-First Indexing, Explained for a Medical Practice Website",
     metaTitle: "Mobile-First Indexing for a Medical Practice Site",
-    metaDescription: "What mobile-first indexing means, how a practice site fails it, and a short checklist to fix it. Call (561) 291-2681.",
+    metaDescription: "What mobile-first indexing means for a medical practice, how a site fails it on a phone, and a short checklist to fix it. Call (561) 291-2681.",
     answer: "Mobile-first indexing means Google reads the mobile version of your pages to decide how to index and rank them. If your phone version hides text, drops structured data, or blocks images that the desktop version shows, Google may never see that content. A medical practice site should show the same core content on both.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -168,7 +168,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google has applied this to the web for years, so almost every site is already evaluated this way. The practical question for you is not 'should I switch' but 'does my phone version contain everything I want to rank for.'"
+        "text": "Google has applied this to the web for years, so almost every site is already evaluated this way. The practical question for you is not 'should I switch' but 'does my phone version contain everything I want to rank for.' Once the phone version holds all your content, the next question is what a stranger actually sees on it in the first moments, which [the five-second phone test for a practice home page](/guides/what-a-new-patient-sees-on-a-phone-in-the-first-five-seconds-of-a-primary-care-practice-home-page) helps you answer."
       },
       {
         "type": "h2",
@@ -282,11 +282,11 @@ export const guidesPartEleven: Guide[] = [
     category: "Checklist",
     title: "NAP Consistency: What Breaks It and How to Fix It Across the Web",
     metaTitle: "NAP Consistency for a Medical Practice: Fix Guide",
-    metaDescription: "What breaks name, address, and phone consistency for a medical practice and how to audit and fix it. Call (561) 291-2681.",
+    metaDescription: "What breaks name, address and phone consistency for a medical practice, and how to audit your listings and fix each mismatch. Call (561) 291-2681.",
     answer: "NAP stands for name, address, and phone number. Consistency means your practice shows the same three details everywhere it is listed: Google, Apple Maps, Bing, insurance directories, and social profiles. Mismatches confuse Google about which listing is real, so find each one, choose one correct version, and correct the rest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -343,7 +343,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Then put a date on the calendar. Recheck every quarter, and recheck within a week of any move, rebrand, or phone change."
+        "text": "Then put a date on the calendar. Recheck every quarter, and recheck within a week of any move, rebrand, or phone change. Insurance directories and the provider registry are the sources most often forgotten, and [practice name abbreviations and legal name consistency across directories](/guides/practice-name-abbreviations-and-legal-name-consistency-across-insurance-directories-and-google-for-a-counseling-practice) shows how to keep a name sheet that covers them."
       }
     ],
     faqs: [

@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -144,7 +144,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep the address, phone number and hours near the top of the page, written the same way as on your Google listing. Mismatches between the two are a common source of confused patients and wrong information in search results. The same list of items belongs in the confirmation message, and a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) explains how to word it so it never reveals the reason for the visit."
+        "text": "Keep the address, phone number and hours near the top of the page, written the same way as on your Google listing. Mismatches between the two are a common source of confused patients and wrong information in search results. The same list of items belongs in the confirmation message, and a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) explains how to word it so it never reveals the reason for the visit. The same address, phone number and hours should appear on printed appointment cards, and [appointment cards and brochures that match your website](/guides/appointment-cards-and-brochures-that-match-the-website-for-a-primary-care-practice) shows how to proof them against the live page."
       }
     ],
     "faqs": [

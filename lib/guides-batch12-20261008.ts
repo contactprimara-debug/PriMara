@@ -1287,7 +1287,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "In your Business Profile, open the booking or appointment link setting, add the web address where patients can book, save it, and then test it on a phone. Link to a page that works without extra steps and does not collect health details. If you use a booking provider, Google may connect through it instead.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-06",
   "readMinutes": 6,
   "sections": [
     {
@@ -1341,7 +1341,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it. Keep the appointment link and the website link separate, and read our guide on [which page to use as the website link on a Google profile](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) before you decide which page the website field should open."
+      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it. Keep the appointment link and the website link separate, and read our guide on [which page to use as the website link on a Google profile](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) before you decide which page the website field should open. If you also embed the scheduler on your own contact page, [embedding an appointment widget safely on the contact page of a counseling practice](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) lists what to check before it goes live."
     },
     {
       "type": "h2",

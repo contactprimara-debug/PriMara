@@ -309,7 +309,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Honest response times"),
       p(
-        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page."
+        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page. When a scheduling widget sits beside the form, keep a phone number and this short form next to it, as the [safe widget embedding checklist](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) explains."
       ),
       h2("Building it so it works"),
       ul(
@@ -401,7 +401,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h2("Set a response time you can keep"),
       p(
-        "People who reach out to a counselor often feel it takes courage. Waiting days for a reply can feel like a rejection. Choose a time you can meet, such as one business day, say it above the button, and put a person in charge of checking the inbox. After the form is sent, an automatic reply should confirm receipt and state the reply time, as our guide to an [auto reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) explains."
+        "People who reach out to a counselor often feel it takes courage. Waiting days for a reply can feel like a rejection. Choose a time you can meet, such as one business day, say it above the button, and put a person in charge of checking the inbox. After the form is sent, an automatic reply should confirm receipt and state the reply time, as our guide to an [auto reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) explains. For email questions that arrive outside the form, such as a simple insurance question, [answering a prospective client by email without sharing private details](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) gives a short reply to adapt."
       ),
       table(
         ["If your practice", "A reasonable promise"],

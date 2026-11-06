@@ -1643,7 +1643,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An insurance verification page explains which plans the practice takes, what the office checks before a first session, what clients should ask their own plan, and that a benefits check is an estimate, not a guarantee. Collect no health details, and link to your fees and out-of-network pages.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T12:20:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -1723,7 +1723,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you let clients submit insurance details online, ask for plan name, member ID, date of birth and a phone number, and state that you do not need to know why they are seeking care. Use a secure form or a phone call for member IDs where possible, and do not accept them by ordinary email. Our guide on [new-patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers the setup."
+        "text": "If you let clients submit insurance details online, ask for plan name, member ID, date of birth and a phone number, and state that you do not need to know why they are seeking care. Use a secure form or a phone call for member IDs where possible, and do not accept them by ordinary email. Our guide on [new-patient forms online without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) covers the setup. The same careful approach applies to email, where a short reply that gives the plan list and the benefits-check steps without asking for private details is described in [answering a prospective client who asks by email if a counselor takes their insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details)."
       },
       {
         "type": "h2",

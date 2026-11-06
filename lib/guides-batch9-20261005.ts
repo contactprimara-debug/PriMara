@@ -194,7 +194,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A scheduler can collect names, reasons for visit, and insurance details, which may be protected health information. Before you add one, confirm the vendor will sign a Business Associate Agreement and that it is configured to collect only what you need. Do not send form contents, appointment reasons, or identifiers to analytics or advertising tags. Review our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website), and ask your compliance advisor to approve the setup. The booking confirmation is the right place to link a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice), so patients know what to expect on arrival."
+        "text": "A scheduler can collect names, reasons for visit, and insurance details, which may be protected health information. Before you add one, confirm the vendor will sign a Business Associate Agreement and that it is configured to collect only what you need. Do not send form contents, appointment reasons, or identifiers to analytics or advertising tags. Review our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website), and ask your compliance advisor to approve the setup. The booking confirmation is the right place to link a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice), so patients know what to expect on arrival. The checklist in [embedding an appointment widget safely on a counseling contact page](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) turns these vendor questions into a short review you can complete before launch."
       },
       {
         "type": "p",
@@ -549,11 +549,11 @@ export const guidesPartTwelve: Guide[] = [
     category: "How-to",
     title: "How to Build an Accepted-Insurance Page for a Medical Practice That Ranks",
     metaTitle: "Accepted Insurance Page for a Medical Practice",
-    metaDescription: "How to build an accurate accepted-insurance page for a medical practice that patients trust and Google can read. Call (561) 291-2681.",
+    metaDescription: "How to build an accurate accepted-insurance page for a medical practice that patients trust and Google can read, with wording tips. Call (561) 291-2681.",
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -581,7 +581,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it."
+        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it. When someone emails to ask whether you take their plan, reply with the same facts as this page, as shown in [answering a prospective client who asks by email about insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details)."
       },
       {
         "type": "h2",
