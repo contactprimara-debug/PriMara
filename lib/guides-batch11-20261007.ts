@@ -340,11 +340,11 @@ export const guidesPartFourteen: Guide[] = [
     "category": "Checklist",
     "title": "How to Find and Fix Broken Links and 404 Errors on a Medical Practice Website",
     "metaTitle": "Fix Broken Links and 404s on a Medical Practice Site",
-    "metaDescription": "How to find broken links and 404 pages on a practice website, when to use a 301 redirect, and how to retire a page cleanly. Call (561) 291-2681.",
+    "metaDescription": "How to find broken links and 404 pages on a medical practice website, fix each with a link update or 301 redirect, and retire pages. (561) 291-2681",
     "answer": "A broken link points to a page that no longer loads, usually returning a 404. Find them with Search Console and a site crawl, then fix each one by updating the link, redirecting a retired page with a 301 to its closest replacement, or letting a truly gone page return a real 404.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-07T09:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -353,7 +353,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Practice websites change constantly. A provider leaves, a service is dropped, a location closes, a plugin updates and rewrites an address. Each change can leave links pointing at pages that no longer exist. A patient who taps a Book now link and lands on an error page does not call; they search for the next practice."
+        "text": "Practice websites change constantly. A provider leaves, a service is dropped, a location closes, a plugin updates and rewrites an address. Each change can leave links pointing at pages that no longer exist. A patient who taps a Book now link and lands on an error page does not call; they search for the next practice. Start with Search Console's Pages report and then click your own phone links, forms and Book now buttons, because those are the links that cost you patients when they break."
       },
       {
         "type": "p",

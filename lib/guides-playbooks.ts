@@ -13,12 +13,12 @@ export const guidesPartTwo: Guide[] = [
     title: "How to Get More Patients From Your Google Business Profile",
     metaTitle: "Get More Patients From Google Business Profile | Primara",
     metaDescription:
-      "Seven steps that move a medical practice into the Google map pack — categories, reviews, photos, posts, and tracking. (561) 291-2681.",
+      "Seven steps that move a medical practice into the Google map pack: categories, reviews, photos, posts and tracking, in order. (561) 291-2681",
     answer:
       "To get more patients from a Google Business Profile, claim and verify it, set the most specific primary category, fill every applicable secondary category, add your services and hours, collect reviews steadily from every patient, post and add photos monthly, and track calls. Categories and review velocity move ranking more than anything else on the profile.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-06",
     readMinutes: 8,
     howTo: {
       name: "How to get more patients from a Google Business Profile",
@@ -100,7 +100,7 @@ export const guidesPartTwo: Guide[] = [
       },
       {
         type: "p",
-        text: "Anyone can ask a question on your profile and anyone can answer it. Unmonitored, this is where wrong insurance information and out-of-date hours live. Seed it yourself with the eight questions your front desk answers all day — which insurance you take, whether you see new patients, parking, telehealth, walk-ins, pediatric ages, languages — and answer them from the business account.",
+        text: "Anyone can ask a question on your profile and anyone can answer it. Unmonitored, this is where wrong insurance information and out-of-date hours live. Seed it yourself with the eight questions your front desk answers all day — which insurance you take, whether you see new patients, parking, telehealth, walk-ins, pediatric ages, languages — and answer them from the business account. The category you pick is one of the strongest signals on the profile, and the walkthrough on [choosing Google Business Profile categories for a medical practice](/guides/choosing-google-business-profile-categories-for-a-medical-practice) explains how to select one primary and a few honest secondary categories.",
       },
       {
         type: "h2",

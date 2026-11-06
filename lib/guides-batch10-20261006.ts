@@ -13,11 +13,11 @@ export const guidesPartThirteen: Guide[] = [
     "category": "How-to",
     "title": "Image SEO and Alt Text for a Medical Practice Website",
     "metaTitle": "Image SEO and Alt Text for a Medical Practice Site",
-    "metaDescription": "How to name, size and describe images on a medical practice website, with alt text examples and privacy rules. Call (561) 291-2681.",
+    "metaDescription": "How to name, size and describe images on a medical practice website, with alt text examples, file size tips and privacy rules. Call (561) 291-2681",
     "answer": "Image SEO means every photo on your site loads quickly, has a descriptive file name, and carries alt text that says what the image shows. Compress files before upload, write one plain sentence of alt text per meaningful image, leave decorative images empty, and never publish a patient's photo without written authorization.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -111,7 +111,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "To fix a whole existing site, export the list of images from your platform or a crawler, sort by file size, and start with the heaviest pages. Your service pages and bio pages come first, because those are the pages patients compare before booking."
+        "text": "To fix a whole existing site, export the list of images from your platform or a crawler, sort by file size, and start with the heaviest pages. Your service pages and bio pages come first, because those are the pages patients compare before booking. Alt text should describe the scene without naming or diagnosing anyone, and any image of an identifiable patient should have a signed permission first, as described in [patient photo and video release wording for a practice website](/guides/patient-photo-and-video-release-wording-for-images-on-a-medical-practice-website)."
       }
     ],
     "faqs": [
@@ -360,7 +360,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Internal linking means pointing your own pages at each other using descriptive link text. Link every service page from your navigation and from related pages, give each provider bio and location page at least a few contextual links, and fix orphan pages that nothing links to. Google finds pages mainly by following links.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-04",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -462,7 +462,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "After a redesign or domain move, rerun the audit. Our [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) shows how links break during a move."
+        "text": "After a redesign or domain move, rerun the audit. Our [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) shows how links break during a move. Internal links break whenever a page is renamed or removed, so keep a list of changed addresses and follow the process in [finding and fixing broken links and 404 errors on a medical practice website](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) each time one moves."
       }
     ],
     "faqs": [
@@ -708,11 +708,11 @@ export const guidesPartThirteen: Guide[] = [
     "category": "How-to",
     "title": "How to Choose a Domain Name for a Medical Practice",
     "metaTitle": "How to Choose a Domain Name for a Medical Practice",
-    "metaDescription": "Pick a medical practice domain name patients can spell and say aloud, what to avoid, and who should own it. Call (561) 291-2681.",
+    "metaDescription": "Pick a medical practice domain name patients can spell and say aloud, what to avoid, and who should own it and who renews it each year. Call (561) 291-2681",
     "answer": "Choose a short, easy-to-spell .com that matches your practice name, avoid hyphens and numbers, and avoid a provider's personal name if the group may change. Register it in the practice's own name with auto-renewal, not through a vendor's account. A keyword-stuffed domain is not a ranking shortcut.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-19",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -793,7 +793,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Register the domain under the practice's legal name, with an email address the practice controls. Many practices have lost a domain because a web designer or former employee registered it in their own account. Turn on auto-renewal, keep a second contact on the account, and use two-factor sign-in. Your domain also hosts your email, so set it up with a provider that will sign a business associate agreement if staff email may carry patient information. Also register the most likely misspelling if it is cheap, and point it at your main site. A short written note listing the registrar, the renewal date and who holds the login helps whoever manages the site next."
+        "text": "Register the domain under the practice's legal name, with an email address the practice controls. Many practices have lost a domain because a web designer or former employee registered it in their own account. Turn on auto-renewal, keep a second contact on the account, and use two-factor sign-in. Your domain also hosts your email, so set it up with a provider that will sign a business associate agreement if staff email may carry patient information. Also register the most likely misspelling if it is cheap, and point it at your main site. A short written note listing the registrar, the renewal date and who holds the login helps whoever manages the site next. A good domain only helps if it stays registered, so set up the owner, auto-renew and reminders described in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) on the day you buy it."
       }
     ],
     "faqs": [
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -1976,7 +1976,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The National Plan and Provider Enumeration System, NPPES, holds each provider's practice location and taxonomy, and the provider is responsible for keeping it current. Ask a new provider to confirm theirs lists your address, and ask a departing provider to remove it. Wrong data there feeds other directories. For redirect steps, follow Google's documentation on 301 redirects. After the changes are live, search the provider's name and your practice name together, and note anything that still shows the old arrangement, so the next sweep starts with a known list. A move touches many of the same places as a staffing change, so use the [office move checklist for a medical practice: update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) alongside the provider checklist. When a clinician leaves a counseling practice, the clients need a direct notice first, as set out in the [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice)."
+        "text": "The National Plan and Provider Enumeration System, NPPES, holds each provider's practice location and taxonomy, and the provider is responsible for keeping it current. Ask a new provider to confirm theirs lists your address, and ask a departing provider to remove it. Wrong data there feeds other directories. For redirect steps, follow Google's documentation on 301 redirects. After the changes are live, search the provider's name and your practice name together, and note anything that still shows the old arrangement, so the next sweep starts with a known list. A move touches many of the same places as a staffing change, so use the [office move checklist for a medical practice: update every listing and page](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) alongside the provider checklist. When a clinician leaves a counseling practice, the clients need a direct notice first, as set out in the [client transfer notice when a therapist leaves](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice). Old forms and documents often still carry the departed provider's name, so use the routine in [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) to find and replace them."
       }
     ],
     "faqs": [

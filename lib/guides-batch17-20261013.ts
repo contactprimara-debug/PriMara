@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -117,7 +117,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, keep tracking light. A simple click event on the sign-in button is fine for counting, but do not send patient identifiers, names or account numbers to analytics. If you read our guide on [keeping a medical practice's analytics clean](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice), apply the same rule here: count clicks, never people. Fake login links are a common trick, so tell patients what a real portal message looks like, as in [what to tell patients about scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients)."
+        "text": "Finally, keep tracking light. A simple click event on the sign-in button is fine for counting, but do not send patient identifiers, names or account numbers to analytics. If you read our guide on [keeping a medical practice's analytics clean](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice), apply the same rule here: count clicks, never people. Fake login links are a common trick, so tell patients what a real portal message looks like, as in [what to tell patients about scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients). Staff who leave should lose access to the portal and the website on the same day, and the order of steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) covers both."
       }
     ],
     "faqs": [
@@ -1479,11 +1479,11 @@ export const guidesPartTwenty: Guide[] = [
     "category": "How-to",
     "title": "Medical Records Request Page for a Practice: How Patients Ask for Their Records",
     "metaTitle": "Medical Records Request Page for a Practice",
-    "metaDescription": "How a medical or counseling practice can publish a records request page that explains how patients get their records. (561) 291-2681.",
+    "metaDescription": "How a medical or counseling practice can publish a records request page that explains how patients ask for their records and what to expect. (561) 291-2681",
     "answer": "A records request page explains how a patient asks for their own records: who to contact, what the request needs, how identity is checked, how long the office takes, and any permitted fee. Link to a request form that does not ask for health details, and give a phone number for help.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T12:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -1555,7 +1555,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Check the page once a year against your actual process. If you change vendors or release-of-information handling, update the page that week. This belongs on the same annual list as the policy pages we describe in [what to update when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires)."
+        "text": "Check the page once a year against your actual process. If you change vendors or release-of-information handling, update the page that week. This belongs on the same annual list as the policy pages we describe in [what to update when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). Patients who are moving often arrive here first, so link this page from the notice described in [wording for primary care patients who move out of the area](/guides/patients-who-move-out-of-the-area-records-transfer-and-referral-wording-for-a-primary-care-practice) and let them name the new office."
       },
       {
         "type": "h3",
@@ -1829,11 +1829,11 @@ export const guidesPartTwenty: Guide[] = [
     "category": "How-to",
     "title": "Prescription Refill Request Page for a Primary Care Practice Without Clinical Advice",
     "metaTitle": "Prescription Refill Request Page for a Primary Care Practice",
-    "metaDescription": "How a primary care practice can publish a refill request page that explains the process without giving clinical advice. (561) 291-2681.",
+    "metaDescription": "How a primary care practice can publish a prescription refill request page that explains process, notice and pharmacy, with no advice. (561) 291-2681",
     "answer": "A refill request page explains how patients ask for a refill, how much notice the office needs, how to name their pharmacy and what happens next. It stays about process: no medication guidance, no dosing and no advice on missed doses. Point patients to the portal or phone, and to 911 for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:00:00Z",
-    "dateModified": "2026-10-23",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -1842,7 +1842,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Ask any front desk what takes up the phone line and refills will be near the top. Patients call to ask how to request one, how long it takes, and whether the pharmacy has been told. A page that answers these questions in plain language can cut the volume of those calls and make the answers consistent no matter who picks up."
+        "text": "Ask any front desk what takes up the phone line and refills will be near the top. Patients call to ask how to request one, how long it takes, and whether the pharmacy has been told. A page that answers these questions in plain language can cut the volume of those calls and make the answers consistent no matter who picks up. The page works best when a patient can see, in the first screen, how to ask, how many business days to allow and which phone number to call."
       },
       {
         "type": "p",

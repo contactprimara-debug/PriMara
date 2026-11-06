@@ -285,12 +285,12 @@ export const guidesPartFive: Guide[] = [
     title: "How to Choose Google Business Profile Categories for a Medical Practice",
     metaTitle: "GBP Categories for Medical Practices (2026 Guide)",
     metaDescription:
-      "How to pick a primary and secondary Google Business Profile category that actually matches what patients search for. Call Primara at (561) 291-2681.",
+      "Which Google Business Profile category fits a medical practice? How to pick one primary and honest secondary categories patients search for. (561) 291-2681",
     answer:
-      "Your Google Business Profile primary category should match the single service patients most associate with you — \"Family practice physician\" for a general practice, \"Dermatologist\" for a dermatology office — because it carries the most weight in Google's ranking for that term. Secondary categories (up to nine more) should cover other real services you offer, never terms you're hoping to rank for but don't actually provide.",
+      "Your Google Business Profile primary category should match the single service patients most associate with you — \"Family practice physician\" for a general practice, \"Mental health counselor\" for a counseling practice — because it carries the most weight in Google's ranking for that term. Secondary categories (up to nine more) should cover other real services you offer, never terms you're hoping to rank for but don't actually provide.",
     author: "Liam Costello",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "Why category choice matters more than most practices realize" },

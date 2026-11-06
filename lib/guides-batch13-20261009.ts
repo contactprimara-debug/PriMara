@@ -208,11 +208,11 @@ export const guidesPartSixteen: Guide[] = [
     "category": "How-to",
     "title": "How to Handle After-Hours Calls and Voicemail at a Medical Practice",
     "metaTitle": "After-Hours Calls and Voicemail for a Medical Practice",
-    "metaDescription": "How a primary care or mental health practice can handle calls after closing: honest hours, a safe voicemail greeting, and a callback routine. (561) 291-2681.",
+    "metaDescription": "How a primary care or mental health practice can handle calls after closing: honest hours, a safe voicemail greeting and a callback routine. (561) 291-2681",
     "answer": "Treat after-hours calls as a front door that is still open. Keep your listed hours honest, record a voicemail greeting with no patient details and a clear emergency instruction, promise a specific callback window, and then keep it. Count missed calls weekly so you can see what the silence costs.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -306,7 +306,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice). Counseling offices need extra care with the recording itself, and this [voicemail greeting script for a counseling practice](/guides/voicemail-greeting-script-for-a-counseling-practice-that-protects-privacy) shows wording that never confirms who is a client. Staff who return those messages next morning can follow the [new patient intake phone script for a primary care front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) so every caller gets the same answers."
+        "text": "Compare that count to how many new patients you booked. If after-hours calls are a meaningful slice and most go unreturned, that is a clear case for an answering service or an online request form. If they are rare, a good greeting and a prompt callback may be enough. Many patients call after hours to say they will be late or to cancel, and the voicemail greeting can point them to the [late arrival and missed appointment policy page](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) for the exact rules. For calls missed during open hours, a short automatic text can offer a callback, and our guide to a [missed call text back message for a primary care practice](/guides/missed-call-text-back-message-for-a-primary-care-practice) shows safe wording. To see whether after-hours calls are being missed, compare the profile's call taps with your answered calls using the [weekly missed-call review for a counseling practice](/guides/google-business-profile-call-history-and-missed-call-review-for-a-counseling-practice). Counseling offices need extra care with the recording itself, and this [voicemail greeting script for a counseling practice](/guides/voicemail-greeting-script-for-a-counseling-practice-that-protects-privacy) shows wording that never confirms who is a client. Staff who return those messages next morning can follow the [new patient intake phone script for a primary care front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) so every caller gets the same answers. A website outage during the day sends more patients to the phone, so use the checklist in [what a medical practice does when its website goes down during office hours](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) to update the greeting and brief the front desk."
       },
       {
         "type": "callout",
@@ -761,11 +761,11 @@ export const guidesPartSixteen: Guide[] = [
     "category": "How-to",
     "title": "Medically Reviewed By Labels on a Medical Practice Website",
     "metaTitle": "Medically Reviewed By Labels on a Medical Practice Site",
-    "metaDescription": "How to use a medically reviewed by label honestly on a primary care or mental health practice website, with the reviewer, date and process it needs. (561) 291-2681.",
+    "metaDescription": "How to use a medically reviewed by label honestly on a primary care or mental health site: the reviewer, the date and the process. (561) 291-2681",
     "answer": "A medically reviewed by label is a promise that a named, qualified clinician actually read the page and found it accurate on a stated date. Use it only when that is true, show the reviewer's real name and credentials, and keep the review date current. If no one reviewed the page, leave the label off.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -774,7 +774,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "When a patient sees medically reviewed by next to a name, they read it as a claim of care. Someone with training checked this page for accuracy. That claim is useful for trust, which is why Google's quality guidance talks so much about expertise and trustworthiness on health topics. It is also a claim that has to be literally true."
+        "text": "When a patient sees medically reviewed by next to a name, they read it as a claim of care. Someone with training checked this page for accuracy. That claim is useful for trust, which is why Google's quality guidance talks so much about expertise and trustworthiness on health topics. It is also a claim that has to be literally true. Before adding the label, confirm that the named reviewer actually read the page, and write the date they did so."
       },
       {
         "type": "p",
@@ -1710,7 +1710,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "A first session page lowers the fear of making the first call. Explain in plain words what happens, how long it lasts, what to bring, what it costs and how booking works. Add a short crisis note with the 988 line, and avoid promising outcomes. Then give one clear way to reach you.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -1816,7 +1816,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session. Clients who join a group often first ask what the screening call is like, so link the first-session page to your [group therapy page for a counseling practice](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) for them. Send the forms in a short message before the visit, following the [intake paperwork email for a counseling practice](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice), rather than asking clients to arrive early."
+        "text": "Link the page from your home page, your services page and your Google Business Profile website link when it makes sense. Our [therapy group practice marketing playbook](/guides/therapy-group-practice-marketing-playbook) shows where this page fits in the overall plan. Add a link to your [cancellation and no-show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) so a new client sees the scheduling rules before they book rather than after a missed session. Clients who join a group often first ask what the screening call is like, so link the first-session page to your [group therapy page for a counseling practice](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) for them. Send the forms in a short message before the visit, following the [intake paperwork email for a counseling practice](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice), rather than asking clients to arrive early. Once the first-session basics are covered, spell out how long a session lasts and how often clients usually meet, using the cautious wording suggested in [explaining session length and frequency on a therapy practice website without promising results](/guides/session-length-and-frequency-explained-on-a-therapy-practice-website-without-promising-results) for the practice website."
       },
       {
         "type": "callout",

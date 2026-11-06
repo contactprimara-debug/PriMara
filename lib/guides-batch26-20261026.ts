@@ -744,12 +744,12 @@ export const guidesPartTwentyNine: Guide[] = [
     title: "Older Adult Counseling Page for a Counseling Practice",
     metaTitle: "Older Adult Counseling Page for a Counseling Practice",
     metaDescription:
-      "Build a counseling page for older adults and families: Medicare, easy access, family consent and respect. Call (561) 291-2681.",
+      "Build a counseling page for older adults and their families: Medicare, easy access, family consent and respect, without clinical claims. (561) 291-2681",
     answer:
       "An older adult counseling page explains who the practice sees, how Medicare and other coverage work, how clients can attend in person or by video, how family members can take part with consent, and where to find urgent help. It is easy to read, free of clinical claims and respectful of the client's independence.",
     author: "Liam Costello",
     publishDate: "2026-10-26T13:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Two readers, one page"),
@@ -789,7 +789,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Plan for hearing and vision"),
       p(
-        "Some older clients have trouble hearing a phone call or reading small print. Offer to repeat information, to send a printed copy of appointment details and to adjust the font on any digital form. Tell clients that a family member or aide may accompany them to the first visit with their permission. These small details signal respect more than a headline can, and they cost the practice almost nothing to provide."
+        "Some older clients have trouble hearing a phone call or reading small print. Offer to repeat information, to send a printed copy of appointment details and to adjust the font on any digital form. Tell clients that a family member or aide may accompany them to the first visit with their permission. These small details signal respect more than a headline can, and they cost the practice almost nothing to provide. Many older adults come to counseling after a loss, so a practice may want a companion page written in the tone of [a grief counseling page without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) with plain words and a crisis line."
       ),
     ],
     faqs: [
@@ -831,12 +831,12 @@ export const guidesPartTwentyNine: Guide[] = [
     title: "Life Transitions Counseling Page for Job Loss, Moves and Retirement",
     metaTitle: "Life Transitions Counseling Page for Job Loss and Retirement",
     metaDescription:
-      "Write a life transitions counseling page that names job loss, moving and retirement honestly, with no clinical claims. Call (561) 291-2681.",
+      "Write a life transitions counseling page that names job loss, moving and retirement honestly and gently, with no clinical claims. (561) 291-2681",
     answer:
       "A life transitions counseling page names the changes people bring, such as job loss, a move or retirement, describes how sessions work and how to start, and avoids diagnoses or promised results. It speaks in plain words about uncertainty and change, lists coverage and fee options and shows where to get urgent help.",
     author: "Gio LaRoche",
     publishDate: "2026-10-26T14:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Why a page about change works"),
@@ -880,7 +880,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Keep the tone steady"),
       p(
-        "People facing a change are often tired of being told to stay positive. Avoid slogans about fresh starts or new chapters, and write as you would speak to a neighbor: this is a lot, and you do not have to sort it out alone. Short sentences and a calm pace tell the reader that the practice will not rush them. Test the page by reading it aloud, and trim anything that sounds like a greeting card."
+        "People facing a change are often tired of being told to stay positive. Avoid slogans about fresh starts or new chapters, and write as you would speak to a neighbor: this is a lot, and you do not have to sort it out alone. Short sentences and a calm pace tell the reader that the practice will not rush them. Test the page by reading it aloud, and trim anything that sounds like a greeting card. A loss can be part of any transition, and a practice that serves people through it can add a separate page like the one in [a grief counseling page without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) with gentler wording and clear crisis resources."
       ),
     ],
     faqs: [

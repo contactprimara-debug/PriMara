@@ -423,7 +423,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "To move a medical practice website to a new domain without losing rankings, map every old URL to its closest new page, set permanent 301 redirects, keep the content the same during the move, tell Google through Search Console, and update your listings. Expect a temporary dip, and watch it for several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       {
@@ -484,7 +484,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Rankings often fluctuate for a few weeks as Google reprocesses the move, and larger sites can take longer. Check Search Console daily at first for crawl errors and coverage, then weekly. Compare clicks and impressions for your top twenty pages against the pre-move baseline. If a page drops sharply and stays down, check its redirect first, because a wrong or missing redirect is the most common cause."
+        "text": "Rankings often fluctuate for a few weeks as Google reprocesses the move, and larger sites can take longer. Check Search Console daily at first for crawl errors and coverage, then weekly. Compare clicks and impressions for your top twenty pages against the pre-move baseline. If a page drops sharply and stays down, check its redirect first, because a wrong or missing redirect is the most common cause. Before and after a move, confirm both the old and new domains are registered to the practice with auto-renew on, using the checklist in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) so redirects keep working."
       }
     ],
     faqs: [
@@ -1101,7 +1101,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "Review every page at least once a year, and your highest-value pages, such as service and location pages, every quarter. Update a page when the facts change, when its clicks decline, or when a clinician reviews it and finds something outdated. Change the date only when the content genuinely changed.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -1160,7 +1160,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Avoid two traps. Do not rewrite a page that ranks well just to change it, and do not republish near-identical text with a new date. Both waste time, and the second can look like manipulation. Pair this routine with your [content calendar](/guides/medical-practice-content-calendar-checklist), and read our view on [how often to blog](/guides/should-a-medical-practice-blog-and-how-often) so new publishing and updating share one plan. While updating older posts, also check the thin tag and date list pages around them, using the guidance on [blog tag, category and archive pages for a medical practice website](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex)."
+        "text": "Avoid two traps. Do not rewrite a page that ranks well just to change it, and do not republish near-identical text with a new date. Both waste time, and the second can look like manipulation. Pair this routine with your [content calendar](/guides/medical-practice-content-calendar-checklist), and read our view on [how often to blog](/guides/should-a-medical-practice-blog-and-how-often) so new publishing and updating share one plan. While updating older posts, also check the thin tag and date list pages around them, using the guidance on [blog tag, category and archive pages for a medical practice website](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex). If a page carries a reviewer name and date, refresh both together whenever the content is rechecked, following the review process described in [medically reviewed by labels on a medical practice website](/guides/medically-reviewed-by-labels-on-a-medical-practice-website) so the label never goes stale."
       }
     ],
     faqs: [

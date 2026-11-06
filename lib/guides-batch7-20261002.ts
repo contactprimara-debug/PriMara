@@ -131,7 +131,7 @@ export const guidesPartTen: Guide[] = [
       "E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trust — the framework Google's human quality raters use to judge whether content, especially on health topics, is reliable enough to rank well. It is not a direct ranking factor by itself, but it shapes the signals (author credentials, citations, site reputation) that Google's actual ranking systems do use.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Where E-E-A-T actually comes from" },
@@ -161,7 +161,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What E-E-A-T is not" },
       {
         type: "p",
-        text: "It is not a checklist you complete once and then ignore, and it is not something a tool can score for you with precision — any plugin or widget claiming to output 'your E-E-A-T score' is approximating a framework Google itself has said is not a single measurable number. Treat it instead as a standard to write to: would a careful human reviewer, reading this page cold, believe the person who wrote it actually knows this subject and can be trusted with it? If the honest answer is no, that's the gap to close, not a score to chase. Clear, plainly written pages that a real patient can follow also support these signals, a point covered in our guide on [plain language and reading level for patient content](/guides/plain-language-and-reading-level-for-patient-facing-web-content).",
+        text: "It is not a checklist you complete once and then ignore, and it is not something a tool can score for you with precision — any plugin or widget claiming to output 'your E-E-A-T score' is approximating a framework Google itself has said is not a single measurable number. Treat it instead as a standard to write to: would a careful human reviewer, reading this page cold, believe the person who wrote it actually knows this subject and can be trusted with it? If the honest answer is no, that's the gap to close, not a score to chase. Clear, plainly written pages that a real patient can follow also support these signals, a point covered in our guide on [plain language and reading level for patient content](/guides/plain-language-and-reading-level-for-patient-facing-web-content). One concrete way to show expertise is an honest reviewer line, and the guide on [medically reviewed by labels on a medical practice website](/guides/medically-reviewed-by-labels-on-a-medical-practice-website) explains what the label must include so that it stays true.",
       },
     ],
     faqs: [

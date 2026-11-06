@@ -122,7 +122,7 @@ export const guidesPartThirty: Guide[] = [
       "An adolescent visit page tells parents and teens, in plain words, who comes into the room, when a teen may be seen alone for part of the visit, what the practice shares with a parent, and who to ask about consent rules. It sets expectations without giving legal advice or clinical detail.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Why teen visits need their own page"),
@@ -164,7 +164,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Train the front desk to match the page"),
       p(
-        "A page that promises one thing while the phone staff say another does more harm than no page. Read the wording aloud with the front desk, agree on the three questions they will hear most, and give them a single sentence to say when a parent asks about privacy: the clinician will explain how it works at the visit, and the practice follows federal and Florida requirements."
+        "A page that promises one thing while the phone staff say another does more harm than no page. Read the wording aloud with the front desk, agree on the three questions they will hear most, and give them a single sentence to say when a parent asks about privacy: the clinician will explain how it works at the visit, and the practice follows federal and Florida requirements. Visits with a teenager sometimes include other people in the room, and a practice that also hosts learners can say so in a [student and trainee observer notice for a primary care practice](/guides/medical-student-and-trainee-observer-notice-page-for-a-primary-care-practice) that explains how patients can decline."
       ),
     ],
     faqs: [
@@ -471,7 +471,7 @@ export const guidesPartThirty: Guide[] = [
       "A practice closing notice for a counseling practice gives the closing date, names who will hold client records and how to reach them, explains how clients can request records or a referral, and lists crisis resources. It also updates the website, Google profile and phone greeting so no one is left guessing.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       h2("The notice clients need most"),
@@ -511,7 +511,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Keep the domain and email working"),
       p(
-        "Renew the domain and keep a monitored email address for at least as long as the custodian handles requests. Our guide on [protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers accounts, logins and who should own them."
+        "Renew the domain and keep a monitored email address for at least as long as the custodian handles requests. Our guide on [protecting your online presence when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers accounts, logins and who should own them. A single patient who moves away needs a lighter version of this notice, and the wording in [wording for primary care patients who move out of the area](/guides/patients-who-move-out-of-the-area-records-transfer-and-referral-wording-for-a-primary-care-practice) covers records, the last date of care and urgent-care reminders."
       ),
     ],
     faqs: [
@@ -825,7 +825,7 @@ export const guidesPartThirty: Guide[] = [
       "A chaperone policy page tells patients that a trained staff member is available during sensitive exams on request, that they may also bring a trusted person, how to ask for or decline a chaperone, and who to talk to with concerns. It describes the practice's process in plain words and gives no clinical advice.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("A policy patients should not have to ask about"),
@@ -865,7 +865,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Train and document"),
       p(
-        "A policy page only works if the team follows it. Hold a short staff meeting to read it aloud, agree on how a patient is offered a chaperone at check in and decide where the offer is documented, using your own record procedures. Review the wording once a year, with the rest of your patient-facing pages. The same calm, plain tone works on a [women's health visit page for a primary care practice](/guides/womens-health-visit-page-for-a-primary-care-practice-without-clinical-claims), where patients often look for the chaperone policy before they book."
+        "A policy page only works if the team follows it. Hold a short staff meeting to read it aloud, agree on how a patient is offered a chaperone at check in and decide where the offer is documented, using your own record procedures. Review the wording once a year, with the rest of your patient-facing pages. The same calm, plain tone works on a [women's health visit page for a primary care practice](/guides/womens-health-visit-page-for-a-primary-care-practice-without-clinical-claims), where patients often look for the chaperone policy before they book. A chaperone is not the only extra person patients may meet, so a practice that also hosts learners should publish a [student and trainee observer notice for a primary care practice](/guides/medical-student-and-trainee-observer-notice-page-for-a-primary-care-practice) next to this policy, with the same plain right to say no."
       ),
     ],
     faqs: [
@@ -906,17 +906,17 @@ export const guidesPartThirty: Guide[] = [
     title: "Medical Student and Trainee Observer Notice for Primary Care",
     metaTitle: "Student and Trainee Observer Notice for Primary Care",
     metaDescription:
-      "How a primary care practice can tell patients about students or trainees who observe visits, and how patients can say no. Call (561) 291-2681.",
+      "What to tell patients about students or trainees who observe visits at a primary care practice, and how patients can say no to it. (561) 291-2681",
     answer:
       "A student and trainee observer notice tells patients that a student or trainee may sometimes observe a visit, that the person is introduced and bound by the practice's privacy rules, and that a patient can say no at any time without affecting care. It gives a way to ask questions before the visit.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Surprises are the problem, not the students"),
       p(
-        "Many primary care practices host students, residents, shadowing volunteers or other trainees at some point. Patients are generally fine with it when they are told clearly and asked. They are not fine when a stranger walks into the room and sits down."
+        "Many primary care practices host students, residents, shadowing volunteers or other trainees at some point. Patients are generally fine with it when they are told clearly and asked. They are not fine when a stranger walks into the room and sits down. A good notice answers three questions before the visit: who may be in the room, what rules they follow, and how a patient says no."
       ),
       p(
         "A short page, a line on the new patient form and a verbal check from the clinician together make the process routine. The page is the part that is visible to search engines and to patients who want to know before they come."

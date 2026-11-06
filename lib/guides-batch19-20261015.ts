@@ -757,17 +757,17 @@ export const guidesPartTwentyTwo: Guide[] = [
     title: "Psychology Today and Therapist Directory Profiles for a Counseling Practice",
     metaTitle: "Therapist Directory Profiles for a Counseling Practice",
     metaDescription:
-      "How a counseling practice can set up therapist directory profiles that match its website and avoid outcome claims. Call (561) 291-2681.",
+      "How a counseling practice can set up Psychology Today and other therapist directory profiles that match its website, with no outcome claims. (561) 291-2681",
     answer:
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
       p(
-        "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers. Whatever titles you list on a directory profile should match the state record, as explained in our guide to [therapist credentials and license titles on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website)."
+        "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers. Whatever titles you list on a directory profile should match the state record, as explained in our guide to [therapist credentials and license titles on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website). The quickest check is to compare the name, address, phone and license wording on the profile with your website, line by line."
       ),
       p(
         "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not. Directory profiles should say the same thing as the practice's own site, so a client sees one consistent description."

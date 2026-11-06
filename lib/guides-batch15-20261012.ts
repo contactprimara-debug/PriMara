@@ -1232,7 +1232,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Once a week, spend fifteen minutes on six things: answer new reviews, test the phone line, glance at the Google profile, submit nothing but check the form inbox, open the website on a phone, and write down one number. A small routine catches most problems before patients notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -1334,7 +1334,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one."
+        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea."
       },
       {
         "type": "h2",
