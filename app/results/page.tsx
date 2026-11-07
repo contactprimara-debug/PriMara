@@ -53,7 +53,7 @@ const milestones: Milestone[] = [
     heading: "First Data Arrives",
     items: [
       "GBP impressions graph shows a measurable trend — the volume of searches in which your profile appeared, tracked week over week.",
-      "Review velocity is established: most practices see 3–8 new Google reviews in the first 60 days as the tap card and QR system activates patient behavior.",
+      "Review velocity is established: new Google reviews start arriving as the tap card and QR system activates patient behavior, and we count them every week.",
       "First rank movement typically visible on secondary keywords (condition-specific or neighborhood-specific searches) where competition is lower.",
       "Local Falcon comparison: 60-day grid overlaid on baseline — green cells show rank improvement, red cells show where work remains.",
     ],
@@ -62,9 +62,9 @@ const milestones: Milestone[] = [
     period: "90 Days",
     heading: "Measurable Momentum",
     items: [
-      "Secondary keyword movement documented: practices entering moderately competitive markets typically see 2–6 rank position improvements on secondary terms.",
+      "Secondary keyword movement documented: we document rank changes on secondary terms against your day-one grid, so you see exactly what moved.",
       "First competitive analysis vs. your named local competitor: side-by-side GBP completeness, review count, review velocity, and estimated Maps position.",
-      "Review count gap closing: practices starting below 20 Google reviews typically reach 20–30 by the 90-day mark with consistent tap card usage.",
+      "Review count gap closing: the review count gap to your named competitor is tracked every month, so you can see it closing.",
       "First call volume attribution attempt: GBP call tracking data and Google Search Console impressions begin showing whether ranking improvements are driving real patient inquiries.",
       "Primary keyword movement on low-competition markets may begin; highly competitive markets (Miami, Fort Lauderdale top terms) require additional months.",
     ],
@@ -73,11 +73,11 @@ const milestones: Milestone[] = [
     period: "180 Days",
     heading: "Compounding Results",
     items: [
-      "Local Falcon grid at 180 days shows the clearest picture: practices in mid-competition markets typically show 3–8 rank position improvements on primary keywords; practices in lower-competition markets often reach the Local 3-Pack.",
-      "GBP impression counts at 180 days are typically 40–120% higher than baseline — reflecting the compounding effect of review velocity, consistent posting, and profile completeness.",
+      "Local Falcon grid at 180 days shows the clearest picture: the comparison against your day-one baseline shows how far your primary keywords have moved. Lower-competition markets tend to move first, and we do not promise a rank number.",
+      "GBP impressions are compared to your baseline, reflecting the compounding effect of review velocity, consistent posting, and profile completeness. You see the real number, up or down.",
       "Review velocity benchmark: practices maintaining 2–4 new reviews per month consistently outrank practices with higher total review counts but stagnant acquisition.",
-      "Patient inquiry volume from GBP: the \"Calls\" metric in GBP Insights provides a direct count of calls initiated from your Maps listing — most practices see this number grow 20–60% between the 90-day and 180-day marks.",
-      "Website organic traffic (Visibility Package clients): city- and condition-specific pages begin appearing in Google Search Console impressions data, with top-performing pages generating 50–200 monthly impressions on targeted local searches.",
+      "Patient inquiry volume from GBP: the \"Calls\" metric in GBP Insights provides a direct count of calls initiated from your Maps listing — we report it monthly next to your baseline.",
+      "Website organic traffic (Visibility Package clients): city- and condition-specific pages begin appearing in Google Search Console impressions data, and we report which pages are earning impressions on targeted local searches.",
     ],
   },
 ];
