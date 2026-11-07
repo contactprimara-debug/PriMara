@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useState } from "react";
+import SmsConsentLine from "@/components/SmsConsentLine";
 import { useRouter } from "next/navigation";
 import type { ContactState } from "@/app/actions/contact";
 import HoneypotField from "@/components/HoneypotField";
@@ -293,6 +294,8 @@ export default function AuditOfferStrip() {
                   </p>
                 )}
 
+                <SmsConsentLine />
+                <SmsConsentLine />
                 <SubmitBtn pending={pending} />
 
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", color: "var(--smoke)", letterSpacing: "0.06em" }}>

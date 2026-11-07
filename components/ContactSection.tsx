@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import SmsConsentLine from "@/components/SmsConsentLine";
 import { useRouter } from "next/navigation";
 import type { ContactState } from "@/app/actions/contact";
 import SubmitButton from "@/components/SubmitButton";
@@ -210,6 +211,8 @@ export default function ContactSection() {
                   )}
 
                   {/* Submit */}
+                  <SmsConsentLine />
+                  <SmsConsentLine />
                   <SubmitButton pending={pending} />
 
                   {/* Microtext */}

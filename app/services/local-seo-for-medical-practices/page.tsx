@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
@@ -76,9 +77,19 @@ const faqs = [
 
 export default function LocalSEOPage() {
   return (
-    <main className="pt-16">
+    <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(serviceSchema) }} />
+
+      {/* Hero (shared PgHero, card #611) */}
+      <PgHero
+        id="services-local-seo-f-h1"
+        page="services-local-seo-for-medical-practices"
+        kicker="✓ Now Accepting New Clients"
+        h1={<>Local SEO for Medical Practices — Primara</>}
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+        fine={<>Liam Costello &amp; Gio LaRoche, Co-Founders · Primara</>}
+      />
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
@@ -93,45 +104,6 @@ export default function LocalSEOPage() {
           <li aria-current="page" style={{ color: "var(--color-text)" }}>Local SEO</li>
         </ol>
       </nav>
-
-      {/* Hero */}
-      <section className="mx-auto max-w-content px-6 lg:px-8 pt-8 pb-12" aria-labelledby="seo-h1">
-        <div
-          className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-white mb-6"
-          style={{ backgroundColor: "var(--color-success)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}
-        >
-          ✓ Now Accepting New Clients
-        </div>
-        <h1
-          id="seo-h1"
-          className="font-serif font-bold text-balance"
-          style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--color-text)" }}
-        >
-          Local SEO for Medical Practices — Primara
-        </h1>
-        <p
-          className="mt-4"
-          style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
-        >
-          Liam Costello &amp; Gio LaRoche, Co-Founders · Primara
-        </p>
-        <div className="mt-6 flex gap-4 flex-wrap">
-          <a
-            href="tel:+15612912681"
-            className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-            style={{ backgroundColor: "var(--color-accent)", height: "48px", fontSize: "1rem" }}
-          >
-            Call (561) 291-2681
-          </a>
-          <Link prefetch={false}
-            href="/the-audit"
-            className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--ember)", color: "var(--gold)", height: "48px", fontSize: "1rem" }}
-          >
-            Request a Free Audit
-          </Link>
-        </div>
-      </section>
 
       {/* Content */}
       <section className="mx-auto max-w-content px-6 lg:px-8 pb-16">

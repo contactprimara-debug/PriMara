@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import SmsConsentLine from "@/components/SmsConsentLine";
 import HoneypotField from "@/components/HoneypotField";
 import type { PackageInquiryState } from "@/app/actions/packageInquiry";
 
@@ -248,6 +249,8 @@ export default function PackageInquiryForm({
           </p>
         )}
 
+        <SmsConsentLine />
+        <SmsConsentLine />
         <SubmitButton pending={pending} />
 
         <p

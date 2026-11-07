@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema"; // v2
@@ -99,6 +100,16 @@ export default function FoundationPackagePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(offerSchema) }} />
 
+      {/* Hero (shared PgHero, card #611) */}
+      <PgHero
+        id="packages-foundation-h1"
+        page="packages-foundation"
+        kicker="Package 01 · Foundation"
+        h1={<>The{" "} <em> Foundation </em>{" "} for showing up.</>}
+        sub={<>For independent primary care and mental health practices that need the full digital foundation built and managed: a complete Google Business Profile, a new 30-page website, review generation, and monthly SEO content — all running within 30 days.</>}
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+      />
+
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
       <nav aria-label="Breadcrumb" style={{ padding: "76px clamp(24px, 8vw, 120px) 0" }}>
         <ol
@@ -124,152 +135,6 @@ export default function FoundationPackagePage() {
           <li aria-current="page" style={{ color: "var(--ash)" }}>Foundation Package</li>
         </ol>
       </nav>
-
-      {/* ── Hero ─────────────────────────────────────────────────────────── */}
-      <section
-        aria-labelledby="pkg-h1"
-        style={{
-          position: "relative",
-          minHeight: "60vh",
-          display: "flex",
-          alignItems: "center",
-          overflow: "hidden",
-          padding: "clamp(48px, 6vw, 80px) clamp(24px, 8vw, 120px)",
-        }}
-      >
-        <div
-          aria-hidden="true"
-          style={{
-            position: "absolute",
-            inset: 0,
-            pointerEvents: "none",
-            background: [
-              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(27,110,110,0.14) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50vw 40vh at 90% 80%, rgba(201,168,76,0.08) 0%, transparent 60%)",
-            ].join(", "),
-          }}
-        />
-
-        <div style={{ position: "relative", zIndex: 1, maxWidth: "900px" }}>
-          <div
-            style={{
-              display: "inline-block",
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-              border: "1px solid var(--wire)",
-              padding: "6px 14px",
-              borderRadius: "2px",
-              marginBottom: "clamp(28px, 4vw, 40px)",
-            }}
-          >
-            Package 01 · Foundation
-          </div>
-
-          <h1
-            id="pkg-h1"
-            style={{
-              fontFamily: "var(--font-display), Georgia, serif",
-              fontSize: "clamp(52px, 8vw, 96px)",
-              lineHeight: 0.95,
-              letterSpacing: "-0.03em",
-              color: "var(--chalk)",
-              fontWeight: 400,
-              margin: "0 0 clamp(24px, 3vw, 40px)",
-              maxWidth: "14ch",
-            }}
-          >
-            The{" "}
-            <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
-              Foundation
-            </em>{" "}
-            for showing up.
-          </h1>
-
-          <p
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "clamp(15px, 2vw, 18px)",
-              lineHeight: 1.65,
-              color: "var(--ash)",
-              maxWidth: "56ch",
-              margin: "0 0 clamp(32px, 4vw, 48px)",
-            }}
-          >
-            For independent primary care and mental health practices that need the full digital foundation built and managed: a complete Google Business Profile, a new 30-page website, review generation, and monthly SEO content — all running within 30 days.
-          </p>
-
-          {/* Price block */}
-          <div
-            style={{
-              display: "inline-flex",
-              flexDirection: "column",
-              gap: "6px",
-              padding: "20px 28px",
-              background: "var(--surface)",
-              border: "1px solid var(--wire)",
-              borderRadius: "4px",
-              marginBottom: "clamp(32px, 4vw, 48px)",
-            }}
-          >
-            <div
-              style={{
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "13px",
-                color: "var(--smoke)",
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-              }}
-            >
-              Pricing available on request
-            </div>
-          </div>
-
-          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <a
-              href="#inquire"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "14px",
-                letterSpacing: "0.06em",
-                fontWeight: 600,
-                color: "var(--on-accent)",
-                backgroundColor: "var(--ember)",
-                padding: "0 28px",
-                height: "48px",
-                borderRadius: "2px",
-                textDecoration: "none",
-              }}
-            >
-              Send My Package Inquiry →
-            </a>
-            <a
-              href="tel:+15612912681"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "14px",
-                letterSpacing: "0.06em",
-                fontWeight: 600,
-                color: "var(--chalk)",
-                backgroundColor: "transparent",
-                border: "1px solid var(--wire)",
-                padding: "0 28px",
-                height: "48px",
-                borderRadius: "2px",
-                textDecoration: "none",
-              }}
-            >
-              Call (561) 291-2681
-            </a>
-          </div>
-        </div>
-      </section>
 
       <div
         aria-hidden="true"

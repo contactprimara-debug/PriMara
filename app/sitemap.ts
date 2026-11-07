@@ -63,6 +63,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    {
+      url: `${SITE_URL}/terms`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/sms-terms`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
 
     // ── Priority 0.8 — Pillar / category pages ───────────────────────────
     {

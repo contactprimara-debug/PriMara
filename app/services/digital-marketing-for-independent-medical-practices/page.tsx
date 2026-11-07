@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import { toJsonLd } from "@/lib/schema";
@@ -117,144 +118,15 @@ export default function DigitalMarketingPage() {
         </ol>
       </nav>
 
-      {/* ── Hero — 70vh atmospheric ───────────────────────────────────────── */}
-      <section
-        aria-labelledby="dm-h1"
-        style={{
-          position: "relative",
-          minHeight: "70vh",
-          display: "flex",
-          alignItems: "center",
-          overflow: "hidden",
-          padding:
-            "clamp(48px, 6vw, 80px) clamp(24px, 8vw, 120px) clamp(72px, 10vw, 120px)",
-        }}
-      >
-        {/* Atmospheric blobs */}
-        <div
-          aria-hidden="true"
-          style={{
-            position: "absolute",
-            inset: 0,
-            pointerEvents: "none",
-            background: [
-              "radial-gradient(ellipse 70vw 65vh at 8% 35%, rgba(27,110,110,0.14) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50vw 45vh at 92% 75%, rgba(201,168,76,0.08) 0%, transparent 60%)",
-            ].join(", "),
-          }}
-        />
-
-        {/* Content */}
-        <div style={{ position: "relative", zIndex: 1, maxWidth: "900px" }}>
-          {/* Eyebrow */}
-          <div
-            className="sp-eyebrow"
-            style={{
-              display: "inline-block",
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-              border: "1px solid var(--wire)",
-              padding: "6px 14px",
-              borderRadius: "2px",
-              marginBottom: "clamp(28px, 4vw, 44px)",
-            }}
-          >
-            Florida · Primara
-          </div>
-
-          {/* H1 — two-line display with gold italic word */}
-          <h1
-            id="dm-h1"
-            className="sp-h1"
-            style={{
-              fontFamily: "var(--font-display), Georgia, serif",
-              fontSize: "clamp(52px, 8vw, 96px)",
-              lineHeight: 0.95,
-              letterSpacing: "-0.03em",
-              color: "var(--chalk)",
-              fontWeight: 400,
-              marginBottom: "clamp(24px, 3vw, 40px)",
-              maxWidth: "14ch",
-            }}
-          >
-            Digital Marketing
-            <br />
-            for{" "}
-            <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
-              Independent
-            </em>
-            <br />
-            Medicine.
-          </h1>
-
-          {/* Subheadline */}
-          <p
-            className="sp-sub"
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "clamp(15px, 2vw, 18px)",
-              lineHeight: 1.65,
-              color: "var(--ash)",
-              maxWidth: "54ch",
-              margin: "0 0 clamp(32px, 4vw, 48px)",
-            }}
-          >
-            Primara helps physician-owned practices compete with health
-            systems and urgent care chains for the patients already searching for
-            you — through local search, Google Business Profile, reputation
-            management, and targeted patient acquisition.
-          </p>
-
-          {/* CTAs */}
-          <div
-            className="sp-ctas"
-            style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}
-          >
-            <a
-              href="tel:+15612912681"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "14px",
-                letterSpacing: "0.06em",
-                fontWeight: 600,
-                color: "var(--on-accent)",
-                backgroundColor: "var(--ember)",
-                padding: "0 28px",
-                height: "48px",
-                borderRadius: "2px",
-                textDecoration: "none",
-              }}
-            >
-              Call (561) 291-2681
-            </a>
-            <Link prefetch={false}
-              href="/contact"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                fontFamily: "system-ui, sans-serif",
-                fontSize: "14px",
-                letterSpacing: "0.06em",
-                fontWeight: 600,
-                color: "var(--chalk)",
-                backgroundColor: "transparent",
-                border: "1px solid var(--wire)",
-                padding: "0 28px",
-                height: "48px",
-                borderRadius: "2px",
-                textDecoration: "none",
-              }}
-            >
-              Request a Free Audit
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* Hero (shared PgHero, card #611) */}
+      <PgHero
+        id="services-digital-mar-h1"
+        page="services-digital-marketing-for-independent-medical-practices"
+        kicker="Florida · Primara"
+        h1={<>Digital Marketing <br /> for{" "} <em> Independent </em> <br /> Medicine.</>}
+        sub={<>Primara helps physician-owned practices compete with health systems and urgent care chains for the patients already searching for you — through local search, Google Business Profile, reputation management, and targeted patient acquisition.</>}
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+      />
 
       {/* ── Wire divider ─────────────────────────────────────────────────── */}
       <div

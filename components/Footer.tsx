@@ -492,6 +492,44 @@ export default function Footer({
             >
               ·
             </span>
+            <Link prefetch={false}
+              href="/terms"
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "10px",
+                color: "var(--smoke)",
+                textDecoration: "none",
+                letterSpacing: "0.06em",
+                transition: "color 0.2s",
+              }}
+            >
+              Terms
+            </Link>
+            <span
+              aria-hidden="true"
+              style={{ color: "var(--wire)", fontSize: "10px" }}
+            >
+              ·
+            </span>
+            <Link prefetch={false}
+              href="/sms-terms"
+              style={{
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "10px",
+                color: "var(--smoke)",
+                textDecoration: "none",
+                letterSpacing: "0.06em",
+                transition: "color 0.2s",
+              }}
+            >
+              SMS Terms
+            </Link>
+            <span
+              aria-hidden="true"
+              style={{ color: "var(--wire)", fontSize: "10px" }}
+            >
+              ·
+            </span>
             <button
               type="button"
               onClick={() => window.dispatchEvent(new Event("p365-consent-open"))}

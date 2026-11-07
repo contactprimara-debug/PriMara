@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 import FaqSection from "@/components/FaqSection";
 import { locationsFaqs } from "@/lib/page-faqs";
 import { primaryCareLocations } from "@/lib/locations-primary";
@@ -133,9 +134,18 @@ function LocationCardGrid({ locations }: { locations: { slug: string; city: stri
 
 export default function LocationsPage() {
   return (
-    <main className="pt-16">
+    <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
+      {/* Hero (shared PgHero, card #611) */}
+      <PgHero
+        id="locations-h1"
+        page="locations"
+        kicker="South Florida · Tampa Bay · Orlando Metro · Jacksonville"
+        h1={<>Serving Independent Practices Across Florida</>}
+        primary={{ label: "Get a free audit", href: "/the-audit" }}
+      />
 
       {/* Breadcrumb */}
       <div style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
@@ -149,17 +159,8 @@ export default function LocationsPage() {
           </nav>
         </div>
       </div>
-
-      {/* Hero */}
-      <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)" }}>
+      <section style={{ backgroundColor: "var(--void)", padding: "clamp(32px, 5vw, 56px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--gold)", fontFamily: "system-ui, sans-serif", marginBottom: "16px" }}>
-            South Florida · Tampa Bay · Orlando Metro · Jacksonville
-          </p>
-          <h1 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.15, marginBottom: "1.5rem", maxWidth: "820px" }}>
-            Serving Independent Practices Across Florida
-          </h1>
-
           <div style={{ maxWidth: "760px" }}>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               South Florida, Tampa Bay, Orlando Metro, and Jacksonville are among the most competitive healthcare markets in the United States. From Miami-Dade to Duval County, independent physicians and mental health practitioners compete daily against hospital systems with nine-figure marketing budgets, urgent care chains opening on every corridor, and aggregator platforms that have turned patient acquisition into a pay-to-play environment. Local search visibility — specifically, what appears when a patient searches "primary care doctor near me" or "therapist West Palm Beach" — is no longer a nice-to-have for an independent practice. It is the primary driver of new patient volume.

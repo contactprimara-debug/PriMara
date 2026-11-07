@@ -3,6 +3,7 @@ import { blogPosts } from "@/lib/blog";
 import type { BlogSection } from "@/lib/blog";
 import type { Metadata } from "next";
 import Link from "next/link";
+import PgHero from "@/components/pg/PgHero";
 import RelatedLinks from "@/components/RelatedLinks";
 import { blogFaqs } from "@/lib/blog-faqs";
 
@@ -326,7 +327,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   };
 
   return (
-    <main className="pt-16">
+    <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
@@ -341,6 +342,18 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+
+      {/* Post header (shared PgHero, card #611) */}
+      <PgHero
+        id="post-h1"
+        page="blog-post"
+        kicker="Healthcare Marketing"
+        h1={<>{post.title}</>}
+        mark={false}
+        compact
+        primary={{ label: "Get my free audit", href: "/the-audit" }}
+        fine={<>By {post.author} · <time dateTime={post.publishDate}>{formatDate(post.publishDate)}</time></>}
+      />
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
@@ -369,79 +382,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           </li>
         </ol>
       </nav>
-
-      {/* Post header */}
-      <header
-        style={{
-          borderBottom: "1px solid var(--wire)",
-          paddingTop: "clamp(40px, 5vw, 64px)",
-          paddingBottom: "clamp(40px, 5vw, 64px)",
-        }}
-      >
-        <div className="mx-auto max-w-content px-6 lg:px-8" style={{ maxWidth: "780px" }}>
-          {/* Section label */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "16px",
-              marginBottom: "12px",
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "10px",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-              color: "var(--smoke)",
-            }}
-          >
-            <span
-              style={{
-                display: "block",
-                width: "32px",
-                height: "1px",
-                background: "var(--gold)",
-                flexShrink: 0,
-              }}
-            />
-            Healthcare Marketing
-          </div>
-
-          <h1
-            style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
-              fontSize: "clamp(2rem, 5vw, 3.5rem)",
-              color: "var(--color-text)",
-              fontWeight: 700,
-              letterSpacing: "-0.02em",
-              lineHeight: 1.1,
-              marginBottom: "1.5rem",
-            }}
-          >
-            {post.title}
-          </h1>
-
-          {/* Byline */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "16px",
-              flexWrap: "wrap",
-              fontFamily: "var(--font-mono)",
-              fontSize: "0.8rem",
-              color: "var(--smoke)",
-            }}
-          >
-            <span>
-              By{" "}
-              <span style={{ color: "var(--ash)" }}>{post.author}</span>
-            </span>
-            <span aria-hidden="true">·</span>
-            <time dateTime={post.publishDate} style={{ color: "var(--ash)" }}>
-              {formatDate(post.publishDate)}
-            </time>
-          </div>
-        </div>
-      </header>
 
       {/* Post body */}
       <article style={{ paddingTop: "clamp(40px, 5vw, 64px)", paddingBottom: "clamp(48px, 6vw, 80px)" }}>

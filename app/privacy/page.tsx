@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
-const EFFECTIVE_DATE = "May 29, 2026";
+const EFFECTIVE_DATE = "November 7, 2026";
 
 const sectionStyle: React.CSSProperties = {
   marginBottom: "2.5rem",
@@ -108,7 +108,7 @@ export default function PrivacyPage() {
         {/* Intro */}
         <div style={{ ...sectionStyle }}>
           <p style={bodyStyle}>
-            Primara ("we," "us," or "our") operates the website primara365.com. This Privacy Policy
+            Primara 365 LLC (&ldquo;Primara,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) operates the website primara365.com. This Privacy Policy
             explains what information we collect when you visit our site or contact us, how we use
             it, and your rights regarding that information. We take your privacy seriously.
           </p>
@@ -163,10 +163,17 @@ export default function PrivacyPage() {
               is available at vercel.com.
             </li>
             <li>
-              <strong style={{ color: "var(--chalk)" }}>Plausible Analytics</strong> — we use
-              Plausible to understand how visitors use our site. Plausible is a privacy-respecting
-              analytics tool that does not use cookies and does not collect personally identifiable
-              information. No data is shared with advertising networks.
+              <strong style={{ color: "var(--chalk)" }}>Google Analytics and Google Ads</strong> — we use Google
+              tags to understand how visitors use our site and to measure our own advertising. They run in a
+              privacy-first mode: until you click &ldquo;Allow analytics&rdquo; they set no cookies and read no
+              identifiers, and a browser Global Privacy Control signal is treated as &ldquo;no.&rdquo; You can change
+              your choice any time with &ldquo;Privacy choices&rdquo; in the footer.
+            </li>
+            <li>
+              <strong style={{ color: "var(--chalk)" }}>Messaging providers</strong> — if you give us your mobile
+              number we may call or text you about your request. We never sell or share mobile numbers or SMS
+              opt-in data with third parties for their marketing. See our{" "}
+              <Link prefetch={false} href="/sms-terms" style={{ color: "var(--gold)" }}>SMS Terms</Link>.
             </li>
           </ul>
         </div>
@@ -175,9 +182,7 @@ export default function PrivacyPage() {
         <div style={sectionStyle}>
           <h2 style={headingStyle}>4. Cookies</h2>
           <p style={bodyStyle}>
-            This website does not use tracking or advertising cookies. Our analytics provider
-            (Plausible) is cookieless by design. We do not run retargeting or cross-site
-            tracking of any kind.
+            Without your consent this website sets no analytics or advertising cookies. If you click &ldquo;Allow analytics,&rdquo; Google Analytics and Google Ads may set cookies to measure visits and our own ads. If you click &ldquo;No thanks&rdquo; (or your browser sends a Global Privacy Control signal), nothing is stored on your device. We do not run cross-site retargeting.
           </p>
         </div>
 

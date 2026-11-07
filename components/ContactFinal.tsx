@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
+import SmsConsentLine from "@/components/SmsConsentLine";
 import { useRouter } from 'next/navigation';
 import HoneypotField from '@/components/HoneypotField';
 
@@ -244,6 +245,8 @@ export default function ContactFinal() {
                     </select>
                   </div>
 
+                  <SmsConsentLine />
+                  <SmsConsentLine />
                   {/* Submit — class="magnetic" for InteractionEffects pull effect */}
                   <button
                     type="submit"

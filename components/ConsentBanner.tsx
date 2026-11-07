@@ -63,37 +63,16 @@ export default function ConsentBanner() {
 
   if (!open) return null;
   return (
-    <div
-      role="dialog"
-      aria-label="Privacy choice"
-      className="fixed z-[60] left-3 right-3 md:left-6 md:right-auto md:max-w-[440px]"
-      style={{
-        bottom: "calc(72px + env(safe-area-inset-bottom))",
-        background: "var(--surface)",
-        border: "1px solid var(--wire)",
-        color: "var(--chalk)",
-        padding: "16px 18px",
-        fontFamily: "system-ui, sans-serif",
-      }}
-    >
-      <p style={{ fontSize: 14, lineHeight: 1.5, margin: "0 0 12px" }}>
-        We measure how this site is used only if you say yes. Say no and nothing is stored on your device.{" "}
-        <a href="/privacy" style={{ color: "var(--gold)", textDecoration: "underline" }}>Privacy Policy</a>
+    <div role="dialog" aria-label="Privacy choice" className="cb">
+      <p className="cb-t">
+        We measure site use only if you say yes. Say no and nothing is stored on your device.{" "}
+        <a href="/privacy" style={{ color: "var(--gold)", textDecoration: "underline" }}>Privacy</a>
       </p>
-      <div style={{ display: "flex", gap: 10 }}>
-        <button
-          ref={firstBtn}
-          type="button"
-          onClick={() => choose(true)}
-          style={{ background: "var(--gold)", color: "#050505", fontWeight: 600, fontSize: 14, padding: "12px 18px", minHeight: 44, border: 0, cursor: "pointer" }}
-        >
+      <div className="cb-b">
+        <button ref={firstBtn} type="button" onClick={() => choose(true)} className="cb-yes">
           Allow analytics
         </button>
-        <button
-          type="button"
-          onClick={() => choose(false)}
-          style={{ background: "transparent", color: "var(--chalk)", fontSize: 14, padding: "12px 18px", minHeight: 44, border: "1px solid var(--wire)", cursor: "pointer" }}
-        >
+        <button type="button" onClick={() => choose(false)} className="cb-no">
           No thanks
         </button>
       </div>
