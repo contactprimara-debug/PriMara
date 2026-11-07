@@ -57,6 +57,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
 
+    {
+      url: `${SITE_URL}/privacy`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+
     // ── Priority 0.8 — Pillar / category pages ───────────────────────────
     {
       url: `${SITE_URL}/work`,
