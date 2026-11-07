@@ -960,7 +960,7 @@ export const guidesPartThirtyOne: Guide[] = [
       "A staff titles page explains in plain words what MD, DO, NP, PA and MA mean on the team page, who a patient will see, and how to ask for a specific clinician. It uses each person's credentials exactly as licensed and makes no claim that one title is better than another.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Patients see letters and guess"),
@@ -1008,7 +1008,7 @@ export const guidesPartThirtyOne: Guide[] = [
         "Add new clinicians only after their start date, and never list someone whose license is pending as if it were active."
       ),
       p(
-        "A page like this earns trust only if it stays accurate. A stale list that shows a departed clinician is worse than no list, so assign one person to own it and give them the license lookup links."
+        "A page like this earns trust only if it stays accurate. A stale list that shows a departed clinician is worse than no list, so assign one person to own it and give them the license lookup links. Titles are one place where clinical terms belong, but service pages should lead with patient words, as the guide on [patient words versus clinical terms in service page names](/guides/patient-words-versus-clinical-terms-in-service-page-names-for-a-primary-care-practice) explains with side-by-side examples."
       ),
     ],
     faqs: [

@@ -160,7 +160,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <p style={eyebrow}>What we did</p>
           <h2 style={h2}>The work behind the numbers</h2>
-          <div style={{ display: "grid", gap: "16px", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
+          <div style={{ display: "grid", gap: "16px", gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))" }}>
             {c.did.map((d) => (
               <div key={d.title} style={{ border: "1px solid var(--wire)", borderRadius: "6px", padding: "20px", backgroundColor: "var(--void)" }}>
                 <h3 style={{ fontFamily: "var(--font-display), Georgia, serif", fontSize: "1.1875rem", fontWeight: 400, color: "var(--chalk)", marginBottom: "10px", lineHeight: 1.3 }}>{d.title}</h3>

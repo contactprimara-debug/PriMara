@@ -239,7 +239,7 @@ export const guidesPartOne: Guide[] = [
       "A solo therapist in Florida typically spends three hundred to fifteen hundred dollars a month on marketing, and a group practice spends two thousand to five thousand. The cheapest option is a directory listing at roughly thirty dollars a month; the most durable is local SEO and a Google Business Profile, which costs more but keeps producing after you stop paying.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       {
@@ -326,7 +326,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "For a solo therapist in a Florida metro: roughly three thousand for a website that is actually yours, then eight hundred to twelve hundred a month for profile and content work, and a directory listing kept as a backstop. That is around fifteen thousand in year one. At an average client value of well over a thousand dollars across an episode of care, the channel breaks even on a single steady client and everything after that is margin. To decide how to divide whatever you can afford each month, read [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice) before you sign a contract.",
+        text: "For a solo therapist in a Florida metro: roughly three thousand for a website that is actually yours, then eight hundred to twelve hundred a month for profile and content work, and a directory listing kept as a backstop. That is around fifteen thousand in year one. At an average client value of well over a thousand dollars across an episode of care, the channel breaks even on a single steady client and everything after that is margin. To decide how to divide whatever you can afford each month, read [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice) before you sign a contract. A paid directory listing should earn its fee in calls and booked consults, and the checklist in [therapist directory profiles for a counseling practice](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice) shows how to match the profile to your website and check it twice a year.",
       },
     ],
     faqs: [

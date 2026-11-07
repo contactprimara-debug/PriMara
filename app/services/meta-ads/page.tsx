@@ -346,7 +346,7 @@ export default function MetaAdsPage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))",
               gap: "1px",
               backgroundColor: "var(--wire)",
               border: "1px solid var(--wire)",
@@ -522,7 +522,7 @@ export default function MetaAdsPage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
               gap: "clamp(20px, 3vw, 28px)",
             }}
           >

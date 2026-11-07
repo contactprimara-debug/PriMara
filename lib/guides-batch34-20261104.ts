@@ -996,7 +996,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "Use a local number as the main line on your website and Google profile, because patients and Google both tie it to your area. A toll-free number can sit beside it as a secondary line if you serve a wide area. Keep every listing consistent and tap-to-call.",
     author: "Liam Costello",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 5,
     sections: [
       h2("The choice most practices face"),
@@ -1027,7 +1027,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Make the number easy to use"),
       p(
-        "On a phone, the number should be a tap-to-call link at the top of every page, as described in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website). Write the number in text, too, because desktop visitors and printed pages need it. Use the same format everywhere, such as (561) 555-0100, to keep your citations tidy."
+        "On a phone, the number should be a tap-to-call link at the top of every page, as described in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website). Write the number in text, too, because desktop visitors and printed pages need it. Use the same format everywhere, such as (561) 555-0100, to keep your citations tidy. To find every copy of the number, including ones sitting in images and downloadable forms, follow the steps in [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website)."
       ),
       h3("If you serve more than one office"),
       p(
@@ -1085,12 +1085,12 @@ export const guidesPartThirtySeven: Guide[] = [
       "On a phone, a pop-up, cookie banner or chat widget that covers the page can hide the call button and drive visitors away. Keep overlays small, delay them, make them easy to close, and test the page on a real phone to confirm the phone number and booking button stay visible.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 5,
     sections: [
       h2("Why overlays hurt on a phone"),
       p(
-        "On a desktop screen a small banner is an annoyance. On a phone screen the same banner can cover half the page. A person searching for a doctor, often with one hand, lands on your page and sees a cookie notice, a chat bubble and a newsletter pop-up before they see a phone number. Many close the page instead of closing three boxes."
+        "On a desktop screen a small banner is an annoyance. On a phone screen the same banner can cover half the page. A person searching for a doctor, often with one hand, lands on your page and sees a cookie notice, a chat bubble and a newsletter pop-up before they see a phone number. Many close the page instead of closing three boxes. A quick way to see whether an overlay is hiding your message is the five-second test in [what a new patient sees on a phone in the first five seconds](/guides/what-a-new-patient-sees-on-a-phone-in-the-first-five-seconds-of-a-primary-care-practice-home-page)."
       ),
       p(
         "Google has also said that intrusive interstitials, pop-ups that cover the main content right after a user arrives from search, can make a page harder to use and can affect how it is evaluated. You do not need to remove every overlay. You need to make sure they do not block what the visitor came for."

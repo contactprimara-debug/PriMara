@@ -17,7 +17,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Use one H1 that names what the page is about, then H2s for each main question a patient has, and H3s only to split an H2 into smaller parts. Headings are an outline, not a styling tool. Write them as plain phrases a patient would recognize, and never skip levels just to get a bigger font.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-11-06",
   "readMinutes": 6,
   "sections": [
     {
@@ -101,7 +101,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If you find yourself wanting a fourth level, the page is probably trying to cover two topics. Split it into two pages instead, each with its own H1. The same one-page, one-topic idea runs through our guide on [how to write a medical service page that ranks](/guides/how-to-write-a-medical-service-page-that-ranks)."
+      "text": "If you find yourself wanting a fourth level, the page is probably trying to cover two topics. Split it into two pages instead, each with its own H1. The same one-page, one-topic idea runs through our guide on [how to write a medical service page that ranks](/guides/how-to-write-a-medical-service-page-that-ranks). Let the main heading use the words a patient would type, and keep the clinical term in the first paragraph, as shown in [patient words versus clinical terms in service page names](/guides/patient-words-versus-clinical-terms-in-service-page-names-for-a-primary-care-practice) for a primary care practice."
     },
     {
       "type": "h2",
@@ -758,7 +758,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add one question to new-patient intake and phone scripts: how did you hear about us. Offer a short list of choices plus a write-in, have the front desk record the answer in a single field, and review the counts monthly next to your analytics. It is imperfect, but it catches what tracking misses, such as word of mouth.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-06",
   "readMinutes": 6,
   "sections": [
     {
@@ -845,7 +845,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "This question is about marketing source, not health. Do not ask what condition brought the patient in as part of marketing tracking, and do not send patient names, diagnoses or appointment reasons to ad platforms or analytics tools. Keep marketing attribution separate from clinical records. Our guide on [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why. One extra question on a short service survey costs patients nothing, and a [satisfaction survey invitation without health details](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) shows how to word the rest of it safely. The question belongs in the first call too, and our [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) shows where to ask it without slowing the caller down."
+      "text": "This question is about marketing source, not health. Do not ask what condition brought the patient in as part of marketing tracking, and do not send patient names, diagnoses or appointment reasons to ad platforms or analytics tools. Keep marketing attribution separate from clinical records. Our guide on [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why. One extra question on a short service survey costs patients nothing, and a [satisfaction survey invitation without health details](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) shows how to word the rest of it safely. The question belongs in the first call too, and our [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) shows where to ask it without slowing the caller down. While you ask where a caller found you, note their practical question as well, using the private tally in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice) to pick the next page to write."
     },
     {
       "type": "h2",
@@ -943,7 +943,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A canonical tag tells Google which version of a page is the main one when the same content can be reached at more than one address. Give every page one self-referencing canonical, redirect old or alternate addresses to it, and avoid publishing near-copies of the same page. Google treats canonicals as a strong hint, not a command.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-06",
   "readMinutes": 7,
   "sections": [
     {
@@ -1029,7 +1029,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website)."
+      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website). A downloadable PDF copy of a page can compete with the page itself, so see [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) for how to replace or redirect the older file."
     },
     {
       "type": "callout",
@@ -1287,7 +1287,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "In your Business Profile, open the booking or appointment link setting, add the web address where patients can book, save it, and then test it on a phone. Link to a page that works without extra steps and does not collect health details. If you use a booking provider, Google may connect through it instead.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-06",
   "readMinutes": 6,
   "sections": [
     {
@@ -1341,7 +1341,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it. Keep the appointment link and the website link separate, and read our guide on [which page to use as the website link on a Google profile](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) before you decide which page the website field should open."
+      "text": "Some online scheduling tools work with Google so patients can book from the listing. If you use one, follow that provider's connection instructions and Google's help page on bookings through a provider. Confirm that the connection does not send patient details to systems you have not reviewed, and that you have a business associate agreement in place with the vendor where one applies. Give the appointment link its own [UTM labels](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice), so you can see how many visits came from that button rather than the website button. If the practice offers video visits, point that booking link at its [virtual visits page](/guides/virtual-visits-page-for-a-primary-care-practice-what-can-and-cannot-be-done-by-video), where patients can read what a video visit covers before they book it. Keep the appointment link and the website link separate, and read our guide on [which page to use as the website link on a Google profile](/guides/which-page-to-use-as-the-website-link-on-a-google-business-profile-for-a-medical-practice) before you decide which page the website field should open. If you also embed the scheduler on your own contact page, [embedding an appointment widget safely on the contact page of a counseling practice](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) lists what to check before it goes live."
     },
     {
       "type": "h2",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-06",
   "readMinutes": 7,
   "sections": [
     {
@@ -1531,7 +1531,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership."
+      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership. Ownership only protects the practice if access is removed when people leave, so pair this advice with the same-day steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) and keep the account list current."
     },
     {
       "type": "callout",
@@ -1620,7 +1620,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Run important pages through Google's Rich Results Test to see whether the markup is valid and eligible for Google features, and through the Schema Markup Validator to check the syntax generally. Fix errors first, then warnings you care about, and confirm the markup matches what is visible on the page. Passing a test does not guarantee a rich result.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-10-15",
+  "dateModified": "2026-11-06",
   "readMinutes": 6,
   "sections": [
     {
@@ -1709,7 +1709,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A page can pass every test and still not show a rich result. Google decides what to display, and it may show no special result at all. Valid markup is a way to be understood correctly, not a promise of placement. Never add markup that describes things the page does not show, because that can violate Google's structured data policies. Job postings are one of the types worth testing, and the guide to a [careers page and job posting markup](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) lists what to check before you publish."
+      "text": "A page can pass every test and still not show a rich result. Google decides what to display, and it may show no special result at all. Valid markup is a way to be understood correctly, not a promise of placement. Never add markup that describes things the page does not show, because that can violate Google's structured data policies. Job postings are one of the types worth testing, and the guide to a [careers page and job posting markup](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) lists what to check before you publish. If you are still deciding which types to add before testing, the overview in [schema markup for a medical practice website, explained](/guides/schema-markup-for-a-medical-practice-website-explained) lists the types a practice site needs at a minimum and what not to mark up."
     },
     {
       "type": "callout",

@@ -312,7 +312,7 @@ export default function PrimaryCarePage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(340px, 100%), 1fr))",
               gap: "clamp(32px, 4vw, 48px)",
             }}
           >
@@ -528,7 +528,7 @@ export default function PrimaryCarePage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
               alignItems: "start",
               gap: "clamp(24px, 4vw, 40px)",
             }}
@@ -662,7 +662,7 @@ export default function PrimaryCarePage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))",
               gap: "clamp(24px, 4vw, 40px)",
               marginBottom: "clamp(48px, 6vw, 72px)",
             }}
@@ -777,7 +777,7 @@ export default function PrimaryCarePage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
               gap: "24px",
               marginBottom: "24px",
             }}

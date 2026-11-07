@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -144,7 +144,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep the address, phone number and hours near the top of the page, written the same way as on your Google listing. Mismatches between the two are a common source of confused patients and wrong information in search results. The same list of items belongs in the confirmation message, and a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) explains how to word it so it never reveals the reason for the visit."
+        "text": "Keep the address, phone number and hours near the top of the page, written the same way as on your Google listing. Mismatches between the two are a common source of confused patients and wrong information in search results. The same list of items belongs in the confirmation message, and a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) explains how to word it so it never reveals the reason for the visit. The same address, phone number and hours should appear on printed appointment cards, and [appointment cards and brochures that match your website](/guides/appointment-cards-and-brochures-that-match-the-website-for-a-primary-care-practice) shows how to proof them against the live page."
       }
     ],
     "faqs": [
@@ -429,7 +429,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "An annual wellness visit page explains what the visit is, who it is for, how to book it and how it differs from a physical, without promising results or guaranteed coverage. Describe the service in neutral terms, send readers to their plan for cost details, and cite Medicare's own description.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T14:40:00Z",
-    "dateModified": "2026-11-04",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -539,7 +539,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office. Patients who raise a new concern during the visit may see a second charge, so explain [preventive visit versus problem visit billing](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) in plain words on the same page. Practices that also see women for routine visits can describe those in a separate [women's health visit page that avoids clinical claims](/guides/womens-health-visit-page-for-a-primary-care-practice-without-clinical-claims) rather than crowding the annual visit page."
+        "text": "Link the page from your primary care services list, your new-patients page and the appointment booking flow. Add the visit to the service list on your Google Business Profile in plain words, using the same name as the page, so the two match. Mismatches between the profile and the website are a common reason a service does not show up in search. Patients who book a yearly visit often need a form completed at the same appointment, and a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) saves a second call to the office. Patients who raise a new concern during the visit may see a second charge, so explain [preventive visit versus problem visit billing](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) in plain words on the same page. Practices that also see women for routine visits can describe those in a separate [women's health visit page that avoids clinical claims](/guides/womens-health-visit-page-for-a-primary-care-practice-without-clinical-claims) rather than crowding the annual visit page. Name the page the way patients ask for it, such as a yearly checkup, and explain the formal term in one sentence, following [patient words versus clinical terms in service page names](/guides/patient-words-versus-clinical-terms-in-service-page-names-for-a-primary-care-practice)."
       }
     ],
     "faqs": [
@@ -826,7 +826,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A telehealth instructions page tells clients how to join a video session: what device and connection to use, when the link arrives, how to find a private space, and what to do if the call drops. Include a backup phone number, and send no clinical details by email or text.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T15:20:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-06",
     "readMinutes": 6,
     "sections": [
       {
@@ -957,7 +957,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the instructions from your booking confirmation, your reminders, your first-session page and the telehealth section of your Google Business Profile. Update it whenever you change platforms, since stale instructions cause more confusion than none."
+        "text": "Link the instructions from your booking confirmation, your reminders, your first-session page and the telehealth section of your Google Business Profile. Update it whenever you change platforms, since stale instructions cause more confusion than none. If the website itself is down when a client needs the video link, the front desk needs a ready answer, as laid out in [what a medical practice does when its website goes down during office hours](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) with the phone number kept working."
       }
     ],
     "faqs": [

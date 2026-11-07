@@ -605,12 +605,12 @@ export const guidesPartTwentyThree: Guide[] = [
     title: "Grief Counseling Page for a Counseling Practice Without Clinical Claims",
     metaTitle: "Grief Counseling Page Without Clinical Claims",
     metaDescription:
-      "How to write a grief counseling page that is gentle, searchable and free of clinical promises. Call (561) 291-2681.",
+      "How to write a grief counseling page that is gentle, easy to find and free of clinical promises, with crisis resources included. (561) 291-2681",
     answer:
       "A grief counseling page should speak gently, say who the counselor is and how sessions work, and describe the support as a place to talk, not a way to fix or end grief. It should avoid timelines, stages presented as rules, and claims of healing, and it should include crisis resources for someone in distress.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Begin where the reader is"),
@@ -878,12 +878,12 @@ export const guidesPartTwentyThree: Guide[] = [
     title: "Transferring Care From Another Doctor: A Page for a Primary Care Practice",
     metaTitle: "Transferring Care to a New Primary Care Practice",
     metaDescription:
-      "How a primary care practice can explain on its website how a patient transfers care from another doctor. Call (561) 291-2681.",
+      "How a primary care practice can explain on its website how a new patient transfers care from another doctor, with records steps. (561) 291-2681",
     answer:
       "A transfer-of-care page tells a new patient the steps for moving from another doctor: sign a records release, bring a medication list, book a first visit and keep seeing the current doctor until the new visit happens. It should explain how long records take to arrive and never promise a specific appointment date or outcome.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T12:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Why people search for this"),
@@ -924,7 +924,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "End the page with a booking path and a phone number. Our guides on [what to bring to a first appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) and on [keeping the accepting-new-patients status accurate](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories) support this page directly, and the [new-patient welcome message](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) is the follow-up that continues it."
       ),
       p(
-        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third. A named care coordinator can help new patients gather records and referrals, and our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) shows how to introduce that person. Patients who need their records when a practice shuts down will look for the custodian, which our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains how to name and publish. Families moving to the area with an infant can be pointed to a [new baby first visit scheduling page](/guides/new-baby-first-visit-scheduling-page-for-a-family-medicine-practice-without-clinical-claims) that explains how to register a baby and what to bring."
+        "Staff should know the page as well as patients do. When the front desk can say the same steps in the same order, a caller who has not read the page gets the same answer, and the booking happens on the first call instead of the third. A named care coordinator can help new patients gather records and referrals, and our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) shows how to introduce that person. Patients who need their records when a practice shuts down will look for the custodian, which our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains how to name and publish. Families moving to the area with an infant can be pointed to a [new baby first visit scheduling page](/guides/new-baby-first-visit-scheduling-page-for-a-family-medicine-practice-without-clinical-claims) that explains how to register a baby and what to bring. The same page can help in reverse when a patient is leaving, and [wording for patients who move out of the area](/guides/patients-who-move-out-of-the-area-records-transfer-and-referral-wording-for-a-primary-care-practice) gives plain language for records requests, a last date of care and the patient's choice of a new office."
       ),
     ],
     faqs: [
@@ -970,12 +970,12 @@ export const guidesPartTwentyThree: Guide[] = [
     title: "Chronic Condition Follow-Up Visits Page for a Primary Care Practice Without Clinical Claims",
     metaTitle: "Chronic Condition Follow-Up Visits Page Guide",
     metaDescription:
-      "How a primary care practice can describe follow-up visits for ongoing conditions without clinical claims. Call (561) 291-2681.",
+      "How a primary care practice can describe follow-up visits for ongoing conditions in plain words, without clinical claims or promises. Call (561) 291-2681",
     answer:
       "A follow-up visits page tells patients with ongoing health needs how the practice schedules regular visits, what to bring, how refills and lab appointments fit in, and how to reach the office between visits. It describes the process, not the medicine, and never promises that a condition will be controlled, reversed or improved.",
     author: "Liam Costello",
     publishDate: "2026-10-16T12:20:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Who this page is for"),
@@ -1013,7 +1013,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Make it findable and kind"),
       p(
-        "Patients may search for ongoing care without a condition name, so use the phrases they use, such as follow-up visits and regular check-ins. Add the page to your services menu and mention it from your [visit types and appointment lengths page](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). Include the practice phone and a plain line on how to reach the office after hours, as set out in our guide on [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who have just left a hospital search for a different kind of follow-up, covered in our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims). Patients who cannot easily travel to follow up visits may ask about house calls, which our guide to a [home visits and house calls page](/guides/home-visits-and-house-calls-page-for-a-primary-care-practice-without-clinical-claims) explains how to answer plainly. Patients who return for follow-up often ask what the summary from their last visit is, and an [after visit summary explained page](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) answers that in general terms without interpreting anyone's own results. Patients with several ongoing conditions may also ask about monthly care coordination, which our guide to [chronic care management explained on a primary care website](/guides/chronic-care-management-program-explained-on-a-primary-care-practice-website) covers. Patients who only need a quick reading between provider visits should find that explained on a [nurse visit page for blood pressure checks and injections](/guides/nurse-visit-page-for-injections-and-blood-pressure-checks-at-a-primary-care-practice-without-clinical-claims) so they do not book a long slot by mistake."
+        "Patients may search for ongoing care without a condition name, so use the phrases they use, such as follow-up visits and regular check-ins. Add the page to your services menu and mention it from your [visit types and appointment lengths page](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). Include the practice phone and a plain line on how to reach the office after hours, as set out in our guide on [after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who have just left a hospital search for a different kind of follow-up, covered in our guide to a [post-hospital follow-up visit page for a primary care practice](/guides/post-hospital-follow-up-visit-page-for-a-primary-care-practice-without-clinical-claims). Patients who cannot easily travel to follow up visits may ask about house calls, which our guide to a [home visits and house calls page](/guides/home-visits-and-house-calls-page-for-a-primary-care-practice-without-clinical-claims) explains how to answer plainly. Patients who return for follow-up often ask what the summary from their last visit is, and an [after visit summary explained page](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) answers that in general terms without interpreting anyone's own results. Patients with several ongoing conditions may also ask about monthly care coordination, which our guide to [chronic care management explained on a primary care website](/guides/chronic-care-management-program-explained-on-a-primary-care-practice-website) covers. Patients who only need a quick reading between provider visits should find that explained on a [nurse visit page for blood pressure checks and injections](/guides/nurse-visit-page-for-injections-and-blood-pressure-checks-at-a-primary-care-practice-without-clinical-claims) so they do not book a long slot by mistake. Patients who come back regularly also ask how refills work, so link this page to a [prescription refill request page for a primary care practice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) that explains the process and notice period without giving any medication advice."
       ),
     ],
     faqs: [

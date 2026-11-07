@@ -17,12 +17,12 @@ export const guidesPartEight: Guide[] = [
     title: "Therapy Group Practice Marketing Playbook",
     metaTitle: "Therapy Group Practice Marketing Playbook",
     metaDescription:
-      "How a multi-therapist group practice builds referral volume without competing against its own clinicians. Call (561) 291-2681.",
+      "How a multi-therapist group practice builds referral volume and a steady flow of new clients without competing against its own clinicians. (561) 291-2681",
     answer:
       "A group therapy practice markets differently than a solo therapist: instead of one personal brand, it needs a practice-level Google Business Profile plus individual clinician visibility, a website that routes each inquiry to the right specialty and availability, and a review and referral system that doesn't pit therapists against each other for the same leads. Getting the routing wrong is the most common reason group practices grow slower than their solo-therapist competitors.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-06",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Group practices have a structural marketing problem solo therapists don't" },
@@ -49,7 +49,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "Avoid the internal-competition trap" },
       {
         type: "p",
-        text: "The fastest way to stall growth in a group practice is to let marketing create internal competition — one clinician's bio page ranking well while five others get no inquiries, or a paid campaign sending every lead to whichever therapist happens to have the loudest personal following. The fix is operational, not creative: track inquiry volume per specialty and per clinician monthly, and adjust which specialty pages get promoted (in Google Posts, in ad spend, in the homepage's featured services) based on which clinicians actually have open capacity. A practice with three full therapists and two with open slots should be marketing the two with open slots, not the practice as a whole. Because fees are a top question for new clients, a plain explanation of rates, out-of-network payment and sliding scale spots on one page is worth building, as our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) describes. If your practice runs therapy groups, give each group its own page, and our [group therapy page for a counseling practice without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) shows what to say and what to leave out. Groups with clinicians licensed in different states should publish a clear [licensure and states served page for telehealth counseling](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) so clients book with the right person. A page that says it accepts all Medicare can mislead patients, so check [how to word Medicare and Medicaid acceptance on a practice website](/guides/medicare-and-medicaid-acceptance-wording-on-a-medical-practice-website) before publishing the insurance list.",
+        text: "The fastest way to stall growth in a group practice is to let marketing create internal competition — one clinician's bio page ranking well while five others get no inquiries, or a paid campaign sending every lead to whichever therapist happens to have the loudest personal following. The fix is operational, not creative: track inquiry volume per specialty and per clinician monthly, and adjust which specialty pages get promoted (in Google Posts, in ad spend, in the homepage's featured services) based on which clinicians actually have open capacity. A practice with three full therapists and two with open slots should be marketing the two with open slots, not the practice as a whole. Because fees are a top question for new clients, a plain explanation of rates, out-of-network payment and sliding scale spots on one page is worth building, as our guide to the [therapy practice fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained) describes. If your practice runs therapy groups, give each group its own page, and our [group therapy page for a counseling practice without clinical claims](/guides/group-therapy-page-for-a-counseling-practice-without-clinical-claims) shows what to say and what to leave out. Groups with clinicians licensed in different states should publish a clear [licensure and states served page for telehealth counseling](/guides/licensure-and-states-served-page-for-a-telehealth-counseling-practice) so clients book with the right person. A page that says it accepts all Medicare can mislead patients, so check [how to word Medicare and Medicaid acceptance on a practice website](/guides/medicare-and-medicaid-acceptance-wording-on-a-medical-practice-website) before publishing the insurance list. Directory profiles for each clinician should match the group's own website, and the guide on [Psychology Today and therapist directory profiles for a counseling practice](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice) explains how to keep names, licenses and phone numbers consistent across them.",
       },
       {
         type: "callout",
@@ -384,12 +384,12 @@ export const guidesPartEight: Guide[] = [
     title: "Google Business Profile Services List Optimization for a Medical Practice",
     metaTitle: "GBP Services List Optimization for a Practice",
     metaDescription:
-      "How to build out the services section of a medical practice's Google Business Profile correctly. Call (561) 291-2681.",
+      "How to build out the services section of a medical practice's Google Business Profile correctly, with plain names and honest descriptions. (561) 291-2681",
     answer:
       "The Google Business Profile services list should name every real service the practice offers as its own individual line item, in the patient's own language rather than clinical shorthand, matched to the primary category chosen for the listing — a practice that lumps everything into three vague categories is invisible to the specific searches ('does this urgent care do sports physicals') that a fully built-out services list captures automatically.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "The services list is a search-matching tool, not a brochure" },
@@ -429,7 +429,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "For a practice running its own Google Business Profile without outside help, a simple test catches most of the gap: have someone unfamiliar with the practice try to search for five or six specific things the practice actually does, the way a patient would phrase it, and see whether each one is represented in the services list as its own entry. Anything missing from that quick test is exactly what should be added first. Keep the services list consistent with your insurance details, which [how to build an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) explains. Once the services are right, make sure the profile's booking button points to the right page, as covered in [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile).",
+        text: "For a practice running its own Google Business Profile without outside help, a simple test catches most of the gap: have someone unfamiliar with the practice try to search for five or six specific things the practice actually does, the way a patient would phrase it, and see whether each one is represented in the services list as its own entry. Anything missing from that quick test is exactly what should be added first. Keep the services list consistent with your insurance details, which [how to build an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) explains. Once the services are right, make sure the profile's booking button points to the right page, as covered in [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile). Services only help when they sit under the right category, so check your primary and secondary choices against the guide to [choosing Google Business Profile categories for a medical practice](/guides/choosing-google-business-profile-categories-for-a-medical-practice) before you add more items to the list.",
       },
     ],
     faqs: [
@@ -463,12 +463,12 @@ export const guidesPartEight: Guide[] = [
     title: "How to Handle Google Business Profile Suggested Edits",
     metaTitle: "Handling Google Business Profile Suggested Edits",
     metaDescription:
-      "What to do when Google or the public suggests a change to your practice's listing. Call (561) 291-2681.",
+      "What to do when Google or the public suggests a change to your listing: how to check it, accept or reject it, and keep it correct. (561) 291-2681",
     answer:
       "Anyone can suggest an edit to a Google Business Profile — a change to hours, address, or category — and some suggestions apply automatically before the owner even reviews them, so a practice needs to check its listing's edit history regularly, not just when something looks wrong; the fix for an incorrect suggested edit is to review and revert it in the Business Profile dashboard, not to ignore it and assume Google will catch the error on its own.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Suggested edits are more common — and more consequential — than most practices realize" },
@@ -507,7 +507,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "It's also worth knowing that not every suggested edit is a mistake — plenty are genuine corrections from patients noticing something the practice hadn't updated yet, like a phone number that changed or a new suite number after a move. The goal isn't to distrust every suggested edit, it's to have a real process for checking that whatever changed is actually accurate before it sits live for weeks unnoticed. Wrong details that spread to AI assistants usually trace back to listings like these; see [fixing wrong practice information in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer).",
+        text: "It's also worth knowing that not every suggested edit is a mistake — plenty are genuine corrections from patients noticing something the practice hadn't updated yet, like a phone number that changed or a new suite number after a move. The goal isn't to distrust every suggested edit, it's to have a real process for checking that whatever changed is actually accurate before it sits live for weeks unnoticed. Wrong details that spread to AI assistants usually trace back to listings like these; see [fixing wrong practice information in an AI chatbot answer](/guides/fix-wrong-information-about-your-practice-in-an-ai-chatbot-answer). If an old manager is still listed on the profile and could approve or make edits, remove them using the steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) so only current staff can change the listing.",
       },
     ],
     faqs: [
@@ -854,12 +854,12 @@ export const guidesPartEight: Guide[] = [
     title: "Google Business Profile Photos Checklist for a Medical Practice",
     metaTitle: "GBP Photos Checklist for a Medical Practice",
     metaDescription:
-      "What photos to upload, how often, and what to avoid on a practice's Google Business Profile. Call (561) 291-2681.",
+      "What photos to upload, how often, and what to avoid on a practice's Google Business Profile, including patient privacy rules. Call (561) 291-2681",
     answer:
       "A Google Business Profile needs a real exterior photo so patients can identify the building, a real interior/waiting room photo, real team or provider photos, and a logo and cover photo — all real, none stock — uploaded on an ongoing basis rather than once at setup, since Google's own data shows listings with more recent, regularly added photos get more search and Maps views than listings with a static photo set from years ago.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Photos are a trust signal before a patient ever calls" },
@@ -905,7 +905,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "Photos added by patients and other visitors also show up on the listing alongside the practice's own, and they're worth checking periodically too — an old, poor-quality, or unflattering visitor photo sitting near the top of the gallery can be reported for removal if it violates Google's photo guidelines, though a practice can't remove a visitor photo simply for being unflattering if it's genuine and doesn't otherwise break the rules. Use the same interior photos on your website that you upload here, arranged on an [office tour page for a counseling practice](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) with captions and alt text, so the two always agree.",
+        text: "Photos added by patients and other visitors also show up on the listing alongside the practice's own, and they're worth checking periodically too — an old, poor-quality, or unflattering visitor photo sitting near the top of the gallery can be reported for removal if it violates Google's photo guidelines, though a practice can't remove a visitor photo simply for being unflattering if it's genuine and doesn't otherwise break the rules. Use the same interior photos on your website that you upload here, arranged on an [office tour page for a counseling practice](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice) with captions and alt text, so the two always agree. Before you upload any picture that shows a patient, get a signed, separate permission, and start from the draft wording in [patient photo and video release wording for a practice website](/guides/patient-photo-and-video-release-wording-for-images-on-a-medical-practice-website) before your attorney reviews it.",
       },
     ],
     faqs: [

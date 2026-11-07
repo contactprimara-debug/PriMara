@@ -757,24 +757,24 @@ export const guidesPartTwentyTwo: Guide[] = [
     title: "Psychology Today and Therapist Directory Profiles for a Counseling Practice",
     metaTitle: "Therapist Directory Profiles for a Counseling Practice",
     metaDescription:
-      "How a counseling practice can set up therapist directory profiles that match its website and avoid outcome claims. Call (561) 291-2681.",
+      "How a counseling practice can set up Psychology Today and other therapist directory profiles that match its website, with no outcome claims. (561) 291-2681",
     answer:
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
       p(
-        "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers. Whatever titles you list on a directory profile should match the state record, as explained in our guide to [therapist credentials and license titles on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website)."
+        "A large share of people looking for a therapist start on a directory rather than a practice website. They filter by location, insurance, specialty and whether a clinician offers telehealth. Psychology Today is the best-known of these, and others such as Open Path, TherapyDen and insurer provider lists serve similar searchers. Whatever titles you list on a directory profile should match the state record, as explained in our guide to [therapist credentials and license titles on a counseling website](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website). The quickest check is to compare the name, address, phone and license wording on the profile with your website, line by line."
       ),
       p(
         "Directory pages also tend to rank for a clinician's name, which means a new client who searches for you may see the profile before your own site. That makes the profile part of your reputation, whether you wrote it carefully or not. Directory profiles should say the same thing as the practice's own site, so a client sees one consistent description."
       ),
       h2("Make the profile match everything else"),
       p(
-        "Search engines and people both compare. If the directory lists one address and Google lists another, you create doubt. Before writing anything, gather the exact practice name, address, phone number, license type and number as shown in the state record, and use them unchanged. Our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) explains what breaks and how to repair it."
+        "Search engines and people both compare. If the directory lists one address and Google lists another, you create doubt. Before writing anything, gather the exact practice name, address, phone number, license type and number as shown in the state record, and use them unchanged. Our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) explains what breaks and how to repair it. If the directory shows a shortened or older version of your practice name, use the name sheet described in [practice name consistency across directories and Google](/guides/practice-name-abbreviations-and-legal-name-consistency-across-insurance-directories-and-google-for-a-counseling-practice) to decide which form to keep."
       ),
       ul(
         "Use the title your license allows and the license number as the board issued it.",
@@ -852,12 +852,12 @@ export const guidesPartTwentyTwo: Guide[] = [
     title: "Conversion Tracking for Third-Party Booking Widgets on a Medical Practice Website",
     metaTitle: "Tracking Booking Widget Conversions for a Practice",
     metaDescription:
-      "How a practice can count appointments booked through a scheduling tool without sending health details to analytics. Call (561) 291-2681.",
+      "How a practice can count appointments booked through a third-party scheduling tool without sending health details to analytics. Call (561) 291-2681.",
     answer:
       "Track the click that opens the booking tool and, where the vendor allows it, the confirmation step, using events that carry no names or visit reasons. Many hosted schedulers limit what you can install, so check the vendor's documentation, keep a clean record of where bookings come from and never pass health details into analytics.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:40:00Z",
-    dateModified: "2026-10-15",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("The gap between a click and a booking"),
@@ -875,7 +875,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         ["Vendor-hosted page with its own tag field", "Whatever the vendor allows, often a Google tag or a post-booking redirect."]
       ),
       p(
-        "Hosted platforms vary in what they let a practice install, so read the vendor's documentation or ask support before building anything. If the tool allows a redirect after booking, send patients to a confirmation page on your own site. That page then works like any other thank-you page; see our guide to a [contact form thank-you page](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it)."
+        "Hosted platforms vary in what they let a practice install, so read the vendor's documentation or ask support before building anything. If the tool allows a redirect after booking, send patients to a confirmation page on your own site. That page then works like any other thank-you page; see our guide to a [contact form thank-you page](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it). Before any tracking is added, review what the widget itself loads and collects, using the vendor questions in [embedding an appointment widget safely on the contact page](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice)."
       ),
       h2("A clean way to set it up"),
       ol(

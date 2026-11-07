@@ -663,7 +663,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "Use the name your practice uses in the real world: the same name on your sign, website, letterhead and state records. Do not add keywords, cities, taglines or services to rank higher. Google's rules treat that as misrepresentation, and a profile with a stuffed name can be suspended.",
     author: "Gio LaRoche",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-06",
     readMinutes: 5,
     sections: [
       h2("The rule in one sentence"),
@@ -690,7 +690,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "The name on insurance directories and your NPI record."
       ),
       p(
-        "If these disagree, pick the real one and bring the others into line. That is the same consistency work described in [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and it helps patients as much as it helps Google."
+        "If these disagree, pick the real one and bring the others into line. That is the same consistency work described in [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it), and it helps patients as much as it helps Google. The same sheet should list your legal name, public name and the short forms you allow, as set out in [practice name consistency across insurance directories and Google](/guides/practice-name-abbreviations-and-legal-name-consistency-across-insurance-directories-and-google-for-a-counseling-practice)."
       ),
       h2("If you already have a stuffed name"),
       p(

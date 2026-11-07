@@ -518,12 +518,12 @@ export const guidesPartNine: Guide[] = [
     title: "Schema Markup for a Medical Practice Website, Explained",
     metaTitle: "Schema Markup for Medical Practice Websites, Explained",
     metaDescription:
-      "What schema markup is, which types matter for a medical practice, and how to check if yours is working. Plain language. Call (561) 291-2681.",
+      "What schema markup is, which types a medical practice needs, and how to check yours with Google's free testing tools. Plain language. (561) 291-2681",
     answer:
       "Schema markup is structured code added to a webpage that states facts directly to Google and AI search tools — your practice name, address, hours, services, and FAQ answers — instead of making them infer it from prose. A medical practice site should carry LocalBusiness or MedicalBusiness, Service, FAQPage, and BreadcrumbList schema at minimum, verified with Google's free Rich Results Test.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "What schema markup actually is" },
@@ -1082,7 +1082,7 @@ export const guidesPartNine: Guide[] = [
       "Keyword research for a medical practice means listing every service you offer, crossing each one against every city or neighborhood you actually serve, and checking real search volume and competition for each combination with a tool like Google Keyword Planner — then prioritizing phrases with clear booking intent (\"therapist in Lakeland\") over purely informational ones (\"what is therapy\").",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-06",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Start with the service × city grid, not a brainstorm" },
@@ -1123,7 +1123,7 @@ export const guidesPartNine: Guide[] = [
       { type: "h2", text: "What to do with the finished list" },
       {
         type: "p",
-        text: "Group it by intent, not alphabetically. Transactional service × city phrases become dedicated pages. Related informational phrases that don't deserve their own page become FAQ sections or blog posts. Phrases with real volume but no clear match to anything you currently offer are worth a second look — sometimes they reveal a service patients want that isn't on the site yet at all, which is as valuable a finding as the keyword itself. Pages only rank if Google can crawl and index them; [XML sitemaps and robots.txt for a practice website](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) covers the basics. Searching your top phrases yourself and noting who shows up gives you a short list of real competitors; see [how to analyze local competitors for a medical practice](/guides/how-to-analyze-local-competitors-for-a-medical-practice).",
+        text: "Group it by intent, not alphabetically. Transactional service × city phrases become dedicated pages. Related informational phrases that don't deserve their own page become FAQ sections or blog posts. Phrases with real volume but no clear match to anything you currently offer are worth a second look — sometimes they reveal a service patients want that isn't on the site yet at all, which is as valuable a finding as the keyword itself. Pages only rank if Google can crawl and index them; [XML sitemaps and robots.txt for a practice website](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website) covers the basics. Searching your top phrases yourself and noting who shows up gives you a short list of real competitors; see [how to analyze local competitors for a medical practice](/guides/how-to-analyze-local-competitors-for-a-medical-practice). Tools show what people search, but the front desk hears the exact words, and a simple weekly tally of practical questions as described in [choosing page topics from the phrases clients use on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice) adds real phrases to your list.",
       },
     ],
     faqs: [

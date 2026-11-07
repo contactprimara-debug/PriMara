@@ -275,7 +275,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "An appointment request form should collect only what the front desk needs to call the patient back: name, phone, best time to call, new or returning, and insurance name. Leave out symptoms, reason for the visit and Social Security numbers. Fewer fields get more completed forms and expose less private information.",
     author: "Gio LaRoche",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("The form has one job"),
@@ -309,7 +309,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Honest response times"),
       p(
-        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page."
+        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page. When a scheduling widget sits beside the form, keep a phone number and this short form next to it, as the [safe widget embedding checklist](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) explains."
       ),
       h2("Building it so it works"),
       ul(
@@ -320,7 +320,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h2("Tracking the form without private details"),
       p(
-        "After a successful submission, send the visitor to a thank-you page and count visits to that page as the conversion. That records that a request happened and which page it came from, and nothing else. Our guide on [thank-you pages after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) shows the setup. If the form asks for a mobile number, the [text message opt-in wording for web forms](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) shows how to word the consent box separately from the appointment request."
+        "After a successful submission, send the visitor to a thank-you page and count visits to that page as the conversion. That records that a request happened and which page it came from, and nothing else. Our guide on [thank-you pages after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) shows the setup. If the form asks for a mobile number, the [text message opt-in wording for web forms](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) shows how to word the consent box separately from the appointment request. Requests wait in an inbox until someone opens them, so send the notification to the shared address described in [a shared role mailbox for website forms at a medical practice](/guides/shared-role-mailbox-instead-of-a-staff-members-inbox-for-website-forms-at-a-medical-practice) and name a person who checks it each day."
       ),
     ],
     faqs: [
@@ -367,7 +367,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A first-time client form for a counseling practice should feel safe to fill in. Ask for a first name, a phone or email the person has marked as private, and a preferred contact time. Skip the story of why they are reaching out. Add a short privacy notice, a crisis line and an honest reply time.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("A different kind of form"),
@@ -401,7 +401,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h2("Set a response time you can keep"),
       p(
-        "People who reach out to a counselor often feel it takes courage. Waiting days for a reply can feel like a rejection. Choose a time you can meet, such as one business day, say it above the button, and put a person in charge of checking the inbox. After the form is sent, an automatic reply should confirm receipt and state the reply time, as our guide to an [auto reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) explains."
+        "People who reach out to a counselor often feel it takes courage. Waiting days for a reply can feel like a rejection. Choose a time you can meet, such as one business day, say it above the button, and put a person in charge of checking the inbox. After the form is sent, an automatic reply should confirm receipt and state the reply time, as our guide to an [auto reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) explains. For email questions that arrive outside the form, such as a simple insurance question, [answering a prospective client by email without sharing private details](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) gives a short reply to adapt."
       ),
       table(
         ["If your practice", "A reasonable promise"],
@@ -410,7 +410,7 @@ export const guidesPartTwentySeven: Guide[] = [
         ["Has a waitlist", "We reply within two business days and share the expected wait for a first appointment."]
       ),
       p(
-        "If you have a waiting list, say so. Our guide to [waitlist pages for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to explain it without losing the visitor. Because the public contact form should stay short, leave the emergency contact off it and explain that step on an [emergency contact request on intake page](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that clients read before the secure intake packet. A primary care office faces similar choices when it replies to a web form, as shown in this guide to [contact form confirmation email wording without health details](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details). If the form collects a mobile number for texts, add a separate unchecked box using the [text message opt-in wording for a web form](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) and keep it optional."
+        "If you have a waiting list, say so. Our guide to [waitlist pages for a therapy practice](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) shows how to explain it without losing the visitor. Because the public contact form should stay short, leave the emergency contact off it and explain that step on an [emergency contact request on intake page](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) that clients read before the secure intake packet. A primary care office faces similar choices when it replies to a web form, as shown in this guide to [contact form confirmation email wording without health details](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details). If the form collects a mobile number for texts, add a separate unchecked box using the [text message opt-in wording for a web form](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) and keep it optional. Where the form sends its notices matters as much as the fields, and [a shared role mailbox for website forms](/guides/shared-role-mailbox-instead-of-a-staff-members-inbox-for-website-forms-at-a-medical-practice) explains why more than one person should be able to read the inbox."
       ),
       h2("Behind the scenes"),
       ul(

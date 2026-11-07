@@ -43,7 +43,7 @@ export default function RelatedLinks({
         >
           {heading}
         </h2>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "16px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(240px, 100%), 1fr))", gap: "16px" }}>
           {items.map(({ href, label, description }) => (
             <Link prefetch={false}
               key={href}

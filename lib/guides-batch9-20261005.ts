@@ -15,11 +15,11 @@ export const guidesPartTwelve: Guide[] = [
     category: "How-to",
     title: "How to Read Google Search Console for a Medical Practice Website",
     metaTitle: "Reading Google Search Console for a Medical Practice",
-    metaDescription: "The Search Console reports a medical practice should check, what each number means, and what to act on. Call (561) 291-2681.",
+    metaDescription: "The Search Console reports a medical practice should check each month, what each number means, and which ones are worth acting on. (561) 291-2681",
     answer: "Google Search Console is a free tool that shows how your website performs in Google Search. For a practice, check three things: the Performance report for clicks and impressions by page and query, the Pages report for what is indexed, and the Sitemaps report. Review monthly, and act on drops that last several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -71,7 +71,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way. Reading the dashboard weekly is easier when the alert emails also reach the right people, which [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) explains in detail."
+        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way. Reading the dashboard weekly is easier when the alert emails also reach the right people, which [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) explains in detail. The Pages report sometimes lists old PDF files that still appear in search, and the cleanup steps in [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) explain how to redirect or remove them safely."
       }
     ],
     faqs: [
@@ -147,11 +147,11 @@ export const guidesPartTwelve: Guide[] = [
     category: "How-to",
     title: "Online Appointment Scheduling on a Medical Practice Website, Without Hurting SEO",
     metaTitle: "Online Scheduling on a Practice Site and SEO",
-    metaDescription: "How to add online booking to a medical practice website without losing SEO, tracking, or privacy. Call (561) 291-2681.",
+    metaDescription: "How to add online booking to a medical practice website without losing search visibility, call and form tracking, or patient privacy. (561) 291-2681",
     answer: "Add a clear booking button on every service page that links to your scheduler, and keep the page's own text, headings, and phone number in your site's HTML. An embedded scheduler is usually not read as your page's content, so it cannot carry your SEO. Track clicks, and confirm the vendor signs a Business Associate Agreement.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -194,11 +194,11 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A scheduler can collect names, reasons for visit, and insurance details, which may be protected health information. Before you add one, confirm the vendor will sign a Business Associate Agreement and that it is configured to collect only what you need. Do not send form contents, appointment reasons, or identifiers to analytics or advertising tags. Review our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website), and ask your compliance advisor to approve the setup. The booking confirmation is the right place to link a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice), so patients know what to expect on arrival."
+        "text": "A scheduler can collect names, reasons for visit, and insurance details, which may be protected health information. Before you add one, confirm the vendor will sign a Business Associate Agreement and that it is configured to collect only what you need. Do not send form contents, appointment reasons, or identifiers to analytics or advertising tags. Review our guide to [HIPAA-safe tracking for a medical website](/guides/hipaa-safe-tracking-for-a-medical-website), and ask your compliance advisor to approve the setup. The booking confirmation is the right place to link a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice), so patients know what to expect on arrival. The checklist in [embedding an appointment widget safely on a counseling contact page](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) turns these vendor questions into a short review you can complete before launch."
       },
       {
         "type": "p",
-        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot. Whatever booking tool you choose, the rules about lateness should be published on their own page, and our [late arrival and missed appointment policy page for a primary care practice](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) explains how to write one that stays fair. If your scheduling tool cannot move a booked visit by itself, publish a [rescheduling page with a clear phone fallback](/guides/rescheduling-an-appointment-online-page-for-a-primary-care-practice) that sends patients to the phone number instead."
+        "text": "Finally, add your booking link to your Google Business Profile, where Google supports an appointment link, so patients can book from the map listing directly. See [how to get more patients from your Google Business Profile](/guides/how-to-get-more-patients-from-google-business-profile). Our guide on [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile) walks through where to add it and how to test it on a phone. If you run a therapy practice, put a link to your [cancellation and no-show policy](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) right beside the booking button so clients see the notice window before they confirm a slot. Whatever booking tool you choose, the rules about lateness should be published on their own page, and our [late arrival and missed appointment policy page for a primary care practice](/guides/late-arrival-and-missed-appointment-policy-page-for-a-primary-care-practice) explains how to write one that stays fair. If your scheduling tool cannot move a booked visit by itself, publish a [rescheduling page with a clear phone fallback](/guides/rescheduling-an-appointment-online-page-for-a-primary-care-practice) that sends patients to the phone number instead. Whichever booking tool you choose, the confirmation and reminder messages it sends should follow the plain, no-health-details wording in [appointment reminder text and email wording for a primary care practice](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) so a lock screen reveals nothing private."
       }
     ],
     faqs: [
@@ -549,11 +549,11 @@ export const guidesPartTwelve: Guide[] = [
     category: "How-to",
     title: "How to Build an Accepted-Insurance Page for a Medical Practice That Ranks",
     metaTitle: "Accepted Insurance Page for a Medical Practice",
-    metaDescription: "How to build an accurate accepted-insurance page for a medical practice that patients trust and Google can read. Call (561) 291-2681.",
+    metaDescription: "How to build an accurate accepted-insurance page for a medical practice that patients trust and Google can read, with wording tips. Call (561) 291-2681.",
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       {
@@ -581,7 +581,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it."
+        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it. When someone emails to ask whether you take their plan, reply with the same facts as this page, as shown in [answering a prospective client who asks by email about insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details)."
       },
       {
         "type": "h2",

@@ -326,7 +326,7 @@ export default function TherapistSEOPage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(340px, 100%), 1fr))",
               gap: "clamp(32px, 4vw, 48px)",
             }}
           >
@@ -526,7 +526,7 @@ export default function TherapistSEOPage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
               gap: "24px",
             }}
           >

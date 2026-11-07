@@ -408,11 +408,11 @@ export const guidesPartEighteen: Guide[] = [
     "category": "How-to",
     "title": "QR Codes and Short Links for Review Requests at a Medical Practice",
     "metaTitle": "QR Codes and Short Links for Medical Review Requests",
-    "metaDescription": "How to make a Google review link, turn it into a QR code, and place it at the front desk without gating or incentives. (561) 291-2681.",
+    "metaDescription": "How to make a Google review link, turn it into a QR code, and place it at the practice front desk without gating or incentives. Call (561) 291-2681.",
     "answer": "Google gives every verified profile a direct review link. You can shorten it and turn it into a QR code that opens the review box on a patient's phone. Show the same code to every patient, never filter by satisfaction, and never offer anything in exchange for a review.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -492,7 +492,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Print the code at a size a phone camera can read across a short desk, with a clear border of white space. Test the printed copy, not only the screen version, because glare and low ink can make codes fail."
+        "text": "Print the code at a size a phone camera can read across a short desk, with a clear border of white space. Test the printed copy, not only the screen version, because glare and low ink can make codes fail. Printed cards and brochures carry these codes too, so check them against the website before every order, as described in [appointment cards and brochures that match the website](/guides/appointment-cards-and-brochures-that-match-the-website-for-a-primary-care-practice)."
       },
       {
         "type": "h2",
@@ -1038,11 +1038,11 @@ export const guidesPartEighteen: Guide[] = [
     "category": "How-to",
     "title": "UTM Links to Track Google Business Profile and Directory Clicks for a Medical Practice",
     "metaTitle": "UTM Links for Google Business Profile Tracking",
-    "metaDescription": "How to add UTM tags to your Google profile and directory links so Google Analytics shows which listing sent each visit. (561) 291-2681.",
+    "metaDescription": "How to add UTM tags to your Google profile and directory links so Google Analytics shows which listing sent each visit. Call (561) 291-2681.",
     "answer": "A UTM link is your normal web address with a few labels added, such as source and medium. Put one on your Google Business Profile website button and on each directory listing, and Google Analytics 4 will show which listing sent the visit. Never put patient information in any label.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -1137,7 +1137,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep expectations reasonable. A small practice may see only a handful of visits per listing per month, and a handful of visits cannot support a firm conclusion. Use the data to spot a listing that sends nothing, or one that sends visitors who leave at once, then check that listing for errors. Our guide on [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows how to build the routine. Every post button can carry a tagged link, and a counseling practice can find ready topics in these [post ideas that avoid clinical claims](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims). A chamber directory entry can carry a tagged link too, as shown in [chamber of commerce and local business association listings for a medical practice](/guides/chamber-of-commerce-and-local-business-association-listings-for-a-medical-practice)."
+        "text": "Keep expectations reasonable. A small practice may see only a handful of visits per listing per month, and a handful of visits cannot support a firm conclusion. Use the data to spot a listing that sends nothing, or one that sends visitors who leave at once, then check that listing for errors. Our guide on [reading GA4 reports each month](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) shows how to build the routine. Every post button can carry a tagged link, and a counseling practice can find ready topics in these [post ideas that avoid clinical claims](/guides/google-business-profile-post-ideas-for-a-counseling-practice-that-avoid-clinical-claims). A chamber directory entry can carry a tagged link too, as shown in [chamber of commerce and local business association listings for a medical practice](/guides/chamber-of-commerce-and-local-business-association-listings-for-a-medical-practice). Printed pieces such as cards and brochures can use their own labelled link, and [appointment cards and brochures that match the website](/guides/appointment-cards-and-brochures-that-match-the-website-for-a-primary-care-practice) explains how to keep them accurate between print runs."
       },
       {
         "type": "h2",
@@ -1232,7 +1232,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Once a week, spend fifteen minutes on six things: answer new reviews, test the phone line, glance at the Google profile, submit nothing but check the form inbox, open the website on a phone, and write down one number. A small routine catches most problems before patients notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-06",
     "readMinutes": 7,
     "sections": [
       {
@@ -1334,7 +1334,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one."
+        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea."
       },
       {
         "type": "h2",

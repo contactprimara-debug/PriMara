@@ -1043,7 +1043,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "The first screen of a primary care homepage should show the practice name, the town or neighborhood, a tap-to-call number, today's hours, whether it is accepting new patients, and one clear button to book or ask a question. Anything that pushes those down the page, such as a slideshow or a long welcome, costs calls.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Look at your homepage on a phone first"),
@@ -1089,7 +1089,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("A quick test"),
       p(
-        "Hand your phone to someone who has never seen the site and ask them to find the number, the hours and how to book. Time them. If it takes more than ten seconds, simplify the first screen before changing anything else on the page."
+        "Hand your phone to someone who has never seen the site and ask them to find the number, the hours and how to book. Time them. If it takes more than ten seconds, simplify the first screen before changing anything else on the page. For a fuller version of this check, with five testers, three set questions and a scoring table, see [the five-second phone test for a primary care home page](/guides/what-a-new-patient-sees-on-a-phone-in-the-first-five-seconds-of-a-primary-care-practice-home-page)."
       ),
     ],
     faqs: [
@@ -1136,7 +1136,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A therapy practice homepage should tell a nervous first-time visitor who the clinicians are, who they see, what a first contact looks like, what it costs, and how privacy works. It should use calm, plain words, one clear way to reach out, and no promises about outcomes or lists of diagnoses.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("The visitor is deciding whether it is safe to call"),
@@ -1180,7 +1180,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "A person in distress may be reading on a small screen with the sun on it. Use high-contrast text, large buttons and descriptive alt text on photos, and keep the contact form short. Our guide on [web accessibility for a medical practice](/guides/ada-web-accessibility-for-a-medical-practice-website) gives the checks."
       ),
       p(
-        "Finally, test the page on a phone by calling the number on it, as a first-time visitor would. If the call goes to a mailbox with no name, add a greeting that states the practice name and the callback time. That first voice is part of the homepage."
+        "Finally, test the page on a phone by calling the number on it, as a first-time visitor would. If the call goes to a mailbox with no name, add a greeting that states the practice name and the callback time. That first voice is part of the homepage. You can also hand the page to a few strangers on their own phones for five seconds and ask what they remember, as described in [the first five seconds of a practice home page on a phone](/guides/what-a-new-patient-sees-on-a-phone-in-the-first-five-seconds-of-a-primary-care-practice-home-page)."
       ),
     ],
     faqs: [

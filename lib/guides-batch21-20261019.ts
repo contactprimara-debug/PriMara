@@ -522,17 +522,17 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Appointment Reminder Text and Email Wording for a Primary Care Practice Without Health Details",
     metaTitle: "Appointment Reminder Wording for a Primary Care Practice",
     metaDescription:
-      "Sample appointment reminder text and email wording that leaves out health details and reduces no-shows. Call (561) 291-2681.",
+      "Copy-ready appointment reminder text and email wording for a primary care practice: time, place, how to confirm, and no health details. (561) 291-2681",
     answer:
       "An appointment reminder should name the practice, the date and time, the location or video link and how to confirm or reschedule, and should leave out the reason for the visit, the clinician's specialty detail and anything about a diagnosis. Send reminders to the contact method the patient chose, with a clear way to opt out.",
     author: "Liam Costello",
     publishDate: "2026-10-19T10:20:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("What a reminder is for"),
       p(
-        "A reminder has one job: get the patient to the visit, or free the slot early if they cannot come. Everything else is a risk. A text can be read by someone else holding the phone, an email can land in a shared inbox, and a message that names a test or a condition has turned a scheduling note into a disclosure."
+        "A reminder has one job: get the patient to the visit, or free the slot early if they cannot come. Everything else is a risk. A text can be read by someone else holding the phone, an email can land in a shared inbox, and a message that names a test or a condition has turned a scheduling note into a disclosure. A safe text can be as short as: Reminder from PRACTICE NAME, you have a visit on DAY at TIME. Reply C to confirm or call OFFICE PHONE to change it."
       ),
       p(
         "Federal privacy rules permit appointment reminders, but they also expect reasonable care about what the message reveals. The easiest policy for a front desk is also the safest: say when and where, never why. If you also want to win back patients who have not visited in a while, our guide to a [reactivation letter that leaves out health details](/guides/patient-reactivation-letter-for-inactive-patients-of-a-primary-care-practice-without-health-details) covers the wording and the rules for building the list."
@@ -627,7 +627,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A pharmacy and lab partner page tells patients where the office sends prescriptions and lab orders, how to pick a different location, and how to get results, without recommending a product or collecting health information. List locations factually, state that patients may choose their own, and keep the page free of ads and conflicts of interest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:40:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("Why patients look for this page"),
@@ -673,7 +673,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Test the page the way a patient would"),
       p(
-        "Ask a colleague who does not work at the office to find their pharmacy and a lab on the page and to say how to change a pharmacy. If they hesitate, rewrite that part. Keep the page short, put the most common action first and keep the language free of jargon, because most patients reading it have just left a visit and want an answer in seconds."
+        "Ask a colleague who does not work at the office to find their pharmacy and a lab on the page and to say how to change a pharmacy. If they hesitate, rewrite that part. Keep the page short, put the most common action first and keep the language free of jargon, because most patients reading it have just left a visit and want an answer in seconds. When patients ask how to request a refill from the pharmacy you list, point them to a [refill request page that explains the process without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) so the front desk answers the same way every time."
       ),
     ],
     faqs: [
@@ -912,17 +912,17 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Session Length and Frequency Explained on a Therapy Practice Website Without Promising Results",
     metaTitle: "Therapy Session Length and Frequency on Your Website",
     metaDescription:
-      "How a therapy practice can explain session length and how often clients meet, without promising results. Call (561) 291-2681.",
+      "How a therapy practice can state session length and how often clients meet, as policy facts, without promising results or timelines. (561) 291-2681",
     answer:
       "A therapy practice website should say how long a typical session lasts, how often clients usually meet at the start, who decides the schedule, and what the practice does not promise. State the facts as the practice's own policy and leave outcomes, timelines for improvement and duration of treatment to the conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-19T11:40:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("The question every new client is too polite to ask"),
       p(
-        "Before they book, many people want to know how long a session lasts, how often they would come and how long this will go on. The last one is the dangerous one. A page that answers it with a number of weeks or a promised result steps from information into a clinical claim."
+        "Before they book, many people want to know how long a session lasts, how often they would come and how long this will go on. The last one is the dangerous one. A page that answers it with a number of weeks or a promised result steps from information into a clinical claim. The safe pattern is to state the length and starting schedule as the practice's own policy, then leave how long therapy lasts to the conversation with the clinician."
       ),
       p(
         "The solution is to split the question. Session length and starting frequency are scheduling facts the practice controls. How long someone will need therapy is a clinical judgment that depends on the person, and it is decided together with the clinician after the first meetings."
@@ -1209,7 +1209,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
     publishDate: "2026-10-19T12:40:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("What patients and Google see in an email address"),
@@ -1261,7 +1261,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Plan the switch from Gmail"),
       p(
-        "If staff already use personal addresses, move them over in a planned week: create the new accounts, set up forwarding from the old addresses for a limited time, update the website, the Google profile, directories and email signatures, and tell patients and vendors. Then close the old forwarding so nothing keeps flowing to personal inboxes, and keep a note of what was changed and when."
+        "If staff already use personal addresses, move them over in a planned week: create the new accounts, set up forwarding from the old addresses for a limited time, update the website, the Google profile, directories and email signatures, and tell patients and vendors. Then close the old forwarding so nothing keeps flowing to personal inboxes, and keep a note of what was changed and when. Your email stops working the day the domain expires, which is why the protections in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) matter as much as the mailbox setup itself."
       ),
     ],
     faqs: [
@@ -1403,12 +1403,12 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Website Backups, Uptime Monitoring and Maintenance for a Medical Practice",
     metaTitle: "Website Backups and Uptime for a Medical Practice",
     metaDescription:
-      "A checklist for medical practice website backups, uptime monitoring, updates and recovery so the site stays online. Call (561) 291-2681.",
+      "A checklist for medical practice website backups, uptime monitoring, updates and recovery so the site stays online for patients. (561) 291-2681",
     answer:
       "A medical practice website needs automatic backups stored away from the site itself, monitoring that alerts someone within minutes if the site goes down, a regular schedule for updates, and a written recovery plan with a named owner. Test the backup by restoring it, because an untested backup is only a hope.",
     author: "Liam Costello",
     publishDate: "2026-10-19T13:20:00Z",
-    dateModified: "2026-10-19",
+    dateModified: "2026-11-06",
     readMinutes: 6,
     sections: [
       h2("When the site is down, patients assume the office is"),
@@ -1458,7 +1458,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Rehearse once a year"),
       p(
-        "Once a year, run a recovery drill: pretend the site is gone, restore it to a test address from the latest backup and time how long it takes. Note what was missing, such as a form setting or a login nobody could find, and fix it. A practice that has rehearsed recovery once will handle a real outage in an hour instead of a week."
+        "Once a year, run a recovery drill: pretend the site is gone, restore it to a test address from the latest backup and time how long it takes. Note what was missing, such as a form setting or a login nobody could find, and fix it. A practice that has rehearsed recovery once will handle a real outage in an hour instead of a week. Monitoring only helps if staff know what to do when the alert arrives, so keep the first-hour plan in [what a medical practice does when its website goes down during office hours](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) at the front desk."
       ),
     ],
     faqs: [
