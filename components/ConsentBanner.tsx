@@ -35,7 +35,9 @@ function apply(granted: boolean) {
 
 export default function ConsentBanner() {
   const [open, setOpen] = useState(false);
+  const [tucked, setTucked] = useState(false);
   const firstBtn = useRef<HTMLButtonElement>(null);
+  const boxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const gpc = !!(navigator as unknown as { globalPrivacyControl?: boolean }).globalPrivacyControl;
@@ -55,6 +57,51 @@ export default function ConsentBanner() {
     if (open) firstBtn.current?.focus({ preventScroll: true });
   }, [open]);
 
+  // Card #611a: the banner must never cover a form field, its label or its hint. While any
+  // form control or its text would sit under the banner, the banner steps out of the way
+  // (nothing is stored while it is hidden, consent stays denied; the footer's "Privacy choices"
+  // button and the next scroll position bring it back).
+  useEffect(() => {
+    if (!open) { setTucked(false); return; }
+    let raf = 0;
+    const check = () => {
+      raf = 0;
+      const box = boxRef.current;
+      if (!box) return;
+      // Resting rectangle (ignores the slide-out transform).
+      const bottom = parseFloat(getComputedStyle(box).bottom || "0") || 0;
+      const rest = {
+        l: box.offsetLeft,
+        r: box.offsetLeft + box.offsetWidth,
+        t: window.innerHeight - bottom - box.offsetHeight,
+        b: window.innerHeight - bottom,
+      };
+      const hit = Array.from(
+        document.querySelectorAll("form input:not([type=hidden]), form textarea, form select, form label, form small, form [role=alert], form [data-hint]")
+      ).some((el) => {
+        const r = (el as HTMLElement).getBoundingClientRect();
+        if (r.width === 0 || r.height === 0) return false;
+        return r.bottom > rest.t - 6 && r.top < rest.b + 6 && r.right > rest.l && r.left < rest.r;
+      });
+      setTucked(hit);
+    };
+    const queue = () => { if (!raf) raf = requestAnimationFrame(check); };
+    check();
+    window.addEventListener("scroll", queue, { passive: true });
+    window.addEventListener("resize", queue, { passive: true });
+    document.addEventListener("focusin", queue);
+    document.addEventListener("input", queue);
+    const t = setTimeout(check, 600); // after hydration/layout settles
+    return () => {
+      clearTimeout(t);
+      if (raf) cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", queue);
+      window.removeEventListener("resize", queue);
+      document.removeEventListener("focusin", queue);
+      document.removeEventListener("input", queue);
+    };
+  }, [open]);
+
   function choose(granted: boolean) {
     try { localStorage.setItem(KEY, JSON.stringify({ a: granted, t: Date.now(), v: 1 })); } catch { /* ignore */ }
     apply(granted);
@@ -63,7 +110,7 @@ export default function ConsentBanner() {
 
   if (!open) return null;
   return (
-    <div role="dialog" aria-label="Privacy choice" className="cb">
+    <div ref={boxRef} role="dialog" aria-label="Privacy choice" className="cb" data-tucked={tucked ? "1" : "0"} aria-hidden={tucked || undefined}>
       <p className="cb-t">
         We measure site use only if you say yes. Say no and nothing is stored on your device.{" "}
         <a href="/privacy" style={{ color: "var(--gold)", textDecoration: "underline" }}>Privacy</a>
