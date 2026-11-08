@@ -77,7 +77,9 @@ export default function ConsentBanner() {
         b: window.innerHeight - bottom,
       };
       const hit = Array.from(
-        document.querySelectorAll("form input:not([type=hidden]), form textarea, form select, form label, form small, form [role=alert], form [data-hint]")
+        // Every visible thing inside a form (fields, labels, consent line, hint text, submit
+        // button, links), not an allow-list of tags: the old list missed <p> consent/hint text.
+        document.querySelectorAll("form *:not(input[type=hidden]):not(script):not(style)")
       ).some((el) => {
         const r = (el as HTMLElement).getBoundingClientRect();
         if (r.width === 0 || r.height === 0) return false;
