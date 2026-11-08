@@ -37,10 +37,25 @@ const FL_NURSING = {
   label: "Florida Board of Nursing",
   href: "https://floridasnursing.gov/",
 };
-const GBP_HELP = {
+const GBP_X_EDIT = {
   publisher: "Google Business Profile Help",
-  label: "Google Business Profile Help Center",
-  href: "https://support.google.com/business",
+  label: "Edit your Business Profile",
+  href: "https://support.google.com/business/answer/3039617",
+};
+const GBP_X_GAINTERNAL = {
+  publisher: "Google Analytics Help",
+  label: "Filter out internal traffic",
+  href: "https://support.google.com/analytics/answer/10104470",
+};
+const GBP_X_POSTS = {
+  publisher: "Google Business Profile Help",
+  label: "Create & manage posts on your Business Profile",
+  href: "https://support.google.com/business/answer/7342169",
+};
+const GBP_X_REVMAN = {
+  publisher: "Google Business Profile Help",
+  label: "Manage customer reviews",
+  href: "https://support.google.com/business/answer/3474050",
 };
 const GOOGLE_HELPFUL = {
   publisher: "Google Search Central",
@@ -76,11 +91,6 @@ const GOOGLE_PAGE_EXP = {
   publisher: "Google Search Central",
   label: "Understanding page experience in Google Search results",
   href: "https://developers.google.com/search/docs/appearance/page-experience",
-};
-const GA_HELP = {
-  publisher: "Google Analytics Help",
-  label: "Google Analytics Help Center",
-  href: "https://support.google.com/analytics",
 };
 const LLMS_TXT = {
   publisher: "llmstxt.org",
@@ -622,7 +632,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "Each quarter is enough for most practices, and before adding a batch of new pages. Filter Search Console by your main service phrases and look for more than one of your URLs appearing.",
       },
     ],
-    citations: [GOOGLE_CONSOLIDATE, GOOGLE_HELPFUL, GBP_HELP, HHS_PRIVACY],
+    citations: [GOOGLE_CONSOLIDATE, GOOGLE_HELPFUL, GBP_X_EDIT, HHS_PRIVACY],
     links: [
       { href: "/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website", label: "Canonical Tags", description: "Point each page at itself." },
       { href: "/guides/internal-linking-for-a-medical-practice-website", label: "Internal Linking", description: "Make the main page obvious." },
@@ -709,7 +719,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "A real photo is a good habit, and our standard is to include one. Use pictures of the office or team. Avoid stock images of distressed people, which can feel clinical or exploitative.",
       },
     ],
-    citations: [GBP_HELP, ACA_ETHICS, CDC_988, GOOGLE_HELPFUL],
+    citations: [GBP_X_POSTS, ACA_ETHICS, CDC_988, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/what-to-post-on-google-business-profile-for-a-medical-practice", label: "What To Post On A Profile", description: "General post guidance." },
       { href: "/guides/monthly-google-business-profile-maintenance-checklist", label: "Monthly Profile Checklist", description: "Keep posting on a schedule." },
@@ -799,7 +809,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "The owner and one or two named managers, using work accounts. Remove access the day someone leaves. A profile controlled through one person's private account is a common cause of lost listings.",
       },
     ],
-    citations: [GBP_HELP, ACA_ETHICS, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [GBP_X_REVMAN, ACA_ETHICS, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "Responding To A Negative Review", description: "Wording for the hard ones." },
       { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "Handling A Fake Review", description: "What to report and how." },
@@ -928,7 +938,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "Check in the reports that the traffic is being labeled internal, then change the filter state to Active."
       ),
       p(
-        "Google's own help pages describe the menus, which change from time to time, so use the [Analytics Help Center](https://support.google.com/analytics) for the current names. The structure stays the same: define the traffic, then filter it."
+        "Google's own help pages describe the menus, which change from time to time, so use [Google's instructions for filtering out internal traffic](https://support.google.com/analytics/answer/10104470) for the current names. The structure stays the same: define the traffic, then filter it."
       ),
       h2("The limits of an IP filter"),
       p(
@@ -975,7 +985,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "Filtering your own office address is not. The risk to avoid is collecting personal or health information in analytics. Keep names, emails and form text out of tags, as covered in our guidance on privacy-safe tracking.",
       },
     ],
-    citations: [GA_HELP, HHS_PRIVACY, GOOGLE_HELPFUL, GBP_HELP],
+    citations: [GBP_X_GAINTERNAL, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-to-set-up-google-analytics-4-for-a-medical-practice", label: "Setting Up GA4", description: "The full setup walk-through." },
       { href: "/guides/hipaa-safe-tracking-for-a-medical-website", label: "Privacy-Safe Tracking", description: "What not to send to analytics." },
@@ -1064,7 +1074,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "Quarterly, and after any change of provider, move or phone system. Compare the website, Google profile, Apple and Bing listings and the main directories. Fix mismatches in the same sitting.",
       },
     ],
-    citations: [GBP_HELP, GOOGLE_HELPFUL, HHS_PRIVACY, FL_BOM],
+    citations: [GBP_X_EDIT, GOOGLE_HELPFUL, HHS_PRIVACY, FL_BOM],
     links: [
       { href: "/guides/nap-consistency-what-breaks-it-and-how-to-fix-it", label: "NAP Consistency", description: "Keep name, address and phone aligned." },
       { href: "/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website", label: "Click-To-Call Layout", description: "Make the number tappable." },
@@ -1150,7 +1160,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "It might lower the count, but the people who sign up under pressure are not always the most engaged. Move the signup to a simple form at the end of useful pages and compare sign-ups and calls after a month.",
       },
     ],
-    citations: [GOOGLE_PAGE_EXP, GOOGLE_HELPFUL, HHS_PRIVACY, GBP_HELP],
+    citations: [GOOGLE_PAGE_EXP, GOOGLE_HELPFUL, HHS_PRIVACY],
     links: [
       { href: "/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website", label: "Click-To-Call Layout", description: "Keep the call button visible." },
       { href: "/guides/live-chat-and-chatbots-on-a-medical-practice-website-privacy-settings-and-what-to-avoid", label: "Live Chat Privacy", description: "Settings and what to avoid." },
@@ -1327,7 +1337,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "It supports trust and gives people another way to verify the practice. Links to outside sites are not a ranking trick. Treat any SEO benefit as a side effect of a page that is useful to patients.",
       },
     ],
-    citations: [GOOGLE_HELPFUL, HHS_PRIVACY, FL_BOM, GBP_HELP],
+    citations: [GOOGLE_HELPFUL, HHS_PRIVACY, FL_BOM],
     links: [
       { href: "/guides/press-release-for-a-medical-practice-that-helps-seo", label: "Press Release Guide", description: "Create news worth covering." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "Doctor Bio Page", description: "Where to mention coverage." },
@@ -1415,7 +1425,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "Count first sessions, not clicks. Track where each new client says they found you, and compare against what each channel cost. Even a simple monthly tally is better than relying on impressions or traffic.",
       },
     ],
-    citations: [GBP_HELP, GOOGLE_ADS_HEALTH, ACA_ETHICS, GOOGLE_HELPFUL],
+    citations: [GBP_X_EDIT, GOOGLE_ADS_HEALTH, ACA_ETHICS, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/seo-vs-google-ads-for-a-therapy-practice", label: "SEO Or Google Ads", description: "Compare the two channels." },
       { href: "/guides/therapist-marketing-pricing", label: "Therapist Marketing Pricing", description: "What marketing help costs." },

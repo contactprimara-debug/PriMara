@@ -1091,11 +1091,6 @@ export const guidesPartSixteen: Guide[] = [
         "publisher": "Google Business Profile Help",
         "label": "Guidelines for representing your business on Google",
         "href": "https://support.google.com/business/answer/3038177"
-      },
-      {
-        "publisher": "Google Maps Help",
-        "label": "Google Maps Help Center",
-        "href": "https://support.google.com/maps"
       }
     ],
     "links": [

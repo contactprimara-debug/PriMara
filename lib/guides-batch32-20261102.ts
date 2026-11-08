@@ -47,10 +47,20 @@ const GBP_GUIDELINES = {
   label: "Guidelines for representing your business",
   href: "https://support.google.com/business/answer/3038177",
 };
-const GBP_HELP = {
+const GBP_X_EDIT = {
   publisher: "Google Business Profile Help",
-  label: "Google Business Profile Help Center",
-  href: "https://support.google.com/business",
+  label: "Edit your Business Profile",
+  href: "https://support.google.com/business/answer/3039617",
+};
+const GBP_X_PERF = {
+  publisher: "Google Business Profile Help",
+  label: "Understand your Business Profile performance & insights",
+  href: "https://support.google.com/business/answer/9918094",
+};
+const GBP_X_PHOTOS = {
+  publisher: "Google Business Profile Help",
+  label: "Manage your Business Profile photos & videos",
+  href: "https://support.google.com/business/answer/6103862",
 };
 const GOOGLE_HELPFUL = {
   publisher: "Google Search Central",
@@ -284,7 +294,7 @@ export const guidesPartThirtyFive: Guide[] = [
         a: "Whenever the space changes, and at least once a year. Out-of-date photos of a room that has since been repainted or rearranged tell a client the page is not looked after, and that undermines trust before the first session has even started.",
       },
     ],
-    citations: [ADA_GOV, WCAG, GBP_HELP, GOOGLE_HELPFUL],
+    citations: [ADA_GOV, WCAG, GBP_X_PHOTOS, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/office-tour-and-photos-page-for-new-primary-care-patients", label: "Office Tour Page For Primary Care", description: "The medical-office version of this page." },
       { href: "/guides/google-business-profile-photos-checklist", label: "Google Business Profile Photos Checklist", description: "Which photos to upload and how." },
@@ -642,7 +652,7 @@ export const guidesPartThirtyFive: Guide[] = [
         a: "Be careful. Changing the phone number on the profile can create mismatches across the web. If you want call tracking, follow the approach in our guide on call tracking numbers that leaves the profile number unchanged, and test that callers still reach the same line.",
       },
     ],
-    citations: [GBP_HELP, GBP_GUIDELINES, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [GBP_X_PERF, GBP_GUIDELINES, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-to-read-google-business-profile-performance-reports-each-month", label: "Reading Profile Performance Reports", description: "What each monthly number means." },
       { href: "/guides/call-tracking-numbers-on-a-counseling-practice-website-without-changing-the-google-profile-phone-number", label: "Call Tracking Numbers Without Changing The Profile", description: "Tracking calls safely." },
@@ -816,7 +826,7 @@ export const guidesPartThirtyFive: Guide[] = [
         a: "If the provider has an individual listing, link it to their bio page. If they do not, the practice profile should link to the practice page. Never point two different listings at the same thin page, since it gives visitors and Google no way to tell them apart.",
       },
     ],
-    citations: [GBP_GUIDELINES, GBP_HELP, GOOGLE_HELPFUL],
+    citations: [GBP_GUIDELINES, GBP_X_EDIT, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice", label: "Practitioner Listing Versus Practice Listing", description: "When a provider needs a separate listing." },
       { href: "/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile", label: "Add A Booking Link To A Profile", description: "Keeping booking separate from the website." },

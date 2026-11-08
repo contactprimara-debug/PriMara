@@ -505,11 +505,6 @@ export const guidesPartTwenty: Guide[] = [
     ],
     "citations": [
       {
-        "publisher": "Google",
-        "label": "Google Business Profile Help",
-        "href": "https://support.google.com/business/"
-      },
-      {
         "publisher": "U.S. Department of Health and Human Services",
         "label": "HIPAA Privacy Rule guidance",
         "href": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html"
@@ -704,11 +699,6 @@ export const guidesPartTwenty: Guide[] = [
         "publisher": "Federal Communications Commission",
         "label": "Caller ID spoofing",
         "href": "https://www.fcc.gov/spoofing"
-      },
-      {
-        "publisher": "Google",
-        "label": "Google Business Profile Help",
-        "href": "https://support.google.com/business/"
       },
       {
         "publisher": "U.S. Department of Health and Human Services",

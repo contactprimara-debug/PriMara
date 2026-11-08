@@ -73,11 +73,6 @@ const GOOGLE_EMAIL_SENDERS = {
   label: "Email sender guidelines",
   href: "https://support.google.com/a/answer/81126",
 };
-const GOOGLE_ANALYTICS_HELP = {
-  publisher: "Google Analytics Help",
-  label: "Google Analytics Help Center",
-  href: "https://support.google.com/analytics",
-};
 
 export const guidesPartThirtyFour: Guide[] = [
   // ---------------------------------------------------------------- 1392
@@ -1144,7 +1139,7 @@ export const guidesPartThirtyFour: Guide[] = [
         a: "Fill it weekly and review it monthly. Keep each month's sheet so you can compare quarters and see whether a change helped.",
       },
     ],
-    citations: [GA_KEY_EVENTS, GOOGLE_ANALYTICS_HELP, GOOGLE_HELPFUL],
+    citations: [GA_KEY_EVENTS, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing", label: "How Did You Hear About Us", description: "Attribute new patients to a source." },
       { href: "/guides/how-to-measure-roi-on-medical-practice-marketing", label: "Measure Marketing Return", description: "From leads to cost per patient." },

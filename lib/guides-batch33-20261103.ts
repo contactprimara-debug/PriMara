@@ -32,10 +32,25 @@ const FL_BOM = {
   label: "Florida Board of Medicine",
   href: "https://flboardofmedicine.gov/",
 };
-const GBP_HELP = {
+const GBP_X_EDIT = {
   publisher: "Google Business Profile Help",
-  label: "Google Business Profile Help Center",
-  href: "https://support.google.com/business",
+  label: "Edit your Business Profile",
+  href: "https://support.google.com/business/answer/3039617",
+};
+const GBP_X_GTMCREATE = {
+  publisher: "Google Tag Manager Help",
+  label: "Create an account and container",
+  href: "https://support.google.com/tagmanager/answer/6103696",
+};
+const GBP_X_MAPSPOL = {
+  publisher: "Google Maps User Generated Content Policy Help",
+  label: "Prohibited & restricted content",
+  href: "https://support.google.com/contributionpolicy/answer/7400114",
+};
+const GBP_X_REVTIPS = {
+  publisher: "Google Business Profile Help",
+  label: "Tips to get more reviews",
+  href: "https://support.google.com/business/answer/3474122",
 };
 const GBP_LOCAL_RANK = {
   publisher: "Google Business Profile Help",
@@ -61,11 +76,6 @@ const GOOGLE_IMAGES = {
   publisher: "Google Search Central",
   label: "Google Images best practices",
   href: "https://developers.google.com/search/docs/appearance/google-images",
-};
-const GTM_HELP = {
-  publisher: "Google Tag Manager Help",
-  label: "Google Tag Manager Help Center",
-  href: "https://support.google.com/tagmanager",
 };
 const WCAG = {
   publisher: "W3C Web Accessibility Initiative",
@@ -471,7 +481,7 @@ export const guidesPartThirtySix: Guide[] = [
         a: "No. A provider on leave is coming back, so keep the page and add a short notice. Redirect only when the provider has left the practice for good. See the leave notice guidance for wording that makes no health references.",
       },
     ],
-    citations: [GOOGLE_REDIRECTS, GOOGLE_HELPFUL, GBP_HELP],
+    citations: [GOOGLE_REDIRECTS, GOOGLE_HELPFUL, GBP_X_EDIT],
     links: [
       { href: "/guides/provider-on-leave-notice-for-a-primary-care-practice-without-clinical-claims", label: "Provider On Leave Notice", description: "When the page should stay." },
       { href: "/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice", label: "Client Transfer Notice", description: "Telling clients where to go next." },
@@ -561,7 +571,7 @@ export const guidesPartThirtySix: Guide[] = [
         a: "The reviewer chose to share it, and the practice cannot respond in kind. You may ask Google to review it if it contains someone else's private details. Reply with a general message and invite the person to call the office.",
       },
     ],
-    citations: [GBP_HELP, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [GBP_X_MAPSPOL, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-to-respond-to-a-negative-patient-review", label: "Responding To A Negative Patient Review", description: "A calm structure for hard replies." },
       { href: "/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice", label: "When A Provider Joins Or Leaves", description: "The full list of places to update." },
@@ -656,7 +666,7 @@ export const guidesPartThirtySix: Guide[] = [
         a: "Quarterly is a sensible rhythm, and after any new campaign, website redesign or vendor change. Keep the list of tags and the version notes up to date so a review takes minutes, not an afternoon of guessing.",
       },
     ],
-    citations: [GTM_HELP, HHS_TRACKING, HHS_PRIVACY],
+    citations: [GBP_X_GTMCREATE, HHS_TRACKING, HHS_PRIVACY],
     links: [
       { href: "/guides/how-to-set-up-google-analytics-4-for-a-medical-practice", label: "Setting Up Google Analytics 4", description: "The reporting side of the same setup." },
       { href: "/guides/tracking-phone-calls-from-a-medical-website", label: "Tracking Phone Calls", description: "Counting calls from the site." },
@@ -834,7 +844,7 @@ export const guidesPartThirtySix: Guide[] = [
         a: "Read the Business Profile report for calls, directions and website clicks, and compare month to month. Add a call tracking number or tracked links where appropriate, and ask new patients how they found the office at the first call.",
       },
     ],
-    citations: [GBP_LOCAL_RANK, GBP_HELP, GOOGLE_HELPFUL],
+    citations: [GBP_LOCAL_RANK, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice", label: "Same-Day And Walk-In Searches", description: "Being found when the need is today." },
       { href: "/guides/local-pack-vs-organic-results-vs-google-ads-for-a-medical-practice", label: "Local Pack Vs Organic Vs Ads", description: "Where each kind of result appears." },
@@ -1460,7 +1470,7 @@ export const guidesPartThirtySix: Guide[] = [
         a: "Ask every new patient how they heard about the practice, record the answer in a consistent list, and review it monthly. A referred by a friend answer is a source. You do not need to track who, and you should not.",
       },
     ],
-    citations: [OIG_AKS, HHS_PRIVACY, GBP_HELP],
+    citations: [OIG_AKS, HHS_PRIVACY, GBP_X_REVTIPS],
     links: [
       { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Getting More Reviews Without Review Gating", description: "Asking every patient the same way." },
       { href: "/guides/patient-newsletter-for-a-medical-practice-without-health-details", label: "Patient Newsletter Without Health Details", description: "Staying in touch in a privacy-safe way." },
