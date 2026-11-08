@@ -110,6 +110,7 @@ export default function Header() {
           zIndex: 1000,
           display: "grid",
           gridTemplateColumns: "1fr auto 1fr",
+          columnGap: "28px",
           alignItems: "center",
           background: scrolled ? "rgba(255,252,244,0.94)" : "rgba(255,252,244,0.9)",
           backdropFilter: "blur(20px)",
