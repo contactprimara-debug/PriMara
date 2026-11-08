@@ -11,10 +11,30 @@ const p = (text: string): GuideSection => ({ type: "p", text });
 const ul = (...items: string[]): GuideSection => ({ type: "ul", items });
 const table = (headers: [string, string], ...rows: [string, string][]): GuideSection => ({ type: "table", headers, rows });
 
-const GBP_HELP = {
+const GBP_EDIT = {
   publisher: "Google Business Profile Help",
-  label: "Google Business Profile Help Center",
-  href: "https://support.google.com/business",
+  label: "Edit your Business Profile",
+  href: "https://support.google.com/business/answer/3039617",
+};
+const GBP_HOURS = {
+  publisher: "Google Business Profile Help",
+  label: "Edit your business hours",
+  href: "https://support.google.com/business/answer/3039617",
+};
+const GBP_GUIDELINES = {
+  publisher: "Google Business Profile Help",
+  label: "Guidelines for representing your business on Google",
+  href: "https://support.google.com/business/answer/3038177",
+};
+const GBP_DUPLICATES = {
+  publisher: "Google Business Profile Help",
+  label: "Resolve duplicate profiles and ownership issues",
+  href: "https://support.google.com/business/answer/12756178",
+};
+const GBP_PROHIBITED = {
+  publisher: "Google Business Profile Help",
+  label: "Prohibited and restricted content",
+  href: "https://support.google.com/business/answer/7400114",
 };
 const HHS_PRIVACY = {
   publisher: "U.S. Department of Health and Human Services",
@@ -41,10 +61,15 @@ const GOOGLE_SPAM = {
   label: "Spam policies for Google web search",
   href: "https://developers.google.com/search/docs/essentials/spam-policies",
 };
-const GSC_HELP = {
+const GSC_MANUAL_ACTIONS = {
   publisher: "Google Search Console Help",
-  label: "Search Console Help",
-  href: "https://support.google.com/webmasters",
+  label: "Manual actions report",
+  href: "https://support.google.com/webmasters/answer/9044175",
+};
+const GSC_INDEXING = {
+  publisher: "Google Search Console Help",
+  label: "Page indexing report",
+  href: "https://support.google.com/webmasters/answer/7440203",
 };
 const GMAPS_EMBED = {
   publisher: "Google Maps Platform",
@@ -56,10 +81,10 @@ const FCC_TEXTS = {
   label: "Stop unwanted robocalls and texts",
   href: "https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts",
 };
-const GOOGLE_ADS_HELP = {
+const ADS_TRADEMARKS = {
   publisher: "Google Ads Help",
-  label: "Google Ads Help Center",
-  href: "https://support.google.com/google-ads",
+  label: "Trademarks (Advertising Policies)",
+  href: "https://support.google.com/adspolicy/answer/6118",
 };
 const LIFELINE_988 = {
   publisher: "988 Suicide and Crisis Lifeline",
@@ -153,7 +178,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "One named person, usually the office manager. The check takes about five minutes and belongs with the other monthly profile tasks. Put the count in a shared sheet so it survives staff changes.",
       },
     ],
-    citations: [GBP_HELP, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [GBP_PROHIBITED, GBP_DUPLICATES, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/how-to-handle-a-fake-google-review-on-a-medical-listing", label: "Handling A Fake Review", description: "What to do when a review is not real." },
       { href: "/guides/getting-more-patient-reviews-without-review-gating", label: "Asking For Reviews Safely", description: "Ways to ask without gating or incentives." },
@@ -237,7 +262,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "Twice a year, and whenever a road, building entrance or parking arrangement changes. Put it on the same list as the hours check, and ask a new patient to follow the directions and report anything unclear.",
       },
     ],
-    citations: [GMAPS_EMBED, GBP_HELP, GOOGLE_HELPFUL],
+    citations: [GMAPS_EMBED, GBP_EDIT, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile", label: "Parking And Entrance Details", description: "The fuller arrival information." },
       { href: "/guides/what-to-put-on-a-medical-practice-contact-page", label: "Contact Page Checklist", description: "Everything else that belongs on the page." },
@@ -484,7 +509,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "It is better not to. Agencies change and staff leave. Keep at least one person from the practice on the property as an owner so warnings still reach you if the relationship ends.",
       },
     ],
-    citations: [GSC_HELP, GOOGLE_SPAM, HHS_PRIVACY],
+    citations: [GSC_MANUAL_ACTIONS, GSC_INDEXING, GOOGLE_SPAM, HHS_PRIVACY],
     links: [
       { href: "/guides/how-to-read-google-search-console-for-a-medical-practice-website", label: "Reading Search Console", description: "A weekly routine for the dashboard." },
       { href: "/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website", label: "Page Indexing Report", description: "What the coverage numbers mean." },
@@ -566,7 +591,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "Change the line and the date, and tell the front desk the same day. Do not announce a reopening in advance. Keep the closed wording until the plan confirms new clients can be added.",
       },
     ],
-    citations: [HHS_PRIVACY, LIFELINE_988, ACA_ETHICS, GBP_HELP],
+    citations: [HHS_PRIVACY, LIFELINE_988, ACA_ETHICS, GBP_EDIT],
     links: [
       { href: "/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice", label: "Insurance Verification Page", description: "How callers check their own benefits." },
       { href: "/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice", label: "Accepted Insurance Page", description: "The page this wording belongs on." },
@@ -731,7 +756,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "You can put the full web address and phone number on printed material, so patients can go straight to the site or call. A clear card in the office is more reliable than hoping they will type the right name.",
       },
     ],
-    citations: [GOOGLE_ADS_HELP, GBP_HELP, GOOGLE_HELPFUL],
+    citations: [ADS_TRADEMARKS, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/what-patients-see-when-they-search-your-practice-name-a-brand-search-audit", label: "Brand Search Audit", description: "What patients see for your name." },
       { href: "/guides/google-ads-cost-for-a-medical-practice", label: "Google Ads Cost", description: "What a small campaign costs." },
@@ -813,7 +838,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "Update all places on the same day and keep the original dates visible, with an updated-on date. A visible date shows patients the notice is current, and it helps staff confirm nothing was missed.",
       },
     ],
-    citations: [GBP_HELP, HHS_PRIVACY, GOOGLE_HELPFUL],
+    citations: [GBP_HOURS, HHS_PRIVACY, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting", label: "Holiday Closure Notices", description: "The one-day version of this notice." },
       { href: "/guides/evening-and-weekend-hours-for-a-primary-care-practice-publishing-extended-hours-and-keeping-google-accurate", label: "Extended Hours", description: "Publishing hours that stay accurate." },
@@ -897,7 +922,7 @@ export const guidesPartThirtyEight: Guide[] = [
         a: "They can be stronger, because they relate directly to your field. Check what each requires, and only list credentials that are verified. Do not claim membership you do not hold.",
       },
     ],
-    citations: [GOOGLE_SPAM, GBP_HELP, GOOGLE_HELPFUL],
+    citations: [GOOGLE_SPAM, GBP_GUIDELINES, GOOGLE_HELPFUL],
     links: [
       { href: "/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn", label: "Sponsorships And Events", description: "Other local links worth earning." },
       { href: "/guides/backlinks-for-a-medical-practice-safe-vs-penalized", label: "Safe Backlinks", description: "Which links help and which hurt." },

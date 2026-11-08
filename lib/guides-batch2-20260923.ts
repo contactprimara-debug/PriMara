@@ -343,6 +343,7 @@ export const guidesPartFive: Guide[] = [
     ],
     citations: [
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
+      { publisher: "Google Business Profile Help", label: "Manage your business category", href: "https://support.google.com/business/answer/7249669" },
       { publisher: "Google Business Profile Help", label: "Improve your local ranking on Google", href: "https://support.google.com/business/answer/7091?hl=en" },
     ],
     links: [
@@ -428,6 +429,7 @@ export const guidesPartFive: Guide[] = [
     citations: [
       { publisher: "HHS.gov", label: "HIPAA Privacy Rule and marketing", href: "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html" },
       { publisher: "Google Analytics Help", label: "GA4 event tracking", href: "https://support.google.com/analytics/answer/9322688" },
+      { publisher: "Google Ads Help", label: "About phone call conversion tracking", href: "https://support.google.com/google-ads/answer/6100664" },
     ],
     links: [
       { href: "/guides/text-message-marketing-compliance-for-a-medical-practice", label: "Text Message Marketing Compliance for a Medical Practice", description: "The TCPA consent rules for the texting channel, alongside call tracking." },

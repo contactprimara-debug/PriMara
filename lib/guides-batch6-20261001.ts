@@ -204,6 +204,11 @@ export const guidesPartNine: Guide[] = [
         label: "Guidelines for representing your business",
         href: "https://support.google.com/business/answer/3038177",
       },
+      {
+        publisher: "Google Business Profile Help",
+        label: "Resolve duplicate profiles and ownership issues",
+        href: "https://support.google.com/business/answer/12756178",
+      },
     ],
     links: [
       {
