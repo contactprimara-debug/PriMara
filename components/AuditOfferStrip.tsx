@@ -295,7 +295,6 @@ export default function AuditOfferStrip() {
                 )}
 
                 <SmsConsentLine />
-                <SmsConsentLine />
                 <SubmitBtn pending={pending} />
 
                 <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", color: "var(--smoke)", letterSpacing: "0.06em" }}>

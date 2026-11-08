@@ -84,7 +84,6 @@ export default function AuditLandingForm() {
       {state.status === "error" && <p className={styles.formError}>{state.error}</p>}
 
       <SmsConsentLine />
-      <SmsConsentLine />
       <SubmitBtn pending={pending} />
       <div className={styles.formFine}>No spam. No sales pitch. Just the audit.</div>
     </form>

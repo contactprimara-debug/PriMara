@@ -246,7 +246,6 @@ export default function ContactFinal() {
                   </div>
 
                   <SmsConsentLine />
-                  <SmsConsentLine />
                   {/* Submit — class="magnetic" for InteractionEffects pull effect */}
                   <button
                     type="submit"

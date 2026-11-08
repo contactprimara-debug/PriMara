@@ -250,7 +250,6 @@ export default function PackageInquiryForm({
         )}
 
         <SmsConsentLine />
-        <SmsConsentLine />
         <SubmitButton pending={pending} />
 
         <p

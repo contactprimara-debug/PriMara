@@ -212,7 +212,6 @@ export default function ContactSection() {
 
                   {/* Submit */}
                   <SmsConsentLine />
-                  <SmsConsentLine />
                   <SubmitButton pending={pending} />
 
                   {/* Microtext */}
