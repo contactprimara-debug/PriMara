@@ -53,7 +53,7 @@ export async function submitContact(
   // still means the lead is safely captured.
   // mirrorLeadToIntake never rejects and its result is never inspected —
   // the Command Center copy is additive and can never affect this outcome.
-  const [, crmResult, emailResult] = await Promise.allSettled([
+  const [mirrorResult, crmResult, emailResult] = await Promise.allSettled([
     mirrorLeadToIntake({
       form: "contact",
       page: "site contact form",
@@ -64,7 +64,7 @@ export async function submitContact(
       best_time_to_call: callTime,
       message: reason || undefined,
       ...attributionFrom(formData),
-    }).then(() => undefined),
+    }),
     pushLeadToCrm({
       contactName: name,
       practiceName,
@@ -106,7 +106,7 @@ export async function submitContact(
 
   // A real lead reached at least one durable destination — authorize the
   // single conversion ping that /thank-you is about to be asked to render.
-  markLeadRecorded();
+  markLeadRecorded(mirrorResult.status === "fulfilled" ? mirrorResult.value : null);
 
   return { status: "success", firstName };
 }

@@ -26,9 +26,11 @@ export const LEAD_PING_COOKIE = "pl_ok";
 const TTL_SECONDS = 60;
 
 /** Call ONLY after a real lead was recorded. Authorizes exactly one ping. */
-export function markLeadRecorded(): void {
+export function markLeadRecorded(leadId: number | null | undefined): void {
+  // Card #660: a conversion needs a STORED Command Center lead id. No id, no flag.
+  if (typeof leadId !== "number" || !Number.isFinite(leadId)) return;
   try {
-    cookies().set(LEAD_PING_COOKIE, "1", {
+    cookies().set(LEAD_PING_COOKIE, String(leadId), {
       httpOnly: true,
       sameSite: "lax",
       secure: process.env.NODE_ENV === "production",
@@ -41,11 +43,12 @@ export function markLeadRecorded(): void {
   }
 }
 
-/** True when this render was reached by a genuinely recorded lead. */
-export function hasLeadPingFlag(): boolean {
+/** The stored lead id when this render was reached by a genuinely recorded lead, else null. */
+export function getLeadPingId(): string | null {
   try {
-    return cookies().get(LEAD_PING_COOKIE)?.value === "1";
+    const v = cookies().get(LEAD_PING_COOKIE)?.value;
+    return v && /^\d+$/.test(v) ? v : null;
   } catch {
-    return false;
+    return null;
   }
 }

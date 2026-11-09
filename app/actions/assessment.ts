@@ -38,7 +38,7 @@ export async function submitAssessment(payload: AssessmentPayload) {
   // the only record (the CRM's Lead.phone column is required).
   // See lib/intake.ts — additive, fully swallowed. This one matters most:
   // the CRM push refuses any lead with no phone, and phone is optional here.
-  const [, crmResult, emailResult] = await Promise.allSettled([
+  const [mirrorResult, crmResult, emailResult] = await Promise.allSettled([
     mirrorLeadToIntake({
       form: "assessment",
       page: "/assessment/quiz",
@@ -50,7 +50,7 @@ export async function submitAssessment(payload: AssessmentPayload) {
       tier: payload.tier,
       ...(payload.attribution || {}),
       message: `Practice Score Assessment: ${payload.score}% (${payload.tier})\n\nAnswers:\n${answerLines}`,
-    }).then(() => undefined),
+    }),
     pushLeadToCrm({
       contactName: payload.name,
       practiceName: payload.practice || payload.name,
@@ -91,5 +91,5 @@ export async function submitAssessment(payload: AssessmentPayload) {
   // ping that /assessment/results (the quiz's thank-you page) renders. Same
   // handshake as the contact form — see lib/leadPing.ts. Card #290.
   const crmSaved = crmResult.status === "fulfilled" && crmResult.value.ok;
-  if (crmSaved || emailResult.status === "fulfilled") markLeadRecorded();
+  if (crmSaved || emailResult.status === "fulfilled") markLeadRecorded(mirrorResult.status === "fulfilled" ? mirrorResult.value : null);
 }

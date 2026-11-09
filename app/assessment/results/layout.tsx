@@ -1,5 +1,5 @@
 import LeadConversionPing from "@/components/LeadConversionPing";
-import { hasLeadPingFlag } from "@/lib/leadPing";
+import { getLeadPingId } from "@/lib/leadPing";
 
 /* /assessment/results is the quiz's thank-you page. Reading the one-shot pl_ok
    cookie (set by submitAssessment only for a recorded, non-test lead) makes
@@ -11,7 +11,7 @@ export const dynamic = "force-dynamic";
 export default function ResultsLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {hasLeadPingFlag() && <LeadConversionPing />}
+      {(() => { const id = getLeadPingId(); return id ? <LeadConversionPing leadId={id} /> : null; })()}
       {children}
     </>
   );

@@ -45,7 +45,7 @@ export async function submitPackageInquiry(
   // See app/actions/contact.ts for why this runs both in parallel and only
   // reports an error to the visitor if the CRM save also failed.
   // See lib/intake.ts — additive, fully swallowed, never affects the visitor.
-  const [, crmResult, emailResult] = await Promise.allSettled([
+  const [mirrorResult, crmResult, emailResult] = await Promise.allSettled([
     mirrorLeadToIntake({
       form: "package-inquiry",
       page: "/packages",
@@ -56,7 +56,7 @@ export async function submitPackageInquiry(
       email,
       message: notes,
       ...attributionFrom(formData),
-    }).then(() => undefined),
+    }),
     pushLeadToCrm({
       contactName: name,
       practiceName: practice,
@@ -103,7 +103,7 @@ export async function submitPackageInquiry(
 
   // A real lead reached at least one durable destination — authorize the
   // single conversion ping that /thank-you is about to be asked to render.
-  markLeadRecorded();
+  markLeadRecorded(mirrorResult.status === "fulfilled" ? mirrorResult.value : null);
 
   return { status: "success", firstName };
 }

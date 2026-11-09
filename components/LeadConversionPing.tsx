@@ -49,7 +49,7 @@ const ADS_CONVERSION_SEND_TO = "AW-18204165915/YK5gCOvC-vccEJuOtuhD";
 const RETRY_MS = 150;
 const MAX_WAIT_MS = 15000;
 
-export default function LeadConversionPing() {
+export default function LeadConversionPing({ leadId }: { leadId: string }) {
   useEffect(() => {
     // QA guard (card #598 B1): 13 of the 17 GA4 generate_lead events counted for
     // primara365.com in the 28 days to 2026-11-05 came from two days of our own
@@ -93,6 +93,9 @@ export default function LeadConversionPing() {
       window.gtag("event", "generate_lead", {
         send_to: GA_ID,
         form_destination: "thank-you",
+        // Stored Command Center lead id (card #660): GA4 dedupes on it and it
+        // matches lead_submissions.id.
+        transaction_id: leadId,
       });
 
       window.gtag("event", "conversion", {
@@ -117,7 +120,7 @@ export default function LeadConversionPing() {
       cancelled = true;
       if (timer) clearTimeout(timer);
     };
-  }, []);
+  }, [leadId]);
 
   return null;
 }

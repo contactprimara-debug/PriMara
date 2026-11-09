@@ -31,7 +31,7 @@ const TIMEOUT_MS = 4000;
 const ATTEMPTS = 3;
 const BACKOFF_MS = [0, 400, 1200];
 
-export async function mirrorLeadToIntake(payload: Record<string, unknown>, opts: { test?: boolean } = {}): Promise<void> {
+export async function mirrorLeadToIntake(payload: Record<string, unknown>, opts: { test?: boolean } = {}): Promise<number | null> {
   let lastReason = "unknown";
   for (let attempt = 0; attempt < ATTEMPTS; attempt++) {
     if (BACKOFF_MS[attempt]) await new Promise((r) => setTimeout(r, BACKOFF_MS[attempt]));
@@ -43,7 +43,11 @@ export async function mirrorLeadToIntake(payload: Record<string, unknown>, opts:
         signal: AbortSignal.timeout(TIMEOUT_MS),
         cache: "no-store",
       });
-      if (res.ok) return;
+      if (res.ok) {
+        // Stored lead id: the GA4 generate_lead gate needs it (card #660).
+        const data = (await res.json().catch(() => ({}))) as { id?: unknown };
+        return typeof data.id === "number" ? data.id : null;
+      }
       const text = await res.text().catch(() => "");
       lastReason = `HTTP ${res.status} ${text.slice(0, 200)}`;
       console.error(`[intake] mirror attempt ${attempt + 1}/${ATTEMPTS} returned`, res.status, text);
@@ -56,6 +60,7 @@ export async function mirrorLeadToIntake(payload: Record<string, unknown>, opts:
   }
   // A test lead must never email anyone, even on failure.
   if (!opts.test) await alertIntakeFailure(payload, lastReason);
+  return null;
 }
 
 /** Emails the full lead to the inbox we do read, so a failed mirror is never silent. */
