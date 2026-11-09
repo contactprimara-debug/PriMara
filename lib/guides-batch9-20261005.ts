@@ -19,7 +19,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "Google Search Console is a free tool that shows how your website performs in Google Search. For a practice, check three things: the Performance report for clicks and impressions by page and query, the Pages report for what is indexed, and the Sitemaps report. Review monthly, and act on drops that last several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       {
@@ -71,7 +71,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way. Reading the dashboard weekly is easier when the alert emails also reach the right people, which [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) explains in detail. The Pages report sometimes lists old PDF files that still appear in search, and the cleanup steps in [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) explain how to redirect or remove them safely."
+        "text": "Keep private information out of your reasoning. Search Console data is aggregate and anonymous, and nothing in it should be tied to an individual patient. Note your findings in a simple log so you can compare month to month. If a broad drop appears across many pages, check whether it lines up with a [Google core update](/guides/google-core-updates-how-to-tell-if-your-practice-site-was-hit) before changing anything. The Business Profile has its own performance report for the listing; our guide on [reading Google Business Profile performance reports](/guides/how-to-read-google-business-profile-performance-reports-each-month) covers it the same way. Reading the dashboard weekly is easier when the alert emails also reach the right people, which [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) explains in detail. The Pages report sometimes lists old PDF files that still appear in search, and the cleanup steps in [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) explain how to redirect or remove them safely. Once the basics are familiar, a [monthly routine for reading the top queries as client questions](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice) turns the Queries tab into a list of page improvements for a counseling practice."
       }
     ],
     faqs: [
@@ -412,7 +412,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "An XML sitemap lists the pages you want Google to find, and robots.txt tells crawlers which areas not to crawl. Neither is a security tool. Your sitemap should list only live, indexable pages, and robots.txt must never block pages you want in search. To keep a page out of results, use a noindex tag instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       {
@@ -439,7 +439,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Most website platforms generate a sitemap for you, so the job is checking it. Open it in a browser, sample twenty URLs, and confirm they load. If you read [how to read Google Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website), the Sitemaps report will show when Google last read yours. Also confirm that every listed address is the preferred version, with a matching canonical tag, as explained in [canonical tags and duplicate content on a medical practice website](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website)."
+        "text": "Most website platforms generate a sitemap for you, so the job is checking it. Open it in a browser, sample twenty URLs, and confirm they load. If you read [how to read Google Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website), the Sitemaps report will show when Google last read yours. Also confirm that every listed address is the preferred version, with a matching canonical tag, as explained in [canonical tags and duplicate content on a medical practice website](/guides/canonical-tags-and-duplicate-content-on-a-medical-practice-website). The sitemap is also the fastest way to start a [page inventory spreadsheet that lists every page and what it is for](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for)."
       },
       {
         "type": "h2",

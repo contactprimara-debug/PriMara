@@ -105,7 +105,7 @@ export const guidesPartForty: Guide[] = [
       "Pick one phone number and one visible format, then make every copy of it a tap-to-call link written with the country code. Check every page type, not just the home page, including the footer, contact page, bios, thank-you page, PDFs and images, because a number that cannot be tapped loses calls.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T16:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("A number that cannot be tapped is a lost call"),
@@ -155,7 +155,7 @@ export const guidesPartForty: Guide[] = [
         "After the fix, tap the number on an iPhone and an Android phone and confirm the dial screen shows the right digits. Then confirm the tap is being counted. [Tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website) shows how to count taps without collecting anything about the caller. If you use a different number for tracking, read the guide on [call tracking numbers that leave the Google profile number alone](/guides/call-tracking-numbers-on-a-counseling-practice-website-without-changing-the-google-profile-phone-number) first so your listings do not drift apart."
       ),
       p(
-        "When the main number changes, change it in one place if your site allows, search for the old number afterward, and update the Google profile, directories and printed pieces on the same day."
+        "When the main number changes, change it in one place if your site allows, search for the old number afterward, and update the Google profile, directories and printed pieces on the same day. If the change comes from a new carrier or phone system, our [checklist for what to test after a phone system change](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) lists the website and profile places to re-test."
       ),
     ],
     faqs: [

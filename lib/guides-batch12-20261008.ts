@@ -943,7 +943,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A canonical tag tells Google which version of a page is the main one when the same content can be reached at more than one address. Give every page one self-referencing canonical, redirect old or alternate addresses to it, and avoid publishing near-copies of the same page. Google treats canonicals as a strong hint, not a command.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-06",
+  "dateModified": "2026-11-09",
   "readMinutes": 7,
   "sections": [
     {
@@ -1029,7 +1029,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website). A downloadable PDF copy of a page can compete with the page itself, so see [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) for how to replace or redirect the older file."
+      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website). A downloadable PDF copy of a page can compete with the page itself, so see [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) for how to replace or redirect the older file. A [page inventory that records what each page is for](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for) is the easiest way to spot two pages with the same purpose before they compete."
     },
     {
       "type": "callout",
@@ -1500,7 +1500,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Google's help page on Business Profile owners and managers explains that you can add people with different roles and that a profile should have more than one owner so that access survives staff changes. Add your agency as a manager rather than the primary owner, and name two people at the practice as owners. If a former employee still has access, remove them promptly."
+      "text": "Google's help page on Business Profile owners and managers explains that you can add people with different roles and that a profile should have more than one owner so that access survives staff changes. Add your agency as a manager rather than the primary owner, and name two people at the practice as owners. If a former employee still has access, remove them promptly. When a new office manager joins, a [day-one handoff page for the new manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts) turns this ownership list into the logins and roles they should receive."
     },
     {
       "type": "h2",

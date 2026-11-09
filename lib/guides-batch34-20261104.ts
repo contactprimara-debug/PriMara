@@ -1006,7 +1006,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "Use a local number as the main line on your website and Google profile, because patients and Google both tie it to your area. A toll-free number can sit beside it as a secondary line if you serve a wide area. Keep every listing consistent and tap-to-call.",
     author: "Liam Costello",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("The choice most practices face"),
@@ -1049,7 +1049,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("When you change numbers"),
       p(
-        "If the practice moves to a new phone system or number, update the Google profile, the website header, the footer, the contact page and every directory in one sitting, and keep the old number forwarding for a long time. Patients keep old cards, old referral letters and old search results, and a number that suddenly rings nowhere costs real appointments."
+        "If the practice moves to a new phone system or number, update the Google profile, the website header, the footer, the contact page and every directory in one sitting, and keep the old number forwarding for a long time. Patients keep old cards, old referral letters and old search results, and a number that suddenly rings nowhere costs real appointments. The [full list of places to check after a phone system or carrier change](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) walks through the website, the Google profile and the test calls."
       ),
     ],
     faqs: [

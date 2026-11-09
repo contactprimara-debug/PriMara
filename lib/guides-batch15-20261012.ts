@@ -1628,7 +1628,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Put new-patient calls first or let a person answer, keep the menu to a few short options, offer a way to reach staff at every step, and make sure a voicemail is checked. Call your own number each week from a mobile phone, because phone systems break quietly.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-10-12",
+    "dateModified": "2026-11-09",
     "readMinutes": 7,
     "sections": [
       {
@@ -1741,7 +1741,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Write down the result in the same place each week. A short log of dates and notes is enough. If the time to reach a person is getting longer, you have found a problem before a patient has complained about it."
+        "text": "Write down the result in the same place each week. A short log of dates and notes is enough. If the time to reach a person is getting longer, you have found a problem before a patient has complained about it. After a carrier or phone system change, run the same routine and use the [post-change checklist for the website and Google profile](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) so every menu option and phone link is tested again."
       }
     ],
     "faqs": [

@@ -730,7 +730,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A therapy practice FAQ should answer questions about logistics, fees, insurance, privacy, scheduling and how to start, in short plain answers of two to four sentences. It should politely decline questions that need clinical judgment, such as whether therapy will work for a person, and point those to a conversation with a clinician.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T11:20:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-09",
     readMinutes: 7,
     sections: [
       h2("Why an FAQ page earns its place"),
@@ -773,7 +773,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Keep it current"),
       p(
-        "An outdated FAQ is worse than none. Put a recurring reminder on the practice manager's calendar to read the page every quarter, check that every fee, hour and policy still matches the other pages, and add the question the front desk was asked most often that quarter."
+        "An outdated FAQ is worse than none. Put a recurring reminder on the practice manager's calendar to read the page every quarter, check that every fee, hour and policy still matches the other pages, and add the question the front desk was asked most often that quarter. Search Console's query list is a second source of new questions, and a [monthly routine for reading top queries](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice) shows how to find them without any client details."
       ),
       h2("A review checklist before you publish"),
       ul(

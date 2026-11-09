@@ -435,7 +435,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A helpful 404 page tells the visitor the page is gone, links to the home page, services, locations and the phone number, and still returns a 404 status code. A site search box is optional for a small practice, but if added it should search only public pages and never record what patients type.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("Two small features, two different jobs"),
@@ -462,7 +462,7 @@ export const guidesPartTwentySix: Guide[] = [
         "The page must return the HTTP status 404, not 200. A missing page that returns 200 is called a soft 404, and it confuses Google about which pages exist. Google's documentation on [HTTP status codes](https://developers.google.com/search/docs/crawling-indexing/http-network-errors) explains the difference. You can check yours by opening a made-up address and looking at the status in the browser's developer tools."
       ),
       p(
-        "For pages that moved, use a redirect, not a 404. Our walkthrough of [finding and fixing broken links](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) shows how to find the old addresses people still use."
+        "For pages that moved, use a redirect, not a 404. Our walkthrough of [finding and fixing broken links](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) shows how to find the old addresses people still use. When an old blog post is retired with no replacement, [this guide to keeping, merging or removing old posts](/guides/deciding-whether-to-keep-update-merge-or-remove-an-old-blog-post-on-a-medical-practice-website) explains when a clean 404 is acceptable."
       ),
       h2("Do you need site search?"),
       table(

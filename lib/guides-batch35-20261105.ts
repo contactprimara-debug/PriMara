@@ -448,7 +448,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "Search Console emails go to the owners and users on the property, so a practice should make sure at least two accountable people receive them, one of them with authority to approve fixes. Read security and manual action notices the same day, indexing and coverage notices weekly, and ignore nothing from an address no one checks.",
     author: "Liam Costello",
     publishDate: "2026-11-05T10:20:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Why the inbox matters more than the dashboard"),
@@ -466,7 +466,7 @@ export const guidesPartThirtyEight: Guide[] = [
         ["Website developer or agency, as a user", "Can fix problems directly, but should not be the only recipient."],
       ),
       p(
-        "Use named people on an address the practice controls. A shared inbox is acceptable only if one person is responsible for checking it. The guide to [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why ownership should stay with the practice."
+        "Use named people on an address the practice controls. A shared inbox is acceptable only if one person is responsible for checking it. The guide to [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why ownership should stay with the practice. When a new manager starts, add their address to the alerts as part of the [first-day account handoff](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts) so the warnings keep reaching someone."
       ),
       h2("What to do with each kind of email"),
       ul(
@@ -484,7 +484,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "In the property's settings, open the users and permissions list, confirm each owner and full user, and remove anyone who no longer works with the practice. Then check the notification preferences in the account's settings so that email is on. If the property was never verified in the first place, the walkthrough on [setting up and verifying Google Search Console](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website) covers it step by step."
       ),
       p(
-        "Finish by adding a recurring weekly reminder to read the dashboard summary, so the practice is not relying on email alone. The routine described in [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) takes about fifteen minutes and fits into a regular admin hour."
+        "Finish by adding a recurring weekly reminder to read the dashboard summary, so the practice is not relying on email alone. The routine described in [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) takes about fifteen minutes and fits into a regular admin hour. Add a monthly look at the top queries to that same hour, following the [query-reading routine for counseling practices](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice)."
       ),
     ],
     faqs: [

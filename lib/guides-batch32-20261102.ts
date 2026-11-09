@@ -1418,7 +1418,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Suppose the report shows forty pages as Crawled, currently not indexed, and twelve of them are service guides you care about. Open three of the twelve in the inspection tool. If they are thin, expand them. If they are good, find three indexed pages that naturally mention the topic and add a real sentence with a link to each."
       ),
       p(
-        "Then wait. Google revisits at its own pace, often within weeks. Check the report again next month, and compare the count of the twelve, not the whole list. If your clicks from Google fell suddenly and you suspect an indexing change, the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) shows where this report fits among the other checks."
+        "Then wait. Google revisits at its own pace, often within weeks. Check the report again next month, and compare the count of the twelve, not the whole list. If your clicks from Google fell suddenly and you suspect an indexing change, the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) shows where this report fits among the other checks. Pairing the report with a [page inventory spreadsheet](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for) makes it easier to see which listed pages have no clear purpose and are worth merging."
       ),
     ],
     faqs: [

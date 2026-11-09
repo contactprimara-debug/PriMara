@@ -114,7 +114,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("Make the next departure easy"),
       p(
-        "Keep one page, stored somewhere two people can open, that lists every account, the practice-owned email that owns it, and who has access. Our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why the practice, not an individual, should be the account owner. Review the list twice a year, and whenever a role changes, not only when someone leaves."
+        "Keep one page, stored somewhere two people can open, that lists every account, the practice-owned email that owns it, and who has access. Our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why the practice, not an individual, should be the account owner. Review the list twice a year, and whenever a role changes, not only when someone leaves. The same list is the starting point for the [day-one handoff for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts), which gives the next person only the access their job needs."
       ),
       p(
         "Pair that list with strong, unique passwords stored in a password manager and with a second sign-in step wherever it is offered. Federal cybersecurity guidance on strong passwords is a short read for the whole team, and it makes a removal day far less stressful because there are fewer shared secrets to change."
@@ -249,7 +249,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "A practice domain expires when the yearly fee is not paid, and the website and every email address on it then stop working. Prevent it with the practice as the registered owner, auto-renew on, a current card, a billing email that more than one person reads, and a calendar reminder sixty days out.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("The quietest way for a practice to disappear"),
@@ -257,7 +257,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "A domain is rented, usually one year at a time or in multi-year blocks. When the term runs out and nobody pays, the website stops loading, the email addresses on that domain stop receiving mail, and in many cases the name can be picked up by someone else. For a primary care or counseling practice, that means patients cannot find the site, new inquiries bounce, and appointment emails go nowhere, often for days before anyone notices."
       ),
       p(
-        "The usual cause is not neglect. The renewal notice went to a former employee, the card on file expired, or the domain was bought years ago by a web designer under their own account. Each is easy to prevent once somebody owns the job."
+        "The usual cause is not neglect. The renewal notice went to a former employee, the card on file expired, or the domain was bought years ago by a web designer under their own account. Each is easy to prevent once somebody owns the job. A new office manager is a common point where that job gets dropped, so the renewal date and account email belong on a [day-one handoff page for the practice online accounts](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts)."
       ),
       h2("Six protections to set up this week"),
       table(
@@ -330,7 +330,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "Listen for the practical questions people ask when they first call or write, such as cost, insurance, availability and what a first visit is like. Tally them in a simple sheet with no names or personal details, then write one page per repeated question using the caller's own words.",
     author: "Liam Costello",
     publishDate: "2026-11-06T10:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Your front desk already knows the keywords"),
@@ -369,7 +369,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("Check whether the new page works"),
       p(
-        "A month after publishing, see whether the number of calls asking that question has dropped, and whether the page appears in Search Console. A page that answers a common call is working even if it earns few clicks, because it saves staff time. Our guide on [how to read Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains where to look."
+        "A month after publishing, see whether the number of calls asking that question has dropped, and whether the page appears in Search Console. A page that answers a common call is working even if it earns few clicks, because it saves staff time. Our guide on [how to read Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website) explains where to look. The search side of the same idea is covered in [reading the top Search Console queries each month](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice), which sorts typed searches into questions, services and insurance words."
       ),
     ],
     faqs: [
@@ -663,7 +663,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "Send website form notices to a shared role mailbox such as frontdesk@yourpractice.com, owned by the practice, read by at least two people, with a named person checking it each business day. Keep health details out of the notification and let the email only say that a message waits.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T11:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("The form that only one person can see"),
@@ -699,7 +699,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("When someone leaves or goes on leave"),
       p(
-        "The point of the role address is that nothing changes when a person does. Remove the departing person from the mailbox's user list as part of the exit steps in our guide on [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice), add their replacement, and run the test again. During planned leave, confirm that the backup knows the box exists."
+        "The point of the role address is that nothing changes when a person does. Remove the departing person from the mailbox's user list as part of the exit steps in our guide on [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice), add their replacement, and run the test again. During planned leave, confirm that the backup knows the box exists. The person who takes over the box should be added on their first day, as part of a [handoff map for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts)."
       ),
       p(
         "If forms do not arrive, follow the [form email delivery test](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) before blaming the site. Most missing messages are caught by spam filters or sent to an address that no longer exists."
@@ -748,7 +748,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "To retire an old PDF form, publish the current version first, then redirect the old file's address to it or to the page that describes the form, and only remove the file once nothing links to it. Check Google for the old name afterwards. Never leave a form with outdated rules or phone numbers online.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T11:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Old forms keep working long after you stop using them"),
@@ -782,11 +782,11 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h3("What Google needs to hear"),
       p(
-        "Google can take a while to drop an old file even after it is gone. For ordinary cleanups, a redirect or a not-found response is enough and the result fades over time. For anything private, use Google's removal tool as well as removing the file. Documents Google may not show can also carry a noindex instruction, which Google documents for files that are not web pages."
+        "Google can take a while to drop an old file even after it is gone. For ordinary cleanups, a redirect or a not-found response is enough and the result fades over time. For anything private, use Google's removal tool as well as removing the file. Documents Google may not show can also carry a noindex instruction, which Google documents for files that are not web pages. Old blog posts need the same treatment, and a short guide on [whether to keep, update, merge or remove an old post](/guides/deciding-whether-to-keep-update-merge-or-remove-an-old-blog-post-on-a-medical-practice-website) covers when a redirect is the right answer."
       ),
       h2("Keep it from piling up again"),
       p(
-        "Give every form a version date in its file name and a footer, store forms in one folder, and review the folder twice a year. When a policy changes, update the form on the same day and retire the old one the same day. Put it on the same calendar as your listing review."
+        "Give every form a version date in its file name and a footer, store forms in one folder, and review the folder twice a year. When a policy changes, update the form on the same day and retire the old one the same day. Put it on the same calendar as your listing review. Add each file to the same [page inventory sheet as your web pages](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for) so a forgotten document is not missed at the next review."
       ),
     ],
     faqs: [

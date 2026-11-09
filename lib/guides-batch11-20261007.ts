@@ -344,7 +344,7 @@ export const guidesPartFourteen: Guide[] = [
     "answer": "A broken link points to a page that no longer loads, usually returning a 404. Find them with Search Console and a site crawl, then fix each one by updating the link, redirecting a retired page with a 301 to its closest replacement, or letting a truly gone page return a real 404.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-07T09:00:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-09",
     "readMinutes": 6,
     "sections": [
       {
@@ -423,7 +423,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Sending every retired page to the home page is a common shortcut and a poor one. A patient looking for a retired page about a specific service wants that service, and Google may treat an unrelated redirect as a soft 404. If nothing relevant exists, a clear 404 page with a link to your services and your phone number is the honest answer."
+        "text": "Sending every retired page to the home page is a common shortcut and a poor one. A patient looking for a retired page about a specific service wants that service, and Google may treat an unrelated redirect as a soft 404. If nothing relevant exists, a clear 404 page with a link to your services and your phone number is the honest answer. Before a post is retired this way, [five questions for deciding to keep, update, merge or remove it](/guides/deciding-whether-to-keep-update-merge-or-remove-an-old-blog-post-on-a-medical-practice-website) help make sure it has no visits or links worth keeping."
       },
       {
         "type": "h2",
@@ -602,7 +602,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep these four lines in a simple log. After three or four months, the log shows direction far better than any single report. Pair it with your Search Console numbers, covered in our [Search Console guide](/guides/how-to-read-google-search-console-for-a-medical-practice-website), and with [return on marketing spend](/guides/how-to-measure-roi-on-medical-practice-marketing) when you compare against revenue. Small sites can see staff visits and test submissions inflate these reports, which is why we explain [how to exclude staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website). At the end of the year, roll the twelve monthly readings into a single page using a [year-end marketing results summary for a counseling practice owner](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice). The four lines are also the first item on the agenda of a [monthly 30-minute marketing meeting for an owner and office manager](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager)."
+        "text": "Keep these four lines in a simple log. After three or four months, the log shows direction far better than any single report. Pair it with your Search Console numbers, covered in our [Search Console guide](/guides/how-to-read-google-search-console-for-a-medical-practice-website), and with [return on marketing spend](/guides/how-to-measure-roi-on-medical-practice-marketing) when you compare against revenue. Small sites can see staff visits and test submissions inflate these reports, which is why we explain [how to exclude staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website). At the end of the year, roll the twelve monthly readings into a single page using a [year-end marketing results summary for a counseling practice owner](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice). The four lines are also the first item on the agenda of a [monthly 30-minute marketing meeting for an owner and office manager](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager). Search Console adds the other half of the picture, and the [monthly query-reading routine for a counseling practice](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice) shows which typed questions to answer on the site."
       },
       {
         "type": "h2",

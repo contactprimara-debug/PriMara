@@ -1101,7 +1101,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "Review every page at least once a year, and your highest-value pages, such as service and location pages, every quarter. Update a page when the facts change, when its clicks decline, or when a clinician reviews it and finds something outdated. Change the date only when the content genuinely changed.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       {
@@ -1114,7 +1114,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Google's guidance on helpful content asks whether your content is accurate and kept up to date. That is a quality question, not a calendar trick, so a page refreshed for the sake of a new date helps nobody."
+        "text": "Google's guidance on helpful content asks whether your content is accurate and kept up to date. That is a quality question, not a calendar trick, so a page refreshed for the sake of a new date helps nobody. When a post fails that test, use the [keep, update, merge or remove decision guide](/guides/deciding-whether-to-keep-update-merge-or-remove-an-old-blog-post-on-a-medical-practice-website) to decide what happens next."
       },
       {
         "type": "h2",
@@ -1156,7 +1156,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A real refresh fixes inaccurate facts, adds information a reader would now expect, tightens the answer at the top, adds or checks FAQs, updates citations to current sources, and checks that links still work. A clinician should read medical content and sign off. After that, update the visible date and the structured data's date together, as Google's guidance on publication dates recommends, and only when the page truly changed. Seasonal pages are a good example: update the same page each year rather than publishing a new one, as covered in [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals). When a page carries a reviewer's name, a refresh also means a new clinical review, which we cover in [medically reviewed by labels on a medical practice website](/guides/medically-reviewed-by-labels-on-a-medical-practice-website). Counseling practices can turn that routine into a yearly read-through of every page using our [annual website content review checklist for a counseling practice](/guides/annual-website-content-review-checklist-for-a-counseling-practice)."
+        "text": "A real refresh fixes inaccurate facts, adds information a reader would now expect, tightens the answer at the top, adds or checks FAQs, updates citations to current sources, and checks that links still work. A clinician should read medical content and sign off. After that, update the visible date and the structured data's date together, as Google's guidance on publication dates recommends, and only when the page truly changed. Seasonal pages are a good example: update the same page each year rather than publishing a new one, as covered in [seasonal service pages for a medical practice](/guides/seasonal-service-pages-for-a-medical-practice-flu-shots-and-school-physicals). When a page carries a reviewer's name, a refresh also means a new clinical review, which we cover in [medically reviewed by labels on a medical practice website](/guides/medically-reviewed-by-labels-on-a-medical-practice-website). Counseling practices can turn that routine into a yearly read-through of every page using our [annual website content review checklist for a counseling practice](/guides/annual-website-content-review-checklist-for-a-counseling-practice). Keeping a [page inventory spreadsheet](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for) with a last-checked date for every page makes the schedule for these reviews much easier to run."
       },
       {
         "type": "p",

@@ -1244,7 +1244,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Keep your real main number as the primary phone on Google, directories and the footer. If you use a tracking number, show it only in limited places such as ad landing pages, list the main number on the profile, and make sure the tracking number forwards to the same office line and is never published as the practice's number elsewhere.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Counting calls is useful; scattering numbers is not"),
@@ -1274,7 +1274,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Ask each new caller how they found you, and log the answer."
       ),
       p(
-        "Many practices find that these methods give enough direction without a single tracking number. Clicks on a phone link do not equal calls that connect, so label them as taps in your reports. Our page on [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website) covers the options in more depth. Before adding any tracking number, confirm that each number already on the site works as a tap-to-call link, using the [page-by-page click-to-call check](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website)."
+        "Many practices find that these methods give enough direction without a single tracking number. Clicks on a phone link do not equal calls that connect, so label them as taps in your reports. Our page on [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website) covers the options in more depth. Before adding any tracking number, confirm that each number already on the site works as a tap-to-call link, using the [page-by-page click-to-call check](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website). If you also switch carriers, retest the tracking number as part of the [post-switch phone checklist](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) so the forwarding still reaches the front desk."
       ),
       h3("Questions to ask a tracking vendor"),
       ul(

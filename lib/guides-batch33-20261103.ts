@@ -430,7 +430,7 @@ export const guidesPartThirtySix: Guide[] = [
         ["Nothing relevant exists", "Let it return a 404 or 410, with a helpful error page."],
       ),
       p(
-        "The rule is relevance. A visitor looking for a retired physician wants to learn where to go next, not to be dropped on a homepage with no explanation. Google describes redirecting to an unrelated page as a poor experience, and may treat it as a soft error. Choose the nearest useful page, or no redirect at all."
+        "The rule is relevance. A visitor looking for a retired physician wants to learn where to go next, not to be dropped on a homepage with no explanation. Google describes redirecting to an unrelated page as a poor experience, and may treat it as a soft error. Choose the nearest useful page, or no redirect at all. The same decision applies to old blog posts, and [deciding whether to keep, update, merge or remove an old post](/guides/deciding-whether-to-keep-update-merge-or-remove-an-old-blog-post-on-a-medical-practice-website) gives a simple set of questions for each one."
       ),
       h2("Use a 301, and test it"),
       p(
