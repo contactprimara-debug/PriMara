@@ -422,7 +422,7 @@ export const guidesPartOne: Guide[] = [
     title: "SEO vs Google Ads for a Therapy Practice",
     metaTitle: "SEO vs Google Ads for a Therapy Practice | Primara",
     metaDescription:
-      "Which fills a caseload faster, and which costs less over a year. A straight comparison for Florida therapy practices. Call (561) 291-2681.",
+      "Which fills a caseload faster, and which costs less over a year. A straight comparison of SEO and Google Ads for Florida therapy practices. (561) 291-2681",
     answer:
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",

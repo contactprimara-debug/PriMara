@@ -1564,11 +1564,11 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
 
       { type: "h3", text: "How a patient can tell a real message from a fake" },
-      { type: "p", text: "Federal cybersecurity guidance on phishing gives patients a simple habit: recognize, resist and delete. The warning signs it lists are urgent or frightening language, requests for personal or financial information, shortened links nobody recognizes, and sender addresses or links that are slightly off. If a message might be real, the guidance says not to tap any link or call any number in it, and to look up the organization's contact details on its own website instead." },
-      { type: "p", text: "Put that last step in your notice, with the office number written as a [tap-to-call link](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) at the top, so a worried patient has one clear thing to do." },
+      { type: "p", text: "Federal cybersecurity guidance on phishing gives patients a simple habit: recognize, resist and delete. The warning signs it lists are urgent language, requests for personal or financial information, unfamiliar shortened links, and addresses or links that are slightly off. If a message might be real, the guidance says not to tap any link or call any number in it, and to look up the organization's contact details on its own website instead." },
+      { type: "p", text: "Put that step in your notice, with the office number as a [tap-to-call link](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) at the top." },
     ],
     faqs: [
-      { q: "What should a patient do if they already tapped a link or replied?", a: "They should stop replying and enter nothing further. If they typed a password, they should change it on the real site, and if they shared a card number, they should call the card company on the number printed on the card. They can report the message through the FTC's ReportFraud site and tell the office by phone, without describing their health." },
+      { q: "What should a patient do if they already tapped a link or replied?", a: "They should stop replying and enter nothing further. If they typed a password, they should change it on the real site; if they shared a card number, they should call the card company. They can report the message through the FTC's ReportFraud site and tell the office by phone, without describing their health." },
       {
         q: "Does a scam message mean the practice was hacked?",
         a: "Not necessarily. Scammers guess at phone numbers and imitate well-known businesses without any access to the practice. Still, review account access, turn on two-step sign-in and check with your reminder vendor, so you can rule out a real leak.",

@@ -933,7 +933,7 @@ export const guidesPartEight: Guide[] = [
     title: "How to Run a Local SEO Audit for a Medical Practice",
     metaTitle: "How to Run a Local SEO Audit for a Practice",
     metaDescription:
-      "What a real local pack audit checks, in order, before recommending anything. Call (561) 291-2681.",
+      "What a real local pack audit for a medical practice checks, in order, before anything is recommended, and what the list should look like. (561) 291-2681",
     answer:
       "A real local SEO audit checks four things in order: whether the Google Business Profile is accurate and complete, whether the practice's name, address, and phone number match everywhere they appear online, whether the website's pages target real patient search intent with working tracking, and how the practice's local pack position compares to its actual nearby competitors — skipping straight to \"we'll get you more reviews\" without checking the first three is how a lot of local SEO work gets sold without fixing the real problem.",
     author: "Gio LaRoche",

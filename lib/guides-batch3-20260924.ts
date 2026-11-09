@@ -14,7 +14,7 @@ export const guidesPartSix: Guide[] = [
     title: "How to Pick a Healthcare Marketing Agency",
     metaTitle: "How to Pick a Healthcare Marketing Agency (2026)",
     metaDescription:
-      "The five questions that actually separate a good healthcare marketing agency from a bad one. Call Primara at (561) 291-2681.",
+      "The five questions that separate a good healthcare marketing agency from a poor one, and what to check before you sign. Call Primara at (561) 291-2681.",
     answer:
       "Pick a healthcare marketing agency by checking three things before price: do they show you real, verifiable results from other medical or dental practices (not generic case studies), do they understand HIPAA-safe tracking, and will they tell you exactly what they measure and how often. If an agency can't answer those three plainly, keep looking.",
     author: "Gio LaRoche",

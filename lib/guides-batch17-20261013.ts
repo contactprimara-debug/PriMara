@@ -1116,7 +1116,7 @@ export const guidesPartTwenty: Guide[] = [
     "category": "How-to",
     "title": "Waitlist Page for a Therapy Practice With a Full Caseload",
     "metaTitle": "Waitlist Page for a Therapy Practice With a Full Caseload",
-    "metaDescription": "What a full therapy practice can put on a waitlist page: honest timing, a safe way to join and crisis resources. Call (561) 291-2681.",
+    "metaDescription": "What a full therapy practice can put on a waitlist page: honest timing, a safe way to join, crisis resources and a plan to keep it current. (561) 291-2681",
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",

@@ -520,7 +520,7 @@ export const guidesPartFourteen: Guide[] = [
     "category": "How-to",
     "title": "How to Read Google Analytics 4 Reports Each Month for a Medical Practice",
     "metaTitle": "Reading Google Analytics 4 Each Month for a Practice",
-    "metaDescription": "A 20-minute monthly routine for reading GA4: which reports to open, what each number means, and what to ignore. Call (561) 291-2681.",
+    "metaDescription": "A 20-minute monthly routine for reading GA4 as a medical practice: which reports to open, what each number means, and what to ignore. (561) 291-2681",
     "answer": "Once a month, open four things in Google Analytics 4: traffic acquisition to see where visitors came from, pages and screens to see what they read, engagement rate to see whether they stayed, and key events to see who called or submitted a form. Compare each to the prior month and write down what changed.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-07T09:00:00Z",

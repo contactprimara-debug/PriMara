@@ -117,7 +117,7 @@ export const guidesPartSeven: Guide[] = [
     title: "Monthly Google Business Profile Maintenance Checklist",
     metaTitle: "Monthly Google Business Profile Maintenance Checklist",
     metaDescription:
-      "The recurring monthly tasks that keep a medical practice's Google Business Profile ranking and converting. Call (561) 291-2681.",
+      "The recurring monthly tasks that keep a medical practice's Google Business Profile accurate, active and easy for patients to call. Call (561) 291-2681.",
     answer:
       "A healthy Google Business Profile needs monthly attention: reply to every new review within 48 hours, post at least twice a week with a real photo attached (never text-only), check and correct hours around holidays, answer any pending Q&A questions, and review the Insights tab for calls, direction requests, and website clicks month over month. A listing that only gets touched once a quarter falls behind competitors who post weekly.",
     author: "Liam Costello",
@@ -781,7 +781,7 @@ export const guidesPartSeven: Guide[] = [
     title: "How to Measure ROI on Medical Practice Marketing",
     metaTitle: "How to Measure ROI on Medical Practice Marketing",
     metaDescription:
-      "The tracking setup and formula for knowing whether a medical practice's marketing spend is actually paying off. Call (561) 291-2681.",
+      "How to set up the tracking and use a simple formula to see whether a medical practice's marketing spend is paying off. Call Primara at (561) 291-2681.",
     answer:
       "Measuring ROI on medical practice marketing requires three connected pieces: every lead source (form, phone call, Google Business Profile) tracked to a single system, a cost per channel (ad spend plus agency fee, divided by channel), and a rough patient lifetime value to convert a lead count into a dollar figure. Without all three connected, a practice can see traffic and calls going up with no way to know if that's actually turning into paying patients worth more than what was spent.",
     author: "Liam Costello",
