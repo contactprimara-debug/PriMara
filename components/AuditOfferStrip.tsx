@@ -297,9 +297,9 @@ export default function AuditOfferStrip() {
                 <SmsConsentLine />
                 <SubmitBtn pending={pending} />
 
-                <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", color: "var(--smoke)", letterSpacing: "0.06em" }}>
+                <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", color: "var(--smoke)", letterSpacing: "0.06em" }}>
                   No spam. No sales pitch. Just the audit, delivered in 48 hours.
-                </p>
+                </div>
               </div>
             </form>
           )}

@@ -316,7 +316,7 @@ export default function ContactFinal() {
 
             {/* ── Confirmation card (hidden until submit) ───────────────────── */}
             <div ref={confirmRef} className="contact-confirm" style={{ display: 'none' }}>
-              <p
+              <div
                 style={{
                   fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
                   fontStyle: 'italic',
@@ -327,7 +327,7 @@ export default function ContactFinal() {
                 }}
               >
                 We&#8217;ll be in touch, {firstName}.
-              </p>
+              </div>
               <p
                 style={{
                   fontFamily: 'system-ui, sans-serif',

@@ -3,6 +3,25 @@ import { SITE_URL } from "@/lib/schema";
 import { lastmodForUrl } from "@/lib/lastmod";
 import { guides } from "@/lib/guides";
 import { caseStudies } from "@/lib/case-studies";
+import { readdirSync, readFileSync, existsSync } from "node:fs";
+import path from "node:path";
+
+// A page that says robots:{index:false} must never be listed in the sitemap
+// (healthscan page_indexability_pairing, 2026-11-07: /privacy was both).
+// Derived from the page files themselves so a new noindex page is excluded
+// automatically, with no list to remember.
+function noindexPaths(): Set<string> {
+  const out = new Set<string>();
+  const root = path.join(process.cwd(), "app");
+  try {
+    for (const d of readdirSync(root, { withFileTypes: true })) {
+      if (!d.isDirectory()) continue;
+      const f = path.join(root, d.name, "page.tsx");
+      if (existsSync(f) && /index:\s*false/.test(readFileSync(f, "utf8"))) out.add(`/${d.name}`);
+    }
+  } catch {}
+  return out;
+}
 
 // Add new pages here as they are built.
 // Geographic and service sub-pages go at the bottom with lower priority.
@@ -359,7 +378,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   });
 
-  return entries.map((entry) => ({
+  const skip = noindexPaths();
+  return entries
+    .filter((entry) => !skip.has(entry.url.replace(SITE_URL, "")))
+    .map((entry) => ({
     ...entry,
     lastModified: lastmodForUrl(entry.url),
   }));
