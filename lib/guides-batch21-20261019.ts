@@ -1209,7 +1209,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
     publishDate: "2026-10-19T12:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("What patients and Google see in an email address"),
@@ -1263,8 +1263,13 @@ export const guidesPartTwentyFour: Guide[] = [
       p(
         "If staff already use personal addresses, move them over in a planned week: create the new accounts, set up forwarding from the old addresses for a limited time, update the website, the Google profile, directories and email signatures, and tell patients and vendors. Then close the old forwarding so nothing keeps flowing to personal inboxes, and keep a note of what was changed and when. Your email stops working the day the domain expires, which is why the protections in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) matter as much as the mailbox setup itself."
       ),
+
+      { type: "h3", text: "A five-minute check after setup" },
+      { type: "ol", items: ["Send a test message from a staff address to two outside accounts on different providers and confirm it reaches the inbox, not spam.", "Open the original message details in the receiving inbox and look for pass results for SPF and DKIM. Most providers show them under an option such as show original.", "Send a test through your website contact form, using a made-up name, and confirm the notification still arrives. A mail change can quietly break form emails.", "Check the domain's renewal date and turn on auto-renew, so the mailbox does not disappear with the domain."] },
+      { type: "p", text: "The [contact form delivery test](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) explains the form step in more detail." },
     ],
     faqs: [
+      { q: "How can we tell whether SPF and DKIM are working?", a: "Send a test message to an outside inbox and view the original message details, where most providers show a pass or fail for each record. Test again after any change to your mail service or domain settings." },
       {
         q: "Is it wrong to use Gmail for a practice?",
         a: "A free personal address is not forbidden, but it looks less trustworthy and gives the practice no control when staff change. A domain-based address through a business service is a better default, and essential if patient information is ever handled by email.",
@@ -1505,7 +1510,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "When scammers imitate a medical practice by text or email, the practice should tell patients in plain words how it really contacts them, what it will never ask for, and where to report a suspicious message, without describing any individual patient's situation. Post the notice on the website and voicemail and keep it short.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:40:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("The problem patients will blame on you"),
@@ -1557,8 +1562,13 @@ export const guidesPartTwentyFour: Guide[] = [
       p(
         "Review the wording twice a year and after any change in how the office contacts patients, such as a new reminder service or a new portal. If the real messages change, the notice must change too, or it will mislead the patients it is meant to protect. Date the notice, keep the previous version in a file and have the practice manager approve each update."
       ),
+
+      { type: "h3", text: "How a patient can tell a real message from a fake" },
+      { type: "p", text: "Federal cybersecurity guidance on phishing gives patients a simple habit: recognize, resist and delete. The warning signs it lists are urgent or frightening language, requests for personal or financial information, shortened links nobody recognizes, and sender addresses or links that are slightly off. If a message might be real, the guidance says not to tap any link or call any number in it, and to look up the organization's contact details on its own website instead." },
+      { type: "p", text: "Put that last step in your notice, with the office number written as a [tap-to-call link](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) at the top, so a worried patient has one clear thing to do." },
     ],
     faqs: [
+      { q: "What should a patient do if they already tapped a link or replied?", a: "They should stop replying and enter nothing further. If they typed a password, they should change it on the real site, and if they shared a card number, they should call the card company on the number printed on the card. They can report the message through the FTC's ReportFraud site and tell the office by phone, without describing their health." },
       {
         q: "Does a scam message mean the practice was hacked?",
         a: "Not necessarily. Scammers guess at phone numbers and imitate well-known businesses without any access to the practice. Still, review account access, turn on two-step sign-in and check with your reminder vendor, so you can rule out a real leak.",

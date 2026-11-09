@@ -82,7 +82,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "When someone leaves a medical practice, remove their access to the practice's Google profile, website login, email, form notifications and shared passwords on the last day, in a set order, with a second person confirming. Keep a written list of every account so nothing is forgotten, and never share one login to avoid the work.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("The account list is the real problem"),
@@ -121,7 +121,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("After the removal"),
       p(
-        "Two weeks later, check the Google profile's user list, the website's user list and the form notification address again. Look for a login that quietly came back through a password reset, and for any form that still goes to the old address. A test message from the contact form should arrive in the shared mailbox and nowhere else."
+        "Two weeks later, check the Google profile's user list, the website's user list and the form notification address again. Look for a login that quietly came back through a password reset, and for any form that still goes to the old address. A test message from the contact form should arrive in the shared mailbox and nowhere else. The same list works when an outside company leaves, and the [account handover checklist for ending a marketing vendor relationship](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) adds the exports and ownership checks that matter then."
       ),
     ],
     faqs: [
@@ -497,7 +497,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "Name a service page with the words a patient would say, such as physical for work or high blood pressure checks, and put the clinical term in the first paragraph as a plain definition. Use one name per page, match it in the menu, title and heading, and avoid claims about results.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T10:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Staff say one thing, patients type another"),
@@ -531,7 +531,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h3("Where the name must match"),
       p(
-        "Use the same name in the menu, the page title, the main heading and the link text from other pages. A mismatch, such as a menu item that says primary care visits above a heading that says internal medicine consultations, confuses visitors and splits the signal. The [guide to writing a service page that ranks](/guides/how-to-write-a-medical-service-page-that-ranks) shows how the pieces fit together."
+        "Use the same name in the menu, the page title, the main heading and the link text from other pages. A mismatch, such as a menu item that says primary care visits above a heading that says internal medicine consultations, confuses visitors and splits the signal. The [guide to writing a service page that ranks](/guides/how-to-write-a-medical-service-page-that-ranks) shows how the pieces fit together. The two services you feature on the home page are the first place to apply this, and [choosing the first two services to feature on a primary care home page](/guides/choosing-the-first-two-services-to-feature-on-a-primary-care-practice-home-page) shows how to pick them."
       ),
       h2("What to avoid"),
       p(

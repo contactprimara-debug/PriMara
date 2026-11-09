@@ -201,7 +201,7 @@ export const guidesPartForty: Guide[] = [
       "Hand a phone to five people who do not know your practice, show your home page for five seconds, then take it away and ask what the practice does, where it is and how to book. Whatever they cannot say is what the first screen is failing to show, and that is your fix list.",
     author: "Liam Costello",
     publishDate: "2026-11-06T16:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("You already know what belongs on the first screen"),
@@ -253,7 +253,7 @@ export const guidesPartForty: Guide[] = [
       ),
       h2("Fix one thing, then test again"),
       p(
-        "Change the single biggest gap, such as moving the town into the headline or shrinking a hero photo, and run the test again with five different people. Keep a short note of the date, the changes and the answers so the next redesign does not undo what worked. Do not put any patient's name or health details in this note, and do not ask testers about their own health."
+        "Change the single biggest gap, such as moving the town into the headline or shrinking a hero photo, and run the test again with five different people. Keep a short note of the date, the changes and the answers so the next redesign does not undo what worked. Do not put any patient's name or health details in this note, and do not ask testers about their own health. If the test shows the home page tries to say too much, [choosing the first two services to feature on the home page](/guides/choosing-the-first-two-services-to-feature-on-a-primary-care-practice-home-page) explains how to pick what leads."
       ),
       p(
         "Repeat after any redesign, new theme or new banner. If your practice is a counseling practice rather than primary care, the same test works with the guide on [what a first-time visitor needs to see on a therapy practice home page](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see) as your reference."

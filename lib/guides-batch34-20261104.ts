@@ -560,7 +560,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "When two pages on your site answer the same search, Google may show one, swap between them, or show neither well. Find the overlap in Search Console, choose the stronger page, merge the useful text into it, redirect the other, and update internal links to point at the winner.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("What the problem looks like"),
@@ -607,7 +607,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Prevent it next time"),
       p(
-        "Before writing a new page, search your own site for the topic. Keep a simple list of pages and the question each answers, and check it before adding anything. The habit in [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website) helps too, because a page that is clearly the main one for a topic collects the links."
+        "Before writing a new page, search your own site for the topic. Keep a simple list of pages and the question each answers, and check it before adding anything. The habit in [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website) helps too, because a page that is clearly the main one for a topic collects the links. The same list helps when you pick what to feature on the home page, as described in [choosing the first two services for a primary care home page](/guides/choosing-the-first-two-services-to-feature-on-a-primary-care-practice-home-page)."
       ),
     ],
     faqs: [
@@ -1358,7 +1358,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "With a small budget, fix the free and cheap foundations first: an accurate Google profile, clear service pages, one or two paid directories and a way to count inquiries. Add paid search only after those work and the practice can answer every inquiry quickly. Review the split every quarter.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("Start with the order, not the amounts"),
@@ -1400,7 +1400,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("Write the plan down"),
       p(
-        "Put the split on one page: what is spent on each channel, who owns it, and what number tells you it is working. Share it with the owner and the person answering the phone. When everyone can see the plan, it is easier to resist a salesperson who promises fast results, and easier to notice when a channel has stopped earning its place."
+        "Put the split on one page: what is spent on each channel, who owns it, and what number tells you it is working. Share it with the owner and the person answering the phone. When everyone can see the plan, it is easier to resist a salesperson who promises fast results, and easier to notice when a channel has stopped earning its place. If the caseload fills up, see [what to pause in marketing when a counseling practice is full](/guides/what-to-pause-in-marketing-when-a-counseling-practice-has-a-full-caseload-and-a-waitlist) before you move money from one line to another."
       ),
     ],
     faqs: [

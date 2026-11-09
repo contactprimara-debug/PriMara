@@ -315,7 +315,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "A first-week check-in after a counseling intake should cover logistics only: thanks for coming, how to book the next session, how to send a non-urgent message, and what to do in a crisis. Leave out anything clinical. Send it once within a business day, and once more if no visit is booked.",
     author: "Gio LaRoche",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Why the first week matters to a practice"),
@@ -360,8 +360,12 @@ export const guidesPartThirtyFive: Guide[] = [
       p(
         "Read it as if you were a roommate glancing at the lock screen. If anything in it would tell you why someone is in treatment, take it out and send the plainer version."
       ),
+
+      { type: "h3", text: "Check how the message arrives" },
+      { type: "p", text: "Send the sample to a staff phone and read the lock screen preview. Confirm that the practice name alone does not reveal the kind of care, that the booking link opens properly on a phone and that a STOP reply is honored. Then, once a month, count how many first-session clients booked a second visit within two weeks, using your own sheet with no client names. The [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) is a good place to keep the number." },
     ],
     faqs: [
+      { q: "Should the message include the clinician's name?", a: "Usually not in a text, because a name and a practice type can reveal care on a shared screen. Ask at intake what each client prefers, record it and follow it." },
       {
         q: "Is it appropriate for a practice to follow up after a first session?",
         a: "Yes, when the message is about scheduling and contact options only and the client agreed to be contacted that way. The follow-up should read like a courtesy from the front desk, not an outreach from the clinician about the client's situation or progress.",
@@ -1371,7 +1375,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "The page indexing report in Google Search Console lists why some of your pages are not in Google. Most reasons are normal, such as redirects or duplicate pages. The ones to act on are not found errors, accidental noindex tags, and good pages stuck in Crawled or Discovered, which usually need better links and content.",
     author: "Gio LaRoche",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("A report that looks worse than it is"),
@@ -1414,7 +1418,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Suppose the report shows forty pages as Crawled, currently not indexed, and twelve of them are service guides you care about. Open three of the twelve in the inspection tool. If they are thin, expand them. If they are good, find three indexed pages that naturally mention the topic and add a real sentence with a link to each."
       ),
       p(
-        "Then wait. Google revisits at its own pace, often within weeks. Check the report again next month, and compare the count of the twelve, not the whole list."
+        "Then wait. Google revisits at its own pace, often within weeks. Check the report again next month, and compare the count of the twelve, not the whole list. If your clicks from Google fell suddenly and you suspect an indexing change, the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) shows where this report fits among the other checks."
       ),
     ],
     faqs: [

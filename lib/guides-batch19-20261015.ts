@@ -272,7 +272,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A disclosure page should say plainly which clinicians are fully licensed and which are pre-licensed or registered interns working under supervision, name the supervisor, state what title each person may use, and explain fees. Use only the titles each board allows, and never imply that a trainee holds a license they have not earned.",
     author: "Liam Costello",
     publishDate: "2026-10-15T09:40:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("Why clients need to be told, and where"),
@@ -324,8 +324,12 @@ export const guidesPartTwentyTwo: Guide[] = [
       p(
         "A quick audit once a quarter, comparing each clinician's website bio, Google profile, directory entries and the state record, catches nearly all of these. Assign the audit to one person and keep the checklist short enough to finish in an hour."
       ),
+
+      { type: "h3", text: "Keep one source of truth" },
+      { type: "p", text: "Keep a master list of clinicians with name, title, license or registration status, supervisor and the date it was last checked against the state record. Every page that mentions a clinician, from the bio to the Google profile, is then updated from that list. Add each review to a [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change) so that a stale title is easy to trace to the date it went wrong." },
     ],
     faqs: [
+      { q: "How often should the page be reviewed?", a: "At least quarterly, and any time a clinician is licensed, leaves or changes supervisor. Compare each bio, the Google profile and directory entries with the state record, and write the review date at the bottom of the page." },
       {
         q: "Are pre-licensed clinicians allowed to see clients?",
         a: "Yes, under supervision, according to each state's rules. The practice must follow its board's requirements and tell clients who is supervising and what the clinician's status is.",

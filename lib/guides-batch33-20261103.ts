@@ -410,7 +410,7 @@ export const guidesPartThirtySix: Guide[] = [
       "When you remove a service or provider page, send the old address with a 301 redirect to the closest live page that helps the same visitor, such as the service hub or the team page. Do not send everything to the homepage, and let a truly gone page return a clear not-found message.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("What happens to an address when a page is deleted"),
@@ -452,11 +452,11 @@ export const guidesPartThirtySix: Guide[] = [
         "A departing provider's page often carries links from the hospital directory, a licensing profile and reviews. After you redirect it, work through the checklist in [what to update when a provider joins or leaves a medical practice](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice), because the redirect fixes only one of the places where the name appears."
       ),
       p(
-        "If patients are being moved to another clinician, say so on the destination page in a sentence, with the phone number as a tap-to-call link. Keep the wording factual and kind, and avoid giving a reason for the departure unless the provider has agreed to it."
+        "If patients are being moved to another clinician, say so on the destination page in a sentence, with the phone number as a tap-to-call link. Keep the wording factual and kind, and avoid giving a reason for the departure unless the provider has agreed to it. Record the date of the removal and the redirect in a [one-page marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change) so a later change in traffic can be matched to it."
       ),
       h2("Keep a record"),
       p(
-        "Write the old address, the new address and the date in a simple sheet. Review it each year, because redirects rarely need to be removed, and a site migration is much easier when the list exists. The planning steps in [migrating a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) assume you have it."
+        "Write the old address, the new address and the date in a simple sheet. Review it each year, because redirects rarely need to be removed, and a site migration is much easier when the list exists. The planning steps in [migrating a medical practice website to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) assume you have it. A redesign is the most common time to lose old addresses by accident, so the [questions to ask a web designer before a redesign](/guides/questions-to-ask-a-web-designer-before-redesigning-a-medical-practice-website-so-rankings-are-not-lost) include asking for the old-to-new list in writing."
       ),
     ],
     faqs: [

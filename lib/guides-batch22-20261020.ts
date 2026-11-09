@@ -850,7 +850,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "When a therapist leaves a counseling practice, clients need a clear notice with the last day of service, their options for staying or moving, how to get their records and who to call. The practice should tell clients directly before changing public pages, then update the website and listings and avoid saying where the therapist went without permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("Clients hear it first, the website hears it second"),
@@ -902,8 +902,13 @@ export const guidesPartTwentyFive: Guide[] = [
       p(
         "Name one staff member who will answer calls about the transition, and give that person a script. Ten calm phone conversations are worth more than a polished letter."
       ),
+
+      { type: "h3", text: "Keep a dated record of each step" },
+      { type: "p", text: "Write each step in order with the date and who did it: the client notice, the scheduling change, the bio redirect and each listing update. A [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change) works well for the website and listing steps, and it makes it easy to see later that nothing was missed. Keep client names out of it, because it records what changed on the website and accounts, not who was told." },
+      { type: "p", text: "Two weeks later, search the therapist's name and the practice name on a phone and confirm that no old listing, bio or directory profile still shows the therapist at your address, because a client who finds a stale listing may call a number nobody answers." },
     ],
     faqs: [
+      { q: "How soon should the website change after clients are told?", a: "Soon after, and in the order above: clients first, then scheduling, then the website and listings. Aim to finish the public updates within about a week of the last day, and check again two weeks later for listings that still name the therapist." },
       {
         q: "Should the website announce that a therapist is leaving?",
         a: "Not before clients have been told directly. After that, a brief neutral note is fine, though many practices simply remove the bio, redirect the page to the team listing and leave it at that.",

@@ -423,7 +423,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "To move a medical practice website to a new domain without losing rankings, map every old URL to its closest new page, set permanent 301 redirects, keep the content the same during the move, tell Google through Search Console, and update your listings. Expect a temporary dip, and watch it for several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 7,
     sections: [
       {
@@ -484,7 +484,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Rankings often fluctuate for a few weeks as Google reprocesses the move, and larger sites can take longer. Check Search Console daily at first for crawl errors and coverage, then weekly. Compare clicks and impressions for your top twenty pages against the pre-move baseline. If a page drops sharply and stays down, check its redirect first, because a wrong or missing redirect is the most common cause. Before and after a move, confirm both the old and new domains are registered to the practice with auto-renew on, using the checklist in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) so redirects keep working."
+        "text": "Rankings often fluctuate for a few weeks as Google reprocesses the move, and larger sites can take longer. Check Search Console daily at first for crawl errors and coverage, then weekly. Compare clicks and impressions for your top twenty pages against the pre-move baseline. If a page drops sharply and stays down, check its redirect first, because a wrong or missing redirect is the most common cause. Before and after a move, confirm both the old and new domains are registered to the practice with auto-renew on, using the checklist in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) so redirects keep working. Before hiring anyone to carry out the move, send them the [questions to ask a web designer before redesigning a practice website](/guides/questions-to-ask-a-web-designer-before-redesigning-a-medical-practice-website-so-rankings-are-not-lost) and ask for written answers about redirects, tracking and testing."
       }
     ],
     faqs: [

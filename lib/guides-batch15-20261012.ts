@@ -1232,7 +1232,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Once a week, spend fifteen minutes on six things: answer new reviews, test the phone line, glance at the Google profile, submit nothing but check the form inbox, open the website on a phone, and write down one number. A small routine catches most problems before patients notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-09",
     "readMinutes": 7,
     "sections": [
       {
@@ -1330,11 +1330,11 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Pick a single count and record it every week in the same place: calls received, form requests, or new reviews. Trends matter more than any one value. After three months, the sheet shows whether things are moving."
+        "text": "Pick a single count and record it every week in the same place: calls received, form requests, or new reviews. Trends matter more than any one value. After three months, the sheet shows whether things are moving. Keep a separate [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change) beside that count, listing every change to the site, profile or ads with a date, so a movement in the count can be traced to its cause."
       },
       {
         "type": "p",
-        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea."
+        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea. When one of these weekly checks shows a sharp fall instead of a small slip, switch to the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) and write down what you find."
       },
       {
         "type": "h2",
@@ -1427,7 +1427,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Hospital and health system directories list clinicians who hold privileges, belong to a network or accept referrals. Ask the system's credentialing or provider relations office how listings are added, send exact details that match your profile, and check the listing every quarter, because these directories are rarely updated on their own.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-09",
     "readMinutes": 7,
     "sections": [
       {
@@ -1545,8 +1545,13 @@ export const guidesPartEighteen: Guide[] = [
           "Keep a spreadsheet with the listing address, contact person and date last checked."
         ]
       }
+,
+      { type: "h3", text: "If the system will not list your practice" },
+      { type: "p", text: "Some practices will not qualify, and that is fine. The profiles you control still carry your name, address and phone, so keep the [Google Business Profile](/guides/monthly-google-business-profile-maintenance-checklist) and the website accurate, and keep the NPPES record correct, since many directories draw on it." },
+      { type: "p", text: "A referring office that cannot find you in the system's directory can still reach you through a [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) that lists your fax number and referral instructions." },
     ],
     "faqs": [
+      { q: "What if a clinician left but still appears in the directory?", a: "Send the correction request described above, naming the clinician and the date they left, and ask when the page will come down. Follow up in two weeks and note each contact date. Until it is removed, make sure your own site and Google profile do not list the clinician." },
       {
         "q": "Can any practice get listed in a hospital directory?",
         "a": "Usually not. Listings depend on a relationship such as hospital privileges, network membership or employment. Ask the system's credentialing or provider relations office how listings work."

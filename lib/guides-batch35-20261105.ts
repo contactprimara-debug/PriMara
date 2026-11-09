@@ -111,7 +111,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "When reviews seem to vanish from a practice profile, check the filter and sort settings first, then whether you are looking at the right profile, then whether a reviewer or Google removed a review, then whether the profile was edited or merged. Record the count and dates, and never ask a patient to repost.",
     author: "Liam Costello",
     publishDate: "2026-11-05T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Why the number on your profile can change"),
@@ -153,7 +153,7 @@ export const guidesPartThirtyEight: Guide[] = [
       ),
       h2("When to ask Google for help"),
       p(
-        "If the count dropped sharply, the profile shows a warning, or a review you believe is genuine was removed, contact Business Profile support through the Help Center with the profile name, the dates and your monthly record. Support cannot promise a restore, but a clear timeline helps them find what changed. Keep the request free of patient information."
+        "If the count dropped sharply, the profile shows a warning, or a review you believe is genuine was removed, contact Business Profile support through the Help Center with the profile name, the dates and your monthly record. Support cannot promise a restore, but a clear timeline helps them find what changed. Keep the request free of patient information. If the fall is in calls or website visits and not only in reviews, run through the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) before you change anything on the profile."
       ),
     ],
     faqs: [
@@ -283,7 +283,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "A year-end marketing summary for a counseling practice should fit on one page and answer four questions: how many new clients asked to book, where they came from, what each channel cost, and what to change next year. Count requests and calls, not page views, and keep client details out of it.",
     author: "Liam Costello",
     publishDate: "2026-11-05T09:40:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Why a one-page summary beats a folder of reports"),
@@ -316,10 +316,10 @@ export const guidesPartThirtyEight: Guide[] = [
       ),
       h2("Turning it into next year's plan"),
       p(
-        "End the page with three decisions: one thing to keep, one thing to stop and one thing to try. A small budget goes further when it follows what worked, and the guide to [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice) shows one way to divide it. Pair the plan with the [annual website content review](/guides/annual-website-content-review-checklist-for-a-counseling-practice) so the pages that need updating are scheduled, not forgotten."
+        "End the page with three decisions: one thing to keep, one thing to stop and one thing to try. A small budget goes further when it follows what worked, and the guide to [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice) shows one way to divide it. Pair the plan with the [annual website content review](/guides/annual-website-content-review-checklist-for-a-counseling-practice) so the pages that need updating are scheduled, not forgotten. Write next year's goals as [simple monthly goals for calls and forms](/guides/setting-simple-monthly-goals-for-calls-and-forms-for-a-small-medical-practice-website) based on the last three months, not as a single large number."
       ),
       p(
-        "Finally, date the page and store it with the rest of the practice's business records. Next year's summary will be easier because the starting numbers are already written down, and a comparison with the previous year is the strongest evidence of whether the work is paying off."
+        "Finally, date the page and store it with the rest of the practice's business records. Next year's summary will be easier because the starting numbers are already written down, and a comparison with the previous year is the strongest evidence of whether the work is paying off. The notes from a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) make the year-end page much easier to write, because each month already has a direction and one action."
       ),
     ],
     faqs: [

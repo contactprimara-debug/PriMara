@@ -277,7 +277,7 @@ export const guidesPartNine: Guide[] = [
       "Most medical practices see Google Business Profile changes reflect within days to a few weeks, early call and website-visit lift within 60-90 days, and meaningful Google Maps and organic ranking movement at 4-6 months. A practice with a thin or inconsistent online presence to start usually takes longer than one that already has reviews and a working website.",
     author: "Gio LaRoche",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-09",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why this question doesn't have a single number" },
@@ -335,7 +335,7 @@ export const guidesPartNine: Guide[] = [
       },
       {
         type: "p",
-        text: "It's also worth separating a stalled Google Business Profile from a stalled website. A GBP listing with good reviews and complete information can show real Maps movement even while the website's organic rankings are still catching up — they run on different clocks, and conflating the two can make a practice think nothing is working when half the picture is actually fine. The blog version, [how long local SEO takes for medical practices](/blog/how-long-does-local-seo-take-for-medical-practices), covers the same question.",
+        text: "It's also worth separating a stalled Google Business Profile from a stalled website. A GBP listing with good reviews and complete information can show real Maps movement even while the website's organic rankings are still catching up — they run on different clocks, and conflating the two can make a practice think nothing is working when half the picture is actually fine. The blog version, [how long local SEO takes for medical practices](/blog/how-long-does-local-seo-take-for-medical-practices), covers the same question. For a week-by-week view of what you should be shown in the first month, before any ranking has moved, see [what a practice owner should see in the first 30 days of local SEO work](/guides/what-a-practice-owner-should-see-in-the-first-30-days-of-local-seo-work).",
       },
     ],
     faqs: [
@@ -864,7 +864,7 @@ export const guidesPartNine: Guide[] = [
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
@@ -908,8 +908,13 @@ export const guidesPartNine: Guide[] = [
         type: "p",
         text: "Same principle as email: TCPA governs whether you can text at all and under what consent; HIPAA governs whether the content discloses PHI. A text referencing a specific diagnosis or treatment detail needs a HIPAA-compliant secure messaging channel, not standard SMS, regardless of whether TCPA consent was obtained. Standard, unencrypted SMS is generally fine for appointment logistics and general marketing — not for anything clinical. A confirmation sent to a brand-new patient is the usual first text a practice sends, and our example of a [new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) shows consent, identification and opt-out wording in one short message. Counseling practices can apply these rules to reminders using our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy), which keeps the message free of anything a lock screen should not show.",
       },
+
+      { type: "h3", text: "A short pre-launch checklist" },
+      { type: "ul", items: ["Consent wording reviewed by your healthcare attorney.", "A test of STOP and START on the real platform, from a staff phone.", "Message templates that name the practice and carry no health details.", "One named person who reads replies and opt-outs every week.", "A dated record of each patient's consent, kept where two people can find it."] },
+      { type: "p", text: "Practices that only send reminders and welcome messages should still run the check. The [new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) guide shows wording that keeps health details out of the message." },
     ],
     faqs: [
+      { q: "Do we need to test the STOP reply before launch?", a: "Yes. Send a message to a staff phone, reply STOP, then try to send again to confirm the platform blocks it, and test START to confirm a patient can opt back in. Note the date and result. This is not legal advice, so confirm the requirements with your attorney." },
       {
         q: "Is this page legal advice?",
         a: "No. This is a plain-language summary of TCPA and HIPAA considerations for medical-practice text marketing, not a substitute for review by a healthcare attorney before launching or expanding a texting program.",

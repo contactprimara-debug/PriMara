@@ -758,7 +758,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add one question to new-patient intake and phone scripts: how did you hear about us. Offer a short list of choices plus a write-in, have the front desk record the answer in a single field, and review the counts monthly next to your analytics. It is imperfect, but it catches what tracking misses, such as word of mouth.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-06",
+  "dateModified": "2026-11-09",
   "readMinutes": 6,
   "sections": [
     {
@@ -771,7 +771,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "The answer is self-reported, so treat it as a clue to compare against the numbers, not as a precise measurement. Used alongside [call tracking](/guides/tracking-phone-calls-from-a-medical-website) and website analytics, it gives a more complete picture of where new patients come from. Once you collect the answers, record them on a [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) that totals calls, form requests and booked visits so the source column has numbers beside it."
+      "text": "The answer is self-reported, so treat it as a clue to compare against the numbers, not as a precise measurement. Used alongside [call tracking](/guides/tracking-phone-calls-from-a-medical-website) and website analytics, it gives a more complete picture of where new patients come from. Once you collect the answers, record them on a [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) that totals calls, form requests and booked visits so the source column has numbers beside it. Use the source column next to a monthly goal, as described in [setting simple monthly goals for calls and forms](/guides/setting-simple-monthly-goals-for-calls-and-forms-for-a-small-medical-practice-website), so you can see which source is moving the count."
     },
     {
       "type": "h2",
@@ -1113,7 +1113,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Open the Performance section of your Business Profile, set the date range to the full previous month, and record the same few numbers every month: views, calls, directions, website clicks and bookings. Compare with the prior month and last year, and treat sudden changes as a reason to look closer, not a verdict.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-02",
+  "dateModified": "2026-11-09",
   "readMinutes": 6,
   "sections": [
     {
@@ -1167,7 +1167,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Do not track everything. Pick these few, put them in a simple sheet, and fill it in on the same day each month. A routine you keep beats a thorough one you skip."
+      "text": "Do not track everything. Pick these few, put them in a simple sheet, and fill it in on the same day each month. A routine you keep beats a thorough one you skip. Bring that sheet to a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) so the numbers lead to one named action instead of a list nobody owns."
     },
     {
       "type": "h2",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-06",
+  "dateModified": "2026-11-09",
   "readMinutes": 7,
   "sections": [
     {
@@ -1531,7 +1531,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership. Ownership only protects the practice if access is removed when people leave, so pair this advice with the same-day steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) and keep the account list current."
+      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership. Ownership only protects the practice if access is removed when people leave, so pair this advice with the same-day steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) and keep the account list current. When a relationship does end, the [handover checklist for website, Google and ads accounts when a marketing vendor leaves](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) turns the ownership list into the steps to take before the last payment."
     },
     {
       "type": "callout",

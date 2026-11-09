@@ -19,7 +19,7 @@ export const guidesPartOne: Guide[] = [
       "Medical SEO in Florida usually costs between one thousand five hundred and six thousand dollars a month on retainer, or eight thousand to twenty-five thousand dollars for a one-time project. What moves the number is competition in your city, how many locations you have, and whether the work includes content and review generation or only the Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-09",
     readMinutes: 7,
     sections: [
       {
@@ -126,7 +126,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Primara quotes after an audit, because scope is the price. The audit shows the competitor set in your actual ZIP code, the review gap, the profile configuration, and what has to be true for you to enter the top three. Then there is a number. You can see how we think about that on our pricing page, and the audit itself is free.",
+        text: "Primara quotes after an audit, because scope is the price. The audit shows the competitor set in your actual ZIP code, the review gap, the profile configuration, and what has to be true for you to enter the top three. Then there is a number. You can see how we think about that on our pricing page, and the audit itself is free. Whatever the price, read the written proposal using [how to read a marketing proposal and spot guaranteed ranking promises](/guides/how-to-read-a-marketing-proposal-for-a-medical-practice-and-spot-guaranteed-ranking-promises) so you know exactly what you are buying and how you can leave.",
       },
     ],
     faqs: [
@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       {
@@ -488,7 +488,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Most therapy practices should not choose. The workable order is: fix the Google Business Profile first because it is free and it is the highest-leverage hour you will spend; publish the six to ten pages that describe what you really treat; then, if the caseload still has gaps, run a tightly geo-fenced ad campaign on your highest-intent terms while the organic work matures. Twelve months in, the ads become optional rather than load-bearing. Visitors who click an ad or a search result are often not ready to book, so offer a low-pressure [free consultation call page](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) that explains exactly what the call is. Whichever channel brings couples to the website, they land best on a page like our [couples counseling page for a counseling practice](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims), which describes the format instead of the outcome. Practices that want both channels can see how they fit together in our [Visibility Package for Google Ads management](/packages/visibility), where ads begin once the profile and pages are ready. If the budget is small, the order of spending matters more than the split, which is the point of our guide to [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice).",
+        text: "Most therapy practices should not choose. The workable order is: fix the Google Business Profile first because it is free and it is the highest-leverage hour you will spend; publish the six to ten pages that describe what you really treat; then, if the caseload still has gaps, run a tightly geo-fenced ad campaign on your highest-intent terms while the organic work matures. Twelve months in, the ads become optional rather than load-bearing. Visitors who click an ad or a search result are often not ready to book, so offer a low-pressure [free consultation call page](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) that explains exactly what the call is. Whichever channel brings couples to the website, they land best on a page like our [couples counseling page for a counseling practice](/guides/couples-counseling-page-for-a-counseling-practice-without-clinical-claims), which describes the format instead of the outcome. Practices that want both channels can see how they fit together in our [Visibility Package for Google Ads management](/packages/visibility), where ads begin once the profile and pages are ready. If the budget is small, the order of spending matters more than the split, which is the point of our guide to [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice). When the schedule is full, the paid half is the first part to pause, and [what to pause in marketing when a counseling practice has a waitlist](/guides/what-to-pause-in-marketing-when-a-counseling-practice-has-a-full-caseload-and-a-waitlist) explains what to keep running.",
       },
       {
         type: "callout",

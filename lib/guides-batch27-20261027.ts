@@ -911,7 +911,7 @@ export const guidesPartThirty: Guide[] = [
       "A student and trainee observer notice tells patients that a student or trainee may sometimes observe a visit, that the person is introduced and bound by the practice's privacy rules, and that a patient can say no at any time without affecting care. It gives a way to ask questions before the visit.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("Surprises are the problem, not the students"),
@@ -955,8 +955,12 @@ export const guidesPartThirty: Guide[] = [
       p(
         "Programs come and go. Put a yearly reminder in your calendar to check whether the practice still hosts trainees and whether the page still describes what actually happens. If the practice stops hosting, remove the page and redirect it to your patient rights page so older links do not lead nowhere."
       ),
+
+      { type: "h3", text: "Make sure the front desk gives the same answer" },
+      { type: "p", text: "Add one line about the notice to the front desk script, such as in a [new patient intake phone script](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice), so a patient who asks on the phone hears what the page says. Link the page from the new patient forms and the contact page footer, so patients can reach it in two taps from the home page." },
     ],
     faqs: [
+      { q: "Do we need the page if students rarely visit?", a: "A short page is still useful if observers are ever in the room, because it sets expectations and the clinician's verbal check does the rest. If the practice stops hosting trainees, remove the page and redirect it, as described above." },
       {
         q: "Is a posted notice enough, or do we need to ask each time?",
         a: "A page is not a substitute for asking at the visit. The clinician should still introduce the person and ask for permission. Ask your attorney and compliance advisor how your practice should document the patient's choice.",
@@ -1263,7 +1267,7 @@ export const guidesPartThirty: Guide[] = [
       "A not accepting new patients page says the practice's panel is full right now, explains how the waitlist works and what the practice will do when a spot opens, lists other ways to find care, and keeps the status the same on Google and every directory. It makes no promises about timing.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("A full panel still needs a page"),
@@ -1306,7 +1310,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Set a date to reopen or review"),
       p(
-        "A closed panel is rarely permanent. Put a monthly reminder on the practice manager's calendar to review the status, and update the date on the page each time, even when nothing changes. A page that says it was updated last spring tells visitors it may be out of date."
+        "A closed panel is rarely permanent. Put a monthly reminder on the practice manager's calendar to review the status, and update the date on the page each time, even when nothing changes. A page that says it was updated last spring tells visitors it may be out of date. Counseling practices that close their schedule can use [what to pause in marketing when a counseling practice is full](/guides/what-to-pause-in-marketing-when-a-counseling-practice-has-a-full-caseload-and-a-waitlist) for the ad, listing and profile side of the same decision."
       ),
     ],
     faqs: [

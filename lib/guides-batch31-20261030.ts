@@ -1074,7 +1074,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Count three numbers every month: calls from new patients, online requests, and new patient visits actually booked. Add where each came from when you know it. One small sheet, filled in by the front desk and read by the owner, shows whether marketing is bringing in patients and where the leaks are.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-09",
     readMinutes: 5,
     sections: [
       h2("Why clicks and rankings are not the number"),
@@ -1110,11 +1110,11 @@ export const guidesPartThirtyFour: Guide[] = [
         "If calls and requests are healthy but booked visits are low, the problem is after the inquiry: reply speed, insurance questions or open appointment slots. If inquiries are low, the problem sits earlier, in visibility or in the pages people land on. The rule of thumb is the same for any practice: fix the biggest drop first, and change one thing at a time."
       ),
       p(
-        "Set aside fifteen minutes on the same day each month, perhaps as part of the [weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) for the practice manager. Save each month's sheet in a folder so you can compare quarters. For the bigger picture of cost per patient, read our guide to [measuring return on marketing](/guides/how-to-measure-roi-on-medical-practice-marketing)."
+        "Set aside fifteen minutes on the same day each month, perhaps as part of the [weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) for the practice manager. Save each month's sheet in a folder so you can compare quarters. For the bigger picture of cost per patient, read our guide to [measuring return on marketing](/guides/how-to-measure-roi-on-medical-practice-marketing). Bring the filled-in sheet to a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) so the owner and office manager can decide on one action for the coming month."
       ),
       h2("An example month, for illustration only"),
       p(
-        "Imagine a practice that logs 24 first-time calls and 11 online requests in a month, which makes 35 inquiries. Suppose 19 of them end with a booked first visit. That is a little over half, and the sheet shows where the rest went: six were out of network, five never answered the callback and five could not find a time. The owner now has three separate problems with three separate fixes, instead of one vague feeling that marketing is not working. These numbers are made up to show the method, not a benchmark."
+        "Imagine a practice that logs 24 first-time calls and 11 online requests in a month, which makes 35 inquiries. Suppose 19 of them end with a booked first visit. That is a little over half, and the sheet shows where the rest went: six were out of network, five never answered the callback and five could not find a time. The owner now has three separate problems with three separate fixes, instead of one vague feeling that marketing is not working. These numbers are made up to show the method, not a benchmark. Once you have three months of numbers, [setting simple monthly goals for calls and forms](/guides/setting-simple-monthly-goals-for-calls-and-forms-for-a-small-medical-practice-website) shows how to turn the average into a modest goal and a named plan."
       ),
     ],
     faqs: [

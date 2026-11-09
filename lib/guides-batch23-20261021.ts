@@ -1320,7 +1320,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A good new patient phone script greets the caller by the practice name, asks only what is needed to book, such as name, phone, insurance and preferred times, explains what to bring and what happens next, and avoids asking about symptoms. Review it quarterly and keep a log of why calls do not end in a booking.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-09",
     readMinutes: 6,
     sections: [
       h2("The first call decides a lot"),
@@ -1373,8 +1373,12 @@ export const guidesPartTwentySix: Guide[] = [
       p(
         "Keep the script short enough to fit on one page, and update it when anything changes, such as hours, insurance or the forms process. Some callers will say they cannot use the internet at all, and a [paper forms and phone registration page for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice) gives the front desk one link and a consistent set of options to describe."
       ),
+
+      { type: "h3", text: "Count what the script produces" },
+      { type: "p", text: "Once a month, add up the calls that ended in a booking, a call-back or no booking, and compare with the month before. Keep the count with your [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) and bring it to the [monthly marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager). If many calls end without a booking, read the reasons in the call log before changing the script: wait time, insurance, hours or fit are the usual ones." },
     ],
     faqs: [
+      { q: "How do we know the script is working?", a: "Look at the share of new patient calls that end in a booked visit, month over month, from your own call log. Small counts move around, so judge the direction over about three months before changing the script." },
       {
         q: "Should staff read the script word for word?",
         a: "No. Use it as an outline so that every caller gets the same information in the same order. Staff should speak naturally, but make sure the essential items such as insurance, what to bring and emergency wording are always covered.",

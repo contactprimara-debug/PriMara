@@ -1120,7 +1120,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A waitlist page tells a prospective client that the practice is full, how the list works, what information is collected to join it, and where to turn meanwhile. Be honest about timing, collect only name and contact details, and always show crisis resources and a referral option.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T11:20:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-09",
     "readMinutes": 6,
     "sections": [
       {
@@ -1192,7 +1192,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The worst waitlist page is one that is still up after the practice opens again. Put a review date on your calendar, update the page when the status changes, and make sure your Google Business Profile, your directory profiles and the new-clients line on your homepage all match. The same reasoning applies to the status flag in our guide on [keeping accepting new patients accurate across Google and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). If some evening or weekend slots stay open while daytime hours are full, say so on a separate [evening and weekend availability page](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) and link the two so visitors can see every option. Primary care offices with a full panel face the same issue, and our guide to a [not accepting new patients and waitlist page](/guides/not-accepting-new-patients-and-waitlist-page-for-a-primary-care-practice) adapts these steps for them."
+        "text": "The worst waitlist page is one that is still up after the practice opens again. Put a review date on your calendar, update the page when the status changes, and make sure your Google Business Profile, your directory profiles and the new-clients line on your homepage all match. The same reasoning applies to the status flag in our guide on [keeping accepting new patients accurate across Google and directories](/guides/how-to-keep-accepting-new-patients-status-accurate-across-google-your-website-and-directories). If some evening or weekend slots stay open while daytime hours are full, say so on a separate [evening and weekend availability page](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) and link the two so visitors can see every option. Primary care offices with a full panel face the same issue, and our guide to a [not accepting new patients and waitlist page](/guides/not-accepting-new-patients-and-waitlist-page-for-a-primary-care-practice) adapts these steps for them. The waitlist page is only one part of marketing while you are full, and [what to pause in marketing when a counseling practice has a full caseload](/guides/what-to-pause-in-marketing-when-a-counseling-practice-has-a-full-caseload-and-a-waitlist) covers the ads, listings and profile settings that go with it."
       },
       {
         "type": "h3",

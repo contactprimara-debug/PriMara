@@ -1136,7 +1136,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "When a practice is sold or a provider retires, the online assets are what patients use to find the practice. Before the date, list every account, make sure the right people own them, plan how patients will be told, and keep the profile, website and phone number working so the transition does not look like a closure.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-09",
     "readMinutes": 8,
     "sections": [
       {
@@ -1248,8 +1248,13 @@ export const guidesPartSixteen: Guide[] = [
         "type": "callout",
         "text": "Medical records, patient notification duties and licensing steps are legal matters that vary by state. Handle them with qualified counsel. This checklist covers only the online presence."
       }
+,
+      { type: "h3", text: "Check what patients see on day one" },
+      { type: "p", text: "On the change date and again a week later, search the practice name on a phone and open the profile, the website and the top directory listings as a patient would. Confirm that names, phone, hours and providers match everywhere and that the phone number still reaches a person." },
+      { type: "p", text: "Write the date and each change in a [one-page marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change), so that if calls dip you can match the dip to a dated change. If they drop anyway, start with the [first-hour checklist for a sudden drop](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) before changing anything else." },
     ],
     "faqs": [
+      { q: "How long should we watch the numbers after the change?", a: "Watch calls, forms and visits from Google weekly for the first month and monthly after that, comparing with the same weeks before the change. Google notes that after a site move it can take a few weeks or more for new addresses to replace the old ones in results." },
       {
         "q": "Should I mark my Google profile closed when a practice is sold?",
         "a": "Not if the practice continues to operate. Keep the profile open and update details such as the name and providers. A closed marker tells patients the practice is gone and can hurt calls."
