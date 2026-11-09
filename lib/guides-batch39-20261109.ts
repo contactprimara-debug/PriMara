@@ -80,7 +80,7 @@ export const guidesPartForty2: Guide[] = [
     title: "Day-One Handoff for a New Practice Office Manager",
     metaTitle: "Day-One Handoff for a New Practice Office Manager",
     metaDescription:
-      "A one-page handoff for a new office manager: where the website, Google profile, Search Console and analytics live, who owns each, and who to call. (561) 291-2681",
+      "A one-page handoff for a new office manager: where the website, Google profile and analytics live, who owns each, and who to call. (561) 291-2681",
     answer:
       "On day one, give a new office manager a one-page map of where the website, Google Business Profile, Search Console, analytics, domain and form inbox live, who holds the owner role on each, what to check weekly, and who to call when something breaks. Give them their own login on each tool, never a shared password.",
     author: "Gio LaRoche",
@@ -186,7 +186,7 @@ export const guidesPartForty2: Guide[] = [
     title: "Checklist After a Practice Changes Its Phone System",
     metaTitle: "Checklist After a Practice Changes Its Phone System",
     metaDescription:
-      "Switching phone carriers or systems? Where the number lives on your website and Google profile, and how to test that every patient call still rings. (561) 291-2681",
+      "Switching phone carriers or systems? Where the number lives on your website and Google profile, and how to test every call. (561) 291-2681",
     answer:
       "After a phone system or carrier change, list every place your number appears, then test each one by calling it from a mobile phone. If the number stays the same, check that website phone links, the Google profile and call routing still reach the front desk. If the number changes, update every listing and keep the old number forwarding.",
     author: "Gio LaRoche",
@@ -289,7 +289,7 @@ export const guidesPartForty2: Guide[] = [
     title: "Use Search Console Queries to Find Client Questions",
     metaTitle: "Use Search Console Queries to Find Client Questions",
     metaDescription:
-      "A 20-minute monthly routine for a counseling practice: read the top Search Console queries, sort them into questions, and decide which page to improve. (561) 291-2681",
+      "A 20-minute monthly routine for a counseling practice: read top Search Console queries, sort them into questions, pick a page to improve. (561) 291-2681",
     answer:
       "Once a month, open the Queries table in Search Console's Performance report, sort by impressions, and read the top 50. Sort what you see into questions, services, insurance and location words, then pick one page to improve or one question to answer. The list shows what people typed, not who they are.",
     author: "Gio LaRoche",
@@ -389,7 +389,7 @@ export const guidesPartForty2: Guide[] = [
     title: "Page Inventory Spreadsheet for a Medical Website",
     metaTitle: "Page Inventory Spreadsheet for a Medical Website",
     metaDescription:
-      "Build a simple spreadsheet of every page on your practice website, what each one is for and who owns it, so nothing is forgotten or duplicated. (561) 291-2681",
+      "Build a simple spreadsheet of every page on your practice website, what each is for and who owns it, so nothing is forgotten. (561) 291-2681",
     answer:
       "A page inventory is a spreadsheet with one row per page: its address, its title, one sentence on who it is for and what action it should lead to, who owns it, when it was last checked, and whether to keep, update, merge or remove it. Build it from your sitemap, then review it twice a year.",
     author: "Gio LaRoche",
@@ -495,7 +495,7 @@ export const guidesPartForty2: Guide[] = [
     title: "Keep, Update, Merge or Remove an Old Blog Post",
     metaTitle: "Keep, Update, Merge or Remove an Old Blog Post",
     metaDescription:
-      "Five questions to decide what to do with an old blog post on a medical practice website, and how to redirect or retire it without losing visitors. (561) 291-2681",
+      "Five questions to decide what to do with an old blog post on a practice website, and how to redirect or retire it cleanly. (561) 291-2681",
     answer:
       "For each old blog post, ask five questions: is it still accurate, does anyone read it, does it repeat another post, does it have links in, and could it mislead a patient today. Keep it if the answers are good, update it if it is still wanted, merge it with a stronger post with a redirect, or remove it.",
     author: "Gio LaRoche",
