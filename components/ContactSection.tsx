@@ -90,18 +90,89 @@ export default function ContactSection() {
 
   return (
     <>
+      {/* ── SECTION 1: Final CTA Banner ── */}
+      <section
+        aria-labelledby="cta-heading"
+        style={{
+          backgroundColor: "var(--color-primary)",
+          borderTop: "3px solid var(--ember)",
+        }}
+      >
+        <div className="mx-auto max-w-content px-6 lg:px-8 py-20 text-center">
+          <h2
+            id="cta-heading"
+            className="font-serif font-bold text-white text-balance"
+            style={{
+              fontSize: "clamp(2rem, 4vw, 3rem)",
+              fontFamily: "var(--font-fraunces)",
+            }}
+          >
+            Ready to Grow Your Practice?
+          </h2>
+          <p
+            className="mt-4 text-base max-w-xl mx-auto"
+            style={{ color: "var(--ash)" }}
+          >
+            Primara is now accepting new independent practices nationwide. Most
+            new engagements begin within one week.
+          </p>
+
+          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+            {/* Primary: call */}
+            <a
+              href={`tel:${siteConfig.phone}`}
+              className="inline-flex items-center gap-2 rounded-lg px-8 font-bold text-white transition-opacity hover:opacity-90"
+              style={{
+                backgroundColor: "var(--ember)",
+                minHeight: "52px",
+                fontSize: "1rem",
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3 2.5h2.5L6.5 5.5l-1.5 1.5a8 8 0 003.5 3.5L10 9l3 1v2.5A1.5 1.5 0 0111.5 14C5.7 14 1 9.3 1 3.5A1.5 1.5 0 013 2z" fill="white" />
+              </svg>
+              Call {siteConfig.phoneDisplay}
+            </a>
+
+            {/* Secondary: scroll to form */}
+            <a
+              href="#contact-form"
+              className="inline-flex items-center gap-2 rounded-lg border-2 border-white px-8 font-bold text-white transition-colors hover:bg-white hover:text-ink"
+              style={{ minHeight: "52px", fontSize: "1rem" }}
+            >
+              Send a Message
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ── SECTION 2: Contact Form ── */}
       <section
         id="contact-form"
         aria-labelledby="form-heading"
-        className="pt-4 pb-12"
+        className="py-24"
         style={{ backgroundColor: "var(--color-bg)" }}
       >
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <div className="mx-auto max-w-xl" style={{ background: "#fff", border: "2px solid var(--navy)", padding: "clamp(18px, 4vw, 32px)" }}>
+          <div className="mx-auto max-w-xl">
 
-            {/* Heading: the page H1 already says it; kept for the aria label only (standard item 21). */}
-            <h2 id="form-heading" className="sr-only">Send us a message</h2>
+            {/* Heading */}
+            <div className="mb-10 text-center">
+              <h2
+                id="form-heading"
+                className="font-serif font-bold"
+                style={{
+                  fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)",
+                  color: "var(--color-text)",
+                  fontFamily: "var(--font-fraunces)",
+                }}
+              >
+                Send Us a Message
+              </h2>
+              <p className="mt-2 text-base" style={{ color: "var(--color-text-muted)" }}>
+                We respond within one business day.
+              </p>
+            </div>
 
             {/* Form — redirects to /thank-you on success */}
             <form onSubmit={handleSubmit} action="/api/contact" method="POST" noValidate>
@@ -227,9 +298,9 @@ export default function ContactSection() {
                     inquiries, call{" "}
                     <a
                       href={`tel:${siteConfig.phone}`}
-                      style={{ color: "var(--color-text-muted)", textDecoration: "underline", whiteSpace: "nowrap" }}
+                      style={{ color: "var(--color-text-muted)", textDecoration: "underline" }}
                     >
-                      {siteConfig.phoneDisplay.replace(/ /g, "\u00a0")}
+                      {siteConfig.phoneDisplay}
                     </a>
                     .
                   </p>
