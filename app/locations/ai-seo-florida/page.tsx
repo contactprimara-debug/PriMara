@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
-import PgHero from "@/components/pg/PgHero";
 import RelatedLinks from "@/components/RelatedLinks";
 
 const PAGE_URL = `${SITE_URL}/locations/ai-seo-florida`;
@@ -106,21 +105,10 @@ const deliverables = [
 
 export default function AiSeoFloridaPage() {
   return (
-    <main>
+    <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(faqSchema) }} />
-
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="loc-h1"
-        page="loc-ai-seo-florida"
-        kicker="Statewide · Florida"
-        h1={<>AI SEO for Florida Practices</>}
-        sub={<>Primara structures Florida practice websites so AI systems — ChatGPT, Perplexity, Google AI Overviews — can accurately find, understand, and cite them when patients anywhere in the state ask for a recommendation. Based in West Palm Beach, working statewide.</>}
-        primary={{ label: "Get a free audit", href: "/the-audit" }}
-        fine={<>Liam Costello &amp; Gio LaRoche, Co-Founders · Based in West Palm Beach · No long-term contracts</>}
-      />
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
@@ -134,6 +122,47 @@ export default function AiSeoFloridaPage() {
           </ol>
         </div>
       </nav>
+
+      {/* Hero */}
+      <section style={{ backgroundColor: "var(--void)", padding: "clamp(56px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)", borderBottom: "1px solid var(--wire)" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <div
+            style={{
+              display: "inline-flex", alignItems: "center", gap: "8px",
+              background: "rgba(201,168,76,0.12)", border: "1px solid rgba(201,168,76,0.3)",
+              borderRadius: "3px", padding: "5px 14px", marginBottom: "32px",
+              fontFamily: "system-ui, sans-serif", fontSize: "11px", letterSpacing: "0.14em",
+              textTransform: "uppercase" as const, color: "var(--gold)",
+            }}
+          >
+            Statewide · Florida
+          </div>
+          <h1
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(2.25rem, 5vw, 3.75rem)", fontWeight: 400,
+              color: "var(--chalk)", lineHeight: 1.1, letterSpacing: "-0.02em",
+              maxWidth: "800px", marginBottom: "24px",
+            }}
+          >
+            AI SEO for Florida Practices
+          </h1>
+          <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.75, maxWidth: "640px", marginBottom: "40px" }}>
+            Primara structures Florida practice websites so AI systems — ChatGPT, Perplexity, Google AI Overviews — can accurately find, understand, and cite them when patients anywhere in the state ask for a recommendation. Based in West Palm Beach, working statewide.
+          </p>
+          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "var(--on-accent)", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+              Call (561) 291-2681
+            </a>
+            <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem" }}>
+              Get a Free Audit
+            </Link>
+          </div>
+          <p style={{ marginTop: "20px", fontSize: "0.8125rem", color: "var(--smoke)" }}>
+            Liam Costello &amp; Gio LaRoche, Co-Founders · Based in West Palm Beach · No long-term contracts
+          </p>
+        </div>
+      </section>
 
       {/* Local context */}
       <section style={{ backgroundColor: "var(--surface)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

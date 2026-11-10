@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import { therapistSeoFaqs } from "@/lib/page-faqs";
@@ -152,18 +151,8 @@ export default function TherapistSEOPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="tseo-h1"
-        page="therapist-seo"
-        kicker="Therapist SEO · Florida · Private Practice Only"
-        h1={<>SEO for Therapists —{" "} <em> What Actually Works </em></>}
-        sub={<>Most therapist marketing advice treats therapy like any other service business. It isn&rsquo;t. Here&rsquo;s what actually drives private-pay client acquisition for independent therapists — and why the directory approach is costing you clients you don&rsquo;t know about.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
-
       {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" style={{ padding: "20px clamp(24px, 8vw, 120px) 0" }}>
+      <nav aria-label="Breadcrumb" style={{ padding: "76px clamp(24px, 8vw, 120px) 0" }}>
         <ol
           style={{
             display: "flex",
@@ -184,6 +173,119 @@ export default function TherapistSEOPage() {
           <li aria-current="page" style={{ color: "var(--ash)" }}>Therapist SEO</li>
         </ol>
       </nav>
+
+      {/* Hero */}
+      <section
+        aria-labelledby="tseo-h1"
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          padding: "clamp(48px, 7vw, 100px) clamp(24px, 8vw, 120px) clamp(72px, 10vw, 120px)",
+        }}
+      >
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            inset: 0,
+            pointerEvents: "none",
+            background: [
+              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(27,110,110,0.14) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50vw 40vh at 85% 75%, rgba(201,168,76,0.07) 0%, transparent 60%)",
+            ].join(", "),
+          }}
+        />
+        <div style={{ position: "relative", zIndex: 1, maxWidth: "900px" }}>
+          <div
+            style={{
+              display: "inline-block",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+              border: "1px solid var(--wire)",
+              padding: "6px 14px",
+              borderRadius: "2px",
+              marginBottom: "clamp(28px, 4vw, 48px)",
+            }}
+          >
+            Therapist SEO · Florida · Private Practice Only
+          </div>
+          <h1
+            id="tseo-h1"
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(48px, 7vw, 88px)",
+              lineHeight: 0.97,
+              letterSpacing: "-0.03em",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: "0 0 clamp(24px, 3vw, 40px)",
+              maxWidth: "20ch",
+            }}
+          >
+            SEO for Therapists —{" "}
+            <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
+              What Actually Works
+            </em>
+          </h1>
+          <p
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "clamp(15px, 2vw, 18px)",
+              lineHeight: 1.7,
+              color: "var(--ash)",
+              maxWidth: "60ch",
+              margin: "0 0 clamp(36px, 5vw, 52px)",
+            }}
+          >
+            Most therapist marketing advice treats therapy like any other service business. It isn&rsquo;t. Here&rsquo;s what actually drives private-pay client acquisition for independent therapists — and why the directory approach is costing you clients you don&rsquo;t know about.
+          </p>
+          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <Link prefetch={false}
+              href="/the-audit"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                letterSpacing: "0.08em",
+                fontWeight: 700,
+                color: "var(--on-accent)",
+                backgroundColor: "var(--ember)",
+                padding: "0 32px",
+                height: "52px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                whiteSpace: "nowrap",
+              }}
+            >
+              Get My Free Practice Audit →
+            </Link>
+            <a
+              href="tel:+15612912681"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                letterSpacing: "0.08em",
+                fontWeight: 600,
+                color: "var(--chalk)",
+                border: "1px solid var(--wire)",
+                padding: "0 32px",
+                height: "52px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                whiteSpace: "nowrap",
+              }}
+            >
+              Call (561) 291-2681
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Why therapist SEO is different */}
       <section

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import { specialtiesFaqs } from "@/lib/page-faqs";
@@ -194,17 +193,7 @@ function SpecialtyGrid({ items }: { items: SpecialtyCard[] }) {
 
 export default function SpecialtiesPage() {
   return (
-    <main style={{ background: "var(--void)", minHeight: "100vh" }}>
-
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="spec-h1"
-        page="specialties"
-        kicker="Marketing by Specialty · Nationwide"
-        h1={<>Digital Marketing for Independent Primary Care &amp; Mental Health Practices</>}
-        sub={<>Primara works exclusively with independent practices — not hospital systems, not national telehealth franchises, not urgent care chains. Every service we offer is built around the specific digital challenges your specialty faces. Choose your practice type below to see what that looks like.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
+    <main style={{ background: "var(--void)", minHeight: "100vh" }} className="pt-16">
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
@@ -214,6 +203,101 @@ export default function SpecialtiesPage() {
           <li style={{ color: "var(--color-text)" }}>Specialties</li>
         </ol>
       </nav>
+
+      {/* Hero */}
+      <section className="mx-auto max-w-content px-6 lg:px-8 pt-12 pb-16">
+        <div
+          style={{
+            fontFamily: "system-ui, sans-serif",
+            fontSize: "10px",
+            letterSpacing: "0.2em",
+            textTransform: "uppercase",
+            color: "var(--smoke)",
+            display: "flex",
+            alignItems: "center",
+            gap: "16px",
+            marginBottom: "20px",
+          }}
+        >
+          <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+          Marketing by Specialty · Nationwide
+        </div>
+
+        <h1
+          style={{
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontStyle: "italic",
+            fontSize: "clamp(2.2rem, 5vw, 3.75rem)",
+            color: "var(--chalk)",
+            fontWeight: 400,
+            lineHeight: 1.05,
+            letterSpacing: "-0.02em",
+            marginBottom: "24px",
+            maxWidth: "800px",
+          }}
+        >
+          Digital Marketing for Independent Primary Care &amp; Mental Health Practices
+        </h1>
+
+        <p
+          style={{
+            fontFamily: "system-ui, sans-serif",
+            fontSize: "1.0625rem",
+            color: "var(--ash)",
+            lineHeight: 1.8,
+            maxWidth: "660px",
+            marginBottom: "32px",
+          }}
+        >
+          Primara works exclusively with independent practices — not hospital systems, not national
+          telehealth franchises, not urgent care chains. Every service we offer is built around the
+          specific digital challenges your specialty faces. Choose your practice type below to see
+          what that looks like.
+        </p>
+
+        <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+          <a
+            href="tel:+15612912681"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "8px",
+              background: "var(--ember)",
+              color: "var(--on-accent)",
+              fontFamily: "system-ui, sans-serif",
+              fontWeight: 700,
+              fontSize: "13px",
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              padding: "14px 28px",
+              borderRadius: "3px",
+              textDecoration: "none",
+            }}
+          >
+            Call (561) 291-2681
+          </a>
+          <Link prefetch={false}
+            href="/the-audit"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "8px",
+              border: "1px solid var(--wire)",
+              color: "var(--chalk)",
+              fontFamily: "system-ui, sans-serif",
+              fontWeight: 600,
+              fontSize: "13px",
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              padding: "14px 28px",
+              borderRadius: "3px",
+              textDecoration: "none",
+            }}
+          >
+            Get a Free Audit
+          </Link>
+        </div>
+      </section>
 
       {/* Primary Care specialty cards */}
       <section

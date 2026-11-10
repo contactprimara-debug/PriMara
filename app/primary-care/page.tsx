@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import { toJsonLd, primaryCareSchema } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
@@ -124,18 +123,8 @@ export default function PrimaryCarePage() {
         dangerouslySetInnerHTML={{ __html: toJsonLd(primaryCareSchema as Record<string, unknown>) }}
       />
 
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="pc-h1"
-        page="primary-care"
-        kicker="Primary Care · Nationwide · Independent Practices Only"
-        h1={<>Your patients are searching. <br /> The hospital system down the street is showing up. <br /> <em> You&rsquo;re not. </em></>}
-        sub={<>Primara builds the digital presence independent primary care physicians should have had from day one — Google Business Profile, local SEO, website, and review systems built around how patients actually search for a doctor.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
-
       {/* ── Breadcrumb ──────────────────────────────────────────────────── */}
-      <nav aria-label="Breadcrumb" style={{ padding: "20px clamp(24px, 8vw, 120px) 0" }}>
+      <nav aria-label="Breadcrumb" style={{ padding: "76px clamp(24px, 8vw, 120px) 0" }}>
         <ol
           style={{
             display: "flex",
@@ -156,6 +145,133 @@ export default function PrimaryCarePage() {
           <li aria-current="page" style={{ color: "var(--ash)" }}>Primary Care</li>
         </ol>
       </nav>
+
+      {/* ── Hero ─────────────────────────────────────────────────────────── */}
+      <section
+        aria-labelledby="pc-h1"
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          padding: "clamp(48px, 7vw, 100px) clamp(24px, 8vw, 120px) clamp(72px, 10vw, 120px)",
+        }}
+      >
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            inset: 0,
+            pointerEvents: "none",
+            background: [
+              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(27,110,110,0.14) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50vw 40vh at 85% 75%, rgba(201,168,76,0.07) 0%, transparent 60%)",
+            ].join(", "),
+          }}
+        />
+        <div style={{ position: "relative", zIndex: 1, maxWidth: "900px" }}>
+          {/* Label */}
+          <div
+            style={{
+              display: "inline-block",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+              border: "1px solid var(--wire)",
+              padding: "6px 14px",
+              borderRadius: "2px",
+              marginBottom: "clamp(28px, 4vw, 48px)",
+            }}
+          >
+            Primary Care · Nationwide · Independent Practices Only
+          </div>
+
+          {/* H1 */}
+          <h1
+            id="pc-h1"
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(52px, 8vw, 104px)",
+              lineHeight: 0.97,
+              letterSpacing: "-0.03em",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: "0 0 clamp(24px, 3vw, 40px)",
+              maxWidth: "18ch",
+            }}
+          >
+            Your patients are searching.
+            <br />
+            The hospital system down the street is showing up.
+            <br />
+            <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
+              You&rsquo;re not.
+            </em>
+          </h1>
+
+          {/* Subhead */}
+          <p
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "clamp(15px, 2vw, 18px)",
+              lineHeight: 1.7,
+              color: "var(--ash)",
+              maxWidth: "60ch",
+              margin: "0 0 clamp(36px, 5vw, 52px)",
+            }}
+          >
+            Primara builds the digital presence independent primary care physicians
+            should have had from day one — Google Business Profile, local SEO, website, and
+            review systems built around how patients actually search for a doctor.
+          </p>
+
+          {/* CTAs */}
+          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <Link prefetch={false}
+              href="/the-audit"
+              className="magnetic"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                letterSpacing: "0.08em",
+                fontWeight: 700,
+                color: "var(--on-accent)",
+                backgroundColor: "var(--ember)",
+                padding: "0 32px",
+                height: "52px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                whiteSpace: "nowrap",
+              }}
+            >
+              Get My Free Practice Audit →
+            </Link>
+            <a
+              href="tel:+15612912681"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                fontFamily: "system-ui, sans-serif",
+                fontSize: "13px",
+                letterSpacing: "0.08em",
+                fontWeight: 600,
+                color: "var(--chalk)",
+                backgroundColor: "transparent",
+                border: "1px solid var(--wire)",
+                padding: "0 32px",
+                height: "52px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                whiteSpace: "nowrap",
+              }}
+            >
+              Call (561) 291-2681
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* ── Section 01 — The Problem ─────────────────────────────────────── */}
       <section

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PgHero from "@/components/pg/PgHero";
 import FaqSection from "@/components/FaqSection";
 import { blogHubFaqs } from "@/lib/page-faqs";
 import { blogPosts } from "@/lib/blog";
@@ -44,20 +43,10 @@ function formatDate(iso: string): string {
 
 export default function BlogPage() {
   return (
-    <main>
+    <main className="pt-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
-      />
-
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="blog-h1"
-        page="blog"
-        kicker="Insights &amp; Guides"
-        h1={<>Healthcare Marketing Insights for Independent Practices</>}
-        sub={<>Independent primary care physicians and private practice therapists face a specific set of marketing challenges — hospital system competition, Google Maps ranking complexity, HIPAA constraints on review generation, and the slow compounding timeline of local SEO. Every post on this blog is written to address those challenges directly, with specific numbers and actionable steps rather than generic advice.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
       />
 
       {/* Breadcrumb */}
@@ -81,17 +70,105 @@ export default function BlogPage() {
           </li>
         </ol>
       </nav>
-      <section style={{ borderBottom: "1px solid var(--wire)", padding: "clamp(24px, 4vw, 40px) 0" }}>
+
+      {/* Hero */}
+      <section
+        style={{
+          borderBottom: "1px solid var(--wire)",
+          paddingTop: "clamp(48px, 6vw, 80px)",
+          paddingBottom: "clamp(48px, 6vw, 80px)",
+        }}
+      >
         <div className="mx-auto max-w-content px-6 lg:px-8">
-          <p style={{ color: "var(--color-text-muted)", lineHeight: 1.8, marginBottom: "1rem", fontSize: "1.0625rem", maxWidth: "680px" }}>
-            Liam Costello and Gio LaRoche, the founders of Primara, write from the field. We manage Google Business Profiles, local SEO campaigns, and online reputation for independent practices across West Palm Beach, Fort Lauderdale, Boca Raton, and Miami. The benchmarks, timelines, and tactics we publish here reflect what we observe in live campaigns — not recycled industry generalities.
+          {/* Section label */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+              marginBottom: "12px",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+            }}
+          >
+            <span
+              style={{
+                display: "block",
+                width: "32px",
+                height: "1px",
+                background: "var(--gold)",
+                flexShrink: 0,
+              }}
+            />
+            Insights &amp; Guides
+          </div>
+
+          <h1
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "clamp(2rem, 5vw, 3.5rem)",
+              color: "var(--color-text)",
+              fontWeight: 700,
+              letterSpacing: "-0.02em",
+              lineHeight: 1.1,
+              marginBottom: "2rem",
+              maxWidth: "800px",
+            }}
+          >
+            Healthcare Marketing Insights for Independent Practices
+          </h1>
+
+          <p
+            style={{
+              color: "var(--color-text-muted)",
+              lineHeight: 1.8,
+              marginBottom: "1.25rem",
+              fontSize: "1.0625rem",
+              maxWidth: "680px",
+            }}
+          >
+            Independent primary care physicians and private practice therapists face a
+            specific set of marketing challenges — hospital system competition, Google Maps ranking
+            complexity, HIPAA constraints on review generation, and the slow compounding timeline of
+            local SEO. Every post on this blog is written to address those challenges directly, with
+            specific numbers and actionable steps rather than generic advice.
           </p>
-          <p style={{ color: "var(--color-text-muted)", lineHeight: 1.8, marginBottom: 0, fontSize: "1.0625rem", maxWidth: "680px" }}>
+          <p
+            style={{
+              color: "var(--color-text-muted)",
+              lineHeight: 1.8,
+              marginBottom: "1.25rem",
+              fontSize: "1.0625rem",
+              maxWidth: "680px",
+            }}
+          >
+            Liam Costello and Gio LaRoche, the founders of Primara, write from the field. We
+            manage Google Business Profiles, local SEO campaigns, and online reputation for
+            independent practices across West Palm Beach, Fort Lauderdale, Boca Raton, and Miami.
+            The benchmarks, timelines, and tactics we publish here reflect what we observe in live
+            campaigns — not recycled industry generalities.
+          </p>
+          <p
+            style={{
+              color: "var(--color-text-muted)",
+              lineHeight: 1.8,
+              marginBottom: 0,
+              fontSize: "1.0625rem",
+              maxWidth: "680px",
+            }}
+          >
             If you want to apply what you read here to your own practice, our{" "}
-            <Link prefetch={false} href="/the-audit" style={{ color: "var(--gold)", textDecoration: "underline" }}>
+            <Link prefetch={false}
+              href="/the-audit"
+              style={{ color: "var(--gold)", textDecoration: "underline" }}
+            >
               free online presence audit
             </Link>{" "}
-            is a good starting point — it maps your current Google Maps rank position, GBP configuration gaps, and review velocity relative to your top three competitors.
+            is a good starting point — it maps your current Google Maps rank position, GBP
+            configuration gaps, and review velocity relative to your top three competitors.
           </p>
         </div>
       </section>

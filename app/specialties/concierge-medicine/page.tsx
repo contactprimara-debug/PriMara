@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
@@ -55,17 +54,7 @@ const faqs = [
 
 export default function ConciergeMedicinePage() {
   return (
-    <main style={{ background: "var(--void)", minHeight: "100vh" }}>
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="spec-h1"
-        page="specialty-concierge-medicine"
-        kicker="Concierge Medicine · Florida"
-        h1={<>Marketing for Concierge Medicine Practices</>}
-        sub={<>Concierge medicine grew approximately 80% nationally from 2018 to 2023 — and Florida is a top-3 state by practice count. The market is growing, but so is the competition from national chains. Independent concierge physicians who establish a premium digital presence now will own the patient relationships that define long-term practice health.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
-
+    <main style={{ background: "var(--void)", minHeight: "100vh" }} className="pt-16">
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
           <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
@@ -75,6 +64,33 @@ export default function ConciergeMedicinePage() {
           <li style={{ color: "var(--color-text)" }}>Concierge Medicine</li>
         </ol>
       </nav>
+
+      <section className="mx-auto max-w-content px-6 lg:px-8 pt-12 pb-16">
+        <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", display: "flex", alignItems: "center", gap: "16px", marginBottom: "20px" }}>
+          <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+          Concierge Medicine · Florida
+        </div>
+        <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
+          Marketing for Concierge Medicine Practices
+        </h1>
+        <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "8px" }}>
+          Concierge medicine grew approximately 80% nationally from 2018 to 2023 — and Florida is a top-3 state
+          by practice count. The market is growing, but so is the competition from national chains.
+          Independent concierge physicians who establish a premium digital presence now will own the
+          patient relationships that define long-term practice health.
+        </p>
+        <cite style={{ display: "block", fontFamily: "var(--font-mono, 'Courier New', monospace)", fontSize: "9px", letterSpacing: "0.06em", color: "var(--smoke)", lineHeight: 1.4, fontStyle: "normal", marginBottom: "32px" }}>
+          — American Academy of Private Physicians (AAPP), Annual Membership Survey, 2023
+        </cite>
+        <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "var(--on-accent)", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            Call (561) 291-2681
+          </a>
+          <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            Get a Free Practice Audit
+          </Link>
+        </div>
+      </section>
 
       <section aria-labelledby="challenges-heading" style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import { vsDoctorlogicFaqs } from "@/lib/page-faqs";
@@ -60,16 +59,6 @@ export default function VsDoctorLogicPage() {
     <main style={{ backgroundColor: "var(--void)" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
 
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="vs-doctorlogic-h1"
-        page="vs-doctorlogic"
-        kicker="Honest Comparison · DoctorLogic vs. Primara"
-        h1={<>Primara vs. DoctorLogic —{" "} <em> An Honest Comparison </em></>}
-        sub={<>DoctorLogic and Primara are both healthcare marketing products, but they represent fundamentally different approaches to the same problem. Here&rsquo;s the honest comparison.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
-
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" style={{ padding: "76px clamp(24px, 8vw, 120px) 0" }}>
         <ol
@@ -94,6 +83,73 @@ export default function VsDoctorLogicPage() {
           <li aria-current="page" style={{ color: "var(--ash)" }}>vs. DoctorLogic</li>
         </ol>
       </nav>
+
+      {/* Hero */}
+      <section
+        aria-labelledby="dl-h1"
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          padding: "clamp(48px, 7vw, 100px) clamp(24px, 8vw, 120px) clamp(72px, 10vw, 120px)",
+        }}
+      >
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            inset: 0,
+            pointerEvents: "none",
+            background: "radial-gradient(ellipse 60vw 50vh at 15% 40%, rgba(201,168,76,0.08) 0%, transparent 60%)",
+          }}
+        />
+        <div style={{ position: "relative", zIndex: 1, maxWidth: "800px" }}>
+          <div
+            style={{
+              display: "inline-block",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "10px",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--smoke)",
+              border: "1px solid var(--wire)",
+              padding: "6px 14px",
+              borderRadius: "2px",
+              marginBottom: "clamp(28px, 4vw, 48px)",
+            }}
+          >
+            Honest Comparison · DoctorLogic vs. Primara
+          </div>
+          <h1
+            id="dl-h1"
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(40px, 6vw, 72px)",
+              lineHeight: 1.0,
+              letterSpacing: "-0.03em",
+              color: "var(--chalk)",
+              fontWeight: 400,
+              margin: "0 0 clamp(20px, 3vw, 32px)",
+              maxWidth: "18ch",
+            }}
+          >
+            Primara vs. DoctorLogic —{" "}
+            <em style={{ color: "var(--gold)", fontStyle: "italic" }}>
+              An Honest Comparison
+            </em>
+          </h1>
+          <p
+            style={{
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "clamp(15px, 2vw, 17px)",
+              lineHeight: 1.8,
+              color: "var(--ash)",
+              maxWidth: "58ch",
+            }}
+          >
+            DoctorLogic and Primara are both healthcare marketing products, but they represent fundamentally different approaches to the same problem. Here&rsquo;s the honest comparison.
+          </p>
+        </div>
+      </section>
 
       {/* What DoctorLogic Is */}
       <section

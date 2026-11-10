@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import { toJsonLd } from "@/lib/schema";
 import RelatedLinks from "@/components/RelatedLinks";
@@ -127,21 +126,10 @@ const faqSchema = {
 
 export default function SEOServicePage() {
   return (
-    <main>
+    <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(faqSchema) }} />
-
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="services-seo-h1"
-        page="services-seo"
-        kicker="Now Accepting New Clients"
-        h1={<>SEO for Independent Medical Practices</>}
-        sub={<>Most independent practices are invisible on Google — not because they don&rsquo;t deserve patients, but because nobody has ever done the work. Primara handles the full SEO stack: Google Business Profile, local rankings, on-page optimization, technical health, and content strategy.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-        fine={<>Liam Costello &amp; Gio LaRoche, Co-Founders · Independent practices only · No long-term contracts</>}
-      />
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
@@ -155,6 +143,114 @@ export default function SEOServicePage() {
           </ol>
         </div>
       </nav>
+
+      {/* Hero */}
+      <section
+        style={{
+          backgroundColor: "var(--void)",
+          padding: "clamp(56px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)",
+          borderBottom: "1px solid var(--wire)",
+        }}
+      >
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <div
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "8px",
+              background: "rgba(201,168,76,0.12)",
+              border: "1px solid rgba(201,168,76,0.3)",
+              borderRadius: "3px",
+              padding: "5px 14px",
+              marginBottom: "32px",
+              fontFamily: "system-ui, sans-serif",
+              fontSize: "11px",
+              letterSpacing: "0.14em",
+              textTransform: "uppercase" as const,
+              color: "var(--gold)",
+            }}
+          >
+            Now Accepting New Clients
+          </div>
+
+          <h1
+            style={{
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontSize: "clamp(2.25rem, 5vw, 3.75rem)",
+              fontWeight: 400,
+              color: "var(--chalk)",
+              lineHeight: 1.1,
+              letterSpacing: "-0.02em",
+              maxWidth: "800px",
+              marginBottom: "24px",
+            }}
+          >
+            SEO for Independent Medical Practices
+          </h1>
+
+          <p
+            style={{
+              fontSize: "1.0625rem",
+              color: "var(--ash)",
+              lineHeight: 1.75,
+              maxWidth: "640px",
+              marginBottom: "40px",
+            }}
+          >
+            Most independent practices are invisible on Google — not because they don&rsquo;t
+            deserve patients, but because nobody has ever done the work. Primara handles the
+            full SEO stack: Google Business Profile, local rankings, on-page optimization,
+            technical health, and content strategy.
+          </p>
+
+          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <a
+              href="tel:+15612912681"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                backgroundColor: "var(--ember)",
+                color: "var(--on-accent)",
+                fontWeight: 700,
+                padding: "0 1.5rem",
+                height: "52px",
+                borderRadius: "6px",
+                textDecoration: "none",
+                fontSize: "1rem",
+              }}
+            >
+              Call (561) 291-2681
+            </a>
+            <Link prefetch={false}
+              href="/the-audit"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                border: "2px solid var(--wire)",
+                color: "var(--chalk)",
+                fontWeight: 600,
+                padding: "0 1.5rem",
+                height: "52px",
+                borderRadius: "6px",
+                textDecoration: "none",
+                fontSize: "1rem",
+              }}
+            >
+              Get a Free Audit
+            </Link>
+          </div>
+
+          <p
+            style={{
+              marginTop: "20px",
+              fontSize: "0.8125rem",
+              color: "var(--smoke)",
+            }}
+          >
+            Liam Costello &amp; Gio LaRoche, Co-Founders · Independent practices only · No long-term contracts
+          </p>
+        </div>
+      </section>
 
       {/* What SEO means for a practice */}
       <section style={{ backgroundColor: "var(--surface)", padding: "clamp(48px, 7vw, 80px) 0", borderBottom: "1px solid var(--wire)" }}>

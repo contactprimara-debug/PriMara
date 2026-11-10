@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
@@ -55,17 +54,7 @@ const faqs = [
 
 export default function FamilyMedicinePage() {
   return (
-    <main style={{ background: "var(--void)", minHeight: "100vh" }}>
-
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="spec-h1"
-        page="specialty-family-medicine"
-        kicker="Family Medicine · Florida"
-        h1={<>Digital Marketing for Family Medicine Practices</>}
-        sub={<>Family physicians deliver the broadest, most continuous care in medicine — and they compete online against urgent care chains, hospital networks, and insurance directories with unlimited marketing budgets. Primara helps independent family medicine practices build the local digital presence that fills schedules without paid advertising.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
+    <main style={{ background: "var(--void)", minHeight: "100vh" }} className="pt-16">
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
@@ -77,6 +66,31 @@ export default function FamilyMedicinePage() {
           <li style={{ color: "var(--color-text)" }}>Family Medicine</li>
         </ol>
       </nav>
+
+      {/* Hero */}
+      <section className="mx-auto max-w-content px-6 lg:px-8 pt-12 pb-16">
+        <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", display: "flex", alignItems: "center", gap: "16px", marginBottom: "20px" }}>
+          <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+          Family Medicine · Florida
+        </div>
+        <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
+          Digital Marketing for Family Medicine Practices
+        </h1>
+        <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
+          Family physicians deliver the broadest, most continuous care in medicine — and they compete online
+          against urgent care chains, hospital networks, and insurance directories with unlimited marketing budgets.
+          Primara helps independent family medicine practices build the local digital presence that fills
+          schedules without paid advertising.
+        </p>
+        <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "var(--on-accent)", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            Call (561) 291-2681
+          </a>
+          <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            Get a Free Practice Audit
+          </Link>
+        </div>
+      </section>
 
       {/* Challenges */}
       <section aria-labelledby="challenges-heading" style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>

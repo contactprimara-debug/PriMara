@@ -1,4 +1,3 @@
-import PgHero from "@/components/pg/PgHero";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -248,7 +247,7 @@ export default function LocationPage({
   };
 
   return (
-    <main style={{ backgroundColor: "var(--void)" }}>
+    <main className="pt-16" style={{ backgroundColor: "var(--void)" }}>
       {/* ── JSON-LD schemas ───────────────────────────────────────────── */}
       <script
         type="application/ld+json"
@@ -268,16 +267,6 @@ export default function LocationPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-
-      {/* ── Hero (shared PgHero, card #611) ─────────────────────────── */}
-      <PgHero
-        id="loc-h1"
-        page={`loc-${loc.slug}`}
-        kicker={`${loc.city}, ${loc.state} — ${verticalLabel}`}
-        h1={<>{loc.h1}</>}
-        sub={<>{loc.intro}</>}
-        primary={{ label: "Get a free audit", href: "/the-audit" }}
-      />
 
       {/* ── Breadcrumb ────────────────────────────────────────────────── */}
       <nav
@@ -309,6 +298,52 @@ export default function LocationPage({
           </li>
         </ol>
       </nav>
+
+      {/* ── Hero ──────────────────────────────────────────────────────── */}
+      <section
+        style={{
+          borderBottom: "1px solid var(--wire)",
+          padding: "clamp(48px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)",
+        }}
+      >
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <p
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: "0.75rem",
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              color: "var(--gold)",
+              marginBottom: "1.25rem",
+            }}
+          >
+            {loc.city}, {loc.state} — {verticalLabel}
+          </p>
+          <h1
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "clamp(2rem, 5vw, 3.5rem)",
+              fontWeight: 700,
+              color: "var(--chalk)",
+              lineHeight: 1.15,
+              marginBottom: "1.5rem",
+              maxWidth: "820px",
+            }}
+          >
+            {loc.h1}
+          </h1>
+          <p
+            style={{
+              color: "var(--ash)",
+              fontSize: "1.0625rem",
+              lineHeight: 1.75,
+              maxWidth: "680px",
+            }}
+          >
+            {loc.intro}
+          </p>
+        </div>
+      </section>
 
       {/* ── Market Context ────────────────────────────────────────────── */}
       <section

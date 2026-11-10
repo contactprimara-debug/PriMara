@@ -1308,18 +1308,3 @@ main section.pb-24, main section.pb-20 { padding-bottom: clamp(32px, 5vw, 64px) 
 main [style*="radial-gradient"][aria-hidden="true"] { display: none !important; }
 main [style*="border-radius"]:not([style*="border-radius: 50%"]):not([style*="border-radius: 999"]) { border-radius: 4px !important; }
 main .rounded-lg, main .rounded-xl, main .rounded-2xl, main .rounded-md { border-radius: 4px !important; }
-
-
-/* Cookie banner (card #611): compact, safe-area aware, sits ABOVE the phone CTA bar and never covers it.
-   Phone: slim strip, text + two buttons on one row; desktop: small card bottom-left. */
-.cb { position: fixed; z-index: 60; left: 8px; right: 8px; bottom: calc(60px + env(safe-area-inset-bottom) + 8px);
-  background: var(--surface); border: 1px solid var(--wire); color: var(--chalk); font-family: system-ui, sans-serif;
-  padding: 10px 12px; display: flex; align-items: center; gap: 10px; }
-.cb-t { font-size: 12px; line-height: 1.35; margin: 0; flex: 1 1 auto; min-width: 0; }
-.cb-b { display: flex; gap: 8px; flex: 0 0 auto; }
-.cb-yes, .cb-no { font-size: 13px; padding: 0 12px; min-height: 44px; cursor: pointer; white-space: nowrap; }
-.cb-yes { background: var(--gold); color: #050505; font-weight: 600; border: 0; }
-.cb-no { background: transparent; color: var(--chalk); border: 1px solid var(--wire); }
-@media (max-width: 480px) { .cb-t { font-size: 11px; } .cb-yes, .cb-no { padding: 0 9px; font-size: 12px; } }
-@media (min-width: 768px) { .cb { left: 24px; right: auto; bottom: 24px; max-width: 460px; padding: 14px 16px; }
-  .cb-t { font-size: 13px; } }

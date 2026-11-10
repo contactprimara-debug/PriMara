@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import PgHero from "@/components/pg/PgHero";
 import Link from "next/link";
 import FaqSection from "@/components/FaqSection";
 import RelatedLinks from "@/components/RelatedLinks";
@@ -55,17 +54,7 @@ const faqs = [
 
 export default function InternalMedicinePage() {
   return (
-    <main style={{ background: "var(--void)", minHeight: "100vh" }}>
-      {/* Hero (shared PgHero, card #611) */}
-      <PgHero
-        id="spec-h1"
-        page="specialty-internal-medicine"
-        kicker="Internal Medicine · Florida"
-        h1={<>Digital Marketing for Internal Medicine Practices</>}
-        sub={<>Internists are the backbone of adult primary care — managing complex chronic conditions with a depth that urgent care can never match. The challenge is that most patients don&rsquo;t know what an internist is, and hospital systems outspend independent practices on local search by a wide margin. Primara bridges that gap.</>}
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-      />
-
+    <main style={{ background: "var(--void)", minHeight: "100vh" }} className="pt-16">
       <nav aria-label="Breadcrumb" className="mx-auto max-w-content px-6 lg:px-8 py-4">
         <ol className="flex items-center gap-2" style={{ color: "var(--color-text-muted)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
           <li><Link prefetch={false} href="/" className="hover:underline">Home</Link></li>
@@ -75,6 +64,30 @@ export default function InternalMedicinePage() {
           <li style={{ color: "var(--color-text)" }}>Internal Medicine</li>
         </ol>
       </nav>
+
+      <section className="mx-auto max-w-content px-6 lg:px-8 pt-12 pb-16">
+        <div style={{ fontFamily: "system-ui, sans-serif", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--smoke)", display: "flex", alignItems: "center", gap: "16px", marginBottom: "20px" }}>
+          <span style={{ display: "block", width: "32px", height: "1px", background: "var(--gold)", flexShrink: 0 }} />
+          Internal Medicine · Florida
+        </div>
+        <h1 style={{ fontFamily: "var(--font-display), Georgia, serif", fontStyle: "italic", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 400, lineHeight: 1.05, letterSpacing: "-0.02em", marginBottom: "24px", maxWidth: "820px" }}>
+          Digital Marketing for Internal Medicine Practices
+        </h1>
+        <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, maxWidth: "660px", marginBottom: "32px" }}>
+          Internists are the backbone of adult primary care — managing complex chronic conditions with a depth
+          that urgent care can never match. The challenge is that most patients don&rsquo;t know what an internist is,
+          and hospital systems outspend independent practices on local search by a wide margin.
+          Primara bridges that gap.
+        </p>
+        <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", background: "var(--ember)", color: "var(--on-accent)", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            Call (561) 291-2681
+          </a>
+          <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "1px solid var(--wire)", color: "var(--chalk)", fontFamily: "system-ui, sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            Get a Free Practice Audit
+          </Link>
+        </div>
+      </section>
 
       <section aria-labelledby="challenges-heading" style={{ borderTop: "1px solid var(--wire)", background: "var(--surface)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8 py-16">
