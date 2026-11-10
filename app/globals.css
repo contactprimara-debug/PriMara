@@ -1255,7 +1255,6 @@ body:has(main[data-page="thank-you"]) .pg-closer { display: none; }
 .pgh-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
 .pgh-grid.pgh-one { grid-template-columns: minmax(0, 1fr); }
 .pgh-h { font-size: clamp(38px, 5.6vw, 84px); max-width: 15ch; }
-.pgh-h em { font-style: italic; color: var(--gold); }
 .pgh-one .pgh-h { max-width: 18ch; }
 .pgh .hm-body { max-width: 32em; }
 .pgh-pack { margin: 0; width: 100%; max-width: 440px; justify-self: center; }
