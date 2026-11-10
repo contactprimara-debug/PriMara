@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PgHero from "@/components/pg/PgHero";
 import FaqSection from "@/components/FaqSection";
 import { resultsFaqs } from "@/lib/page-faqs";
 
@@ -84,22 +83,29 @@ const milestones: Milestone[] = [
 
 export default function ResultsPage() {
   return (
-    <main>
+    <main className="pt-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <PgHero
-        id="results-h1"
-        page="results"
-        kicker="Results"
-        h1="What Independent Practices Achieve With Primara"
-        sub="What happens at 30, 60, 90 and 180 days when a practice follows the system, and what you can hold us to."
-        primary={{ label: "Get my free audit", href: "/the-audit" }}
-        mark={false}
-        compact
-      />
+      {/* Breadcrumb */}
+      <div style={{ backgroundColor: "var(--surface)", borderBottom: "1px solid var(--wire)" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8" style={{ padding: "12px 24px" }}>
+          <nav aria-label="Breadcrumb">
+            <ol style={{ display: "flex", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontSize: "0.8125rem", color: "var(--smoke)" }}>
+              <li><Link prefetch={false} href="/" style={{ color: "var(--ash)", textDecoration: "none" }}>Home</Link></li>
+              <li aria-hidden="true">/</li>
+              <li style={{ color: "var(--chalk)" }}>Results</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
 
-      <section style={{ backgroundColor: "var(--void)", padding: "clamp(20px, 3vw, 40px) 0 clamp(24px, 4vw, 48px)" }}>
-        <div className="hm-wrap">
+      {/* Hero */}
+      <section style={{ backgroundColor: "var(--void)", padding: "clamp(48px, 8vw, 96px) 0 clamp(40px, 6vw, 72px)" }}>
+        <div className="mx-auto max-w-content px-6 lg:px-8">
+          <h1 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--chalk)", fontWeight: 700, lineHeight: 1.15, marginBottom: "1.5rem", maxWidth: "760px" }}>
+            What Independent Practices Achieve With Primara
+          </h1>
+
           <div style={{ maxWidth: "680px" }}>
             <p style={{ fontSize: "1.0625rem", color: "var(--ash)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
               We don&apos;t promise specific numbers because every market is different. The review count threshold that defines the top of Miami&apos;s local pack is not the same as the one in Palm Beach Gardens. The time required to move from outside the local 3-Pack to inside it varies based on your starting review velocity, your competitor&apos;s GBP configuration, your website authority, and the volume of search traffic in your market. Anyone who promises you a specific rank position on a specific date is selling a guarantee they can&apos;t deliver.
