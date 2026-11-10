@@ -127,7 +127,7 @@ export default function ReputationPage() {
           <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--ember)", color: "var(--gold)", height: "48px", fontSize: "1rem" }}
+            style={{ borderColor: "var(--ember)", color: "var(--ember)", height: "48px", fontSize: "1rem" }}
           >
             Request a Free Audit
           </Link>

@@ -242,7 +242,7 @@ export default function VisibilityPackagePage() {
                 fontSize: "14px",
                 letterSpacing: "0.06em",
                 fontWeight: 600,
-                color: "var(--on-accent)fff",
+                color: "#ffffff",
                 backgroundColor: "var(--ember)",
                 padding: "0 28px",
                 height: "48px",

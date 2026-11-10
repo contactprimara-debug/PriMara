@@ -343,7 +343,7 @@ export default function WorkPage() {
                 display: "inline-flex",
                 alignItems: "center",
                 backgroundColor: "var(--ember)",
-                color: "var(--on-accent)",
+                color: "#fff",
                 fontWeight: 700,
                 padding: "0 1.5rem",
                 height: "52px",

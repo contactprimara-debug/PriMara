@@ -111,7 +111,7 @@ export default function Header() {
           display: "grid",
           gridTemplateColumns: "1fr auto 1fr",
           alignItems: "center",
-          background: scrolled ? "rgba(255,252,244,0.94)" : "rgba(255,252,244,0.9)",
+          background: scrolled ? "rgba(5,5,5,0.9)" : "rgba(5,5,5,0.85)",
           backdropFilter: "blur(20px)",
           WebkitBackdropFilter: "blur(20px)",
           borderBottom: scrolled ? "1px solid var(--wire)" : "1px solid transparent",
@@ -225,7 +225,7 @@ export default function Header() {
                   top: "calc(100% + 8px)",
                   left: "50%",
                   transform: "translateX(-50%)",
-                  backgroundColor: "rgba(255,252,244,0.99)",
+                  backgroundColor: "rgba(13,13,13,0.98)",
                   backdropFilter: "blur(20px)",
                   WebkitBackdropFilter: "blur(20px)",
                   border: "1px solid var(--wire)",
@@ -322,7 +322,7 @@ export default function Header() {
                   top: "calc(100% + 8px)",
                   left: "50%",
                   transform: "translateX(-50%)",
-                  backgroundColor: "rgba(255,252,244,0.99)",
+                  backgroundColor: "rgba(13,13,13,0.98)",
                   backdropFilter: "blur(20px)",
                   WebkitBackdropFilter: "blur(20px)",
                   border: "1px solid var(--wire)",
@@ -402,7 +402,7 @@ export default function Header() {
                   top: "calc(100% + 8px)",
                   left: "50%",
                   transform: "translateX(-50%)",
-                  backgroundColor: "rgba(255,252,244,0.99)",
+                  backgroundColor: "rgba(13,13,13,0.98)",
                   backdropFilter: "blur(20px)",
                   WebkitBackdropFilter: "blur(20px)",
                   border: "1px solid var(--wire)",
@@ -500,7 +500,7 @@ export default function Header() {
               display: "inline-flex",
               alignItems: "center",
               background: "var(--ember)",
-              color: "var(--on-accent)fff",
+              color: "#ffffff",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
               fontSize: "11px",
@@ -519,7 +519,7 @@ export default function Header() {
         {/* Right — mobile hamburger */}
         <div
           className="flex md:hidden"
-          style={{ justifyContent: "flex-end", gridColumn: 3 }}
+          style={{ justifyContent: "flex-end" }}
         >
           <button
             onClick={() => setMenuOpen((o) => !o)}
@@ -761,7 +761,7 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
             style={{
               background: "var(--ember)",
-              color: "var(--on-accent)fff",
+              color: "#ffffff",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
               fontSize: "13px",

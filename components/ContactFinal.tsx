@@ -81,11 +81,44 @@ export default function ContactFinal() {
       style={{
         position: 'relative',
         overflow: 'hidden',
-        padding: 'clamp(36px, 6vw, 80px) 0',
+        padding: 'clamp(80px, 10vw, 120px) 0',
         background: 'var(--void)',
         borderTop: '1px solid var(--wire)',
       }}
     >
+      {/* ── Atmospheric blob — strong, central (more intense than hero) ─────── */}
+      <div
+        aria-hidden="true"
+        style={{
+          position: 'absolute',
+          inset: 0,
+          pointerEvents: 'none',
+          background:
+            'radial-gradient(ellipse 80vw 80vh at 50% 50%, rgba(27,110,110,0.15) 0%, transparent 60%)',
+        }}
+      />
+
+      {/* ── Decorative section number ──────────────────────────────────────── */}
+      <span
+        aria-hidden="true"
+        style={{
+          position: 'absolute',
+          top: '-30px',
+          right: 'clamp(24px, 8vw, 120px)',
+          fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
+          fontStyle: 'italic',
+          fontSize: 'clamp(140px, 18vw, 220px)',
+          lineHeight: 1,
+          color: 'var(--gold)',
+          opacity: 0.025,
+          pointerEvents: 'none',
+          userSelect: 'none',
+          zIndex: 0,
+        }}
+      >
+        04
+      </span>
+
       {/* ── Inner container ───────────────────────────────────────────────── */}
       <div
         style={{
@@ -96,7 +129,7 @@ export default function ContactFinal() {
       >
 
         {/* ── Section header ──────────────────────────────────────────────── */}
-        <header style={{ marginBottom: 'clamp(24px, 4vw, 44px)' }}>
+        <header style={{ marginBottom: 'clamp(48px, 7vw, 80px)' }}>
 
           {/* Eyebrow */}
           <div
@@ -121,7 +154,7 @@ export default function ContactFinal() {
                 flexShrink: 0,
               }}
             />
-            Free audit, no obligation
+            Request Your Audit
           </div>
 
           {/* H2 — TypeAnimations handles .split-reveal char animation */}
@@ -130,11 +163,12 @@ export default function ContactFinal() {
             className="split-reveal"
             style={{
               fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
-              fontSize: 'clamp(40px, 6vw, 80px)',
+              fontStyle: 'italic',
+              fontSize: 'clamp(72px, 11vw, 140px)',
               color: 'var(--chalk)',
               fontWeight: 400,
-              lineHeight: 1,
-              letterSpacing: '-0.02em',
+              lineHeight: 0.9,
+              letterSpacing: '-0.03em',
               marginBottom: 'clamp(20px, 2.5vw, 28px)',
             }}
           >
@@ -150,7 +184,7 @@ export default function ContactFinal() {
               maxWidth: '520px',
             }}
           >
-            Three fields. A co-founder researches your practice and calls you within 24 hours. If it will not help, we will tell you.
+            Fill out the 4-field form below. We&rsquo;ll research your practice and be in touch within 24 hours. No obligation &mdash; if it doesn&rsquo;t make sense for your practice, we&rsquo;ll say so.
           </p>
         </header>
 
@@ -253,7 +287,7 @@ export default function ContactFinal() {
                     className="magnetic contact-submit"
                     style={{
                       background: 'var(--ember)',
-                      color: 'var(--on-accent)fff',
+                      color: '#ffffff',
                       fontFamily: 'system-ui, sans-serif',
                       fontWeight: 700,
                       fontSize: '12px',
@@ -277,7 +311,7 @@ export default function ContactFinal() {
                       style={{
                         fontFamily: 'system-ui, sans-serif',
                         fontSize: '13px',
-                        color: 'var(--gold)',
+                        color: 'var(--ember)',
                         marginTop: '-8px',
                         lineHeight: 1.5,
                       }}

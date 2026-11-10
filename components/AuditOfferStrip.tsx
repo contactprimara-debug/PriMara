@@ -19,7 +19,7 @@ function SubmitBtn({ pending }: { pending: boolean }) {
         justifyContent: "center",
         gap: "8px",
         backgroundColor: "var(--ember)",
-        color: "var(--on-accent)",
+        color: "#fff",
         fontFamily: "system-ui, sans-serif",
         fontWeight: 700,
         fontSize: "13px",
@@ -289,7 +289,7 @@ export default function AuditOfferStrip() {
                 <HoneypotField />
 
                 {state.status === "error" && (
-                  <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.8125rem", color: "var(--gold)" }}>
+                  <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.8125rem", color: "var(--ember)" }}>
                     {state.error}
                   </p>
                 )}

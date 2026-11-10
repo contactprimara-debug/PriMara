@@ -137,7 +137,7 @@ export default function AboutSection() {
                     bottom: 0,
                     padding: "10px 14px",
                     background:
-                      "linear-gradient(to top, rgba(255,252,244,0.96) 0%, rgba(255,252,244,0) 100%)",
+                      "linear-gradient(to top, rgba(5,5,5,0.9) 0%, rgba(5,5,5,0) 100%)",
                     fontFamily: "system-ui, sans-serif",
                     fontSize: "10px",
                     letterSpacing: "0.18em",
