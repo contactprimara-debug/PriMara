@@ -105,12 +105,12 @@ export default function Header() {
           height: "calc(60px + env(safe-area-inset-top))",
           paddingTop: "env(safe-area-inset-top)",
           paddingBottom: 0,
-          paddingLeft: "clamp(24px, 3vw, 64px)",
-          paddingRight: "clamp(24px, 3vw, 64px)",
+          paddingLeft: "clamp(24px, 5vw, 64px)",
+          paddingRight: "clamp(24px, 5vw, 64px)",
           zIndex: 1000,
           display: "grid",
           gridTemplateColumns: "1fr auto 1fr",
-          columnGap: "20px",
+          columnGap: "28px",
           alignItems: "center",
           background: scrolled ? "rgba(255,252,244,0.94)" : "rgba(255,252,244,0.9)",
           backdropFilter: "blur(20px)",
@@ -154,7 +154,7 @@ export default function Header() {
             alignItems: "center",
             gap: "clamp(16px, 2.2vw, 36px)",
           }}
-          className="hdr-desk"
+          className="hidden md:flex"
         >
           {/* Home */}
           <Link prefetch={false}
@@ -165,7 +165,7 @@ export default function Header() {
               fontFamily: "system-ui, sans-serif",
               fontSize: "11px",
               textTransform: "uppercase" as const,
-              letterSpacing: "0.08em",
+              letterSpacing: "0.1em",
               color: pathname === "/" ? "var(--chalk)" : "var(--smoke)",
               textDecoration: "none",
               transition: "color 0.2s",
@@ -189,7 +189,7 @@ export default function Header() {
                 fontFamily: "system-ui, sans-serif",
                 fontSize: "11px",
                 textTransform: "uppercase",
-                letterSpacing: "0.08em",
+                letterSpacing: "0.1em",
                 color: (WHO_WE_SERVE.some((w) => pathname === w.href) || whoWeServeOpen)
                   ? "var(--chalk)"
                   : "var(--smoke)",
@@ -248,7 +248,7 @@ export default function Header() {
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "11px",
                       textTransform: "uppercase",
-                      letterSpacing: "0.08em",
+                      letterSpacing: "0.1em",
                       color: pathname === item.href ? "var(--gold)" : "var(--ash)",
                       textDecoration: "none",
                       padding: "10px 14px",
@@ -275,7 +275,7 @@ export default function Header() {
               fontFamily: "system-ui, sans-serif",
               fontSize: "11px",
               textTransform: "uppercase" as const,
-              letterSpacing: "0.08em",
+              letterSpacing: "0.1em",
               color: pathname.startsWith("/locations") ? "var(--chalk)" : "var(--smoke)",
               textDecoration: "none",
               transition: "color 0.2s",
@@ -299,7 +299,7 @@ export default function Header() {
                 fontFamily: "system-ui, sans-serif",
                 fontSize: "11px",
                 textTransform: "uppercase",
-                letterSpacing: "0.08em",
+                letterSpacing: "0.1em",
                 color: RESOURCES.some((r) => pathname === r.href) ? "var(--chalk)" : resourcesOpen ? "var(--chalk)" : "var(--smoke)",
                 background: "none",
                 border: "none",
@@ -345,7 +345,7 @@ export default function Header() {
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "11px",
                       textTransform: "uppercase",
-                      letterSpacing: "0.08em",
+                      letterSpacing: "0.1em",
                       color: pathname === item.href ? "var(--gold)" : "var(--ash)",
                       textDecoration: "none",
                       padding: "10px 14px",
@@ -379,7 +379,7 @@ export default function Header() {
                 fontFamily: "system-ui, sans-serif",
                 fontSize: "11px",
                 textTransform: "uppercase",
-                letterSpacing: "0.08em",
+                letterSpacing: "0.1em",
                 color: (pathname.startsWith("/services") || servicesOpen) ? "var(--chalk)" : "var(--smoke)",
                 background: "none",
                 border: "none",
@@ -425,7 +425,7 @@ export default function Header() {
                       fontFamily: "system-ui, sans-serif",
                       fontSize: "11px",
                       textTransform: "uppercase",
-                      letterSpacing: "0.08em",
+                      letterSpacing: "0.1em",
                       color: pathname === item.href ? "var(--gold)" : "var(--ash)",
                       textDecoration: "none",
                       padding: "10px 14px",
@@ -456,7 +456,7 @@ export default function Header() {
                   fontFamily: "system-ui, sans-serif",
                   fontSize: "11px",
                   textTransform: "uppercase" as const,
-                  letterSpacing: "0.08em",
+                  letterSpacing: "0.1em",
                   color: active ? "var(--chalk)" : "var(--smoke)",
                   textDecoration: "none",
                   transition: "color 0.2s",
@@ -470,9 +470,9 @@ export default function Header() {
 
         {/* Right — phone + CTA */}
         <div
-          className="hdr-desk"
+          className="hidden md:flex"
           style={{
-            gap: "16px",
+            gap: "20px",
             alignItems: "center",
             justifyContent: "flex-end",
           }}
@@ -507,7 +507,7 @@ export default function Header() {
               fontSize: "11px",
               textTransform: "uppercase" as const,
               letterSpacing: "0.1em",
-              padding: "10px 18px",
+              padding: "10px 20px",
               borderRadius: "3px",
               textDecoration: "none",
               whiteSpace: "nowrap",
@@ -519,26 +519,9 @@ export default function Header() {
 
         {/* Right — mobile hamburger */}
         <div
-          className="hdr-burger"
-          style={{ justifyContent: "flex-end", alignItems: "center", gap: "12px", gridColumn: 3 }}
+          className="flex md:hidden"
+          style={{ justifyContent: "flex-end", gridColumn: 3 }}
         >
-          {/* Phone stays visible at 768-1199 where the desktop nav is replaced by the menu (card #611c) */}
-          <a
-            href={`tel:${siteConfig.phone}`}
-            aria-label={`Call Primara365 at ${siteConfig.phoneDisplay}`}
-            className="hdr-burger-phone"
-            style={{
-              fontFamily: "system-ui, sans-serif",
-              fontSize: "12px",
-              fontWeight: 600,
-              letterSpacing: "0.06em",
-              color: "var(--chalk)",
-              textDecoration: "none",
-              whiteSpace: "nowrap",
-            }}
-          >
-            {siteConfig.phoneDisplay}
-          </a>
           <button
             onClick={() => setMenuOpen((o) => !o)}
             aria-expanded={menuOpen}
