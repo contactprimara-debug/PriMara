@@ -45,7 +45,7 @@ export const guidesPartForty4: Guide[] = [
     title: "One-Page Brief for a New Web Designer",
     metaTitle: "One-Page Brief for a New Counseling Website Designer",
     metaDescription:
-      "What a counseling practice owner should put on one page for a new web designer: services, insurance, hours, tone and what the site must never say. (561) 291-2681",
+      "What a counseling practice owner puts on one page for a new web designer: services, insurance, hours, tone and what the site must not say. (561) 291-2681",
     answer:
       "Give a new web designer one page with six parts: the services you offer, the insurance you accept, your real hours and phone number, the tone you want, the words the site must never use, and who approves changes. A single sheet like this prevents most rework, wrong details and compliance mistakes.",
     author: "Liam Costello",
@@ -152,7 +152,7 @@ export const guidesPartForty4: Guide[] = [
     title: "A Sign-Off Step for Vendor Changes to Phone, Hours and Providers",
     metaTitle: "Sign-Off Step for Vendor Changes to Phone and Hours",
     metaDescription:
-      "A short written sign-off so a marketing vendor cannot change your practice phone number, hours or provider list without your office manager approving. (561) 291-2681",
+      "A written sign-off so a marketing vendor cannot change your practice phone, hours or provider list without your office manager approving. (561) 291-2681",
     answer:
       "Put one rule in writing: the vendor may not change the phone number, hours, provider list, address or insurance list anywhere online until the office manager replies yes by email. Add a short change request, a named approver, a same-day check and a log, and a wrong detail rarely reaches patients.",
     author: "Gio LaRoche",
