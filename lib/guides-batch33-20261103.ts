@@ -316,7 +316,7 @@ export const guidesPartThirtySix: Guide[] = [
       "A counseling voicemail greeting should name the practice, state when calls are returned, say what to leave and what not to leave, and give 988 for emergencies. It must never confirm that a caller is a client or name a clinician in a way that reveals who is being seen.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Why the greeting matters more than it looks"),
@@ -361,7 +361,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h3("Check it like a caller would"),
       p(
-        "Once a quarter, call the office from a mobile phone after hours. Listen for the pause before the beep, the volume, and whether the recording matches your current hours. Compare it with what the website and Google profile say, using the checks in [after-hours calls and voicemail at a medical practice](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). A mismatch between the greeting and the profile is a small trust loss that is easy to fix."
+        "Once a quarter, call the office from a mobile phone after hours. Listen for the pause before the beep, the volume, and whether the recording matches your current hours. Compare it with what the website and Google profile say, using the checks in [after-hours calls and voicemail at a medical practice](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). A mismatch between the greeting and the profile is a small trust loss that is easy to fix. A [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) run by someone from outside the front desk can include this after-hours call."
       ),
       p(
         "Finally, decide who checks the mailbox and how often. A greeting that promises one business day is a promise to a person who may have been struggling that week, and a missed message is the costly part."
@@ -502,7 +502,7 @@ export const guidesPartThirtySix: Guide[] = [
       "You cannot remove a Google review just because the provider it names has left. Reply in a way that confirms nothing about the reviewer, say how patients can reach care now, and update the provider's profile. Ask Google to remove a review only when it breaks Google's content policy.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("A review about someone who is no longer there"),
@@ -546,7 +546,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Tell your front desk"),
       p(
-        "Give the team one sentence to use when a patient asks for a clinician who has left. It should say who now sees those patients and how to book. A consistent answer on the phone does more to repair trust than any reply on the review page."
+        "Give the team one sentence to use when a patient asks for a clinician who has left. It should say who now sees those patients and how to book. A consistent answer on the phone does more to repair trust than any reply on the review page. When a review names a current staff member instead, [the reply wording for a named staff member](/guides/replying-to-a-google-review-that-names-a-staff-member-without-confirming-anyone-is-a-patient) works the same way, and the person should hear about it in private first."
       ),
     ],
     faqs: [

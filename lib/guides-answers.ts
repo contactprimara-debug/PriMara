@@ -205,12 +205,12 @@ export const guidesPartThree: Guide[] = [
     title: "How to Respond to a Negative Patient Review",
     metaTitle: "How to Respond to a Negative Patient Review | Primara",
     metaDescription:
-      "Reply to a bad review without breaking HIPAA: a four-line template, what never to say, and when to flag it. Call (561) 291-2681.",
+      "Reply to a bad review without breaking HIPAA: a four-line template, what never to say, and when to flag a review to Google. Call (561) 291-2681",
     answer:
       "Reply to a negative patient review within a few days, in public, without confirming the person was ever a patient. Thank them for the feedback, describe your standard of care in general terms, give a phone number or office email, and move the conversation offline. Confirming treatment in public is a disclosure of protected health information.",
     author: "Liam Costello",
     publishDate: "2026-09-22T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     howTo: {
       name: "How to respond to a negative patient review",
@@ -274,7 +274,7 @@ export const guidesPartThree: Guide[] = [
       { type: "h2", text: "When you can get a review removed" },
       {
         type: "p",
-        text: "Google removes reviews that break its prohibited and restricted content policy: spam, impersonation, off-topic content, harassment, hate speech, personal information, or a conflict of interest such as a competitor or former employee posting as a patient. Report it through the profile, name the policy in one sentence, and expect days rather than hours. Reviews that are simply negative are not removable. The same reply rules apply on directory sites, and our guide on [Healthgrades, Zocdoc and Vitals](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) covers claiming those profiles. The same privacy rules apply to praise, so read how to handle [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) before thanking anyone publicly. If the critical review names a clinician who no longer works at the practice, see [what to do about reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) before you write the reply.",
+        text: "Google removes reviews that break its prohibited and restricted content policy: spam, impersonation, off-topic content, harassment, hate speech, personal information, or a conflict of interest such as a competitor or former employee posting as a patient. Report it through the profile, name the policy in one sentence, and expect days rather than hours. Reviews that are simply negative are not removable. The same reply rules apply on directory sites, and our guide on [Healthgrades, Zocdoc and Vitals](/guides/healthgrades-zocdoc-vitals-profiles-for-a-medical-practice) covers claiming those profiles. The same privacy rules apply to praise, so read how to handle [responding to positive Google reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) before thanking anyone publicly. If the critical review names a clinician who no longer works at the practice, see [what to do about reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) before you write the reply. If the review also names a staff member, the steps in [replying to a Google review that names a staff member](/guides/replying-to-a-google-review-that-names-a-staff-member-without-confirming-anyone-is-a-patient) apply on top of this.",
       },
       { type: "h2", text: "Never gate reviews to avoid this problem" },
       {

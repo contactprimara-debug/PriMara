@@ -623,12 +623,12 @@ export const guidesPartSeven: Guide[] = [
     title: "How to Handle a Fake Google Review on a Medical Listing",
     metaTitle: "How to Handle a Fake Google Review on a Medical Listing",
     metaDescription:
-      "The real process for reporting and removing a fake review from a medical practice's Google Business Profile — and what not to do while it's pending. Call (561) 291-2681.",
+      "How to report and remove a fake review from a medical practice's Google Business Profile, and what not to do while it is pending. (561) 291-2681",
     answer:
       "To handle a fake Google review on a medical practice's listing: don't argue with it publicly, flag it through Google Business Profile's \"Report review\" option citing the specific policy it violates (not a real patient, off-topic, conflict of interest), post one calm, factual public reply in case it stays up during the review period, and track the report — Google's removal decisions can take days to weeks and aren't guaranteed even when the review is clearly fake.",
     author: "Liam Costello",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "The instinct to argue publicly is the wrong first move" },
@@ -663,7 +663,7 @@ export const guidesPartSeven: Guide[] = [
       { type: "h2", text: "While the report is pending" },
       {
         type: "p",
-        text: "Post one measured, factual public reply — not defensive, not accusatory — that a reasonable reader (and a future patient) would find credible. Something like: \"We have no record of a patient matching this visit. If you believe this is an error, please call us directly at (561) 291-2681 so we can look into it.\" That reply does two things: it signals to other visitors that the practice takes the review seriously without escalating, and if Google ultimately declines to remove it, the practice isn't left with silence next to a fake review. The same privacy limits apply as in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses). Catching a fake review in the first week is easier with a regular check, such as the [weekly review monitoring routine for a counseling practice](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile), which also logs the date you reported it. A review that vanished is a different problem from one that should be removed, and the steps in [what to check when reviews disappear from a practice profile](/guides/google-reviews-disappeared-or-review-count-dropped-on-a-medical-practice-profile-what-to-check) help you tell the two apart.",
+        text: "Post one measured, factual public reply — not defensive, not accusatory — that a reasonable reader (and a future patient) would find credible. Something like: \"We have no record of a patient matching this visit. If you believe this is an error, please call us directly at (561) 291-2681 so we can look into it.\" That reply does two things: it signals to other visitors that the practice takes the review seriously without escalating, and if Google ultimately declines to remove it, the practice isn't left with silence next to a fake review. The same privacy limits apply as in [HIPAA-compliant Google review responses](/blog/hipaa-compliant-google-review-responses). Catching a fake review in the first week is easier with a regular check, such as the [weekly review monitoring routine for a counseling practice](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile), which also logs the date you reported it. A review that vanished is a different problem from one that should be removed, and the steps in [what to check when reviews disappear from a practice profile](/guides/google-reviews-disappeared-or-review-count-dropped-on-a-medical-practice-profile-what-to-check) help you tell the two apart. A review that only names an employee is not automatically fake, and the [reply steps for a review that names a staff member](/guides/replying-to-a-google-review-that-names-a-staff-member-without-confirming-anyone-is-a-patient) cover that case.",
       },
       {
         type: "callout",

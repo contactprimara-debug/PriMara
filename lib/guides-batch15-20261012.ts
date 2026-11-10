@@ -1232,7 +1232,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Once a week, spend fifteen minutes on six things: answer new reviews, test the phone line, glance at the Google profile, submit nothing but check the form inbox, open the website on a phone, and write down one number. A small routine catches most problems before patients notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-09",
+    "dateModified": "2026-11-10",
     "readMinutes": 7,
     "sections": [
       {
@@ -1334,7 +1334,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea. When one of these weekly checks shows a sharp fall instead of a small slip, switch to the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) and write down what you find."
+        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea. When one of these weekly checks shows a sharp fall instead of a small slip, switch to the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) and write down what you find. For the monthly, quarterly and yearly checks that sit around this weekly one, a [yearly calendar with a named owner and a date for each](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) keeps them from slipping."
       },
       {
         "type": "h2",

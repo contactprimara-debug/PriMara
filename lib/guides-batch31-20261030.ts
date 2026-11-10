@@ -984,7 +984,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Pick one reply-time target for new inquiries, such as the same business day, and write down who answers calls, forms and messages. Log each inquiry with the date received, the date answered and the result, with no health details. Review the log weekly to see where inquiries are slipping away.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("The lead you paid for can go cold in a day"),
@@ -1013,7 +1013,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "A source note if the person mentions how they found you."
       ),
       p(
-        "Leave out names, reasons for seeking counseling and anything clinical. A first name or initials and a phone ending are enough to match the entry to the schedule. Use a protected spreadsheet or your practice system, not a shared consumer document."
+        "Leave out names, reasons for seeking counseling and anything clinical. A first name or initials and a phone ending are enough to match the entry to the schedule. Use a protected spreadsheet or your practice system, not a shared consumer document. With a few months of entries, the same log also lets you work out [the cost of one new inquiry from the website and from each directory](/guides/working-out-the-cost-of-one-new-inquiry-from-the-website-compared-with-a-directory-listing-for-a-counseling-practice)."
       ),
       h3("Read the log once a week"),
       ol(
@@ -1028,7 +1028,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Handling the weekend gap"),
       p(
-        "Many inquiries arrive on Saturday night or Sunday, when no one is in the office. Decide in advance what happens: an automatic reply that sets a clear expectation, a Monday morning block set aside for returning weekend messages, and a rule that those get answered first. Write the plan in the log header so a substitute covering the desk follows the same order."
+        "Many inquiries arrive on Saturday night or Sunday, when no one is in the office. Decide in advance what happens: an automatic reply that sets a clear expectation, a Monday morning block set aside for returning weekend messages, and a rule that those get answered first. Write the plan in the log header so a substitute covering the desk follows the same order. A [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients), with one after-hours call and one weekend form, shows whether that plan works in practice."
       ),
     ],
     faqs: [
@@ -1244,7 +1244,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Keep your real main number as the primary phone on Google, directories and the footer. If you use a tracking number, show it only in limited places such as ad landing pages, list the main number on the profile, and make sure the tracking number forwards to the same office line and is never published as the practice's number elsewhere.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Counting calls is useful; scattering numbers is not"),
@@ -1274,7 +1274,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Ask each new caller how they found you, and log the answer."
       ),
       p(
-        "Many practices find that these methods give enough direction without a single tracking number. Clicks on a phone link do not equal calls that connect, so label them as taps in your reports. Our page on [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website) covers the options in more depth. Before adding any tracking number, confirm that each number already on the site works as a tap-to-call link, using the [page-by-page click-to-call check](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website). If you also switch carriers, retest the tracking number as part of the [post-switch phone checklist](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) so the forwarding still reaches the front desk."
+        "Many practices find that these methods give enough direction without a single tracking number. Clicks on a phone link do not equal calls that connect, so label them as taps in your reports. Our page on [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website) covers the options in more depth. Before adding any tracking number, confirm that each number already on the site works as a tap-to-call link, using the [page-by-page click-to-call check](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website). If you also switch carriers, retest the tracking number as part of the [post-switch phone checklist](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) so the forwarding still reaches the front desk. When two vendors report different call counts, [this checklist for comparing marketing reports](/guides/comparing-two-marketing-reports-from-different-vendors-that-count-calls-and-forms-differently-for-a-practice-owner) lists the questions to ask each one."
       ),
       h3("Questions to ask a tracking vendor"),
       ul(
@@ -1337,7 +1337,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Record seven things on every new patient call: date and time, first name or initials, phone ending, how they found you, what they asked for in general terms, the outcome and the next step with a date. Leave out symptoms, diagnoses and insurance numbers so the log stays safe to review.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("The call is where most new patients are won or lost"),
@@ -1373,7 +1373,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h3("Measure what the front desk can control"),
       p(
-        "Two numbers from the log are worth watching: how many calls ended with a booked visit, and how many ended in call back needed. A high call-back count means staff cannot reach people or cannot book on the spot, which is a scheduling and staffing question. Review [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) that may send callers to voicemail and check whether the [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) sets the right expectations."
+        "Two numbers from the log are worth watching: how many calls ended with a booked visit, and how many ended in call back needed. A high call-back count means staff cannot reach people or cannot book on the spot, which is a scheduling and staffing question. Review [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) that may send callers to voicemail and check whether the [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) sets the right expectations. The same log is what you check against a vendor's numbers when [two marketing reports disagree on calls and forms](/guides/comparing-two-marketing-reports-from-different-vendors-that-count-calls-and-forms-differently-for-a-practice-owner)."
       ),
       h2("Turn the log into a monthly number"),
       ol(
@@ -1384,7 +1384,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Train the desk with a two-minute drill"),
       p(
-        "Role-play three calls with the team: a person who wants to become a patient, a caller whose plan you do not accept and a wrong number. Practice filling in the seven fields for each. Staff who rehearse the log find it quick, and the wording of outcomes becomes consistent, which makes the monthly count trustworthy."
+        "Role-play three calls with the team: a person who wants to become a patient, a caller whose plan you do not accept and a wrong number. Practice filling in the seven fields for each. Staff who rehearse the log find it quick, and the wording of outcomes becomes consistent, which makes the monthly count trustworthy. A [quarterly secret-shopper test](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) using a staff member and made-up details checks the same calls from the caller's side."
       ),
     ],
     faqs: [

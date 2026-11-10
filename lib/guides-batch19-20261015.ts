@@ -567,7 +567,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Thank the reviewer in general terms, do not confirm that they were a patient, do not mention the visit, the provider's treatment or any health detail, and invite them to call the office for anything personal. A reply is public, and even a warm one can disclose protected information if it confirms who was seen.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T10:40:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("A happy review is still a privacy risk"),
@@ -611,7 +611,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("A quick approval routine"),
       p(
-        "Keep a short list of approved replies in a shared document, and assign one person to post them. For anything outside the list, such as a review that mentions a complaint, a name or a family member, pause and ask the practice manager before writing. Set a service level, such as replying within two business days, and track it in a simple log. To make sure every reply is read and sent on time, set up a [weekly review monitoring routine for a counseling practice Google profile](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile) with a named owner and a backup."
+        "Keep a short list of approved replies in a shared document, and assign one person to post them. For anything outside the list, such as a review that mentions a complaint, a name or a family member, pause and ask the practice manager before writing. Set a service level, such as replying within two business days, and track it in a simple log. To make sure every reply is read and sent on time, set up a [weekly review monitoring routine for a counseling practice Google profile](/guides/weekly-review-monitoring-routine-for-a-counseling-practice-google-profile) with a named owner and a backup. When a review names a nurse, provider or front desk employee, [a few extra steps apply to the reply](/guides/replying-to-a-google-review-that-names-a-staff-member-without-confirming-anyone-is-a-patient) so that thanking the team does not confirm anyone was a patient."
       ),
       p(
         "Consistent, privacy-conscious replies matter more than fast ones. A pause of an hour is cheap compared with a disclosure that cannot be taken back."
@@ -661,7 +661,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A thank-you page should confirm the request arrived, say when the practice will respond, give the phone number for urgent needs and the 911 line for emergencies, and contain no health details. It is also the best place to count a lead, because the page only loads after a form is actually submitted.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("The page most practices forget to build"),
@@ -719,7 +719,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Open the page in a private window to confirm nothing personal is shown."
       ),
       p(
-        "These details take minutes and prevent most of the common problems: a thank-you page that feels like a dead end, a conversion that is counted twice, or a page that exposes more than it should."
+        "These details take minutes and prevent most of the common problems: a thank-you page that feels like a dead end, a conversion that is counted twice, or a page that exposes more than it should. To see which entry pages lead to those form submissions, [read the landing pages report in Google Analytics](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) alongside the conversion count."
       ),
     ],
     faqs: [
@@ -766,7 +766,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
@@ -804,7 +804,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Measure what the listing is worth"),
       p(
-        "A paid directory listing is a marketing expense, so treat it like one. Use a tagged link in the profile so analytics can separate directory visits from other traffic, and ask new clients how they found you. The method in [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) works for this. After six months, compare the cost of the listing with the consultations it produced, and decide whether to renew. Your NPI and insurer directory records should match the profile too, which our guide to [NPI registry and insurance directory data accuracy](/guides/npi-registry-and-insurance-directory-data-accuracy-for-a-medical-practice) explains how to check."
+        "A paid directory listing is a marketing expense, so treat it like one. Use a tagged link in the profile so analytics can separate directory visits from other traffic, and ask new clients how they found you. The method in [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) works for this. After six months, compare the cost of the listing with the consultations it produced, and decide whether to renew. Your NPI and insurer directory records should match the profile too, which our guide to [NPI registry and insurance directory data accuracy](/guides/npi-registry-and-insurance-directory-data-accuracy-for-a-medical-practice) explains how to check. To judge whether the listing earns its fee, [divide its cost by the new inquiries it produced](/guides/working-out-the-cost-of-one-new-inquiry-from-the-website-compared-with-a-directory-listing-for-a-counseling-practice) over a few months and compare that with the website."
       ),
       p(
         "Review each profile twice a year and any time you change your fees, hours, address or availability. A profile that says accepting new clients when the caseload is full wastes the time of people who needed help."
@@ -814,7 +814,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Directories change their features and fees often, so assign one person to review each profile twice a year and write the date in a simple list. Look at the photo, the statement, the specialties, the fees and the availability. If a clinician leaves the practice, remove or update the profile right away, because a former clinician's page can keep sending calls to the wrong person for months."
       ),
       p(
-        "Search for your own name now and then to see which profiles appear first, and ask any directory to correct inaccurate information that you did not provide. A hospital or health system directory is another listing worth having, so follow [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory)."
+        "Search for your own name now and then to see which profiles appear first, and ask any directory to correct inaccurate information that you did not provide. A hospital or health system directory is another listing worth having, so follow [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory). A free [Google Alert on the practice and provider names](/guides/setting-up-a-free-google-alert-for-the-practice-name-and-provider-names-to-catch-wrong-listings-and-impersonation) will email you when a new page or directory listing appears, so you do not have to remember to search."
       ),
     ],
     faqs: [
@@ -861,7 +861,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Track the click that opens the booking tool and, where the vendor allows it, the confirmation step, using events that carry no names or visit reasons. Many hosted schedulers limit what you can install, so check the vendor's documentation, keep a clean record of where bookings come from and never pass health details into analytics.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("The gap between a click and a booking"),
@@ -895,7 +895,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Reconcile with the real schedule"),
       p(
-        "Analytics will never match the schedule exactly. Some patients book by phone after reading the site, some complete the tool in a private window, and some tools block scripts. Treat the schedule as the truth and use analytics for direction. Add a how-did-you-hear question at booking, as described in [how did you hear about us](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing), to cross-check the channel."
+        "Analytics will never match the schedule exactly. Some patients book by phone after reading the site, some complete the tool in a private window, and some tools block scripts. Treat the schedule as the truth and use analytics for direction. Add a how-did-you-hear question at booking, as described in [how did you hear about us](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing), to cross-check the channel. When a vendor's report and your schedule disagree, [the five questions in this checklist](/guides/comparing-two-marketing-reports-from-different-vendors-that-count-calls-and-forms-differently-for-a-practice-owner) help you find which number counts what."
       ),
       p(
         "If the numbers differ by a wide margin, look first for a broken redirect, a blocked script or a booking page opened in a new tab that lost its session. Fix the cause, then record the date of the fix so later trends are read in context."
@@ -947,12 +947,12 @@ export const guidesPartTwentyTwo: Guide[] = [
     title: "Live Chat and Chatbots on a Medical Practice Website: Privacy Settings and What to Avoid",
     metaTitle: "Live Chat and Chatbots on a Practice Website",
     metaDescription:
-      "What a medical or counseling practice should check before adding live chat or a chatbot to its website. Call (561) 291-2681.",
+      "What a medical or counseling practice should check before adding live chat or a chatbot: privacy settings, staffing and what to avoid. (561) 291-2681",
     answer:
       "Before adding a chat widget, confirm the vendor will sign a business associate agreement if messages can contain patient information, show a clear notice that chat is not for emergencies or health questions, route crisis words to 988 or 911 information, and keep transcripts out of general analytics. If these steps are not possible, use a simple contact form instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T12:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Chat is convenient, and it is a data collection tool"),
@@ -990,7 +990,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "A live chat that nobody answers is worse than none. Show the chat only during staffed hours, or switch it to a message form after hours with a clear promise of when someone will reply. Give staff a short script and tell them to move any personal detail to the phone or the secure portal. Our guide on [handling after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice) covers the same idea for calls."
       ),
       p(
-        "Check how the widget behaves with the rest of your tracking. A script that records sessions or captures typed text can undo the privacy work on the rest of the site. The warning in the [HIPAA-safe tracking guide](/guides/hipaa-safe-tracking-for-a-medical-website) applies to chat tools as well."
+        "Check how the widget behaves with the rest of your tracking. A script that records sessions or captures typed text can undo the privacy work on the rest of the site. The warning in the [HIPAA-safe tracking guide](/guides/hipaa-safe-tracking-for-a-medical-website) applies to chat tools as well. The same questions apply to any new script, and [what to ask a web company before it adds a plugin](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) gives a short written list."
       ),
       h2("Review the setup after launch"),
       p(

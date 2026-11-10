@@ -740,7 +740,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "Once a week, open the Google profile, read every new review, reply to each without confirming the person is a client, flag any that break Google's rules, and note the count. Ten minutes is enough, and a named person should own the task with a backup for vacations.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Why weekly"),
@@ -748,7 +748,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "A review that sits unanswered for a month looks like a practice that is not paying attention. For a counseling practice, a careless reply can do real harm, because even thanking someone by name can confirm that they were a client. A short weekly routine makes the replies quicker and the wording more careful."
       ),
       p(
-        "It also catches problems early: a review that is clearly spam, a listing edit nobody approved, or a sudden change in the rating. Those are easy to fix in the first week and hard to explain after three months."
+        "It also catches problems early: a review that is clearly spam, a listing edit nobody approved, or a sudden change in the rating. Those are easy to fix in the first week and hard to explain after three months. A [free Google Alert on the practice name](/guides/setting-up-a-free-google-alert-for-the-practice-name-and-provider-names-to-catch-wrong-listings-and-impersonation) can add a second early signal for wrong listings and copied pages."
       ),
       h2("The ten-minute routine"),
       ol(
@@ -784,7 +784,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("Handling a week with nothing new"),
       p(
-        "Some weeks bring no reviews. Record the count anyway and use the time for the rest of the checklist: look at the profile photos, confirm the hours and holiday closures, and read the questions section. A quiet week in the log is useful, because it shows what normal looks like and makes a sudden change easier to notice."
+        "Some weeks bring no reviews. Record the count anyway and use the time for the rest of the checklist: look at the profile photos, confirm the hours and holiday closures, and read the questions section. A quiet week in the log is useful, because it shows what normal looks like and makes a sudden change easier to notice. Once a month, add the [search terms from the profile's performance report](/guides/reading-the-google-business-profile-search-terms-report-each-month-to-see-how-patients-find-a-primary-care-practice) to the same log, so the sheet records what people typed as well as what they wrote in reviews."
       ),
     ],
     faqs: [
@@ -919,7 +919,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "Define the office network as internal traffic in Google Analytics 4, switch the internal-traffic filter from testing to active, and tag staff and test submissions so they never count as leads. Check the result a week later. Without this, a small practice's own visits can inflate its numbers.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Why a small site needs this"),
@@ -957,7 +957,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Check it worked"),
       p(
-        "A week after switching the filter to Active, open the Realtime report from the office and confirm your own visit does not appear in the filtered data. Then compare the month's sessions with the month before. A small drop is normal and means the cleaning worked. Our walkthrough of [setting up Google Analytics 4 for a medical practice](/guides/how-to-set-up-google-analytics-4-for-a-medical-practice) shows where this fits among the other setup steps."
+        "A week after switching the filter to Active, open the Realtime report from the office and confirm your own visit does not appear in the filtered data. Then compare the month's sessions with the month before. A small drop is normal and means the cleaning worked. Our walkthrough of [setting up Google Analytics 4 for a medical practice](/guides/how-to-set-up-google-analytics-4-for-a-medical-practice) shows where this fits among the other setup steps. With the filter active, [the landing pages report](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) gives a cleaner view of which pages new visitors enter on."
       ),
       p(
         "Do not use the data to identify patients, and do not collect any personal details in analytics. The filter is about removing your own staff from the counts, nothing else."
@@ -1095,7 +1095,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "On a phone, a pop-up, cookie banner or chat widget that covers the page can hide the call button and drive visitors away. Keep overlays small, delay them, make them easy to close, and test the page on a real phone to confirm the phone number and booking button stay visible.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Why overlays hurt on a phone"),
@@ -1135,7 +1135,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Speed matters too"),
       p(
-        "Each widget adds scripts, and scripts slow the page. After removing or shrinking an overlay, re-run a speed test and compare, using the approach in [the core web vitals checklist for a medical practice website](/guides/core-web-vitals-checklist-for-a-medical-practice-website). A faster page with fewer boxes is usually the one that earns the call."
+        "Each widget adds scripts, and scripts slow the page. After removing or shrinking an overlay, re-run a speed test and compare, using the approach in [the core web vitals checklist for a medical practice website](/guides/core-web-vitals-checklist-for-a-medical-practice-website). A faster page with fewer boxes is usually the one that earns the call. Before a web company adds another widget, [ask it these questions about speed, data and removal](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) and keep the answers in writing."
       ),
     ],
     faqs: [
@@ -1358,7 +1358,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "With a small budget, fix the free and cheap foundations first: an accurate Google profile, clear service pages, one or two paid directories and a way to count inquiries. Add paid search only after those work and the practice can answer every inquiry quickly. Review the split every quarter.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Start with the order, not the amounts"),
@@ -1393,7 +1393,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Reviewing the split"),
       p(
-        "Every quarter, look at where inquiries came from and what each channel cost in money and time. Move spending toward what produces first sessions and away from what only produces clicks. If the schedule is full, pause paid spend and keep the foundations running. If openings are many, test a small paid campaign for the services with the most room."
+        "Every quarter, look at where inquiries came from and what each channel cost in money and time. Move spending toward what produces first sessions and away from what only produces clicks. If the schedule is full, pause paid spend and keep the foundations running. If openings are many, test a small paid campaign for the services with the most room. To make that comparison with real figures, [divide each channel's cost by the new inquiries it produced](/guides/working-out-the-cost-of-one-new-inquiry-from-the-website-compared-with-a-directory-listing-for-a-counseling-practice) over the same quarter."
       ),
       p(
         "A practice that wants help deciding can compare the choices in [SEO versus Google Ads for a therapy practice](/guides/seo-vs-google-ads-for-a-therapy-practice) and review the pricing context in [therapist marketing pricing](/guides/therapist-marketing-pricing). The aim is a budget that fits the caseload, not the largest budget possible."

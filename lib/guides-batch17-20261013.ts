@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-10",
     "readMinutes": 6,
     "sections": [
       {
@@ -113,7 +113,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Open the page on a phone and tap the button yourself. Confirm that it goes to the vendor's address you expect, that the address begins with https, and that the page does not trigger a browser warning. Check it again after any website redesign, because portal links break when menus are rebuilt."
+        "text": "Open the page on a phone and tap the button yourself. Confirm that it goes to the vendor's address you expect, that the address begins with https, and that the page does not trigger a browser warning. Check it again after any website redesign, because portal links break when menus are rebuilt. A portal vendor's software update is another reason to repeat that test, and the [checklist for portal and form links after an update](/guides/checking-that-links-to-the-patient-portal-and-online-forms-still-work-after-the-portal-vendor-updates-its-software) lists what to open."
       },
       {
         "type": "p",

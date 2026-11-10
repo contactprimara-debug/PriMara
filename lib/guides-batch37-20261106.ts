@@ -201,7 +201,7 @@ export const guidesPartForty: Guide[] = [
       "Hand a phone to five people who do not know your practice, show your home page for five seconds, then take it away and ask what the practice does, where it is and how to book. Whatever they cannot say is what the first screen is failing to show, and that is your fix list.",
     author: "Liam Costello",
     publishDate: "2026-11-06T16:20:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("You already know what belongs on the first screen"),
@@ -253,7 +253,7 @@ export const guidesPartForty: Guide[] = [
       ),
       h2("Fix one thing, then test again"),
       p(
-        "Change the single biggest gap, such as moving the town into the headline or shrinking a hero photo, and run the test again with five different people. Keep a short note of the date, the changes and the answers so the next redesign does not undo what worked. Do not put any patient's name or health details in this note, and do not ask testers about their own health. If the test shows the home page tries to say too much, [choosing the first two services to feature on the home page](/guides/choosing-the-first-two-services-to-feature-on-a-primary-care-practice-home-page) explains how to pick what leads."
+        "Change the single biggest gap, such as moving the town into the headline or shrinking a hero photo, and run the test again with five different people. Keep a short note of the date, the changes and the answers so the next redesign does not undo what worked. Do not put any patient's name or health details in this note, and do not ask testers about their own health. If the test shows the home page tries to say too much, [choosing the first two services to feature on the home page](/guides/choosing-the-first-two-services-to-feature-on-a-primary-care-practice-home-page) explains how to pick what leads. To pick the page to test first, [open the landing pages report](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) and start with the busiest entry page that produces no inquiries."
       ),
       p(
         "Repeat after any redesign, new theme or new banner. If your practice is a counseling practice rather than primary care, the same test works with the guide on [what a first-time visitor needs to see on a therapy practice home page](/guides/homepage-for-a-therapy-practice-what-a-first-time-visitor-needs-to-see) as your reference."
@@ -302,7 +302,7 @@ export const guidesPartForty: Guide[] = [
       "Before embedding a scheduling widget on a counseling contact page, confirm the vendor will sign a business associate agreement if it handles client information, keep the widget from slowing the page, show the phone number and a plain contact option beside it, and never rely on it as the only way to reach you.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T16:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("A widget is somebody else's code on your page"),
@@ -323,7 +323,7 @@ export const guidesPartForty: Guide[] = [
       ),
       h2("Keep the page fast and the layout steady"),
       p(
-        "Third-party code is a common reason a page feels slow. Google's web performance guidance explains that outside scripts compete with your own content for loading time, and recommends loading them in a way that does not block the page. Ask your web person to load the widget after the main content, and to set its height in advance so the page does not jump when it appears."
+        "Third-party code is a common reason a page feels slow. Google's web performance guidance explains that outside scripts compete with your own content for loading time, and recommends loading them in a way that does not block the page. Ask your web person to load the widget after the main content, and to set its height in advance so the page does not jump when it appears. Before anyone adds another widget or script, [eight questions to ask the web company](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) cover what it collects, which pages it appears on and how to remove it."
       ),
       p(
         "If the widget is placed inside a frame on the page, a technical attribute called sandbox can limit what the framed content is allowed to do, and a loading setting can delay it until the visitor scrolls near it. Your vendor's setup instructions may restrict these, so test after any change."
@@ -347,7 +347,7 @@ export const guidesPartForty: Guide[] = [
         "You will want to know whether the widget is producing appointments. The method in [conversion tracking for third-party booking widgets](/guides/conversion-tracking-for-third-party-booking-widgets-on-a-medical-practice-website) shows how to count a click or a completed booking without sending a name, a reason for the visit or any other client detail to your analytics."
       ),
       p(
-        "Finally, put the widget on your calendar. Check it monthly: does it load, does the time list match the real schedule, and do the notifications reach the right inbox. Test with a fake name and a number you control, and cancel the test booking."
+        "Finally, put the widget on your calendar. Check it monthly: does it load, does the time list match the real schedule, and do the notifications reach the right inbox. Test with a fake name and a number you control, and cancel the test booking. Also test the widget link again after the vendor updates its software, using the [checklist for portal and form links after a vendor update](/guides/checking-that-links-to-the-patient-portal-and-online-forms-still-work-after-the-portal-vendor-updates-its-software)."
       ),
     ],
     faqs: [

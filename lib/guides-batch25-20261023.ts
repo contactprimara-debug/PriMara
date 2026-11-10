@@ -615,7 +615,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "Once a year, read every page of your counseling website as a new client would. Check clinicians and licenses, fees and insurance, forms and policies, crisis resources, phone numbers, links and the Google profile, and fix whatever has drifted. Write the date of the review so the next one is easy.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Why a counseling site drifts out of date"),
@@ -651,7 +651,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Check the places outside your site"),
       p(
-        "A site review is incomplete without the places clients actually see you first. Compare the Google Business Profile, Psychology Today, your insurance directory listings and your social profiles against the website, and note every difference. Our guide to [fixing NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to find and correct mismatched names, addresses and phone numbers."
+        "A site review is incomplete without the places clients actually see you first. Compare the Google Business Profile, Psychology Today, your insurance directory listings and your social profiles against the website, and note every difference. Our guide to [fixing NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to find and correct mismatched names, addresses and phone numbers. A free [Google Alert on the practice and provider names](/guides/setting-up-a-free-google-alert-for-the-practice-name-and-provider-names-to-catch-wrong-listings-and-impersonation) can warn you between reviews when a new directory page or wrong listing appears."
       ),
       h3("Close the loop"),
       ol(
@@ -662,7 +662,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Make the review a habit"),
       p(
-        "Choose the same month every year and assign each row of the table to a named person. Keep the finished checklist in a shared folder with the date, so you can see what changed from one year to the next. A practice that reviews its site once a year rarely needs a panic rewrite, and new clients meet a site that matches the front desk."
+        "Choose the same month every year and assign each row of the table to a named person. Keep the finished checklist in a shared folder with the date, so you can see what changed from one year to the next. A practice that reviews its site once a year rarely needs a panic rewrite, and new clients meet a site that matches the front desk. To keep the weekly and quarterly checks in the same place, add them to [a yearly calendar with a named owner and date for each check](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates)."
       ),
       p(
         "If you change a lot, such as a new clinician or a new fee schedule, republish the affected pages together and check the sitemap and Google profile the same day. Do the review in the same sitting as the [year-end marketing results summary](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice), so the pages that need work are chosen using the real numbers from the year."
@@ -712,7 +712,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A portal page for a counseling practice should tell clients where to log in, what the portal is for, how fast messages are answered and what never to send there. State a reply window, send crisis messages to 988 and 911, and keep clinical conversation for the session.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Why clients need this page"),
@@ -754,7 +754,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Test the page like a new client"),
       p(
-        "Ask someone outside your staff to find the portal login from the home page on a phone and to read the page aloud. Note where they hesitate. If they cannot tell what the portal is for or how long a reply will take, rewrite that sentence. Repeat the test whenever the portal vendor changes the login screen. Clients sometimes ask about changing their emergency contact by portal message, which an [emergency contact request on intake page for a counseling practice](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) can answer in advance."
+        "Ask someone outside your staff to find the portal login from the home page on a phone and to read the page aloud. Note where they hesitate. If they cannot tell what the portal is for or how long a reply will take, rewrite that sentence. Repeat the test whenever the portal vendor changes the login screen. Clients sometimes ask about changing their emergency contact by portal message, which an [emergency contact request on intake page for a counseling practice](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail) can answer in advance. After the portal vendor updates its software, [test every portal and form link](/guides/checking-that-links-to-the-patient-portal-and-online-forms-still-work-after-the-portal-vendor-updates-its-software) again, because a changed address can break the path quietly."
       ),
     ],
     faqs: [

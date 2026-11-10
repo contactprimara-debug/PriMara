@@ -448,7 +448,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "Search Console emails go to the owners and users on the property, so a practice should make sure at least two accountable people receive them, one of them with authority to approve fixes. Read security and manual action notices the same day, indexing and coverage notices weekly, and ignore nothing from an address no one checks.",
     author: "Liam Costello",
     publishDate: "2026-11-05T10:20:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Why the inbox matters more than the dashboard"),
@@ -481,10 +481,10 @@ export const guidesPartThirtyEight: Guide[] = [
       ),
       h2("Setting it up"),
       p(
-        "In the property's settings, open the users and permissions list, confirm each owner and full user, and remove anyone who no longer works with the practice. Then check the notification preferences in the account's settings so that email is on. If the property was never verified in the first place, the walkthrough on [setting up and verifying Google Search Console](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website) covers it step by step."
+        "In the property's settings, open the users and permissions list, confirm each owner and full user, and remove anyone who no longer works with the practice. Then check the notification preferences in the account's settings so that email is on. If the property was never verified in the first place, the walkthrough on [setting up and verifying Google Search Console](/guides/how-to-set-up-and-verify-google-search-console-for-a-medical-practice-website) covers it step by step. Add this user review to a [yearly calendar of checks](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) with a named owner, so it does not slip."
       ),
       p(
-        "Finish by adding a recurring weekly reminder to read the dashboard summary, so the practice is not relying on email alone. The routine described in [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) takes about fifteen minutes and fits into a regular admin hour. Add a monthly look at the top queries to that same hour, following the [query-reading routine for counseling practices](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice)."
+        "Finish by adding a recurring weekly reminder to read the dashboard summary, so the practice is not relying on email alone. The routine described in [how to read Google Search Console for a practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website) takes about fifteen minutes and fits into a regular admin hour. Add a monthly look at the top queries to that same hour, following the [query-reading routine for counseling practices](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice). A free [Google Alert for the practice and provider names](/guides/setting-up-a-free-google-alert-for-the-practice-name-and-provider-names-to-catch-wrong-listings-and-impersonation) adds one more early signal, sent to the same shared mailbox, about wrong listings and copied pages."
       ),
     ],
     faqs: [

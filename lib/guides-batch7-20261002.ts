@@ -339,12 +339,12 @@ export const guidesPartTen: Guide[] = [
     title: "How to Set Up Google Analytics 4 for a Medical Practice From Scratch",
     metaTitle: "Google Analytics 4 Setup for a Medical Practice",
     metaDescription:
-      "A step-by-step GA4 setup for a medical practice website: property, data stream, events, and HIPAA-aware tracking. Call (561) 291-2681.",
+      "A step-by-step GA4 setup for a medical practice website: property, data stream, key events and HIPAA-aware tracking choices. Call (561) 291-2681",
     answer:
       "Setting up GA4 for a medical practice means creating a property, adding the web data stream's tag to every page, then configuring two or three key events — form submission and phone click — as conversions. The part generic GA4 tutorials skip: never let any field capture a patient's name, condition, or appointment reason.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Create the property and data stream" },
@@ -373,7 +373,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Link it to Google Ads and Search Console" },
       {
         type: "p",
-        text: "Once the key events exist, link the GA4 property to your Google Ads account (Admin > Product Links > Google Ads Linking) so conversions can be imported for bidding, and separately link Search Console (Admin > Product Links > Search Console Links) to see which organic queries actually drive the sessions that convert. Both links take a few minutes and turn GA4 from a standalone report into the thing that tells you whether your marketing spend is working. Pair GA4 with Search Console, which shows what happens in Google before the click; see [how to read Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website). Analytics only sees online activity, so pair it with a simple intake question; our guide on [asking new patients how they heard about you](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to record the answer without health details. After setup, keep your own visits out of the numbers by following the steps in [excluding staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website).",
+        text: "Once the key events exist, link the GA4 property to your Google Ads account (Admin > Product Links > Google Ads Linking) so conversions can be imported for bidding, and separately link Search Console (Admin > Product Links > Search Console Links) to see which organic queries actually drive the sessions that convert. Both links take a few minutes and turn GA4 from a standalone report into the thing that tells you whether your marketing spend is working. Pair GA4 with Search Console, which shows what happens in Google before the click; see [how to read Google Search Console for a medical practice website](/guides/how-to-read-google-search-console-for-a-medical-practice-website). Analytics only sees online activity, so pair it with a simple intake question; our guide on [asking new patients how they heard about you](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to record the answer without health details. After setup, keep your own visits out of the numbers by following the steps in [excluding staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website). Once the data is flowing, [reading the landing pages report](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) shows which pages new visitors enter on and which of them lead to a key event.",
       },
     ],
     faqs: [

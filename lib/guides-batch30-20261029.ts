@@ -1306,7 +1306,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "An auto reply to a new client inquiry should confirm the message arrived, say who will answer and when, give the office phone number, point to 988 and 911 for emergencies and ask for no health details. Send it from a real practice address, keep it short and only promise the reply time you reliably meet.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("The minute after someone presses send"),
@@ -1343,7 +1343,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h2("Make the reply match the rest of the experience"),
       p(
-        "The wording should agree with the page the person saw after submitting, as described in our guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), and with the fields on the form itself. Use the same reply time in both places, or visitors notice."
+        "The wording should agree with the page the person saw after submitting, as described in our guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), and with the fields on the form itself. Use the same reply time in both places, or visitors notice. To check that the reply arrives and how fast, include it in a [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) run by someone from the office."
       ),
       p(
         "Send the message from your own domain, using the approach in the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so it lands in the inbox and not in spam. Then test it: submit a test inquiry marked as a test, check how the email looks on a phone, and make sure the reply-to address reaches a monitored inbox. Check the delivery path every quarter, since a form that stops sending silently costs real inquiries. A person who emails only to ask about insurance needs a different reply than a form auto-reply, which [answering an email about whether a counselor takes their insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) walks through with a template."

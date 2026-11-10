@@ -239,7 +239,7 @@ export const guidesPartOne: Guide[] = [
       "A solo therapist in Florida typically spends three hundred to fifteen hundred dollars a month on marketing, and a group practice spends two thousand to five thousand. The cheapest option is a directory listing at roughly thirty dollars a month; the most durable is local SEO and a Google Business Profile, which costs more but keeps producing after you stop paying.",
     author: "Liam Costello",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       {
@@ -274,7 +274,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Directory listings work the way a phone book worked. You pay for placement in a list you do not control, next to everyone you compete with, and the moment you stop paying you disappear. They are worth keeping as a source of matched-insurance referrals. They are not worth being your only channel, because the practices that grow past full caseload are the ones that own the search result instead of renting a spot inside someone else's. For a side-by-side look, see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists).",
+        text: "Directory listings work the way a phone book worked. You pay for placement in a list you do not control, next to everyone you compete with, and the moment you stop paying you disappear. They are worth keeping as a source of matched-insurance referrals. They are not worth being your only channel, because the practices that grow past full caseload are the ones that own the search result instead of renting a spot inside someone else's. For a side-by-side look, see [Psychology Today versus Google SEO for therapists](/blog/psychology-today-vs-google-seo-for-therapists). To compare a listing with your own website in numbers, [work out the cost of one new inquiry from each](/guides/working-out-the-cost-of-one-new-inquiry-from-the-website-compared-with-a-directory-listing-for-a-counseling-practice) over the same three months.",
       },
       {
         type: "p",

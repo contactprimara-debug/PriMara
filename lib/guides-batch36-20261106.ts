@@ -249,7 +249,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "A practice domain expires when the yearly fee is not paid, and the website and every email address on it then stop working. Prevent it with the practice as the registered owner, auto-renew on, a current card, a billing email that more than one person reads, and a calendar reminder sixty days out.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:40:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("The quietest way for a practice to disappear"),
@@ -281,7 +281,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("If the domain has already lapsed"),
       p(
-        "Act the same day. Most registrars allow a grace period in which the owner can still renew, often at the normal price, and a later redemption period that costs more. Renew at the registrar that holds it, check that the site and email return, and then fix the cause. If a former vendor or employee holds the account, our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to move ownership to the practice."
+        "Act the same day. Most registrars allow a grace period in which the owner can still renew, often at the normal price, and a later redemption period that costs more. Renew at the registrar that holds it, check that the site and email return, and then fix the cause. If a former vendor or employee holds the account, our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to move ownership to the practice. Put the renewal date, with a reminder well before it, on the [yearly check calendar](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) next to a named owner."
       ),
       p(
         "After any outage of this kind, run a basic check of the site, the forms and the email. The steps in [what a practice does when its website goes down](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) apply to a lapsed domain as well, and the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) shows why email on your own domain makes this protection even more important."

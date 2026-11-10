@@ -587,7 +587,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "Once a week, compare how many people tapped Call on your Google Business Profile with how many calls your office actually answered. A gap points to missed calls, wrong hours or a busy line. Count only numbers and times, never caller names, because who calls a counselor is private.",
     author: "Liam Costello",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("What the profile can and cannot tell you"),
@@ -631,7 +631,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Keep the change if the gap shrinks. If it does not, try the next cause."
       ),
       p(
-        "Google's counts and your phone logs are measured differently, so expect them not to match exactly. Look at the trend over weeks, not the difference on a single day."
+        "Google's counts and your phone logs are measured differently, so expect them not to match exactly. Look at the trend over weeks, not the difference on a single day. The monthly [search terms report on the same profile](/guides/reading-the-google-business-profile-search-terms-report-each-month-to-see-how-patients-find-a-primary-care-practice) shows what people typed before they tapped, which can help you read a rise or fall in call taps."
       ),
     ],
     faqs: [

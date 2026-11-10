@@ -536,12 +536,12 @@ export const guidesPartEight: Guide[] = [
     title: "Medical Practice Content Calendar Checklist",
     metaTitle: "Medical Practice Content Calendar Checklist",
     metaDescription:
-      "What a realistic monthly content and posting schedule looks like for a medical practice. Call (561) 291-2681.",
+      "What a realistic monthly content and posting schedule looks like for a medical practice, with owners and dates for each task. Call (561) 291-2681",
     answer:
       "A realistic medical practice content calendar covers three recurring commitments — two Google Business Profile posts a week with a real photo, one new or updated web page per month answering a real patient question, and a quarterly review of existing pages for accuracy — plus seasonal items (flu season, holiday hours, back-to-school physicals) planned a month ahead rather than written the week they're needed.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Most practices fail at content consistency, not content quality" },
@@ -586,7 +586,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "A shared calendar tool doesn't need to be elaborate — a simple spreadsheet with columns for date, task, owner, and status covers most independent practices completely. What matters is that it's checked on a fixed day each week, not opened only when someone remembers, and that whoever is accountable for each recurring item actually reviews it against what's due rather than relying on memory of what was posted or written recently. A calendar that adds posts also adds archive pages automatically, so review [which blog tag, category and archive pages to index or noindex](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex) once a quarter.",
+        text: "A shared calendar tool doesn't need to be elaborate — a simple spreadsheet with columns for date, task, owner, and status covers most independent practices completely. What matters is that it's checked on a fixed day each week, not opened only when someone remembers, and that whoever is accountable for each recurring item actually reviews it against what's due rather than relying on memory of what was posted or written recently. A calendar that adds posts also adds archive pages automatically, so review [which blog tag, category and archive pages to index or noindex](/guides/blog-tag-category-and-archive-pages-on-a-medical-practice-website-index-or-noindex) once a quarter. For the checks that are not content, such as phone tests and domain renewal, a [yearly calendar of website, profile and phone checks](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) uses the same owner-and-date idea.",
       },
     ],
     faqs: [
@@ -859,7 +859,7 @@ export const guidesPartEight: Guide[] = [
       "A Google Business Profile needs a real exterior photo so patients can identify the building, a real interior/waiting room photo, real team or provider photos, and a logo and cover photo — all real, none stock — uploaded on an ongoing basis rather than once at setup, since Google's own data shows listings with more recent, regularly added photos get more search and Maps views than listings with a static photo set from years ago.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Photos are a trust signal before a patient ever calls" },
@@ -901,7 +901,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "A quick quarterly review is worth doing alongside other listing maintenance: scroll through the current photo set and remove anything outdated — a provider who's left, an old logo, a season-specific photo that's stayed up well past relevance. A profile with thirty photos where a third are stale sends a weaker signal than a smaller, consistently current set. A photo of the main door and signage helps patients on arrival, and our guide on [parking and entrance photos](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) shows what else to publish with it.",
+        text: "A quick quarterly review is worth doing alongside other listing maintenance: scroll through the current photo set and remove anything outdated — a provider who's left, an old logo, a season-specific photo that's stayed up well past relevance. A profile with thirty photos where a third are stale sends a weaker signal than a smaller, consistently current set. A photo of the main door and signage helps patients on arrival, and our guide on [parking and entrance photos](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) shows what else to publish with it. While you are in the profile, read the [monthly search terms report](/guides/reading-the-google-business-profile-search-terms-report-each-month-to-see-how-patients-find-a-primary-care-practice) to see whether the photos and services you show match the words people actually type.",
       },
       {
         type: "p",
