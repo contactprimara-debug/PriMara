@@ -1302,9 +1302,6 @@ main > section[style*="padding"] {
 }
 /* Sections whose inner wrapper already has its own side padding (max-w-content px-6) must not get a second layer (was 44px on a phone vs 24px for the hero). */
 main > section[style*="padding"]:has(> .max-w-content) { padding-left: 0 !important; padding-right: 0 !important; }
-/* Tailwind py-20 / py-24 sections: cap at the standard (item 20: never over ~80px a side). */
-main section.py-20, main section.py-24, main section .py-20, main section .py-24 { padding-top: clamp(32px, 5vw, 64px) !important; padding-bottom: clamp(32px, 5vw, 64px) !important; }
-main section.pb-24, main section.pb-20 { padding-bottom: clamp(32px, 5vw, 64px) !important; }
 main [style*="radial-gradient"][aria-hidden="true"] { display: none !important; }
 main [style*="border-radius"]:not([style*="border-radius: 50%"]):not([style*="border-radius: 999"]) { border-radius: 4px !important; }
 main .rounded-lg, main .rounded-xl, main .rounded-2xl, main .rounded-md { border-radius: 4px !important; }
