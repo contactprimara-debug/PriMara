@@ -430,12 +430,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "Provider headshots and team photos should be recent, consistent in style, taken with each person's agreement, compressed for fast loading and given plain alt text with the person's name and role. Check the background for patient information, and replace photos when a person leaves or looks noticeably different.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Why a headshot matters more than most pages admit"),
       p(
-        "A patient choosing a new doctor or therapist is choosing a person, and a clear photo is often the first thing they look at on a bio page. A missing photo, a grey placeholder or a photo that is ten years old makes the practice look careless, while a warm, current headshot sets expectations for the visit."
+        "A patient choosing a new doctor or therapist is choosing a person, and a clear photo is often the first thing they look at on a bio page. A missing photo, a grey placeholder or a photo that is ten years old makes the practice look careless, while a warm, current headshot sets expectations for the visit. When a new provider joins, confirm during the [week-after check of the website and Google profile](/guides/checking-the-website-and-google-profile-the-week-after-a-new-provider-joins-a-primary-care-practice) that the new photo matches the others in size and style."
       ),
       p(
         "Photos also affect the site's performance. Large uncompressed files slow a page, and slow pages lose visitors on a phone. A tidy photo workflow fixes both problems at once."
@@ -1017,7 +1017,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A primary care practice that offers evening or weekend hours should publish them in the same words on its website, Google Business Profile, directories and phone greeting, say who is seen at those times, and update all of them when the schedule changes. Wrong hours on Google are one of the quickest ways to lose a patient's trust.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T12:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Hours are the most-checked fact about your practice"),
@@ -1063,7 +1063,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "When a clinician who covers evening hours leaves, remove the hours the same day."
       ),
       p(
-        "Finally, tell patients about new hours in a way they will notice. A short banner on the website, a mention in appointment reminders and a line on the voicemail help patients who already know the practice. Our guide on [wait times and schedule availability messaging](/guides/wait-times-and-schedule-availability-messaging-on-a-medical-practice-website-without-promises) covers how to describe availability without making promises the office cannot keep."
+        "Finally, tell patients about new hours in a way they will notice. A short banner on the website, a mention in appointment reminders and a line on the voicemail help patients who already know the practice. Our guide on [wait times and schedule availability messaging](/guides/wait-times-and-schedule-availability-messaging-on-a-medical-practice-website-without-promises) covers how to describe availability without making promises the office cannot keep. Time the change itself with care too, since a [mid-week morning publish with the front desk told first](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard) beats a Friday afternoon edit."
       ),
       h3("A quick monthly audit"),
       p(
@@ -1413,7 +1413,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice website needs automatic backups stored away from the site itself, monitoring that alerts someone within minutes if the site goes down, a regular schedule for updates, and a written recovery plan with a named owner. Test the backup by restoring it, because an untested backup is only a hope.",
     author: "Liam Costello",
     publishDate: "2026-10-19T13:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("When the site is down, patients assume the office is"),
@@ -1448,7 +1448,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Updates and security basics"),
       p(
-        "Apply updates to the platform, themes and plugins on a schedule, not only when something breaks. Remove plugins that are not needed, use unique strong passwords, turn on two-step sign-in and limit who can publish changes. Federal cybersecurity guidance on ransomware stresses offline backups and tested recovery as the main protection."
+        "Apply updates to the platform, themes and plugins on a schedule, not only when something breaks. Remove plugins that are not needed, use unique strong passwords, turn on two-step sign-in and limit who can publish changes. Federal cybersecurity guidance on ransomware stresses offline backups and tested recovery as the main protection. Schedule the larger updates for a mid-week morning, using the guidance on [choosing a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard), so staff are in and someone can restore a copy if it breaks."
       ),
       h2("Write the recovery plan"),
       ol(

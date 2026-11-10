@@ -548,7 +548,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "If patients do not answer reminder or callback calls, your practice number may be labeled Spam Likely by phone carriers or call-blocking apps. Check the number on your carrier's tools, ask your phone provider to register it, and request a review through each carrier's reputation program. Fixes take days, so test and record before and after.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T10:00:00Z",
-    "dateModified": "2026-11-09",
+    "dateModified": "2026-11-10",
     "readMinutes": 6,
     "sections": [
       {
@@ -644,7 +644,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If a patient reports a scam warning, thank them, ask which app showed it, and add that detail to your dated notes. It tells you which carrier to ask your provider about first. A newly assigned number after a carrier switch is a common trigger, so the [phone system change checklist](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) includes a spam-label check in the first week."
+        "text": "If a patient reports a scam warning, thank them, ask which app showed it, and add that detail to your dated notes. It tells you which carrier to ask your provider about first. A newly assigned number after a carrier switch is a common trigger, so the [phone system change checklist](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) includes a spam-label check in the first week. If the number a patient reports is simply wrong rather than flagged, follow the [same-day steps for a wrong practice phone number found online](/guides/what-a-primary-care-office-does-when-a-patient-finds-the-wrong-phone-number-for-the-practice-online) instead."
       },
       {
         "type": "h2",

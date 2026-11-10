@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-10",
   "readMinutes": 7,
   "sections": [
     {
@@ -468,7 +468,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Whichever you choose, make the details agree. The provider's page on your website, the practitioner listing, directory profiles and state license records should show the same name, credentials and specialty. Our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers how mismatches build up. Never list credentials a provider does not hold."
+      "text": "Whichever you choose, make the details agree. The provider's page on your website, the practitioner listing, directory profiles and state license records should show the same name, credentials and specialty. Our guide on [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers how mismatches build up. Never list credentials a provider does not hold. The [week-after check when a new provider joins](/guides/checking-the-website-and-google-profile-the-week-after-a-new-provider-joins-a-primary-care-practice) includes confirming that the provider's listing uses the practice phone number and website."
     },
     {
       "type": "h2",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-09",
+  "dateModified": "2026-11-10",
   "readMinutes": 7,
   "sections": [
     {
@@ -1455,7 +1455,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "The common failures are predictable. A designer registers the domain in their own name and the practice cannot move it. A manager who left owns the Business Profile. An agency owns Analytics and takes the history when the relationship ends. All of them are avoidable."
+      "text": "The common failures are predictable. A designer registers the domain in their own name and the practice cannot move it. A manager who left owns the Business Profile. An agency owns Analytics and takes the history when the relationship ends. All of them are avoidable. The [one-page brief to give a new web designer](/guides/one-page-brief-to-give-a-new-web-designer-at-a-counseling-practice-services-insurance-hours-tone-and-what-not-to-say) is a good place to state in writing that the practice owns the domain and every login."
     },
     {
       "type": "h2",
@@ -1500,7 +1500,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Google's help page on Business Profile owners and managers explains that you can add people with different roles and that a profile should have more than one owner so that access survives staff changes. Add your agency as a manager rather than the primary owner, and name two people at the practice as owners. If a former employee still has access, remove them promptly. When a new office manager joins, a [day-one handoff page for the new manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts) turns this ownership list into the logins and roles they should receive."
+      "text": "Google's help page on Business Profile owners and managers explains that you can add people with different roles and that a profile should have more than one owner so that access survives staff changes. Add your agency as a manager rather than the primary owner, and name two people at the practice as owners. If a former employee still has access, remove them promptly. When a new office manager joins, a [day-one handoff page for the new manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts) turns this ownership list into the logins and roles they should receive. Even people with manager access should follow a [written sign-off step before changing the phone number, hours or provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list), so one rushed edit cannot reach every page."
     },
     {
       "type": "h2",

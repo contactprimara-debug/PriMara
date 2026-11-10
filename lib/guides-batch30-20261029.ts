@@ -532,7 +532,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "When another practice has a nearly identical name, make your own identity unmistakable instead of fighting theirs: add your city, address and provider names wherever your name appears, check your Google profile and structured data, and ask new callers which office they meant. Never copy their name, and never describe them negatively.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("How a name twin costs a practice real calls"),
@@ -544,7 +544,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h2("First, measure how often it happens"),
       p(
-        "Before changing anything, count. Ask the front desk to tally wrong-office calls for two weeks, and note what the caller said. Search your practice name on a phone and on a desktop, from your city and from outside it, and screenshot the results. Our guide to a [brand search audit](/guides/what-patients-see-when-they-search-your-practice-name-a-brand-search-audit) walks through exactly what to record. The tally tells you whether this is a rare annoyance or a steady leak."
+        "Before changing anything, count. Ask the front desk to tally wrong-office calls for two weeks, and note what the caller said. Search your practice name on a phone and on a desktop, from your city and from outside it, and screenshot the results. Our guide to a [brand search audit](/guides/what-patients-see-when-they-search-your-practice-name-a-brand-search-audit) walks through exactly what to record. The tally tells you whether this is a rare annoyance or a steady leak. If the number a caller found was an old or mistyped number for your own practice rather than another office's, use the [steps for a wrong phone number found online](/guides/what-a-primary-care-office-does-when-a-patient-finds-the-wrong-phone-number-for-the-practice-online) instead."
       ),
       h2("What to change on your own properties"),
       table(

@@ -22,13 +22,13 @@ export const guidesPartSeven: Guide[] = [
       "Before a medical practice website launches, confirm five things: every page has a unique title and meta description, the old site's URLs 301-redirect to the new ones, Google Business Profile and the site's NAP (name, address, phone) match exactly, tel: links and the contact form fire tracking events, and an XML sitemap is submitted in Search Console. Skipping the redirect step is what causes practices to lose rankings they already had.",
     author: "Gio LaRoche",
     publishDate: "2026-09-25T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Launch day is where most practices lose rankings, not gain them" },
       {
         type: "p",
-        text: "A new website rarely launches into a vacuum — there's usually an old site with URLs Google has already indexed and existing backlinks aimed at pages about to disappear. The SEO work that matters most happens before the new site goes live, not after. A practice that redesigns its site and loses organic traffic for two months afterward almost always skipped one of the items below — it is a missed step, not bad luck. Plan the links between pages before launch, using our guide to [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website). Confirm the new site serves every page over HTTPS with a valid certificate and no mixed-content warnings, using our [HTTPS and mixed-content checklist](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website).",
+        text: "A new website rarely launches into a vacuum — there's usually an old site with URLs Google has already indexed and existing backlinks aimed at pages about to disappear. The SEO work that matters most happens before the new site goes live, not after. A practice that redesigns its site and loses organic traffic for two months afterward almost always skipped one of the items below — it is a missed step, not bad luck. Plan the links between pages before launch, using our guide to [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website). Confirm the new site serves every page over HTTPS with a valid certificate and no mixed-content warnings, using our [HTTPS and mixed-content checklist](/guides/https-ssl-certificates-and-mixed-content-warnings-on-a-medical-practice-website). Before the build starts, give the designer a [one-page brief with your services, insurance, hours and the words the site must never use](/guides/one-page-brief-to-give-a-new-web-designer-at-a-counseling-practice-services-insurance-hours-tone-and-what-not-to-say) so the new pages start from accurate facts.",
       },
       { type: "h2", text: "Pre-launch: the non-negotiables" },
       {

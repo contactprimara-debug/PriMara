@@ -777,12 +777,12 @@ export const guidesPartThirtyEight: Guide[] = [
       "A summer hours notice should give the dates the schedule applies, the new hours for each day, which services or providers change, and who to call for anything urgent. Publish it on the site, set it as special hours on the Google profile, and update the phone greeting on the same day.",
     author: "Gio LaRoche",
     publishDate: "2026-11-05T11:40:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Seasonal changes confuse more patients than holidays"),
       p(
-        "A holiday closure is a single day, and most patients expect it. A seasonal schedule runs for weeks. A school-year office that closes early on Fridays in summer, or a practice that moves one provider to a different office for two months, creates dozens of small misunderstandings: the patient who drives over on a Friday afternoon, the parent who waits for a call back that is not coming."
+        "A holiday closure is a single day, and most patients expect it. A seasonal schedule runs for weeks. A school-year office that closes early on Fridays in summer, or a practice that moves one provider to a different office for two months, creates dozens of small misunderstandings: the patient who drives over on a Friday afternoon, the parent who waits for a call back that is not coming. Publish the notice on a quiet mid-week morning after telling the front desk, following the advice on [choosing a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard)."
       ),
       p(
         "A clear notice, placed where patients look first, prevents most of them. It should be short, dated and repeated in the same words everywhere."

@@ -213,12 +213,12 @@ export const guidesPartForty1: Guide[] = [
       "Before a redesign starts, ask the designer which pages bring in patients today, whether every old address will redirect to a new one, who handles the tracking and forms, and what is checked before launch. A designer who cannot answer in writing is a risk to your search traffic.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:10:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       h2("A redesign can quietly delete your best pages"),
       p(
-        "A new design is the one moment when a practice website can lose years of Google standing in a single afternoon. The new site goes live looking better, the old page addresses stop working, and the pages that brought in patients vanish from search. Nobody notices for weeks because the home page still looks fine."
+        "A new design is the one moment when a practice website can lose years of Google standing in a single afternoon. The new site goes live looking better, the old page addresses stop working, and the pages that brought in patients vanish from search. Nobody notices for weeks because the home page still looks fine. Before the first meeting, hand the designer a [one-page brief covering services, insurance, hours, tone and what the site must never say](/guides/one-page-brief-to-give-a-new-web-designer-at-a-counseling-practice-services-insurance-hours-tone-and-what-not-to-say), so every answer you get is measured against the same facts."
       ),
       p(
         "You do not need to understand the technology to prevent this. You need to ask the right questions before signing, and to get the answers in writing. This page is that list. If you are changing your name or address as well, read the [rebrand checklist](/guides/medical-practice-rebrand-seo-checklist) alongside it, and if the address of the whole site is changing, read about [moving a site to a new domain](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain)."
@@ -300,12 +300,12 @@ export const guidesPartForty1: Guide[] = [
       "Read a marketing proposal for four things: what exactly will be done each month, what you will receive as proof, who owns the accounts, and how you can leave. Be wary of any guarantee of a number one ranking, because Google says no one can promise that.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:20:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       h2("A proposal is a list of promises, so read it like one"),
       p(
-        "Most proposals open with a confident summary and bury the real terms on page six. The summary is a sales pitch. The scope, the reporting and the exit terms are the contract. A practice owner without a marketing background can still read a proposal well by looking for specific, checkable things and ignoring the adjectives."
+        "Most proposals open with a confident summary and bury the real terms on page six. The summary is a sales pitch. The scope, the reporting and the exit terms are the contract. A practice owner without a marketing background can still read a proposal well by looking for specific, checkable things and ignoring the adjectives. If you are hiring a designer rather than an SEO firm, write a [one-page brief for the designer](/guides/one-page-brief-to-give-a-new-web-designer-at-a-counseling-practice-services-insurance-hours-tone-and-what-not-to-say) first, so you can compare proposals line by line against the same list of services, hours and limits."
       ),
       p(
         "This page is about reading what is already in front of you. If you are still choosing between companies, start with [how to pick a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency), then come back with the proposals in hand."
@@ -339,7 +339,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h2("Read the fine print on ownership and exit"),
       p(
-        "This is the part most owners skip and most regret. Look for who owns the website, the domain, the Google Business Profile, Analytics and any ad account. Everything should be in your name, with the vendor added as a user. Look for the minimum term, the notice period, auto-renewal language and any fee to leave. Look for what happens to the content they wrote for you when the contract ends. Our guide on [who should own your Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) goes into the reasons."
+        "This is the part most owners skip and most regret. Look for who owns the website, the domain, the Google Business Profile, Analytics and any ad account. Everything should be in your name, with the vendor added as a user. Look for the minimum term, the notice period, auto-renewal language and any fee to leave. Look for what happens to the content they wrote for you when the contract ends. Our guide on [who should own your Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) goes into the reasons. Add one clause here as well: a [written approval step before the vendor changes the phone number, hours or provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list) on any page or profile."
       ),
       p(
         "Also check how the proposal handles patient information. A vendor should not need to see patient messages or records to do marketing work, and a proposal that asks for access to your patient system or the contents of forms is a reason to ask your attorney or privacy officer before signing."
@@ -495,12 +495,12 @@ export const guidesPartForty1: Guide[] = [
       "A marketing change log is one shared page with a row for every change to the website, Google profile, ads, phone system or tracking: the date, what changed, who did it and why. When calls or visits move, you read back to the date and see what changed first.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:40:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Why a drop is hard to explain without dates"),
       p(
-        "When calls fall, the first question is always what changed. Without a record, the honest answer is a shrug. The web person says they did nothing, the office manager remembers editing something on the profile, the ad company adjusted a budget, and the phone company moved the line last Thursday. Each fact is small and none was written down."
+        "When calls fall, the first question is always what changed. Without a record, the honest answer is a shrug. The web person says they did nothing, the office manager remembers editing something on the profile, the ad company adjusted a budget, and the phone company moved the line last Thursday. Each fact is small and none was written down. Note the day and time of each publish here as well, and read how to [choose a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard) so the front desk hears first."
       ),
       p(
         "A change log fixes that for almost no cost. It is a single page that anyone who touches your online presence adds one line to, every time. It does not prevent problems. It makes them findable in minutes instead of days, which is the first thing the [first-hour checklist for a drop](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) asks for."
@@ -530,7 +530,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h2("How to keep it going"),
       p(
-        "A log only works if people use it, so make it small and put it where they already work. Share the page with your web person, your marketing contact, the front desk lead and whoever manages the Google profile. Ask each to add a line the moment they finish a change, and make it part of their routine. Your [weekly 15-minute marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) is a natural moment to glance at last week's rows."
+        "A log only works if people use it, so make it small and put it where they already work. Share the page with your web person, your marketing contact, the front desk lead and whoever manages the Google profile. Ask each to add a line the moment they finish a change, and make it part of their routine. Your [weekly 15-minute marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) is a natural moment to glance at last week's rows. Pair the log with a [written sign-off step for vendor changes to the phone number, hours and provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list), so the log records approved changes and not surprises."
       ),
       p(
         "Ask outside vendors to send you a one-line note for every change they make, and paste it in. The reason is practical. Google's advice on hiring an SEO says you are responsible for the actions of the companies you hire, so you should be able to see what they did."
@@ -774,12 +774,12 @@ export const guidesPartForty1: Guide[] = [
       "When a marketing vendor relationship ends, confirm in writing that you own and can log in to the domain, website, Google Business Profile, Analytics, Search Console and any ads account, then remove the vendor's access last, after everything has been tested and exported. Do it before the final payment.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T15:10:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       h2("Leaving well protects the practice"),
       p(
-        "Most marketing relationships end for ordinary reasons: the budget changed, the needs changed, or the fit was not there. The danger is not the goodbye. It is finding out afterward that the domain was registered to the vendor, the Google profile sits under the vendor's email, or the ad account cannot be moved. Then leaving becomes a negotiation with someone who has no reason to hurry."
+        "Most marketing relationships end for ordinary reasons: the budget changed, the needs changed, or the fit was not there. The danger is not the goodbye. It is finding out afterward that the domain was registered to the vendor, the Google profile sits under the vendor's email, or the ad account cannot be moved. Then leaving becomes a negotiation with someone who has no reason to hurry. While a vendor is still working for you, a [written sign-off step before any change to the phone number, hours or provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list) keeps the same mistakes from reaching patients."
       ),
       p(
         "This page is a checklist for the end of a relationship, whoever ends it. If you are at the start of one, our page on [who should own your Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to set it up so the end is easy, and our guide to [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) covers the same job for a person on your own team."

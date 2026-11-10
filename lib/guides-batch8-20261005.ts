@@ -962,7 +962,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "You cannot edit an AI chatbot's answer directly, so fix the sources it draws from. First, document the error. Second, correct your website, Google Business Profile, and directory listings so they agree. Third, use the chatbot's built-in feedback option. Then recheck in a few weeks, because answers change as sources update.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       {
@@ -996,7 +996,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Look for where the false fact lives. Search the wrong detail in quotes. Common culprits are old directory entries, a past website page, an outdated Google Business Profile service list, or a former provider's bio. Correct each one, starting with the sources you control. Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to audit and correct listings. Update your [Google Business Profile services list](/guides/google-business-profile-services-list-optimization) too, since it is a widely used source."
+        "text": "Look for where the false fact lives. Search the wrong detail in quotes. Common culprits are old directory entries, a past website page, an outdated Google Business Profile service list, or a former provider's bio. Correct each one, starting with the sources you control. Our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows how to audit and correct listings. Update your [Google Business Profile services list](/guides/google-business-profile-services-list-optimization) too, since it is a widely used source. A wrong phone number is a common example, and the [steps for a wrong practice phone number found online](/guides/what-a-primary-care-office-does-when-a-patient-finds-the-wrong-phone-number-for-the-practice-online) show how to trace where it lives."
       },
       {
         "type": "p",

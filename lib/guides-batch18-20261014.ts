@@ -1342,7 +1342,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a new provider with a bio page, a short website notice, a Google profile update and one patient message. State training and licensure exactly as verified, describe the visit experience rather than outcomes, and avoid comparisons with other clinicians. Add the provider to every listing on the same day.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T13:20:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-10",
     readMinutes: 7,
     sections: [
       h2("A new provider is a new reason for patients to come back"),
@@ -1386,7 +1386,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Check the rollout a week later"),
       p(
-        "Search for the provider's name and the practice. Confirm that the bio page appears, that the Google profile lists the right information and that the first appointments are being booked. Ask the front desk what patients are asking and add the answer to the page. If a directory still lacks the provider after two weeks, follow up with it directly."
+        "Search for the provider's name and the practice. Confirm that the bio page appears, that the Google profile lists the right information and that the first appointments are being booked. Ask the front desk what patients are asking and add the answer to the page. If a directory still lacks the provider after two weeks, follow up with it directly. Repeat this search and the other checks during the [week after a new provider joins](/guides/checking-the-website-and-google-profile-the-week-after-a-new-provider-joins-a-primary-care-practice), because directories and booking tools often lag behind the website."
       ),
       h2("Sample announcement wording"),
       p("We are pleased to welcome a new provider to the practice, who will begin seeing patients on the start date. The provider is accepting new patients and can be booked online or by calling the front desk. You can read about their training and background on their page, and you are welcome to ask any questions when you call."),
