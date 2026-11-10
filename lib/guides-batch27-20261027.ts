@@ -1267,7 +1267,7 @@ export const guidesPartThirty: Guide[] = [
       "A not accepting new patients page says the practice's panel is full right now, explains how the waitlist works and what the practice will do when a spot opens, lists other ways to find care, and keeps the status the same on Google and every directory. It makes no promises about timing.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("A full panel still needs a page"),
@@ -1333,6 +1333,10 @@ export const guidesPartThirty: Guide[] = [
       {
         q: "What if someone is in urgent need of care?",
         a: "The page should say that anyone with an urgent need should call 911 or visit urgent care, and should not wait for a waitlist call. Repeat the instruction in the phone greeting and at the top of the form.",
+      },
+      {
+        q: "How often should the not-accepting-new-patients status be updated?",
+        a: "Review it monthly and change the date on the page each time, even if nothing has changed. A closed panel is rarely permanent, and an old date makes callers doubt the page.",
       },
     ],
     citations: [MEDICARE_COMPARE, GBP_GUIDELINES, HHS_PRIVACY],

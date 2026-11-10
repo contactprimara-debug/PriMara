@@ -590,7 +590,7 @@ export const guidesPartThirtyOne: Guide[] = [
       "A returning client page tells former clients how to restart: contact the office, confirm whether the clinician is still taking clients, update intake and consent forms, and book a first visit. It makes no promise about the same pace or outcome and sends anyone in crisis to 988.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("The client who comes back often feels awkward"),
@@ -663,6 +663,10 @@ export const guidesPartThirtyOne: Guide[] = [
         q: "Where should the page be linked from?",
         a: "From the new client page, the contact page and the booking tool, plus the reminder emails to inactive clients if you send them. One page linked from three places works better than several copies.",
       },
+      {
+        q: "How should a returning client page treat someone who left on difficult terms?",
+        a: "Keep the page welcoming and general. Say the practice is glad to hear from former clients and ask them to call or use the contact form, then let the office decide in a private conversation whether and how to resume. Do not name reasons for leaving or promise a particular clinician.",
+      },
     ],
     citations: [ACA_ETHICS, APA_ETHICS, LIFELINE, SAMHSA_HELP],
     links: [
@@ -685,12 +689,12 @@ export const guidesPartThirtyOne: Guide[] = [
       "A new year availability announcement tells prospective clients that the practice has openings, how to book, which days and formats are available, and what the waitlist looks like if it is full. It makes no promises about results and sends anyone in crisis to 988.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("January is when people start looking"),
       p(
-        "Many people decide in the first weeks of a year to find support, and others return after the holidays. Therapists notice the phones filling up and then discover their schedule is not what the website says. An announcement posted in December, with real openings, gets ahead of that rush and sends people to the right place."
+        "Many people decide in the first weeks of a year to find support, and others return after the holidays. Therapists notice the phones filling up and then discover their schedule is not what the website says. An announcement posted in December, with real openings, gets ahead of that rush and sends people to the right place. A [page for clients returning after a long break](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) answers the paperwork and booking questions for that second group."
       ),
       p(
         "It also needs to be honest. A page that says openings available while every clinician is full costs trust, and a page that says nothing loses searches for therapist with openings near me."

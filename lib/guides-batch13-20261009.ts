@@ -391,11 +391,11 @@ export const guidesPartSixteen: Guide[] = [
     "category": "How-to",
     "title": "New Patient Forms Online: How to Publish Them Without Exposing Patient Data",
     "metaTitle": "New Patient Forms Online Without Exposing Patient Data",
-    "metaDescription": "How a medical practice can put new patient forms on its website safely: blank PDFs versus secure forms, and keeping trackers off form pages. (561) 291-2681.",
+    "metaDescription": "How a practice can put new patient forms on its website safely: blank PDFs versus secure forms, and keeping trackers off form pages. Call (561) 291-2681",
     "answer": "Publishing a blank new patient form is simple and safe. Collecting a completed form is different, because the answers are patient information. Offer blank forms as accessible downloads, send completed ones through a secure portal or form built for health data, and keep marketing trackers off any page where people enter it.",
     "author": "Liam Costello",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-10",
     "readMinutes": 7,
     "sections": [
       {
@@ -485,7 +485,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together. The same secure-portal approach applies to paperwork requests from families, as explained in our guide to a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) for a primary care office. Send the link to the forms in a short [welcome text or email to a new patient](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) a few days before the visit, with the address and parking details."
+        "text": "This page also helps visibility. People search for what to bring to a first visit, and a clear page answers that. Pair it with the advice in [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) so the next step is obvious. A short [checklist of what to bring to a first primary care appointment](/guides/what-to-bring-to-a-first-appointment-page-for-new-primary-care-patients) can sit right beside the forms page so patients see both together. The same secure-portal approach applies to paperwork requests from families, as explained in our guide to a [school, work and camp note requests page](/guides/school-work-and-camp-note-requests-page-for-a-primary-care-practice) for a primary care office. Send the link to the forms in a short [welcome text or email to a new patient](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) a few days before the visit, with the address and parking details. For patients who prefer an envelope, a [mailed new patient packet page](/guides/new-patient-packet-and-what-to-expect-in-the-mail-page-for-a-primary-care-practice) explains what arrives and when."
       },
       {
         "type": "callout",

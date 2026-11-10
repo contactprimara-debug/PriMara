@@ -367,7 +367,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A first-time client form for a counseling practice should feel safe to fill in. Ask for a first name, a phone or email the person has marked as private, and a preferred contact time. Skip the story of why they are reaching out. Add a short privacy notice, a crisis line and an honest reply time.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("A different kind of form"),
@@ -388,7 +388,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "Whether they are looking for themselves, a child, a couple or a family, as a simple choice."
       ),
       p(
-        "That is enough for a clinician or office manager to reply, offer a short call and find out whether the practice is a fit. It is deliberately silent about problems, symptoms and history. Those belong in a conversation or in secure intake paperwork after the person has chosen to become a client."
+        "That is enough for a clinician or office manager to reply, offer a short call and find out whether the practice is a fit. It is deliberately silent about problems, symptoms and history. Those belong in a conversation or in secure intake paperwork after the person has chosen to become a client. An emergency contact is one of those details, and it belongs in the secure intake with a [plain explanation of when it would be used](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail)."
       ),
       h2("The notice that sits beside the button"),
       h3("Say what the form is and is not"),
@@ -440,6 +440,10 @@ export const guidesPartTwentySeven: Guide[] = [
       {
         q: "How do we keep the form from feeling cold?",
         a: "Use warm, plain wording, a real clinician name or photo near the form, and a sentence such as reaching out is a good first step. Keep the number of fields small so it feels easy to finish.",
+      },
+      {
+        q: "Should the form say who reads the messages?",
+        a: "Yes. One plain sentence beside the send button can say who reads the form, that it is not monitored around the clock and where to call in a crisis. It helps people decide to send it, as long as it matches what the office actually does.",
       },
     ],
     citations: [HHS_PRIVACY, LIFELINE, W3C_FORMS],

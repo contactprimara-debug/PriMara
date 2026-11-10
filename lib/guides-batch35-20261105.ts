@@ -530,7 +530,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "When an insurance panel is closed to new clients, say so plainly on the insurance page and the Google profile: name the plan, give the date checked, say that existing clients are unaffected if that is true, and offer a next step such as self-pay options or a referral. Do not leave a closed plan listed as accepted.",
     author: "Liam Costello",
     publishDate: "2026-11-05T10:40:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("What callers need to hear"),
@@ -559,7 +559,7 @@ export const guidesPartThirtyEight: Guide[] = [
       ),
       h3("Keep a date on every statement"),
       p(
-        "Panels change quarterly or faster. Put a checked-on date beside the list and review it on a schedule. Our guide to [updating listings when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists every place that may need a change, and it fits the same review."
+        "Panels change quarterly or faster. Put a checked-on date beside the list and review it on a schedule. Our guide to [updating listings when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists every place that may need a change, and it fits the same review. A primary care office whose panel is full can use the [not accepting new patients and waitlist page](/guides/not-accepting-new-patients-and-waitlist-page-for-a-primary-care-practice) for the same purpose."
       ),
       h2("Give the caller somewhere to go"),
       p(

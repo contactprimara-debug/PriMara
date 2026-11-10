@@ -1107,12 +1107,12 @@ export const guidesPartTwentyNine: Guide[] = [
     title: "Welcome to Medicare Visit Page for a Primary Care Practice",
     metaTitle: "Welcome to Medicare Visit Page for Primary Care",
     metaDescription:
-      "Explain the Welcome to Medicare visit on a primary care website: who it is for, how to book and what it is not. Call (561) 291-2681.",
+      "Explain the Welcome to Medicare visit on a primary care website: who it is for, how to book and what it is not, plus who to call. Call (561) 291-2681.",
     answer:
       "A Welcome to Medicare visit page tells new Medicare enrollees that the practice offers a one time preventive visit, who may qualify, how to book it and what to bring. It points to Medicare.gov for eligibility and cost, and it never promises coverage or lists medical findings.",
     author: "Liam Costello",
     publishDate: "2026-10-26T16:20:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("A search that peaks in Florida"),
@@ -1150,7 +1150,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h2("Make it easy for people who are new to all of this"),
       p(
-        "A person who is new to Medicare may not know their enrollment date, and they may be confused about plans. Offer a phone number staff will answer, and let patients know that the front desk can help them find the date on their card or in their account. Our [senior friendly layout guide](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access) has more on large text and simple pages."
+        "A person who is new to Medicare may not know their enrollment date, and they may be confused about plans. Offer a phone number staff will answer, and let patients know that the front desk can help them find the date on their card or in their account. Our [senior friendly layout guide](/guides/senior-friendly-website-layout-for-a-primary-care-practice-with-large-text-and-caregiver-access) has more on large text and simple pages. Patients who prefer paper can be sent a [mailed new patient packet](/guides/new-patient-packet-and-what-to-expect-in-the-mail-page-for-a-primary-care-practice) with the same forms and a clear return address."
       ),
       h3("Check it each autumn"),
       p(
@@ -1177,6 +1177,10 @@ export const guidesPartTwentyNine: Guide[] = [
       {
         q: "Where should the page link from?",
         a: "Link it from your new patient page, your insurance page and the annual wellness page, and mention it in your Google Business Profile services if it matches a real service you offer. Add a link from your homepage services list too, because many patients start there and some never open a menu.",
+      },
+      {
+        q: "How often should a Welcome to Medicare page be reviewed?",
+        a: "At least once a year, in the autumn when open enrollment begins, because Medicare rules and plan details change. Confirm that the plans listed still apply and that the booking steps still work.",
       },
     ],
     citations: [MEDICARE_WELCOME, MEDICARE_WELLNESS, HHS_PRIVACY],

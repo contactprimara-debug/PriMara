@@ -610,7 +610,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Add two optional fields near the top of the intake form: the name the person goes by, and their pronouns if they wish to share them. Explain in one line who sees the answers, keep the legal name field for billing, and use the preferred name in every message the practice sends.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Small fields that change the first impression"),
@@ -647,7 +647,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Keep the form honest and light"),
       p(
-        "Do not make either field required, and do not ask why. Our guide to [publishing new patient forms without exposing data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains how to host the form on a secure page, and the note on [intake paperwork emails](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to send the link. The [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can mention that the form includes a spot for the name you go by."
+        "Do not make either field required, and do not ask why. Our guide to [publishing new patient forms without exposing data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains how to host the form on a secure page, and the note on [intake paperwork emails](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to send the link. The [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can mention that the form includes a spot for the name you go by. The same goes for the [emergency contact request](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail), which belongs in the secure intake and should explain when the contact would be used."
       ),
       p(
         "After you add the fields, test the whole path: fill the form with a sample preferred name and confirm that the reminder, the portal and the sign-in screen use it."
@@ -680,6 +680,10 @@ export const guidesPartThirtyFour: Guide[] = [
       {
         q: "Does this affect how the practice shows up in search?",
         a: "Not directly. It improves the client's first experience, which shows up in reviews and referrals. Keep the language on your site consistent with the form.",
+      },
+      {
+        q: "Where should the preferred name appear after the intake form?",
+        a: "Wherever the client will see or hear their name: appointment reminders, portal greetings, the waiting room and the front desk. Test the path with a sample preferred name, because one system that still shows the legal name undoes the benefit.",
       },
     ],
     citations: [HHS_PRIVACY, ACA_ETHICS, GOOGLE_HELPFUL],

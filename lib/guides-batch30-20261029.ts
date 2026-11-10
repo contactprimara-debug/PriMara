@@ -1314,7 +1314,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "A person who fills out a counseling inquiry form has just done something hard. They typed a few lines, pressed send, and now they wait. Silence in that moment feels like rejection. A short automatic reply that says the message arrived, who reads it and what happens next turns the wait into a known quantity, and many people will not search for another counselor while they wait. The auto-reply is the first message a client receives; the second should come within a day of the first session, and our [guide to wording the first-week check-in](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) shows what it can say."
       ),
       p(
-        "The reply is also the first piece of writing from the practice that the person owns. It sets the tone for the voice of the office, so it should sound like a human at the front desk and not like a ticket system."
+        "The reply is also the first piece of writing from the practice that the person owns. It sets the tone for the voice of the office, so it should sound like a human at the front desk and not like a ticket system. Use the name the client chose, which the [preferred name field on the intake form](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice) makes possible."
       ),
       h2("What belongs in the message"),
       table(
@@ -1369,6 +1369,10 @@ export const guidesPartThirtyThree: Guide[] = [
       {
         q: "How do I check that the auto reply works?",
         a: "Submit a clearly marked test inquiry, check that the message arrives in an inbox and not spam, and view it on a phone. Repeat the test every quarter and after any change to the form, email service or domain settings.",
+      },
+      {
+        q: "What should the auto reply say when the inquiry arrives outside office hours?",
+        a: "Say so, state when the next reply will come, such as the next business morning, and repeat the crisis line. Only promise a time the office can keep, and use a response-time log to check it.",
       },
     ],
     citations: [FTC_ADVERTISING, HHS_PRIVACY, LIFELINE, PLAIN_LANGUAGE],

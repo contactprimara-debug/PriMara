@@ -408,7 +408,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "If your primary care practice mails a new patient packet, say so on one page: what is inside, when it should arrive, what to fill in, and how to return it. Offer a download or pick-up option, ask for only what you need, and explain in plain words how the practice protects what patients send back.",
     author: "Liam Costello",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Who still wants paper"),
@@ -416,7 +416,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Plenty of new patients prefer an envelope to an online form. Some are older and not comfortable typing health details into a website, some do not have reliable internet, and some simply want to read everything at the kitchen table first. A page that describes the packet respects that choice and gives them a reason to call."
       ),
       p(
-        "The same page helps patients who do plan to use the online forms. They can see what will be asked of them before they start, which makes it easier to gather an insurance card or a medication list in advance."
+        "The same page helps patients who do plan to use the online forms. They can see what will be asked of them before they start, which makes it easier to gather an insurance card or a medication list in advance. For patients who choose online forms, a [welcome text or email a few days before the first visit](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) can carry the link."
       ),
       h2("What the page should list"),
       table(
@@ -472,6 +472,10 @@ export const guidesPartThirtyFive: Guide[] = [
       {
         q: "Is the privacy notice required in the packet?",
         a: "Covered practices must provide the notice to new patients and make a good-faith effort to obtain a written acknowledgment. Including it in the packet is a convenient way to do both. Confirm the exact requirements with your compliance advisor before you rely on this page.",
+      },
+      {
+        q: "Should the packet include the privacy notice?",
+        a: "Practices covered by HIPAA must give new patients their notice of privacy practices and ask for acknowledgment of receipt, and a mailed packet is a natural place to do it. Ask your compliance adviser how the practice records the acknowledgment.",
       },
     ],
     citations: [HHS_NOTICE, HHS_PRIVACY, GOOGLE_HELPFUL],

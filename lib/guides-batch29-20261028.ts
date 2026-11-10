@@ -179,12 +179,12 @@ export const guidesPartThirtyTwo: Guide[] = [
       "A paper forms and phone registration page tells patients who cannot use the internet that they can register by calling the office, picking up forms at the front desk or receiving them by mail. It names the phone number, the hours and what to bring, and it never asks for personal details on the page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("Not every patient starts online"),
       p(
-        "Most new patient pages assume a phone, an email address and a steady connection. Plenty of real patients have none of those: an older adult who does not own a smartphone, a family sharing one data plan, a person whose connection drops in the middle of a form. If the only way in is a web form, those patients do not complain. They call another practice, or they never call."
+        "Most new patient pages assume a phone, an email address and a steady connection. Plenty of real patients have none of those: an older adult who does not own a smartphone, a family sharing one data plan, a person whose connection drops in the middle of a form. If the only way in is a web form, those patients do not complain. They call another practice, or they never call. Many of those patients are new to Medicare, and a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) can explain that first visit in the same plain way."
       ),
       p(
         "A short page that offers a paper or phone route costs the practice almost nothing. It sends the right patients to the front desk, keeps the online forms for people who want them, and shows search engines and answer tools that the practice has a plain, human way to register."
@@ -452,7 +452,7 @@ export const guidesPartThirtyTwo: Guide[] = [
       "An emergency contact request on intake asks the client for one person's name, relationship and phone number, and explains in a sentence when the practice would use it. The form collects no clinical detail, the client may decline or name someone else, and the contact is not told that the person is a client.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T15:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("A small field that raises a large question"),
@@ -520,6 +520,10 @@ export const guidesPartThirtyTwo: Guide[] = [
       {
         q: "Where should the request appear?",
         a: "In the secure intake packet and the first-session page, not on the public contact form. Keep the public form short and collect this detail only after the client has chosen to begin.",
+      },
+      {
+        q: "Can the client leave the emergency contact blank?",
+        a: "Many practices allow it, with a note in the record and a conversation about why the contact helps. The form should say plainly when the contact would be used, and the practice's written policy, not the form, decides what happens if the field is empty.",
       },
     ],
     citations: [HHS_PRIVACY, ACA_ETHICS, APA_ETHICS, LIFELINE],

@@ -16,7 +16,7 @@ export const guidesPartNineteen: Guide[] = [
     "answer": "A first-appointment page tells a new primary care patient what to bring, how early to arrive, which forms to finish beforehand and who to call with questions. Keep it a short checklist in plain language, state your own rules, and never invite patients to send health details through a web form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T14:00:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-10",
     "readMinutes": 6,
     "sections": [
       {
@@ -140,7 +140,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the booking confirmation, the appointment reminder, your contact page and the new-patients section of your navigation. If your Google Business Profile has an appointment link, make sure patients who book there can still find this checklist afterward. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the phone number, address and hours next to it. After patients know what to bring, tell them what happens when they arrive, using a [waiting room and check-in expectations page for a primary care practice](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for the front desk. A short answer about what to bring belongs on the [FAQ page for a primary care practice](/guides/faq-page-for-a-primary-care-practice-questions-to-answer-without-medical-advice), with a link here for anyone who wants the full list. Front desk staff should read this list aloud at the end of a booking call, as part of a short [new patient intake phone script](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) that covers insurance and parking too."
+        "text": "Link the page from the booking confirmation, the appointment reminder, your contact page and the new-patients section of your navigation. If your Google Business Profile has an appointment link, make sure patients who book there can still find this checklist afterward. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) shows how to keep the phone number, address and hours next to it. After patients know what to bring, tell them what happens when they arrive, using a [waiting room and check-in expectations page for a primary care practice](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for the front desk. A short answer about what to bring belongs on the [FAQ page for a primary care practice](/guides/faq-page-for-a-primary-care-practice-questions-to-answer-without-medical-advice), with a link here for anyone who wants the full list. Front desk staff should read this list aloud at the end of a booking call, as part of a short [new patient intake phone script](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) that covers insurance and parking too. A [welcome text or email a few days before the visit](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) is the natural place to repeat that link."
       },
       {
         "type": "p",

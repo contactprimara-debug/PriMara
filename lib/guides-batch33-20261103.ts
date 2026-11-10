@@ -960,7 +960,7 @@ export const guidesPartThirtySix: Guide[] = [
       "A first-step page for people who are unsure about therapy should say that a first conversation is not a commitment, explain what happens in it, avoid diagnosing or listing symptoms, give a low-pressure way to ask a question, and show 988 for anyone in crisis. It invites; it does not persuade.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("The visitor who is not ready to book"),
@@ -996,7 +996,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Give a low-pressure way to ask"),
       p(
-        "Offer a contact form with three fields and a short promise about when someone will reply. Offer the phone number beside it for those who would rather speak. Both routes should say that visitors do not need to share anything personal in the message. The form fields that work are laid out in [a first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time)."
+        "Offer a contact form with three fields and a short promise about when someone will reply. Offer the phone number beside it for those who would rather speak. Both routes should say that visitors do not need to share anything personal in the message. The form fields that work are laid out in [a first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). After someone decides to book, the [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) keeps the next step simple and private."
       ),
       h3("Safety first, in plain view"),
       p(
@@ -1004,7 +1004,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Where to link it from"),
       p(
-        "Link the page from the homepage, from the services overview and from the contact page. Place one link near the form, as a gentle alternative for visitors who are not sure. The National Institute of Mental Health keeps a general help-finding page that you can cite for readers who want public information as well."
+        "Link the page from the homepage, from the services overview and from the contact page. Place one link near the form, as a gentle alternative for visitors who are not sure. The National Institute of Mental Health keeps a general help-finding page that you can cite for readers who want public information as well. Former clients who are thinking of coming back need a different page, which the [returning client page guide](/guides/returning-client-after-a-long-break-page-for-a-counseling-practice-without-clinical-claims) covers."
       ),
     ],
     faqs: [
@@ -1050,7 +1050,7 @@ export const guidesPartThirtySix: Guide[] = [
       "A changing-therapists page tells clients that asking for a different clinician is normal, shows how to ask, says whether a reason is required, and explains what happens to scheduling and records. It should make the request easy, never imply fault, and never ask a client to justify the change.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-10",
     readMinutes: 5,
     sections: [
       h2("A request that clients often swallow"),
@@ -1081,7 +1081,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Match the clinician, not just the slot"),
       p(
-        "A client who asks to switch is giving you useful information about fit. The front desk should ask what would help, such as a different gender, an evening schedule, a particular focus or a different style, and offer one or two matches, not a list of every clinician. The structure behind that conversation is in [clinician matching for a group counseling practice](/guides/clinician-matching-page-for-a-group-counseling-practice-how-clients-choose-a-therapist)."
+        "A client who asks to switch is giving you useful information about fit. The front desk should ask what would help, such as a different gender, an evening schedule, a particular focus or a different style, and offer one or two matches, not a list of every clinician. The structure behind that conversation is in [clinician matching for a group counseling practice](/guides/clinician-matching-page-for-a-group-counseling-practice-how-clients-choose-a-therapist). Forms that ask for a [preferred name and pronouns](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice) also help the new clinician start with the right name."
       ),
       h3("If the practice has no other fit"),
       p(

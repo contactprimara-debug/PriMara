@@ -344,17 +344,17 @@ export const guidesPartTwentyThree: Guide[] = [
     title: "Medicare and Medicaid Acceptance Wording on a Medical Practice Website",
     metaTitle: "Medicare and Medicaid Wording on a Practice Website",
     metaDescription:
-      "How a medical practice should word Medicare and Medicaid acceptance on its website so patients are not misled. Call (561) 291-2681.",
+      "How a medical practice should word Medicare and Medicaid acceptance on its website so patients are not misled before they book. Call (561) 291-2681.",
     answer:
       "State exactly which Medicare and Medicaid programs the practice participates in, name the managed-care plans separately, and add a last-checked date. Do not write that you accept all Medicare, because Medicare Advantage and Medicaid managed-care plans each have their own networks that the practice must confirm one by one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-16T10:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-10",
     readMinutes: 6,
     sections: [
       h2("Why the word accept is too vague"),
       p(
-        "Patients on Medicare or Medicaid ask a narrow question: will this office see me, and will I be billed? The phrase we accept Medicare answers neither. Original Medicare, Medicare Advantage plans, and Medicaid managed-care plans are different products, and a practice can participate in one and not another."
+        "Patients on Medicare or Medicaid ask a narrow question: will this office see me, and will I be billed? The phrase we accept Medicare answers neither. Original Medicare, Medicare Advantage plans, and Medicaid managed-care plans are different products, and a practice can participate in one and not another. Patients new to Medicare may first need a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains that first visit in plain words."
       ),
       p(
         "A page that overpromises sends someone to an appointment that the front desk then has to cancel. That produces a missed visit, an angry call and often a public review about billing, none of which the website was meant to cause."
