@@ -4,7 +4,6 @@ import GAPageViews from "@/components/GAPageViews";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PageCloser from "@/components/PageCloser";
 import { footerCities } from "@/lib/location-links";
 import AnimationProvider from "@/components/AnimationProvider";
 import InteractionEffects from "@/components/InteractionEffects";
@@ -228,7 +227,6 @@ export default function RootLayout({
         {/* ── Page content ─────────────────────────────────────────────── */}
         <Header />
         <RouteFade>{children}</RouteFade>
-        <PageCloser />
         <Footer cities={footerCities} />
 
         {/* ── Sticky mobile tap-to-call bar (md:hidden) ─────────────────── */}
@@ -307,15 +305,6 @@ export default function RootLayout({
           id="phone-call-tracking"
           dangerouslySetInnerHTML={{
             __html: `document.addEventListener('click',function(e){var t=e.target;if(!t||typeof t.closest!=='function')return;var l=t.closest('a[href^="tel:"]');if(!l)return;var n=(l.getAttribute('href')||'').replace(/^tel:/i,'').trim();try{window.gtag&&window.gtag('event','phone_call',{phone_number:n,page_path:window.location.pathname,link_url:l.getAttribute('href')||''});}catch(err){}},true);`,
-          }}
-        />
-
-        {/* cta_click with a page label for every [data-cta] (website standard item 7).
-            Literal inline script in server HTML like phone-call-tracking; gtag queues until loaded; consent mode still governs storage. */}
-        <script
-          id="cta-click-tracking"
-          dangerouslySetInnerHTML={{
-            __html: `document.addEventListener('click',function(e){var t=e.target;if(!t||typeof t.closest!=='function')return;var l=t.closest('[data-cta]');if(!l)return;try{window.gtag&&window.gtag('event','cta_click',{cta_label:l.getAttribute('data-cta'),page_path:window.location.pathname});}catch(err){}},true);`,
           }}
         />
 

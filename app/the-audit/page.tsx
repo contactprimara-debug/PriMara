@@ -143,7 +143,7 @@ export default function TheAuditPage() {
           <Link prefetch={false}
             href="/contact#contact-form"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--navy)", color: "var(--navy)", height: "52px", fontSize: "1rem" }}
+            style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "52px", fontSize: "1rem" }}
           >
             Request My Free Audit Online
           </Link>

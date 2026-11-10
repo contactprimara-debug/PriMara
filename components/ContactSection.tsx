@@ -274,7 +274,7 @@ export default function ContactSection() {
                   {state.status === "error" && (
                     <p
                       className="text-sm"
-                      style={{ color: "var(--gold)" }}
+                      style={{ color: "var(--color-accent)" }}
                       role="alert"
                     >
                       {state.error}

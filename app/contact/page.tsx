@@ -61,7 +61,7 @@ export default function ContactPage() {
         </h1>
         <p className="mt-3 text-lg" style={{ color: "var(--color-text-muted)" }}>
           Liam Costello and Gio LaRoche respond within one business day.{" "}
-          <a href="tel:+15612912681" className="underline hover:opacity-70" style={{ color: "var(--gold)" }}>
+          <a href="tel:+15612912681" className="underline hover:opacity-70" style={{ color: "var(--color-accent)" }}>
             (561) 291-2681
           </a>
         </p>
