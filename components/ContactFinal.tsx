@@ -253,7 +253,7 @@ export default function ContactFinal() {
                     className="magnetic contact-submit"
                     style={{
                       background: 'var(--ember)',
-                      color: 'var(--on-accent)',
+                      color: 'var(--on-accent)fff',
                       fontFamily: 'system-ui, sans-serif',
                       fontWeight: 700,
                       fontSize: '12px',

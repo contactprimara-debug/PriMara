@@ -172,7 +172,7 @@ export default function PricingPage() {
                 fontSize: "13px",
                 letterSpacing: "0.08em",
                 fontWeight: 700,
-                color: "var(--on-accent)",
+                color: "var(--on-accent)fff",
                 backgroundColor: "var(--ember)",
                 padding: "0 32px",
                 height: "52px",

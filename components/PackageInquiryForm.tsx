@@ -20,7 +20,7 @@ function SubmitButton({ pending }: { pending: boolean }) {
         fontSize: "14px",
         letterSpacing: "0.06em",
         fontWeight: 600,
-        color: "var(--on-accent)",
+        color: "var(--on-accent)fff",
         backgroundColor: "var(--ember)",
         padding: "0 28px",
         height: "52px",
