@@ -60,7 +60,7 @@ export default function TheAuditPage() {
         kicker="Free. No obligation. HIPAA-aware."
         h1="See Exactly Where Your Practice Stands — For Free"
         sub="Your Google Maps position, your review gap against a named local competitor, and your fastest win. Built from real tools, not assumptions, delivered in 3–5 days and walked through personally by Liam or Gio. No templates. If it doesn’t make sense for your practice, we’ll tell you."
-        primary={{ label: "Get my free audit", href: "/contact#contact-form" }}
+        primary={{ label: "Request my free audit", href: "/contact#contact-form" }}
       />
 
       <section className="mx-auto max-w-content px-6 lg:px-8 pt-4 pb-16" aria-label="What the audit covers">

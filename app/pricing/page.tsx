@@ -75,7 +75,6 @@ export default function PricingPage() {
       <PgHero
         id="pricing-h1"
         page="pricing"
-        wide
         kicker="Transparent pricing"
         h1={<>What Primara Costs — <em>and Why an Audit Comes First</em></>}
         sub="Pricing a healthcare marketing engagement without knowing your market, your starting review count, and your competition is like quoting a construction project before seeing the building. The audit tells us what scope your situation requires. Pricing follows from that conversation."

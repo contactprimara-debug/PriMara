@@ -1254,8 +1254,6 @@ body:has(main[data-page="thank-you"]) .pg-closer { display: none; }
 .pgh-compact { padding-bottom: clamp(20px, 3vw, 36px); }
 .pgh .hm-wrap { max-width: 1080px; padding: 0 24px; }
 @media (min-width: 1024px) { .pgh .hm-wrap { padding: 0 32px; } }
-.pgh-wide .hm-wrap { max-width: none; padding: 0 56px; }
-@media (max-width: 767px) { .pgh-wide .hm-wrap { padding: 0 20px; } }
 .pgh-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
 .pgh-grid.pgh-one { grid-template-columns: minmax(0, 1fr); }
 .pgh-h { font-size: clamp(38px, 5.6vw, 84px); max-width: 15ch; }
@@ -1300,8 +1298,6 @@ main > section[style*="padding"] {
   padding-left: clamp(20px, 5vw, 56px) !important;
   padding-right: clamp(20px, 5vw, 56px) !important;
 }
-/* Sections whose inner wrapper already has its own side padding (max-w-content px-6) must not get a second layer (was 44px on a phone vs 24px for the hero). */
-main > section[style*="padding"]:has(> .max-w-content) { padding-left: 0 !important; padding-right: 0 !important; }
 main [style*="radial-gradient"][aria-hidden="true"] { display: none !important; }
 main [style*="border-radius"]:not([style*="border-radius: 50%"]):not([style*="border-radius: 999"]) { border-radius: 4px !important; }
 main .rounded-lg, main .rounded-xl, main .rounded-2xl, main .rounded-md { border-radius: 4px !important; }
