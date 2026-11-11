@@ -527,7 +527,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "An appointment reminder should name the practice, the date and time, the location or video link and how to confirm or reschedule, and should leave out the reason for the visit, the clinician's specialty detail and anything about a diagnosis. Send reminders to the contact method the patient chose, with a clear way to opt out.",
     author: "Liam Costello",
     publishDate: "2026-10-19T10:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("What a reminder is for"),
@@ -580,7 +580,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Test the message before it goes out"),
       p(
-        "Send each template to two staff phones and one email account first, and read it on a locked screen the way a stranger might. Check what shows in the preview, what the sender name is and whether the opt-out works. Many practices find that a harmless-looking message reveals more in the lock-screen preview than anyone intended, and a two-minute test catches it. Counseling practices need even more discretion, and our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) shows the changes to make. A first visit deserves more than a reminder, so pair it with the [new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) that covers address, parking and what to bring."
+        "Send each template to two staff phones and one email account first, and read it on a locked screen the way a stranger might. Check what shows in the preview, what the sender name is and whether the opt-out works. Many practices find that a harmless-looking message reveals more in the lock-screen preview than anyone intended, and a two-minute test catches it. Counseling practices need even more discretion, and our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) shows the changes to make. A first visit deserves more than a reminder, so pair it with the [new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) that covers address, parking and what to bring. Reminder emails reach more inboxes when the practice domain is set up properly, as covered in [SPF, DKIM and DMARC explained for a practice owner](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox)."
       ),
     ],
     faqs: [
@@ -1209,7 +1209,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
     publishDate: "2026-10-19T12:40:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("What patients and Google see in an email address"),
@@ -1261,7 +1261,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Plan the switch from Gmail"),
       p(
-        "If staff already use personal addresses, move them over in a planned week: create the new accounts, set up forwarding from the old addresses for a limited time, update the website, the Google profile, directories and email signatures, and tell patients and vendors. Then close the old forwarding so nothing keeps flowing to personal inboxes, and keep a note of what was changed and when. Your email stops working the day the domain expires, which is why the protections in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) matter as much as the mailbox setup itself."
+        "If staff already use personal addresses, move them over in a planned week: create the new accounts, set up forwarding from the old addresses for a limited time, update the website, the Google profile, directories and email signatures, and tell patients and vendors. Then close the old forwarding so nothing keeps flowing to personal inboxes, and keep a note of what was changed and when. Your email stops working the day the domain expires, which is why the protections in [domain name renewal and expiration protection for a medical practice website](/guides/domain-name-renewal-and-expiration-protection-for-a-medical-practice-website) matter as much as the mailbox setup itself. Once the domain email exists, [SPF, DKIM and DMARC explained for a practice owner](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox) shows how to help its messages reach the inbox."
       ),
 
       { type: "h3", text: "A five-minute check after setup" },
@@ -1413,7 +1413,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice website needs automatic backups stored away from the site itself, monitoring that alerts someone within minutes if the site goes down, a regular schedule for updates, and a written recovery plan with a named owner. Test the backup by restoring it, because an untested backup is only a hope.",
     author: "Liam Costello",
     publishDate: "2026-10-19T13:20:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("When the site is down, patients assume the office is"),
@@ -1459,11 +1459,11 @@ export const guidesPartTwentyFour: Guide[] = [
         "Review the plan each year and after any staff change."
       ),
       p(
-        "Remember the other surfaces too. If the site is down, the Google Business Profile still shows the website link, so make sure the phone number and hours are right there. Our guide on [who owns a practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) helps prevent the most common recovery failure, which is nobody knowing who holds the logins."
+        "Remember the other surfaces too. If the site is down, the Google Business Profile still shows the website link, so make sure the phone number and hours are right there. Our guide on [who owns a practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) helps prevent the most common recovery failure, which is nobody knowing who holds the logins. A maintenance plan should also say whether the site has a test copy, which is explained in [staging copies of a practice website and why changes go there first](/guides/staging-copy-of-a-medical-practice-website-and-testing-changes-before-they-go-live)."
       ),
       h3("Rehearse once a year"),
       p(
-        "Once a year, run a recovery drill: pretend the site is gone, restore it to a test address from the latest backup and time how long it takes. Note what was missing, such as a form setting or a login nobody could find, and fix it. A practice that has rehearsed recovery once will handle a real outage in an hour instead of a week. Monitoring only helps if staff know what to do when the alert arrives, so keep the first-hour plan in [what a medical practice does when its website goes down during office hours](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) at the front desk."
+        "Once a year, run a recovery drill: pretend the site is gone, restore it to a test address from the latest backup and time how long it takes. Note what was missing, such as a form setting or a login nobody could find, and fix it. A practice that has rehearsed recovery once will handle a real outage in an hour instead of a week. Monitoring only helps if staff know what to do when the alert arrives, so keep the first-hour plan in [what a medical practice does when its website goes down during office hours](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) at the front desk. Before anyone outside the practice makes even a small edit, use these [questions to ask a freelancer before a small website fix](/guides/questions-to-ask-a-freelance-web-developer-before-a-small-fix-on-a-medical-practice-website) to confirm a backup is taken first."
       ),
     ],
     faqs: [

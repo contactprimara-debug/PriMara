@@ -344,7 +344,7 @@ export const guidesPartTen: Guide[] = [
       "Setting up GA4 for a medical practice means creating a property, adding the web data stream's tag to every page, then configuring two or three key events — form submission and phone click — as conversions. The part generic GA4 tutorials skip: never let any field capture a patient's name, condition, or appointment reason.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 8,
     sections: [
       { type: "h2", text: "Create the property and data stream" },
@@ -368,7 +368,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "What has to stay out of GA4 entirely" },
       {
         type: "p",
-        text: "This is the step a generic GA4 tutorial never mentions and a healthcare practice cannot skip: no field in any tracked event may contain a patient's name, email, phone number, condition, or appointment reason as plain text sent to Google's servers. HHS has stated that using tracking technologies in a way that discloses protected health information to a third party like Google without a valid authorization can violate HIPAA, even when the practice didn't intend to send PHI and even when the identifying detail arrived through something as simple as a URL parameter or a form field name. Track that a form was submitted — never what was typed into it. Once data is flowing, use [this monthly routine for reading GA4 reports](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) so the numbers lead to decisions. A lead event only means something if fake submissions are filtered out first, so see [how to stop spam and fake leads on a medical practice contact form](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form).",
+        text: "This is the step a generic GA4 tutorial never mentions and a healthcare practice cannot skip: no field in any tracked event may contain a patient's name, email, phone number, condition, or appointment reason as plain text sent to Google's servers. HHS has stated that using tracking technologies in a way that discloses protected health information to a third party like Google without a valid authorization can violate HIPAA, even when the practice didn't intend to send PHI and even when the identifying detail arrived through something as simple as a URL parameter or a form field name. Track that a form was submitted — never what was typed into it. Once data is flowing, use [this monthly routine for reading GA4 reports](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice) so the numbers lead to decisions. A lead event only means something if fake submissions are filtered out first, so see [how to stop spam and fake leads on a medical practice contact form](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form). When you add a vendor, pick a role from the [access level guide for Google Business Profile, Search Console and Analytics](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics).",
       },
       { type: "h2", text: "Link it to Google Ads and Search Console" },
       {

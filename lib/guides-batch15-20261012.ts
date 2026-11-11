@@ -220,7 +220,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "A referral partner page is a plain page for other clinicians and care coordinators. It states who you are, what you accept, how to send a referral and who to contact. Keep it separate from patient copy, keep patient information off it, and make the contact route obvious.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-02",
+    "dateModified": "2026-11-11",
     "readMinutes": 7,
     "sections": [
       {
@@ -318,7 +318,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Consider adding the same facts to the hospital or health system directories where you hold privileges or are listed. Consistency across those listings supports trust. Our guide on [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) explains the steps."
+        "text": "Consider adding the same facts to the hospital or health system directories where you hold privileges or are listed. Consistency across those listings supports trust. Our guide on [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) explains the steps. Decide whether the fax number belongs on the page using [this guide to publishing a fax number](/guides/fax-number-on-a-medical-practice-website-and-google-profile-whether-to-publish-it-and-what-to-tell-patients), and label it for referring offices."
       },
       {
         "type": "h2",
@@ -1232,7 +1232,7 @@ export const guidesPartEighteen: Guide[] = [
     "answer": "Once a week, spend fifteen minutes on six things: answer new reviews, test the phone line, glance at the Google profile, submit nothing but check the form inbox, open the website on a phone, and write down one number. A small routine catches most problems before patients notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-12T09:00:00Z",
-    "dateModified": "2026-11-10",
+    "dateModified": "2026-11-11",
     "readMinutes": 7,
     "sections": [
       {
@@ -1330,11 +1330,11 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Pick a single count and record it every week in the same place: calls received, form requests, or new reviews. Trends matter more than any one value. After three months, the sheet shows whether things are moving. Keep a separate [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change) beside that count, listing every change to the site, profile or ads with a date, so a movement in the count can be traced to its cause."
+        "text": "Pick a single count and record it every week in the same place: calls received, form requests, or new reviews. Trends matter more than any one value. After three months, the sheet shows whether things are moving. Keep a separate [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change) beside that count, listing every change to the site, profile or ads with a date, so a movement in the count can be traced to its cause. After any change is published, the manager can run the [ten-minute check on a second browser and an older phone](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) before telling the team it is live."
       },
       {
         "type": "p",
-        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea. When one of these weekly checks shows a sharp fall instead of a small slip, switch to the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) and write down what you find. For the monthly, quarterly and yearly checks that sit around this weekly one, a [yearly calendar with a named owner and a date for each](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) keeps them from slipping."
+        "text": "If you track more, keep it simple. Our guide on [how to measure ROI on medical practice marketing](/guides/how-to-measure-roi-on-medical-practice-marketing) explains the next step when you want one. Add a short tally of the practical questions callers asked this week, using the privacy-safe sheet in [choosing counseling page topics from what clients say on calls and forms](/guides/using-the-phrases-patients-say-on-calls-and-forms-to-choose-page-topics-for-a-counseling-practice), so each month ends with a page idea. When one of these weekly checks shows a sharp fall instead of a small slip, switch to the [first-hour checklist for a sudden drop in calls or traffic](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) and write down what you find. For the monthly, quarterly and yearly checks that sit around this weekly one, a [yearly calendar with a named owner and a date for each](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) keeps them from slipping. Requests from the front desk can arrive through a [website change request form](/guides/website-change-request-form-for-staff-at-a-medical-practice-so-edits-to-hours-providers-and-notices-reach-the-right-person) so the weekly check starts with a short, dated list."
       },
       {
         "type": "h2",

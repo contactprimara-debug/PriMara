@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -198,7 +198,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Set up your analytics to record a tap on any tel: link as an event, then compare the count to the calls the front desk actually receives. Do not record the caller's number or anything about the visit. If you use a call-tracking number, make sure the number on the website, the Google profile and the directories is handled the way your analytics provider documents, so the public listing stays consistent. Which number the button dials matters as much as where it sits, and our guide on [toll-free versus local numbers for a medical practice](/guides/toll-free-versus-local-phone-number-on-a-medical-practice-website-and-google-profile) helps you choose."
       ),
       p(
-        "Review the numbers monthly. A page with many visitors and no taps may be hiding the button, or may answer the question so well that nobody needs to call. Both are worth knowing. When the tap becomes a call, the person answering should follow the [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice), which says what to ask and what to skip."
+        "Review the numbers monthly. A page with many visitors and no taps may be hiding the button, or may answer the question so well that nobody needs to call. Both are worth knowing. When the tap becomes a call, the person answering should follow the [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice), which says what to ask and what to skip. To see the layout the way an older phone shows it, follow the [second browser and older phone check](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) after each change."
       ),
     ],
     faqs: [
@@ -829,7 +829,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A preventive visit and a problem visit are billed differently. If a new concern is addressed during a checkup, the office may bill both, and the patient may owe a copay or deductible for the second part. A short, plain explanation on the website and at scheduling keeps this from surprising anyone.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("The surprise at the end of a checkup"),
@@ -874,7 +874,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["We handle all insurance questions", "We can explain our charges. For coverage rules, contact your plan."]
       ),
       p(
-        "Review the page when the office changes its visit structure or when a large insurer changes its rules, and add the date it was last reviewed so staff know it is current."
+        "Review the page when the office changes its visit structure or when a large insurer changes its rules, and add the date it was last reviewed so staff know it is current. Words such as copayment and deductible are defined in a [plain glossary for a billing page](/guides/plain-words-glossary-of-insurance-terms-deductible-copay-coinsurance-network-and-allowed-amount-for-a-practice-billing-page)."
       ),
     ],
     faqs: [
@@ -1422,7 +1422,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A referral thank-you loop acknowledges each referral quickly, confirms that the patient was seen, shares only the information the referring doctor needs for treatment, and asks one question about how the process worked. Keep it short, keep it private and send it through a secure channel, not plain email.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Referrals are relationships"),
@@ -1468,7 +1468,7 @@ export const guidesPartTwentySix: Guide[] = [
         "If a referring clinician mentions a complaint, treat it as private and route it to the practice manager. Do not discuss it in public reviews or on social media, and do not confirm a patient relationship in any public place."
       ),
       p(
-        "Review the process once a year. Referral sources change, secure channels get replaced, and the best script from three years ago may no longer fit."
+        "Review the process once a year. Referral sources change, secure channels get replaced, and the best script from three years ago may no longer fit. Referring offices should also find the right fax line, as covered in [publishing a fax number on a practice website](/guides/fax-number-on-a-medical-practice-website-and-google-profile-whether-to-publish-it-and-what-to-tell-patients)."
       ),
     ],
     faqs: [

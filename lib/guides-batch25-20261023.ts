@@ -158,7 +158,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "An accessible intake form uses large text, one question per label, plain words and clear error messages, works with a screen reader and a keyboard, and always offers a phone option. Ask only what the first visit needs. A patient who cannot finish the form online should be able to finish it by calling.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Who gets stuck on a typical intake form"),
@@ -196,7 +196,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Always give a way that is not a form"),
       p(
-        "Place the office phone number at the top of every form page as a tap-to-call link, and say who will answer and when. Offer to complete the paperwork by phone, by mail or at the front desk on arrival, and mention that staff can read the questions aloud. This single line removes the biggest barrier for patients who cannot see the screen well. Patients who cannot use online forms at all should still have a route in, and a [paper forms and phone registration option for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice) describes how a primary care practice can offer one without adding risk."
+        "Place the office phone number at the top of every form page as a tap-to-call link, and say who will answer and when. Offer to complete the paperwork by phone, by mail or at the front desk on arrival, and mention that staff can read the questions aloud. This single line removes the biggest barrier for patients who cannot see the screen well. Patients who cannot use online forms at all should still have a route in, and a [paper forms and phone registration option for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice) describes how a primary care practice can offer one without adding risk. Run the [keyboard-only test](/guides/five-minute-keyboard-only-test-of-a-medical-practice-website-that-a-practice-owner-can-run-without-technical-skills) on the form page to confirm every field can be reached without a mouse."
       ),
       h3("Test it the way a patient would"),
       ol(
@@ -250,7 +250,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "A senior-friendly primary care website has large readable text, a short menu, big buttons, one obvious phone number and a plain page for the family members and caregivers who often use the site on a patient's behalf. Fewer choices on each screen matter more than any special feature.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-10-23",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Older patients and their families use the site together"),
@@ -290,7 +290,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Check it on a real phone"),
       p(
-        "Open the site on an ordinary phone in bright light, with your arm extended, and try to find the phone number, the hours and the portal in under ten seconds each. If you struggle, an older patient will too. Then ask an older relative to do the same and watch where they hesitate, without helping."
+        "Open the site on an ordinary phone in bright light, with your arm extended, and try to find the phone number, the hours and the portal in under ten seconds each. If you struggle, an older patient will too. Then ask an older relative to do the same and watch where they hesitate, without helping. Some older patients rely on a keyboard or a switch device, so try the [five-minute keyboard-only test](/guides/five-minute-keyboard-only-test-of-a-medical-practice-website-that-a-practice-owner-can-run-without-technical-skills) on your home and contact pages."
       ),
     ],
     faqs: [

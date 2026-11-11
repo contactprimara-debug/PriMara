@@ -82,7 +82,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "When someone leaves a medical practice, remove their access to the practice's Google profile, website login, email, form notifications and shared passwords on the last day, in a set order, with a second person confirming. Keep a written list of every account so nothing is forgotten, and never share one login to avoid the work.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("The account list is the real problem"),
@@ -117,11 +117,11 @@ export const guidesPartThirtyNine: Guide[] = [
         "Keep one page, stored somewhere two people can open, that lists every account, the practice-owned email that owns it, and who has access. Our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why the practice, not an individual, should be the account owner. Review the list twice a year, and whenever a role changes, not only when someone leaves. The same list is the starting point for the [day-one handoff for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts), which gives the next person only the access their job needs."
       ),
       p(
-        "Pair that list with strong, unique passwords stored in a password manager and with a second sign-in step wherever it is offered. Federal cybersecurity guidance on strong passwords is a short read for the whole team, and it makes a removal day far less stressful because there are fewer shared secrets to change."
+        "Pair that list with strong, unique passwords stored in a password manager and with a second sign-in step wherever it is offered. Federal cybersecurity guidance on strong passwords is a short read for the whole team, and it makes a removal day far less stressful because there are fewer shared secrets to change. Afterward, review the user lists using the [access level guide for Google Business Profile, Search Console and Analytics](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics) so nobody keeps more access than the job needs."
       ),
       h2("After the removal"),
       p(
-        "Two weeks later, check the Google profile's user list, the website's user list and the form notification address again. Look for a login that quietly came back through a password reset, and for any form that still goes to the old address. A test message from the contact form should arrive in the shared mailbox and nowhere else. The same list works when an outside company leaves, and the [account handover checklist for ending a marketing vendor relationship](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) adds the exports and ownership checks that matter then."
+        "Two weeks later, check the Google profile's user list, the website's user list and the form notification address again. Look for a login that quietly came back through a password reset, and for any form that still goes to the old address. A test message from the contact form should arrive in the shared mailbox and nowhere else. The same list works when an outside company leaves, and the [account handover checklist for ending a marketing vendor relationship](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) adds the exports and ownership checks that matter then. A [one-page vendor contact sheet](/guides/one-page-vendor-contact-sheet-for-a-medical-practice-website-host-domain-phone-carrier-and-google-profile) shows at a glance which accounts a departing employee could have touched."
       ),
     ],
     faqs: [
@@ -249,7 +249,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "A practice domain expires when the yearly fee is not paid, and the website and every email address on it then stop working. Prevent it with the practice as the registered owner, auto-renew on, a current card, a billing email that more than one person reads, and a calendar reminder sixty days out.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:40:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("The quietest way for a practice to disappear"),
@@ -284,7 +284,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "Act the same day. Most registrars allow a grace period in which the owner can still renew, often at the normal price, and a later redemption period that costs more. Renew at the registrar that holds it, check that the site and email return, and then fix the cause. If a former vendor or employee holds the account, our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to move ownership to the practice. Put the renewal date, with a reminder well before it, on the [yearly check calendar](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) next to a named owner."
       ),
       p(
-        "After any outage of this kind, run a basic check of the site, the forms and the email. The steps in [what a practice does when its website goes down](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) apply to a lapsed domain as well, and the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) shows why email on your own domain makes this protection even more important."
+        "After any outage of this kind, run a basic check of the site, the forms and the email. The steps in [what a practice does when its website goes down](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) apply to a lapsed domain as well, and the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) shows why email on your own domain makes this protection even more important. Record the registrar, account owner and renewal date on a [one-page vendor contact sheet](/guides/one-page-vendor-contact-sheet-for-a-medical-practice-website-host-domain-phone-carrier-and-google-profile) so the reminder has a name attached to it."
       ),
     ],
     faqs: [
@@ -663,7 +663,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "Send website form notices to a shared role mailbox such as frontdesk@yourpractice.com, owned by the practice, read by at least two people, with a named person checking it each business day. Keep health details out of the notification and let the email only say that a message waits.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T11:20:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("The form that only one person can see"),
@@ -699,10 +699,10 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("When someone leaves or goes on leave"),
       p(
-        "The point of the role address is that nothing changes when a person does. Remove the departing person from the mailbox's user list as part of the exit steps in our guide on [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice), add their replacement, and run the test again. During planned leave, confirm that the backup knows the box exists. The person who takes over the box should be added on their first day, as part of a [handoff map for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts)."
+        "The point of the role address is that nothing changes when a person does. Remove the departing person from the mailbox's user list as part of the exit steps in our guide on [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice), add their replacement, and run the test again. During planned leave, confirm that the backup knows the box exists. The person who takes over the box should be added on their first day, as part of a [handoff map for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts). A shared address is also the right destination for an online fax service, as discussed in [whether a practice should publish a fax number](/guides/fax-number-on-a-medical-practice-website-and-google-profile-whether-to-publish-it-and-what-to-tell-patients)."
       ),
       p(
-        "If forms do not arrive, follow the [form email delivery test](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) before blaming the site. Most missing messages are caught by spam filters or sent to an address that no longer exists."
+        "If forms do not arrive, follow the [form email delivery test](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) before blaming the site. Most missing messages are caught by spam filters or sent to an address that no longer exists. The same shared address works well as the receiver for a [staff form for website change requests](/guides/website-change-request-form-for-staff-at-a-medical-practice-so-edits-to-hours-providers-and-notices-reach-the-right-person), so edits survive staff turnover."
       ),
     ],
     faqs: [

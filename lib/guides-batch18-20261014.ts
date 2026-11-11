@@ -1035,7 +1035,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
@@ -1089,7 +1089,7 @@ export const guidesPartTwentyOne: Guide[] = [
       h3("Keep a record and tell your vendors"),
       p("Keep a short record of each closure after it ends: the dates, where the notice was posted, who approved it and how many patients called anyway. After two or three closures, the pattern shows which channel patients actually read, and you can put the most effort there next time."),
       p("Do not forget the people who work outside the building. If a billing company, an answering service or a telehealth vendor depends on your hours, tell them the dates in writing, and ask them to confirm."),
-      p("Test every channel after you post. Search for the practice on a phone and read the hours panel, call the main number and listen to the greeting, and open the website in a private window to see the banner as a visitor would. It takes five minutes and catches the mistakes that otherwise surface as angry calls on the first closed morning."),
+      p("Test every channel after you post. Search for the practice on a phone and read the hours panel, call the main number and listen to the greeting, and open the website in a private window to see the banner as a visitor would. It takes five minutes and catches the mistakes that otherwise surface as angry calls on the first closed morning. Front-desk staff can send each new closure through a [website change request form](/guides/website-change-request-form-for-staff-at-a-medical-practice-so-edits-to-hours-providers-and-notices-reach-the-right-person) so the website, profile and greeting are updated together."),
     ],
     faqs: [
       {
@@ -1342,7 +1342,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a new provider with a bio page, a short website notice, a Google profile update and one patient message. State training and licensure exactly as verified, describe the visit experience rather than outcomes, and avoid comparisons with other clinicians. Add the provider to every listing on the same day.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T13:20:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       h2("A new provider is a new reason for patients to come back"),
@@ -1394,7 +1394,7 @@ export const guidesPartTwentyOne: Guide[] = [
       p("Adapt the wording to your own voice, and send it to the provider for approval before it goes anywhere public. A provider who has read the exact text will not be surprised when a patient mentions it."),
       h3("Consistency and follow-up"),
       p("Do not forget internal consistency. The name on the website should match the name on the Google listing, the insurer directories and the door sign, including middle initials and credentials. A provider who appears as three slightly different people across the web is hard for patients and for search engines to trust. Settle the exact spelling first, write it into the shared document, and have everyone copy it. Plan a short feature for the practice newsletter or social post as well, but keep it to the same facts as the announcement. The announcement should say which ages the new clinician sees, a point explained in our [family medicine versus internal medicine explainer](/guides/family-medicine-versus-internal-medicine-explainer-page-for-a-primary-care-practice) for a primary care practice. If the new provider also teaches or hosts trainees, our guide to a [student and trainee observer notice page](/guides/medical-student-and-trainee-observer-notice-page-for-a-primary-care-practice) explains how to tell patients and let them say no. When another clinician covers for a provider who is away, the same plain announcement rules apply, and a [provider on leave notice page](/guides/provider-on-leave-notice-for-a-primary-care-practice-without-clinical-claims) explains what to tell patients about refills and visits."),
-      p("After the first month, review the provider's page in Search Console. If it is getting impressions but few clicks, rewrite the title and the first paragraph in plainer words. If it is getting none, add a link from a page that is already indexed and busy, such as the team page, and give search engines a few weeks to find it."),
+      p("After the first month, review the provider's page in Search Console. If it is getting impressions but few clicks, rewrite the title and the first paragraph in plainer words. If it is getting none, add a link from a page that is already indexed and busy, such as the team page, and give search engines a few weeks to find it. Until every listing catches up, give staff the wording in [answering a patient who asks why the website and Google name different providers](/guides/answering-a-patient-who-asks-why-the-website-lists-a-different-provider-than-the-google-profile-at-a-primary-care-practice)."),
     ],
     faqs: [
       {

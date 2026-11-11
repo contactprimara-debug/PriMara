@@ -213,7 +213,7 @@ export const guidesPartForty1: Guide[] = [
       "Before a redesign starts, ask the designer which pages bring in patients today, whether every old address will redirect to a new one, who handles the tracking and forms, and what is checked before launch. A designer who cannot answer in writing is a risk to your search traffic.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:10:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       h2("A redesign can quietly delete your best pages"),
@@ -254,7 +254,7 @@ export const guidesPartForty1: Guide[] = [
         ["Every page will be new, so no mapping is needed.", "Old addresses still exist in Google. They need somewhere to go."],
       ),
       p(
-        "Ask for the answers by email so they can be found later. Google suggests changing only one big thing at a time when moving a site, so if the designer also wants a new domain, a new platform and a new layout in the same weekend, ask why those cannot be staged. Our guide on [redirects when removing a service or provider page](/guides/redirects-when-removing-a-service-or-provider-page-on-a-medical-practice-website) covers the smaller case of a single page that goes away."
+        "Ask for the answers by email so they can be found later. Google suggests changing only one big thing at a time when moving a site, so if the designer also wants a new domain, a new platform and a new layout in the same weekend, ask why those cannot be staged. Our guide on [redirects when removing a service or provider page](/guides/redirects-when-removing-a-service-or-provider-page-on-a-medical-practice-website) covers the smaller case of a single page that goes away. For a smaller job than a redesign, our list of [questions to ask a freelancer before a small website fix](/guides/questions-to-ask-a-freelance-web-developer-before-a-small-fix-on-a-medical-practice-website) covers access, backups and testing in a few lines."
       ),
     ],
     faqs: [
@@ -300,7 +300,7 @@ export const guidesPartForty1: Guide[] = [
       "Read a marketing proposal for four things: what exactly will be done each month, what you will receive as proof, who owns the accounts, and how you can leave. Be wary of any guarantee of a number one ranking, because Google says no one can promise that.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:20:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       h2("A proposal is a list of promises, so read it like one"),
@@ -353,7 +353,7 @@ export const guidesPartForty1: Guide[] = [
         "Can I speak with a practice similar to mine that has worked with you for more than a year?"
       ),
       p(
-        "A company that welcomes these questions is usually one worth hiring. If the answers come back vague, defensive or late, that is the information you were looking for."
+        "A company that welcomes these questions is usually one worth hiring. If the answers come back vague, defensive or late, that is the information you were looking for. For the second pass, fill in a table for each promised item using the [line-by-line deliverables review](/guides/reviewing-a-marketing-proposals-promised-deliverables-line-by-line-before-signing-for-a-counseling-practice-owner)."
       ),
     ],
     faqs: [
@@ -593,7 +593,7 @@ export const guidesPartForty1: Guide[] = [
       "Hold one 30-minute marketing meeting a month with a fixed order: five minutes on the numbers, five on what changed, ten on what patients and the front desk are saying, five on problems, and five to pick one action with a name and a date. Send a two-line summary afterward.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:50:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("A short meeting that actually happens"),
@@ -636,7 +636,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h2("After the meeting: a two-line summary"),
       p(
-        "Send a short note to yourselves and to any outside vendor involved. Line one: the direction of calls and forms and the most likely reason. Line two: the one action, who owns it and the date. Save the note in the same folder every month and you will have a year-end story for free, which the [year-end results summary](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice) can draw from."
+        "Send a short note to yourselves and to any outside vendor involved. Line one: the direction of calls and forms and the most likely reason. Line two: the one action, who owns it and the date. Save the note in the same folder every month and you will have a year-end story for free, which the [year-end results summary](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice) can draw from. Open the meeting with a [plain monthly note](/guides/plain-monthly-note-to-a-practice-owner-summarizing-calls-forms-and-one-change-made-without-technical-terms) so the first five minutes cover calls, forms and one change made."
       ),
     ],
     faqs: [
@@ -774,7 +774,7 @@ export const guidesPartForty1: Guide[] = [
       "When a marketing vendor relationship ends, confirm in writing that you own and can log in to the domain, website, Google Business Profile, Analytics, Search Console and any ads account, then remove the vendor's access last, after everything has been tested and exported. Do it before the final payment.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T15:10:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       h2("Leaving well protects the practice"),
@@ -814,7 +814,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h3("Check ownership of what was written for you"),
       p(
-        "Read the contract for what happens to the content, photos and designs made during the relationship. Some agreements give the practice full ownership on payment. Others license it. If the wording is unclear, ask your attorney, because the answer decides whether you can keep using your own pages."
+        "Read the contract for what happens to the content, photos and designs made during the relationship. Some agreements give the practice full ownership on payment. Others license it. If the wording is unclear, ask your attorney, because the answer decides whether you can keep using your own pages. Before you sign with the next vendor, the [line-by-line review of a proposal](/guides/reviewing-a-marketing-proposals-promised-deliverables-line-by-line-before-signing-for-a-counseling-practice-owner) asks who will own the finished work."
       ),
       h2("Step three: test everything, then remove their access"),
       p(
@@ -829,7 +829,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h2("Step four: watch the first month"),
       p(
-        "After the vendor is out, check calls, forms and visits weekly for a month. A tracking number that stopped forwarding, an ad that kept running on the old card or a plugin that quietly expired can each cause a quiet drop. If something falls, use the [first-hour checklist](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website). When you hire the next company, ask for everything in your name from day one."
+        "After the vendor is out, check calls, forms and visits weekly for a month. A tracking number that stopped forwarding, an ad that kept running on the old card or a plugin that quietly expired can each cause a quiet drop. If something falls, use the [first-hour checklist](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website). When you hire the next company, ask for everything in your name from day one. While the vendor is still working with you, the [access level to give a vendor on Google tools](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics) keeps the practice in the owner role so a handover is simple."
       ),
     ],
     faqs: [
@@ -967,7 +967,7 @@ export const guidesPartForty1: Guide[] = [
       "Set a monthly goal for calls and forms by averaging the last three months of your own count, then aim for a modest step above it, such as one or two more a month. Keep one goal per number, review it monthly, and change the goal only when the baseline changes.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T15:30:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("A goal needs a starting line"),
@@ -1016,7 +1016,7 @@ export const guidesPartForty1: Guide[] = [
         "Look at the goal in your [monthly marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager). Write the actual count beside the goal. If you missed it, check the likely causes in order: a broken phone link or form, a profile problem, a seasonal dip, or fewer visits. The [first-hour checklist](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) lists them. If you hit it, keep the goal for another month before raising it, so the baseline has time to settle."
       ),
       p(
-        "Reset the baseline each quarter using the latest three months, and write down any big change, such as a new provider or a closed month, so a future reader can understand the numbers."
+        "Reset the baseline each quarter using the latest three months, and write down any big change, such as a new provider or a closed month, so a future reader can understand the numbers. Report progress against the goal in a [plain monthly note to the practice owner](/guides/plain-monthly-note-to-a-practice-owner-summarizing-calls-forms-and-one-change-made-without-technical-terms) with one change made and one planned."
       ),
     ],
     faqs: [

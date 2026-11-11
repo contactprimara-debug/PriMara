@@ -79,7 +79,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A medical practice's social accounts should share office news, hours, team introductions and general wellness reminders, and should never show a patient's name, photo, story or reply to a comment that confirms someone is a patient. Pick one or two platforms, name one owner, and write down the rules before the first post goes live.",
     author: "Liam Costello",
     publishDate: "2026-10-16T09:00:00Z",
-    dateModified: "2026-10-21",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Start with one owner and one or two platforms"),
@@ -125,7 +125,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Set a reminder to review followers, admins and connected apps every quarter."
       ),
       p(
-        "A short written policy, one page, kept at the front desk, is enough. It should list who posts, what is allowed, what is never allowed and who to call if something goes wrong."
+        "A short written policy, one page, kept at the front desk, is enough. It should list who posts, what is allowed, what is never allowed and who to call if something goes wrong. Posting is only half of social media; the other half is the inbox, covered in a [reply rule for Facebook and Instagram messages](/guides/reply-rule-for-facebook-and-instagram-messages-to-a-medical-practice-page-without-health-details)."
       ),
     ],
     faqs: [

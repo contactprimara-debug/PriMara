@@ -524,7 +524,7 @@ export const guidesPartFourteen: Guide[] = [
     "answer": "Once a month, open four things in Google Analytics 4: traffic acquisition to see where visitors came from, pages and screens to see what they read, engagement rate to see whether they stayed, and key events to see who called or submitted a form. Compare each to the prior month and write down what changed.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-07T09:00:00Z",
-    "dateModified": "2026-11-09",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -569,7 +569,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Key events are the actions you care about, such as clicking a phone number, submitting an appointment request or reaching a thank-you page. GA4 used to call these conversions. Open Reports, then Engagement, then Events, and check how many key events happened and which channel they came from. If you track calls and forms, our guide to [tracking phone calls](/guides/tracking-phone-calls-from-a-medical-website) shows what to set up. Count contact requests, never anything about a patient's health."
+        "text": "Key events are the actions you care about, such as clicking a phone number, submitting an appointment request or reaching a thank-you page. GA4 used to call these conversions. Open Reports, then Engagement, then Events, and check how many key events happened and which channel they came from. If you track calls and forms, our guide to [tracking phone calls](/guides/tracking-phone-calls-from-a-medical-website) shows what to set up. Count contact requests, never anything about a patient's health. Terms such as key event and landing page are defined in a [plain glossary for practice owners](/guides/plain-glossary-of-website-and-google-terms-for-a-practice-owner-meeting-a-marketing-vendor-for-the-first-time)."
       },
       {
         "type": "h2",
@@ -602,7 +602,7 @@ export const guidesPartFourteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Keep these four lines in a simple log. After three or four months, the log shows direction far better than any single report. Pair it with your Search Console numbers, covered in our [Search Console guide](/guides/how-to-read-google-search-console-for-a-medical-practice-website), and with [return on marketing spend](/guides/how-to-measure-roi-on-medical-practice-marketing) when you compare against revenue. Small sites can see staff visits and test submissions inflate these reports, which is why we explain [how to exclude staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website). At the end of the year, roll the twelve monthly readings into a single page using a [year-end marketing results summary for a counseling practice owner](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice). The four lines are also the first item on the agenda of a [monthly 30-minute marketing meeting for an owner and office manager](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager). Search Console adds the other half of the picture, and the [monthly query-reading routine for a counseling practice](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice) shows which typed questions to answer on the site."
+        "text": "Keep these four lines in a simple log. After three or four months, the log shows direction far better than any single report. Pair it with your Search Console numbers, covered in our [Search Console guide](/guides/how-to-read-google-search-console-for-a-medical-practice-website), and with [return on marketing spend](/guides/how-to-measure-roi-on-medical-practice-marketing) when you compare against revenue. Small sites can see staff visits and test submissions inflate these reports, which is why we explain [how to exclude staff and internal traffic from Google Analytics 4](/guides/excluding-staff-and-internal-traffic-from-google-analytics-4-on-a-medical-practice-website). At the end of the year, roll the twelve monthly readings into a single page using a [year-end marketing results summary for a counseling practice owner](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice). The four lines are also the first item on the agenda of a [monthly 30-minute marketing meeting for an owner and office manager](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager). Search Console adds the other half of the picture, and the [monthly query-reading routine for a counseling practice](/guides/reading-the-top-search-console-queries-each-month-to-find-the-questions-new-clients-ask-a-counseling-practice) shows which typed questions to answer on the site. Once you have the numbers, put them in a [plain monthly note to the practice owner](/guides/plain-monthly-note-to-a-practice-owner-summarizing-calls-forms-and-one-change-made-without-technical-terms) that fits on half a page."
       },
       {
         "type": "h2",

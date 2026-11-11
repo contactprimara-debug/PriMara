@@ -502,7 +502,7 @@ export const guidesPartThirtySix: Guide[] = [
       "You cannot remove a Google review just because the provider it names has left. Reply in a way that confirms nothing about the reviewer, say how patients can reach care now, and update the provider's profile. Ask Google to remove a review only when it breaks Google's content policy.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("A review about someone who is no longer there"),
@@ -546,7 +546,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Tell your front desk"),
       p(
-        "Give the team one sentence to use when a patient asks for a clinician who has left. It should say who now sees those patients and how to book. A consistent answer on the phone does more to repair trust than any reply on the review page. When a review names a current staff member instead, [the reply wording for a named staff member](/guides/replying-to-a-google-review-that-names-a-staff-member-without-confirming-anyone-is-a-patient) works the same way, and the person should hear about it in private first."
+        "Give the team one sentence to use when a patient asks for a clinician who has left. It should say who now sees those patients and how to book. A consistent answer on the phone does more to repair trust than any reply on the review page. When a review names a current staff member instead, [the reply wording for a named staff member](/guides/replying-to-a-google-review-that-names-a-staff-member-without-confirming-anyone-is-a-patient) works the same way, and the person should hear about it in private first. The same confusion shows up in questions, so see how the front desk can [answer a patient who sees a different provider on Google](/guides/answering-a-patient-who-asks-why-the-website-lists-a-different-provider-than-the-google-profile-at-a-primary-care-practice)."
       ),
     ],
     faqs: [

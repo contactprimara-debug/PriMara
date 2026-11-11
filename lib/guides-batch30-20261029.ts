@@ -702,7 +702,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "A missed call text back is one short automatic text sent to a caller the office could not answer. It names the practice, offers a way to reach a person or book, keeps health details out, includes opt-out wording and avoids emergencies. Set it up with a vendor that signs a business associate agreement, and have counsel review it.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("Where new patient calls actually get lost"),
@@ -744,7 +744,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "Log how many missed-call texts go out each week and how many produce a reply or a booked visit. If you already track calls from your website and your Google profile, as described in the guide to [tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website), compare the share of calls answered before and after. A practice that answers most calls live may find the text back barely used, and that is fine."
       ),
       p(
-        "Fix the cause too. If missed calls cluster at one time of day, a schedule change or a [phone menu that does not lose new patients](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) will do more than any text. Treat the text back as the safety net and staffing as the answer."
+        "Fix the cause too. If missed calls cluster at one time of day, a schedule change or a [phone menu that does not lose new patients](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) will do more than any text. Treat the text back as the safety net and staffing as the answer. A similar standard reply can cover Facebook and Instagram, as shown in the [reply rule for social media messages](/guides/reply-rule-for-facebook-and-instagram-messages-to-a-medical-practice-page-without-health-details)."
       ),
     ],
     faqs: [
@@ -874,7 +874,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "Keep the practice's NPI registry record, CAQH profile and each insurer's provider directory matching the address, phone and name on your website and Google profile. Update them whenever something changes, review CAQH on its re-attestation schedule, and check each directory every quarter, since errors there send patients elsewhere.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("The records you never see patients read"),
@@ -918,7 +918,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "Record who is responsible for each record so an update is never nobody's job."
       ),
       p(
-        "Finally, compare the results with what a patient sees. Search the practice name and address on a phone and check that the Google profile, website and the top directories agree. The pattern behind most mismatches is covered in our guide to [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it)."
+        "Finally, compare the results with what a patient sees. Search the practice name and address on a phone and check that the Google profile, website and the top directories agree. The pattern behind most mismatches is covered in our guide to [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it). Outdated directory data is often what a patient is quoting when they ask [why the website and Google list different providers](/guides/answering-a-patient-who-asks-why-the-website-lists-a-different-provider-than-the-google-profile-at-a-primary-care-practice)."
       ),
     ],
     faqs: [
@@ -1306,7 +1306,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "An auto reply to a new client inquiry should confirm the message arrived, say who will answer and when, give the office phone number, point to 988 and 911 for emergencies and ask for no health details. Send it from a real practice address, keep it short and only promise the reply time you reliably meet.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("The minute after someone presses send"),
@@ -1346,7 +1346,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "The wording should agree with the page the person saw after submitting, as described in our guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), and with the fields on the form itself. Use the same reply time in both places, or visitors notice. To check that the reply arrives and how fast, include it in a [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) run by someone from the office."
       ),
       p(
-        "Send the message from your own domain, using the approach in the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so it lands in the inbox and not in spam. Then test it: submit a test inquiry marked as a test, check how the email looks on a phone, and make sure the reply-to address reaches a monitored inbox. Check the delivery path every quarter, since a form that stops sending silently costs real inquiries. A person who emails only to ask about insurance needs a different reply than a form auto-reply, which [answering an email about whether a counselor takes their insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) walks through with a template."
+        "Send the message from your own domain, using the approach in the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so it lands in the inbox and not in spam. Then test it: submit a test inquiry marked as a test, check how the email looks on a phone, and make sure the reply-to address reaches a monitored inbox. Check the delivery path every quarter, since a form that stops sending silently costs real inquiries. A person who emails only to ask about insurance needs a different reply than a form auto-reply, which [answering an email about whether a counselor takes their insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) walks through with a template. To make sure the auto-reply is not filtered as spam, ask your provider about [SPF, DKIM and DMARC settings](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox)."
       ),
     ],
     faqs: [

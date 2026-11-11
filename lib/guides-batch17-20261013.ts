@@ -16,7 +16,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A patient portal login page should link to the real portal sign-in in one tap, explain who can use it and who to call for a locked account, and collect nothing itself. Keep the sign-in on the portal vendor's secure site, never on your own contact form, and add a short note for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T09:00:00Z",
-    "dateModified": "2026-11-10",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -117,7 +117,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, keep tracking light. A simple click event on the sign-in button is fine for counting, but do not send patient identifiers, names or account numbers to analytics. If you read our guide on [keeping a medical practice's analytics clean](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice), apply the same rule here: count clicks, never people. Fake login links are a common trick, so tell patients what a real portal message looks like, as in [what to tell patients about scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients). Staff who leave should lose access to the portal and the website on the same day, and the order of steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) covers both."
+        "text": "Finally, keep tracking light. A simple click event on the sign-in button is fine for counting, but do not send patient identifiers, names or account numbers to analytics. If you read our guide on [keeping a medical practice's analytics clean](/guides/how-to-read-google-analytics-4-reports-each-month-for-a-medical-practice), apply the same rule here: count clicks, never people. Fake login links are a common trick, so tell patients what a real portal message looks like, as in [what to tell patients about scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients). Staff who leave should lose access to the portal and the website on the same day, and the order of steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) covers both. Direct anyone who writes on social media to the portal using a [reply rule for Facebook and Instagram messages](/guides/reply-rule-for-facebook-and-instagram-messages-to-a-medical-practice-page-without-health-details)."
       }
     ],
     "faqs": [
@@ -376,7 +376,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "For most medical and counseling practices the safe answer is to leave profile messaging off unless someone can answer within minutes, the replies stay free of health details, and an auto-reply tells patients to call 911 in an emergency and to use the portal for care questions. A missed or careless message does more harm than no chat button.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T09:40:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -478,7 +478,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you decide against messaging, check that it is actually off after any profile change, because ownership transfers and category changes can alter what is available. Add it to the monthly profile check you already do."
+        "text": "If you decide against messaging, check that it is actually off after any profile change, because ownership transfers and category changes can alter what is available. Add it to the monthly profile check you already do. If you handle messages on social pages as well, use the same [reply rule for Facebook and Instagram messages](/guides/reply-rule-for-facebook-and-instagram-messages-to-a-medical-practice-page-without-health-details) everywhere."
       }
     ],
     "faqs": [
@@ -1473,7 +1473,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A records request page explains how a patient asks for their own records: who to contact, what the request needs, how identity is checked, how long the office takes, and any permitted fee. Link to a request form that does not ask for health details, and give a phone number for help.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T12:00:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -1545,7 +1545,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Check the page once a year against your actual process. If you change vendors or release-of-information handling, update the page that week. This belongs on the same annual list as the policy pages we describe in [what to update when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). Patients who are moving often arrive here first, so link this page from the notice described in [wording for primary care patients who move out of the area](/guides/patients-who-move-out-of-the-area-records-transfer-and-referral-wording-for-a-primary-care-practice) and let them name the new office."
+        "text": "Check the page once a year against your actual process. If you change vendors or release-of-information handling, update the page that week. This belongs on the same annual list as the policy pages we describe in [what to update when a practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). Patients who are moving often arrive here first, so link this page from the notice described in [wording for primary care patients who move out of the area](/guides/patients-who-move-out-of-the-area-records-transfer-and-referral-wording-for-a-primary-care-practice) and let them name the new office. Patients who ask to fax records back can be answered with the wording in [whether to publish a fax number online](/guides/fax-number-on-a-medical-practice-website-and-google-profile-whether-to-publish-it-and-what-to-tell-patients)."
       },
       {
         "type": "h3",
@@ -1633,7 +1633,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "An insurance verification page explains which plans the practice takes, what the office checks before a first session, what clients should ask their own plan, and that a benefits check is an estimate, not a guarantee. Collect no health details, and link to your fees and out-of-network pages.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T12:20:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -1733,7 +1733,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "The plan list on this page should agree with your Google Business Profile, your directory entries and your fees page. When a plan leaves your network or joins it, update all of them, as explained in our guide on [what to update online when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). A mismatched list is the fastest way to create angry callers. If a plan is closed to new clients, say so plainly using the [wording for an insurance panel closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile) so callers do not waste a phone call."
+        "text": "The plan list on this page should agree with your Google Business Profile, your directory entries and your fees page. When a plan leaves your network or joins it, update all of them, as explained in our guide on [what to update online when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). A mismatched list is the fastest way to create angry callers. If a plan is closed to new clients, say so plainly using the [wording for an insurance panel closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile) so callers do not waste a phone call. Clients checking their benefits can use a [plain glossary of insurance terms](/guides/plain-words-glossary-of-insurance-terms-deductible-copay-coinsurance-network-and-allowed-amount-for-a-practice-billing-page) to understand what their plan documents say."
       },
       {
         "type": "h3",
@@ -1986,7 +1986,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A billing questions page tells patients how to read a statement, the ways they can pay, who to call about a charge, how payment plans work and what to bring to a conversation. Use plain words, never take card numbers by email or form, and avoid promises about what insurance will pay.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T13:20:00Z",
-    "dateModified": "2026-10-30",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -2089,7 +2089,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Review the page twice a year, and after any change of billing vendor. If staff change the payment portal, update the page the same day. A broken link on a billing page is the quickest way to produce an angry caller."
+        "text": "Review the page twice a year, and after any change of billing vendor. If staff change the payment portal, update the page the same day. A broken link on a billing page is the quickest way to produce an angry caller. Add a [plain-words glossary of insurance terms](/guides/plain-words-glossary-of-insurance-terms-deductible-copay-coinsurance-network-and-allowed-amount-for-a-practice-billing-page) so patients understand deductible, copay and coinsurance before they call."
       },
       {
         "type": "h3",

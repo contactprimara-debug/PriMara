@@ -427,7 +427,7 @@ export const guidesPartOne: Guide[] = [
       "Google Ads fills a caseload faster and local SEO costs less over time. If you need clients this month and can spend at least one thousand dollars in media, start with ads. If you can wait four to six months and want the channel to keep working after you stop paying, start with local SEO and a Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       {
@@ -468,7 +468,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "The Google Business Profile compounds this. For any search with local intent, Google shows a three-result map pack above everything else. Getting into it is largely a function of correct categories, proximity, and review velocity — all three of which are work, not spend. Setup specifics for therapists are in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists). Search traffic for a focus such as anxiety usually lands on a dedicated [anxiety, trauma or couples page](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), which is why each specialty deserves its own honest page.",
+        text: "The Google Business Profile compounds this. For any search with local intent, Google shows a three-result map pack above everything else. Getting into it is largely a function of correct categories, proximity, and review velocity — all three of which are work, not spend. Setup specifics for therapists are in [Google Business Profile for mental health therapists](/blog/google-business-profile-for-mental-health-therapists). Search traffic for a focus such as anxiety usually lands on a dedicated [anxiety, trauma or couples page](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims), which is why each specialty deserves its own honest page. If words like impression or ranking come up in either option, a [plain glossary of website and Google terms](/guides/plain-glossary-of-website-and-google-terms-for-a-practice-owner-meeting-a-marketing-vendor-for-the-first-time) defines each in one sentence.",
       },
       {
         type: "h2",
@@ -611,7 +611,7 @@ export const guidesPartOne: Guide[] = [
       "A medical practice website costs about two thousand to five thousand dollars on a template, eight thousand to twenty-five thousand custom, and twenty-five thousand or more for a multi-location or multi-provider build. Hosting and maintenance add roughly fifty to five hundred dollars a month. Content volume and integrations drive the number far more than design does.",
     author: "Gio LaRoche",
     publishDate: "2026-09-21T09:00:00Z",
-    dateModified: "2026-09-21",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       {
@@ -689,7 +689,7 @@ export const guidesPartOne: Guide[] = [
       },
       {
         type: "p",
-        text: "Start from the searches you want to win, not from a sitemap template. List the twelve to twenty things patients type that you can honestly serve, and make each one a page. Then add the location pages for the cities you actually draw from. Then design. Scoped that way, a custom build in the ten-to-fifteen-thousand range covers most single-location practices and does not need to be redone when you add a service line. Ask whether the price includes accessibility work, and see [what the ADA requires of a practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) for what to expect.",
+        text: "Start from the searches you want to win, not from a sitemap template. List the twelve to twenty things patients type that you can honestly serve, and make each one a page. Then add the location pages for the cities you actually draw from. Then design. Scoped that way, a custom build in the ten-to-fifteen-thousand range covers most single-location practices and does not need to be redone when you add a service line. Ask whether the price includes accessibility work, and see [what the ADA requires of a practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) for what to expect. Small edits after launch are best handled with the [questions to ask a freelancer before a small website fix](/guides/questions-to-ask-a-freelance-web-developer-before-a-small-fix-on-a-medical-practice-website).",
       },
       {
         type: "callout",

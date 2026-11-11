@@ -1554,7 +1554,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Any of the four can run a good practice site, so choose by the questions that matter: can you edit titles, redirects and schema, who maintains it, can you export it, and will the vendor sign a business associate agreement for anything touching patient data. WordPress gives the most control and upkeep, the others trade control for simplicity.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-06",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -1641,11 +1641,11 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Own your domain, as our guide on [choosing a domain name](/guides/how-to-choose-a-domain-name-for-a-medical-practice) says, and your content. WordPress is the easiest to move, since the files and database can go to another host. Hosted builders can export some content but not the full design, so a move often means a rebuild. Price the whole picture: platform plan, domain, a compliant form service, hosting and security for WordPress, and the hours a person spends on updates. Our [website cost guide](/guides/medical-practice-website-cost) gives Florida ranges."
+        "text": "Own your domain, as our guide on [choosing a domain name](/guides/how-to-choose-a-domain-name-for-a-medical-practice) says, and your content. WordPress is the easiest to move, since the files and database can go to another host. Hosted builders can export some content but not the full design, so a move often means a rebuild. Price the whole picture: platform plan, domain, a compliant form service, hosting and security for WordPress, and the hours a person spends on updates. Our [website cost guide](/guides/medical-practice-website-cost) gives Florida ranges. Ask whether the platform you choose offers a private test copy, as described in [staging copies of a practice website](/guides/staging-copy-of-a-medical-practice-website-and-testing-changes-before-they-go-live)."
       },
       {
         "type": "p",
-        "text": "Whichever you pick, a site is only as good as its pages, and the platform is only the container. Before you sign anything, ask the vendor to show a live page with the title, redirect and schema settings visible, and have the person who will run the site try editing it. Fifteen minutes with the actual admin screen tells you more than a feature list."
+        "text": "Whichever you pick, a site is only as good as its pages, and the platform is only the container. Before you sign anything, ask the vendor to show a live page with the title, redirect and schema settings visible, and have the person who will run the site try editing it. Fifteen minutes with the actual admin screen tells you more than a feature list. Whichever platform you pick, a freelancer who edits it should answer the [questions to ask before a small website fix](/guides/questions-to-ask-a-freelance-web-developer-before-a-small-fix-on-a-medical-practice-website), starting with who has access."
       }
     ],
     "faqs": [
@@ -1888,7 +1888,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "When a provider joins, add a bio page, update your team page, schema, Google profile, directories and insurance listings. When one leaves, do not delete the bio page: redirect or mark it, remove the provider from schema and listings, and ask the provider to update their own profiles. Do both within days, not months.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-11-10",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -1897,7 +1897,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A provider appears in more places than most practices realize: the website, the Google listing, the state licensing page, insurance directories, review sites, social profiles and AI answers. After a change, any place that still shows the old roster sends patients to someone who is not there. Updating them is a short, repeatable job. Do it as a checklist, with one named owner and a due date, because a task that belongs to everyone usually gets done by no one. Keep the checklist where the office manager can find it the day a start or departure is announced. A retirement or sale is a bigger version of the same change, and our checklist for [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers it. Roster changes are easy to miss during the rest of the year, so build them into your [annual website content review checklist](/guides/annual-website-content-review-checklist-for-a-counseling-practice) as a standing item to check."
+        "text": "A provider appears in more places than most practices realize: the website, the Google listing, the state licensing page, insurance directories, review sites, social profiles and AI answers. After a change, any place that still shows the old roster sends patients to someone who is not there. Updating them is a short, repeatable job. Do it as a checklist, with one named owner and a due date, because a task that belongs to everyone usually gets done by no one. Keep the checklist where the office manager can find it the day a start or departure is announced. A retirement or sale is a bigger version of the same change, and our checklist for [protecting your online presence when a practice changes hands or a provider retires](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires) covers it. Roster changes are easy to miss during the rest of the year, so build them into your [annual website content review checklist](/guides/annual-website-content-review-checklist-for-a-counseling-practice) as a standing item to check. If a patient points out that the website and Google show different providers, our guide on [answering that patient](/guides/answering-a-patient-who-asks-why-the-website-lists-a-different-provider-than-the-google-profile-at-a-primary-care-practice) gives the front desk wording to use."
       },
       {
         "type": "h2",
@@ -1960,7 +1960,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Reviews that mention the provider stay, and you cannot remove them for that reason. Reply to them without confirming anyone is a patient."
+        "text": "Reviews that mention the provider stay, and you cannot remove them for that reason. Reply to them without confirming anyone is a patient. Staff who notice an out-of-date provider listing can send it through a [website change request form](/guides/website-change-request-form-for-staff-at-a-medical-practice-so-edits-to-hours-providers-and-notices-reach-the-right-person) so it reaches one person instead of getting lost."
       },
       {
         "type": "h2",

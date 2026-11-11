@@ -392,7 +392,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A practice listing represents the location where patients are seen. A practitioner listing represents one individual provider. Google's guidelines allow an individual practitioner a separate listing in some cases, but a provider who works at the same location as a practice and is not the practice's public face risks duplicates. Check the current guidelines before creating one.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-10",
+  "dateModified": "2026-11-11",
   "readMinutes": 7,
   "sections": [
     {
@@ -476,7 +476,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest. After a clinician leaves, their practitioner listing and its reviews do not simply vanish, which is why this guide to [Google reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) is worth reading. Hospital directories list clinicians individually, so see [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) before you submit any names."
+      "text": "Multiple profiles at one address are common in group practices. Duplicates split reviews and confuse patients. Our guide on [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings) walks through finding and resolving them, and the provider-change guide on [what to update when a provider joins or leaves](/guides/what-to-update-when-a-provider-joins-or-leaves-a-medical-practice) covers what happens to an individual profile when staff change. When a new clinician joins, decide whether they get their own listing, and read our guide to [introducing a new provider to patients online](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) before you add one. Whether a new therapist gets an individual listing is only one step in introducing them, and our plan for [introducing a new clinician to clients](/guides/introducing-a-new-clinician-to-clients-for-a-counseling-practice) covers the rest. After a clinician leaves, their practitioner listing and its reviews do not simply vanish, which is why this guide to [Google reviews that mention a provider who has left](/guides/google-reviews-that-mention-a-provider-who-has-left-a-medical-practice) is worth reading. Hospital directories list clinicians individually, so see [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) before you submit any names. When the two listings disagree, the front desk can use this [reply for a patient who asks why the providers differ](/guides/answering-a-patient-who-asks-why-the-website-lists-a-different-provider-than-the-google-profile-at-a-primary-care-practice) while the profile is corrected."
     },
     {
       "type": "callout",
@@ -943,7 +943,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "A canonical tag tells Google which version of a page is the main one when the same content can be reached at more than one address. Give every page one self-referencing canonical, redirect old or alternate addresses to it, and avoid publishing near-copies of the same page. Google treats canonicals as a strong hint, not a command.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-09",
+  "dateModified": "2026-11-11",
   "readMinutes": 7,
   "sections": [
     {
@@ -1029,7 +1029,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website). A downloadable PDF copy of a page can compete with the page itself, so see [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) for how to replace or redirect the older file. A [page inventory that records what each page is for](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for) is the easiest way to spot two pages with the same purpose before they compete."
+      "text": "If two pages cover the same topic, a canonical tag between them hides one but leaves a thin site. Usually the better fix is to combine them into the stronger page and redirect the other. This matters especially for service and location pages, where templates make near-copies easy to produce. Our guide to [internal linking](/guides/internal-linking-for-a-medical-practice-website) and the [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) both touch on redirects and consolidation. When two pages answer the same search and neither is a copy of the other, a canonical tag alone will not settle it, so use the steps in [two pages competing for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website). A downloadable PDF copy of a page can compete with the page itself, so see [retiring old PDF forms and outdated documents still indexed on a practice website](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website) for how to replace or redirect the older file. A [page inventory that records what each page is for](/guides/a-page-inventory-spreadsheet-listing-every-page-on-a-medical-practice-website-and-what-each-page-is-for) is the easiest way to spot two pages with the same purpose before they compete. A forgotten test copy is a common source of duplicate pages, so see how to keep a [staging copy out of Google](/guides/staging-copy-of-a-medical-practice-website-and-testing-changes-before-they-go-live)."
     },
     {
       "type": "callout",
@@ -1442,7 +1442,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "The practice itself should own its domain name, Google Business Profile, Search Console and Google Analytics, registered to a business email address that more than one trusted person can reach. Agencies, web designers and staff should be added as users with the lowest access that does the job, so removing them never locks you out.",
   "author": "Gio LaRoche",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-10",
+  "dateModified": "2026-11-11",
   "readMinutes": 7,
   "sections": [
     {
@@ -1508,7 +1508,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Search Console lets you add owners and users with different permission levels, and Google's help pages explain how verified owners and delegated users work. Analytics has its own roles for users and user groups. Give the practice the administrator or owner role and give vendors only what they need, such as Editor or Viewer. Our guides on [setting up Google Analytics 4](/guides/how-to-set-up-google-analytics-4-for-a-medical-practice) and [reading Google Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website) cover the accounts themselves."
+      "text": "Search Console lets you add owners and users with different permission levels, and Google's help pages explain how verified owners and delegated users work. Analytics has its own roles for users and user groups. Give the practice the administrator or owner role and give vendors only what they need, such as Editor or Viewer. Our guides on [setting up Google Analytics 4](/guides/how-to-set-up-google-analytics-4-for-a-medical-practice) and [reading Google Search Console](/guides/how-to-read-google-search-console-for-a-medical-practice-website) cover the accounts themselves. Ownership is only half of it, since each vendor or staff member should also receive the lowest [access level on Google Business Profile, Search Console and Analytics](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics) that does the job."
     },
     {
       "type": "h2",
@@ -1531,7 +1531,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership. Ownership only protects the practice if access is removed when people leave, so pair this advice with the same-day steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) and keep the account list current. When a relationship does end, the [handover checklist for website, Google and ads accounts when a marketing vendor leaves](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) turns the ownership list into the steps to take before the last payment."
+      "text": "Before you hire, ask what accounts they will create and who will own them. A good provider adds itself to your accounts instead of creating its own. When you leave, remove their access and confirm the practice still has administrator rights everywhere. Our guide on [picking a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency) lists questions to ask about access and reporting. Whoever holds the account also decides where warnings go, so set up [the Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice) at the same time you settle ownership. Ownership only protects the practice if access is removed when people leave, so pair this advice with the same-day steps in [removing a former employee's access to Google, website and email accounts](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) and keep the account list current. When a relationship does end, the [handover checklist for website, Google and ads accounts when a marketing vendor leaves](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) turns the ownership list into the steps to take before the last payment. Once ownership is settled, write down each service and who to call in a [one-page vendor contact sheet](/guides/one-page-vendor-contact-sheet-for-a-medical-practice-website-host-domain-phone-carrier-and-google-profile) that two people can find."
     },
     {
       "type": "callout",
@@ -2343,7 +2343,7 @@ export const guidesPartFifteen: Guide[] = [
   "answer": "Add your site to Google Search Console as a Domain property if you can, or a URL-prefix property if you cannot, then verify ownership with a DNS record or another method Google offers. Submit your sitemap, add a second owner from the practice, and give vendors the lowest permission that works. Keep the verification in place permanently.",
   "author": "Liam Costello",
   "publishDate": "2026-10-08T09:00:00Z",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-11",
   "readMinutes": 7,
   "sections": [
     {
@@ -2415,7 +2415,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Search Console distinguishes verified owners from delegated users, with different permissions. Add at least two people at the practice as owners, so access survives staff changes, and give vendors only what they need. Google's help page on managing owners, users and permissions explains the roles, and our guide on [who should own the practice's accounts](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) covers the larger picture. After verification, confirm who receives the warning emails, as explained in [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice), so nothing important goes unread."
+      "text": "Search Console distinguishes verified owners from delegated users, with different permissions. Add at least two people at the practice as owners, so access survives staff changes, and give vendors only what they need. Google's help page on managing owners, users and permissions explains the roles, and our guide on [who should own the practice's accounts](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) covers the larger picture. After verification, confirm who receives the warning emails, as explained in [Search Console email alerts and who should receive them](/guides/search-console-email-alerts-and-who-should-receive-them-at-a-medical-practice), so nothing important goes unread. After verification, give a vendor the right level using the [access level guide for Google tools](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics)."
     },
     {
       "type": "h2",

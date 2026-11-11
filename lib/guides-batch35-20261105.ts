@@ -283,7 +283,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "A year-end marketing summary for a counseling practice should fit on one page and answer four questions: how many new clients asked to book, where they came from, what each channel cost, and what to change next year. Count requests and calls, not page views, and keep client details out of it.",
     author: "Liam Costello",
     publishDate: "2026-11-05T09:40:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("Why a one-page summary beats a folder of reports"),
@@ -319,7 +319,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "End the page with three decisions: one thing to keep, one thing to stop and one thing to try. A small budget goes further when it follows what worked, and the guide to [splitting a small monthly marketing budget for a counseling practice](/guides/splitting-a-small-monthly-marketing-budget-for-a-counseling-practice) shows one way to divide it. Pair the plan with the [annual website content review](/guides/annual-website-content-review-checklist-for-a-counseling-practice) so the pages that need updating are scheduled, not forgotten. Write next year's goals as [simple monthly goals for calls and forms](/guides/setting-simple-monthly-goals-for-calls-and-forms-for-a-small-medical-practice-website) based on the last three months, not as a single large number."
       ),
       p(
-        "Finally, date the page and store it with the rest of the practice's business records. Next year's summary will be easier because the starting numbers are already written down, and a comparison with the previous year is the strongest evidence of whether the work is paying off. The notes from a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) make the year-end page much easier to write, because each month already has a direction and one action."
+        "Finally, date the page and store it with the rest of the practice's business records. Next year's summary will be easier because the starting numbers are already written down, and a comparison with the previous year is the strongest evidence of whether the work is paying off. The notes from a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) make the year-end page much easier to write, because each month already has a direction and one action. The monthly version is a [plain note to the practice owner](/guides/plain-monthly-note-to-a-practice-owner-summarizing-calls-forms-and-one-change-made-without-technical-terms) that keeps the year-end summary easy to write."
       ),
     ],
     faqs: [
@@ -365,7 +365,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "A practice can hire a freelance writer for its blog safely by giving the writer topics and published facts only, never patient information or records, by using a written agreement, and by having a licensed clinician review every post before it is published. Keep the writer out of the practice's systems.",
     author: "Gio LaRoche",
     publishDate: "2026-11-05T10:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("Start with what the writer never needs"),
@@ -402,7 +402,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "Read the first draft for plain words and for honest claims, not for length. A good post answers one question completely, in language a patient would use. The advice in [plain language and reading level for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content) is a useful yardstick. Reject any draft that sounds like it was written for search engines, with repeated phrases and no practical detail."
       ),
       p(
-        "Start with one paid trial post before agreeing to a monthly arrangement. If you are unsure how many posts the site needs, [how often a medical practice should blog](/guides/should-a-medical-practice-blog-and-how-often) gives a realistic pace for a small office."
+        "Start with one paid trial post before agreeing to a monthly arrangement. If you are unsure how many posts the site needs, [how often a medical practice should blog](/guides/should-a-medical-practice-blog-and-how-often) gives a realistic pace for a small office. The same care applies to anyone doing website work, so see these [questions to ask a freelancer before a small website fix](/guides/questions-to-ask-a-freelance-web-developer-before-a-small-fix-on-a-medical-practice-website)."
       ),
     ],
     faqs: [

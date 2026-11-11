@@ -1078,7 +1078,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Count three numbers every month: calls from new patients, online requests, and new patient visits actually booked. Add where each came from when you know it. One small sheet, filled in by the front desk and read by the owner, shows whether marketing is bringing in patients and where the leaks are.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("Why clicks and rankings are not the number"),
@@ -1118,7 +1118,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("An example month, for illustration only"),
       p(
-        "Imagine a practice that logs 24 first-time calls and 11 online requests in a month, which makes 35 inquiries. Suppose 19 of them end with a booked first visit. That is a little over half, and the sheet shows where the rest went: six were out of network, five never answered the callback and five could not find a time. The owner now has three separate problems with three separate fixes, instead of one vague feeling that marketing is not working. These numbers are made up to show the method, not a benchmark. Once you have three months of numbers, [setting simple monthly goals for calls and forms](/guides/setting-simple-monthly-goals-for-calls-and-forms-for-a-small-medical-practice-website) shows how to turn the average into a modest goal and a named plan."
+        "Imagine a practice that logs 24 first-time calls and 11 online requests in a month, which makes 35 inquiries. Suppose 19 of them end with a booked first visit. That is a little over half, and the sheet shows where the rest went: six were out of network, five never answered the callback and five could not find a time. The owner now has three separate problems with three separate fixes, instead of one vague feeling that marketing is not working. These numbers are made up to show the method, not a benchmark. Once you have three months of numbers, [setting simple monthly goals for calls and forms](/guides/setting-simple-monthly-goals-for-calls-and-forms-for-a-small-medical-practice-website) shows how to turn the average into a modest goal and a named plan. The totals from the sheet can feed a [plain monthly note to the owner](/guides/plain-monthly-note-to-a-practice-owner-summarizing-calls-forms-and-one-change-made-without-technical-terms) that fits on half a page."
       ),
     ],
     faqs: [
@@ -1164,7 +1164,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Send a test message through your own contact form each month using a dummy name with no health details, and confirm it lands in the inbox of the person who handles inquiries. If it lands in spam or never arrives, check the sending address, the domain's email records and the form's notification setting, then test again.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("A form can look fine and still lose every message"),
@@ -1202,7 +1202,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Write the safety net"),
       p(
-        "Beyond the monthly test, add a second path: a visible phone number next to the form, and a line on the page saying that if no reply arrives in one business day, the visitor should call. Pair this with the spam steps in our guide on [what belongs on a contact page](/guides/what-to-put-on-a-medical-practice-contact-page)."
+        "Beyond the monthly test, add a second path: a visible phone number next to the form, and a line on the page saying that if no reply arrives in one business day, the visitor should call. Pair this with the spam steps in our guide on [what belongs on a contact page](/guides/what-to-put-on-a-medical-practice-contact-page). If the test shows mail landing in spam, the next thing to check is [SPF, DKIM and DMARC for the practice domain](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox)."
       ),
     ],
     faqs: [

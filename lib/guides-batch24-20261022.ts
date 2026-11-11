@@ -656,7 +656,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "An accessibility statement tells visitors that the practice cares about access, names the standard it works toward, and gives a phone number and email to report a barrier. It should be honest about known gaps, offer another way to get the same information, and never claim the site is fully accessible.",
     author: "Gio LaRoche",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("What the statement does"),
@@ -694,7 +694,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Record and fix"),
       p(
-        "Log each report with the date, the page, the problem and who owns the fix. Test the page again with a keyboard and a screen reader after the change, and write back to the person to say what was done. Our guide to [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) explains the most common problems to check first."
+        "Log each report with the date, the page, the problem and who owns the fix. Test the page again with a keyboard and a screen reader after the change, and write back to the person to say what was done. Our guide to [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) explains the most common problems to check first. Before publishing the statement, run the [five-minute keyboard-only test](/guides/five-minute-keyboard-only-test-of-a-medical-practice-website-that-a-practice-owner-can-run-without-technical-skills) so the page matches what visitors actually experience."
       ),
       h2("Placing and maintaining it"),
       ul(

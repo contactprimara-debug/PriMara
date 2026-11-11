@@ -1095,7 +1095,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "On a phone, a pop-up, cookie banner or chat widget that covers the page can hide the call button and drive visitors away. Keep overlays small, delay them, make them easy to close, and test the page on a real phone to confirm the phone number and booking button stay visible.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("Why overlays hurt on a phone"),
@@ -1135,7 +1135,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Speed matters too"),
       p(
-        "Each widget adds scripts, and scripts slow the page. After removing or shrinking an overlay, re-run a speed test and compare, using the approach in [the core web vitals checklist for a medical practice website](/guides/core-web-vitals-checklist-for-a-medical-practice-website). A faster page with fewer boxes is usually the one that earns the call. Before a web company adds another widget, [ask it these questions about speed, data and removal](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) and keep the answers in writing."
+        "Each widget adds scripts, and scripts slow the page. After removing or shrinking an overlay, re-run a speed test and compare, using the approach in [the core web vitals checklist for a medical practice website](/guides/core-web-vitals-checklist-for-a-medical-practice-website). A faster page with fewer boxes is usually the one that earns the call. Before a web company adds another widget, [ask it these questions about speed, data and removal](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) and keep the answers in writing. After adding or removing a banner, check the page with the [ten-minute second browser and older phone test](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) before telling the team it is live."
       ),
     ],
     faqs: [
