@@ -340,6 +340,16 @@ export const guidesPartForty5C: Guide[] = [
       p(
         "A test message should contain no names or health details. Use a plain line such as 'test message' and send it from the system you want to check. Our guide on [contact form emails going to spam or never arriving](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) walks through the delivery test, and [professional domain email instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) explains why mail from a practice domain is trusted more than free addresses. Remember that these settings help delivery; they do not make email a safe place for health details, which the [HHS email FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/570/does-hipaa-permit-health-care-providers-to-use-email-to-discuss-health-issues-with-patients/index.html) addresses."
       ),
+      h2("Signs that something is wrong"),
+      ul(
+        "Patients say they never got a confirmation or reminder.",
+        "Replies to your messages are slow because the first message landed in spam.",
+        "Someone tells you they received an email that looked like it came from your practice and you did not send it.",
+        "A vendor changed the form or reminder tool and nobody rechecked delivery."
+      ),
+      p(
+        "Any one of these is a reason to ask your provider for a delivery test the same week."
+      ),
     ],
     faqs: [
       {
@@ -432,6 +442,15 @@ export const guidesPartForty5C: Guide[] = [
       ),
       p(
         "The page itself should match your other listings. See [claiming Yelp and Facebook pages and keeping them consistent](/guides/yelp-and-facebook-pages-for-a-medical-practice-claiming-them-and-keeping-them-consistent) and the guide on [what to post and never post on social media](/guides/social-media-accounts-for-a-medical-practice-what-to-post-and-what-never-to-post)."
+      ),
+      h2("Three messages and how to answer them"),
+      ul(
+        "'Are you taking new patients?' Answer with the current status from your website and give the phone number to book.",
+        "'What are your hours on Friday?' Give the hours exactly as written on your Google profile and website.",
+        "A message that describes a symptom or a medication: do not respond to the content. Reply with the standard wording and the phone number, and tell the office manager."
+      ),
+      p(
+        "Having these three examples at the front desk makes the rule easy to follow on a busy day. Add examples from the messages your page actually receives, with the names and details removed."
       ),
     ],
     faqs: [
@@ -535,6 +554,10 @@ export const guidesPartForty5C: Guide[] = [
       ),
       p(
         "When someone leaves, follow [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice), and keep the list next to your [vendor contact sheet](/guides/one-page-vendor-contact-sheet-for-a-medical-practice-website-host-domain-phone-carrier-and-google-profile). If a vendor asks for owner rights, our guide on [who should own the practice's Google accounts](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why the answer should be no."
+      ),
+      h2("When a vendor asks for more access"),
+      p(
+        "Sometimes a vendor asks for a higher role for a specific task, such as owner access to transfer a profile or administrator access to link another account. Ask what the task is, how long it will take and whether you can do the step yourself while they watch. If a higher role is needed, grant it for the task, write the date in your change log and lower it afterward."
       ),
     ],
     faqs: [

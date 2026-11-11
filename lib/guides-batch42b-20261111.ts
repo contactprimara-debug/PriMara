@@ -504,6 +504,16 @@ export const guidesPartForty5B: Guide[] = [
       p(
         "Some small sites have none. In that case ask for three things: a backup first, the change made outside office hours, and a check of the phone number, form and key pages right afterward. Our guide on [backups, uptime monitoring and maintenance](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice) covers what a basic maintenance setup should include."
       ),
+      h2("What a good test on staging looks like"),
+      ul(
+        "The vendor lists what changed, in one sentence, before you open the copy.",
+        "You check the phone number, hours and the contact form fields on the copy.",
+        "You open the copy on a phone as well as a computer.",
+        "You reply 'approved' or send corrections, and nothing goes live until you do."
+      ),
+      p(
+        "Keep the approval email with your change log. It is the record that the practice, not only the vendor, signed off on what patients saw."
+      ),
     ],
     faqs: [
       {
