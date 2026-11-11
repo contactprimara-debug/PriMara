@@ -2056,7 +2056,7 @@ export const guidesPartThirteen: Guide[] = [
     "answer": "Physician directories such as Healthgrades, Zocdoc and Vitals often rank for a provider's name and can feed what AI assistants repeat. Claim each profile for free, match your name, address, phone, specialty and insurance to your website, and recheck twice a year. Evaluate paid products on patient volume, not on SEO promises.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-06T09:00:00Z",
-    "dateModified": "2026-10-21",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -2134,7 +2134,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Set a calendar reminder to review every claimed profile twice a year, and check them whenever a provider's details change. Keep a simple list of each directory, the login owner, the date you last checked and what you changed. That list is what lets a new office manager take over without starting from zero. Practices with privileges at a local hospital should also check the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), since that page often ranks for a clinician's name."
+        "text": "Set a calendar reminder to review every claimed profile twice a year, and check them whenever a provider's details change. Keep a simple list of each directory, the login owner, the date you last checked and what you changed. That list is what lets a new office manager take over without starting from zero. Practices with privileges at a local hospital should also check the [hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory), since that page often ranks for a clinician's name. Counseling practices should also read the guide on [therapist directory profiles](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice), which covers the directories their clients use."
       }
     ],
     "faqs": [

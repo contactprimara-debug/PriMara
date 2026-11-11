@@ -274,7 +274,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A caregiver support counseling page should speak to the person caring for a parent, spouse or child, say who the practice sees and when, explain fees and privacy, and point to local and national caregiver resources. It should describe the kind of support offered without promising relief, naming diagnoses or implying results.",
     author: "Liam Costello",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("The reader is tired, not browsing"),
@@ -323,7 +323,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "Put a tap-to-call number at the top and again at the bottom. If you take messages by form, keep the form to a name, a phone number and a preferred time to call, and tell people not to describe symptoms there. Our page on [free consultation calls](/guides/free-consultation-call-page-for-a-therapy-practice-what-to-say-and-what-to-avoid) explains how to word the short first call so it feels low pressure."
       ),
       p(
-        "Review the page every six months. Programs listed under community help close or change their hours, and a dead link on a caregiver page tells a worn-out reader that nobody is paying attention."
+        "Review the page every six months. Programs listed under community help close or change their hours, and a dead link on a caregiver page tells a worn-out reader that nobody is paying attention. Caregivers who have lost someone may also look for the [grief counseling page](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) of the practice, so link the two pages."
       ),
     ],
     faqs: [

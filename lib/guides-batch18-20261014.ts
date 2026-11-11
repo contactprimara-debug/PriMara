@@ -47,7 +47,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "An after-visit follow-up email from a primary care practice should say thank you, point to the secure portal for anything personal, give the front desk phone number, and ask for nothing sensitive in reply. Leave out the reason for the visit, test names and anything a stranger could learn by reading over a shoulder.",
     author: "Liam Costello",
     publishDate: "2026-10-14T09:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("What the follow-up email is for"),
@@ -100,7 +100,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Count outcomes at the practice level, not the patient level. Track how many follow-ups went out each week, how many review invitations were clicked, and how many calls to the front desk began with a question the email should have answered. If a particular question keeps arriving, add one sentence about it. If nobody ever clicks the portal link, move it higher."
       ),
       p(
-        "Review the template every quarter with the person who answers the phone. Staff hear the confusion that analytics cannot see, and they will tell you which line patients misread. The email can say that the summary is ready and link to an [after visit summary explained page for a primary care practice](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) that describes where patients find the document and who to call about it. Send these messages from an address on the practice domain, as in [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so patients trust them and they reach the inbox."
+        "Review the template every quarter with the person who answers the phone. Staff hear the confusion that analytics cannot see, and they will tell you which line patients misread. The email can say that the summary is ready and link to an [after visit summary explained page for a primary care practice](/guides/after-visit-summary-explained-page-for-a-primary-care-practice-without-clinical-advice) that describes where patients find the document and who to call about it. Send these messages from an address on the practice domain, as in [professional domain email for a medical practice instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so patients trust them and they reach the inbox. Reminders before the visit follow the same rules, as described in [appointment reminder wording for a primary care practice](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details)."
       ),
     ],
     faqs: [

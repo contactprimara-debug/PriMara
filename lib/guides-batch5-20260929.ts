@@ -389,7 +389,7 @@ export const guidesPartEight: Guide[] = [
       "The Google Business Profile services list should name every real service the practice offers as its own individual line item, in the patient's own language rather than clinical shorthand, matched to the primary category chosen for the listing — a practice that lumps everything into three vague categories is invisible to the specific searches ('does this urgent care do sports physicals') that a fully built-out services list captures automatically.",
     author: "Liam Costello",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "The services list is a search-matching tool, not a brochure" },
@@ -429,7 +429,7 @@ export const guidesPartEight: Guide[] = [
       },
       {
         type: "p",
-        text: "For a practice running its own Google Business Profile without outside help, a simple test catches most of the gap: have someone unfamiliar with the practice try to search for five or six specific things the practice actually does, the way a patient would phrase it, and see whether each one is represented in the services list as its own entry. Anything missing from that quick test is exactly what should be added first. Keep the services list consistent with your insurance details, which [how to build an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) explains. Once the services are right, make sure the profile's booking button points to the right page, as covered in [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile). Services only help when they sit under the right category, so check your primary and secondary choices against the guide to [choosing Google Business Profile categories for a medical practice](/guides/choosing-google-business-profile-categories-for-a-medical-practice) before you add more items to the list.",
+        text: "For a practice running its own Google Business Profile without outside help, a simple test catches most of the gap: have someone unfamiliar with the practice try to search for five or six specific things the practice actually does, the way a patient would phrase it, and see whether each one is represented in the services list as its own entry. Anything missing from that quick test is exactly what should be added first. Keep the services list consistent with your insurance details, which [how to build an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) explains. Once the services are right, make sure the profile's booking button points to the right page, as covered in [adding an appointment or booking link to a Google Business Profile](/guides/how-to-add-an-appointment-or-booking-link-to-a-google-business-profile). Services only help when they sit under the right category, so check your primary and secondary choices against the guide to [choosing Google Business Profile categories for a medical practice](/guides/choosing-google-business-profile-categories-for-a-medical-practice) before you add more items to the list. The services list should match your categories, so check [how to choose Google Business Profile categories](/guides/choosing-google-business-profile-categories-for-a-medical-practice) first.",
       },
     ],
     faqs: [
@@ -769,7 +769,7 @@ export const guidesPartEight: Guide[] = [
       "A local citation is any online listing of a practice's name, address, and phone number — directories, insurance networks, medical association listings, the chamber of commerce — and they influence local search ranking through consistency, not volume: fifteen accurate, matching citations help more than fifty with even minor address or phone variations, so a citation project should start by finding and fixing existing wrong listings before adding new ones.",
     author: "Gio LaRoche",
     publishDate: "2026-09-29T09:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Citations are a trust signal built on consistency, not a volume game" },
@@ -815,7 +815,7 @@ export const guidesPartEight: Guide[] = [
       { type: "h2", text: "A realistic first pass" },
       {
         type: "p",
-        text: "Start by searching the practice's own name and phone number in Google, not just checking a citation tool's report — this surfaces directories a tool might miss, including old ones from before a rebrand or move. Note every listing found, correct the wrong ones starting with the highest-traffic sources, then decide which of the remaining real, relevant directories the practice isn't listed on yet and add those last. This whole first pass is usually a half-day project for a single-location practice, worth doing once thoroughly rather than a little at a time over months. Every directory on your citation list will need the new address, so use the [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) as the working list for a move.",
+        text: "Start by searching the practice's own name and phone number in Google, not just checking a citation tool's report — this surfaces directories a tool might miss, including old ones from before a rebrand or move. Note every listing found, correct the wrong ones starting with the highest-traffic sources, then decide which of the remaining real, relevant directories the practice isn't listed on yet and add those last. This whole first pass is usually a half-day project for a single-location practice, worth doing once thoroughly rather than a little at a time over months. Every directory on your citation list will need the new address, so use the [office move checklist for a medical practice](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) as the working list for a move. Therapist directories are a special case, covered in [Psychology Today and therapist directory profiles for a counseling practice](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice).",
       },
     ],
     faqs: [

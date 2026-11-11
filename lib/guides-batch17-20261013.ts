@@ -548,7 +548,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "If patients do not answer reminder or callback calls, your practice number may be labeled Spam Likely by phone carriers or call-blocking apps. Check the number on your carrier's tools, ask your phone provider to register it, and request a review through each carrier's reputation program. Fixes take days, so test and record before and after.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T10:00:00Z",
-    "dateModified": "2026-11-10",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -656,7 +656,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you track calls with a tracking number, check that one too. Call tracking numbers are newer and have no history, so they are sometimes flagged more readily than an established line. Our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) covers how to set up lines so every one of them is answered. Patients may also receive scam texts that imitate the practice, which our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) tells you how to answer."
+        "text": "If you track calls with a tracking number, check that one too. Call tracking numbers are newer and have no history, so they are sometimes flagged more readily than an established line. Our guide on [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) covers how to set up lines so every one of them is answered. Patients may also receive scam texts that imitate the practice, which our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) tells you how to answer. Patients who receive a suspicious text from a number that is not yours can be answered with [this guide on scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients)."
       },
       {
         "type": "h3",
@@ -1823,7 +1823,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A refill request page explains how patients ask for a refill, how much notice the office needs, how to name their pharmacy and what happens next. It stays about process: no medication guidance, no dosing and no advice on missed doses. Point patients to the portal or phone, and to 911 for emergencies.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-13T13:00:00Z",
-    "dateModified": "2026-11-06",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -1934,6 +1934,10 @@ export const guidesPartTwenty: Guide[] = [
       {
         "q": "Should the page list medications?",
         "a": "No. Naming medicines or doses moves the page toward clinical advice. Keep it about the process."
+      },
+      {
+        "q": "Who should read the refill page before it goes live?",
+        "a": "The front desk lead and the nurse or medical assistant who handles refill calls. They should confirm that each step on the page matches what actually happens in the office."
       }
     ],
     "citations": [
@@ -2345,7 +2349,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A results and messages page tells patients how test results reach them, that results may appear in the portal before a clinician has reviewed them, how long portal messages usually take to answer, and where to call if they are worried. It gives no interpretation of any result and always shows an emergency notice.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T14:00:00Z",
-    "dateModified": "2026-10-26",
+    "dateModified": "2026-11-11",
     "readMinutes": 6,
     "sections": [
       {
@@ -2455,7 +2459,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who send forms for leave or disability through the portal will need their own instructions, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) covers in plain terms."
+        "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who send forms for leave or disability through the portal will need their own instructions, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) covers in plain terms. Refill requests need their own page, as described in [the prescription refill request page for a primary care practice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice)."
       },
       {
         "type": "h3",

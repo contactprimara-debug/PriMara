@@ -28,7 +28,7 @@ export const guidesPartTen: Guide[] = [
       "Attributes are the checkboxes on a Google Business Profile — wheelchair accessible entrance, online appointments, women-led, and dozens more — that let Google Maps filter and badge your listing for specific searches. Some you set yourself in the GBP dashboard; others are crowd-sourced from patients and need regular review, because anyone can suggest one.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-16",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "What an attribute actually is" },
@@ -57,7 +57,7 @@ export const guidesPartTen: Guide[] = [
       { type: "h2", text: "Keeping them accurate over time" },
       {
         type: "p",
-        text: "Because some attributes are user-suggested, check your profile's attribute list every few months the same way you'd check hours or phone number. A patient who suggests 'wheelchair accessible' for a building that was renovated and no longer has a ramp creates a real problem: someone who needs that filter arrives expecting it. Google Business Profile Manager shows pending suggested edits for review before they go live for most fields, but attributes can sometimes apply directly — so a periodic manual check matters, not just a reactive one when something gets reported to you. Details that do not fit an attribute belong in the short text field, and our guide to [writing the profile description](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice) explains what to say there. If a provider has an individual profile as well as the practice, check each one separately, as our guide on [practitioner versus practice listings](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains.",
+        text: "Because some attributes are user-suggested, check your profile's attribute list every few months the same way you'd check hours or phone number. A patient who suggests 'wheelchair accessible' for a building that was renovated and no longer has a ramp creates a real problem: someone who needs that filter arrives expecting it. Google Business Profile Manager shows pending suggested edits for review before they go live for most fields, but attributes can sometimes apply directly — so a periodic manual check matters, not just a reactive one when something gets reported to you. Details that do not fit an attribute belong in the short text field, and our guide to [writing the profile description](/guides/how-to-write-a-google-business-profile-description-for-a-medical-practice) explains what to say there. If a provider has an individual profile as well as the practice, check each one separately, as our guide on [practitioner versus practice listings](/guides/practitioner-listing-vs-practice-listing-on-google-for-a-multi-provider-practice) explains. Attributes work best on top of the right categories, which are covered in [choosing Google Business Profile categories for a medical practice](/guides/choosing-google-business-profile-categories-for-a-medical-practice).",
       },
     ],
     faqs: [

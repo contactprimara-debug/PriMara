@@ -557,7 +557,7 @@ export const guidesPartThirty: Guide[] = [
       "If a copycat website or fake social profile imitates your medical practice, document it with dated screenshots and web addresses, report it to the host, platform and the FTC, tell patients how to reach the real office, and keep your own listings accurate. Do not contact the operator or share any patient information.",
     author: "Gio LaRoche",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-10-27",
+    dateModified: "2026-11-11",
     readMinutes: 7,
     sections: [
       h2("What a copycat looks like"),
@@ -604,7 +604,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h3("Keep a log"),
       p(
-        "Record each report, the date, the contact and the reply. Takedowns can take days, and a log lets you follow up without starting over and gives your attorney a clean record."
+        "Record each report, the date, the contact and the reply. Takedowns can take days, and a log lets you follow up without starting over and gives your attorney a clean record. Fake messages that arrive by text or email are a related problem, and our guide on [scam texts and emails that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) gives staff the words to tell patients."
       ),
     ],
     faqs: [

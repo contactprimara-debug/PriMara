@@ -430,7 +430,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "Provider headshots and team photos should be recent, consistent in style, taken with each person's agreement, compressed for fast loading and given plain alt text with the person's name and role. Check the background for patient information, and replace photos when a person leaves or looks noticeably different.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Why a headshot matters more than most pages admit"),
@@ -480,7 +480,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("A simple standard to write down"),
       p(
-        "Put the rules on one page the whole team can see: the background, the crop sizes, the maximum file size, the naming pattern and who approves a new photo. When a new provider starts, the practice manager follows the page instead of improvising, and the team page stays consistent for years. It also makes redoing the photos in two or three years much faster, because the standard is already written."
+        "Put the rules on one page the whole team can see: the background, the crop sizes, the maximum file size, the naming pattern and who approves a new photo. When a new provider starts, the practice manager follows the page instead of improvising, and the team page stays consistent for years. It also makes redoing the photos in two or three years much faster, because the standard is already written. The same photos should go on the Google profile, which is covered in the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist)."
       ),
     ],
     faqs: [
@@ -604,6 +604,10 @@ export const guidesPartTwentyFour: Guide[] = [
         q: "What about reminders for therapy sessions?",
         a: "The same principle applies, and the stakes are higher. Use the practice name and time only, never the clinician's specialty or session type, and ask clients which method they want before sending anything.",
       },
+      {
+        q: "Should a reminder include the provider's name?",
+        a: "Many practices use the practice name, date and time and leave the provider's name and visit type out, because someone else may see the screen. Decide with your privacy policy and apply the same rule to every reminder.",
+      },
     ],
     citations: [HHS_MARKETING, HHS_EMAIL, GOOGLE_HELPFUL],
     links: [
@@ -627,7 +631,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A pharmacy and lab partner page tells patients where the office sends prescriptions and lab orders, how to pick a different location, and how to get results, without recommending a product or collecting health information. List locations factually, state that patients may choose their own, and keep the page free of ads and conflicts of interest.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T10:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Why patients look for this page"),
@@ -673,7 +677,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Test the page the way a patient would"),
       p(
-        "Ask a colleague who does not work at the office to find their pharmacy and a lab on the page and to say how to change a pharmacy. If they hesitate, rewrite that part. Keep the page short, put the most common action first and keep the language free of jargon, because most patients reading it have just left a visit and want an answer in seconds. When patients ask how to request a refill from the pharmacy you list, point them to a [refill request page that explains the process without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) so the front desk answers the same way every time."
+        "Ask a colleague who does not work at the office to find their pharmacy and a lab on the page and to say how to change a pharmacy. If they hesitate, rewrite that part. Keep the page short, put the most common action first and keep the language free of jargon, because most patients reading it have just left a visit and want an answer in seconds. When patients ask how to request a refill from the pharmacy you list, point them to a [refill request page that explains the process without clinical advice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) so the front desk answers the same way every time. Patients often ask about refills at the same time, so link to the [prescription refill request page](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice)."
       ),
     ],
     faqs: [

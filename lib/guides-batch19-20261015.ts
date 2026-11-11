@@ -766,7 +766,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Treat a therapist directory profile as a landing page you do not control. Use the same name, address, phone and license details as your website, write in plain words without outcome claims, link to a page on your own site and check the profile twice a year. Paid listings should earn their cost in calls or booked consults.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T11:20:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Why directories still matter for therapists"),
@@ -837,6 +837,10 @@ export const guidesPartTwentyTwo: Guide[] = [
       {
         q: "Do directory links help SEO?",
         a: "A link from a reputable directory can help a little, and the profile itself can rank for your name. The bigger benefit is being visible to people already searching for a therapist.",
+      },
+      {
+        q: "How often should we check our directory profile?",
+        a: "Check the main details each quarter, and any time the practice phone number, hours, accepted insurance or clinician list changes. A directory page that was right a year ago may now send callers to the wrong number.",
       },
     ],
     citations: [{ publisher: "American Psychological Association", label: "Ethical principles of psychologists and code of conduct", href: "https://www.apa.org/ethics/code" }, FL_MENTAL, FTC_ADS],

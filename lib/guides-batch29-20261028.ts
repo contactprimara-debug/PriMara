@@ -270,7 +270,7 @@ export const guidesPartThirtyTwo: Guide[] = [
       "An after visit summary explained page tells patients what the summary is, where it appears in the portal or on paper, what sections it usually contains and who to call if something is unclear. It explains the document and its location and gives no advice about any patient's health.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T15:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("A document most patients receive and few understand"),
@@ -308,7 +308,7 @@ export const guidesPartThirtyTwo: Guide[] = [
         "Do not show a sample summary with real or realistic patient detail. Use a clearly labeled blank layout with headings only, or describe the sections in words. Remind patients that a summary contains personal information and should be kept somewhere private, as described in the [HIPAA information for individuals](https://www.hhs.gov/hipaa/for-individuals/index.html)."
       ),
       p(
-        "Our guide to [after visit follow up emails](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details) shows how to tell patients a summary is ready without putting health details in the message. The two pages work together: the email says it is ready, and this page explains it."
+        "Our guide to [after visit follow up emails](/guides/after-visit-follow-up-emails-for-a-primary-care-practice-without-health-details) shows how to tell patients a summary is ready without putting health details in the message. The two pages work together: the email says it is ready, and this page explains it. Questions about refills belong on a separate [prescription refill request page](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice) so the summary page stays focused."
       ),
       h2("Keep the page useful"),
       ul(

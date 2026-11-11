@@ -610,7 +610,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A grief counseling page should speak gently, say who the counselor is and how sessions work, and describe the support as a place to talk, not a way to fix or end grief. It should avoid timelines, stages presented as rules, and claims of healing, and it should include crisis resources for someone in distress.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Begin where the reader is"),
@@ -653,6 +653,10 @@ export const guidesPartTwentyThree: Guide[] = [
       p(
         "Finish with a booking path that is easy to find, such as a phone number and a short form, as described in our guide on [what to put on a first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice). Keep it low pressure: a call or a message is the first step, and nobody has to commit to a series of sessions."
       ),
+      h2("Anniversaries, holidays and availability"),
+      p(
+        "Many people look for grief support around anniversaries and holidays, and a short note about availability during those weeks helps them know when to call. Keep the note about scheduling only: which days the office is open, how soon someone replies and how to reach the office. Our guide on a [holiday-season scheduling announcement](/guides/holiday-season-scheduling-and-availability-announcement-for-a-counseling-practice) shows how to write one without describing how anyone will feel. If the practice also offers evening or telehealth sessions, say so plainly on the page, because a person in grief may find it hard to arrange a daytime visit."
+      ),
     ],
     faqs: [
       {
@@ -674,6 +678,10 @@ export const guidesPartTwentyThree: Guide[] = [
       {
         q: "Do we need crisis information on a grief page?",
         a: "Yes. Include 988 for emotional crisis and 911 for emergencies, in a place a tired reader will see. It costs nothing and may matter a great deal.",
+      },
+      {
+        q: "Should the page list the kinds of loss the practice sees?",
+        a: "Name the situations in plain words, such as the loss of a spouse, parent, child or friend, and leave out any description of how a person will feel or recover. The page should help a reader see that the practice is a fit, not predict an outcome.",
       },
     ],
     citations: [LIFELINE, FL_MENTAL, GOOGLE_HELPFUL],

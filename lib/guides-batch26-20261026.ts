@@ -137,7 +137,7 @@ export const guidesPartTwentyNine: Guide[] = [
       "A holiday season announcement for a counseling practice names the closed days, explains how clients can still book or move a session, says what to do if they need help while the office is closed, and gives the date regular hours return. Post it two to three weeks ahead and always include crisis resources.",
     author: "Gio LaRoche",
     publishDate: "2026-10-26T09:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Why the holidays need their own announcement"),
@@ -184,7 +184,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Plan for the first week back"),
       p(
-        "The first week of January is often busy. Clients who paused in December ask to return, and new visitors reach out as the calendar turns. Decide before the break how openings will be offered, whether through a short waitlist, a callback list or limited extra sessions, and tell the front desk what to say. A line on the announcement saying that messages are answered in the order received, starting the first day back, sets a fair expectation and cuts down on repeat calls."
+        "The first week of January is often busy. Clients who paused in December ask to return, and new visitors reach out as the calendar turns. Decide before the break how openings will be offered, whether through a short waitlist, a callback list or limited extra sessions, and tell the front desk what to say. A line on the announcement saying that messages are answered in the order received, starting the first day back, sets a fair expectation and cuts down on repeat calls. If the practice supports grief, the announcement pairs well with a [grief counseling page](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) that explains availability without clinical claims."
       ),
     ],
     faqs: [
@@ -749,7 +749,7 @@ export const guidesPartTwentyNine: Guide[] = [
       "An older adult counseling page explains who the practice sees, how Medicare and other coverage work, how clients can attend in person or by video, how family members can take part with consent, and where to find urgent help. It is easy to read, free of clinical claims and respectful of the client's independence.",
     author: "Liam Costello",
     publishDate: "2026-10-26T13:40:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("Two readers, one page"),
@@ -789,7 +789,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Plan for hearing and vision"),
       p(
-        "Some older clients have trouble hearing a phone call or reading small print. Offer to repeat information, to send a printed copy of appointment details and to adjust the font on any digital form. Tell clients that a family member or aide may accompany them to the first visit with their permission. These small details signal respect more than a headline can, and they cost the practice almost nothing to provide. Many older adults come to counseling after a loss, so a practice may want a companion page written in the tone of [a grief counseling page without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) with plain words and a crisis line."
+        "Some older clients have trouble hearing a phone call or reading small print. Offer to repeat information, to send a printed copy of appointment details and to adjust the font on any digital form. Tell clients that a family member or aide may accompany them to the first visit with their permission. These small details signal respect more than a headline can, and they cost the practice almost nothing to provide. Many older adults come to counseling after a loss, so a practice may want a companion page written in the tone of [a grief counseling page without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) with plain words and a crisis line. Loss is a common reason older adults call, so a separate [grief counseling page](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) can describe that support in plain words."
       ),
     ],
     faqs: [

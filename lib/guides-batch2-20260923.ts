@@ -290,7 +290,7 @@ export const guidesPartFive: Guide[] = [
       "Your Google Business Profile primary category should match the single service patients most associate with you — \"Family practice physician\" for a general practice, \"Mental health counselor\" for a counseling practice — because it carries the most weight in Google's ranking for that term. Secondary categories (up to nine more) should cover other real services you offer, never terms you're hoping to rank for but don't actually provide.",
     author: "Liam Costello",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "Why category choice matters more than most practices realize" },
@@ -332,6 +332,10 @@ export const guidesPartFive: Guide[] = [
       {
         type: "callout",
         text: "Review your categories any time you add, drop, or meaningfully change a service line — not just at initial setup. A category list frozen from when the profile was created is one of the most common, easiest-to-fix GBP gaps we find in an audit. For a worked example, see [which Google Business Profile categories primary care doctors should use](/blog/gbp-categories-for-primary-care-doctors).",
+      },      { type: "h2", text: "A yearly category check" },
+      {
+        type: "p",
+        text: "Put the category list on your calendar once a year. Open the profile, read the primary and secondary categories out loud and compare them with the services the practice offers today. If a service was added or dropped since the profile was created, update the categories to match. The [monthly profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) is a good place to record the date you last checked.",
       },
     ],
     faqs: [
@@ -340,6 +344,10 @@ export const guidesPartFive: Guide[] = [
       { q: "Can I add a category for a service I plan to offer soon?", a: "No — categories should reflect services you currently offer, not planned ones. Adding aspirational categories risks a profile suspension for misrepresentation and misleads anyone who calls expecting that service today. This is one of the items we walk through personally with every new practice." },
       { q: "How often should I review my GBP categories?", a: "Any time you add, drop, or meaningfully change a service line, and at minimum once a year as a check — not just when the profile was first set up. We're happy to go deeper on this for your specific market during a free audit." },
       { q: "Does changing my primary category affect my existing rankings?", a: "It can, temporarily — Google may take some time to re-evaluate ranking signals after a category change, and significant changes occasionally trigger a re-verification step. This is normal and not a sign something went wrong. You can ask about your specific practice on a free audit call before deciding anything." },
+      {
+        q: "How often should we review our Google Business Profile categories?",
+        a: "At least once a year, and any time the practice adds or drops a service. A category list set when the profile was first created is easy to forget and may no longer describe what the practice does.",
+      },
     ],
     citations: [
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },

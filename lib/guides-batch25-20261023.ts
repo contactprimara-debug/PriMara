@@ -892,7 +892,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "An office tour page shows a new patient what the visit will look like: the entrance, parking, waiting room, check-in desk and exam area, in real photos with plain captions. Use no patients in the pictures, add descriptive alt text, and match the images to your Google profile.",
     author: "Gio LaRoche",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-11",
     readMinutes: 6,
     sections: [
       h2("What a tour page does for a new patient"),
@@ -942,7 +942,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Keep the page current"),
       p(
-        "Add a calendar reminder to retake photos when the office is repainted, moved, renovated or when signs change. Check the page at your yearly website review, and compare it with the images on the Google profile. If a patient mentions that the building did not look like the photo, treat it as a bug and fix it that week. Keep patients out of the pictures unless they have agreed in writing, and use the plain wording ideas in [patient photo and video release wording for a practice website](/guides/patient-photo-and-video-release-wording-for-images-on-a-medical-practice-website) so your attorney has a clear draft to review."
+        "Add a calendar reminder to retake photos when the office is repainted, moved, renovated or when signs change. Check the page at your yearly website review, and compare it with the images on the Google profile. If a patient mentions that the building did not look like the photo, treat it as a bug and fix it that week. Keep patients out of the pictures unless they have agreed in writing, and use the plain wording ideas in [patient photo and video release wording for a practice website](/guides/patient-photo-and-video-release-wording-for-images-on-a-medical-practice-website) so your attorney has a clear draft to review. Reuse the best office photos on the Google profile, following the [photos checklist for a Google Business Profile](/guides/google-business-profile-photos-checklist)."
       ),
     ],
     faqs: [

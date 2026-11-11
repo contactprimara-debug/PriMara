@@ -612,7 +612,7 @@ export const guidesPartThirtyEight: Guide[] = [
       "A text opt-in on a web form should be a separate, unchecked box that names the practice, says what kinds of messages will be sent and how often, mentions that message and data rates may apply, explains how to stop, and is not required to submit the form. Keep health details out of every message.",
     author: "Gio LaRoche",
     publishDate: "2026-11-05T11:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("The checkbox is a promise"),
@@ -648,7 +648,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "Store the date, time, the form it came from and the exact wording shown when the person agreed. Without that record, the checkbox proves little. Log it in the system that sends the messages, and do not copy it into the clinical chart. The form fields themselves should stay minimal, in line with the guidance on [what to ask and what to leave out on an appointment request form](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out)."
       ),
       p(
-        "Test the form before launch with a number you control. Submit once with the box checked and once without, and confirm that only the first creates a text subscription. Then reply STOP and confirm that the messages end the same day."
+        "Test the form before launch with a number you control. Submit once with the box checked and once without, and confirm that only the first creates a text subscription. Then reply STOP and confirm that the messages end the same day. Once patients have opted in, the [appointment reminder wording for a primary care practice](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows what each message should and should not say."
       ),
     ],
     faqs: [

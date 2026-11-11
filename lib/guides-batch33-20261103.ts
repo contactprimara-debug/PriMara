@@ -1223,7 +1223,7 @@ export const guidesPartThirtySix: Guide[] = [
       "Use real photos of the clinicians and office wherever possible, because visitors want to know who they will meet. Use licensed stock only for calm, non-human backgrounds, never as pictures that pass for clients, staff or testimonials. Add accurate alt text, and skip images of people in distress.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-03",
+    dateModified: "2026-11-11",
     readMinutes: 5,
     sections: [
       h2("What a photo is doing on a counseling page"),
@@ -1267,7 +1267,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("When in doubt, use fewer images"),
       p(
-        "A counseling site with clear writing, one honest headshot per clinician and a few office photos will usually serve visitors better than a page full of staged imagery. Whitespace is calming, and a page that loads quickly on a phone is more welcoming than any picture."
+        "A counseling site with clear writing, one honest headshot per clinician and a few office photos will usually serve visitors better than a page full of staged imagery. Whitespace is calming, and a page that loads quickly on a phone is more welcoming than any picture. Google also asks for real photos on the profile, so see the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) before you upload."
       ),
     ],
     faqs: [
