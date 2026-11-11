@@ -42,7 +42,7 @@ export const guidesPartTwentyOne: Guide[] = [
     title: "After-Visit Follow-Up Emails for a Primary Care Practice Without Health Details",
     metaTitle: "After-Visit Follow-Up Emails Without Health Details",
     metaDescription:
-      "How a primary care practice can send a useful after-visit email that never mentions a diagnosis, test or treatment. Call (561) 291-2681.",
+      "How a primary care practice can send a useful after-visit email that never mentions a diagnosis, test or treatment, with sample wording. (561) 291-2681",
     answer:
       "An after-visit follow-up email from a primary care practice should say thank you, point to the secure portal for anything personal, give the front desk phone number, and ask for nothing sensitive in reply. Leave out the reason for the visit, test names and anything a stranger could learn by reading over a shoulder.",
     author: "Liam Costello",
@@ -1030,7 +1030,7 @@ export const guidesPartTwentyOne: Guide[] = [
     title: "Holiday and Closure Notices for a Medical Practice: Website, Google Profile and Phone Greeting",
     metaTitle: "Holiday and Closure Notices for a Medical Practice",
     metaDescription:
-      "How a medical practice can announce holiday hours and closures on its website, Google profile and phone greeting. Call (561) 291-2681.",
+      "How a medical practice can announce holiday hours and closures on its website, Google profile and phone greeting so they all match. Call (561) 291-2681.",
     answer:
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",

@@ -23,7 +23,7 @@ export const guidesPartTen: Guide[] = [
     title: "Google Business Profile Attributes, Explained for a Medical Practice",
     metaTitle: "Google Business Profile Attributes for Medical Practices",
     metaDescription:
-      "What GBP attributes are, which ones apply to a medical practice, and who can edit them. Keep your profile accurate. Call (561) 291-2681.",
+      "What Google Business Profile attributes are, which ones apply to a medical practice, who can edit them and how to keep them accurate. Call (561) 291-2681.",
     answer:
       "Attributes are the checkboxes on a Google Business Profile — wheelchair accessible entrance, online appointments, women-led, and dozens more — that let Google Maps filter and badge your listing for specific searches. Some you set yourself in the GBP dashboard; others are crowd-sourced from patients and need regular review, because anyone can suggest one.",
     author: "Gio LaRoche",

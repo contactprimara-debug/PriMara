@@ -425,7 +425,7 @@ export const guidesPartTwentyFour: Guide[] = [
     title: "Provider Headshots and Team Photo Guidelines for a Medical Practice Website",
     metaTitle: "Provider Headshots and Team Photos for a Practice Website",
     metaDescription:
-      "A checklist for provider headshots and team photos on a medical practice website: size, alt text, consent and privacy. Call (561) 291-2681.",
+      "A checklist for provider headshots and team photos on a medical practice website: size, alt text, consent and privacy. Call (561) 291-2681 for help.",
     answer:
       "Provider headshots and team photos should be recent, consistent in style, taken with each person's agreement, compressed for fast loading and given plain alt text with the person's name and role. Check the background for patient information, and replace photos when a person leaves or looks noticeably different.",
     author: "Gio LaRoche",

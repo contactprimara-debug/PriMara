@@ -384,7 +384,7 @@ export const guidesPartEight: Guide[] = [
     title: "Google Business Profile Services List Optimization for a Medical Practice",
     metaTitle: "GBP Services List Optimization for a Practice",
     metaDescription:
-      "How to build out the services section of a medical practice's Google Business Profile correctly, with plain names and honest descriptions. (561) 291-2681",
+      "How to build out the services section of a medical practice's Google Business Profile with plain names and honest descriptions. Call (561) 291-2681.",
     answer:
       "The Google Business Profile services list should name every real service the practice offers as its own individual line item, in the patient's own language rather than clinical shorthand, matched to the primary category chosen for the listing — a practice that lumps everything into three vague categories is invisible to the specific searches ('does this urgent care do sports physicals') that a fully built-out services list captures automatically.",
     author: "Liam Costello",
@@ -764,7 +764,7 @@ export const guidesPartEight: Guide[] = [
     title: "Local Citation Building Checklist for a Medical Practice",
     metaTitle: "Local Citation Building Checklist for a Practice",
     metaDescription:
-      "How to build and clean up the directory listings that reinforce (or undermine) local search rankings. Call (561) 291-2681.",
+      "How a medical practice builds and cleans up the directory listings that reinforce, or undermine, its local search rankings. Call (561) 291-2681 for help.",
     answer:
       "A local citation is any online listing of a practice's name, address, and phone number — directories, insurance networks, medical association listings, the chamber of commerce — and they influence local search ranking through consistency, not volume: fifteen accurate, matching citations help more than fifty with even minor address or phone variations, so a citation project should start by finding and fixing existing wrong listings before adding new ones.",
     author: "Gio LaRoche",

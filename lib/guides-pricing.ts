@@ -606,7 +606,7 @@ export const guidesPartOne: Guide[] = [
     title: "How Much Does a Medical Practice Website Cost?",
     metaTitle: "How Much Does a Medical Practice Website Cost? | Primara",
     metaDescription:
-      "2026 pricing for a medical practice website — template, custom, and multi-location — and what actually drives the number. (561) 291-2681.",
+      "What drives the cost of a medical practice website, from templates to custom and multi-location builds, and what to ask before you sign. (561) 291-2681",
     answer:
       "A medical practice website costs about two thousand to five thousand dollars on a template, eight thousand to twenty-five thousand custom, and twenty-five thousand or more for a multi-location or multi-provider build. Hosting and maintenance add roughly fifty to five hundred dollars a month. Content volume and integrations drive the number far more than design does.",
     author: "Gio LaRoche",

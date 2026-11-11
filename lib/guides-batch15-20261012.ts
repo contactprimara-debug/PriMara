@@ -216,7 +216,7 @@ export const guidesPartEighteen: Guide[] = [
     "category": "How-to",
     "title": "Referral Partner Page for a Primary Care Practice: How Specialists and Hospitals Find You",
     "metaTitle": "Referral Partner Page for a Primary Care Practice",
-    "metaDescription": "What a primary care practice should publish for referring specialists, hospitals and care coordinators: contacts, scope, fax and phone details. (561) 291-2681.",
+    "metaDescription": "What a primary care practice should publish for referring specialists, hospitals and care coordinators: contacts, scope and phone details. (561) 291-2681",
     "answer": "A referral partner page is a plain page for other clinicians and care coordinators. It states who you are, what you accept, how to send a referral and who to contact. Keep it separate from patient copy, keep patient information off it, and make the contact route obvious.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-12T09:00:00Z",

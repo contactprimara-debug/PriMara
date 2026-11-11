@@ -74,7 +74,7 @@ export const guidesPartTwentyThree: Guide[] = [
     title: "Social Media Accounts for a Medical Practice: What to Post and What Never to Post",
     metaTitle: "Medical Practice Social Media: Post and Never Post",
     metaDescription:
-      "A plain checklist of what a medical practice can safely post on social media and what to never publish. Call (561) 291-2681.",
+      "A plain checklist of what a medical practice can safely post on social media and what to never publish, with examples. Call (561) 291-2681 for help.",
     answer:
       "A medical practice's social accounts should share office news, hours, team introductions and general wellness reminders, and should never show a patient's name, photo, story or reply to a comment that confirms someone is a patient. Pick one or two platforms, name one owner, and write down the rules before the first post goes live.",
     author: "Liam Costello",
