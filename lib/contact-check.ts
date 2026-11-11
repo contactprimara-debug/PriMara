@@ -9,12 +9,15 @@
 //  - Email: valid shape; common typos (gmail.con) get a clickable "did you mean" hint.
 //  - Friendly message beside the field. Nothing else is disabled. A typo hint never blocks.
 //  - Empty optional fields are fine. The server re-checks and flags, it never drops a lead.
+//  - 2026-11-11: a complaint stops the first submit only (hint); only empty-required / no-@ values stop every submit.
+//    Every stop fires a "primara:form-blocked" event (field + rule, no personal data) so blocks are countable.
 
 export interface CheckResult {
   ok: boolean;
   message?: string; // friendly text to show beside the field
   suggestion?: string; // "did you mean" value (email only); does not make ok=false
-  blocking?: boolean; // true = stop the submit; false/undefined = hint only
+  blocking?: boolean; // true = stop the FIRST submit so the person sees the message; a second submit goes through
+  hard?: boolean; // true = stop every submit (empty required field, or a value no server could accept). Rare.
 }
 
 const TOP_DOMAINS = [
@@ -80,7 +83,7 @@ export function formatPhone(raw: string): string {
 /** Pure check. `required` false + empty = ok. */
 export function checkPhone(raw: string, required = false): CheckResult {
   const s = String(raw || "").trim();
-  if (!s) return required ? { ok: false, blocking: true, message: "Please add a phone number." } : { ok: true };
+  if (!s) return required ? { ok: false, blocking: true, hard: true, message: "Please add a phone number." } : { ok: true };
   if (/[a-z]/i.test(s.replace(/\b(ext|x)\.?\s*\d+$/i, ""))) {
     return { ok: false, blocking: true, message: "Phone numbers can only use digits, like (555) 123-4567." };
   }
@@ -123,15 +126,19 @@ const EMAIL_SHAPE = /^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9-
 
 export function checkEmail(raw: string, required = false): CheckResult {
   const s = String(raw || "").trim();
-  if (!s) return required ? { ok: false, blocking: true, message: "Please add your email address." } : { ok: true };
+  if (!s) return required ? { ok: false, blocking: true, hard: true, message: "Please add your email address." } : { ok: true };
   const sug = suggestEmail(s);
   const tld = s.slice(s.lastIndexOf(".") + 1);
   const shapeOk =
     EMAIL_SHAPE.test(s) && !/\.\./.test(s) && !/^\.|\.@/.test(s) && /^[A-Za-z]{2,24}$/.test(tld) && s.length <= 254;
   if (!shapeOk) {
+    // Only a value with no @ or no dot after it is hard-blocked (the servers reject exactly that). Anything
+    // else that merely fails our stricter shape (a digit in the TLD, odd characters) is a hint: the person
+    // is told once, a second submit goes through, and the server flags it. A lead is never lost to a rule.
+    const hard = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
     return sug
-      ? { ok: false, blocking: true, suggestion: sug, message: "Did you mean " + sug + "?" }
-      : { ok: false, blocking: true, message: "That email doesn't look right. It should look like name@example.com." };
+      ? { ok: false, blocking: true, hard, suggestion: sug, message: "Did you mean " + sug + "?" }
+      : { ok: false, blocking: true, hard, message: "That email doesn't look right. It should look like name@example.com." };
   }
   if (sug && sug.toLowerCase() !== s.toLowerCase()) {
     return { ok: true, blocking: false, suggestion: sug, message: "Did you mean " + sug + "?" };
@@ -252,16 +259,29 @@ export function attachContactChecks(form: HTMLFormElement): () => void {
   };
   fields().forEach(wire);
 
+  // Count every stopped submit (no personal data: only the field kind and the rule). Sites listen for
+  // "primara:form-blocked" and beacon it; a block nobody counts is how a form silently loses patients.
+  const report = (el: HTMLInputElement, r: CheckResult, kind: string) => {
+    try {
+      const rule = isPhoneField(el)
+        ? /short/.test(r.message || "") ? "phone_short" : /too many/.test(r.message || "") ? "phone_long" : /digits, like|only use digits/.test(r.message || "") ? "phone_chars" : /area code/.test(r.message || "") ? "phone_area" : /add a phone/.test(r.message || "") ? "phone_empty" : "phone_other"
+        : r.suggestion ? "email_typo" : /add your email/.test(r.message || "") ? "email_empty" : "email_shape";
+      document.dispatchEvent(new CustomEvent("primara:form-blocked", { detail: { field: isPhoneField(el) ? "phone" : "email", rule, kind } }));
+    } catch (e) { /* ignore */ }
+  };
   const onSubmit = (ev: Event) => {
     let first: HTMLInputElement | null = null;
     for (const el of fields()) {
       wire(el);
       const r = run(el);
       showMsg(el, r);
-      if (r.blocking && !first) first = el;
-      if (r.ok && r.suggestion) {
-        // hint shown: block once so it is seen, let the second submit through
-        if (!hinted.has(el)) { hinted.add(el); if (!first) first = el; }
+      // A hard result (empty required field, value no server accepts) stops every submit. Any other
+      // complaint (bad phone, typo) stops the FIRST submit so the message is seen, then the second goes
+      // through: we never trap a real person behind a rule that might be wrong about them.
+      if (r.hard) { if (!first) first = el; report(el, r, "hard"); continue; }
+      if (!r.ok || r.suggestion) {
+        if (!hinted.has(el)) { hinted.add(el); if (!first) first = el; report(el, r, "hint"); }
+        else report(el, r, "passed_after_hint");
       }
     }
     if (first) {
@@ -282,6 +302,7 @@ export function attachContactChecks(form: HTMLFormElement): () => void {
       if (ro.message && other.value.trim()) showMsg(other, ro);
     }
     const r = run(el);
+    report(el, r.message ? r : { ok: false, message: el.value.trim() ? "" : (isPhoneField(el) ? "add a phone" : "add your email") }, "native");
     showMsg(el, r.message ? r : { ok: false, blocking: true, message: isPhoneField(el) ? "Please check your phone number." : "Please check your email address." });
     try { el.focus(); } catch (e) { /* ignore */ }
   };
