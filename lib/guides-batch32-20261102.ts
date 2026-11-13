@@ -507,7 +507,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "When someone is unwell and wants to be seen today, they read a button closely. If the label says Book now and the system then asks them to wait for a callback, the practice has just disappointed a patient at the worst moment. The wording has to match what actually happens behind it."
       ),
       p(
-        "For most primary care offices, a same-day request starts a process: staff review it, check the schedule and call back. That is a request, not a booking, and the button should say so."
+        "For most primary care offices, a same-day request starts a process: staff review it, check the schedule and call back. That is a request, not a booking, and the button should say so. When a patient calls instead of using the button, the front desk can follow the [new patient intake phone script for a primary care practice](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice)."
       ),
       h2("Label options compared"),
       table(

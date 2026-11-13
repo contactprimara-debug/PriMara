@@ -1368,7 +1368,7 @@ export const guidesPartThirty: Guide[] = [
         "Health content is held to a higher standard than most subjects. Readers want to know who is speaking and why they should believe it, and Google's guidance on helpful content asks publishers to show who created a page and how. A practice blog with no names and no explanation of how articles are made leaves both audiences guessing."
       ),
       p(
-        "Two small additions solve most of this: a short byline on each article and one page that explains the practice's editorial standards. Neither needs to be long."
+        "Two small additions solve most of this: a short byline on each article and one page that explains the practice's editorial standards. Neither needs to be long. A byline and an honest review date work well together, and [showing a last-updated date on service pages](/guides/showing-a-last-updated-date-on-service-pages-of-a-medical-practice-website-and-when-it-helps-or-hurts) covers when to display one."
       ),
       h2("What belongs in a byline"),
       table(

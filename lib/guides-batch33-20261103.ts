@@ -324,7 +324,7 @@ export const guidesPartThirtySix: Guide[] = [
         "For many people the voicemail is the first contact with a counselor. They may have gathered courage for days, called after hours and reached a machine. What they hear in the next twenty seconds decides whether they leave a message or hang up and keep looking."
       ),
       p(
-        "It is also a privacy moment. A caller may be in a car, at work or at home with others nearby, and a client may be playing the message on speaker. The greeting should say nothing that would let a listener work out who is being seen."
+        "It is also a privacy moment. A caller may be in a car, at work or at home with others nearby, and a client may be playing the message on speaker. The greeting should say nothing that would let a listener work out who is being seen. State the same times in the greeting that the website uses for [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile) so callers hear one consistent answer."
       ),
       h2("Say what to leave, and what to leave out"),
       p(
@@ -357,7 +357,7 @@ export const guidesPartThirtySix: Guide[] = [
         "Promise a same-day return that the office cannot keep."
       ),
       p(
-        "On the return call, apply the same care. Staff should ask to speak to the person by name, leave a message with only a call-back number if someone else answers, and avoid naming the practice if the voicemail is not the caller's own. The wording for texts and calendar invites follows the same principle, as in [appointment reminder wording that protects client privacy](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy)."
+        "On the return call, apply the same care. Staff should ask to speak to the person by name, leave a message with only a call-back number if someone else answers, and avoid naming the practice if the voicemail is not the caller's own. The wording for texts and calendar invites follows the same principle, as in [appointment reminder wording that protects client privacy](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy). A solo therapist can keep the personal number private with a [separate business phone line](/guides/separate-business-phone-line-for-a-solo-therapist-instead-of-a-personal-cell-number-on-the-website-and-google-profile) that carries this greeting."
       ),
       h3("Check it like a caller would"),
       p(
@@ -510,7 +510,7 @@ export const guidesPartThirtySix: Guide[] = [
         "A provider leaves, and the reviews stay. A new patient reads a glowing note about Dr. Lee, books, and learns on the phone that Dr. Lee moved on in the spring. Or a critical review about a former clinician sits at the top of the page and colors how people see the whole office."
       ),
       p(
-        "Neither situation is a policy violation by itself. Reviews belong to the experience of the reviewer, and Google does not delete them because staffing changed. What a practice can do is reduce confusion and respond with care."
+        "Neither situation is a policy violation by itself. Reviews belong to the experience of the reviewer, and Google does not delete them because staffing changed. What a practice can do is reduce confusion and respond with care. If a counselor leaves, tell clients directly first with a [client transfer notice when a therapist leaves a counseling practice](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice)."
       ),
       h2("What Google will and will not remove"),
       p(
@@ -695,7 +695,7 @@ export const guidesPartThirtySix: Guide[] = [
         "Front desks say establishing care all day. Patients almost never do. They search for a new doctor, a primary care appointment or a doctor accepting patients. When they reach the booking step and see Establish Care as a choice, many are unsure whether it is the right one, and some book a sick visit instead."
       ),
       p(
-        "A short page translates the term. It tells a new patient what this first visit is for, what it is not for, and how to get one scheduled, so the right slot is chosen the first time."
+        "A short page translates the term. It tells a new patient what this first visit is for, what it is not for, and how to get one scheduled, so the right slot is chosen the first time. Send a short note once the visit is booked, such as the one in [a new patient welcome text or email for a medical practice](/guides/new-patient-welcome-text-or-email-for-a-medical-practice)."
       ),
       h2("What the page should explain"),
       table(

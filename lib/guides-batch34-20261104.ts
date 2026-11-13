@@ -477,7 +477,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "The llms.txt idea is a proposal published at llmstxt.org. A site places a plain-text file at its root that lists its most useful pages with a short description of each, so that an AI tool reading the site can find the important material without wading through menus and scripts. It is a convention proposed by the community, not a standard adopted by search engines."
       ),
       p(
-        "Google has not said that it uses the file for search or for AI features, and the companies that build AI assistants have not committed to reading it. That does not make it harmful. It makes it a small, optional, unproven step, and not a substitute for the basics."
+        "Google has not said that it uses the file for search or for AI features, and the companies that build AI assistants have not committed to reading it. That does not make it harmful. It makes it a small, optional, unproven step, and not a substitute for the basics. Structured data and plain-language summaries work together, and [schema markup for a medical practice website, explained](/guides/schema-markup-for-a-medical-practice-website-explained) covers the markup side."
       ),
       h2("Should a medical practice add one"),
       p(
@@ -838,7 +838,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "After someone submits a form on your website, the first thing they see is a thank-you page. The second is an email. If that email is missing, people wonder whether the form worked and call again, or try a competitor. If it is careless, it can expose information in an inbox that someone else may read."
       ),
       p(
-        "The rule is to confirm receipt and set expectations, nothing more. The email is not the place to repeat the person's message, give advice or discuss why they want to be seen."
+        "The rule is to confirm receipt and set expectations, nothing more. The email is not the place to repeat the person's message, give advice or discuss why they want to be seen. The welcome message that follows the confirmation can be adapted from [a new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) without including any health details."
       ),
       h2("A safe structure"),
       ol(
@@ -1023,7 +1023,7 @@ export const guidesPartThirtySeven: Guide[] = [
         ["Consistency", "A local number is easy to repeat everywhere. Toll-free numbers often differ between listings."],
       ),
       p(
-        "Patients searching for a nearby doctor expect a nearby number. A local number reinforces the sense that the office is where the map says it is. A toll-free number does not hurt on its own, but it can raise a question about whether the office is a real storefront."
+        "Patients searching for a nearby doctor expect a nearby number. A local number reinforces the sense that the office is where the map says it is. A toll-free number does not hurt on its own, but it can raise a question about whether the office is a real storefront. If the number on the site is a personal cell, a [separate business phone line for a solo therapist](/guides/separate-business-phone-line-for-a-solo-therapist-instead-of-a-personal-cell-number-on-the-website-and-google-profile) is usually the better first step."
       ),
       h2("What to do on the Google profile"),
       p(

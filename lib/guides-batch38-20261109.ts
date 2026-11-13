@@ -308,7 +308,7 @@ export const guidesPartForty1: Guide[] = [
         "Most proposals open with a confident summary and bury the real terms on page six. The summary is a sales pitch. The scope, the reporting and the exit terms are the contract. A practice owner without a marketing background can still read a proposal well by looking for specific, checkable things and ignoring the adjectives. If you are hiring a designer rather than an SEO firm, write a [one-page brief for the designer](/guides/one-page-brief-to-give-a-new-web-designer-at-a-counseling-practice-services-insurance-hours-tone-and-what-not-to-say) first, so you can compare proposals line by line against the same list of services, hours and limits."
       ),
       p(
-        "This page is about reading what is already in front of you. If you are still choosing between companies, start with [how to pick a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency), then come back with the proposals in hand."
+        "This page is about reading what is already in front of you. If you are still choosing between companies, start with [how to pick a healthcare marketing agency](/guides/how-to-pick-a-healthcare-marketing-agency), then come back with the proposals in hand. A proposal that opens with a low score from a free tool deserves the same scrutiny, and [reading that score sensibly](/guides/how-to-read-an-seo-score-from-a-free-website-audit-tool-for-a-medical-practice) is a good first step."
       ),
       h2("Start with the promises that should make you stop"),
       p(
@@ -335,7 +335,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h3("Check what the report will count"),
       p(
-        "Ask how calls and forms are measured, and whether the numbers will come from your own Google Analytics and Search Console accounts that you can open yourself. The [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) shows a simple way to keep your own count, which is also the best check on any agency's report."
+        "Ask how calls and forms are measured, and whether the numbers will come from your own Google Analytics and Search Console accounts that you can open yourself. The [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) shows a simple way to keep your own count, which is also the best check on any agency's report. After signing, hold the vendor to the proposal each month by [checking the invoice against the work delivered](/guides/checking-a-marketing-vendors-monthly-invoice-against-the-work-actually-delivered-for-a-counseling-practice-owner)."
       ),
       h2("Read the fine print on ownership and exit"),
       p(
@@ -503,7 +503,7 @@ export const guidesPartForty1: Guide[] = [
         "When calls fall, the first question is always what changed. Without a record, the honest answer is a shrug. The web person says they did nothing, the office manager remembers editing something on the profile, the ad company adjusted a budget, and the phone company moved the line last Thursday. Each fact is small and none was written down. Note the day and time of each publish here as well, and read how to [choose a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard) so the front desk hears first."
       ),
       p(
-        "A change log fixes that for almost no cost. It is a single page that anyone who touches your online presence adds one line to, every time. It does not prevent problems. It makes them findable in minutes instead of days, which is the first thing the [first-hour checklist for a drop](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) asks for."
+        "A change log fixes that for almost no cost. It is a single page that anyone who touches your online presence adds one line to, every time. It does not prevent problems. It makes them findable in minutes instead of days, which is the first thing the [first-hour checklist for a drop](/guides/what-to-check-in-the-first-hour-when-calls-or-traffic-drop-on-a-medical-practice-website) asks for. Once a change is logged, a [five-minute staff huddle after a website change](/guides/five-minute-staff-huddle-after-a-website-change-so-the-front-desk-knows-what-patients-will-see) makes sure the front desk can answer the questions it raises."
       ),
       h2("What goes in it"),
       p(
@@ -530,7 +530,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h2("How to keep it going"),
       p(
-        "A log only works if people use it, so make it small and put it where they already work. Share the page with your web person, your marketing contact, the front desk lead and whoever manages the Google profile. Ask each to add a line the moment they finish a change, and make it part of their routine. Your [weekly 15-minute marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) is a natural moment to glance at last week's rows. Pair the log with a [written sign-off step for vendor changes to the phone number, hours and provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list), so the log records approved changes and not surprises."
+        "A log only works if people use it, so make it small and put it where they already work. Share the page with your web person, your marketing contact, the front desk lead and whoever manages the Google profile. Ask each to add a line the moment they finish a change, and make it part of their routine. Your [weekly 15-minute marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) is a natural moment to glance at last week's rows. Pair the log with a [written sign-off step for vendor changes to the phone number, hours and provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list), so the log records approved changes and not surprises. When a detail is wrong, send the vendor a [one-email template for reporting a wrong detail](/guides/one-email-template-for-reporting-a-wrong-detail-on-the-practice-website-to-the-vendor-so-it-is-fixed-correctly-the-first-time) and record the reply in the log."
       ),
       p(
         "Ask outside vendors to send you a one-line note for every change they make, and paste it in. The reason is practical. Google's advice on hiring an SEO says you are responsible for the actions of the companies you hire, so you should be able to see what they did."
@@ -782,7 +782,7 @@ export const guidesPartForty1: Guide[] = [
         "Most marketing relationships end for ordinary reasons: the budget changed, the needs changed, or the fit was not there. The danger is not the goodbye. It is finding out afterward that the domain was registered to the vendor, the Google profile sits under the vendor's email, or the ad account cannot be moved. Then leaving becomes a negotiation with someone who has no reason to hurry. While a vendor is still working for you, a [written sign-off step before any change to the phone number, hours or provider list](/guides/written-sign-off-before-a-marketing-vendor-changes-a-medical-practice-phone-number-hours-or-provider-list) keeps the same mistakes from reaching patients."
       ),
       p(
-        "This page is a checklist for the end of a relationship, whoever ends it. If you are at the start of one, our page on [who should own your Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to set it up so the end is easy, and our guide to [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) covers the same job for a person on your own team."
+        "This page is a checklist for the end of a relationship, whoever ends it. If you are at the start of one, our page on [who should own your Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to set it up so the end is easy, and our guide to [removing a former employee's access](/guides/removing-a-former-employees-access-to-google-website-and-email-accounts-at-a-medical-practice) covers the same job for a person on your own team. Before you ever need a handover, [questions to ask a web host about support response time](/guides/questions-to-ask-a-web-host-or-maintenance-provider-about-support-response-time-for-a-medical-practice-website) show how reachable a provider really is."
       ),
       h2("Step one: take inventory before telling anyone"),
       p(
@@ -799,7 +799,7 @@ export const guidesPartForty1: Guide[] = [
         ["Other tools", "Call tracking, review tools, email, scheduling, listings. Look in: ask the vendor for the full list, in writing."],
       ),
       p(
-        "Google's own help pages spell out the roles. In a Business Profile, an owner can add and remove users and a manager cannot, and a profile can have several owners but only one primary owner. In Search Console, a property needs at least one verified owner, or no one has access. If you are only a user in any of these, you have a gap to close."
+        "Google's own help pages spell out the roles. In a Business Profile, an owner can add and remove users and a manager cannot, and a profile can have several owners but only one primary owner. In Search Console, a property needs at least one verified owner, or no one has access. If you are only a user in any of these, you have a gap to close. Even while a vendor is active, a [one-email template for reporting a wrong website detail](/guides/one-email-template-for-reporting-a-wrong-detail-on-the-practice-website-to-the-vendor-so-it-is-fixed-correctly-the-first-time) keeps requests clear and on the record."
       ),
       h2("Step two: ask for the handover in writing"),
       p(
@@ -814,7 +814,7 @@ export const guidesPartForty1: Guide[] = [
       ),
       h3("Check ownership of what was written for you"),
       p(
-        "Read the contract for what happens to the content, photos and designs made during the relationship. Some agreements give the practice full ownership on payment. Others license it. If the wording is unclear, ask your attorney, because the answer decides whether you can keep using your own pages. Before you sign with the next vendor, the [line-by-line review of a proposal](/guides/reviewing-a-marketing-proposals-promised-deliverables-line-by-line-before-signing-for-a-counseling-practice-owner) asks who will own the finished work."
+        "Read the contract for what happens to the content, photos and designs made during the relationship. Some agreements give the practice full ownership on payment. Others license it. If the wording is unclear, ask your attorney, because the answer decides whether you can keep using your own pages. Before you sign with the next vendor, the [line-by-line review of a proposal](/guides/reviewing-a-marketing-proposals-promised-deliverables-line-by-line-before-signing-for-a-counseling-practice-owner) asks who will own the finished work. Monthly notes from [checking a marketing invoice against the work delivered](/guides/checking-a-marketing-vendors-monthly-invoice-against-the-work-actually-delivered-for-a-counseling-practice-owner) make a handover far easier if the relationship ends."
       ),
       h2("Step three: test everything, then remove their access"),
       p(

@@ -459,7 +459,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("The status code matters"),
       p(
-        "The page must return the HTTP status 404, not 200. A missing page that returns 200 is called a soft 404, and it confuses Google about which pages exist. Google's documentation on [HTTP status codes](https://developers.google.com/search/docs/crawling-indexing/http-network-errors) explains the difference. You can check yours by opening a made-up address and looking at the status in the browser's developer tools."
+        "The page must return the HTTP status 404, not 200. A missing page that returns 200 is called a soft 404, and it confuses Google about which pages exist. Google's documentation on [HTTP status codes](https://developers.google.com/search/docs/crawling-indexing/http-network-errors) explains the difference. You can check yours by opening a made-up address and looking at the status in the browser's developer tools. Finding the pages that send visitors to an error is covered in [how to find and fix broken links and 404 errors on a practice website](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website)."
       ),
       p(
         "For pages that moved, use a redirect, not a 404. Our walkthrough of [finding and fixing broken links](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) shows how to find the old addresses people still use. When an old blog post is retired with no replacement, [this guide to keeping, merging or removing old posts](/guides/deciding-whether-to-keep-update-merge-or-remove-an-old-blog-post-on-a-medical-practice-website) explains when a clean 404 is acceptable."
@@ -746,7 +746,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Decide the start date and the first available appointment times."
       ),
       p(
-        "Skipping the credentialing check is the most common mistake. A client booked under a plan that does not yet cover the clinician receives a bill they did not expect, and the practice owns that conversation."
+        "Skipping the credentialing check is the most common mistake. A client booked under a plan that does not yet cover the clinician receives a bill they did not expect, and the practice owns that conversation. When a clinician leaves, the companion piece is the [client transfer notice for a counseling practice](/guides/client-transfer-notice-when-a-therapist-leaves-a-counseling-practice) that explains who will see clients next."
       ),
       h2("The sequence"),
       ol(

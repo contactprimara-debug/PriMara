@@ -575,7 +575,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "Every cancelled visit leaves a gap, and every gap is a chance for someone who has been waiting to be seen sooner. Most practices fill those gaps by whoever happens to be on the phone, which is fair to nobody. A written cancellation list changes that into a system patients can understand. Every visit that is moved online or by phone frees a slot, and a well-written [rescheduling page that explains the notice window](/guides/rescheduling-an-appointment-online-page-for-a-primary-care-practice) tells patients how to release it early enough for the list to use it."
       ),
       p(
-        "It also gives the website something concrete to say to the visitor who finds a three-week wait and is about to book elsewhere: you can ask to be called if something sooner opens."
+        "It also gives the website something concrete to say to the visitor who finds a three-week wait and is about to book elsewhere: you can ask to be called if something sooner opens. The front desk can use the [new patient intake phone script for a primary care practice](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice) when someone calls hoping for a same-day opening."
       ),
       h2("Decide the rules before you publish"),
       ol(

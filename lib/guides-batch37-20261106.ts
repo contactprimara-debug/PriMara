@@ -113,7 +113,7 @@ export const guidesPartForty: Guide[] = [
         "Most practices have a click-to-call button on the home page and assume the job is done. Then a patient lands on a bio page from a Google search, sees a phone number in the sentence, holds a thumb on it and nothing happens. The number was typed as plain text. On a phone, that patient now has to remember seven digits, switch apps and type them in, and many simply do not."
       ),
       p(
-        "This page is about the whole site, not the button. It covers how to write the number once, in one format, and how to find every place it appears so each one dials. If you want the design side of the button itself, our guide to [the click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) covers size, placement and hours."
+        "This page is about the whole site, not the button. It covers how to write the number once, in one format, and how to find every place it appears so each one dials. If you want the design side of the button itself, our guide to [the click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) covers size, placement and hours. For a solo therapist, the number behind the link matters too, and a [separate business phone line instead of a personal cell](/guides/separate-business-phone-line-for-a-solo-therapist-instead-of-a-personal-cell-number-on-the-website-and-google-profile) keeps it portable."
       ),
       h2("Write the number once, then copy it everywhere"),
       p(

@@ -257,7 +257,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "A domain is rented, usually one year at a time or in multi-year blocks. When the term runs out and nobody pays, the website stops loading, the email addresses on that domain stop receiving mail, and in many cases the name can be picked up by someone else. For a primary care or counseling practice, that means patients cannot find the site, new inquiries bounce, and appointment emails go nowhere, often for days before anyone notices."
       ),
       p(
-        "The usual cause is not neglect. The renewal notice went to a former employee, the card on file expired, or the domain was bought years ago by a web designer under their own account. Each is easy to prevent once somebody owns the job. A new office manager is a common point where that job gets dropped, so the renewal date and account email belong on a [day-one handoff page for the practice online accounts](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts)."
+        "The usual cause is not neglect. The renewal notice went to a former employee, the card on file expired, or the domain was bought years ago by a web designer under their own account. Each is easy to prevent once somebody owns the job. A new office manager is a common point where that job gets dropped, so the renewal date and account email belong on a [day-one handoff page for the practice online accounts](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts). The same provider conversation should cover who answers when something fails, which is laid out in [questions to ask a web host about support response time](/guides/questions-to-ask-a-web-host-or-maintenance-provider-about-support-response-time-for-a-medical-practice-website)."
       ),
       h2("Six protections to set up this week"),
       table(
@@ -423,7 +423,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "A patient calls to say the website is not working, or an appointment form returns an error. Before anyone panics, confirm it. Open the site on a phone using mobile data, not the office wifi, and try the home page, the contact page and a form. Write down what you see: a blank page, an error number, a security warning or a slow load. That one sentence is the most useful thing you can give whoever fixes it."
       ),
       p(
-        "While you check, tell the front desk what to say. The phone is the lifeline during an outage, so it matters more than the site. Give staff a single line they can use, such as our website is having a problem and we can help you by phone right now, and make sure nobody asks patients to send health details by email as a workaround."
+        "While you check, tell the front desk what to say. The phone is the lifeline during an outage, so it matters more than the site. Give staff a single line they can use, such as our website is having a problem and we can help you by phone right now, and make sure nobody asks patients to send health details by email as a workaround. Ask these questions before an outage, using [questions to ask a web host about support response time](/guides/questions-to-ask-a-web-host-or-maintenance-provider-about-support-response-time-for-a-medical-practice-website), so you know who to call and how fast they reply."
       ),
       h2("Check these in order"),
       table(
@@ -756,7 +756,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "A practice changes its intake packet, its cancellation policy or its address. The new forms go on the site, but the old PDFs stay on the server, and Google keeps showing them. A patient searching for the new patient form lands on a version with a fax number nobody answers, or a policy that no longer applies. They fill it out, bring it in, and the front desk has to start over."
       ),
       p(
-        "Old documents also cause quieter problems. They can show a phone number or address you changed, contain staff names of people who have left, and compete with the current page in search. The fix is a short routine, not a big project."
+        "Old documents also cause quieter problems. They can show a phone number or address you changed, contain staff names of people who have left, and compete with the current page in search. The fix is a short routine, not a big project. After a form is removed, [find and fix the broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) that still point to it so patients do not hit a dead end."
       ),
       h2("Find what is still out there"),
       ul(

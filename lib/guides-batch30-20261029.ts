@@ -882,7 +882,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "A practice owner thinks about the website and the Google profile. Patients, though, also meet the practice through places the owner rarely opens: the federal NPI registry, insurers' provider directories and the databases that feed health apps and hospital systems. When the address in those places is out of date, a patient calls a disconnected number or shows up at the old suite, and the practice never learns why the appointment did not happen."
       ),
       p(
-        "Directory data matters to search as well. Many third-party sites copy their information from these sources, so one stale record can spread an old address across dozens of listings. Fixing the source is more effective than correcting copies one at a time."
+        "Directory data matters to search as well. Many third-party sites copy their information from these sources, so one stale record can spread an old address across dozens of listings. Fixing the source is more effective than correcting copies one at a time. Hospital systems keep their own provider directories too, which are covered in [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory)."
       ),
       h2("Where the data lives"),
       table(

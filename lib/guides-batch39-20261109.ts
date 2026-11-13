@@ -220,11 +220,11 @@ export const guidesPartForty2: Guide[] = [
         "Ads or call tracking numbers, if you use them."
       ),
       p(
-        "Our page on [phone number format and click-to-call links](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website) shows what a correct link looks like, and [how to keep the name, address and phone consistent](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the directory side."
+        "Our page on [phone number format and click-to-call links](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website) shows what a correct link looks like, and [how to keep the name, address and phone consistent](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) covers the directory side. Tell the front desk about the new number the same day with a [five-minute huddle after a website change](/guides/five-minute-staff-huddle-after-a-website-change-so-the-front-desk-knows-what-patients-will-see) so everyone gives patients the same answer."
       ),
       h2("Update the Google profile"),
       p(
-        "Google's help page explains how to edit a profile's phone numbers. Change the primary number if it changed, and consider adding the old one as an additional number during the transition, so people who search for it can still find you. Do not stack extra numbers permanently; the main number should be the one the front desk answers."
+        "Google's help page explains how to edit a profile's phone numbers. Change the primary number if it changed, and consider adding the old one as an additional number during the transition, so people who search for it can still find you. Do not stack extra numbers permanently; the main number should be the one the front desk answers. A solo therapist moving off a personal cell number can follow a [separate business phone line for a solo therapist](/guides/separate-business-phone-line-for-a-solo-therapist-instead-of-a-personal-cell-number-on-the-website-and-google-profile) before running these checks."
       ),
       p(
         "If your website carries structured data with a telephone number, update that too. Google documents the telephone field for local business markup, and a mismatch between the page, the markup and the profile is the kind of inconsistency that causes confusion later."

@@ -438,7 +438,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A patient choosing a new doctor or therapist is choosing a person, and a clear photo is often the first thing they look at on a bio page. A missing photo, a grey placeholder or a photo that is ten years old makes the practice look careless, while a warm, current headshot sets expectations for the visit. When a new provider joins, confirm during the [week-after check of the website and Google profile](/guides/checking-the-website-and-google-profile-the-week-after-a-new-provider-joins-a-primary-care-practice) that the new photo matches the others in size and style."
       ),
       p(
-        "Photos also affect the site's performance. Large uncompressed files slow a page, and slow pages lose visitors on a phone. A tidy photo workflow fixes both problems at once."
+        "Photos also affect the site's performance. Large uncompressed files slow a page, and slow pages lose visitors on a phone. A tidy photo workflow fixes both problems at once. Upload the same headshots to the Google profile, following the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) for sizes and what to avoid."
       ),
       h2("Shooting the photos"),
       ul(
@@ -831,7 +831,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Patients rarely know where to go when something feels wrong outside the schedule. They call the office at five-thirty, they search for urgent care while sitting in a waiting room, or they wait too long because they did not want to bother anyone. A page that explains the three doors in plain language saves time and phone calls, and it is one of the most useful pages a practice can publish."
       ),
       p(
-        "It is also one of the riskiest, because it sits close to medical advice. The safest approach is to describe who to contact and when, not what a symptom means."
+        "It is also one of the riskiest, because it sits close to medical advice. The safest approach is to describe who to contact and when, not what a symptom means. The same 911 wording belongs on the door, as covered in [front-door and window sign wording for a practice](/guides/front-door-and-window-sign-wording-for-a-medical-or-counseling-practice-with-phone-hours-website-and-a-911-notice)."
       ),
       h2("Three doors, three plain rules"),
       table(
@@ -1029,7 +1029,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Open now is one of the most common local searches, and patients decide where to call based on what Google shows. A profile that says open until eight when the doors lock at five produces a wasted trip, a frustrated patient and often a one-star review about something that is not about care at all."
       ),
       p(
-        "Extended hours make the risk larger because they are often partial. One clinician may stay late on Tuesdays, Saturday mornings may be for established patients only, and a holiday weekend may change everything. Each of those details needs a place."
+        "Extended hours make the risk larger because they are often partial. One clinician may stay late on Tuesdays, Saturday mornings may be for established patients only, and a holiday weekend may change everything. Each of those details needs a place. Extended office hours do not always mean extended phone coverage, so decide how to word [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile) before publishing them."
       ),
       h2("Decide what extended hours really mean"),
       table(
@@ -1425,7 +1425,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A website that returns an error at nine on a Monday morning is not just a technical problem. Patients who cannot find the phone number or the booking link call someone else. Search engines that find the site unreachable repeatedly can reduce how often they visit it, and a hacked site that shows spam can trigger warnings in browsers."
       ),
       p(
-        "Most outages are dull: an expired domain, a certificate that lapsed, a plugin update that broke a page, a host that had a bad hour. A small amount of routine care prevents nearly all of them."
+        "Most outages are dull: an expired domain, a certificate that lapsed, a plugin update that broke a page, a host that had a bad hour. A small amount of routine care prevents nearly all of them. Backups are only useful if someone answers quickly when you need one, so ask your provider the [questions about support response time](/guides/questions-to-ask-a-web-host-or-maintenance-provider-about-support-response-time-for-a-medical-practice-website) in advance."
       ),
       h2("Backups that actually help"),
       ul(

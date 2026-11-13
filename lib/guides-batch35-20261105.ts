@@ -620,7 +620,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "A web form that collects a mobile number often adds a line saying that by submitting, the visitor agrees to texts. That wording is weak. A person who only wanted to request an appointment has not clearly chosen to receive messages, and the practice cannot show later that they did. A separate box, with its own words, is clearer for the patient and easier to defend."
       ),
       p(
-        "This guide covers wording only. The rules that decide whether a practice may text at all are explained in our summary of [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice), and a healthcare attorney should confirm the final language."
+        "This guide covers wording only. The rules that decide whether a practice may text at all are explained in our summary of [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice), and a healthcare attorney should confirm the final language. Once a patient has opted in, [appointment reminder text and email wording for a primary care practice](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) shows what a reminder can safely say without health details."
       ),
       h2("What the wording should contain"),
       table(
@@ -785,7 +785,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "A holiday closure is a single day, and most patients expect it. A seasonal schedule runs for weeks. A school-year office that closes early on Fridays in summer, or a practice that moves one provider to a different office for two months, creates dozens of small misunderstandings: the patient who drives over on a Friday afternoon, the parent who waits for a call back that is not coming. Publish the notice on a quiet mid-week morning after telling the front desk, following the advice on [choosing a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard)."
       ),
       p(
-        "A clear notice, placed where patients look first, prevents most of them. It should be short, dated and repeated in the same words everywhere."
+        "A clear notice, placed where patients look first, prevents most of them. It should be short, dated and repeated in the same words everywhere. Change the sign on the door on the same day as the website, using [front-door and window sign wording for a practice](/guides/front-door-and-window-sign-wording-for-a-medical-or-counseling-practice-with-phone-hours-website-and-a-911-notice) as a guide."
       ),
       h2("What the notice must say"),
       table(
@@ -867,7 +867,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "Chambers and business associations publish member directories, and most link to each member's site. That link comes from a local organization that real people join, which makes it a normal and acceptable kind of link. It will not move a practice up search results on its own, but it adds a consistent citation of the name, address and phone number and shows the practice is part of the community."
       ),
       p(
-        "The benefit is modest and takes time to show. Think of the membership as support for local business life that also happens to produce a listing."
+        "The benefit is modest and takes time to show. Think of the membership as support for local business life that also happens to produce a listing. Local listings extend to neighbor networks too, so see [claiming a Nextdoor Business Page for a medical practice](/guides/nextdoor-business-page-for-a-medical-practice-claiming-it-keeping-details-accurate-and-replying-to-neighbors-without-health-details) for what to match and what to avoid saying."
       ),
       h2("Is it worth the fee?"),
       table(

@@ -181,7 +181,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Many primary care offices close the front desk for an hour at midday. If the Google profile shows a single block from 8:00 to 5:00, a patient who arrives at 12:30 finds a locked door, and one who calls hears a recording. That person often posts a review about it, and the review says the practice was closed during listed hours."
       ),
       p(
-        "The fix is not to cut the lunch break. It is to tell Google the truth with split hours, so the profile shows the real open periods and the right \"open now\" or \"closed\" label at every minute of the day."
+        "The fix is not to cut the lunch break. It is to tell Google the truth with split hours, so the profile shows the real open periods and the right \"open now\" or \"closed\" label at every minute of the day. If the phones stop before the doors close, see [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile) for how to word both on the website."
       ),
       h2("How to enter two blocks in one day"),
       ol(
@@ -810,7 +810,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Most counseling offices have no walk-in service and no one at the door all day. Owners sometimes respond by leaving the hours blank, which makes the listing look unfinished or closed. Searchers want to know when they can reach a person and when sessions happen, and a profile that shows nothing loses the call."
       ),
       p(
-        "There are two different sets of times to publish. One is when someone answers the phone or messages. The other is when clinicians see clients. They are rarely the same, and the wording should keep them apart."
+        "There are two different sets of times to publish. One is when someone answers the phone or messages. The other is when clinicians see clients. They are rarely the same, and the wording should keep them apart. Patients also need to know when a person answers the phone, which is covered in [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile)."
       ),
       h2("Three ways to word it"),
       table(
@@ -1086,7 +1086,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Reports from marketing vendors tend to lead with impressions, clicks and positions. Those are signals, but a practice owner cares about a different thing: how many people who did not know the office before this month asked to become patients, and how many ended up on the schedule."
       ),
       p(
-        "You do not need special software to see that. A single sheet, filled in the same way every month, gives a straight answer and makes any vendor report easier to judge."
+        "You do not need special software to see that. A single sheet, filled in the same way every month, gives a straight answer and makes any vendor report easier to judge. To see which source each new patient came from, add the answers from [asking how new patients heard about the practice](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) as a column."
       ),
       h2("The three counts"),
       table(
@@ -1256,7 +1256,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "A counseling practice that wants to know which marketing brings in phone calls may be offered a call-tracking number. It forwards to the office line and records the call source. That can answer an important question. It can also create a mess: a second number appears on the website, a directory scrapes it, and the practice ends up with two or three phone numbers in circulation."
       ),
       p(
-        "Search engines and answer tools compare phone numbers across the web to confirm that a business is who it says it is. A tracking number in the wrong place weakens that match, and Google Business Profile has its own rules on which number belongs in the main field."
+        "Search engines and answer tools compare phone numbers across the web to confirm that a business is who it says it is. A tracking number in the wrong place weakens that match, and Google Business Profile has its own rules on which number belongs in the main field. Solo practices that want one clean number to count calls can read about a [separate business phone line for a solo therapist](/guides/separate-business-phone-line-for-a-solo-therapist-instead-of-a-personal-cell-number-on-the-website-and-google-profile)."
       ),
       h2("Where each number belongs"),
       table(
@@ -1349,7 +1349,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "For a primary care office, the phone is still the main door. Someone searches, sees the number and calls. The next three minutes decide whether they book, call another office or give up. Yet most practices do not know how many first-time calls they get in a week, how many were answered live or how many ended in a booked visit."
       ),
       p(
-        "A one-line log for each new patient call changes that. It takes under a minute per call once the fields are decided, and it gives the owner a number to work with at the end of the month."
+        "A one-line log for each new patient call changes that. It takes under a minute per call once the fields are decided, and it gives the owner a number to work with at the end of the month. Many practices end the call with one more question, and [how-did-you-hear-about-us attribution for new patients](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to word it and record it."
       ),
       h2("The seven fields"),
       table(

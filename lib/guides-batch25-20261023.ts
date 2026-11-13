@@ -345,7 +345,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "When a storm is in the forecast, patients check three places: Google, the practice website and the phone. If the website still shows last month's news, patients call, the line jams and the front desk spends the day answering the same question. A permanent notice page lets one update reach all three places."
       ),
       p(
-        "This guide is about the page patients read, not the Google listing. The setting-by-setting steps for hours on the profile are in our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season). Use the two together, and make sure they say the same thing."
+        "This guide is about the page patients read, not the Google listing. The setting-by-setting steps for hours on the profile are in our guide to [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season). Use the two together, and make sure they say the same thing. When the notice goes live, take five minutes to walk the team through it using a [staff huddle after a website change](/guides/five-minute-staff-huddle-after-a-website-change-so-the-front-desk-knows-what-patients-will-see) so nobody is surprised by a patient call."
       ),
       h2("What goes at the top"),
       p(
@@ -367,7 +367,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Where to find official storm information, such as the National Weather Service and the state emergency management site."
       ),
       p(
-        "Do not tell patients what to do about a medical problem on this page. Send them to 911 for an emergency and to the usual phone line for anything else. See our guide to the [office versus 911 or urgent care page](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) for wording that stays on the right side of that line."
+        "Do not tell patients what to do about a medical problem on this page. Send them to 911 for an emergency and to the usual phone line for anything else. See our guide to the [office versus 911 or urgent care page](/guides/when-to-call-the-office-versus-911-or-urgent-care-page-for-a-primary-care-practice) for wording that stays on the right side of that line. If the office is closed, a short [front-door and window sign with the phone, website and a 911 line](/guides/front-door-and-window-sign-wording-for-a-medical-or-counseling-practice-with-phone-hours-website-and-a-911-notice) helps anyone who arrives in person."
       ),
       h2("Keep the page, retire the news"),
       p(
@@ -623,7 +623,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "A counseling practice changes quietly. A clinician goes part-time, a fee rises, the insurance panels shift, the office moves a suite number, a link to a resource stops working. Each change is small, and nobody updates every page. After a year the site tells a prospective client something that is no longer true, and the first conversation starts with a correction."
       ),
       p(
-        "A yearly review fixes that, and the end of the year is a natural time to do it. Pick a month, block two hours and work through this list in order. For ongoing upkeep between reviews, our guide to [how often to update old content](/guides/how-often-to-update-old-content-on-a-medical-practice-website) explains what to touch more often."
+        "A yearly review fixes that, and the end of the year is a natural time to do it. Pick a month, block two hours and work through this list in order. For ongoing upkeep between reviews, our guide to [how often to update old content](/guides/how-often-to-update-old-content-on-a-medical-practice-website) explains what to touch more often. The review dates you record here can be shown to readers, as described in [showing a last-updated date on service pages](/guides/showing-a-last-updated-date-on-service-pages-of-a-medical-practice-website-and-when-it-helps-or-hurts)."
       ),
       h2("The checklist"),
       table(
@@ -900,7 +900,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Walking into a new doctor's office is a small worry for many people. They wonder where to park, which door to use and what the waiting room feels like. A tour page answers those questions before the visit and turns an unknown place into a familiar one. It is especially useful for older patients, anxious patients and anyone bringing a child."
       ),
       p(
-        "It is not a gallery of decor. Each photo should answer a question a patient has, and each caption should say what the patient will do there. Our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) covers the access details in depth, and this page shows them in pictures."
+        "It is not a gallery of decor. Each photo should answer a question a patient has, and each caption should say what the patient will do there. Our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) covers the access details in depth, and this page shows them in pictures. The same photo standards apply on the Google profile, which the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) walks through step by step."
       ),
       h2("The shot list"),
       table(

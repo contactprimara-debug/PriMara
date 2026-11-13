@@ -394,7 +394,7 @@ export const guidesPartForty3: Guide[] = [
         "Not counted: existing clients, vendors, sales calls, spam and job seekers."
       ),
       p(
-        "Our guide on [a response-time target and inquiry log](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice) shows a simple log where each inquiry is tagged with how it arrived. That log is the source for every number below."
+        "Our guide on [a response-time target and inquiry log](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice) shows a simple log where each inquiry is tagged with how it arrived. That log is the source for every number below. Before comparing costs, read how [Psychology Today and therapist directory profiles for a counseling practice](/guides/psychology-today-and-therapist-directory-profiles-for-a-counseling-practice) should be set up and kept accurate."
       ),
       h2("Work it out in four steps"),
       ol(
@@ -490,7 +490,7 @@ export const guidesPartForty3: Guide[] = [
         "A practice owner gets a monthly report from the web company that says 22 calls and 14 forms. The directory dashboard says 9 calls. The Google profile shows another figure. Nobody is lying, and nobody is wrong in a way that is easy to spot, because each tool counts a different action."
       ),
       p(
-        "Your job is not to decide which vendor is right. It is to find what each number measures, then check it against something you control."
+        "Your job is not to decide which vendor is right. It is to find what each number measures, then check it against something you control. Once the numbers line up, [checking a marketing vendor's monthly invoice against the work delivered](/guides/checking-a-marketing-vendors-monthly-invoice-against-the-work-actually-delivered-for-a-counseling-practice-owner) shows whether each charge has something behind it."
       ),
       h2("What each tool may be counting"),
       table(

@@ -87,7 +87,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Most practices do not need five social accounts. A Facebook page and an Instagram account cover the places local patients actually look, and a thin page that has not posted in a year does more harm than no page at all, because it suggests the office is closed or careless."
       ),
       p(
-        "Name one person who owns the logins, one person who approves posts, and a backup for both. Put the account recovery email and phone number under practice control, not a personal address, so a departing employee cannot take the page with them."
+        "Name one person who owns the logins, one person who approves posts, and a backup for both. Put the account recovery email and phone number under practice control, not a personal address, so a departing employee cannot take the page with them. Replying to neighbors follows the same privacy rules as other social accounts, as explained in [a Nextdoor Business Page for a medical practice](/guides/nextdoor-business-page-for-a-medical-practice-claiming-it-keeping-details-accurate-and-replying-to-neighbors-without-health-details)."
       ),
       h2("What is safe to post"),
       ul(
@@ -1076,7 +1076,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Patients care about which hospital a doctor sends people to. They search for a doctor and a hospital name together, and a practice that states the connection clearly can win that search. A practice that states it loosely invites a complaint from the hospital, from a patient who expected something different or from a regulator."
       ),
       p(
-        "The terms mean different things. Privileges are permission for an individual provider to practice at a facility. An affiliation can mean anything from privileges to a referral relationship to ownership. Readers do not know the difference, so the page must not blur it."
+        "The terms mean different things. Privileges are permission for an individual provider to practice at a facility. An affiliation can mean anything from privileges to a referral relationship to ownership. Readers do not know the difference, so the page must not blur it. Beyond stating an affiliation on your own site, see [getting listed in a hospital or health system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) for the directory side."
       ),
       h2("What each phrase can honestly mean"),
       table(
