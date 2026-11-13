@@ -3,11 +3,13 @@
 import { useEffect, useRef, useState } from "react";
 
 /* ── ConsentBanner (card #598 A15, 2026-11-06) ─────────────────────────────
-   Google Consent Mode v2. app/layout.tsx sets every consent signal to DENIED
-   before any Google tag is configured (and restores a saved "yes" at once), so
-   until a visitor accepts, the tags set no cookies and read no identifiers.
-   Pings are cookieless; the lead event on /thank-you and tel: taps are still
-   counted, so measurement of real enquiries is kept.
+   REGION-BASED (Gio/mastermind 2026-11-13, reverses #598 A15's deny-everywhere).
+   Google Consent Mode v2: app/layout.tsx sets signals DENIED by default only for
+   EU/EEA, UK and Switzerland (gtag consent default with a region list) and
+   GRANTED everywhere else. Saved choices and Global Privacy Control are applied
+   before any tag is configured. Outside Europe the banner is an opt-out notice
+   ("Decline"); in Europe (detected from the browser time zone, only to choose the
+   wording; Google decides the hit's region itself) it is opt-in.
    A browser Global Privacy Control signal counts as "no" and never shows the
    banner. The choice lives in localStorage ("p365_consent") for 365 days.
    The footer's "Privacy choices" button re-opens this banner. */
@@ -26,6 +28,15 @@ function readChoice(): boolean | null {
   return null;
 }
 
+function isEurope(): boolean {
+  try {
+    const z = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+    return z.startsWith("Europe/") || z === "Atlantic/Reykjavik";
+  } catch {
+    return false;
+  }
+}
+
 function apply(granted: boolean) {
   const g = (window as unknown as { gtag?: Gtag }).gtag;
   if (typeof g !== "function") return;
@@ -36,6 +47,7 @@ function apply(granted: boolean) {
 export default function ConsentBanner() {
   const [open, setOpen] = useState(false);
   const [tucked, setTucked] = useState(false);
+  const [eu, setEu] = useState(false);
   const firstBtn = useRef<HTMLButtonElement>(null);
   const boxRef = useRef<HTMLDivElement>(null);
 
@@ -46,9 +58,10 @@ export default function ConsentBanner() {
       try { localStorage.setItem(KEY, JSON.stringify({ a: false, t: Date.now(), v: 1 })); } catch { /* ignore */ }
       apply(false);
     } else if (c === null) {
+      setEu(isEurope());
       setOpen(true);
     }
-    const reopen = () => setOpen(true);
+    const reopen = () => { setEu(isEurope()); setOpen(true); };
     window.addEventListener("p365-consent-open", reopen);
     return () => window.removeEventListener("p365-consent-open", reopen);
   }, []);
@@ -114,16 +127,23 @@ export default function ConsentBanner() {
   return (
     <div ref={boxRef} role="dialog" aria-label="Privacy choice" className="cb" data-tucked={tucked ? "1" : "0"} aria-hidden={tucked || undefined}>
       <p className="cb-t">
-        We measure site use only if you say yes. Say no and nothing is stored on your device.{" "}
+        {eu
+          ? "We measure site use only if you say yes. Say no and nothing is stored on your device."
+          : "We use analytics to see how this site is used. You can decline."}{" "}
         <a href="/privacy" style={{ color: "var(--gold)", textDecoration: "underline" }}>Privacy</a>
       </p>
       <div className="cb-b">
-        <button ref={firstBtn} type="button" onClick={() => choose(true)} className="cb-yes">
-          Allow analytics
-        </button>
-        <button type="button" onClick={() => choose(false)} className="cb-no">
-          No thanks
-        </button>
+        {eu ? (
+          <>
+            <button ref={firstBtn} type="button" onClick={() => choose(true)} className="cb-yes">Allow analytics</button>
+            <button type="button" onClick={() => choose(false)} className="cb-no">No thanks</button>
+          </>
+        ) : (
+          <>
+            <button ref={firstBtn} type="button" onClick={() => choose(true)} className="cb-yes">OK</button>
+            <button type="button" onClick={() => choose(false)} className="cb-no">Decline</button>
+          </>
+        )}
       </div>
     </div>
   );

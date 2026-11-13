@@ -46,8 +46,9 @@ function load(src,cb){var s=d.createElement('script');s.src=src;s.async=true;if(
 w.__primaraLoadTags=run;
 w.dataLayer=w.dataLayer||[];
 w.gtag=function(){w.dataLayer.push(arguments)};
-w.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
-try{var c=JSON.parse(localStorage.getItem('p365_consent')||'null');if(c&&c.a===true&&c.t&&Date.now()-c.t<31536000000&&!navigator.globalPrivacyControl)w.gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'})}catch(e){}
+w.gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});
+w.gtag('consent','default',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});
+try{var c=JSON.parse(localStorage.getItem('p365_consent')||'null');var ok=c&&typeof c.a==='boolean'&&c.t&&Date.now()-c.t<31536000000;var v=(navigator.globalPrivacyControl||(ok&&c.a===false))?'denied':(ok&&c.a===true?'granted':null);if(v)w.gtag('consent','update',{analytics_storage:v,ad_storage:v,ad_user_data:v,ad_personalization:v})}catch(e){}
 w.gtag('js',new Date());
 w.gtag('config','GT-PB6FNVRG');
 w.gtag('config','AW-18204165915');

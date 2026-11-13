@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['/opengraph-image'] },
 };
 
-const EFFECTIVE_DATE = "November 7, 2026";
+const EFFECTIVE_DATE = "November 13, 2026";
 
 const sectionStyle: React.CSSProperties = {
   marginBottom: "2.5rem",
@@ -164,10 +164,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong style={{ color: "var(--chalk)" }}>Google Analytics and Google Ads</strong> — we use Google
-              tags to understand how visitors use our site and to measure our own advertising. They run in a
-              privacy-first mode: until you click &ldquo;Allow analytics&rdquo; they set no cookies and read no
-              identifiers, and a browser Global Privacy Control signal is treated as &ldquo;no.&rdquo; You can change
-              your choice any time with &ldquo;Privacy choices&rdquo; in the footer.
+              tags to understand how visitors use our site and to measure our own advertising. In the EU/EEA, the UK and Switzerland they stay off (no cookies, no identifiers) until you click &ldquo;Allow analytics.&rdquo; Everywhere else they are on by default, and you can click &ldquo;Decline&rdquo; in the notice to turn them off. A browser Global Privacy Control signal is treated as &ldquo;decline&rdquo; everywhere. You can change your choice any time with &ldquo;Privacy choices&rdquo; in the footer.
             </li>
             <li>
               <strong style={{ color: "var(--chalk)" }}>Messaging providers</strong> — if you give us your mobile
@@ -182,7 +179,7 @@ export default function PrivacyPage() {
         <div style={sectionStyle}>
           <h2 style={headingStyle}>4. Cookies</h2>
           <p style={bodyStyle}>
-            Without your consent this website sets no analytics or advertising cookies. If you click &ldquo;Allow analytics,&rdquo; Google Analytics and Google Ads may set cookies to measure visits and our own ads. If you click &ldquo;No thanks&rdquo; (or your browser sends a Global Privacy Control signal), nothing is stored on your device. We do not run cross-site retargeting.
+            In the EU/EEA, the UK and Switzerland this website sets no analytics or advertising cookies unless you click &ldquo;Allow analytics.&rdquo; Everywhere else, Google Analytics and Google Ads may set cookies to measure visits and our own ads from your first visit. If you click &ldquo;Decline&rdquo; (or your browser sends a Global Privacy Control signal), they are turned off and nothing further is collected. We do not run cross-site retargeting.
           </p>
         </div>
 
