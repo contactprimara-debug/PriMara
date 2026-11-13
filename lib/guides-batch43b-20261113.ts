@@ -55,7 +55,7 @@ export const guidesPartForty6B: Guide[] = [
     title: "A Business Phone Line for a Solo Therapist",
     metaTitle: "A Business Phone Line for a Solo Therapist",
     metaDescription:
-      "Why a solo therapist should publish a separate business number, not a personal cell, and how to switch it everywhere safely. (561) 291-2681",
+      "Why a solo therapist should publish a separate business number, not a personal cell, and how to switch it everywhere without missing calls. (561) 291-2681",
     answer:
       "A solo therapist who lists a personal cell number on the website and Google profile mixes private life with client contact and loses the number if the phone changes. A separate business line, forwarded or app-based, keeps personal contact private and can be changed everywhere in one planned sweep.",
     author: "Liam Costello",
@@ -150,7 +150,7 @@ export const guidesPartForty6B: Guide[] = [
     title: "One-Email Template to Report a Wrong Website Detail",
     metaTitle: "Email Template to Report a Wrong Website Detail",
     metaDescription:
-      "A copy-and-paste email that tells your web vendor exactly what is wrong, where, and what it should say so it is fixed once. (561) 291-2681",
+      "A copy-and-paste email that tells your web vendor exactly what is wrong, where it appears and what it should say, so it is fixed once. (561) 291-2681",
     answer:
       "To get a wrong website detail fixed the first time, send one email that gives the page link, what it says now, what it should say, where else it appears, how you want to see proof and the date it matters. No screenshots of private information, no guessing for the vendor.",
     author: "Liam Costello",
@@ -342,7 +342,7 @@ export const guidesPartForty6B: Guide[] = [
     title: "Checking a Marketing Invoice Against Work Delivered",
     metaTitle: "Checking a Marketing Invoice Against the Work Done",
     metaDescription:
-      "Five minutes a month: match each line on a marketing invoice to something you can see, and ask about what you cannot. (561) 291-2681",
+      "Five minutes a month: match each line on a marketing invoice to something you can see, then ask the vendor about any line you cannot. (561) 291-2681",
     answer:
       "Each month, match every line on the marketing invoice to something you can see: a page, a post, a report, a profile change or a counted result. Ask the vendor about any line with nothing to show for it. Keep the invoice and your notes together in one folder for the year.",
     author: "Gio LaRoche",

@@ -148,7 +148,7 @@ export const guidesPartForty6A: Guide[] = [
     title: "Five-Minute Staff Huddle After a Website Change",
     metaTitle: "Five-Minute Staff Huddle After a Website Change",
     metaDescription:
-      "A short huddle after a website change keeps the front desk ready for patient questions. Agenda, a one-line note and a check. (561) 291-2681",
+      "A short huddle after a website change keeps the front desk ready for patient questions: a five-minute agenda, a one-line note and a check. (561) 291-2681",
     answer:
       "After any change to the practice website, hold a five-minute huddle: show the changed page on a phone, say in one sentence what is different, tell the front desk what patients may ask, and agree who fixes anything that looks wrong. A written one-line note afterward keeps everyone's answers the same.",
     author: "Liam Costello",
@@ -330,7 +330,7 @@ export const guidesPartForty6A: Guide[] = [
     title: "Last Updated Dates on a Medical Practice Website",
     metaTitle: "Last Updated Dates on a Medical Practice Website",
     metaDescription:
-      "Should a service page show a last-updated date? When it builds trust, when it backfires and how to keep the date honest. (561) 291-2681",
+      "Should a service page show a last-updated date? When it builds trust, when it backfires and how a practice keeps the date honest. (561) 291-2681",
     answer:
       "Show a last-updated date on pages where information changes and patients rely on it, such as insurance, hours, policies and health-education pages. Skip it on pages that never change. Only change the date when the content actually changed, and make the visible date match the date in the page's markup.",
     author: "Gio LaRoche",
@@ -422,7 +422,7 @@ export const guidesPartForty6A: Guide[] = [
     title: "Asking a Web Host About Support Response Time",
     metaTitle: "Asking a Web Host About Support Response Time",
     metaDescription:
-      "What to ask a web host or maintenance provider about support response time before your practice website has a problem. (561) 291-2681",
+      "What to ask a web host or maintenance provider about support response time, and what to write down, before your site has a problem. (561) 291-2681",
     answer:
       "Before a problem happens, ask your web host or maintenance provider how to report an issue, how fast they reply, what counts as urgent, who answers outside business hours and what they do first. Get the answers in writing, then test the process once with a harmless question.",
     author: "Gio LaRoche",
