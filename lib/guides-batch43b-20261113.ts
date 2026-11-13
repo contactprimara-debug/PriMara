@@ -302,6 +302,16 @@ export const guidesPartForty6B: Guide[] = [
       p(
         "Open the page, confirm the hours and phone, read new recommendations and replies, and remove any outdated post. Add the check to your [monthly profile maintenance routine](/guides/monthly-google-business-profile-maintenance-checklist) so it does not depend on memory."
       ),
+      h2("What to post, and what to leave out"),
+      p(
+        "Business posts are best kept plain and useful: a closure notice, a change in hours, a new provider joining, or a reminder that the practice is accepting new patients. Use the same wording as your website so neighbors see one story."
+      ),
+      ul(
+        "Do not post health tips that read as individual advice.",
+        "Do not share patient stories, photos or thank-you notes that identify anyone.",
+        "Do not offer a discount or gift in return for a recommendation.",
+        "Do not argue in the comments. Reply once, politely, and invite the person to call."
+      ),
     ],
     faqs: [
       {
@@ -398,6 +408,13 @@ export const guidesPartForty6B: Guide[] = [
       p(
         "If the relationship ends, that folder and a [clean account handover](/guides/handing-over-website-google-and-ads-accounts-when-a-marketing-vendor-relationship-ends) make the transition much easier."
       ),
+      h2("If a line is still unclear after you ask"),
+      p(
+        "Write down what the vendor said and the date. Then ask for that line to be itemized on next month's invoice, with the task names and the pages or profiles it touched. Compare the answer with the agreement or proposal you signed, since the agreement is what both sides are held to."
+      ),
+      p(
+        "If the line is still unexplained after two months, raise it at your next scheduled meeting rather than in a passing email. Decide then whether to keep the item, change it or remove it. Keep the decision in writing, and do not store patient information anywhere in this record."
+      ),
     ],
     faqs: [
       {
@@ -485,6 +502,16 @@ export const guidesPartForty6B: Guide[] = [
       ),
       p(
         "If your practice moves or changes its number, the sign is one of the places to fix; the [office move checklist](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) lists the rest. Add a sign check to your [monthly profile maintenance routine](/guides/monthly-google-business-profile-maintenance-checklist) so it is read once a month."
+      ),
+      h2("What to leave off the sign"),
+      ul(
+        "Prices, discounts or offers.",
+        "Promises about results, outcomes or how quickly someone will be seen.",
+        "Long lists of services, which belong on the website.",
+        "Patient names, appointment notes or anything that identifies a visit."
+      ),
+      p(
+        "Before printing, ask your landlord or building manager whether there are rules about door and window signs. Then read the proof aloud to a staff member who has never seen it, and ask them to find the phone number in three seconds. If they cannot, enlarge it."
       ),
     ],
     faqs: [
