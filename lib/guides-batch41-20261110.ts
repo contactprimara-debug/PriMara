@@ -89,7 +89,7 @@ export const guidesPartForty4: Guide[] = [
         "No pop-up, chat tool or form added without the owner knowing what data it collects."
       ),
       p(
-        "The tracking limit deserves its own line. Our guide on [tracking and privacy on a medical website](/guides/hipaa-compliant-website-tracking-guide-for-medical-practices) explains why a designer should not add an ad pixel or a session recorder to pages that handle patient information, and the brief is the place to say that."
+        "The tracking limit deserves its own line. Our guide on [tracking and privacy on a medical website](/guides/hipaa-safe-tracking-for-a-medical-website) explains why a designer should not add an ad pixel or a session recorder to pages that handle patient information, and the brief is the place to say that."
       ),
       h3("6. Who approves, and how"),
       p(
