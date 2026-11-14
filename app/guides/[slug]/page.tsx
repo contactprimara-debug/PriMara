@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
+import GuideCta from "@/components/GuideCta";
 import Link from "next/link";
 import { guides, getGuide } from "@/lib/guides";
 import type { Guide, GuideSection } from "@/lib/guides";
@@ -478,13 +479,17 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
             <span aria-hidden="true">·</span>
             <span>{guide.readMinutes} min read</span>
           </div>
+          <GuideCta variant="top" />
         </div>
       </header>
 
       <article style={{ paddingTop: "clamp(32px, 4vw, 56px)", paddingBottom: "clamp(48px, 6vw, 80px)" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8" style={{ maxWidth: "780px" }}>
           {guide.sections.map((s, i) => (
-            <Section key={i} section={s} />
+            <Fragment key={i}>
+              <Section section={s} />
+              {i === Math.min(2, guide.sections.length - 1) && <GuideCta variant="mid" />}
+            </Fragment>
           ))}
 
           {/* Steps (HowTo) */}
@@ -592,7 +597,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
               We audit your profile, your competitors, and your market first — then tell you what it would take. No obligation.
             </p>
             <Link prefetch={false}
-              href="/contact"
+              href="/contact#contact-form"
               style={{
                 display: "inline-block",
                 background: "var(--gold)",
