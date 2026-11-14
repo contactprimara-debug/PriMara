@@ -62,7 +62,10 @@ export default function LeadConversionPing({ leadId }: { leadId: string }) {
       // storage unavailable - real visitors with blocked storage still fire
     }
     try {
-      if (sessionStorage.getItem("primara_lead_pinged")) return;
+      // Keyed on the lead id (2026-11-13, finding #803): a bare flag swallowed a
+      // SECOND genuine lead in the same browser session (lead 1095 on 2026-10-30
+      // had no GA4 event). Same lead id = reload/double-mount, skip; new id = count.
+      if (sessionStorage.getItem("primara_lead_pinged") === leadId) return;
     } catch {
       // storage unavailable (private mode) — fall through and still fire
     }
@@ -104,7 +107,7 @@ export default function LeadConversionPing({ leadId }: { leadId: string }) {
 
       // Only latch the guard once the event has actually been handed to gtag.
       try {
-        sessionStorage.setItem("primara_lead_pinged", "1");
+        sessionStorage.setItem("primara_lead_pinged", leadId);
       } catch {
         // ignore
       }
