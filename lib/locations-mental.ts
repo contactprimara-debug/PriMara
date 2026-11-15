@@ -386,12 +386,12 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
         a: "Search habits shift from one part of Aventura to another, so people near Williams Island and Turnberry Isle may look for different kinds of support. We write each therapist's pages and profile around those local areas instead of reusing a Florida-wide template.",
       },
       {
-        q: "What should a Aventura therapist's Google Business Profile include?",
+        q: "What should an Aventura therapist's Google Business Profile include?",
         a: "A strong profile starts with the right primary and secondary categories, an accurate list of services, current hours, and photos of the real office. For Aventura, it should also name the nearby areas served, such as Williams Island and Turnberry Isle, so Maps can match it to local searches.",
       },
       {
         q: "What areas within Aventura does this cover?",
-        a: "Coverage spans Aventura, including Williams Island, Turnberry Isle and Mystic Pointe. Patient search behavior differs by neighborhood, which is why a Aventura therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+        a: "Coverage spans Aventura, including Williams Island, Turnberry Isle and Mystic Pointe. Patient search behavior differs by neighborhood, which is why an Aventura therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
       },
     ],
   },
@@ -755,15 +755,15 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     },
     {
       q: "What makes Orlando's therapy market different from other Florida cities?",
-      a: "What people look for can differ between Winter Park and Lake Nona, and a Orlando therapist's online presence should reflect that. We build around the local areas a practice serves, not around the state as a whole.",
+      a: "What people look for can differ between Winter Park and Lake Nona, and an Orlando therapist's online presence should reflect that. We build around the local areas a practice serves, not around the state as a whole.",
     },
     {
-      q: "What should a Orlando therapist's Google Business Profile include?",
-      a: "Start with accurate categories, a plain description of the services offered, correct hours, and real photos. A Orlando therapist should also list the areas served, for example Winter Park and Lake Nona, so the profile lines up with the way local people search.",
+      q: "What should an Orlando therapist's Google Business Profile include?",
+      a: "Start with accurate categories, a plain description of the services offered, correct hours, and real photos. An Orlando therapist should also list the areas served, for example Winter Park and Lake Nona, so the profile lines up with the way local people search.",
     },
     {
       q: "What areas within Orlando does this cover?",
-      a: "Coverage spans Orlando, including Winter Park, Lake Nona and College Park. Patient search behavior differs by neighborhood, which is why a Orlando therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
+      a: "Coverage spans Orlando, including Winter Park, Lake Nona and College Park. Patient search behavior differs by neighborhood, which is why an Orlando therapist's Google Business Profile and website content need to speak to those areas specifically rather than the city as a whole.",
     },
   ],
 },
@@ -883,7 +883,7 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
       a: "Search habits shift from one part of Altamonte Springs to another, so people near Uptown Altamonte and Cranes Roost may look for different kinds of support. We write each therapist's pages and profile around those local areas instead of reusing a Florida-wide template.",
     },
     {
-      q: "What should a Altamonte Springs therapist's Google Business Profile include?",
+      q: "What should an Altamonte Springs therapist's Google Business Profile include?",
       a: "A strong profile starts with the right primary and secondary categories, an accurate list of services, current hours, and photos of the real office. For Altamonte Springs, it should also name the nearby areas served, such as Uptown Altamonte and Cranes Roost, so Maps can match it to local searches.",
     },
     {
@@ -1086,11 +1086,11 @@ export const mentalHealthLocations: MentalHealthLocation[] = [
     },
     {
       q: "What makes Orange Park's therapy market different from other Florida cities?",
-      a: "What people look for can differ between The Woodlands and Eagle Landing, and a Orange Park therapist's online presence should reflect that. We build around the local areas a practice serves, not around the state as a whole.",
+      a: "What people look for can differ between The Woodlands and Eagle Landing, and an Orange Park therapist's online presence should reflect that. We build around the local areas a practice serves, not around the state as a whole.",
     },
     {
-      q: "What should a Orange Park therapist's Google Business Profile include?",
-      a: "Start with accurate categories, a plain description of the services offered, correct hours, and real photos. A Orange Park therapist should also list the areas served, for example The Woodlands and Eagle Landing, so the profile lines up with the way local people search.",
+      q: "What should an Orange Park therapist's Google Business Profile include?",
+      a: "Start with accurate categories, a plain description of the services offered, correct hours, and real photos. An Orange Park therapist should also list the areas served, for example The Woodlands and Eagle Landing, so the profile lines up with the way local people search.",
     },
     {
       q: "What areas within Orange Park does this cover?",

@@ -730,7 +730,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
       },
       {
         q: "What makes Aventura's primary care market different from other Florida cities?",
-        a: "Patients in Aventura often search by area, for example near Aventura Mall area or Mystic Pointe and Porto Vita high-rises, and the local health systems, including Aventura Hospital and Medical Center (HCA), shape what they see first. Our work for a Aventura practice is written around those local details rather than around the state as a whole.",
+        a: "Patients in Aventura often search by area, for example near Aventura Mall area or Mystic Pointe and Porto Vita high-rises, and the local health systems, including Aventura Hospital and Medical Center (HCA), shape what they see first. Our work for an Aventura practice is written around those local details rather than around the state as a whole.",
       },
       {
         q: "Why should an independent Aventura practice start now instead of waiting?",
@@ -1236,7 +1236,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     },
     {
       q: "What makes Orlando's primary care market different from other Florida cities?",
-      a: "Patients in Orlando often search by area, for example near Lake Nona or Winter Park, and the local health systems, including AdventHealth Orlando, shape what they see first. Our work for a Orlando practice is written around those local details rather than around the state as a whole.",
+      a: "Patients in Orlando often search by area, for example near Lake Nona or Winter Park, and the local health systems, including AdventHealth Orlando, shape what they see first. Our work for an Orlando practice is written around those local details rather than around the state as a whole.",
     },
     {
       q: "Why should an independent Orlando practice start now instead of waiting?",
@@ -1244,7 +1244,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     },
     {
       q: "What areas within Orlando does this cover?",
-      a: "Coverage spans Orlando, including Lake Nona, Winter Park and College Park. AdventHealth Orlando and Orlando Health Medical Group compete for the same searches across those same neighborhoods, which is why a Orlando practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      a: "Coverage spans Orlando, including Lake Nona, Winter Park and College Park. AdventHealth Orlando and Orlando Health Medical Group compete for the same searches across those same neighborhoods, which is why an Orlando practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
     },
   ],
 },
@@ -1582,7 +1582,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
   faqs: [
     {
       q: "Does Primara work with primary care practices in Orange Park?",
-      a: "Primara actively works with independent practices in Orange Park. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who a Orange Park practice is actually competing against in local search, which here means HCA Florida Orange Park Hospital and Baptist Medical Center Clay (Baptist Health).",
+      a: "Primara actively works with independent practices in Orange Park. The engagement itself is standard across every market \u2014 GBP optimization, rank tracking, monthly reports, delivered remotely \u2014 but the strategy is built around who an Orange Park practice is actually competing against in local search, which here means HCA Florida Orange Park Hospital and Baptist Medical Center Clay (Baptist Health).",
     },
     {
       q: "Who are independent Orange Park practices competing against in local search?",
@@ -1590,7 +1590,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     },
     {
       q: "What makes Orange Park's primary care market different from other Florida cities?",
-      a: "Patients in Orange Park often search by area, for example near The Woodlands or Eagle Landing, and the local health systems, including HCA Florida Orange Park Hospital, shape what they see first. Our work for a Orange Park practice is written around those local details rather than around the state as a whole.",
+      a: "Patients in Orange Park often search by area, for example near The Woodlands or Eagle Landing, and the local health systems, including HCA Florida Orange Park Hospital, shape what they see first. Our work for an Orange Park practice is written around those local details rather than around the state as a whole.",
     },
     {
       q: "Why should an independent Orange Park practice start now instead of waiting?",
@@ -1598,7 +1598,7 @@ export const primaryCareLocations: PrimaryCareLocation[] = [
     },
     {
       q: "What areas within Orange Park does this cover?",
-      a: "Coverage spans Orange Park, including The Woodlands, Eagle Landing and Wilford Preserve. HCA Florida Orange Park Hospital and Baptist Medical Center Clay (Baptist Health) compete for the same searches across those same neighborhoods, which is why a Orange Park practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
+      a: "Coverage spans Orange Park, including The Woodlands, Eagle Landing and Wilford Preserve. HCA Florida Orange Park Hospital and Baptist Medical Center Clay (Baptist Health) compete for the same searches across those same neighborhoods, which is why an Orange Park practice's Google Business Profile and local content need to name those areas specifically rather than relying on the city name alone.",
     },
   ],
 },
