@@ -259,7 +259,7 @@ export const guidesPartForty4: Guide[] = [
       "In the week after a new provider joins, the office manager checks five places on set days: the team page, the Google profile, the booking path, insurance directories and the phone script. Each check takes about 10 minutes, and it catches missing names, wrong titles and stale listings before patients notice.",
     author: "Liam Costello",
     publishDate: "2026-11-10T18:20:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why the week after, and not the day of"),
@@ -307,7 +307,7 @@ export const guidesPartForty4: Guide[] = [
       ),
       h2("What not to put on the page"),
       p(
-        "Describe training and licenses only as the provider gave them to you and as a public record confirms. Avoid saying a new provider is the 'best' or 'most experienced', and avoid claims about outcomes. Those limits apply to every provider page, and our piece on [introducing a new provider without clinical claims](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) shows wording that stays on the safe side."
+        "Describe training and licenses only as the provider gave them to you and as a public record confirms. Avoid saying a new provider is the 'best' or 'most experienced', and avoid claims about outcomes. Those limits apply to every provider page, and our piece on [introducing a new provider without clinical claims](/guides/introducing-a-new-provider-to-patients-online-for-a-primary-care-practice-without-clinical-claims) shows wording that stays on the safe side. A year later, the [annual check of provider names and licenses](/guides/annual-check-of-provider-names-titles-and-license-details-on-a-primary-care-practice-website-against-the-state-licensing-lookup) confirms the details have not drifted."
       ),
     ],
     faqs: [

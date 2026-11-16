@@ -1320,7 +1320,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A good new patient phone script greets the caller by the practice name, asks only what is needed to book, such as name, phone, insurance and preferred times, explains what to bring and what happens next, and avoids asking about symptoms. Review it quarterly and keep a log of why calls do not end in a booking.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("The first call decides a lot"),
@@ -1339,7 +1339,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Close warmly, and ask if they have any questions."
       ),
       p(
-        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice). Have the script offer the same visit your website describes, as laid out in this [establishing care visit page for a primary care practice](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice), so the phone and the page agree."
+        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice). Have the script offer the same visit your website describes, as laid out in this [establishing care visit page for a primary care practice](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice), so the phone and the page agree. The website should offer the same split, with [separate contact paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website), so new-patient calls reach this script."
       ),
       h2("Questions to leave out"),
       table(
@@ -1368,7 +1368,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Flag calls that ended without a booking and review them weekly."
       ),
       p(
-        "Role-play the script in a staff meeting once a quarter. People find the weak spots quickly when they hear themselves say it."
+        "Role-play the script in a staff meeting once a quarter. People find the weak spots quickly when they hear themselves say it. Include the plain answers about visit types and lengths from [the visit types guide](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) so every caller hears the same thing."
       ),
       p(
         "Keep the script short enough to fit on one page, and update it when anything changes, such as hours, insurance or the forms process. Some callers will say they cannot use the internet at all, and a [paper forms and phone registration page for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice) gives the front desk one link and a consistent set of options to describe."

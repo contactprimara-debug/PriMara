@@ -790,7 +790,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "Build a page for a specific insurance carrier only when your clinicians have a signed contract with it, and say exactly which clinicians and plan types it covers, how to check benefits, and what you cannot promise. Skip carriers you are not contracted with, and never copy carrier logos or claim coverage amounts.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why carrier pages tempt every practice"),
@@ -821,7 +821,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h3("Use the carrier's name, but not its branding"),
       p(
-        "Writing the carrier name in text to state a fact is fine. Using its logo, colors or wording in a way that suggests an endorsement is not. Say that your clinicians are contracted with the carrier and leave it there. If the carrier supplies approved language for providers, follow it."
+        "Writing the carrier name in text to state a fact is fine. Using its logo, colors or wording in a way that suggests an endorsement is not. Say that your clinicians are contracted with the carrier and leave it there. If the carrier supplies approved language for providers, follow it. The same caution applies to a row of logos, as explained in our guide on [insurance company logos on a medical practice website](/guides/insurance-company-logos-on-a-medical-practice-website-without-implying-in-network-status-or-endorsement)."
       ),
       h2("Keep it honest as contracts change"),
       p(
@@ -874,7 +874,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "Keep the practice's NPI registry record, CAQH profile and each insurer's provider directory matching the address, phone and name on your website and Google profile. Update them whenever something changes, review CAQH on its re-attestation schedule, and check each directory every quarter, since errors there send patients elsewhere.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The records you never see patients read"),
@@ -894,7 +894,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h3("What federal rules say about updates"),
       p(
-        "Covered providers are expected to keep their NPPES information current, and the rule calls for reporting changes within thirty days. Check the CMS site for the current wording. For the CAQH profile, log in to the account on its re-attestation date, review each section and confirm the practice location, phone and hours."
+        "Covered providers are expected to keep their NPPES information current, and the rule calls for reporting changes within thirty days. Check the CMS site for the current wording. For the CAQH profile, log in to the account on its re-attestation date, review each section and confirm the practice location, phone and hours. The [yearly check of provider names, titles and licenses against the state lookup](/guides/annual-check-of-provider-names-titles-and-license-details-on-a-primary-care-practice-website-against-the-state-licensing-lookup) is a good time to review the NPI record as well."
       ),
       h2("A quarterly accuracy routine"),
       ol(
@@ -1306,15 +1306,15 @@ export const guidesPartThirtyThree: Guide[] = [
       "An auto reply to a new client inquiry should confirm the message arrived, say who will answer and when, give the office phone number, point to 988 and 911 for emergencies and ask for no health details. Send it from a real practice address, keep it short and only promise the reply time you reliably meet.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The minute after someone presses send"),
       p(
-        "A person who fills out a counseling inquiry form has just done something hard. They typed a few lines, pressed send, and now they wait. Silence in that moment feels like rejection. A short automatic reply that says the message arrived, who reads it and what happens next turns the wait into a known quantity, and many people will not search for another counselor while they wait. The auto-reply is the first message a client receives; the second should come within a day of the first session, and our [guide to wording the first-week check-in](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) shows what it can say."
+        "A person who fills out a counseling inquiry form has just done something hard. They typed a few lines, pressed send, and now they wait. Silence in that moment feels like rejection. A short automatic reply that says the message arrived, who reads it and what happens next turns the wait into a known quantity, and many people will not search for another counselor while they wait. The auto-reply is the first message a client receives; the second should come within a day of the first session, and our [guide to wording the first-week check-in](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) shows what it can say. People reaching out about a loss, as on a [grief counseling page without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims), may need the reply to be especially calm and short."
       ),
       p(
-        "The reply is also the first piece of writing from the practice that the person owns. It sets the tone for the voice of the office, so it should sound like a human at the front desk and not like a ticket system. Use the name the client chose, which the [preferred name field on the intake form](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice) makes possible."
+        "The reply is also the first piece of writing from the practice that the person owns. It sets the tone for the voice of the office, so it should sound like a human at the front desk and not like a ticket system. Use the name the client chose, which the [preferred name field on the intake form](/guides/preferred-name-and-pronoun-fields-on-intake-forms-for-a-counseling-practice) makes possible. A [short callback request](/guides/callback-request-button-versus-a-full-contact-form-for-a-counseling-practice-website-and-who-answers-it-within-one-business-day) works best with an automatic reply that confirms who will call and when."
       ),
       h2("What belongs in the message"),
       table(
@@ -1343,7 +1343,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h2("Make the reply match the rest of the experience"),
       p(
-        "The wording should agree with the page the person saw after submitting, as described in our guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), and with the fields on the form itself. Use the same reply time in both places, or visitors notice. To check that the reply arrives and how fast, include it in a [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) run by someone from the office."
+        "The wording should agree with the page the person saw after submitting, as described in our guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it), and with the fields on the form itself. Use the same reply time in both places, or visitors notice. To check that the reply arrives and how fast, include it in a [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) run by someone from the office. The intake email follows the same rule, as described in [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice)."
       ),
       p(
         "Send the message from your own domain, using the approach in the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), so it lands in the inbox and not in spam. Then test it: submit a test inquiry marked as a test, check how the email looks on a phone, and make sure the reply-to address reaches a monitored inbox. Check the delivery path every quarter, since a form that stops sending silently costs real inquiries. A person who emails only to ask about insurance needs a different reply than a form auto-reply, which [answering an email about whether a counselor takes their insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details) walks through with a template. To make sure the auto-reply is not filtered as spam, ask your provider about [SPF, DKIM and DMARC settings](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox)."

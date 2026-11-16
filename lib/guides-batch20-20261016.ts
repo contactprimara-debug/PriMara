@@ -610,7 +610,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A grief counseling page should speak gently, say who the counselor is and how sessions work, and describe the support as a place to talk, not a way to fix or end grief. It should avoid timelines, stages presented as rules, and claims of healing, and it should include crisis resources for someone in distress.",
     author: "Liam Costello",
     publishDate: "2026-10-16T11:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("Begin where the reader is"),
@@ -683,6 +683,7 @@ export const guidesPartTwentyThree: Guide[] = [
         q: "Should the page list the kinds of loss the practice sees?",
         a: "Name the situations in plain words, such as the loss of a spouse, parent, child or friend, and leave out any description of how a person will feel or recover. The page should help a reader see that the practice is a fit, not predict an outcome.",
       },
+      { "q": "Should a grief counseling page say how long counseling lasts?", "a": "Avoid stating a number of sessions or a timeline. It can read as a clinical claim and may make visitors feel they are grieving the wrong way. Explain how to begin and let the clinician talk about pace with each person." },
     ],
     citations: [LIFELINE, FL_MENTAL, GOOGLE_HELPFUL],
     links: [

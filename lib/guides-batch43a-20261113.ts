@@ -427,7 +427,7 @@ export const guidesPartForty6A: Guide[] = [
       "Before a problem happens, ask your web host or maintenance provider how to report an issue, how fast they reply, what counts as urgent, who answers outside business hours and what they do first. Get the answers in writing, then test the process once with a harmless question.",
     author: "Gio LaRoche",
     publishDate: "2026-11-13T14:00:00Z",
-    dateModified: "2026-11-13",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Support speed matters most when the phone is not ringing"),
@@ -456,7 +456,7 @@ export const guidesPartForty6A: Guide[] = [
       ),
       h3("5. Do you monitor the site, or do I have to tell you?"),
       p(
-        "Ask whether uptime is monitored and who is alerted. Our guide on [backups, uptime monitoring and maintenance](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice) explains what to expect and what to ask for."
+        "Ask whether uptime is monitored and who is alerted. Our guide on [backups, uptime monitoring and maintenance](/guides/website-backups-uptime-monitoring-and-maintenance-for-a-medical-practice) explains what to expect and what to ask for. If you decide to switch providers, the [checklist for the day a website changes hosting company](/guides/one-page-checklist-for-the-day-a-medical-practice-website-changes-hosting-company-so-email-forms-and-the-phone-link-keep-working) covers what to test afterward."
       ),
       h3("6. What are your first three steps when a site is down?"),
       p(

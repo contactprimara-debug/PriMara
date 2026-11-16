@@ -653,7 +653,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "A counseling practice can post about openings, hours, new clinicians, what a first session is like, insurance updates, telehealth, groups, workshops, community resources and holiday closures. Keep posts short, factual and free of client stories, diagnoses or outcome promises, and add a real photo.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("What a post is for"),
@@ -690,11 +690,11 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("Posting rhythm"),
       p(
-        "A steady rhythm beats a burst. One or two posts a week is enough, and a short list of reusable ideas stops the weekly question of what to write. Posts expire from view after a time, so repeat a useful one, such as new openings, whenever it is true again. Tie your schedule to the [monthly profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) so it does not slip."
+        "A steady rhythm beats a burst. One or two posts a week is enough, and a short list of reusable ideas stops the weekly question of what to write. Posts expire from view after a time, so repeat a useful one, such as new openings, whenever it is true again. Tie your schedule to the [monthly profile maintenance checklist](/guides/monthly-google-business-profile-maintenance-checklist) so it does not slip. Check the profile's categories at the same time, using [how to choose Google Business Profile categories](/guides/choosing-google-business-profile-categories-for-a-medical-practice)."
       ),
       h2("Check the link and the number"),
       p(
-        "Every post that has a button should send people to a page that answers the post's promise. If the post mentions a workshop, link to the workshop page, not the home page. Use tagged links as described in [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) so you can count the visits."
+        "Every post that has a button should send people to a page that answers the post's promise. If the post mentions a workshop, link to the workshop page, not the home page. Use tagged links as described in [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) so you can count the visits. Our guide on [which page a Learn more link should open](/guides/which-page-a-learn-more-link-on-a-google-business-profile-post-should-open-for-a-medical-practice) matches each post type to its page."
       ),
     ],
     faqs: [
@@ -830,7 +830,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "The confirmation email after a web form should say the office received the request, when someone will reply, how to call if it is urgent, and what to do in an emergency. It must not repeat what the person typed or mention health details, in the subject or the body.",
     author: "Liam Costello",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why this small email matters"),
@@ -838,7 +838,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "After someone submits a form on your website, the first thing they see is a thank-you page. The second is an email. If that email is missing, people wonder whether the form worked and call again, or try a competitor. If it is careless, it can expose information in an inbox that someone else may read."
       ),
       p(
-        "The rule is to confirm receipt and set expectations, nothing more. The email is not the place to repeat the person's message, give advice or discuss why they want to be seen. The welcome message that follows the confirmation can be adapted from [a new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) without including any health details."
+        "The rule is to confirm receipt and set expectations, nothing more. The email is not the place to repeat the person's message, give advice or discuss why they want to be seen. The welcome message that follows the confirmation can be adapted from [a new patient welcome text or email](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) without including any health details. The same three lines belong in a [what-happens-next note directly under the form](/guides/what-happens-after-you-submit-note-under-a-medical-practice-contact-form-when-to-expect-a-reply-and-what-not-to-include), so the email repeats what the patient already read."
       ),
       h2("A safe structure"),
       ol(

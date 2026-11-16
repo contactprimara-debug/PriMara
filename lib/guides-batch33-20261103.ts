@@ -316,12 +316,12 @@ export const guidesPartThirtySix: Guide[] = [
       "A counseling voicemail greeting should name the practice, state when calls are returned, say what to leave and what not to leave, and give 988 for emergencies. It must never confirm that a caller is a client or name a clinician in a way that reveals who is being seen.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why the greeting matters more than it looks"),
       p(
-        "For many people the voicemail is the first contact with a counselor. They may have gathered courage for days, called after hours and reached a machine. What they hear in the next twenty seconds decides whether they leave a message or hang up and keep looking."
+        "For many people the voicemail is the first contact with a counselor. They may have gathered courage for days, called after hours and reached a machine. What they hear in the next twenty seconds decides whether they leave a message or hang up and keep looking. Someone calling about a loss may reach this message before they see the [grief counseling page](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims), so keep the wording gentle."
       ),
       p(
         "It is also a privacy moment. A caller may be in a car, at work or at home with others nearby, and a client may be playing the message on speaker. The greeting should say nothing that would let a listener work out who is being seen. State the same times in the greeting that the website uses for [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile) so callers hear one consistent answer."
@@ -364,7 +364,7 @@ export const guidesPartThirtySix: Guide[] = [
         "Once a quarter, call the office from a mobile phone after hours. Listen for the pause before the beep, the volume, and whether the recording matches your current hours. Compare it with what the website and Google profile say, using the checks in [after-hours calls and voicemail at a medical practice](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). A mismatch between the greeting and the profile is a small trust loss that is easy to fix. A [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients) run by someone from outside the front desk can include this after-hours call."
       ),
       p(
-        "Finally, decide who checks the mailbox and how often. A greeting that promises one business day is a promise to a person who may have been struggling that week, and a missed message is the costly part."
+        "Finally, decide who checks the mailbox and how often. A greeting that promises one business day is a promise to a person who may have been struggling that week, and a missed message is the costly part. The greeting should also match the [by-appointment-only hours wording](/guides/by-appointment-only-hours-wording-for-a-counseling-practice-website-and-google-profile) published on the website and Google profile."
       ),
     ],
     faqs: [

@@ -147,7 +147,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A new patient welcome message should confirm the date and time, give the address and parking, list what to bring, link to a secure forms page and say how to reach the front desk. It should not mention the reason for the visit, and a text version needs clear opt-in and a way to stop.",
     author: "Gio LaRoche",
     publishDate: "2026-10-14T09:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("The first message sets the tone"),
@@ -193,11 +193,11 @@ export const guidesPartTwentyOne: Guide[] = [
         "A sensible pattern is a confirmation at booking, a reminder a day or two before, and a brief thank-you afterward. More than that begins to feel like marketing. If the patient replies, make sure a person reads it within office hours, because an unanswered reply is the fastest way to turn a warm welcome cold."
       ),
       p(
-        "Test the whole sequence yourself with a new phone number before you switch it on. Check that the map link opens, the forms link works on a phone, and the sender name is your practice rather than a string of digits."
+        "Test the whole sequence yourself with a new phone number before you switch it on. Check that the map link opens, the forms link works on a phone, and the sender name is your practice rather than a string of digits. Before turning on any marketing texts, read [text message marketing compliance for a medical practice](/guides/text-message-marketing-compliance-for-a-medical-practice) to confirm consent and opt-out are in place."
       ),
       h2("Plan for replies, wrong numbers and no-shows"),
       p("Every welcome text produces a few surprises. Someone replies with a question, a number belongs to a family member, or a patient never opens the message at all. Decide in advance who reads replies, how quickly, and what the standard answer is. A shared inbox that nobody owns is where welcome messages go to die. Before the welcome message, the first email a person receives is the form confirmation, which should follow the wording in this [contact form confirmation email guide for a primary care practice](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details)."),
-      p("For patients who do not respond, a phone call the day before is still the most reliable reminder. Note on the schedule which patients have confirmed, and use the quiet moments in the front desk day to call the rest."),
+      p("For patients who do not respond, a phone call the day before is still the most reliable reminder. Note on the schedule which patients have confirmed, and use the quiet moments in the front desk day to call the rest. Tell patients in the same message how the practice contacts them, so a [scam text posing as the office](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) is easier to spot."),
     ],
     faqs: [
       {
@@ -630,7 +630,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "The intake email should be short and neutral: link to the practice's secure forms portal, list the forms by name, say how long they take, include the session time and link, and give a phone number. Never attach questionnaires, never ask the client to reply with their history, and keep the subject line free of anything that describes why they are coming.",
     author: "Liam Costello",
     publishDate: "2026-10-14T11:00:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("The email that decides how session one starts"),
@@ -679,7 +679,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Write at a reading level that a tired person can follow on a phone. Our notes on [plain language for patient-facing content](/guides/plain-language-and-reading-level-for-patient-facing-web-content) apply directly. Avoid clinical terms, avoid the word patient if your practice says client, and avoid exclamation marks that might read as pressure. Reminders sent after the intake email should be just as discreet, as our guide to [appointment reminder wording for a counseling practice](/guides/appointment-reminder-wording-for-a-counseling-practice-that-protects-client-privacy) explains."
       ),
       p(
-        "Finally, test the whole flow as a new client would. Book a test appointment, open the email on a phone, click every link and complete the forms. Fix the first thing that annoys you."
+        "Finally, test the whole flow as a new client would. Book a test appointment, open the email on a phone, click every link and complete the forms. Fix the first thing that annoys you. The message after the first session deserves the same care, with wording from [the first-week follow-up check-in guide](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice)."
       ),
       h2("Special cases: couples, minors and shared devices"),
       p("Some first sessions need more than one set of forms. For couples, say whether each person completes their own forms and whether the link goes to both addresses. For a minor, state who signs, since a parent or guardian is generally the one who consents, and the rules differ by state and by the age of the client. Keep these statements short and have the clinician confirm them."),
@@ -707,6 +707,7 @@ export const guidesPartTwentyOne: Guide[] = [
         q: "Should the email mention crisis resources?",
         a: "Yes. A short line telling clients to call 911 in an emergency and to use the 988 Lifeline if they are in distress is standard good practice.",
       },
+      { "q": "How far ahead should the intake email go out?", "a": "Send it soon after the appointment is booked, then a short reminder a day or two before the session. Early delivery lets clients finish the forms at home, so the first session can focus on the person instead of the paperwork." },
     ],
     citations: [HHS_PRIVACY, PLAIN, LIFELINE],
     links: [
@@ -1035,7 +1036,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "Announce a closure in three places on the same day: the Google Business Profile special hours, a short banner on the website, and the phone greeting. Use identical dates and wording, say what to do in an emergency, and remove the notice the day you reopen so patients are never misled.",
     author: "Liam Costello",
     publishDate: "2026-10-14T12:20:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("A closed door with no explanation costs you patients"),
@@ -1047,7 +1048,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h2("Write the notice once, then copy it"),
       p(
-        "Draft a single version before you touch any system. Decide the first day closed, the first day open again, whether anyone answers the phone, and where urgent callers should go. Then every channel carries the same words, which stops the mismatches that make patients doubt the office."
+        "Draft a single version before you touch any system. Decide the first day closed, the first day open again, whether anyone answers the phone, and where urgent callers should go. Then every channel carries the same words, which stops the mismatches that make patients doubt the office. Practices that see clients by appointment can reuse the line from the guide to [by-appointment-only hours wording](/guides/by-appointment-only-hours-wording-for-a-counseling-practice-website-and-google-profile)."
       ),
       ul(
         "The dates, written out with the day of the week, so nobody has to count.",
@@ -1066,7 +1067,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Door sign", "Post a printed copy with the phone number and the reopening date."]
       ),
       p(
-        "Special hours on a Google listing are different from changing the regular hours. They apply only to the dates you choose and revert on their own, which is exactly what you want. Our guide on [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) explains how to set them and how to mark a temporary closure. A permanent closure needs a different notice than a holiday break, and our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains what to publish and update. After a holiday closure ends, a [new year availability announcement](/guides/new-year-availability-announcement-for-a-counseling-practice) can tell people when the office reopens to new clients and how to book. The phone greeting should say the same thing as the page, and [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile) explains how to keep them matched."
+        "Special hours on a Google listing are different from changing the regular hours. They apply only to the dates you choose and revert on their own, which is exactly what you want. Our guide on [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) explains how to set them and how to mark a temporary closure. A permanent closure needs a different notice than a holiday break, and our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) explains what to publish and update. After a holiday closure ends, a [new year availability announcement](/guides/new-year-availability-announcement-for-a-counseling-practice) can tell people when the office reopens to new clients and how to book. The phone greeting should say the same thing as the page, and [phone-answered hours versus office hours](/guides/phone-answered-hours-versus-office-hours-on-a-medical-practice-website-and-google-profile) explains how to keep them matched. If you post about the closure too, send the post's [Learn more link to the page that states the dates](/guides/which-page-a-learn-more-link-on-a-google-business-profile-post-should-open-for-a-medical-practice)."
       ),
       h3("Remember the voicemail and the answering service"),
       p(
@@ -1077,7 +1078,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Keep a draft notice with blanks for the reason, the dates and the contact route. When something happens, someone can fill in the blanks within minutes instead of writing from scratch at the worst possible time. Decide ahead of time who is allowed to edit the Google listing and the website banner, and write the logins into your shared access document."
       ),
       p(
-        "Agree on a single person who confirms the final wording. A notice that says one thing on the website and another on the phone message does more harm than silence."
+        "Agree on a single person who confirms the final wording. A notice that says one thing on the website and another on the phone message does more harm than silence. The wording for a one-off event such as a [staff training day closure notice](/guides/closed-for-a-staff-training-day-wording-on-the-website-google-profile-and-phone-greeting-of-a-medical-or-counseling-practice) follows the same pattern with a reopening date."
       ),
       h2("Take the notice down on time"),
       p(

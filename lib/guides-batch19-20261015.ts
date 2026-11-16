@@ -661,7 +661,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A thank-you page should confirm the request arrived, say when the practice will respond, give the phone number for urgent needs and the 911 line for emergencies, and contain no health details. It is also the best place to count a lead, because the page only loads after a form is actually submitted.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("The page most practices forget to build"),
@@ -669,7 +669,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "When someone submits a contact form, many sites show a small green message and leave the visitor on the same page. That message is invisible to analytics, easy to miss and impossible to link to. A dedicated thank-you page fixes all three problems at once, and it takes less than an hour to build. The confirmation email that follows should say the same thing as the page, and our guide to an [auto reply email after a new client inquiry for a counseling practice](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) gives wording."
       ),
       p(
-        "It also helps the visitor. A person who has just shared a phone number is slightly anxious. A calm page that says what happens next lowers that anxiety and cuts repeat submissions."
+        "It also helps the visitor. A person who has just shared a phone number is slightly anxious. A calm page that says what happens next lowers that anxiety and cuts repeat submissions. A short [note under the form that says when to expect a reply and what not to include](/guides/what-happens-after-you-submit-note-under-a-medical-practice-contact-form-when-to-expect-a-reply-and-what-not-to-include) does the same job before the visitor presses submit."
       ),
       h2("What the page should say"),
       ul(

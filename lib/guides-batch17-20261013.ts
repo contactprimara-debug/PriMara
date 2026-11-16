@@ -925,7 +925,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A visit types page lists each kind of appointment your practice books, such as new patient, follow-up, sick visit and annual wellness, with a plain one-line purpose and a typical length. Say lengths are scheduling blocks, not promises, and tell patients which type to ask for when they call.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:00:00Z",
-    "dateModified": "2026-11-03",
+    "dateModified": "2026-11-16",
     "readMinutes": 6,
     "sections": [
       {
@@ -1068,7 +1068,8 @@ export const guidesPartTwenty: Guide[] = [
       {
         "q": "How often should the page be updated?",
         "a": "Whenever your schedule template, visit names or lengths change, and during your regular monthly website check."
-      }
+      },
+      { "q": "Should the website say how long each visit lasts?", "a": "Give a typical range and say it can vary. A short line noting that first visits usually take longer than follow-ups sets expectations without promising a time the schedule cannot always keep." },
     ],
     "citations": [
       {

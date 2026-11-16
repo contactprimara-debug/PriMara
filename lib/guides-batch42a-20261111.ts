@@ -273,7 +273,7 @@ export const guidesPartForty5A: Guide[] = [
       "Keep one page listing each service your practice depends on: website host, domain registrar, email, phone carrier, Google profile, and patient portal. For each, write the company, the account owner, the login email, the support number, the renewal date and who at the practice may call. Store it where two people can find it.",
     author: "Gio LaRoche",
     publishDate: "2026-11-11T14:20:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The morning the phones stop"),
@@ -281,7 +281,7 @@ export const guidesPartForty5A: Guide[] = [
         "A practice usually discovers that nobody knows who runs the website on a bad morning: the site is down, the phone line is dead or the Google profile shows 'permanently closed.' The person who set it up left two years ago. The invoice goes to an email nobody reads."
       ),
       p(
-        "A single page, printed and saved, answers the first five minutes of any of these. It is the cheapest protection a practice can build."
+        "A single page, printed and saved, answers the first five minutes of any of these. It is the cheapest protection a practice can build. Give a copy to the [named backup person who covers the website, profile and phones](/guides/named-backup-person-for-the-website-google-profile-and-phone-system-when-the-office-manager-is-out-for-a-week) when the office manager is out."
       ),
       h2("What the sheet lists"),
       p(

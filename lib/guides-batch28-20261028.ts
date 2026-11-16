@@ -496,7 +496,7 @@ export const guidesPartThirtyOne: Guide[] = [
       "A fee change notice tells current clients the new session fee, the date it starts, what stays the same, and who to call with questions. Send it in writing well before the date, post the same wording on your fees page, and have an attorney or your licensing board's rules checked first.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("Money is the part of therapy clients ask about last"),
@@ -568,6 +568,7 @@ export const guidesPartThirtyOne: Guide[] = [
         q: "Does this apply to insurance clients?",
         a: "Usually the contract rate with the payer applies to those sessions, so the letter should say it covers self-pay clients. Check your payer agreements before wording this part, and have the contract reviewed if unsure.",
       },
+      { "q": "Should a fee change notice go out by email or by letter?", "a": "Use the channel the client chose for practice contact, and keep the notice free of clinical detail. Either way, send it far enough ahead that clients can ask questions before the new fee applies." },
     ],
     citations: [ACA_ETHICS, APA_ETHICS, CMS_NOSURPRISES, FL_MH_BOARD],
     links: [
@@ -964,7 +965,7 @@ export const guidesPartThirtyOne: Guide[] = [
       "A staff titles page explains in plain words what MD, DO, NP, PA and MA mean on the team page, who a patient will see, and how to ask for a specific clinician. It uses each person's credentials exactly as licensed and makes no claim that one title is better than another.",
     author: "Gio LaRoche",
     publishDate: "2026-10-28T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("Patients see letters and guess"),
@@ -985,7 +986,7 @@ export const guidesPartThirtyOne: Guide[] = [
       ),
       h2("Use credentials exactly as licensed"),
       p(
-        "Every title on the page must match a real license. Check each clinician against the state license lookup and the national provider registry, and write the credential the way the board records it. Never add letters a person does not hold, and never shorten a title in a way that changes it. A practice that overstates a credential invites a complaint, and it harms every patient's trust."
+        "Every title on the page must match a real license. Check each clinician against the state license lookup and the national provider registry, and write the credential the way the board records it. Never add letters a person does not hold, and never shorten a title in a way that changes it. A practice that overstates a credential invites a complaint, and it harms every patient's trust. Repeat that comparison once a year with the [annual check of provider names and license details](/guides/annual-check-of-provider-names-titles-and-license-details-on-a-primary-care-practice-website-against-the-state-licensing-lookup)."
       ),
       p(
         "Our guide to [therapist credentials and license titles](/guides/therapist-credentials-and-license-titles-explained-on-a-counseling-practice-website) shows the same approach for counseling, and the [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) explains who patients meet first. The [CMS provider registry](https://nppes.cms.hhs.gov/) is a good public source to confirm names and credentials."

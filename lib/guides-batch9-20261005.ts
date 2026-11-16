@@ -553,7 +553,7 @@ export const guidesPartTwelve: Guide[] = [
     answer: "List the insurance plans your practice currently participates in by exact plan name, grouped by carrier, and add the date you last verified it. Tell patients to confirm their specific plan by calling. Never write 'we accept all insurance.' An accurate, dated page answers a top patient question and avoids sending someone to a visit that is not covered.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       {
@@ -581,7 +581,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it. When someone emails to ask whether you take their plan, reply with the same facts as this page, as shown in [answering a prospective client who asks by email about insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details)."
+        "text": "Do not describe coverage in a way that implies a guarantee. Say that your office will help verify benefits, and that final coverage depends on the patient's plan. New Medicare enrollees often look for a specific visit, so link the page to a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) that explains who may qualify and where to confirm it. When someone emails to ask whether you take their plan, reply with the same facts as this page, as shown in [answering a prospective client who asks by email about insurance](/guides/answering-a-prospective-client-who-asks-by-email-if-a-counselor-takes-their-insurance-without-sharing-private-details). Logos can imply the same guarantee, so read [how to show insurance logos without implying in-network status](/guides/insurance-company-logos-on-a-medical-practice-website-without-implying-in-network-status-or-endorsement) before adding any to the page."
       },
       {
         "type": "h2",

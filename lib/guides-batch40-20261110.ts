@@ -677,7 +677,7 @@ export const guidesPartForty3: Guide[] = [
       "Put each check on a calendar with one named owner and one date: weekly profile and phone tests, monthly report reads, quarterly form and link tests, and yearly domain and content reviews. A check without a person and a date does not happen, so write both next to every line.",
     author: "Liam Costello",
     publishDate: "2026-11-10T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Checks that have no owner do not happen"),
@@ -715,7 +715,7 @@ export const guidesPartForty3: Guide[] = [
       h2("What each check should look like"),
       h3("Weekly profile and phone test"),
       p(
-        "Search the practice name on a phone. Read the Google profile card: hours, phone, website link and any notice. Call the number and confirm the right person or system answers. Google's help page on [editing your profile](https://support.google.com/business/answer/3039617) covers how hours and details are changed if something is wrong."
+        "Search the practice name on a phone. Read the Google profile card: hours, phone, website link and any notice. Call the number and confirm the right person or system answers. Google's help page on [editing your profile](https://support.google.com/business/answer/3039617) covers how hours and details are changed if something is wrong. Look at the profile's categories during the same check, as explained in [how to choose Google Business Profile categories for a medical practice](/guides/choosing-google-business-profile-categories-for-a-medical-practice)."
       ),
       h3("Quarterly form and link test"),
       p(
@@ -723,7 +723,7 @@ export const guidesPartForty3: Guide[] = [
       ),
       h3("Yearly content review"),
       p(
-        "Read each main page aloud. Check the hours, providers, services and insurance against what the office does today. The counseling version of this review is in our [annual website content review checklist](/guides/annual-website-content-review-checklist-for-a-counseling-practice), and most of it applies to primary care too."
+        "Read each main page aloud. Check the hours, providers, services and insurance against what the office does today. The counseling version of this review is in our [annual website content review checklist](/guides/annual-website-content-review-checklist-for-a-counseling-practice), and most of it applies to primary care too. Add the [annual provider name and license check](/guides/annual-check-of-provider-names-titles-and-license-details-on-a-primary-care-practice-website-against-the-state-licensing-lookup) as its own line with a named owner."
       ),
       h2("Keep it on one page"),
       p(

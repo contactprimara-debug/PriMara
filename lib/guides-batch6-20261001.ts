@@ -864,7 +864,7 @@ export const guidesPartNine: Guide[] = [
       "The Telephone Consumer Protection Act (TCPA) requires a medical practice to get prior express written consent before sending marketing text messages to a patient's cell phone — a higher bar than email's opt-out standard — plus a clear STOP opt-out honored immediately. This is a plain-language summary, not legal advice; confirm specifics with a healthcare attorney before launching a texting program.",
     author: "Liam Costello",
     publishDate: "2026-10-01T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-16",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why text messaging is held to a higher bar than email" },
@@ -935,6 +935,7 @@ export const guidesPartNine: Guide[] = [
         q: "Can a patient re-consent after opting out?",
         a: "Yes, but it requires a fresh, affirmative opt-in — you cannot simply resume texting someone who replied STOP based on old consent. Most platforms require them to text START or complete a new consent action before marketing messages can resume.",
       },
+      { "q": "Can a reminder text include a link?", "a": "It can, but patients and carriers are wary of unknown links. If you include one, use your own domain, say so in the message and avoid any link that leads to a page showing health details." },
     ],
     citations: [
       { publisher: "Federal Communications Commission", label: "Telephone Consumer Protection Act (TCPA) rules", href: "https://www.fcc.gov/general/telephone-consumer-protection-act-1991" },

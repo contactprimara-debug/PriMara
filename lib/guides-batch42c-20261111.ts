@@ -201,7 +201,7 @@ export const guidesPartForty5C: Guide[] = [
       "Put five terms in plain words on your billing page: deductible, copayment, coinsurance, network and allowed amount. Define each in one sentence from a trusted source, add what it means at your office without quoting prices, and tell patients to check their plan or call their insurer for their own numbers.",
     author: "Gio LaRoche",
     publishDate: "2026-11-11T16:10:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why a glossary on the billing page helps"),
@@ -209,7 +209,7 @@ export const guidesPartForty5C: Guide[] = [
         "Most billing calls start with a word the patient does not understand. 'Why do I owe a deductible?' 'What is coinsurance?' If the billing page defines these terms, the front desk spends less time explaining the basics and more time helping with the specific question."
       ),
       p(
-        "A glossary also earns trust. The page shows the practice is willing to explain, which matters to people who are nervous about the cost of care."
+        "A glossary also earns trust. The page shows the practice is willing to explain, which matters to people who are nervous about the cost of care. That trust is easy to undo with a row of insurer logos that implies more coverage than the office has, as described in our [guide to insurance logos](/guides/insurance-company-logos-on-a-medical-practice-website-without-implying-in-network-status-or-endorsement)."
       ),
       h2("Five terms to define"),
       table(
@@ -236,7 +236,7 @@ export const guidesPartForty5C: Guide[] = [
       ),
       h3("What to leave out"),
       p(
-        "Do not put your fees, example dollar amounts or promises such as 'insurance will cover this' on the page. Coverage is decided by the insurer. Our guide on the [accepted insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) shows how to keep that page accurate."
+        "Do not put your fees, example dollar amounts or promises such as 'insurance will cover this' on the page. Coverage is decided by the insurer. Our guide on the [accepted insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) shows how to keep that page accurate. When a fee does change, send clients notice using the [fee change notice letter wording for a counseling practice](/guides/fee-change-notice-letter-for-a-counseling-practice-without-legal-advice)."
       ),
       h2("Where to place the glossary"),
       p(
@@ -294,7 +294,7 @@ export const guidesPartForty5C: Guide[] = [
       "SPF, DKIM and DMARC are three settings on your domain that prove an email really came from your practice. Without them, appointment reminders and form replies are more likely to land in spam. Ask your web or IT provider to confirm all three are set, and to send you a test result.",
     author: "Gio LaRoche",
     publishDate: "2026-11-11T16:20:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why an owner should know three letters"),
@@ -302,7 +302,7 @@ export const guidesPartForty5C: Guide[] = [
         "When a patient fills out your contact form and the confirmation never arrives, or the reminder goes to junk, the cause is often not the message. It is that the receiving email service cannot tell whether your practice sent it. Anyone can put your domain in the 'from' line, so mail providers look for proof."
       ),
       p(
-        "That proof is set on your domain, not in your inbox. Three settings do the work, and they are small enough to explain in a minute each."
+        "That proof is set on your domain, not in your inbox. Three settings do the work, and they are small enough to explain in a minute each. Once the settings are in place, the [sender name and subject line checklist](/guides/email-subject-line-and-sender-name-checklist-for-practice-emails-so-patients-recognize-them-and-spam-filters-do-not-hide-them) covers the part patients actually see."
       ),
       h2("The three settings in plain words"),
       table(
@@ -348,7 +348,7 @@ export const guidesPartForty5C: Guide[] = [
         "A vendor changed the form or reminder tool and nobody rechecked delivery."
       ),
       p(
-        "Any one of these is a reason to ask your provider for a delivery test the same week."
+        "Any one of these is a reason to ask your provider for a delivery test the same week. If patients report fake messages sent in your name, see what to tell them in [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients)."
       ),
     ],
     faqs: [

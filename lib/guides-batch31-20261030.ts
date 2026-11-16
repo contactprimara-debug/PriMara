@@ -173,7 +173,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Enter each open period as its own time block on Google Business Profile, for example 8:00 to 12:00 and 1:00 to 5:00, instead of one long day. Match the same blocks on your website, your phone greeting and every directory, and recheck them after any schedule change.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("What goes wrong when the lunch hour is missing"),
@@ -212,7 +212,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("When the schedule changes"),
       p(
-        "Doctors rotate lunch hours, add Saturday mornings and take staff trainings. Use special hours for one-off dates and edit the regular blocks only when the change is permanent. The pattern in our guide to [holiday and closure notices](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) works for single dates, and the monthly checklist catches drift before a patient does."
+        "Doctors rotate lunch hours, add Saturday mornings and take staff trainings. Use special hours for one-off dates and edit the regular blocks only when the change is permanent. The pattern in our guide to [holiday and closure notices](/guides/holiday-and-closure-notices-for-a-medical-practice-website-google-profile-and-phone-greeting) works for single dates, and the monthly checklist catches drift before a patient does. The [wording for a staff training day closure](/guides/closed-for-a-staff-training-day-wording-on-the-website-google-profile-and-phone-greeting-of-a-medical-or-counseling-practice) shows what to put in the profile and on the phone when a whole day is closed."
       ),
       h2("Test it the way a patient would"),
       p(
@@ -802,7 +802,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "State on the website that sessions are by appointment only, list the days and times clinicians usually see clients, and give a phone number and form for requests. On Google, enter the real session days as hours, or mark the profile appointment only if the option fits, and keep every listing identical.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Appointment only does not mean hours do not matter"),
@@ -872,6 +872,7 @@ export const guidesPartThirtyFour: Guide[] = [
         q: "How often should hours be rechecked?",
         a: "Whenever a schedule changes, and at least monthly as part of your profile checklist. A quick call after hours confirms the greeting matches what is published.",
       },
+      { "q": "Does by-appointment-only wording hurt how the practice appears on Google?", "a": "The policy itself is less important than accuracy. Make sure the website, the profile and the phone greeting all describe the same hours or the same way to reach the office, because mismatches confuse visitors more than the policy does." },
     ],
     citations: [GBP_HOURS, GBP_GUIDELINES, GOOGLE_HELPFUL],
     links: [
@@ -988,7 +989,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Pick one reply-time target for new inquiries, such as the same business day, and write down who answers calls, forms and messages. Log each inquiry with the date received, the date answered and the result, with no health details. Review the log weekly to see where inquiries are slipping away.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The lead you paid for can go cold in a day"),
@@ -1007,7 +1008,7 @@ export const guidesPartThirtyFour: Guide[] = [
         ["Online booking request", "Confirmed or answered within one business day."]
       ),
       p(
-        "Choose numbers you can keep during a busy week. A promise on the website that the office misses is worse than a longer one it meets. Our guide to the [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) shows how to state the target to the visitor."
+        "Choose numbers you can keep during a busy week. A promise on the website that the office misses is worse than a longer one it meets. Our guide to the [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) shows how to state the target to the visitor. The same clock applies to a [callback request button on a counseling practice site](/guides/callback-request-button-versus-a-full-contact-form-for-a-counseling-practice-website-and-who-answers-it-within-one-business-day), where someone should call back within one business day."
       ),
       h2("What the log needs"),
       ul(
@@ -1028,7 +1029,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Use the first reply to help the person"),
       p(
-        "A fast reply that says nothing is only half the job. Answer the question they asked, give the next step and offer a time. The [auto-reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) buys time overnight, and a short call from a person finishes the job. If your phone line is the bottleneck, see how to [handle after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Many practices also review the log next to their monthly [lead count](/guides/monthly-lead-count-sheet-for-a-primary-care-practice)."
+        "A fast reply that says nothing is only half the job. Answer the question they asked, give the next step and offer a time. The [auto-reply email after a new client inquiry](/guides/auto-reply-email-after-a-new-client-inquiry-for-a-counseling-practice) buys time overnight, and a short call from a person finishes the job. If your phone line is the bottleneck, see how to [handle after-hours calls and voicemail](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Many practices also review the log next to their monthly [lead count](/guides/monthly-lead-count-sheet-for-a-primary-care-practice). The days after the first session matter too, and [this first-week follow-up wording](/guides/first-week-follow-up-check-in-after-the-first-session-wording-for-a-counseling-practice) shows how to stay in touch without clinical detail."
       ),
       h2("Handling the weekend gap"),
       p(
@@ -1341,7 +1342,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Record seven things on every new patient call: date and time, first name or initials, phone ending, how they found you, what they asked for in general terms, the outcome and the next step with a date. Leave out symptoms, diagnoses and insurance numbers so the log stays safe to review.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The call is where most new patients are won or lost"),
@@ -1349,7 +1350,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "For a primary care office, the phone is still the main door. Someone searches, sees the number and calls. The next three minutes decide whether they book, call another office or give up. Yet most practices do not know how many first-time calls they get in a week, how many were answered live or how many ended in a booked visit."
       ),
       p(
-        "A one-line log for each new patient call changes that. It takes under a minute per call once the fields are decided, and it gives the owner a number to work with at the end of the month. Many practices end the call with one more question, and [how-did-you-hear-about-us attribution for new patients](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to word it and record it."
+        "A one-line log for each new patient call changes that. It takes under a minute per call once the fields are decided, and it gives the owner a number to work with at the end of the month. Many practices end the call with one more question, and [how-did-you-hear-about-us attribution for new patients](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) explains how to word it and record it. Requests that arrive through a [callback button instead of a long contact form](/guides/callback-request-button-versus-a-full-contact-form-for-a-counseling-practice-website-and-who-answers-it-within-one-business-day) belong in the same log, marked as web requests."
       ),
       h2("The seven fields"),
       table(
@@ -1377,7 +1378,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h3("Measure what the front desk can control"),
       p(
-        "Two numbers from the log are worth watching: how many calls ended with a booked visit, and how many ended in call back needed. A high call-back count means staff cannot reach people or cannot book on the spot, which is a scheduling and staffing question. Review [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) that may send callers to voicemail and check whether the [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) sets the right expectations. The same log is what you check against a vendor's numbers when [two marketing reports disagree on calls and forms](/guides/comparing-two-marketing-reports-from-different-vendors-that-count-calls-and-forms-differently-for-a-practice-owner)."
+        "Two numbers from the log are worth watching: how many calls ended with a booked visit, and how many ended in call back needed. A high call-back count means staff cannot reach people or cannot book on the spot, which is a scheduling and staffing question. Review [phone menus and call routing](/guides/phone-menus-and-call-routing-for-a-medical-practice-that-do-not-lose-new-patients) that may send callers to voicemail and check whether the [front desk and care team page](/guides/front-desk-and-care-team-page-for-a-medical-practice-who-patients-meet-first) sets the right expectations. The same log is what you check against a vendor's numbers when [two marketing reports disagree on calls and forms](/guides/comparing-two-marketing-reports-from-different-vendors-that-count-calls-and-forms-differently-for-a-practice-owner). A contact page with [separate paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website) makes the first number easier to read, because refill calls stop mixing in."
       ),
       h2("Turn the log into a monthly number"),
       ol(

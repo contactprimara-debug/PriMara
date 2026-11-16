@@ -315,7 +315,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "A first-week check-in after a counseling intake should cover logistics only: thanks for coming, how to book the next session, how to send a non-urgent message, and what to do in a crisis. Leave out anything clinical. Send it once within a business day, and once more if no visit is booked.",
     author: "Gio LaRoche",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Why the first week matters to a practice"),
@@ -386,6 +386,7 @@ export const guidesPartThirtyFive: Guide[] = [
         q: "Does this wording replace a policy page?",
         a: "No. It supports one. The message should link to your contact options, and your website should explain the same rules, so the client is not surprised by anything in the follow-up. Keep the message and the policy pages in agreement whenever either one is edited.",
       },
+      { "q": "What if a client does not reply to the check-in?", "a": "Treat silence as neutral. Send one short second message if your policy allows it, then stop. A reply is not required, and repeated messages can feel like pressure to someone deciding whether to continue." },
     ],
     citations: [HHS_PRIVACY, ACA_ETHICS, CDC_988, GOOGLE_HELPFUL],
     links: [
@@ -408,12 +409,12 @@ export const guidesPartThirtyFive: Guide[] = [
       "If your primary care practice mails a new patient packet, say so on one page: what is inside, when it should arrive, what to fill in, and how to return it. Offer a download or pick-up option, ask for only what you need, and explain in plain words how the practice protects what patients send back.",
     author: "Liam Costello",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Who still wants paper"),
       p(
-        "Plenty of new patients prefer an envelope to an online form. Some are older and not comfortable typing health details into a website, some do not have reliable internet, and some simply want to read everything at the kitchen table first. A page that describes the packet respects that choice and gives them a reason to call."
+        "Plenty of new patients prefer an envelope to an online form. Some are older and not comfortable typing health details into a website, some do not have reliable internet, and some simply want to read everything at the kitchen table first. A page that describes the packet respects that choice and gives them a reason to call. Existing patients need a different route, so offer [separate contact paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website) alongside the packet page."
       ),
       p(
         "The same page helps patients who do plan to use the online forms. They can see what will be asked of them before they start, which makes it easier to gather an insurance card or a medication list in advance. For patients who choose online forms, a [welcome text or email a few days before the first visit](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) can carry the link."
@@ -449,7 +450,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Make sure the packet matches the page: the same list of contents, the same return options and the same name for the office."
       ),
       p(
-        "Review it each year, and whenever a form changes. An old packet with an old phone number is a quiet way to lose a new patient."
+        "Review it each year, and whenever a form changes. An old packet with an old phone number is a quiet way to lose a new patient. The page should also say how long each visit type usually lasts, using the wording in [how to explain visit types and appointment lengths](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website)."
       ),
     ],
     faqs: [
@@ -1294,7 +1295,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "While insurance credentialing is in progress, say exactly that: the practice has applied to named plans, is not yet in network, cannot promise a date, and offers self-pay with a superbill meanwhile. Do not list a plan as accepted until the contract is confirmed in writing, and update every listing the day that changes.",
     author: "Liam Costello",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The gap between opening and being in network"),
@@ -1302,7 +1303,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "A new counseling practice often opens its doors long before insurance contracts are finished. Credentialing is handled plan by plan, and timelines vary, sometimes taking months. During that gap, clients ask the same question: do you take my insurance? The website needs an honest answer that does not overpromise."
       ),
       p(
-        "The temptation is to list every plan the practice has applied to. That creates a worse problem than silence. A client who books because the site said accepted, and then finds the clinician is out of network, feels misled, and that feeling travels fast in reviews."
+        "The temptation is to list every plan the practice has applied to. That creates a worse problem than silence. A client who books because the site said accepted, and then finds the clinician is out of network, feels misled, and that feeling travels fast in reviews. A strip of insurer logos creates the same problem, and the guide to [showing insurance logos without implying in-network status](/guides/insurance-company-logos-on-a-medical-practice-website-without-implying-in-network-status-or-endorsement) explains how to avoid it."
       ),
       h2("Wording by status"),
       table(
@@ -1321,7 +1322,7 @@ export const guidesPartThirtyFive: Guide[] = [
       ),
       h2("Keep records and listings in step"),
       p(
-        "Providers usually keep their data in a credentialing system such as CAQH ProView, and plans ask them to re-attest on a regular schedule, so check the current requirement on the CAQH site. Put the date you last verified each plan on a private note, and refresh the website, the Google profile and the directories on the day a status changes, as explained in [what to update when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network)."
+        "Providers usually keep their data in a credentialing system such as CAQH ProView, and plans ask them to re-attest on a regular schedule, so check the current requirement on the CAQH site. Put the date you last verified each plan on a private note, and refresh the website, the Google profile and the directories on the day a status changes, as explained in [what to update when you join or leave an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network). Clients who pay out of pocket while a contract is pending should also get any fee change in writing, with the help of the [fee change notice letter wording](/guides/fee-change-notice-letter-for-a-counseling-practice-without-legal-advice)."
       ),
       p(
         "Back the wording with a clear [insurance verification page](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice) and a [fees page that explains superbills](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained), so clients can see their options without calling."

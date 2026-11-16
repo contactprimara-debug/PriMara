@@ -82,7 +82,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "When someone leaves a medical practice, remove their access to the practice's Google profile, website login, email, form notifications and shared passwords on the last day, in a set order, with a second person confirming. Keep a written list of every account so nothing is forgotten, and never share one login to avoid the work.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The account list is the real problem"),
@@ -114,10 +114,10 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("Make the next departure easy"),
       p(
-        "Keep one page, stored somewhere two people can open, that lists every account, the practice-owned email that owns it, and who has access. Our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why the practice, not an individual, should be the account owner. Review the list twice a year, and whenever a role changes, not only when someone leaves. The same list is the starting point for the [day-one handoff for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts), which gives the next person only the access their job needs."
+        "Keep one page, stored somewhere two people can open, that lists every account, the practice-owned email that owns it, and who has access. Our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains why the practice, not an individual, should be the account owner. Review the list twice a year, and whenever a role changes, not only when someone leaves. The same list is the starting point for the [day-one handoff for a new office manager](/guides/what-to-hand-a-new-office-manager-on-day-one-about-the-practice-website-google-profile-and-marketing-accounts), which gives the next person only the access their job needs. That page doubles as the handoff for a [backup person who covers the website, Google profile and phone system](/guides/named-backup-person-for-the-website-google-profile-and-phone-system-when-the-office-manager-is-out-for-a-week) during a week of leave."
       ),
       p(
-        "Pair that list with strong, unique passwords stored in a password manager and with a second sign-in step wherever it is offered. Federal cybersecurity guidance on strong passwords is a short read for the whole team, and it makes a removal day far less stressful because there are fewer shared secrets to change. Afterward, review the user lists using the [access level guide for Google Business Profile, Search Console and Analytics](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics) so nobody keeps more access than the job needs."
+        "Pair that list with strong, unique passwords stored in a password manager and with a second sign-in step wherever it is offered. Federal cybersecurity guidance on strong passwords is a short read for the whole team, and it makes a removal day far less stressful because there are fewer shared secrets to change. Afterward, review the user lists using the [access level guide for Google Business Profile, Search Console and Analytics](/guides/which-access-level-to-give-a-vendor-or-staff-member-on-google-business-profile-search-console-and-google-analytics) so nobody keeps more access than the job needs. Practice-owned email on its own domain, as described in [professional domain email instead of Gmail](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail), also makes removal cleaner."
       ),
       h2("After the removal"),
       p(
@@ -249,7 +249,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "A practice domain expires when the yearly fee is not paid, and the website and every email address on it then stop working. Prevent it with the practice as the registered owner, auto-renew on, a current card, a billing email that more than one person reads, and a calendar reminder sixty days out.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T09:40:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The quietest way for a practice to disappear"),
@@ -284,7 +284,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "Act the same day. Most registrars allow a grace period in which the owner can still renew, often at the normal price, and a later redemption period that costs more. Renew at the registrar that holds it, check that the site and email return, and then fix the cause. If a former vendor or employee holds the account, our guide on [who should own a medical practice's Google accounts and domain](/guides/who-should-own-a-medical-practices-google-accounts-and-domain) explains how to move ownership to the practice. Put the renewal date, with a reminder well before it, on the [yearly check calendar](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates) next to a named owner."
       ),
       p(
-        "After any outage of this kind, run a basic check of the site, the forms and the email. The steps in [what a practice does when its website goes down](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) apply to a lapsed domain as well, and the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) shows why email on your own domain makes this protection even more important. Record the registrar, account owner and renewal date on a [one-page vendor contact sheet](/guides/one-page-vendor-contact-sheet-for-a-medical-practice-website-host-domain-phone-carrier-and-google-profile) so the reminder has a name attached to it."
+        "After any outage of this kind, run a basic check of the site, the forms and the email. The steps in [what a practice does when its website goes down](/guides/what-a-medical-practice-does-when-its-website-goes-down-during-office-hours) apply to a lapsed domain as well, and the guide on [professional domain email](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) shows why email on your own domain makes this protection even more important. Record the registrar, account owner and renewal date on a [one-page vendor contact sheet](/guides/one-page-vendor-contact-sheet-for-a-medical-practice-website-host-domain-phone-carrier-and-google-profile) so the reminder has a name attached to it. The same checks apply on the day you move to a new company, which the [one-page checklist for changing website hosts](/guides/one-page-checklist-for-the-day-a-medical-practice-website-changes-hosting-company-so-email-forms-and-the-phone-link-keep-working) walks through."
       ),
     ],
     faqs: [
@@ -663,7 +663,7 @@ export const guidesPartThirtyNine: Guide[] = [
       "Send website form notices to a shared role mailbox such as frontdesk@yourpractice.com, owned by the practice, read by at least two people, with a named person checking it each business day. Keep health details out of the notification and let the email only say that a message waits.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T11:20:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("The form that only one person can see"),
@@ -671,7 +671,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "Many practice websites send every contact form to one person's inbox, often the office manager's. It works until that person is out sick, on vacation or gone. A new patient's request then sits unread for days, and the patient moves on to the next office. The form was working, the website was fine, and the practice still lost the inquiry."
       ),
       p(
-        "A shared role mailbox fixes the structural problem. It is an address named for a job rather than a person, such as frontdesk@ or newpatients@, that belongs to the practice and that several people can open."
+        "A shared role mailbox fixes the structural problem. It is an address named for a job rather than a person, such as frontdesk@ or newpatients@, that belongs to the practice and that several people can open. Both the role address and staff addresses should sit on the practice's own domain, as explained in [professional domain email for a medical practice](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail)."
       ),
       h2("What a good setup looks like"),
       table(

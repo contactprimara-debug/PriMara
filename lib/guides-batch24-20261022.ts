@@ -275,7 +275,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "An appointment request form should collect only what the front desk needs to call the patient back: name, phone, best time to call, new or returning, and insurance name. Leave out symptoms, reason for the visit and Social Security numbers. Fewer fields get more completed forms and expose less private information.",
     author: "Gio LaRoche",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("The form has one job"),
@@ -309,7 +309,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Honest response times"),
       p(
-        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page. When a scheduling widget sits beside the form, keep a phone number and this short form next to it, as the [safe widget embedding checklist](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) explains."
+        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page. When a scheduling widget sits beside the form, keep a phone number and this short form next to it, as the [safe widget embedding checklist](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) explains. Put that promise in a [short note under the submit button](/guides/what-happens-after-you-submit-note-under-a-medical-practice-contact-form-when-to-expect-a-reply-and-what-not-to-include) along with a line about what not to type into the form."
       ),
       h2("Building it so it works"),
       ul(
@@ -367,7 +367,7 @@ export const guidesPartTwentySeven: Guide[] = [
       "A first-time client form for a counseling practice should feel safe to fill in. Ask for a first name, a phone or email the person has marked as private, and a preferred contact time. Skip the story of why they are reaching out. Add a short privacy notice, a crisis line and an honest reply time.",
     author: "Liam Costello",
     publishDate: "2026-10-22T09:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("A different kind of form"),
@@ -375,7 +375,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "Someone filling in a counseling contact form may have thought about it for weeks. They may be reaching out from a shared computer, and they may not want a partner, parent or employer to find out. The form has to make it feel safe to take that step."
       ),
       p(
-        "That changes the design. A form for a primary care office can ask for a callback number and a visit type. A counseling form needs to ask how it is safe to reach this person, and it must not invite a description of what is going on, because a website form is not a private room."
+        "That changes the design. A form for a primary care office can ask for a callback number and a visit type. A counseling form needs to ask how it is safe to reach this person, and it must not invite a description of what is going on, because a website form is not a private room. If a long form still feels like too much for a first contact, a [short callback request instead of a full contact form](/guides/callback-request-button-versus-a-full-contact-form-for-a-counseling-practice-website-and-who-answers-it-within-one-business-day) may suit your intake better."
       ),
       h2("The fields that belong"),
       ol(
@@ -393,11 +393,11 @@ export const guidesPartTwentySeven: Guide[] = [
       h2("The notice that sits beside the button"),
       h3("Say what the form is and is not"),
       p(
-        "Place three or four plain sentences beside the submit button. Say who reads the form, that it is not for emergencies, and where to call if the person is in crisis. For example: This form goes to our front office. It is not monitored around the clock. If you are in crisis, call or text 988 or call 911."
+        "Place three or four plain sentences beside the submit button. Say who reads the form, that it is not for emergencies, and where to call if the person is in crisis. For example: This form goes to our front office. It is not monitored around the clock. If you are in crisis, call or text 988 or call 911. The guide to a [what-happens-next note under a medical practice contact form](/guides/what-happens-after-you-submit-note-under-a-medical-practice-contact-form-when-to-expect-a-reply-and-what-not-to-include) gives three-line wording that fits most practices."
       ),
       h3("Say how the information is handled"),
       p(
-        "Link to a privacy page written in everyday language. It should say what the practice keeps, who sees it, how long it is kept and how to ask for removal. Our guide to [emergency and crisis resources on a counseling site](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains how to word the crisis line without sounding alarming."
+        "Link to a privacy page written in everyday language. It should say what the practice keeps, who sees it, how long it is kept and how to ask for removal. Our guide to [emergency and crisis resources on a counseling site](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains how to word the crisis line without sounding alarming. The email that carries the secure forms link is covered in [the intake paperwork email guide](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice)."
       ),
       h2("Set a response time you can keep"),
       p(

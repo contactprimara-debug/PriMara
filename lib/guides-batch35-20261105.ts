@@ -777,12 +777,12 @@ export const guidesPartThirtyEight: Guide[] = [
       "A summer hours notice should give the dates the schedule applies, the new hours for each day, which services or providers change, and who to call for anything urgent. Publish it on the site, set it as special hours on the Google profile, and update the phone greeting on the same day.",
     author: "Gio LaRoche",
     publishDate: "2026-11-05T11:40:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Seasonal changes confuse more patients than holidays"),
       p(
-        "A holiday closure is a single day, and most patients expect it. A seasonal schedule runs for weeks. A school-year office that closes early on Fridays in summer, or a practice that moves one provider to a different office for two months, creates dozens of small misunderstandings: the patient who drives over on a Friday afternoon, the parent who waits for a call back that is not coming. Publish the notice on a quiet mid-week morning after telling the front desk, following the advice on [choosing a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard)."
+        "A holiday closure is a single day, and most patients expect it. A seasonal schedule runs for weeks. A school-year office that closes early on Fridays in summer, or a practice that moves one provider to a different office for two months, creates dozens of small misunderstandings: the patient who drives over on a Friday afternoon, the parent who waits for a call back that is not coming. Publish the notice on a quiet mid-week morning after telling the front desk, following the advice on [choosing a day and time to publish website changes](/guides/choosing-a-day-and-time-to-publish-website-changes-at-a-primary-care-practice-so-the-front-desk-is-not-caught-off-guard). A one-off day closed for training sits between the two, and the [staff training day closure wording](/guides/closed-for-a-staff-training-day-wording-on-the-website-google-profile-and-phone-greeting-of-a-medical-or-counseling-practice) keeps the notice short."
       ),
       p(
         "A clear notice, placed where patients look first, prevents most of them. It should be short, dated and repeated in the same words everywhere. Change the sign on the door on the same day as the website, using [front-door and window sign wording for a practice](/guides/front-door-and-window-sign-wording-for-a-medical-or-counseling-practice-with-phone-hours-website-and-a-911-notice) as a guide."
@@ -809,7 +809,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "Appointment reminders, so patients booked in the period know."
       ),
       p(
-        "The profile steps for temporary hours are in the Google Business Profile Help Center, and the approach in [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) works just as well for planned seasonal changes. For the website side, see [how to message wait times and schedule availability without promises](/guides/wait-times-and-schedule-availability-messaging-on-a-medical-practice-website-without-promises)."
+        "The profile steps for temporary hours are in the Google Business Profile Help Center, and the approach in [Google Business Profile hours and closures during hurricane season](/guides/google-business-profile-hours-and-closures-during-hurricane-season) works just as well for planned seasonal changes. For the website side, see [how to message wait times and schedule availability without promises](/guides/wait-times-and-schedule-availability-messaging-on-a-medical-practice-website-without-promises). When the schedule change also gets a profile post, link its button to the notice page, as described in the guide on [where a Learn more link should open](/guides/which-page-a-learn-more-link-on-a-google-business-profile-post-should-open-for-a-medical-practice)."
       ),
       h2("When a provider is away"),
       p(

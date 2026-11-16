@@ -335,7 +335,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A therapy practice should tell clients about a planned absence in advance, on the website, the voicemail and the Google profile, and every notice should name the return date, who covers urgent needs, and the 988 Lifeline. Do not post clients' names, reasons for the absence or any clinical detail.",
     author: "Liam Costello",
     publishDate: "2026-10-19T09:40:00Z",
-    dateModified: "2026-11-05",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("Why an absence notice is a continuity issue, not a marketing task"),
@@ -383,7 +383,7 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h3("Make it a habit, not a scramble"),
       p(
-        "Keep a one-page template for absence notices with blanks for dates and coverage, plus a reminder on the calendar three weeks before any planned leave. When the notice is a template, the practice posts it on time even in a busy month, and every notice reads the same way. Store the template where the front desk can find it, and have the clinician approve the wording once a year. A practice that changes its whole schedule for the summer can adapt the [summer hours and schedule change notice](/guides/summer-hours-and-schedule-change-notice-for-a-primary-care-practice) written for a primary care practice."
+        "Keep a one-page template for absence notices with blanks for dates and coverage, plus a reminder on the calendar three weeks before any planned leave. When the notice is a template, the practice posts it on time even in a busy month, and every notice reads the same way. Store the template where the front desk can find it, and have the clinician approve the wording once a year. A practice that changes its whole schedule for the summer can adapt the [summer hours and schedule change notice](/guides/summer-hours-and-schedule-change-notice-for-a-primary-care-practice) written for a primary care practice. A one-day closure for training can use the shorter [staff training day wording](/guides/closed-for-a-staff-training-day-wording-on-the-website-google-profile-and-phone-greeting-of-a-medical-or-counseling-practice) instead of a full absence notice."
       ),
     ],
     faqs: [
@@ -527,7 +527,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "An appointment reminder should name the practice, the date and time, the location or video link and how to confirm or reschedule, and should leave out the reason for the visit, the clinician's specialty detail and anything about a diagnosis. Send reminders to the contact method the patient chose, with a clear way to opt out.",
     author: "Liam Costello",
     publishDate: "2026-10-19T10:20:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("What a reminder is for"),
@@ -535,7 +535,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A reminder has one job: get the patient to the visit, or free the slot early if they cannot come. Everything else is a risk. A text can be read by someone else holding the phone, an email can land in a shared inbox, and a message that names a test or a condition has turned a scheduling note into a disclosure. A safe text can be as short as: Reminder from PRACTICE NAME, you have a visit on DAY at TIME. Reply C to confirm or call OFFICE PHONE to change it."
       ),
       p(
-        "Federal privacy rules permit appointment reminders, but they also expect reasonable care about what the message reveals. The easiest policy for a front desk is also the safest: say when and where, never why. If you also want to win back patients who have not visited in a while, our guide to a [reactivation letter that leaves out health details](/guides/patient-reactivation-letter-for-inactive-patients-of-a-primary-care-practice-without-health-details) covers the wording and the rules for building the list."
+        "Federal privacy rules permit appointment reminders, but they also expect reasonable care about what the message reveals. The easiest policy for a front desk is also the safest: say when and where, never why. If you also want to win back patients who have not visited in a while, our guide to a [reactivation letter that leaves out health details](/guides/patient-reactivation-letter-for-inactive-patients-of-a-primary-care-practice-without-health-details) covers the wording and the rules for building the list. The subject line of a reminder email follows the same rule, as covered in the [subject line and sender name checklist for practice emails](/guides/email-subject-line-and-sender-name-checklist-for-practice-emails-so-patients-recognize-them-and-spam-filters-do-not-hide-them)."
       ),
       h2("What belongs in the message"),
       ul(
@@ -573,10 +573,10 @@ export const guidesPartTwentyFour: Guide[] = [
         "Review your templates twice a year and have one person approve every change."
       ),
       p(
-        "A reminder system can also feed your measurement. If patients confirm or cancel by reply, the front desk gets a cleaner schedule, and the practice can see how many visits are saved by early cancellations. Do not store the text of replies longer than needed."
+        "A reminder system can also feed your measurement. If patients confirm or cancel by reply, the front desk gets a cleaner schedule, and the practice can see how many visits are saved by early cancellations. Do not store the text of replies longer than needed. If you later add promotional texts, the rules in [text message marketing compliance](/guides/text-message-marketing-compliance-for-a-medical-practice) are stricter than for reminders."
       ),
       p(
-        "Finally, write reminders in plain, friendly language at a low reading level. Our guide on [plain language for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content) gives a simple test, and it works as well for a forty-word text as for a web page."
+        "Finally, write reminders in plain, friendly language at a low reading level. Our guide on [plain language for patient-facing web content](/guides/plain-language-and-reading-level-for-patient-facing-web-content) gives a simple test, and it works as well for a forty-word text as for a web page. Patients who know how real reminders look can spot a fake faster, as the guide on [scam texts that impersonate a practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) explains."
       ),
       h3("Test the message before it goes out"),
       p(
@@ -1213,12 +1213,12 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice should use email addresses on its own domain, such as name@practice.com, set up through a business email service with SPF, DKIM and DMARC records, and should avoid putting patient health details in ordinary email at all. A personal Gmail address looks less trustworthy and gives the practice no control when someone leaves.",
     author: "Liam Costello",
     publishDate: "2026-10-19T12:40:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("What patients and Google see in an email address"),
       p(
-        "Use an address on the practice's own domain so patients can tell a real message from a phishing one. A patient who gets a message from a free personal address can reasonably wonder whether it is real. Phishing messages pretending to be from doctors' offices are common, and an address on the practice's own domain, matching the website, is the simplest signal that a message is genuine."
+        "Use an address on the practice's own domain so patients can tell a real message from a phishing one. A patient who gets a message from a free personal address can reasonably wonder whether it is real. Phishing messages pretending to be from doctors' offices are common, and an address on the practice's own domain, matching the website, is the simplest signal that a message is genuine. Pair the address with a recognizable sender name and a plain subject line, using the [subject line and sender name checklist for practice emails](/guides/email-subject-line-and-sender-name-checklist-for-practice-emails-so-patients-recognize-them-and-spam-filters-do-not-hide-them)."
       ),
       p(
         "The same address also belongs on the website, the Google Business Profile and the directories, so that name, address, phone and email agree everywhere. Mixed personal and business addresses are a small but real source of confusion. Once every address uses your domain, give staff one standard [email signature and confidentiality footer](/guides/email-signature-and-confidentiality-footer-for-medical-practice-staff) so name, phone and website match everywhere. Mail sent from your own domain is also easier to authenticate, which helps when you run the [contact form delivery test for a medical practice website](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) after any change."
@@ -1294,6 +1294,7 @@ export const guidesPartTwentyFour: Guide[] = [
         q: "Should the email address be on the website?",
         a: "A role address such as info@ can be listed, though a form or phone number is often better for new patients. Avoid listing individual clinician addresses publicly, since they attract spam and phishing.",
       },
+      { "q": "Do patients need to be told when the practice switches to a new email address?", "a": "Yes, briefly. Update the reminder and confirmation messages, list the new address on the website and Google profile, and keep the old address forwarding for a while, with a plan for what the forwarding could expose." },
     ],
     citations: [HHS_EMAIL, GOOGLE_SENDER, CISA_PHISHING],
     links: [
@@ -1417,7 +1418,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "A medical practice website needs automatic backups stored away from the site itself, monitoring that alerts someone within minutes if the site goes down, a regular schedule for updates, and a written recovery plan with a named owner. Test the backup by restoring it, because an untested backup is only a hope.",
     author: "Liam Costello",
     publishDate: "2026-10-19T13:20:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("When the site is down, patients assume the office is"),
@@ -1425,7 +1426,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A website that returns an error at nine on a Monday morning is not just a technical problem. Patients who cannot find the phone number or the booking link call someone else. Search engines that find the site unreachable repeatedly can reduce how often they visit it, and a hacked site that shows spam can trigger warnings in browsers."
       ),
       p(
-        "Most outages are dull: an expired domain, a certificate that lapsed, a plugin update that broke a page, a host that had a bad hour. A small amount of routine care prevents nearly all of them. Backups are only useful if someone answers quickly when you need one, so ask your provider the [questions about support response time](/guides/questions-to-ask-a-web-host-or-maintenance-provider-about-support-response-time-for-a-medical-practice-website) in advance."
+        "Most outages are dull: an expired domain, a certificate that lapsed, a plugin update that broke a page, a host that had a bad hour. A small amount of routine care prevents nearly all of them. Backups are only useful if someone answers quickly when you need one, so ask your provider the [questions about support response time](/guides/questions-to-ask-a-web-host-or-maintenance-provider-about-support-response-time-for-a-medical-practice-website) in advance. A planned move to a new host is a common time for a dull outage, so use the [checklist for the day a practice website changes hosting company](/guides/one-page-checklist-for-the-day-a-medical-practice-website-changes-hosting-company-so-email-forms-and-the-phone-link-keep-working)."
       ),
       h2("Backups that actually help"),
       ul(
@@ -1514,7 +1515,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "When scammers imitate a medical practice by text or email, the practice should tell patients in plain words how it really contacts them, what it will never ask for, and where to report a suspicious message, without describing any individual patient's situation. Post the notice on the website and voicemail and keep it short.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:40:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("The problem patients will blame on you"),
@@ -1593,6 +1594,7 @@ export const guidesPartTwentyFour: Guide[] = [
         q: "Can we use a banner on the portal login?",
         a: "Yes, and it is one of the best places for it. A single line reminding patients that the office never asks for a password by text or email protects them at the moment they are most likely to be tricked.",
       },
+      { "q": "What should a patient do if they already tapped a link in a suspicious message?", "a": "Tell the front desk, change any password they typed into the page and watch their accounts for odd activity. The practice should note the report and remind patients that real messages never ask for health details by text." },
     ],
     citations: [FTC_REPORT, CISA_PHISHING, HHS_PRIVACY],
     links: [

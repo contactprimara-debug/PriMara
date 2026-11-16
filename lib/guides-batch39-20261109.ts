@@ -85,7 +85,7 @@ export const guidesPartForty2: Guide[] = [
       "On day one, give a new office manager a one-page map of where the website, Google Business Profile, Search Console, analytics, domain and form inbox live, who holds the owner role on each, what to check weekly, and who to call when something breaks. Give them their own login on each tool, never a shared password.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T19:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("Give the new hire a map, not a password"),
@@ -93,7 +93,7 @@ export const guidesPartForty2: Guide[] = [
         "A new office manager usually inherits the practice's online presence by accident. Someone says the login is on a sticky note, or that a former employee set it up. Three weeks later a form stops emailing the front desk, or the Google profile shows the wrong holiday hours, and nobody knows who can fix it."
       ),
       p(
-        "The fix is cheap and takes under an hour. Write a single page that says where each piece lives, who owns it and what the new manager is expected to do with it. Then add them to each tool under their own name. The map is what makes the next handoff easy too."
+        "The fix is cheap and takes under an hour. Write a single page that says where each piece lives, who owns it and what the new manager is expected to do with it. Then add them to each tool under their own name. The map is what makes the next handoff easy too. The same page should also name a [backup person for the website, Google profile and phones](/guides/named-backup-person-for-the-website-google-profile-and-phone-system-when-the-office-manager-is-out-for-a-week) for the weeks the manager is away."
       ),
       h2("The one-page map"),
       p(

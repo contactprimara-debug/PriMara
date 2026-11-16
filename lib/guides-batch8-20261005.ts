@@ -423,7 +423,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "To move a medical practice website to a new domain without losing rankings, map every old URL to its closest new page, set permanent 301 redirects, keep the content the same during the move, tell Google through Search Console, and update your listings. Expect a temporary dip, and watch it for several weeks.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-16",
     readMinutes: 7,
     sections: [
       {
@@ -432,7 +432,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A domain change is a high-risk edit. Every ranking, link, and bookmark your site has earned is attached to the old address, and the move only works if you carry all of it across. Good reasons to move include a rebrand, a merger, or a long, hard-to-spell name. Weak reasons include a mild preference for a different ending. If the case is marginal, stay put. If you are also deciding how many sites to run, read our guide on [one site versus several for a multi-provider practice](/guides/single-site-vs-multiple-sites-for-a-multi-provider-practice) first. If a sale or merger is the reason for the move, also read [protecting your online presence when a medical practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires)."
+        "text": "A domain change is a high-risk edit. Every ranking, link, and bookmark your site has earned is attached to the old address, and the move only works if you carry all of it across. Good reasons to move include a rebrand, a merger, or a long, hard-to-spell name. Weak reasons include a mild preference for a different ending. If the case is marginal, stay put. If you are also deciding how many sites to run, read our guide on [one site versus several for a multi-provider practice](/guides/single-site-vs-multiple-sites-for-a-multi-provider-practice) first. If a sale or merger is the reason for the move, also read [protecting your online presence when a medical practice changes hands](/guides/protecting-your-online-presence-when-a-medical-practice-changes-hands-or-a-provider-retires). Changing only the hosting company, with the same domain, is a smaller job covered in the [checklist for the day a website changes hosts](/guides/one-page-checklist-for-the-day-a-medical-practice-website-changes-hosting-company-so-email-forms-and-the-phone-link-keep-working)."
       },
       {
         "type": "h2",

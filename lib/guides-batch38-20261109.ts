@@ -593,7 +593,7 @@ export const guidesPartForty1: Guide[] = [
       "Hold one 30-minute marketing meeting a month with a fixed order: five minutes on the numbers, five on what changed, ten on what patients and the front desk are saying, five on problems, and five to pick one action with a name and a date. Send a two-line summary afterward.",
     author: "Gio LaRoche",
     publishDate: "2026-11-09T14:50:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 5,
     sections: [
       h2("A short meeting that actually happens"),
@@ -632,7 +632,7 @@ export const guidesPartForty1: Guide[] = [
         "A list of ten actions with no owners turns into nothing. End each meeting with one action that has a name next to it and a date. Examples that fit a small practice: fix the phone link on the provider pages, answer the three unanswered reviews, add the new accepted insurance to the profile, update the summer hours on the site and profile, write down the three questions new patients asked on the phone and draft a page that answers them."
       ),
       p(
-        "Open the next meeting by asking whether last month's action happened. If it did not, ask why before adding anything new."
+        "Open the next meeting by asking whether last month's action happened. If it did not, ask why before adding anything new. Once a quarter, also confirm that the [backup person for the website, profile and phones](/guides/named-backup-person-for-the-website-google-profile-and-phone-system-when-the-office-manager-is-out-for-a-week) still has working access and a current note."
       ),
       h2("After the meeting: a two-line summary"),
       p(

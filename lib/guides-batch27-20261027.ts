@@ -650,7 +650,7 @@ export const guidesPartThirty: Guide[] = [
       "A practice staff email signature should show a name, role, practice name, phone number, website and address in a consistent format, plus a short confidentiality footer that says the message may be private and asks a mistaken recipient to notify the sender. A footer is not a safeguard by itself, and it should never replace secure messaging for health information.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("Why the signature matters"),
@@ -658,7 +658,7 @@ export const guidesPartThirty: Guide[] = [
         "Staff emails reach patients, referring offices, vendors and insurers every day. The signature at the bottom is often the only place where a stranger sees the practice's exact name, phone number and web address. If those lines differ from person to person, the inconsistency shows up in more than email: people copy them into directories and notes, and mismatched details can find their way onto listings."
       ),
       p(
-        "A standard, short signature also builds trust. A message that ends with a full name, a role and a direct phone number looks more like the practice than one that ends with a first name and a mobile number."
+        "A standard, short signature also builds trust. A message that ends with a full name, a role and a direct phone number looks more like the practice than one that ends with a first name and a mobile number. The sender name and subject line matter just as much, and our [checklist for practice email subject lines](/guides/email-subject-line-and-sender-name-checklist-for-practice-emails-so-patients-recognize-them-and-spam-filters-do-not-hide-them) lists what to use and avoid."
       ),
       h2("What to include"),
       table(
@@ -1267,12 +1267,12 @@ export const guidesPartThirty: Guide[] = [
       "A not accepting new patients page says the practice's panel is full right now, explains how the waitlist works and what the practice will do when a spot opens, lists other ways to find care, and keeps the status the same on Google and every directory. It makes no promises about timing.",
     author: "Liam Costello",
     publishDate: "2026-10-27T09:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       h2("A full panel still needs a page"),
       p(
-        "Some primary care practices close to new patients for a while, either entirely or for certain plans. The usual result is a stream of callers who found the practice online, were told no by the front desk and left annoyed. A simple page tells those searchers the truth before they call and gives the practice a place to describe what it can still offer."
+        "Some primary care practices close to new patients for a while, either entirely or for certain plans. The usual result is a stream of callers who found the practice online, were told no by the front desk and left annoyed. A simple page tells those searchers the truth before they call and gives the practice a place to describe what it can still offer. Existing patients still need their own clear route, as shown in the guide to [separate contact paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website)."
       ),
       p(
         "The page should not read as a rejection. It should read as an honest status with a path forward."

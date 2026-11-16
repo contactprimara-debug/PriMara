@@ -290,7 +290,7 @@ export const guidesPartFive: Guide[] = [
       "Your Google Business Profile primary category should match the single service patients most associate with you — \"Family practice physician\" for a general practice, \"Mental health counselor\" for a counseling practice — because it carries the most weight in Google's ranking for that term. Secondary categories (up to nine more) should cover other real services you offer, never terms you're hoping to rank for but don't actually provide.",
     author: "Liam Costello",
     publishDate: "2026-09-23T09:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-16",
     readMinutes: 6,
     sections: [
       { type: "h2", text: "Why category choice matters more than most practices realize" },
@@ -348,6 +348,7 @@ export const guidesPartFive: Guide[] = [
         q: "How often should we review our Google Business Profile categories?",
         a: "At least once a year, and any time the practice adds or drops a service. A category list set when the profile was first created is easy to forget and may no longer describe what the practice does.",
       },
+      { "q": "Should I add a category for every service I offer?", "a": "No. Choose the primary category that matches the main reason patients pick you, and add secondary categories only for services that are a distinct line of care. A long list can dilute how accurate the profile looks." },
     ],
     citations: [
       { publisher: "Google Business Profile Help", label: "Guidelines for representing your business", href: "https://support.google.com/business/answer/3038177" },
