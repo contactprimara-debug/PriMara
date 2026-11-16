@@ -310,7 +310,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "callout",
-        "text": "Keep the voicemail greeting and your listed hours in step. Update both the same day whenever your schedule changes."
+        "text": "Keep the voicemail greeting and your listed hours in step. Update both the same day whenever your schedule changes. When you re-record the greeting, our guide to [saying the number, address and website aloud](/guides/how-to-say-the-practice-phone-number-address-and-website-aloud-in-a-voicemail-or-recorded-message-so-patients-can-write-them-down) shows how to pace the digits so callers can write them down."
       }
     ],
     "faqs": [
@@ -1056,7 +1056,7 @@ export const guidesPartSixteen: Guide[] = [
       },
       {
         "type": "callout",
-        "text": "Do not move the pin to a place where patients cannot actually visit, and do not use a virtual office or mailbox address. Google's guidelines can lead to suspension for misleading locations."
+        "text": "Do not move the pin to a place where patients cannot actually visit, and do not use a virtual office or mailbox address. Google's guidelines can lead to suspension for misleading locations. After the fix, run the [three-app pin and directions check](/guides/checking-that-the-practice-entrance-pin-and-directions-work-in-google-maps-apple-maps-and-waze-for-a-medical-practice) to see whether Google Maps, Apple Maps and Waze all send patients to the same entrance."
       }
     ],
     "faqs": [

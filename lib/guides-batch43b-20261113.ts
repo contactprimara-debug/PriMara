@@ -482,7 +482,7 @@ export const guidesPartForty6B: Guide[] = [
       ),
       h3("Example wording"),
       p(
-        "'Practice name. Call (xxx) xxx-xxxx. Open Monday to Friday, 8:30 to 5. Website: address. If this is an emergency, call 911.' Replace each part with your real details and keep the sentence short."
+        "'Practice name. Call (xxx) xxx-xxxx. Open Monday to Friday, 8:30 to 5. Website: address. If this is an emergency, call 911.' Replace each part with your real details and keep the sentence short. If the same details are read out in a recorded message, the guide to [saying a phone number and address aloud in a voicemail](/guides/how-to-say-the-practice-phone-number-address-and-website-aloud-in-a-voicemail-or-recorded-message-so-patients-can-write-them-down) keeps the wording consistent."
       ),
       h2("The emergency line"),
       p(

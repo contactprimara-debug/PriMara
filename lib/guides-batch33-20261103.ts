@@ -340,7 +340,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("A script you can adapt"),
       p(
-        "Read it aloud and time it. It should run under thirty seconds, because longer messages lose callers who are already nervous. The text below is a starting point, not legal wording, and the practice owner should adjust it to the real call-back times."
+        "Read it aloud and time it. It should run under thirty seconds, because longer messages lose callers who are already nervous. The text below is a starting point, not legal wording, and the practice owner should adjust it to the real call-back times. When you record it, give the number in groups and repeat it once, as the guide to [saying a phone number and address aloud in a voicemail](/guides/how-to-say-the-practice-phone-number-address-and-website-aloud-in-a-voicemail-or-recorded-message-so-patients-can-write-them-down) describes."
       ),
       ol(
         "Thank you for calling. You have reached a counseling office.",

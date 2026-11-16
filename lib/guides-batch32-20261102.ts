@@ -636,7 +636,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Keep the change if the gap shrinks. If it does not, try the next cause."
       ),
       p(
-        "Google's counts and your phone logs are measured differently, so expect them not to match exactly. Look at the trend over weeks, not the difference on a single day. The monthly [search terms report on the same profile](/guides/reading-the-google-business-profile-search-terms-report-each-month-to-see-how-patients-find-a-primary-care-practice) shows what people typed before they tapped, which can help you read a rise or fall in call taps."
+        "Google's counts and your phone logs are measured differently, so expect them not to match exactly. Look at the trend over weeks, not the difference on a single day. The monthly [search terms report on the same profile](/guides/reading-the-google-business-profile-search-terms-report-each-month-to-see-how-patients-find-a-primary-care-practice) shows what people typed before they tapped, which can help you read a rise or fall in call taps. If you also use a tracking number, the [monthly call report guide](/guides/reading-a-monthly-call-report-from-a-tracking-number-for-a-medical-practice-without-recordings-or-caller-names) shows how to read its answered and missed columns next to these taps."
       ),
     ],
     faqs: [

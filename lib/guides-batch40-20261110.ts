@@ -517,7 +517,7 @@ export const guidesPartForty3: Guide[] = [
         "The most reliable source is the one the front desk keeps. Use the [response-time target and inquiry log](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice) and the [front desk call log fields](/guides/front-desk-new-patient-call-log-fields-for-a-primary-care-practice), so each new inquiry gets a line with the date, the channel and whether it was a call or form."
       ),
       p(
-        "At the end of the month, count the log lines and compare them to each report. You are looking for a pattern, not an exact match. A vendor that reports 22 calls when the log has 10 is probably counting taps or repeats. A vendor whose number is lower than the log may be missing a number or a form."
+        "At the end of the month, count the log lines and compare them to each report. You are looking for a pattern, not an exact match. A vendor that reports 22 calls when the log has 10 is probably counting taps or repeats. A vendor whose number is lower than the log may be missing a number or a form. For the call side of that comparison, our guide to [reading a monthly call report from a tracking number](/guides/reading-a-monthly-call-report-from-a-tracking-number-for-a-medical-practice-without-recordings-or-caller-names) explains what each column does and does not tell you."
       ),
       h2("Lining the numbers up"),
       ul(

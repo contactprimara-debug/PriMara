@@ -613,7 +613,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("Link the right pages"),
       p(
-        "Connect this notice to the [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) so patients land on one form, and to the [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) if the patient also has an open referral. A patient who moves may also change insurance, so the page on [prior authorization and referral timelines](/guides/prior-authorization-and-referral-timelines-explained-on-a-primary-care-practice-website) helps set expectations at the new office."
+        "Connect this notice to the [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) so patients land on one form, and to the [specialist referral request page](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) if the patient also has an open referral. A patient who moves may also change insurance, so the page on [prior authorization and referral timelines](/guides/prior-authorization-and-referral-timelines-explained-on-a-primary-care-practice-website) helps set expectations at the new office. A records line listed in a [who-answers-which-call table on the contact page](/guides/who-answers-which-call-list-for-billing-referrals-records-and-scheduling-on-the-contact-page-of-a-primary-care-practice) saves a departing patient from being transferred between desks."
       ),
       h2("Keep it kind and brief"),
       p(

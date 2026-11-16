@@ -835,7 +835,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the team page from the about page, the new-patients page and each provider bio. Add a short sentence on the contact page, such as who answers the phone and in which hours. In your Google Business Profile, a team photo uploaded as a normal photo reinforces the same message. Keep names, roles and photos identical in all those places so a patient sees one practice, not three versions."
+        "text": "Link the team page from the about page, the new-patients page and each provider bio. Add a short sentence on the contact page, such as who answers the phone and in which hours. In your Google Business Profile, a team photo uploaded as a normal photo reinforces the same message. Keep names, roles and photos identical in all those places so a patient sees one practice, not three versions. Some practices also add a short [who-answers-which-call list](/guides/who-answers-which-call-list-for-billing-referrals-records-and-scheduling-on-the-contact-page-of-a-primary-care-practice) beside the team page so callers know which desk handles scheduling, billing and records."
       },
       {
         "type": "h3",
@@ -2082,7 +2082,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Add the hours when the billing line is staffed, and how voicemails are handled. A patient who leaves a message and hears nothing for a week assumes the practice is ignoring them."
+        "text": "Add the hours when the billing line is staffed, and how voicemails are handled. A patient who leaves a message and hears nothing for a week assumes the practice is ignoring them. If billing is staffed only on certain days, a [who-answers-which-call list on the contact page](/guides/who-answers-which-call-list-for-billing-referrals-records-and-scheduling-on-the-contact-page-of-a-primary-care-practice) lets patients see that before they call."
       },
       {
         "type": "h2",

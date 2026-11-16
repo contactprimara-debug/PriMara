@@ -237,7 +237,7 @@ export const guidesPartThirtyEight: Guide[] = [
         "Use the embed option from the maps provider and set it to load lazily, so it only loads when a visitor scrolls near it. Give the frame a title that describes it, such as map showing the location of the office, so screen readers announce it clearly. Keep the frame responsive, so it does not force sideways scrolling on a phone. The embed documentation from [Google Maps Platform](https://developers.google.com/maps/documentation/embed/get-started) covers the options."
       ),
       p(
-        "Finally, link the page to the rest of the visit information. A patient reading directions may need the parking and entrance details next, and the fuller [contact page checklist](/guides/what-to-put-on-a-medical-practice-contact-page) lists what else belongs beside the map."
+        "Finally, link the page to the rest of the visit information. A patient reading directions may need the parking and entrance details next, and the fuller [contact page checklist](/guides/what-to-put-on-a-medical-practice-contact-page) lists what else belongs beside the map. Before you publish the wording, try the route in each app with the [pin and directions check for Google, Apple Maps and Waze](/guides/checking-that-the-practice-entrance-pin-and-directions-work-in-google-maps-apple-maps-and-waze-for-a-medical-practice) so the sentences match what drivers are told."
       ),
     ],
     faqs: [

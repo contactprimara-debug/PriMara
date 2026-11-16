@@ -912,7 +912,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Walk the route yourself, or ask a staff member to, before writing anything. Note which door is closest, whether the ramp is steep, whether the elevator is in service and how far the walk is from the lot. A page that says step-free entrance when there is a lip at the door is worse than a page that says nothing."
+        "text": "Walk the route yourself, or ask a staff member to, before writing anything. Note which door is closest, whether the ramp is steep, whether the elevator is in service and how far the walk is from the lot. A page that says step-free entrance when there is a lip at the door is worse than a page that says nothing. Then test the directions in the apps patients use, following the [entrance pin and directions check](/guides/checking-that-the-practice-entrance-pin-and-directions-work-in-google-maps-apple-maps-and-waze-for-a-medical-practice), so the page and the map agree."
       },
       {
         "type": "p",
@@ -1741,7 +1741,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Write down the result in the same place each week. A short log of dates and notes is enough. If the time to reach a person is getting longer, you have found a problem before a patient has complained about it. After a carrier or phone system change, run the same routine and use the [post-change checklist for the website and Google profile](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) so every menu option and phone link is tested again."
+        "text": "Write down the result in the same place each week. A short log of dates and notes is enough. If the time to reach a person is getting longer, you have found a problem before a patient has complained about it. After a carrier or phone system change, run the same routine and use the [post-change checklist for the website and Google profile](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) so every menu option and phone link is tested again. The same sorting can appear on your contact page as a [who-answers-which-call list](/guides/who-answers-which-call-list-for-billing-referrals-records-and-scheduling-on-the-contact-page-of-a-primary-care-practice) so callers know whether to reach scheduling, billing, records or referrals before they dial."
       }
     ],
     "faqs": [
