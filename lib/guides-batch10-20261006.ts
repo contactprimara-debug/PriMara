@@ -211,6 +211,10 @@ export const guidesPartThirteen: Guide[] = [
         "text": "Many of your patients carry an iPhone, and the Maps app is already on its home screen. When someone asks Siri for a nearby urgent care or taps Maps to find a pediatrician, they see whatever Apple has on file for you. If you never claimed the card, that data comes from third-party sources and may be out of date. The same logic applies on Bing, where unclaimed listings often hold a closed location or an old name. Once claimed, test what patients see with the [pin and directions check across Google Maps, Apple Maps and Waze](/guides/checking-that-the-practice-entrance-pin-and-directions-work-in-google-maps-apple-maps-and-waze-for-a-medical-practice) from a few different starting points."
       },
       {
+        "type": "h3",
+        "text": "What to expect from the listings"
+      },
+      {
         "type": "p",
         "text": "We cannot tell you how much patient traffic either brings to your practice, and it varies. Check your own referral data before you invest more than the hour it takes to claim them."
       },
