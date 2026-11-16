@@ -384,7 +384,7 @@ export const guidesPartForty8: Guide[] = [
         "Do not slide the digits together, and avoid the word 'oh' for zero if your callers are confused by it."
       ),
       p(
-        "Here is the pattern with an example number, which is not a real one: 'Our number is five five five, zero one zero, zero one nine nine. Again, five five five, zero one zero, zero one nine nine.' Use your own digits in the same rhythm."
+        "Here is the pattern with an example number, which is not a real one: the written form is (555) 010-0199, and it is spoken as three short groups with a beat between them, then once more at a slower pace. Use your own digits in the same rhythm."
       ),
       h2("Say the address the way a driver reads it"),
       p(
