@@ -217,7 +217,7 @@ export default function VsDoctorLogicPage() {
               color: "var(--ash)",
             }}
           >
-            Primara is a boutique agency with no software product and no automated content generation. We serve primary care and mental health practices exclusively — no cosmetic surgery, no orthopedics, no broad specialty coverage. Every page we write is written for a specific market, a specific competitor set, and a specific local search intent. That specificity is the product.
+            Primara is a boutique agency: no software product and no auto-generated content. We serve primary care and mental health practices only — no cosmetic surgery, no orthopedics, no broad specialty coverage. Every page we write is written for a specific market, a specific competitor set, and a specific local search intent. That specificity is the product.
           </p>
         </div>
       </section>

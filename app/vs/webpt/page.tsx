@@ -200,7 +200,7 @@ export default function VsWebPTPage() {
               marginBottom: "20px",
             }}
           >
-            WebPT is a physical therapy EHR and practice management platform. Primara serves independent primary care and mental health practices exclusively. We do not work with PT practices — not because we can&rsquo;t, but because our expertise is specific and we don&rsquo;t stretch it.
+            WebPT is a physical therapy EHR and practice management platform. Primara works only with independent primary care and mental health practices. We do not work with PT practices — not because we can&rsquo;t, but because our expertise is specific and we don&rsquo;t stretch it.
           </p>
           <p
             style={{

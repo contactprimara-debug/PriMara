@@ -17,11 +17,11 @@ const REVIEWS = [
     author: "Our Commitment · Delivery",
   },
   {
-    text: "You receive a plain-English monthly report showing your Maps ranking movement, review velocity, and website traffic. No agency jargon. No vanity metrics. If something isn't working, we tell you and we fix it.",
+    text: "Every month you get a report in plain English: where you rank on Maps, how fast reviews come in, and how much traffic the site gets. No agency jargon. No vanity metrics. If something isn't working, we tell you and we fix it.",
     author: "Our Commitment · Transparency",
   },
   {
-    text: "Liam and Gio personally run every account — strategy, execution, and reporting. No junior coordinators, no offshore production, no handoffs after the sales call. The people you meet are the people doing the work.",
+    text: "Liam and Gio personally run every account — strategy, execution, and reporting. There are no junior coordinators and no offshore production. The people you meet on the sales call are the people doing the work.",
     author: "Our Commitment · Founder Access",
   },
 ];

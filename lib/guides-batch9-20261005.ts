@@ -216,11 +216,11 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "q": "Do I need a Business Associate Agreement with my scheduling vendor?",
-        "a": "If the tool collects or stores information that could be protected health information, yes, you generally need a signed agreement with that vendor. Ask before you sign up, and confirm the answer with your compliance advisor. Confirm the setup with your compliance advisor before launch."
+        "a": "If the tool collects or stores information that could be protected health information, yes, you generally need a signed agreement with that vendor. Ask before you sign up, and confirm the answer with your compliance advisor."
       },
       {
         "q": "Can patients book from my Google Business Profile?",
-        "a": "Where Google offers an appointment link field for your category, you can add your booking URL so patients can book from the listing. Availability varies by listing and category, so check what your profile's editor shows. Confirm the setup with your compliance advisor before launch."
+        "a": "Where Google offers an appointment link field for your category, you can add your booking URL so patients can book from the listing. Availability varies by listing and category, so check what your profile's editor shows."
       }
     ],
     citations: [

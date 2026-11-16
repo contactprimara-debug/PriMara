@@ -370,7 +370,7 @@ export default function ContactFinal() {
                   lineHeight: 1.75,
                 }}
               >
-                We&rsquo;ll research your practice and be in touch within 24 hours.
+                We&rsquo;ll research your practice and reach out inside a day.
                 <br />
                 Liam or Gio will walk you through your audit directly.
               </p>
