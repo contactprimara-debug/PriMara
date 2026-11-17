@@ -664,7 +664,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "An accessibility statement is a short page that tells people with disabilities three things: that the practice wants its site to work for them, how to get help if it does not, and what to expect after they ask. It does not make a site accessible. Fixing the site does that."
       ),
       p(
-        "It does give patients a respectful way to tell you about a problem before they give up or complain somewhere else. For a medical practice, where many patients have vision, hearing, movement or reading difficulties, that matters. The U.S. Department of Justice [web accessibility guidance](https://www.ada.gov/resources/web-guidance/) explains how the ADA applies to websites of businesses open to the public."
+        "It does give patients a respectful way to tell you about a problem before they give up or complain somewhere else. For a medical practice, where many patients have vision, hearing, movement or reading difficulties, that matters. The U.S. Department of Justice [web accessibility guidance](https://www.ada.gov/resources/web-guidance/) explains how the ADA applies to websites of businesses open to the public. A common barrier is a link reading click here, which [descriptive link text on a practice website](/guides/descriptive-link-text-instead-of-click-here-on-a-primary-care-practice-website-checked-in-five-minutes) shows how to fix."
       ),
       h2("What to include"),
       ol(

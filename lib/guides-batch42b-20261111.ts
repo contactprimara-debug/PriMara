@@ -79,7 +79,7 @@ export const guidesPartForty5B: Guide[] = [
     sections: [
       h2("A change that works on one screen can fail on another"),
       p(
-        "A developer usually checks a change on a recent computer in one browser. Your patients arrive on phones of every age, on a different browser, sometimes on slow connections. A page that looks fine in the developer's window may push the phone number off the screen or hide a button on an older phone."
+        "A developer usually checks a change on a recent computer in one browser. Your patients arrive on phones of every age, on a different browser, sometimes on slow connections. A page that looks fine in the developer's window may push the phone number off the screen or hide a button on an older phone. The browser tab is a good place to look, and [a favicon and browser tab name for a practice website](/guides/favicon-and-browser-tab-name-for-a-medical-practice-website-so-patients-with-many-tabs-find-it-again) lists what it should show."
       ),
       p(
         "Google indexes the mobile version of most sites first, which is why the phone view matters even if your own staff mostly use computers; its [mobile-first indexing guidance](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing) says the mobile and desktop versions should carry the same content."

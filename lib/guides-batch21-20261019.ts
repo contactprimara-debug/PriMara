@@ -438,7 +438,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "A patient choosing a new doctor or therapist is choosing a person, and a clear photo is often the first thing they look at on a bio page. A missing photo, a grey placeholder or a photo that is ten years old makes the practice look careless, while a warm, current headshot sets expectations for the visit. When a new provider joins, confirm during the [week-after check of the website and Google profile](/guides/checking-the-website-and-google-profile-the-week-after-a-new-provider-joins-a-primary-care-practice) that the new photo matches the others in size and style."
       ),
       p(
-        "Photos also affect the site's performance. Large uncompressed files slow a page, and slow pages lose visitors on a phone. A tidy photo workflow fixes both problems at once. Upload the same headshots to the Google profile, following the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) for sizes and what to avoid."
+        "Photos also affect the site's performance. Large uncompressed files slow a page, and slow pages lose visitors on a phone. A tidy photo workflow fixes both problems at once. Upload the same headshots to the Google profile, following the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) for sizes and what to avoid. Before a new headshot goes live, follow the steps in [resizing and compressing office and staff photos](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone) so the page stays fast on a phone."
       ),
       h2("Shooting the photos"),
       ul(

@@ -668,7 +668,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "The best FAQ pages are written from what people actually ask. Ask the front desk to keep a tally for two weeks. The same ten or twelve questions will account for most of the calls, and they are almost never the questions a marketing team would have guessed."
       ),
       p(
-        "Those calls are also the ones that cost the practice time. Each question answered on the website is one fewer rushed call, and one fewer patient left on hold. Search engines and AI assistants favour pages that answer concrete questions in plain sentences, so the same work helps visibility."
+        "Those calls are also the ones that cost the practice time. Each question answered on the website is one fewer rushed call, and one fewer patient left on hold. Search engines and AI assistants favour pages that answer concrete questions in plain sentences, so the same work helps visibility. If the questions collapse, build them as described in [collapsible FAQ and accordion sections that stay readable](/guides/collapsible-faq-and-accordion-sections-on-a-counseling-practice-page-that-stay-readable-by-search-engines-and-screen-readers)."
       ),
       h2("Questions that belong on the page"),
       ul(
@@ -1253,7 +1253,7 @@ export const guidesPartTwentyFive: Guide[] = [
         ["Contact", "Phone, form and hours, the last stop for everyone."]
       ),
       p(
-        "Keep the labels literal. Care instead of Services, or Our Story instead of About, may feel warmer, but a visitor scanning in two seconds benefits from words they expect. Aim for no more than seven top-level items, and put a tap-to-call button beside the menu on phones."
+        "Keep the labels literal. Care instead of Services, or Our Story instead of About, may feel warmer, but a visitor scanning in two seconds benefits from words they expect. Aim for no more than seven top-level items, and put a tap-to-call button beside the menu on phones. Once the labels are settled, make the trail of links above each page use the same words, as shown in [breadcrumb trails on a medical practice website](/guides/breadcrumb-trails-on-a-medical-practice-website-wording-structure-and-checking-they-match-page-titles)."
       ),
       h2("Menus on a phone"),
       ul(

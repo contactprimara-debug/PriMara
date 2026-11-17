@@ -30,7 +30,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Google's own SEO starter material describes using headings to show the important parts of a page and to create a hierarchy for the content. It does not require a specific number of headings or a keyword in each one. The goal is a page that is easy to scan, not a page decorated with search terms."
+      "text": "Google's own SEO starter material describes using headings to show the important parts of a page and to create a hierarchy for the content. It does not require a specific number of headings or a keyword in each one. The goal is a page that is easy to scan, not a page decorated with search terms. Once the headings are clear, [a table of contents with jump links](/guides/table-of-contents-and-jump-links-on-a-long-guide-page-of-a-practice-website-for-phone-readers) lets phone readers skip straight to the section they need."
     },
     {
       "type": "h2",
@@ -229,7 +229,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Plain writing also helps the pages perform. Short, direct pages are easier to scan on mobile, give search engines and AI answer tools clear statements to quote, and reduce the calls your front desk takes to explain what a page meant."
+      "text": "Plain writing also helps the pages perform. Short, direct pages are easier to scan on mobile, give search engines and AI answer tools clear statements to quote, and reduce the calls your front desk takes to explain what a page meant. On a long page, [a table of contents with jump links for phone readers](/guides/table-of-contents-and-jump-links-on-a-long-guide-page-of-a-practice-website-for-phone-readers) helps people find the plain-language section they came for."
     },
     {
       "type": "h2",
@@ -1709,7 +1709,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "A page can pass every test and still not show a rich result. Google decides what to display, and it may show no special result at all. Valid markup is a way to be understood correctly, not a promise of placement. Never add markup that describes things the page does not show, because that can violate Google's structured data policies. Job postings are one of the types worth testing, and the guide to a [careers page and job posting markup](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) lists what to check before you publish. If you are still deciding which types to add before testing, the overview in [schema markup for a medical practice website, explained](/guides/schema-markup-for-a-medical-practice-website-explained) lists the types a practice site needs at a minimum and what not to mark up."
+      "text": "A page can pass every test and still not show a rich result. Google decides what to display, and it may show no special result at all. Valid markup is a way to be understood correctly, not a promise of placement. Never add markup that describes things the page does not show, because that can violate Google's structured data policies. Job postings are one of the types worth testing, and the guide to a [careers page and job posting markup](/guides/careers-page-and-job-posting-markup-for-a-medical-practice) lists what to check before you publish. If you are still deciding which types to add before testing, the overview in [schema markup for a medical practice website, explained](/guides/schema-markup-for-a-medical-practice-website-explained) lists the types a practice site needs at a minimum and what not to mark up. A good first page to test is one with a breadcrumb trail, and [the breadcrumb trail guide for a practice website](/guides/breadcrumb-trails-on-a-medical-practice-website-wording-structure-and-checking-they-match-page-titles) uses this same test as one of its five steps."
     },
     {
       "type": "callout",

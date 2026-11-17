@@ -87,7 +87,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Most practices do not need five social accounts. A Facebook page and an Instagram account cover the places local patients actually look, and a thin page that has not posted in a year does more harm than no page at all, because it suggests the office is closed or careless."
       ),
       p(
-        "Name one person who owns the logins, one person who approves posts, and a backup for both. Put the account recovery email and phone number under practice control, not a personal address, so a departing employee cannot take the page with them. Replying to neighbors follows the same privacy rules as other social accounts, as explained in [a Nextdoor Business Page for a medical practice](/guides/nextdoor-business-page-for-a-medical-practice-claiming-it-keeping-details-accurate-and-replying-to-neighbors-without-health-details)."
+        "Name one person who owns the logins, one person who approves posts, and a backup for both. Put the account recovery email and phone number under practice control, not a personal address, so a departing employee cannot take the page with them. Replying to neighbors follows the same privacy rules as other social accounts, as explained in [a Nextdoor Business Page for a medical practice](/guides/nextdoor-business-page-for-a-medical-practice-claiming-it-keeping-details-accurate-and-replying-to-neighbors-without-health-details). Before you post a page link, check how its card will look, using the steps in [link preview text and image for a practice page](/guides/link-preview-text-and-image-when-a-primary-care-practice-page-is-shared-by-text-message-or-social-post)."
       ),
       h2("What is safe to post"),
       ul(

@@ -440,7 +440,7 @@ export const guidesPartForty2: Guide[] = [
         "Insurance page: lists accepted plans, with the date it was last verified."
       ),
       p(
-        "When two pages have the same purpose line, you have found a duplicate. Google's guidance on duplicates explains that you can point a weaker page to a stronger one with a redirect or a canonical, and that redirects are the choice when you are removing the duplicate for good."
+        "When two pages have the same purpose line, you have found a duplicate. Google's guidance on duplicates explains that you can point a weaker page to a stronger one with a redirect or a canonical, and that redirects are the choice when you are removing the duplicate for good. Once the list exists, use it for [a monthly orphan-page and click-depth check](/guides/monthly-orphan-page-and-click-depth-check-so-every-page-of-a-counseling-practice-website-is-reachable-from-another-page) so every page has a link pointing to it."
       ),
       h2("Use it twice a year"),
       p(

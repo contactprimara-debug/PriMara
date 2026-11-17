@@ -394,7 +394,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "In August 2023, Google announced that it would show FAQ rich results only for well-known, authoritative government and health websites, and that HowTo rich results would be limited to desktop and then removed. The practical result is that a typical medical practice website no longer gets the expandable question boxes that used to appear under its link."
       ),
       p(
-        "Many practices read that as a reason to delete their FAQ sections. That is the wrong conclusion. The change affected how a result looks, not whether questions and answers help patients, and not whether search and AI tools can read your answers."
+        "Many practices read that as a reason to delete their FAQ sections. That is the wrong conclusion. The change affected how a result looks, not whether questions and answers help patients, and not whether search and AI tools can read your answers. Visible answers matter more than markup, so see [collapsible FAQ and accordion sections for a practice page](/guides/collapsible-faq-and-accordion-sections-on-a-counseling-practice-page-that-stay-readable-by-search-engines-and-screen-readers) on keeping collapsed answers readable."
       ),
       h2("Why the questions still matter"),
       p(

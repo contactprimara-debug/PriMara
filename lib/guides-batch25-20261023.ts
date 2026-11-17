@@ -924,7 +924,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Make the photos work for search"),
       p(
-        "Name image files with plain words such as waiting-room.jpg instead of a camera number. Write alt text that describes what the picture shows in one sentence, for example the waiting room with armchairs and a children's table. Compress photos so the page loads quickly on a phone. Our guide to [image SEO and alt text](/guides/image-seo-and-alt-text-for-a-medical-practice-website) covers the details."
+        "Name image files with plain words such as waiting-room.jpg instead of a camera number. Write alt text that describes what the picture shows in one sentence, for example the waiting room with armchairs and a children's table. Compress photos so the page loads quickly on a phone. Our guide to [image SEO and alt text](/guides/image-seo-and-alt-text-for-a-medical-practice-website) covers the details. Prepare each office photo using [resizing and compressing office and staff photos before upload](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone) so the tour page loads quickly on a phone."
       ),
       h3("Use the same photos in other places"),
       p(

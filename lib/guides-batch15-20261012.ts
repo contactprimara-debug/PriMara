@@ -433,7 +433,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Sign in to the profile through Google Search or Maps, open the profile, and use the option to ask for reviews. Google offers a share link and often a ready-made card. Copy the link it gives you rather than building one by hand, since a malformed link may open the wrong place."
+        "text": "Sign in to the profile through Google Search or Maps, open the profile, and use the option to ask for reviews. Google offers a share link and often a ready-made card. Copy the link it gives you rather than building one by hand, since a malformed link may open the wrong place. Shared links also show a preview card, so set that up properly using [link preview text and image for a practice page](/guides/link-preview-text-and-image-when-a-primary-care-practice-page-is-shared-by-text-message-or-social-post)."
       },
       {
         "type": "p",

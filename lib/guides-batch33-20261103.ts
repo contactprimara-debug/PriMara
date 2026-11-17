@@ -434,7 +434,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Use a 301, and test it"),
       p(
-        "A 301 is the permanent redirect. It tells browsers and search engines that the old address has moved for good. Google's documentation on redirects explains the types and when each fits. Ask your web developer to set the redirect on the server or in the website platform, and do not use a refresh tag or a script that sends visitors after the page loads."
+        "A 301 is the permanent redirect. It tells browsers and search engines that the old address has moved for good. Google's documentation on redirects explains the types and when each fits. Ask your web developer to set the redirect on the server or in the website platform, and do not use a refresh tag or a script that sends visitors after the page loads. If you are renaming a page rather than removing it, read [choosing short clean slugs and what to check before changing one](/guides/short-clean-url-slugs-for-new-pages-of-a-counseling-practice-website-and-what-to-do-before-changing-an-old-one) first."
       ),
       ol(
         "List every address you are removing, with its replacement beside it.",
@@ -873,7 +873,7 @@ export const guidesPartThirtySix: Guide[] = [
         "A link that opens in a new tab seems harmless until the visitor wants to go back. The back button on their phone does nothing, because the new tab has no history. Older patients and anyone using a screen reader are the most likely to be stranded, and some never realize a second tab is open."
       ),
       p(
-        "Opening in the same tab has the opposite problem for forms: a visitor halfway through an intake page clicks a link to the privacy policy and loses their answers. The right choice depends on the task, and the wording of the link should tell people what will happen."
+        "Opening in the same tab has the opposite problem for forms: a visitor halfway through an intake page clicks a link to the privacy policy and loses their answers. The right choice depends on the task, and the wording of the link should tell people what will happen. The words inside the link matter as much as where it opens, which [descriptive link text instead of click here](/guides/descriptive-link-text-instead-of-click-here-on-a-primary-care-practice-website-checked-in-five-minutes) covers with a five-minute check."
       ),
       h2("When to use a new tab"),
       table(
@@ -1245,7 +1245,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Why real photos win"),
       p(
-        "A real photo of the clinician helps a nervous visitor picture the first session. Studies of other industries will not tell you much about therapy, so judge by the practical point: the face a visitor sees online should be the face in the room. If you need guidance on taking them, see [provider headshots and team photo guidelines](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website)."
+        "A real photo of the clinician helps a nervous visitor picture the first session. Studies of other industries will not tell you much about therapy, so judge by the practical point: the face a visitor sees online should be the face in the room. If you need guidance on taking them, see [provider headshots and team photo guidelines](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website). Real photos are worth the effort, and [resizing and compressing them before upload](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone) keeps them from slowing the page."
       ),
       p(
         "Real office photos also reduce first-visit anxiety, which is the idea behind [an office tour and virtual tour page for a counseling practice](/guides/office-tour-and-virtual-tour-page-for-a-counseling-practice). Show the entrance, the waiting area and a session room with the door open. Do not show anything that might identify other clients, such as a schedule or a sign-in sheet."

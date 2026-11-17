@@ -191,7 +191,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h2("Keep the page quick"),
       p(
-        "The button only helps if the page loads before the visitor gives up. Compress images, avoid heavy sliders above the fold and check the page on a real phone over a mobile connection, not only on office wifi. Google indexes the mobile version first, so the mobile layout is the one that counts, as the guidance on [mobile-first indexing](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing) explains."
+        "The button only helps if the page loads before the visitor gives up. Compress images, avoid heavy sliders above the fold and check the page on a real phone over a mobile connection, not only on office wifi. Google indexes the mobile version first, so the mobile layout is the one that counts, as the guidance on [mobile-first indexing](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing) explains. On longer pages, add [a table of contents with jump links for phone readers](/guides/table-of-contents-and-jump-links-on-a-long-guide-page-of-a-practice-website-for-phone-readers) so the call button is not the only shortcut."
       ),
       h2("Count the taps"),
       p(

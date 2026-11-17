@@ -52,7 +52,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Alt text is a short description of what the image shows and why it is on the page. Write it for someone who cannot see the picture, in one plain sentence, usually under about 125 characters. Describe the content and skip phrases such as \"photo of.\" Do not stuff in keywords, since a list of search terms is unreadable aloud and offers no help to anyone. The W3C alt decision tree sorts the cases: informative images get a description, decorative images get empty alt text, and an image that works as a link describes where it goes."
+        "text": "Alt text is a short description of what the image shows and why it is on the page. Write it for someone who cannot see the picture, in one plain sentence, usually under about 125 characters. Describe the content and skip phrases such as \"photo of.\" Do not stuff in keywords, since a list of search terms is unreadable aloud and offers no help to anyone. The W3C alt decision tree sorts the cases: informative images get a description, decorative images get empty alt text, and an image that works as a link describes where it goes. The picture chosen for the card that appears when a page is texted needs its own text description, as explained in [link preview text and image for a practice page](/guides/link-preview-text-and-image-when-a-primary-care-practice-page-is-shared-by-text-message-or-social-post)."
       },
       {
         "type": "table",
@@ -414,7 +414,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "A common gap is the provider bio. A physician's page often links to nothing, even though patients arrive there from a search for the doctor's name. Linking it to the services that provider performs and to the booking page gives that visit somewhere to go next. Our [provider bio guide](/guides/how-to-write-a-doctor-bio-page-that-ranks) covers the content."
+        "text": "A common gap is the provider bio. A physician's page often links to nothing, even though patients arrive there from a search for the doctor's name. Linking it to the services that provider performs and to the booking page gives that visit somewhere to go next. Our [provider bio guide](/guides/how-to-write-a-doctor-bio-page-that-ranks) covers the content. A breadcrumb trail is one more internal link path, and the guide to [wording and checking breadcrumb trails](/guides/breadcrumb-trails-on-a-medical-practice-website-wording-structure-and-checking-they-match-page-titles) shows how to keep it matched to your page titles."
       },
       {
         "type": "h2",
@@ -433,7 +433,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit. Links in the menu and footer appear on every page, so plan them together with a [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) before adding contextual links. A good error page is also an internal linking tool, because it sends lost visitors to your key pages, as the guide to a [site search box and 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) shows. A clear main page for each topic also prevents two of your own pages from competing, which our guide to [two pages for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website) shows how to check."
+        "text": "Use regular HTML links with an address in the href. Links that only work through a script or a button may not be followed. Keep the text short and natural inside a real sentence, and do not link the same phrase to several different pages. Titles and link text work together, which is why our guide on [writing title tags](/guides/how-to-write-title-tags-for-a-medical-practice-website) is a good companion to this audit. Links in the menu and footer appear on every page, so plan them together with a [navigation menu and footer for a medical practice website](/guides/navigation-menu-and-footer-for-a-medical-practice-website) before adding contextual links. A good error page is also an internal linking tool, because it sends lost visitors to your key pages, as the guide to a [site search box and 404 page](/guides/site-search-and-404-page-for-a-medical-practice-website) shows. A clear main page for each topic also prevents two of your own pages from competing, which our guide to [two pages for the same service keyword](/guides/two-pages-for-the-same-service-keyword-cannibalization-on-a-medical-practice-website) shows how to check. Anchor words should name the destination, and [descriptive link text instead of click here](/guides/descriptive-link-text-instead-of-click-here-on-a-primary-care-practice-website-checked-in-five-minutes) gives a quick way to check them."
       },
       {
         "type": "h2",
@@ -466,7 +466,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "After a redesign or domain move, rerun the audit. Our [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) shows how links break during a move. Internal links break whenever a page is renamed or removed, so keep a list of changed addresses and follow the process in [finding and fixing broken links and 404 errors on a medical practice website](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) each time one moves."
+        "text": "After a redesign or domain move, rerun the audit. Our [site migration guide](/guides/how-to-migrate-a-medical-practice-website-to-a-new-domain) shows how links break during a move. Internal links break whenever a page is renamed or removed, so keep a list of changed addresses and follow the process in [finding and fixing broken links and 404 errors on a medical practice website](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) each time one moves. Pages with no links pointing to them can be found with [a monthly orphan-page and click-depth check](/guides/monthly-orphan-page-and-click-depth-check-so-every-page-of-a-counseling-practice-website-is-reachable-from-another-page)."
       }
     ],
     "faqs": [

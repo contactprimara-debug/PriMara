@@ -29,7 +29,7 @@ export const guidesPartNineteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "It also helps in search. People type questions such as what to bring to a first doctor visit, and answer engines look for a short, direct passage they can quote. A clear checklist under a plain heading is exactly that kind of passage."
+        "text": "It also helps in search. People type questions such as what to bring to a first doctor visit, and answer engines look for a short, direct passage they can quote. A clear checklist under a plain heading is exactly that kind of passage. Patients often want this list on paper, so see [how to make a print-friendly new patient information page](/guides/print-friendly-version-of-a-new-patient-information-page-so-a-primary-care-patient-can-print-directions-and-what-to-bring)."
       },
       {
         "type": "h2",
