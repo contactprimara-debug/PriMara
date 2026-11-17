@@ -1338,7 +1338,7 @@ export const guidesPartTwentyFour: Guide[] = [
         ["A local newspaper or newsletter", "A short item or sponsor mention."]
       ),
       p(
-        "Choose by fit, not by the strength of the link. A practice that supports a cause it believes in produces better stories and more honest links than one that scans a list for high-authority sites."
+        "Choose by fit, not by the strength of the link. A practice that supports a cause it believes in produces better stories and more honest links than one that scans a list for high-authority sites. If you also want a notice on a local bulletin board, our guide to [what a counseling practice flyer can say and where it should point](/guides/community-flyer-or-bulletin-board-notice-for-a-counseling-practice-what-it-can-say-and-where-it-should-point) covers the wording and the one web address it should send readers to."
       ),
       h2("How to ask for the link properly"),
       ol(
@@ -1364,10 +1364,10 @@ export const guidesPartTwentyFour: Guide[] = [
       ),
       h2("Measure and keep the benefit"),
       p(
-        "Track a sponsorship by what it brings: referral visits in analytics, calls that mention the event and the listing's presence over time. Do not expect a jump in rankings from one link. The value is steady and local, and it grows as the practice appears on more real community pages."
+        "Track a sponsorship by what it brings: referral visits in analytics, calls that mention the event and the listing's presence over time. Do not expect a jump in rankings from one link. The value is steady and local, and it grows as the practice appears on more real community pages. When the practice speaks at an event instead of sponsoring it, a [follow-up page and handout with no patient stories](/guides/follow-up-page-and-handout-after-a-practice-owner-speaks-to-a-community-group-without-patient-stories) gives listeners one address to visit and gives you one page to count."
       ),
       p(
-        "Add the event to the practice's own site as a short, honest news item with photos of staff and the public setting, never patients, and link to the organizer. That helps visitors see the practice as part of the community, and it gives the organizer a reason to link back. Our guide on [press releases for a medical practice](/guides/press-release-for-a-medical-practice-that-helps-seo) covers how to write the announcement."
+        "Add the event to the practice's own site as a short, honest news item with photos of staff and the public setting, never patients, and link to the organizer. That helps visitors see the practice as part of the community, and it gives the organizer a reason to link back. Our guide on [press releases for a medical practice](/guides/press-release-for-a-medical-practice-that-helps-seo) covers how to write the announcement. A longer list of local activity works best on its own page, and our guide to a [community involvement page that avoids patient stories and endorsements](/guides/community-involvement-page-for-a-medical-practice-that-avoids-patient-stories-and-endorsements) shows how to keep it to plain facts about the practice."
       ),
       h3("Keep a simple sponsorship log"),
       p(

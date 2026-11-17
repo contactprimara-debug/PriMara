@@ -601,14 +601,14 @@ export const guidesPartForty: Guide[] = [
         ["Web address", "A short address that goes to one real page. Check it every time you reprint."],
       ),
       p(
-        "Take every line from the sheet, not from the last card you printed. Old files are exactly how last year's number reaches this year's order."
+        "Take every line from the sheet, not from the last card you printed. Old files are exactly how last year's number reaches this year's order. The same sheet should feed any community flyer, and our guide to a [bulletin-board flyer for a counseling practice](/guides/community-flyer-or-bulletin-board-notice-for-a-counseling-practice-what-it-can-say-and-where-it-should-point) shows what such a notice can say without promising results."
       ),
       h2("Use a web address that will still work"),
       p(
         "Printed addresses cannot be edited after the box arrives, so choose ones that last. Point a QR code or a short link to a stable page, such as your new patient page or contact page, not to a campaign page you may retire. Our guide to [QR codes and short links](/guides/qr-codes-and-short-links-for-review-requests-at-a-medical-practice) explains how to set them up so you can change the destination later, and [UTM links for profile and directory clicks](/guides/utm-links-to-track-google-business-profile-and-directory-clicks-for-a-medical-practice) shows how to tell visits from print apart in your reports."
       ),
       p(
-        "Test every QR code on two different phones before sending the file to the printer, in the same light and at the same size as the printed result. A code printed too small, or with too little blank margin, fails in a waiting room."
+        "Test every QR code on two different phones before sending the file to the printer, in the same light and at the same size as the printed result. A code printed too small, or with too little blank margin, fails in a waiting room. A handout given out after a community talk is printed material too, so the [follow-up page and handout guide](/guides/follow-up-page-and-handout-after-a-practice-owner-speaks-to-a-community-group-without-patient-stories) draws its web address and phone number from the same master sheet."
       ),
       h3("What to write in plain words"),
       ul(

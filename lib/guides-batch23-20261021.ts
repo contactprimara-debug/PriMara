@@ -1228,7 +1228,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Community events such as a library talk, a senior center visit or a booth at a local health fair put the practice in front of people who may never have searched for it. The event page is where they land when they look up the name afterward."
       ),
       p(
-        "It also serves as a record. A dated, specific page shows that the practice is part of the community and gives local organizers something to link to."
+        "It also serves as a record. A dated, specific page shows that the practice is part of the community and gives local organizers something to link to. Our guide to a [community involvement page for a medical practice](/guides/community-involvement-page-for-a-medical-practice-that-avoids-patient-stories-and-endorsements) shows how to keep a longer record of local activity in plain facts and without patient stories."
       ),
       h2("The facts the page needs"),
       table(
@@ -1241,7 +1241,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["Registration", "Phone number or a simple form that asks only for name and contact."]
       ),
       p(
-        "If other organizations are involved, name them and link to their pages with permission. If a partner provides screenings, say that they do and who they are, and do not imply the practice performs them unless it does."
+        "If other organizations are involved, name them and link to their pages with permission. If a partner provides screenings, say that they do and who they are, and do not imply the practice performs them unless it does. A printed notice for a counseling practice needs the same restraint, and our guide to a [community flyer or bulletin-board notice](/guides/community-flyer-or-bulletin-board-notice-for-a-counseling-practice-what-it-can-say-and-where-it-should-point) lists what it can say and where it should point."
       ),
       h2("Keep the health information general"),
       p(
@@ -1270,7 +1270,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h2("After the event"),
       p(
-        "Change the page to a short recap with the date, the topic and a thank-you to the host. Do not delete it. Link future events from it. Our article on [local sponsorships and community events](/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn) explains how event pages and partner links add up over time."
+        "Change the page to a short recap with the date, the topic and a thank-you to the host. Do not delete it. Link future events from it. Our article on [local sponsorships and community events](/guides/local-sponsorships-and-community-events-for-a-medical-practice-and-the-links-they-earn) explains how event pages and partner links add up over time. If the owner gave a talk instead of hosting a table, the guide to a [follow-up page and handout after speaking to a community group](/guides/follow-up-page-and-handout-after-a-practice-owner-speaks-to-a-community-group-without-patient-stories) shows how to give listeners a next step without any patient stories."
       ),
       p(
         "If you want to post photos, use the guidance in the piece on [social media accounts](/guides/social-media-accounts-for-a-medical-practice-what-to-post-and-what-never-to-post) so nothing reveals who is a patient."

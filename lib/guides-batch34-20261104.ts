@@ -865,7 +865,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("What HHS says about email"),
       p(
-        "The U.S. Department of Health and Human Services states that HIPAA permits providers to use email with patients if reasonable safeguards are used, and that patients may choose it for themselves. A plain confirmation without health details is low risk, but check your practice's policy and [HHS guidance on email](https://www.hhs.gov/hipaa/for-professionals/faq/570/does-hipaa-permit-health-care-providers-to-use-email-to-communicate-with-patients/index.html) when you design a message that goes further."
+        "The U.S. Department of Health and Human Services states that HIPAA permits providers to use email with patients if reasonable safeguards are used, and that patients may choose it for themselves. A plain confirmation without health details is low risk, but check your practice's policy and [HHS guidance on email](https://www.hhs.gov/hipaa/for-professionals/faq/570/does-hipaa-permit-health-care-providers-to-use-email-to-communicate-with-patients/index.html) when you design a message that goes further. The contact page deserves the same plain treatment, and our guide to an [email notice for a primary care contact page](/guides/what-we-can-and-cannot-do-by-email-notice-for-the-contact-page-of-a-primary-care-practice-that-never-discusses-health-details) shows how to say what email is for before anyone writes."
       ),
       h2("Make sure it arrives and gets counted"),
       p(

@@ -1097,7 +1097,7 @@ export const guidesPartThirtyFour: Guide[] = [
         ["New patient visits booked", "From the schedule: first visits that were actually put on the calendar."]
       ),
       p(
-        "Add one more column when you can: the source. Our guide to [asking how new patients heard about you](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) shows a simple question that produces it. Do not guess the source, and leave it blank if the person did not say."
+        "Add one more column when you can: the source. Our guide to [asking how new patients heard about you](/guides/how-did-you-hear-about-us-attributing-new-patients-to-marketing) shows a simple question that produces it. Do not guess the source, and leave it blank if the person did not say. Talks and handouts count as a source too, and the [follow-up page and handout guide for community talks](/guides/follow-up-page-and-handout-after-a-practice-owner-speaks-to-a-community-group-without-patient-stories) gives each talk its own web address so its visits can be read separately."
       ),
       h2("A sheet you can copy"),
       ul(
@@ -1115,7 +1115,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "If calls and requests are healthy but booked visits are low, the problem is after the inquiry: reply speed, insurance questions or open appointment slots. If inquiries are low, the problem sits earlier, in visibility or in the pages people land on. The rule of thumb is the same for any practice: fix the biggest drop first, and change one thing at a time."
       ),
       p(
-        "Set aside fifteen minutes on the same day each month, perhaps as part of the [weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) for the practice manager. Save each month's sheet in a folder so you can compare quarters. For the bigger picture of cost per patient, read our guide to [measuring return on marketing](/guides/how-to-measure-roi-on-medical-practice-marketing). Bring the filled-in sheet to a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) so the owner and office manager can decide on one action for the coming month."
+        "Set aside fifteen minutes on the same day each month, perhaps as part of the [weekly marketing check](/guides/a-weekly-15-minute-marketing-check-for-a-medical-practice-manager) for the practice manager. Save each month's sheet in a folder so you can compare quarters. For the bigger picture of cost per patient, read our guide to [measuring return on marketing](/guides/how-to-measure-roi-on-medical-practice-marketing). Bring the filled-in sheet to a [monthly 30-minute marketing meeting](/guides/monthly-30-minute-marketing-meeting-agenda-for-a-practice-owner-and-office-manager) so the owner and office manager can decide on one action for the coming month. After a new website has been live for three months, the [ninety-day review of a new practice website](/guides/ninety-day-review-of-a-new-practice-website-five-counts-a-counseling-practice-owner-can-read-without-technical-skills) reads the same counts alongside this sheet so early numbers are not mistaken for a trend."
       ),
       h2("An example month, for illustration only"),
       p(
