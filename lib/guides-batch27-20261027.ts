@@ -157,7 +157,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h2("Connect it to the rest of the site"),
       p(
-        "Link the page from the online booking flow and from the family visit pages. Our guide to a [well-child and school-age checkup page](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) shows where the link belongs for younger children, and the [caregiver and family member communication policy](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) covers adults who come with a patient."
+        "Link the page from the online booking flow and from the family visit pages. Our guide to a [well-child and school-age checkup page](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) shows where the link belongs for younger children, and the [caregiver and family member communication policy](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) covers adults who come with a patient. If a parent is booking for several children at once, the page on [booking several family members in one visit](/guides/booking-several-family-members-in-one-visit-page-for-a-primary-care-practice) explains how to word that request."
       ),
       p(
         "If your counseling or behavioral health partner also sees teens, point to their version of the same explanation, such as a [teen therapy page for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims), so families hear one consistent story."
@@ -188,6 +188,7 @@ export const guidesPartThirty: Guide[] = [
         q: "Should we mention confidential care for teens at all?",
         a: "Only in general terms. Say that some care is handled under special privacy rules and that the clinician will explain them. Naming specific services on a public page invites misunderstanding and may need legal review.",
       },
+      { q: "Can a parent book an appointment for a teenager?", a: "Usually yes, and many practices ask the parent to book. The page should say who can book, whether a parent is expected at the visit, and that the office follows its own policy and state rules, which the practice should confirm with its own counsel. Avoid promising that a teen will always be seen alone." },
     ],
     citations: [HHS_PRIVACY, HEALTHY_CHILDREN, SAMHSA_HELP],
     links: [

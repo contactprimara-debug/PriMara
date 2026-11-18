@@ -1221,7 +1221,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Measure whether matching works"),
       p(
-        "Track two simple numbers without recording anything about a client's care: how many first calls turn into booked first sessions, and how many clients ask to switch clinicians in the first month. If few calls convert, the page or the callback is too slow. If many ask to switch, revise the questions staff ask on the call."
+        "Track two simple numbers without recording anything about a client's care: how many first calls turn into booked first sessions, and how many clients ask to switch clinicians in the first month. If few calls convert, the page or the callback is too slow. If many ask to switch, revise the questions staff ask on the call. Log how long each inquiry waits before it is matched, using the simple method in [a response time target and inquiry log for a counseling practice](/guides/response-time-target-and-inquiry-log-for-a-counseling-practice)."
       ),
       p(
         "Keep the numbers in the practice's own system and review them every quarter with the people who answer the phone. They know which questions help."
@@ -1248,6 +1248,7 @@ export const guidesPartTwentyEight: Guide[] = [
         q: "What if a client wants to switch after several sessions?",
         a: "Welcome the request, help with a warm handoff if the client agrees and respect their pace. Your page can simply say that clients may ask to change clinicians at any time.",
       },
+      { q: "How can a group therapy practice match new inquiries to the right clinician?", a: "Write down the steps: a short intake call or form, a few preference questions such as schedule, insurance and language, then a named person who makes the match and replies within a stated time. Keep notes free of clinical detail, and let clients ask for a different clinician later." },
     ],
     citations: [ACA_ETHICS, GOOGLE_HELPFUL, NASW_ETHICS],
     links: [

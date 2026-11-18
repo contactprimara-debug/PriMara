@@ -291,7 +291,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Link the referral page from the services page, the visit-types page and the specialist referral page. If the practice also takes referrals in, our article on a [referral partner page](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) explains that direction, and the page for [patients who need a specialist](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) covers the medical side. Keep behavioral health on its own page so a patient does not have to scroll past cardiology to find it."
       ),
       p(
-        "Check every outside link and phone number every quarter. A counseling office that moved or closed is a dead end for the one visitor who finally decided to reach out."
+        "Check every outside link and phone number every quarter. A counseling office that moved or closed is a dead end for the one visitor who finally decided to reach out. If a counseling practice receives your referrals, check that its own [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) asks for as little as possible, because that form is the second step a patient has to take."
       ),
     ],
     faqs: [
@@ -315,6 +315,7 @@ export const guidesPartTwentySix: Guide[] = [
         q: "Does a primary care practice need a separate page for mental health?",
         a: "If patients ask about it often, yes. A single page that explains the referral route is easier to keep accurate than scattered mentions, and it gives search engines and voice assistants one clear place to point.",
       },
+      { q: "What should a mental health referral page on a primary care website say?", a: "Explain the steps in plain words: how a patient asks, who in the office helps, how long it usually takes and what to do in a crisis. Name outside counselors only with their written permission, and make clear that patients may choose anyone. Do not describe symptoms or suggest a diagnosis." },
     ],
     citations: [HHS_MIN_NECESSARY, LIFELINE, NIMH_HELP],
     links: [
@@ -874,7 +875,7 @@ export const guidesPartTwentySix: Guide[] = [
         ["We handle all insurance questions", "We can explain our charges. For coverage rules, contact your plan."]
       ),
       p(
-        "Review the page when the office changes its visit structure or when a large insurer changes its rules, and add the date it was last reviewed so staff know it is current. Words such as copayment and deductible are defined in a [plain glossary for a billing page](/guides/plain-words-glossary-of-insurance-terms-deductible-copay-coinsurance-network-and-allowed-amount-for-a-practice-billing-page)."
+        "Review the page when the office changes its visit structure or when a large insurer changes its rules, and add the date it was last reviewed so staff know it is current. Words such as copayment and deductible are defined in a [plain glossary for a billing page](/guides/plain-words-glossary-of-insurance-terms-deductible-copay-coinsurance-network-and-allowed-amount-for-a-practice-billing-page). A companion page that explains [visit types and appointment lengths on a primary care website](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) helps patients choose the right appointment before the bill question ever comes up."
       ),
     ],
     faqs: [
@@ -898,6 +899,7 @@ export const guidesPartTwentySix: Guide[] = [
         q: "Who explains this to new patients?",
         a: "The scheduler should mention it when booking a checkup, the page should repeat it, and the check-in staff should know the answer. A single script used by all three keeps the explanation consistent and avoids contradictions.",
       },
+      { q: "Is a routine check booked differently from a problem visit?", a: "Often yes. Many offices schedule a preventive visit and a problem visit as separate appointment types, because they are timed and billed differently. Say on your page which type to ask for, how long each is scheduled for, and that a new concern may need its own visit. What a plan covers is for the patient to confirm with the plan." },
     ],
     citations: [HEALTHCARE_PREVENTIVE, MEDICARE_AWV, CMS_NOSURPRISES_HOME],
     links: [

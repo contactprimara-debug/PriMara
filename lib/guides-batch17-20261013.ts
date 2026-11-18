@@ -921,7 +921,7 @@ export const guidesPartTwenty: Guide[] = [
     "category": "How-to",
     "title": "How to Explain Visit Types and Appointment Lengths on a Primary Care Practice Website",
     "metaTitle": "Visit Types and Appointment Lengths on a Primary Care Site",
-    "metaDescription": "How a primary care practice can explain new patient, follow-up, sick and annual visits and how long each takes. Call (561) 291-2681.",
+    "metaDescription": "How a primary care practice can explain new patient, follow-up, sick and annual visits and how long each takes, in plain words. Call (561) 291-2681.",
     "answer": "A visit types page lists each kind of appointment your practice books, such as new patient, follow-up, sick visit and annual wellness, with a plain one-line purpose and a typical length. Say lengths are scheduling blocks, not promises, and tell patients which type to ask for when they call.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:00:00Z",
@@ -1028,7 +1028,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Put the page under a plain heading such as Appointments or Visit Types and link it from the booking page, the contact page and the new-patients area. If you use online scheduling, repeat the same names in the booking tool so the words match. Our guides on the [annual wellness visit page](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) and [same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) show how to describe those two visit types in more detail. Spell out how a checkup differs from a visit for a new concern, and why [preventive and problem-focused visits are billed differently](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website), right next to the appointment lengths."
+        "text": "Put the page under a plain heading such as Appointments or Visit Types and link it from the booking page, the contact page and the new-patients area. If you use online scheduling, repeat the same names in the booking tool so the words match. Our guides on the [annual wellness visit page](/guides/annual-wellness-visit-page-for-a-primary-care-practice-without-clinical-claims) and [same-day and walk-in visits](/guides/getting-found-for-same-day-and-walk-in-visits-as-a-primary-care-practice) show how to describe those two visit types in more detail. Spell out how a checkup differs from a visit for a new concern, and why [preventive and problem-focused visits are billed differently](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website), right next to the appointment lengths. The form behind the booking button should ask only what scheduling needs, as in [appointment request form fields for a primary care practice](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out), so choosing a visit type is not made harder by extra questions."
       },
       {
         "type": "p",
@@ -1070,6 +1070,7 @@ export const guidesPartTwenty: Guide[] = [
         "a": "Whenever your schedule template, visit names or lengths change, and during your regular monthly website check."
       },
       { "q": "Should the website say how long each visit lasts?", "a": "Give a typical range and say it can vary. A short line noting that first visits usually take longer than follow-ups sets expectations without promising a time the schedule cannot always keep." },
+      { "q": "How many visits will I need?", "a": "A website cannot say, because that depends on the clinician's judgment and the patient's situation. What the page can do is explain the visit types, how long each is scheduled for, and that the clinician will talk through next steps at the visit." },
     ],
     "citations": [
       {
@@ -1272,7 +1273,7 @@ export const guidesPartTwenty: Guide[] = [
     "category": "How-to",
     "title": "Free Consultation Call Page for a Therapy Practice: What to Say and What to Avoid",
     "metaTitle": "Free Consultation Call Page for a Therapy Practice",
-    "metaDescription": "How a therapy practice can describe a free consultation call honestly: purpose, length, privacy and what not to promise. (561) 291-2681.",
+    "metaDescription": "How a therapy practice can describe a free consultation call honestly: purpose, length, privacy and what not to promise. Call (561) 291-2681.",
     "answer": "A free consultation page explains that the call is a short introduction to see whether the practice is a fit, how long it lasts, how to book it, and that it is not therapy and no health details are needed beforehand. Avoid promises about results and avoid collecting symptoms in the booking form.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:40:00Z",
@@ -1372,7 +1373,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Offer a way to reach you by text or email if phone calls are hard for the client, and say when you check them. Many people find a first call harder than a first session, and a quiet option widens who feels able to reach out."
+        "text": "Offer a way to reach you by text or email if phone calls are hard for the client, and say when you check them. Many people find a first call harder than a first session, and a quiet option widens who feels able to reach out. If a phone call is hard for some visitors, a short [callback request button](/guides/callback-request-button-versus-a-full-contact-form-for-a-counseling-practice-website-and-who-answers-it-within-one-business-day) lets them leave a number and a best time instead of writing a long message."
       },
       {
         "type": "h2",
@@ -1422,7 +1423,8 @@ export const guidesPartTwenty: Guide[] = [
       {
         "q": "How do I measure whether the page works?",
         "a": "Count clicks on the booking button and completed requests, not the content of any message, and compare month to month."
-      }
+      },
+      { "q": "Is it possible to have a consultation call with a therapist before booking a first session?", "a": "Many therapists offer a short consultation call, but not all do, so say clearly whether yours does. State how long it lasts, what it covers and that it is not therapy. Explain how to request it and when the office will reply, and keep the form to a name and a way to reach the person." },
     ],
     "citations": [
       {
@@ -2460,7 +2462,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who send forms for leave or disability through the portal will need their own instructions, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) covers in plain terms. Refill requests need their own page, as described in [the prescription refill request page for a primary care practice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice)."
+        "text": "Link the page from the patient portal page, the contact page, the appointment reminder and the footer. Put one line about it in the portal's welcome message if your system allows. It pairs naturally with the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and the [after-hours calls guide](/guides/how-to-handle-after-hours-calls-and-voicemail-at-a-medical-practice). Patients who send forms for leave or disability through the portal will need their own instructions, which our guide to an [FMLA and disability paperwork request page](/guides/fmla-and-disability-paperwork-request-page-for-a-primary-care-practice-without-clinical-details) covers in plain terms. Refill requests need their own page, as described in [the prescription refill request page for a primary care practice](/guides/prescription-refill-request-page-for-a-primary-care-practice-without-clinical-advice). Keep the office phone number in the same place on every page, as described in [keeping the phone number and contact link in the same place on every page](/guides/keeping-the-phone-number-and-contact-link-in-the-same-place-on-every-page-of-a-medical-practice-website), so a patient with an urgent question can always find it."
       },
       {
         "type": "h3",
@@ -2500,7 +2502,8 @@ export const guidesPartTwenty: Guide[] = [
       {
         "q": "Where should the page be linked?",
         "a": "From the patient portal page, the contact page, appointment reminders and the footer."
-      }
+      },
+      { "q": "How should a primary care practice tell patients that test results are ready?", "a": "Say on the page how results are released, such as through the portal, and when the office will phone about results that need a conversation. Describe the process only and never what a result means. Name a response time your staff can keep, and give the office phone number for anything urgent." },
     ],
     "citations": [
       {

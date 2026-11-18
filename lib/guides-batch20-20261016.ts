@@ -1109,7 +1109,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "A hospital relationship is useful to patients and to other doctors who look for referral partners. Our guides on [getting listed in a hospital or health-system provider directory](/guides/getting-listed-in-a-hospital-or-health-system-provider-directory) and on the [referral partner page for a primary care practice](/guides/referral-partner-page-for-a-primary-care-practice-how-specialists-and-hospitals-find-you) show how to make it findable. Check each doctor's [bio page](/guides/how-to-write-a-doctor-bio-page-that-ranks) for the same wording. Hospital teams who send patients appreciate a prompt acknowledgment, and a simple [thank-you and feedback loop for referring doctors](/guides/referring-doctor-thank-you-and-feedback-loop-for-a-primary-care-practice) keeps that relationship active."
       ),
       p(
-        "A short internal review each year keeps the statement true. Ask the office manager to compare the website, the Google profile and each provider bio against the credentialing records, note the date and fix any difference at once. Treat the statement as a living fact about the practice, never as copy that is written once and forgotten."
+        "A short internal review each year keeps the statement true. Ask the office manager to compare the website, the Google profile and each provider bio against the credentialing records, note the date and fix any difference at once. Treat the statement as a living fact about the practice, never as copy that is written once and forgotten. The same care applies to the provider pages described in [what to put on a medical practice About page](/guides/what-to-put-on-a-medical-practice-about-page), where an affiliation line is easy to leave behind after it ends."
       ),
       p(
         "This page is general information and not legal advice. Have the practice's adviser review the final wording, especially where a system's branding rules apply."
@@ -1136,6 +1136,7 @@ export const guidesPartTwentyThree: Guide[] = [
         q: "Does the Google Business Profile need the same wording?",
         a: "Yes, if you mention it at all. Use the same exact words and the same date logic so that patients and search engines see one consistent statement.",
       },
+      { q: "What does hospital affiliation mean on a doctor's website?", a: "It describes a stated relationship between the practice or a provider and a hospital, such as sending patients there, which is not the same as holding privileges there. Name the relationship in plain words, and say privileges only when the hospital's medical staff office has confirmed them in writing." },
     ],
     citations: [FTC_ADS, GBP_GUIDELINES, GOOGLE_HELPFUL],
     links: [
