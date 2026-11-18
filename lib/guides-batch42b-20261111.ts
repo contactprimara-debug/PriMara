@@ -102,7 +102,7 @@ export const guidesPartForty5B: Guide[] = [
       ),
       h3("Step 3: Open it on an older phone"),
       p(
-        "Hold the phone upright and look at the first screen without scrolling. The phone number, the main button and the practice name should be visible. Then turn the phone sideways and check again."
+        "Hold the phone upright and look at the first screen without scrolling. The phone number, the main button and the practice name should be visible. Then turn the phone sideways and check again. While the older phone is in your hand, enlarge the text and see whether any line runs off the edge, using the steps in [zoomed text and phone reflow so a page does not scroll sideways](/guides/zoomed-text-and-phone-reflow-so-a-primary-care-practice-page-does-not-scroll-sideways)."
       ),
       h3("Step 4: Tap what a patient would tap"),
       ol(
@@ -116,7 +116,7 @@ export const guidesPartForty5B: Guide[] = [
       ),
       h3("Step 5: Check for stray pop-ups"),
       p(
-        "Look for banners, chat windows or cookie notices that cover the phone number on a small screen. Our guide on [pop-ups and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) explains what to watch for."
+        "Look for banners, chat windows or cookie notices that cover the phone number on a small screen. Our guide on [pop-ups and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) explains what to watch for. Open the page on the older phone with a weak signal as well, and see whether any heading stays blank while a custom font loads, using [loading custom web fonts on a practice website without invisible text](/guides/loading-custom-web-fonts-on-a-medical-practice-website-without-slow-or-invisible-text-on-a-phone)."
       ),
       h2("Write down what you saw"),
       table(
@@ -498,7 +498,7 @@ export const guidesPartForty5B: Guide[] = [
       ),
       h3("Check it like the live site"),
       p(
-        "Open the staging page on your phone and a second browser, using the ten-minute routine in [checking a website change in a second browser and on an older phone](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live). Then approve the change in writing."
+        "Open the staging page on your phone and a second browser, using the ten-minute routine in [checking a website change in a second browser and on an older phone](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live). Then approve the change in writing. Test the fonts on the staging copy too, with the phone set to a slow connection, using the steps in [loading custom web fonts without slow or invisible text on a phone](/guides/loading-custom-web-fonts-on-a-medical-practice-website-without-slow-or-invisible-text-on-a-phone)."
       ),
       h2("When there is no staging copy"),
       p(

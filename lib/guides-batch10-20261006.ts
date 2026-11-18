@@ -26,7 +26,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Images do three jobs on a medical website. They help a patient decide whether to trust you, because a real photo of your front desk answers \"is this a real place\" faster than a paragraph can. They carry accessibility, because alt text is what a screen reader speaks aloud for someone who cannot see the picture. And they affect speed, since oversized photos are one of the most common reasons a page crawls on a phone."
+        "text": "Images do three jobs on a medical website. They help a patient decide whether to trust you, because a real photo of your front desk answers \"is this a real place\" faster than a paragraph can. They carry accessibility, because alt text is what a screen reader speaks aloud for someone who cannot see the picture. And they affect speed, since oversized photos are one of the most common reasons a page crawls on a phone. Set the width and height on each image too, so the text below it does not move as the picture loads, which our guide to [layout shift on a page that jumps while loading on a phone](/guides/layout-shift-on-a-practice-page-that-jumps-while-loading-on-a-phone-fixed-with-image-sizes) explains."
       },
       {
         "type": "p",
@@ -111,7 +111,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "To fix a whole existing site, export the list of images from your platform or a crawler, sort by file size, and start with the heaviest pages. Your service pages and bio pages come first, because those are the pages patients compare before booking. Alt text should describe the scene without naming or diagnosing anyone, and any image of an identifiable patient should have a signed permission first, as described in [patient photo and video release wording for a practice website](/guides/patient-photo-and-video-release-wording-for-images-on-a-medical-practice-website)."
+        "text": "To fix a whole existing site, export the list of images from your platform or a crawler, sort by file size, and start with the heaviest pages. Your service pages and bio pages come first, because those are the pages patients compare before booking. Alt text should describe the scene without naming or diagnosing anyone, and any image of an identifiable patient should have a signed permission first, as described in [patient photo and video release wording for a practice website](/guides/patient-photo-and-video-release-wording-for-images-on-a-medical-practice-website). After resizing, ask your designer to lazy-load the pictures lower on the page but not the top one, following [lazy-loading images below the fold without delaying the top picture](/guides/lazy-loading-images-below-the-fold-on-a-practice-page-without-delaying-the-top-picture)."
       }
     ],
     "faqs": [
@@ -1807,7 +1807,7 @@ export const guidesPartThirteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "On your Google profile, the business description can include a sentence in Spanish. Some categories offer a languages-spoken attribute, which you should select only if it is true. See our guide to [profile attributes](/guides/google-business-profile-attributes-for-a-medical-practice). Keep one profile per location. Do not create a second Spanish profile, which would be a duplicate listing."
+        "text": "On your Google profile, the business description can include a sentence in Spanish. Some categories offer a languages-spoken attribute, which you should select only if it is true. See our guide to [profile attributes](/guides/google-business-profile-attributes-for-a-medical-practice). Keep one profile per location. Do not create a second Spanish profile, which would be a duplicate listing. Each Spanish page should also declare its language in the page code, and a Spanish phrase inside an English page needs its own marker, as [declaring the language of a counseling practice page and of a Spanish phrase inside it](/guides/declaring-the-language-of-a-counseling-practice-page-and-of-a-spanish-phrase-inside-an-english-page) explains."
       }
     ],
     "faqs": [

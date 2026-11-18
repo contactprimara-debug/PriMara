@@ -128,7 +128,7 @@ export const guidesPartForty: Guide[] = [
       ),
       h3("Keep the number from breaking across two lines"),
       p(
-        "On a narrow screen a long number can wrap so the last four digits drop to the next line. Keep the number together with a no-break style, and make the tap area large enough to hit. Accessibility guidance for small targets sets a minimum of 24 by 24 pixels, and a phone link in a sentence is allowed to be smaller, but a standalone button should be comfortably bigger than that."
+        "On a narrow screen a long number can wrap so the last four digits drop to the next line. Keep the number together with a no-break style, and make the tap area large enough to hit. Accessibility guidance for small targets sets a minimum of 24 by 24 pixels, and a phone link in a sentence is allowed to be smaller, but a standalone button should be comfortably bigger than that. A number that can be tapped still needs room around it, so check the button against the sizes in [tap target size and spacing for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page)."
       ),
       h2("Find every copy of the number"),
       p(
@@ -249,7 +249,7 @@ export const guidesPartForty: Guide[] = [
         "A slow hero image or video leaves a blank space where the message should be."
       ),
       p(
-        "Slow loading is a common cause. The Largest Contentful Paint measure from Google's web performance team describes how long the biggest visible element takes to appear, and a heavy hero image is the usual culprit. Our guide to [pop-ups, banners and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) covers the covering problem."
+        "Slow loading is a common cause. The Largest Contentful Paint measure from Google's web performance team describes how long the biggest visible element takes to appear, and a heavy hero image is the usual culprit. Our guide to [pop-ups, banners and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) covers the covering problem. A page that scrolls sideways once the text is enlarged is another first-five-seconds failure, and [zoomed text and phone reflow for a primary care practice](/guides/zoomed-text-and-phone-reflow-so-a-primary-care-practice-page-does-not-scroll-sideways) explains how to test it."
       ),
       h2("Fix one thing, then test again"),
       p(

@@ -120,11 +120,11 @@ export const guidesPartForty8: Guide[] = [
         "Write each finding as one plain sentence with the page name and what you heard. Your web person can usually fix labels, headings and link text quickly, but a third-party booking widget may need a message to the vendor. If a visitor tells you about a barrier, the wording in our [accessibility statement and barrier-reporting guide](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) gives them an easy way to reach you."
       ),
       p(
-        "Forms deserve extra attention. Our guide to [accessible intake forms for patients with low vision or limited reading skills](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) covers labels, instructions and error messages in more depth."
+        "Forms deserve extra attention. Our guide to [accessible intake forms for patients with low vision or limited reading skills](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website) covers labels, instructions and error messages in more depth. A screen reader can only switch to Spanish pronunciation if the page declares it, which [declaring the language of a page and of a Spanish phrase inside an English page](/guides/declaring-the-language-of-a-counseling-practice-page-and-of-a-spanish-phrase-inside-an-english-page) shows how to check."
       ),
       h2("Repeat it after any change"),
       p(
-        "Run the five minutes again whenever the form, the booking widget or the contact page layout changes. Put it on the calendar next to your other routine checks, such as the [quarterly secret shopper test](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients)."
+        "Run the five minutes again whenever the form, the booking widget or the contact page layout changes. Put it on the calendar next to your other routine checks, such as the [quarterly secret shopper test](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients). Run the keyboard-only version as well, since our guide to [keyboard focus outline and tab order on booking and contact pages](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website) shows how a person who cannot use a mouse moves through the same pages."
       ),
     ],
     faqs: [

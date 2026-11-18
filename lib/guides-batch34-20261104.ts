@@ -1037,7 +1037,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Make the number easy to use"),
       p(
-        "On a phone, the number should be a tap-to-call link at the top of every page, as described in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website). Write the number in text, too, because desktop visitors and printed pages need it. Use the same format everywhere, such as (561) 555-0100, to keep your citations tidy. To find every copy of the number, including ones sitting in images and downloadable forms, follow the steps in [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website)."
+        "On a phone, the number should be a tap-to-call link at the top of every page, as described in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website). Write the number in text, too, because desktop visitors and printed pages need it. Use the same format everywhere, such as (561) 555-0100, to keep your citations tidy. To find every copy of the number, including ones sitting in images and downloadable forms, follow the steps in [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website). Wherever you place the number, keep it in the same position on every page, which [keeping the phone number and contact link in the same place on every page](/guides/keeping-the-phone-number-and-contact-link-in-the-same-place-on-every-page-of-a-medical-practice-website) shows how to check."
       ),
       h3("If you serve more than one office"),
       p(
@@ -1123,7 +1123,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "Ask someone who has never seen the site to find the phone number and time them."
       ),
       p(
-        "If it takes more than one tap or five seconds, simplify. Layout fixes in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) show how to keep the call button visible."
+        "If it takes more than one tap or five seconds, simplify. Layout fixes in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) show how to keep the call button visible. Also check that any close button is large enough to tap and sits away from the call button, using the minimum sizes in our [tap target size guide for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page)."
       ),
       h3("Chat widgets deserve special care"),
       p(

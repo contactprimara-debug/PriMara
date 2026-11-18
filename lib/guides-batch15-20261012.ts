@@ -940,7 +940,7 @@ export const guidesPartEighteen: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Give each image plain alt text that describes what it shows, for example the main entrance with a ramp on the left. This helps screen reader users and gives search engines a clear description."
+        "text": "Give each image plain alt text that describes what it shows, for example the main entrance with a ramp on the left. This helps screen reader users and gives search engines a clear description. Photos of the route lower on the page can be lazy-loaded to save a patient's mobile data, while the first one loads normally, as described in [lazy-loading images below the fold on a practice page](/guides/lazy-loading-images-below-the-fold-on-a-practice-page-without-delaying-the-top-picture)."
       },
       {
         "type": "h2",

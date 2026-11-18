@@ -1086,7 +1086,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h2("Speed and stability matter here too"),
       p(
-        "A first screen that jumps as it loads, because an image or font arrives late, makes a patient press the wrong thing. Set the dimensions of the hero photo, avoid text that depends on a custom font to be readable, and test with the checklist for [Core Web Vitals](/guides/core-web-vitals-checklist-for-a-medical-practice-website)."
+        "A first screen that jumps as it loads, because an image or font arrives late, makes a patient press the wrong thing. Set the dimensions of the hero photo, avoid text that depends on a custom font to be readable, and test with the checklist for [Core Web Vitals](/guides/core-web-vitals-checklist-for-a-medical-practice-website). Moving banners add to the problem, since a rotating slider both delays the first screen and hides the message; [pausing carousels, sliders and autoplay video on a counseling home page](/guides/pausing-carousels-sliders-and-autoplay-video-on-the-home-page-of-a-counseling-practice-website) explains the pause rule and a calmer alternative."
       ),
       h3("Tracking the first screen"),
       p(
@@ -1094,7 +1094,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("A quick test"),
       p(
-        "Hand your phone to someone who has never seen the site and ask them to find the number, the hours and how to book. Time them. If it takes more than ten seconds, simplify the first screen before changing anything else on the page. For a fuller version of this check, with five testers, three set questions and a scoring table, see [the five-second phone test for a primary care home page](/guides/what-a-new-patient-sees-on-a-phone-in-the-first-five-seconds-of-a-primary-care-practice-home-page)."
+        "Hand your phone to someone who has never seen the site and ask them to find the number, the hours and how to book. Time them. If it takes more than ten seconds, simplify the first screen before changing anything else on the page. For a fuller version of this check, with five testers, three set questions and a scoring table, see [the five-second phone test for a primary care home page](/guides/what-a-new-patient-sees-on-a-phone-in-the-first-five-seconds-of-a-primary-care-practice-home-page). Check also that the headline appears at once on a slow connection, because a custom font can leave it blank; [loading custom web fonts without slow or invisible text on a phone](/guides/loading-custom-web-fonts-on-a-medical-practice-website-without-slow-or-invisible-text-on-a-phone) shows the setting that prevents it."
       ),
     ],
     faqs: [
@@ -1278,7 +1278,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "A copyright line with the current year, updated by the site and not by hand."
       ),
       p(
-        "Consistency of the name, address and phone number matters more than people think; our guide to [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows what breaks it. A footer that still shows an old suite number is one of the commonest causes."
+        "Consistency of the name, address and phone number matters more than people think; our guide to [NAP consistency](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it) shows what breaks it. A footer that still shows an old suite number is one of the commonest causes. Keep the phone number and contact link in the same position in the header and footer of every page, as described in [keeping the phone number and contact link in the same place on every page](/guides/keeping-the-phone-number-and-contact-link-in-the-same-place-on-every-page-of-a-medical-practice-website)."
       ),
       h3("Do not stuff the footer with links"),
       p(

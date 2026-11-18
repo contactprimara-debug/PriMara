@@ -76,7 +76,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Use the words patients use. A title such as Patient Portal Login with your practice name is enough, with a matching H1. Link to the page from the header or footer on every page, from the contact page, from appointment reminder texts and from the website link in your Google Business Profile. A patient who finds your listing on a phone should be able to reach the login in two taps. Add a short warning on the login page that the office never asks for a password by text, as our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) recommends. If balances can be paid from the portal or by a texted link, explain both on a [text-to-pay and online bill pay page](/guides/text-to-pay-and-online-bill-pay-page-for-a-medical-practice) and link it from the login page."
+        "text": "Use the words patients use. A title such as Patient Portal Login with your practice name is enough, with a matching H1. Link to the page from the header or footer on every page, from the contact page, from appointment reminder texts and from the website link in your Google Business Profile. A patient who finds your listing on a phone should be able to reach the login in two taps. Add a short warning on the login page that the office never asks for a password by text, as our guide on [scam texts and emails that impersonate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) recommends. If balances can be paid from the portal or by a texted link, explain both on a [text-to-pay and online bill pay page](/guides/text-to-pay-and-online-bill-pay-page-for-a-medical-practice) and link it from the login page. If the sign-in session times out, a patient should get a warning and a way to extend it, which [session timeout and expiring booking pages on a counseling practice website](/guides/session-timeout-and-expiring-booking-page-on-a-counseling-practice-website-so-a-slow-typist-does-not-lose-the-form) explains."
       },
       {
         "type": "table",
@@ -272,7 +272,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "If you do not have translated pages, a single plain sentence in the other language at the top of the contact page, giving the phone number and saying that help is available, is a kind and useful minimum. Keep it short and have it checked."
+        "text": "If you do not have translated pages, a single plain sentence in the other language at the top of the contact page, giving the phone number and saying that help is available, is a kind and useful minimum. Keep it short and have it checked. If you add a single Spanish sentence to an English page, mark that sentence with its own language so screen readers pronounce it correctly, as [declaring the language of a page and of a Spanish phrase inside it](/guides/declaring-the-language-of-a-counseling-practice-page-and-of-a-spanish-phrase-inside-an-english-page) describes."
       },
       {
         "type": "h2",
@@ -835,7 +835,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link the team page from the about page, the new-patients page and each provider bio. Add a short sentence on the contact page, such as who answers the phone and in which hours. In your Google Business Profile, a team photo uploaded as a normal photo reinforces the same message. Keep names, roles and photos identical in all those places so a patient sees one practice, not three versions. Some practices also add a short [who-answers-which-call list](/guides/who-answers-which-call-list-for-billing-referrals-records-and-scheduling-on-the-contact-page-of-a-primary-care-practice) beside the team page so callers know which desk handles scheduling, billing and records."
+        "text": "Link the team page from the about page, the new-patients page and each provider bio. Add a short sentence on the contact page, such as who answers the phone and in which hours. In your Google Business Profile, a team photo uploaded as a normal photo reinforces the same message. Keep names, roles and photos identical in all those places so a patient sees one practice, not three versions. Some practices also add a short [who-answers-which-call list](/guides/who-answers-which-call-list-for-billing-referrals-records-and-scheduling-on-the-contact-page-of-a-primary-care-practice) beside the team page so callers know which desk handles scheduling, billing and records. Reserve space for each staff photo with a set width and height, so the team page does not shift while it loads, as shown in [fixing layout shift on a practice page that jumps on a phone](/guides/layout-shift-on-a-practice-page-that-jumps-while-loading-on-a-phone-fixed-with-image-sizes)."
       },
       {
         "type": "h3",

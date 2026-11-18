@@ -573,7 +573,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "Video also carries risks that plain text does not: it can be slow to load, it is unusable without captions for people who are deaf or hard of hearing or watching on a muted phone, and search engines cannot read what is spoken unless you give them text. The steps below deal with each."
+      "text": "Video also carries risks that plain text does not: it can be slow to load, it is unusable without captions for people who are deaf or hard of hearing or watching on a muted phone, and search engines cannot read what is spoken unless you give them text. The steps below deal with each. On the home page of a counseling practice, a video that starts by itself needs a visible pause control, as described in [pausing carousels, sliders and autoplay video](/guides/pausing-carousels-sliders-and-autoplay-video-on-the-home-page-of-a-counseling-practice-website)."
     },
     {
       "type": "h2",
@@ -647,7 +647,7 @@ export const guidesPartFifteen: Guide[] = [
     },
     {
       "type": "p",
-      "text": "The markup must match what is visible on the page. Do not describe a video that is not there or add claims that are not in the video. Structured data is not a guarantee that a video will appear as a rich result. For general background, see our explanation of [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained)."
+      "text": "The markup must match what is visible on the page. Do not describe a video that is not there or add claims that are not in the video. Structured data is not a guarantee that a video will appear as a rich result. For general background, see our explanation of [schema markup for a medical practice website](/guides/schema-markup-for-a-medical-practice-website-explained). A video embed lower on the page can wait until the visitor scrolls to it, using the same approach described in [lazy-loading images and frames below the fold on a practice page](/guides/lazy-loading-images-below-the-fold-on-a-practice-page-without-delaying-the-top-picture)."
     },
     {
       "type": "h2",

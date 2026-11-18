@@ -328,7 +328,7 @@ export const guidesPartTwelve: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Finally, keep the page current. A retired provider or old address on the About page misleads patients, so include it in your quarterly review, as covered in [how often to update old content](/guides/how-often-to-update-old-content-on-a-medical-practice-website)."
+        "text": "Finally, keep the page current. A retired provider or old address on the About page misleads patients, so include it in your quarterly review, as covered in [how often to update old content](/guides/how-often-to-update-old-content-on-a-medical-practice-website). If the About page carries a gallery of team and office pictures, load the lower ones lazily but not the first, as explained in [lazy-loading images below the fold without delaying the top picture](/guides/lazy-loading-images-below-the-fold-on-a-practice-page-without-delaying-the-top-picture)."
       },
       {
         "type": "p",

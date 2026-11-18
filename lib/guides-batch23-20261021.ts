@@ -183,7 +183,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Size and spacing"),
       p(
-        "Fingers are bigger than cursors. The accessibility guidance on [target size](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets a floor of 24 CSS pixels, and most designers aim for 44 by 44 or larger on the main call button. Leave space around it so a tap near the edge does not land on a neighboring link."
+        "Fingers are bigger than cursors. The accessibility guidance on [target size](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets a floor of 24 CSS pixels, and most designers aim for 44 by 44 or larger on the main call button. Leave space around it so a tap near the edge does not land on a neighboring link. Our guide to [tap target size and spacing for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page) shows how to measure each button in a few minutes and what to ask a designer to change."
       ),
       h3("Hours and after-hours"),
       p(
@@ -191,7 +191,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h2("Keep the page quick"),
       p(
-        "The button only helps if the page loads before the visitor gives up. Compress images, avoid heavy sliders above the fold and check the page on a real phone over a mobile connection, not only on office wifi. Google indexes the mobile version first, so the mobile layout is the one that counts, as the guidance on [mobile-first indexing](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing) explains. On longer pages, add [a table of contents with jump links for phone readers](/guides/table-of-contents-and-jump-links-on-a-long-guide-page-of-a-practice-website-for-phone-readers) so the call button is not the only shortcut."
+        "The button only helps if the page loads before the visitor gives up. Compress images, avoid heavy sliders above the fold and check the page on a real phone over a mobile connection, not only on office wifi. Google indexes the mobile version first, so the mobile layout is the one that counts, as the guidance on [mobile-first indexing](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing) explains. On longer pages, add [a table of contents with jump links for phone readers](/guides/table-of-contents-and-jump-links-on-a-long-guide-page-of-a-practice-website-for-phone-readers) so the call button is not the only shortcut. Place the call button in the same spot on every page so a patient who is stuck can always find it, as explained in [keeping the phone number and contact link in the same place on every page](/guides/keeping-the-phone-number-and-contact-link-in-the-same-place-on-every-page-of-a-medical-practice-website)."
       ),
       h2("Count the taps"),
       p(
@@ -672,7 +672,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Give the Spanish version its own address, such as a page under the counseling section, and label the language in the code. Google's overview of [multilingual sites](https://developers.google.com/search/docs/specialty/international/localized-versions) explains how to connect the two versions so each is shown to the right reader. Do not auto-redirect visitors by browser language, because some people prefer the other version. Many winter visitors and residents prefer to read in Spanish, so link your language page to a [seasonal resident counseling page for Florida](/guides/seasonal-resident-and-snowbird-counseling-page-for-a-florida-counseling-practice-without-clinical-claims) that explains scheduling and licensure for part year clients."
       ),
       p(
-        "Our article on [bilingual SEO for a Florida medical practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) covers the technical side across a whole site, and the guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) explains how to show the same facts on Google."
+        "Our article on [bilingual SEO for a Florida medical practice](/guides/bilingual-spanish-english-seo-for-a-florida-medical-practice) covers the technical side across a whole site, and the guide to [listing languages spoken and interpreter access](/guides/how-to-list-languages-spoken-and-interpreter-access-on-a-medical-practice-website-and-profile) explains how to show the same facts on Google. On the Spanish page, set the page language to Spanish in the code, and mark any Spanish phrase left on the English page, using [declaring the language of a page and of a Spanish phrase inside an English page](/guides/declaring-the-language-of-a-counseling-practice-page-and-of-a-spanish-phrase-inside-an-english-page)."
       ),
       h3("Interpreters and rights"),
       p(

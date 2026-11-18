@@ -192,7 +192,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Ask for less"),
       p(
-        "The easiest form to finish is a short one. For a first request, name, phone number, preferred time and a few words about what the patient wants are usually enough, and the front desk can collect the rest on the phone. Our guide to [online appointment request form fields](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) lists what to ask and what to leave out, including health details that should never be typed into a web form."
+        "The easiest form to finish is a short one. For a first request, name, phone number, preferred time and a few words about what the patient wants are usually enough, and the front desk can collect the rest on the phone. Our guide to [online appointment request form fields](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) lists what to ask and what to leave out, including health details that should never be typed into a web form. For a first request, also let the phone fill in the name, email and number by marking each box with its purpose, as shown in [autofill and phone keyboard settings on a practice contact form](/guides/autofill-and-phone-keyboard-settings-on-the-contact-form-of-a-medical-practice-website-so-a-new-patient-types-less)."
       ),
       h2("Always give a way that is not a form"),
       p(
@@ -662,7 +662,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Make the review a habit"),
       p(
-        "Choose the same month every year and assign each row of the table to a named person. Keep the finished checklist in a shared folder with the date, so you can see what changed from one year to the next. A practice that reviews its site once a year rarely needs a panic rewrite, and new clients meet a site that matches the front desk. To keep the weekly and quarterly checks in the same place, add them to [a yearly calendar with a named owner and date for each check](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates)."
+        "Choose the same month every year and assign each row of the table to a named person. Keep the finished checklist in a shared folder with the date, so you can see what changed from one year to the next. A practice that reviews its site once a year rarely needs a panic rewrite, and new clients meet a site that matches the front desk. To keep the weekly and quarterly checks in the same place, add them to [a yearly calendar with a named owner and date for each check](/guides/a-yearly-calendar-of-website-google-profile-and-phone-checks-for-a-primary-care-practice-with-named-owners-and-dates). Add a color contrast pass to the same review using the [ten-minute text and background contrast check](/guides/checking-text-and-background-color-contrast-on-a-medical-practice-website-in-ten-minutes), because a theme update can quietly make buttons and labels paler."
       ),
       p(
         "If you change a lot, such as a new clinician or a new fee schedule, republish the affected pages together and check the sitemap and Google profile the same day. Do the review in the same sitting as the [year-end marketing results summary](/guides/year-end-marketing-results-summary-for-the-owner-of-a-counseling-practice), so the pages that need work are chosen using the real numbers from the year."
@@ -747,7 +747,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h3("Privacy reminders"),
       p(
-        "Remind clients to log out on shared devices, to avoid using a work computer or a work email address for therapy messages, and to call the office if they suspect someone else has their password. Do not display any client names, appointment times or screenshots of real messages on the public page."
+        "Remind clients to log out on shared devices, to avoid using a work computer or a work email address for therapy messages, and to call the office if they suspect someone else has their password. Do not display any client names, appointment times or screenshots of real messages on the public page. Tell clients how long the portal stays signed in on a shared device, and check that a slow typist is warned before a message is lost, as in [session timeouts on a counseling practice booking page](/guides/session-timeout-and-expiring-booking-page-on-a-counseling-practice-website-so-a-slow-typist-does-not-lose-the-form)."
       ),
       p(
         "Keep the portal link on its own page rather than inside a long policy document, and link to it from the footer and contact page. If a client forgets their login, the page should tell them which phone number to call and who will answer. Tell clients which messages belong in the portal and which may be texted, using the structure in our [texting between sessions policy page](/guides/texting-between-sessions-policy-page-for-a-counseling-practice) guide."

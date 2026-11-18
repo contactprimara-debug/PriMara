@@ -1345,7 +1345,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Design details that matter"),
       p(
-        "Calm design is part of the message. Use readable type, generous spacing and muted colors, and let visitors leave quickly. Offer a clear way to exit, such as a visible link, and avoid trapping the reader in a pop-up. For people who need accommodations, say how to ask. The accessibility basics are in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website)."
+        "Calm design is part of the message. Use readable type, generous spacing and muted colors, and let visitors leave quickly. Offer a clear way to exit, such as a visible link, and avoid trapping the reader in a pop-up. For people who need accommodations, say how to ask. The accessibility basics are in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website). Movement on the page counts as design too, so a slider or background video that starts by itself should either have a pause control or be replaced, as [pausing carousels, sliders and autoplay video on a counseling practice home page](/guides/pausing-carousels-sliders-and-autoplay-video-on-the-home-page-of-a-counseling-practice-website) explains."
       ),
       h3("Forms and follow-up"),
       p(

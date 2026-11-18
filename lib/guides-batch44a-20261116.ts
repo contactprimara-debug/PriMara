@@ -107,7 +107,7 @@ export const guidesPartForty7A: Guide[] = [
       ),
       h2("Count which one works for you"),
       p(
-        "You do not have to guess. Run one version for a month, count the requests, then run the other and compare. Count real first contacts, not button clicks, and exclude your own test messages. A [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) keeps the tally simple. Many practices end up offering both: a callback button high on the page and the longer form for people who prefer to write."
+        "You do not have to guess. Run one version for a month, count the requests, then run the other and compare. Count real first contacts, not button clicks, and exclude your own test messages. A [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) keeps the tally simple. Many practices end up offering both: a callback button high on the page and the longer form for people who prefer to write. Whichever you choose, a person using only a keyboard must be able to reach the button and see where they are, which the [keyboard focus and tab order check](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website) lets you test in a few minutes."
       ),
     ],
     faqs: [

@@ -187,7 +187,7 @@ export const guidesPartThirtyTwo: Guide[] = [
         "Most new patient pages assume a phone, an email address and a steady connection. Plenty of real patients have none of those: an older adult who does not own a smartphone, a family sharing one data plan, a person whose connection drops in the middle of a form. If the only way in is a web form, those patients do not complain. They call another practice, or they never call. Many of those patients are new to Medicare, and a [Welcome to Medicare visit page](/guides/welcome-to-medicare-visit-page-for-a-primary-care-practice-without-clinical-claims) can explain that first visit in the same plain way."
       ),
       p(
-        "A short page that offers a paper or phone route costs the practice almost nothing. It sends the right patients to the front desk, keeps the online forms for people who want them, and shows search engines and answer tools that the practice has a plain, human way to register."
+        "A short page that offers a paper or phone route costs the practice almost nothing. It sends the right patients to the front desk, keeps the online forms for people who want them, and shows search engines and answer tools that the practice has a plain, human way to register. A patient who loses a half-finished online form because the page expired is exactly who this phone and paper route is for, and [session timeouts on a counseling practice booking page](/guides/session-timeout-and-expiring-booking-page-on-a-counseling-practice-website-so-a-slow-typist-does-not-lose-the-form) covers the online side."
       ),
       h2("The three routes to offer"),
       table(

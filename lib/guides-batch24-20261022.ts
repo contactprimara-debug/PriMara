@@ -228,7 +228,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "A page that loads fast and reads well on a phone, with text large enough to read comfortably."
       ),
       p(
-        "None of these is flashy. Together they tell a nervous visitor that a real, licensed person runs this practice and that contacting them is safe."
+        "None of these is flashy. Together they tell a nervous visitor that a real, licensed person runs this practice and that contacting them is safe. A calm home page with one still image and a clear call button also supports trust, and our guide to [pausing carousels, sliders and autoplay video on a counseling website](/guides/pausing-carousels-sliders-and-autoplay-video-on-the-home-page-of-a-counseling-practice-website) explains why moving banners work against it."
       ),
     ],
     faqs: [
@@ -300,7 +300,7 @@ export const guidesPartTwentySeven: Guide[] = [
         ["Social Security number or card details", "Never ask."]
       ),
       p(
-        "If someone types health details into a free-text box anyway, those details become part of your records and may pass through email. That is why the form should have no free-text box for the visit at all, or a clearly marked box with a warning not to include health information."
+        "If someone types health details into a free-text box anyway, those details become part of your records and may pass through email. That is why the form should have no free-text box for the visit at all, or a clearly marked box with a warning not to include health information. When a required box is left empty or a phone number is mistyped, the error should say so in words, as described in [form error messages on the contact and booking form of a primary care practice](/guides/form-error-messages-on-the-contact-and-booking-form-of-a-primary-care-practice-that-say-what-went-wrong-without-private-details)."
       ),
       h2("Wording that protects the patient"),
       h3("A short notice above the button"),
@@ -309,7 +309,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Honest response times"),
       p(
-        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page. When a scheduling widget sits beside the form, keep a phone number and this short form next to it, as the [safe widget embedding checklist](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) explains. Put that promise in a [short note under the submit button](/guides/what-happens-after-you-submit-note-under-a-medical-practice-contact-form-when-to-expect-a-reply-and-what-not-to-include) along with a line about what not to type into the form."
+        "Only promise a callback time your front desk can keep. A form that says we will call within the hour and then waits until tomorrow does more damage than a form that says one business day. Our guide on [what to put on a medical practice contact page](/guides/what-to-put-on-a-medical-practice-contact-page) covers how to set that expectation across the whole page. When a scheduling widget sits beside the form, keep a phone number and this short form next to it, as the [safe widget embedding checklist](/guides/embedding-an-appointment-widget-safely-on-the-contact-page-of-a-counseling-practice) explains. Put that promise in a [short note under the submit button](/guides/what-happens-after-you-submit-note-under-a-medical-practice-contact-form-when-to-expect-a-reply-and-what-not-to-include) along with a line about what not to type into the form. Fewer boxes and the right keyboard on each one also help, and [autofill and phone keyboard settings on a practice contact form](/guides/autofill-and-phone-keyboard-settings-on-the-contact-form-of-a-medical-practice-website-so-a-new-patient-types-less) shows the two settings that let a phone fill in the name, email and number."
       ),
       h2("Building it so it works"),
       ul(
@@ -388,7 +388,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "Whether they are looking for themselves, a child, a couple or a family, as a simple choice."
       ),
       p(
-        "That is enough for a clinician or office manager to reply, offer a short call and find out whether the practice is a fit. It is deliberately silent about problems, symptoms and history. Those belong in a conversation or in secure intake paperwork after the person has chosen to become a client. An emergency contact is one of those details, and it belongs in the secure intake with a [plain explanation of when it would be used](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail)."
+        "That is enough for a clinician or office manager to reply, offer a short call and find out whether the practice is a fit. It is deliberately silent about problems, symptoms and history. Those belong in a conversation or in secure intake paperwork after the person has chosen to become a client. An emergency contact is one of those details, and it belongs in the secure intake with a [plain explanation of when it would be used](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail). Once the form is built, press Tab from the first field to the submit button and watch the outline move, using the five steps in [keyboard focus outline and tab order on the booking and contact pages](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website)."
       ),
       h2("The notice that sits beside the button"),
       h3("Say what the form is and is not"),
@@ -397,7 +397,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h3("Say how the information is handled"),
       p(
-        "Link to a privacy page written in everyday language. It should say what the practice keeps, who sees it, how long it is kept and how to ask for removal. Our guide to [emergency and crisis resources on a counseling site](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains how to word the crisis line without sounding alarming. The email that carries the secure forms link is covered in [the intake paperwork email guide](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice)."
+        "Link to a privacy page written in everyday language. It should say what the practice keeps, who sees it, how long it is kept and how to ask for removal. Our guide to [emergency and crisis resources on a counseling site](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website) explains how to word the crisis line without sounding alarming. The email that carries the secure forms link is covered in [the intake paperwork email guide](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice). Write the message that appears when a field is missed too, naming the field and what to do next, as shown in [form error messages on a contact and booking form](/guides/form-error-messages-on-the-contact-and-booking-form-of-a-primary-care-practice-that-say-what-went-wrong-without-private-details)."
       ),
       h2("Set a response time you can keep"),
       p(
@@ -685,7 +685,7 @@ export const guidesPartTwentySeven: Guide[] = [
         ["Accessibility is not a problem.", "If you find a barrier, tell us and we will help you another way while we fix it."]
       ),
       p(
-        "Overclaiming is the main risk. A statement that promises full accessibility becomes evidence against you the first time someone finds a problem. State your effort and your process, not a result you cannot prove."
+        "Overclaiming is the main risk. A statement that promises full accessibility becomes evidence against you the first time someone finds a problem. State your effort and your process, not a result you cannot prove. Before you publish a statement, run the [ten-minute color contrast check on your key pages](/guides/checking-text-and-background-color-contrast-on-a-medical-practice-website-in-ten-minutes), so the first barrier a visitor reports is not faint text on the phone button."
       ),
       h2("How to handle a report"),
       h3("Acknowledge quickly"),
