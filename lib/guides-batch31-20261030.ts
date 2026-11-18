@@ -650,7 +650,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Do not make either field required, and do not ask why. Our guide to [publishing new patient forms without exposing data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) explains how to host the form on a secure page, and the note on [intake paperwork emails](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to send the link. The [first session page](/guides/what-to-put-on-a-first-session-page-for-a-therapy-practice) can mention that the form includes a spot for the name you go by. The same goes for the [emergency contact request](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail), which belongs in the secure intake and should explain when the contact would be used."
       ),
       p(
-        "After you add the fields, test the whole path: fill the form with a sample preferred name and confirm that the reminder, the portal and the sign-in screen use it."
+        "After you add the fields, test the whole path: fill the form with a sample preferred name and confirm that the reminder, the portal and the sign-in screen use it. While you test, count how many times the form asks for a name, and use the [checklist for not asking a new client to type the same details twice](/guides/not-asking-a-new-patient-to-type-the-same-details-twice-on-a-booking-or-contact-form-of-a-counseling-practice) to remove the repeats, so the preferred name is entered once and carried through."
       ),
       h2("Test the form on a phone"),
       p(
@@ -1184,7 +1184,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Write down the result and the date, and who checked."
       ),
       p(
-        "Use the test marker your website team has set up so the submission does not count as a real lead in your own reports. If the form goes straight to a client portal or customer system, check there as well."
+        "Use the test marker your website team has set up so the submission does not count as a real lead in your own reports. If the form goes straight to a client portal or customer system, check there as well. Pair that email test with a listening test of the on-page message, because a form can send correctly while a screen reader user never hears that it did, as covered in [our guide to announcing the sent message to a screen reader](/guides/telling-a-screen-reader-user-that-a-contact-form-was-sent-without-moving-the-page-on-a-primary-care-practice-website)."
       ),
       h2("If the message lands in spam or does not arrive"),
       table(

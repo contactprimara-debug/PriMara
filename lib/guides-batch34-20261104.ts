@@ -873,7 +873,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("Review it twice a year"),
       p(
-        "Read the email as a stranger would, on a phone lock screen and in a spam folder. Check that the hours and phone number are current, that the reply time is still true and that the sender name is one the person will recognize. Small details such as an old phone number in an automatic message are easy to miss because nobody opens the email after it is built."
+        "Read the email as a stranger would, on a phone lock screen and in a spam folder. Check that the hours and phone number are current, that the reply time is still true and that the sender name is one the person will recognize. Small details such as an old phone number in an automatic message are easy to miss because nobody opens the email after it is built. Also check what a screen reader says right after the form is sent, using the guide on [telling a screen reader user that a contact form was sent without moving the page](/guides/telling-a-screen-reader-user-that-a-contact-form-was-sent-without-moving-the-page-on-a-primary-care-practice-website), since the email is only the second confirmation the person gets."
       ),
     ],
     faqs: [

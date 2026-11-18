@@ -490,7 +490,7 @@ export const guidesPartThirtyTwo: Guide[] = [
         "The same explanation should appear in the intake packet and on the page that describes the first session. Our guide to an [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to prepare clients for the forms without putting private detail in the message, and the guide to a [first time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) covers the earlier step, where the website asks for far less."
       ),
       p(
-        "Do not request an emergency contact on the public contact form. That form should collect the least it can to start a conversation, and the emergency contact belongs in the secure intake that follows."
+        "Do not request an emergency contact on the public contact form. That form should collect the least it can to start a conversation, and the emergency contact belongs in the secure intake that follows. The secure intake that follows should not ask for details the person already gave, and the guide on [not asking a new client to retype the same details on a form](/guides/not-asking-a-new-patient-to-type-the-same-details-twice-on-a-booking-or-contact-form-of-a-counseling-practice) explains how to carry the earlier answers forward."
       ),
       h2("Keep it current"),
       ul(
