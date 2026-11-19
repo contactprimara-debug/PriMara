@@ -98,7 +98,7 @@ export const guidesPartForty11: Guide[] = [
       ),
       h2("What to hand your web designer"),
       p(
-        "Give your designer three things: the list of failing pairs, the target ratios from this guide, and a request to keep the brand colors where they pass and adjust them only where they do not. Brand blues and greens are often fine for large headings and fail for small text, so the usual fix is a darker shade for small text rather than a new logo color."
+        "Give your designer three things: the list of failing pairs, the target ratios from this guide, and a request to keep the brand colors where they pass and adjust them only where they do not. Brand blues and greens are often fine for large headings and fail for small text, so the usual fix is a darker shade for small text rather than a new logo color. Line, letter and word spacing is another setting patients change, so also run the ten-minute check in our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page)."
       ),
       p(
         "This check belongs in the same routine as the rest of your accessibility work. The wider picture is in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website), and a spoken-aloud pass is described in the [five-minute screen reader test of the contact and booking pages](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills). We do not give legal advice, and passing this one check does not by itself make a site compliant."
@@ -156,7 +156,7 @@ export const guidesPartForty11: Guide[] = [
         "Some people never use a mouse or a touch screen. They move through a page with the Tab key, press Enter to follow a link and the space bar to tick a box. The element that will react to the next key press has what developers call keyboard focus, and the browser shows it with an outline or a highlight."
       ),
       p(
-        "On a counseling practice site this matters at the exact moment a prospective client is ready to reach out. If someone using a keyboard cannot see where they are on the contact form, or the Tab key jumps from the name field to the footer and back, they may give up before sending the message."
+        "On a counseling practice site this matters at the exact moment a prospective client is ready to reach out. If someone using a keyboard cannot see where they are on the contact form, or the Tab key jumps from the name field to the footer and back, they may give up before sending the message. A fixed header or banner that covers the highlighted item causes the same loss, which our guide on [sticky headers and cookie banners that hide keyboard focus](/guides/sticky-header-or-cookie-banner-covering-the-link-a-keyboard-user-just-reached-on-a-medical-practice-website) shows how to test."
       ),
       h2("What the W3C says"),
       p(
@@ -243,7 +243,7 @@ export const guidesPartForty11: Guide[] = [
         "Many patients enlarge text. Some are older, some have low vision, and some simply left their reading glasses at home. When a page is built well, enlarging the text just makes the lines wrap and the page gets longer. When it is built badly, a line runs off the right edge, and the reader has to drag the page left and right to follow each sentence."
       ),
       p(
-        "The W3C's Reflow criterion describes this plainly: content should present without loss of information and without scrolling in two directions at a width equivalent to 320 CSS pixels. It explains that this width is what a 1280 pixel wide desktop window becomes at 400 percent zoom. People who need big text find it tiring and easy to lose their place if they must scroll to read long lines."
+        "The W3C's Reflow criterion describes this plainly: content should present without loss of information and without scrolling in two directions at a width equivalent to 320 CSS pixels. It explains that this width is what a 1280 pixel wide desktop window becomes at 400 percent zoom. People who need big text find it tiring and easy to lose their place if they must scroll to read long lines. Pop-up menus and tooltips that vanish while a zoomed-in visitor moves toward them cause a similar problem, which our guide on [menus and tooltips that vanish before a client can read them](/guides/menus-and-tooltips-that-vanish-before-a-patient-can-read-them-on-a-counseling-practice-website) covers."
       ),
       h2("Check it yourself in two minutes"),
       ol(
@@ -271,7 +271,7 @@ export const guidesPartForty11: Guide[] = [
       ),
       h2("Resizing text without breaking the layout"),
       p(
-        "A related criterion, Resize Text, asks that text can be enlarged to 200 percent without assistive technology and without losing content or function. Test that too by zooming the text alone through the browser settings. Buttons whose labels get cut off, or a phone number that overlaps the logo, are signs that the layout was built to a fixed height."
+        "A related criterion, Resize Text, asks that text can be enlarged to 200 percent without assistive technology and without losing content or function. Test that too by zooming the text alone through the browser settings. Buttons whose labels get cut off, or a phone number that overlaps the logo, are signs that the layout was built to a fixed height. Patients who widen the spacing between lines and letters can break the same boxes, as our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page) shows with a ten-minute test."
       ),
       p(
         "Hand your designer the list of broken spots with a screenshot at 400 percent. Ask for the fix on the template, so every page inherits it, rather than patching one page at a time. If the page also has trouble loading, our [mobile first indexing guide](/guides/mobile-first-indexing-explained-for-a-medical-practice-website) explains why the phone version is the one Google reads, and the [print-friendly version guide](/guides/print-friendly-version-of-a-new-patient-information-page-so-a-primary-care-patient-can-print-directions-and-what-to-bring) covers another layout worth checking."
@@ -363,7 +363,7 @@ export const guidesPartForty11: Guide[] = [
       ),
       h2("Make the call button the easiest thing on the page"),
       p(
-        "A tap target is also a lead. If the phone number is plain text rather than a tappable link, there is no target at all. Use a real telephone link and make the whole button, not just the number, the tappable area. Our guide to the [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) shows where to place it, and the one on [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website) explains the link itself."
+        "A tap target is also a lead. If the phone number is plain text rather than a tappable link, there is no target at all. Use a real telephone link and make the whole button, not just the number, the tappable area. Our guide to the [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) shows where to place it, and the one on [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website) explains the link itself. Icon-only call and menu buttons also need a spoken name, which our guide on [giving a phone or menu icon a spoken name](/guides/phone-and-menu-icon-buttons-that-need-a-spoken-name-on-a-primary-care-practice-website) explains step by step."
       ),
       p(
         "Keep banners and chat bubbles from crowding the button. A floating chat icon parked directly over a Book button is a common cause of mis-taps, which our guide to [pop-ups, banners and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) discusses in more detail."

@@ -690,7 +690,7 @@ export const guidesPartTwentySeven: Guide[] = [
       h2("How to handle a report"),
       h3("Acknowledge quickly"),
       p(
-        "Reply the same or next business day, thank the person and ask what they were trying to do. Offer to finish the task by phone or in person so they are not stuck while the fix is being made."
+        "Reply the same or next business day, thank the person and ask what they were trying to do. Offer to finish the task by phone or in person so they are not stuck while the fix is being made. If the report is about being unable to sign in to the portal, the guide on [portal sign-in that allows a password manager and paste](/guides/patient-portal-sign-in-that-allows-a-password-manager-and-paste-on-a-medical-practice-website) helps you describe the blocked step to the vendor."
       ),
       h3("Record and fix"),
       p(

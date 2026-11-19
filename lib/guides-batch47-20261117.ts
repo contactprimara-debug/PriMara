@@ -1008,7 +1008,7 @@ export const guidesPartForty10: Guide[] = [
         "A patient in distress needs to see how to reach help right away. Put the emergency and crisis wording in plain view on the page, outside any panel. Keep the first one or two questions open by default if the page has only a few, and let the rest collapse."
       ),
       p(
-        "If your page has fewer than five questions, consider skipping the accordion altogether. Plain headings and short answers are the simplest format for every reader and every crawler."
+        "If your page has fewer than five questions, consider skipping the accordion altogether. Plain headings and short answers are the simplest format for every reader and every crawler. Whatever you choose, pop-up menus and tooltips that vanish when the pointer moves have their own rules, covered in our guide on [menus and tooltips that vanish before a client can read them](/guides/menus-and-tooltips-that-vanish-before-a-patient-can-read-them-on-a-counseling-practice-website)."
       ),
     ],
     faqs: [

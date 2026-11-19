@@ -60,7 +60,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Link to the portal with a normal link and open it in the same tab so the back button works. If your portal has a separate mobile app, add the two app store links beneath the main button and say which version of the app your portal uses."
+        "text": "Link to the portal with a normal link and open it in the same tab so the back button works. If your portal has a separate mobile app, add the two app store links beneath the main button and say which version of the app your portal uses. Patients also sign in more easily when the portal allows pasting and password managers, and our guide to [portal sign-in that allows a password manager and paste](/guides/patient-portal-sign-in-that-allows-a-password-manager-and-paste-on-a-medical-practice-website) shows how to test that without a real account."
       },
       {
         "type": "h3",

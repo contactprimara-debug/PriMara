@@ -1123,7 +1123,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "Ask someone who has never seen the site to find the phone number and time them."
       ),
       p(
-        "If it takes more than one tap or five seconds, simplify. Layout fixes in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) show how to keep the call button visible. Also check that any close button is large enough to tap and sits away from the call button, using the minimum sizes in our [tap target size guide for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page)."
+        "If it takes more than one tap or five seconds, simplify. Layout fixes in [click-to-call buttons and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) show how to keep the call button visible. Also check that any close button is large enough to tap and sits away from the call button, using the minimum sizes in our [tap target size guide for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page). A close button drawn only as a cross needs a spoken name too, which our guide on [phone and menu icon buttons that need a spoken name](/guides/phone-and-menu-icon-buttons-that-need-a-spoken-name-on-a-primary-care-practice-website) explains."
       ),
       h3("Chat widgets deserve special care"),
       p(
@@ -1131,7 +1131,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Cookie banners and consent"),
       p(
-        "A consent banner is often required by tools you use, and the design is less important than that it works. Choose a compact one, make rejecting as easy as accepting, and do not load tracking before consent where your setup requires it. Whatever you choose, test that it does not cover the main call to action on a small screen."
+        "A consent banner is often required by tools you use, and the design is less important than that it works. Choose a compact one, make rejecting as easy as accepting, and do not load tracking before consent where your setup requires it. Whatever you choose, test that it does not cover the main call to action on a small screen. Also tab through the page with the banner showing, because a fixed banner can cover the button a keyboard user just reached, as our guide on [sticky headers and cookie banners hiding the focused link](/guides/sticky-header-or-cookie-banner-covering-the-link-a-keyboard-user-just-reached-on-a-medical-practice-website) explains."
       ),
       h2("Speed matters too"),
       p(

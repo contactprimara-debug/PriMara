@@ -410,7 +410,7 @@ export const guidesPartForty5B: Guide[] = [
       ),
       h2("What to do with the results"),
       p(
-        "Send your notes to your web provider with the page address, the step that failed and a screenshot if you can. Ask for a fix and a retest. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the wider picture, and the [accessibility statement guide](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows how to give patients a way to report a barrier."
+        "Send your notes to your web provider with the page address, the step that failed and a screenshot if you can. Ask for a fix and a retest. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the wider picture, and the [accessibility statement guide](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows how to give patients a way to report a barrier. If the highlight disappears behind a fixed header or cookie banner during the test, the guide on [a sticky header or cookie banner covering the link a keyboard user reached](/guides/sticky-header-or-cookie-banner-covering-the-link-a-keyboard-user-just-reached-on-a-medical-practice-website) explains the fix to request."
       ),
       p(
         "This test is a quick check, not an audit. A pass does not prove the whole site is accessible, and it does not replace advice from an accessibility professional. It does catch the problems patients would run into first."

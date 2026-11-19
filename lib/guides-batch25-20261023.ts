@@ -177,11 +177,11 @@ export const guidesPartTwentyEight: Guide[] = [
         "Do not rely on color alone. If a field has an error, say so in words and place the message next to the field."
       ),
       p(
-        "The W3C [forms tutorial](https://www.w3.org/WAI/tutorials/forms/) shows how labels, instructions and error messages should be connected in the code so a screen reader announces them in the right order. Ask your web designer to confirm that each field has a real label tied to it."
+        "The W3C [forms tutorial](https://www.w3.org/WAI/tutorials/forms/) shows how labels, instructions and error messages should be connected in the code so a screen reader announces them in the right order. Ask your web designer to confirm that each field has a real label tied to it. The sign-in step has its own rules, covered in our guide to [portal sign-in that allows a password manager and paste](/guides/patient-portal-sign-in-that-allows-a-password-manager-and-paste-on-a-medical-practice-website), which you can test without signing in."
       ),
       h2("Use words a ten-year-old could read"),
       p(
-        "Reading level matters as much as font size. Replace phrases like date of birth as it appears on your insurance card with simple prompts such as Your birth date. Use short labels, short instructions and one idea per sentence. Our guide to [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) covers how to test this on your own pages."
+        "Reading level matters as much as font size. Replace phrases like date of birth as it appears on your insurance card with simple prompts such as Your birth date. Use short labels, short instructions and one idea per sentence. Our guide to [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) covers how to test this on your own pages. Patients who open up the spacing between lines and letters to read more comfortably need forms that do not cut off text, which our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page) tests."
       ),
       table(
         ["Instead of", "Write"],
