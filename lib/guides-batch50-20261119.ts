@@ -125,7 +125,7 @@ export const guidesPartForty13: Guide[] = [
     title: "Patient Portal Sign-In That Allows a Password Manager and Paste",
     metaTitle: "Portal Sign-In That Allows Password Managers and Paste",
     metaDescription:
-      "Check whether your patient portal sign-in blocks pasting or password managers, and what to ask the portal vendor to change. (561) 291-2681",
+      "Check whether your patient portal sign-in blocks pasting or password managers, and what to ask your portal vendor to change. Call (561) 291-2681",
     answer:
       "A patient should be able to sign in by pasting a password or letting a password manager fill the fields. Sign-in pages that block pasting, split a code across single-digit boxes, or ask for the third letter of a password make some patients fail. Test yours, then tell the portal vendor.",
     author: "Liam Costello",
@@ -211,9 +211,9 @@ export const guidesPartForty13: Guide[] = [
     keyword: "sticky header or cookie banner covering the link a keyboard user has just reached on a medical practice website",
     category: "How-to",
     title: "When a Sticky Header or Cookie Banner Hides the Link a Keyboard User Reached",
-    metaTitle: "Sticky Header or Banner Hiding Keyboard Focus on a Practice Site",
+    metaTitle: "Sticky Header Hiding Keyboard Focus on a Practice Site",
     metaDescription:
-      "A sticky header or cookie banner can cover the button a keyboard user just reached. Check your pages and ask for the fix. (561) 291-2681",
+      "A sticky header or cookie banner can cover the button a keyboard user just reached. Test your pages and ask your web person for the fix. (561) 291-2681",
     answer:
       "Press Tab through your page with the sticky header and cookie banner showing. If the link or button you land on slides out of sight behind them, a keyboard user is lost. The fix is usually a small style change that leaves room around the fixed bars.",
     author: "Gio LaRoche",
