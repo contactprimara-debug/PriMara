@@ -89,7 +89,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
             <a href={c.url} style={{ color: "var(--gold)" }}>{c.anchor}</a>
             . Numbers read from our Command Center on {c.dataDate}.
           </p>
-          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem", marginRight: "12px", marginBottom: "8px" }}>
+          <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember-btn)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem", marginRight: "12px", marginBottom: "8px" }}>
             Call (561) 291-2681
           </a>
           <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid var(--wire)", color: "var(--chalk)", fontWeight: 600, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none", fontSize: "1rem", marginBottom: "8px" }}>
@@ -214,7 +214,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "1.75rem" }}>We start with a free audit of your Google presence, delivered in 3 to 5 business days.</p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Call (561) 291-2681</a>
+            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember-btn)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Call (561) 291-2681</a>
             <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Get My Free Audit</Link>
           </div>
         </div>

@@ -88,7 +88,7 @@ export default function MobileCTABar() {
         className="flex items-center justify-center gap-2"
         style={{
           width: "60%",
-          backgroundColor: "var(--ember)",
+          backgroundColor: "var(--ember-btn)",
           color: "#ffffff",
           fontFamily: "system-ui, sans-serif",
           fontSize: "14px",

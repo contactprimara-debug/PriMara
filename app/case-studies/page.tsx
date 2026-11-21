@@ -176,7 +176,7 @@ export default function CaseStudiesHub() {
           </h2>
           <p style={{ color: "var(--ash)", marginBottom: "1.75rem" }}>We start with a free audit, delivered in 3 to 5 business days.</p>
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Call (561) 291-2681</a>
+            <a href="tel:+15612912681" style={{ display: "inline-flex", alignItems: "center", backgroundColor: "var(--ember-btn)", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Call (561) 291-2681</a>
             <Link prefetch={false} href="/the-audit" style={{ display: "inline-flex", alignItems: "center", border: "2px solid #fff", color: "#fff", fontWeight: 700, padding: "0 1.5rem", height: "52px", borderRadius: "6px", textDecoration: "none" }}>Get My Free Audit</Link>
           </div>
         </div>

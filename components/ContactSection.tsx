@@ -123,7 +123,7 @@ export default function ContactSection() {
               href={`tel:${siteConfig.phone}`}
               className="inline-flex items-center gap-2 rounded-lg px-8 font-bold text-white transition-opacity hover:opacity-90"
               style={{
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--ember-btn)",
                 minHeight: "52px",
                 fontSize: "1rem",
               }}

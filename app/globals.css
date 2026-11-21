@@ -9,7 +9,7 @@
   --surface:    #0D0D0D;
   --surface-2:  #141414;
   --wire:       #2A2A2A;
-  --smoke:      #7A7A7A;
+  --smoke:      #8A8A8A;
   --ash:        #AEAEAE;
   --chalk:      #E8E4DC;
   --gold:       #C9A84C;
@@ -17,6 +17,7 @@
   --teal:       #1B6E6E;
   --teal-light: rgba(27, 110, 110, 0.15);
   --ember:      #E8611A;
+  --ember-btn:  #C94D0C; /* button fill: AA contrast with white text (E8611A was 3.4:1); a11y card #846 */
 
   /* Service-page aliases — these map the "color-*" token set used in all
      service/package pages to the dark-theme tokens above. Without these,
@@ -1112,3 +1113,6 @@ section + section blockquote {
 .sm-btn::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.4),transparent);transform:skewX(-20deg);animation:smShine 5s ease-in-out infinite;pointer-events:none}
 @keyframes smShine{0%,65%{left:-60%}100%{left:140%}}
 @media(prefers-reduced-motion:reduce){.sm-glow,.sm-btn::after{animation:none}.sm-on .sm-pre{opacity:1;translate:none}}
+
+/* a11y (card #846): links inside running text need a non-color cue */
+main p a:not([class*="btn"]):not(.rh-link),main li a:not([class*="btn"]):not(.rh-link):not(.rh-ch):not(.rh-big):not(.rh-case){text-decoration:underline;text-underline-offset:3px}

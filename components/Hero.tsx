@@ -147,7 +147,7 @@ export default function Hero() {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "8px",
-                background: "var(--ember)",
+                background: "var(--ember-btn)",
                 color: "#ffffff",
                 fontFamily: "system-ui, sans-serif",
                 fontWeight: 700,

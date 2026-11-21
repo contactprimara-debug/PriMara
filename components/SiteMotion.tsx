@@ -48,7 +48,7 @@ export default function SiteMotion() {
       /* shine + magnetic on gold / orange buttons */
       const isBtn = (el: HTMLElement) => {
         const c = getComputedStyle(el).backgroundColor;
-        return c === 'rgb(201, 168, 76)' || c === 'rgb(232, 97, 26)';
+        return c === 'rgb(201, 168, 76)' || c === 'rgb(201, 77, 12)';
       };
       const btns = Array.from(document.querySelectorAll<HTMLElement>('main a, main button')).filter(isBtn);
       const fine = window.matchMedia('(hover: hover)').matches;

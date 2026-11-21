@@ -221,7 +221,7 @@ export default function HowItWorksPage() {
                 href="/the-audit"
                 style={{
                   display: "inline-block",
-                  backgroundColor: "var(--ember)",
+                  backgroundColor: "var(--ember-btn)",
                   color: "#fff",
                   padding: "14px 28px",
                   fontSize: "15px",
@@ -707,7 +707,7 @@ export default function HowItWorksPage() {
               href="/the-audit"
               style={{
                 display: "inline-block",
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--ember-btn)",
                 color: "#fff",
                 padding: "16px 36px",
                 fontSize: "16px",

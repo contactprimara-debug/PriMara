@@ -545,7 +545,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--ember-btn)",
                 color: "#fff",
                 fontWeight: 700,
                 padding: "0 1.5rem",

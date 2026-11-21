@@ -253,7 +253,7 @@ export default function TherapistSEOPage() {
                 letterSpacing: "0.08em",
                 fontWeight: 700,
                 color: "#ffffff",
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--ember-btn)",
                 padding: "0 32px",
                 height: "52px",
                 borderRadius: "3px",
@@ -846,7 +846,7 @@ export default function TherapistSEOPage() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                backgroundColor: "var(--ember)",
+                backgroundColor: "var(--ember-btn)",
                 color: "#fff",
                 fontWeight: 700,
                 padding: "0 1.5rem",

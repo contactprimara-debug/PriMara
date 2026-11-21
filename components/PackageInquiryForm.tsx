@@ -21,7 +21,7 @@ function SubmitButton({ pending }: { pending: boolean }) {
         letterSpacing: "0.06em",
         fontWeight: 600,
         color: "#ffffff",
-        backgroundColor: "var(--ember)",
+        backgroundColor: "var(--ember-btn)",
         padding: "0 28px",
         height: "52px",
         borderRadius: "2px",

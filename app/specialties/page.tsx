@@ -262,7 +262,7 @@ export default function SpecialtiesPage() {
               display: "inline-flex",
               alignItems: "center",
               gap: "8px",
-              background: "var(--ember)",
+              background: "var(--ember-btn)",
               color: "#fff",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
@@ -362,7 +362,7 @@ export default function SpecialtiesPage() {
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
-                  background: "var(--ember)",
+                  background: "var(--ember-btn)",
                   color: "#fff",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,

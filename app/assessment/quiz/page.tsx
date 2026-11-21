@@ -197,7 +197,7 @@ export default function QuizPage() {
         <div
           style={{
             height: "100%",
-            background: "var(--ember)",
+            background: "var(--ember-btn)",
             width: `${progress}%`,
             transition: "width 0.4s ease",
           }}
@@ -375,7 +375,7 @@ export default function QuizPage() {
                 style={{
                   marginTop: "20px",
                   width: "100%",
-                  background: "var(--ember)",
+                  background: "var(--ember-btn)",
                   color: "#fff",
                   fontFamily: "system-ui, sans-serif",
                   fontWeight: 700,

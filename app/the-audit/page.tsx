@@ -136,14 +136,14 @@ export default function TheAuditPage() {
           <a
             href="tel:+15612912681"
             className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-            style={{ backgroundColor: "var(--color-accent)", height: "52px", fontSize: "1rem" }}
+            style={{ backgroundColor: "var(--ember-btn)", height: "52px", fontSize: "1rem" }}
           >
             Call (561) 291-2681
           </a>
           <Link prefetch={false}
             href="/contact#contact-form"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "52px", fontSize: "1rem" }}
+            style={{ borderColor: "var(--chalk)", color: "var(--chalk)", height: "52px", fontSize: "1rem" }}
           >
             Request My Free Audit Online
           </Link>
@@ -387,7 +387,7 @@ export default function TheAuditPage() {
             <a
               href="tel:+15612912681"
               className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-              style={{ backgroundColor: "var(--color-accent)", height: "52px", fontSize: "1rem" }}
+              style={{ backgroundColor: "var(--ember-btn)", height: "52px", fontSize: "1rem" }}
             >
               Call (561) 291-2681
             </a>

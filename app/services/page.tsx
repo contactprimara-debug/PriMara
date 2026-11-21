@@ -105,14 +105,14 @@ export default function ServicesPage() {
           <a
             href="tel:+15612912681"
             className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-            style={{ backgroundColor: "var(--color-accent)", height: "48px", fontSize: "1rem" }}
+            style={{ backgroundColor: "var(--ember-btn)", height: "48px", fontSize: "1rem" }}
           >
             Call (561) 291-2681
           </a>
           <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg border-2 px-6 font-bold"
-            style={{ borderColor: "var(--color-primary)", color: "var(--color-primary)", height: "48px", fontSize: "1rem" }}
+            style={{ borderColor: "var(--chalk)", color: "var(--chalk)", height: "48px", fontSize: "1rem" }}
           >
             Request a Free Audit
           </Link>
@@ -139,7 +139,7 @@ export default function ServicesPage() {
           <Link prefetch={false}
             href="/the-audit"
             className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-            style={{ backgroundColor: "var(--ember)", height: "48px", fontSize: "0.9375rem", textDecoration: "none", whiteSpace: "nowrap" }}
+            style={{ backgroundColor: "var(--ember-btn)", height: "48px", fontSize: "0.9375rem", textDecoration: "none", whiteSpace: "nowrap" }}
           >
             Get My Free Practice Audit →
           </Link>
@@ -216,7 +216,7 @@ export default function ServicesPage() {
             <Link prefetch={false}
               href="/the-audit"
               className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-              style={{ backgroundColor: "var(--color-accent)", height: "52px", fontSize: "1rem", textDecoration: "none" }}
+              style={{ backgroundColor: "var(--ember-btn)", height: "52px", fontSize: "1rem", textDecoration: "none" }}
             >
               Start My Free Audit →
             </Link>

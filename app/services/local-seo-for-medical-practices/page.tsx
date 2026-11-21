@@ -119,7 +119,7 @@ export default function LocalSEOPage() {
           <a
             href="tel:+15612912681"
             className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-            style={{ backgroundColor: "var(--color-accent)", height: "48px", fontSize: "1rem" }}
+            style={{ backgroundColor: "var(--ember-btn)", height: "48px", fontSize: "1rem" }}
           >
             Call (561) 291-2681
           </a>
@@ -273,7 +273,7 @@ export default function LocalSEOPage() {
             <a
               href="tel:+15612912681"
               className="inline-flex items-center gap-2 rounded-lg px-6 font-bold text-white"
-              style={{ backgroundColor: "var(--color-accent)", height: "52px", fontSize: "1rem" }}
+              style={{ backgroundColor: "var(--ember-btn)", height: "52px", fontSize: "1rem" }}
             >
               Call (561) 291-2681
             </a>

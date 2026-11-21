@@ -499,7 +499,7 @@ export default function Header() {
             style={{
               display: "inline-flex",
               alignItems: "center",
-              background: "var(--ember)",
+              background: "var(--ember-btn)",
               color: "#ffffff",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,
@@ -760,7 +760,7 @@ export default function Header() {
             href="/contact"
             onClick={() => setMenuOpen(false)}
             style={{
-              background: "var(--ember)",
+              background: "var(--ember-btn)",
               color: "#ffffff",
               fontFamily: "system-ui, sans-serif",
               fontWeight: 700,

@@ -18,7 +18,7 @@ function SubmitBtn({ pending }: { pending: boolean }) {
         alignItems: "center",
         justifyContent: "center",
         gap: "8px",
-        backgroundColor: "var(--ember)",
+        backgroundColor: "var(--ember-btn)",
         color: "#fff",
         fontFamily: "system-ui, sans-serif",
         fontWeight: 700,

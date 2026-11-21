@@ -8,7 +8,7 @@ export default function SubmitButton({ pending = false }: { pending?: boolean })
       aria-disabled={pending}
       className="w-full font-bold text-white transition-opacity hover:opacity-90 disabled:opacity-60"
       style={{
-        backgroundColor: "var(--color-accent)",
+        backgroundColor: "var(--ember-btn)",
         height: "52px",
         borderRadius: "8px",
         fontSize: "1rem",

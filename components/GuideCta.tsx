@@ -11,7 +11,7 @@ export default function GuideCta({ variant }: { variant: "top" | "mid" }) {
   const phone = siteConfig.phoneDisplay.replace(/ /g, " ");
   const btn = {
     display: "inline-block",
-    background: "var(--ember)",
+    background: "var(--ember-btn)",
     color: "#fff",
     fontFamily: "system-ui, sans-serif",
     fontWeight: 700,
