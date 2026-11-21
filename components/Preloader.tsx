@@ -24,7 +24,8 @@ export default function Preloader() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (pathname !== '/' || !active) return null;
+  // ringba-home (#846): letters-fall preloader disabled; it covered the hero and delayed LCP.
+  if (true || pathname !== '/' || !active) return null;
 
   return (
     <div id="preloader" aria-hidden="true">
