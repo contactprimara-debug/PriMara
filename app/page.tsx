@@ -27,6 +27,8 @@ const organizationSchema = {
 };
 
 import HomeMotion from "@/components/home/HomeMotion";
+import ContactFinal from "@/components/ContactFinal";
+import TypeAnimations from "@/components/TypeAnimations";
 import "./home.css";
 
 export const metadata: Metadata = {
@@ -100,6 +102,9 @@ export default function HomePage() {
               </Link>
               <a href="#how" className="rh-link" data-cta="home-hero-explore">
                 See how it works <span aria-hidden="true">↓</span>
+              </a>
+              <a href={`tel:${siteConfig.phone}`} className="rh-link rh-nowrap" data-cta="home-hero-call">
+                Call {siteConfig.phoneDisplay.replace(/ /g, "\u00A0")}
               </a>
             </div>
           </div>
@@ -269,6 +274,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Existing lead form kept on home so form -> /thank-you conversion path is unchanged */}
+      <ContactFinal />
+      <TypeAnimations />
       <HomeMotion />
     </main>
   );
