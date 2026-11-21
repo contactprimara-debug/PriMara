@@ -286,7 +286,7 @@ export default function ContactFinal() {
                     disabled={submitting}
                     className="magnetic contact-submit"
                     style={{
-                      background: 'var(--ember)',
+                      background: 'var(--ember-btn)',
                       color: '#ffffff',
                       fontFamily: 'system-ui, sans-serif',
                       fontWeight: 700,

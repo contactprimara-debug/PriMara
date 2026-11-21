@@ -141,7 +141,7 @@ export default function Header() {
             width={90}
             height={28}
             priority
-            style={{ height: "28px", width: "auto", display: "block" }}
+            style={{ height: "28px", width: "90px", maxWidth: "none", flexShrink: 0, display: "block" }}
           />
         </Link>
 
