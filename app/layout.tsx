@@ -39,7 +39,7 @@ import { localBusinessSchema, toJsonLd } from "@/lib/schema";
    conversion or an SPA page_view that happens before the library arrives is
    queued behind the config in the right order, not lost. Do NOT move these back to
    afterInteractive/lazyOnload without re-measuring on PSI (3 runs, cache-busted). */
-const AFTER_PAINT = `(function(w,d){
+const AFTER_PAINT = `(function(w,d){var TAGDELAY=4500;
 var q=[],fired=false;
 function run(){if(fired)return;fired=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}q=[]}
 function after(f){if(fired)f();else q.push(f)}
@@ -59,9 +59,8 @@ load('https://www.googletagmanager.com/gtag/js?id=GT-PB6FNVRG');
 load('https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js',function(){load('https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js')});
 load('https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js');
 });
-try{new PerformanceObserver(function(l,o){if(l.getEntries().length){o.disconnect();run()}}).observe({type:'largest-contentful-paint',buffered:true})}catch(e){}
 ['pointerdown','keydown','touchstart','wheel'].forEach(function(t){w.addEventListener(t,run,{once:true,passive:true})});
-setTimeout(run,3000);
+if(w.location.pathname.indexOf('/thank-you')===0)run();else setTimeout(run,TAGDELAY);
 })(window,document);`;
 
 const instrumentSerif = Instrument_Serif({

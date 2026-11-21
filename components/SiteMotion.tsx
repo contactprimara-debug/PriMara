@@ -26,7 +26,10 @@ export default function SiteMotion() {
       /* reveals: below-the-fold headings, cards, list rows */
       const sel = 'main h2, main h3, main li, main blockquote, main figure, main table, main details, main [class*="card"], main form';
       const vh = window.innerHeight;
-      const targets = Array.from(document.querySelectorAll<HTMLElement>(sel)).filter((el) => {
+      /* Cap the work on very long pages (the 516-card /guides hub): scan and pre-hide at most 120
+         candidates, so the long list costs one short task instead of hundreds of ms of style/layout.
+         Everything past the cap simply stays visible (no hidden text, no shift). */
+      const targets = Array.from(document.querySelectorAll<HTMLElement>(sel)).slice(0, 120).filter((el) => {
         if (el.closest('[data-rv],.reveal,.rh,[class*="pin"],[class*="scroll"]')) return false;
         if (el.style.opacity || el.closest('[style*="opacity"]')) return false;
         if (el.parentElement && el.parentElement.closest('.sm-pre')) return false; // nested: parent reveals it

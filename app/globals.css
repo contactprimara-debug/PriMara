@@ -1116,3 +1116,10 @@ section + section blockquote {
 
 /* a11y (card #846): links inside running text need a non-color cue */
 main p a:not([class*="btn"]):not(.rh-link),main li a:not([class*="btn"]):not(.rh-link):not(.rh-ch):not(.rh-big):not(.rh-case){text-decoration:underline;text-underline-offset:3px}
+
+/* /guides hub: 516 cards. Classes instead of per-card inline styles = smaller HTML + RSC payload
+   (1.4 MB -> 0.9 MB), faster first paint on mobile (Lighthouse, 2026-11-21). */
+.gd-card{display:block;border:1px solid var(--wire);border-radius:8px;padding:18px 20px;text-decoration:none;background:var(--surface)}
+.gd-t{display:block;font-family:var(--font-fraunces),Georgia,serif;font-size:1.2rem;font-weight:700;color:var(--color-text);margin-bottom:6px;line-height:1.3}
+.gd-d{display:block;color:var(--color-text-muted);font-size:.95rem;line-height:1.65}
+.gd-m{display:block;margin-top:8px;font-family:var(--font-mono);font-size:.72rem;color:var(--gold)}

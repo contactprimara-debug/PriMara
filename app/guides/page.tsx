@@ -132,44 +132,10 @@ export default function GuidesHub() {
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: "12px" }}>
                   {inCategory.map((g) => (
                     <li key={g.slug}>
-                      <Link prefetch={false}
-                        href={`/guides/${g.slug}`}
-                        style={{
-                          display: "block",
-                          border: "1px solid var(--wire)",
-                          borderRadius: "8px",
-                          padding: "18px 20px",
-                          textDecoration: "none",
-                          background: "var(--surface)",
-                        }}
-                      >
-                        <span
-                          style={{
-                            display: "block",
-                            fontFamily: serif,
-                            fontSize: "1.2rem",
-                            fontWeight: 700,
-                            color: "var(--color-text)",
-                            marginBottom: "6px",
-                            lineHeight: 1.3,
-                          }}
-                        >
-                          {g.title}
-                        </span>
-                        <span style={{ display: "block", color: "var(--color-text-muted)", fontSize: "0.95rem", lineHeight: 1.65 }}>
-                          {g.metaDescription}
-                        </span>
-                        <span
-                          style={{
-                            display: "block",
-                            marginTop: "8px",
-                            fontFamily: "var(--font-mono)",
-                            fontSize: "0.72rem",
-                            color: "var(--gold)",
-                          }}
-                        >
-                          {g.readMinutes} min read
-                        </span>
+                      <Link prefetch={false} href={`/guides/${g.slug}`} className="gd-card">
+                        <span className="gd-t">{g.title}</span>
+                        <span className="gd-d">{g.metaDescription}</span>
+                        <span className="gd-m">{g.readMinutes} min read</span>
                       </Link>
                     </li>
                   ))}
