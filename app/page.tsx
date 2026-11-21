@@ -69,6 +69,10 @@ export default function HomePage() {
       <canvas data-bg aria-hidden="true" className="rh-canvas" />
       <div className="rh-glow rh-glow-a" aria-hidden="true" />
       <div className="rh-glow rh-glow-b" aria-hidden="true" />
+      <div className="rh-glow rh-glow-c" aria-hidden="true" />
+      <svg className="rh-thread" viewBox="0 0 100 1000" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M50 0 C 90 120, 10 220, 50 340 S 90 560, 50 680 S 10 880, 50 1000" pathLength="1" data-thread />
+      </svg>
       <div className="rh-rail" aria-hidden="true">
         <span className="rh-rail-n" data-rail-n>01</span>
         <span className="rh-rail-t">More patients. Serving you first.</span>
@@ -80,8 +84,11 @@ export default function HomePage() {
         <div className="rh-wrap rh-hero-grid">
           <div className="rh-hero-copy">
             <p className="rh-eyebrow rh-up" style={{ animationDelay: "0.05s" }}>Primara / Patient acquisition</p>
-            <h1 className="rh-h1 rh-up" style={{ animationDelay: "0.12s" }}>
-              We Put Independent Medical Practices on the <em>Map.</em>
+            <h1 className="rh-h1">
+              {["We", "Put", "Independent", "Medical", "Practices", "on", "the"].map((w, i) => (
+                <span key={w + i} className="rh-w" style={{ animationDelay: `${0.15 + i * 0.09}s` }}>{w}&nbsp;</span>
+              ))}
+              <span className="rh-w" style={{ animationDelay: "0.85s" }}><em>Map.</em></span>
             </h1>
             <p className="rh-lead rh-up" style={{ animationDelay: "0.22s" }}>
               More patient calls and forms from Google search, AI answers and your Google Business Profile. Healthcare practices only.
@@ -96,7 +103,8 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="rh-visual" aria-hidden="true">
+          <div className="rh-visual" aria-hidden="true" data-tilt>
+            <div className="rh-tilt" data-par="0.04">
             <svg className="rh-ribbons" viewBox="0 0 600 600" fill="none">
               <defs>
                 <linearGradient id="rhg" x1="0" y1="0" x2="1" y2="1">
@@ -115,12 +123,25 @@ export default function HomePage() {
               <div className="rh-card-lines"><i /><i /></div>
               <div className="rh-card-btns"><b>Call</b><b>Website</b><b>Directions</b></div>
             </div>
+            <svg className="rh-wires" viewBox="0 0 600 600" fill="none">
+              <path pathLength="1" className="rh-wire w1" d="M300 300 C 380 240, 420 160, 500 90" />
+              <path pathLength="1" className="rh-wire w2" d="M300 300 C 220 380, 160 430, 90 500" />
+            </svg>
             <div className="rh-chip rh-chip-a"><span className="rh-dot" />Incoming call</div>
             <div className="rh-chip rh-chip-b"><span className="rh-dot rh-dot-t" />New patient form</div>
+            </div>
           </div>
         </div>
         <a className="rh-scroll" href="#beneath" aria-label="Scroll down">Scroll to look inside ↓</a>
       </section>
+
+      <div className="rh-marq" aria-hidden="true">
+        <div className="rh-marq-t">
+          {[0, 1].map((k) => (
+            <span key={k}>Local SEO <i>/</i> AI search <i>/</i> Google Business Profile <i>/</i> Meta Ads <i>/</i> Google Ads <i>/</i> Websites <i>/</i> Reviews <i>/</i> Call tracking <i>/</i>&nbsp;</span>
+          ))}
+        </div>
+      </div>
 
       {/* 02 Beneath the surface */}
       <section id="beneath" className="rh-sec" data-sec="02" aria-label="Where patients find you">
@@ -136,13 +157,13 @@ export default function HomePage() {
             </ul>
             <Link prefetch={false} href="/services" className="rh-link" data-cta="home-services">All services <span aria-hidden="true">↗</span></Link>
           </div>
-          <div className="rh-radar" aria-hidden="true" data-rv>
+          <div className="rh-radar" aria-hidden="true" data-rv><div className="rh-radar-in" data-par="-0.06">
             <i className="rh-ring r1" /><i className="rh-ring r2" /><i className="rh-ring r3" />
             <span className="rh-core">Your<br />practice</span>
             <span className="rh-node n1">Search</span>
             <span className="rh-node n2">Maps</span>
             <span className="rh-node n3">AI answers</span>
-          </div>
+          </div></div>
         </div>
       </section>
 
@@ -200,9 +221,9 @@ export default function HomePage() {
           <p className="rh-eyebrow" data-rv>04 / How it works</p>
           <h2 className="rh-h2" data-rv>Look. Fix. Track.</h2>
           <ol className="rh-steps">
-            <li data-rv><span>01</span><strong>Look</strong><em>We audit your Google profile, website and call tracking.</em></li>
-            <li data-rv><span>02</span><strong>Fix</strong><em>We publish the profile, page and ad changes ourselves.</em></li>
-            <li data-rv><span>03</span><strong>Track</strong><em>Every call and form is tracked back to where it came from.</em></li>
+            <li data-rv style={{ transitionDelay: "0s" }}><span>01</span><strong>Look</strong><em>We audit your Google profile, website and call tracking.</em></li>
+            <li data-rv style={{ transitionDelay: ".12s" }}><span>02</span><strong>Fix</strong><em>We publish the profile, page and ad changes ourselves.</em></li>
+            <li data-rv style={{ transitionDelay: ".24s" }}><span>03</span><strong>Track</strong><em>Every call and form is tracked back to where it came from.</em></li>
           </ol>
           <div className="rh-cta-row" data-rv>
             <Link prefetch={false} href="/the-audit" className="rh-btn" data-cta="home-how-audit">Get the audit <span aria-hidden="true">↗</span></Link>
@@ -217,13 +238,13 @@ export default function HomePage() {
           <p className="rh-eyebrow" data-rv>05 / Our clients</p>
           <h2 className="rh-h2" data-rv>Built around independent practices.</h2>
           <div className="rh-stats" data-rv>
-            <div><b>100+</b><span>Physicians and clinicians across our clients</span></div>
-            <div><b>20+</b><span>Patient locations across our client roster</span></div>
+            <div><b><span data-count="100">100</span>+</b><span>Physicians and clinicians across our clients</span></div>
+            <div><b><span data-count="20">20</span>+</b><span>Patient locations across our client roster</span></div>
             <small>As of August 2026</small>
           </div>
           <div className="rh-cases">
-            {caseStudies.map((c) => (
-              <Link prefetch={false} key={c.slug} href={`/case-studies/${c.slug}`} className="rh-case" data-rv data-cta={`home-case-${c.slug}`}>
+            {caseStudies.map((c, ci) => (
+              <Link prefetch={false} key={c.slug} href={`/case-studies/${c.slug}`} className="rh-case" data-rv style={{ transitionDelay: `${ci * 0.12}s` }} data-cta={`home-case-${c.slug}`}>
                 <strong>{c.shortName}</strong>
                 <em>{c.kind}</em>
                 <span className="rh-link">Read the case study <span aria-hidden="true">↗</span></span>

@@ -102,13 +102,83 @@ export default function HomeMotion() {
     window.addEventListener('resize', () => { layoutHS(); onScroll(); });
     cleanups.push(() => window.removeEventListener('scroll', onScroll));
 
+
+    /* ── Counters ────────────────────────────────────────────────────── */
+    const cnt = Array.from(root.querySelectorAll<HTMLElement>('[data-count]'));
+    if (!reduce && 'IntersectionObserver' in window) {
+      cnt.forEach((el) => { el.textContent = '0'; });
+      const io3 = new IntersectionObserver((ents) => ents.forEach((en) => {
+        if (!en.isIntersecting) return;
+        const el = en.target as HTMLElement; io3.unobserve(el);
+        const to = Number(el.dataset.count || 0), t0 = performance.now();
+        const step = (n: number) => {
+          const k = Math.min(1, (n - t0) / 1600);
+          el.textContent = String(Math.round((1 - Math.pow(1 - k, 3)) * to));
+          if (k < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      }), { threshold: 0.6 });
+      cnt.forEach((e) => io3.observe(e));
+      cleanups.push(() => io3.disconnect());
+    }
+
+    /* ── Parallax layers, thread draw, hero tilt (transform / stroke only) ── */
+    const pars = Array.from(root.querySelectorAll<HTMLElement>('[data-par]'));
+    const thread = root.querySelector<SVGPathElement>('[data-thread]');
+    const tiltEl = root.querySelector<HTMLElement>('[data-tilt]');
+    let tx = 0, ty = 0, cx = 0, cy = 0, sraf = 0;
+    const frame = () => {
+      sraf = 0;
+      const vh = window.innerHeight;
+      if (!reduce) {
+        pars.forEach((el) => {
+          const r = el.getBoundingClientRect();
+          if (r.bottom < -100 || r.top > vh + 100) return;
+          const k = Number(el.dataset.par || 0);
+          el.style.setProperty('--py', `${((r.top + r.height / 2) - vh / 2) * k}px`);
+        });
+      }
+      if (thread) {
+        const max = document.documentElement.scrollHeight - vh;
+        const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+        thread.style.strokeDashoffset = String(1 - p);
+      }
+      if (tiltEl && !reduce) {
+        cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+        tiltEl.style.setProperty('--rx', `${cy * -8}deg`);
+        tiltEl.style.setProperty('--ry', `${cx * 10}deg`);
+        if (Math.abs(tx - cx) > 0.002 || Math.abs(ty - cy) > 0.002) sraf = requestAnimationFrame(frame);
+      }
+    };
+    const kick = () => { if (!sraf) sraf = requestAnimationFrame(frame); };
+    const onMove = (e: PointerEvent) => {
+      tx = e.clientX / window.innerWidth - 0.5; ty = e.clientY / window.innerHeight - 0.5; kick();
+    };
+    window.addEventListener('scroll', kick, { passive: true });
+    window.addEventListener('pointermove', onMove, { passive: true });
+    kick();
+    cleanups.push(() => { window.removeEventListener('scroll', kick); window.removeEventListener('pointermove', onMove); });
+
+    /* ── Magnetic buttons ────────────────────────────────────────────── */
+    if (!reduce && window.matchMedia('(hover: hover)').matches) {
+      root.querySelectorAll<HTMLElement>('.rh-btn').forEach((b) => {
+        const mv = (e: PointerEvent) => {
+          const r = b.getBoundingClientRect();
+          b.style.setProperty('--mx', `${(e.clientX - (r.left + r.width / 2)) * 0.25}px`);
+          b.style.setProperty('--my', `${(e.clientY - (r.top + r.height / 2)) * 0.35}px`);
+        };
+        const lv = () => { b.style.setProperty('--mx', '0px'); b.style.setProperty('--my', '0px'); };
+        b.addEventListener('pointermove', mv); b.addEventListener('pointerleave', lv);
+      });
+    }
+
     /* ── Backdrop canvas ─────────────────────────────────────────────── */
     const cv = root.querySelector<HTMLCanvasElement>('canvas[data-bg]');
     if (cv) {
       const ctx = cv.getContext('2d');
       if (ctx) {
         const small = window.innerWidth < 700;
-        const N = small ? 34 : 72;
+        const N = small ? 44 : 96;
         const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
         let W = 0, H = 0;
         type P = { x: number; y: number; vx: number; vy: number; r: number; c: string };
