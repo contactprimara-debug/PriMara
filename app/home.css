@@ -49,7 +49,7 @@
 .rh-rib{stroke-dasharray:6 14;animation:rhFlow 14s linear infinite;opacity:.8}
 .rh-rib2{animation-duration:20s;animation-direction:reverse;opacity:.5}
 @keyframes rhFlow{to{stroke-dashoffset:-400}}
-.rh-card{position:absolute;left:14%;top:14%;width:62%;aspect-ratio:3/4;border:1px solid rgba(232,228,220,.16);border-radius:18px;background:linear-gradient(160deg,rgba(20,20,20,.92),rgba(8,8,8,.92));transform:rotateX(52deg) rotateZ(-28deg);transform-style:preserve-3d;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.rh-card{position:absolute;left:10%;top:10%;width:72%;aspect-ratio:3/4;border:1px solid rgba(232,228,220,.16);border-radius:18px;background:linear-gradient(160deg,rgba(20,20,20,.92),rgba(8,8,8,.92));transform:rotateX(52deg) rotateZ(-28deg);transform-style:preserve-3d;box-shadow:0 30px 60px rgba(0,0,0,.5)}
 .rh-card-1{animation:rhFloat 7s ease-in-out infinite;border-color:rgba(201,168,76,.45);padding:18px;display:flex;flex-direction:column;gap:14px}
 .rh-card-2{transform:rotateX(52deg) rotateZ(-28deg) translateZ(-46px) translate(34px,34px);opacity:.7;border-color:rgba(27,110,110,.5)}
 .rh-card-3{transform:rotateX(52deg) rotateZ(-28deg) translateZ(-92px) translate(68px,68px);opacity:.4}
@@ -107,7 +107,7 @@
 /* pinned horizontal scroller */
 .rh-hs{position:relative}
 .rh-hs-stick{padding:clamp(48px,7vw,96px) 0}
-.rh-hs-head{display:flex;flex-direction:column;gap:0}
+.rh-hs-head{display:flex;flex-direction:column;gap:0;width:100%}
 .rh-hs-meta{display:none}
 .rh-hs-view{margin-top:36px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 24px 8px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .rh-hs-view::-webkit-scrollbar{display:none}
