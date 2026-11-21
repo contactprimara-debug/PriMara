@@ -201,7 +201,7 @@ export default function LocationsPage() {
       <section style={{ backgroundColor: "var(--surface)", borderTop: "1px solid var(--wire)", padding: "clamp(40px, 6vw, 80px) 0" }}>
         <div className="mx-auto max-w-content px-6 lg:px-8">
           <div style={{ marginBottom: "40px" }}>
-            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--teal)", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
+            <p style={{ fontSize: "0.75rem", letterSpacing: "0.14em", textTransform: "uppercase", color: "#3fb6b6", fontFamily: "system-ui, sans-serif", marginBottom: "12px" }}>
               Mental Health
             </p>
             <h2 style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", color: "var(--chalk)", fontWeight: 700, marginBottom: "8px" }}>
