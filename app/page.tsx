@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 import Link from "next/link";
 import { caseStudies } from "@/lib/case-studies";
 import { toJsonLd, SITE_URL } from "@/lib/schema";
@@ -86,9 +87,9 @@ export default function HomePage() {
             <p className="rh-eyebrow rh-up" style={{ animationDelay: "0.05s" }}>Primara / Patient acquisition</p>
             <h1 className="rh-h1">
               {["We", "Put", "Independent", "Medical", "Practices", "on", "the"].map((w, i) => (
-                <span key={w + i} className="rh-w" style={{ animationDelay: `${0.15 + i * 0.09}s` }}>{w}&nbsp;</span>
+                <React.Fragment key={w + i}><span className="rh-w" style={{ animationDelay: `${0.05 + i * 0.05}s` }}>{w}</span>{" "}</React.Fragment>
               ))}
-              <span className="rh-w" style={{ animationDelay: "0.85s" }}><em>Map.</em></span>
+              <span className="rh-w" style={{ animationDelay: "0.45s" }}><em>Map.</em></span>
             </h1>
             <p className="rh-lead rh-up" style={{ animationDelay: "0.22s" }}>
               More patient calls and forms from Google search, AI answers and your Google Business Profile. Healthcare practices only.

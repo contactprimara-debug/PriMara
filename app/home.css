@@ -38,7 +38,7 @@
 .rh-hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:calc(60px + 36px) 0 72px}
 .rh-hero-grid{display:grid;gap:28px;align-items:center;width:100%}
 @media(min-width:900px){.rh-hero-grid{grid-template-columns:1.1fr .9fr}}
-.rh-w{display:inline-block;opacity:0;transform:translateY(60%) rotate(3deg);animation:rhWord .9s cubic-bezier(.22,1,.36,1) forwards}
+.rh-w{display:inline-block;opacity:0;transform:translateY(60%) rotate(3deg);animation:rhWord .6s cubic-bezier(.22,1,.36,1) forwards}
 @keyframes rhWord{to{opacity:1;transform:none}}
 .rh-up{opacity:0;transform:translateY(22px);animation:rhUp .9s cubic-bezier(.22,1,.36,1) forwards}
 @keyframes rhUp{to{opacity:1;transform:none}}

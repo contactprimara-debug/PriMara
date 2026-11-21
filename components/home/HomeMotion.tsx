@@ -178,7 +178,7 @@ export default function HomeMotion() {
       const ctx = cv.getContext('2d');
       if (ctx) {
         const small = window.innerWidth < 700;
-        const N = small ? 44 : 96;
+        const N = small ? 26 : 56;
         const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
         let W = 0, H = 0;
         type P = { x: number; y: number; vx: number; vy: number; r: number; c: string };
@@ -223,8 +223,12 @@ export default function HomeMotion() {
         draw();
         let run = !reduce;
         let id = 0;
-        const loop = () => { if (run) { draw(); id = requestAnimationFrame(loop); } };
-        if (run) id = requestAnimationFrame(loop);
+        let last = 0;
+        // ~30fps and started after load settles so it never competes with first paint / LCP
+        const loop = (t: number) => { if (run) { if (t - last > 33) { last = t; draw(); } id = requestAnimationFrame(loop); } };
+        let st = 0;
+        if (run) st = window.setTimeout(() => { id = requestAnimationFrame(loop); }, 1800);
+        cleanups.push(() => clearTimeout(st));
         const vis = () => {
           if (document.hidden) { run = false; cancelAnimationFrame(id); }
           else if (!reduce && !run) { run = true; id = requestAnimationFrame(loop); }
