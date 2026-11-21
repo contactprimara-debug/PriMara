@@ -12,6 +12,7 @@ import MobileCTABar from "@/components/MobileCTABar";
 import AttributionCapture from "@/components/AttributionCapture";
 import ContactChecks from "@/components/ContactChecks";
 import ConsentBanner from "@/components/ConsentBanner";
+import SiteMotion from "@/components/SiteMotion";
 import Preloader from "@/components/Preloader";
 import RouteFade from "@/components/RouteFade";
 import { localBusinessSchema, toJsonLd } from "@/lib/schema";
@@ -235,6 +236,7 @@ export default function RootLayout({
         <AttributionCapture />
         <ContactChecks />
         <ConsentBanner />
+        <SiteMotion />
 
         {/* ── Animation infrastructure ──────────────────────────────────── */}
         <AnimationProvider />
