@@ -493,8 +493,8 @@ export default function Header() {
             {siteConfig.phoneDisplay}
           </a>
 
-          <Link prefetch={false}
-            href="/contact"
+          <a
+            href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
             className="magnetic"
             style={{
               display: "inline-flex",
@@ -513,7 +513,7 @@ export default function Header() {
             }}
           >
             Get My Free Audit
-          </Link>
+          </a>
         </div>
 
         {/* Right — mobile hamburger */}
@@ -756,8 +756,8 @@ export default function Header() {
           </nav>
 
           {/* CTA */}
-          <Link prefetch={false}
-            href="/contact"
+          <a
+            href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
             onClick={() => setMenuOpen(false)}
             style={{
               background: "var(--ember-btn)",
@@ -774,7 +774,7 @@ export default function Header() {
             }}
           >
             Get My Free Audit
-          </Link>
+          </a>
 
           {/* Bottom contact line */}
           <a
