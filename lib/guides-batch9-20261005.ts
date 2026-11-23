@@ -601,7 +601,7 @@ export const guidesPartTwelve: Guide[] = [
           "Assign one person to own the list.",
           "Confirm participation with each payer's provider relations contact at least twice a year, and whenever you sign or end a contract.",
           "Update the page and the verification date together.",
-          "Check that your Google profile, directories, and the page all match, using the steps in our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it)."
+          "Check that your Google profile, directories, and the page all match, using the steps in our [NAP consistency guide](/guides/nap-consistency-what-breaks-it-and-how-to-fix-it). If the list is a table, build it with real header cells so a screen reader reads each plan with its column name, as our guide to [hours and insurance tables with real header cells](/guides/office-hours-and-insurance-tables-on-a-medical-practice-website-built-with-real-header-cells-for-screen-readers) explains."
         ]
       },
       {

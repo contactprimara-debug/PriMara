@@ -313,7 +313,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h2("Building it so it works"),
       ul(
-        "Give every field a visible label, not only placeholder text, so screen readers and tired eyes can read it. The W3C forms tutorial explains the details.",
+        "Give every field a visible label, not only placeholder text, so screen readers and tired eyes can read it. The W3C forms tutorial explains the details. The same applies to required fields, which should be marked with a word or an explained symbol and not by color alone, as described in this guide to [marking required form fields](/guides/required-fields-on-the-contact-form-of-a-counseling-practice-website-marked-with-more-than-a-red-color).",
         "Make the form usable on a phone: large tap targets, the right keyboard for a phone number, and no fields hidden behind a scroll.",
         "Add spam protection that does not rely on a puzzle, such as a hidden field and server-side checks. Our guide to [stopping spam and fake leads on a contact form](/guides/how-to-stop-spam-and-fake-leads-on-a-medical-practice-contact-form) explains the options.",
         "Send each submission to a secure inbox or system, and avoid putting the details of the request in an email subject line."
@@ -388,7 +388,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "Whether they are looking for themselves, a child, a couple or a family, as a simple choice."
       ),
       p(
-        "That is enough for a clinician or office manager to reply, offer a short call and find out whether the practice is a fit. It is deliberately silent about problems, symptoms and history. Those belong in a conversation or in secure intake paperwork after the person has chosen to become a client. An emergency contact is one of those details, and it belongs in the secure intake with a [plain explanation of when it would be used](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail). Once the form is built, press Tab from the first field to the submit button and watch the outline move, using the five steps in [keyboard focus outline and tab order on the booking and contact pages](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website)."
+        "That is enough for a clinician or office manager to reply, offer a short call and find out whether the practice is a fit. It is deliberately silent about problems, symptoms and history. Those belong in a conversation or in secure intake paperwork after the person has chosen to become a client. An emergency contact is one of those details, and it belongs in the secure intake with a [plain explanation of when it would be used](/guides/emergency-contact-request-on-intake-for-a-counseling-practice-without-clinical-detail). Once the form is built, press Tab from the first field to the submit button and watch the outline move, using the five steps in [keyboard focus outline and tab order on the booking and contact pages](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website). However few fields you keep, mark the required ones with a word or an explained symbol and not with red alone, as our guide to [marking required fields with more than a red color](/guides/required-fields-on-the-contact-form-of-a-counseling-practice-website-marked-with-more-than-a-red-color) explains."
       ),
       h2("The notice that sits beside the button"),
       h3("Say what the form is and is not"),
@@ -701,7 +701,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "Link the statement from the footer of every page so it can be found from anywhere.",
         "Use the same plain styling as the rest of the site, with large text and good contrast.",
         "Review it twice a year and after any major redesign, and update the date each time.",
-        "Test the forms and the phone link as part of every review. See our guide to [accessibility and parking information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the physical side."
+        "Test the forms and the phone link as part of every review. See our guide to [accessibility and parking information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the physical side. Include a quick check that the main menu lists its links in the same relative order on every page, using our guide to [keeping the menu in the same order](/guides/same-menu-order-on-every-page-of-a-counseling-practice-website-so-a-returning-visitor-finds-the-contact-link), because a reshuffled menu is a common barrier for visitors using screen magnification."
       ),
     ],
     faqs: [

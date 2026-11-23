@@ -198,7 +198,7 @@ export const guidesPartEleven: Guide[] = [
           "Open your most important service page on your phone and read it top to bottom. Compare it to the desktop page and note anything missing.",
           "In Google Search Console, run the URL Inspection tool on that page and view the crawled page. Confirm your headings and main paragraphs appear in the rendered HTML.",
           "Check that your title, meta description, canonical tag, and schema match between versions.",
-          "Confirm that your phone number is a tappable link and your booking button works with a thumb, because a page can be indexed perfectly and still lose the patient."
+          "Confirm that your phone number is a tappable link and your booking button works with a thumb, because a page can be indexed perfectly and still lose the patient. Also confirm the page can be pinched larger on a phone, since a viewport setting that blocks zoom is flagged by Lighthouse, as our guide to [pinch zoom blocked on a practice phone page](/guides/pinch-zoom-blocked-on-a-medical-practice-website-phone-page-and-why-lighthouse-flags-it) explains."
         ]
       },
       {

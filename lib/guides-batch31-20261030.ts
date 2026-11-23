@@ -216,7 +216,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Test it the way a patient would"),
       p(
-        "Once the blocks are saved, check them from the outside. At 12:30 PM on a weekday, search for the practice name on a phone and read the status line under the listing. Then call the main number and listen to the greeting. If the profile says open while the recording says closed, one of the two is wrong, and fixing it takes about five minutes. Repeat the test after any staffing change, since that is when lunch hours quietly move, and write the date of the last check in your maintenance notes."
+        "Once the blocks are saved, check them from the outside. At 12:30 PM on a weekday, search for the practice name on a phone and read the status line under the listing. Then call the main number and listen to the greeting. If the profile says open while the recording says closed, one of the two is wrong, and fixing it takes about five minutes. Repeat the test after any staffing change, since that is when lunch hours quietly move, and write the date of the last check in your maintenance notes. If your hours also appear in a table on the website, confirm its top row and day names are real header cells so a screen reader can read each row, as described in our guide to [hours and insurance tables with header cells](/guides/office-hours-and-insurance-tables-on-a-medical-practice-website-built-with-real-header-cells-for-screen-readers)."
       ),
     ],
     faqs: [
@@ -1209,7 +1209,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Write the safety net"),
       p(
-        "Beyond the monthly test, add a second path: a visible phone number next to the form, and a line on the page saying that if no reply arrives in one business day, the visitor should call. Pair this with the spam steps in our guide on [what belongs on a contact page](/guides/what-to-put-on-a-medical-practice-contact-page). If the test shows mail landing in spam, the next thing to check is [SPF, DKIM and DMARC for the practice domain](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox)."
+        "Beyond the monthly test, add a second path: a visible phone number next to the form, and a line on the page saying that if no reply arrives in one business day, the visitor should call. Pair this with the spam steps in our guide on [what belongs on a contact page](/guides/what-to-put-on-a-medical-practice-contact-page). If the test shows mail landing in spam, the next thing to check is [SPF, DKIM and DMARC for the practice domain](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox). On the spam-prevention side, prefer quiet defenses such as a hidden trap field over a picture puzzle, as our guide to [stopping contact form spam without a puzzle CAPTCHA](/guides/stopping-contact-form-spam-on-a-medical-practice-website-without-a-puzzle-captcha-that-locks-out-a-patient) explains."
       ),
     ],
     faqs: [

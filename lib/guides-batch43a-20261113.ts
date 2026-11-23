@@ -264,7 +264,7 @@ export const guidesPartForty6A: Guide[] = [
       ),
       h2("Wording that works on the website"),
       p(
-        "Put the two lines next to each other on the contact page and in the footer, and keep the labels identical every time. For example: 'Office hours: Monday to Friday, 8:30 a.m. to 5 p.m.' and 'Phones answered: Monday to Friday, 8:30 a.m. to 12 p.m. and 1 p.m. to 4:30 p.m.' Use your own real times, not these."
+        "Put the two lines next to each other on the contact page and in the footer, and keep the labels identical every time. For example: 'Office hours: Monday to Friday, 8:30 a.m. to 5 p.m.' and 'Phones answered: Monday to Friday, 8:30 a.m. to 12 p.m. and 1 p.m. to 4:30 p.m.' Use your own real times, not these. If the two lines sit in a table, build it with real header cells so a screen reader reads each time with its label, as our guide to [hours and insurance tables with real header cells](/guides/office-hours-and-insurance-tables-on-a-medical-practice-website-built-with-real-header-cells-for-screen-readers) explains."
       ),
       p(
         "Then add one sentence for what to do outside those times, such as leaving a voicemail and when it is returned. Do not promise a callback time you cannot meet. Our guide on [wait-time and availability messaging without promises](/guides/wait-times-and-schedule-availability-messaging-on-a-medical-practice-website-without-promises) covers how to word that safely."
