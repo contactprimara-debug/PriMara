@@ -29,6 +29,7 @@ const organizationSchema = {
 import HomeMotion from "@/components/home/HomeMotion";
 import HomeMotionPlus from "@/components/home/HomeMotionPlus";
 import HomeScrollScenes from "@/components/home/HomeScrollScenes";
+import HomeScene3D from "@/components/home/HomeScene3D";
 import ContactFinal from "@/components/ContactFinal";
 import TypeAnimations from "@/components/TypeAnimations";
 import "./home.css";
@@ -267,6 +268,28 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Dashboard assembles on scroll: layout illustration only, no figures */}
+      <section className="rh-dash" data-dash aria-label="What you see">
+        <div className="rh-dash-stick">
+          <div className="rh-wrap rh-dash-grid">
+            <div className="rh-dash-copy">
+              <p className="rh-eyebrow">/ What you see</p>
+              <h2 className="rh-h2">Every call and form, tracked to its source.</h2>
+              <p className="rh-body">One view of the calls, forms, map position and AI answers we are working on for your practice.</p>
+            </div>
+            <div className="rh-dboard" aria-hidden="true">
+              <div className="rh-dtop" data-dp="0"><span className="rh-pin" />Your practice <em>Illustrative layout</em></div>
+              <div className="rh-dpanel" data-dp="1"><b>Calls</b><div className="rh-bars">{[38, 55, 44, 70, 62, 84, 76].map((h, i) => <i key={i} data-bar style={{ height: `${h}%` }} />)}</div></div>
+              <div className="rh-dpanel" data-dp="2"><b>Forms</b>
+                <svg viewBox="0 0 200 80" preserveAspectRatio="none"><path pathLength="1" data-line d="M0 66 C 30 60, 45 40, 75 44 S 120 28, 140 30 S 180 10, 200 8" /></svg></div>
+              <div className="rh-dpanel" data-dp="3"><b>Map pack</b><div className="rh-pgrid">{Array.from({ length: 25 }, (_, i) => <i key={i} data-cell style={{ ["--ci" as string]: i }} />)}</div></div>
+              <div className="rh-dpanel" data-dp="4"><b>AI answers</b>{["Cited", "Cited", "Tracked"].map((t, i) => <div key={i} className="rh-drow"><i data-bar style={{ width: `${[78, 56, 66][i]}%` }} /><span>{t}</span></div>)}</div>
+              <div className="rh-dchips" data-dp="5"><span>Search</span><span>Maps</span><span>AI answers</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 06 Proof: real, dated numbers only */}
       <section className="rh-sec rh-band" data-sec="06" aria-label="Proof">
         <span className="rh-ghost" data-ghost="05" data-par="0.14" aria-hidden="true" />
@@ -310,6 +333,7 @@ export default function HomePage() {
       <HomeMotion />
       <HomeMotionPlus />
       <HomeScrollScenes />
+      <HomeScene3D />
     </main>
   );
 }

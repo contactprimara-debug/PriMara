@@ -46,6 +46,12 @@ export default function HomeScrollScenes() {
       const stats = q('.rh-stats > div');
       const close = root.querySelector<HTMLElement>('.rh-close');
       const closeH = close?.querySelector<HTMLElement>('.rh-h2');
+      const dash = root.querySelector<HTMLElement>('[data-dash]');
+      const dps = q('[data-dp]');
+      const bars = dash ? Array.from(dash.querySelectorAll<HTMLElement>('[data-bar]')) : [];
+      const cells = dash ? Array.from(dash.querySelectorAll<HTMLElement>('[data-cell]')) : [];
+      const line = dash?.querySelector<SVGPathElement>('[data-line]') || null;
+      const h2s = q('.rh-h2');
       secs.forEach((s) => s.classList.add('sc-on'));
       if (close) close.classList.add('sc-glow');
 
@@ -76,6 +82,14 @@ export default function HomeScrollScenes() {
         chN.forEach((n) => { const r = n.getBoundingClientRect(); const c = (r.left + r.width / 2 - window.innerWidth / 2) / window.innerWidth; n.style.translate = `${c * -34}px 0`; });
         chs.forEach((el) => { const r = el.getBoundingClientRect(); const c = Math.abs((r.left + r.width / 2 - window.innerWidth / 2) / window.innerWidth); el.style.setProperty('--cd', String(clamp(1 - c * 0.9, 0.55, 1))); });
         stats.forEach((s) => { const c = prog(s); s.style.translate = `0 ${(0.5 - c) * 36}px`; });
+        if (dash) {
+          const r = dash.getBoundingClientRect(); const dp = clamp(-r.top / Math.max(1, r.height - v));
+          dps.forEach((el, i) => { const a = clamp((dp - i * 0.13) / 0.2); el.style.opacity = String(a); el.style.translate = `0 ${(1 - a) * 40}px`; el.style.scale = String(0.94 + a * 0.06); });
+          bars.forEach((b, i) => { const a = clamp((dp - 0.1 - i * 0.03) / 0.25); b.style.scale = `1 ${a}`; });
+          cells.forEach((c, i) => { const a = clamp((dp - 0.35 - i * 0.012) / 0.1); c.style.opacity = String(0.15 + a * 0.85); c.style.scale = String(0.6 + a * 0.4); });
+          if (line) line.style.strokeDashoffset = String(1 - clamp((dp - 0.2) / 0.35));
+        }
+        h2s.forEach((h) => { const r = h.getBoundingClientRect(); h.style.setProperty('--hs', String(clamp((v * 0.95 - r.top) / (v * 0.7)))); });
         if (close) {
           const p = prog(close); close.style.setProperty('--cg', String(0.25 + clamp((p - 0.15) * 1.6) * 0.75));
           if (closeH) closeH.style.scale = String(0.92 + clamp((p - 0.1) * 2) * 0.08);
@@ -94,7 +108,7 @@ export default function HomeScrollScenes() {
       cleanups.push(() => {
         window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll);
         cancelAnimationFrame(raf);
-        [copy, vis, c2, c3, rib, radarIn, core, ...chips, ...nodes, ...rings, ...bigN, ...chN, ...stats, closeH].forEach((e) => { if (e) { e.style.translate = ''; e.style.scale = ''; e.style.rotate = ''; e.style.opacity = ''; } });
+        [copy, vis, c2, c3, rib, radarIn, core, ...chips, ...nodes, ...rings, ...bigN, ...chN, ...stats, closeH, ...dps, ...bars, ...cells].forEach((e) => { if (e) { e.style.translate = ''; e.style.scale = ''; e.style.rotate = ''; e.style.opacity = ''; } });
       });
       tgt = window.scrollY; cur = tgt; frame();
     };
