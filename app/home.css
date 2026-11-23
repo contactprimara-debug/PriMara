@@ -293,3 +293,12 @@
 .rh-pinsec.is-pinned .rh-steps li:not(.is-on) strong,.rh-pinsec.is-pinned .rh-steps li:not(.is-on) em{opacity:.78}
 @media(max-width:700px){.rh-conn{left:-12px}.rh-steps li::before,.rh-steps li::after{left:-15px}.rh-ghost{right:0}.rh-ghost::before{font-size:44vw}}
 @media(prefers-reduced-motion:reduce){.rh-mesh i,.rh-ghost{transform:none!important}.rh-ev{transition:none}.rh-conn i{transform:scaleY(1)}.rh-conn b{display:none}.rh-steps li::after{opacity:1;transform:scale(1.4)}}
+
+/* ── Scroll scenes (HomeScrollScenes): hairlines, depth, closer glow. transform/opacity only ── */
+.sc-on::before{content:"";position:absolute;left:6%;right:6%;top:0;height:1px;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(226,196,140,.85),transparent);transform:scaleX(var(--sp,0));opacity:calc(var(--sp,0)*.9);transform-origin:center}
+.rh-big{translate:0 var(--lift,0px)}
+.rh-ch{opacity:var(--cd,1)}
+.rh-big-n,.rh-ch-n,.rh-card-2,.rh-card-3,.rh-ring,.rh-node,.rh-core{will-change:auto}
+.rh-close.sc-glow{overflow:hidden}
+.rh-close.sc-glow::after{content:"";position:absolute;left:50%;top:50%;width:90vw;max-width:1100px;aspect-ratio:1;translate:-50% -50%;scale:var(--cg,.25);border-radius:50%;pointer-events:none;z-index:-1;background:radial-gradient(circle,rgba(197,165,114,.22),rgba(197,165,114,.06) 45%,transparent 68%);opacity:var(--cg,.25)}
+.rh-big-n{display:inline-block}

@@ -28,6 +28,7 @@ const organizationSchema = {
 
 import HomeMotion from "@/components/home/HomeMotion";
 import HomeMotionPlus from "@/components/home/HomeMotionPlus";
+import HomeScrollScenes from "@/components/home/HomeScrollScenes";
 import ContactFinal from "@/components/ContactFinal";
 import TypeAnimations from "@/components/TypeAnimations";
 import "./home.css";
@@ -308,6 +309,7 @@ export default function HomePage() {
       <TypeAnimations />
       <HomeMotion />
       <HomeMotionPlus />
+      <HomeScrollScenes />
     </main>
   );
 }
