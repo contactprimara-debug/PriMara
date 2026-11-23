@@ -154,7 +154,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <a className="rh-scroll" href="#beneath" aria-label="Scroll down">Scroll to look inside ↓</a>
+        <a className="rh-scroll" href="#beneath" aria-label="Scroll to look inside">Scroll to look inside ↓</a>
       </section>
 
       <div className="rh-marq" aria-hidden="true">

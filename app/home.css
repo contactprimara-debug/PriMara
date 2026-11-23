@@ -290,6 +290,6 @@
 .rh-pinsec.is-pinned{padding:0}
 .rh-pinsec.is-pinned .rh-pin-stick{position:sticky;top:0;height:100svh;display:flex;align-items:center;padding-top:60px}
 .rh-pinsec.is-pinned .rh-pin-stick>.rh-wrap{width:100%}
-.rh-pinsec.is-pinned .rh-steps li:not(.is-on) strong,.rh-pinsec.is-pinned .rh-steps li:not(.is-on) em{opacity:.3}
+.rh-pinsec.is-pinned .rh-steps li:not(.is-on) strong,.rh-pinsec.is-pinned .rh-steps li:not(.is-on) em{opacity:.78}
 @media(max-width:700px){.rh-conn{left:-12px}.rh-steps li::before,.rh-steps li::after{left:-15px}.rh-ghost{right:0}.rh-ghost::before{font-size:44vw}}
 @media(prefers-reduced-motion:reduce){.rh-mesh i,.rh-ghost{transform:none!important}.rh-ev{transition:none}.rh-conn i{transform:scaleY(1)}.rh-conn b{display:none}.rh-steps li::after{opacity:1;transform:scale(1.4)}}
