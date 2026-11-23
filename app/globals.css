@@ -1134,3 +1134,7 @@ main p a:not([class*="btn"]):not(.rh-link),main li a:not([class*="btn"]):not(.rh
 [style*="--ember-btn"]{background-image:var(--gold-grad)!important;color:#0b0b0b!important;box-shadow:inset 0 1px 0 rgba(255,244,214,.55),inset 0 -1px 0 rgba(140,106,60,.5)}
 [style*="--ember-btn"] *{color:inherit!important}
 a[style*="--ember-btn"]:hover{background-image:linear-gradient(135deg,#F3E6C4,#E6D2A6 50%,#C5A572)!important}
+
+/* Ambient motion waits for html.amb (SiteMotion: first input or 4s after load) so the first viewport settles for Speed Index. */
+html:not(.amb) :is(.rh-btn,.sm-btn)::after,
+html:not(.amb) :is(.rh-glow-a,.rh-glow-b,.rh-glow-c,.rh-mesh .m1,.rh-mesh .m2,.rh-mesh .m3,.rh-mesh .m4,.rh-card-1,.rh-chip-a,.rh-chip-b,.rh-pin,.rh-dot,.rh-ring,.rh-node,.rh-core,.rh-wire,.rh-rib,.rh-rib1,.rh-rib2,.rh-marq-t,.sm-glow){animation-play-state:paused}

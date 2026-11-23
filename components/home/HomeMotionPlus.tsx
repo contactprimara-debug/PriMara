@@ -44,6 +44,7 @@ export default function HomeMotionPlus() {
       const meshTick = (t: number) => {
         mraf = 0;
         if (!heroVisible || document.hidden) return;
+        if (!document.documentElement.classList.contains('amb') && t - lastMove > 2500 && lastMove === 0) { mraf = requestAnimationFrame(meshTick); return; }
         const idle = t - lastMove > 2500;
         if (idle) { tx = 0.5 + Math.sin(t / 3600) * 0.28; ty = 0.5 + Math.cos(t / 4700) * 0.22; }
         px += (tx - px) * 0.06; py += (ty - py) * 0.06;

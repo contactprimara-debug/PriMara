@@ -14,6 +14,22 @@ export default function SiteMotion() {
   const path = usePathname() || '/';
   const skip = path === '/' || path.startsWith('/command-center') || STANDALONE_ROUTES.includes(path);
 
+  /* Ambient (infinite, decorative) motion starts after the first paint has settled: on first
+     input, or 4s after load. Until then it is paused, so the viewport stops changing and PSI
+     Speed Index can complete (mobile 96 -> measured, 2026-11-23). Motion is not removed. */
+  useEffect(() => {
+    const html = document.documentElement;
+    if (html.classList.contains('amb')) return;
+    const go = () => { html.classList.add('amb'); off(); };
+    const evs = ['pointerdown', 'keydown', 'scroll', 'touchstart'] as const;
+    const off = () => { evs.forEach((e) => window.removeEventListener(e, go)); clearTimeout(t); window.removeEventListener('load', onLoad); };
+    let t: ReturnType<typeof setTimeout>;
+    const onLoad = () => { t = setTimeout(go, 4000); };
+    evs.forEach((e) => window.addEventListener(e, go, { passive: true, once: true }));
+    if (document.readyState === 'complete') onLoad(); else window.addEventListener('load', onLoad);
+    return off;
+  }, []);
+
   useEffect(() => {
     if (skip) return;
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
