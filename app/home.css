@@ -324,7 +324,7 @@
 .rh-bars i{flex:1;background:linear-gradient(#E6D2A6,#A8864F);transform-origin:bottom;border-radius:1px}
 .rh-dpanel svg{flex:1;width:100%;min-height:80px}
 .rh-dpanel path{fill:none;stroke:#C5A572;stroke-width:2;stroke-dasharray:1;stroke-dashoffset:1;vector-effect:non-scaling-stroke}
-.rh-pgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;flex:1;align-content:center}
+.rh-pgrid{display:grid;grid-template-columns:repeat(5,minmax(0,22px));gap:8px;flex:1;align-content:center;justify-content:start}
 .rh-pgrid i{aspect-ratio:1;border-radius:50%;background:#C5A572;opacity:.15}
 .rh-drow{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--smoke)}
 .rh-drow i{height:6px;background:linear-gradient(90deg,#1B9A9A,#C5A572);transform-origin:left;border-radius:3px}
