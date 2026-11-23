@@ -172,74 +172,115 @@ export default function HomeMotion() {
       });
     }
 
-    /* ── Backdrop canvas ─────────────────────────────────────────────── */
+    /* ── Backdrop: layered star field ────────────────────────────────────
+       3 depth layers drifting at different speeds, twinkle, scroll + cursor parallax,
+       occasional shooting streaks, constellation lines that form near the cursor.
+       rAF, paused when tab hidden, DPR-capped, lighter on phones, static when
+       prefers-reduced-motion. Starts after load settles (no LCP/CLS impact: fixed canvas). */
     const cv = root.querySelector<HTMLCanvasElement>('canvas[data-bg]');
     if (cv) {
       const ctx = cv.getContext('2d');
       if (ctx) {
         const small = window.innerWidth < 700;
-        const N = small ? 26 : 56;
-        const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+        const dpr = Math.min(window.devicePixelRatio || 1, small ? 1.5 : 2);
         let W = 0, H = 0;
-        type P = { x: number; y: number; vx: number; vy: number; r: number; c: string };
-        const cols = ['232,228,220', '197,165,114', '27,170,170'];
-        let ps: P[] = [];
-        let mx = 0.5, my = 0.5;
+        type S = { x: number; y: number; z: number; r: number; ph: number; sp: number; c: string; vx: number; vy: number };
+        type Sh = { x: number; y: number; vx: number; vy: number; life: number; max: number };
+        const cols = ['245,242,236', '245,242,236', '245,242,236', '226,196,140', '197,165,114'];
+        let ss: S[] = [];
+        let shots: Sh[] = [];
+        let mx = 0.5, my = 0.5, tx = 0.5, ty = 0.5, px = -999, py = -999, sy = window.scrollY, nextShot = 0;
         const size = () => {
           W = window.innerWidth; H = window.innerHeight;
           cv.width = W * dpr; cv.height = H * dpr;
           cv.style.width = W + 'px'; cv.style.height = H + 'px';
-          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-          ps = Array.from({ length: N }, (_, i) => ({
-            x: Math.random() * W, y: Math.random() * H,
-            vx: (Math.random() - 0.5) * 0.22, vy: (Math.random() - 0.5) * 0.22,
-            r: Math.random() * 1.4 + 0.5, c: cols[i % 7 === 0 ? 1 : i % 11 === 0 ? 2 : 0],
-          }));
+          const n = Math.round((W * H) / (small ? 4200 : 3600));
+          ss = Array.from({ length: n }, (_, i) => {
+            const z = i % 10 < 6 ? 0 : i % 10 < 9 ? 1 : 2; /* far, mid, near */
+            return {
+              x: Math.random() * W, y: Math.random() * H, z,
+              r: [0.55, 0.9, 1.5][z] * (0.7 + Math.random() * 0.6),
+              ph: Math.random() * 6.28, sp: 0.6 + Math.random() * 1.8,
+              c: cols[(Math.random() * cols.length) | 0],
+              vx: (Math.random() - 0.5) * [0.06, 0.12, 0.22][z] * 2, vy: (Math.random() - 0.5) * [0.05, 0.1, 0.18][z] * 2 - 0.02,
+            };
+          });
         };
-        const L = small ? 110 : 150;
-        const draw = () => {
+        const PAR = [0.04, 0.1, 0.22];
+        const frame = (t: number, step: boolean) => {
+          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
           ctx.clearRect(0, 0, W, H);
-          for (const p of ps) {
-            p.x += p.vx + (mx - 0.5) * 0.06; p.y += p.vy + (my - 0.5) * 0.06;
-            if (p.x < -10) p.x = W + 10; if (p.x > W + 10) p.x = -10;
-            if (p.y < -10) p.y = H + 10; if (p.y > H + 10) p.y = -10;
+          if (step) { mx += (tx - mx) * 0.05; my += (ty - my) * 0.05; }
+          const near: S[] = [];
+          const ox = (mx - 0.5), oy = (my - 0.5);
+          for (const s of ss) {
+            if (step) {
+              s.x += s.vx; s.y += s.vy;
+              if (s.x < -4) s.x = W + 4; else if (s.x > W + 4) s.x = -4;
+              if (s.y < -4) s.y = H + 4; else if (s.y > H + 4) s.y = -4;
+            }
+            const f = PAR[s.z];
+            let x = s.x - ox * f * 160;
+            let y = ((s.y - sy * f) % H + H) % H - oy * f * 120;
+            const tw = 0.55 + 0.45 * Math.sin(t * 0.001 * s.sp + s.ph);
+            const al = (s.z === 0 ? 0.55 : s.z === 1 ? 0.75 : 0.95) * tw;
+            ctx.fillStyle = `rgba(${s.c},${al.toFixed(3)})`;
+            ctx.beginPath(); ctx.arc(x, y, s.r, 0, 6.2832); ctx.fill();
+            if (s.z === 2 && s.r > 1.6) { ctx.fillStyle = `rgba(${s.c},${(al * 0.14).toFixed(3)})`; ctx.beginPath(); ctx.arc(x, y, s.r * 3.2, 0, 6.2832); ctx.fill(); }
+            if (!small && s.z > 0) { const dx = x - px, dy = y - py; if (dx * dx + dy * dy < 19600) near.push({ ...s, x, y }); }
           }
-          for (let i = 0; i < ps.length; i++) {
-            const a = ps[i];
-            for (let j = i + 1; j < ps.length; j++) {
-              const b = ps[j];
-              const dx = a.x - b.x, dy = a.y - b.y, d = dx * dx + dy * dy;
-              if (d < L * L) {
-                ctx.strokeStyle = `rgba(197,165,114,${(1 - Math.sqrt(d) / L) * 0.16})`;
-                ctx.lineWidth = 0.6;
+          /* constellation lines form near the cursor (desktop) */
+          if (near.length > 1) {
+            ctx.lineWidth = 0.7;
+            for (let i = 0; i < near.length; i++) for (let j = i + 1; j < near.length; j++) {
+              const a = near[i], b = near[j]; const dx = a.x - b.x, dy = a.y - b.y, d = dx * dx + dy * dy;
+              if (d < 12100) {
+                const m = (1 - Math.sqrt(d) / 110) * 0.5;
+                ctx.strokeStyle = `rgba(226,196,140,${m.toFixed(3)})`;
                 ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
               }
             }
-            ctx.fillStyle = `rgba(${a.c},0.7)`;
-            ctx.beginPath(); ctx.arc(a.x, a.y, a.r, 0, 6.2832); ctx.fill();
+          }
+          /* shooting streaks */
+          if (step) {
+            if (t > nextShot && shots.length < 2) {
+              const ang = 0.35 + Math.random() * 0.5, sp = 7 + Math.random() * 6;
+              shots.push({ x: Math.random() * W * 0.8, y: Math.random() * H * 0.45, vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp, life: 0, max: 42 + Math.random() * 24 });
+              nextShot = t + (small ? 2600 : 1800) + Math.random() * 3200;
+            }
+            for (const q of shots) { q.x += q.vx; q.y += q.vy; q.life++; }
+            shots = shots.filter((q) => q.life < q.max);
+          }
+          for (const q of shots) {
+            const k = 1 - q.life / q.max, L = 14;
+            const g = ctx.createLinearGradient(q.x, q.y, q.x - q.vx * L, q.y - q.vy * L);
+            g.addColorStop(0, `rgba(255,244,222,${(0.9 * k).toFixed(3)})`); g.addColorStop(1, 'rgba(226,196,140,0)');
+            ctx.strokeStyle = g; ctx.lineWidth = 1.4; ctx.lineCap = 'round';
+            ctx.beginPath(); ctx.moveTo(q.x, q.y); ctx.lineTo(q.x - q.vx * L, q.y - q.vy * L); ctx.stroke();
           }
         };
         size();
-        draw();
+        frame(0, false);
         let run = !reduce;
         let id = 0;
         let last = 0;
-        // ~30fps and started after load settles so it never competes with first paint / LCP
-        const loop = (t: number) => { if (run) { if (t - last > 33) { last = t; draw(); } id = requestAnimationFrame(loop); } };
+        const loop = (t: number) => { if (!run) return; if (t - last > (small ? 33 : 16)) { last = t; frame(t, true); } id = requestAnimationFrame(loop); };
         let st = 0;
-        if (run) st = window.setTimeout(() => { id = requestAnimationFrame(loop); }, 1800);
+        if (run) { nextShot = 2500; st = window.setTimeout(() => { id = requestAnimationFrame(loop); }, 1500); }
         cleanups.push(() => clearTimeout(st));
         const vis = () => {
           if (document.hidden) { run = false; cancelAnimationFrame(id); }
           else if (!reduce && !run) { run = true; id = requestAnimationFrame(loop); }
         };
-        const mv = (e: PointerEvent) => { mx = e.clientX / W; my = e.clientY / H; };
-        // fade the backdrop out after the hero so body text sits on clean ground
-        const fade = () => { cv.style.opacity = String(Math.max(0.22, 1 - window.scrollY / (window.innerHeight * 0.9))); };
+        const mv = (e: PointerEvent) => { tx = e.clientX / W; ty = e.clientY / H; px = e.clientX; py = e.clientY; };
+        const lv = () => { px = py = -999; };
+        /* stars stay visible the whole way down (ambient), slightly calmer behind body text */
+        const fade = () => { sy = window.scrollY; cv.style.opacity = String(Math.max(0.6, 1 - sy / (window.innerHeight * 1.6))); if (reduce) frame(0, false); };
         let rt = 0;
-        const rs = () => { clearTimeout(rt); rt = window.setTimeout(() => { size(); draw(); }, 200); };
+        const rs = () => { clearTimeout(rt); rt = window.setTimeout(() => { size(); frame(0, false); }, 200); };
         document.addEventListener('visibilitychange', vis);
         window.addEventListener('pointermove', mv, { passive: true });
+        document.addEventListener('pointerleave', lv);
         window.addEventListener('scroll', fade, { passive: true });
         window.addEventListener('resize', rs);
         fade();
@@ -247,6 +288,7 @@ export default function HomeMotion() {
           run = false; cancelAnimationFrame(id);
           document.removeEventListener('visibilitychange', vis);
           window.removeEventListener('pointermove', mv);
+          document.removeEventListener('pointerleave', lv);
           window.removeEventListener('scroll', fade);
           window.removeEventListener('resize', rs);
         });
