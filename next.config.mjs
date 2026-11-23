@@ -18,9 +18,6 @@ const nicheRedirects = JSON.parse(
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Inline critical CSS + load the rest async: removes the 2 render-blocking
-  // stylesheets (PSI mobile render-blocking-insight, 2026-11-23). Motion untouched.
-  experimental: { optimizeCss: true },
 
   async redirects() {
     return [
