@@ -308,7 +308,7 @@
 
 /* Light-sweep on big headlines: a gold band travels across the heading as it scrolls into view */
 .rh-h2{position:relative;isolation:isolate}
-.rh-h2::after{content:"";position:absolute;inset:-4px -6%;pointer-events:none;mix-blend-mode:color-dodge;background:linear-gradient(100deg,transparent 35%,rgba(226,196,140,.55) 50%,transparent 65%);background-size:260% 100%;background-position:calc(120% - var(--hs,0)*140%) 0;opacity:calc(1 - var(--hs,0));}
+.rh-h2::after{-webkit-mask-image:radial-gradient(ellipse at center,#000 30%,transparent 72%);mask-image:radial-gradient(ellipse at center,#000 30%,transparent 72%);content:"";position:absolute;inset:-4px -6%;pointer-events:none;mix-blend-mode:color-dodge;background:linear-gradient(100deg,transparent 35%,rgba(226,196,140,.34) 50%,transparent 65%);background-size:260% 100%;background-position:calc(120% - var(--hs,0)*140%) 0;opacity:calc(1 - var(--hs,0));}
 
 /* Dashboard that assembles while pinned */
 .rh-dash{position:relative;height:300vh}
