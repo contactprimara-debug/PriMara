@@ -622,6 +622,10 @@ export const guidesPartForty15: Guide[] = [
         ["Adds maximum-scale=1", "No, the page cannot be enlarged"],
         ["Adds maximum-scale=5 or larger", "Yes, passes the Lighthouse limit"]
       ),
+      h2("Who uses zoom, and what blocking it costs"),
+      p(
+        "Pinch zoom is not only for people with a diagnosed vision condition. Older patients, people who left their glasses at home and anyone reading a phone in glare all enlarge a page to read hours, an address or a phone number. When the page refuses to grow, they squint, guess a digit or leave. That is a lead lost over one line of code, and removing the restriction costs nothing."
+      ),
       h2("How to check and fix it"),
       ol(
         "On your phone, open your home page and spread two fingers on the text. It should grow.",
