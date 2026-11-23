@@ -99,7 +99,7 @@ export default function VsWebPTPage() {
             position: "absolute",
             inset: 0,
             pointerEvents: "none",
-            background: "radial-gradient(ellipse 60vw 50vh at 15% 40%, rgba(201,168,76,0.08) 0%, transparent 60%)",
+            background: "radial-gradient(ellipse 60vw 50vh at 15% 40%, rgba(197,165,114,0.08) 0%, transparent 60%)",
           }}
         />
         <div style={{ position: "relative", zIndex: 1, maxWidth: "800px" }}>
@@ -347,7 +347,7 @@ export default function VsWebPTPage() {
                         color: i === 1 ? "var(--gold)" : "var(--chalk)",
                         fontWeight: 600,
                         whiteSpace: "nowrap",
-                        backgroundColor: i === 1 ? "rgba(201,168,76,0.06)" : "transparent",
+                        backgroundColor: i === 1 ? "rgba(197,165,114,0.06)" : "transparent",
                       }}
                     >
                       {col}
@@ -374,7 +374,7 @@ export default function VsWebPTPage() {
                         padding: "14px 16px",
                         color: "var(--ash)",
                         verticalAlign: "top",
-                        backgroundColor: "rgba(201,168,76,0.04)",
+                        backgroundColor: "rgba(197,165,114,0.04)",
                       }}
                     >
                       {primara}

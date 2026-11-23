@@ -139,7 +139,7 @@ export default function DigitalMarketingPage() {
             pointerEvents: "none",
             background: [
               "radial-gradient(ellipse 70vw 65vh at 8% 35%, rgba(27,110,110,0.14) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50vw 45vh at 92% 75%, rgba(201,168,76,0.08) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50vw 45vh at 92% 75%, rgba(197,165,114,0.08) 0%, transparent 60%)",
             ].join(", "),
           }}
         />
@@ -555,7 +555,7 @@ export default function DigitalMarketingPage() {
             pointerEvents: "none",
             background: [
               "radial-gradient(ellipse 80vw 65vh at 50% 50%, rgba(27,110,110,0.20) 0%, transparent 65%)",
-              "radial-gradient(ellipse 40vw 30vh at 15% 85%, rgba(201,168,76,0.07) 0%, transparent 60%)",
+              "radial-gradient(ellipse 40vw 30vh at 15% 85%, rgba(197,165,114,0.07) 0%, transparent 60%)",
             ].join(", "),
           }}
         />

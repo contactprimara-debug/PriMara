@@ -182,7 +182,7 @@ export default function HomeMotion() {
         const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
         let W = 0, H = 0;
         type P = { x: number; y: number; vx: number; vy: number; r: number; c: string };
-        const cols = ['232,228,220', '201,168,76', '27,170,170'];
+        const cols = ['232,228,220', '197,165,114', '27,170,170'];
         let ps: P[] = [];
         let mx = 0.5, my = 0.5;
         const size = () => {
@@ -210,7 +210,7 @@ export default function HomeMotion() {
               const b = ps[j];
               const dx = a.x - b.x, dy = a.y - b.y, d = dx * dx + dy * dy;
               if (d < L * L) {
-                ctx.strokeStyle = `rgba(201,168,76,${(1 - Math.sqrt(d) / L) * 0.16})`;
+                ctx.strokeStyle = `rgba(197,165,114,${(1 - Math.sqrt(d) / L) * 0.16})`;
                 ctx.lineWidth = 0.6;
                 ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
               }

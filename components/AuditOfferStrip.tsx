@@ -98,8 +98,8 @@ export default function AuditOfferStrip() {
               display: "inline-flex",
               alignItems: "center",
               gap: "8px",
-              background: "rgba(201,168,76,0.10)",
-              border: "1px solid rgba(201,168,76,0.25)",
+              background: "rgba(197,165,114,0.10)",
+              border: "1px solid rgba(197,165,114,0.25)",
               borderRadius: "2px",
               padding: "4px 12px",
               marginBottom: "16px",
@@ -155,7 +155,7 @@ export default function AuditOfferStrip() {
           {state.status === "success" ? (
             <div
               style={{
-                border: "1px solid rgba(201,168,76,0.3)",
+                border: "1px solid rgba(197,165,114,0.3)",
                 borderRadius: "4px",
                 padding: "32px",
                 textAlign: "center",

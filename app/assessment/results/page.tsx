@@ -33,7 +33,7 @@ const tierConfig = {
     nextStepBody: "Liam or Gio will walk you through exactly what's wrong and what to fix first. No pitch — just a clear, honest picture of your digital presence.",
   },
   Building: {
-    color: "#C9A84C",
+    color: "#C5A572",
     label: "Room to Grow",
     intro: "Your practice has some digital foundations in place, but there are meaningful gaps that are costing you new patients every week. The good news: you're not starting from zero, and the highest-impact fixes are clear.",
     insights: [
@@ -231,7 +231,7 @@ export default function ResultsPage() {
               { label: "Website", score: data.websiteScore },
               { label: "Paid Ads", score: data.adsScore },
             ].map(({ label, score }) => {
-              const barColor = score >= 70 ? "#3DAA6E" : score >= 40 ? "#C9A84C" : "#E8611A";
+              const barColor = score >= 70 ? "#3DAA6E" : score >= 40 ? "#C5A572" : "#E8611A";
               return (
                 <div key={label} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
@@ -279,7 +279,7 @@ export default function ResultsPage() {
 
               <Link prefetch={false}
                 href={pkg.url}
-                style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--gold)", textDecoration: "none", letterSpacing: "0.04em", borderBottom: "1px solid rgba(201,168,76,0.4)", paddingBottom: "2px" }}
+                style={{ fontFamily: "system-ui, sans-serif", fontSize: "13px", color: "var(--gold)", textDecoration: "none", letterSpacing: "0.04em", borderBottom: "1px solid rgba(197,165,114,0.4)", paddingBottom: "2px" }}
               >
                 View full package details →
               </Link>

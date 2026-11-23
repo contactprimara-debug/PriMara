@@ -45,7 +45,7 @@ export default function AboutSection() {
           inset: 0,
           pointerEvents: "none",
           background: [
-            "radial-gradient(ellipse 50vw 55vh at 100% 0%, rgba(201,168,76,0.05) 0%, transparent 60%)",
+            "radial-gradient(ellipse 50vw 55vh at 100% 0%, rgba(197,165,114,0.05) 0%, transparent 60%)",
             "radial-gradient(ellipse 45vw 45vh at 0% 100%, rgba(27,110,110,0.06) 0%, transparent 60%)",
           ].join(", "),
         }}

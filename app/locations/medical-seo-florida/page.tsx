@@ -132,7 +132,7 @@ export default function MedicalSeoFloridaPage() {
           <div
             style={{
               display: "inline-flex", alignItems: "center", gap: "8px",
-              background: "rgba(201,168,76,0.12)", border: "1px solid rgba(201,168,76,0.3)",
+              background: "rgba(197,165,114,0.12)", border: "1px solid rgba(197,165,114,0.3)",
               borderRadius: "3px", padding: "5px 14px", marginBottom: "32px",
               fontFamily: "system-ui, sans-serif", fontSize: "11px", letterSpacing: "0.14em",
               textTransform: "uppercase" as const, color: "var(--gold)",

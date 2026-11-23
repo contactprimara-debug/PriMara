@@ -112,7 +112,7 @@ export default function StatsCounter() {
           fontFamily: "var(--font-display), Georgia, 'Times New Roman', serif",
           fontStyle: "italic",
           fontSize: "clamp(200px, 30vw, 400px)",
-          color: "rgba(201,168,76,0.025)",
+          color: "rgba(197,165,114,0.025)",
           lineHeight: 1,
           pointerEvents: "none",
           userSelect: "none",

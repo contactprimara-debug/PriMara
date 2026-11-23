@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { STANDALONE_ROUTES } from '@/lib/siteConfig';
+import { revealSplitHeadings } from '@/lib/motion-split';
 
 /* Sitewide motion layer (card #846): carries the homepage's feel to every other
    template without touching their markup. Only transform / translate / opacity
@@ -24,8 +25,10 @@ export default function SiteMotion() {
 
     const start = () => {
       /* reveals: below-the-fold headings, cards, list rows */
-      const sel = 'main h2, main h3, main li, main blockquote, main figure, main table, main details, main [class*="card"], main form';
+      const sel = 'main h3, main li, main blockquote, main figure, main table, main details, main [class*="card"], main form';
       const vh = window.innerHeight;
+      /* h2: word-by-word reveal (below-the-fold only, capped) */
+      cleanups.push(revealSplitHeadings(Array.from(document.querySelectorAll<HTMLElement>('main h2')).slice(0, 40).filter((h) => !h.closest('[data-rv],.reveal,.rh,[class*="pin"],[class*="scroll"]'))));
       /* Cap the work on very long pages (the 516-card /guides hub): scan and pre-hide at most 120
          candidates, so the long list costs one short task instead of hundreds of ms of style/layout.
          Everything past the cap simply stays visible (no hidden text, no shift). */
@@ -51,7 +54,7 @@ export default function SiteMotion() {
       /* shine + magnetic on gold / orange buttons */
       const isBtn = (el: HTMLElement) => {
         const c = getComputedStyle(el).backgroundColor;
-        return c === 'rgb(201, 168, 76)' || c === 'rgb(201, 77, 12)';
+        return c === 'rgb(197, 165, 114)' || c === 'rgb(201, 77, 12)';
       };
       const btns = Array.from(document.querySelectorAll<HTMLElement>('main a, main button')).filter(isBtn);
       const fine = window.matchMedia('(hover: hover)').matches;

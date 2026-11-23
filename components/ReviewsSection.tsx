@@ -51,7 +51,7 @@ export default function ReviewsSection() {
           pointerEvents: "none",
           background: [
             "radial-gradient(ellipse 50vw 45vh at 92% 4%, rgba(27,110,110,0.07) 0%, transparent 60%)",
-            "radial-gradient(ellipse 45vw 40vh at 8% 96%, rgba(201,168,76,0.05) 0%, transparent 60%)",
+            "radial-gradient(ellipse 45vw 40vh at 8% 96%, rgba(197,165,114,0.05) 0%, transparent 60%)",
           ].join(", "),
         }}
       />

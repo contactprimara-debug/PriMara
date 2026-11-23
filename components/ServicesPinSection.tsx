@@ -109,7 +109,7 @@ export default function ServicesPinSection() {
                   fontStyle: "italic",
                   fontSize: "80px",
                   lineHeight: 1,
-                  color: "rgba(201,168,76,0.08)",
+                  color: "rgba(197,165,114,0.08)",
                   opacity: 0.04,
                   transition: "opacity 0.3s ease",
                   pointerEvents: "none",

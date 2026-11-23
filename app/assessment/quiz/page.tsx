@@ -312,7 +312,7 @@ export default function QuizPage() {
                       }, 200);
                     }}
                     style={{
-                      background: qualAnswers[qualifierQuestions[qualStep].id] === option ? "rgba(201,168,76,0.12)" : "var(--surface)",
+                      background: qualAnswers[qualifierQuestions[qualStep].id] === option ? "rgba(197,165,114,0.12)" : "var(--surface)",
                       border: `1px solid ${qualAnswers[qualifierQuestions[qualStep].id] === option ? "var(--gold)" : "var(--wire)"}`,
                       borderRadius: "4px",
                       padding: "18px 24px",

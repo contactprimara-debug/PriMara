@@ -110,7 +110,7 @@ export default function PricingPage() {
             inset: 0,
             pointerEvents: "none",
             background: [
-              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(201,168,76,0.10) 0%, transparent 60%)",
+              "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(197,165,114,0.10) 0%, transparent 60%)",
               "radial-gradient(ellipse 50vw 40vh at 85% 75%, rgba(232,97,26,0.07) 0%, transparent 60%)",
             ].join(", "),
           }}
@@ -721,7 +721,7 @@ export default function PricingPage() {
                         color: i === 1 ? "var(--gold)" : "var(--chalk)",
                         fontWeight: 600,
                         whiteSpace: "nowrap",
-                        backgroundColor: i === 1 ? "rgba(201,168,76,0.06)" : "transparent",
+                        backgroundColor: i === 1 ? "rgba(197,165,114,0.06)" : "transparent",
                       }}
                     >
                       {col}
@@ -762,7 +762,7 @@ export default function PricingPage() {
                         padding: "14px 16px",
                         color: "var(--ash)",
                         verticalAlign: "top",
-                        backgroundColor: "rgba(201,168,76,0.04)",
+                        backgroundColor: "rgba(197,165,114,0.04)",
                       }}
                     >
                       {primara}

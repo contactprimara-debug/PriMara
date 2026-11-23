@@ -184,7 +184,7 @@ export default function WorkPage() {
                         letterSpacing: "0.12em",
                         textTransform: "uppercase",
                         color: "var(--gold)",
-                        border: "1px solid rgba(201,168,76,0.25)",
+                        border: "1px solid rgba(197,165,114,0.25)",
                         borderRadius: "2px",
                         padding: "3px 8px",
                       }}

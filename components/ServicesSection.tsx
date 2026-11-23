@@ -103,7 +103,7 @@ export default function ServicesSection() {
           pointerEvents: "none",
           background: [
             "radial-gradient(ellipse 55vw 50vh at 5% 50%, rgba(27,110,110,0.06) 0%, transparent 60%)",
-            "radial-gradient(ellipse 40vw 35vh at 95% 10%, rgba(201,168,76,0.04) 0%, transparent 60%)",
+            "radial-gradient(ellipse 40vw 35vh at 95% 10%, rgba(197,165,114,0.04) 0%, transparent 60%)",
           ].join(", "),
         }}
       />

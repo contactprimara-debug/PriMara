@@ -150,7 +150,7 @@ export default function VisibilityPackagePage() {
             pointerEvents: "none",
             background: [
               "radial-gradient(ellipse 70vw 60vh at 10% 30%, rgba(232,97,26,0.10) 0%, transparent 60%)",
-              "radial-gradient(ellipse 50vw 40vh at 90% 80%, rgba(201,168,76,0.10) 0%, transparent 60%)",
+              "radial-gradient(ellipse 50vw 40vh at 90% 80%, rgba(197,165,114,0.10) 0%, transparent 60%)",
             ].join(", "),
           }}
         />

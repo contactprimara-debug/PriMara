@@ -15,7 +15,7 @@ export default function Hero() {
           pointerEvents: "none",
           background: [
             "radial-gradient(ellipse 60vw 60vh at 15% 20%, rgba(27,110,110,0.12) 0%, transparent 60%)",
-            "radial-gradient(ellipse 50vw 50vh at 85% 80%, rgba(201,168,76,0.07) 0%, transparent 60%)",
+            "radial-gradient(ellipse 50vw 50vh at 85% 80%, rgba(197,165,114,0.07) 0%, transparent 60%)",
           ].join(", "),
         }}
       />

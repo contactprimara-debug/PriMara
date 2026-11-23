@@ -27,6 +27,7 @@ const organizationSchema = {
 };
 
 import HomeMotion from "@/components/home/HomeMotion";
+import HomeMotionPlus from "@/components/home/HomeMotionPlus";
 import ContactFinal from "@/components/ContactFinal";
 import TypeAnimations from "@/components/TypeAnimations";
 import "./home.css";
@@ -60,6 +61,14 @@ const CHANNELS = [
   { t: "Reviews", d: "An easy way for patients to leave a review. Request only.", h: "/services/online-reputation-management" },
 ];
 
+const FEED: [string, string, string][] = [
+  ["Incoming call", "g", "Tap to call"],
+  ["New patient form", "t", "Website"],
+  ["Directions request", "g", "Map pack"],
+  ["Appointment request", "t", "Website"],
+  ["Incoming call", "g", "Google profile"],
+];
+
 const pad = (n: number) => String(n + 1).padStart(2, "0");
 
 export default function HomePage() {
@@ -84,6 +93,7 @@ export default function HomePage() {
 
       {/* 01 Hero */}
       <section className="rh-hero" data-sec="01" aria-label="Primara365">
+        <div className="rh-mesh" data-mesh aria-hidden="true"><i className="m1" /><i className="m2" /><i className="m3" /><i className="m4" /></div>
         <div className="rh-wrap rh-hero-grid">
           <div className="rh-hero-copy">
             <p className="rh-eyebrow rh-up" style={{ animationDelay: "0.05s" }}>Primara / Patient acquisition</p>
@@ -114,8 +124,8 @@ export default function HomePage() {
             <svg className="rh-ribbons" viewBox="0 0 600 600" fill="none">
               <defs>
                 <linearGradient id="rhg" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stopColor="#C9A84C" stopOpacity="0" />
-                  <stop offset="0.5" stopColor="#C9A84C" />
+                  <stop offset="0" stopColor="#C5A572" stopOpacity="0" />
+                  <stop offset="0.5" stopColor="#C5A572" />
                   <stop offset="1" stopColor="#1B9A9A" />
                 </linearGradient>
               </defs>
@@ -126,7 +136,13 @@ export default function HomePage() {
             <div className="rh-card rh-card-2"><i /><i /><i /></div>
             <div className="rh-card rh-card-1">
               <div className="rh-card-top"><span className="rh-pin" />Your practice</div>
-              <div className="rh-card-lines"><i /><i /></div>
+              <div className="rh-feed" data-feed>
+                {FEED.map((t, i) => (
+                  <div key={i} className="rh-ev" data-s={["0", "1", "2", "3", "n"][i]}>
+                    <span className={`rh-ev-d ${t[1]}`} /><span className="rh-ev-t">{t[0]}</span><span className="rh-ev-k">{t[2]}</span>
+                  </div>
+                ))}
+              </div>
               <div className="rh-card-btns"><b>Call</b><b>Website</b><b>Directions</b></div>
             </div>
             <svg className="rh-wires" viewBox="0 0 600 600" fill="none">
@@ -147,14 +163,20 @@ export default function HomePage() {
             <span key={k}>Local SEO <i>/</i> AI search <i>/</i> Google Business Profile <i>/</i> Meta Ads <i>/</i> Google Ads <i>/</i> Websites <i>/</i> Reviews <i>/</i> Call tracking <i>/</i>&nbsp;</span>
           ))}
         </div>
+        <div className="rh-marq-t rh-marq-rev">
+          {[0, 1].map((k) => (
+            <span key={k}>Calls <i>/</i> Forms <i>/</i> Map pack <i>/</i> AI citations <i>/</i> Directions <i>/</i> Booked visits <i>/</i> Tracked to source <i>/</i>&nbsp;</span>
+          ))}
+        </div>
       </div>
 
       {/* 02 Beneath the surface */}
       <section id="beneath" className="rh-sec" data-sec="02" aria-label="Where patients find you">
+        <span className="rh-ghost" data-ghost="01" data-par="0.14" aria-hidden="true" />
         <div className="rh-wrap rh-split">
           <div className="rh-sticky">
             <p className="rh-eyebrow" data-rv>01 / Where patients look</p>
-            <h2 className="rh-h2" data-rv>Every search is a possible patient.</h2>
+            <h2 className="rh-h2" data-split>Every search is a possible patient.</h2>
             <p className="rh-body" data-rv>Before anyone calls, they look. We make sure they find you, and that your phone and form are ready.</p>
             <ul className="rh-list" data-rv>
               <li><span>01</span><strong>Search</strong><em>Found for what you treat</em></li>
@@ -175,9 +197,10 @@ export default function HomePage() {
 
       {/* 03 Who we serve */}
       <section className="rh-sec rh-band" data-sec="03" aria-label="Who we serve">
+        <span className="rh-ghost" data-ghost="02" data-par="0.14" aria-hidden="true" />
         <div className="rh-wrap">
           <p className="rh-eyebrow" data-rv>02 / Who we serve</p>
-          <h2 className="rh-h2" data-rv>The right practice. The right patient.</h2>
+          <h2 className="rh-h2" data-split>The right practice. The right patient.</h2>
           <div className="rh-two">
             <Link prefetch={false} href="/primary-care" className="rh-big" data-rv data-cta="home-primary-care">
               <span className="rh-big-n">A</span>
@@ -222,27 +245,33 @@ export default function HomePage() {
       </section>
 
       {/* 05 How it works */}
-      <section id="how" className="rh-sec" data-sec="05" aria-label="How it works">
+      <section id="how" className="rh-sec rh-pinsec" data-sec="05" data-pin aria-label="How it works">
+        <div className="rh-pin-stick">
         <div className="rh-wrap">
           <p className="rh-eyebrow" data-rv>04 / How it works</p>
-          <h2 className="rh-h2" data-rv>Look. Fix. Track.</h2>
-          <ol className="rh-steps">
-            <li data-rv style={{ transitionDelay: "0s" }}><span>01</span><strong>Look</strong><em>We audit your Google profile, website and call tracking.</em></li>
-            <li data-rv style={{ transitionDelay: ".12s" }}><span>02</span><strong>Fix</strong><em>We publish the profile, page and ad changes ourselves.</em></li>
-            <li data-rv style={{ transitionDelay: ".24s" }}><span>03</span><strong>Track</strong><em>Every call and form is tracked back to where it came from.</em></li>
-          </ol>
+          <h2 className="rh-h2" data-split>Look. Fix. Track.</h2>
+          <div className="rh-steps-wrap" data-steps>
+            <span className="rh-conn" aria-hidden="true"><i data-conn /><b data-conn-dot /></span>
+            <ol className="rh-steps">
+              <li className="is-on"><span>01</span><strong>Look</strong><em>We audit your Google profile, website and call tracking.</em></li>
+              <li><span>02</span><strong>Fix</strong><em>We publish the profile, page and ad changes ourselves.</em></li>
+              <li><span>03</span><strong>Track</strong><em>Every call and form is tracked back to where it came from.</em></li>
+            </ol>
+          </div>
           <div className="rh-cta-row" data-rv>
             <Link prefetch={false} href="/the-audit" className="rh-btn" data-cta="home-how-audit">Get the audit <span aria-hidden="true">↗</span></Link>
             <Link prefetch={false} href="/how-it-works" className="rh-link" data-cta="home-how-more">The full process <span aria-hidden="true">↗</span></Link>
           </div>
         </div>
+        </div>
       </section>
 
       {/* 06 Proof: real, dated numbers only */}
       <section className="rh-sec rh-band" data-sec="06" aria-label="Proof">
+        <span className="rh-ghost" data-ghost="05" data-par="0.14" aria-hidden="true" />
         <div className="rh-wrap">
           <p className="rh-eyebrow" data-rv>05 / Our clients</p>
-          <h2 className="rh-h2" data-rv>Built around independent practices.</h2>
+          <h2 className="rh-h2" data-split>Built around independent practices.</h2>
           <div className="rh-stats" data-rv>
             <div><b><span data-count="100">100</span>+</b><span>Physicians and clinicians across our clients</span></div>
             <div><b><span data-count="20">20</span>+</b><span>Patient locations across our client roster</span></div>
@@ -265,7 +294,7 @@ export default function HomePage() {
       <section className="rh-close" aria-label="Book a call">
         <div className="rh-wrap">
           <p className="rh-eyebrow" data-rv>Your next patients start here</p>
-          <h2 className="rh-h2 rh-h2-xl" data-rv>Let&rsquo;s put your practice on the map.</h2>
+          <h2 className="rh-h2 rh-h2-xl" data-split>Let&rsquo;s put your practice on the map.</h2>
           <p className="rh-body" data-rv>Two founders. No account managers. Tell us about your practice and we will show you what we would fix first.</p>
           <div className="rh-cta-row" data-rv>
             <a href="#contact-form" className="rh-btn" data-cta="home-close-book">Book a call <span aria-hidden="true">↗</span></a>
@@ -278,6 +307,7 @@ export default function HomePage() {
       <ContactFinal />
       <TypeAnimations />
       <HomeMotion />
+      <HomeMotionPlus />
     </main>
   );
 }
