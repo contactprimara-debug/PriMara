@@ -96,17 +96,17 @@ export default function HomePage() {
         <div className="rh-mesh" data-mesh aria-hidden="true"><i className="m1" /><i className="m2" /><i className="m3" /><i className="m4" /></div>
         <div className="rh-wrap rh-hero-grid">
           <div className="rh-hero-copy">
-            <p className="rh-eyebrow rh-up" style={{ animationDelay: "0.05s" }}>Primara / Patient acquisition</p>
+            <p className="rh-eyebrow rh-up" style={{ animationDelay: "0s" }}>Primara / Patient acquisition</p>
             <h1 className="rh-h1">
               {["We", "Put", "Independent", "Medical", "Practices", "on", "the"].map((w, i) => (
-                <React.Fragment key={w + i}><span className="rh-w" style={{ animationDelay: `${0.05 + i * 0.05}s` }}>{w}</span>{" "}</React.Fragment>
+                <React.Fragment key={w + i}><span className="rh-w" style={{ animationDelay: `${i * 0.025}s` }}>{w}</span>{" "}</React.Fragment>
               ))}
-              <span className="rh-w" style={{ animationDelay: "0.45s" }}><em>Map.</em></span>
+              <span className="rh-w" style={{ animationDelay: "0.14s" }}><em>Map.</em></span>
             </h1>
-            <p className="rh-lead rh-up" style={{ animationDelay: "0.22s" }}>
+            <p className="rh-lead rh-up" style={{ animationDelay: "0.06s" }}>
               More patient calls and forms from Google search, AI answers and your Google Business Profile. Healthcare practices only.
             </p>
-            <div className="rh-cta-row rh-up" style={{ animationDelay: "0.32s" }}>
+            <div className="rh-cta-row rh-up" style={{ animationDelay: "0.1s" }}>
               <a href="#contact-form" className="rh-btn" data-cta="home-hero-book">
                 Book a call <span aria-hidden="true">↗</span>
               </a>
