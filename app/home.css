@@ -315,7 +315,7 @@
 .rh-dash-stick{position:sticky;top:0;height:100vh;display:flex;align-items:center;overflow:hidden}
 .rh-dash-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:center;width:100%}
 .rh-dboard{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;padding:16px;border:1px solid rgba(197,165,114,.35);border-radius:6px;background:rgba(13,13,13,.78);box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(197,165,114,.08)}
-.rh-dboard>*{opacity:0}
+.rh-dash.sc-arm .rh-dboard>*{opacity:0}
 .rh-dtop{grid-column:1/-1;display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--chalk)}
 .rh-dtop em{margin-left:auto;font-style:normal;color:var(--smoke)}
 .rh-dpanel{grid-column:span 3;border:1px solid var(--wire);border-radius:4px;padding:14px;min-height:130px;display:flex;flex-direction:column;gap:10px;background:rgba(5,5,5,.5)}

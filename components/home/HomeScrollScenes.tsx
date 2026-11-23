@@ -53,6 +53,7 @@ export default function HomeScrollScenes() {
       const line = dash?.querySelector<SVGPathElement>('[data-line]') || null;
       const h2s = q('.rh-h2');
       secs.forEach((s) => s.classList.add('sc-on'));
+      if (dash) dash.classList.add('sc-arm');
       if (close) close.classList.add('sc-glow');
 
       const frame = () => {
