@@ -241,7 +241,7 @@ export default function ContactSection() {
                     <select
                       id="reason"
                       name="reason"
-                                      defaultValue=""
+                      defaultValue=""
                       style={selectStyle}
                     >
                       <option value="">Select a reason…</option>
