@@ -614,6 +614,27 @@ export default function Header() {
           </button>
 
           {/* Nav items */}
+          {/* CTA */}
+          <a
+            href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
+            onClick={() => setMenuOpen(false)}
+            style={{
+              background: "var(--ember-btn)",
+              color: "#ffffff",
+              fontFamily: "system-ui, sans-serif",
+              fontWeight: 700,
+              fontSize: "13px",
+              textTransform: "uppercase",
+              letterSpacing: "0.12em",
+              padding: "16px 40px",
+              borderRadius: "3px",
+              textDecoration: "none",
+              marginTop: "0",
+            }}
+          >
+            Get My Free Audit
+          </a>
+
           <nav aria-label="Mobile navigation" style={{ width: "100%", maxWidth: "320px", padding: "0 24px" }}>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, textAlign: "center", display: "flex", flexDirection: "column", gap: "clamp(14px, 2.5vh, 24px)" }}>
               {/* Home */}
@@ -758,26 +779,7 @@ export default function Header() {
             </ul>
           </nav>
 
-          {/* CTA */}
-          <a
-            href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
-            onClick={() => setMenuOpen(false)}
-            style={{
-              background: "var(--ember-btn)",
-              color: "#ffffff",
-              fontFamily: "system-ui, sans-serif",
-              fontWeight: 700,
-              fontSize: "13px",
-              textTransform: "uppercase",
-              letterSpacing: "0.12em",
-              padding: "16px 40px",
-              borderRadius: "3px",
-              textDecoration: "none",
-              marginTop: "8px",
-            }}
-          >
-            Get My Free Audit
-          </a>
+
 
           {/* Bottom contact line */}
           <a
