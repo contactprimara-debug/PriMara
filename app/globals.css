@@ -19,8 +19,8 @@
   --gold-glow:  rgba(197,165,114, 0.12);
   --teal:       #1B6E6E;
   --teal-light: rgba(27, 110, 110, 0.15);
-  --ember:      #E8611A;
-  --ember-btn:  #C94D0C; /* button fill: AA contrast with white text (E8611A was 3.4:1); a11y card #846 */
+  --ember:      #C5A572; /* legacy name: now champagne gold (2026-11-23); orange retired */
+  --ember-btn:  #C5A572; /* legacy name: gold button fill; text on it is dark #0b0b0b (AA 8:1), forced below */
 
   /* Service-page aliases — these map the "color-*" token set used in all
      service/package pages to the dark-theme tokens above. Without these,
@@ -1129,3 +1129,8 @@ main p a:not([class*="btn"]):not(.rh-link),main li a:not([class*="btn"]):not(.rh
 .gd-t{display:block;font-family:var(--font-fraunces),Georgia,serif;font-size:1.2rem;font-weight:700;color:var(--color-text);margin-bottom:6px;line-height:1.3}
 .gd-d{display:block;color:var(--color-text-muted);font-size:.95rem;line-height:1.65}
 .gd-m{display:block;margin-top:8px;font-family:var(--font-mono);font-size:.72rem;color:var(--gold)}
+
+/* Gold CTA system (2026-11-23): every button filled via var(--ember-btn) gets the champagne gradient + dark text, matching the hero .rh-btn. */
+[style*="--ember-btn"]{background-image:var(--gold-grad)!important;color:#0b0b0b!important;box-shadow:inset 0 1px 0 rgba(255,244,214,.55),inset 0 -1px 0 rgba(140,106,60,.5)}
+[style*="--ember-btn"] *{color:inherit!important}
+a[style*="--ember-btn"]:hover{background-image:linear-gradient(135deg,#F3E6C4,#E6D2A6 50%,#C5A572)!important}

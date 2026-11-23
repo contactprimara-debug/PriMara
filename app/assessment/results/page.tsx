@@ -20,7 +20,7 @@ interface ResultData {
 
 const tierConfig = {
   Critical: {
-    color: "#E8611A",
+    color: "#C5A572",
     label: "Critical Gaps Found",
     intro: "Your practice has significant digital visibility gaps that are actively costing you new patients right now. Most people searching for your specialty in your area are landing on a competitor instead.",
     insights: [
@@ -231,7 +231,7 @@ export default function ResultsPage() {
               { label: "Website", score: data.websiteScore },
               { label: "Paid Ads", score: data.adsScore },
             ].map(({ label, score }) => {
-              const barColor = score >= 70 ? "#3DAA6E" : score >= 40 ? "#C5A572" : "#E8611A";
+              const barColor = score >= 70 ? "#3DAA6E" : score >= 40 ? "#C5A572" : "#C5A572";
               return (
                 <div key={label} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
