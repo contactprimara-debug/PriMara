@@ -925,7 +925,7 @@ export const guidesPartTwenty: Guide[] = [
     "answer": "A visit types page lists each kind of appointment your practice books, such as new patient, follow-up, sick visit and annual wellness, with a plain one-line purpose and a typical length. Say lengths are scheduling blocks, not promises, and tell patients which type to ask for when they call.",
     "author": "Liam Costello",
     "publishDate": "2026-10-13T11:00:00Z",
-    "dateModified": "2026-11-16",
+    "dateModified": "2026-11-23",
     "readMinutes": 6,
     "sections": [
       {
@@ -1010,6 +1010,11 @@ export const guidesPartTwenty: Guide[] = [
           "Pricing for individual visits, unless you publish self-pay fees on purpose. Our guide on [publishing self-pay prices](/guides/how-to-publish-self-pay-prices-on-a-medical-practice-website) covers how to do that without confusion."
         ]
       },
+      {"type": "h2", "text": "Episodic visit: say it in patient words"},
+      {"type": "p", "text": "Some patients search for the term episodic visit. In plain words it means a visit for one short-term concern, as opposed to a regular check-in for ongoing care or a preventive checkup. Most practices call it a sick visit, same-day visit or problem visit. Use the words your patients use, and mention episodic visit once in brackets so the page can be found for the term."},
+      {"type": "table", "headers": ["What the patient says on the phone", "Visit type to offer"], "rows": [["I have a new problem this week", "Sick or problem visit"], ["I have not seen anyone in a few years", "New patient visit"], ["I need my yearly checkup", "Annual wellness or preventive visit"], ["I am following up on something we already discussed", "Follow-up visit"]]},
+      {"type": "h3", "text": "Leave the number of visits to the clinician"},
+      {"type": "p", "text": "Patients also ask how many visits they will need. A website cannot answer that, because it depends on the clinician and the patient. Say the clinician will explain the plan at the visit. Our guide to [preventive versus problem visits and how they are billed](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) shows how the labels differ."},
       {
         "type": "h2",
         "text": "A worked example of the wording"
@@ -1071,6 +1076,7 @@ export const guidesPartTwenty: Guide[] = [
       },
       { "q": "Should the website say how long each visit lasts?", "a": "Give a typical range and say it can vary. A short line noting that first visits usually take longer than follow-ups sets expectations without promising a time the schedule cannot always keep." },
       { "q": "How many visits will I need?", "a": "A website cannot say, because that depends on the clinician's judgment and the patient's situation. What the page can do is explain the visit types, how long each is scheduled for, and that the clinician will talk through next steps at the visit." },
+      {"q": "What is an episodic visit?", "a": "An episodic visit is a visit for a single, short-term concern rather than ongoing care. Many practices call it a sick visit or problem visit. Pick the name your patients use, and mention episodic visit once so people who search for the term can find the page."},
     ],
     "citations": [
       {

@@ -895,7 +895,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Build a short resources page that links to trusted public sources such as the CDC, the NIH and MedlinePlus, grouped by plain headings, with a sentence that says the page is general information and not advice for any one person. Check the links each quarter and never summarize treatment.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-23",
     readMinutes: 5,
     sections: [
       h2("Why send patients to public sources"),
@@ -935,6 +935,11 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Set a calendar reminder to click every link each quarter and replace anything that moved. Record the date on the page."
       ),
+      {"type": "h2", "text": "Name the page the way patients search"},
+      {"type": "p", "text": "Patients type plain phrases such as patient resources or patient education. Use one of those phrases in the page title, the main heading and the menu label, rather than a clever name that tells a visitor and a search engine nothing. Link the page from the footer and from the follow-up messages your office already sends."},
+      {"type": "table", "headers": ["Part of each link line", "How to write it"], "rows": [["Link text", "Name the agency and the topic, such as MedlinePlus, topic index."], ["One line of your own", "Say what the reader will find, for example plain-language pages on common health topics from the National Library of Medicine."], ["What stays out", "No doses, no treatment steps and no advice about what to do for a symptom."]]},
+      {"type": "h3", "text": "Keep emergency and crisis lines in one box"},
+      {"type": "p", "text": "Show the 911 line and the 988 Suicide and Crisis Lifeline together in a single box near the top of the page, so a patient in trouble does not have to scan the link groups to find them."},
       h2("A starter outline you can copy"),
       ol(
         "A two-sentence introduction that says what the page is and is not.",
@@ -967,6 +972,7 @@ export const guidesPartThirtyFour: Guide[] = [
         q: "Does this page help with search?",
         a: "It helps patients and can support trust signals, but it is not a ranking shortcut. Treat it as a service page and let your own visit pages carry the practice information.",
       },
+      {"q": "What should we call the patient resources page?", "a": "Use the words patients type, such as Patient Resources or Patient Education, in the page title, heading and menu label. A plain name tells visitors and search engines what the page is for. Avoid brand-style names, and keep the same wording in the footer link and in your follow-up messages."},
     ],
     citations: [CDC_HOME, NIH_HEALTH, MEDLINEPLUS, GOOGLE_HELPFUL],
     links: [

@@ -183,7 +183,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Size and spacing"),
       p(
-        "Fingers are bigger than cursors. The accessibility guidance on [target size](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets a floor of 24 CSS pixels, and most designers aim for 44 by 44 or larger on the main call button. Leave space around it so a tap near the edge does not land on a neighboring link. Our guide to [tap target size and spacing for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page) shows how to measure each button in a few minutes and what to ask a designer to change."
+        "Fingers are bigger than cursors. The accessibility guidance on [target size](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets a floor of 24 CSS pixels, and most designers aim for 44 by 44 or larger on the main call button. Leave space around it so a tap near the edge does not land on a neighboring link. Our guide to [tap target size and spacing for call and book buttons](/guides/tap-target-size-and-spacing-for-call-and-book-buttons-on-a-primary-care-practice-phone-page) shows how to measure each button in a few minutes and what to ask a designer to change. Test what happens when a finger slips onto the button and slides off, as described in our guide to [accidental taps on a call or book button](/guides/stray-touch-on-the-call-or-book-button-of-a-practice-phone-page-and-pointer-cancellation)."
       ),
       h3("Hours and after-hours"),
       p(

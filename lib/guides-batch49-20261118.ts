@@ -174,7 +174,7 @@ export const guidesPartForty12: Guide[] = [
         "Write down what you heard, and what you did not, and hand the note to your developer."
       ),
       p(
-        "Keep the wording itself plain and free of health details, as covered in the guide on [what to say on the thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it). If your form does load a separate thank-you page, that same page also keeps your lead tracking working, so do not replace it with an on-page message without checking with whoever manages your reports. We do not give legal advice, and one passing test does not by itself make a site conform to any standard."
+        "Keep the wording itself plain and free of health details, as covered in the guide on [what to say on the thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it). If your form does load a separate thank-you page, that same page also keeps your lead tracking working, so do not replace it with an on-page message without checking with whoever manages your reports. We do not give legal advice, and one passing test does not by itself make a site conform to any standard. A [monthly Lighthouse check of five key pages](/guides/monthly-lighthouse-accessibility-check-of-five-key-pages-of-a-primary-care-practice-website) will not catch a missing status message, so keep this listening test in the routine."
       ),
     ],
     faqs: [

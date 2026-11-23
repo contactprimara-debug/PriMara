@@ -964,7 +964,7 @@ export const guidesPartForty10: Guide[] = [
         "A counseling practice page with eight questions and answers can run to a full screen of text on a phone. Collapsing the answers keeps the page short, so a visitor sees the questions first and opens only the ones they care about. That is a sensible choice, as long as the collapsing is built so that nobody is locked out."
       ),
       p(
-        "Two groups can be locked out by a badly built accordion. One is people who use a keyboard or a screen reader. The other is search engines, which read the page's code, not its appearance. This guide covers both, using two primary sources that we read directly."
+        "Two groups can be locked out by a badly built accordion. One is people who use a keyboard or a screen reader. The other is search engines, which read the page's code, not its appearance. This guide covers both, using two primary sources that we read directly. The same logic applies to the page itself, where [named header, menu and main regions](/guides/page-landmarks-for-a-counseling-practice-website-so-a-screen-reader-user-can-jump-to-the-contact-form) let a screen reader jump to the part of the page a visitor needs."
       ),
       h2("What the W3C accordion pattern requires"),
       p(

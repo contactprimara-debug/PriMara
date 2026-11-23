@@ -850,7 +850,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "When a therapist leaves a counseling practice, clients need a clear notice with the last day of service, their options for staying or moving, how to get their records and who to call. The practice should tell clients directly before changing public pages, then update the website and listings and avoid saying where the therapist went without permission.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-11-09",
+    dateModified: "2026-11-23",
     readMinutes: 6,
     sections: [
       h2("Clients hear it first, the website hears it second"),
@@ -883,6 +883,11 @@ export const guidesPartTwentyFive: Guide[] = [
       p(
         "Records need special care. Clients have rights to their records, and a practice should have a written process for authorization and delivery. Our guide on a [medical records request page](/guides/medical-records-request-page-for-a-practice-how-patients-ask-for-their-records) shows how to describe it, and the federal privacy guidance linked below sets the baseline. If the whole practice is closing, not just one clinician, follow our guide to a [practice closing and records custodian notice](/guides/practice-closing-and-records-custodian-notice-for-a-counseling-practice-without-legal-advice) so clients know who holds records and how to ask."
       ),
+      {"type": "h2", "text": "When the leaving clinician has open items"},
+      {"type": "p", "text": "Before the last day, the practice should name one covering clinician or manager who reviews anything still open for the departing therapist: pending requests, sessions booked after the last day, and any referral that was started but not finished. The client notice should say who to call about those items, without naming any client."},
+      {"type": "h3", "text": "A short order of contact"},
+      {"type": "ol", "items": ["The practice owner sets the last day and names the covering person.", "The practice tells clients directly, by phone, letter or secure message as agreed.", "The covering person takes ownership of each open item.", "The website, Google profile and directories change only after clients have been told.", "The therapist's own directory profiles are updated with the practice's permission."]},
+      {"type": "p", "text": "A therapist who is leaving should follow the practice's agreed plan and the licensing board's rules on continuity of care, and should not contact clients outside that plan. We do not give legal advice, so confirm the specifics with the practice's attorney or board."},
       h2("Update the public side"),
       ul(
         "Remove or archive the therapist's bio page with a redirect to the team page, not a dead link.",
@@ -929,6 +934,7 @@ export const guidesPartTwentyFive: Guide[] = [
         q: "Is a letter or an email better for the notice?",
         a: "Use the contact method each client chose, and avoid sending anything revealing to an address or phone the client has not approved. A call from the practice before the written notice is kind, and a short secure message follows.",
       },
+      {"q": "Who takes over a leaving clinician's open referrals and pending requests?", "a": "The practice should name a covering clinician or manager before the last day, and the client notice should say who to call. Keep the list of open items in the practice's secure system, never on the public site, and confirm each item has an owner before the final day."},
     ],
     citations: [HHS_PRIVACY, LIFELINE, FL_MENTAL],
     links: [

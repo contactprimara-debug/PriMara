@@ -1515,7 +1515,7 @@ export const guidesPartTwentyFour: Guide[] = [
       "When scammers imitate a medical practice by text or email, the practice should tell patients in plain words how it really contacts them, what it will never ask for, and where to report a suspicious message, without describing any individual patient's situation. Post the notice on the website and voicemail and keep it short.",
     author: "Gio LaRoche",
     publishDate: "2026-10-19T13:40:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-23",
     readMinutes: 6,
     sections: [
       h2("The problem patients will blame on you"),
@@ -1559,6 +1559,12 @@ export const guidesPartTwentyFour: Guide[] = [
       p(
         "Do not confirm in public that a particular person is a patient, even when thanking them for the report. The same discipline applies to online comments, as our guide on [responding to positive reviews without confirming someone is a patient](/guides/responding-to-positive-google-reviews-without-confirming-someone-is-a-patient) explains."
       ),
+      {"type": "h2", "text": "Name your real senders so a fake stands out"},
+      {"type": "p", "text": "Patients who search for an unfamiliar sender address or a short text number are usually trying to answer one question: is this really my doctor's office? You can answer it before they ask. In the notice, list the exact phone number or short code your reminder texts come from, and the domain your email comes from, meaning the part after the @ sign."},
+      {"type": "table", "headers": ["What a patient sees", "What your notice should tell them"], "rows": [["A text from a short number of five or six digits", "Name the number if your reminder service uses one, and say what it sends, such as reminders only."], ["An email from a mailing-service address, not your practice domain", "Many practices send through an outside mailing service. Say so, name the sending domain and add that no message asks for a password or card number."], ["A link inside a message", "Say that real messages link only to your website or portal address, and print that address."], ["A message that mentions a payment", "Point to the page where real bill pay lives, so a payment request has something to be checked against."]]},
+      {"type": "p", "text": "An unfamiliar sender is not proof of a scam, because practices do use outside services. The test is whether the practice has told patients about that service in public. If your notice names none, a patient cannot tell a genuine message from a fake, and the safest advice is to call the office on the number printed on the website."},
+      {"type": "h3", "text": "Get the list from your vendors"},
+      {"type": "ol", "items": ["Ask your reminder service which phone number or short code it sends from.", "Ask whoever runs your email which domain the office and any mailing service use.", "Write both on the notice in plain text, next to the office phone number.", "Update the list the day you change vendors, and date the notice again."]},
       h2("Protect the practice's own accounts"),
       p(
         "Sometimes a scam reflects a real problem, such as a compromised email account or a leaked contact list. Review who has access to the reminder system, turn on two-step sign-in for email and the patient portal, and check that your domain's mail records are set up so others cannot easily send fake mail in your name. Our guide on [professional domain email for a medical practice](/guides/professional-domain-email-for-a-medical-practice-instead-of-gmail) covers the records to set. Government guidance on recognizing and reporting phishing is a good thing to link for patients. When the scam is a full copycat site or fake profile rather than a single message, our guide to [copycat websites and fake social profiles that impersonate a practice](/guides/copycat-website-or-fake-social-profile-impersonating-a-medical-practice-what-to-do) lists the reports to file."
@@ -1595,6 +1601,7 @@ export const guidesPartTwentyFour: Guide[] = [
         a: "Yes, and it is one of the best places for it. A single line reminding patients that the office never asks for a password by text or email protects them at the moment they are most likely to be tricked.",
       },
       { "q": "What should a patient do if they already tapped a link in a suspicious message?", "a": "Tell the front desk, change any password they typed into the page and watch their accounts for odd activity. The practice should note the report and remind patients that real messages never ask for health details by text." },
+      {"q": "A message came from an address I do not recognize. Is it the practice?", "a": "Not necessarily. Practices often send through outside mailing services, and scammers also imitate them. Do not click or reply. Look up the office number on its website, call, and ask whether it sent the message. A practice that lists its real sending numbers and domains in a public notice makes this check quick."},
     ],
     citations: [FTC_REPORT, CISA_PHISHING, HHS_PRIVACY],
     links: [

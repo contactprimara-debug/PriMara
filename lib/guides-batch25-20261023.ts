@@ -177,7 +177,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Do not rely on color alone. If a field has an error, say so in words and place the message next to the field."
       ),
       p(
-        "The W3C [forms tutorial](https://www.w3.org/WAI/tutorials/forms/) shows how labels, instructions and error messages should be connected in the code so a screen reader announces them in the right order. Ask your web designer to confirm that each field has a real label tied to it. The sign-in step has its own rules, covered in our guide to [portal sign-in that allows a password manager and paste](/guides/patient-portal-sign-in-that-allows-a-password-manager-and-paste-on-a-medical-practice-website), which you can test without signing in."
+        "The W3C [forms tutorial](https://www.w3.org/WAI/tutorials/forms/) shows how labels, instructions and error messages should be connected in the code so a screen reader announces them in the right order. Ask your web designer to confirm that each field has a real label tied to it. The sign-in step has its own rules, covered in our guide to [portal sign-in that allows a password manager and paste](/guides/patient-portal-sign-in-that-allows-a-password-manager-and-paste-on-a-medical-practice-website), which you can test without signing in. Check the field borders too, because a very faint outline can hide a field from a visitor with low vision, as our guide to [pale form borders and button outlines](/guides/pale-form-field-borders-and-button-outlines-on-the-contact-form-of-a-medical-practice-website) explains."
       ),
       h2("Use words a ten-year-old could read"),
       p(

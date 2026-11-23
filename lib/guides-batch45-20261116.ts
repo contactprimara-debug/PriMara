@@ -93,7 +93,7 @@ export const guidesPartForty8: Guide[] = [
         "Look away from the screen or lower the brightness. If you can see the layout, you will not hear the gaps."
       ),
       p(
-        "Each device starts its reader from its accessibility settings. If you have never used one, spend a minute on the built-in practice mode first, because the gestures feel strange for the first few tries."
+        "Each device starts its reader from its accessibility settings. If you have never used one, spend a minute on the built-in practice mode first, because the gestures feel strange for the first few tries. Once it is on, open the landmarks list to see whether the page has a main region and labeled menus, which our guide to [page landmarks on a counseling practice site](/guides/page-landmarks-for-a-counseling-practice-website-so-a-screen-reader-user-can-jump-to-the-contact-form) explains."
       ),
       h2("The five minutes, one minute at a time"),
       ol(
@@ -124,7 +124,7 @@ export const guidesPartForty8: Guide[] = [
       ),
       h2("Repeat it after any change"),
       p(
-        "Run the five minutes again whenever the form, the booking widget or the contact page layout changes. Put it on the calendar next to your other routine checks, such as the [quarterly secret shopper test](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients). Run the keyboard-only version as well, since our guide to [keyboard focus outline and tab order on booking and contact pages](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website) shows how a person who cannot use a mouse moves through the same pages."
+        "Run the five minutes again whenever the form, the booking widget or the contact page layout changes. Put it on the calendar next to your other routine checks, such as the [quarterly secret shopper test](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients). Run the keyboard-only version as well, since our guide to [keyboard focus outline and tab order on booking and contact pages](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website) shows how a person who cannot use a mouse moves through the same pages. Pair it with a [monthly Lighthouse accessibility check of five key pages](/guides/monthly-lighthouse-accessibility-check-of-five-key-pages-of-a-primary-care-practice-website) so the automated basics and the listening test both get done."
       ),
     ],
     faqs: [

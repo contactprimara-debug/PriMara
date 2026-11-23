@@ -954,7 +954,7 @@ export const guidesPartSixteen: Guide[] = [
     "answer": "Sign in to your Google Business Profile, open the business information, and correct the address and the pin position so it sits on your actual entrance. Save, then watch for a review or re-verification request. If an edit does not appear, check for a suggested edit overriding it, or a duplicate listing.",
     "author": "Gio LaRoche",
     "publishDate": "2026-10-09T09:00:00Z",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-23",
     "readMinutes": 7,
     "sections": [
       {
@@ -1038,6 +1038,11 @@ export const guidesPartSixteen: Guide[] = [
         "type": "p",
         "text": "Suggested edits are a frequent cause. We cover the review process in [how to handle Google Business Profile suggested edits](/guides/how-to-handle-google-business-profile-suggested-edits), and the duplicate case in [fixing duplicate Google Business Profile listings](/guides/fix-duplicate-google-business-profile-listings)."
       },
+      {"type": "h2", "text": "Keep a short log so a stuck fix can be explained"},
+      {"type": "p", "text": "When an edit will not hold, the problem is often a history nobody wrote down. Keep four items in one folder so that anyone looking into the listing, including Google support, sees the facts at once."},
+      {"type": "table", "headers": ["What to record", "Why it helps"], "rows": [["Date and the exact change made", "Shows whether the pin moved after a suggested edit or a re-verification."], ["Screenshots before and after", "Proves what the map showed on each date."], ["Photo of the entrance and its signage", "Shows which door patients should use."], ["Address text copied from your website", "Lets you confirm the profile, site and directories all match."]]},
+      {"type": "h3", "text": "Put the pin on the door patients use"},
+      {"type": "p", "text": "Zoom in until the building outline shows, then place the marker on the entrance patients walk through, not in the middle of the parking lot or at the center of the building. In a medical park that may be a side or rear door, and a sentence on your contact page can say so."},
       {
         "type": "h2",
         "text": "Shared buildings and service areas"
@@ -1079,7 +1084,8 @@ export const guidesPartSixteen: Guide[] = [
       {
         "q": "Do I need to verify again after an address change?",
         "a": "You may be asked to. Follow the prompt in your profile, and keep your account owner's contact details current so the verification code reaches the right person."
-      }
+      },
+      {"q": "Should the pin sit on the building or the front door?", "a": "Place it on the entrance patients actually use. Zoom in until the building outline is clear and put the marker at that door. If patients park on a different side or use a rear entrance, add one sentence on your contact page to say where to walk."},
     ],
     "citations": [
       {

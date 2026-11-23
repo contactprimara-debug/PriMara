@@ -98,10 +98,10 @@ export const guidesPartForty11: Guide[] = [
       ),
       h2("What to hand your web designer"),
       p(
-        "Give your designer three things: the list of failing pairs, the target ratios from this guide, and a request to keep the brand colors where they pass and adjust them only where they do not. Brand blues and greens are often fine for large headings and fail for small text, so the usual fix is a darker shade for small text rather than a new logo color. Line, letter and word spacing is another setting patients change, so also run the ten-minute check in our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page)."
+        "Give your designer three things: the list of failing pairs, the target ratios from this guide, and a request to keep the brand colors where they pass and adjust them only where they do not. Brand blues and greens are often fine for large headings and fail for small text, so the usual fix is a darker shade for small text rather than a new logo color. Line, letter and word spacing is another setting patients change, so also run the ten-minute check in our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page). Ask also whether any banner holds words as a picture, since [text baked into images](/guides/text-baked-into-images-on-a-medical-practice-website-hero-banners-and-insurance-logo-strips) cannot be recolored to meet a ratio."
       ),
       p(
-        "This check belongs in the same routine as the rest of your accessibility work. The wider picture is in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website), and a spoken-aloud pass is described in the [five-minute screen reader test of the contact and booking pages](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills). We do not give legal advice, and passing this one check does not by itself make a site compliant."
+        "This check belongs in the same routine as the rest of your accessibility work. The wider picture is in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website), and a spoken-aloud pass is described in the [five-minute screen reader test of the contact and booking pages](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills). We do not give legal advice, and passing this one check does not by itself make a site compliant. Form field borders and button outlines follow a separate 3 to 1 rule, which our guide to [pale form borders on a contact form](/guides/pale-form-field-borders-and-button-outlines-on-the-contact-form-of-a-medical-practice-website) walks through."
       ),
     ],
     faqs: [
@@ -188,7 +188,7 @@ export const guidesPartForty11: Guide[] = [
         "Many counseling practices embed a scheduling or intake tool that lives inside a frame. Run the same Tab test through it. You cannot change the vendor's code, but you can report what you found, and you can place a plain phone link and a contact form beside it so there is always a keyboard-friendly way to reach the office."
       ),
       p(
-        "When you find a problem, write down the page, the step where it happened, the browser you used and what you expected. That note is far more useful to a designer or vendor than the sentence that the form does not work. Our guide on the [website accessibility statement and how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows where visitors can send their own reports, and the [five-minute screen reader test](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills) is the natural next check."
+        "When you find a problem, write down the page, the step where it happened, the browser you used and what you expected. That note is far more useful to a designer or vendor than the sentence that the form does not work. Our guide on the [website accessibility statement and how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows where visitors can send their own reports, and the [five-minute screen reader test](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills) is the natural next check. A [skip link that jumps past the menu](/guides/skip-link-at-the-top-of-a-medical-practice-page-so-a-keyboard-user-reaches-the-phone-number-and-contact-form) is worth adding before you test tab order, since it cuts the number of key presses a visitor needs to reach the form."
       ),
     ],
     faqs: [
@@ -271,7 +271,7 @@ export const guidesPartForty11: Guide[] = [
       ),
       h2("Resizing text without breaking the layout"),
       p(
-        "A related criterion, Resize Text, asks that text can be enlarged to 200 percent without assistive technology and without losing content or function. Test that too by zooming the text alone through the browser settings. Buttons whose labels get cut off, or a phone number that overlaps the logo, are signs that the layout was built to a fixed height. Patients who widen the spacing between lines and letters can break the same boxes, as our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page) shows with a ten-minute test."
+        "A related criterion, Resize Text, asks that text can be enlarged to 200 percent without assistive technology and without losing content or function. Test that too by zooming the text alone through the browser settings. Buttons whose labels get cut off, or a phone number that overlaps the logo, are signs that the layout was built to a fixed height. Patients who widen the spacing between lines and letters can break the same boxes, as our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page) shows with a ten-minute test. Words baked into a banner image will not enlarge cleanly at all, which is why our guide on [text inside hero banners and logo strips](/guides/text-baked-into-images-on-a-medical-practice-website-hero-banners-and-insurance-logo-strips) recommends real text."
       ),
       p(
         "Hand your designer the list of broken spots with a screenshot at 400 percent. Ask for the fix on the template, so every page inherits it, rather than patching one page at a time. If the page also has trouble loading, our [mobile first indexing guide](/guides/mobile-first-indexing-explained-for-a-medical-practice-website) explains why the phone version is the one Google reads, and the [print-friendly version guide](/guides/print-friendly-version-of-a-new-patient-information-page-so-a-primary-care-patient-can-print-directions-and-what-to-bring) covers another layout worth checking."
@@ -343,7 +343,7 @@ export const guidesPartForty11: Guide[] = [
         "Essential: a particular size that the information cannot do without."
       ),
       p(
-        "The inline exception is why a link in a paragraph passes while a stack of footer links does not. Footer menus, with five links on five lines and almost no space between them, are the classic failure on practice sites."
+        "The inline exception is why a link in a paragraph passes while a stack of footer links does not. Footer menus, with five links on five lines and almost no space between them, are the classic failure on practice sites. The same thinking applies to maps and photo rows, which need plain buttons as well as dragging, as our guide to a [contact page map or slider without dragging](/guides/map-or-slider-on-the-contact-page-of-a-medical-practice-that-works-without-dragging) explains."
       ),
       h2("Measure your own buttons in five minutes"),
       ol(
@@ -366,7 +366,7 @@ export const guidesPartForty11: Guide[] = [
         "A tap target is also a lead. If the phone number is plain text rather than a tappable link, there is no target at all. Use a real telephone link and make the whole button, not just the number, the tappable area. Our guide to the [click-to-call button and mobile layout](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) shows where to place it, and the one on [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website) explains the link itself. Icon-only call and menu buttons also need a spoken name, which our guide on [giving a phone or menu icon a spoken name](/guides/phone-and-menu-icon-buttons-that-need-a-spoken-name-on-a-primary-care-practice-website) explains step by step."
       ),
       p(
-        "Keep banners and chat bubbles from crowding the button. A floating chat icon parked directly over a Book button is a common cause of mis-taps, which our guide to [pop-ups, banners and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) discusses in more detail."
+        "Keep banners and chat bubbles from crowding the button. A floating chat icon parked directly over a Book button is a common cause of mis-taps, which our guide to [pop-ups, banners and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) discusses in more detail. Spacing is only half of preventing slips, because the button should also act when the finger lifts, which our guide to a [stray touch on the call or book button](/guides/stray-touch-on-the-call-or-book-button-of-a-practice-phone-page-and-pointer-cancellation) shows how to test."
       ),
     ],
     faqs: [
@@ -444,7 +444,7 @@ export const guidesPartForty11: Guide[] = [
       ),
       h3("Our simple recommendation for a counseling practice"),
       p(
-        "Skip the carousel. Use one still photo or plain color block with a short headline, one sentence on who you see, and the Call and Request buttons. A carousel splits the visitor's attention across several messages, and slides after the first tend to go unseen. If you want to keep a video, start it paused with a play button, so the visitor decides whether to watch."
+        "Skip the carousel. Use one still photo or plain color block with a short headline, one sentence on who you see, and the Call and Request buttons. A carousel splits the visitor's attention across several messages, and slides after the first tend to go unseen. If you want to keep a video, start it paused with a play button, so the visitor decides whether to watch. If a sliding row stays, give it arrow buttons, since a [slider that works without dragging](/guides/map-or-slider-on-the-contact-page-of-a-medical-practice-that-works-without-dragging) can still be used by someone who cannot press and move at once."
       ),
       h2("If you keep the movement"),
       p(
@@ -537,7 +537,7 @@ export const guidesPartForty11: Guide[] = [
         "Fix the top item, run the report again and compare. Record the before and after scores in your monthly notes."
       ),
       p(
-        "Test on a real phone as well, on mobile data rather than office Wi-Fi. If the page is still moving, our guide on [lazy-loading images below the fold](/guides/lazy-loading-images-below-the-fold-on-a-practice-page-without-delaying-the-top-picture) and the one on [resizing photos before upload](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone) cover the remaining image causes."
+        "Test on a real phone as well, on mobile data rather than office Wi-Fi. If the page is still moving, our guide on [lazy-loading images below the fold](/guides/lazy-loading-images-below-the-fold-on-a-practice-page-without-delaying-the-top-picture) and the one on [resizing photos before upload](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone) cover the remaining image causes. Rotate the phone during the test as well, because a [booking page that still works when the phone is turned sideways](/guides/booking-page-of-a-medical-practice-that-still-works-when-a-patient-turns-the-phone-sideways) should not jump or lose entries."
       ),
     ],
     faqs: [
@@ -712,7 +712,7 @@ export const guidesPartForty11: Guide[] = [
         "Keep the dimensions on every picture, lazy or not. Without them the page jumps as each picture arrives, which our guide on [layout shift on a practice page](/guides/layout-shift-on-a-practice-page-that-jumps-while-loading-on-a-phone-fixed-with-image-sizes) explains. The article also says frames, such as an embedded map, can be lazy-loaded with the same attribute."
       ),
       p(
-        "Before upload, shrink the files, as covered in our guide to [resizing and compressing office and staff photos](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone). Lazy loading is a second step, not a substitute for sending smaller pictures. Describe each picture too, as in the guide to [image SEO and alt text](/guides/image-seo-and-alt-text-for-a-medical-practice-website)."
+        "Before upload, shrink the files, as covered in our guide to [resizing and compressing office and staff photos](/guides/resizing-and-compressing-office-and-staff-photos-before-upload-so-a-practice-page-loads-fast-on-a-phone). Lazy loading is a second step, not a substitute for sending smaller pictures. Describe each picture too, as in the guide to [image SEO and alt text](/guides/image-seo-and-alt-text-for-a-medical-practice-website). Words that a patient needs, such as a phone number or hours, belong in real text rather than inside a picture, as our guide to [text baked into banner images](/guides/text-baked-into-images-on-a-medical-practice-website-hero-banners-and-insurance-logo-strips) explains."
       ),
     ],
     faqs: [
@@ -1064,7 +1064,7 @@ export const guidesPartForty11: Guide[] = [
         "Open the page source and look at the input tags. If the autocomplete value is missing, send your designer the table above. If it is present and the phone still does not fill, the phone's own saved details may be missing, which is a setting on the phone rather than your site."
       ),
       p(
-        "Beyond autofill, make the labels readable, as covered in our guide on [accessible intake forms for patients with low vision](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website), and keep the confirmation clear with a [thank-you page](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) that your tracking can count."
+        "Beyond autofill, make the labels readable, as covered in our guide on [accessible intake forms for patients with low vision](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website), and keep the confirmation clear with a [thank-you page](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) that your tracking can count. Make sure each box is also easy to see, since [pale form borders can make a field vanish](/guides/pale-form-field-borders-and-button-outlines-on-the-contact-form-of-a-medical-practice-website) for a patient with low vision."
       ),
     ],
     faqs: [
