@@ -237,15 +237,14 @@ export default function ContactSection() {
 
                   {/* Field 4: Reason for Contact */}
                   <Field>
-                    <FieldLabel htmlFor="reason">Reason for Contact *</FieldLabel>
+                    <FieldLabel htmlFor="reason">Reason for Contact (optional)</FieldLabel>
                     <select
                       id="reason"
                       name="reason"
-                      required
-                      defaultValue=""
+                                      defaultValue=""
                       style={selectStyle}
                     >
-                      <option value="" disabled>Select a reason…</option>
+                      <option value="">Select a reason…</option>
                       <option value="Request a Free Practice Audit">Request a Free Practice Audit</option>
                       <option value="Learn About Our Services">Learn About Our Services</option>
                       <option value="Pricing and Packages">Pricing and Packages</option>
