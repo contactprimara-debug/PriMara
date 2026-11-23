@@ -81,7 +81,7 @@ export default function HashScroll() {
     function run() {
       if (cancelled) return;
       if (!document.getElementById(id)) {
-        if (attempts++ < 40) requestAnimationFrame(run);
+        if (attempts++ < 40) setTimeout(run, 50); // setTimeout, not rAF: rAF never fires in unfocused/background tabs
         return;
       }
       // Neutralize whatever instant jump the browser/router already did so
@@ -97,7 +97,7 @@ export default function HashScroll() {
       } else {
         window.scrollTo(0, 0);
       }
-      requestAnimationFrame(() => scrollToHash(id));
+      setTimeout(() => scrollToHash(id), 30);
     }
 
     const t = setTimeout(run, 120);
