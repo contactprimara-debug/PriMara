@@ -48,6 +48,21 @@ function scrollToHash(id: string) {
   } else {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+  // Last-resort guarantee (2026-11-22, card #872): without Lenis (phones, reduced
+  // motion) a smooth scrollIntoView can be a silent no-op, which left every
+  // /contact#contact-form arrival at scrollY 0. If the target is still not near
+  // the top once the glide should have finished, jump there instantly.
+  setTimeout(() => {
+    const top = target.getBoundingClientRect().top;
+    const maxY = document.documentElement.scrollHeight - window.innerHeight;
+    if (Math.abs(top - 80) > 120 && window.scrollY < maxY - 2) {
+      const y2 = Math.min(maxY, Math.max(0, top + window.scrollY - 80));
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const lz = (window as any).lenis;
+      if (lz) lz.scrollTo(y2, { immediate: true });
+      window.scrollTo({ top: y2, behavior: 'instant' as ScrollBehavior });
+    }
+  }, 1500);
   return true;
 }
 

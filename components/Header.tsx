@@ -579,8 +579,11 @@ export default function Header() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center",
+            justifyContent: "flex-start",
             gap: "clamp(20px, 4vh, 36px)",
+            overflowY: "auto",
+            overscrollBehavior: "contain",
+            padding: "72px 0 40px",
           }}
         >
           {/* Close button */}
@@ -588,7 +591,7 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
             aria-label="Close menu"
             style={{
-              position: "absolute",
+              position: "fixed",
               top: "18px",
               right: "24px",
               background: "none",
@@ -780,8 +783,6 @@ export default function Header() {
           <a
             href={`tel:${siteConfig.phone}`}
             style={{
-              position: "absolute",
-              bottom: "40px",
               fontFamily: "system-ui, sans-serif",
               fontSize: "11px",
               letterSpacing: "0.1em",
