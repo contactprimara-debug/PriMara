@@ -253,23 +253,6 @@ export default function ContactSection() {
                     </select>
                   </Field>
 
-                  {/* Field 5: Best Time to Call */}
-                  <Field>
-                    <FieldLabel htmlFor="callTime">Best Time to Call *</FieldLabel>
-                    <select
-                      id="callTime"
-                      name="callTime"
-                      required
-                      defaultValue=""
-                      style={selectStyle}
-                    >
-                      <option value="" disabled>Select a time…</option>
-                      <option value="Morning (8am–12pm)">Morning (8am–12pm)</option>
-                      <option value="Afternoon (12pm–5pm)">Afternoon (12pm–5pm)</option>
-                      <option value="Either works">Either works</option>
-                    </select>
-                  </Field>
-
                   {/* Error message */}
                   {state.status === "error" && (
                     <p

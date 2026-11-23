@@ -26,7 +26,6 @@ export default function ContactFinal() {
   const [name, setName] = useState('');
   const [practiceName, setPracticeName] = useState('');
   const [phone, setPhone] = useState('');
-  const [callbackTime, setCallbackTime] = useState('Anytime');
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
@@ -48,7 +47,6 @@ export default function ContactFinal() {
       name,
       practiceName,
       phone,
-      callTime: callbackTime,
       company: hp,
     };
 
@@ -259,24 +257,6 @@ export default function ContactFinal() {
                       onChange={(e) => setPhone(e.target.value)}
                       className="contact-input"
                     />
-                  </div>
-
-                  {/* Field 4: Best Callback Time */}
-                  <div className="contact-field-group">
-                    <label htmlFor="cf-time" className="contact-field-label">
-                      Best Callback Time
-                    </label>
-                    <select
-                      id="cf-time"
-                      name="callbackTime"
-                      value={callbackTime}
-                      onChange={(e) => setCallbackTime(e.target.value)}
-                      className="contact-input contact-select"
-                    >
-                      <option value="Morning (8am–12pm)">Morning (8am–12pm)</option>
-                      <option value="Afternoon (12pm–5pm)">Afternoon (12pm–5pm)</option>
-                      <option value="Anytime">Anytime</option>
-                    </select>
                   </div>
 
                   <SmsConsentLine />

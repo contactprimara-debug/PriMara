@@ -23,7 +23,7 @@ export async function submitPackageInquiry(
   const notes = (formData.get("notes") as string)?.trim() || "(none)";
   const pkg = (formData.get("package") as string)?.trim();
 
-  if (!name || !email || !phone || !practice || !pkg) {
+  if (!name || !phone || !practice || !pkg) {
     return { status: "error", error: "Please fill in all required fields." };
   }
 
@@ -67,14 +67,14 @@ export async function submitPackageInquiry(
     sendLeadEmail({
       tag: "packageInquiry",
       subject: `Package inquiry — ${pkg} — ${name} (${practice})`,
-      replyTo: email,
+      replyTo: email || undefined,
       text: [
         `NEW PACKAGE INQUIRY`,
         ``,
         `Package: ${pkg}`,
         `Name: ${name}`,
         `Practice: ${practice}`,
-        `Email: ${email}`,
+        ...(email ? [`Email: ${email}`] : []),
         `Phone: ${phone}`,
         ``,
         `Notes:`,

@@ -188,13 +188,12 @@ export default function PackageInquiryForm({
         >
           <div>
             <label htmlFor="pkg-email" style={labelStyle}>
-              Email
+              Email (optional)
             </label>
             <input
               id="pkg-email"
               name="email"
               type="email"
-              required
               autoComplete="email"
               style={inputStyle}
               placeholder="you@practice.com"
