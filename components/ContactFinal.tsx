@@ -195,7 +195,7 @@ export default function ContactFinal() {
           <div>
 
             {/* Form wrapper — GSAP animates this out on submit */}
-            <div ref={formWrapRef} className="contact-form">
+            <div ref={formWrapRef} id="contact-form" className="contact-form" style={{ scrollMarginTop: 80 }}>
               <form onSubmit={handleSubmit} action="/api/contact" method="POST" noValidate>
                 <HoneypotField />
                 <div

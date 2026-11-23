@@ -110,7 +110,7 @@ export default function MobileCTABar() {
 
       {/* RIGHT 40% — straight to the form */}
       <a
-        href="/contact#contact-form"
+        href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
         className="flex items-center justify-center"
         style={{
           width: "40%",

@@ -97,9 +97,9 @@ export default function HomePage() {
               More patient calls and forms from Google search, AI answers and your Google Business Profile. Healthcare practices only.
             </p>
             <div className="rh-cta-row rh-up" style={{ animationDelay: "0.32s" }}>
-              <Link prefetch={false} href="/contact#contact-form" className="rh-btn" data-cta="home-hero-book">
+              <a href="#contact-form" className="rh-btn" data-cta="home-hero-book">
                 Book a call <span aria-hidden="true">↗</span>
-              </Link>
+              </a>
               <a href="#how" className="rh-link" data-cta="home-hero-explore">
                 See how it works <span aria-hidden="true">↓</span>
               </a>
@@ -268,7 +268,7 @@ export default function HomePage() {
           <h2 className="rh-h2 rh-h2-xl" data-rv>Let&rsquo;s put your practice on the map.</h2>
           <p className="rh-body" data-rv>Two founders. No account managers. Tell us about your practice and we will show you what we would fix first.</p>
           <div className="rh-cta-row" data-rv>
-            <Link prefetch={false} href="/contact#contact-form" className="rh-btn" data-cta="home-close-book">Book a call <span aria-hidden="true">↗</span></Link>
+            <a href="#contact-form" className="rh-btn" data-cta="home-close-book">Book a call <span aria-hidden="true">↗</span></a>
             <a href={`tel:${siteConfig.phone}`} className="rh-link rh-nowrap" data-cta="home-close-call">Call {siteConfig.phoneDisplay.replace(/ /g, " ")}</a>
           </div>
         </div>
