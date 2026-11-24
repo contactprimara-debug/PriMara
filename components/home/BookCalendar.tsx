@@ -34,7 +34,7 @@ export default function BookCalendar() {
           {open ? (
             <iframe title="Book a 30 minute call with Primara" src={url} loading="lazy" />
           ) : (
-            <button type="button" className="rh-book-ph" onClick={go} aria-label="Show the booking calendar">
+            <button type="button" className="rh-book-ph" onClick={go}>
               <span>Open times appear here</span>
             </button>
           )}
