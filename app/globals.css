@@ -681,9 +681,9 @@ section + section blockquote {
 }
 
 /* ── Mobile CTA bar — keep the footer clear of the fixed bar ────────────── */
-/* Class is added to <body> by MobileCTABar; bar is md:hidden so the padding
-   only applies below Tailwind's md breakpoint. */
-@media (max-width: 767px) {
+/* Class is added to <body> by MobileCTABar; bar is hidden from 1120px up so the padding
+   only applies below that width (the header CTA does not fit under it). */
+@media (max-width: 1119px) {
   body.has-mobile-cta {
     padding-bottom: calc(60px + env(safe-area-inset-bottom));
   }

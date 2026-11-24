@@ -67,7 +67,7 @@ export default function MobileCTABar() {
       role="complementary"
       aria-label="Quick contact bar"
       aria-hidden={!visible}
-      className="md:hidden fixed left-0 right-0 flex"
+      className="min-[1120px]:hidden fixed left-0 right-0 flex"
       style={{
         bottom: 0,
         zIndex: 500,

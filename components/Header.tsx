@@ -153,7 +153,7 @@ export default function Header() {
             alignItems: "center",
             gap: "clamp(16px, 2.2vw, 36px)",
           }}
-          className="hidden md:flex"
+          className="hidden min-[1120px]:flex"
         >
           {/* Home */}
           <Link prefetch={false}
@@ -469,7 +469,7 @@ export default function Header() {
 
         {/* Right — phone + CTA */}
         <div
-          className="hidden md:flex"
+          className="hidden min-[1120px]:flex"
           style={{
             gap: "20px",
             alignItems: "center",
@@ -518,7 +518,7 @@ export default function Header() {
 
         {/* Right — mobile hamburger */}
         <div
-          className="flex md:hidden"
+          className="flex min-[1120px]:hidden"
           style={{ justifyContent: "flex-end" }}
         >
           <button
