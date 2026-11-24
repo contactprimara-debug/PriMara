@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 /* In-content conversion block for /guides/*. Added 2026-11-14 (growth-hunter):
@@ -31,9 +30,9 @@ export default function GuideCta({ variant }: { variant: "top" | "mid" }) {
         data-cta="guide-top"
         style={{ display: "flex", alignItems: "center", gap: "14px 20px", flexWrap: "wrap", marginTop: "1.25rem" }}
       >
-        <Link prefetch={false} href="/contact#contact-form" style={btn}>
+        <a href="#contact-form" style={btn}>
           Get my free audit
-        </Link>
+        </a>
         <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.85rem", color: "var(--smoke)" }}>
           or call <a href={`tel:${siteConfig.phone}`} style={call}>{phone}</a>
         </span>
@@ -60,9 +59,9 @@ export default function GuideCta({ variant }: { variant: "top" | "mid" }) {
         We look at your Google profile, your site and your competitors, then send you a written plan. Free, no obligation.
       </p>
       <div style={{ display: "flex", alignItems: "center", gap: "12px 20px", flexWrap: "wrap" }}>
-        <Link prefetch={false} href="/contact#contact-form" style={btn}>
+        <a href="#contact-form" style={btn}>
           Send me my free audit
-        </Link>
+        </a>
         <a href={`tel:${siteConfig.phone}`} style={call}>Call {phone}</a>
       </div>
     </aside>

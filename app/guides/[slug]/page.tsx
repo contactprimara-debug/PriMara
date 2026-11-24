@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Fragment, type ReactNode } from "react";
 import GuideCta from "@/components/GuideCta";
+import ContactSection from "@/components/ContactSection";
 import Link from "next/link";
 import { guides, getGuide } from "@/lib/guides";
 import type { Guide, GuideSection } from "@/lib/guides";
@@ -579,46 +580,10 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
               </li>
             ))}
           </ul>
-
-          {/* CTA */}
-          <div
-            style={{
-              border: "1px solid var(--wire)",
-              borderRadius: "10px",
-              padding: "1.75rem",
-              background: "var(--surface-2)",
-              textAlign: "center",
-            }}
-          >
-            <h2 style={{ fontFamily: serif, fontSize: "1.5rem", color: "var(--color-text)", fontWeight: 700, margin: "0 0 0.6rem" }}>
-              Want this done for your practice?
-            </h2>
-            <p style={{ color: "var(--color-text-muted)", lineHeight: 1.7, margin: "0 0 1.25rem" }}>
-              We audit your profile, your competitors, and your market first — then tell you what it would take. No obligation.
-            </p>
-            <Link prefetch={false}
-              href="/contact#contact-form"
-              style={{
-                display: "inline-block",
-                background: "var(--gold)",
-                color: "#0A0A0A",
-                fontWeight: 700,
-                padding: "13px 26px",
-                borderRadius: "6px",
-                textDecoration: "none",
-              }}
-            >
-              Get a free audit
-            </Link>
-            <p style={{ color: "var(--smoke)", fontFamily: "var(--font-mono)", fontSize: "0.8rem", marginTop: "1rem", marginBottom: 0 }}>
-              or call{" "}
-              <a href="tel:+15612912681" style={{ color: "var(--ash)" }}>
-                (561) 291-2681
-              </a>
-            </p>
-          </div>
         </div>
       </article>
+      {/* Inline lead form (card #917): same ContactSection, same /api/contact -> /thank-you path as /contact */}
+      <ContactSection />
     </main>
   );
 }
