@@ -494,7 +494,7 @@ export default function Header() {
           </a>
 
           <a
-            href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
+            href={pathname === "/" || pathname?.startsWith("/guides/") ? "#contact-form" : "/contact#contact-form"}
             className="magnetic"
             style={{
               display: "inline-flex",
@@ -616,7 +616,7 @@ export default function Header() {
           {/* Nav items */}
           {/* CTA */}
           <a
-            href={pathname === "/" ? "#contact-form" : "/contact#contact-form"}
+            href={pathname === "/" || pathname?.startsWith("/guides/") ? "#contact-form" : "/contact#contact-form"}
             onClick={() => setMenuOpen(false)}
             style={{
               background: "var(--ember-btn)",
