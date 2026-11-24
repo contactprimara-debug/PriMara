@@ -37,7 +37,7 @@ export const guidesPartForty12: Guide[] = [
       "If a person has already given you a detail in one step of a form, do not make them type it again in a later step. Fill it in for them or let them pick it. The only normal exceptions are a new password, a security check, or a detail that is no longer valid.",
     author: "Liam Costello",
     publishDate: "2026-11-18T18:00:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why retyping loses a first appointment"),
@@ -82,7 +82,7 @@ export const guidesPartForty12: Guide[] = [
         "The W3C adds a caution worth repeating for a counseling practice. The criterion has no privacy requirements of its own, but a careless way of carrying details forward can expose them. Keep any carried-over value inside the same form session, never in the address of the page, and never in an email subject line. The guide on [what to ask and what to leave out on an appointment request form](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) covers the question of which details belong on a first form in the first place."
       ),
       p(
-        "Two neighboring guides help with the rest of the path. How to [set browser autofill and phone keyboard hints on the contact form](/guides/autofill-and-phone-keyboard-settings-on-the-contact-form-of-a-medical-practice-website-so-a-new-patient-types-less) reduces typing inside each field, and the guide on [form error messages that say what went wrong without private details](/guides/form-error-messages-on-the-contact-and-booking-form-of-a-primary-care-practice-that-say-what-went-wrong-without-private-details) keeps what someone typed from being cleared when a mistake is found. We do not give legal advice, and fixing repeats does not by itself make a site conform to any standard. Any date a patient already typed once, such as a preferred visit day, should carry forward, and the field itself should accept typing, as in [a booking form date field](/guides/a-date-field-on-a-booking-form-that-accepts-typing-as-well-as-a-calendar-pop-up-on-a-primary-care-practice-website)."
+        "Two neighboring guides help with the rest of the path. How to [set browser autofill and phone keyboard hints on the contact form](/guides/autofill-and-phone-keyboard-settings-on-the-contact-form-of-a-medical-practice-website-so-a-new-patient-types-less) reduces typing inside each field, and the guide on [form error messages that say what went wrong without private details](/guides/form-error-messages-on-the-contact-and-booking-form-of-a-primary-care-practice-that-say-what-went-wrong-without-private-details) keeps what someone typed from being cleared when a mistake is found. We do not give legal advice, and fixing repeats does not by itself make a site conform to any standard. Any date a patient already typed once, such as a preferred visit day, should carry forward, and the field itself should accept typing, as in [a booking form date field](/guides/a-date-field-on-a-booking-form-that-accepts-typing-as-well-as-a-calendar-pop-up-on-a-primary-care-practice-website). Before the final send, show the patient what they typed and let them change it, as in [a review-your-answers step before a form is sent](/guides/review-your-answers-step-before-a-new-patient-form-is-sent-so-a-patient-can-correct-a-mistake)."
       ),
     ],
     faqs: [
@@ -129,7 +129,7 @@ export const guidesPartForty12: Guide[] = [
       "If your form shows a message such as Thank you, we got your request on the same page, a screen reader will only say it aloud when the message is marked as a status message. Ask your developer to add that mark, then test by listening with a screen reader.",
     author: "Gio LaRoche",
     publishDate: "2026-11-18T18:10:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The silent success message"),
@@ -174,7 +174,7 @@ export const guidesPartForty12: Guide[] = [
         "Write down what you heard, and what you did not, and hand the note to your developer."
       ),
       p(
-        "Keep the wording itself plain and free of health details, as covered in the guide on [what to say on the thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it). If your form does load a separate thank-you page, that same page also keeps your lead tracking working, so do not replace it with an on-page message without checking with whoever manages your reports. We do not give legal advice, and one passing test does not by itself make a site conform to any standard. A [monthly Lighthouse check of five key pages](/guides/monthly-lighthouse-accessibility-check-of-five-key-pages-of-a-primary-care-practice-website) will not catch a missing status message, so keep this listening test in the routine."
+        "Keep the wording itself plain and free of health details, as covered in the guide on [what to say on the thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it). If your form does load a separate thank-you page, that same page also keeps your lead tracking working, so do not replace it with an on-page message without checking with whoever manages your reports. We do not give legal advice, and one passing test does not by itself make a site conform to any standard. A [monthly Lighthouse check of five key pages](/guides/monthly-lighthouse-accessibility-check-of-five-key-pages-of-a-primary-care-practice-website) will not catch a missing status message, so keep this listening test in the routine. The same care applies before sending, when a disabled Send button is skipped by the Tab key, as described in [a grayed-out submit button on a practice form](/guides/submit-button-grayed-out-until-a-form-is-complete-on-a-practice-website-and-how-to-tell-the-patient-why)."
       ),
     ],
     faqs: [

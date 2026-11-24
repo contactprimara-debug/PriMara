@@ -105,7 +105,7 @@ export const guidesPartForty: Guide[] = [
       "Pick one phone number and one visible format, then make every copy of it a tap-to-call link written with the country code. Check every page type, not just the home page, including the footer, contact page, bios, thank-you page, PDFs and images, because a number that cannot be tapped loses calls.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T16:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("A number that cannot be tapped is a lost call"),
@@ -155,7 +155,7 @@ export const guidesPartForty: Guide[] = [
         "After the fix, tap the number on an iPhone and an Android phone and confirm the dial screen shows the right digits. Then confirm the tap is being counted. [Tracking phone calls from a medical website](/guides/tracking-phone-calls-from-a-medical-website) shows how to count taps without collecting anything about the caller. If you use a different number for tracking, read the guide on [call tracking numbers that leave the Google profile number alone](/guides/call-tracking-numbers-on-a-counseling-practice-website-without-changing-the-google-profile-phone-number) first so your listings do not drift apart. The number callers hear in a recorded message should match too, and the guide on [saying the practice number aloud so patients can write it down](/guides/how-to-say-the-practice-phone-number-address-and-website-aloud-in-a-voicemail-or-recorded-message-so-patients-can-write-them-down) covers the pacing. While you hold the phone, press the number and slide off to confirm it dials only on release, as our guide to [stray touches on call buttons](/guides/stray-touch-on-the-call-or-book-button-of-a-practice-phone-page-and-pointer-cancellation) describes."
       ),
       p(
-        "When the main number changes, change it in one place if your site allows, search for the old number afterward, and update the Google profile, directories and printed pieces on the same day. If the change comes from a new carrier or phone system, our [checklist for what to test after a phone system change](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) lists the website and profile places to re-test. If a patient says they found a different number online, use the [steps for a wrong practice phone number found online](/guides/what-a-primary-care-office-does-when-a-patient-finds-the-wrong-phone-number-for-the-practice-online) to trace which page or listing still carries it."
+        "When the main number changes, change it in one place if your site allows, search for the old number afterward, and update the Google profile, directories and printed pieces on the same day. If the change comes from a new carrier or phone system, our [checklist for what to test after a phone system change](/guides/what-to-check-on-the-website-and-google-profile-after-a-medical-practice-changes-its-phone-system-or-carrier) lists the website and profile places to re-test. If a patient says they found a different number online, use the [steps for a wrong practice phone number found online](/guides/what-a-primary-care-office-does-when-a-patient-finds-the-wrong-phone-number-for-the-practice-online) to trace which page or listing still carries it. Label the phone link the same way on every page, and keep the other buttons consistent too, as described in [the same button words for the same action](/guides/the-same-button-words-for-the-same-action-on-every-page-of-a-practice-website-such-as-request-a-visit)."
       ),
     ],
     faqs: [
@@ -302,7 +302,7 @@ export const guidesPartForty: Guide[] = [
       "Before embedding a scheduling widget on a counseling contact page, confirm the vendor will sign a business associate agreement if it handles client information, keep the widget from slowing the page, show the phone number and a plain contact option beside it, and never rely on it as the only way to reach you.",
     author: "Gio LaRoche",
     publishDate: "2026-11-06T16:40:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("A widget is somebody else's code on your page"),
@@ -347,7 +347,7 @@ export const guidesPartForty: Guide[] = [
         "You will want to know whether the widget is producing appointments. The method in [conversion tracking for third-party booking widgets](/guides/conversion-tracking-for-third-party-booking-widgets-on-a-medical-practice-website) shows how to count a click or a completed booking without sending a name, a reason for the visit or any other client detail to your analytics."
       ),
       p(
-        "Finally, put the widget on your calendar. Check it monthly: does it load, does the time list match the real schedule, and do the notifications reach the right inbox. Test with a fake name and a number you control, and cancel the test booking. Also test the widget link again after the vendor updates its software, using the [checklist for portal and form links after a vendor update](/guides/checking-that-links-to-the-patient-portal-and-online-forms-still-work-after-the-portal-vendor-updates-its-software)."
+        "Finally, put the widget on your calendar. Check it monthly: does it load, does the time list match the real schedule, and do the notifications reach the right inbox. Test with a fake name and a number you control, and cancel the test booking. Also test the widget link again after the vendor updates its software, using the [checklist for portal and form links after a vendor update](/guides/checking-that-links-to-the-patient-portal-and-online-forms-still-work-after-the-portal-vendor-updates-its-software). The sentence above the widget should name the button a client needs by its words and not by where it sits, as shown in [instructions that name a button by its label](/guides/instructions-that-name-a-button-by-color-or-position-on-a-booking-page-of-a-practice-website-so-every-patient-can-follow-them)."
       ),
     ],
     faqs: [

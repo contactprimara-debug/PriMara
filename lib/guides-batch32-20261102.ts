@@ -500,7 +500,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "A same-day appointment button should say what it does, such as Request a same-day visit, and promise only a reply, not a slot. State the daily cutoff time, show the office phone beside it, and place a short line that emergencies go to 911. Ask for contact details only, never symptoms.",
     author: "Gio LaRoche",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("A button that promises too much creates a problem"),
@@ -546,7 +546,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Never directly beside an emergency notice, where the two could be confused."
       ),
       p(
-        "After the request is sent, show a thank-you page that repeats the cutoff and the phone number. That page is also where you count completed requests, which is a better measure than button clicks alone."
+        "After the request is sent, show a thank-you page that repeats the cutoff and the phone number. That page is also where you count completed requests, which is a better measure than button clicks alone. Once you pick the words for this button, use them everywhere the same action appears, as covered in [the same button words on every page](/guides/the-same-button-words-for-the-same-action-on-every-page-of-a-practice-website-such-as-request-a-visit)."
       ),
     ],
     faqs: [

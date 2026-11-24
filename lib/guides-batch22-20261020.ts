@@ -1238,7 +1238,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A medical practice website menu should have five to seven plain-language items, such as Services, Providers, New Patients, Insurance, Locations and Contact, plus a visible phone number. The footer should repeat the practice name, address, phone, hours and the pages every visitor needs, using the same details as the Google Business Profile.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("The menu is a map, not a sales pitch"),
@@ -1292,7 +1292,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Test it"),
       p(
-        "Choose five tasks, such as book a visit, find the insurance list and read about a provider. Ask three people to do them on a phone and count the taps. More than three for any task means the structure needs work. If the site also has a search box, label it and name its buttons as described in [a search box with a clear label and button name](/guides/a-search-box-on-a-large-practice-website-with-a-visible-label-and-a-clear-button-name-for-a-screen-reader)."
+        "Choose five tasks, such as book a visit, find the insurance list and read about a provider. Ask three people to do them on a phone and count the taps. More than three for any task means the structure needs work. If the site also has a search box, label it and name its buttons as described in [a search box with a clear label and button name](/guides/a-search-box-on-a-large-practice-website-with-a-visible-label-and-a-clear-button-name-for-a-screen-reader). Give the footer link to your request form the same name as the header button, following the guide to [the same button words on every page of a practice site](/guides/the-same-button-words-for-the-same-action-on-every-page-of-a-practice-website-such-as-request-a-visit)."
       ),
     ],
     faqs: [
@@ -1433,7 +1433,7 @@ export const guidesPartTwentyFive: Guide[] = [
       "A patient feedback and complaint page should tell patients who to contact, by phone or a short form, how quickly the practice replies, and what happens next, while asking them not to include health details. It should accept concerns privately before they become public reviews, and never discourage patients from posting honest reviews.",
     author: "Gio LaRoche",
     publishDate: "2026-10-20T09:00:00Z",
-    dateModified: "2026-10-20",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("Give unhappy patients a door that is not Google"),
@@ -1475,7 +1475,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Where to link it"),
       p(
-        "Link the page from the contact page, the footer and the confirmation email after a visit. Do not link it from the Google profile as the only place to reach the practice, and do not hide the profile's review link. Our guide on [patient satisfaction survey invitations](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) covers the survey side."
+        "Link the page from the contact page, the footer and the confirmation email after a visit. Do not link it from the Google profile as the only place to reach the practice, and do not hide the profile's review link. Our guide on [patient satisfaction survey invitations](/guides/patient-satisfaction-survey-invitation-for-a-medical-practice-without-collecting-health-details) covers the survey side. The message field on this page should show several lines and carry a visible label, as described in [a message box large enough to show what a patient typed](/guides/message-box-on-a-practice-contact-form-large-enough-to-show-what-a-patient-typed)."
       ),
     ],
     faqs: [

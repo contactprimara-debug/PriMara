@@ -149,7 +149,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A click-to-call button is a link that starts with tel: and shows the real phone number. Put one at the top of every page and again after the main content, make it at least 44 pixels tall, and keep the number as visible text too. Then count taps so you know the button is working.",
     author: "Gio LaRoche",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("The phone is still the front door"),
@@ -198,7 +198,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Set up your analytics to record a tap on any tel: link as an event, then compare the count to the calls the front desk actually receives. Do not record the caller's number or anything about the visit. If you use a call-tracking number, make sure the number on the website, the Google profile and the directories is handled the way your analytics provider documents, so the public listing stays consistent. Which number the button dials matters as much as where it sits, and our guide on [toll-free versus local numbers for a medical practice](/guides/toll-free-versus-local-phone-number-on-a-medical-practice-website-and-google-profile) helps you choose."
       ),
       p(
-        "Review the numbers monthly. A page with many visitors and no taps may be hiding the button, or may answer the question so well that nobody needs to call. Both are worth knowing. When the tap becomes a call, the person answering should follow the [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice), which says what to ask and what to skip. To see the layout the way an older phone shows it, follow the [second browser and older phone check](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) after each change."
+        "Review the numbers monthly. A page with many visitors and no taps may be hiding the button, or may answer the question so well that nobody needs to call. Both are worth knowing. When the tap becomes a call, the person answering should follow the [new patient intake phone script for the front desk](/guides/new-patient-intake-phone-script-for-the-front-desk-of-a-primary-care-practice), which says what to ask and what to skip. To see the layout the way an older phone shows it, follow the [second browser and older phone check](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) after each change. A line of helper text beside the phone button should call it by its label and not by its shape, which is the idea behind [booking page instructions that name the button](/guides/instructions-that-name-a-button-by-color-or-position-on-a-booking-page-of-a-practice-website-so-every-patient-can-follow-them)."
       ),
     ],
     faqs: [

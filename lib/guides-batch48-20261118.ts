@@ -148,7 +148,7 @@ export const guidesPartForty11: Guide[] = [
       "Click once in the address bar, then press the Tab key repeatedly on your contact and booking pages. A visible outline should move from item to item in the same order you would read the page, and every button and field should be reachable. If the outline vanishes or jumps, ask your designer to fix it.",
     author: "Liam Costello",
     publishDate: "2026-11-18T14:10:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("What focus and tab order mean in plain words"),
@@ -188,7 +188,7 @@ export const guidesPartForty11: Guide[] = [
         "Many counseling practices embed a scheduling or intake tool that lives inside a frame. Run the same Tab test through it. You cannot change the vendor's code, but you can report what you found, and you can place a plain phone link and a contact form beside it so there is always a keyboard-friendly way to reach the office."
       ),
       p(
-        "When you find a problem, write down the page, the step where it happened, the browser you used and what you expected. That note is far more useful to a designer or vendor than the sentence that the form does not work. Our guide on the [website accessibility statement and how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows where visitors can send their own reports, and the [five-minute screen reader test](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills) is the natural next check. A [skip link that jumps past the menu](/guides/skip-link-at-the-top-of-a-medical-practice-page-so-a-keyboard-user-reaches-the-phone-number-and-contact-form) is worth adding before you test tab order, since it cuts the number of key presses a visitor needs to reach the form."
+        "When you find a problem, write down the page, the step where it happened, the browser you used and what you expected. That note is far more useful to a designer or vendor than the sentence that the form does not work. Our guide on the [website accessibility statement and how to report a barrier](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows where visitors can send their own reports, and the [five-minute screen reader test](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills) is the natural next check. A [skip link that jumps past the menu](/guides/skip-link-at-the-top-of-a-medical-practice-page-so-a-keyboard-user-reaches-the-phone-number-and-contact-form) is worth adding before you test tab order, since it cuts the number of key presses a visitor needs to reach the form. When the Tab key stays inside a pop-up and the Escape key does nothing, the page is stuck, and [a pop-up that traps keyboard focus](/guides/pop-up-chat-window-or-menu-on-a-practice-page-that-traps-keyboard-focus-and-closing-it-with-the-escape-key) shows how to test for it."
       ),
     ],
     faqs: [
@@ -844,7 +844,7 @@ export const guidesPartForty11: Guide[] = [
       "When a patient submits the contact form with a mistake, the page should say in words which field is wrong and what to change, such as Phone number needs ten digits. Color alone is not enough. Keep the message short, put it next to the field, and never ask for health details to fix it.",
     author: "Gio LaRoche",
     publishDate: "2026-11-18T15:30:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The form that says nothing"),
@@ -884,7 +884,7 @@ export const guidesPartForty11: Guide[] = [
         "Use only a test setup. Never submit a live form to try it, because a real submission reaches the office inbox and your reports."
       ),
       p(
-        "Finally, look at the form on a phone. The message should sit beside the field rather than at the top of a long page where it scrolls out of sight. Our guide to [online appointment request form fields](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) helps decide which fields are needed at all, since fewer fields means fewer errors."
+        "Finally, look at the form on a phone. The message should sit beside the field rather than at the top of a long page where it scrolls out of sight. Our guide to [online appointment request form fields](/guides/online-appointment-request-form-fields-for-a-primary-care-practice-what-to-ask-and-what-to-leave-out) helps decide which fields are needed at all, since fewer fields means fewer errors. Catching a mistake before it is sent is better still, and [a review-your-answers step on a booking form](/guides/review-your-answers-step-before-a-new-patient-form-is-sent-so-a-patient-can-correct-a-mistake) describes a short screen that lets the patient fix it."
       ),
     ],
     faqs: [
@@ -931,7 +931,7 @@ export const guidesPartForty11: Guide[] = [
       "If a booking or intake page logs people out or clears a form after a set time, the visitor needs a way to turn that off, lengthen it, or get a warning of at least 20 seconds with an easy way to extend. Ask your vendor what the timer is, and test it slowly.",
     author: "Liam Costello",
     publishDate: "2026-11-18T15:40:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The client who types slowly"),
@@ -971,7 +971,7 @@ export const guidesPartForty11: Guide[] = [
         "You cannot edit another company's booking tool, but you can offer a second route. Put the office phone number as a tappable link beside the tool, and say that the practice can schedule by phone at any time, as discussed in our guide on [paper forms and phone registration for patients without internet](/guides/paper-forms-and-phone-registration-option-for-patients-without-internet-page-for-a-primary-care-practice)."
       ),
       p(
-        "Report the finding to the vendor with the page and the time at which it expired. For portal sign-in pages, see our guides on the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and [first-time client contact forms](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). Security timeouts on a portal that holds private records are legitimate, so the aim is a warning and an extension, not removing protection. A slow typist also benefits from knowing how many steps remain, which [a progress indicator on a multi-step new patient form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website) explains how to show."
+        "Report the finding to the vendor with the page and the time at which it expired. For portal sign-in pages, see our guides on the [patient portal login page](/guides/patient-portal-login-page-for-a-medical-practice-how-to-make-it-findable-and-safe) and [first-time client contact forms](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time). Security timeouts on a portal that holds private records are legitimate, so the aim is a warning and an extension, not removing protection. A slow typist also benefits from knowing how many steps remain, which [a progress indicator on a multi-step new patient form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website) explains how to show. A form that cannot be sent should also say why, and [a grayed-out submit button and how to tell the patient why](/guides/submit-button-grayed-out-until-a-form-is-complete-on-a-practice-website-and-how-to-tell-the-patient-why) shows how to do that without a dead button."
       ),
     ],
     faqs: [
@@ -1018,7 +1018,7 @@ export const guidesPartForty11: Guide[] = [
       "Tell the phone what each box is for. Give the name, email and phone fields their autocomplete values and the right input type, and the phone offers saved details and shows the right keyboard. Fewer taps means fewer people give up before sending. Test it on an iPhone and an Android.",
     author: "Gio LaRoche",
     publishDate: "2026-11-18T15:50:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Typing on a phone is the real cost of a form"),
@@ -1064,7 +1064,7 @@ export const guidesPartForty11: Guide[] = [
         "Open the page source and look at the input tags. If the autocomplete value is missing, send your designer the table above. If it is present and the phone still does not fill, the phone's own saved details may be missing, which is a setting on the phone rather than your site."
       ),
       p(
-        "Beyond autofill, make the labels readable, as covered in our guide on [accessible intake forms for patients with low vision](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website), and keep the confirmation clear with a [thank-you page](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) that your tracking can count. Make sure each box is also easy to see, since [pale form borders can make a field vanish](/guides/pale-form-field-borders-and-button-outlines-on-the-contact-form-of-a-medical-practice-website) for a patient with low vision. Autofill works best when each field also carries a visible label that does not disappear, as described in [visible labels above every field on a contact form](/guides/visible-labels-above-every-field-on-a-contact-form-so-a-patient-is-not-left-guessing-when-placeholder-text-disappears)."
+        "Beyond autofill, make the labels readable, as covered in our guide on [accessible intake forms for patients with low vision](/guides/accessible-intake-forms-for-patients-with-low-vision-or-limited-reading-skills-on-a-medical-practice-website), and keep the confirmation clear with a [thank-you page](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) that your tracking can count. Make sure each box is also easy to see, since [pale form borders can make a field vanish](/guides/pale-form-field-borders-and-button-outlines-on-the-contact-form-of-a-medical-practice-website) for a patient with low vision. Autofill works best when each field also carries a visible label that does not disappear, as described in [visible labels above every field on a contact form](/guides/visible-labels-above-every-field-on-a-contact-form-so-a-patient-is-not-left-guessing-when-placeholder-text-disappears). Leave the Send button active as well, since [a grayed-out submit button](/guides/submit-button-grayed-out-until-a-form-is-complete-on-a-practice-website-and-how-to-tell-the-patient-why) explains how a gray button with no reason leaves a patient stuck."
       ),
     ],
     faqs: [
@@ -1111,7 +1111,7 @@ export const guidesPartForty11: Guide[] = [
       "Put the phone number and the contact link in the same position on every page, usually the header on a phone and the top right on a laptop. The W3C calls this Consistent Help. Check by opening five different pages and confirming the help sits in the same order each time.",
     author: "Liam Costello",
     publishDate: "2026-11-18T16:00:00Z",
-    dateModified: "2026-11-18",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("A patient needs help at the moment they are stuck"),
@@ -1151,7 +1151,7 @@ export const guidesPartForty11: Guide[] = [
         "The simplest pattern is a header that stays the same on every page, with a Call button and a Contact link, and a footer that repeats the phone number, hours and address. Our guides on the [navigation menu and footer](/guides/navigation-menu-and-footer-for-a-medical-practice-website) and the [click-to-call button](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website) show how to build both."
       ),
       p(
-        "Make sure the number is written the same way everywhere, as in [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website), and that your call tracking sees every tap. Do not stack extra help on top of it; a pop-up that covers the button defeats the purpose, as the guide on [pop-ups and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) explains."
+        "Make sure the number is written the same way everywhere, as in [phone number format and click-to-call links on every page](/guides/phone-number-format-and-click-to-call-links-on-every-page-of-a-medical-practice-website), and that your call tracking sees every tap. Do not stack extra help on top of it; a pop-up that covers the button defeats the purpose, as the guide on [pop-ups and chat widgets on the mobile page](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website) explains. The words on the contact link should also stay the same from page to page, which [using the same button words for the same action](/guides/the-same-button-words-for-the-same-action-on-every-page-of-a-practice-website-such-as-request-a-visit) explains for each repeated button."
       ),
     ],
     faqs: [

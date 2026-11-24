@@ -661,7 +661,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A thank-you page should confirm the request arrived, say when the practice will respond, give the phone number for urgent needs and the 911 line for emergencies, and contain no health details. It is also the best place to count a lead, because the page only loads after a form is actually submitted.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:00:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("The page most practices forget to build"),
@@ -719,7 +719,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Open the page in a private window to confirm nothing personal is shown."
       ),
       p(
-        "These details take minutes and prevent most of the common problems: a thank-you page that feels like a dead end, a conversion that is counted twice, or a page that exposes more than it should. To see which entry pages lead to those form submissions, [read the landing pages report in Google Analytics](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) alongside the conversion count."
+        "These details take minutes and prevent most of the common problems: a thank-you page that feels like a dead end, a conversion that is counted twice, or a page that exposes more than it should. To see which entry pages lead to those form submissions, [read the landing pages report in Google Analytics](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) alongside the conversion count. The thank-you page is a second chance to catch a typo, and a summary screen before sending, described in [a review-your-answers step](/guides/review-your-answers-step-before-a-new-patient-form-is-sent-so-a-patient-can-correct-a-mistake), is the first."
       ),
     ],
     faqs: [
@@ -956,7 +956,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "Before adding a chat widget, confirm the vendor will sign a business associate agreement if messages can contain patient information, show a clear notice that chat is not for emergencies or health questions, route crisis words to 988 or 911 information, and keep transcripts out of general analytics. If these steps are not possible, use a simple contact form instead.",
     author: "Gio LaRoche",
     publishDate: "2026-10-15T12:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("Chat is convenient, and it is a data collection tool"),
@@ -1001,7 +1001,7 @@ export const guidesPartTwentyTwo: Guide[] = [
         "Read the first two weeks of transcripts with the practice manager and look for what visitors actually ask. If many ask a question the website should answer, fix the website. If visitors regularly type health details despite the notice, make the notice more prominent or replace chat with a call-back form. A chat bubble is only one of several overlays that can hide the call button on a phone, so also read about [pop-ups, banners and chat widgets on the mobile page of a medical practice website](/guides/pop-ups-banners-and-chat-widgets-on-the-mobile-page-of-a-medical-practice-website)."
       ),
       p(
-        "Plan to revisit the choice every six months, since vendors change their terms and features, and a tool that was acceptable at launch may not be a year later."
+        "Plan to revisit the choice every six months, since vendors change their terms and features, and a tool that was acceptable at launch may not be a year later. Whichever chat tool you keep, a visitor using only a keyboard must be able to close it, so run the short test in [a pop-up or chat window that traps keyboard focus](/guides/pop-up-chat-window-or-menu-on-a-practice-page-that-traps-keyboard-focus-and-closing-it-with-the-escape-key)."
       ),
     ],
     faqs: [

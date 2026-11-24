@@ -846,7 +846,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "The confirmation email after a web form should say the office received the request, when someone will reply, how to call if it is urgent, and what to do in an emergency. It must not repeat what the person typed or mention health details, in the subject or the body.",
     author: "Liam Costello",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why this small email matters"),
@@ -889,7 +889,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h3("Review it twice a year"),
       p(
-        "Read the email as a stranger would, on a phone lock screen and in a spam folder. Check that the hours and phone number are current, that the reply time is still true and that the sender name is one the person will recognize. Small details such as an old phone number in an automatic message are easy to miss because nobody opens the email after it is built. Also check what a screen reader says right after the form is sent, using the guide on [telling a screen reader user that a contact form was sent without moving the page](/guides/telling-a-screen-reader-user-that-a-contact-form-was-sent-without-moving-the-page-on-a-primary-care-practice-website), since the email is only the second confirmation the person gets."
+        "Read the email as a stranger would, on a phone lock screen and in a spam folder. Check that the hours and phone number are current, that the reply time is still true and that the sender name is one the person will recognize. Small details such as an old phone number in an automatic message are easy to miss because nobody opens the email after it is built. Also check what a screen reader says right after the form is sent, using the guide on [telling a screen reader user that a contact form was sent without moving the page](/guides/telling-a-screen-reader-user-that-a-contact-form-was-sent-without-moving-the-page-on-a-primary-care-practice-website), since the email is only the second confirmation the person gets. The patient's message itself starts in the form, so check the size of the box using [a message box large enough to show what a patient typed](/guides/message-box-on-a-practice-contact-form-large-enough-to-show-what-a-patient-typed)."
       ),
     ],
     faqs: [
@@ -1111,7 +1111,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "On a phone, a pop-up, cookie banner or chat widget that covers the page can hide the call button and drive visitors away. Keep overlays small, delay them, make them easy to close, and test the page on a real phone to confirm the phone number and booking button stay visible.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why overlays hurt on a phone"),
@@ -1151,7 +1151,7 @@ export const guidesPartThirtySeven: Guide[] = [
       ),
       h2("Speed matters too"),
       p(
-        "Each widget adds scripts, and scripts slow the page. After removing or shrinking an overlay, re-run a speed test and compare, using the approach in [the core web vitals checklist for a medical practice website](/guides/core-web-vitals-checklist-for-a-medical-practice-website). A faster page with fewer boxes is usually the one that earns the call. Before a web company adds another widget, [ask it these questions about speed, data and removal](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) and keep the answers in writing. After adding or removing a banner, check the page with the [ten-minute second browser and older phone test](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) before telling the team it is live. Banners that slide or drift in as a visitor scrolls add motion on top of the clutter, and our guide to [parallax and scroll animation that can be turned off](/guides/parallax-and-scroll-animation-on-the-home-page-of-a-primary-care-practice-that-a-motion-sensitive-patient-can-turn-off) explains how to respect a visitor's Reduce Motion setting."
+        "Each widget adds scripts, and scripts slow the page. After removing or shrinking an overlay, re-run a speed test and compare, using the approach in [the core web vitals checklist for a medical practice website](/guides/core-web-vitals-checklist-for-a-medical-practice-website). A faster page with fewer boxes is usually the one that earns the call. Before a web company adds another widget, [ask it these questions about speed, data and removal](/guides/what-to-ask-a-web-company-before-it-adds-a-new-plugin-or-script-to-a-medical-practice-website) and keep the answers in writing. After adding or removing a banner, check the page with the [ten-minute second browser and older phone test](/guides/checking-a-website-change-in-a-second-browser-and-on-an-older-phone-before-telling-the-team-it-is-live) before telling the team it is live. Banners that slide or drift in as a visitor scrolls add motion on top of the clutter, and our guide to [parallax and scroll animation that can be turned off](/guides/parallax-and-scroll-animation-on-the-home-page-of-a-primary-care-practice-that-a-motion-sensitive-patient-can-turn-off) explains how to respect a visitor's Reduce Motion setting. Test each overlay without a mouse as well, since a window that cannot be closed with the Escape key is covered in [a pop-up or chat window that traps keyboard focus](/guides/pop-up-chat-window-or-menu-on-a-practice-page-that-traps-keyboard-focus-and-closing-it-with-the-escape-key)."
       ),
     ],
     faqs: [

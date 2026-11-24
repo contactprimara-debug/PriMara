@@ -64,7 +64,7 @@ export const guidesPartForty7A: Guide[] = [
       "For most counseling practices a short callback request (name, phone, best time) gets more first contacts than a long form, because nothing private is asked up front. Use the longer form only when a clinician needs details before replying. Either way, name one person who answers within one business day.",
     author: "Liam Costello",
     publishDate: "2026-11-16T14:00:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The two options in plain terms"),
@@ -107,7 +107,7 @@ export const guidesPartForty7A: Guide[] = [
       ),
       h2("Count which one works for you"),
       p(
-        "You do not have to guess. Run one version for a month, count the requests, then run the other and compare. Count real first contacts, not button clicks, and exclude your own test messages. A [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) keeps the tally simple. Many practices end up offering both: a callback button high on the page and the longer form for people who prefer to write. Whichever you choose, a person using only a keyboard must be able to reach the button and see where they are, which the [keyboard focus and tab order check](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website) lets you test in a few minutes."
+        "You do not have to guess. Run one version for a month, count the requests, then run the other and compare. Count real first contacts, not button clicks, and exclude your own test messages. A [monthly lead count sheet](/guides/monthly-lead-count-sheet-for-a-primary-care-practice) keeps the tally simple. Many practices end up offering both: a callback button high on the page and the longer form for people who prefer to write. Whichever you choose, a person using only a keyboard must be able to reach the button and see where they are, which the [keyboard focus and tab order check](/guides/keyboard-focus-outline-and-tab-order-on-the-booking-and-contact-pages-of-a-counseling-practice-website) lets you test in a few minutes. Whatever you name the callback button, use that exact name in the header, the sticky bar and the footer, as the guide to [the same button words on every page](/guides/the-same-button-words-for-the-same-action-on-every-page-of-a-practice-website-such-as-request-a-visit) suggests."
       ),
     ],
     faqs: [
@@ -333,7 +333,7 @@ export const guidesPartForty7A: Guide[] = [
       "Put three short lines directly under the submit button: who will reply, by when, and what not to type into the form (symptoms, test results, anything urgent). Patients who know what happens next are less likely to submit twice, call upset or leave private details in a message box.",
     author: "Gio LaRoche",
     publishDate: "2026-11-16T14:00:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-24",
     readMinutes: 4,
     sections: [
       h2("The moment after the button"),
@@ -377,7 +377,7 @@ export const guidesPartForty7A: Guide[] = [
       ),
       h2("Match the confirmation email"),
       p(
-        "If the form sends an automatic email, it should say the same three things. The wording in [contact form confirmation emails without health details](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details) fits well. Then test the whole path: submit a clearly labeled test from a phone, confirm the note shows, the confirmation arrives and the message reaches the mailbox. If emails ever fail to arrive, the [contact form delivery test](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) walks through it."
+        "If the form sends an automatic email, it should say the same three things. The wording in [contact form confirmation emails without health details](/guides/contact-form-confirmation-email-wording-for-a-primary-care-practice-without-health-details) fits well. Then test the whole path: submit a clearly labeled test from a phone, confirm the note shows, the confirmation arrives and the message reaches the mailbox. If emails ever fail to arrive, the [contact form delivery test](/guides/contact-form-emails-going-to-spam-or-never-arriving-delivery-test-for-a-medical-practice-website) walks through it. The message box above that note should be tall enough to show several lines at once, as covered in [a message box large enough to show what a patient typed](/guides/message-box-on-a-practice-contact-form-large-enough-to-show-what-a-patient-typed)."
       ),
     ],
     faqs: [

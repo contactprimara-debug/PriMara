@@ -366,7 +366,7 @@ export const guidesPartForty5B: Guide[] = [
       "Put the mouse away and press Tab to move through your website. You should see a visible outline on each item, reach the menu, phone number, contact form and submit button in a sensible order, and be able to press Enter to use them. If anything is skipped, trapped or invisible, tell your web provider.",
     author: "Liam Costello",
     publishDate: "2026-11-11T15:30:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why test with only a keyboard"),
@@ -413,7 +413,7 @@ export const guidesPartForty5B: Guide[] = [
         "Send your notes to your web provider with the page address, the step that failed and a screenshot if you can. Ask for a fix and a retest. Our guide on [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) covers the wider picture, and the [accessibility statement guide](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) shows how to give patients a way to report a barrier. If the highlight disappears behind a fixed header or cookie banner during the test, the guide on [a sticky header or cookie banner covering the link a keyboard user reached](/guides/sticky-header-or-cookie-banner-covering-the-link-a-keyboard-user-just-reached-on-a-medical-practice-website) explains the fix to request."
       ),
       p(
-        "This test is a quick check, not an audit. A pass does not prove the whole site is accessible, and it does not replace advice from an accessibility professional. It does catch the problems patients would run into first. If the Tab key takes many presses to reach your content, the fix to ask for is a [skip link at the top of each page](/guides/skip-link-at-the-top-of-a-medical-practice-page-so-a-keyboard-user-reaches-the-phone-number-and-contact-form) that jumps past the menu to the phone number and form. A date field that opens only a mouse-driven calendar is a common stopping point, and [a booking form date field that allows typing](/guides/a-date-field-on-a-booking-form-that-accepts-typing-as-well-as-a-calendar-pop-up-on-a-primary-care-practice-website) shows the fix."
+        "This test is a quick check, not an audit. A pass does not prove the whole site is accessible, and it does not replace advice from an accessibility professional. It does catch the problems patients would run into first. If the Tab key takes many presses to reach your content, the fix to ask for is a [skip link at the top of each page](/guides/skip-link-at-the-top-of-a-medical-practice-page-so-a-keyboard-user-reaches-the-phone-number-and-contact-form) that jumps past the menu to the phone number and form. A date field that opens only a mouse-driven calendar is a common stopping point, and [a booking form date field that allows typing](/guides/a-date-field-on-a-booking-form-that-accepts-typing-as-well-as-a-calendar-pop-up-on-a-primary-care-practice-website) shows the fix. If the highlight gets stuck inside a chat window or pop-up and never reaches the page again, follow the fix in [a pop-up or chat window that traps keyboard focus](/guides/pop-up-chat-window-or-menu-on-a-practice-page-that-traps-keyboard-focus-and-closing-it-with-the-escape-key)."
       ),
     ],
     faqs: [

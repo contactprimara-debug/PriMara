@@ -617,7 +617,7 @@ export const guidesPartThirtyThree: Guide[] = [
       "Choose button wording that matches exactly what happens when the visitor clicks. If a click books a time, say book. If a person must review the request first, say request. If it opens a phone call or message, say call or send a message. Honest wording gets more completed forms than vague phrases like get started.",
     author: "Gio LaRoche",
     publishDate: "2026-10-29T15:00:00Z",
-    dateModified: "2026-10-29",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The button is the last sentence a visitor reads"),
@@ -656,7 +656,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "Changing the button, the headline and the form all at once tells you nothing. Pick one page, write down the current wording and the number of calls and form submissions over the last four weeks, change only the button text, and compare the next four weeks. Seasonal swings are large for counseling, so look at the same weeks last year when you can. Do not expect a fixed improvement, since results depend on traffic and the rest of the page. Whatever wording you choose, the button text must also be easy to read, so measure its color against the button background with our [ten-minute contrast check](/guides/checking-text-and-background-color-contrast-on-a-medical-practice-website-in-ten-minutes)."
       ),
       p(
-        "Check what the button leads to as well. A request button that lands on a long intake packet works against itself, so read our page on the [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) for fields to keep and fields to leave out. The page after the click should confirm what happens next, as covered in the guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it)."
+        "Check what the button leads to as well. A request button that lands on a long intake packet works against itself, so read our page on the [first-time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) for fields to keep and fields to leave out. The page after the click should confirm what happens next, as covered in the guide to a [thank-you page after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it). Any sentence near the button that points at it should use the button's own words and not its color or corner of the screen, as the guide on [naming a button by its label instead of its color or position](/guides/instructions-that-name-a-button-by-color-or-position-on-a-booking-page-of-a-practice-website-so-every-patient-can-follow-them) explains."
       ),
     ],
     faqs: [

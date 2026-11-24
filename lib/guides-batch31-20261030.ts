@@ -452,7 +452,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Tell families how to ask for back-to-back appointments: one request listing each person's name and visit type, the time needed per person, and the chance that slots will be split across providers. Say how the practice decides, and never promise that everyone will be seen at the same hour.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why families search for this"),
@@ -494,7 +494,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Check whether the page is working"),
       p(
-        "After a month, count how many family requests came through and how many ended with consecutive appointments. If requests arrive but most fall apart over scheduling, the problem is availability, not the page, and it may be worth reserving a few back-to-back blocks each week for households. If requests never arrive, move the link higher on the booking page and mention it in the phone greeting so people hear that it is possible before they hang up. When booking for several people takes more than one screen, tell the patient which step they are on, as in [a progress indicator on a multi-step form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website)."
+        "After a month, count how many family requests came through and how many ended with consecutive appointments. If requests arrive but most fall apart over scheduling, the problem is availability, not the page, and it may be worth reserving a few back-to-back blocks each week for households. If requests never arrive, move the link higher on the booking page and mention it in the phone greeting so people hear that it is possible before they hang up. When booking for several people takes more than one screen, tell the patient which step they are on, as in [a progress indicator on a multi-step form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website). A request that lists several people has more places for a typo, so a final summary of the answers, as in [a review-your-answers step before a form is sent](/guides/review-your-answers-step-before-a-new-patient-form-is-sent-so-a-patient-can-correct-a-mistake), helps the office reach the right number."
       ),
     ],
     faqs: [
@@ -1207,7 +1207,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Send a test message through your own contact form each month using a dummy name with no health details, and confirm it lands in the inbox of the person who handles inquiries. If it lands in spam or never arrives, check the sending address, the domain's email records and the form's notification setting, then test again.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-11",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("A form can look fine and still lose every message"),
@@ -1245,7 +1245,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Write the safety net"),
       p(
-        "Beyond the monthly test, add a second path: a visible phone number next to the form, and a line on the page saying that if no reply arrives in one business day, the visitor should call. Pair this with the spam steps in our guide on [what belongs on a contact page](/guides/what-to-put-on-a-medical-practice-contact-page). If the test shows mail landing in spam, the next thing to check is [SPF, DKIM and DMARC for the practice domain](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox). On the spam-prevention side, prefer quiet defenses such as a hidden trap field over a picture puzzle, as our guide to [stopping contact form spam without a puzzle CAPTCHA](/guides/stopping-contact-form-spam-on-a-medical-practice-website-without-a-puzzle-captcha-that-locks-out-a-patient) explains."
+        "Beyond the monthly test, add a second path: a visible phone number next to the form, and a line on the page saying that if no reply arrives in one business day, the visitor should call. Pair this with the spam steps in our guide on [what belongs on a contact page](/guides/what-to-put-on-a-medical-practice-contact-page). If the test shows mail landing in spam, the next thing to check is [SPF, DKIM and DMARC for the practice domain](/guides/email-authentication-spf-dkim-and-dmarc-explained-for-a-practice-owner-so-reminders-and-form-replies-reach-the-inbox). On the spam-prevention side, prefer quiet defenses such as a hidden trap field over a picture puzzle, as our guide to [stopping contact form spam without a puzzle CAPTCHA](/guides/stopping-contact-form-spam-on-a-medical-practice-website-without-a-puzzle-captcha-that-locks-out-a-patient) explains. On the form side, a message box that shows several lines helps patients write enough to be answered, as in [a contact form message box large enough to read](/guides/message-box-on-a-practice-contact-form-large-enough-to-show-what-a-patient-typed)."
       ),
     ],
     faqs: [

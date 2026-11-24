@@ -436,7 +436,7 @@ export const guidesPartForty9: Guide[] = [
       "Put a short notice on the contact page that lists what email is for, such as office hours and appointment requests, and what it is not for, such as health questions or emergencies. Give a phone number for those, state a reply time, and invite people to leave health details out of messages.",
     author: "Gio LaRoche",
     publishDate: "2026-11-17T14:40:00Z",
-    dateModified: "2026-11-17",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why a practice needs a short email notice"),
@@ -480,7 +480,7 @@ export const guidesPartForty9: Guide[] = [
       ),
       h2("Keep it honest and current"),
       p(
-        "Review the notice when the office hours, the portal or the inbox owner changes. Ask the front desk once a quarter what kinds of email they receive that the notice should have prevented, and adjust the wording. This is practical guidance and not legal advice; ask a qualified adviser about your own obligations."
+        "Review the notice when the office hours, the portal or the inbox owner changes. Ask the front desk once a quarter what kinds of email they receive that the notice should have prevented, and adjust the wording. This is practical guidance and not legal advice; ask a qualified adviser about your own obligations. Put the notice near a message box that is large enough to reread, following the guide to [a contact form message box that shows what was typed](/guides/message-box-on-a-practice-contact-form-large-enough-to-show-what-a-patient-typed)."
       ),
     ],
     faqs: [
