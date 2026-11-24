@@ -26,7 +26,7 @@ function FieldLabel({
     <label
       htmlFor={htmlFor}
       className="text-sm font-medium"
-      style={{ color: "#333333" }}
+      style={{ color: "var(--chalk)" }}
     >
       {children}
     </label>
