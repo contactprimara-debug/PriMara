@@ -63,45 +63,31 @@ export default function HomeMotion() {
     root.addEventListener('click', onClick, true);
     cleanups.push(() => root.removeEventListener('click', onClick, true));
 
-    /* ── Pinned horizontal scroller (desktop only) ───────────────────── */
-    const pin = root.querySelector<HTMLElement>('[data-hs]');
+    /* ── Services gallery: NATIVE horizontal scroll (swipe / drag / trackpad / arrows), never pins the page ── */
+    const view = root.querySelector<HTMLElement>('.rh-hs-view');
     const track = root.querySelector<HTMLElement>('[data-hs-track]');
     const bar = root.querySelector<HTMLElement>('[data-hs-bar]');
     const num = root.querySelector<HTMLElement>('[data-hs-n]');
-    const mq = window.matchMedia('(min-width: 900px)');
-    let raf = 0;
-    const layoutHS = () => {
-      if (!pin || !track) return;
-      if (!mq.matches || reduce) {
-        pin.style.height = '';
-        track.style.transform = '';
-        return;
-      }
-      const dist = Math.max(0, track.scrollWidth - window.innerWidth + 120);
-      pin.style.height = `${window.innerHeight + dist}px`;
-      pin.dataset.dist = String(dist);
-    };
+    const nm = root.querySelector<HTMLElement>('[data-hs-name]');
     const tickHS = () => {
-      raf = 0;
-      if (!pin || !track || !mq.matches || reduce) return;
-      const dist = Number(pin.dataset.dist || 0);
-      const r = pin.getBoundingClientRect();
-      const p = Math.min(1, Math.max(0, -r.top / Math.max(1, dist)));
-      track.style.transform = `translate3d(${-p * dist}px,0,0)`;
+      if (!view || !track) return;
+      const max = Math.max(1, view.scrollWidth - view.clientWidth);
+      const p = Math.min(1, Math.max(0, view.scrollLeft / max));
       if (bar) bar.style.transform = `scaleX(${p})`;
-      if (num) {
-        const n = track.children.length;
-        num.textContent = String(Math.min(n, Math.floor(p * n * 0.999) + 1)).padStart(2, '0');
-      }
+      const n = track.children.length;
+      const idx = Math.min(n, Math.round(p * (n - 1)) + 1);
+      if (num) num.textContent = String(idx).padStart(2, '0');
+      const nn = (track.children[idx - 1] as HTMLElement | undefined)?.dataset.name;
+      if (nm && nn && nm.textContent !== nn) nm.textContent = nn;
     };
-    const onScroll = () => {
-      if (!raf) raf = requestAnimationFrame(tickHS);
-    };
-    layoutHS();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', () => { layoutHS(); onScroll(); });
-    cleanups.push(() => window.removeEventListener('scroll', onScroll));
-
+    if (view) {
+      view.addEventListener('scroll', tickHS, { passive: true });
+      cleanups.push(() => view.removeEventListener('scroll', tickHS));
+      const step = (dir: number) => { const w = (track?.firstElementChild as HTMLElement | null)?.offsetWidth || 340; view.scrollBy({ left: dir * (w + 20), behavior: reduce ? 'auto' : 'smooth' }); };
+      root.querySelector('[data-hs-prev]')?.addEventListener('click', () => step(-1));
+      root.querySelector('[data-hs-next]')?.addEventListener('click', () => step(1));
+      tickHS();
+    }
 
     /* ── Counters ────────────────────────────────────────────────────── */
     const cnt = Array.from(root.querySelectorAll<HTMLElement>('[data-count]'));

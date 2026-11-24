@@ -112,7 +112,7 @@ export default function HomeMotionPlus() {
       const dot = root.querySelector<HTMLElement>('[data-conn-dot]');
       if (sec && wrap && line) {
         const lis = Array.from(wrap.querySelectorAll<HTMLElement>('li'));
-        const pinMQ = window.matchMedia('(min-width: 900px) and (min-height: 620px)');
+        const pinMQ = window.matchMedia('(min-width: 99999px)');
         let pinned = false, sraf = 0;
         const onScroll = () => { if (!sraf) sraf = requestAnimationFrame(tick); };
         const layout = () => {

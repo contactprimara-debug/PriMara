@@ -30,6 +30,8 @@ import HomeMotion from "@/components/home/HomeMotion";
 import HomeMotionPlus from "@/components/home/HomeMotionPlus";
 import HomeScrollScenes from "@/components/home/HomeScrollScenes";
 import HomeScene3D from "@/components/home/HomeScene3D";
+import BookCalendar from "@/components/home/BookCalendar";
+import ChannelArt from "@/components/home/ChannelArt";
 import ContactFinal from "@/components/ContactFinal";
 import TypeAnimations from "@/components/TypeAnimations";
 import "./home.css";
@@ -159,6 +161,8 @@ export default function HomePage() {
         <a className="rh-scroll" href="#beneath" aria-label="Scroll to look inside">Scroll to look inside ↓</a>
       </section>
 
+      <BookCalendar />
+
       <div className="rh-marq" aria-hidden="true">
         <div className="rh-marq-t">
           {[0, 1].map((k) => (
@@ -204,13 +208,13 @@ export default function HomePage() {
           <p className="rh-eyebrow" data-rv>02 / Who we serve</p>
           <h2 className="rh-h2" data-split>The right practice. The right patient.</h2>
           <div className="rh-two">
-            <Link prefetch={false} href="/primary-care" className="rh-big" data-rv data-cta="home-primary-care">
+            <Link prefetch={false} href="/primary-care" className="rh-big" data-sc="big" data-cta="home-primary-care">
               <span className="rh-big-n">A</span>
               <strong>Primary Care</strong>
               <em>Family medicine, internal medicine, pediatrics, geriatrics, concierge</em>
               <span className="rh-link">See how we help <span aria-hidden="true">↗</span></span>
             </Link>
-            <Link prefetch={false} href="/mental-health" className="rh-big" data-rv data-cta="home-mental-health">
+            <Link prefetch={false} href="/mental-health" className="rh-big" data-sc="big" data-cta="home-mental-health">
               <span className="rh-big-n">B</span>
               <strong>Mental Health</strong>
               <em>Independent therapists, psychologists, licensed counselors, group practices</em>
@@ -227,18 +231,26 @@ export default function HomePage() {
             <p className="rh-eyebrow">03 / What we run</p>
             <h2 className="rh-h2">Every channel. One connection.</h2>
             <div className="rh-hs-meta" aria-hidden="true">
-              <span data-hs-n>01</span><span>/ {String(CHANNELS.length).padStart(2, "0")}</span>
+              <span data-hs-n>01</span><span>/ {String(CHANNELS.length).padStart(2, "0")}</span><span className="rh-hs-name" data-hs-name>{CHANNELS[0].t}</span>
               <span className="rh-hs-line"><i data-hs-bar /></span>
             </div>
           </div>
-          <div className="rh-hs-view">
+          <div className="rh-hs-arrows">
+            <button type="button" data-hs-prev aria-label="Previous service">←</button>
+            <button type="button" data-hs-next aria-label="Next service">→</button>
+          </div>
+          <div className="rh-hs-view" tabIndex={0} role="region" aria-label="Services, swipe sideways">
             <div className="rh-hs-track" data-hs-track>
               {CHANNELS.map((c, i) => (
-                <Link prefetch={false} key={c.h} href={c.h} className="rh-ch" data-cta={`home-channel-${i + 1}`}>
-                  <span className="rh-ch-n">{pad(i)}</span>
-                  <strong>{c.t}</strong>
-                  <em>{c.d}</em>
-                  <span className="rh-link">Explore <span aria-hidden="true">↗</span></span>
+                <Link prefetch={false} key={c.h} href={c.h} className="rh-ch" data-name={c.t} data-cta={`home-channel-${i + 1}`}>
+                  <span className="rh-ch-n" aria-hidden="true" data-n={pad(i)} />
+                  <span className="rh-ch-copy">
+                    <span className="rh-ch-k">{pad(i)} / {String(CHANNELS.length).padStart(2, "0")}</span>
+                    <strong>{c.t}</strong>
+                    <em>{c.d}</em>
+                    <span className="rh-link">Explore <span aria-hidden="true">↗</span></span>
+                  </span>
+                  <span className="rh-art" aria-hidden="true"><ChannelArt i={i} /></span>
                 </Link>
               ))}
             </div>
@@ -303,7 +315,7 @@ export default function HomePage() {
           </div>
           <div className="rh-cases">
             {caseStudies.map((c, ci) => (
-              <Link prefetch={false} key={c.slug} href={`/case-studies/${c.slug}`} className="rh-case" data-rv style={{ transitionDelay: `${ci * 0.12}s` }} data-cta={`home-case-${c.slug}`}>
+              <Link prefetch={false} key={c.slug} href={`/case-studies/${c.slug}`} className="rh-case" data-sc="case" data-cta={`home-case-${c.slug}`}>
                 <strong>{c.shortName}</strong>
                 <em>{c.kind}</em>
                 <span className="rh-link">Read the case study <span aria-hidden="true">↗</span></span>

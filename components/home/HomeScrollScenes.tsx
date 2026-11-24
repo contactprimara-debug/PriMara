@@ -43,6 +43,11 @@ export default function HomeScrollScenes() {
       const bigs = q('.rh-big');
       const chN = q('.rh-ch-n');
       const chs = q('.rh-ch');
+      const lisL = q('.rh-list li');
+      const cases = q('.rh-case');
+      const contact = document.getElementById('contact');
+      const listEl = root.querySelector<HTMLElement>('.rh-list');
+      const hsView = root.querySelector<HTMLElement>('.rh-hs-view');
       const stats = q('.rh-stats > div');
       const close = root.querySelector<HTMLElement>('.rh-close');
       const closeH = close?.querySelector<HTMLElement>('.rh-h2');
@@ -54,6 +59,7 @@ export default function HomeScrollScenes() {
       const h2s = q('.rh-h2');
       secs.forEach((s) => s.classList.add('sc-on'));
       if (dash) dash.classList.add('sc-arm');
+      if (listEl) listEl.classList.add('sc-lit');
       if (close) close.classList.add('sc-glow');
 
       const frame = () => {
@@ -81,10 +87,29 @@ export default function HomeScrollScenes() {
         bigN.forEach((n) => { const c = centre(n); n.style.translate = `0 ${c * -46}px`; n.style.scale = String(1 + clamp(1 - Math.abs(c) * 1.4) * 0.9); n.style.transformOrigin = 'left center'; });
         bigs.forEach((b) => { const c = centre(b); b.style.setProperty('--lift', `${clamp(c, -1, 1) * 18}px`); });
         chN.forEach((n) => { const r = n.getBoundingClientRect(); const c = (r.left + r.width / 2 - window.innerWidth / 2) / window.innerWidth; n.style.translate = `${c * -34}px 0`; });
-        chs.forEach((el) => { const r = el.getBoundingClientRect(); const c = Math.abs((r.left + r.width / 2 - window.innerWidth / 2) / window.innerWidth); el.style.setProperty('--cd', String(clamp(1 - c * 0.9, 0.55, 1))); });
+        let best = -1, bestC = 9;
+        chs.forEach((el, n) => {
+          const r = el.getBoundingClientRect(); const sc = (r.left + r.width / 2 - window.innerWidth / 2) / window.innerWidth; const c = Math.abs(sc);
+          el.style.setProperty('--cd', String(clamp(1 - c * 0.9, 0.45, 1)));
+          el.style.setProperty('--in', String(clamp(1.5 - c * 2.2)));
+          el.style.setProperty('--off', String(clamp(sc, -1, 1)));
+          if (c < bestC) { bestC = c; best = n; }
+        });
+        chs.forEach((el, n) => el.classList.toggle('is-act', n === best && bestC < 0.32));
+        /* radar-synced list: the three rows and nodes light in turn as the radar turns */
+        if (radar) {
+          const p = prog(radar); const on = Math.min(2, Math.floor(clamp((p - 0.28) / 0.44) * 2.999));
+          lisL.forEach((li, n) => li.classList.toggle('is-lit', n === on));
+          nodes.forEach((nd, n) => nd.classList.toggle('is-lit', n === on));
+        }
+        /* converging A/B cards and flipping case cards: eased 0..1 entrance scrubbed by scroll */
+        const ease = (x: number) => 1 - Math.pow(1 - x, 3);
+        bigs.forEach((b) => { const r = b.getBoundingClientRect(); b.style.setProperty('--e', String(ease(clamp((v * 0.92 - r.top) / (v * 0.5))))); });
+        cases.forEach((b, n) => { const r = b.getBoundingClientRect(); b.style.setProperty('--e', String(ease(clamp((v * 0.97 - r.top - n * 36) / (v * 0.45))))); });
+        if (contact) contact.style.setProperty('--sp', String(clamp(prog(contact) * 2.4)));
         stats.forEach((s) => { const c = prog(s); s.style.translate = `0 ${(0.5 - c) * 36}px`; });
         if (dash) {
-          const r = dash.getBoundingClientRect(); const dp = clamp(-r.top / Math.max(1, r.height - v));
+          const r = dash.getBoundingClientRect(); const dp = clamp((v - r.top) / (v * 0.55 + r.height * 0.6));
           dps.forEach((el, i) => { const a = clamp((dp - i * 0.13) / 0.2); el.style.opacity = String(a); el.style.translate = `0 ${(1 - a) * 40}px`; el.style.scale = String(0.94 + a * 0.06); });
           bars.forEach((b, i) => { const a = clamp((dp - 0.1 - i * 0.03) / 0.25); b.style.scale = `1 ${a}`; });
           cells.forEach((c, i) => { const a = clamp((dp - 0.35 - i * 0.012) / 0.1); c.style.opacity = String(0.15 + a * 0.85); c.style.scale = String(0.6 + a * 0.4); });
@@ -98,7 +123,7 @@ export default function HomeScrollScenes() {
       };
 
       const tick = () => {
-        cur += (tgt - cur) * (small ? 0.2 : 0.12);
+        cur += (tgt - cur) * (small ? 1 : 0.35);
         if (Math.abs(tgt - cur) < 0.4) cur = tgt;
         frame();
         raf = cur === tgt ? 0 : requestAnimationFrame(tick);
@@ -106,8 +131,9 @@ export default function HomeScrollScenes() {
       const onScroll = () => { tgt = window.scrollY; if (!raf) raf = requestAnimationFrame(tick); };
       window.addEventListener('scroll', onScroll, { passive: true });
       window.addEventListener('resize', onScroll);
+      if (hsView) hsView.addEventListener('scroll', onScroll, { passive: true });
       cleanups.push(() => {
-        window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll);
+        window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll); if (hsView) hsView.removeEventListener('scroll', onScroll);
         cancelAnimationFrame(raf);
         [copy, vis, c2, c3, rib, radarIn, core, ...chips, ...nodes, ...rings, ...bigN, ...chN, ...stats, closeH, ...dps, ...bars, ...cells].forEach((e) => { if (e) { e.style.translate = ''; e.style.scale = ''; e.style.rotate = ''; e.style.opacity = ''; } });
       });

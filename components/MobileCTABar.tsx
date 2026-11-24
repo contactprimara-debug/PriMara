@@ -96,7 +96,7 @@ export default function MobileCTABar() {
           letterSpacing: "0.06em",
           textDecoration: "none",
         }}
-        aria-label={`Call Primara at ${siteConfig.phoneDisplay}`}
+        aria-label={`Call ${siteConfig.phoneDisplay}`}
         tabIndex={visible ? undefined : -1}
       >
         <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">

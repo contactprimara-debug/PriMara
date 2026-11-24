@@ -2,7 +2,7 @@
 .rh{--mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;position:relative;overflow-x:clip;color:var(--ash)}
 .rh *{box-sizing:border-box}
 .rh-canvas{position:fixed;inset:0;z-index:-1;pointer-events:none;transition:opacity .2s linear}
-.rh-glow{position:fixed;z-index:-1;pointer-events:none;border-radius:50%;filter:blur(90px);will-change:transform}
+.rh-glow{position:fixed;z-index:-1;pointer-events:none;border-radius:50%;will-change:transform}
 .rh-glow-a{width:52vw;height:52vw;left:-12vw;top:-8vw;background:radial-gradient(circle,rgba(27,110,110,.28),transparent 65%);animation:rhDriftA 26s ease-in-out infinite alternate}
 .rh-glow-b{width:46vw;height:46vw;right:-10vw;bottom:-10vw;background:radial-gradient(circle,rgba(197,165,114,.16),transparent 65%);animation:rhDriftB 32s ease-in-out infinite alternate}
 @keyframes rhDriftA{to{transform:translate3d(14vw,10vh,0) scale(1.15)}}
@@ -297,7 +297,6 @@
 /* ── Scroll scenes (HomeScrollScenes): hairlines, depth, closer glow. transform/opacity only ── */
 .sc-on::before{content:"";position:absolute;left:6%;right:6%;top:0;height:1px;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(226,196,140,.85),transparent);transform:scaleX(var(--sp,0));opacity:calc(var(--sp,0)*.9);transform-origin:center}
 .rh-big{translate:0 var(--lift,0px)}
-.rh-ch{opacity:var(--cd,1)}
 .rh-big-n,.rh-ch-n,.rh-card-2,.rh-card-3,.rh-ring,.rh-node,.rh-core{will-change:auto}
 .rh-close.sc-glow{overflow:hidden}
 .rh-close.sc-glow::after{content:"";position:absolute;left:50%;top:50%;width:90vw;max-width:1100px;aspect-ratio:1;translate:-50% -50%;scale:var(--cg,.25);border-radius:50%;pointer-events:none;z-index:-1;background:radial-gradient(circle,rgba(197,165,114,.22),rgba(197,165,114,.06) 45%,transparent 68%);opacity:var(--cg,.25)}
@@ -343,3 +342,88 @@
  .rh-dboard>*{opacity:1}.rh-pgrid i{opacity:.7}.rh-dpanel path{stroke-dashoffset:0}
  .rh-h2::after{display:none}
 }
+
+/* ── Services gallery v2: big panels with a live scene each (ChannelArt). Vars --in/--off/--cd set by HomeScrollScenes ── */
+.rh-ch{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:12px;width:min(86vw,360px);min-height:0;padding:22px;background:linear-gradient(140deg,rgba(22,19,14,.94),rgba(8,8,8,.9));border:1px solid rgba(197,165,114,.22);border-radius:8px;transition:border-color .5s,box-shadow .6s}
+.rh-ch.is-act{border-color:rgba(226,196,140,.6);box-shadow:0 0 90px rgba(197,165,114,.14),inset 0 0 60px rgba(197,165,114,.05)}
+.rh-ch:hover{transform:none;border-color:var(--gold)}
+.rh-ch-n{position:absolute;right:-1%;bottom:-18%;z-index:0;font-family:var(--font-display),Georgia,serif;font-size:clamp(180px,22vw,320px);line-height:1;color:transparent;-webkit-text-stroke:1px rgba(197,165,114,.16);pointer-events:none}
+.rh-ch-n::before{content:attr(data-n)}
+.rh-ch-copy{position:relative;z-index:1;display:flex;flex-direction:column;gap:12px;justify-content:center}
+.rh-ch-k{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:#a39e93}
+.rh-hs-meta{color:#a39e93!important}
+.rh-ch-copy .rh-link{margin-top:10px;align-self:flex-start}
+.rh-art{position:relative;z-index:1;order:-1;display:flex;align-items:center;justify-content:center;height:150px;translate:calc(var(--off,0)*-60px) 0;opacity:calc(.4 + var(--in,1)*.6)}
+.rh-art svg{height:100%;width:auto;max-width:100%;overflow:visible}
+.a-s{fill:none;stroke:#C5A572;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.a-t{stroke:#1B9A9A}.a-g{stroke:#E6D2A6}
+.a-d{stroke-dasharray:1;stroke-dashoffset:max(0,calc(1.2 - var(--in,1)*1.8 + var(--k,0)*.15))}
+.a-f{fill:none;stroke:rgba(197,165,114,.4);stroke-width:6;stroke-linecap:round}
+.a-c{fill:#C5A572;opacity:clamp(.12,calc(var(--in,1)*2.2 - var(--k,0)*.28),1)}
+.a-r{transform-box:fill-box;transform-origin:center;scale:calc(.55 + var(--in,1)*.45);opacity:calc(var(--in,1)*.65)}
+.a-r2{opacity:calc(var(--in,1)*.35)}
+.a-pin{fill:#C5A572;transform-box:fill-box;transform-origin:bottom center;translate:0 calc((1 - var(--in,1))*-30px);opacity:var(--in,1)}
+.a-pin2{fill:#E6D2A6}
+.a-chip{fill:rgba(197,165,114,.16);stroke:rgba(197,165,114,.55);stroke-width:1}
+.a-btn{fill:#C5A572}
+.a-fill{fill:rgba(197,165,114,.75)}
+.a-band{fill:rgba(27,154,154,.26)}
+.a-tile{fill:rgba(197,165,114,.12);stroke:rgba(197,165,114,.32);stroke-width:1;opacity:clamp(0,calc(var(--in,1)*2 - var(--k,0)*.3),1)}
+.a-bar{fill:#C5A572;transform-box:fill-box;transform-origin:bottom;scale:1 clamp(.04,calc(var(--in,1)*1.7 - var(--k,0)*.25),1);opacity:.9}
+.a-pop{transform-box:fill-box;transform-origin:center;opacity:clamp(0,calc(var(--in,1)*2.4 - var(--k,0)*.4),1);scale:clamp(.6,calc(.6 + var(--in,1)*.5 - var(--k,0)*.05),1)}
+.a-spark{fill:#E6D2A6;transform-box:fill-box;transform-origin:center;animation:rhTw 3.4s ease-in-out infinite;opacity:var(--in,1)}
+@keyframes rhTw{50%{scale:.55;rotate:45deg}}
+.rh-hs-name{font-family:var(--font-display),serif;font-style:italic;font-size:20px;letter-spacing:0;color:var(--gold);margin-left:16px;min-width:9ch}
+@media(min-width:900px){
+ .rh-ch{width:min(66vw,900px);height:clamp(330px,52vh,470px);flex-direction:row;align-items:stretch;gap:28px;padding:clamp(26px,2.8vw,44px)}
+ .rh-ch-copy{flex:0 0 40%}
+ .rh-art{order:0;flex:1;height:auto}
+ .rh-ch strong{font-size:clamp(34px,3.5vw,58px)}
+ .rh-hs-track{gap:28px}
+}
+@media(max-width:899px){
+ .rh-ch{width:86vw}
+ .rh-ch-n{font-size:200px}
+ .rh-art{height:170px}
+}
+@media(prefers-reduced-motion:reduce){.rh-art{opacity:1}.a-spark{animation:none}}
+
+/* ── Scroll scenes round 2: radar-synced list, converging A/B cards, flipping case cards, form seam ── */
+.rh-list.sc-lit li{opacity:.4;transition:opacity .5s}
+.rh-list.sc-lit li.is-lit{opacity:1}
+.rh-list.sc-lit li.is-lit strong{color:#E6D2A6}
+.rh-node.is-lit{border-color:#E6D2A6;box-shadow:0 0 28px rgba(197,165,114,.45);color:#E6D2A6}
+.rh-two{perspective:1100px}
+.rh-big{--e:1;position:relative;overflow:hidden;translate:calc((1 - var(--e))*var(--dx,0px)) var(--lift,0px);rotate:0 1 0 calc((1 - var(--e))*var(--dr,0deg))}
+.rh-big:first-child{--dx:-120px;--dr:14deg}.rh-big:last-child{--dx:120px;--dr:-14deg}
+.rh-big::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .4s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(226,196,140,.16),transparent 60%)}
+.rh-big:hover::before{opacity:1}
+.rh-cases{perspective:1000px}
+.rh-case{--e:1;rotate:1 0 0 calc((1 - var(--e))*42deg);translate:0 calc((1 - var(--e))*60px);transform-origin:50% 100%}
+#contact{position:relative}
+#contact::before{content:"";position:absolute;left:6%;right:6%;top:0;height:1px;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(226,196,140,.85),transparent);transform:scaleX(var(--sp,0));opacity:calc(var(--sp,0)*.9)}
+
+/* ── Natural scrolling (Gio 2026-11-24): nothing pins or traps the page. Gallery is a native swipe row; dashboard assembles as it passes ── */
+.rh-hs-stick,.rh-dash-stick{position:static;height:auto;overflow:visible}
+.rh-hs-stick{padding:clamp(56px,7vw,96px) 0}
+.rh-hs-view{overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding:0 24px 14px;scroll-padding-left:24px;margin-top:28px}
+.rh-hs-track{will-change:auto}
+.rh-dash{height:auto}
+.rh-dash-stick{padding:clamp(56px,7vw,100px) 0}
+.rh-hs-arrows{display:none}
+@media(min-width:900px){
+ .rh-hs-view{padding:0 40px 14px 84px;scroll-padding-left:84px}
+ .rh-hs-arrows{display:flex;gap:10px;justify-content:flex-end;padding:0 40px;margin-top:18px}
+ .rh-hs-arrows button{width:46px;height:46px;border-radius:50%;border:1px solid rgba(197,165,114,.45);background:rgba(13,13,13,.7);color:#E6D2A6;font-size:18px;cursor:pointer;transition:background .3s,border-color .3s}
+ .rh-hs-arrows button:hover{background:rgba(197,165,114,.18);border-color:#E6D2A6}
+ .rh-hs-view{margin-top:12px}
+}
+
+/* booking calendar, right under the hero */
+.rh-book{padding:clamp(48px,6vw,88px) 0}
+.rh-book-grid{display:grid;gap:28px;align-items:center}
+.rh-book-frame{min-height:360px;border:1px solid rgba(197,165,114,.3);border-radius:8px;overflow:hidden;background:rgba(13,13,13,.8)}
+.rh-book-frame iframe{display:block;width:100%;height:680px;border:0}
+.rh-book-ph{display:flex;align-items:center;justify-content:center;width:100%;min-height:360px;background:none;border:0;cursor:pointer;color:#a39e93;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.rh-book button.rh-btn{border:0;cursor:pointer}
+@media(min-width:900px){.rh-book-grid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px}}

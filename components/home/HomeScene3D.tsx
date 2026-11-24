@@ -40,7 +40,7 @@ export default function HomeScene3D() {
     const sm = (x: number) => x * x * (3 - 2 * x);
 
     const start = () => {
-      if (cv) return;
+      if (cv || small) return; /* phones: skip the 3D layer so touch scrolling stays at the finger */
       cv = document.createElement('canvas');
       cv.className = 'rh-scene'; cv.setAttribute('aria-hidden', 'true');
       root.insertBefore(cv, root.firstChild);
