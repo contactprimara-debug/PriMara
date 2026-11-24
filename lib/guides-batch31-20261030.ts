@@ -88,7 +88,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Publish one page that says which letters and documents your practice provides, how a client asks for them, how long they take, whether a fee applies and who signs them. Describe the process only. Leave out what a letter will accomplish, because that depends on the court, school or employer, not on your website.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("Why these requests arrive as phone calls"),
@@ -129,6 +129,19 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Review the log each quarter. If most requests are the same kind, add a line about it to the page and to your [FAQ page for a therapy practice](/guides/faq-page-for-a-therapy-practice-questions-to-answer-without-clinical-advice)."
       ),
+      h2(
+        "How the page answers requests for client correspondence"
+      ),
+      p(
+        "Client correspondence covers the letters, records and messages the practice sends to a client, or to an employer or school at the client's request. The page should say in a few lines which kinds the practice handles, how to ask and how long it usually takes."
+      ),
+      ul(
+        "Which requests the practice handles, in plain words.",
+        "How to ask: portal message, form or phone.",
+        "That a signed release comes first when anything goes to another person.",
+        "The typical turnaround the office can keep.",
+        "Who to call if a request is urgent."
+      ),
     ],
     faqs: [
       {
@@ -150,6 +163,10 @@ export const guidesPartThirtyFour: Guide[] = [
       {
         q: "Does this page need a lawyer to review it?",
         a: "The process wording usually does not, but any sentence touching court, custody or disability matters should be read by your own attorney before it is published. This guide is marketing guidance, not legal advice.",
+      },
+      {
+        q: "How should a counseling practice handle client correspondence requests?",
+        a: "Put the request path on one page: what the practice provides, how to ask, a signed release before anything leaves the practice, and a realistic turnaround. Do not promise that a letter will be accepted by any employer or school.",
       },
     ],
     citations: [HHS_PRIVACY, ACA_ETHICS, FL_MH_BOARD, GOOGLE_HELPFUL],
@@ -477,7 +494,7 @@ export const guidesPartThirtyFour: Guide[] = [
       ),
       h2("Check whether the page is working"),
       p(
-        "After a month, count how many family requests came through and how many ended with consecutive appointments. If requests arrive but most fall apart over scheduling, the problem is availability, not the page, and it may be worth reserving a few back-to-back blocks each week for households. If requests never arrive, move the link higher on the booking page and mention it in the phone greeting so people hear that it is possible before they hang up."
+        "After a month, count how many family requests came through and how many ended with consecutive appointments. If requests arrive but most fall apart over scheduling, the problem is availability, not the page, and it may be worth reserving a few back-to-back blocks each week for households. If requests never arrive, move the link higher on the booking page and mention it in the phone greeting so people hear that it is possible before they hang up. When booking for several people takes more than one screen, tell the patient which step they are on, as in [a progress indicator on a multi-step form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website)."
       ),
     ],
     faqs: [
@@ -657,7 +674,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Most clients will fill out the form on a phone, so test it there. Enter a sample preferred name and pronouns, submit it, and follow the name through the reminder message, the portal and the sign-in sheet. If any place still shows the legal name, find where the field is mapped and fix it. Check the labels for plain wording too; a long label with a legal term makes people skip the field."
       ),
       p(
-        "Review the form once a year with the front desk, who hear the awkward moments first, and update the labels if staff keep seeing the same confusion."
+        "Review the form once a year with the front desk, who hear the awkward moments first, and update the labels if staff keep seeing the same confusion. If the form offers a set of choices, such as how to be addressed, group them under one question as described in [grouping radio buttons and checkboxes](/guides/grouping-radio-buttons-and-checkboxes-under-one-question-on-an-intake-form-so-a-screen-reader-reads-the-question-with-each-choice)."
       ),
     ],
     faqs: [
@@ -995,7 +1012,7 @@ export const guidesPartThirtyFour: Guide[] = [
       "Pick one reply-time target for new inquiries, such as the same business day, and write down who answers calls, forms and messages. Log each inquiry with the date received, the date answered and the result, with no health details. Review the log weekly to see where inquiries are slipping away.",
     author: "Gio LaRoche",
     publishDate: "2026-10-30T15:00:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The lead you paid for can go cold in a day"),
@@ -1041,6 +1058,21 @@ export const guidesPartThirtyFour: Guide[] = [
       p(
         "Many inquiries arrive on Saturday night or Sunday, when no one is in the office. Decide in advance what happens: an automatic reply that sets a clear expectation, a Monday morning block set aside for returning weekend messages, and a rule that those get answered first. Write the plan in the log header so a substitute covering the desk follows the same order. A [quarterly test of the website and phone line](/guides/a-quarterly-secret-shopper-test-of-the-website-and-phone-line-for-a-counseling-practice-using-staff-and-no-real-patients), with one after-hours call and one weekend form, shows whether that plan works in practice."
       ),
+      h2(
+        "A plain reply plan for new inquiries"
+      ),
+      p(
+        "People who send a first message are often comparing a few practices at once. A practice that answers quickly and kindly has a head start, while one that waits several days may never hear back. Write the plan down so every staff member follows it without guessing."
+      ),
+      ol(
+        "Same business day: a short acknowledgement that the message arrived and when a person will call.",
+        "By the next business morning: a call or message from a named staff member who can answer questions about the first visit.",
+        "Day three: one polite follow-up, then stop.",
+        "Record the date and time of each step in the inquiry log, with no health details."
+      ),
+      p(
+        "The target should be a reply the practice can keep every week, not an impressive number it misses. If nobody can answer on certain days, say so in the confirmation message after the form is sent."
+      ),
     ],
     faqs: [
       {
@@ -1062,6 +1094,10 @@ export const guidesPartThirtyFour: Guide[] = [
       {
         q: "What if the practice cannot staff the phone all day?",
         a: "Use a clear voicemail greeting, an auto-reply for forms and a named person who returns messages at set times. Publish the timing so callers know what to expect.",
+      },
+      {
+        q: "How quickly should a therapy practice respond to a new client inquiry?",
+        a: "As fast as the office can keep up every week. A same-day acknowledgement and a personal call by the next business morning is a workable plan for many small practices. Choose a target you can meet, write it in the form confirmation, and track it in the inquiry log.",
       },
     ],
     citations: [HHS_PRIVACY, GOOGLE_HELPFUL, GA_KEY_EVENTS],

@@ -203,7 +203,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "Store signed releases with the patient record or in a clearly labeled folder, note which images they cover, and record the date of any withdrawal. Remove the image from the site, the Google profile and any scheduled social posts when permission ends. Our guide to [provider headshots and team photo guidelines](/guides/provider-headshots-and-team-photo-guidelines-for-a-medical-practice-website) covers the simpler case of staff images, and the [patient testimonial compliance checklist](/guides/patient-testimonial-compliance-checklist) covers words rather than pictures."
       ),
       p(
-        "Image files also carry hidden location and device details. Strip that data before upload, use a file name that does not include a person's name, and add alt text that describes the scene without naming or diagnosing anyone."
+        "Image files also carry hidden location and device details. Strip that data before upload, use a file name that does not include a person's name, and add alt text that describes the scene without naming or diagnosing anyone. Before publishing any clip, also watch it for rapid flashing, using the checks in [flashing effects in a practice welcome video or banner](/guides/flashing-or-strobing-effects-in-a-welcome-video-or-animated-banner-on-a-practice-page-and-the-three-flashes-rule)."
       ),
     ],
     faqs: [

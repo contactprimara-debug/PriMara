@@ -195,7 +195,7 @@ export const guidesPartForty7A: Guide[] = [
         "Check that the same list appears on the Google Business Profile and in directories. The guide on [NPI registry and insurance directory accuracy](/guides/npi-registry-and-insurance-directory-data-accuracy-for-a-medical-practice) shows where those lists live."
       ),
       p(
-        "If a plan closes to new patients, follow the wording in our guide to [insurance panels closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile) so the page and the phone answer agree."
+        "If a plan closes to new patients, follow the wording in our guide to [insurance panels closed to new clients](/guides/insurance-panel-closed-to-new-clients-wording-for-a-counseling-practice-website-and-google-profile) so the page and the phone answer agree. A long carrier list on a form can imply the same thing as a logo strip, and [long drop-down lists of insurance carriers](/guides/a-long-drop-down-list-of-insurance-carriers-or-states-on-a-practice-form-and-an-easier-way-to-choose) shows safer ways to ask."
       ),
     ],
     faqs: [

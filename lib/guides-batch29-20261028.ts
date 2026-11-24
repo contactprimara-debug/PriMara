@@ -217,7 +217,7 @@ export const guidesPartThirtyTwo: Guide[] = [
         "Place a plain link near the top of the new patient page, in the footer and on the contact page: Prefer paper or phone? The wording matters, since a patient who cannot use the internet may still be reading the page with a relative's help. Our guide to [new patient forms published without exposing patient data](/guides/new-patient-forms-online-how-to-publish-them-without-exposing-patient-data) shows how to keep the online route safe, and this page is its offline counterpart."
       ),
       p(
-        "Train the front desk on the same wording. A patient who calls after reading the page should hear the same three options from whoever answers, so they do not need to repeat their request."
+        "Train the front desk on the same wording. A patient who calls after reading the page should hear the same three options from whoever answers, so they do not need to repeat their request. For patients who start the online form, a line saying how many steps remain helps them decide, as covered in [a progress indicator on a multi-step form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website)."
       ),
       h2("Keep it from going stale"),
       ul(
@@ -490,7 +490,7 @@ export const guidesPartThirtyTwo: Guide[] = [
         "The same explanation should appear in the intake packet and on the page that describes the first session. Our guide to an [intake paperwork email before session one](/guides/intake-paperwork-email-before-session-one-for-a-counseling-practice) shows how to prepare clients for the forms without putting private detail in the message, and the guide to a [first time client contact form](/guides/first-time-client-contact-form-for-a-counseling-practice-fields-privacy-notice-and-response-time) covers the earlier step, where the website asks for far less."
       ),
       p(
-        "Do not request an emergency contact on the public contact form. That form should collect the least it can to start a conversation, and the emergency contact belongs in the secure intake that follows. The secure intake that follows should not ask for details the person already gave, and the guide on [not asking a new client to retype the same details on a form](/guides/not-asking-a-new-patient-to-type-the-same-details-twice-on-a-booking-or-contact-form-of-a-counseling-practice) explains how to carry the earlier answers forward."
+        "Do not request an emergency contact on the public contact form. That form should collect the least it can to start a conversation, and the emergency contact belongs in the secure intake that follows. The secure intake that follows should not ask for details the person already gave, and the guide on [not asking a new client to retype the same details on a form](/guides/not-asking-a-new-patient-to-type-the-same-details-twice-on-a-booking-or-contact-form-of-a-counseling-practice) explains how to carry the earlier answers forward. Choices such as who to call first should be grouped under one question in the page code, as shown in [grouping radio buttons and checkboxes on an intake form](/guides/grouping-radio-buttons-and-checkboxes-under-one-question-on-an-intake-form-so-a-screen-reader-reads-the-question-with-each-choice)."
       ),
       h2("Keep it current"),
       ul(

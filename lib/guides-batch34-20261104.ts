@@ -301,7 +301,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "A new baby first visit page tells parents how soon to call, what to bring, which providers see newborns, how to register a baby who has no insurance card yet, and who to call with urgent questions. It stays practical and gives no medical advice.",
     author: "Liam Costello",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("The parents' real question"),
@@ -342,6 +342,18 @@ export const guidesPartThirtySeven: Guide[] = [
       p(
         "Give the front desk a short script for calls from new parents: confirm the baby's date of birth and the parent's contact number, offer the earliest first-visit slot, explain what to bring, and say who to call after hours. Parents remember how the call felt more than any page, so a calm, unhurried first conversation is part of the same job as the page itself. Keep a note of how many new-baby calls arrive each month so you can see whether the page is working."
       ),
+      h2(
+        "Booking the first newborn appointment"
+      ),
+      p(
+        "Parents searching for a first newborn appointment want to know who to call, when to call and what to have ready. Say that parents can call the office or use the request form, and that staff will explain when the first visit should happen and which clinician sees newborns."
+      ),
+      ul(
+        "The booking phone number and its hours.",
+        "What to have ready: the baby's date of birth and the insurance card.",
+        "Which clinician sees newborns.",
+        "Who to call after hours."
+      ),
     ],
     faqs: [
       {
@@ -363,6 +375,10 @@ export const guidesPartThirtySeven: Guide[] = [
       {
         q: "How do we know the page is working?",
         a: "Count the calls and form requests that start on it each month. A small number of new-baby families is a meaningful result, because a family often stays with the practice for years.",
+      },
+      {
+        q: "How do I book a first newborn appointment?",
+        a: "Call the office or use the request form, with the baby's date of birth and insurance information ready. Staff will explain when the first visit should happen and which clinician sees newborns. Ask about hours and after-hours contact when you call.",
       },
     ],
     citations: [HEALTHCARE_PCP, FL_BOM, HHS_PRIVACY, GOOGLE_HELPFUL],

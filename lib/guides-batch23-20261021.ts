@@ -492,7 +492,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Repeat after every redesign or migration."
       ),
       p(
-        "Also compare against the list in our guide on [internal linking](/guides/internal-linking-for-a-medical-practice-website), because the pages you point to from a 404 should be the same ones your site treats as most important."
+        "Also compare against the list in our guide on [internal linking](/guides/internal-linking-for-a-medical-practice-website), because the pages you point to from a 404 should be the same ones your site treats as most important. Once the search works, make sure the box and its buttons have names a screen reader announces, using [a search box with a clear label and button name](/guides/a-search-box-on-a-large-practice-website-with-a-visible-label-and-a-clear-button-name-for-a-screen-reader)."
       ),
     ],
     faqs: [

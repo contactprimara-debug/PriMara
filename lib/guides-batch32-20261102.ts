@@ -450,7 +450,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Make sure the packet matches the page: the same list of contents, the same return options and the same name for the office."
       ),
       p(
-        "Review it each year, and whenever a form changes. An old packet with an old phone number is a quiet way to lose a new patient. The page should also say how long each visit type usually lasts, using the wording in [how to explain visit types and appointment lengths](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website)."
+        "Review it each year, and whenever a form changes. An old packet with an old phone number is a quiet way to lose a new patient. The page should also say how long each visit type usually lasts, using the wording in [how to explain visit types and appointment lengths](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website). If the packet also exists as an online form in several screens, say how many steps there are, following [a progress indicator on a multi-step new patient form](/guides/a-progress-indicator-on-a-multi-step-new-patient-form-so-a-patient-knows-how-many-steps-remain-on-a-counseling-practice-website)."
       ),
     ],
     faqs: [
@@ -1123,7 +1123,7 @@ export const guidesPartThirtyFive: Guide[] = [
       "A remote patient monitoring page explains that patients use a device at home, such as a blood pressure cuff, that sends readings to the practice. Say who it is offered to, what the patient needs, who reviews the data and how fast, what it may cost, and that emergencies go to 911, not the device.",
     author: "Liam Costello",
     publishDate: "2026-11-02T15:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("A program patients hear about but rarely understand"),
@@ -1166,6 +1166,22 @@ export const guidesPartThirtyFive: Guide[] = [
       p(
         "A page that leaves these unanswered creates calls. A page that answers them, and does not promise more than the office can deliver, prevents them."
       ),
+      h2(
+        "What a primary care page for the service should show first"
+      ),
+      p(
+        "A visitor who searches for a remote patient monitoring service for a primary care practice usually wants to know two things: what the program is, and whether this office offers it. Lead with one plain sentence that says the practice offers a program where a patient shares readings from a home device with the care team, then say who to call with questions."
+      ),
+      ul(
+        "A one-sentence description of what the program is.",
+        "Which staff members look at the readings and how patients reach them.",
+        "What the patient does at home, in two or three steps.",
+        "A link to the privacy and consent information.",
+        "A phone number and a short form for questions."
+      ),
+      p(
+        "Leave out claims about outcomes or health improvement, and anything that suggests the page can tell a visitor whether they qualify. A clinician decides that at a visit."
+      ),
     ],
     faqs: [
       {
@@ -1187,6 +1203,10 @@ export const guidesPartThirtyFive: Guide[] = [
       {
         q: "What privacy points belong on the page?",
         a: "Who sees the readings, what the device vendor collects, how to leave the program and how to ask for data to be deleted where that is possible. Link to the vendor's policy and to your own notice of privacy practices so patients can read both.",
+      },
+      {
+        q: "What should a primary care page for a remote patient monitoring service say?",
+        a: "Say in plain words what the program is, who on staff reviews the readings, what a patient does at home and how to ask whether it fits. Avoid outcome claims, and send privacy and consent details to a linked page.",
       },
     ],
     citations: [CMS_MLN, HHS_TELEHEALTH, HHS_PRIVACY, GOOGLE_HELPFUL],

@@ -1342,7 +1342,7 @@ export const guidesPartTwentyThree: Guide[] = [
       "A new-to-the-area page helps people who just moved, attend college nearby or live part of the year in Florida find a primary care practice. It explains how to become a patient, what to bring, how records transfer and how seasonal visits work, and it never promises appointment dates or care outcomes.",
     author: "Liam Costello",
     publishDate: "2026-10-16T13:40:00Z",
-    dateModified: "2026-10-30",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("Three groups who search the same way"),
@@ -1384,6 +1384,18 @@ export const guidesPartTwentyThree: Guide[] = [
       p(
         "Review the page each fall and again in early spring, because the people it serves change with the calendar. Students arrive in August and winter residents arrive in November, so update the hours, the new-patient status and the insurance lines before each wave, and note the date you checked on the page itself."
       ),
+      h2(
+        "Answering what new arrivals actually search"
+      ),
+      p(
+        "People who have just moved type questions such as how to establish ongoing primary care after relocating. The page can answer in four short steps and then give a phone number."
+      ),
+      ol(
+        "Check that the practice is accepting new patients and which insurance plans it has verified.",
+        "Ask the previous office to send records, using the form the practice supplies.",
+        "Book a visit to establish care.",
+        "Bring the insurance card and the name of the previous doctor."
+      ),
     ],
     faqs: [
       {
@@ -1405,6 +1417,10 @@ export const guidesPartTwentyThree: Guide[] = [
       {
         q: "Does out-of-state insurance work?",
         a: "Some plans cover care in other states and some do not. The page should tell people to call their plan to confirm, and list the plans the practice has verified, with a last-checked date.",
+      },
+      {
+        q: "What is the best way to establish primary care after moving?",
+        a: "Choose a practice that is accepting new patients, ask your insurance company to confirm coverage, request records from your previous office and book a visit to establish care. A good page lays out these steps and gives a phone number for questions.",
       },
     ],
     citations: [

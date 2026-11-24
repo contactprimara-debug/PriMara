@@ -532,7 +532,7 @@ export const guidesPartForty10: Guide[] = [
       ul(
         "Open the page on a phone and count how many swipes it takes to reach the last section without the list.",
         "Tap the third link and watch where the page lands.",
-        "Turn on a screen reader or ask a staff member who uses one to find the list. It should be announced as a list of links before the sections begin.",
+        "Turn on a screen reader or ask a staff member who uses one to find the list. It should be announced as a list of links before the sections begin. The same care applies to the links in a contents list, which should be recognizable without relying on color, as shown in [making links in body text stand out beyond color](/guides/links-inside-practice-page-text-that-stand-apart-by-more-than-color-for-patients-with-color-vision-difference).",
         "Tap the browser's back button after a jump. It should return to a sensible place."
       ),
     ],
@@ -909,7 +909,7 @@ export const guidesPartForty10: Guide[] = [
         "Descriptive links serve accessibility and clarity first. Our guide to [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website) puts them among the other basics. They also help search engines, as covered in [internal linking for a medical practice website](/guides/internal-linking-for-a-medical-practice-website)."
       ),
       p(
-        "If a link opens a new tab or a document, say so in the text. Our guide on [external link and new tab wording](/guides/external-link-and-new-tab-wording-on-a-medical-practice-website) shows how, and the [website accessibility statement guide](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) explains how to invite a patient to report a link that confuses them."
+        "If a link opens a new tab or a document, say so in the text. Our guide on [external link and new tab wording](/guides/external-link-and-new-tab-wording-on-a-medical-practice-website) shows how, and the [website accessibility statement guide](/guides/website-accessibility-statement-and-how-to-report-a-barrier-for-a-medical-practice) explains how to invite a patient to report a link that confuses them. Once the words are right, check that each link also stands apart from the paragraph by more than color, as described in [links in body text that stand apart by more than color](/guides/links-inside-practice-page-text-that-stand-apart-by-more-than-color-for-patients-with-color-vision-difference)."
       ),
     ],
     faqs: [

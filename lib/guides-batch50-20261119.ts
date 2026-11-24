@@ -83,7 +83,7 @@ export const guidesPartForty13: Guide[] = [
       ),
       h2("Keep the call button findable"),
       p(
-        "A spoken name does not replace a good button. Keep the telephone control a real tel link so it dials in one tap, as described in our [click-to-call button and mobile layout guide](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website), and make sure it is large enough to hit. We do not give legal advice, and naming your icons does not by itself make a site conform to any standard."
+        "A spoken name does not replace a good button. Keep the telephone control a real tel link so it dials in one tap, as described in our [click-to-call button and mobile layout guide](/guides/click-to-call-button-and-mobile-layout-for-a-medical-practice-website), and make sure it is large enough to hit. We do not give legal advice, and naming your icons does not by itself make a site conform to any standard. The magnifying glass and clear buttons in a search box need spoken names too, which [a search box with a clear label and button name](/guides/a-search-box-on-a-large-practice-website-with-a-visible-label-and-a-clear-button-name-for-a-screen-reader) explains."
       ),
     ],
     faqs: [
@@ -343,7 +343,7 @@ export const guidesPartForty13: Guide[] = [
         "The W3C itself notes that there are usually more predictable ways to add content to a page. For a counseling practice, the plain option is to print the line in the page, such as the insurance note or the hours, rather than hiding it in a pop-up. A pop-up that holds only a repeated phone number or a short label adds risk with no benefit."
       ),
       p(
-        "Where you do keep a dropdown menu, make sure it opens on keyboard focus as well as hover, and closes on Escape. The guide on [collapsible sections that stay readable by search engines and screen readers](/guides/collapsible-faq-and-accordion-sections-on-a-counseling-practice-page-that-stay-readable-by-search-engines-and-screen-readers) covers click-to-open content, which avoids most of these problems. We do not give legal advice, and this check does not by itself make a site conform to any standard."
+        "Where you do keep a dropdown menu, make sure it opens on keyboard focus as well as hover, and closes on Escape. The guide on [collapsible sections that stay readable by search engines and screen readers](/guides/collapsible-faq-and-accordion-sections-on-a-counseling-practice-page-that-stay-readable-by-search-engines-and-screen-readers) covers click-to-open content, which avoids most of these problems. We do not give legal advice, and this check does not by itself make a site conform to any standard. Moving content has one more rule worth checking, the limit on flashing described in [flashing effects in a practice welcome video or banner](/guides/flashing-or-strobing-effects-in-a-welcome-video-or-animated-banner-on-a-practice-page-and-the-three-flashes-rule)."
       ),
     ],
     faqs: [

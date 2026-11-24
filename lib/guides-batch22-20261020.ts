@@ -613,7 +613,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Keep health details out of the message"),
       p(
-        "A text that says a spot opened tomorrow at 10:30 with the practice name is enough. Do not include the reason for the visit, the provider's specialty beyond the name, or anything else that reveals health information. Our guide on [reminder wording](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) covers this in detail."
+        "A text that says a spot opened tomorrow at 10:30 with the practice name is enough. Do not include the reason for the visit, the provider's specialty beyond the name, or anything else that reveals health information. Our guide on [reminder wording](/guides/appointment-reminder-text-and-email-wording-for-a-primary-care-practice-without-health-details) covers this in detail. If your form asks for a preferred date, allow a typed date as well as a pop-up calendar, as explained in [a booking form date field that allows typing](/guides/a-date-field-on-a-booking-form-that-accepts-typing-as-well-as-a-calendar-pop-up-on-a-primary-care-practice-website)."
       ),
     ],
     faqs: [
@@ -1292,7 +1292,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h3("Test it"),
       p(
-        "Choose five tasks, such as book a visit, find the insurance list and read about a provider. Ask three people to do them on a phone and count the taps. More than three for any task means the structure needs work."
+        "Choose five tasks, such as book a visit, find the insurance list and read about a provider. Ask three people to do them on a phone and count the taps. More than three for any task means the structure needs work. If the site also has a search box, label it and name its buttons as described in [a search box with a clear label and button name](/guides/a-search-box-on-a-large-practice-website-with-a-visible-label-and-a-clear-button-name-for-a-screen-reader)."
       ),
     ],
     faqs: [

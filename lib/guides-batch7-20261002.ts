@@ -756,7 +756,7 @@ export const guidesPartTen: Guide[] = [
       "The right traffic number isn't a fixed figure — it's new patients needed, divided by your site's conversion rate, divided by how many sessions produce one conversion. A practice needing 20 new patients a month with a 3% conversion rate needs roughly 670 monthly sessions; the same practice at 1% needs about 2,000. Volume matters less than that ratio.",
     author: "Gio LaRoche",
     publishDate: "2026-10-02T09:00:00Z",
-    dateModified: "2026-10-22",
+    dateModified: "2026-11-24",
     readMinutes: 7,
     sections: [
       { type: "h2", text: "Why 'more traffic' is the wrong starting question" },
@@ -789,6 +789,14 @@ export const guidesPartTen: Guide[] = [
         type: "p",
         text: "Your current conversion rate is calculable today if GA4 is tracking form submissions and phone clicks as key events (see our GA4 setup guide): take last month's total conversions, divide by total sessions, and that's your real baseline — not an industry average, which varies too widely by specialty and market to be a reliable planning number on its own. Once you know your actual conversion rate, the sessions-needed math above becomes a real target rather than a guess, and it tells you honestly whether the next dollar is better spent on more traffic (SEO, ads) or on fixing the page that traffic lands on.",
       },
+      { type: "h2", text: "Does a slow page cost you visitors before they read it?" },
+      { type: "p", text: "Speed is one of the few traffic multipliers a practice controls. Google's web.dev guidance says a good Largest Contentful Paint, the time until the main content is visible, is 2.5 seconds or less, measured at the 75th percentile of page loads across mobile and desktop. A page slower than that gives a visitor more time to leave before the phone number or form appears." },
+      { type: "ol", items: [
+        "Open your home page and your most visited page in PageSpeed Insights, on the mobile setting.",
+        "Write down the Largest Contentful Paint value.",
+        "If it is over 2.5 seconds, look first at the largest picture near the top of the page.",
+        "Re-test after each change, and watch calls and form submissions for the next month."
+      ] },
     ],
     faqs: [
       {
@@ -811,6 +819,10 @@ export const guidesPartTen: Guide[] = [
         q: "Should I compare my traffic to a competitor's estimated traffic?",
         a: "It's a weak benchmark at best. Third-party traffic estimators are often inaccurate, and even an accurate number doesn't tell you the competitor's conversion rate or actual new-patient count. Your own new-patient goal, divided by your own measured conversion rate, is a far more useful number to plan around.",
       },
+      {
+        q: "Does medical practice website speed matter for new patient inquiries?",
+        a: "Speed decides whether the main content appears before a visitor gives up, and Google's guidance sets 2.5 seconds or less as a good Largest Contentful Paint. We have not measured an exact effect on inquiries for practices, so test your own pages and watch your calls and forms after each change.",
+      },
     ],
     citations: [
       {
@@ -818,6 +830,7 @@ export const guidesPartTen: Guide[] = [
         label: "About engagement metrics",
         href: "https://support.google.com/analytics/answer/11109416",
       },
+      { publisher: "web.dev (Google)", label: "Largest Contentful Paint (LCP)", href: "https://web.dev/articles/lcp" },
     ],
     links: [
       {

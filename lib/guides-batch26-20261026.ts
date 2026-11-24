@@ -836,7 +836,7 @@ export const guidesPartTwentyNine: Guide[] = [
       "A life transitions counseling page names the changes people bring, such as job loss, a move or retirement, describes how sessions work and how to start, and avoids diagnoses or promised results. It speaks in plain words about uncertainty and change, lists coverage and fee options and shows where to get urgent help.",
     author: "Gio LaRoche",
     publishDate: "2026-10-26T14:20:00Z",
-    dateModified: "2026-11-06",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       h2("Why a page about change works"),
@@ -882,6 +882,18 @@ export const guidesPartTwentyNine: Guide[] = [
       p(
         "People facing a change are often tired of being told to stay positive. Avoid slogans about fresh starts or new chapters, and write as you would speak to a neighbor: this is a lot, and you do not have to sort it out alone. Short sentences and a calm pace tell the reader that the practice will not rush them. Test the page by reading it aloud, and trim anything that sounds like a greeting card. A loss can be part of any transition, and a practice that serves people through it can add a separate page like the one in [a grief counseling page without clinical claims](/guides/grief-counseling-page-for-a-counseling-practice-without-clinical-claims) with gentler wording and clear crisis resources."
       ),
+      h2(
+        "Matching the words people type for job loss and retirement"
+      ),
+      p(
+        "People rarely type life transitions counseling. They type retirement counseling, counseling after a layoff or career change counseling. Put those plain phrases in a heading or the first sentence of the matching section, then describe what a session is in the same calm wording used elsewhere on the page. A line such as counseling for people adjusting to retirement, a job loss or a career change tells a visitor, and a search engine, that the page fits their words."
+      ),
+      ul(
+        "Name each change in the visitor's own words: retirement, job loss, a move or a career change.",
+        "Say whether sessions are in person, by video or both, and where the office is.",
+        "Describe what a session is, not what it fixes, and make no promise about work or income.",
+        "End each section with one clear next step, such as a short form or the office phone number."
+      ),
     ],
     faqs: [
       {
@@ -903,6 +915,10 @@ export const guidesPartTwentyNine: Guide[] = [
       {
         q: "How do we mention cost without scaring people off?",
         a: "State fees plainly, mention any reduced fee options and offer help checking benefits. A visitor who sees a clear number and a way to ask about options is more likely to call than one who sees nothing. A clear fee table or a line about reduced rates removes much of that worry before anyone has to call.",
+      },
+      {
+        q: "What should a page say for retirement or job loss counseling?",
+        a: "Use the phrase people search, such as counseling after a job loss, in a heading, then explain in plain words what sessions are like and how to book. Avoid promising a result or making clinical claims. Keep one next step, a call or a short form, close to the section.",
       },
     ],
     citations: [SAMHSA_HELP, LIFELINE, ACA_ETHICS],

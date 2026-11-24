@@ -320,7 +320,7 @@ export const guidesPartTwentySeven: Guide[] = [
       ),
       h2("Tracking the form without private details"),
       p(
-        "After a successful submission, send the visitor to a thank-you page and count visits to that page as the conversion. That records that a request happened and which page it came from, and nothing else. Our guide on [thank-you pages after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) shows the setup. If the form asks for a mobile number, the [text message opt-in wording for web forms](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) shows how to word the consent box separately from the appointment request. Requests wait in an inbox until someone opens them, so send the notification to the shared address described in [a shared role mailbox for website forms at a medical practice](/guides/shared-role-mailbox-instead-of-a-staff-members-inbox-for-website-forms-at-a-medical-practice) and name a person who checks it each day."
+        "After a successful submission, send the visitor to a thank-you page and count visits to that page as the conversion. That records that a request happened and which page it came from, and nothing else. Our guide on [thank-you pages after a contact form](/guides/thank-you-page-after-a-contact-form-on-a-medical-practice-website-what-to-say-and-how-to-track-it) shows the setup. If the form asks for a mobile number, the [text message opt-in wording for web forms](/guides/text-message-opt-in-wording-on-web-forms-for-a-primary-care-practice) shows how to word the consent box separately from the appointment request. Requests wait in an inbox until someone opens them, so send the notification to the shared address described in [a shared role mailbox for website forms at a medical practice](/guides/shared-role-mailbox-instead-of-a-staff-members-inbox-for-website-forms-at-a-medical-practice) and name a person who checks it each day. Whatever fields you keep, each one needs a label that stays visible while the patient types, as explained in [visible labels above every field](/guides/visible-labels-above-every-field-on-a-contact-form-so-a-patient-is-not-left-guessing-when-placeholder-text-disappears)."
       ),
     ],
     faqs: [
@@ -415,7 +415,7 @@ export const guidesPartTwentySeven: Guide[] = [
       h2("Behind the scenes"),
       ul(
         "Send submissions to a secure system with access limited to the people who need them, and avoid forwarding them to personal email.",
-        "Count a visit to a thank-you page as the conversion, so analytics sees that a request happened and nothing about the person. See our guide to [HIPAA-safe tracking](/guides/hipaa-safe-tracking-for-a-medical-website).",
+        "Count a visit to a thank-you page as the conversion, so analytics sees that a request happened and nothing about the person. See our guide to [HIPAA-safe tracking](/guides/hipaa-safe-tracking-for-a-medical-website). Give every box on that form a label that remains on screen after typing starts, following [visible labels instead of placeholder text](/guides/visible-labels-above-every-field-on-a-contact-form-so-a-patient-is-not-left-guessing-when-placeholder-text-disappears).",
         "Make the form work with a screen reader and a keyboard, with a label on every field.",
         "Add spam protection that does not rely on collecting extra personal details."
       ),
@@ -701,7 +701,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "Link the statement from the footer of every page so it can be found from anywhere.",
         "Use the same plain styling as the rest of the site, with large text and good contrast.",
         "Review it twice a year and after any major redesign, and update the date each time.",
-        "Test the forms and the phone link as part of every review. See our guide to [accessibility and parking information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the physical side. Include a quick check that the main menu lists its links in the same relative order on every page, using our guide to [keeping the menu in the same order](/guides/same-menu-order-on-every-page-of-a-counseling-practice-website-so-a-returning-visitor-finds-the-contact-link), because a reshuffled menu is a common barrier for visitors using screen magnification."
+        "Test the forms and the phone link as part of every review. See our guide to [accessibility and parking information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) for the physical side. Include a quick check that the main menu lists its links in the same relative order on every page, using our guide to [keeping the menu in the same order](/guides/same-menu-order-on-every-page-of-a-counseling-practice-website-so-a-returning-visitor-finds-the-contact-link), because a reshuffled menu is a common barrier for visitors using screen magnification. Sound that begins by itself is a common barrier to report, and [audio that starts by itself on a practice page](/guides/audio-that-starts-by-itself-on-a-practice-page-and-a-visible-control-to-stop-it-on-a-primary-care-website) explains the control a page should offer."
       ),
     ],
     faqs: [

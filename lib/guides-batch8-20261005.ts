@@ -19,7 +19,7 @@ export const guidesPartEleven: Guide[] = [
     answer: "AI Overviews are Google's generated summaries at the top of some search results. They answer part of a question before anyone clicks, so informational searches can send fewer visitors to your site. Searches with local or booking intent, like 'family doctor near me,' depend far more on your Google Business Profile and a clear service page.",
     author: "Gio LaRoche",
     publishDate: "2026-10-05T09:00:00Z",
-    dateModified: "2026-10-05",
+    dateModified: "2026-11-24",
     readMinutes: 6,
     sections: [
       {
@@ -76,7 +76,28 @@ export const guidesPartEleven: Guide[] = [
           "Keep your name, address, phone number, and hours identical everywhere, because generated answers draw on listings as well as web pages.",
           "Never copy a generated answer onto your site as clinical advice. Anything medical on your pages should be reviewed and signed off by a licensed clinician on your team."
         ]
-      }
+      },
+      {
+        "type": "h2",
+        "text": "How to tell whether AI answer visitors become patients"
+      },
+      {
+        "type": "p",
+        "text": "Nobody outside your own accounts can tell you whether visitors who arrive after an AI answer become patients at your practice, because the numbers are small and vary from site to site. Measure it yourself with the tools you already have."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "In Google Analytics, list the landing pages that receive visits from Google search and from AI tools.",
+          "Count the phone taps and form submissions that follow each month, using the conversion events you already track.",
+          "Add a line to the front desk call log asking where a new patient heard about the practice, with a choice for an AI assistant.",
+          "Review the three counts together after a quarter, and compare them with your other sources of new patients."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Small numbers are still your own numbers. Treat any claim of a fixed conversion rate for AI answers as unproven until your counts say otherwise."
+      },
     ],
     faqs: [
       {
@@ -98,7 +119,11 @@ export const guidesPartEleven: Guide[] = [
       {
         "q": "Should I stop writing health information articles?",
         "a": "No, but expect them to bring awareness more than appointments. Keep publishing accurate, clinician-reviewed pages that answer real patient questions, and make sure each one leads to a clear next step, such as a service page, a booking link, or a tracked phone number."
-      }
+      },
+      {
+        "q": "Does Google AI Overview traffic actually convert to patients?",
+        "a": "No outside source can answer that for your practice. Count it yourself: track phone taps and form submissions on the pages that receive search visits, ask new patients how they found you, and compare after a quarter. Treat any claimed fixed conversion rate for AI answers as unproven."
+      },
     ],
     citations: [
       {
@@ -755,7 +780,7 @@ export const guidesPartEleven: Guide[] = [
       },
       {
         "type": "p",
-        "text": "Accessibility and technical SEO overlap, because clean headings, labeled forms, and alt text help search engines too. When you build a new site, make it a requirement, as in our [medical practice website design](/services/medical-practice-website-design) approach, and include it in your [website launch checklist](/guides/medical-website-launch-seo-checklist). Heading order is one of the simplest accessibility wins, and our guide on [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) shows how to outline a page so screen reader users can jump through it. Accessibility information about entrances and seating belongs on the same page as arrival details, as shown in our [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for primary care. A practice that wants to go beyond its website should also publish a [deaf and hard of hearing patient access page](/guides/deaf-and-hard-of-hearing-patient-access-page-for-a-primary-care-practice-without-clinical-advice) that explains how to book without a voice call and how to request an interpreter. If you would like to hear how your own contact page sounds to someone using a screen reader, our [five-minute screen reader test](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills) walks through it with no technical skills. Faint gray text on a white background is among the most common barriers on practice sites, and our guide to [checking text and background color contrast in ten minutes](/guides/checking-text-and-background-color-contrast-on-a-medical-practice-website-in-ten-minutes) shows how to measure it with a free tool. A short [monthly Lighthouse check of five key pages](/guides/monthly-lighthouse-accessibility-check-of-five-key-pages-of-a-primary-care-practice-website) keeps an eye on the basics between larger reviews."
+        "text": "Accessibility and technical SEO overlap, because clean headings, labeled forms, and alt text help search engines too. When you build a new site, make it a requirement, as in our [medical practice website design](/services/medical-practice-website-design) approach, and include it in your [website launch checklist](/guides/medical-website-launch-seo-checklist). Heading order is one of the simplest accessibility wins, and our guide on [heading structure from H1 to H3](/guides/heading-structure-h1-to-h3-for-a-medical-practice-web-page) shows how to outline a page so screen reader users can jump through it. Accessibility information about entrances and seating belongs on the same page as arrival details, as shown in our [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) for primary care. A practice that wants to go beyond its website should also publish a [deaf and hard of hearing patient access page](/guides/deaf-and-hard-of-hearing-patient-access-page-for-a-primary-care-practice-without-clinical-advice) that explains how to book without a voice call and how to request an interpreter. If you would like to hear how your own contact page sounds to someone using a screen reader, our [five-minute screen reader test](/guides/five-minute-screen-reader-test-of-the-contact-and-booking-pages-that-a-practice-owner-can-run-without-technical-skills) walks through it with no technical skills. Faint gray text on a white background is among the most common barriers on practice sites, and our guide to [checking text and background color contrast in ten minutes](/guides/checking-text-and-background-color-contrast-on-a-medical-practice-website-in-ten-minutes) shows how to measure it with a free tool. A short [monthly Lighthouse check of five key pages](/guides/monthly-lighthouse-accessibility-check-of-five-key-pages-of-a-primary-care-practice-website) keeps an eye on the basics between larger reviews. One often missed item is sound that starts on its own, which [audio that starts by itself on a practice page](/guides/audio-that-starts-by-itself-on-a-practice-page-and-a-visible-control-to-stop-it-on-a-primary-care-website) explains how to check."
       }
     ],
     faqs: [

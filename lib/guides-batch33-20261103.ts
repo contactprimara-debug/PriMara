@@ -914,7 +914,7 @@ export const guidesPartThirtySix: Guide[] = [
         "Run the page through an accessibility check, using the guidance in [ADA web accessibility for a medical practice website](/guides/ada-web-accessibility-for-a-medical-practice-website)."
       ),
       p(
-        "Once the rules are decided, write them on a single page for whoever edits the site, so each new post follows the same pattern."
+        "Once the rules are decided, write them on a single page for whoever edits the site, so each new post follows the same pattern. Whatever wording you choose, make sure a visitor can see which words are links at all, using the steps in [links that stand apart by more than color](/guides/links-inside-practice-page-text-that-stand-apart-by-more-than-color-for-patients-with-color-vision-difference)."
       ),
     ],
     faqs: [
@@ -1050,7 +1050,7 @@ export const guidesPartThirtySix: Guide[] = [
       "A changing-therapists page tells clients that asking for a different clinician is normal, shows how to ask, says whether a reason is required, and explains what happens to scheduling and records. It should make the request easy, never imply fault, and never ask a client to justify the change.",
     author: "Gio LaRoche",
     publishDate: "2026-11-03T15:00:00Z",
-    dateModified: "2026-11-10",
+    dateModified: "2026-11-24",
     readMinutes: 5,
     sections: [
       h2("A request that clients often swallow"),
@@ -1091,6 +1091,21 @@ export const guidesPartThirtySix: Guide[] = [
       p(
         "A page is only as good as the answer on the phone. Give staff a short script: thank the client, ask what would help, offer a match, confirm the next step, and do not discuss the reason in front of anyone else. When a clinician hears a switch request second-hand, they should be told by the lead clinician and not by the front desk, with no detail beyond the fact of the request."
       ),
+      h2(
+        "What a client can do before the next session"
+      ),
+      p(
+        "A client who wants a different therapist should not have to explain why. Tell them on the page exactly how to ask, whether that is a portal message, a phone call or the request form."
+      ),
+      ol(
+        "Send a portal message, reply to the reminder or call the office.",
+        "Say you would like to be matched with a different clinician. No reason is needed.",
+        "Mention practical needs, such as days, language, and video or in person.",
+        "Expect a reply within the time the page states."
+      ),
+      p(
+        "If it is the practice's policy, say plainly that the booked session stays in place until a new match is confirmed, and that asking will not be held against the client."
+      ),
     ],
     faqs: [
       {
@@ -1112,6 +1127,10 @@ export const guidesPartThirtySix: Guide[] = [
       {
         q: "Is this page needed for a solo practice?",
         a: "Not in the same form. A solo clinician can offer a short note on referring a client to a colleague when the fit is wrong. The page for a group practice is about moving within the practice, which a solo therapist cannot do.",
+      },
+      {
+        q: "Can I request a different therapist before my next session?",
+        a: "Most practices that offer matching let a client ask, and the best ones say how on the page. Send a portal message, call or use the request form, and no reason is needed. Ask whether your booked session stays until the new match is confirmed.",
       },
     ],
     citations: [ACA_ETHICS, HHS_PRIVACY, GOOGLE_HELPFUL],

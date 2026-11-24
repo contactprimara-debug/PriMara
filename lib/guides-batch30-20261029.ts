@@ -828,7 +828,7 @@ export const guidesPartThirtyThree: Guide[] = [
         "Contracts end, networks change names and directories lag behind reality. Put each carrier page on the same review calendar as your main insurance page, and check it against the carrier's own provider directory each quarter. Our page on [what to update when a practice joins or leaves an insurance network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists every place to correct."
       ),
       p(
-        "Link the carrier page from the benefits check page, as covered in our guide to [insurance verification and benefits checks for a therapy practice](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice), so clients can move from I think I am covered to a confirmed answer. Add the page to your navigation only if you have more than a few carriers, and otherwise reach it from the main insurance list."
+        "Link the carrier page from the benefits check page, as covered in our guide to [insurance verification and benefits checks for a therapy practice](/guides/insurance-verification-and-benefits-check-page-for-a-therapy-practice), so clients can move from I think I am covered to a confirmed answer. Add the page to your navigation only if you have more than a few carriers, and otherwise reach it from the main insurance list. A form that asks for the carrier should not use a long list that implies acceptance, which [long drop-down lists on a practice form](/guides/a-long-drop-down-list-of-insurance-carriers-or-states-on-a-practice-form-and-an-easier-way-to-choose) explains how to avoid."
       ),
     ],
     faqs: [

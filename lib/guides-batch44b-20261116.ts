@@ -159,7 +159,7 @@ export const guidesPartForty7B: Guide[] = [
       "For a staff training day, state the date, say the office is closed, and tell patients exactly what to do instead: who to call for urgent needs and when you reopen. Put the same wording on the website, the Google Business Profile special hours and the phone greeting, and remove all three the next morning.",
     author: "Liam Costello",
     publishDate: "2026-11-16T14:00:00Z",
-    dateModified: "2026-11-16",
+    dateModified: "2026-11-24",
     readMinutes: 4,
     sections: [
       h2("A closure that is not a holiday"),
@@ -204,6 +204,18 @@ export const guidesPartForty7B: Guide[] = [
       p(
         "A stale closure banner confuses patients as much as a missing one. Put the removal on the calendar the same day you publish the notice: website banner off, greeting back to normal and a quick call to confirm the line answers. Then check the Google profile shows the regular hours again."
       ),
+      h2(
+        "Short versions for the website, the profile, the door and the phone"
+      ),
+      p(
+        "A closed for training notice works best as four short versions that all carry the same date. Write the plain sentence once, then copy it."
+      ),
+      ul(
+        "Website banner: the closing date, the reopening day and a line for urgent needs.",
+        "Google profile: set special hours for that date so the profile shows closed.",
+        "Door sign: the same sentence in large print.",
+        "Phone greeting: the same sentence, spoken, with the number to call for urgent needs."
+      ),
     ],
     faqs: [
       {
@@ -225,6 +237,10 @@ export const guidesPartForty7B: Guide[] = [
       {
         q: "Who removes the notice afterward?",
         a: "Name one person when you post it and put the removal date on the same calendar entry, so it does not stay up for weeks.",
+      },
+      {
+        q: "What should a closed for training notice say?",
+        a: "State the closing date, the day the office reopens and where to turn for urgent needs. Keep it to two sentences and use the same wording on the website, the Google profile, the door and the phone greeting.",
       },
     ],
     citations: [GBP_EDIT, GOOGLE_HELPFUL],
