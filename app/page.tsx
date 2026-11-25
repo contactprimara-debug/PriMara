@@ -22,7 +22,6 @@ const organizationSchema = {
     addressCountry: "US",
   },
   sameAs: [
-    "https://www.linkedin.com/company/primara",
     "https://clutch.co/profile/primara-365",
     "https://maps.google.com/maps?cid=250490975498543996",
   ],

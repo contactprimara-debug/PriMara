@@ -183,7 +183,8 @@ function buildSchema(guide: Guide) {
 // Public profiles for the Primara entity. Keep in sync with app/page.tsx.
 // Only URLs we have actually verified go here — no guessed Maps/CID links.
 const ORGANIZATION_SAME_AS = [
-  "https://www.linkedin.com/company/primara",
+  "https://clutch.co/profile/primara-365",
+  "https://maps.google.com/maps?cid=250490975498543996",
 ];
 
 const serif = "var(--font-fraunces), Georgia, serif";
