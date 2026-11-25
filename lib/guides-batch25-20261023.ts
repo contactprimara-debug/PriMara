@@ -144,6 +144,11 @@ const SAMHSA_HELP = {
   href: "https://www.samhsa.gov/find-help",
 };
 
+const FL_MHC_INTERN = {
+  publisher: "Florida Board of Clinical Social Work, Marriage and Family Therapy and Mental Health Counseling",
+  label: "Registered Mental Health Counselor Intern",
+  href: "https://floridasmentalhealthprofessions.gov/licensing/registered-mental-health-counselor-intern/",
+};
 export const guidesPartTwentyEight: Guide[] = [
   // ---------------------------------------------------------------- 1211
   {
@@ -1081,7 +1086,7 @@ export const guidesPartTwentyEight: Guide[] = [
       "Explain each clinician's license title in one plain sentence, show the full title as the state issues it, and link to the state license lookup so visitors can verify it. Never abbreviate in a way that suggests a higher credential, and never list a title you cannot confirm.",
     author: "Liam Costello",
     publishDate: "2026-10-23T09:00:00Z",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-25",
     readMinutes: 6,
     sections: [
       h2("Why the letters confuse visitors"),
@@ -1130,8 +1135,19 @@ export const guidesPartTwentyEight: Guide[] = [
       p(
         "Finally, ask each clinician to read their own title and sentence once a year and confirm both. People change names, move states or add licenses, and the website is often the last place to hear about it."
       ),
+      h2("Interns and the RMHCI abbreviation"),
+      p(
+        "Some clinicians on your team may not be licensed yet. In Florida, the Board's page for the Registered Mental Health Counselor Intern, abbreviated RMHCI, describes a registration for people with a qualifying master's degree who are completing two years of supervised experience after the degree. The registration is valid for five years and cannot be renewed."
+      ),
+      p(
+        "The Board says an intern must remain under the supervision of a Board-approved Qualified Supervisor while practicing as a registered intern, and that supervised experience includes at least 1,500 hours of face-to-face psychotherapy with clients. Because of that, a website should never present an intern as a licensed counselor. List the title exactly as the Board registers it, spell the abbreviation out once, and check the Board's rules on how an intern must identify themselves before you publish the bio."
+      ),
     ],
     faqs: [
+      {
+        q: "What does RMHCI mean after a counselor's name?",
+        a: "In Florida it stands for Registered Mental Health Counselor Intern, a registration for someone completing supervised experience after a qualifying master's degree. An intern works under a Board-approved supervisor and is not yet a licensed counselor, so spell the title out on the bio.",
+      },
       {
         q: "Should we list degrees as well as licenses?",
         a: "Yes, if they are accurate. Name the degree, the field and the school, then the license. The license is what allows the clinician to practice, so lead with it and let the degree follow.",
@@ -1153,7 +1169,7 @@ export const guidesPartTwentyEight: Guide[] = [
         a: "Update the title the day the license is issued and verify it on the state lookup first. Keep the associate wording until the state record shows the new license, so the page never runs ahead of the record.",
       },
     ],
-    citations: [FL_LICENSE, FL_MENTAL_BOARD, AAMFT_ETHICS],
+    citations: [FL_MHC_INTERN, FL_LICENSE, FL_MENTAL_BOARD, AAMFT_ETHICS],
     links: [
       { href: "/guides/np-pa-bio-page-that-ranks", label: "NP And PA Bio Page", description: "The primary care version of a credentials page." },
       { href: "/guides/how-to-write-a-doctor-bio-page-that-ranks", label: "Doctor Bio Page", description: "Write a bio that helps patients and ranks." },

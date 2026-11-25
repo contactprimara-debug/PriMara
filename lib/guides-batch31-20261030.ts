@@ -460,7 +460,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "A parent with three kids who need school forms, or a couple who wants to schedule yearly visits together, would rather make one call than four. Many practices handle this quietly by phone and never mention it online, so searchers assume it is not possible and book somewhere that lists it."
       ),
       p(
-        "A short page tells them it is possible, what you need from them and what to expect. It also trims the front desk's time, because the answer to the most common follow-up question is already written down."
+        "A short page tells them it is possible, what you need from them and what to expect. It also trims the front desk's time, because the answer to the most common follow-up question is already written down. Booking several people at once is different from a group visit, which our guide to a [group visit page for a primary care practice](/guides/group-visit-shared-medical-appointment-page-for-a-primary-care-practice-that-explains-how-a-group-visit-works-without-clinical-claims) explains in plain words."
       ),
       h2("What the request should collect"),
       table(
@@ -1020,7 +1020,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "A person who reaches out to a counseling practice has usually been thinking about it for weeks. When they finally fill out a form or leave a voicemail, they often contact more than one office. The practice that answers first, kindly and clearly, tends to get the first conversation, and the slower reply is easy to forget."
       ),
       p(
-        "That makes reply time one of the few parts of marketing that costs nothing to improve. It does not require a new page or a bigger budget. It requires a target and a way to see whether the office is meeting it."
+        "That makes reply time one of the few parts of marketing that costs nothing to improve. It does not require a new page or a bigger budget. It requires a target and a way to see whether the office is meeting it. When a callback goes unanswered, write down what happens next, as in our guide to a [second-attempt follow-up for a new inquiry who does not answer](/guides/second-attempt-follow-up-when-a-new-patient-inquiry-does-not-answer-the-callback-for-a-primary-care-practice)."
       ),
       h2("Set one target the office can keep"),
       table(

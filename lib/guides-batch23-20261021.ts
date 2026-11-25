@@ -253,7 +253,7 @@ export const guidesPartTwentySix: Guide[] = [
         "A primary care visit is often where a person first says out loud that they are not doing well. The doctor suggests talking to someone, hands over a name, and the patient goes home. Whether the call ever gets made depends on how easy the next step feels."
       ),
       p(
-        "A referral page does not replace the conversation in the exam room. It gives the patient something to read at home, at their own pace, so the suggestion turns into a phone call."
+        "A referral page does not replace the conversation in the exam room. It gives the patient something to read at home, at their own pace, so the suggestion turns into a phone call. Counselors who see people living with a long illness can describe that work using our guide to a [counseling page for adjusting to a long-term health condition](/guides/counseling-page-for-adjusting-to-a-long-term-health-condition-that-names-when-to-involve-the-patients-own-doctor-without-clinical-claims)."
       ),
       h2("What the page should explain"),
       ol(
@@ -838,7 +838,7 @@ export const guidesPartTwentySix: Guide[] = [
         "A patient comes in for an annual physical, mentions a sore shoulder, and a few weeks later receives a statement with two lines instead of one. They feel misled, call the office and are told the visit was split. The practice did nothing wrong, but nobody explained it in advance."
       ),
       p(
-        "A short page can explain how this works, so the explanation does not depend on a front desk employee who is busy that day."
+        "A short page can explain how this works, so the explanation does not depend on a front desk employee who is busy that day. Patients who want to talk about stopping tobacco use may ask how to book that conversation, and our guide to a [quit-tobacco support page for a primary care practice](/guides/tobacco-quitting-support-visit-page-for-a-primary-care-practice-that-points-to-the-free-state-quitline-without-clinical-claims) shows how to answer."
       ),
       h2("Two kinds of visits, in plain terms"),
       table(
@@ -1020,7 +1020,7 @@ export const guidesPartTwentySix: Guide[] = [
       "A bill pay page should show patients how to pay online, what a genuine text-to-pay message looks like, which payment methods are accepted and what the office will never ask for by text. It should link to a secure payment processor, never collect card numbers on the practice website itself.",
     author: "Liam Costello",
     publishDate: "2026-10-21T09:00:00Z",
-    dateModified: "2026-10-26",
+    dateModified: "2026-11-25",
     readMinutes: 6,
     sections: [
       h2("Paying should be the easy part"),
@@ -1076,8 +1076,26 @@ export const guidesPartTwentySix: Guide[] = [
       p(
         "If a payment problem happens, give the patient a human to call. The best online system still needs a person who can fix what the system cannot."
       ),
+      h2("How to word the text-to-pay message itself"),
+      p(
+        "The page on your site explains text-to-pay. The message the patient receives has to do the same job in a few words, and it is the thing a scammer will copy. Keep it short, predictable and free of health details."
+      ),
+      table(
+        ["Include in the message", "Leave out of the message"],
+        ["Your practice name exactly as patients know it", "Any visit reason, condition or service"],
+        ["A line saying a balance is ready, with no amount if you can avoid it", "Threats about collections or deadlines"],
+        ["A link on your own web address or your payment company's secure page", "Shortened links that hide where they go"],
+        ["The office phone number as a plain number patients can check against your site", "A request to reply with a card number"]
+      ),
+      p(
+        "Publish an example of the real message on the page, so a patient can compare it with what arrives. Our guide to [scam texts that imitate a medical practice](/guides/scam-texts-and-emails-that-impersonate-a-medical-practice-what-to-tell-patients) shows how to tell patients what your genuine messages will and will not ask for."
+      ),
     ],
     faqs: [
+      {
+        q: "How should a medical practice word a text-to-pay message?",
+        a: "Keep it short: the practice name, a line that a balance is ready, a secure link and the office phone number. Leave out visit reasons, conditions, threats and any request to reply with card details. Publish a sample on your site so patients can compare.",
+      },
       {
         q: "Is text-to-pay safe for patients?",
         a: "It can be, if the link goes to a secure page run by a reputable payment company, the message contains no health details and patients are told how to recognize genuine messages. The office should also tell patients what it will never ask for.",
@@ -1341,7 +1359,7 @@ export const guidesPartTwentySix: Guide[] = [
         "Close warmly, and ask if they have any questions."
       ),
       p(
-        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice). Have the script offer the same visit your website describes, as laid out in this [establishing care visit page for a primary care practice](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice), so the phone and the page agree. The website should offer the same split, with [separate contact paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website), so new-patient calls reach this script."
+        "Each step has a reason. Name and number come first because a dropped call is easier to recover. Insurance comes before the booking because a surprise later hurts trust. If the caller is booking a video visit, offer to send the list of items to have ready and point them to a [first telehealth visit checklist with a medication list](/guides/medication-list-and-records-to-bring-to-a-first-telehealth-visit-page-for-a-primary-care-practice-without-clinical-advice). Have the script offer the same visit your website describes, as laid out in this [establishing care visit page for a primary care practice](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice), so the phone and the page agree. The website should offer the same split, with [separate contact paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website), so new-patient calls reach this script. Decide in advance what the desk does when a returned call reaches voicemail, using our guide to [a second attempt when a new patient inquiry does not answer](/guides/second-attempt-follow-up-when-a-new-patient-inquiry-does-not-answer-the-callback-for-a-primary-care-practice)."
       ),
       h2("Questions to leave out"),
       table(

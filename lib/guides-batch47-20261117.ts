@@ -390,7 +390,7 @@ export const guidesPartForty10: Guide[] = [
         "A first visit comes with small worries: where to park the car, which door to use, what to bring, how early to come. Some patients, often older adults, want those answers on paper beside the phone or in a bag. Others forward the page to a family member who will drive them. If the page prints badly, they give up."
       ),
       p(
-        "A web page that looks tidy on screen can print as six sheets, with the menu on every one, a chat bubble across the address and the phone number cut off at the margin. A print-friendly version avoids all of that."
+        "A web page that looks tidy on screen can print as six sheets, with the menu on every one, a chat bubble across the address and the phone number cut off at the margin. A print-friendly version avoids all of that. Patients who prefer a fillable file should also get one whose boxes a screen reader can announce, which our guide on a [new patient PDF form with an online or phone alternative](/guides/downloadable-pdf-new-patient-form-that-a-screen-reader-can-read-with-an-online-or-phone-alternative-for-a-primary-care-practice) explains."
       ),
       h2("What goes on the sheet"),
       ol(

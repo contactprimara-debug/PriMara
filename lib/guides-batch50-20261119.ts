@@ -49,7 +49,7 @@ export const guidesPartForty13: Guide[] = [
         "Most practice websites on a phone lean on small pictures. A handset icon stands for call us, three stacked lines stand for the menu, and an envelope stands for send a message. A sighted visitor reads those pictures at a glance. A person using a screen reader gets whatever name the code gives the button, and when the code gives it none, the reader may say only the word button, or the web address of the link."
       ),
       p(
-        "That is more than a polish problem. The phone icon is often the most valuable control on the page, and a patient who cannot tell which button dials the office will call somewhere else or not call at all."
+        "That is more than a polish problem. The phone icon is often the most valuable control on the page, and a patient who cannot tell which button dials the office will call somewhere else or not call at all. The small eye icon on a portal sign-in page is another button that needs a spoken name and a stated state, which we cover in [the show-password toggle guide](/guides/show-password-toggle-on-a-patient-portal-sign-in-with-a-clear-name-and-state-for-a-medical-practice-website)."
       ),
       h2("What the W3C says a control must have"),
       p(
@@ -139,7 +139,7 @@ export const guidesPartForty13: Guide[] = [
       ),
       h2("What the W3C asks of a sign-in step"),
       p(
-        "The Accessible Authentication (Minimum) criterion, which we read in full before writing, begins with a simple idea. Remembering a password, solving a puzzle or retyping a code is a mental task, and some people with cognitive disabilities cannot do it reliably. So no step of signing in should depend on such a task unless the page offers at least one of four things: another method that needs no such task, a tool that helps the person finish it, a test that only asks them to recognize objects, or one that asks them to identify their own uploaded content."
+        "The Accessible Authentication (Minimum) criterion, which we read in full before writing, begins with a simple idea. Remembering a password, solving a puzzle or retyping a code is a mental task, and some people with cognitive disabilities cannot do it reliably. So no step of signing in should depend on such a task unless the page offers at least one of four things: another method that needs no such task, a tool that helps the person finish it, a test that only asks them to recognize objects, or one that asks them to identify their own uploaded content. Patients who type by hand also benefit from a button that reveals the password, and our guide to a [show-password toggle with a clear name and state](/guides/show-password-toggle-on-a-patient-portal-sign-in-with-a-clear-name-and-state-for-a-medical-practice-website) explains how to set it up."
       ),
       p(
         "The page gives two examples of a helping tool: password managers filling in the fields, and copy and paste to avoid retyping. In its words, if every step needs a memory or typing task, a way through that avoids it has to exist."

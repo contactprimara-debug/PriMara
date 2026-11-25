@@ -661,7 +661,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       "A thank-you page should confirm the request arrived, say when the practice will respond, give the phone number for urgent needs and the 911 line for emergencies, and contain no health details. It is also the best place to count a lead, because the page only loads after a form is actually submitted.",
     author: "Liam Costello",
     publishDate: "2026-10-15T11:00:00Z",
-    dateModified: "2026-11-24",
+    dateModified: "2026-11-25",
     readMinutes: 6,
     sections: [
       h2("The page most practices forget to build"),
@@ -721,8 +721,26 @@ export const guidesPartTwentyTwo: Guide[] = [
       p(
         "These details take minutes and prevent most of the common problems: a thank-you page that feels like a dead end, a conversion that is counted twice, or a page that exposes more than it should. To see which entry pages lead to those form submissions, [read the landing pages report in Google Analytics](/guides/reading-the-google-analytics-landing-pages-report-to-see-which-pages-new-visitors-enter-on-at-a-counseling-practice) alongside the conversion count. The thank-you page is a second chance to catch a typo, and a summary screen before sending, described in [a review-your-answers step](/guides/review-your-answers-step-before-a-new-patient-form-is-sent-so-a-patient-can-correct-a-mistake), is the first."
       ),
+      h2("What happens after a website inquiry, step by step"),
+      p(
+        "A patient who sends an inquiry is really asking one thing: what happens now? The thank-you page is the first place to answer, and the answer has to match what the office actually does. If the page says someone will call the same day and nobody does, the patient notices."
+      ),
+      ol(
+        "The form is sent and the patient lands on the thank-you page, which confirms receipt in one sentence.",
+        "The front desk sees the inquiry and logs the date and time.",
+        "Someone calls or emails within the time your page promises, and not before you are sure you can keep it.",
+        "If there is no answer, the office tries once more by another method, as in our guide to a [second attempt after an unanswered callback](/guides/second-attempt-follow-up-when-a-new-patient-inquiry-does-not-answer-the-callback-for-a-primary-care-practice).",
+        "The inquiry is booked, answered or closed, and the result is written in the log."
+      ),
+      p(
+        "Write only the steps your office really follows, in the same order, and keep the promised time honest. A shorter promise you keep beats a faster one you miss."
+      ),
     ],
     faqs: [
+      {
+        q: "What should a patient expect after sending a website inquiry to a medical practice?",
+        a: "They should see a thank-you page that confirms receipt, then hear from the office within the time the page states, by the method they chose. If the first call is missed, a good practice tries once more another way and records the result.",
+      },
       {
         q: "Should the thank-you page be indexed?",
         a: "No. It has no value in search and could attract visitors who never submitted a form. Add noindex and leave it out of the sitemap.",

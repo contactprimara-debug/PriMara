@@ -283,7 +283,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "An appointment request form does not schedule a visit by itself. It starts a conversation, and a person on your staff finishes it by phone or portal. If you keep that in mind, deciding which fields to include becomes easy: ask for whatever lets someone call back and offer a time, and nothing more."
       ),
       p(
-        "Every extra field costs completed forms, and some fields cost privacy. The HHS rule on the [minimum necessary requirement](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html) is written for how you use patient information, but it is also a good test for what a public web form should collect."
+        "Every extra field costs completed forms, and some fields cost privacy. The HHS rule on the [minimum necessary requirement](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html) is written for how you use patient information, but it is also a good test for what a public web form should collect. Once you have chosen the fields, set the phone box to accept any punctuation, following our guide to a [phone number field that accepts spaces, dashes and parentheses](/guides/phone-number-field-that-accepts-spaces-dashes-and-parentheses-as-the-patient-types-them-on-a-practice-contact-form)."
       ),
       h2("Fields to include and fields to leave out"),
       table(
@@ -569,7 +569,7 @@ export const guidesPartTwentySeven: Guide[] = [
         "When someone searches for a vaccine near them, they usually do not need to be convinced. They want to know whether your office gives it, whether they can get an appointment and what it will cost. A page that answers those three questions will do more for them, and for your phone line, than a page full of health advice. If patients also ask about vaccines before a trip, a [travel health consultation page](/guides/travel-health-consultation-page-for-a-primary-care-practice-without-clinical-claims) can say whether the office gives them or refers them elsewhere."
       ),
       p(
-        "That is also the safer way to write it. Statements about what a vaccine does, who should get it or how safe it is are clinical claims. They change as guidance changes, and they belong to the clinical team and the public health agencies, not a marketing page."
+        "That is also the safer way to write it. Statements about what a vaccine does, who should get it or how safe it is are clinical claims. They change as guidance changes, and they belong to the clinical team and the public health agencies, not a marketing page. Another preventive service patients ask about is help with quitting tobacco, covered in our guide to a [quit-tobacco support visit page that points to the free state quitline](/guides/tobacco-quitting-support-visit-page-for-a-primary-care-practice-that-points-to-the-free-state-quitline-without-clinical-claims)."
       ),
       h2("What the page should list"),
       table(

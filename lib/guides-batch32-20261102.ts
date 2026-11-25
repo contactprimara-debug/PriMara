@@ -417,7 +417,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Plenty of new patients prefer an envelope to an online form. Some are older and not comfortable typing health details into a website, some do not have reliable internet, and some simply want to read everything at the kitchen table first. A page that describes the packet respects that choice and gives them a reason to call. Existing patients need a different route, so offer [separate contact paths for new and existing patients](/guides/separate-contact-paths-for-new-and-existing-patients-on-a-primary-care-practice-website) alongside the packet page."
       ),
       p(
-        "The same page helps patients who do plan to use the online forms. They can see what will be asked of them before they start, which makes it easier to gather an insurance card or a medication list in advance. For patients who choose online forms, a [welcome text or email a few days before the first visit](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) can carry the link."
+        "The same page helps patients who do plan to use the online forms. They can see what will be asked of them before they start, which makes it easier to gather an insurance card or a medication list in advance. For patients who choose online forms, a [welcome text or email a few days before the first visit](/guides/new-patient-welcome-text-or-email-for-a-medical-practice) can carry the link. If part of the packet is a downloadable form, label its fields and offer a phone option beside it, as covered in our guide to a [new patient PDF form a screen reader can read](/guides/downloadable-pdf-new-patient-form-that-a-screen-reader-can-read-with-an-online-or-phone-alternative-for-a-primary-care-practice)."
       ),
       h2("What the page should list"),
       table(
@@ -1131,7 +1131,7 @@ export const guidesPartThirtyFive: Guide[] = [
         "Patients who are offered a home monitoring device often have questions the clinician did not have time to answer: Who is watching these numbers? Will someone call me? Is this covered? A page on your website lets them read the answers on their own time, and lets caregivers read them too."
       ),
       p(
-        "The page should describe how the program works, not what it will do for anyone's health. Promises about prevented hospital stays or controlled numbers are outcome claims, and they belong nowhere on a practice website."
+        "The page should describe how the program works, not what it will do for anyone's health. Promises about prevented hospital stays or controlled numbers are outcome claims, and they belong nowhere on a practice website. Programs that bring patients together on a schedule can be described the same careful way, as in our guide to a [group visit page for a primary care practice](/guides/group-visit-shared-medical-appointment-page-for-a-primary-care-practice-that-explains-how-a-group-visit-works-without-clinical-claims)."
       ),
       h2("The parts of the program to explain"),
       table(

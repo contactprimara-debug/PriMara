@@ -618,7 +618,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Someone who searches for grief counseling may have lost a parent last week or a spouse last year. They are tired and often reading late at night on a phone. The first lines of the page should acknowledge the loss in plain words and tell them they do not have to be ready to start."
       ),
       p(
-        "That tone is not decoration. It is the difference between a page that sounds like a person and one that sounds like a brochure, and it is what makes a grieving reader pick up the phone."
+        "That tone is not decoration. It is the difference between a page that sounds like a person and one that sounds like a brochure, and it is what makes a grieving reader pick up the phone. Loss of health can bring its own sadness, and our guide to a [counseling page for adjusting to a long-term health condition](/guides/counseling-page-for-adjusting-to-a-long-term-health-condition-that-names-when-to-involve-the-patients-own-doctor-without-clinical-claims) shows how to describe that support."
       ),
       h2("What belongs on the page"),
       ol(
@@ -992,7 +992,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Patients who live with an ongoing condition do not search for a miracle. They want to know how often they will be seen, how to get a refill without a crisis and who to call if something changes. Practices that answer those questions in advance reduce calls and missed appointments. Many practices assign a coordinator to help with referrals and paperwork between visits, as our guide to a [care coordinator and patient navigator page](/guides/care-coordinator-and-patient-navigator-page-for-a-primary-care-practice) explains."
       ),
       p(
-        "This is a process page. It sits alongside your annual wellness page and your visit-types page, and it must stay on the right side of the line between describing a service and making a medical claim."
+        "This is a process page. It sits alongside your annual wellness page and your visit-types page, and it must stay on the right side of the line between describing a service and making a medical claim. Some practices also hold these follow-ups as a group, and our guide to a [group visit page for a primary care practice](/guides/group-visit-shared-medical-appointment-page-for-a-primary-care-practice-that-explains-how-a-group-visit-works-without-clinical-claims) shows how to explain that format."
       ),
       h2("What the page should cover"),
       ul(

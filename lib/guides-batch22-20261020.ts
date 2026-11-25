@@ -282,7 +282,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "Someone searching for counseling because they are caring for a relative is usually short on time and energy. They are reading after the other person is asleep, on a phone, and they will leave quickly if the page sounds like a brochure. Open with their situation in one plain sentence and move straight to what is possible."
       ),
       p(
-        "A good opening line names the role and not a condition: you are looking after someone, and you also need somewhere to talk. That is enough. It does not diagnose the caregiver, and it does not describe the person being cared for."
+        "A good opening line names the role and not a condition: you are looking after someone, and you also need somewhere to talk. That is enough. It does not diagnose the caregiver, and it does not describe the person being cared for. People who live with the condition themselves may need a different page, which our guide to a [counseling page for adjusting to a long-term health condition](/guides/counseling-page-for-adjusting-to-a-long-term-health-condition-that-names-when-to-involve-the-patients-own-doctor-without-clinical-claims) describes."
       ),
       h2("What the page needs to answer"),
       ol(
@@ -378,7 +378,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "The working professional rarely lacks interest in counseling. What they lack is a gap in the day. They check the page at lunch or on the train, they want to know whether a 7 a.m. or 6 p.m. slot exists, and they are quietly worried that anyone at their job will find out. A page that lists real evening and Saturday openings answers that worry directly, as our guide to an [evening and weekend appointment availability page for a counseling practice](/guides/evening-and-weekend-appointment-availability-page-for-a-counseling-practice-serving-working-adults) explains."
       ),
       p(
-        "So the first screen should answer three things in the order the reader worries about them: when can I come, will anyone know, and what does it cost. Everything else, including your training and your approach, can sit lower."
+        "So the first screen should answer three things in the order the reader worries about them: when can I come, will anyone know, and what does it cost. Everything else, including your training and your approach, can sit lower. A worker managing a long illness on top of a job may look for the page described in our guide to [counseling for adjusting to a long-term health condition](/guides/counseling-page-for-adjusting-to-a-long-term-health-condition-that-names-when-to-involve-the-patients-own-doctor-without-clinical-claims)."
       ),
       h2("What to put on the page"),
       ul(

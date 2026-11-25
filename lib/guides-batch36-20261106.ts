@@ -756,7 +756,7 @@ export const guidesPartThirtyNine: Guide[] = [
         "A practice changes its intake packet, its cancellation policy or its address. The new forms go on the site, but the old PDFs stay on the server, and Google keeps showing them. A patient searching for the new patient form lands on a version with a fax number nobody answers, or a policy that no longer applies. They fill it out, bring it in, and the front desk has to start over."
       ),
       p(
-        "Old documents also cause quieter problems. They can show a phone number or address you changed, contain staff names of people who have left, and compete with the current page in search. The fix is a short routine, not a big project. After a form is removed, [find and fix the broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) that still point to it so patients do not hit a dead end."
+        "Old documents also cause quieter problems. They can show a phone number or address you changed, contain staff names of people who have left, and compete with the current page in search. The fix is a short routine, not a big project. After a form is removed, [find and fix the broken links and 404 errors](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website) that still point to it so patients do not hit a dead end. When the replacement file goes live, give each of its fields a spoken label, as described in [making a downloadable new patient form readable by a screen reader](/guides/downloadable-pdf-new-patient-form-that-a-screen-reader-can-read-with-an-online-or-phone-alternative-for-a-primary-care-practice)."
       ),
       h2("Find what is still out there"),
       ul(

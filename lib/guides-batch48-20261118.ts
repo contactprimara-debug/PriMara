@@ -329,7 +329,7 @@ export const guidesPartForty11: Guide[] = [
         "Picture a patient on a phone, in a waiting room, trying to tap Call Us. If the button is the size of a pencil eraser and sits next to a link to the privacy page, they tap the wrong thing and leave. For people with tremor, arthritis or a recent injury, a small target is more than annoying. It decides whether they can use the page at all."
       ),
       p(
-        "The W3C's Target Size (Minimum) criterion gives the practical rule, and we read the page before writing this. Pointer targets should be at least 24 by 24 CSS pixels. If a target is smaller, the space around it must be large enough that a 24 pixel circle centered on it does not touch another target. The same page describes a larger level that uses 44 by 44 pixels."
+        "The W3C's Target Size (Minimum) criterion gives the practical rule, and we read the page before writing this. Pointer targets should be at least 24 by 24 CSS pixels. If a target is smaller, the space around it must be large enough that a 24 pixel circle centered on it does not touch another target. The same page describes a larger level that uses 44 by 44 pixels. A show password button on a sign-in page must also be large enough for a thumb, and our guide to a [show-password toggle on a portal sign-in](/guides/show-password-toggle-on-a-patient-portal-sign-in-with-a-clear-name-and-state-for-a-medical-practice-website) lists the other checks."
       ),
       h2("When a smaller button is still allowed"),
       p(
@@ -852,7 +852,7 @@ export const guidesPartForty11: Guide[] = [
         "A new patient types a message, taps Send and the page reloads with the form empty or the same, and no explanation. Did it go through? Did it fail? Many practice forms behave this way when one field is wrong, and the visitor, unsure, closes the tab. A lead that was ready to call becomes silence."
       ),
       p(
-        "The W3C's Error Identification criterion, which we read before writing, says that when an input error is detected automatically, the item in error is identified and the error is described in text. It adds that it is not enough to redisplay the form without a hint that the submission failed, and that color or text styling can be used as long as errors are also stated in text."
+        "The W3C's Error Identification criterion, which we read before writing, says that when an input error is detected automatically, the item in error is identified and the error is described in text. It adds that it is not enough to redisplay the form without a hint that the submission failed, and that color or text styling can be used as long as errors are also stated in text. Timing matters as much as wording, so see how to decide between [checking a field while a patient types or after they leave it](/guides/checking-a-field-while-a-patient-types-versus-after-they-leave-it-on-a-practice-booking-or-contact-form) on your own form."
       ),
       h2("What a good message contains"),
       ul(
@@ -939,7 +939,7 @@ export const guidesPartForty11: Guide[] = [
         "Someone reaching out to a counselor for the first time may stop mid-form to think, to comfort a child or to find an insurance card. Some people also type slowly because of a disability, a tremor or a borrowed phone. If the page quietly expires after a few minutes and throws away what they typed, they have to start again, and many will not."
       ),
       p(
-        "The W3C's Timing Adjustable criterion covers this, and we read it before writing. For each time limit the page sets, at least one thing must be true. The visitor can turn it off, adjust it over a wide range of at least ten times the default, or be warned before it ends and given at least 20 seconds to extend it with a simple action, at least ten times."
+        "The W3C's Timing Adjustable criterion covers this, and we read it before writing. For each time limit the page sets, at least one thing must be true. The visitor can turn it off, adjust it over a wide range of at least ten times the default, or be warned before it ends and given at least 20 seconds to extend it with a simple action, at least ten times. A slow typist is also helped when errors wait until the field is finished, as our guide to [checking a form field while typing or after leaving it](/guides/checking-a-field-while-a-patient-types-versus-after-they-leave-it-on-a-practice-booking-or-contact-form) describes."
       ),
       h2("Where the timers hide"),
       ul(
@@ -1026,7 +1026,7 @@ export const guidesPartForty11: Guide[] = [
         "Every extra tap on a small keyboard is a reason to quit. A contact form that makes a patient type a full name, an email address and a phone number from scratch, using the wrong keyboard for each, loses people who would have filled in a form that did it for them."
       ),
       p(
-        "Phones can fill those boxes automatically, but only when the form says what each box is. The W3C's Identify Input Purpose criterion, which we read before writing, asks that the purpose of fields collecting information about the user can be determined by software. Its example is a contact form that names the purpose of name, street, city, telephone and email fields, which lets the browser fill them from saved values."
+        "Phones can fill those boxes automatically, but only when the form says what each box is. The W3C's Identify Input Purpose criterion, which we read before writing, asks that the purpose of fields collecting information about the user can be determined by software. Its example is a contact form that names the purpose of name, street, city, telephone and email fields, which lets the browser fill them from saved values. A telephone field that refuses spaces or parentheses undoes that help, so also read how to build a [phone number field that accepts any way a patient types it](/guides/phone-number-field-that-accepts-spaces-dashes-and-parentheses-as-the-patient-types-them-on-a-practice-contact-form)."
       ),
       h2("The attribute that does it"),
       p(

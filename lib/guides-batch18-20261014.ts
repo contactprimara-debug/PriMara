@@ -1240,7 +1240,7 @@ export const guidesPartTwentyOne: Guide[] = [
       "A couples counseling page should explain how sessions work, who attends, how long they run, how to book, what they cost and how the first call goes. It should not promise a stronger relationship, name problems it will fix or tell couples what is wrong. Describe the format and invite one conversation with the clinician.",
     author: "Liam Costello",
     publishDate: "2026-10-14T13:00:00Z",
-    dateModified: "2026-10-28",
+    dateModified: "2026-11-25",
     readMinutes: 6,
     sections: [
       h2("Couples search with a different kind of nervousness"),
@@ -1294,8 +1294,25 @@ export const guidesPartTwentyOne: Guide[] = [
       h3("Small practical touches"),
       p("Consider a single paragraph about what to bring to the first call: a calendar of the partners' availability, the insurance card if coverage matters, and any questions about fees. This is practical, makes the first conversation shorter, and gives hesitant visitors something simple to do while they decide."),
       p("Mention too that the practice will not take sides in a booking call. Staff who answer the phone should be trained to schedule, explain fees and answer practical questions, and to leave the details of the relationship for the clinician. Saying so on the page lets a nervous partner call without rehearsing their story first."),
+      h2("Which words to use in the headings"),
+      p(
+        "People describe the same service in different ways. Some search for couples counseling, some for marriage counseling, and some for relationship or premarital counseling. A page can use more than one of these without stuffing, as long as the wording matches what your clinicians actually offer."
+      ),
+      ul(
+        "Put the main phrase you use in the page title and the first heading, such as couples counseling.",
+        "Mention the other names once in a plain sentence, such as We also see partners who call it marriage counseling or premarital counseling, if that is true.",
+        "Use each clinician's license title exactly as the state issues it, because not every clinician is licensed for work with couples.",
+        "Answer practical questions in headings, such as how a first session works and whether both partners must attend."
+      ),
+      p(
+        "Skip lists of keywords at the bottom of the page. A reader and a search engine both prefer a page that answers the question in order, and our guide to [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) shows the same approach for other services."
+      ),
     ],
     faqs: [
+      {
+        q: "What keywords should a couples counseling page use?",
+        a: "Use the phrase your clinicians really use, such as couples counseling, in the title and first heading, and mention other names like marriage or premarital counseling once in a plain sentence if you offer them. Avoid keyword lists and outcome promises.",
+      },
       {
         q: "Can a couples counseling page say that therapy saves relationships?",
         a: "No. That is an outcome promise. Describe the format of sessions and invite visitors to talk with a clinician about whether counseling is a fit.",

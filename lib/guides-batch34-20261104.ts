@@ -118,6 +118,11 @@ const CDC_988 = {
   href: "https://988lifeline.org/",
 };
 
+const GOOGLE_AI_FEATURES = {
+  publisher: "Google Search Central",
+  label: "AI features and your website",
+  href: "https://developers.google.com/search/docs/appearance/ai-features",
+};
 export const guidesPartThirtySeven: Guide[] = [
   // ---------------------------------------------------------------- 1489
   {
@@ -140,7 +145,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "Some of the shortest appointments a primary care office offers are also the ones patients are most unsure about. Someone who was told to come back for a blood pressure check, or who has a standing injection schedule, does not want a full visit with a provider. They want to know whether they can walk in, whether they need to call first, and how long they will be in the building."
       ),
       p(
-        "If your website has no answer, the front desk answers the same questions all day, and some patients give up and go to a pharmacy clinic. A single page that explains the nurse visit in plain words saves calls and keeps those patients inside your practice."
+        "If your website has no answer, the front desk answers the same questions all day, and some patients give up and go to a pharmacy clinic. A single page that explains the nurse visit in plain words saves calls and keeps those patients inside your practice. If your office also offers a visit about quitting tobacco, describe it on its own page, as in our guide to a [quit-tobacco support page for primary care](/guides/tobacco-quitting-support-visit-page-for-a-primary-care-practice-that-points-to-the-free-state-quitline-without-clinical-claims)."
       ),
       h2("What belongs on the page"),
       table(
@@ -225,7 +230,7 @@ export const guidesPartThirtySeven: Guide[] = [
         "A woman searching for a primary care office that handles her annual visit is usually asking a practical question. Can I get this done with the provider who already knows me, or do I need a separate office? She may also be looking for a female clinician, an evening slot, or a place that will not make the visit feel awkward."
       ),
       p(
-        "A page that answers those questions calmly turns a search into a phone call. A page that is silent, or that lists services the office does not really perform, sends her to a competitor or, worse, to a visit that ends in a referral she did not expect."
+        "A page that answers those questions calmly turns a search into a phone call. A page that is silent, or that lists services the office does not really perform, sends her to a competitor or, worse, to a visit that ends in a referral she did not expect. Visit pages for other patient needs, such as a [quit-tobacco support visit that points to the free state quitline](/guides/tobacco-quitting-support-visit-page-for-a-primary-care-practice-that-points-to-the-free-state-quitline-without-clinical-claims), can follow the same plain structure."
       ),
       h2("Start with what the office actually does"),
       p(
@@ -485,7 +490,7 @@ export const guidesPartThirtySeven: Guide[] = [
       "An llms.txt file is an optional text file listing a site's key pages for AI tools. Major search engines have not said they use it, so it is low priority for a practice. A clear services summary, accurate Google profile and plain page text matter more and take effect now.",
     author: "Gio LaRoche",
     publishDate: "2026-11-04T15:00:00Z",
-    dateModified: "2026-11-04",
+    dateModified: "2026-11-25",
     readMinutes: 5,
     sections: [
       h2("What llms.txt is"),
@@ -532,8 +537,19 @@ export const guidesPartThirtySeven: Guide[] = [
       p(
         "Whatever you add for machines should say the same thing your pages say for people. If the summary claims a service that no page explains, or the file lists an old address, the mismatch is the thing assistants are most likely to repeat. Put a date in your calendar to read the summary aloud twice a year and correct it."
       ),
+      h2("What Google says about AI features and special files"),
+      p(
+        "Google's own page on AI features in Search is the plainest answer to the question practice owners ask most. It says there are no additional requirements to appear in AI Overviews or AI Mode, and that you do not need to create new machine readable files, AI text files or markup to appear in these features. The page does not mention llms.txt by name, but the sentence about AI text files covers the idea."
+      ),
+      p(
+        "That is why this guide ranks the file low. If you or your web company want to add one for other tools, it does no harm when it lists only accurate public pages. Spend your first hours on the things Google does reward: pages that answer a patient's question, a Google profile that matches your site, and text a visitor can read without scripts."
+      ),
     ],
     faqs: [
+      {
+        q: "Does a medical practice need an llms.txt file to appear in Google's AI answers?",
+        a: "No. Google's page on AI features says there are no additional requirements to appear in AI Overviews or AI Mode, and that you do not need new machine readable files, AI text files or markup. Clear pages and an accurate Google profile do the work.",
+      },
       {
         q: "Does Google use llms.txt?",
         a: "Google has not said it does. The proposal is a community convention. Treat it as optional, and do not expect a ranking or visibility change from adding it. Accurate pages and listings matter more.",
@@ -555,7 +571,7 @@ export const guidesPartThirtySeven: Guide[] = [
         a: "No. Structured data is code inside a page that labels facts, such as hours or organization name. An llms.txt file is a separate text file that lists pages. They can both exist, and neither replaces clear page text.",
       },
     ],
-    citations: [LLMS_TXT, GOOGLE_ROBOTS, GOOGLE_HELPFUL, HHS_PRIVACY],
+    citations: [GOOGLE_AI_FEATURES, LLMS_TXT, GOOGLE_ROBOTS, GOOGLE_HELPFUL, HHS_PRIVACY],
     links: [
       { href: "/guides/get-a-medical-practice-into-ai-search-answers", label: "Getting Into AI Search Answers", description: "The wider approach to AI visibility." },
       { href: "/guides/should-a-medical-practice-allow-or-block-ai-crawlers", label: "Allow Or Block AI Crawlers", description: "Decide this before adding a file." },

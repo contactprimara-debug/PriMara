@@ -453,7 +453,7 @@ export const guidesPartForty16: Guide[] = [
         "A new client form that goes from Your details to Your insurance to Your preferences to Review looks reasonable to the person who built it. To the person filling it in on a phone, each screen is a surprise. They do not know whether there are two more screens or ten, so some stop at the second one."
       ),
       p(
-        "A short sentence at the top, saying step 2 of 4, removes most of that doubt. It costs a practice nothing and it helps everyone, not only people who use assistive technology."
+        "A short sentence at the top, saying step 2 of 4, removes most of that doubt. It costs a practice nothing and it helps everyone, not only people who use assistive technology. Each step of such a form should also check its fields at a calm moment, which our guide to [checking a field while typing or after leaving it](/guides/checking-a-field-while-a-patient-types-versus-after-they-leave-it-on-a-practice-booking-or-contact-form) walks through."
       ),
       h2("What the W3C tutorial recommends"),
       p(
