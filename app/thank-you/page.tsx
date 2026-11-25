@@ -70,7 +70,9 @@ const facts = [
   },
 ];
 
-export default function ThankYouPage() {
+export default function ThankYouPage({ searchParams }: { searchParams?: { booked?: string; t?: string } }) {
+  const booked = searchParams?.booked === "1";
+  const bookedAt = booked && searchParams?.t && !isNaN(Date.parse(searchParams.t)) ? new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", dateStyle: "full", timeStyle: "short" }).format(new Date(searchParams.t)) + " Eastern" : null;
   // Only a submission that actually recorded a lead gets the conversion tag.
   // Honeypot-caught bots reach this page too (same fake success, same
   // redirect) but carry no pl_ok cookie, so the ping is never mounted.
@@ -107,7 +109,7 @@ export default function ThankYouPage() {
               <path d="M2 7l4 4 6-6" stroke="#3DAA6E" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <span style={{ fontFamily: "system-ui, sans-serif", fontSize: "12px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#5ecb94", fontWeight: 600 }}>
-              Message Received
+              {booked ? "Call Booked" : "Message Received"}
             </span>
           </div>
 
@@ -123,7 +125,7 @@ export default function ThankYouPage() {
               marginBottom: "20px",
             }}
           >
-            We got your message.
+            {booked ? "You are booked." : "We got your message."}
           </h1>
 
           <p
@@ -135,7 +137,7 @@ export default function ThankYouPage() {
               opacity: 0.75,
             }}
           >
-            We&rsquo;ll be in touch within 24 hours. In the meantime, here&rsquo;s exactly what happens next.
+            {booked ? <>{bookedAt ? `${bookedAt}. ` : ""}A calendar invite with the Google Meet link is on its way to your email. Here&rsquo;s what to expect.</> : <>We&rsquo;ll be in touch within 24 hours. In the meantime, here&rsquo;s exactly what happens next.</>}
           </p>
         </div>
       </section>

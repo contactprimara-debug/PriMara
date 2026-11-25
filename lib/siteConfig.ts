@@ -8,7 +8,6 @@ export const siteConfig = {
   phone: "+15612912681",
   phoneDisplay: "(561) 291-2681",
   email: "liam.costello@primara365.com",
-  calendly: "https://calendly.com/contactprimara/30min",
   url: "https://primara365.com",
   founders: ["Liam Costello", "Gio LaRoche"],
 } as const;

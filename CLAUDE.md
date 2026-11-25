@@ -83,7 +83,7 @@ Verticals: `/mens-health` `/primary-care` `/mental-health` `/medspas`
 
 ## Business Rules
 - No pricing on `/the-audit` — pricing comes from the sales conversation
-- Contact: liam.costello@primara365.com · +1 (561) 291-2681 · calendly.com/contactprimara/30min
+- Contact: liam.costello@primara365.com · +1 (561) 291-2681 · book at primara365.com/#book
 - Founders: Liam Costello & Gio LaRoche · Tagline: Digital Marketing for Independent Medical Practices
 - Canonical contact constants live in `lib/siteConfig.ts` — import, don't hardcode
 
