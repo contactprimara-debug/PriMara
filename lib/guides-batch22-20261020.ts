@@ -298,7 +298,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h2("Say what you offer in plain terms"),
       p(
-        "It is safe to describe the setting and the topics people bring, such as feeling stretched thin, family disagreements about care, grief that starts before a loss, or trouble finding time for yourself. It is not safe to say that counseling reduces caregiver burnout, lowers depression or improves health. Those are clinical claims, and the page does not need them."
+        "It is safe to describe the setting and the topics people bring, such as feeling stretched thin, family disagreements about care, grief that starts before a loss, or trouble finding time for yourself. It is not safe to say that counseling reduces caregiver burnout, lowers depression or improves health. Those are clinical claims, and the page does not need them. Caregivers often mention broken sleep, and a [sleep difficulties counseling page](/guides/sleep-difficulties-counseling-page-for-a-counseling-practice-that-points-to-the-patients-own-doctor-without-clinical-claims) can speak to that need while sending any medical question to the person's own doctor."
       ),
       table(
         ["Instead of this", "Say this"],
@@ -394,7 +394,7 @@ export const guidesPartTwentyFive: Guide[] = [
       ),
       h2("Talk about work without making clinical claims"),
       p(
-        "It is natural to name deadlines, long hours, difficult managers, career changes and the pull between work and family. It is not safe to claim that counseling prevents burnout, treats anxiety caused by work, or improves performance. A page can say what the conversation covers without saying what it fixes."
+        "It is natural to name deadlines, long hours, difficult managers, career changes and the pull between work and family. It is not safe to claim that counseling prevents burnout, treats anxiety caused by work, or improves performance. A page can say what the conversation covers without saying what it fixes. Late nights are one of the things working professionals mention, and a separate [sleep difficulties counseling page](/guides/sleep-difficulties-counseling-page-for-a-counseling-practice-that-points-to-the-patients-own-doctor-without-clinical-claims) can describe that conversation without promising any change in hours slept."
       ),
       table(
         ["Avoid", "Use"],

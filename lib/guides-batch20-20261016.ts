@@ -456,7 +456,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "What happens when a patient cannot make decisions, which follows legal documents the office reviews with the patient or the representative."
       ),
       p(
-        "Keep each point to a sentence or two. The page is not the place for legal detail, and a link to the actual form does more than a long explanation."
+        "Keep each point to a sentence or two. The page is not the place for legal detail, and a link to the actual form does more than a long explanation. Facility nurses and family members who call about a patient in assisted living need the same clear rules, and a [visit coordination page for assisted living patients](/guides/coordinating-visits-for-a-patient-who-lives-in-an-assisted-living-facility-page-for-a-primary-care-practice) shows where to state them."
       ),
       h2("A simple layout that people can scan"),
       table(
@@ -926,7 +926,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("What not to say"),
       p(
-        "Do not promise that the first visit will be quick, that all medications will continue or that the new doctor will agree with the old one. Do not criticize other practices. A transfer page should be neutral, and the new practice proves itself at the first visit. People who are moving their care may prefer an introduction before sending records, and a [meet and greet visit page](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) tells them how to ask for one without booking a full appointment. After the records request, tell patients what the first appointment is for, using an [establishing care visit page](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice) that says how long it takes and what the clinician will cover."
+        "Do not promise that the first visit will be quick, that all medications will continue or that the new doctor will agree with the old one. Do not criticize other practices. A transfer page should be neutral, and the new practice proves itself at the first visit. People who are moving their care may prefer an introduction before sending records, and a [meet and greet visit page](/guides/meet-and-greet-visit-before-becoming-a-patient-page-for-a-primary-care-practice) tells them how to ask for one without booking a full appointment. After the records request, tell patients what the first appointment is for, using an [establishing care visit page](/guides/establishing-care-visit-explained-page-for-a-primary-care-practice) that says how long it takes and what the clinician will cover. Some patients are not leaving their doctor at all and only want a clinician to read the records and explain them, which is the visit our guide to a [second-opinion and outside-records review page](/guides/second-opinion-and-outside-records-review-visit-page-for-a-primary-care-practice-without-clinical-claims) describes."
       ),
       h2("Make the first visit easy to book"),
       p(
@@ -1018,7 +1018,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("Wording to avoid"),
       p(
-        "Do not write that the practice manages, controls or reverses a condition. Do not name a condition as a service line with a promise attached, and do not publish a list of conditions as if they were a menu. Describe the kind of visit, such as ongoing care visits, and let the doctor discuss specifics in the exam room."
+        "Do not write that the practice manages, controls or reverses a condition. Do not name a condition as a service line with a promise attached, and do not publish a list of conditions as if they were a menu. Describe the kind of visit, such as ongoing care visits, and let the doctor discuss specifics in the exam room. A practice that also offers a visit to talk about eating, activity and sleep can describe it the way our guide to a [nutrition and weight visit page](/guides/nutrition-and-weight-visit-page-for-a-primary-care-practice-that-describes-the-conversation-without-outcome-claims) does, without any promise about results."
       ),
       h2("Make it findable and kind"),
       p(

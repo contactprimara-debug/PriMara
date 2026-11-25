@@ -306,7 +306,7 @@ export const guidesPartThirty: Guide[] = [
         "People look for home visits when getting to the office is hard: an older parent who no longer drives, a family caring for someone who is homebound, a person recovering at home who cannot manage the trip. They often search in plain words, such as doctor who makes house calls near me, and then call the first practice that answers the question."
       ),
       p(
-        "If your practice offers visits at home, even rarely or for existing patients only, say so on one clear page. If it does not, a short honest page that says so and points to alternatives is still useful, because it ends a call the front desk would otherwise take."
+        "If your practice offers visits at home, even rarely or for existing patients only, say so on one clear page. If it does not, a short honest page that says so and points to alternatives is still useful, because it ends a call the front desk would otherwise take. Patients who live in assisted living need a separate explanation of who arranges what, which our guide to a [page for patients living in assisted living](/guides/coordinating-visits-for-a-patient-who-lives-in-an-assisted-living-facility-page-for-a-primary-care-practice) covers for facility staff and families."
       ),
       h2("Decide and publish the rules"),
       table(

@@ -617,7 +617,7 @@ export const guidesPartThirtyNine: Guide[] = [
       ),
       h2("Keep it kind and brief"),
       p(
-        "A farewell note can be warm without clinical detail. Thank the patient, give the three practical items, and give a phone number. Do not mention a diagnosis, a medication or a reason for the move. Keep a note in the record that the patient was told how to request their information."
+        "A farewell note can be warm without clinical detail. Thank the patient, give the three practical items, and give a phone number. Do not mention a diagnosis, a medication or a reason for the move. Keep a note in the record that the patient was told how to request their information. A practice receiving such a patient can offer a visit to go through the outside records, and our guide to a [second-opinion and outside-records review visit page](/guides/second-opinion-and-outside-records-review-visit-page-for-a-primary-care-practice-without-clinical-claims) shows how to word that offer."
       ),
     ],
     faqs: [

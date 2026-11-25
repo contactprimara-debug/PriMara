@@ -474,7 +474,7 @@ export const guidesPartTwentyOne: Guide[] = [
         "Give a range for how long the office needs to process the request, and be clear that the specialist's schedule and the insurer's review are outside your control. A line such as we send the request within a set number of business days, and the insurer or specialist's office may take longer is honest and rarely disappoints. When the plan also needs to approve the visit, explain that step too, as our guide to [prior authorization and referral timelines](/guides/prior-authorization-and-referral-timelines-explained-on-a-primary-care-practice-website) describes."
       ),
       p(
-        "Tell patients how to check status. If your portal shows referral progress, say so. If it does not, give the phone number and the hours when someone can look up the request. Patients forgive delay far more readily than silence."
+        "Tell patients how to check status. If your portal shows referral progress, say so. If it does not, give the phone number and the hours when someone can look up the request. Patients forgive delay far more readily than silence. Patients waiting on a specialist often ask whether someone in the practice can review the specialist's records with them, and a [second-opinion and outside-records visit page](/guides/second-opinion-and-outside-records-review-visit-page-for-a-primary-care-practice-without-clinical-claims) gives the front desk a clear answer to give."
       ),
       h2("How the page helps your search presence"),
       p(
@@ -1275,7 +1275,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Struggling with affairs or abuse", "Call 911 or the national crisis lines if anyone is in danger."]
       ),
       p(
-        "The last row matters. A couples page may be read by someone who is not safe at home. Add a clear line for emergencies and a link to the National Domestic Violence Hotline or 988, and make clear that the practice cannot respond to a crisis through a web form."
+        "The last row matters. A couples page may be read by someone who is not safe at home. Add a clear line for emergencies and a link to the National Domestic Violence Hotline or 988, and make clear that the practice cannot respond to a crisis through a web form. Some couples arrive because one partner's anger is the worry, and an [anger and emotional regulation counseling page](/guides/anger-and-emotional-regulation-counseling-page-for-a-counseling-practice-that-states-what-it-does-and-does-not-offer) can describe that work with the same calm, safety-first wording."
       ),
       h2("Be honest about privacy and the first call"),
       p(

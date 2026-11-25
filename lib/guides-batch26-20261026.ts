@@ -686,7 +686,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h2("Be careful with experience claims"),
       p(
-        "A clinician who has grown up in a fire family or worked in an emergency room can say so, and it helps. A practice that has never worked with these groups should not suggest otherwise. Do not write that your clinicians specialize in trauma, post traumatic stress or burnout unless a clinician holds a training you can name and verify. Our guide to [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) shows how to describe the concerns people bring without making clinical promises."
+        "A clinician who has grown up in a fire family or worked in an emergency room can say so, and it helps. A practice that has never worked with these groups should not suggest otherwise. Do not write that your clinicians specialize in trauma, post traumatic stress or burnout unless a clinician holds a training you can name and verify. Our guide to [specialty pages for a therapy practice](/guides/specialty-pages-for-a-therapy-practice-anxiety-trauma-couples-without-clinical-claims) shows how to describe the concerns people bring without making clinical promises. Some clients name anger or irritability as the thing they want to work on, and an [anger and emotional regulation counseling page](/guides/anger-and-emotional-regulation-counseling-page-for-a-counseling-practice-that-states-what-it-does-and-does-not-offer) shows how to say what you offer without a label or a promise."
       ),
       h2("Explain privacy in terms of the job"),
       p(
@@ -785,7 +785,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h2("What the page should not say"),
       p(
-        "Do not list conditions of aging or suggest that counseling treats memory loss or other medical problems. Do not imply that a visit can assess whether someone can live alone or manage money. Say that clinicians work with older adults on concerns they bring, and that medical questions belong with their physician."
+        "Do not list conditions of aging or suggest that counseling treats memory loss or other medical problems. Do not imply that a visit can assess whether someone can live alone or manage money. Say that clinicians work with older adults on concerns they bring, and that medical questions belong with their physician. Trouble sleeping is a common reason an older client calls, and our guide to a [sleep difficulties counseling page](/guides/sleep-difficulties-counseling-page-for-a-counseling-practice-that-points-to-the-patients-own-doctor-without-clinical-claims) shows how to describe that help while pointing the client to their own doctor."
       ),
       h3("Plan for hearing and vision"),
       p(
@@ -1074,7 +1074,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Do not make the page about the other person"),
       p(
-        "Visitors may be hurt or angry, and the page should not echo that. Avoid words that cast one person as the problem, and do not promise help in winning an argument. Say instead that counseling gives each person room to think clearly about what they want and how they will cope. This keeps the page honest, and it keeps the practice out of disputes that belong with attorneys and courts."
+        "Visitors may be hurt or angry, and the page should not echo that. Avoid words that cast one person as the problem, and do not promise help in winning an argument. Say instead that counseling gives each person room to think clearly about what they want and how they will cope. This keeps the page honest, and it keeps the practice out of disputes that belong with attorneys and courts. A person who is struggling with anger during a separation may also look for a page that speaks to it directly, as in our guide to an [anger and emotional regulation counseling page](/guides/anger-and-emotional-regulation-counseling-page-for-a-counseling-practice-that-states-what-it-does-and-does-not-offer)."
       ),
       h2("Be open about cost and scheduling"),
       p(
@@ -1170,7 +1170,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Check it each autumn"),
       p(
-        "Medicare rules and plan details change each year, so review the page every autumn when open enrollment begins. Confirm that the plans listed still apply, that the booking steps still work and that the links lead to current pages on Medicare.gov. Update the date at the bottom, and tell the front desk what changed so callers hear the same answer. A page that is accurate each season earns more trust than one that was written once and forgotten."
+        "Medicare rules and plan details change each year, so review the page every autumn when open enrollment begins. Confirm that the plans listed still apply, that the booking steps still work and that the links lead to current pages on Medicare.gov. Update the date at the bottom, and tell the front desk what changed so callers hear the same answer. A page that is accurate each season earns more trust than one that was written once and forgotten. Patients new to Medicare also ask whether the practice can talk with them about nutrition and weight, and a [nutrition and weight visit page](/guides/nutrition-and-weight-visit-page-for-a-primary-care-practice-that-describes-the-conversation-without-outcome-claims) lets you answer without making any promise about results."
       ),
     ],
     faqs: [

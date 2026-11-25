@@ -812,7 +812,7 @@ export const guidesPartForty3: Guide[] = [
       ),
       h2("Give patients a fallback"),
       p(
-        "While you fix a link, put the office phone number next to it. A line such as 'If the portal does not open, call us at the number above' keeps the patient from giving up. Our guide on [portal login and messaging expectations](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice) has wording that sets expectations for patients."
+        "While you fix a link, put the office phone number next to it. A line such as 'If the portal does not open, call us at the number above' keeps the patient from giving up. Our guide on [portal login and messaging expectations](/guides/portal-login-and-messaging-expectations-page-for-a-counseling-practice) has wording that sets expectations for patients. A short instruction card for saving the portal sign-in page to a phone home screen is one more link worth testing, and our guide to a [portal home screen shortcut card](/guides/saving-the-patient-portal-sign-in-page-to-a-phone-home-screen-with-a-short-instruction-card-for-a-medical-practice) explains how to build and check it."
       ),
       h3("If the form is embedded"),
       p(
