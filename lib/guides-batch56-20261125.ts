@@ -375,9 +375,11 @@ export const guidesPartForty19: Guide[] = [
       p(
         "The National Heart, Lung, and Blood Institute says experts recommend that adults sleep between 7 and 9 hours a night, and it advises talking with a doctor if you think you or your child sleeps too much or too little. That second part is the line your page should echo."
       ),
+      h3("Older adults and sleep"),
       p(
         "The National Institute on Aging describes insomnia as trouble falling asleep or staying asleep at least three nights a week, and notes that cognitive behavioral therapy, a type of counseling, can help. It also suggests keeping a sleep diary for a couple of weeks to bring to a doctor, and it says anyone who suspects sleep apnea should talk to a doctor. The National Institute of Mental Health lists loss of sleep among the symptoms that can come with stress and anxiety."
       ),
+      h3("How to use these sources on the page"),
       p(
         "Your page can point to these sources without repeating their medical content. A counselor is not diagnosing anything here, and the page should not read as if they were."
       ),
