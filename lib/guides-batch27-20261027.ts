@@ -157,7 +157,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h2("Connect it to the rest of the site"),
       p(
-        "Link the page from the online booking flow and from the family visit pages. Our guide to a [well-child and school-age checkup page](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) shows where the link belongs for younger children, and the [caregiver and family member communication policy](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) covers adults who come with a patient. If a parent is booking for several children at once, the page on [booking several family members in one visit](/guides/booking-several-family-members-in-one-visit-page-for-a-primary-care-practice) explains how to word that request."
+        "Link the page from the online booking flow and from the family visit pages. Our guide to a [well-child and school-age checkup page](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) shows where the link belongs for younger children, and the [caregiver and family member communication policy](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) covers adults who come with a patient. If a parent is booking for several children at once, the page on [booking several family members in one visit](/guides/booking-several-family-members-in-one-visit-page-for-a-primary-care-practice) explains how to word that request. As teens approach adulthood, a [pediatric to adult care transition page for a family medicine practice](/guides/pediatric-to-adult-care-transition-page-for-a-family-medicine-practice) explains how the parent's role changes and how records move."
       ),
       p(
         "If your counseling or behavioral health partner also sees teens, point to their version of the same explanation, such as a [teen therapy page for parents](/guides/teen-therapy-page-for-parents-consent-confidentiality-and-logistics-without-clinical-claims), so families hear one consistent story."
@@ -334,7 +334,7 @@ export const guidesPartThirty: Guide[] = [
       ),
       h2("Make the request easy to complete"),
       p(
-        "A caregiver reading this page is often busy and anxious. Put the phone number at the top as a tap-to-call link, repeat it at the bottom and keep any online form short, with name, callback number and a preferred time. Do not ask for a medical reason on a web form, and say in one line that the staff will return calls during business hours."
+        "A caregiver reading this page is often busy and anxious. Put the phone number at the top as a tap-to-call link, repeat it at the bottom and keep any online form short, with name, callback number and a preferred time. Do not ask for a medical reason on a web form, and say in one line that the staff will return calls during business hours. Families arranging home care often want to talk about future care wishes too, and an [advance care planning visit page for a primary care practice](/guides/advance-care-planning-visit-page-for-a-primary-care-practice) explains how to offer that conversation."
       ),
       h3("Check the page against Google"),
       p(
@@ -1042,7 +1042,7 @@ export const guidesPartThirty: Guide[] = [
         "Link the page from the booking button and the new patient information page. The [visit types and appointment lengths guide](/guides/how-to-explain-visit-types-and-appointment-lengths-on-a-primary-care-practice-website) shows how to describe family block visits, and the [well-child checkup page guide](/guides/well-child-and-school-age-checkup-page-for-a-family-medicine-practice-without-clinical-claims) covers younger children in more detail. Once the youngest age is stated, parents of infants need a practical next step, which a [new baby first visit scheduling page](/guides/new-baby-first-visit-scheduling-page-for-a-family-medicine-practice-without-clinical-claims) can provide without giving medical advice."
       ),
       p(
-        "Repeat the age range in your Google Business Profile description in one short sentence, and keep it identical to the page. Mismatched age statements are a common reason for wasted phone calls."
+        "Repeat the age range in your Google Business Profile description in one short sentence, and keep it identical to the page. Mismatched age statements are a common reason for wasted phone calls. Families of older teenagers also ask what happens when a young person moves to adult care, and a [pediatric to adult care transition page for a family medicine practice](/guides/pediatric-to-adult-care-transition-page-for-a-family-medicine-practice) answers that."
       ),
       h3("Check the other directories"),
       p(

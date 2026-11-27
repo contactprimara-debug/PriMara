@@ -179,7 +179,7 @@ export const guidesPartTwentyOne: Guide[] = [
       ),
       h3("Keep the reason for the visit out of it"),
       p(
-        "Even a friendly line such as we look forward to talking about your knee can reveal health information to anyone who sees the screen. Greet the patient, not the condition. If you want to prepare the patient, tell them what to bring and where to log in, and leave the clinical conversation for the room."
+        "Even a friendly line such as we look forward to talking about your knee can reveal health information to anyone who sees the screen. Greet the patient, not the condition. If you want to prepare the patient, tell them what to bring and where to log in, and leave the clinical conversation for the room. If the message also links to the intake form, point patients first to a [pre-visit questionnaire page that explains why each question is asked](/guides/pre-visit-questionnaire-page-for-a-primary-care-practice-that-explains-why-each-question-is-asked-and-what-stays-private) so they know what to expect before they start typing."
       ),
       h2("Sample text message"),
       p(
@@ -455,7 +455,7 @@ export const guidesPartTwentyOne: Guide[] = [
         ["Plan needs prior authorization", "The specialist or the office may need to ask the insurer, which takes time."]
       ),
       p(
-        "Healthcare.gov's glossary describes a referral as a written order from a primary care doctor to see a specialist, which is a useful plain-language definition to echo. Link to it, then say that plan rules differ and that the insurance card has a member services number."
+        "Healthcare.gov's glossary describes a referral as a written order from a primary care doctor to see a specialist, which is a useful plain-language definition to echo. Link to it, then say that plan rules differ and that the insurance card has a member services number. Some referrals send a patient to a nutrition professional rather than a physician, and a [dietitian referral page that makes no outcome claims](/guides/dietitian-referral-page-for-a-primary-care-practice-without-outcome-claims) shows how to explain that handoff in plain words."
       ),
       h2("What the patient needs to bring to the request"),
       ul(

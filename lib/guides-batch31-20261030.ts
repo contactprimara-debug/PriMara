@@ -1416,7 +1416,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "Personal opinions, which do not belong in a business record."
       ),
       p(
-        "Keep the log in a system with restricted access and a record of who opened it. A printed sheet left at the desk is a privacy risk. If your practice management system already stores call notes, use it and add the source field."
+        "Keep the log in a system with restricted access and a record of who opened it. A printed sheet left at the desk is a privacy risk. If your practice management system already stores call notes, use it and add the source field. Callers who ask why the office wants a photo ID are best answered with the wording on a [photo ID and insurance card page for a primary care practice](/guides/photo-id-and-insurance-card-at-the-first-visit-page-for-a-primary-care-practice-that-explains-why-they-are-asked-for), so the log and the page agree."
       ),
       h3("Measure what the front desk can control"),
       p(

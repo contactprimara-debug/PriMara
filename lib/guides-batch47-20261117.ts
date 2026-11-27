@@ -428,7 +428,7 @@ export const guidesPartForty10: Guide[] = [
       ),
       h3("Offer a PDF only if you will keep it current"),
       p(
-        "A separate PDF of the page doubles your upkeep, and an old copy can sit in search results for years. If you do offer one, follow the advice in our guide on [retiring old PDF forms and outdated documents](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website). Otherwise, a print-friendly page beats a PDF because it is always the current version."
+        "A separate PDF of the page doubles your upkeep, and an old copy can sit in search results for years. If you do offer one, follow the advice in our guide on [retiring old PDF forms and outdated documents](/guides/retiring-old-pdf-forms-and-outdated-documents-still-indexed-on-a-medical-practice-website). Otherwise, a print-friendly page beats a PDF because it is always the current version. Patients who need larger type than the printed sheet offers can ask the office, and a [large-print and plain-language handout request page](/guides/large-print-and-plain-language-handout-request-page-for-a-primary-care-practice) explains how to invite that request."
       ),
       h2("Test it on a phone and a computer"),
       ul(
@@ -713,7 +713,7 @@ export const guidesPartForty10: Guide[] = [
         "A page without links can still appear in your sitemap, and Google may know about it. Look at the indexing report in Search Console, as explained in our guide to the [page indexing report](/guides/page-indexing-report-in-google-search-console-explained-for-a-medical-practice-website), and compare it against the sitemap described in the guide on [XML sitemaps and robots.txt](/guides/xml-sitemaps-and-robots-txt-for-a-medical-practice-website). A page in the sitemap that has no links pointing to it is the first one to fix."
       ),
       p(
-        "Write the date of each check on the inventory, with how many orphans you found and fixed. A count that falls to zero and stays there is a result you can report to the practice owner. Pair the check with the [broken link and 404 check](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website), because a link that points at a missing page leaves its target just as lost."
+        "Write the date of each check on the inventory, with how many orphans you found and fixed. A count that falls to zero and stays there is a result you can report to the practice owner. Pair the check with the [broken link and 404 check](/guides/how-to-find-and-fix-broken-links-and-404-errors-on-a-medical-practice-website), because a link that points at a missing page leaves its target just as lost. The Links report in Search Console shows which pages other sites and your own pages link to most, and a [guide to reading the Search Console Links report](/guides/reading-the-search-console-links-report-to-see-which-sites-link-to-a-counseling-practice) explains how to read it."
       ),
     ],
     faqs: [

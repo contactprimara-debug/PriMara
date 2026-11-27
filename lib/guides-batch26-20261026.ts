@@ -982,7 +982,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h3("Say what the first call looks like"),
       p(
-        "Families are often tired of retelling their story. Tell them what the first call includes: a few questions about who is in the family, who holds legal consent and what schedule works, followed by a description of the clinician who may be a fit. Say that case details are shared in session, not with a front desk by phone. Knowing this in advance lets a worn out parent decide to call."
+        "Families are often tired of retelling their story. Tell them what the first call includes: a few questions about who is in the family, who holds legal consent and what schedule works, followed by a description of the clinician who may be a fit. Say that case details are shared in session, not with a front desk by phone. Knowing this in advance lets a worn out parent decide to call. Say how the first visit works for a child as well, as a [child counseling first visit page for parents at a counseling practice](/guides/child-counseling-first-visit-page-for-parents-at-a-counseling-practice) does, so a tired parent can decide to call."
       ),
       h2("Keep the tone warm and the claims small"),
       ul(
@@ -1263,7 +1263,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h2("Say what happens if the answer is no"),
       p(
-        "A denial is frustrating, and a page that mentions it kindly earns trust. Say that the practice will talk with the patient about next steps, which may include a different test, more information for the plan or an appeal. Do not predict the outcome. Link to your [insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) so patients know which plans you work with."
+        "A denial is frustrating, and a page that mentions it kindly earns trust. Say that the practice will talk with the patient about next steps, which may include a different test, more information for the plan or an appeal. Do not predict the outcome. Link to your [insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) so patients know which plans you work with. Patients referred to a dietitian ask the same questions about plan rules, and a [dietitian referral page for a primary care practice](/guides/dietitian-referral-page-for-a-primary-care-practice-without-outcome-claims) tells them to check coverage with their own plan before the first appointment."
       ),
       h3("Give staff a status script"),
       p(
@@ -1335,7 +1335,7 @@ export const guidesPartTwentyNine: Guide[] = [
       ),
       h2("Describe real tasks, not promises"),
       p(
-        "List what the coordinator actually does today. Help with a referral, a call to a specialist's office to confirm a date, a reminder that a test is due or a check that records arrived are all concrete. Avoid claims that care coordination will improve health or reduce hospital visits, because those are outcome claims the practice cannot prove on a website."
+        "List what the coordinator actually does today. Help with a referral, a call to a specialist's office to confirm a date, a reminder that a test is due or a check that records arrived are all concrete. Avoid claims that care coordination will improve health or reduce hospital visits, because those are outcome claims the practice cannot prove on a website. If the coordinator helps families begin the conversation about future care wishes, an [advance care planning visit page for a primary care practice](/guides/advance-care-planning-visit-page-for-a-primary-care-practice) shows how to describe that help plainly."
       ),
       ul(
         "Following up on specialist and imaging referrals, as our guide to [specialist referral request pages](/guides/specialist-referral-request-page-for-patients-of-a-primary-care-practice) describes.",

@@ -186,7 +186,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Use words a ten-year-old could read"),
       p(
-        "Reading level matters as much as font size. Replace phrases like date of birth as it appears on your insurance card with simple prompts such as Your birth date. Use short labels, short instructions and one idea per sentence. Our guide to [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) covers how to test this on your own pages. Patients who open up the spacing between lines and letters to read more comfortably need forms that do not cut off text, which our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page) tests."
+        "Reading level matters as much as font size. Replace phrases like date of birth as it appears on your insurance card with simple prompts such as Your birth date. Use short labels, short instructions and one idea per sentence. Our guide to [plain language and reading level](/guides/plain-language-and-reading-level-for-patient-facing-web-content) covers how to test this on your own pages. Patients who open up the spacing between lines and letters to read more comfortably need forms that do not cut off text, which our guide on [text spacing that survives a patient's own reading settings](/guides/text-spacing-and-line-height-that-survive-a-patients-larger-text-settings-on-a-practice-page) tests. Patients who cannot use the standard handout can ask for another format, which a [large-print and plain-language handout request page](/guides/large-print-and-plain-language-handout-request-page-for-a-primary-care-practice) explains in words a front desk can repeat."
       ),
       table(
         ["Instead of", "Write"],
@@ -277,7 +277,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Keep each page to one job"),
       p(
-        "A page that explains visits, insurance, the portal and parking all at once overwhelms anyone. Give each of those its own page and link between them with plain sentences. Put the answer to the page question in the first few lines, then the details below. Our guide to [navigation menus and footers](/guides/navigation-menu-and-footer-for-a-medical-practice-website) shows how to keep the top menu short."
+        "A page that explains visits, insurance, the portal and parking all at once overwhelms anyone. Give each of those its own page and link between them with plain sentences. Put the answer to the page question in the first few lines, then the details below. Our guide to [navigation menus and footers](/guides/navigation-menu-and-footer-for-a-medical-practice-website) shows how to keep the top menu short. Printed handouts need the same care as the screen, and a [large-print and plain-language handout request page for a primary care practice](/guides/large-print-and-plain-language-handout-request-page-for-a-primary-care-practice) shows how to offer them in larger type on request."
       ),
       h3("Say what happens next"),
       p(
@@ -1419,7 +1419,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Use warm, direct wording and a photo of the real waiting room if you have one. Parents book faster when they can picture the visit. Add the office hours, the languages staff speak and whether the practice offers extended hours for school pickups, so a working parent can see at once whether the schedule fits. Parents of a newborn are usually looking for a different page than parents of a school-age child, so link them to a [new baby first visit page for a family medicine practice](/guides/new-baby-first-visit-scheduling-page-for-a-family-medicine-practice-without-clinical-claims)."
       ),
       p(
-        "Check the page before the school year starts and again before sports season, since that is when form requests increase."
+        "Check the page before the school year starts and again before sports season, since that is when form requests increase. Families of older children will soon need a page about moving to adult care, such as a [pediatric to adult care transition page for a family medicine practice](/guides/pediatric-to-adult-care-transition-page-for-a-family-medicine-practice), and the checkup page can point to it."
       ),
     ],
     faqs: [
@@ -1510,7 +1510,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h2("Respond fast and keep it simple"),
       p(
-        "Referrers remember how quickly they heard back. Decide who checks the referral inbox each business day, how quickly that person will reach the prospective client and what to say if the practice has no openings. Write the answers down and put the first two on the page, so a doctor's office or a school counselor knows what to expect before they send anyone. The page waits for referrals to find it, while a short [introduction letter to local primary care offices](/guides/introduction-letter-to-local-primary-care-offices-from-a-counseling-practice-without-patient-details) asks local primary care offices to look at it first."
+        "Referrers remember how quickly they heard back. Decide who checks the referral inbox each business day, how quickly that person will reach the prospective client and what to say if the practice has no openings. Write the answers down and put the first two on the page, so a doctor's office or a school counselor knows what to expect before they send anyone. The page waits for referrals to find it, while a short [introduction letter to local primary care offices](/guides/introduction-letter-to-local-primary-care-offices-from-a-counseling-practice-without-patient-details) asks local primary care offices to look at it first. Referral sources also look the practice up online before they send anyone, so a [LinkedIn company page for a counseling practice](/guides/linkedin-company-page-for-a-counseling-practice) gives them an accurate profile to find."
       ),
     ],
     faqs: [

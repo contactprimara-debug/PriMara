@@ -305,7 +305,7 @@ export const guidesPartTwentySeven: Guide[] = [
       h2("Wording that protects the patient"),
       h3("A short notice above the button"),
       p(
-        "Tell people what happens next and what not to send. For example: We will call you within one business day to find a time. Please do not include symptoms or medical details here. If this is an emergency, call 911. That sentence sets the expectation for speed, keeps the form clean and sends the urgent case somewhere safe. The label above the form should match what the form does, and our guide to [same-day appointment request button wording](/guides/same-day-appointment-request-button-wording-for-a-primary-care-practice) shows how to say request and not book when staff confirm each one."
+        "Tell people what happens next and what not to send. For example: We will call you within one business day to find a time. Please do not include symptoms or medical details here. If this is an emergency, call 911. That sentence sets the expectation for speed, keeps the form clean and sends the urgent case somewhere safe. The label above the form should match what the form does, and our guide to [same-day appointment request button wording](/guides/same-day-appointment-request-button-wording-for-a-primary-care-practice) shows how to say request and not book when staff confirm each one. Once the request is answered, many patients receive a longer intake form, and a [pre-visit questionnaire page that says why each question is asked and who sees the answers](/guides/pre-visit-questionnaire-page-for-a-primary-care-practice-that-explains-why-each-question-is-asked-and-what-stays-private) keeps that second form from feeling like a surprise."
       ),
       h3("Honest response times"),
       p(

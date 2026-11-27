@@ -817,7 +817,7 @@ export const guidesPartThirtyOne: Guide[] = [
       ),
       h2("Connect the page to the rest of the visit"),
       p(
-        "Link the policy from the first session page, the booking confirmation and the reminder text. Our guide to a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) shows how primary care practices word similar details, and the same structure works for counseling. Keep the language gentle and free of any comment on parenting."
+        "Link the policy from the first session page, the booking confirmation and the reminder text. Our guide to a [waiting room and check-in expectations page](/guides/waiting-room-and-check-in-expectations-page-for-a-primary-care-practice) shows how primary care practices word similar details, and the same structure works for counseling. Keep the language gentle and free of any comment on parenting. For a child's first visit, the same parents also need to know who attends, which a [child counseling first visit page for parents at a counseling practice](/guides/child-counseling-first-visit-page-for-parents-at-a-counseling-practice) covers."
       ),
       h2("Wording you can adapt"),
       ul(

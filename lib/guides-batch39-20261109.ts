@@ -347,7 +347,7 @@ export const guidesPartForty2: Guide[] = [
         "The action taken and the date it was made"
       ),
       p(
-        "Next month, look at the same group again. If you improved a page, note whether impressions or clicks changed. If nothing moved, wait another month before deciding, and add the change to your [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change)."
+        "Next month, look at the same group again. If you improved a page, note whether impressions or clicks changed. If nothing moved, wait another month before deciding, and add the change to your [marketing change log](/guides/marketing-change-log-for-a-medical-practice-so-a-drop-can-be-traced-to-a-change). Add one more check to the same monthly sheet by reading the Search Console Links report, which a [guide to reading the Search Console Links report for a counseling practice](/guides/reading-the-search-console-links-report-to-see-which-sites-link-to-a-counseling-practice) walks through."
       ),
     ],
     faqs: [

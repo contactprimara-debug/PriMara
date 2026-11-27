@@ -890,7 +890,7 @@ export const guidesPartThirtyEight: Guide[] = [
       ),
       h3("Keep it consistent"),
       p(
-        "A mismatch between a directory and the Google profile is the main risk. After any address, phone or name change, update the chamber entry along with the others, as the [office move checklist](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) describes."
+        "A mismatch between a directory and the Google profile is the main risk. After any address, phone or name change, update the chamber entry along with the others, as the [office move checklist](/guides/office-move-checklist-for-a-medical-practice-update-every-listing-and-page) describes. Professional network profiles can drift in the same way, and a [LinkedIn company page for a counseling practice](/guides/linkedin-company-page-for-a-counseling-practice) lists the fields to check against your other listings."
       ),
       h2("Where it fits among other local links"),
       p(

@@ -1243,7 +1243,7 @@ export const guidesPartThirtyThree: Guide[] = [
       ),
       h3("Link to Medicare, not to a paraphrase"),
       p(
-        "Medicare's own page on chronic care management lists the requirements, so link to it and keep the practice page short. If Medicare changes a rule, the linked page updates and yours stays correct. Add the date you last checked the information at the bottom of the page."
+        "Medicare's own page on chronic care management lists the requirements, so link to it and keep the practice page short. If Medicare changes a rule, the linked page updates and yours stays correct. Add the date you last checked the information at the bottom of the page. Medicare also covers voluntary advance care planning in certain situations, and an [advance care planning visit page for a primary care practice](/guides/advance-care-planning-visit-page-for-a-primary-care-practice) shows how to describe that visit without quoting costs."
       ),
       h2("Wording rules for a healthcare page"),
       ul(

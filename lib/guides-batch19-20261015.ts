@@ -1408,7 +1408,7 @@ export const guidesPartTwentyTwo: Guide[] = [
       ),
       h2("Keep postings honest and current"),
       p(
-        "Review the careers page on the first of every month. Remove roles that are filled or on hold, correct the date posted when a role is reopened, and update the pay range if it changed. Candidates remember practices that respond, so set a standard for acknowledging applications and tell applicants when the role is filled."
+        "Review the careers page on the first of every month. Remove roles that are filled or on hold, correct the date posted when a role is reopened, and update the pay range if it changed. Candidates remember practices that respond, so set a standard for acknowledging applications and tell applicants when the role is filled. Candidates also look for the practice on professional networks, so a [LinkedIn company page for a counseling practice](/guides/linkedin-company-page-for-a-counseling-practice) should carry the same openings and wording as the careers page."
       ),
       p(
         "Keep a simple record of where each hire came from. It shows whether your own page, a job board or a referral is worth the effort."

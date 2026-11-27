@@ -722,7 +722,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h3("Insurance and billing"),
       p(
-        "Some plans bill a first visit differently from a follow-up, and some do not cover a visit that is only to meet a clinician. Add one honest sentence saying that coverage depends on the plan, and that the front desk will check your benefits if you call before the visit. Link to your insurance page rather than repeating the list."
+        "Some plans bill a first visit differently from a follow-up, and some do not cover a visit that is only to meet a clinician. Add one honest sentence saying that coverage depends on the plan, and that the front desk will check your benefits if you call before the visit. Link to your insurance page rather than repeating the list. Since the first visit begins with a card and an ID at the desk, a [photo ID and insurance card page for the first visit](/guides/photo-id-and-insurance-card-at-the-first-visit-page-for-a-primary-care-practice-that-explains-why-they-are-asked-for) can explain the reason for each in one calm sentence."
       ),
       h2("How it fits with other first-visit pages"),
       p(

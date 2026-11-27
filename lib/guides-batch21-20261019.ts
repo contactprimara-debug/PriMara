@@ -1523,7 +1523,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "If patients are getting texts or emails that claim to come from your office, the quickest protection is a short public notice that says how you really contact them and what you never ask for. Scammers often send messages that look like they come from a doctor's office: a bill that must be paid now, a portal link that asks for a login, a lab result that needs a code. A patient who falls for one may blame the practice, even though the practice did nothing wrong, and a report that the office leaked their number can spread quickly."
       ),
       p(
-        "The practice cannot stop strangers from sending text messages, but it can make its real behavior easy to recognize, and it can respond calmly and quickly when patients report one."
+        "The practice cannot stop strangers from sending text messages, but it can make its real behavior easy to recognize, and it can respond calmly and quickly when patients report one. Because fraudulent messages may ask for personal details such as an insurance number, tell patients what the office will and will not ask for, as a [photo ID and insurance card page for a primary care practice](/guides/photo-id-and-insurance-card-at-the-first-visit-page-for-a-primary-care-practice-that-explains-why-they-are-asked-for) does."
       ),
       h2("Say how you really contact patients"),
       ul(

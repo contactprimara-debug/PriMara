@@ -298,7 +298,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Check the result a patient would see"),
       p(
-        "Search the practice name on a phone. Open each result and compare it line by line with the website footer. Any difference in phone, suite number or hours is the next correction. Repeat after a move, a provider change or an area-code change."
+        "Search the practice name on a phone. Open each result and compare it line by line with the website footer. Any difference in phone, suite number or hours is the next correction. Repeat after a move, a provider change or an area-code change. Professional profiles belong in the same check, and a [LinkedIn company page for a counseling practice](/guides/linkedin-company-page-for-a-counseling-practice) shows what to fill in so the practice name and address match everywhere else."
       ),
     ],
     faqs: [
@@ -387,7 +387,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "Use the same wording on the Google Business Profile, in the directories and on the phone greeting. Our guide on [building an accepted-insurance page](/guides/how-to-build-an-accepted-insurance-page-for-a-medical-practice) covers the layout, and [what to update when a practice joins or leaves a network](/guides/what-to-update-online-when-your-medical-practice-joins-or-leaves-an-insurance-network) lists the places to change after a contract moves. Wording about insurance acceptance pairs well with a short explanation of [why a checkup can become two charges](/guides/preventive-visit-versus-problem-visit-billing-explained-on-a-primary-care-practice-website) when a new concern comes up during the visit. Counseling pages for older adults depend on this wording, and our guide to an [older adult counseling page](/guides/older-adult-counseling-page-for-a-counseling-practice-without-clinical-claims) shows how to place it next to easy to read contact steps."
       ),
       p(
-        "Questions about coverage turn into billing questions, so link the page to your [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). This page is general information, not legal advice, and a compliance adviser should review the final wording."
+        "Questions about coverage turn into billing questions, so link the page to your [billing and payment questions page](/guides/billing-and-payment-questions-page-for-a-medical-practice). This page is general information, not legal advice, and a compliance adviser should review the final wording. Patients also want to know why the office asks to see a card at the first visit, and a [photo ID and insurance card page that explains why they are asked for](/guides/photo-id-and-insurance-card-at-the-first-visit-page-for-a-primary-care-practice-that-explains-why-they-are-asked-for) gives the front desk a plain answer."
       ),
       p(
         "A short staff script helps too. When a patient asks whether the office takes their plan, the front desk can say which programs the practice participates in, offer to check the specific plan and point the caller to the insurer for a final answer. Using one script on the phone, in messages and on the page keeps every answer identical."
@@ -468,7 +468,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h3("Keep the tone kind"),
       p(
-        "People call because they are worried. Begin with an acknowledgment that caring for a family member is hard, then give the process. A page that reads as a wall of refusals sends caregivers to a one-star review. Foster and adoptive families raise a version of the same question, and our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to describe who may consent and who may be contacted."
+        "People call because they are worried. Begin with an acknowledgment that caring for a family member is hard, then give the process. A page that reads as a wall of refusals sends caregivers to a one-star review. Foster and adoptive families raise a version of the same question, and our guide to an [adoption and foster family counseling page](/guides/adoption-and-foster-family-counseling-page-for-a-counseling-practice-without-clinical-claims) explains how to describe who may consent and who may be contacted. Families also raise the subject of future care wishes, and an [advance care planning visit page for a primary care practice](/guides/advance-care-planning-visit-page-for-a-primary-care-practice) shows how to describe that conversation without giving legal advice."
       ),
       h2("Connect it to the rest of the site"),
       p(
@@ -744,7 +744,7 @@ export const guidesPartTwentyThree: Guide[] = [
       ),
       h2("Practical details that reduce drop-off"),
       p(
-        "Families have to coordinate schedules, so list the hours the counselor sees families, how to change an appointment and how the cancellation policy works. Our guides on [cancellation and no-show policy pages](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) and on a [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) show how to word them kindly. Parents also ask whether a child can wait in the lobby during their own session, which a [children in the waiting room policy page for a counseling practice](/guides/children-in-the-waiting-room-policy-page-for-a-counseling-practice) answers."
+        "Families have to coordinate schedules, so list the hours the counselor sees families, how to change an appointment and how the cancellation policy works. Our guides on [cancellation and no-show policy pages](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) and on a [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) show how to word them kindly. Parents also ask whether a child can wait in the lobby during their own session, which a [children in the waiting room policy page for a counseling practice](/guides/children-in-the-waiting-room-policy-page-for-a-counseling-practice) answers. A parent whose concern is one child often wants to know about the first visit itself, which a [child counseling first visit page for parents](/guides/child-counseling-first-visit-page-for-parents-at-a-counseling-practice) describes without claims."
       ),
       p(
         "Include fees, insurance in plain terms and a crisis line, as covered in the guide on [emergency and crisis resources](/guides/emergency-and-crisis-resources-section-for-a-counseling-practice-website). End with a single way to begin, such as a call or a short contact form that does not ask for details about anyone's struggles."
@@ -1003,7 +1003,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "How refills are requested, and how far ahead to ask."
       ),
       p(
-        "Keep the wording general. The doctor and patient decide what is monitored and how often. The page should never list targets, numbers or expected improvements."
+        "Keep the wording general. The doctor and patient decide what is monitored and how often. The page should never list targets, numbers or expected improvements. When follow-up includes a conversation about food, a [dietitian referral page without outcome claims](/guides/dietitian-referral-page-for-a-primary-care-practice-without-outcome-claims) explains how that referral works without promising any result."
       ),
       h2("A simple layout patients can scan"),
       table(
