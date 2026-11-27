@@ -770,7 +770,7 @@ export const guidesPartForty21: Guide[] = [
     title: "Pediatric to Adult Care Transition Page for a Family Practice",
     metaTitle: "Pediatric to Adult Care Transition Page for a Practice",
     metaDescription:
-      "How a family medicine practice can explain moving from a pediatrician to adult care, what records to bring and who to call. (561) 291-2681.",
+      "How a family medicine practice can explain moving from a pediatrician to adult care, what records to bring and who to call at the office. (561) 291-2681.",
     answer:
       "A transition page should say at what age the practice welcomes young adults, how a pediatric record arrives, and what the first adult visit covers. Use a published framework rather than inventing your own. Speak to both the young person and the parent.",
     author: "Gio LaRoche",
