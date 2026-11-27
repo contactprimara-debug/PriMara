@@ -718,7 +718,7 @@ export const guidesPartThirtySix: Guide[] = [
       ),
       h2("Avoid clinical promises"),
       p(
-        "The page can describe the structure of the visit without saying what the clinician will find or recommend. Avoid statements like we will make a plan to improve your health, which promise an outcome. Write we will talk through your history, your current medicines and the care you want to arrange. That is a description, not a guarantee."
+        "The page can describe the structure of the visit without saying what the clinician will find or recommend. Avoid statements like we will make a plan to improve your health, which promise an outcome. Write we will talk through your history, your current medicines and the care you want to arrange. That is a description, not a guarantee. Tell new patients they may bring someone they trust to this first visit, and say so on a [page about bringing a family member or friend to a primary care visit](/guides/bringing-a-family-member-or-friend-as-an-advocate-to-a-primary-care-visit-page) so nobody wonders whether it is allowed."
       ),
       h3("Insurance and billing"),
       p(

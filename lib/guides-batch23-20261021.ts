@@ -581,7 +581,7 @@ export const guidesPartTwentySix: Guide[] = [
       ),
       h3("Point to other low-cost care"),
       p(
-        "A fair note admits that the office cannot help everyone. Link the HRSA tool for [finding a health center](https://findahealthcenter.hrsa.gov/), which lists federally supported centers that offer care on a sliding fee scale based on income, and mention 211 for local assistance. Patients who are turned away with nowhere to go remember it."
+        "A fair note admits that the office cannot help everyone. Link the HRSA tool for [finding a health center](https://findahealthcenter.hrsa.gov/), which lists federally supported centers that offer care on a sliding fee scale based on income, and mention 211 for local assistance. Patients who are turned away with nowhere to go remember it. Counseling practices that describe payment arrangements as well as fee scales can follow our [payment plan wording page for a counseling practice](/guides/payment-plan-wording-page-for-a-counseling-practice-without-amounts), which keeps amounts off the site."
       ),
       h2("Privacy and dignity"),
       p(

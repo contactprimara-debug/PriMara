@@ -342,7 +342,7 @@ export const guidesPartTwentyNine: Guide[] = [
         "Use one sentence for each rule. For example, the card is charged for the session fee after each visit, and for a late cancellation as described in the cancellation policy. Link to your [cancellation and no show policy page](/guides/cancellation-and-no-show-policy-page-for-a-therapy-practice) for the details instead of repeating them in three places, so the numbers never disagree."
       ),
       p(
-        "If clients use insurance, explain that a copay or deductible is collected at the visit, and link to your [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained). Clients who pay privately should also be told about the Good Faith Estimate they are entitled to receive; the CMS page on the [No Surprises Act](https://www.cms.gov/nosurprises) explains the rule."
+        "If clients use insurance, explain that a copay or deductible is collected at the visit, and link to your [fees page](/guides/therapy-practice-fees-page-sliding-scale-out-of-network-and-superbills-explained). Clients who pay privately should also be told about the Good Faith Estimate they are entitled to receive; the CMS page on the [No Surprises Act](https://www.cms.gov/nosurprises) explains the rule. Clients who need more time to pay should be told how to ask, using wording like that in our guide to a [payment plan wording page for a counseling practice](/guides/payment-plan-wording-page-for-a-counseling-practice-without-amounts), which never lists amounts."
       ),
       h2("Keep card details off the website"),
       p(

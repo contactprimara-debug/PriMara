@@ -1347,7 +1347,7 @@ export const guidesPartTwentyFive: Guide[] = [
         "A patient who uses a wheelchair, who is deaf or hard of hearing, or who relies on a service dog often wonders how the visit will go before they arrive. Some stay away rather than ask. A page that says what the practice provides, and how to ask for more, removes the first and biggest barrier."
       ),
       p(
-        "It also helps staff. When the answer is written down, the front desk gives the same answer every time, instead of improvising on a busy morning."
+        "It also helps staff. When the answer is written down, the front desk gives the same answer every time, instead of improvising on a busy morning. A patient who uses a wheelchair also wants measured facts about the door, hallway, exam table and scale, which a [wheelchair and mobility access details page](/guides/wheelchair-and-mobility-access-details-page-for-a-primary-care-practice-building-and-exam-rooms) lays out so the front desk is not improvising."
       ),
       h2("What the page should state"),
       ul(

@@ -301,7 +301,7 @@ export const guidesPartThirtyTwo: Guide[] = [
       ),
       h3("Say what the page will not do"),
       p(
-        "State plainly that the page explains the document and does not interpret anyone's results or instructions. A line such as: for questions about your own summary, message or call the care team, keeps the page honest and sends the patient to the person who can answer."
+        "State plainly that the page explains the document and does not interpret anyone's results or instructions. A line such as: for questions about your own summary, message or call the care team, keeps the page honest and sends the patient to the person who can answer. Patients also wonder what to do before their next lab draw, which a [fasting blood test instructions page](/guides/fasting-blood-test-appointment-instructions-page-for-a-primary-care-practice-that-points-to-the-lab-written-instructions) answers by pointing to the written instructions rather than guessing."
       ),
       h2("Wording that protects privacy"),
       p(

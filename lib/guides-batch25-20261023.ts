@@ -905,7 +905,7 @@ export const guidesPartTwentyEight: Guide[] = [
         "Walking into a new doctor's office is a small worry for many people. They wonder where to park, which door to use and what the waiting room feels like. A tour page answers those questions before the visit and turns an unknown place into a familiar one. It is especially useful for older patients, anxious patients and anyone bringing a child."
       ),
       p(
-        "It is not a gallery of decor. Each photo should answer a question a patient has, and each caption should say what the patient will do there. Our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) covers the access details in depth, and this page shows them in pictures. The same photo standards apply on the Google profile, which the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) walks through step by step."
+        "It is not a gallery of decor. Each photo should answer a question a patient has, and each caption should say what the patient will do there. Our guide to [parking, entrance and accessibility information](/guides/parking-entrance-and-accessibility-information-on-a-medical-practice-website-and-profile) covers the access details in depth, and this page shows them in pictures. The same photo standards apply on the Google profile, which the [Google Business Profile photos checklist](/guides/google-business-profile-photos-checklist) walks through step by step. Patients who use a wheelchair or a walker will want the measured details behind the photos, and a [wheelchair and mobility access page for the building and exam rooms](/guides/wheelchair-and-mobility-access-details-page-for-a-primary-care-practice-building-and-exam-rooms) gives them."
       ),
       h2("The shot list"),
       table(
@@ -1233,7 +1233,7 @@ export const guidesPartTwentyEight: Guide[] = [
       ),
       h3("Make switching easy"),
       p(
-        "Say plainly that a client may ask to change clinicians and that the practice will help with the move, without needing to explain. This sentence matters. It lowers the pressure of the first choice and shows that the practice cares about fit. See our guide to the [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) for how to handle a time when nobody has openings."
+        "Say plainly that a client may ask to change clinicians and that the practice will help with the move, without needing to explain. This sentence matters. It lowers the pressure of the first choice and shows that the practice cares about fit. See our guide to the [waitlist page for a therapy practice with a full caseload](/guides/waitlist-page-for-a-therapy-practice-with-a-full-caseload) for how to handle a time when nobody has openings. The same page can explain how a client chooses a format, linking to a [guide to choosing between in-person and telehealth sessions](/guides/choosing-between-in-person-and-telehealth-sessions-page-for-a-counseling-practice) so the choice is explained once."
       ),
       h2("Measure whether matching works"),
       p(

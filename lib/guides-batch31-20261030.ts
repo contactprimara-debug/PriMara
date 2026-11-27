@@ -482,7 +482,7 @@ export const guidesPartThirtyFour: Guide[] = [
         "A statement that sick visits are handled separately and may not fit in a combined request."
       ),
       p(
-        "Say who is allowed to book for whom. A parent can usually schedule for a child, but an adult booking for another adult may need that person's permission on file. Link your [caregiver and family communication policy](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) so the rule is in one place."
+        "Say who is allowed to book for whom. A parent can usually schedule for a child, but an adult booking for another adult may need that person's permission on file. Link your [caregiver and family communication policy](/guides/caregiver-and-family-member-communication-policy-page-for-a-medical-practice) so the rule is in one place. Some families book together simply so one person can sit in with another, which a [page about bringing a family member or friend to a visit](/guides/bringing-a-family-member-or-friend-as-an-advocate-to-a-primary-care-visit-page) can explain separately."
       ),
       h3("Use visit lengths to set expectations"),
       p(

@@ -651,7 +651,7 @@ export const guidesPartTwentyFour: Guide[] = [
         ["Getting results", "Where results appear, such as the portal, and how long the office usually takes to respond."]
       ),
       p(
-        "Link to each partner's own website rather than copying their details beyond the basics, so that hours and addresses are always current. Check each link every quarter."
+        "Link to each partner's own website rather than copying their details beyond the basics, so that hours and addresses are always current. Check each link every quarter. Patients sent there for blood work often ask whether they should eat first, so link to your [fasting blood test instructions page](/guides/fasting-blood-test-appointment-instructions-page-for-a-primary-care-practice-that-points-to-the-lab-written-instructions) and let the lab's own sheet carry the exact rules."
       ),
       h2("Keep it honest and neutral"),
       p(
@@ -929,7 +929,7 @@ export const guidesPartTwentyFour: Guide[] = [
         "Before they book, many people want to know how long a session lasts, how often they would come and how long this will go on. The last one is the dangerous one. A page that answers it with a number of weeks or a promised result steps from information into a clinical claim. The safe pattern is to state the length and starting schedule as the practice's own policy, then leave how long therapy lasts to the conversation with the clinician."
       ),
       p(
-        "The solution is to split the question. Session length and starting frequency are scheduling facts the practice controls. How long someone will need therapy is a clinical judgment that depends on the person, and it is decided together with the clinician after the first meetings."
+        "The solution is to split the question. Session length and starting frequency are scheduling facts the practice controls. How long someone will need therapy is a clinical judgment that depends on the person, and it is decided together with the clinician after the first meetings. Many people also ask whether a session will be at the office or on video, and a [page for choosing between in-person and telehealth sessions](/guides/choosing-between-in-person-and-telehealth-sessions-page-for-a-counseling-practice) answers that in one place."
       ),
       h2("Facts the page can state"),
       table(

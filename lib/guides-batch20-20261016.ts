@@ -456,7 +456,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "What happens when a patient cannot make decisions, which follows legal documents the office reviews with the patient or the representative."
       ),
       p(
-        "Keep each point to a sentence or two. The page is not the place for legal detail, and a link to the actual form does more than a long explanation. Facility nurses and family members who call about a patient in assisted living need the same clear rules, and a [visit coordination page for assisted living patients](/guides/coordinating-visits-for-a-patient-who-lives-in-an-assisted-living-facility-page-for-a-primary-care-practice) shows where to state them."
+        "Keep each point to a sentence or two. The page is not the place for legal detail, and a link to the actual form does more than a long explanation. Facility nurses and family members who call about a patient in assisted living need the same clear rules, and a [visit coordination page for assisted living patients](/guides/coordinating-visits-for-a-patient-who-lives-in-an-assisted-living-facility-page-for-a-primary-care-practice) shows where to state them. A patient who only wants a trusted person beside them in the room is a separate case from sharing records afterward, and a [page about bringing a family member or friend to a visit](/guides/bringing-a-family-member-or-friend-as-an-advocate-to-a-primary-care-visit-page) explains the difference."
       ),
       h2("A simple layout that people can scan"),
       table(
@@ -1179,7 +1179,7 @@ export const guidesPartTwentyThree: Guide[] = [
         "A link to the federal notice, so clients can read the official text."
       ),
       p(
-        "Keep the language short and free of legal terms. The page is not the estimate, and it should never be used in place of the document the rule requires."
+        "Keep the language short and free of legal terms. The page is not the estimate, and it should never be used in place of the document the rule requires. Clients who are worried about paying often ask next about spreading payments out, and a [payment plan wording page for a counseling practice](/guides/payment-plan-wording-page-for-a-counseling-practice-without-amounts) shows how to answer without printing amounts."
       ),
       h2("Connect it to the fee information you already publish"),
       table(
